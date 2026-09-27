@@ -84,7 +84,36 @@ const BANK=[
 {id:'chain1',skill:'段首段尾关系',target:'段尾抛出 → 段首承接',q:'段X结尾：\nThis produced two unexpected consequences.\n段Y开头：\nThe first was a sharp rise in waiting times.\n\n正确关系是：',o:['Y → X','X → Y','两段无关','信息不足'],a:1,trap:{0:'把顺序方向看反',2:'忽略数量对应',3:'已有足够强的对应'},why:'two consequences → The first，X 必须在 Y 前。'},
 {id:'chain2',skill:'段首段尾关系',target:'段首找上家，段尾找下家',q:'段P最后写：\nNew equipment and additional training will be required.\n段Q开头写：\nThese requirements may discourage smaller firms.\n\n最合理的是：',o:['P → Q','Q → P','两段并列','只能看全文判断'],a:0,trap:{1:'回指方向倒置',2:'忽略 these requirements',3:'已有足够线索'},why:'P 抛出 requirements，Q 用 These requirements 回指，P→Q。'},
 {id:'vocab1',skill:'关键词词义',target:'deter sb from doing',q:'High initial costs may deter some graduates from starting a business.\n\ndeter 最接近：',o:['鼓励','阻止、使却步','要求','允许'],a:1,trap:{0:'词义方向相反',2:'混淆 requirement',3:'词义错误'},why:'deter sb from doing = 阻止某人做某事 / 使某人因顾虑而却步。'},
-{id:'vocab2',skill:'关键词词义',target:'at a standstill',q:'After months of disagreement, negotiations are at a standstill.\n\nat a standstill 最接近：',o:['进展迅速','陷入停滞','逐步恢复','刚刚开始'],a:1,trap:{0:'词义方向相反',2:'词义错误',3:'词义错误'},why:'at a standstill = 停滞不前，没有继续进展。'}
+{id:'vocab2',skill:'关键词词义',target:'at a standstill',q:'After months of disagreement, negotiations are at a standstill.\n\nat a standstill 最接近：',o:['进展迅速','陷入停滞','逐步恢复','刚刚开始'],a:1,trap:{0:'词义方向相反',2:'词义错误',3:'词义错误'},why:'at a standstill = 停滞不前，没有继续进展。'},
+{id:'old_subject1',origin:'old',skill:'subject / be subject to',target:'be subject to / be subjected to',q:'① Under the museum’s conservation policy, every loan is ___ approval by a specialist committee.\n② During testing, the fabric was ___ intense ultraviolet light for 200 hours.',o:['subject to / subjected to','subjected to / subject to','subject to / subject to','subjected to / subjected to'],a:0,trap:{1:'把状态/规则与被施加的过程颠倒了',2:'第二空需要强调“被施加紫外线照射”的过程',3:'第一空是规则状态，不是被执行某过程'},why:'be subject to 表示“须经/受制于/可能受……影响”的状态或规则；be subjected to 强调“被施加、经历某过程”。'},
+{id:'old_even1',origin:'old',skill:'even / ever / over',target:'even / ever / over',q:'___ the past decade, no local exhibition has ___ drawn such large crowds, and ___ teenagers who rarely visit museums are talking about it.',o:['Even / over / ever','Over / ever / even','Ever / even / over','Over / even / ever'],a:1,trap:{0:'三个词的位置和功能混淆',2:'Ever 不能表示“在过去十年里”',3:'第二空需要“曾经”，第三空需要“甚至”'},why:'over the past decade=在过去十年里；ever=曾经；even=甚至。'},
+{id:'old_solong1',origin:'old',skill:'so long as 条件',target:'so long as / in case / as far as',q:'You may borrow the telescope overnight ___ you return it before the observatory opens tomorrow morning.',o:['so long as','in case','as far as','even though'],a:0,trap:{1:'in case 表示“以防”，不是满足条件即可',2:'as far as 常表示范围或“就……而言”',3:'even though 表示让步'},why:'so long as = 只要，表示明确条件。'},
+{id:'old_account1',origin:'old',skill:'account 熟词生义',target:'account = 记述 / 叙述',q:'The explorer’s account of the storm was later compared with entries in the ship’s log. 这里 account 最接近：',o:['账户','记述、叙述','解释原因','占比'],a:1,trap:{0:'被最常见词义“账户”吸引',2:'account for 才常表示“解释/占比”',3:'此处不是 account for 结构'},why:'account 在这里作名词，表示“记述、叙述”。'},
+{id:'old_constraint1',origin:'old',skill:'constraint / constrain',target:'constraint / constrain',q:'A shortage of rehearsal space is a major ___ on the orchestra, and it may ___ how often the musicians can practice together.',o:['constrain / constraint','constraint / constrain','constraint / constraint','constrain / constrain'],a:1,trap:{0:'词性顺序颠倒',2:'第二空需要动词',3:'第一空需要名词'},why:'constraint 是名词“限制因素”；constrain 是动词“限制、约束”。'},
+{id:'old_remote1',origin:'old',skill:'remote / far removed',target:'remote / be far removed from',q:'At first, the chance of locating the missing manuscript seemed ___. The copy eventually found, however, was ___ the author’s final version.',o:['far removed / remote from','remote / far removed from','remote from / far removed','remotely / removed far from'],a:1,trap:{0:'第一空 remote 可表示“可能性渺茫”',2:'remote from 不能这样作表语表达“机会渺茫”',3:'词性和固定搭配错误'},why:'a remote chance = 渺茫的机会；be far removed from = 与……相差很远。'},
+{id:'old_standard1',origin:'old',skill:'standard 熟词生义',target:'standard = 通行的 / 普遍采用的',q:'By the early 2000s, electronic submission had become standard practice at many academic journals. 这里 standard 最接近：',o:['标准尺寸的','高水平的','通行的、普遍采用的','强制性的'],a:2,trap:{0:'把形容词理解成尺寸标准',1:'standard 不等于“高水平”',3:'“通行”不等于“强制”'},why:'standard practice = 通常做法、通行做法。'},
+{id:'old_compromise1',origin:'old',skill:'compromise 熟词生义',target:'compromise = 损害 / 削弱 / 危及',q:'Publishing the raw location data could compromise the safety of the endangered animals. 这里 compromise 最接近：',o:['达成妥协','危及、损害','补偿','确认'],a:1,trap:{0:'只记住了“妥协”这一常见义',2:'compensate 才是“补偿”',3:'confirm 才是“确认”'},why:'compromise 作及物动词时常表示“损害、削弱、危及”。'},
+{id:'old_oversight1',origin:'old',skill:'oversight 熟词生义',target:'oversight = 监督 / 监管',q:'The charity introduced independent oversight to ensure that donations were spent as promised. 这里 oversight 最接近：',o:['疏忽','预测','监督、监管','所有权'],a:2,trap:{0:'oversight 也可表示“疏忽”，但 independent oversight 在此明确指监督',1:'词义无关',3:'ownership 才是所有权'},why:'在 institutional/independent oversight 这类搭配中，oversight = 监督、监管。'},
+{id:'old_accommodation1',origin:'old',skill:'accommodation 熟词生义',target:'accommodation = 迁就 / 让步',q:'Critics argued that the revised schedule was an accommodation of the sponsor’s demands rather than a decision based on audience needs. 这里 accommodation 最接近：',o:['住宿','迁就、让步','和解协议本身','扩建'],a:1,trap:{0:'被最常见“住宿”词义吸引',2:'这里强调对要求的迁就，不是正式协议',3:'词义无关'},why:'accommodation of someone’s interests/demands 可表示“对……利益或要求的迁就、让步”。'},
+{id:'old_blurred1',origin:'old',skill:'blurred 熟词生义',target:'blurred = 模糊的 / 界限不清',q:'As home and office activities increasingly overlapped, the boundary between work and leisure became blurred. blurred 最接近：',o:['消失','模糊、界限不清','扩大','固定'],a:1,trap:{0:'blurred 不等于 completely disappeared',2:'方向错误',3:'方向错误'},why:'blurred 表示边界变得模糊、不清晰，并不等于彻底消失。'},
+{id:'old_cannothelp1',origin:'old',skill:'cannot help doing',target:'cannot help doing',q:'看到小狗努力把比自己还大的球拖上台阶，她忍不住笑了。哪句最自然？',o:['She could not help laughing when she saw the puppy dragging the oversized ball up the steps.','She could not help to laugh when she saw the puppy.','She did not help laughing at the puppy.','She could not help but laughing when she saw the puppy.'],a:0,trap:{1:'cannot help 后接 doing',2:'误解了 help 的结构',3:'cannot help but 后通常接动词原形'},why:'cannot/could not help doing = 忍不住做某事；过去场景通常用 could not help doing。'},
+{id:'old_prepwhich1',origin:'old',skill:'介词 + which',target:'preposition + which',q:'The library introduced a reservation system. Under the system, readers can book rare materials two weeks in advance. 合并最自然的是：',o:['The library introduced a reservation system under which readers can book rare materials two weeks in advance.','The library introduced a reservation system which under readers can book rare materials.','The library introduced a reservation system under that readers can book rare materials.','The library introduced a reservation system, which readers can book rare materials under it.'],a:0,trap:{1:'介词位置错误',2:'介词后不能用 that 引导此类定语从句',3:'which 与 it 重复指代'},why:'原始简单句：Readers can book ... under the system. → 把 the system 换成 which → under which readers can book ...。'},
+{id:'old_overestimate1',origin:'old',skill:'overestimate',target:'overestimate',q:'The organizers overestimated how many volunteers would arrive, so several teams were left understaffed. overestimated 最接近：',o:['低估','估计过高','重新估计','拒绝估计'],a:1,trap:{0:'方向相反',2:'re-estimate 才是重新估计',3:'词义无关'},why:'overestimate = 高估、估计过高。'},
+{id:'old_counterpart1',origin:'old',skill:'counterpart',target:'counterpart',q:'The Korean curator exchanged notes with her French counterpart before the joint exhibition opened. counterpart 最接近：',o:['上级','对应职位的人、对等者','助手','竞争对手'],a:1,trap:{0:'并非层级关系',2:'assistant 才是助手',3:'counterpart 不等于 competitor'},why:'counterpart = 在另一组织、国家或体系中职位/作用相对应的人或事物。'},
+{id:'old_inturn1',origin:'old',skill:'in turn',target:'in turn',q:'Better lighting made the paths safer, which in turn encouraged more residents to walk home after dark. in turn 表示：',o:['同时但无因果','继而、进而','相反','轮流地（此处）'],a:1,trap:{0:'这里有明确的链式结果',2:'并非转折',3:'in turn 可有“轮流”义，但此处是因果链'},why:'A causes B, which in turn causes C = A 导致 B，B 又进一步导致 C。'},
+{id:'old_institution1',origin:'old',skill:'institution 熟词生义',target:'institution = 制度 / 机构',q:'For centuries, apprenticeship was an important social institution through which skilled crafts were passed from one generation to the next. 这里 institution 最接近：',o:['建筑物','研究机构','制度、社会惯例','投资'],a:2,trap:{0:'institution 不只指建筑或机构',1:'此处不是具体组织',3:'词义无关'},why:'institution 可表示长期形成的社会制度或惯例。'},
+{id:'old_measure1',origin:'old',skill:'measure 熟词生义',target:'measure = 衡量标准 / 指标',q:'The number of downloads is a poor measure of whether readers actually understood the report. 这里 measure 最接近：',o:['措施','衡量标准、指标','尺寸','测量动作'],a:1,trap:{0:'a measure of 在这里不是“措施”',2:'size 才偏尺寸',3:'此处是名词“衡量标准”'},why:'a measure of... = 衡量……的标准/指标。'},
+{id:'old_minister1',origin:'old',skill:'minister / sermon',target:'minister = 牧师；sermon = 布道',q:'After the choir finished, the minister delivered a short sermon about forgiveness. 下列理解正确的是：',o:['minister=部长；sermon=会议','minister=牧师；sermon=布道','minister=管理员；sermon=歌曲','minister=律师；sermon=判决'],a:1,trap:{0:'minister 有“部长”义，但宗教语境中是牧师',2:'词义错误',3:'词义错误'},why:'在教堂语境中 minister 可指牧师；sermon = 布道、讲道。'},
+{id:'old_track1',origin:'old',skill:'track down',target:'track down',q:'After months of searching old maps, the historian finally tracked down the photographer’s surviving relatives. tracked down 最接近：',o:['跟踪但没找到','追查并找到','记录下来','放弃寻找'],a:1,trap:{0:'track down 通常包含最终找到',2:'record 才是记录',3:'方向相反'},why:'track down = 追查、搜寻并最终找到。'},
+{id:'old_adoption1',origin:'old',skill:'put up for adoption',target:'put up for adoption',q:'The rescued kittens were put up for adoption once they were healthy enough to leave the shelter. 这里表示：',o:['被送去训练','被公开出售','被安排供人领养','被送回野外'],a:2,trap:{0:'词义无关',1:'adoption 不是 sale',3:'词义无关'},why:'put sb/sth up for adoption = 安排供他人领养、送养。'},
+{id:'old_lineage1',origin:'old',skill:'lineage',target:'lineage',q:'DNA evidence helped researchers reconstruct the lineage of several ancient horse populations. lineage 最接近：',o:['地理位置','血统、世系','饮食结构','迁徙速度'],a:1,trap:{0:'词义无关',2:'词义无关',3:'词义无关'},why:'lineage = 血统、世系、谱系。'},
+{id:'old_lump1',origin:'old',skill:'lump together',target:'lump together',q:'The survey is misleading because it lumps together first-time visitors and long-term members as if they had the same needs. lumps together 最接近：',o:['分别统计','混为一谈、归为一类','逐一采访','随机删除'],a:1,trap:{0:'方向相反',2:'词义无关',3:'词义无关'},why:'lump together = 不加区分地归为一类、混为一谈。'},
+{id:'old_rely1',origin:'old',skill:'rely on',target:'rely on',q:'The rescue team could not rely on mobile signals in the valley and therefore carried paper maps. rely on 最接近：',o:['怀疑','依赖、依靠','替代','记录'],a:1,trap:{0:'方向错误',2:'replace 才是替代',3:'record 才是记录'},why:'rely on = 依赖、依靠。'},
+{id:'old_specialize1',origin:'old',skill:'specialize in',target:'specialize in',q:'The clinic specializes in treating sleep disorders rather than providing general medical care. specializes in 最接近：',o:['偶尔涉及','专门从事、专攻','避免','监督'],a:1,trap:{0:'强度不足',2:'方向相反',3:'oversight/monitor 才是监督'},why:'specialize in = 专门从事、专攻。'},
+{id:'old_keepend1',origin:'old',skill:'keep one’s end up',target:"keep one's end up",q:'Although he was the youngest member of the chess club, Amir kept his end up against far more experienced players. 这里最接近：',o:['一直坐在最末端','做好自己应做的部分并顶得住','提前退出','只负责收尾'],a:1,trap:{0:'按字面误解',2:'方向相反',3:'不是“收尾”的意思'},why:"keep one's end up = 做好自己的一份、维持住表现、不落下风。"},
+{id:'old_turncentury1',origin:'old',skill:'时间表达',target:'the turn of the century / the eve of',q:'“在20世纪之交”最自然的表达是：',o:['on the eve of the 20th century','at the turn of the 20th century','over the 20th century','in case of the 20th century'],a:1,trap:{0:'on the eve of = 在……前夕，不等于世纪之交',2:'over 表示整个期间',3:'in case of 表示“如果发生……”'},why:'at the turn of the century = 在世纪之交；on the eve of = 在……前夕。'},
+{id:'old_fallvictim1',origin:'old',skill:'真题固定措辞',target:'fall victim of bias（真题原文）',q:'按2009真题选项的实际措辞，哪一个必须原样记住？',o:['has fallen victim of bias','has fallen victim to bias','has been a victim to bias','has fallen as victim of bias'],a:0,trap:{1:'这是常见扩展用法，但题目问的是真题原文措辞',2:'搭配不对',3:'搭配不对'},why:'真题原文实际措辞是 has fallen victim of bias。扩展用法可另记：fall victim to sth / be a victim of sth。'}
+
 ];
 
 const KEY='kaoyanEnglishAdaptiveV1';
@@ -94,11 +123,54 @@ function save(){localStorage.setItem(KEY,JSON.stringify(state))}
 function stat(skill){return state.stats[skill]||(state.stats[skill]={attempts:0,correct:0,streak:0,totalMs:0,wrong:0})}
 function weakness(skill){const s=stat(skill); if(!s.attempts)return .7; const acc=s.correct/s.attempts; const speed=Math.min(1,(s.totalMs/s.attempts)/22000); return (1-acc)*.7+speed*.15+(s.streak<2?.15:0)}
 function shuffled(a){return [...a].sort(()=>Math.random()-.5)}
+function scoreQ(q){
+  const recent=state.history.slice(-20);
+  const recentWeak=new Set(recent.filter(x=>!x.ok||x.ms>22000).map(x=>x.skill));
+  const historicalBoost={
+    '总结词定位':.38,'原词复现干扰':.42,'subject / be subject to':.42,
+    'even / ever / over':.34,'so long as 条件':.28,'介词 + which':.30,
+    'account 熟词生义':.24,'constraint / constrain':.24,'remote / far removed':.22,
+    'compromise 熟词生义':.28,'standard 熟词生义':.20,'真题固定措辞':.22
+  };
+  return weakness(q.skill)+(historicalBoost[q.skill]||0)+(recentWeak.has(q.skill)?.45:0)+Math.random()*.18;
+}
+function takeWithCap(items,n,used,maxPerSkill=2){
+  const out=[];
+  for(const x of items.sort((a,b)=>b.w-a.w)){
+    const k=x.q.skill;
+    if((used[k]||0)>=maxPerSkill)continue;
+    out.push(x.q);used[k]=(used[k]||0)+1;
+    if(out.length>=n)break;
+  }
+  return out;
+}
 function buildQueue(){
   let pool=BANK;
-  if(mode==='wrong'){const weak=new Set(state.history.filter(x=>!x.ok).map(x=>x.skill)); pool=BANK.filter(q=>weak.has(q.skill)); if(!pool.length)pool=BANK}
-  const scored=pool.map(q=>({q,w:weakness(q.skill)+Math.random()*.2})).sort((a,b)=>b.w-a.w);
-  queue=scored.slice(0,8).map(x=>x.q); idx=0; state.session++; save();
+  if(mode==='wrong'){
+    const weak=new Set(state.history.filter(x=>!x.ok).map(x=>x.skill));
+    pool=BANK.filter(q=>weak.has(q.skill)); if(!pool.length)pool=BANK;
+  }
+  const scored=pool.map(q=>({q,w:scoreQ(q)}));
+  const used={};
+  if(mode==='wrong'){
+    queue=takeWithCap(scored,8,used,2);
+  }else{
+    const recentSkills=new Set(state.history.slice(-20).filter(x=>!x.ok||x.ms>22000).map(x=>x.skill));
+    const recent=scored.filter(x=>recentSkills.has(x.q.skill));
+    const old=scored.filter(x=>(x.q.origin||'recent')==='old'&&!recentSkills.has(x.q.skill));
+    const rest=scored.filter(x=>!recentSkills.has(x.q.skill)&&!((x.q.origin||'recent')==='old'));
+    queue=[
+      ...takeWithCap(recent,3,used,2),
+      ...takeWithCap(old,3,used,2),
+      ...takeWithCap(rest,2,used,2)
+    ];
+    if(queue.length<8){
+      const picked=new Set(queue.map(x=>x.id));
+      queue.push(...takeWithCap(scored.filter(x=>!picked.has(x.q.id)),8-queue.length,used,2));
+    }
+    queue=queue.slice(0,8);
+  }
+  idx=0; state.session++; save();
 }
 function render(){
   if(!queue.length||idx>=queue.length){finish();return}
@@ -136,7 +208,7 @@ function updateSide(){
   const sess=state.history.filter(x=>x.session===state.session), n=sess.length; const acc=n?Math.round(sess.filter(x=>x.ok).length/n*100):0,avg=n?Math.round(sess.reduce((a,b)=>a+b.ms,0)/n/1000):0;
   document.getElementById('kpiAcc').textContent=acc+'%';document.getElementById('kpiTime').textContent=avg+'s';
   const skills=[...new Set(BANK.map(x=>x.skill))]; const weakest=skills.sort((a,b)=>weakness(b)-weakness(a))[0];document.getElementById('kpiWeak').textContent=weakest||'-';
-  document.getElementById('strategyText').textContent=`当前优先：${weakest||'基础建立'}。连续答对会自动降频；重复错误和慢答会升频。`;
+  document.getElementById('strategyText').textContent=`每轮固定 8 题：最近弱点 + 历史错题 + 间隔复习。当前优先：${weakest||'基础建立'}。连续答对 2–3 次会降频；重复错误和慢答会升频。`;
 }
 function renderAnalysis(){
  const skills=[...new Set(BANK.map(x=>x.skill))];document.getElementById('skills').innerHTML=skills.map(k=>{const s=stat(k),acc=s.attempts?Math.round(s.correct/s.attempts*100):0,avg=s.attempts?Math.round(s.totalMs/s.attempts/1000):0;return `<div class="skill"><div class="skillrow"><b>${k}</b><span>${s.attempts?acc+'% · '+avg+'s':'未测试'}</span></div><small>尝试 ${s.attempts} 次 · 连对 ${s.streak} · 错 ${s.wrong}</small><div class="bar"><div style="width:${acc}%"></div></div></div>`}).join('')
