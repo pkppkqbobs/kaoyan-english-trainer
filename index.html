@@ -65,9 +65,9 @@ button{font:inherit}.app{max-width:980px;margin:auto;padding:18px}.top{display:f
   <section id="report" class="page hidden">
     <div class="card">
       <h3 class="section-title">给 ChatGPT 的学习报告</h3>
-      <div class="sub" style="margin-bottom:10px">做完一轮后点“复制报告”，回到聊天直接粘贴。我就能按你的真实结果继续调题。</div>
+      <div class="sub" style="margin-bottom:10px">做完一轮后可直接把结果提交到 GitHub，我就能从仓库读取并分析；也保留复制/下载备用。</div>
       <div class="report" id="reportBox"></div>
-      <div class="actions"><button class="btn primary" id="copyReport">复制本轮学习报告</button><button class="btn secondary" id="downloadReport">下载报告</button></div>
+      <div class="actions"><button class="btn primary" id="submitGithub">提交结果到 GitHub</button><button class="btn secondary" id="copyReport">复制本轮学习报告</button><button class="btn secondary" id="downloadReport">下载报告</button></div>
     </div>
   </section>
 </div>
@@ -129,7 +129,7 @@ function finish(){
   const sess=state.history.filter(x=>x.session===state.session); const acc=sess.length?Math.round(sess.filter(x=>x.ok).length/sess.length*100):0;
   document.getElementById('question').innerHTML=`本轮完成：<b>${sess.filter(x=>x.ok).length}/${sess.length}</b>（${acc}%）`;
   document.getElementById('options').innerHTML='';document.getElementById('target').textContent='本轮结束';document.getElementById('progress').textContent='';
-  document.getElementById('feedback').className='feedback good';document.getElementById('feedback').textContent='去“学习报告”复制结果给 ChatGPT，下一轮就能继续按你的弱点调题。';
+  document.getElementById('feedback').className='feedback good';document.getElementById('feedback').textContent='去“学习报告”点“提交结果到 GitHub”，我就能从仓库读取这一轮数据。';
   document.getElementById('whyBtn').classList.add('hidden');document.getElementById('nextBtn').classList.add('hidden');updateSide();renderAnalysis();renderWrong();renderReport();
 }
 function updateSide(){
@@ -156,7 +156,8 @@ document.getElementById('whyBtn').onclick=()=>{const fb=document.getElementById(
 document.getElementById('nextBtn').onclick=()=>{idx++;render()};
 document.getElementById('redoWrong').onclick=()=>{mode='wrong';buildQueue();render()};
 document.getElementById('freshSet').onclick=()=>{mode='adaptive';buildQueue();render()};
-document.getElementById('copyReport').onclick=async()=>{const t=makeReport();await navigator.clipboard.writeText(t);alert('学习报告已复制，回到 ChatGPT 直接粘贴即可。')};
+document.getElementById('submitGithub').onclick=()=>{const title='[TRAINING_RESULT] 考研英语训练 #'+state.session;const body='<!-- kaoyan-english-training-result -->\n'+makeReport();const u='https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body);window.open(u,'_blank','noopener,noreferrer')};
+document.getElementById('copyReport').onclick=async()=>{const t=makeReport();await navigator.clipboard.writeText(t);alert('学习报告已复制。')};
 document.getElementById('downloadReport').onclick=()=>{const b=new Blob([makeReport()],{type:'text/plain;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='kaoyan-english-report.txt';a.click();URL.revokeObjectURL(a.href)};
 document.getElementById('resetAll').onclick=()=>{if(confirm('确定清空所有本地答题记录？')){localStorage.removeItem(KEY);location.reload()}};
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.querySelectorAll('.page').forEach(x=>x.classList.add('hidden'));document.getElementById(t.dataset.page).classList.remove('hidden');if(t.dataset.page==='analysis')renderAnalysis();if(t.dataset.page==='wrong')renderWrong();if(t.dataset.page==='report')renderReport()});
