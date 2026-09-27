@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>考研英语自适应训练</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;--accent:#3157d5;--accent2:#eef2ff;--good:#087443;--goodbg:#ecfdf3;--bad:#b42318;--badbg:#fef3f2;--warn:#b54708;--warnbg:#fffaeb}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+button{font:inherit}.app{max-width:980px;margin:auto;padding:18px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.brand{font-weight:900;font-size:20px}.sub{font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:1.05fr .95fr;gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 28px #1018280d;padding:18px}.hidden{display:none!important}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tab,.btn{border:0;border-radius:10px;padding:9px 12px;font-weight:800;cursor:pointer}.tab{background:#eef1f5}.tab.active{background:var(--accent);color:#fff}.btn.primary{background:var(--accent);color:#fff}.btn.secondary{background:#eef1f5;color:#111827}.btn.good{background:var(--goodbg);color:var(--good)}.btn.warn{background:var(--warnbg);color:var(--warn)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.kpi{background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:12px}.kpi b{display:block;font-size:24px}.kpi span{font-size:12px;color:var(--muted)}
+.target{display:inline-block;background:var(--accent2);color:#303f9f;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.qmeta{display:flex;justify-content:space-between;gap:8px;align-items:center}.q{font-size:18px;line-height:1.55;margin:16px 0;white-space:pre-line}.opts{display:grid;gap:9px}.opt{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:11px 13px;cursor:pointer;line-height:1.4}.opt:hover{border-color:#aab7ff;background:#fafbff}.opt.correct{background:var(--goodbg);border-color:#6ce9a6}.opt.wrong{background:var(--badbg);border-color:#fda29b}.opt:disabled{cursor:default;color:inherit}
+.feedback{margin-top:12px;border-radius:12px;padding:11px 12px;line-height:1.55}.feedback.good{background:var(--goodbg);color:var(--good)}.feedback.bad{background:var(--badbg);color:var(--bad)}.feedback.warn{background:var(--warnbg);color:var(--warn)}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.section-title{font-size:15px;font-weight:900;margin:0 0 10px}.skill{border-top:1px solid var(--line);padding:10px 0}.skill:first-of-type{border-top:0}.skillrow{display:flex;justify-content:space-between;gap:8px}.skill small{color:var(--muted)}.bar{height:7px;background:#edf0f5;border-radius:99px;overflow:hidden;margin-top:7px}.bar>div{height:100%;background:var(--accent)}
+.report{white-space:pre-wrap;background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:12px;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;max-height:360px;overflow:auto}.list{display:grid;gap:9px}.item{border:1px solid var(--line);border-radius:12px;padding:11px}.tag{font-size:11px;padding:3px 7px;border-radius:999px;background:#f2f4f7;color:#475467;font-weight:800;margin-right:5px}
+@media(max-width:780px){.grid{grid-template-columns:1fr}.app{padding:10px}.q{font-size:16px}.top{align-items:flex-start;flex-direction:column}.kpis{grid-template-columns:1fr 1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top"><div><div class="brand">考研英语自适应训练</div><div class="sub">根据错误机制、首次选择、答题时间和连续表现自动调节训练权重</div></div><button class="btn secondary" id="resetAll">清空本地记录</button></div>
+  <div class="tabs">
+    <button class="tab active" data-page="train">开始训练</button>
+    <button class="tab" data-page="analysis">能力分析</button>
+    <button class="tab" data-page="wrong">错题本</button>
+    <button class="tab" data-page="report">学习报告</button>
+  </div>
+
+  <section id="train" class="page">
+    <div class="grid">
+      <div class="card">
+        <div class="qmeta"><span class="target" id="target"></span><span class="sub" id="progress"></span></div>
+        <div class="q" id="question"></div>
+        <div class="opts" id="options"></div>
+        <div id="feedback"></div>
+        <div class="actions">
+          <button class="btn secondary hidden" id="whyBtn">查看为什么</button>
+          <button class="btn primary hidden" id="nextBtn">下一题</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3 class="section-title">本轮状态</h3>
+        <div class="kpis">
+          <div class="kpi"><b id="kpiAcc">0%</b><span>正确率</span></div>
+          <div class="kpi"><b id="kpiTime">0s</b><span>平均用时</span></div>
+          <div class="kpi"><b id="kpiWeak">-</b><span>当前最弱点</span></div>
+        </div>
+        <h3 class="section-title" style="margin-top:16px">当前训练策略</h3>
+        <div class="item" id="strategyText">优先测试最近暴露出的连接关系错误。</div>
+        <div class="actions"><button class="btn warn" id="redoWrong">只练错题机制</button><button class="btn secondary" id="freshSet">换一组新语境</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="analysis" class="page hidden">
+    <div class="card"><h3 class="section-title">能力维度</h3><div id="skills"></div></div>
+  </section>
+
+  <section id="wrong" class="page hidden">
+    <div class="card"><h3 class="section-title">错题本</h3><div id="wrongList" class="list"></div></div>
+  </section>
+
+  <section id="report" class="page hidden">
+    <div class="card">
+      <h3 class="section-title">给 ChatGPT 的学习报告</h3>
+      <div class="sub" style="margin-bottom:10px">做完一轮后点“复制报告”，回到聊天直接粘贴。我就能按你的真实结果继续调题。</div>
+      <div class="report" id="reportBox"></div>
+      <div class="actions"><button class="btn primary" id="copyReport">复制本轮学习报告</button><button class="btn secondary" id="downloadReport">下载报告</button></div>
+    </div>
+  </section>
+</div>
+<script>
+const BANK=[
+{id:'ref1',skill:'these/such 回指',target:'these / such + 名词',q:'前一段最后写：\nSeveral new safety procedures have been introduced.\n\n哪一句最适合接在后面？',o:['These measures may slow production at first.','Production increased sharply last year.','Safety is important in every workplace.','Another factory opened nearby.'],a:0,trap:{1:'主题相关但没有回指关系',2:'只是泛泛同主题',3:'直接换了新话题'},why:'These measures 明确回指上一句的 safety procedures。排序题里“明确回指”比同主题词重复更强。'},
+{id:'ref2',skill:'these/such 回指',target:'such + 名词',q:'上一段具体列出了城市里三种新的交通限制。\n\n下面哪个开头最像在承接？',o:['Such restrictions may reduce congestion.','Traffic remains a major urban problem.','Some cities have larger populations.','Road construction can be expensive.'],a:0,trap:{1:'同主题但无明确回指',2:'新信息',3:'新信息'},why:'such restrictions = “这样的限制”，必须以前文已经出现具体 restrictions 为基础。'},
+{id:'num1',skill:'数量对应',target:'two → the first',q:'前一段结尾：\nTwo factors explain the sudden decline.\n\n下一段最可能怎样开头？',o:['The first is a shortage of trained workers.','However, the decline was unexpected.','For example, one company closed.','Such changes are difficult to predict.'],a:0,trap:{1:'只有转折，没有对应 two factors',2:'举例不能自动对应 two factors',3:'回指 changes，但前文不是 changes'},why:'two factors → The first 是强数量对应。看到数字词和顺序词时，优先级很高。'},
+{id:'num2',skill:'数量对应',target:'several → one of these',q:'前文：\nSeveral causes contributed to the failure.\n\n哪个后文开头连接最强？',o:['One of these was poor communication.','The failure attracted public attention.','Nevertheless, the project continued.','Communication is important in teamwork.'],a:0,trap:{1:'只重复 failure',2:'只有逻辑词，没有对象对应',3:'只重复 communication'},why:'Several causes → One of these，属于明确的集合—成员关系。'},
+{id:'summary1',skill:'总结词定位',target:'All in all / Overall',q:'某段开头是 Overall，但段尾又说：\nSeveral practical difficulties still need to be addressed.\n\n最稳妥的判断是：',o:['这段一定是全文最后一段','后面仍可能继续讨论这些 difficulties','下一段一定举例','这一段一定是文章第一段'],a:1,trap:{0:'把总结词机械等同于全文结尾',2:'把总结词误当举例信号',3:'位置判断无依据'},why:'Overall 只表示“总结前面一部分”。段尾又抛出 difficulties，后文完全可以继续承接。'},
+{id:'summary2',skill:'总结词定位',target:'段首总结词 + 段尾新信息',q:'看到 All in all 时，最应该追加检查什么？',o:['段尾是否又抛出新概念或要求','这一段是否最长','是否出现数字','是否有生词'],a:0,trap:{1:'篇幅不是排序依据',2:'数字可能有用但不是此处核心',3:'生词数量与位置无直接关系'},why:'段首看它如何接上文；段尾看它是否仍需要接下文。'},
+{id:'lex1',skill:'原词复现干扰',target:'强连接 vs 原词重复',q:'段A：Consumer preferences differ greatly across regions.\n段B：Such differences make national advertising difficult.\n段C：Regional markets also differ in size.\n\n哪两个连接最强？',o:['A → C','C → A','A → B','B → C'],a:2,trap:{0:'被 differ 的原词重复吸引',1:'顺序缺乏回指依据',3:'只是主题相关'},why:'A→B 有 such differences 明确回指；A→C 只是 differ 的词汇复现。'},
+{id:'lex2',skill:'原词复现干扰',target:'不要只靠相同单词',q:'前段：The plan created several unexpected costs.\n候选开头中，哪个承接最强？',o:['These expenses forced the team to revise its budget.','Costs are common in large projects.','Another plan reduced costs last year.','The team had discussed its budget earlier.'],a:0,trap:{1:'只是重复 costs',2:'出现 costs 但对象换了',3:'只有相关词 budget'},why:'These expenses 对前面的 unexpected costs 做同义回指；这比单纯重复 costs 更强。'},
+{id:'chain1',skill:'段首段尾关系',target:'段尾抛出 → 段首承接',q:'段X结尾：\nThis produced two unexpected consequences.\n段Y开头：\nThe first was a sharp rise in waiting times.\n\n正确关系是：',o:['Y → X','X → Y','两段无关','信息不足'],a:1,trap:{0:'把顺序方向看反',2:'忽略数量对应',3:'已有足够强的对应'},why:'two consequences → The first，X 必须在 Y 前。'},
+{id:'chain2',skill:'段首段尾关系',target:'段首找上家，段尾找下家',q:'段P最后写：\nNew equipment and additional training will be required.\n段Q开头写：\nThese requirements may discourage smaller firms.\n\n最合理的是：',o:['P → Q','Q → P','两段并列','只能看全文判断'],a:0,trap:{1:'回指方向倒置',2:'忽略 these requirements',3:'已有足够线索'},why:'P 抛出 requirements，Q 用 These requirements 回指，P→Q。'},
+{id:'vocab1',skill:'关键词词义',target:'deter sb from doing',q:'High initial costs may deter some graduates from starting a business.\n\ndeter 最接近：',o:['鼓励','阻止、使却步','要求','允许'],a:1,trap:{0:'词义方向相反',2:'混淆 requirement',3:'词义错误'},why:'deter sb from doing = 阻止某人做某事 / 使某人因顾虑而却步。'},
+{id:'vocab2',skill:'关键词词义',target:'at a standstill',q:'After months of disagreement, negotiations are at a standstill.\n\nat a standstill 最接近：',o:['进展迅速','陷入停滞','逐步恢复','刚刚开始'],a:1,trap:{0:'词义方向相反',2:'词义错误',3:'词义错误'},why:'at a standstill = 停滞不前，没有继续进展。'}
+];
+
+const KEY='kaoyanEnglishAdaptiveV1';
+let state=JSON.parse(localStorage.getItem(KEY)||'null')||{history:[],wrongIds:[],stats:{},session:0};
+let mode='adaptive', queue=[],idx=0,current=null,startAt=0,answered=false;
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function stat(skill){return state.stats[skill]||(state.stats[skill]={attempts:0,correct:0,streak:0,totalMs:0,wrong:0})}
+function weakness(skill){const s=stat(skill); if(!s.attempts)return .7; const acc=s.correct/s.attempts; const speed=Math.min(1,(s.totalMs/s.attempts)/22000); return (1-acc)*.7+speed*.15+(s.streak<2?.15:0)}
+function shuffled(a){return [...a].sort(()=>Math.random()-.5)}
+function buildQueue(){
+  let pool=BANK;
+  if(mode==='wrong'){const weak=new Set(state.history.filter(x=>!x.ok).map(x=>x.skill)); pool=BANK.filter(q=>weak.has(q.skill)); if(!pool.length)pool=BANK}
+  const scored=pool.map(q=>({q,w:weakness(q.skill)+Math.random()*.2})).sort((a,b)=>b.w-a.w);
+  queue=scored.slice(0,8).map(x=>x.q); idx=0; state.session++; save();
+}
+function render(){
+  if(!queue.length||idx>=queue.length){finish();return}
+  current=queue[idx]; answered=false; startAt=performance.now();
+  document.getElementById('target').textContent='【本题目标：'+current.target+'】';
+  document.getElementById('progress').textContent=`${idx+1} / ${queue.length}`;
+  document.getElementById('question').textContent=current.q;
+  document.getElementById('feedback').innerHTML='';
+  document.getElementById('whyBtn').classList.add('hidden');document.getElementById('nextBtn').classList.add('hidden');
+  const box=document.getElementById('options');box.innerHTML='';
+  current.o.forEach((x,i)=>{const b=document.createElement('button');b.className='opt';b.innerHTML=`<b>${'ABCD'[i]}.</b> ${x}`;b.onclick=()=>answer(i,b);box.appendChild(b)});
+  updateSide();
+}
+function answer(pick,btn){
+  if(answered)return; answered=true; const ms=Math.round(performance.now()-startAt),ok=pick===current.a; const s=stat(current.skill); s.attempts++;s.totalMs+=ms;
+  if(ok){s.correct++;s.streak++}else{s.wrong++;s.streak=0;if(!state.wrongIds.includes(current.id))state.wrongIds.push(current.id)}
+  const rec={ts:new Date().toISOString(),session:state.session,id:current.id,skill:current.skill,target:current.target,pick,answer:current.a,ok,ms,diagnosis:ok?(ms>22000?'答对但用时偏长，掌握还不够自动化':'掌握正常'):(current.trap[pick]||'该错误机制需要继续训练')};
+  state.history.push(rec); save();
+  [...document.querySelectorAll('.opt')].forEach((el,i)=>{el.disabled=true;if(i===current.a)el.classList.add('correct');if(i===pick&&!ok)el.classList.add('wrong')});
+  const fb=document.getElementById('feedback');
+  if(ok&&ms<=22000){fb.className='feedback good';fb.textContent='✓ 正确。当前判断路径是有效的。'}
+  else if(ok){fb.className='feedback warn';fb.textContent='✓ 正确，但用时 '+(ms/1000).toFixed(1)+'s。这个机制还没有形成快速反应。'}
+  else{fb.className='feedback bad';fb.innerHTML='✗ 这次更像是：<b>'+rec.diagnosis+'</b>。'}
+  document.getElementById('whyBtn').classList.remove('hidden');document.getElementById('nextBtn').classList.remove('hidden');
+  updateSide();
+}
+function finish(){
+  const sess=state.history.filter(x=>x.session===state.session); const acc=sess.length?Math.round(sess.filter(x=>x.ok).length/sess.length*100):0;
+  document.getElementById('question').innerHTML=`本轮完成：<b>${sess.filter(x=>x.ok).length}/${sess.length}</b>（${acc}%）`;
+  document.getElementById('options').innerHTML='';document.getElementById('target').textContent='本轮结束';document.getElementById('progress').textContent='';
+  document.getElementById('feedback').className='feedback good';document.getElementById('feedback').textContent='去“学习报告”复制结果给 ChatGPT，下一轮就能继续按你的弱点调题。';
+  document.getElementById('whyBtn').classList.add('hidden');document.getElementById('nextBtn').classList.add('hidden');updateSide();renderAnalysis();renderWrong();renderReport();
+}
+function updateSide(){
+  const sess=state.history.filter(x=>x.session===state.session), n=sess.length; const acc=n?Math.round(sess.filter(x=>x.ok).length/n*100):0,avg=n?Math.round(sess.reduce((a,b)=>a+b.ms,0)/n/1000):0;
+  document.getElementById('kpiAcc').textContent=acc+'%';document.getElementById('kpiTime').textContent=avg+'s';
+  const skills=[...new Set(BANK.map(x=>x.skill))]; const weakest=skills.sort((a,b)=>weakness(b)-weakness(a))[0];document.getElementById('kpiWeak').textContent=weakest||'-';
+  document.getElementById('strategyText').textContent=`当前优先：${weakest||'基础建立'}。连续答对会自动降频；重复错误和慢答会升频。`;
+}
+function renderAnalysis(){
+ const skills=[...new Set(BANK.map(x=>x.skill))];document.getElementById('skills').innerHTML=skills.map(k=>{const s=stat(k),acc=s.attempts?Math.round(s.correct/s.attempts*100):0,avg=s.attempts?Math.round(s.totalMs/s.attempts/1000):0;return `<div class="skill"><div class="skillrow"><b>${k}</b><span>${s.attempts?acc+'% · '+avg+'s':'未测试'}</span></div><small>尝试 ${s.attempts} 次 · 连对 ${s.streak} · 错 ${s.wrong}</small><div class="bar"><div style="width:${acc}%"></div></div></div>`}).join('')
+}
+function renderWrong(){
+ const arr=state.history.filter(x=>!x.ok).slice(-20).reverse();document.getElementById('wrongList').innerHTML=arr.length?arr.map(x=>`<div class="item"><span class="tag">${x.skill}</span><span class="tag">${(x.ms/1000).toFixed(1)}s</span><div style="margin-top:7px"><b>诊断：</b>${x.diagnosis}</div><div class="sub">选择 ${'ABCD'[x.pick]}，正确 ${'ABCD'[x.answer]}</div></div>`).join(''):'<div class="sub">还没有错题记录。</div>'
+}
+function makeReport(){
+ const sess=state.history.filter(x=>x.session===state.session); const skills=[...new Set(BANK.map(x=>x.skill))]; const lines=[];lines.push(`考研英语训练 #${state.session}`);lines.push(`题数 ${sess.length}｜正确 ${sess.filter(x=>x.ok).length}｜正确率 ${sess.length?Math.round(sess.filter(x=>x.ok).length/sess.length*100):0}%`); if(sess.length)lines.push(`平均用时 ${Math.round(sess.reduce((a,b)=>a+b.ms,0)/sess.length/1000)}s`);lines.push('');lines.push('【分项】');
+ skills.forEach(k=>{const z=sess.filter(x=>x.skill===k);if(z.length)lines.push(`${k}：${z.filter(x=>x.ok).length}/${z.length}，平均 ${Math.round(z.reduce((a,b)=>a+b.ms,0)/z.length/1000)}s`)});
+ lines.push('');lines.push('【错题诊断】'); const wrong=sess.filter(x=>!x.ok); if(!wrong.length)lines.push('本轮无错题'); else wrong.forEach((x,i)=>lines.push(`Q${i+1} ${x.skill}：选${'ABCD'[x.pick]}→正确${'ABCD'[x.answer]}；${x.diagnosis}；${(x.ms/1000).toFixed(1)}s`));
+ lines.push(''); const weak=skills.map(k=>({k,w:weakness(k)})).sort((a,b)=>b.w-a.w).slice(0,3).map(x=>x.k); lines.push('【下一轮建议权重】'); lines.push(`高频：${weak[0]||'-'}；中频：${weak[1]||'-'}；低频/间隔复习：${weak[2]||'-'}`);return lines.join('\n')
+}
+function renderReport(){document.getElementById('reportBox').textContent=makeReport()}
+
+document.getElementById('whyBtn').onclick=()=>{const fb=document.getElementById('feedback');fb.className='feedback';fb.innerHTML='<b>为什么：</b>'+current.why};
+document.getElementById('nextBtn').onclick=()=>{idx++;render()};
+document.getElementById('redoWrong').onclick=()=>{mode='wrong';buildQueue();render()};
+document.getElementById('freshSet').onclick=()=>{mode='adaptive';buildQueue();render()};
+document.getElementById('copyReport').onclick=async()=>{const t=makeReport();await navigator.clipboard.writeText(t);alert('学习报告已复制，回到 ChatGPT 直接粘贴即可。')};
+document.getElementById('downloadReport').onclick=()=>{const b=new Blob([makeReport()],{type:'text/plain;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='kaoyan-english-report.txt';a.click();URL.revokeObjectURL(a.href)};
+document.getElementById('resetAll').onclick=()=>{if(confirm('确定清空所有本地答题记录？')){localStorage.removeItem(KEY);location.reload()}};
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');document.querySelectorAll('.page').forEach(x=>x.classList.add('hidden'));document.getElementById(t.dataset.page).classList.remove('hidden');if(t.dataset.page==='analysis')renderAnalysis();if(t.dataset.page==='wrong')renderWrong();if(t.dataset.page==='report')renderReport()});
+
+buildQueue();render();renderAnalysis();renderWrong();renderReport();
+</script>
+</body>
+</html>
