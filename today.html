@@ -125,7 +125,18 @@ tone:{q:"Regular stretching can reduce excessive muscle tone.\ntone 在这里是
 conceivably:{q:"The repair could conceivably be finished tonight, but that remains uncertain.\nconceivably = ?",o:["必然","有可能","表面上","故意"],a:1}
 };
 
-let order = BANK.slice().sort(()=>Math.random()-.5);
+function buildOrder(){
+  for(let t=0;t<40;t++){
+    const a=BANK.slice().sort(()=>Math.random()-.5);
+    let ok=true;
+    for(let i=1;i<a.length;i++){
+      if(a[i].source==="today" && a[i-1].source==="today"){ok=false;break}
+    }
+    if(ok)return a;
+  }
+  return BANK.slice();
+}
+let order = buildOrder();
 let state={answers:[],mode:"main",queue:order,index:0};
 
 function E(id){return document.getElementById(id)}
@@ -166,7 +177,7 @@ E("redoWrongBtn").onclick=()=>{
   const qs=wrong.map(r=>{const base=BANK.find(x=>x.id===r.id),re=RETRY[r.id];return {...base,id:"retry-"+r.id,q:re.q,o:re.o,a:re.a}});
   state.mode="retry";state.queue=qs.sort(()=>Math.random()-.5);state.index=0;E("result").classList.add("hidden");E("wrongReview").classList.add("hidden");E("quiz").classList.remove("hidden");render()
 };
-E("redoAllBtn").onclick=()=>{state={answers:[],mode:"main",queue:BANK.slice().sort(()=>Math.random()-.5),index:0};E("result").classList.add("hidden");E("wrongReview").classList.add("hidden");E("quiz").classList.remove("hidden");render()};
+E("redoAllBtn").onclick=()=>{state={answers:[],mode:"main",queue:buildOrder(),index:0};E("result").classList.add("hidden");E("wrongReview").classList.add("hidden");E("quiz").classList.remove("hidden");render()};
 function makeReport(){
   const arr=state.answers.filter(x=>x.mode==="main"),correct=arr.filter(x=>x.ok).length;
   const lines=["考研英语混合间隔训练","题数 "+arr.length+"｜正确 "+correct+"｜正确率 "+(arr.length?Math.round(correct/arr.length*100):0)+"%"];
