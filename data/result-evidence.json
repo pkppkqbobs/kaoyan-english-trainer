@@ -135,14 +135,6 @@
     },
     {
       "date": "2026-09-29",
-      "family": "subject",
-      "ok": false,
-      "ms": 8400.0,
-      "uncertain": false,
-      "origin": 3
-    },
-    {
-      "date": "2026-09-29",
       "family": "point",
       "ok": true,
       "ms": 16200.0,
