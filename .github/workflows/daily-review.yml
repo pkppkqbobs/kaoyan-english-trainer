@@ -14,6 +14,7 @@ on:
       - 'web/**'
       - 'data/questions/**'
       - 'data/learning-notes.json'
+      - 'data/quality-exclusions.json'
   issues:
     types: [opened, edited, deleted]
 
@@ -50,7 +51,7 @@ jobs:
       - name: Read submitted results and build daily quiz
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 scripts/daily_review.py --sync
+        run: python3 scripts/run_daily.py --sync
       - name: Preserve generated daily history
         run: |
           git add -- today.html data archive
