@@ -1,0 +1,79 @@
+name: Daily review and Pages
+
+on:
+  schedule:
+    # UTC 00:17 = Asia/Shanghai 08:17. GitHub schedules are best-effort.
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-review.yml'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'web/**'
+      - 'data/questions/**'
+      - 'data/learning-notes.json'
+  issues:
+    types: [opened, edited, deleted]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: >-
+      github.event_name != 'issues' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       startsWith(github.event.issue.title, '[TRAINING_RESULT]'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      issues: read
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Test review logic and question schema
+        run: python3 -m unittest discover -s tests -v
+      - name: Test browser-side interaction logic
+        run: |
+          node --check web/review.js
+          node tests/ui.mjs
+      - name: Read submitted results and build daily quiz
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/daily_review.py --sync
+      - name: Preserve generated daily history
+        run: |
+          git add -- today.html data archive
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update daily review and spaced-repetition state'
+            git push origin HEAD:main
+          fi
+      - name: Upload complete static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy tested artifact to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
