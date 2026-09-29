@@ -1,0 +1,205 @@
+[
+  {
+    "id": "legacy-unpretentious",
+    "source": "today",
+    "skill": "unpretentious / unpredictable",
+    "target": "unpretentious / unpredictable",
+    "q": "The scientist's office was surprisingly ___: plain shelves, an old desk, and no awards on display.",
+    "o": [
+      "unpretentious",
+      "unpredictable",
+      "formidable",
+      "perplexing"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "把 unpretentious 和 unpredictable 混淆了：这里描述的是朴素、不摆架子的风格，不是“无法预测”。",
+      "2": "formidable 表示“令人敬畏的、难对付的”，与 plain / no awards 的语义方向相反。",
+      "3": "perplexing 表示“令人困惑的”，这里没有“难以理解”的线索。"
+    },
+    "exp": {
+      "trans": "这位科学家的办公室出人意料地朴素：普通的书架、一张旧书桌，而且没有陈列任何奖项。",
+      "structure": "主干：The scientist's office（主语）+ was（系动词）+ unpretentious（表语）。冒号后 plain shelves, an old desk, and no awards on display 是对“朴素”的具体说明。",
+      "other": "plain 普通的/朴素的；shelf 书架；on display 陈列着；award 奖项。",
+      "meaning": "unpretentious = 不装腔作势的、朴实低调的。注意：unpredictable 才是“无法预测的”。",
+      "rest": "B unpredictable=不可预测的；C formidable=令人敬畏的/难对付的；D perplexing=令人困惑的。这里只有 A 与后面的“普通书架、旧桌子、不展示奖项”一致。"
+    },
+    "family": "unpretentious",
+    "introduced": "2026-09-29",
+    "budget": 35
+  },
+  {
+    "id": "legacy-faint-praise",
+    "source": "today",
+    "skill": "faint / faint praise",
+    "target": "faint / faint praise",
+    "q": "After a two-hour presentation, Maya said, “Well, at least the slides were readable.” Her remark is best described as:",
+    "o": [
+      "faint praise",
+      "earnest approval",
+      "open hostility",
+      "sufficient evidence"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "earnest approval 是真诚而明确的赞许；“at least...”只给了很弱的一点肯定。",
+      "2": "这句话并非直接敌意攻击，而是非常有限、勉强的表扬。",
+      "3": "evidence 是“证据”，不是评价语气。"
+    },
+    "exp": {
+      "trans": "听完一场两小时的演讲后，Maya 说：“嗯，至少幻灯片还看得清。”这句话最适合形容为“勉强的赞扬”。",
+      "structure": "Maya（主语）+ said（谓语）+ 引语（内容）。问句 Her remark is best described as... 中 is described是被动谓语，不是is加形容词表语。引语主干为the slides were readable；at least限制了肯定的力度。",
+      "other": "presentation 演讲/展示；readable 易读的；remark 评论；at least 至少。",
+      "meaning": "faint praise = 勉强的、力度很弱的赞扬。这里 faint 的核心是“微弱的、不强的”。",
+      "rest": "B earnest approval=真诚、认真地赞成，语气过强；C open hostility=公开敌意，不符合；D sufficient evidence=充分证据，词义类别都不对。"
+    },
+    "family": "faint",
+    "introduced": "2026-09-29",
+    "budget": 35
+  },
+  {
+    "id": "legacy-miss-point",
+    "source": "today",
+    "skill": "miss the point / point",
+    "target": "miss the point / point",
+    "q": "The committee spent twenty minutes arguing about the font on the warning sign, while the real issue was whether the bridge was safe. They were clearly ___.",
+    "o": [
+      "missing the point",
+      "making a point",
+      "reaching the point",
+      "pointing out"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "make a point 常表示“提出观点/特意强调”，这里强调的是没抓住真正问题。",
+      "2": "reach the point 需要具体语境，如 reach the point where...，不能表达“没抓住重点”。",
+      "3": "point out 通常后接宾语，表示“指出”；这里既不合结构也不合语义。"
+    },
+    "exp": {
+      "trans": "委员会花了二十分钟争论警示牌的字体，而真正的问题是这座桥是否安全。他们显然没有抓住重点。",
+      "structure": "第一句：The committee（主语）+ spent（谓语）+ twenty minutes（宾语）；arguing...说明时间花在何事上。while连接对比；whether the bridge was safe作表语从句。第二句：They（主语）+ were missing（现在进行时谓语）+ the point（宾语）。",
+      "other": "committee 委员会；warning sign 警示牌；issue 问题/争议点；safe 安全的。",
+      "meaning": "miss the point = 没抓住重点、没理解关键。point 在这里是“要点/关键”，不是“节点”。",
+      "rest": "B make a point=提出/强调一个观点；C reach the point=达到某个阶段/程度；D point out=指出某事。"
+    },
+    "family": "point",
+    "introduced": "2026-09-29",
+    "budget": 35
+  },
+  {
+    "id": "legacy-who-that-main",
+    "source": "today",
+    "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+    "target": "who 定语从句 / that 宾语从句",
+    "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+    "o": [
+      "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+      "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+      "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+      "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
+      "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
+      "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
+    },
+    "exp": {
+      "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
+      "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
+      "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
+      "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
+      "rest": "B/D 都把 that 从句的 proves 错当成外层谓语；C 把 that 从句内部的 a longer résumé 错当成整句主语。"
+    },
+    "family": "nested",
+    "introduced": "2026-09-29",
+    "budget": 60
+  },
+  {
+    "id": "legacy-even",
+    "source": "recent",
+    "skill": "even / ever / over",
+    "target": "even / ever / over",
+    "q": "___ the past decade, the village has become busier than ___ before, and ___ residents who once opposed tourism now run guesthouses.",
+    "o": [
+      "Even / over / ever",
+      "Over / ever / even",
+      "Ever / even / over",
+      "Over / even / ever"
+    ],
+    "a": 1,
+    "diag": {
+      "0": "第一空需要表示“一段时间内”的 Over；三个词的位置功能被打乱了。",
+      "2": "Ever 不能在这里表示“过去十年间”；第二空比较结构需要 ever。",
+      "3": "第二空 than even before 不成立；第三空应是 even residents=甚至居民。"
+    },
+    "exp": {
+      "trans": "在过去十年里，这个村子比以往任何时候都更热闹，甚至一些曾经反对旅游业的居民现在也经营起了民宿。",
+      "structure": "Over the past decade 是时间范围状语；busier than ever before 是比较结构；even residents... 中 even 强调“甚至这些居民”。",
+      "other": "decade 十年；oppose 反对；tourism 旅游业；guesthouse 民宿/旅馆。",
+      "meaning": "over=在……期间；ever=曾经/任何时候；even=甚至。",
+      "rest": "A/C/D 至少有一个位置的语法功能或语义不成立。尤其记住 than ever before 和 even + 名词。"
+    },
+    "family": "even",
+    "introduced": null,
+    "budget": 35
+  },
+  {
+    "id": "legacy-which",
+    "source": "old",
+    "skill": "介词 + which",
+    "target": "preposition + which",
+    "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
+    "o": [
+      "The archive contains several letters on which the historian based her argument.",
+      "The archive contains several letters which on the historian based her argument.",
+      "The archive contains several letters on that the historian based her argument.",
+      "The archive contains several letters which the historian based her argument on them."
+    ],
+    "a": 0,
+    "diag": {
+      "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+      "2": "介词后不能用关系代词 that；应使用 which。",
+      "3": "which 已经代替 those letters，后面再用 them 造成重复。"
+    },
+    "exp": {
+      "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+      "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+      "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+      "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+      "rest": "B 词序错误；C 介词后不能用 that；D which 和 them 重复。"
+    },
+    "family": "relative",
+    "introduced": null,
+    "budget": 60
+  },
+  {
+    "id": "legacy-such",
+    "source": "old",
+    "skill": "these / such 回指",
+    "target": "these / such 回指",
+    "q": "段A：The museum lowered ticket prices and added evening hours.\n段B：Such changes attracted more local families during the week.\n段C：A different museum across town raised its prices last year.\n\n段B中的 Such changes 最直接回指什么？",
+    "o": [
+      "段A中的降价和延长晚间开放时间",
+      "段C中另一家博物馆的涨价",
+      "所有博物馆过去一年的变化",
+      "local families 本身"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "段B先于段C，且 Such changes 就近概括段A的两个措施。",
+      "2": "题干没有支持“所有博物馆”的泛指。",
+      "3": "changes 指的是措施变化，不是家庭。"
+    },
+    "exp": {
+      "trans": "A：博物馆降低了票价，并延长了晚间开放时间。B：这些变化吸引了更多本地家庭在工作日前来。C：城另一边的另一家博物馆去年提高了票价。",
+      "structure": "段A先给出两个并列措施 lowered ticket prices / added evening hours；段B用 Such changes 对这两个措施整体回指，再说明结果 attracted more local families。",
+      "other": "lower 降低；ticket price 票价；evening hours 晚间开放时段；attract 吸引。",
+      "meaning": "such + 名词 常把前文已经描述过的同类事物/情况概括回指；这里 Such changes = 段A的两项变化。",
+      "rest": "B 是后文另一对象；C 范围被无依据扩大；D 词义和语法都不匹配。"
+    },
+    "family": "reference",
+    "introduced": null,
+    "budget": 35
+  }
+]

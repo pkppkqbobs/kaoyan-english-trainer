@@ -1,0 +1,190 @@
+{
+  "rows": [
+    {
+      "date": "2026-09-27",
+      "family": "reference",
+      "ok": false,
+      "ms": 18100.0,
+      "uncertain": false,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "总结词定位",
+      "ok": true,
+      "ms": 6000.0,
+      "uncertain": true,
+      "aggregate": true,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "subject",
+      "ok": true,
+      "ms": 128000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "even",
+      "ok": true,
+      "ms": 15000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "standard",
+      "ok": true,
+      "ms": 29000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "compromise",
+      "ok": true,
+      "ms": 12000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-28",
+      "family": "subject",
+      "ok": true,
+      "ms": 48500.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "reference",
+      "ok": false,
+      "ms": 28700.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "because / unless 整句逻辑",
+      "ok": true,
+      "ms": 35600.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "共同动词支配",
+      "ok": true,
+      "ms": 34900.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "similarly / conversely",
+      "ok": true,
+      "ms": 26500.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "tone",
+      "ok": true,
+      "ms": 6000.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 11800.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "relative",
+      "ok": true,
+      "ms": 45400.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-29",
+      "family": "even",
+      "ok": true,
+      "ms": 31900.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "nested",
+      "ok": true,
+      "ms": 11200.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "subject",
+      "ok": false,
+      "ms": 8400.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "point",
+      "ok": true,
+      "ms": 16200.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "reference",
+      "ok": true,
+      "ms": 49800.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "faint",
+      "ok": true,
+      "ms": 21500.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "relative",
+      "ok": true,
+      "ms": 21600.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 13400.0,
+      "uncertain": false,
+      "origin": 3
+    }
+  ],
+  "issues": [
+    1,
+    2,
+    3
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-29",
+  "repo": "pkppkqbobs/kaoyan-english-trainer",
+  "questions": [
+    {
+      "id": "remote-lottery-chance",
+      "family": "remote",
+      "introduced": null,
+      "target": "remote",
+      "skill": "remote 熟词生义",
+      "q": "With thousands of names in the box and only one prize, my chance of winning seemed remote.\nremote 最接近：",
+      "o": [
+        "奖品在偏远地区",
+        "机会需要远程控制",
+        "获奖希望渺茫",
+        "获奖已成定局"
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "箱子里有成千上万个名字，却只有一个奖项，我获奖的希望看来很渺茫。",
+        "structure": "主干：my chance of winning（主语）+ seemed（系动词）+ remote（表语）。with...给出背景；of winning修饰chance，说明是什么机会。",
+        "other": "thousands of 成千上万的；prize 奖项；chance of doing 做某事的机会；seem 似乎。",
+        "meaning": "remote修饰chance/possibility时表示可能性很小、渺茫，不是空间上遥远。",
+        "rest": "偏远地区可说a remote area，但原句remote修饰chance而非地点。远程控制是remote control，与抽奖概率无关。已成定局接近certain/assured，与渺茫相反。"
+      }
+    },
+    {
+      "id": "compromise-coffee",
+      "family": "compromise",
+      "introduced": null,
+      "target": "compromise",
+      "skill": "compromise 熟词生义",
+      "q": "The loose lid compromised the freshness of the coffee.\ncompromised 在这里的意思是：",
+      "o": [
+        "损害了",
+        "与之协商折中",
+        "保证了",
+        "精确测量了"
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "松动的盖子影响了咖啡的新鲜度。",
+        "structure": "The loose lid（主语）+ compromised（及物谓语）+ the freshness of the coffee（宾语）。不是人们在谈判；被影响的是freshness这一性质。",
+        "other": "loose 松动的；lid 盖子；freshness 新鲜度；coffee 咖啡。",
+        "meaning": "compromise作及物动词可表示损害、危及，例如compromise safety/quality。",
+        "rest": "妥协义常用于compromise on an issue或reach a compromise；这里盖子不参与协商。保证可用ensure/guarantee，与损害相反。测量是measure，原句没有测量动作。"
+      }
+    },
+    {
+      "id": "nested-shared-gate",
+      "family": "nested",
+      "introduced": "2026-09-29",
+      "budget": 60,
+      "target": "who 定语从句 / that 宾语从句",
+      "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+      "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
+      "o": [
+        "Residents / discovered / called",
+        "the shared gate / discovered / was",
+        "Residents / was unlocked / discovered",
+        "the caretaker / called / discovered"
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
+        "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
+        "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
+        "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
+        "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
+      }
+    },
+    {
+      "id": "with-bread-cooling",
+      "family": "with",
+      "introduced": null,
+      "budget": 60,
+      "target": "with + 名词 + 分词",
+      "skill": "with + 名词 + 后置成分",
+      "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
+      "o": [
+        "补充开门时伴随的状态",
+        "引出老板的直接引语",
+        "说明开门的唯一目的",
+        "充当opened的直接宾语"
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
+        "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
+        "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
+        "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
+        "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
+      }
+    },
+    {
+      "id": "conditions-telescope",
+      "family": "conditions",
+      "introduced": null,
+      "target": "so long as / in case / as far as",
+      "skill": "so long as / in case / as far as",
+      "q": "借用望远镜的许可只有一个条件：必须在日落前归还。不是为某种意外做预防，也不是表达让步。\nYou may borrow my telescope ___ you return it before sunset.",
+      "o": [
+        "in case",
+        "as far as",
+        "so long as",
+        "even though"
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "只要你在日落前归还，就可以借我的望远镜。",
+        "structure": "主句：You（主语）+ may borrow（谓语）+ my telescope（宾语）。so long as引导条件状语从句：you + return + it + before sunset。it指望远镜。",
+        "other": "borrow 借入；telescope 望远镜；return 归还；sunset 日落。",
+        "meaning": "so long as在这里等于provided that，表示只要、条件是。",
+        "rest": "in case：以防、为可能情况预作准备，如Take a coat in case it rains；不是授权借用的必要条件。as far as：就……而言或远到，常用as far as I know；这里既无范围界限也无相应结构。even though：即使、尽管，表示让步，不能表达借用许可依赖归还条件。"
+      }
+    },
+    {
+      "id": "legacy-miss-point",
+      "source": "today",
+      "skill": "miss the point / point",
+      "target": "miss the point / point",
+      "q": "The committee spent twenty minutes arguing about the font on the warning sign, while the real issue was whether the bridge was safe. They were clearly ___.",
+      "o": [
+        "missing the point",
+        "making a point",
+        "reaching the point",
+        "pointing out"
+      ],
+      "a": 0,
+      "diag": {
+        "1": "make a point 常表示“提出观点/特意强调”，这里强调的是没抓住真正问题。",
+        "2": "reach the point 需要具体语境，如 reach the point where...，不能表达“没抓住重点”。",
+        "3": "point out 通常后接宾语，表示“指出”；这里既不合结构也不合语义。"
+      },
+      "exp": {
+        "trans": "委员会花了二十分钟争论警示牌的字体，而真正的问题是这座桥是否安全。他们显然没有抓住重点。",
+        "structure": "第一句：The committee（主语）+ spent（谓语）+ twenty minutes（宾语）；arguing...说明时间花在何事上。while连接对比；whether the bridge was safe作表语从句。第二句：They（主语）+ were missing（现在进行时谓语）+ the point（宾语）。",
+        "other": "committee 委员会；warning sign 警示牌；issue 问题/争议点；safe 安全的。",
+        "meaning": "miss the point = 没抓住重点、没理解关键。point 在这里是“要点/关键”，不是“节点”。",
+        "rest": "B make a point=提出/强调一个观点；C reach the point=达到某个阶段/程度；D point out=指出某事。"
+      },
+      "family": "point",
+      "introduced": "2026-09-29",
+      "budget": 35
+    },
+    {
+      "id": "account-night-train",
+      "family": "account",
+      "introduced": null,
+      "target": "account",
+      "skill": "account 熟词生义",
+      "q": "My grandmother's account of her first night-train journey included a vivid description of the sunrise.\naccount 在这里是什么意思？",
+      "o": [
+        "银行账户",
+        "记述、叙述",
+        "待付账单",
+        "利润总额"
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "奶奶在叙述她第一次乘夜班火车的经历时，生动地描写了日出。",
+        "structure": "My grandmother's account of her first night-train journey是主语；中心词account，of短语说明叙述内容。included是谓语；a vivid description of the sunrise是宾语。",
+        "other": "night-train 夜班火车；journey 旅程；vivid 生动的；sunrise 日出。",
+        "meaning": "an account of sth：对某事的记述。与经历、事件内容以及describe等信息连用时，不应先套入银行账户义。",
+        "rest": "银行账户是bank account/open an account，不能包含日出描写。待付账单通常是bill/invoice，核心是款项。利润总额是total profit，而不是对旅程的叙述。"
+      }
+    },
+    {
+      "id": "standard-repair-tickets",
+      "family": "standard",
+      "introduced": null,
+      "target": "standard",
+      "skill": "standard 熟词生义",
+      "q": "Giving each customer a numbered ticket is standard practice at this repair shop.\nstandard 在这里表示：",
+      "o": [
+        "最高档的",
+        "通行的、常规的",
+        "尺寸统一的",
+        "道德上无可指责的"
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "给每位顾客发一张号码票，是这家维修店的常规做法。",
+        "structure": "Giving each customer a numbered ticket是动名词短语主语；is是系动词；standard practice是表语。Giving内部是give sb sth双宾语结构：each customer为间接宾语，a numbered ticket为直接宾语。",
+        "other": "customer 顾客；numbered 带编号的；practice 做法、惯例；repair shop 维修店。",
+        "meaning": "standard practice表示通行做法，standard不自动等于最高质量或道德正确。",
+        "rest": "最高档的可说top-of-the-range，原句没有质量排名。尺寸统一可以说standard-sized，但这里修饰的是practice不是票的尺寸。道德上无可指责可说blameless，惯常做法不等于道德判断。"
+      }
+    }
+  ],
+  "retry": {
+    "remote": [],
+    "compromise": [],
+    "nested": [
+      {
+        "id": "legacy-who-that-main",
+        "source": "today",
+        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+        "target": "who 定语从句 / that 宾语从句",
+        "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+        "o": [
+          "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+          "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+          "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+          "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+        ],
+        "a": 0,
+        "diag": {
+          "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
+          "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
+          "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
+        },
+        "exp": {
+          "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
+          "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
+          "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
+          "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
+          "rest": "B/D 都把 that 从句的 proves 错当成外层谓语；C 把 that 从句内部的 a longer résumé 错当成整句主语。"
+        },
+        "family": "nested",
+        "introduced": "2026-09-29",
+        "budget": 60
+      }
+    ],
+    "with": [],
+    "conditions": [],
+    "point": [
+      {
+        "id": "point-joke",
+        "family": "point",
+        "introduced": "2026-09-29",
+        "target": "miss the point",
+        "skill": "miss the point / point",
+        "q": "Even after I explained the joke twice, my brother still missed the point.\nmissed the point 在这里表示什么？",
+        "o": [
+          "仍然怀念以前的笑话",
+          "仍然没明白笑话的关键",
+          "忘记了一个标点符号",
+          "没赶上兄弟聚会"
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "即使我把这个笑话解释了两遍，我弟弟仍然没有明白其中的关键。",
+          "structure": "主句：my brother（主语）+ missed（谓语）+ the point（宾语）。after从句：I + explained + the joke；twice修饰explained。even强调即便已经解释过，结果仍如此。",
+          "other": "joke 笑话；twice 两次；still 仍然；explain 解释。",
+          "meaning": "miss the point整体表示没领会关键、没明白意思，不能把miss机械地译成怀念。",
+          "rest": "miss sb可表示想念某人，但miss the point不是这一义项。标点符号一般是punctuation mark，不是这里的point。miss a meeting可表示错过聚会，但原句没有meeting；brother是主语，不是被错过的活动。"
+        }
+      },
+      {
+        "id": "point-waiting",
+        "family": "point",
+        "introduced": "2026-09-29",
+        "target": "point / there is no point in doing",
+        "skill": "point 熟词生义",
+        "q": "With the last bus already gone, there was no point in waiting at the stop.\npoint 在这里最接近：",
+        "o": [
+          "联合会",
+          "尖端",
+          "分数",
+          "意义、用处"
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "末班车已经开走了，继续在车站等也没有意义。",
+          "structure": "主干：there was no point in waiting at the stop，是there be存在句。With the last bus already gone补充原因背景。简单句The last bus was already gone → 去掉was，用with + 名词 + 状态补语压缩。",
+          "other": "last bus 末班车；already 已经；be gone 已经离开、不在了；bus stop 公交站。",
+          "meaning": "there is no point in doing sth：做某事没有意义；point不是物理位置上的点。",
+          "rest": "联合会常用federation/association，与句意无关。尖端可用the point of a needle，必须是具体物体的尖端。分数可说score three points，但这里不是计分语境。"
+        }
+      }
+    ],
+    "account": [],
+    "standard": []
+  },
+  "issues_used": [
+    1,
+    2,
+    3
+  ],
+  "engine": 3
+}

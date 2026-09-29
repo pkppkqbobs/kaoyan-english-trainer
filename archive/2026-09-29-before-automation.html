@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>下一轮定制复习 · 考研英语</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#172033;--muted:#667085;--line:#e4e7ec;--accent:#3157d5;--accent2:#eef2ff;--good:#087443;--goodbg:#ecfdf3;--bad:#b42318;--badbg:#fef3f2;--warn:#b54708;--warnbg:#fffaeb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.app{max-width:860px;margin:auto;padding:16px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}.brand{font-size:21px;font-weight:900}.sub{font-size:13px;color:var(--muted);line-height:1.55}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 8px 28px #1018280d}.target{display:inline-block;background:var(--accent2);color:#303f9f;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.meta{display:flex;justify-content:space-between;gap:10px;align-items:center}.q{font-size:18px;line-height:1.65;margin:16px 0;white-space:pre-line}.opts{display:grid;gap:9px}.opt{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:12px 13px;cursor:pointer;line-height:1.5}.opt:hover{border-color:#aab7ff;background:#fafbff}.opt.correct{background:var(--goodbg);border-color:#6ce9a6}.opt.wrong{background:var(--badbg);border-color:#fda29b}.opt:disabled{cursor:default;color:inherit}.feedback{margin-top:12px;border-radius:12px;padding:11px 12px;line-height:1.55}.feedback.good{background:var(--goodbg);color:var(--good)}.feedback.bad{background:var(--badbg);color:var(--bad)}.feedback.warn{background:var(--warnbg);color:var(--warn)}.btn{border:0;border-radius:10px;padding:10px 13px;font-weight:800;cursor:pointer}.primary{background:var(--accent);color:#fff}.secondary{background:#eef1f5;color:#111827}.warn{background:var(--warnbg);color:var(--warn)}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.hidden{display:none!important}.exp{margin-top:12px;border:1px solid var(--line);border-radius:12px;padding:12px;line-height:1.65;background:#fbfcfe}.exp b{display:block;margin-top:8px}.exp b:first-child{margin-top:0}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:14px}.kpi{background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:12px}.kpi strong{display:block;font-size:22px}.review-item{border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:10px}.review-item .qmini{font-weight:800;margin-bottom:6px}.home{color:var(--accent);text-decoration:none;font-weight:800}
+@media(max-width:650px){.app{padding:10px}.q{font-size:16px}.top{flex-direction:column}.summary{grid-template-columns:1fr 1fr 1fr}.btn{padding:9px 11px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div>
+      <div class="brand">今日定制 · 8题</div>
+      <div class="sub">2026-09-29 晚间更新：刚暴露的新错点 + 历史弱项 + 间隔复习；每次打开顺序随机。</div>
+    </div>
+    <a class="home" href="./">返回总训练站</a>
+  </div>
+
+  <div id="quiz" class="card">
+    <div class="meta"><span class="target" id="target"></span><span class="sub" id="progress"></span></div>
+    <div class="q" id="question"></div>
+    <div class="opts" id="options"></div>
+    <div id="feedback"></div>
+    <div id="explain" class="exp hidden"></div>
+    <div class="actions">
+      <button class="btn secondary hidden" id="whyBtn">查看完整解析</button>
+      <button class="btn primary hidden" id="nextBtn">下一题</button>
+    </div>
+  </div>
+
+  <div id="result" class="card hidden">
+    <h2 style="margin-top:0">本轮完成</h2>
+    <div class="summary">
+      <div class="kpi"><strong id="scoreKpi">0/8</strong><span class="sub">正确</span></div>
+      <div class="kpi"><strong id="timeKpi">0s</strong><span class="sub">平均用时</span></div>
+      <div class="kpi"><strong id="weakKpi">-</strong><span class="sub">最需回炉</span></div>
+    </div>
+    <div class="actions">
+      <button class="btn warn" id="redoWrongBtn">① 只重做错题</button>
+      <button class="btn secondary" id="viewWrongBtn">② 查看本轮错题与解析</button>
+      <button class="btn secondary" id="redoAllBtn">③ 全部重做</button>
+      <button class="btn primary" id="submitBtn">提交结果到 GitHub</button>
+    </div>
+  </div>
+
+  <div id="wrongReview" class="card hidden" style="margin-top:14px">
+    <div class="meta"><h3 style="margin:0">本轮错题与解析</h3><button class="btn secondary" id="closeReview">收起</button></div>
+    <div id="wrongItems"></div>
+  </div>
+</div>
+
+<script>
+const BANK = [
+  {
+    "id": "unpretentious",
+    "source": "today",
+    "skill": "unpretentious / unpredictable",
+    "target": "unpretentious / unpredictable",
+    "q": "The scientist's office was surprisingly ___: plain shelves, an old desk, and no awards on display.",
+    "o": [
+      "unpretentious",
+      "unpredictable",
+      "formidable",
+      "perplexing"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "把 unpretentious 和 unpredictable 混淆了：这里描述的是朴素、不摆架子的风格，不是“无法预测”。",
+      "2": "formidable 表示“令人敬畏的、难对付的”，与 plain / no awards 的语义方向相反。",
+      "3": "perplexing 表示“令人困惑的”，这里没有“难以理解”的线索。"
+    },
+    "exp": {
+      "trans": "这位科学家的办公室出人意料地朴素：普通的书架、一张旧书桌，而且没有陈列任何奖项。",
+      "structure": "主干：The scientist's office（主语）+ was（系动词）+ unpretentious（表语）。冒号后 plain shelves, an old desk, and no awards on display 是对“朴素”的具体说明。",
+      "other": "plain 普通的/朴素的；shelf 书架；on display 陈列着；award 奖项。",
+      "meaning": "unpretentious = 不装腔作势的、朴实低调的。注意：unpredictable 才是“无法预测的”。",
+      "rest": "B unpredictable=不可预测的；C formidable=令人敬畏的/难对付的；D perplexing=令人困惑的。这里只有 A 与后面的“普通书架、旧桌子、不展示奖项”一致。"
+    }
+  },
+  {
+    "id": "faint-praise",
+    "source": "today",
+    "skill": "faint / faint praise",
+    "target": "faint / faint praise",
+    "q": "After a two-hour presentation, Maya said, “Well, at least the slides were readable.” Her remark is best described as:",
+    "o": [
+      "faint praise",
+      "earnest approval",
+      "open hostility",
+      "sufficient evidence"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "earnest approval 是真诚而明确的赞许；“at least...”只给了很弱的一点肯定。",
+      "2": "这句话并非直接敌意攻击，而是非常有限、勉强的表扬。",
+      "3": "evidence 是“证据”，不是评价语气。"
+    },
+    "exp": {
+      "trans": "听完一场两小时的演讲后，Maya 说：“嗯，至少幻灯片还看得清。”这句话最适合形容为“勉强的赞扬”。",
+      "structure": "主句：Her remark（主语）+ is（系动词）+ best described as faint praise（表语补足）。引号中的 at least 把肯定压到很低，只夸“幻灯片可读”。",
+      "other": "presentation 演讲/展示；readable 易读的；remark 评论；at least 至少。",
+      "meaning": "faint praise = 勉强的、力度很弱的赞扬。这里 faint 的核心是“微弱的、不强的”。",
+      "rest": "B earnest approval=真诚、认真地赞成，语气过强；C open hostility=公开敌意，不符合；D sufficient evidence=充分证据，词义类别都不对。"
+    }
+  },
+  {
+    "id": "miss-point",
+    "source": "today",
+    "skill": "miss the point / point",
+    "target": "miss the point / point",
+    "q": "The committee spent twenty minutes arguing about the font on the warning sign, while the real issue was whether the bridge was safe. They were clearly ___.",
+    "o": [
+      "missing the point",
+      "making a point",
+      "reaching the point",
+      "pointing out"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "make a point 常表示“提出观点/特意强调”，这里强调的是没抓住真正问题。",
+      "2": "reach the point 需要具体语境，如 reach the point where...，不能表达“没抓住重点”。",
+      "3": "point out 通常后接宾语，表示“指出”；这里既不合结构也不合语义。"
+    },
+    "exp": {
+      "trans": "委员会花了二十分钟争论警示牌的字体，而真正的问题是这座桥是否安全。他们显然没有抓住重点。",
+      "structure": "第一句由 while 连接对比：The committee spent...，而 the real issue was whether the bridge was safe。第二句主干：They + were + missing the point。",
+      "other": "committee 委员会；warning sign 警示牌；issue 问题/争议点；safe 安全的。",
+      "meaning": "miss the point = 没抓住重点、没理解关键。point 在这里是“要点/关键”，不是“节点”。",
+      "rest": "B make a point=提出/强调一个观点；C reach the point=达到某个阶段/程度；D point out=指出某事。"
+    }
+  },
+  {
+    "id": "who-that-main",
+    "source": "today",
+    "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+    "target": "who 定语从句 / that 宾语从句",
+    "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+    "o": [
+      "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+      "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+      "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+      "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
+      "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
+      "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
+    },
+    "exp": {
+      "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
+      "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
+      "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
+      "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
+      "rest": "B/D 都把 that 从句的 proves 错当成外层谓语；C 把 that 从句内部的 a longer résumé 错当成整句主语。"
+    }
+  },
+  {
+    "id": "subject",
+    "source": "recent",
+    "skill": "be subject to / be subjected to",
+    "target": "be subject to / be subjected to",
+    "q": "① Refunds are ___ verification of purchase.\n② During the durability test, the phones were ___ repeated drops from one meter.",
+    "o": [
+      "subject to / subjected to",
+      "subjected to / subject to",
+      "subject to / subject to",
+      "subjected to / subjected to"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "第一空是退款规则/条件，第二空是测试中被施加跌落过程，方向正好相反。",
+      "2": "第二空强调手机实际经历反复跌落，应使用 were subjected to。",
+      "3": "第一空不是“被施加 verification 的动作过程”，而是“须经核验”的规则状态。"
+    },
+    "exp": {
+      "trans": "① 退款须核验购买凭证。② 在耐久性测试中，这些手机被反复从一米高处跌落。",
+      "structure": "① Refunds + are + subject to verification：系表结构，表示规则/条件。② the phones + were subjected to + repeated drops：被动结构，表示被施加测试过程。",
+      "other": "refund 退款；verification 核验；durability 耐久性；repeated drops 反复跌落。",
+      "meaning": "be subject to = 受制于/须经/可能受……影响（状态或规则）；be subjected to = 被施加/经历某过程。",
+      "rest": "B 把两者完全颠倒；C 第二空错；D 第一空错。题干用“退款规则”和“实际测试过程”把两者明确区分开。"
+    }
+  },
+  {
+    "id": "even",
+    "source": "recent",
+    "skill": "even / ever / over",
+    "target": "even / ever / over",
+    "q": "___ the past decade, the village has become busier than ___ before, and ___ residents who once opposed tourism now run guesthouses.",
+    "o": [
+      "Even / over / ever",
+      "Over / ever / even",
+      "Ever / even / over",
+      "Over / even / ever"
+    ],
+    "a": 1,
+    "diag": {
+      "0": "第一空需要表示“一段时间内”的 Over；三个词的位置功能被打乱了。",
+      "2": "Ever 不能在这里表示“过去十年间”；第二空比较结构需要 ever。",
+      "3": "第二空 than even before 不成立；第三空应是 even residents=甚至居民。"
+    },
+    "exp": {
+      "trans": "在过去十年里，这个村子比以往任何时候都更热闹，甚至一些曾经反对旅游业的居民现在也经营起了民宿。",
+      "structure": "Over the past decade 是时间范围状语；busier than ever before 是比较结构；even residents... 中 even 强调“甚至这些居民”。",
+      "other": "decade 十年；oppose 反对；tourism 旅游业；guesthouse 民宿/旅馆。",
+      "meaning": "over=在……期间；ever=曾经/任何时候；even=甚至。",
+      "rest": "A/C/D 至少有一个位置的语法功能或语义不成立。尤其记住 than ever before 和 even + 名词。"
+    }
+  },
+  {
+    "id": "which",
+    "source": "old",
+    "skill": "介词 + which",
+    "target": "preposition + which",
+    "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
+    "o": [
+      "The archive contains several letters on which the historian based her argument.",
+      "The archive contains several letters which on the historian based her argument.",
+      "The archive contains several letters on that the historian based her argument.",
+      "The archive contains several letters which the historian based her argument on them."
+    ],
+    "a": 0,
+    "diag": {
+      "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+      "2": "介词后不能用关系代词 that；应使用 which。",
+      "3": "which 已经代替 those letters，后面再用 them 造成重复。"
+    },
+    "exp": {
+      "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+      "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+      "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+      "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+      "rest": "B 词序错误；C 介词后不能用 that；D which 和 them 重复。"
+    }
+  },
+  {
+    "id": "such",
+    "source": "old",
+    "skill": "these / such 回指",
+    "target": "these / such 回指",
+    "q": "段A：The museum lowered ticket prices and added evening hours.\n段B：Such changes attracted more local families during the week.\n段C：A different museum across town raised its prices last year.\n\n段B中的 Such changes 最直接回指什么？",
+    "o": [
+      "段A中的降价和延长晚间开放时间",
+      "段C中另一家博物馆的涨价",
+      "所有博物馆过去一年的变化",
+      "local families 本身"
+    ],
+    "a": 0,
+    "diag": {
+      "1": "段B先于段C，且 Such changes 就近概括段A的两个措施。",
+      "2": "题干没有支持“所有博物馆”的泛指。",
+      "3": "changes 指的是措施变化，不是家庭。"
+    },
+    "exp": {
+      "trans": "A：博物馆降低了票价，并延长了晚间开放时间。B：这些变化吸引了更多本地家庭在工作日前来。C：城另一边的另一家博物馆去年提高了票价。",
+      "structure": "段A先给出两个并列措施 lowered ticket prices / added evening hours；段B用 Such changes 对这两个措施整体回指，再说明结果 attracted more local families。",
+      "other": "lower 降低；ticket price 票价；evening hours 晚间开放时段；attract 吸引。",
+      "meaning": "such + 名词 常把前文已经描述过的同类事物/情况概括回指；这里 Such changes = 段A的两项变化。",
+      "rest": "B 是后文另一对象；C 范围被无依据扩大；D 词义和语法都不匹配。"
+    }
+  }
+];
+
+const RETRY = {
+  "unpretentious": {
+    "q": "Although the guesthouse is popular with celebrities, its rooms are deliberately ___, with plain furniture and no flashy decoration.",
+    "o": [
+      "unpretentious",
+      "unpredictable",
+      "perplexing",
+      "formidable"
+    ],
+    "a": 0
+  },
+  "faint-praise": {
+    "q": "Asked about the expensive meal, Ben said, “At least the water was cold.” This is best described as:",
+    "o": [
+      "faint praise",
+      "earnest approval",
+      "sufficient evidence",
+      "open admiration"
+    ],
+    "a": 0
+  },
+  "miss-point": {
+    "q": "The team argued about the color of the app icon while ignoring repeated crashes. They were ___.",
+    "o": [
+      "missing the point",
+      "making a point",
+      "reaching the point",
+      "pointing out"
+    ],
+    "a": 0
+  },
+  "who-that-main": {
+    "q": "Customers who assume that a higher price always guarantees better quality often ignore simpler alternatives.\n哪组句法判断正确？",
+    "o": [
+      "主句主语 Customers；who 从句谓语 assume；主句谓语 ignore",
+      "主句主语 a higher price；who 从句谓语 guarantees；主句谓语 assume",
+      "主句主语 Customers；who 从句谓语 guarantees；主句谓语 ignore",
+      "主句主语 Customers；who 从句谓语 assume；主句谓语 guarantees"
+    ],
+    "a": 0
+  },
+  "subject": {
+    "q": "① Ticket prices are ___ change without notice.\n② Before release, the material was ___ extreme pressure in the laboratory.",
+    "o": [
+      "subject to / subjected to",
+      "subjected to / subject to",
+      "subject to / subject to",
+      "subjected to / subjected to"
+    ],
+    "a": 0
+  },
+  "even": {
+    "q": "___ the last month, attendance has been higher than ___ before, and ___ weekday sessions are now full.",
+    "o": [
+      "Even / over / ever",
+      "Over / ever / even",
+      "Ever / even / over",
+      "Over / even / ever"
+    ],
+    "a": 1
+  },
+  "which": {
+    "q": "This is the method. Our conclusion depends on this method.\n最自然合并：",
+    "o": [
+      "This is the method on which our conclusion depends.",
+      "This is the method which on our conclusion depends.",
+      "This is the method on that our conclusion depends.",
+      "This is the method which our conclusion depends on it."
+    ],
+    "a": 0
+  },
+  "such": {
+    "q": "段A：The library added more sockets and extended weekend hours.\n段B：Such improvements made the space more useful to students.\nSuch improvements 回指：",
+    "o": [
+      "段A的两项改进",
+      "学生本身",
+      "所有图书馆的变化",
+      "周末本身"
+    ],
+    "a": 0
+  }
+};
+
+function buildOrder(){
+  for(let t=0;t<40;t++){
+    const a=BANK.slice().sort(()=>Math.random()-.5);
+    let ok=true;
+    for(let i=1;i<a.length;i++){
+      if(a[i].source==="today" && a[i-1].source==="today"){ok=false;break}
+    }
+    if(ok)return a;
+  }
+  return BANK.slice();
+}
+let order = buildOrder();
+let state={answers:[],mode:"main",queue:order,index:0};
+
+function E(id){return document.getElementById(id)}
+function expHtml(q){return "<b>1.【整句翻译】</b>"+q.exp.trans+"<b>2.【句子主干】</b>"+q.exp.structure+"<b>3.【其他词汇】</b>"+q.exp.other+"<b>4.【本题词义】</b>"+q.exp.meaning+"<b>5.【其余选项】</b>"+q.exp.rest}
+function render(){
+  if(state.index>=state.queue.length){finish();return}
+  const q=state.queue[state.index];state.qStart=Date.now();
+  E("target").textContent="【本题目标："+q.target+"】";E("progress").textContent=(state.index+1)+" / "+state.queue.length;E("question").textContent=q.q;
+  E("options").innerHTML="";E("feedback").innerHTML="";E("feedback").className="";E("explain").classList.add("hidden");E("whyBtn").classList.add("hidden");E("nextBtn").classList.add("hidden");
+  q.o.forEach((t,i)=>{const b=document.createElement("button");b.className="opt";b.innerHTML="<b>"+["A","B","C","D"][i]+".</b> "+t;b.onclick=()=>answer(i);E("options").appendChild(b)})
+}
+function answer(pick){
+  const q=state.queue[state.index],ms=Date.now()-state.qStart,ok=pick===q.a;
+  state.answers.push({id:q.id,source:q.source,skill:q.skill,target:q.target,pick,answer:q.a,ok,ms,mode:state.mode});
+  [...document.querySelectorAll(".opt")].forEach((b,i)=>{b.disabled=true;if(i===q.a)b.classList.add("correct");if(i===pick&&!ok)b.classList.add("wrong")});
+  if(ok&&ms<=22000){E("feedback").className="feedback good";E("feedback").textContent="✓ 正确。"}
+  else if(ok){E("feedback").className="feedback warn";E("feedback").textContent="✓ 正确，但用了 "+(ms/1000).toFixed(1)+" 秒，仍需间隔复习。"}
+  else{E("feedback").className="feedback bad";E("feedback").innerHTML="✗ 这次更像是：<b>"+(q.diag[pick]||"判断路径需要调整")+"</b>。"}
+  E("whyBtn").classList.remove("hidden");E("nextBtn").classList.remove("hidden")
+}
+E("whyBtn").onclick=()=>{const q=state.queue[state.index];E("explain").innerHTML=expHtml(q);E("explain").classList.remove("hidden")};
+E("nextBtn").onclick=()=>{state.index++;render()};
+
+function finish(){
+  E("quiz").classList.add("hidden");E("result").classList.remove("hidden");
+  const arr=state.answers.filter(x=>x.mode===state.mode),correct=arr.filter(x=>x.ok).length,avg=arr.length?Math.round(arr.reduce((a,b)=>a+b.ms,0)/arr.length/1000):0;
+  E("scoreKpi").textContent=correct+"/"+arr.length;E("timeKpi").textContent=avg+"s";
+  const bad=arr.filter(x=>!x.ok||x.ms>22000);E("weakKpi").textContent=bad[0]?bad[0].skill:"稳定";
+}
+E("viewWrongBtn").onclick=()=>{
+  const arr=state.answers.filter(x=>x.mode==="main"&&!x.ok);
+  E("wrongItems").innerHTML=arr.length?arr.map(r=>{const q=BANK.find(x=>x.id===r.id);return "<div class='review-item'><div class='qmini'>"+q.target+"</div><div class='sub'>你选 "+["A","B","C","D"][r.pick]+"，正确 "+["A","B","C","D"][r.answer]+" · "+(r.ms/1000).toFixed(1)+"s</div><div class='exp'>"+expHtml(q)+"</div></div>"}).join(""):"<div class='sub'>本轮无错题。</div>";
+  E("wrongReview").classList.remove("hidden")
+};
+E("closeReview").onclick=()=>E("wrongReview").classList.add("hidden");
+E("redoWrongBtn").onclick=()=>{
+  const wrong=state.answers.filter(x=>x.mode==="main"&&!x.ok);if(!wrong.length){alert("本轮没有错题。");return}
+  const qs=wrong.map(r=>{const base=BANK.find(x=>x.id===r.id),re=RETRY[r.id];return {...base,id:"retry-"+r.id,q:re.q,o:re.o,a:re.a}});
+  state.mode="retry";state.queue=qs.sort(()=>Math.random()-.5);state.index=0;E("result").classList.add("hidden");E("wrongReview").classList.add("hidden");E("quiz").classList.remove("hidden");render()
+};
+E("redoAllBtn").onclick=()=>{state={answers:[],mode:"main",queue:buildOrder(),index:0};E("result").classList.add("hidden");E("wrongReview").classList.add("hidden");E("quiz").classList.remove("hidden");render()};
+function makeReport(){
+  const arr=state.answers.filter(x=>x.mode==="main"),correct=arr.filter(x=>x.ok).length;
+  const lines=["考研英语混合间隔训练","题数 "+arr.length+"｜正确 "+correct+"｜正确率 "+(arr.length?Math.round(correct/arr.length*100):0)+"%"];
+  if(arr.length)lines.push("平均用时 "+Math.round(arr.reduce((a,b)=>a+b.ms,0)/arr.length/1000)+"s");
+  lines.push("","【逐题】");arr.forEach((x,i)=>lines.push("Q"+(i+1)+" ["+x.source+"] "+x.skill+"：选"+["A","B","C","D"][x.pick]+"→正确"+["A","B","C","D"][x.answer]+"；"+(x.ok?"正确":"错误")+"；"+(x.ms/1000).toFixed(1)+"s"));
+  return lines.join("\n")
+}
+E("submitBtn").onclick=()=>{const title="[TRAINING_RESULT] 混合间隔训练 "+new Date().toISOString().slice(0,10)+" "+Date.now();const body="<!-- kaoyan-english-training-result -->\n"+makeReport();window.open("https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/new?title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body),"_blank","noopener,noreferrer")};
+render();
+</script>
+</body>
+</html>
