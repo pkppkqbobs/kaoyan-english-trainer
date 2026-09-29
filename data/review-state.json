@@ -6,24 +6,6 @@
     3
   ],
   "families": {
-    "even": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-10-03",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "end-up": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
     "reference": {
       "streak": 0,
       "errors": 2,
@@ -32,24 +14,6 @@
       "slow_or_uncertain": true,
       "reported_confusion": false,
       "observed_days": 3
-    },
-    "relative": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-10-03",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "account": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
     },
     "compromise": {
       "streak": 1,
@@ -60,14 +24,23 @@
       "reported_confusion": false,
       "observed_days": 1
     },
-    "remote": {
+    "point": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-09-29",
       "due": "2026-09-29",
       "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "even": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 0
+      "observed_days": 2
     },
     "faint": {
       "streak": 0,
@@ -78,6 +51,15 @@
       "reported_confusion": true,
       "observed_days": 1
     },
+    "relative": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
     "with": {
       "streak": 0,
       "errors": 0,
@@ -86,24 +68,6 @@
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
-    },
-    "subject": {
-      "streak": 0,
-      "errors": 1,
-      "last": "2026-09-29",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 3
-    },
-    "point": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
     },
     "standard": {
       "streak": 1,
@@ -114,14 +78,23 @@
       "reported_confusion": false,
       "observed_days": 1
     },
-    "nested": {
+    "account": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-09-29",
+      "last": null,
       "due": "2026-09-29",
       "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "conditions": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
     },
     "unpretentious": {
       "streak": 0,
@@ -132,7 +105,7 @@
       "reported_confusion": true,
       "observed_days": 1
     },
-    "conditions": {
+    "end-up": {
       "streak": 0,
       "errors": 0,
       "last": null,
@@ -140,6 +113,33 @@
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
+    },
+    "remote": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "nested": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "subject": {
+      "streak": 0,
+      "errors": 1,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 3
     }
   },
   "unmapped_targets": [
