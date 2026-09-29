@@ -15,6 +15,8 @@
 
 `data/learning-notes.json` 中的自述混淆是单独证据，不能伪装成做过的选择题成绩。`data/review-state.json` 保留下一次到期日期、连续表现和尚无对应题型的历史目标。不要因为某目标暂时没有模板就删掉它。
 
+**评分前必须读取题目质量排除记录。** `data/quality-exclusions.json` 保存经复核有歧义或答案错误的旧题，按 Issue 编号与目标家族精确定位；`data/excluded-evidence.json` 保留被排除的原始记录与理由。不要改写用户提交的原始 Issue，也不要把被排除的题算对或算错、或据此增加错误频率。已确认：Issue #3 的 subject 题中 `Refunds are ___ verification of purchase` 未充分区分规则状态和处理过程，用户选择 D 不能证明没理解；该条已排除，需用无歧义新题重新检测。其他有效成绩照常保留。
+
 每次 8 题、约 5–10 分钟：当天新目标最多 2 题，通常混入前 1–3 天弱项、至少 3 个更早目标，以及到期的维护题；稳定目标不足时用旧弱项替补，不能编造“已经掌握”。每轮 1–2 个结构判断，不堆长句。来源打散，每轮同一目标家族只取一道主测。原始选项在前端重新排列并平衡答案位置，不能靠多数答案为 A 猜题。
 
 ## 题库格式
@@ -72,9 +74,11 @@
 python3 -m unittest discover -s tests -v
 node --check web/review.js
 node tests/ui.mjs
-python3 scripts/daily_review.py --sync
+python3 scripts/run_daily.py --sync
 ```
 
-第一次导入会把旧页面保存在 `archive/2026-09-29-before-automation.html`。构建自动生成 data/base-bank.json、result-evidence.json、review-state.json、daily.json、daily-history.json、days/日期.json及today.html。源题库与生成结果分开；维护者不要直接覆盖 today.html 的内嵌数据。
+生产入口是 `scripts/run_daily.py`，它先应用题目质量排除规则，再调用 `daily_review.py` 中的核心生成逻辑；不要绕过质量排除入口同步成绩。
+
+第一次导入会把旧页面保存在 `archive/2026-09-29-before-automation.html`。构建自动生成 data/base-bank.json、result-evidence.json、excluded-evidence.json、review-state.json、daily.json、daily-history.json、days/日期.json及today.html。源题库与生成结果分开；维护者不要直接覆盖 today.html 的内嵌数据。
 
 必须在测试通过后才提交生成结果并部署。使用官方 Pages artifact 部署，不依赖 GITHUB_TOKEN 自己的提交再次触发分支构建。推送冲突时不强推覆盖；任务失败应说明失败点并保留旧版本。最终确认要区分“代码已提交”“工作流通过”“网页已部署”，不能只看到提交就宣称全部成功。
