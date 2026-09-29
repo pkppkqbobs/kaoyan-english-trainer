@@ -1,0 +1,8 @@
+[
+  {
+    "origin": 3,
+    "family": "subject",
+    "reason": "2026-09-29旧版题干第一句Refunds are ___ verification of purchase没有充分区分规则状态与实际核验过程；第二句测试过程下subjected to成立。因此不能依据用户选择D(subjected to / subjected to)就判定其混淆。保留原始Issue报告，但该条不计入正确率推断、错误次数或连续掌握证据；用已修订的无歧义题重新测。",
+    "reviewed_on": "2026-09-29"
+  }
+]
