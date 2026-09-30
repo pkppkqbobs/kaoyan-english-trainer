@@ -1,0 +1,232 @@
+[
+  {
+    "id": "logic-unless-freezer",
+    "family": "logic",
+    "introduced": null,
+    "target": "because / unless 整句逻辑",
+    "skill": "because / unless 整句逻辑",
+    "q": "The medicine must stay below 8°C; it may lose effectiveness ___ it is kept in a refrigerator during transport.",
+    "o": [
+      "because",
+      "unless",
+      "although",
+      "so that"
+    ],
+    "a": 1,
+    "budget": 40,
+    "exp": {
+      "trans": "这种药必须保持在8摄氏度以下；运输途中如果不放在冰箱里，它可能会失去药效。",
+      "structure": "分号前：The medicine（主语）+ must stay（谓语）+ below 8°C（补足信息）。分号后主干：it（主语）+ may lose（谓语）+ effectiveness（宾语）。unless引导条件状语从句：it is kept in a refrigerator during transport，相当于 if it is not kept...。",
+      "other": "effectiveness 有效性；refrigerator 冰箱；during transport 在运输过程中；keep sth below... 使某物保持在……以下。",
+      "meaning": "unless = if...not，表示“除非/如果不”。这里逻辑是：不冷藏 → 可能失效。",
+      "rest": "because表示原因，会变成“因为被冷藏所以失效”，逻辑相反；although表示让步，不能表达必要条件；so that表示目的/结果，通常是“为了……”，与这里的风险条件不符。"
+    }
+  },
+  {
+    "id": "transition-river-levels",
+    "family": "transition",
+    "introduced": null,
+    "target": "Similarly / Conversely",
+    "skill": "Similarly / Conversely",
+    "q": "The northern reservoir filled rapidly after weeks of rain. ___, the southern reservoir continued to fall because the storm never reached that region.",
+    "o": [
+      "Similarly",
+      "Conversely",
+      "Therefore",
+      "For example"
+    ],
+    "a": 1,
+    "budget": 35,
+    "exp": {
+      "trans": "连续数周降雨后，北部水库水位迅速上升。相反，南部水库的水位却继续下降，因为暴雨根本没有到达那个地区。",
+      "structure": "第一句主干：The northern reservoir + filled。第二句主干：the southern reservoir + continued to fall；because从句解释下降原因。连接词要概括两句之间的相反关系。",
+      "other": "reservoir 水库；rapidly 迅速地；continue to fall 持续下降；region 地区。",
+      "meaning": "Conversely表示“相反地、反过来”，用于前后趋势明显对立。",
+      "rest": "Similarly表示相似关系，但一边上升、一边下降不相似；Therefore表示因果，第二句不是第一句造成的；For example引出例子，但第二句是在对照另一地区。"
+    }
+  },
+  {
+    "id": "parallel-governance-repair",
+    "family": "parallel-governance",
+    "introduced": null,
+    "target": "共同动词支配 / either...or...",
+    "skill": "共同动词支配",
+    "q": "Which sentence has a clean parallel structure in which the same modal verb governs both alternatives?",
+    "o": [
+      "The technician can either replace the sensor or recalibrate the device.",
+      "The technician either can replace the sensor or recalibration of the device.",
+      "The technician can either replacing the sensor or recalibrate the device.",
+      "The technician can either replace the sensor or the device is recalibrated."
+    ],
+    "a": 0,
+    "budget": 45,
+    "exp": {
+      "trans": "正确句：技术员可以要么更换传感器，要么重新校准设备。",
+      "structure": "主干：The technician（主语）+ can（情态动词）+ either replace... or recalibrate...。can同时支配replace和recalibrate，两边都是动词原形，结构完全平行。",
+      "other": "technician 技术员；sensor 传感器；recalibrate 重新校准；device 设备。",
+      "meaning": "共同动词支配时，并列两端应保持同一语法层级。这里 can + replace / recalibrate。",
+      "rest": "either can replace... or recalibration... 把动词结构和名词结构并列；can either replacing... 中情态动词后不能接-ing形式；replace... or the device is recalibrated 把动词短语和完整从句并列，层级不一致。"
+    }
+  },
+  {
+    "id": "summary-overall-midsection",
+    "family": "summary-location",
+    "introduced": null,
+    "target": "Overall / 总结词定位",
+    "skill": "总结词定位",
+    "q": "A paragraph begins: “Overall, the first phase cut waiting times but raised operating costs.” The article then spends two more paragraphs discussing why costs rose. What does Overall most likely do here?",
+    "o": [
+      "It proves the article has reached its final sentence.",
+      "It summarizes the first phase before the article moves to further analysis.",
+      "It introduces a completely unrelated example.",
+      "It means the following claim is uncertain."
+    ],
+    "a": 1,
+    "budget": 45,
+    "exp": {
+      "trans": "段落开头说：“总体来看，第一阶段缩短了等待时间，但提高了运营成本。”随后文章又用两段分析成本为何上升。这里 Overall 最可能是在进一步分析之前概括第一阶段的总体结果。",
+      "structure": "引号内主干：the first phase（主语）+ cut / raised（并列谓语）+ waiting times / operating costs（宾语）。Overall修饰整句判断，表示概括性评价；后文仍可继续展开。",
+      "other": "phase 阶段；waiting time 等待时间；operating cost 运营成本；further analysis 进一步分析。",
+      "meaning": "Overall是句子/段落层面的总结副词，表示“总体而言”；它不等于“全文到此结束”。",
+      "rest": "总结词可以出现在文章中段，不能凭Overall就判断是最后一句；unrelated example是引例功能，与概括相反；Overall不表达不确定性，uncertain更接近possibly/apparently等语气词。"
+    }
+  },
+  {
+    "id": "tone-recovery-physio",
+    "family": "tone",
+    "introduced": null,
+    "target": "tone",
+    "skill": "tone 熟词生义",
+    "q": "After several weeks of physiotherapy, the patient regained enough muscle tone to stand without assistance. Here, muscle tone refers to:",
+    "o": [
+      "说话语气",
+      "肌肉张力",
+      "肤色",
+      "音高"
+    ],
+    "a": 1,
+    "budget": 35,
+    "exp": {
+      "trans": "经过几周的物理治疗后，患者恢复了足够的肌张力，可以在无人帮助的情况下站立。",
+      "structure": "主干：the patient（主语）+ regained（谓语）+ enough muscle tone（宾语）。to stand without assistance表示恢复到足以站立的结果/程度。",
+      "other": "physiotherapy 物理治疗；regain 恢复；assistance 帮助；stand 站立。",
+      "meaning": "muscle tone是固定医学表达，指肌张力。",
+      "rest": "tone可表示语气、色调、音调，但muscle明确限定了词义；说话语气常见tone of voice，肤色常见skin tone，音高通常是pitch。"
+    }
+  },
+  {
+    "id": "conceivably-ferry",
+    "family": "conceivably",
+    "introduced": null,
+    "target": "conceivably",
+    "skill": "conceivably",
+    "q": "If the wind weakens before noon, the ferry could conceivably resume service this afternoon, but the operator has made no promise. Conceivably most nearly means:",
+    "o": [
+      "必然地",
+      "有这种可能，但不能确定",
+      "故意地",
+      "表面上地"
+    ],
+    "a": 1,
+    "budget": 35,
+    "exp": {
+      "trans": "如果中午前风势减弱，渡轮今天下午有可能恢复运营，但运营方没有作出任何保证。",
+      "structure": "if从句给出条件：the wind weakens before noon。主句：the ferry + could resume + service；conceivably修饰could resume，降低确定性。but后面的no promise进一步说明并不确定。",
+      "other": "weaken 减弱；ferry 渡轮；resume service 恢复运营；operator 运营方。",
+      "meaning": "conceivably = 可以设想地、有可能地，强调可能存在但远未确定。",
+      "rest": "必然地接近certainly/inevitably，语气过强；故意地是deliberately/intentionally；表面上地是apparently/superficially，均不符合could...but no promise的弱可能语境。"
+    }
+  },
+  {
+    "id": "compromise-seal-sterility",
+    "family": "compromise",
+    "introduced": null,
+    "target": "compromise",
+    "skill": "compromise 熟词生义",
+    "q": "A tiny crack in the package seal can compromise the sterility of the medical instrument. Here, compromise means:",
+    "o": [
+      "通过谈判达成折中",
+      "损害、危及",
+      "精确测量",
+      "公开赞扬"
+    ],
+    "a": 1,
+    "budget": 35,
+    "exp": {
+      "trans": "包装密封处的一条细小裂缝就可能破坏医疗器械的无菌状态。",
+      "structure": "主干：A tiny crack in the package seal（主语）+ can compromise（谓语）+ the sterility of the medical instrument（宾语）。这里主语是裂缝，不存在谈判双方。",
+      "other": "crack 裂缝；seal 密封处；sterility 无菌状态；medical instrument 医疗器械。",
+      "meaning": "compromise作及物动词可表示损害、削弱、危及，常见搭配有compromise safety/security/quality。",
+      "rest": "谈判折中义常见reach a compromise或compromise on an issue；measure表示测量；praise表示赞扬。裂缝能造成的是无菌性受损，而不是协商。"
+    }
+  },
+  {
+    "id": "with-lights-dimming",
+    "family": "with",
+    "introduced": null,
+    "target": "with + 名词 + 后置成分",
+    "skill": "with + 名词 + 后置修饰",
+    "q": "The audience waited quietly, with the lights gradually dimming before the film began. The with-structure mainly:",
+    "o": [
+      "adds a simultaneous background state",
+      "states the purpose of waiting",
+      "introduces an independent main clause",
+      "means the audience waited together with the lights"
+    ],
+    "a": 0,
+    "budget": 55,
+    "exp": {
+      "trans": "观众安静地等待着，电影开始前，灯光正逐渐变暗。",
+      "structure": "主干：The audience（主语）+ waited（谓语）+ quietly（状语）。原始简单句：The lights were gradually dimming before the film began. → 去掉were，用with引出：with the lights gradually dimming...。the lights是with结构的逻辑主语，dimming与lights构成主动关系。",
+      "other": "audience 观众；gradually 逐渐地；dim 变暗；before the film began 电影开始前。",
+      "meaning": "with + 名词 + 后置成分可补充主句发生时的伴随状态或背景。",
+      "rest": "目的通常用to do/in order to；with结构不是新的独立主句；这里with不是“和灯光一起”等普通介词伴随对象，而是带逻辑主语和分词的复合结构。"
+    }
+  },
+  {
+    "id": "result-direction-condensation",
+    "family": "result-direction",
+    "introduced": null,
+    "target": "result from / result in",
+    "skill": "result from / result in",
+    "q": "Complete the pair correctly: “The slippery floor ___ condensation on the tiles; the accident later ___ a temporary closure of the corridor.”",
+    "o": [
+      "resulted in / resulted from",
+      "resulted from / resulted in",
+      "resulted from / resulted from",
+      "resulted in / resulted in"
+    ],
+    "a": 1,
+    "budget": 40,
+    "exp": {
+      "trans": "湿滑的地面是由瓷砖上的冷凝水造成的；之后那起事故又导致走廊临时关闭。",
+      "structure": "第一分句：The slippery floor（结果）+ resulted from（谓语短语）+ condensation（原因）。第二分句：the accident（原因）+ resulted in（谓语短语）+ a temporary closure（结果）。",
+      "other": "slippery 湿滑的；condensation 冷凝水/凝结；temporary 临时的；corridor 走廊。",
+      "meaning": "result from = 由……导致，主语是结果；result in = 导致……，主语是原因。",
+      "rest": "resulted in / resulted from把因果方向完全颠倒；两个都用resulted from会把第二句说成“事故源于关闭”；两个都用resulted in会把第一句说成“地面导致冷凝水”，均与常识和句意相反。"
+    }
+  },
+  {
+    "id": "little-use-for-titles",
+    "family": "have-little-use-for",
+    "introduced": null,
+    "target": "have little use for",
+    "skill": "have little use for",
+    "q": "Although she runs a large laboratory, Dr. Lin has little use for formal titles and asks everyone to call her by her first name. Here, has little use for means:",
+    "o": [
+      "几乎没有机会使用",
+      "不看重、对……没什么兴趣",
+      "正在寻找替代品",
+      "必须谨慎使用"
+    ],
+    "a": 1,
+    "budget": 35,
+    "exp": {
+      "trans": "虽然林博士管理着一个大型实验室，但她并不看重正式头衔，并让大家直接叫她的名字。",
+      "structure": "Although引导让步从句：she + runs + a large laboratory。主句：Dr. Lin（主语）+ has little use for（谓语表达）+ formal titles（宾语）；and连接第二个谓语asks，asks everyone to call... 是ask sb to do结构。",
+      "other": "laboratory 实验室；formal title 正式头衔；first name 名；ask sb to do 要求某人做某事。",
+      "meaning": "have little use for sth常表示不喜欢、不看重、认为没什么价值，不是字面上的“很少使用”。",
+      "rest": "几乎没有机会使用强调客观使用频率，但后文主动要求直呼名字说明是态度；寻找替代品需search for alternatives；谨慎使用是use carefully，均不是该习语义。"
+    }
+  }
+]
