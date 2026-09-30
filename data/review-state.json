@@ -1,28 +1,28 @@
 {
-  "as_of": "2026-09-29",
+  "as_of": "2026-09-30",
   "issues": [
     1,
     2,
     3
   ],
   "families": {
-    "reference": {
+    "faint": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-09-29",
-      "due": "2026-09-30",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 3
-    },
-    "even": {
-      "streak": 2,
       "errors": 0,
       "last": "2026-09-29",
-      "due": "2026-10-03",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "compromise": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-27",
+      "due": "2026-09-29",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 2
+      "observed_days": 1
     },
     "relative": {
       "streak": 2,
@@ -33,77 +33,23 @@
       "reported_confusion": false,
       "observed_days": 2
     },
-    "point": {
+    "reference": {
       "streak": 0,
-      "errors": 0,
+      "errors": 2,
       "last": "2026-09-29",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
-    },
-    "unpretentious": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
+      "due": "2026-09-30",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 3
     },
     "account": {
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-09-29",
+      "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
-    },
-    "with": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "remote": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "end-up": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "nested": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
-    },
-    "faint": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
     },
     "standard": {
       "streak": 1,
@@ -114,14 +60,14 @@
       "reported_confusion": false,
       "observed_days": 1
     },
-    "conditions": {
-      "streak": 0,
+    "even": {
+      "streak": 2,
       "errors": 0,
-      "last": null,
-      "due": "2026-09-29",
+      "last": "2026-09-29",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 0
+      "observed_days": 2
     },
     "subject": {
       "streak": 0,
@@ -132,14 +78,68 @@
       "reported_confusion": false,
       "observed_days": 2
     },
-    "compromise": {
-      "streak": 1,
+    "with": {
+      "streak": 0,
       "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
+      "last": null,
+      "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
+      "observed_days": 0
+    },
+    "nested": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
       "observed_days": 1
+    },
+    "conditions": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "unpretentious": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "point": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "remote": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "end-up": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
     }
   },
   "unmapped_targets": [
