@@ -29,6 +29,12 @@ ALIASES = {
     "compromise": ("compromise",), "standard": ("standard",),
     "remote": ("remote",), "conceivably": ("conceivably",), "tone": ("tone",),
     "conditions": ("so long as", "in case"), "end-up": ("end up",),
+    "logic": ("because / unless", "整句逻辑"),
+    "transition": ("similarly / conversely",),
+    "parallel-governance": ("共同动词支配",),
+    "summary-location": ("总结词定位",),
+    "result-direction": ("result from", "result in"),
+    "have-little-use-for": ("have little use for",),
 }
 
 
