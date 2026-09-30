@@ -1,6 +1,62 @@
 [
-  {"family":"unpretentious","date":"2026-09-29","kind":"user_reported_confusion","note":"用户把unpretentious译成无法预料；需要与unpredictable区分。不是一次虚构的选择题作答。"},
-  {"family":"faint","date":"2026-09-29","kind":"user_reported_confusion","note":"用户把faint误联想到圣人；复习微弱、隐约及faint praise，不把讲解后的即时答对当作长期掌握。"},
-  {"family":"point","date":"2026-09-29","kind":"user_reported_confusion","note":"用户把missing译成怀念，把point套成节点等义；重点复习miss the point及point的要点、意义义项。"},
-  {"family":"nested","date":"2026-09-29","kind":"user_reported_confusion","note":"who定语从句内嵌that宾语从句时，主句谓语和从句谓语的边界仍需迁移复习；主语中心词与完整主语要区分。"}
+  {
+    "family": "unpretentious",
+    "date": "2026-09-29",
+    "kind": "user_reported_confusion",
+    "note": "用户把unpretentious译成无法预料；需要与unpredictable区分。不是一次虚构的选择题作答。"
+  },
+  {
+    "family": "faint",
+    "date": "2026-09-29",
+    "kind": "user_reported_confusion",
+    "note": "用户把faint误联想到圣人；复习微弱、隐约及faint praise，不把讲解后的即时答对当作长期掌握。"
+  },
+  {
+    "family": "point",
+    "date": "2026-09-29",
+    "kind": "user_reported_confusion",
+    "note": "用户把missing译成怀念，把point套成节点等义；重点复习miss the point及point的要点、意义义项。"
+  },
+  {
+    "family": "nested",
+    "date": "2026-09-29",
+    "kind": "user_reported_confusion",
+    "note": "who定语从句内嵌that宾语从句时，主句谓语和从句谓语的边界仍需迁移复习；主语中心词与完整主语要区分。"
+  },
+  {
+    "family": "directness-modifier",
+    "date": "2026-09-30",
+    "kind": "user_reported_confusion",
+    "note": "用户在题26看到 surprisingly 后直接联想到“有冲击力/冲动”，没有继续读取其修饰的 straight up；需复习副词修饰范围及 straight up / come right out and say 的坦率义。"
+  },
+  {
+    "family": "career-evidence",
+    "date": "2026-09-30",
+    "kind": "user_reported_confusion",
+    "note": "用户在题27看到 looking for a CEO post 后按现实常识推成更好的经济状况；需复习 post=职位、aspiration=职业志向，并训练“文本证据≠现实可能性”。"
+  },
+  {
+    "family": "recruitment-vocab",
+    "date": "2026-09-30",
+    "kind": "user_reported_confusion",
+    "note": "用户在题28认为 attended to 与 poached 接近，并询问 hunted for；需区分 attend to=处理/照料，hunt for=寻找/物色，poach=从别处挖人。"
+  },
+  {
+    "family": "cling-climb",
+    "date": "2026-09-30",
+    "kind": "user_reported_confusion",
+    "note": "用户把 cling to their posts 误译成“向上爬”；需区分 cling=紧抓/不愿放弃，climb=攀爬，post=职位。"
+  },
+  {
+    "family": "viewpoint-fact",
+    "date": "2026-09-30",
+    "kind": "user_reported_confusion",
+    "note": "题29对干扰项的判断暴露出“传统规则/观念”与“过去真实行为事实”混淆；需训练 rule/belief/considered safer 不可直接推出 people used to do。"
+  },
+  {
+    "family": "title-specificity",
+    "date": "2026-09-30",
+    "kind": "user_reported_confusion",
+    "note": "题30能抓到大话题“跳槽”，但未抓全文反复强调的特殊条件“没有下家也先离职”，并被 the only way 绝对化标题吸引；需训练标题具体性与绝对词陷阱。"
+  }
 ]
