@@ -1,4 +1,5 @@
 /* No tokens, paid APIs, analytics, or automatic uploads are used in this page. */
+/* Custom drill pages use isolated storage keys and the same audited interaction engine. */
 (() => {
   'use strict';
   const DATA = window.REVIEW_DATA;
