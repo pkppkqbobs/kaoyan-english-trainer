@@ -6,7 +6,16 @@
     3
   ],
   "families": {
-    "with": {
+    "transition": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-28",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "account": {
       "streak": 0,
       "errors": 0,
       "last": null,
@@ -24,11 +33,20 @@
       "reported_confusion": false,
       "observed_days": 3
     },
-    "compromise": {
+    "logic": {
       "streak": 1,
       "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
+      "last": "2026-09-28",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "tone": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-28",
+      "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
@@ -42,7 +60,7 @@
       "reported_confusion": false,
       "observed_days": 2
     },
-    "account": {
+    "with": {
       "streak": 0,
       "errors": 0,
       "last": null,
@@ -60,25 +78,25 @@
       "reported_confusion": true,
       "observed_days": 1
     },
-    "point": {
+    "remote": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-09-29",
+      "last": null,
       "due": "2026-09-30",
       "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
+      "reported_confusion": false,
+      "observed_days": 0
     },
-    "standard": {
-      "streak": 1,
+    "end-up": {
+      "streak": 0,
       "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
+      "last": null,
+      "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 1
+      "observed_days": 0
     },
-    "conditions": {
+    "result-direction": {
       "streak": 0,
       "errors": 0,
       "last": null,
@@ -96,14 +114,14 @@
       "reported_confusion": false,
       "observed_days": 2
     },
-    "remote": {
-      "streak": 0,
+    "standard": {
+      "streak": 1,
       "errors": 0,
-      "last": null,
-      "due": "2026-09-30",
+      "last": "2026-09-27",
+      "due": "2026-09-29",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 0
+      "observed_days": 1
     },
     "even": {
       "streak": 2,
@@ -114,6 +132,51 @@
       "reported_confusion": false,
       "observed_days": 2
     },
+    "nested": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "summary-location": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-27",
+      "due": "2026-09-28",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "conditions": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "have-little-use-for": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "point": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
     "unpretentious": {
       "streak": 0,
       "errors": 0,
@@ -123,31 +186,33 @@
       "reported_confusion": true,
       "observed_days": 1
     },
-    "end-up": {
-      "streak": 0,
+    "parallel-governance": {
+      "streak": 1,
       "errors": 0,
-      "last": null,
+      "last": "2026-09-28",
       "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 0
+      "observed_days": 1
     },
-    "nested": {
-      "streak": 0,
+    "conceivably": {
+      "streak": 1,
       "errors": 0,
-      "last": "2026-09-29",
+      "last": "2026-09-28",
       "due": "2026-09-30",
       "slow_or_uncertain": false,
-      "reported_confusion": true,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "compromise": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-27",
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
       "observed_days": 1
     }
   },
-  "unmapped_targets": [
-    "conceivably",
-    "logic",
-    "parallel-governance",
-    "summary-location",
-    "tone",
-    "transition"
-  ]
+  "unmapped_targets": []
 }
