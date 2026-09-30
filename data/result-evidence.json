@@ -172,11 +172,76 @@
       "ms": 13400.0,
       "uncertain": false,
       "origin": 3
+    },
+    {
+      "date": "2026-09-30",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 18872,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 26565,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 25901,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "cling-climb",
+      "ok": true,
+      "ms": 16696,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 32327,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 12828,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "lined-up",
+      "ok": true,
+      "ms": 14902,
+      "uncertain": false,
+      "origin": 4
+    },
+    {
+      "date": "2026-09-30",
+      "family": "absolute-language",
+      "ok": true,
+      "ms": 36797,
+      "uncertain": false,
+      "origin": 4
     }
   ],
   "issues": [
     1,
     2,
-    3
+    3,
+    4
   ]
 }
