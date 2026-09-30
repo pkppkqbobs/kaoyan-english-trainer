@@ -10,7 +10,7 @@
     },
     {
       "date": "2026-09-27",
-      "family": "总结词定位",
+      "family": "summary-location",
       "ok": true,
       "ms": 6000.0,
       "uncertain": true,
@@ -71,7 +71,7 @@
     },
     {
       "date": "2026-09-28",
-      "family": "because / unless 整句逻辑",
+      "family": "logic",
       "ok": true,
       "ms": 35600.0,
       "uncertain": false,
@@ -79,7 +79,7 @@
     },
     {
       "date": "2026-09-28",
-      "family": "共同动词支配",
+      "family": "parallel-governance",
       "ok": true,
       "ms": 34900.0,
       "uncertain": false,
@@ -87,7 +87,7 @@
     },
     {
       "date": "2026-09-28",
-      "family": "similarly / conversely",
+      "family": "transition",
       "ok": true,
       "ms": 26500.0,
       "uncertain": false,
