@@ -3,10 +3,10 @@
   'use strict';
   const DATA = window.REVIEW_DATA;
   const LETTERS = ['A', 'B', 'C', 'D'];
-  const PREFIX = 'kaoyan.daily.v3.';
+  const PREFIX = DATA.storagePrefix || 'kaoyan.daily.v3.';
   const copy = x => JSON.parse(JSON.stringify(x));
   const app = document.getElementById('app');
-  let storageKey = PREFIX + DATA.date;
+  let storageKey = PREFIX + (DATA.storageId || DATA.date);
   let state;
   let started = performance.now();
   let elapsed = 0;
@@ -95,12 +95,12 @@
     started = performance.now(); active = !document.hidden;
   });
   function shell() {
-    app.innerHTML = '<header><h1>今日定制 · 8题</h1><div id="meta" class="muted"></div><div class="actions"><a class="button" href="./">返回总训练站</a><button id="historyBtn">本地历史记录</button><button id="todayBtn">返回今日进度</button></div></header><p id="notice" class="notice hidden" role="status"></p><section id="body" class="card" aria-live="polite"></section>';
-    byId('meta').textContent = state.date + ' · 约5–10分钟 · 答题后显示解析 · 刷新保留进度';
+    app.innerHTML = '<header><h1>' + (DATA.title || '今日定制 · 8题') + '</h1><div id="meta" class="muted"></div><div class="actions"><a class="button" href="./">返回总训练站</a><button id="historyBtn">本地历史记录</button><button id="todayBtn">' + (DATA.progressLabel || '返回本轮进度') + '</button></div></header><p id="notice" class="notice hidden" role="status"></p><section id="body" class="card" aria-live="polite"></section>';
+    byId('meta').textContent = DATA.meta || (state.date + ' · 约5–10分钟 · 答题后显示解析 · 刷新保留进度');
     byId('historyBtn').onclick = historyView;
-    byId('todayBtn').onclick = () => { restore(PREFIX + DATA.date); render(); };
+    byId('todayBtn').onclick = () => { restore(PREFIX + (DATA.storageId || DATA.date)); render(); };
     const today = new Intl.DateTimeFormat('sv-SE', {timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'}).format(new Date());
-    if (DATA.date < today) notice('服务器当前题单日期为 ' + DATA.date + '。若今日任务尚未发布，可先保留进度，稍后刷新；不要清空本地记录。');
+    if (!DATA.ignoreStale && DATA.date < today) notice('服务器当前题单日期为 ' + DATA.date + '。若今日任务尚未发布，可先保留进度，稍后刷新；不要清空本地记录。');
   }
   function render() {
     shell();
@@ -178,7 +178,7 @@
   }
   function reportText() {
     const root = rootRun(), obj = report();
-    const lines = ['<!-- kaoyan-english-training-result -->', '考研英语每日复习 ' + root.date,
+    const lines = ['<!-- kaoyan-english-training-result -->', (DATA.reportLabel || '考研英语每日复习') + ' ' + root.date,
       '题数 ' + root.answers.length + '｜正确 ' + root.answers.filter(r => r.ok).length, '', '【逐题：仅主测用于掌握度】'];
     root.answers.forEach((r, i) => lines.push('Q' + (i + 1) + ' ' + r.family + '：选' + LETTERS[r.pick] + '→正确' + LETTERS[r.expected] + '；' + (r.ok ? '正确' : '错误') + '；' + (r.ms / 1000).toFixed(1) + 's' + (r.uncertain ? '（仍不确定）' : '')));
     lines.push('', '<!-- review-json:v3', JSON.stringify(obj), '-->');
@@ -186,14 +186,14 @@
   }
   function submit() {
     const root = rootRun();
-    const title = '[TRAINING_RESULT] 每日复习 ' + root.date + ' ' + root.id;
+    const title = '[TRAINING_RESULT] ' + (DATA.reportTitle || '每日复习') + ' ' + root.date + ' ' + root.id;
     const url = 'https://github.com/' + DATA.repo + '/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(reportText());
     window.open(url, '_blank', 'noopener,noreferrer');
     notice('已打开预填报告。还需在 GitHub 点击 Submit new issue 才算提交；重复提交同一轮不会重复计算。仓库是公开的，报告只含题目表现，不含聊天全文。');
   }
   function exportReport() {
     const blob = new Blob([reportText()], {type: 'text/plain;charset=utf-8'});
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'english-review-' + state.date + '.txt'; a.click();
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = (DATA.exportStem || 'english-review') + '-' + state.date + '.txt'; a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
   function finish() {
@@ -209,7 +209,7 @@
     actions.appendChild(button('导出本轮报告', exportReport));
     body.appendChild(actions);
     paragraph(body, '下一轮优先：' + (root.answers.filter(r => !r.ok || r.uncertain).map(r => root.queue.find(q => q.id === r.qid)?.target || r.family).join('；') || '继续间隔复习，不因一次答对就认定稳定。'), 'muted');
-    paragraph(body, '网页本地记录不会自动上传。提交到 GitHub 后，服务端会重新计算复习优先级；今天这套题不会中途被替换。', 'muted');
+    paragraph(body, DATA.footer || '网页本地记录不会自动上传。提交到 GitHub 后，服务端会重新计算复习优先级；今天这套题不会中途被替换。', 'muted');
   }
   function historyView() {
     shell(); const body = byId('body');
