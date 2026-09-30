@@ -6,7 +6,97 @@
     3
   ],
   "families": {
+    "even": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "have-little-use-for": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "summary-location": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-27",
+      "due": "2026-09-28",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "end-up": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "subject": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-28",
+      "due": "2026-09-29",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "conceivably": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-28",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
     "transition": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-28",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "relative": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "unpretentious": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "faint": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "parallel-governance": {
       "streak": 1,
       "errors": 0,
       "last": "2026-09-28",
@@ -33,43 +123,7 @@
       "reported_confusion": false,
       "observed_days": 3
     },
-    "logic": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-28",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "tone": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-28",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "subject": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-28",
-      "due": "2026-09-29",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "with": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "faint": {
+    "point": {
       "streak": 0,
       "errors": 0,
       "last": "2026-09-29",
@@ -87,50 +141,14 @@
       "reported_confusion": false,
       "observed_days": 0
     },
-    "end-up": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "result-direction": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "relative": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-10-03",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "standard": {
+    "tone": {
       "streak": 1,
       "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
+      "last": "2026-09-28",
+      "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
-    },
-    "even": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-10-03",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
     },
     "nested": {
       "streak": 0,
@@ -141,14 +159,23 @@
       "reported_confusion": true,
       "observed_days": 1
     },
-    "summary-location": {
-      "streak": 0,
+    "standard": {
+      "streak": 1,
       "errors": 0,
       "last": "2026-09-27",
-      "due": "2026-09-28",
-      "slow_or_uncertain": true,
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
+    },
+    "result-direction": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
     },
     "conditions": {
       "streak": 0,
@@ -159,7 +186,16 @@
       "reported_confusion": false,
       "observed_days": 0
     },
-    "have-little-use-for": {
+    "compromise": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-27",
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "with": {
       "streak": 0,
       "errors": 0,
       "last": null,
@@ -168,47 +204,11 @@
       "reported_confusion": false,
       "observed_days": 0
     },
-    "point": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
-    },
-    "unpretentious": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
-    },
-    "parallel-governance": {
+    "logic": {
       "streak": 1,
       "errors": 0,
       "last": "2026-09-28",
       "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "conceivably": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-28",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "compromise": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
