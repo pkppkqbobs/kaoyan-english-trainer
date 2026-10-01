@@ -236,12 +236,77 @@
       "ms": 36797,
       "uncertain": false,
       "origin": 4
+    },
+    {
+      "date": "2026-10-01",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 137101,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "logic",
+      "ok": true,
+      "ms": 16240,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 71908,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "nested",
+      "ok": true,
+      "ms": 26836,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "reference",
+      "ok": true,
+      "ms": 30328,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 9997,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 36535,
+      "uncertain": false,
+      "origin": 5
+    },
+    {
+      "date": "2026-10-01",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 13048,
+      "uncertain": false,
+      "origin": 5
     }
   ],
   "issues": [
     1,
     2,
     3,
-    4
+    4,
+    5
   ]
 }
