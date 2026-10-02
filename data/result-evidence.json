@@ -300,6 +300,70 @@
       "ms": 13048,
       "uncertain": false,
       "origin": 5
+    },
+    {
+      "date": "2026-10-02",
+      "family": "tone",
+      "ok": true,
+      "ms": 13143,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 16030,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 17444,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "faint",
+      "ok": false,
+      "ms": 59232,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "parallel-governance",
+      "ok": false,
+      "ms": 46739,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "with",
+      "ok": true,
+      "ms": 50771,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "conceivably",
+      "ok": false,
+      "ms": 50870,
+      "uncertain": false,
+      "origin": 6
+    },
+    {
+      "date": "2026-10-02",
+      "family": "cling-climb",
+      "ok": true,
+      "ms": 5592,
+      "uncertain": false,
+      "origin": 6
     }
   ],
   "issues": [
@@ -307,6 +371,7 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ]
 }
