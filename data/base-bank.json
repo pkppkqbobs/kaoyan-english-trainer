@@ -22,7 +22,7 @@
       "structure": "主干：The scientist's office（主语）+ was（系动词）+ unpretentious（表语）。冒号后 plain shelves, an old desk, and no awards on display 是对“朴素”的具体说明。",
       "other": "plain 普通的/朴素的；shelf 书架；on display 陈列着；award 奖项。",
       "meaning": "unpretentious = 不装腔作势的、朴实低调的。注意：unpredictable 才是“无法预测的”。",
-      "rest": "B unpredictable=不可预测的；C formidable=令人敬畏的/难对付的；D perplexing=令人困惑的。这里只有 A 与后面的“普通书架、旧桌子、不展示奖项”一致。"
+      "rest": "unpredictable = 无法预测的；formidable = 令人敬畏的/难对付的；perplexing = 令人困惑的。这道题只有 unpretentious（朴素、不摆架子）与后面的普通书架、旧桌子、不展示奖项一致。"
     },
     "family": "unpretentious",
     "introduced": "2026-09-29",
@@ -51,7 +51,7 @@
       "structure": "Maya（主语）+ said（谓语）+ 引语（内容）。问句 Her remark is best described as... 中 is described是被动谓语，不是is加形容词表语。引语主干为the slides were readable；at least限制了肯定的力度。",
       "other": "presentation 演讲/展示；readable 易读的；remark 评论；at least 至少。",
       "meaning": "faint praise = 勉强的、力度很弱的赞扬。这里 faint 的核心是“微弱的、不强的”。",
-      "rest": "B earnest approval=真诚、认真地赞成，语气过强；C open hostility=公开敌意，不符合；D sufficient evidence=充分证据，词义类别都不对。"
+      "rest": "earnest approval = 真诚、明确的赞成，语气过强；open hostility = 公开敌意，不符合；sufficient evidence = 充分证据，词义类别都不对。只有 faint praise（力度很弱的赞扬）符合 at least 的保留语气。"
     },
     "family": "faint",
     "introduced": "2026-09-29",
@@ -80,7 +80,7 @@
       "structure": "第一句：The committee（主语）+ spent（谓语）+ twenty minutes（宾语）；arguing...说明时间花在何事上。while连接对比；whether the bridge was safe作表语从句。第二句：They（主语）+ were missing（现在进行时谓语）+ the point（宾语）。",
       "other": "committee 委员会；warning sign 警示牌；issue 问题/争议点；safe 安全的。",
       "meaning": "miss the point = 没抓住重点、没理解关键。point 在这里是“要点/关键”，不是“节点”。",
-      "rest": "B make a point=提出/强调一个观点；C reach the point=达到某个阶段/程度；D point out=指出某事。"
+      "rest": "make a point = 提出/强调观点；reach the point = 达到某个阶段/程度；point out = 指出某事。只有 missing the point（没抓住重点）符合他们纠结字体却忽视桥梁安全的语境。"
     },
     "family": "point",
     "introduced": "2026-09-29",
@@ -109,7 +109,7 @@
       "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
       "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
       "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
-      "rest": "B/D 都把 that 从句的 proves 错当成外层谓语；C 把 that 从句内部的 a longer résumé 错当成整句主语。"
+      "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
     },
     "family": "nested",
     "introduced": "2026-09-29",
@@ -138,7 +138,7 @@
       "structure": "Over the past decade 是时间范围状语；busier than ever before 是比较结构；even residents... 中 even 强调“甚至这些居民”。",
       "other": "decade 十年；oppose 反对；tourism 旅游业；guesthouse 民宿/旅馆。",
       "meaning": "over=在……期间；ever=曾经/任何时候；even=甚至。",
-      "rest": "A/C/D 至少有一个位置的语法功能或语义不成立。尤其记住 than ever before 和 even + 名词。"
+      "rest": "“Over the past decade”表示一段持续时间；“than ever before”是固定比较表达；“even residents”中的 even 强调连以前反对旅游的居民也加入了经营。把 over、ever、even 换到其他位置，会破坏其中至少一个语法功能或语义关系。"
     },
     "family": "even",
     "introduced": null,
@@ -167,7 +167,7 @@
       "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
       "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
       "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
-      "rest": "B 词序错误；C 介词后不能用 that；D which 和 them 重复。"
+      "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
     },
     "family": "relative",
     "introduced": null,
@@ -196,7 +196,7 @@
       "structure": "段A先给出两个并列措施 lowered ticket prices / added evening hours；段B用 Such changes 对这两个措施整体回指，再说明结果 attracted more local families。",
       "other": "lower 降低；ticket price 票价；evening hours 晚间开放时段；attract 吸引。",
       "meaning": "such + 名词 常把前文已经描述过的同类事物/情况概括回指；这里 Such changes = 段A的两项变化。",
-      "rest": "B 是后文另一对象；C 范围被无依据扩大；D 词义和语法都不匹配。"
+      "rest": "后文另一家博物馆的涨价、所有博物馆的泛指以及 local families 都不是 Such changes 的先行内容；它直接概括前文的降价和延长晚间开放时间。"
     },
     "family": "reference",
     "introduced": null,

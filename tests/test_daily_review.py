@@ -32,15 +32,38 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(rows[0]['ms'], 48500)
 
     def test_original_aggregate_and_diagnosis(self):
-        body = '原词复现干扰：1/2，平均 14s\nsubject / be subject to：1/1，平均 128s\nQ1 原词复现干扰：选C→正确A；出现 costs 但对象换了；18.1s'
+        body = '原词复现干扰：1/2，平均 14s\nsubject / be subject to：1/1，平均 128s\neven / ever / over：1/2，平均 14s\nQ1 原词复现干扰：选C→正确A；出现 costs 但对象换了；18.1s'
         _, rows = review.parse_issue(issue(1, body))
-        self.assertEqual(len(rows), 2)
+        self.assertEqual(len(rows), 3)
         self.assertEqual(sum(r['family'] == 'reference' for r in rows), 1)
-        self.assertFalse(rows[0]['ok'])
-        self.assertEqual(rows[1]['ms'], 128000)
+        aggregate = next(r for r in rows if r.get('aggregate') and r['family'] == 'even')
+        self.assertEqual(aggregate['errors'], 1)
+        self.assertEqual(aggregate['attempts'], 2)
+        self.assertEqual(next(r for r in rows if r['family'] == 'reference')['ok'], False)
+        self.assertEqual(next(r for r in rows if r['family'] == 'subject')['ms'], 128000)
+
+    def test_aggregate_does_not_infer_uncertainty_from_attempt_count(self):
+        body = '总结词定位：2/2，平均 6s'
+        _, rows = review.parse_issue(issue(1, body))
+        self.assertFalse(rows[0]['uncertain'])
+
+    def test_structured_report_must_match_first_choice_and_key(self):
+        obj = {'roundId': 'r', 'date': '2026-09-28', 'answers': [
+            {'family': 'point', 'pick': 0, 'expected': 1, 'ok': True, 'ms': 9000, 'kind': 'main'}]}
+        body = '<!-- review-json:v3\n' + json.dumps(obj) + '\n-->'
+        with self.assertRaises(ValueError):
+            review.parse_issue(issue(1, body))
+
+    def test_structured_uncertain_flag_must_be_boolean(self):
+        obj = {'roundId': 'r', 'date': '2026-09-28', 'answers': [
+            {'family': 'point', 'pick': 0, 'expected': 0, 'ok': True, 'ms': 9000, 'uncertain': 'false', 'kind': 'main'}]}
+        body = '<!-- review-json:v3\n' + json.dumps(obj) + '\n-->'
+        with self.assertRaises(ValueError):
+            review.parse_issue(issue(1, body))
 
     def test_only_owner_reports_and_dedup(self):
-        obj = {'roundId': 'same-round', 'date': '2026-09-28', 'answers': [{'family': 'point', 'ok': False, 'ms': 9000}]}
+        obj = {'roundId': 'same-round', 'date': '2026-09-28', 'answers': [
+            {'family': 'point', 'pick': 0, 'expected': 1, 'ok': False, 'ms': 9000}]}
         body = '<!-- review-json:v3\n' + json.dumps(obj) + '\n-->'
         rows, ids = review.evidence([issue(1, body), issue(2, body), issue(3, body, owner='stranger')], 'pkppkqbobs')
         self.assertEqual(len(rows), 1)
@@ -56,9 +79,27 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual(stats['point']['streak'], 2)
         self.assertEqual(stats['point']['due'], '2026-10-03')
 
+    def test_uncertain_remains_a_priority_signal_after_a_later_fast_answer(self):
+        items = [sample('point-one', 'point')]
+        rows = [
+            {'family': 'point', 'date': '2026-09-28', 'ok': True, 'ms': 1000, 'uncertain': True},
+            {'family': 'point', 'date': '2026-09-29', 'ok': True, 'ms': 1000, 'uncertain': False},
+        ]
+        stats = review.make_stats(items, rows, [], date(2026, 9, 29))
+        self.assertTrue(stats['point']['slow_or_uncertain'])
+        self.assertEqual(stats['point']['streak'], 1)
+
+    def test_reported_confusion_is_not_cleared_by_one_fast_answer(self):
+        items = [sample('point-one', 'point')]
+        rows = [{'family': 'point', 'date': '2026-09-30', 'ok': True, 'ms': 1000, 'uncertain': False}]
+        notes = [{'family': 'point', 'date': '2026-09-29'}]
+        stats = review.make_stats(items, rows, notes, date(2026, 9, 30))
+        self.assertTrue(stats['point']['reported_confusion'])
+        self.assertEqual(stats['point']['due'], '2026-09-30')
+
     def test_retry_is_not_mastery_evidence(self):
         obj = {'roundId': 'r', 'date': '2026-09-28', 'answers': [
-            {'family': 'point', 'ok': False, 'ms': 9000, 'kind': 'main'},
+            {'family': 'point', 'pick': 1, 'expected': 0, 'ok': False, 'ms': 9000, 'kind': 'main'},
             {'family': 'point', 'ok': True, 'ms': 1000, 'kind': 'retry'}]}
         _, rows = review.parse_issue(issue(1, '<!-- review-json:v3\n' + json.dumps(obj) + '\n-->'))
         self.assertEqual(len(rows), 1)
@@ -85,6 +126,16 @@ class ReviewTests(unittest.TestCase):
             self.assertGreaterEqual(n_structure, 1)
             self.assertLessEqual(n_structure, 2)
             self.assertEqual(selected, review.choose(items, stats, {}, day))
+
+    def test_due_slow_families_are_not_starved_by_recent_quota(self):
+        items = review.bank(ROOT)
+        evidence = json.loads((ROOT / 'data/result-evidence.json').read_text())
+        stats = review.make_stats(items, evidence['rows'],
+                                  review.load(ROOT / 'data/learning-notes.json', []), date(2026, 10, 2))
+        history = review.load(ROOT / 'data/daily-history.json', {})
+        selected = {q['family'] for q in review.choose(items, stats, history, date(2026, 10, 2))}
+        self.assertIn('directness-modifier', selected)
+        self.assertIn('subject', selected)
 
     def test_actual_bank_and_two_builds_are_stable(self):
         items = review.bank(ROOT)

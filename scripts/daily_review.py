@@ -5,6 +5,7 @@ import copy
 import hashlib
 import html
 import json
+import math
 import os
 from pathlib import Path
 import random
@@ -153,15 +154,33 @@ def parse_issue(issue):
     structured = re.search(r"<!-- review-json:v3\s*\n(.*?)\n-->", body, re.S)
     if structured:
         obj = json.loads(structured.group(1))
+        if not isinstance(obj.get("roundId"), str) or not obj["roundId"].strip():
+            raise ValueError("Malformed structured report id")
+        if not isinstance(obj.get("answers"), list):
+            raise ValueError("Malformed structured answers")
         date.fromisoformat(obj["date"])
         rows = []
         for row in obj["answers"]:
-            if type(row.get("ok")) is not bool or not isinstance(row.get("ms"), (int, float)):
+            if not isinstance(row, dict):
                 raise ValueError("Malformed structured answer")
-            if row.get("kind", "main") != "main":
+            kind = row.get("kind", "main")
+            if kind != "main":
                 continue
-            rows.append({"date": obj["date"], "family": canonical(row["family"]), "ok": row["ok"],
-                         "ms": max(0, min(row["ms"], 3600000)), "uncertain": bool(row.get("uncertain")), "origin": issue["number"]})
+            if not isinstance(row.get("family"), str) or not row["family"].strip():
+                raise ValueError("Malformed structured family")
+            if type(row.get("pick")) is not int or not 0 <= row["pick"] < 4:
+                raise ValueError("Malformed structured choice")
+            if type(row.get("expected")) is not int or not 0 <= row["expected"] < 4:
+                raise ValueError("Malformed structured answer key")
+            if type(row.get("ok")) is not bool or row["ok"] != (row["pick"] == row["expected"]):
+                raise ValueError("Structured answer does not match its choice and key")
+            if "uncertain" in row and type(row["uncertain"]) is not bool:
+                raise ValueError("Malformed uncertain flag")
+            if type(row.get("ms")) not in (int, float) or not math.isfinite(row["ms"]) or not 0 <= row["ms"] <= 3600000:
+                raise ValueError("Malformed answer time")
+            rows.append({"date": obj["date"], "family": canonical(row["family"]),
+                         "ok": row["pick"] == row["expected"], "ms": row["ms"],
+                         "uncertain": row.get("uncertain", False), "origin": issue["number"]})
         return str(obj["roundId"]), rows
     rows, detailed = [], set()
     for line in body.splitlines():
@@ -169,14 +188,19 @@ def parse_issue(issue):
         if match:
             family = canonical(match[1])
             detailed.add(family)
-            rows.append({"date": stamp, "family": family, "ok": match[2] == match[3], "ms": float(match[4]) * 1000, "uncertain": False, "origin": issue["number"]})
+            rows.append({"date": stamp, "family": family, "ok": match[2] == match[3], "ms": float(match[4]) * 1000,
+                         "uncertain": bool(re.search(r"不确定|猜答|猜对|蒙", line)), "origin": issue["number"]})
     for line in body.splitlines():
         match = re.match(r"(.+?)：(\d+)/(\d+)，平均\s*([0-9.]+)s", line)
         if match:
             family = canonical(match[1])
             if family not in detailed:
-                rows.append({"date": stamp, "family": family, "ok": int(match[2]) == int(match[3]), "ms": float(match[4]) * 1000,
-                             "uncertain": int(match[3]) > 1, "aggregate": True, "origin": issue["number"]})
+                correct, attempts = int(match[2]), int(match[3])
+                if attempts <= 0 or correct < 0 or correct > attempts:
+                    raise ValueError("Malformed aggregate result")
+                rows.append({"date": stamp, "family": family, "ok": correct == attempts, "ms": float(match[4]) * 1000,
+                             "uncertain": bool(re.search(r"不确定|猜答|猜对|蒙", line)), "aggregate": True,
+                             "attempts": attempts, "errors": attempts - correct, "origin": issue["number"]})
     return "legacy-issue-" + str(issue["number"]), rows
 
 
@@ -200,7 +224,7 @@ def evidence(issues, owner):
 
 def make_stats(items, rows, notes, day):
     result = {}
-    for family in {q["family"] for q in items}:
+    for family in sorted({q["family"] for q in items}):
         per_day = {}
         threshold = max(q.get("budget", 60 if family in STRUCTURE else 35) for q in items if q["family"] == family) * 1000
         for row in rows:
@@ -210,13 +234,26 @@ def make_stats(items, rows, notes, day):
         last = None
         for stamp in sorted(per_day):
             observations = per_day[stamp]
-            ok = all(x["ok"] for x in observations)
-            slow = any(x["ms"] > threshold or x.get("uncertain") for x in observations)
-            errors += sum(not x["ok"] for x in observations)
-            streak = streak + 1 if ok and not slow else 0
+            day_errors = sum(x.get("errors", int(not x["ok"])) for x in observations)
+            ok = day_errors == 0
+            day_slow = any(x["ms"] > threshold or x.get("uncertain", False) for x in observations)
+            errors += day_errors
+            slow = slow or day_slow
+            streak = streak + 1 if ok and not day_slow else 0
             last = stamp
         # Chat observations are evidence of confusion, not fictitious scored attempts.
-        active_notes = [n for n in notes if n["family"] == family and n["date"] <= day.isoformat() and (not last or n["date"] >= last)]
+        family_notes = [n for n in notes if n["family"] == family and n["date"] <= day.isoformat()]
+        latest_note = max((n["date"] for n in family_notes), default=None)
+        clear_days = 0
+        if latest_note:
+            for stamp in sorted(per_day):
+                if stamp <= latest_note:
+                    continue
+                observations = per_day[stamp]
+                day_errors = sum(x.get("errors", int(not x["ok"])) for x in observations)
+                day_slow = any(x["ms"] > threshold or x.get("uncertain", False) for x in observations)
+                clear_days = clear_days + 1 if day_errors == 0 and not day_slow else 0
+        active_notes = bool(family_notes and clear_days < 2)
         if active_notes:
             streak = 0
         interval = [1, 2, 4, 7, 14, 21][min(streak, 5)]
@@ -224,7 +261,7 @@ def make_stats(items, rows, notes, day):
         if active_notes:
             due = min(due, day.isoformat())
         result[family] = {"streak": streak, "errors": errors, "last": last, "due": due,
-                          "slow_or_uncertain": slow, "reported_confusion": bool(active_notes), "observed_days": len(per_day)}
+                          "slow_or_uncertain": slow, "reported_confusion": active_notes, "observed_days": len(per_day)}
     return result
 
 
@@ -252,17 +289,34 @@ def choose(items, stats, history, day):
         overdue = max(0, (day - date.fromisoformat(s["due"])).days)
         weight = (3 + min(s["errors"], 4) * 3 + 5 * s["reported_confusion"] + 2 * s["slow_or_uncertain"] + min(overdue, 10)) / (1 + exposure.get(f, 0))
         return (s["due"] <= day.isoformat(), weight + rng.random())
+    def urgent_rank(f):
+        s = stats[f]
+        overdue = max(0, (day - date.fromisoformat(s["due"])).days)
+        # A weak family must not disappear behind a large pool of merely due items.
+        # Errors are strongest evidence; explicit confusion and slow/uncertain answers
+        # remain high priority even after a later same-day or next-day correct answer.
+        return (min(s["errors"], 4) * 8 + 12 * bool(s["slow_or_uncertain"])
+                + 9 * bool(s["reported_confusion"]) + min(overdue, 10)
+                - min(exposure.get(f, 0) * 0.5, 2) + rng.random())
     ranked = sorted(groups, key=rank, reverse=True)
+    urgent = sorted(groups, key=urgent_rank, reverse=True)
     chosen = []
     def allowed(f):
         return f not in chosen and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2) and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2)
-    def take(count, predicate):
-        for f in ranked:
+    def take(count, predicate, order=None):
+        for f in (order or ranked):
             if count <= 0 or len(chosen) == 8:
                 return
             if allowed(f) and predicate(f):
                 chosen.append(f)
                 count -= 1
+    take(4, lambda f: (stats[f]["due"] <= day.isoformat()
+                       and (stats[f]["errors"] > 0 or stats[f]["reported_confusion"] or stats[f]["slow_or_uncertain"])), urgent)
+    # Keep one slot for a weak family that has been overdue for several days.
+    # Without this reserve, a large cluster of newer mistakes can repeatedly
+    # displace older slow/uncertain targets such as subject/long-term grammar.
+    take(1, lambda f: ((day - date.fromisoformat(stats[f]["due"])).days >= 2
+                       and (stats[f]["errors"] > 0 or stats[f]["slow_or_uncertain"] or stats[f]["reported_confusion"])), urgent)
     take(1, lambda f: f in STRUCTURE)
     take(max(0, 3 - sum(age(f) > 3 for f in chosen)), lambda f: age(f) > 3)
     take(2, lambda f: 1 <= age(f) <= 3)

@@ -9,96 +9,6 @@
     6
   ],
   "families": {
-    "viewpoint-fact": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-01",
-      "due": "2026-10-05",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "nested": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-01",
-      "due": "2026-10-05",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "recruitment-vocab": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-01",
-      "due": "2026-10-05",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "standard": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "point": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": true,
-      "observed_days": 1
-    },
-    "relative": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-10-03",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "end-up": {
-      "streak": 0,
-      "errors": 0,
-      "last": null,
-      "due": "2026-10-02",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "unpretentious": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-02",
-      "due": "2026-10-06",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "transition": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-28",
-      "due": "2026-09-30",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "parallel-governance": {
-      "streak": 0,
-      "errors": 1,
-      "last": "2026-10-02",
-      "due": "2026-10-03",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
     "absolute-language": {
       "streak": 1,
       "errors": 0,
@@ -117,6 +27,96 @@
       "reported_confusion": false,
       "observed_days": 0
     },
+    "career-evidence": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-01",
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "cling-climb": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-02",
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "compromise": {
+      "streak": 1,
+      "errors": 0,
+      "last": "2026-09-27",
+      "due": "2026-09-29",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 1
+    },
+    "conceivably": {
+      "streak": 0,
+      "errors": 1,
+      "last": "2026-10-02",
+      "due": "2026-10-03",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "conditions": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "directness-modifier": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-01",
+      "due": "2026-10-02",
+      "slow_or_uncertain": true,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "end-up": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
+    "even": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "faint": {
+      "streak": 0,
+      "errors": 1,
+      "last": "2026-10-02",
+      "due": "2026-10-02",
+      "slow_or_uncertain": true,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "have-little-use-for": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 0
+    },
     "lined-up": {
       "streak": 1,
       "errors": 0,
@@ -126,7 +126,70 @@
       "reported_confusion": false,
       "observed_days": 1
     },
-    "conditions": {
+    "logic": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-10-01",
+      "due": "2026-10-05",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "nested": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-01",
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "parallel-governance": {
+      "streak": 0,
+      "errors": 1,
+      "last": "2026-10-02",
+      "due": "2026-10-03",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "point": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-09-30",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 1
+    },
+    "recruitment-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-01",
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "reference": {
+      "streak": 1,
+      "errors": 2,
+      "last": "2026-10-01",
+      "due": "2026-10-03",
+      "slow_or_uncertain": true,
+      "reported_confusion": false,
+      "observed_days": 4
+    },
+    "relative": {
+      "streak": 2,
+      "errors": 0,
+      "last": "2026-09-29",
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": false,
+      "observed_days": 2
+    },
+    "remote": {
       "streak": 0,
       "errors": 0,
       "last": null,
@@ -144,30 +207,21 @@
       "reported_confusion": false,
       "observed_days": 0
     },
-    "remote": {
-      "streak": 0,
+    "standard": {
+      "streak": 1,
       "errors": 0,
-      "last": null,
-      "due": "2026-10-02",
+      "last": "2026-09-27",
+      "due": "2026-09-29",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 0
+      "observed_days": 1
     },
-    "have-little-use-for": {
+    "subject": {
       "streak": 0,
       "errors": 0,
-      "last": null,
-      "due": "2026-10-02",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 0
-    },
-    "cling-climb": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-02",
-      "due": "2026-10-06",
-      "slow_or_uncertain": false,
+      "last": "2026-09-28",
+      "due": "2026-09-29",
+      "slow_or_uncertain": true,
       "reported_confusion": false,
       "observed_days": 2
     },
@@ -180,22 +234,13 @@
       "reported_confusion": false,
       "observed_days": 2
     },
-    "faint": {
+    "title-specificity": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-10-02",
-      "due": "2026-10-03",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "even": {
-      "streak": 2,
       "errors": 0,
-      "last": "2026-09-29",
-      "due": "2026-10-03",
+      "last": "2026-10-02",
+      "due": "2026-10-02",
       "slow_or_uncertain": false,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 2
     },
     "tone": {
@@ -207,31 +252,31 @@
       "reported_confusion": false,
       "observed_days": 2
     },
-    "conceivably": {
-      "streak": 0,
-      "errors": 1,
-      "last": "2026-10-02",
-      "due": "2026-10-03",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "subject": {
-      "streak": 0,
+    "transition": {
+      "streak": 1,
       "errors": 0,
       "last": "2026-09-28",
-      "due": "2026-09-29",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "logic": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-01",
-      "due": "2026-10-05",
+      "due": "2026-09-30",
       "slow_or_uncertain": false,
       "reported_confusion": false,
+      "observed_days": 1
+    },
+    "unpretentious": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-02",
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 2
+    },
+    "viewpoint-fact": {
+      "streak": 0,
+      "errors": 0,
+      "last": "2026-10-01",
+      "due": "2026-10-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
       "observed_days": 2
     },
     "with": {
@@ -242,51 +287,6 @@
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
-    },
-    "directness-modifier": {
-      "streak": 0,
-      "errors": 0,
-      "last": "2026-10-01",
-      "due": "2026-10-02",
-      "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "title-specificity": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-02",
-      "due": "2026-10-06",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
-    },
-    "reference": {
-      "streak": 1,
-      "errors": 2,
-      "last": "2026-10-01",
-      "due": "2026-10-03",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 4
-    },
-    "compromise": {
-      "streak": 1,
-      "errors": 0,
-      "last": "2026-09-27",
-      "due": "2026-09-29",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 1
-    },
-    "career-evidence": {
-      "streak": 2,
-      "errors": 0,
-      "last": "2026-10-01",
-      "due": "2026-10-05",
-      "slow_or_uncertain": false,
-      "reported_confusion": false,
-      "observed_days": 2
     }
   },
   "unmapped_targets": []

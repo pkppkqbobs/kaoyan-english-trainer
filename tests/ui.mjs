@@ -15,6 +15,8 @@ const question = (id, family) => ({id, family, target: family, q: 'Question abou
 const data = {date: '2026-09-29', repo: 'pkppkqbobs/kaoyan-english-trainer',
   questions: Array.from({length: 8}, (_, i) => question('main-' + i, 'family-' + i)), retry: {}};
 data.questions.forEach(q => { data.retry[q.family] = [question('retry-' + q.family, q.family)]; });
+const originalFirst = data.questions[0];
+originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta';
 const source = fs.readFileSync('web/review.js', 'utf8');
 let nodes, opened;
 class Element {
@@ -64,6 +66,10 @@ assert.equal(run().queue.length, 8);
 assert.deepEqual([0,1,2,3].map(i => run().queue.filter(q => q.a === i).length), [2,2,2,2]);
 answer(false);
 assert.ok(nodes.body.textContent.includes('1.【整句翻译】'));
+const shuffledFirst = run().queue[0];
+const remapped = originalFirst.o.map((_, oldIndex) => 'ABCD'[shuffledFirst.o.indexOf(originalFirst.o[oldIndex])]);
+assert.equal(shuffledFirst.exp.rest, remapped.map((letter, i) => letter + ' ' + ['alpha', 'beta', 'gamma', 'delta'][i]).join('; '),
+  'option-specific explanation labels must follow the shuffled options');
 const firstWrong = run().answers[0];
 boot();
 assert.equal(run().answers[0].ok, false, 'Refresh must retain the answer');
@@ -94,4 +100,11 @@ boot();
 assert.equal(snapshot().runs.length, 3);
 nodes.historyBtn.click();
 assert.ok(nodes.body.textContent.includes('本地历史'));
+const dailyKey = 'kaoyan.daily.v3.' + data.date;
+const dailySnapshot = storage[dailyKey];
+data.storagePrefix = 'kaoyan.passage.v1.';
+data.storageId = '2026-09-30-executive-moves';
+boot();
+assert.ok(storage['kaoyan.passage.v1.2026-09-30-executive-moves'], 'Passage drill must use its own storage namespace');
+assert.equal(storage[dailyKey], dailySnapshot, 'Passage drill must not overwrite daily progress');
 console.log('UI tests passed: hidden answers, balanced options, refresh, new-context retry, original errors, reports, history.');

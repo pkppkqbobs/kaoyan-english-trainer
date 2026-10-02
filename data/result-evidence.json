@@ -13,8 +13,10 @@
       "family": "summary-location",
       "ok": true,
       "ms": 6000.0,
-      "uncertain": true,
+      "uncertain": false,
       "aggregate": true,
+      "attempts": 2,
+      "errors": 0,
       "origin": 1
     },
     {
@@ -24,6 +26,8 @@
       "ms": 128000.0,
       "uncertain": false,
       "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
       "origin": 1
     },
     {
@@ -33,6 +37,8 @@
       "ms": 15000.0,
       "uncertain": false,
       "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
       "origin": 1
     },
     {
@@ -42,6 +48,8 @@
       "ms": 29000.0,
       "uncertain": false,
       "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
       "origin": 1
     },
     {
@@ -51,6 +59,8 @@
       "ms": 12000.0,
       "uncertain": false,
       "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
       "origin": 1
     },
     {

@@ -1,4 +1,4 @@
-name: Daily review and Pages
+name: Daily review state
 
 on:
   schedule:
@@ -12,6 +12,7 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'web/**'
+      - 'data/base-bank.json'
       - 'data/questions/**'
       - 'data/learning-notes.json'
       - 'data/quality-exclusions.json'
@@ -22,7 +23,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: pages
+  group: review-state
   cancel-in-progress: false
 
 jobs:
@@ -59,22 +60,3 @@ jobs:
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update daily review and spaced-repetition state'
             git push origin HEAD:main
           fi
-      - name: Upload complete static site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy tested artifact to Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
