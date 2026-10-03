@@ -1,0 +1,94 @@
+[
+  {
+    "id": "provoke-family-debate-a",
+    "family": "provoke-family",
+    "introduced": "2026-10-03",
+    "budget": 40,
+    "target": "provocative / provoke sb to do",
+    "skill": "provoke 词族语境义",
+    "q": "The documentary was deliberately provocative: it was designed to provoke viewers to question assumptions they had long accepted. Which explanation is most accurate?",
+    "o": [
+      "provocative means sexually attractive here",
+      "provocative means thought-provoking or controversial, and provoke viewers to question means prompt them to question",
+      "provoke always means make someone angry",
+      "provocative means completely objective"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "这部纪录片有意具有挑衅性/引发思考：它就是为了促使观众质疑自己长期接受的假设。",
+      "structure": "第一分句：The documentary + was + deliberately provocative。冒号后解释其效果：it + was designed + to provoke viewers to question...。provoke viewers to question 是 provoke sb to do 结构。",
+      "other": "documentary 纪录片；deliberately 有意地；assumption 假设/想当然的看法；accept 接受。",
+      "meaning": "provocative在文章、观点、作品语境中常表示会引发争议或思考；provoke sb to do 可表示促使、激起某人去做某事，不一定是“激怒”。",
+      "rest": "sexually attractive只是provocative在某些人物/服装语境中的另一义；provoke并非永远等于使人生气；completely objective与deliberately provocative相反。"
+    }
+  },
+  {
+    "id": "past-tense-happiness-trip-a",
+    "family": "past-tense-happiness",
+    "introduced": "2026-10-03",
+    "budget": 45,
+    "target": "past-tense condition / happiness in retrospect",
+    "skill": "回顾性幸福",
+    "q": "A difficult expedition may be exhausting day by day yet feel deeply rewarding years later. In this sense, happiness is being treated as a “past-tense condition.” What does that mean?",
+    "o": [
+      "happiness can only exist in childhood",
+      "happiness is judged retrospectively rather than only by moment-to-moment pleasure",
+      "people should ignore all present emotions",
+      "past events are always happier than present ones"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一次艰苦的探险每天可能都很累，但多年后回想起来却非常值得。在这个意义上，把幸福视为“过去时的状态”，就是强调幸福可以通过事后的回顾来判断，而不只看当下每一刻是否快乐。",
+      "structure": "第一句由yet连接对比：expedition may be exhausting... yet feel rewarding later。问句主干：happiness + is being treated + as a past-tense condition。这里的past-tense是比喻性的时间视角。",
+      "other": "expedition 探险；exhausting 令人疲惫的；rewarding 值得的/有回报的；retrospectively 回顾性地。",
+      "meaning": "past-tense condition在此不是语法题，而是说幸福感可能在经历之后回看时才成立，与happiness in retrospect一致。",
+      "rest": "childhood无关；不是要求忽略当下情绪，而是不把瞬时快乐当作唯一尺度；也没有说过去的事情总比现在幸福。"
+    }
+  },
+  {
+    "id": "feature-verb-magazine-a",
+    "family": "feature-verb",
+    "introduced": "2026-10-03",
+    "budget": 35,
+    "target": "feature 作动词",
+    "skill": "feature 熟词生义",
+    "q": "This month's science magazine features three young researchers on its cover. Here, features most nearly means:",
+    "o": [
+      "has three researchers as a prominent part of its content",
+      "lists the researchers' physical features",
+      "removes the researchers from the cover",
+      "criticizes the researchers in detail"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "本月的科学杂志在封面重点呈现了三位年轻研究人员。",
+      "structure": "主干：This month's science magazine（主语）+ features（谓语）+ three young researchers（宾语）+ on its cover（地点短语）。feature在这里明确是动词。",
+      "other": "prominent 显眼的/重要的；content 内容；cover 封面；researcher 研究人员。",
+      "meaning": "feature作动词常表示重点介绍、刊登、使……成为特色内容。新闻和杂志语境非常常见。",
+      "rest": "physical features中的features是名词“外貌特征”；remove是移除；criticize是批评，都不符合“杂志把某人放在封面突出呈现”的语境。"
+    }
+  },
+  {
+    "id": "subconscious-way-advertising-a",
+    "family": "subconscious-way",
+    "introduced": "2026-10-03",
+    "budget": 40,
+    "target": "subconscious / in a ... way",
+    "skill": "潜意识影响",
+    "q": "Repeated images in advertising may, in a small subconscious way, shape what consumers regard as normal. Here, subconscious most nearly means:",
+    "o": [
+      "fully deliberate and carefully planned by the consumers",
+      "operating below full conscious awareness",
+      "legally required",
+      "impossible to influence"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "广告中反复出现的图像可能以一种细微、潜意识的方式影响消费者对“正常”的理解。",
+      "structure": "主干：Repeated images（主语）+ may shape（谓语）+ what consumers regard as normal（宾语从句）。in a small subconscious way作方式状语，说明这种影响不是明显、主动意识到的。",
+      "other": "repeated 反复出现的；advertising 广告；regard A as B 把A视为B；awareness 意识。",
+      "meaning": "subconscious表示潜意识的、低于完全自觉意识层面的。in a small subconscious way可自然译为“以某种细微、潜移默化的方式”。",
+      "rest": "fully deliberate与subconscious相反；legally required是法律要求；impossible to influence与shape consumers直接矛盾。"
+    }
+  }
+]
