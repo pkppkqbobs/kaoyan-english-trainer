@@ -63,84 +63,99 @@
     "family": "author-stance",
     "date": "2026-10-03",
     "kind": "correct_but_uncertain",
-    "note": "2011 英语一 Text 3 第33题首次作答正确，但用户认为 deserve all the negative comments 也有些合理。需要训练：原文描述负面评论/指控的存在，不等于作者作出“应得/活该”的价值判断；尤其警惕 deserve、all 等立场和绝对化词。"
+    "note": "2011 英语一 Text 3 第33题首次作答正确，但用户认为 deserve all the negative comments 也有些合理。需要训练：原文描述负面评论/指控的存在，不等于作者作出“应得/活该”的价值判断；尤其警惕 deserve、all 等立场和绝对化词。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "title-coverage",
     "date": "2026-10-03",
     "kind": "correct_but_uncertain",
-    "note": "2011 英语一 Text 3 第35题首次作答正确，但用户在 Alternatives to conventional paid media 与只覆盖后半篇的 earned/hijacked 冲突标题之间犹豫。需要训练标题覆盖全文而非局部显眼主题。"
+    "note": "2011 英语一 Text 3 第35题首次作答正确，但用户在 Alternatives to conventional paid media 与只覆盖后半篇的 earned/hijacked 冲突标题之间犹豫。需要训练标题覆盖全文而非局部显眼主题。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "infancy",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "用户画框 in its infancy；需掌握 be in its infancy = 尚处于初期/起步阶段，而非字面婴儿期。"
+    "note": "用户画框 in its infancy；需掌握 be in its infancy = 尚处于初期/起步阶段，而非字面婴儿期。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "hostage-hijack",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "用户画框 hostage，文章同时出现 hijacked media；需掌握 become/be held hostage to = 受……挟制/控制，以及 hijack 的比喻义“劫持/夺走传播控制权”。"
+    "note": "用户画框 hostage，文章同时出现 hijacked media；需掌握 become/be held hostage to = 受……挟制/控制，以及 hijack 的比喻义“劫持/夺走传播控制权”。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "alerts",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "用户画框 alerts；需掌握 e-mail/product alerts = 通知/提醒，以及 alert sb to sth。"
+    "note": "用户画框 alerts；需掌握 e-mail/product alerts = 通知/提醒，以及 alert sb to sth。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "travel-provider",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "用户画框 travel providers；需掌握名词作定语结构，travel providers = 旅游/出行服务提供商。"
+    "note": "用户画框 travel providers；需掌握名词作定语结构，travel providers = 旅游/出行服务提供商。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "complementary",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "用户画框 complementary；需掌握 complementary = 互补的，并与 complimentary = 免费赠送的/赞美的区分。"
+    "note": "用户画框 complementary；需掌握 complementary = 互补的，并与 complimentary = 免费赠送的/赞美的区分。",
+    "session_id": "2026-10-03-2011-text3"
   },
   {
     "family": "social-message-inference",
     "date": "2026-10-03",
     "kind": "user_reported_wrong",
-    "note": "2011 英语一 Text 4 第38题：用户原想选A，随后因觉得childless folks并未遭受批评而改选B；正确方向应由第三段“unhappy childless folks are bothered with the message... their misery...”推出D：社会信息使无子女者更容易对生活满意度产生怀疑。A把社会暗示偷换成直接批评，B与被持续灌输信息相反。该记录是用户自述真题错因，不作为网页选择题成绩。"
+    "note": "2011 英语一 Text 4 第38题：用户原想选A，随后因觉得childless folks并未遭受批评而改选B；正确方向应由第三段“unhappy childless folks are bothered with the message... their misery...”推出D：社会信息使无子女者更容易对生活满意度产生怀疑。A把社会暗示偷换成直接批评，B与被持续灌输信息相反。该记录是用户自述真题错因，不作为网页选择题成绩。",
+    "session_id": "2026-10-03-2011-text4"
   },
   {
     "family": "causal-role-direction",
     "date": "2026-10-03",
     "kind": "user_reported_wrong",
-    "note": "2011 英语一 Text 4 第40题：用户在A/B间犹豫后选A。最后一段实际说celebrity parenthood images可能以小而潜意识的方式影响我们对育儿的态度/期待并造成现实落差，因此B更符合；A把“名人形象让育儿看起来glamorous”误读成“生孩子对名人妈妈的glamour贡献很小”，发生主语—作用方向倒置。该记录是用户自述真题错因，不作为网页选择题成绩。"
+    "note": "2011 英语一 Text 4 第40题：用户在A/B间犹豫后选A。最后一段实际说celebrity parenthood images可能以小而潜意识的方式影响我们对育儿的态度/期待并造成现实落差，因此B更符合；A把“名人形象让育儿看起来glamorous”误读成“生孩子对名人妈妈的glamour贡献很小”，发生主语—作用方向倒置。该记录是用户自述真题错因，不作为网页选择题成绩。",
+    "session_id": "2026-10-03-2011-text4"
   },
   {
     "family": "provoke-family",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "2011 英语一 Text 4 画框：provocative 与 provoked。provocative 在 magazine cover story 中表示引发争议/思考的；provoke sb to do 在 unhappy parents rarely are provoked to wonder... 中表示促使/激起某人去想，不应一律译成“挑衅/激怒”。"
+    "note": "2011 英语一 Text 4 画框：provocative 与 provoked。provocative 在 magazine cover story 中表示引发争议/思考的；provoke sb to do 在 unhappy parents rarely are provoked to wonder... 中表示促使/激起某人去想，不应一律译成“挑衅/激怒”。",
+    "session_id": "2026-10-03-2011-text4"
   },
   {
     "family": "past-tense-happiness",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "2011 英语一 Text 4 画框：past-tense condition。语境中 happiness 不按 moment-to-moment joy 衡量，而是回头看后的总体感受，可理解为“事后/回顾性成立的幸福状态”，与 happiness in retrospect 呼应。"
+    "note": "2011 英语一 Text 4 画框：past-tense condition。语境中 happiness 不按 moment-to-moment joy 衡量，而是回头看后的总体感受，可理解为“事后/回顾性成立的幸福状态”，与 happiness in retrospect 呼应。",
+    "session_id": "2026-10-03-2011-text4"
   },
   {
     "family": "feature-verb",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "2011 英语一 Text 4 画框：features。Practically every week features at least one celebrity mom... 中 feature 作动词，表示刊登、重点呈现、以……为特色，不是“特点”名词义。"
+    "note": "2011 英语一 Text 4 画框：features。Practically every week features at least one celebrity mom... 中 feature 作动词，表示刊登、重点呈现、以……为特色，不是“特点”名词义。",
+    "session_id": "2026-10-03-2011-text4"
   },
   {
     "family": "kitten-killing",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "2011 英语一 Text 4 画框：kitten-killing。support kitten-killing = 支持杀害/虐杀小猫；作者用夸张类比说明公开承认后悔生孩子在这种社会氛围下被视为极其冒犯。该词组本身是可组合表达，低频，不应机械高频复习。"
+    "note": "2011 英语一 Text 4 画框：kitten-killing。support kitten-killing = 支持杀害/虐杀小猫；作者用夸张类比说明公开承认后悔生孩子在这种社会氛围下被视为极其冒犯。该词组本身是可组合表达，低频，不应机械高频复习。",
+    "session_id": "2026-10-03-2011-text4",
+    "review_importance": "low"
   },
   {
     "family": "subconscious-way",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
-    "note": "2011 英语一 Text 4 画框：subconscious。in some small, subconscious way = 以某种细微、潜意识的方式；句子说理想化育儿形象可能潜移默化地加剧人们对现实体验的不满。"
+    "note": "2011 英语一 Text 4 画框：subconscious。in some small, subconscious way = 以某种细微、潜意识的方式；句子说理想化育儿形象可能潜移默化地加剧人们对现实体验的不满。",
+    "session_id": "2026-10-03-2011-text4"
   }
 ]

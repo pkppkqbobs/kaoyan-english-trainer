@@ -59,7 +59,7 @@ jobs:
       - name: Preserve generated daily history
         run: |
           git add -- today.html data archive
-          if [ -f article-review.html ]; then git add -- article-review.html; fi
+          if [ -f article-review.html ]; then git add -- article-review*.html; fi
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update daily review and spaced-repetition state'
             git push origin HEAD:main

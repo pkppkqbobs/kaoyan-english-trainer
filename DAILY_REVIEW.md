@@ -12,10 +12,13 @@
 
 - 用户做完一篇真题后，可以在当前 ChatGPT 对话中发送文章截图并说明：哪些题做错、哪些题虽然做对但犹豫、哪些画框位置翻译困难。
 - ChatGPT 只把与训练有关的结构化学习证据同步到 `data/learning-notes.json`，并按需要补充经过审核的新语境题到 `data/questions/*.json`；不上传聊天全文，也不把“答对但犹豫/翻译困难”伪造成答错记录。
-- 每篇文章再写一个很小的 `data/article-sessions/YYYY-MM-DD-*.json`，只保存来源标签、日期、目标 family 和混合比例，不保存整篇真题原文。
-- `scripts/article_review.py` 读取最新 article session，把本篇明确问题与历史弱项混成 8 题。默认本篇 4 题 + 历史 4 题；本篇目标使用迁移语境，历史部分复用同一套间隔优先级逻辑。
+- 每篇文章再写一个很小的 `data/article-sessions/YYYY-MM-DD-*.json`，保存唯一 `id`、学习日期 `date`、带时区的 `created_at`、来源标签、`focus_families` 和 `max_current`（1–4）。最新 session 按 `created_at` 选取，不按文件名猜测；既有无时间戳文件兼容学习日期，但新增文件必须写明时间。
+- 同日多篇的 learning note 加 `session_id`。`user_reported_wrong`、`correct_but_uncertain`、`translation_difficulty` 都是观察，绝不增加错误数、attempts 或 streak；选题权重依次降低。低价值可组合词可标记 `review_importance: "low"`，不能与阅读机制同权。
+- `scripts/article_review.py` 把本篇问题与历史弱项混成 8 题。默认本篇 4 + 历史 4；只有两个有效本篇目标时为 2 + 6。本篇超过四个目标时按证据优先级选择，同级目标在新轮次间轮换。历史部分直接从排除所有本篇目标后的候选池调用共用间隔选择器，并参考 daily 和已发布 article 的出题历史。
 - 固定入口是 `article-review.html`。它与 `today.html` 分离，使用独立 localStorage 前缀 `kaoyan.article.v1.`，因此刷新文章复盘不会覆盖每日训练进度。
-- `today.html` 仍保持当天锁定；文章复盘可以在当天刷新，因为它本来就是用户主动提交新文章后生成的一次新训练。
+- `today.html` 仍保持当天锁定。新的 Text 4 可以刷新最新文章入口，但 Text 3 的 `data/article-reviews/ID.json` 与独立 HTML 保留，可通过 `article-reviews.html` 返回旧复盘。
+- 已发布 article 轮次的 JSON 不再因 Issue 或题库更新重写。补充本篇证据后需要新一套时，在 session 中显式增加 `revision`；第一轮沿用既有 storageId，第二轮起使用 `ID-r2` 等独立键。不要复用同一个 ID 覆盖旧题单或清空 localStorage。
+- 把一篇文章的学习观察、题库和 session 放在同一次提交中。Actions 生成文件不匹配输入触发路径，因此不会形成 commit loop；分支 Pages 在源提交和生成提交时都可能构建，分散小提交会额外产生构建/取消。维护时尽量一次提交经过完整测试的源文件与生成结果，不恢复自定义重复 deploy。
 - 文章复盘做完后也可提交 `[TRAINING_RESULT]` Issue；只有用户在 GitHub 最终点击 Submit new issue 后，成绩才进入后续间隔复习。
 
 ## 真实成绩与间隔复习
@@ -92,4 +95,4 @@ python3 scripts/run_daily.py --sync
 
 第一次导入会把旧页面保存在 `archive/2026-09-29-before-automation.html`。构建自动生成 data/base-bank.json、result-evidence.json、excluded-evidence.json、review-state.json、daily.json、daily-history.json、days/日期.json及today.html。源题库与生成结果分开；维护者不要直接覆盖 today.html 的内嵌数据。
 
-必须在测试通过后才提交生成结果并部署。使用官方 Pages artifact 部署，不依赖 GITHUB_TOKEN 自己的提交再次触发分支构建。推送冲突时不强推覆盖；任务失败应说明失败点并保留旧版本。最终确认要区分“代码已提交”“工作流通过”“网页已部署”，不能只看到提交就宣称全部成功。
+必须在测试通过后才提交生成结果。本仓库由默认分支的官方 Pages 构建器发布，`Daily review state` 只测试和生成/提交数据，不执行第二套 deploy。推送冲突时不强推覆盖；生成失败不提交半成品，保留此前可用页面。最终确认要区分“代码已提交”“工作流通过”“网页已部署”，不能只看到提交就宣称全部成功。

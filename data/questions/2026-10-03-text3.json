@@ -9,16 +9,16 @@
     "q": "A report says that residents posted hundreds of angry comments after the council announced a parking plan. Which conclusion is directly supported?",
     "o": [
       "The plan deserved every angry comment it received.",
-      "The announcement triggered substantial negative reaction.",
+      "Residents posted a large number of angry comments following the announcement.",
       "The council knowingly designed a harmful plan.",
       "All residents opposed the plan."
     ],
     "a": 1,
     "exp": {
-      "trans": "一份报告说，市议会公布停车方案后，居民发布了数百条愤怒评论。原文直接支持的是：该公告引发了大量负面反应。",
+      "trans": "一份报告说，市议会公布停车方案后，居民发布了数百条愤怒评论。原文直接支持：居民在公告后发布了大量愤怒评论；after只说明先后，不能据此确定因果。",
       "structure": "主句：A report（主语）+ says（谓语）+ that宾语从句。that从句：residents（主语）+ posted（谓语）+ hundreds of angry comments（宾语）；after从句只交代时间。句子报告发生了什么，没有评价这些评论是否应得。",
       "other": "council 市议会；announce 公布；substantial 大量的/显著的；reaction 反应。",
-      "meaning": "阅读中有人批评或指控，只能直接证明存在负面反应，不能自动推出作者赞同这些批评或认为对象活该。",
+      "meaning": "负面评论的存在不等于作者认为批评对象活该。after只报告时间先后；要断言公告引发评论，还需要明确的因果证据。",
       "rest": "deserved every angry comment加入作者价值判断和绝对化every；knowingly designed a harmful plan推测动机；All residents把数百条评论扩大成所有居民。"
     }
   },
@@ -52,7 +52,7 @@
     "target": "be in its infancy",
     "skill": "infancy 比喻义",
     "budget": 35,
-    "q": "The city's hydrogen-bus program is still in its infancy: only five vehicles are operating and the charging network is incomplete. Here, in its infancy means:",
+    "q": "The city's hydrogen-bus program is still in its infancy: only five vehicles are operating and the hydrogen-refuelling network is incomplete. Here, in its infancy means:",
     "o": [
       "处于衰退阶段",
       "仍处于起步阶段",
@@ -62,8 +62,8 @@
     "a": 1,
     "exp": {
       "trans": "这座城市的氢能公交项目仍处于起步阶段：目前只有五辆车在运营，补能网络也尚不完整。",
-      "structure": "主句：The city's hydrogen-bus program（主语）+ is（系动词）+ still in its infancy（表语）。冒号后的only five vehicles和network is incomplete具体解释为什么说它还处于早期。",
-      "other": "hydrogen 氢能；vehicle 车辆；operate 运营；incomplete 不完整的。",
+      "structure": "主句：The city's hydrogen-bus program（主语）+ is（系动词）+ still in its infancy（表语）。冒号后的only five vehicles和refuelling network is incomplete具体解释为什么说它还处于早期。",
+      "other": "hydrogen 氢；vehicle 车辆；operate 运营；refuelling network 加氢补能网络。",
       "meaning": "be in its infancy是固定比喻表达，表示某项技术、行业或计划尚处于早期、起步阶段。",
       "rest": "decline是衰退；fully mature与only five和incomplete矛盾；infancy在此不是字面婴儿期。"
     }
@@ -72,23 +72,23 @@
     "id": "hostage-hijack-hashtag-a",
     "family": "hostage-hijack",
     "introduced": "2026-10-03",
-    "target": "become hostage to / hijack",
+    "target": "be held hostage to / 依赖与控制",
     "skill": "hostage / hijack 比喻义",
     "budget": 45,
-    "q": "A company created a cheerful hashtag for a launch, but angry customers soon filled it with complaints. The campaign effectively became hostage to the users. This means:",
+    "q": "A factory depends on one supplier for a critical component. When the supplier changes its terms, production has to stop. The manager says the factory is held hostage to the supplier's decisions. Which interpretation fits?",
     "o": [
-      "the users physically detained the marketing staff",
-      "the campaign came under the users' control and was turned against the company",
-      "the company paid users to promote the campaign",
-      "the campaign was legally transferred to another firm"
+      "The supplier has physically detained the factory's workers.",
+      "The factory cannot operate independently of the supplier's decisions.",
+      "The factory has paid a ransom to regain legal ownership.",
+      "The supplier manufactures every product sold by the factory."
     ],
     "a": 1,
     "exp": {
-      "trans": "公司为新品发布创建了一个轻松的话题标签，但愤怒顾客很快用投诉占满了它。这个营销活动实际上受到了用户挟制，也就是传播控制权被用户夺走并反过来对公司不利。",
-      "structure": "第一句but连接预期与反转。第二句：The campaign（主语）+ became（系动词）+ hostage to the users（表语）。这里hostage是比喻，不是实际绑架。",
-      "other": "hashtag 话题标签；launch 发布；complaint 投诉；turn sth against sb 使某物反过来对某人不利。",
-      "meaning": "become hostage to表示受……控制或挟制；传播语境里的hijack也常表示夺走原本的传播控制权。",
-      "rest": "physically detained是字面绑架；paid users是付费推广；legally transferred是法律转让，都没有体现用户利用原活动反向施压。"
+      "trans": "一家工厂依赖唯一供应商提供关键零件。供应商一改条件，生产就不得不停下来。经理说工厂受供应商的决定挟制，也就是无法独立于这些决定维持运转。",
+      "structure": "第一句：A factory + depends on + one supplier。第二句：When the supplier changes its terms是条件/时间背景；production + has to stop是主句。第三句is held hostage to是比喻性被动表达，描述受制于供应商的状态。",
+      "other": "critical component 关键零件；supplier 供应商；terms 条件；ransom 赎金。",
+      "meaning": "be held hostage to表示受制于、被某因素控制；此处并非字面绑架。hijack也可比喻夺走控制权，但本题考察hostage搭配。",
+      "rest": "physically detained和paid a ransom把经济依赖误作实际绑架；manufactures every product擅自把一个关键零件扩大成全部产品。"
     }
   },
   {

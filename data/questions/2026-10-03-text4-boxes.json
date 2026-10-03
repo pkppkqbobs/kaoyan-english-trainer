@@ -16,10 +16,10 @@
     "a": 1,
     "exp": {
       "trans": "这部纪录片有意具有挑衅性/引发思考：它就是为了促使观众质疑自己长期接受的假设。",
-      "structure": "第一分句：The documentary + was + deliberately provocative。冒号后解释其效果：it + was designed + to provoke viewers to question...。provoke viewers to question 是 provoke sb to do 结构。",
+      "structure": "第一分句：The documentary（主语）+ was（系动词）+ deliberately provocative（表语）。冒号后：it（主语）+ was designed（被动谓语）+ to provoke viewers to question...（目的）。provoke viewers to question是provoke sb to do结构；they had long accepted修饰assumptions。",
       "other": "documentary 纪录片；deliberately 有意地；assumption 假设/想当然的看法；accept 接受。",
       "meaning": "provocative在文章、观点、作品语境中常表示会引发争议或思考；provoke sb to do 可表示促使、激起某人去做某事，不一定是“激怒”。",
-      "rest": "sexually attractive只是provocative在某些人物/服装语境中的另一义；provoke并非永远等于使人生气；completely objective与deliberately provocative相反。"
+      "rest": "sexually attractive是某些人物/服装语境中的另一义，不能解释question assumptions；always make someone angry把一种义项扩大成唯一义项；completely objective讨论客观程度，原文没有提供这种判断，provocative本身也不等于不客观。"
     }
   },
   {
@@ -39,7 +39,7 @@
     "a": 1,
     "exp": {
       "trans": "一次艰苦的探险每天可能都很累，但多年后回想起来却非常值得。在这个意义上，把幸福视为“过去时的状态”，就是强调幸福可以通过事后的回顾来判断，而不只看当下每一刻是否快乐。",
-      "structure": "第一句由yet连接对比：expedition may be exhausting... yet feel rewarding later。问句主干：happiness + is being treated + as a past-tense condition。这里的past-tense是比喻性的时间视角。",
+      "structure": "第一句：A difficult expedition（主语）+ may be exhausting... yet feel deeply rewarding...（并列谓语部分），yet连接当时疲惫与事后满足的对比。第二句happiness + is being treated（现在进行时的被动谓语）+ as a past-tense condition。past-tense在这里是比喻性的时间视角。",
       "other": "expedition 探险；exhausting 令人疲惫的；rewarding 值得的/有回报的；retrospectively 回顾性地。",
       "meaning": "past-tense condition在此不是语法题，而是说幸福感可能在经历之后回看时才成立，与happiness in retrospect一致。",
       "rest": "childhood无关；不是要求忽略当下情绪，而是不把瞬时快乐当作唯一尺度；也没有说过去的事情总比现在幸福。"
@@ -52,20 +52,20 @@
     "budget": 35,
     "target": "feature 作动词",
     "skill": "feature 熟词生义",
-    "q": "This month's science magazine features three young researchers on its cover. Here, features most nearly means:",
+    "q": "The revised training course features a workshop in which volunteers repair old bicycles. Here, features most nearly means:",
     "o": [
-      "has three researchers as a prominent part of its content",
-      "lists the researchers' physical features",
-      "removes the researchers from the cover",
-      "criticizes the researchers in detail"
+      "includes the workshop as a prominent part of the course",
+      "lists the volunteers' physical characteristics",
+      "cancels the bicycle workshop",
+      "requires every volunteer to buy a new bicycle"
     ],
     "a": 0,
     "exp": {
-      "trans": "本月的科学杂志在封面重点呈现了三位年轻研究人员。",
-      "structure": "主干：This month's science magazine（主语）+ features（谓语）+ three young researchers（宾语）+ on its cover（地点短语）。feature在这里明确是动词。",
-      "other": "prominent 显眼的/重要的；content 内容；cover 封面；researcher 研究人员。",
-      "meaning": "feature作动词常表示重点介绍、刊登、使……成为特色内容。新闻和杂志语境非常常见。",
-      "rest": "physical features中的features是名词“外貌特征”；remove是移除；criticize是批评，都不符合“杂志把某人放在封面突出呈现”的语境。"
+      "trans": "修订后的培训课程把志愿者修理旧自行车的工作坊作为特色内容。features表示把该工作坊作为课程的重要部分。",
+      "structure": "The revised training course（主语）+ features（谓语）+ a workshop（宾语）。in which volunteers repair old bicycles是修饰workshop的定语从句，来自Volunteers repair old bicycles in the workshop。",
+      "other": "revised 修订的；training course 培训课程；workshop 工作坊；volunteer 志愿者。",
+      "meaning": "feature作及物动词表示把某内容作为重要或特色部分，不是名词“外貌特征”。",
+      "rest": "physical characteristics对应features的名词义，与当前及物动词位置不符；cancels与课程包含工作坊相反；buy a new bicycle没有证据，原句讨论repair old bicycles。"
     }
   },
   {
@@ -75,20 +75,20 @@
     "budget": 40,
     "target": "subconscious / in a ... way",
     "skill": "潜意识影响",
-    "q": "Repeated images in advertising may, in a small subconscious way, shape what consumers regard as normal. Here, subconscious most nearly means:",
+    "q": "After hearing the same melody at lunch for a month, Lina starts humming it without noticing. A researcher calls this a subconscious influence. The influence is subconscious chiefly because:",
     "o": [
-      "fully deliberate and carefully planned by the consumers",
-      "operating below full conscious awareness",
-      "legally required",
-      "impossible to influence"
+      "Lina deliberately planned to learn the melody.",
+      "Lina is not fully aware of how the repeated melody affects her.",
+      "The restaurant is legally required to play music.",
+      "The melody has no effect on Lina at all."
     ],
     "a": 1,
     "exp": {
-      "trans": "广告中反复出现的图像可能以一种细微、潜意识的方式影响消费者对“正常”的理解。",
-      "structure": "主干：Repeated images（主语）+ may shape（谓语）+ what consumers regard as normal（宾语从句）。in a small subconscious way作方式状语，说明这种影响不是明显、主动意识到的。",
-      "other": "repeated 反复出现的；advertising 广告；regard A as B 把A视为B；awareness 意识。",
-      "meaning": "subconscious表示潜意识的、低于完全自觉意识层面的。in a small subconscious way可自然译为“以某种细微、潜移默化的方式”。",
-      "rest": "fully deliberate与subconscious相反；legally required是法律要求；impossible to influence与shape consumers直接矛盾。"
+      "trans": "连续一个月午饭时听同一段旋律后，Lina不自觉地开始哼唱。研究者称这是一种潜意识影响，因为她没有充分意识到反复听到的旋律怎样影响自己。",
+      "structure": "After hearing...是时间背景，其逻辑主语是Lina。主干：Lina + starts humming + it；without noticing表示她没有察觉这一行为。A researcher + calls + this + a subconscious influence是call A B结构。",
+      "other": "melody 旋律；hum 哼唱；repeated 反复的；be aware of 意识到。",
+      "meaning": "subconscious强调影响发生在充分自觉意识之下；不等于影响不存在，也不能根据她未察觉来猜测他人的法律义务。",
+      "rest": "deliberately planned与without noticing描述的未充分自觉相反；legally required无证据；no effect与Lina开始哼唱的行为变化矛盾。"
     }
   }
 ]

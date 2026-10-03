@@ -29,66 +29,66 @@
     "target": "message / criticism / satisfaction",
     "skill": "被灌输信息 ≠ 被直接批评",
     "budget": 50,
-    "q": "A magazine constantly presents home ownership as the clearest sign of adulthood. Renters are repeatedly exposed to stories implying that a “real adult” owns a home. Which inference is best supported?",
+    "q": "At a school, the wall of honour lists only perfect test scores. A pupil who has improved greatly still asks, “Does my progress count if I never appear on that wall?” Which inference is best supported?",
     "o": [
-      "Renters are constantly attacked personally by the magazine.",
-      "Renters may be more likely to feel that something is missing from their lives.",
-      "The magazine completely ignores renters.",
-      "All homeowners are happier than all renters."
+      "The pupil has been personally insulted by every teacher.",
+      "The display may lead the pupil to doubt the value of improvement without perfection.",
+      "The school has failed to display any test scores.",
+      "Every pupil with a perfect score has made greater progress."
     ],
     "a": 1,
     "exp": {
-      "trans": "一本杂志不断把拥有住房描述为成年的最明确标志，并反复暗示“真正的成年人”都该有自己的房子。最能支持的推断是：租房者可能更容易觉得自己生活中缺了什么。",
-      "structure": "主句：A magazine + presents + home ownership...。第二句：Renters + are exposed to + stories；implying...作后置分词，说明这些故事传达的暗示。推断应沿“信息 → 自我感受”走。",
-      "other": "home ownership 自有住房；adulthood 成年状态；be exposed to 接触到；imply 暗示。",
-      "meaning": "社会信息可能影响人的自我评价或满意度，但这与“被直接人身攻击”不同。",
-      "rest": "attacked personally把暗示升级成直接攻击；completely ignores与repeatedly exposed相反；all homeowners are happier把价值信息偷换成绝对事实。"
+      "trans": "一所学校的荣誉墙只列满分成绩。一名进步很大的学生仍问：“如果我从未登上那面墙，我的进步还算数吗？”最稳妥的推断是：这种展示可能让他怀疑没有满分的进步是否有价值。",
+      "structure": "第一句：the wall of honour + lists + only perfect test scores。第二句：A pupil + asks + 引语；who has improved greatly修饰pupil。引语里if从句给出没有上榜这一条件。学生的问题体现了对进步价值的怀疑。",
+      "other": "wall of honour 荣誉墙；perfect score 满分；progress 进步；count 有价值/算数。",
+      "meaning": "社会信息可以通过展示与选择标准传递，并影响自我评价；不需要出现直接人身批评。",
+      "rest": "personally insulted无直接侮辱证据，every teacher还扩大范围；failed to display any scores与列出满分矛盾；greater progress把最终成绩偷换成进步幅度。"
     }
   },
   {
     "id": "causal-role-direction-fitness-a",
     "family": "causal-role-direction",
     "introduced": "2026-10-03",
-    "target": "主语—作用方向 / 因果方向",
+    "target": "attribute A to B / 原因与结果",
     "skill": "谁影响谁",
     "budget": 50,
-    "q": "Fitness influencers often make intensive training look effortless, and such images may subtly shape beginners' expectations about exercise. Which statement preserves the direction of influence?",
+    "q": "A trial attributed a drop in workshop dust to the installation of a new air filter. Which paraphrase preserves the reported cause and effect?",
     "o": [
-      "Beginners make fitness influencers look effortless.",
-      "Images of influencers may influence how beginners think about exercise.",
-      "Exercise has little effect on the popularity of influencers.",
-      "Beginners' expectations cause influencers to post more images."
+      "The decrease in dust made the workshop install a new filter.",
+      "Installing the filter helped reduce the amount of dust in the workshop.",
+      "Dust in the workshop improved the filter's performance.",
+      "The trial proved that every type of pollution had disappeared."
     ],
     "a": 1,
     "exp": {
-      "trans": "健身博主经常把高强度训练展示得毫不费力，而这些形象可能潜移默化地影响初学者对锻炼的期待。正确改写必须保留“博主形象影响初学者期待”的方向。",
-      "structure": "主句1：Fitness influencers + make + intensive training + look effortless。主句2：such images（主语）+ may shape（谓语）+ beginners' expectations（宾语）。作用方向是images → expectations。",
-      "other": "intensive training 高强度训练；effortless 看起来不费力；subtly 潜移默化地；expectation 期待。",
-      "meaning": "阅读中要先锁定施事和受事：谁是影响源，谁是被影响对象。不要因为词都出现过就把方向颠倒。",
-      "rest": "Beginners make influencers...把方向完全反过来；Exercise has little effect...换成另一个因果关系；expectations cause influencers...同样倒置。"
+      "trans": "一项试验把车间粉尘的减少归因于安装了新的空气过滤器。准确改写应保留“安装过滤器 → 粉尘减少”的因果方向。",
+      "structure": "A trial（主语）+ attributed（谓语）+ a drop in workshop dust（宾语/结果）+ to the installation of a new air filter（原因）。attribute A to B中A是被解释的结果，B是原因；名词化的installation保留install the filter这一动作。",
+      "other": "trial 试验；workshop 车间；dust 粉尘；installation 安装；air filter 空气过滤器。",
+      "meaning": "不要把先出现的名词误当成原因。attribute A to B的方向是B导致A，而不是A导致B。",
+      "rest": "The decrease in dust made...把结果倒置为安装的原因；Dust improved the filter's performance交换了受影响对象并添加无据效果；every type of pollution把粉尘减少扩大为所有污染消失。"
     }
   },
   {
     "id": "causal-role-direction-travel-b",
     "family": "causal-role-direction",
     "introduced": "2026-10-03",
-    "target": "主语角色交换 / influence",
+    "target": "施事与受事 / 原因与结果",
     "skill": "作用关系不能倒置",
     "budget": 50,
-    "q": "Travel advertisements can make remote destinations appear more glamorous than the actual experience, which may influence tourists' expectations. Which paraphrase is correct?",
+    "q": "The gardeners shaded the seedlings during the hottest hours. As a result, fewer seedlings dried out. Which statement keeps the cause and the affected object in the right roles?",
     "o": [
-      "Tourists' expectations make advertisements more glamorous.",
-      "The actual trip makes the advertisements less realistic.",
-      "Advertisements may shape tourists' expectations before they travel.",
-      "Tourists make remote destinations appear glamorous to advertisers."
+      "The healthier seedlings caused the gardeners to provide shade.",
+      "Shade provided by the gardeners reduced the seedlings' exposure to heat.",
+      "The seedlings protected the gardeners from the heat.",
+      "The heat was reduced because the seedlings dried out."
     ],
-    "a": 2,
+    "a": 1,
     "exp": {
-      "trans": "旅游广告可能让偏远目的地看起来比真实体验更光鲜，这可能影响游客出发前的期待。正确改写是：广告可能塑造游客的期待。",
-      "structure": "主句：Travel advertisements（主语）+ can make（谓语）+ remote destinations（宾语）+ appear more glamorous（宾补）。which指代前面的整体现象；which may influence tourists' expectations继续说明这种呈现对游客期待的影响。",
-      "other": "remote destination 偏远目的地；glamorous 光鲜迷人的；actual experience 实际体验；shape 塑造。",
-      "meaning": "原句的因果链是advertisements/presentation → tourists' expectations。主语角色和作用方向不能交换。",
-      "rest": "第一项把受影响者变成影响源；第二项讨论actual trip对广告的作用，原文没有；第四项同样把游客变成施事。"
+      "trans": "园丁在最热的几小时给幼苗遮阴，因此干枯的幼苗变少了。正确改写是：园丁提供的遮阴减少了幼苗暴露在高温中的程度。",
+      "structure": "第一句：The gardeners（施事/主语）+ shaded（谓语）+ the seedlings（受事/宾语）。第二句：fewer seedlings（主语）+ dried out（谓语）。As a result明确把遮阴和干枯减少连接为原因与结果。",
+      "other": "gardener 园丁；shade 给……遮阴；seedling 幼苗；dry out 干枯；exposure 暴露。",
+      "meaning": "先标明谁采取动作、谁受影响，再核对因果方向。gardener → shade → seedlings dry out less，不能交换施事与受事。",
+      "rest": "healthier seedlings caused...把结果当成原先行动的原因；seedlings protected gardeners交换了保护者与被保护者；heat was reduced because...反转因果，还把减少高温暴露偷换成降低环境温度。"
     }
   }
 ]

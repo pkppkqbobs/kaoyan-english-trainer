@@ -1,5 +1,6 @@
 import copy
 import json
+import re
 from datetime import date
 from pathlib import Path
 import sys
@@ -24,6 +25,13 @@ class QualityTests(unittest.TestCase):
     def test_family_only_exclusion_cannot_erase_valid_history(self):
         with self.assertRaises(ValueError):
             apply_exclusions([], [{'family': 'cling-climb', 'reason': 'missing scope'}])
+
+    def test_article_transfer_explanations_do_not_depend_on_option_positions(self):
+        root = Path(__file__).resolve().parents[1]
+        for path in (root / 'data/questions').glob('2026-10-03-*.json'):
+            for item in json.loads(path.read_text()):
+                with self.subTest(qid=item['id']):
+                    self.assertIsNone(re.search(r'第[一二三四1234]项|\b[ABCD]\s*[.、：]|[ABCD]选项', item['exp']['rest']))
 
     def test_locked_ambiguous_question_is_excluded_without_hiding_other_evidence(self):
         from daily_review import bank, make_stats, parse_issue

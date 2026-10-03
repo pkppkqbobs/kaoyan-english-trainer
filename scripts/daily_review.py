@@ -227,6 +227,17 @@ def evidence(issues, owner):
     return rows, accepted
 
 
+NOTE_PRIORITIES = {"user_reported_wrong": 3, "correct_but_uncertain": 2,
+                   "user_reported_confusion": 2, "translation_difficulty": 1}
+
+
+def note_priority(note):
+    """An observation affects scheduling, never the scored attempt/error counters."""
+    if note.get("review_importance") == "low":
+        return 0.25
+    return NOTE_PRIORITIES.get(note.get("kind"), 2)
+
+
 def make_stats(items, rows, notes, day):
     result = {}
     for family in sorted({q["family"] for q in items}):
@@ -266,12 +277,16 @@ def make_stats(items, rows, notes, day):
         if active_notes:
             due = min(due, day.isoformat())
         result[family] = {"streak": streak, "errors": errors, "last": last, "due": due,
-                          "slow_or_uncertain": slow, "reported_confusion": active_notes, "observed_days": len(per_day)}
+                          "slow_or_uncertain": slow, "reported_confusion": active_notes, "observed_days": len(per_day),
+                          "observation_priority": max((note_priority(n) for n in family_notes), default=0) if active_notes else 0}
     return result
 
 
-def choose(items, stats, history, day):
-    rng = random.Random("kaoyan-review:" + day.isoformat())
+def choose(items, stats, history, day, *, count=8, seed=None, include_today=False):
+    """Select directly from the candidate pool; article reviews request 4--6 slots."""
+    if not 1 <= count <= 8:
+        raise ValueError("Review count must be between one and eight")
+    rng = random.Random(seed or "kaoyan-review:" + day.isoformat())
     groups = {}
     for q in items:
         if not q.get("introduced") or q["introduced"] <= day.isoformat():
@@ -281,7 +296,7 @@ def choose(items, stats, history, day):
         return 9999 if None in dates else (day - date.fromisoformat(min(dates))).days
     last_shown, exposure = {}, {}
     for stamp, ids in history.items():
-        if stamp >= day.isoformat():
+        if stamp > day.isoformat() or (stamp == day.isoformat() and not include_today):
             continue
         for qid in ids:
             last_shown[qid] = max(stamp, last_shown.get(qid, ""))
@@ -292,7 +307,10 @@ def choose(items, stats, history, day):
     def rank(f):
         s = stats[f]
         overdue = max(0, (day - date.fromisoformat(s["due"])).days)
-        weight = (3 + min(s["errors"], 4) * 3 + 5 * s["reported_confusion"] + 2 * s["slow_or_uncertain"] + min(overdue, 10)) / (1 + exposure.get(f, 0))
+        note_weight = s.get("observation_priority", 2) / 2 if s["reported_confusion"] else 0
+        stable = 1 + s["streak"] if s["streak"] >= 2 and not s["reported_confusion"] else 1
+        weight = (3 + (min(s["errors"], 4) * 3 + 2 * s["slow_or_uncertain"]) / stable
+                  + 5 * note_weight + min(overdue, 10)) / (1 + exposure.get(f, 0))
         return (s["due"] <= day.isoformat(), weight + rng.random())
     def urgent_rank(f):
         s = stats[f]
@@ -300,8 +318,10 @@ def choose(items, stats, history, day):
         # A weak family must not disappear behind a large pool of merely due items.
         # Errors are strongest evidence; explicit confusion and slow/uncertain answers
         # remain high priority even after a later same-day or next-day correct answer.
-        return (min(s["errors"], 4) * 8 + 12 * bool(s["slow_or_uncertain"])
-                + 9 * bool(s["reported_confusion"]) + min(overdue, 10)
+        note_weight = s.get("observation_priority", 2) / 2 if s["reported_confusion"] else 0
+        stable = 1 + s["streak"] if s["streak"] >= 2 and not s["reported_confusion"] else 1
+        return ((min(s["errors"], 4) * 8 + 12 * bool(s["slow_or_uncertain"])) / stable
+                + 9 * note_weight + min(overdue, 10)
                 - min(exposure.get(f, 0) * 0.5, 2) + rng.random())
     ranked = sorted(groups, key=rank, reverse=True)
     urgent = sorted(groups, key=urgent_rank, reverse=True)
@@ -310,12 +330,13 @@ def choose(items, stats, history, day):
         return f not in chosen and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2) and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2)
     def take(count, predicate, order=None):
         for f in (order or ranked):
-            if count <= 0 or len(chosen) == 8:
+            if count <= 0 or len(chosen) == requested:
                 return
             if allowed(f) and predicate(f):
                 chosen.append(f)
                 count -= 1
-    take(4, lambda f: (stats[f]["due"] <= day.isoformat()
+    requested = count
+    take(min(4, max(1, requested - 2)), lambda f: (stats[f]["due"] <= day.isoformat()
                        and (stats[f]["errors"] > 0 or stats[f]["reported_confusion"] or stats[f]["slow_or_uncertain"])), urgent)
     # Keep one slot for a weak family that has been overdue for several days.
     # Without this reserve, a large cluster of newer mistakes can repeatedly
@@ -326,9 +347,9 @@ def choose(items, stats, history, day):
     take(max(0, 3 - sum(age(f) > 3 for f in chosen)), lambda f: age(f) > 3)
     take(2, lambda f: 1 <= age(f) <= 3)
     take(1, lambda f: stats[f]["streak"] >= 2 and stats[f]["due"] <= day.isoformat())
-    take(8 - len(chosen), lambda f: stats[f]["due"] <= day.isoformat())
-    take(8 - len(chosen), lambda f: True)
-    if len(chosen) != 8:
+    take(requested - len(chosen), lambda f: stats[f]["due"] <= day.isoformat())
+    take(requested - len(chosen), lambda f: True)
+    if len(chosen) != requested:
         raise ValueError("Insufficient diverse questions; old page retained instead of publishing an invalid quiz")
     for _ in range(100):
         rng.shuffle(chosen)
