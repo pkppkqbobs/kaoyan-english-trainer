@@ -6,10 +6,14 @@ import daily_review as review
 
 
 def apply_exclusions(rows, rules):
-    excluded_by_key = {(int(r['origin']), r['family']): r for r in rules}
+    for rule in rules:
+        if 'origin' not in rule and not {'date', 'qid'}.issubset(rule):
+            raise ValueError('Quality exclusion must identify an Issue or a dated question')
     accepted, excluded = [], []
     for row in rows:
-        rule = excluded_by_key.get((row.get('origin'), row['family']))
+        rule = next((r for r in rules if r['family'] == row['family'] and
+                     all(row.get(key) == (int(r[key]) if key == 'origin' else r[key])
+                         for key in ('origin', 'date', 'qid') if key in r)), None)
         if rule:
             excluded.append({**row, 'exclusion_reason': rule['reason']})
         else:

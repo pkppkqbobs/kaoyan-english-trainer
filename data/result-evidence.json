@@ -189,7 +189,8 @@
       "ok": true,
       "ms": 18872,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "directness-engineer-a"
     },
     {
       "date": "2026-09-30",
@@ -197,7 +198,8 @@
       "ok": true,
       "ms": 26565,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "career-chef-a"
     },
     {
       "date": "2026-09-30",
@@ -205,7 +207,8 @@
       "ok": true,
       "ms": 25901,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "recruitment-poach-a"
     },
     {
       "date": "2026-09-30",
@@ -213,7 +216,8 @@
       "ok": true,
       "ms": 16696,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "cling-policy-a"
     },
     {
       "date": "2026-09-30",
@@ -221,7 +225,8 @@
       "ok": true,
       "ms": 32327,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "viewpoint-renting-a"
     },
     {
       "date": "2026-09-30",
@@ -229,7 +234,8 @@
       "ok": true,
       "ms": 12828,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "title-preprint-a"
     },
     {
       "date": "2026-09-30",
@@ -237,7 +243,8 @@
       "ok": true,
       "ms": 14902,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "lined-up-flat-a"
     },
     {
       "date": "2026-09-30",
@@ -245,7 +252,8 @@
       "ok": true,
       "ms": 36797,
       "uncertain": false,
-      "origin": 4
+      "origin": 4,
+      "qid": "absolute-cafes-a"
     },
     {
       "date": "2026-10-01",
@@ -253,7 +261,8 @@
       "ok": true,
       "ms": 137101,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "directness-curator-b"
     },
     {
       "date": "2026-10-01",
@@ -261,7 +270,8 @@
       "ok": true,
       "ms": 16240,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "logic-unless-freezer"
     },
     {
       "date": "2026-10-01",
@@ -269,7 +279,8 @@
       "ok": true,
       "ms": 71908,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "summary-overall-midsection"
     },
     {
       "date": "2026-10-01",
@@ -277,7 +288,8 @@
       "ok": true,
       "ms": 26836,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "nested-shared-gate"
     },
     {
       "date": "2026-10-01",
@@ -285,7 +297,8 @@
       "ok": true,
       "ms": 30328,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "reference-radio-failures"
     },
     {
       "date": "2026-10-01",
@@ -293,7 +306,8 @@
       "ok": true,
       "ms": 9997,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "recruitment-hunt-b"
     },
     {
       "date": "2026-10-01",
@@ -301,7 +315,8 @@
       "ok": true,
       "ms": 36535,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "viewpoint-renting-a"
     },
     {
       "date": "2026-10-01",
@@ -309,7 +324,8 @@
       "ok": true,
       "ms": 13048,
       "uncertain": false,
-      "origin": 5
+      "origin": 5,
+      "qid": "career-chef-a"
     },
     {
       "date": "2026-10-02",
@@ -317,7 +333,8 @@
       "ok": true,
       "ms": 13143,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "tone-recovery-physio"
     },
     {
       "date": "2026-10-02",
@@ -325,7 +342,8 @@
       "ok": true,
       "ms": 16030,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "legacy-unpretentious"
     },
     {
       "date": "2026-10-02",
@@ -333,7 +351,8 @@
       "ok": true,
       "ms": 17444,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "title-preprint-a"
     },
     {
       "date": "2026-10-02",
@@ -341,7 +360,8 @@
       "ok": false,
       "ms": 59232,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "faint-praise-restoration"
     },
     {
       "date": "2026-10-02",
@@ -349,7 +369,8 @@
       "ok": false,
       "ms": 46739,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "parallel-governance-repair"
     },
     {
       "date": "2026-10-02",
@@ -357,7 +378,8 @@
       "ok": true,
       "ms": 50771,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "with-lights-dimming"
     },
     {
       "date": "2026-10-02",
@@ -365,7 +387,8 @@
       "ok": false,
       "ms": 50870,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "conceivably-ferry"
     },
     {
       "date": "2026-10-02",
@@ -373,7 +396,8 @@
       "ok": true,
       "ms": 5592,
       "uncertain": false,
-      "origin": 6
+      "origin": 6,
+      "qid": "cling-policy-a"
     }
   ],
   "issues": [

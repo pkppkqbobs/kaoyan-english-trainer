@@ -168,6 +168,8 @@ def parse_issue(issue):
                 continue
             if not isinstance(row.get("family"), str) or not row["family"].strip():
                 raise ValueError("Malformed structured family")
+            if "qid" in row and (not isinstance(row["qid"], str) or not row["qid"].strip()):
+                raise ValueError("Malformed structured question id")
             if type(row.get("pick")) is not int or not 0 <= row["pick"] < 4:
                 raise ValueError("Malformed structured choice")
             if type(row.get("expected")) is not int or not 0 <= row["expected"] < 4:
@@ -178,9 +180,12 @@ def parse_issue(issue):
                 raise ValueError("Malformed uncertain flag")
             if type(row.get("ms")) not in (int, float) or not math.isfinite(row["ms"]) or not 0 <= row["ms"] <= 3600000:
                 raise ValueError("Malformed answer time")
-            rows.append({"date": obj["date"], "family": canonical(row["family"]),
-                         "ok": row["pick"] == row["expected"], "ms": row["ms"],
-                         "uncertain": row.get("uncertain", False), "origin": issue["number"]})
+            parsed = {"date": obj["date"], "family": canonical(row["family"]),
+                      "ok": row["pick"] == row["expected"], "ms": row["ms"],
+                      "uncertain": row.get("uncertain", False), "origin": issue["number"]}
+            if "qid" in row:
+                parsed["qid"] = row["qid"]
+            rows.append(parsed)
         return str(obj["roundId"]), rows
     rows, detailed = [], set()
     for line in body.splitlines():
