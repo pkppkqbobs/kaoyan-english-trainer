@@ -1,0 +1,163 @@
+[
+  {
+    "id": "author-stance-recall-a",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "target": "事实描述 / 作者价值判断",
+    "skill": "事实描述 ≠ 作者价值判断",
+    "budget": 50,
+    "q": "A report says that residents posted hundreds of angry comments after the council announced a parking plan. Which conclusion is directly supported?",
+    "o": [
+      "The plan deserved every angry comment it received.",
+      "The announcement triggered substantial negative reaction.",
+      "The council knowingly designed a harmful plan.",
+      "All residents opposed the plan."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一份报告说，市议会公布停车方案后，居民发布了数百条愤怒评论。原文直接支持的是：该公告引发了大量负面反应。",
+      "structure": "主句：A report（主语）+ says（谓语）+ that宾语从句。that从句：residents（主语）+ posted（谓语）+ hundreds of angry comments（宾语）；after从句只交代时间。句子报告发生了什么，没有评价这些评论是否应得。",
+      "other": "council 市议会；announce 公布；substantial 大量的/显著的；reaction 反应。",
+      "meaning": "阅读中有人批评或指控，只能直接证明存在负面反应，不能自动推出作者赞同这些批评或认为对象活该。",
+      "rest": "deserved every angry comment加入作者价值判断和绝对化every；knowingly designed a harmful plan推测动机；All residents把数百条评论扩大成所有居民。"
+    }
+  },
+  {
+    "id": "title-coverage-library-a",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "target": "标题覆盖全文 / 局部主题",
+    "skill": "主旨标题覆盖范围",
+    "budget": 55,
+    "q": "短文先介绍图书馆除纸质借阅外的电子书、设备借用和线上课程，随后重点讨论线上课程的版权风险。哪个标题最能覆盖全文？",
+    "o": [
+      "Copyright Problems in Online Courses",
+      "Beyond Printed Books: New Library Services",
+      "Why E-books Will Replace Libraries",
+      "The Only Safe Way to Teach Online"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "文章先介绍图书馆在纸质书借阅之外提供的多种新服务，后文再重点讨论其中线上课程的版权风险。最合适的标题应覆盖多种新服务这一全文框架，而不是只概括后半部分。",
+      "structure": "题干给出总框架到其中一项风险的篇章结构。标题需要同时解释前半部分为什么介绍多个服务，也能容纳后半部分的版权讨论。",
+      "other": "printed book 纸质书；device lending 设备借用；copyright 版权；cover 覆盖。",
+      "meaning": "标题题要找能统摄全文的上位概念。局部篇幅很长，也不能因此把局部主题当成全文主题。",
+      "rest": "Copyright Problems in Online Courses只覆盖后半篇；Why E-books Will Replace Libraries加入取代主张；The Only Safe Way含Only且主题过窄。"
+    }
+  },
+  {
+    "id": "infancy-payment-a",
+    "family": "infancy",
+    "introduced": "2026-10-03",
+    "target": "be in its infancy",
+    "skill": "infancy 比喻义",
+    "budget": 35,
+    "q": "The city's hydrogen-bus program is still in its infancy: only five vehicles are operating and the charging network is incomplete. Here, in its infancy means:",
+    "o": [
+      "处于衰退阶段",
+      "仍处于起步阶段",
+      "已经完全成熟",
+      "只适合儿童使用"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "这座城市的氢能公交项目仍处于起步阶段：目前只有五辆车在运营，补能网络也尚不完整。",
+      "structure": "主句：The city's hydrogen-bus program（主语）+ is（系动词）+ still in its infancy（表语）。冒号后的only five vehicles和network is incomplete具体解释为什么说它还处于早期。",
+      "other": "hydrogen 氢能；vehicle 车辆；operate 运营；incomplete 不完整的。",
+      "meaning": "be in its infancy是固定比喻表达，表示某项技术、行业或计划尚处于早期、起步阶段。",
+      "rest": "decline是衰退；fully mature与only five和incomplete矛盾；infancy在此不是字面婴儿期。"
+    }
+  },
+  {
+    "id": "hostage-hijack-hashtag-a",
+    "family": "hostage-hijack",
+    "introduced": "2026-10-03",
+    "target": "become hostage to / hijack",
+    "skill": "hostage / hijack 比喻义",
+    "budget": 45,
+    "q": "A company created a cheerful hashtag for a launch, but angry customers soon filled it with complaints. The campaign effectively became hostage to the users. This means:",
+    "o": [
+      "the users physically detained the marketing staff",
+      "the campaign came under the users' control and was turned against the company",
+      "the company paid users to promote the campaign",
+      "the campaign was legally transferred to another firm"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "公司为新品发布创建了一个轻松的话题标签，但愤怒顾客很快用投诉占满了它。这个营销活动实际上受到了用户挟制，也就是传播控制权被用户夺走并反过来对公司不利。",
+      "structure": "第一句but连接预期与反转。第二句：The campaign（主语）+ became（系动词）+ hostage to the users（表语）。这里hostage是比喻，不是实际绑架。",
+      "other": "hashtag 话题标签；launch 发布；complaint 投诉；turn sth against sb 使某物反过来对某人不利。",
+      "meaning": "become hostage to表示受……控制或挟制；传播语境里的hijack也常表示夺走原本的传播控制权。",
+      "rest": "physically detained是字面绑架；paid users是付费推广；legally transferred是法律转让，都没有体现用户利用原活动反向施压。"
+    }
+  },
+  {
+    "id": "alerts-dashboard-a",
+    "family": "alerts",
+    "introduced": "2026-10-03",
+    "target": "alert / e-mail alerts",
+    "skill": "alert 名词与搭配",
+    "budget": 35,
+    "q": "Users can choose to receive e-mail alerts whenever the price of a saved product falls. Here, alerts means:",
+    "o": [
+      "电子邮件提醒或通知",
+      "付款凭证",
+      "广告屏蔽工具",
+      "投诉记录"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "用户可以选择在已收藏商品降价时接收电子邮件提醒。",
+      "structure": "Users（主语）+ can choose（谓语）+ to receive e-mail alerts（不定式内容）；whenever从句说明提醒在什么条件下触发。",
+      "other": "saved product 收藏的商品；price falls 价格下降；receive 接收；whenever 每当。",
+      "meaning": "alert作名词可表示提醒、警报或通知；e-mail alert就是邮件提醒。",
+      "rest": "receipt才是付款凭证；ad blocker是广告屏蔽工具；complaint record是投诉记录。"
+    }
+  },
+  {
+    "id": "travel-provider-booking-a",
+    "family": "travel-provider",
+    "introduced": "2026-10-03",
+    "target": "travel providers / 名词作定语",
+    "skill": "名词 + 名词",
+    "budget": 35,
+    "q": "Airlines, hotels, and rail companies are all travel providers. In this phrase, travel mainly tells us:",
+    "o": [
+      "the providers are physically moving while working",
+      "the field or service category the providers belong to",
+      "the providers only sell travel books",
+      "travel is the main verb of the sentence"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "航空公司、酒店和铁路公司都属于旅游或出行服务提供商。这里travel说明providers所属的服务领域。",
+      "structure": "Airlines, hotels, and rail companies（并列主语）+ are（系动词）+ travel providers（表语）。travel在travel providers中是名词作定语，修饰providers。",
+      "other": "airline 航空公司；rail company 铁路公司；provider 提供商；category 类别。",
+      "meaning": "英语中名词可修饰名词，travel provider表示提供旅游或出行相关服务的机构，不必把travel翻成独立动作。",
+      "rest": "physically moving把travel误当动作；books无依据；travel在该短语中不是谓语动词。"
+    }
+  },
+  {
+    "id": "complementary-printer-a",
+    "family": "complementary",
+    "introduced": "2026-10-03",
+    "target": "complementary / complimentary",
+    "skill": "形近词辨析",
+    "budget": 40,
+    "q": "Printers and ink cartridges are often described as ___ products because each increases the usefulness of the other.",
+    "o": [
+      "complimentary",
+      "complementary",
+      "competitive",
+      "temporary"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "打印机和墨盒常被称为互补产品，因为两者会提高彼此的使用价值。",
+      "structure": "Printers and ink cartridges（并列主语）+ are described（被动谓语）+ as complementary products（补足说明）。because从句解释为什么是互补关系。",
+      "other": "ink cartridge 墨盒；usefulness 实用价值；describe A as B 把A描述为B；competitive 竞争性的。",
+      "meaning": "complementary表示互补的、相辅相成的。注意complimentary多表示免费的或赞美的。",
+      "rest": "complimentary可指免费赠送的或赞美的；competitive表示相互竞争；temporary表示临时的。"
+    }
+  }
+]
