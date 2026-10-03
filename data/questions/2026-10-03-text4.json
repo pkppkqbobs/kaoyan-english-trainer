@@ -1,0 +1,94 @@
+[
+  {
+    "id": "social-message-inference-career-a",
+    "family": "social-message-inference",
+    "introduced": "2026-10-03",
+    "target": "社会暗示 / 满意度推断",
+    "skill": "社会信息 ≠ 直接批评",
+    "budget": 50,
+    "q": "A workplace culture repeatedly celebrates employees who stay late, and workers who leave on time are often reminded that “real commitment means sacrifice.” What is most safely suggested?",
+    "o": [
+      "Workers who leave on time are formally punished every day.",
+      "The culture may make some workers question whether they are committed enough.",
+      "Employees who stay late are always more productive.",
+      "Managers ignore workers who leave on time."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一种职场文化反复赞美加班员工，而准时下班的人经常被提醒“真正的投入意味着牺牲”。最稳妥的推断是：这种文化可能让一些人怀疑自己是否足够投入。",
+      "structure": "主句1：A workplace culture + celebrates + employees。who stay late修饰employees。主句2：workers who leave on time + are reminded + that从句。that从句给出被灌输的信息。题目要从这种持续信息推断心理影响，而不是擅自添加处罚事实。",
+      "other": "workplace culture 职场文化；commitment 投入/忠诚；sacrifice 牺牲；question whether 怀疑是否。",
+      "meaning": "反复接收到某种价值信息，最直接支持的是“可能影响自我判断/满意度”，不等于已经遭受正式批评或惩罚。",
+      "rest": "formally punished every day加入原文没有的正式处罚；always more productive把价值宣传偷换成生产率事实；ignore与“are often reminded”相反。"
+    }
+  },
+  {
+    "id": "social-message-inference-parenting-b",
+    "family": "social-message-inference",
+    "introduced": "2026-10-03",
+    "target": "message / criticism / satisfaction",
+    "skill": "被灌输信息 ≠ 被直接批评",
+    "budget": 50,
+    "q": "A magazine constantly presents home ownership as the clearest sign of adulthood. Renters are repeatedly exposed to stories implying that a “real adult” owns a home. Which inference is best supported?",
+    "o": [
+      "Renters are constantly attacked personally by the magazine.",
+      "Renters may be more likely to feel that something is missing from their lives.",
+      "The magazine completely ignores renters.",
+      "All homeowners are happier than all renters."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一本杂志不断把拥有住房描述为成年的最明确标志，并反复暗示“真正的成年人”都该有自己的房子。最能支持的推断是：租房者可能更容易觉得自己生活中缺了什么。",
+      "structure": "主句：A magazine + presents + home ownership...。第二句：Renters + are exposed to + stories；implying...作后置分词，说明这些故事传达的暗示。推断应沿“信息 → 自我感受”走。",
+      "other": "home ownership 自有住房；adulthood 成年状态；be exposed to 接触到；imply 暗示。",
+      "meaning": "社会信息可能影响人的自我评价或满意度，但这与“被直接人身攻击”不同。",
+      "rest": "attacked personally把暗示升级成直接攻击；completely ignores与repeatedly exposed相反；all homeowners are happier把价值信息偷换成绝对事实。"
+    }
+  },
+  {
+    "id": "causal-role-direction-fitness-a",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "target": "主语—作用方向 / 因果方向",
+    "skill": "谁影响谁",
+    "budget": 50,
+    "q": "Fitness influencers often make intensive training look effortless, and such images may subtly shape beginners' expectations about exercise. Which statement preserves the direction of influence?",
+    "o": [
+      "Beginners make fitness influencers look effortless.",
+      "Images of influencers may influence how beginners think about exercise.",
+      "Exercise has little effect on the popularity of influencers.",
+      "Beginners' expectations cause influencers to post more images."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "健身博主经常把高强度训练展示得毫不费力，而这些形象可能潜移默化地影响初学者对锻炼的期待。正确改写必须保留“博主形象影响初学者期待”的方向。",
+      "structure": "主句1：Fitness influencers + make + intensive training + look effortless。主句2：such images（主语）+ may shape（谓语）+ beginners' expectations（宾语）。作用方向是images → expectations。",
+      "other": "intensive training 高强度训练；effortless 看起来不费力；subtly 潜移默化地；expectation 期待。",
+      "meaning": "阅读中要先锁定施事和受事：谁是影响源，谁是被影响对象。不要因为词都出现过就把方向颠倒。",
+      "rest": "Beginners make influencers...把方向完全反过来；Exercise has little effect...换成另一个因果关系；expectations cause influencers...同样倒置。"
+    }
+  },
+  {
+    "id": "causal-role-direction-travel-b",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "target": "主语角色交换 / influence",
+    "skill": "作用关系不能倒置",
+    "budget": 50,
+    "q": "Travel advertisements can make remote destinations appear more glamorous than the actual experience, which may influence tourists' expectations. Which paraphrase is correct?",
+    "o": [
+      "Tourists' expectations make advertisements more glamorous.",
+      "The actual trip makes the advertisements less realistic.",
+      "Advertisements may shape tourists' expectations before they travel.",
+      "Tourists make remote destinations appear glamorous to advertisers."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "旅游广告可能让偏远目的地看起来比真实体验更光鲜，这可能影响游客出发前的期待。正确改写是：广告可能塑造游客的期待。",
+      "structure": "主句：Travel advertisements（主语）+ can make（谓语）+ remote destinations（宾语）+ appear more glamorous（宾补）。which指代前面的整体现象；which may influence tourists' expectations继续说明这种呈现对游客期待的影响。",
+      "other": "remote destination 偏远目的地；glamorous 光鲜迷人的；actual experience 实际体验；shape 塑造。",
+      "meaning": "原句的因果链是advertisements/presentation → tourists' expectations。主语角色和作用方向不能交换。",
+      "rest": "第一项把受影响者变成影响源；第二项讨论actual trip对广告的作用，原文没有；第四项同样把游客变成施事。"
+    }
+  }
+]
