@@ -55,6 +55,15 @@
       "reported_confusion": true,
       "observed_days": 2
     },
+    "causal-role-direction": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
     "cling-climb": {
       "streak": 0,
       "errors": 0,
@@ -251,6 +260,15 @@
       "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
+      "observed_days": 0
+    },
+    "social-message-inference": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
       "observed_days": 0
     },
     "standard": {
