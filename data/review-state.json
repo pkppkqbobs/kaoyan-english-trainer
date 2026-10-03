@@ -28,6 +28,24 @@
       "reported_confusion": false,
       "observed_days": 0
     },
+    "alerts": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
+    "author-stance": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
     "career-evidence": {
       "streak": 0,
       "errors": 0,
@@ -45,6 +63,15 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2
+    },
+    "complementary": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
     },
     "compromise": {
       "streak": 1,
@@ -116,6 +143,24 @@
       "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
+      "observed_days": 0
+    },
+    "hostage-hijack": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
+    "infancy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
       "observed_days": 0
     },
     "lined-up": {
@@ -235,6 +280,15 @@
       "reported_confusion": false,
       "observed_days": 2
     },
+    "title-coverage": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
     "title-specificity": {
       "streak": 0,
       "errors": 0,
@@ -261,6 +315,15 @@
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
+    },
+    "travel-provider": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
     },
     "unpretentious": {
       "streak": 0,
