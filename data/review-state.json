@@ -145,6 +145,15 @@
       "reported_confusion": true,
       "observed_days": 3
     },
+    "feature-verb": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
     "have-little-use-for": {
       "streak": 0,
       "errors": 0,
@@ -208,6 +217,15 @@
       "reported_confusion": false,
       "observed_days": 3
     },
+    "past-tense-happiness": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
+    },
     "point": {
       "streak": 0,
       "errors": 0,
@@ -216,6 +234,15 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 1
+    },
+    "provoke-family": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
     },
     "recruitment-vocab": {
       "streak": 0,
@@ -279,6 +306,15 @@
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 1
+    },
+    "subconscious-way": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-03",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0
     },
     "subject": {
       "streak": 0,
