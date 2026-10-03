@@ -58,5 +58,47 @@
     "date": "2026-09-30",
     "kind": "user_reported_confusion",
     "note": "题30能抓到大话题“跳槽”，但未抓全文反复强调的特殊条件“没有下家也先离职”，并被 the only way 绝对化标题吸引；需训练标题具体性与绝对词陷阱。"
+  },
+  {
+    "family": "author-stance",
+    "date": "2026-10-03",
+    "kind": "correct_but_uncertain",
+    "note": "2011 英语一 Text 3 第33题首次作答正确，但用户认为 deserve all the negative comments 也有些合理。需要训练：原文描述负面评论/指控的存在，不等于作者作出“应得/活该”的价值判断；尤其警惕 deserve、all 等立场和绝对化词。"
+  },
+  {
+    "family": "title-coverage",
+    "date": "2026-10-03",
+    "kind": "correct_but_uncertain",
+    "note": "2011 英语一 Text 3 第35题首次作答正确，但用户在 Alternatives to conventional paid media 与只覆盖后半篇的 earned/hijacked 冲突标题之间犹豫。需要训练标题覆盖全文而非局部显眼主题。"
+  },
+  {
+    "family": "infancy",
+    "date": "2026-10-03",
+    "kind": "translation_difficulty",
+    "note": "用户画框 in its infancy；需掌握 be in its infancy = 尚处于初期/起步阶段，而非字面婴儿期。"
+  },
+  {
+    "family": "hostage-hijack",
+    "date": "2026-10-03",
+    "kind": "translation_difficulty",
+    "note": "用户画框 hostage，文章同时出现 hijacked media；需掌握 become/be held hostage to = 受……挟制/控制，以及 hijack 的比喻义“劫持/夺走传播控制权”。"
+  },
+  {
+    "family": "alerts",
+    "date": "2026-10-03",
+    "kind": "translation_difficulty",
+    "note": "用户画框 alerts；需掌握 e-mail/product alerts = 通知/提醒，以及 alert sb to sth。"
+  },
+  {
+    "family": "travel-provider",
+    "date": "2026-10-03",
+    "kind": "translation_difficulty",
+    "note": "用户画框 travel providers；需掌握名词作定语结构，travel providers = 旅游/出行服务提供商。"
+  },
+  {
+    "family": "complementary",
+    "date": "2026-10-03",
+    "kind": "translation_difficulty",
+    "note": "用户画框 complementary；需掌握 complementary = 互补的，并与 complimentary = 免费赠送的/赞美的区分。"
   }
 ]
