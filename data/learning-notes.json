@@ -100,5 +100,17 @@
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "用户画框 complementary；需掌握 complementary = 互补的，并与 complimentary = 免费赠送的/赞美的区分。"
+  },
+  {
+    "family": "social-message-inference",
+    "date": "2026-10-03",
+    "kind": "user_reported_wrong",
+    "note": "2011 英语一 Text 4 第38题：用户原想选A，随后因觉得childless folks并未遭受批评而改选B；正确方向应由第三段“unhappy childless folks are bothered with the message... their misery...”推出D：社会信息使无子女者更容易对生活满意度产生怀疑。A把社会暗示偷换成直接批评，B与被持续灌输信息相反。该记录是用户自述真题错因，不作为网页选择题成绩。"
+  },
+  {
+    "family": "causal-role-direction",
+    "date": "2026-10-03",
+    "kind": "user_reported_wrong",
+    "note": "2011 英语一 Text 4 第40题：用户在A/B间犹豫后选A。最后一段实际说celebrity parenthood images可能以小而潜意识的方式影响我们对育儿的态度/期待并造成现实落差，因此B更符合；A把“名人形象让育儿看起来glamorous”误读成“生孩子对名人妈妈的glamour贡献很小”，发生主语—作用方向倒置。该记录是用户自述真题错因，不作为网页选择题成绩。"
   }
 ]
