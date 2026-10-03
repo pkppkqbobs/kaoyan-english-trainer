@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-02",
+  "as_of": "2026-10-03",
   "issues": [
     1,
     2,
@@ -22,7 +22,7 @@
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
@@ -40,7 +40,7 @@
       "streak": 0,
       "errors": 0,
       "last": "2026-10-02",
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2
@@ -67,7 +67,7 @@
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
@@ -85,7 +85,7 @@
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
@@ -103,7 +103,7 @@
       "streak": 0,
       "errors": 1,
       "last": "2026-10-02",
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": true,
       "reported_confusion": true,
       "observed_days": 2
@@ -112,7 +112,7 @@
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
@@ -193,7 +193,7 @@
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
@@ -202,7 +202,7 @@
       "streak": 0,
       "errors": 0,
       "last": null,
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": false,
       "observed_days": 0
@@ -238,7 +238,7 @@
       "streak": 0,
       "errors": 0,
       "last": "2026-10-02",
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2
@@ -265,7 +265,7 @@
       "streak": 0,
       "errors": 0,
       "last": "2026-10-02",
-      "due": "2026-10-02",
+      "due": "2026-10-03",
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2
