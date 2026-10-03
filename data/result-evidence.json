@@ -398,6 +398,69 @@
       "uncertain": false,
       "origin": 6,
       "qid": "cling-policy-a"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 11904,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "directness-engineer-a"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "faint",
+      "ok": true,
+      "ms": 11259,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "faint-map-line"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 30884,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "parallel-governance-repair"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "relative",
+      "ok": true,
+      "ms": 29065,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "relative-borrowed-ladder"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "subject",
+      "ok": false,
+      "ms": 24851,
+      "uncertain": true,
+      "origin": 7,
+      "qid": "subject-rule-departure"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "viewpoint-fact",
+      "ok": false,
+      "ms": 47834,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "viewpoint-diet-b"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "reference",
+      "ok": true,
+      "ms": 25251,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "reference-return-rules"
     }
   ],
   "issues": [
@@ -406,6 +469,7 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ]
 }

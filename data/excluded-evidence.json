@@ -7,5 +7,15 @@
     "uncertain": false,
     "origin": 3,
     "exclusion_reason": "2026-09-29旧版题干第一句Refunds are ___ verification of purchase没有充分区分规则状态与实际核验过程；第二句测试过程下subjected to成立。因此不能依据用户选择D(subjected to / subjected to)就判定其混淆。保留原始Issue报告，但该条不计入正确率推断、错误次数或连续掌握证据；用已修订的无歧义题重新测。"
+  },
+  {
+    "date": "2026-10-03",
+    "family": "cling-climb",
+    "ok": false,
+    "ms": 13762,
+    "uncertain": false,
+    "origin": 7,
+    "qid": "cling-rail-b",
+    "exclusion_reason": "2026-10-03锁定题干中climbed to the railing / did not try to climb it可以解释为爬到栏杆附近而没有攀爬栏杆，不能仅依据该选择认定cling/climb混淆。今天题单与原始报告保留；此题不计入错误次数、uncertain或连续掌握证据。题库源版本已增加明确抓紧手臂和翻越护栏的语境。"
   }
 ]
