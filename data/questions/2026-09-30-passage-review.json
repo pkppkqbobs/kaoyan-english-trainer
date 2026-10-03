@@ -167,20 +167,20 @@
     "budget": 35,
     "target": "cling / climb",
     "skill": "cling ≠ climb",
-    "q": "The child ___ to the railing while the boat crossed the rough water; he did not try to ___ it.",
+    "q": "The child ___ to his father's arm as the boat lurched through rough water; when the boat reached the dock, he did not try to ___ over the safety barrier.",
     "o": [
       "climbed / cling",
       "clung / climb",
-      "clung / clung",
+      "clung / climbed",
       "climbed / climb"
     ],
     "a": 1,
     "exp": {
-      "trans": "船驶过颠簸水面时，孩子紧紧抓住栏杆；他并没有试图爬上去。",
-      "structure": "第一分句：The child + clung to + the railing。第二分句：he + did not try + to climb + it。clung是cling的过去式；climb是不定式原形。",
-      "other": "railing 栏杆；rough water 风浪较大的水面；cross 穿过；try to do 试图做。",
-      "meaning": "cling → clung表示抓紧不放；climb表示向上爬。两个词形相近但动作完全不同。",
-      "rest": "climbed to the railing更像“爬到栏杆处”，不符合抓稳身体；try to cling it缺少介词to且语义不对；两个都用clung无法表达第二句“爬”。"
+      "trans": "船在颠簸水面上摇晃时，孩子紧紧抓住父亲的手臂；船靠岸后，他没有试图翻过安全护栏。",
+      "structure": "第一分句：The child + clung to + his father's arm。第二分句：he + did not try + to climb over + the safety barrier。clung是cling的过去式；climb是不定式原形。",
+      "other": "lurch 突然摇晃；rough water 颠簸的水面；reach the dock 到达码头；safety barrier 安全护栏。",
+      "meaning": "cling to = 紧抓不放；climb over = 翻越/爬过。两个词形相近，但动作和搭配不同。",
+      "rest": "climbed to his father's arm不符合“抓住手臂”的语义；try to climbed over把过去式误放在不定式to后；climbed over在第二空虽可成立，但第一空仍不对；cling over不符合固定搭配。只有clung / climb同时满足两处语法和语义。"
     }
   },
   {

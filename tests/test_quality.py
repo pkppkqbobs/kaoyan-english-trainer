@@ -1,4 +1,5 @@
 import copy
+import json
 from pathlib import Path
 import sys
 import unittest
@@ -18,6 +19,17 @@ class QualityTests(unittest.TestCase):
         self.assertEqual(len(excluded), 1)
         self.assertFalse(excluded[0]['ok'])
         self.assertEqual(excluded[0]['exclusion_reason'], 'ambiguous legacy item')
+
+    def test_cling_climb_variant_has_one_viable_answer(self):
+        source = Path(__file__).resolve().parents[1] / 'data/questions/2026-09-30-passage-review.json'
+        rows = json.loads(source.read_text(encoding='utf-8'))
+        item = next(row for row in rows if row['id'] == 'cling-rail-b')
+        self.assertIn("his father's arm", item['q'])
+        self.assertIn('safety barrier', item['q'])
+        self.assertEqual(len(item['o']), 4)
+        self.assertEqual(len(set(item['o'])), 4)
+        self.assertEqual(item['a'], 1)
+        self.assertIn('climbed over在第二空虽可成立，但第一空仍不对', item['exp']['rest'])
 
 
 if __name__ == '__main__':
