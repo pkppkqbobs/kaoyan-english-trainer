@@ -138,7 +138,16 @@ def make_payload(root, session, items, archives, repo):
 def render_page(root, payload):
     version = hashlib.sha256((root / "web/review.js").read_bytes()).hexdigest()[:12]
     embedded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
-    return PAGE.replace("__DATA__", embedded).replace("__VERSION__", version)
+    # Corrections are displayed beside immutable rounds, never written into answers.
+    families = {q["family"] for q in payload["questions"]}
+    notices = []
+    for path in sorted((root / "data/source-checks").glob("*.json")):
+        for notice in review.load(path, {}).get("article_notices", []):
+            if families.intersection(notice["families"]):
+                notices.append('<p>' + html.escape(notice["text"]) + '</p>')
+    correction = ('<aside class="notice" role="note" style="max-width:860px;margin:16px auto;padding:12px">'
+                  '<strong>真题来源订正</strong>' + ''.join(notices) + '</aside>') if notices else ''
+    return PAGE.replace("__DATA__", embedded).replace("__VERSION__", version).replace("__CORRECTIONS__", correction)
 
 
 def build(root=ROOT, repo="pkppkqbobs/kaoyan-english-trainer"):
@@ -185,7 +194,7 @@ PAGE = """<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>文章复盘8题 · 考研英语</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f5f6fb;color:#192336;font-family:system-ui,"Microsoft YaHei",sans-serif}main{max-width:900px;margin:auto;padding:20px}h1{font-size:23px;margin:0 0 8px}.card{background:white;border:1px solid #e3e7ef;border-radius:16px;padding:22px;margin:16px 0}.muted{color:#667085;font-size:14px;line-height:1.6}.target{display:inline-block;padding:8px 12px;background:#eef2ff;color:#3045a0;border-radius:12px;font-weight:700}.sentence{white-space:pre-wrap;font-size:19px;line-height:1.8;margin:18px 0}.choices{display:grid;gap:10px}button,a.button{border:1px solid #dfe4ee;border-radius:10px;padding:12px 16px;background:#fff;color:#172033;font:inherit;cursor:pointer;text-decoration:none}button:hover,a.button:hover{border-color:#3157d5}button:focus-visible,a:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}button:disabled{cursor:default}.choice{text-align:left;line-height:1.6}.primary{background:#3157d5;color:white}.good{background:#e9f9ef}.bad{background:#fff0ee}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.explanation{line-height:1.8;white-space:pre-wrap}.explanation h3{font-size:16px;margin:15px 0 3px}.hidden{display:none!important}.notice{padding:10px;background:#fff7e6;line-height:1.6}.review{border-top:1px solid #e4e7ee;padding-top:18px;margin-top:18px}@media(max-width:600px){main{padding:12px}.card{padding:16px}.sentence{font-size:17px}}
-</style></head><body><main id="app"></main><p style="max-width:900px;margin:auto;padding:0 20px"><a href="./article-reviews.html">历史文章复盘</a></p><noscript>请启用浏览器JavaScript后做题。</noscript>
+</style></head><body>__CORRECTIONS__<main id="app"></main><p style="max-width:900px;margin:auto;padding:0 20px"><a href="./article-reviews.html">历史文章复盘</a></p><noscript>请启用浏览器JavaScript后做题。</noscript>
 <script>window.REVIEW_DATA=__DATA__;</script><script src="./web/review.js?v=__VERSION__"></script></body></html>"""
 
 

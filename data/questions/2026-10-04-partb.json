@@ -18,32 +18,36 @@
       "trans": "前文说多个院系同意开设共同研究课程，却无法就课程内容达成一致。最自然的下一段是：这种课程之所以难设计，一个原因是各院系对“研究”的定义不同。",
       "structure": "前段核心名词是a common research course / the course。正确后段以such a course回指这个已经出现的课程，再用One reason解释前文的困难。这里such不是凭空引入新对象。",
       "other": "department 院系；first-year student 大一学生；define 定义；include 包含。",
-      "meaning": "排序题看到such + 名词，要优先寻找前文已经出现并可被概括成该名词的先行对象。回指成立时通常是强接缝。",
+      "meaning": "such a course需结合前文课程对象、无法就内容达成一致与后文原因解释来判断；有回指不等于必然紧邻，还需核对其他候选和篇章位置。",
       "rest": "Professor Li引入新人物，没有承接course；graduate salaries换话题；library renovation也没有任何回指或因果连接。"
-    }
+    },
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
   },
   {
     "id": "paragraph-order-anaphora-separation-b",
     "family": "paragraph-order-anaphora",
     "introduced": "2026-10-04",
-    "target": "this separation / 唯一先行信息",
+    "target": "this separation / 先行关系核对",
     "skill": "排序题指代衔接",
     "budget": 55,
-    "q": "前一段：The college teaches liberal arts in one school and professional training in another, insisting that the two should remain separate.\n哪一句最可能作为下一段的开头？",
+    "q": "前一段：The warehouse stores chilled goods in one area and dry goods in another to keep them separate.\n哪一句最自然地承接这一安排？",
     "o": [
-      "This separation has also shaped the way teachers are trained.",
+      "This separation also helps staff choose the right storage conditions.",
       "These teachers were born in several different countries.",
       "Such salaries are difficult to compare across cities.",
       "That book was translated into three languages."
     ],
     "a": 0,
     "exp": {
-      "trans": "前文说学院坚持把博雅教育和职业训练分开。最自然的下一段开头是：这种分离也塑造了教师培养的方式。",
-      "structure": "前段已经明确提出the two should remain separate。下一段This separation中的this + 名词把上一句的“分离”整体名词化并回指，是一条非常硬的衔接。",
-      "other": "liberal arts 博雅教育；professional training 职业训练；remain separate 保持分开；shape 塑造。",
-      "meaning": "this + 抽象名词常把前文一个动作或关系重新命名。排序时必须找到前面唯一能对应的内容。",
+      "trans": "前文说仓库把冷藏货物和干货分区存放。最自然的衔接是：这种分开存放也有助于员工选择合适的储存条件。",
+      "structure": "The warehouse + stores + chilled goods / dry goods，两个地点与keep them separate明确建立分离关系。This separation把这个关系名词化并回指，also再补充该安排的作用。",
+      "other": "warehouse 仓库；chilled 冷藏的；dry goods 干货；storage conditions 储存条件。",
+      "meaning": "在给定候选中，this separation有明确先行关系，另外几个指示词没有相应对象。这是本题的充分比较证据；不能推广成所有排序题都有唯一代词连接。",
       "rest": "These teachers需要前文先出现teachers；Such salaries需要先出现salary；That book需要先出现某本书，三者在给定前文中都没有先行对象。"
-    }
+    },
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
   },
   {
     "id": "paragraph-order-discourse-parallel-a",
@@ -66,7 +70,9 @@
       "other": "withdraw 退出；final interview 终面；a small share 少部分；receive an offer 获得录用。",
       "meaning": "Equally / similarly / also 等段首词常要求前文存在可并列对象。排序题中这种平行措辞比泛泛的主题相似更可靠。",
       "rest": "By contrast需要真正对立关系；For example需要前文有待举例的一般命题；In conclusion过早收束，而且all interviews are unnecessary也超出前文。"
-    }
+    },
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
   },
   {
     "id": "paragraph-order-discourse-conclusion-b",
@@ -75,20 +81,22 @@
     "target": "concludes / 收束段识别",
     "skill": "排序题结论信号",
     "budget": 50,
-    "q": "某候选段开头是：The key to reforming the system, concludes Professor Wang, is to change how new researchers are trained. 段末又说：Exactly how this can be achieved, however, remains unclear.\n在一篇先分析问题、后给方案的文章中，这一段最可能放在哪里？",
+    "q": "一篇先分析家电过早报废、后提出改进办法的文章，有一候选段写道：After examining the figures, Dr Patel sums up her proposal: shared repair services could help residents keep appliances longer. 段末又说：Whether enough households will join, however, remains an open question.\n这一段最适合放在哪里？",
     "o": [
-      "全文开头，用来首次引出Professor Wang",
+      "全文开头，用来首次介绍Dr Patel",
       "问题分析展开之前",
       "全文结尾附近，作为总结和改革建议",
       "只能放在具体数据段之前"
     ],
     "a": 2,
     "exp": {
-      "trans": "这段说“王教授总结认为，改革这一体系的关键是改变新研究者的培养方式”，最后又以“具体如何实现仍不清楚”收束。它最可能位于全文结尾附近。",
-      "structure": "The key to reforming... is... 是总结性判断；concludes Professor Wang明确标记“作者/人物得出结论”；末句remains unclear留下开放尾声。这些都是收束段常见信号。",
-      "other": "reform 改革；conclude 总结认为；achieve 实现；remain unclear 仍不明确。",
-      "meaning": "排序题中concludes、the key to...、yet exactly how... remains unclear等信号通常帮助识别尾段，不需要先翻懂所有细节。",
-      "rest": "开头通常先介绍人物和问题，不会直接用concludes；放在问题分析之前会出现结论先于论证；“只能放在数据段之前”没有篇章依据。"
-    }
+      "trans": "考察数据后，Patel博士总结自己的建议：共享维修服务或许能让居民更长久地使用电器。但是否有足够多家庭参与，仍是未决问题。这段最适合放在结尾附近。",
+      "structure": "After examining the figures回看前文数据；Dr Patel + sums up + her proposal明确给出总结动作。末句Whether...will join作主语，remains...为谓语部分，以未决问题收束。",
+      "other": "sum up 总结；shared repair service 共享维修服务；appliance 家电；household 家庭；open question 未决问题。",
+      "meaning": "总结建议与回顾数据、开放结尾合起来支持尾段位置；单独出现concludes或sum up并不能证明必为全文最后一段。",
+      "rest": "首次介绍人物不能解释已分析过数据；在问题分析前放总结建议与给定结构不合；“只能放在数据段之前”更与After examining the figures相反。"
+    },
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
   }
 ]

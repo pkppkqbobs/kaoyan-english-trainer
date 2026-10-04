@@ -3,8 +3,8 @@
     "id": "social-message-inference-career-a",
     "family": "social-message-inference",
     "introduced": "2026-10-03",
-    "target": "社会暗示 / 满意度推断",
-    "skill": "社会信息 ≠ 直接批评",
+    "target": "社会评价 / 信息影响",
+    "skill": "隐含批评与证据范围",
     "budget": 50,
     "q": "A workplace culture repeatedly celebrates employees who stay late, and workers who leave on time are often reminded that “real commitment means sacrifice.” What is most safely suggested?",
     "o": [
@@ -18,16 +18,18 @@
       "trans": "一种职场文化反复赞美加班员工，而准时下班的人经常被提醒“真正的投入意味着牺牲”。最稳妥的推断是：这种文化可能让一些人怀疑自己是否足够投入。",
       "structure": "主句1：A workplace culture + celebrates + employees。who stay late修饰employees。主句2：workers who leave on time + are reminded + that从句。that从句给出被灌输的信息。题目要从这种持续信息推断心理影响，而不是擅自添加处罚事实。",
       "other": "workplace culture 职场文化；commitment 投入/忠诚；sacrifice 牺牲；question whether 怀疑是否。",
-      "meaning": "反复接收到某种价值信息，最直接支持的是“可能影响自我判断/满意度”，不等于已经遭受正式批评或惩罚。",
+      "meaning": "持续传递带否定意味的价值标准可以构成广义批评，不必出现直接人身侮辱。本题的具体线索支持自我评价可能受到影响，但不支持正式惩罚或跨群体满意度比较。",
       "rest": "formally punished every day加入原文没有的正式处罚；always more productive把价值宣传偷换成生产率事实；ignore与“are often reminded”相反。"
-    }
+    },
+    "source_exam": "2011-english1",
+    "source_question": 38
   },
   {
     "id": "social-message-inference-parenting-b",
     "family": "social-message-inference",
     "introduced": "2026-10-03",
-    "target": "message / criticism / satisfaction",
-    "skill": "被灌输信息 ≠ 被直接批评",
+    "target": "社会评价 / 信息影响",
+    "skill": "隐含批评与证据范围",
     "budget": 50,
     "q": "At a school, the wall of honour lists only perfect test scores. A pupil who has improved greatly still asks, “Does my progress count if I never appear on that wall?” Which inference is best supported?",
     "o": [
@@ -41,9 +43,11 @@
       "trans": "一所学校的荣誉墙只列满分成绩。一名进步很大的学生仍问：“如果我从未登上那面墙，我的进步还算数吗？”最稳妥的推断是：这种展示可能让他怀疑没有满分的进步是否有价值。",
       "structure": "第一句：the wall of honour + lists + only perfect test scores。第二句：A pupil + asks + 引语；who has improved greatly修饰pupil。引语里if从句给出没有上榜这一条件。学生的问题体现了对进步价值的怀疑。",
       "other": "wall of honour 荣誉墙；perfect score 满分；progress 进步；count 有价值/算数。",
-      "meaning": "社会信息可以通过展示与选择标准传递，并影响自我评价；不需要出现直接人身批评。",
+      "meaning": "持续传递带否定意味的价值标准可以构成广义批评，不必出现直接人身侮辱。本题的具体线索支持自我评价可能受到影响，但不支持正式惩罚或跨群体满意度比较。",
       "rest": "personally insulted无直接侮辱证据，every teacher还扩大范围；failed to display any scores与列出满分矛盾；greater progress把最终成绩偷换成进步幅度。"
-    }
+    },
+    "source_exam": "2011-english1",
+    "source_question": 38
   },
   {
     "id": "causal-role-direction-fitness-a",
@@ -66,7 +70,9 @@
       "other": "trial 试验；workshop 车间；dust 粉尘；installation 安装；air filter 空气过滤器。",
       "meaning": "不要把先出现的名词误当成原因。attribute A to B的方向是B导致A，而不是A导致B。",
       "rest": "The decrease in dust made...把结果倒置为安装的原因；Dust improved the filter's performance交换了受影响对象并添加无据效果；every type of pollution把粉尘减少扩大为所有污染消失。"
-    }
+    },
+    "source_exam": "2011-english1",
+    "source_question": 40
   },
   {
     "id": "causal-role-direction-travel-b",
@@ -89,6 +95,33 @@
       "other": "gardener 园丁；shade 给……遮阴；seedling 幼苗；dry out 干枯；exposure 暴露。",
       "meaning": "先标明谁采取动作、谁受影响，再核对因果方向。gardener → shade → seedlings dry out less，不能交换施事与受事。",
       "rest": "healthier seedlings caused...把结果当成原先行动的原因；seedlings protected gardeners交换了保护者与被保护者；heat was reduced because...反转因果，还把减少高温暴露偷换成降低环境温度。"
+    },
+    "source_exam": "2011-english1",
+    "source_question": 40
+  },
+  {
+    "id": "social-message-criticism-membership-c",
+    "family": "social-message-inference",
+    "introduced": "2026-10-04",
+    "source_exam": "2011-english1",
+    "source_question": 38,
+    "budget": 50,
+    "target": "反复信息 / 评价与比较",
+    "skill": "隐含批评与推断范围",
+    "q": "The town newsletter repeatedly portrays residents who do not volunteer as “taking from the town without giving back.” Non-volunteers hear this judgment week after week. Which conclusion is best supported?",
+    "o": [
+      "Every resident wants the newsletter to close.",
+      "Non-volunteers are repeatedly exposed to disapproving social judgments.",
+      "The newsletter never mentions non-volunteers.",
+      "Non-volunteers are generally less happy than volunteers."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "镇上的简报反复把不做志愿服务的居民描述成“只索取而不回馈”。他们周复一周听到这种评价。可以确认：他们持续接收到带否定意味的社会评价。",
+      "structure": "The town newsletter + portrays + residents + as引语。who do not volunteer修饰residents；第二句Non-volunteers + hear + this judgment，this judgment回指前文负面描述，week after week强调反复。",
+      "other": "newsletter 简报；volunteer 做志愿服务；give back 回馈；disapproving 不赞同的；judgment 评价。",
+      "meaning": "带否定意味的评价即使没有直接辱骂，也可以构成criticism。题文直接支持这种评价持续存在，不提供两个群体幸福水平的比较。",
+      "rest": "Every resident扩大到全部居民并猜测态度；never mentions与反复描述无志愿服务者矛盾；generally less happy把受评价的处境扩大成群体幸福比较，没有比较数据或明确陈述。"
     }
   }
 ]

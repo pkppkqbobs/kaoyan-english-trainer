@@ -17,6 +17,7 @@ on:
       - 'data/learning-notes.json'
       - 'data/quality-exclusions.json'
       - 'data/article-sessions/**'
+      - 'data/source-checks/**'
   issues:
     types: [opened, edited, deleted]
 

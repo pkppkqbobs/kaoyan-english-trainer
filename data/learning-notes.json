@@ -2,140 +2,200 @@
   {
     "family": "unpretentious",
     "date": "2026-09-29",
-    "kind": "user_reported_confusion",
-    "note": "用户把unpretentious译成无法预料；需要与unpredictable区分。不是一次虚构的选择题作答。"
+    "kind": "user_reported_wrong",
+    "note": "用户把unpretentious译成无法预料；需要与unpredictable区分。不是一次虚构的选择题作答。 原题选择来自用户明确反馈；这是学习观察，不新增网页 attempts、错误数或正确率。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 1",
+    "source_question": 22,
+    "reported_pick": "D"
   },
   {
     "family": "faint",
     "date": "2026-09-29",
     "kind": "user_reported_confusion",
-    "note": "用户把faint误联想到圣人；复习微弱、隐约及faint praise，不把讲解后的即时答对当作长期掌握。"
+    "note": "用户把faint误联想到圣人；复习微弱、隐约及faint praise，不把讲解后的即时答对当作长期掌握。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 1"
   },
   {
     "family": "point",
     "date": "2026-09-29",
     "kind": "user_reported_confusion",
-    "note": "用户把missing译成怀念，把point套成节点等义；重点复习miss the point及point的要点、意义义项。"
+    "note": "用户把missing译成怀念，把point套成节点等义；重点复习miss the point及point的要点、意义义项。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 1",
+    "source_question": 23
   },
   {
     "family": "nested",
     "date": "2026-09-29",
     "kind": "user_reported_confusion",
-    "note": "who定语从句内嵌that宾语从句时，主句谓语和从句谓语的边界仍需迁移复习；主语中心词与完整主语要区分。"
+    "note": "who定语从句内嵌that宾语从句时，主句谓语和从句谓语的边界仍需迁移复习；主语中心词与完整主语要区分。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 1",
+    "source_question": 23
   },
   {
     "family": "directness-modifier",
     "date": "2026-09-30",
-    "kind": "user_reported_confusion",
-    "note": "用户在题26看到 surprisingly 后直接联想到“有冲击力/冲动”，没有继续读取其修饰的 straight up；需复习副词修饰范围及 straight up / come right out and say 的坦率义。"
+    "kind": "user_reported_wrong",
+    "note": "用户在题26看到 surprisingly 后直接联想到“有冲击力/冲动”，没有继续读取其修饰的 straight up；需复习副词修饰范围及 straight up / come right out and say 的坦率义。 原题选择来自用户明确反馈；这是学习观察，不新增网页 attempts、错误数或正确率。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 2",
+    "source_question": 26,
+    "reported_pick": "D"
   },
   {
     "family": "career-evidence",
     "date": "2026-09-30",
-    "kind": "user_reported_confusion",
-    "note": "用户在题27看到 looking for a CEO post 后按现实常识推成更好的经济状况；需复习 post=职位、aspiration=职业志向，并训练“文本证据≠现实可能性”。"
+    "kind": "user_reported_wrong",
+    "note": "用户在题27看到 looking for a CEO post 后按现实常识推成更好的经济状况；需复习 post=职位、aspiration=职业志向，并训练“文本证据≠现实可能性”。 原题选择来自用户明确反馈；这是学习观察，不新增网页 attempts、错误数或正确率。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 2",
+    "source_question": 27,
+    "reported_pick": "A"
   },
   {
     "family": "recruitment-vocab",
     "date": "2026-09-30",
     "kind": "user_reported_confusion",
-    "note": "用户在题28认为 attended to 与 poached 接近，并询问 hunted for；需区分 attend to=处理/照料，hunt for=寻找/物色，poach=从别处挖人。"
+    "note": "用户在题28认为 attended to 与 poached 接近，并询问 hunted for；需区分 attend to=处理/照料，hunt for=寻找/物色，poach=从别处挖人。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 2",
+    "source_question": 28
   },
   {
     "family": "cling-climb",
     "date": "2026-09-30",
     "kind": "user_reported_confusion",
-    "note": "用户把 cling to their posts 误译成“向上爬”；需区分 cling=紧抓/不愿放弃，climb=攀爬，post=职位。"
+    "note": "用户把 cling to their posts 误译成“向上爬”；需区分 cling=紧抓/不愿放弃，climb=攀爬，post=职位。 第29题标准答案为A；用户曾追问为何不能选A，但首次/最终选项未明确记录，不据此判断其原题对错。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 2"
   },
   {
     "family": "title-specificity",
     "date": "2026-09-30",
-    "kind": "user_reported_confusion",
-    "note": "题30能抓到大话题“跳槽”，但未抓全文反复强调的特殊条件“没有下家也先离职”，并被 the only way 绝对化标题吸引；需训练标题具体性与绝对词陷阱。"
+    "kind": "user_reported_wrong",
+    "note": "题30能抓到大话题“跳槽”，但未抓全文反复强调的特殊条件“没有下家也先离职”，并被 the only way 绝对化标题吸引；需训练标题具体性与绝对词陷阱。 原题选择来自用户明确反馈；这是学习观察，不新增网页 attempts、错误数或正确率。",
+    "source_exam": "2011-english1",
+    "source_part": "Text 2",
+    "source_question": 30,
+    "reported_pick": "D"
   },
   {
     "family": "author-stance",
     "date": "2026-10-03",
     "kind": "correct_but_uncertain",
     "note": "2011 英语一 Text 3 第33题首次作答正确，但用户认为 deserve all the negative comments 也有些合理。需要训练：原文描述负面评论/指控的存在，不等于作者作出“应得/活该”的价值判断；尤其警惕 deserve、all 等立场和绝对化词。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3",
+    "source_question": 33
   },
   {
     "family": "title-coverage",
     "date": "2026-10-03",
     "kind": "correct_but_uncertain",
     "note": "2011 英语一 Text 3 第35题首次作答正确，但用户在 Alternatives to conventional paid media 与只覆盖后半篇的 earned/hijacked 冲突标题之间犹豫。需要训练标题覆盖全文而非局部显眼主题。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3",
+    "source_question": 35
   },
   {
     "family": "infancy",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "用户画框 in its infancy；需掌握 be in its infancy = 尚处于初期/起步阶段，而非字面婴儿期。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3"
   },
   {
     "family": "hostage-hijack",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "用户画框 hostage，文章同时出现 hijacked media；需掌握 become/be held hostage to = 受……挟制/控制，以及 hijack 的比喻义“劫持/夺走传播控制权”。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3"
   },
   {
     "family": "alerts",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "用户画框 alerts；需掌握 e-mail/product alerts = 通知/提醒，以及 alert sb to sth。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3"
   },
   {
     "family": "travel-provider",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "用户画框 travel providers；需掌握名词作定语结构，travel providers = 旅游/出行服务提供商。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3"
   },
   {
     "family": "complementary",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "用户画框 complementary；需掌握 complementary = 互补的，并与 complimentary = 免费赠送的/赞美的区分。",
-    "session_id": "2026-10-03-2011-text3"
+    "session_id": "2026-10-03-2011-text3",
+    "source_exam": "2011-english1",
+    "source_part": "Text 3"
   },
   {
     "family": "social-message-inference",
     "date": "2026-10-03",
     "kind": "user_reported_wrong",
-    "note": "2011 英语一 Text 4 第38题：用户最初想选A，后来因为把 criticism 理解得过窄（只想到直接人身批评）而改选B。阅卷标准答案为A。第三段说 childless folks are bothered with the message that children are the single most important thing，属于持续暴露于带有否定/压力色彩的社会信息；B“被媒体忽视”与这种持续信息暴露相反。该记录是用户自述真题错因，不作为网页选择题成绩。",
-    "session_id": "2026-10-03-2011-text4"
+    "note": "2011 英语一 Text 4 第38题：用户最初想选A，后来因为把 criticism 理解得过窄（只想到直接人身批评）而改选B。阅卷标准答案为A。第三段说 childless folks are bothered with the message that children are the single most important thing，属于持续暴露于带有否定/压力色彩的社会信息；B“被媒体忽视”与这种持续信息暴露相反。该记录是用户自述真题错因，不作为网页选择题成绩。 这里“原本想选A”是先前考虑，不等于一次已经提交的首次选择；D把已知不快乐的个体处境扩大成无子女群体更不满意的比较，证据不足。",
+    "session_id": "2026-10-03-2011-text4",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4",
+    "source_question": 38,
+    "first_considered": "A",
+    "reported_pick": "B"
   },
   {
     "family": "causal-role-direction",
     "date": "2026-10-03",
     "kind": "user_reported_wrong",
     "note": "2011 英语一 Text 4 第40题：用户在A/B间犹豫后选A。最后一段实际说celebrity parenthood images可能以小而潜意识的方式影响我们对育儿的态度/期待并造成现实落差，因此B更符合；A把“名人形象让育儿看起来glamorous”误读成“生孩子对名人妈妈的glamour贡献很小”，发生主语—作用方向倒置。该记录是用户自述真题错因，不作为网页选择题成绩。",
-    "session_id": "2026-10-03-2011-text4"
+    "session_id": "2026-10-03-2011-text4",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4",
+    "source_question": 40,
+    "reported_pick": "A"
   },
   {
     "family": "provoke-family",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "2011 英语一 Text 4 画框：provocative 与 provoked。provocative 在 magazine cover story 中表示引发争议/思考的；provoke sb to do 在 unhappy parents rarely are provoked to wonder... 中表示促使/激起某人去想，不应一律译成“挑衅/激怒”。",
-    "session_id": "2026-10-03-2011-text4"
+    "session_id": "2026-10-03-2011-text4",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4"
   },
   {
     "family": "past-tense-happiness",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "2011 英语一 Text 4 画框：past-tense condition。语境中 happiness 不按 moment-to-moment joy 衡量，而是回头看后的总体感受，可理解为“事后/回顾性成立的幸福状态”，与 happiness in retrospect 呼应。",
-    "session_id": "2026-10-03-2011-text4"
+    "session_id": "2026-10-03-2011-text4",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4"
   },
   {
     "family": "feature-verb",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "2011 英语一 Text 4 画框：features。Practically every week features at least one celebrity mom... 中 feature 作动词，表示刊登、重点呈现、以……为特色，不是“特点”名词义。",
-    "session_id": "2026-10-03-2011-text4"
+    "session_id": "2026-10-03-2011-text4",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4"
   },
   {
     "family": "kitten-killing",
@@ -143,27 +203,53 @@
     "kind": "translation_difficulty",
     "note": "2011 英语一 Text 4 画框：kitten-killing。support kitten-killing = 支持杀害/虐杀小猫；作者用夸张类比说明公开承认后悔生孩子在这种社会氛围下被视为极其冒犯。该词组本身是可组合表达，低频，不应机械高频复习。",
     "session_id": "2026-10-03-2011-text4",
-    "review_importance": "low"
+    "review_importance": "low",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4"
   },
   {
     "family": "subconscious-way",
     "date": "2026-10-03",
     "kind": "translation_difficulty",
     "note": "2011 英语一 Text 4 画框：subconscious。in some small, subconscious way = 以某种细微、潜意识的方式；句子说理想化育儿形象可能潜移默化地加剧人们对现实体验的不满。",
-    "session_id": "2026-10-03-2011-text4"
+    "session_id": "2026-10-03-2011-text4",
+    "source_exam": "2011-english1",
+    "source_part": "Text 4"
   },
   {
     "family": "paragraph-order-anaphora",
     "date": "2026-10-04",
     "kind": "user_reported_wrong",
-    "note": "2011 英语一 Part B 段落排序：用户只明确抓到 D→E（this separation 回指前段 liberal-arts / professional education 的分离），其余多数位置不确定且基本错误。重点训练段首 His / such courses / this separation 等回指词与前段唯一先行信息配对，不依赖全文逐句翻译。",
-    "session_id": "2026-10-04-2011-partb"
+    "note": "2011 英语一 Part B：用户自述仅确定D→E，其余多数位置不确定且基本错误；没有完整41–45首次选项，不补写具体错误数。训练His、such courses、this separation回指与段尾钩子结合：G→B由人物引入到关注主题展开共同支持，His或Menand单独出现不构成唯一连接；B→D需把通识课程设计分歧与such courses、原因解释及固定E段合看；D→E的分离关系回指更明确。",
+    "session_id": "2026-10-04-2011-partb",
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
   },
   {
     "family": "paragraph-order-discourse",
     "date": "2026-10-04",
     "kind": "user_reported_wrong",
-    "note": "2011 英语一 Part B 段落排序：用户未稳定利用篇章标记。重点训练 Not surprisingly → Equally unsurprisingly 的并列递进、professionalisation → professionalism 的主题复现，以及 concludes / The key to reforming... 等收束信号识别末段。",
-    "session_id": "2026-10-04-2011-partb"
+    "note": "2011 英语一 Part B：用户自述排序基本错误。训练Not surprisingly与Equally unsurprisingly的平行判断、E段专业化论述到A段人文学科具体例证、F段concludes与改革建议及开放结尾。相同humanities或Menand只能提供主题联系，不能单独决定相邻；段尾钩子、回指、篇章位置应联合验证。",
+    "session_id": "2026-10-04-2011-partb",
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
+  },
+  {
+    "family": "paragraph-order-discourse",
+    "date": "2026-10-04",
+    "kind": "translation_difficulty",
+    "note": "用户明确表示A段首句翻译困难。No disciplines ... with as much enthusiasm as the humanities表示没有哪个学科像人文学科这样热衷于专业化；humanities是人文学科，不是“没原则”。professionalism在此涉及学科专业化及资格门槛，不是道德评价。",
+    "session_id": "2026-10-04-2011-partb",
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
+  },
+  {
+    "family": "paragraph-order-anaphora",
+    "date": "2026-10-04",
+    "kind": "translation_difficulty",
+    "note": "用户明确表示B段最后一句看不懂。经典著作被阅读，是因为历来被阅读过；social glue比喻共享经典作为社会纽带。这个补充说明仍属通识教育话题，不能因为末句出现Menand就把它当成唯一段落钩子。",
+    "session_id": "2026-10-04-2011-partb",
+    "source_exam": "2011-english1",
+    "source_part": "Part B"
   }
 ]

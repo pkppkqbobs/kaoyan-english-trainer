@@ -410,7 +410,7 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "tone": {
       "streak": 2,
@@ -450,7 +450,7 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "viewpoint-fact": {
       "streak": 0,

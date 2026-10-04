@@ -1,0 +1,80 @@
+{
+  "exam": "2011-english1",
+  "checked_on": "2026-10-04",
+  "purpose": "内容来源核验；不是网页训练成绩，不计 attempts、错误数或正确率。",
+  "sources": [
+    {
+      "id": "haitian-key",
+      "title": "海天考研：2011全国研究生入学考试英语（一）试题标准答案",
+      "url": "https://www.htkaoyan.com/nd.jsp?id=28678",
+      "covers": "21–45"
+    },
+    {
+      "id": "sina-cross-check",
+      "title": "新浪教育（来源考研教育网）：2011年考研英语一真题参考答案",
+      "url": "https://edu.sina.com.cn/kaoyan/2011-01-18/1419282934.shtml",
+      "covers": "21–45"
+    },
+    {
+      "id": "xdf-partb",
+      "title": "新东方《考研英语历年真题详解及复习指南》2011新题型",
+      "url": "https://file.xdf.cn/uploads/131105/124_131105154204SlhtFLoFlXO2I9Pi.pdf",
+      "covers": "41–45及排序依据"
+    }
+  ],
+  "answers": {
+    "21": "C", "22": "B", "23": "D", "24": "B", "25": "A",
+    "26": "B", "27": "D", "28": "C", "29": "A", "30": "C",
+    "31": "D", "32": "C", "33": "B", "34": "A", "35": "A",
+    "36": "C", "37": "D", "38": "A", "39": "D", "40": "B",
+    "41": "B", "42": "D", "43": "A", "44": "C", "45": "F"
+  },
+  "part_b_order": ["G", "B", "D", "E", "A", "C", "F"],
+  "rejected_answer_tables": [
+    {
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201605/t20160513_1397696_7.shtml",
+      "conflicting_values": {"21": "D", "37": "C", "38": "D"},
+      "decision": "这三个值与交叉核验及题文不符，不能把整张网上答案表直接当作标准答案。未发现仓库有21D或37C造成的用户错题记录。"
+    }
+  ],
+  "performance_coverage": {
+    "Text 1": "明确有第22题选D及词义/句法困难；21、23、24、25无完整首次选项，不重建全篇正确率。",
+    "Text 2": "用户明确26选D、27选A、30选D；28选项未记录；29只追问为何不能选A，首次/最终选项未知。",
+    "Text 3": "保留已有session的5/5记录及33、35答对但犹豫观察，不将它们转换成计分attempts。",
+    "Text 4": "用户38原本考虑A、最终B；40在A/B间犹豫后选A；36、37、39无明确选项，不推算整篇正确率。",
+    "Part B": "用户自述多数不稳且基本错误，只明确D→E；缺少41–45完整选项，不补造精确错误数。"
+  },
+  "withdrawn_diagnoses": [
+    {
+      "question": 29,
+      "old_answer": "B",
+      "correct_answer": "A",
+      "family": "viewpoint-fact",
+      "reported_pick": null,
+      "reason": "旧诊断把传统规则视为唯一证据，忽略段末真实停留过久的行为信息；也未记录用户原选项。撤回源题错误观察，保留独立迁移题与真实网页成绩。"
+    },
+    {
+      "question": 38,
+      "old_answer": "D",
+      "correct_answer": "A",
+      "family": "social-message-inference",
+      "first_considered": "A",
+      "reported_pick": "B",
+      "reason": "旧诊断把criticism限于直接人身攻击；持续否定性社会评价也属于批评。原文不能推出无子女者普遍比父母更不满意。用户最终B确实错误，原本考虑A不记为一次已提交选择。"
+    }
+  ],
+  "article_notices": [
+    {
+      "families": ["viewpoint-fact"],
+      "text": "2011 Text 2 第29题正确答案为A。此前B答案及据此给你的错误诊断已撤回；你的首次选项未记录，不补算对错。本轮的观点/事实题仍可练习，但不能用孤立句规则排除原文另有行为证据的推断。"
+    },
+    {
+      "families": ["social-message-inference"],
+      "text": "2011 Text 4 第38题正确答案为A。criticism可以是持续的隐含否定性评价，不要求直接人身攻击；D的群体满意度比较没有充分依据。你原本考虑A、最后选B，不能把“原本考虑”算成已提交的首次答案。旧轮题目和本地作答保留，来源诊断以此订正为准。"
+    },
+    {
+      "families": ["paragraph-order-anaphora", "paragraph-order-discourse"],
+      "text": "2011 Part B 顺序为G→B→D→E→A→C→F。G→B需合看人物引入与主题展开；B→D需结合通识课程设计困难、回指和固定E段。His、Menand或humanities重复本身不能证明唯一相邻；平行判断与结尾信号也应放回全篇核对。"
+    }
+  ]
+}

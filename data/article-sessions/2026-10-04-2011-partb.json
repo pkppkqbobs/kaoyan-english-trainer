@@ -3,11 +3,12 @@
   "date": "2026-10-04",
   "created_at": "2026-10-04T18:46:00+08:00",
   "source": "2011 英语一 Part B 段落排序",
-  "result_summary": "用户表示这篇几乎抓不住，只能确定 D→E，其他位置大多不确定且基本错误。正确顺序为 G→B→D→E→A→C→F。主要问题是未系统利用段首回指（His / such courses / this separation）、平行篇章标记（Not surprisingly / Equally unsurprisingly）以及 concludes 等收束信号。",
+  "result_summary": "用户自述仅确定D→E，其余多数位置不稳且基本错误，未记录完整41–45首次选项，不补算正确率。已核验顺序G→B→D→E→A→C→F。重点是回指、段尾课程钩子、平行篇章标记及收束信号联合判断；G→B的His和Menand不能单独称为唯一硬连接。另保留A段专业化句及B段经典著作/社会纽带的翻译困难。",
   "focus_families": [
     "paragraph-order-anaphora",
     "paragraph-order-discourse"
   ],
   "max_current": 2,
-  "revision": 1
+  "revision": 2,
+  "source_check": "data/source-checks/2011-english1.json"
 }
