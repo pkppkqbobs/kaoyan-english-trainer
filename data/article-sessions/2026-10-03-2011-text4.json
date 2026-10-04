@@ -2,7 +2,7 @@
   "id": "2026-10-03-2011-text4",
   "date": "2026-10-03",
   "source": "2011 英语一 Text 4",
-  "result_summary": "用户明确反馈第38题最终选B、第40题最终选A；两题均属于真题误判。第38题主要问题是把社会持续灌输的信息误读为媒体忽视/直接批评，第40题是把 celebrity-parenthood images → expectations 的影响方向读反。 用户补充说明：图片中手动画框均表示翻译困难；本篇需额外记录 provocative/provoked、past-tense condition、features 作动词、kitten-killing、subconscious。",
+  "result_summary": "用户明确反馈第38题最终选B、第40题最终选A；两题均属于真题误判。经核对2011英语一阅卷标准答案，第38题正确为A：用户最初想选A，后来因把 criticism 仅理解成直接人身批评而改成B；原文的 bothered with the message 属于持续暴露于带否定/压力色彩的信息。第40题正确为B，用户把 celebrity-parenthood images → expectations 的影响方向读反。用户补充说明：图片中手动画框均表示翻译困难；本篇另记录 provocative/provoked、past-tense condition、features 作动词、kitten-killing、subconscious。",
   "focus_families": [
     "social-message-inference",
     "causal-role-direction",
@@ -14,5 +14,5 @@
   ],
   "max_current": 4,
   "created_at": "2026-10-03T17:40:27+08:00",
-  "revision": 2
+  "revision": 3
 }
