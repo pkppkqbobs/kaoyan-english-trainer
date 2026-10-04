@@ -231,6 +231,26 @@
       "observed_days": 3,
       "observation_priority": 0
     },
+    "paragraph-order-anaphora": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-04",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "paragraph-order-discourse": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-04",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "parallel-governance": {
       "streak": 1,
       "errors": 1,
