@@ -18,6 +18,7 @@ on:
       - 'data/quality-exclusions.json'
       - 'data/article-sessions/**'
       - 'data/source-checks/**'
+      - 'data/partb-questions/**'
   issues:
     types: [opened, edited, deleted]
 
@@ -51,16 +52,23 @@ jobs:
         run: |
           node --check web/review.js
           node tests/ui.mjs
+          node --check web/partb-core.js
+          node --check web/partb.js
+          node --check web/partb-home.js
+          node tests/partb-ui.mjs
       - name: Read submitted results and build daily quiz
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/run_daily.py --sync
       - name: Build latest article review if present
         run: python3 scripts/article_review.py
+      - name: Build independent Part B training and history
+        run: python3 scripts/partb_review.py
       - name: Preserve generated daily history
         run: |
           git add -- today.html data archive
           if [ -f article-review.html ]; then git add -- article-review*.html; fi
+          if [ -f partb-review.html ]; then git add -- partb-review.html partb-history.html; fi
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update daily review and spaced-repetition state'
             git push origin HEAD:main

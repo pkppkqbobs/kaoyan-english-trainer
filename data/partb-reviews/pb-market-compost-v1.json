@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "storageId": "pb-market-compost-v1",
+  "question": {
+    "id": "pb-market-compost-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-10-04",
+    "title": "市场厨余回收的污染来源",
+    "topic": "环境政策",
+    "budget": 420,
+    "overview": "原创迁移材料。用局部证据与全篇结构共同判断，不靠主题词重复直接拼段。",
+    "paragraphs": [
+      {
+        "id": "F",
+        "text": "A city expanded food-waste collection at its markets and celebrated the larger volume arriving at its compost plant. The plant's operators were less enthusiastic because rejected material increased alongside the deliveries. Environmental analyst Paula Torres was asked whether the problem lay in residents' willingness to recycle or in the way the collection scheme had been organized."
+      },
+      {
+        "id": "B",
+        "text": "Torres watched how stalls cleared unsold food at closing time. Sellers used bags supplied by the scheme, but frequently placed disposable serving containers in those bags as well, despite a notice asking them to remove packaging. Why did the same mistake recur among sellers who could accurately explain the purpose of food-waste collection when interviewed?"
+      },
+      {
+        "id": "E",
+        "text": "The containers looked suitable for the scheme because their suppliers described them as environmentally friendly. Some required industrial processing that the city's plant did not provide, while others contained coatings incompatible with its composting method. Sellers were making a practical decision from a broad label that concealed the particular conditions needed to process each product."
+      },
+      {
+        "id": "A",
+        "text": "Correcting that mismatch meant linking collection advice to the plant's actual requirements. Torres tested a clearly marked return box for serving containers beside the food-waste bin, with pictures showing which items belonged in each place. Stalls no longer had to decide whether an attractive environmental claim meant that a container could be mixed with the unsold food."
+      },
+      {
+        "id": "C",
+        "text": "Packaging suppliers remained relevant even after the new boxes improved sorting at the stalls. A separate purchasing trial favoured containers with fewer coatings, making rejected packaging easier to handle when mistakes still occurred. The improvement at collection therefore did not remove the need for decisions earlier in the supply chain, where the range of products entering the markets was determined."
+      },
+      {
+        "id": "D",
+        "text": "The city came to treat the rising collection volume as a starting measure rather than a final verdict on the scheme. Clearer separation at the stalls and more suitable purchasing could both reduce rejection at the plant, through different stages of the same process. Torres recommended reporting usable output alongside deliveries and testing the combined changes before expanding the scheme to more markets."
+      }
+    ],
+    "expectedOrder": [
+      "F",
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ],
+    "links": [
+      {
+        "from": "F",
+        "to": "B",
+        "signals": [
+          "topic-introduction",
+          "lexical-chain"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "F引入回收量上升与拒收量上升的矛盾，B转到Torres观察清场行为。需要把待调查的问题与观察层次合看，不只是两个段都说scheme。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "Torres被要求区分意愿与方案组织，B展示懂目的的商户仍重复混装。"
+          },
+          {
+            "level": "support",
+            "text": "同一market/collection场景维持主题，并非充分排序证据。"
+          }
+        ]
+      },
+      {
+        "from": "B",
+        "to": "E",
+        "signals": [
+          "problem-to-reason",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "B段尾问懂目的为何仍犯错，E解释宽泛环保标签隐藏了处理条件差异。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "B的serving containers对应E不同加工条件与coatings。"
+          },
+          {
+            "level": "medium",
+            "text": "从已解释目的的sellers排除单纯意愿不足，转向标签信息的实际决策。"
+          }
+        ]
+      },
+      {
+        "from": "E",
+        "to": "A",
+        "signals": [
+          "anaphora",
+          "cause-effect"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "E给出环保标签与处理条件不匹配，A的that mismatch回指并用分流容器解决实际分类。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "that mismatch对应E的broad label concealed ... conditions。"
+          },
+          {
+            "level": "medium",
+            "text": "A的actual requirements将建议与本市工厂能力对齐，回应E的did not provide。"
+          }
+        ]
+      },
+      {
+        "from": "A",
+        "to": "C",
+        "signals": [
+          "contrast",
+          "lexical-chain"
+        ],
+        "strength": "support",
+        "anchor": false,
+        "explanation": "A处理市场末端分类，C提醒分类改进后上游产品设计仍重要。此处靠“一个措施的边界→另一个阶段”的全篇比较，不是词重复即可接。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "even after the new boxes要求A已介绍该措施；earlier supply chain与stalls形成层次对照。"
+          },
+          {
+            "level": "support",
+            "text": "C引入另一项试验，位置还须由D对combined changes的总结来核对。"
+          }
+        ]
+      },
+      {
+        "from": "C",
+        "to": "D",
+        "signals": [
+          "conclusion",
+          "parallel"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "D把A的分类与C的采购两个不同阶段并列总结，并回到开篇的量与实际输出之别。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "Clearer separation ... more suitable purchasing分别回收两个改进。"
+          },
+          {
+            "level": "medium",
+            "text": "usable output alongside deliveries回应F的庆祝指标，combined changes依赖两种措施都已介绍。"
+          }
+        ]
+      }
+    ],
+    "globalLogic": "F指标矛盾→B现场观察并提问→E解释标签信息→A试验末端分类→C补充上游采购→D合并评价。E→A的mismatch锁定；C的new boxes需在A之后；D的combined changes需在C之后。",
+    "themeTrap": "F、C、D都有plant或suppliers相关词，但角色不同。不要把C的供应商话题直接接在E标签解释后：C明确评价new boxes已经改善分类，而这一新措施直到A才出现。",
+    "mechanism_source": {
+      "exam": "2011-english1",
+      "source_check": "data/source-checks/2011-english1.json",
+      "pairs": [
+        "G>B",
+        "B>D",
+        "D>E",
+        "E>A",
+        "A>C",
+        "C>F"
+      ]
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "storageId": "pb-river-sensors-v1",
+  "question": {
+    "id": "pb-river-sensors-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-10-04",
+    "title": "河流传感器的现场校验",
+    "topic": "科研",
+    "budget": 420,
+    "overview": "原创迁移材料。用局部证据与全篇结构共同判断，不靠主题词重复直接拼段。",
+    "paragraphs": [
+      {
+        "id": "D",
+        "text": "Ecologist Mira Chen wanted earlier warnings of dangerously low river levels in remote valleys. Expensive instruments could provide reliable readings, but maintaining them at dozens of sites exceeded her team's budget. Cheap sensors offered wider coverage, making them attractive only if changes in their readings represented changes in the river itself."
+      },
+      {
+        "id": "A",
+        "text": "Her team installed the cheaper devices beside several existing measuring stations and compared the records through spring and summer. The instruments agreed during the first weeks, yet later showed different trends even where the river appeared stable. Why did the apparent decline grow fastest at the quietest sites rather than at the driest ones?"
+      },
+      {
+        "id": "F",
+        "text": "A likely explanation lay in the material collecting around each device. Slow water allowed fine sediment to settle over the sensor, gradually altering its response without any actual fall in river level. The error therefore tracked the conditions around the instrument, which could easily be mistaken for the wider environmental change the project hoped to detect."
+      },
+      {
+        "id": "C",
+        "text": "This bias could not be removed simply by averaging more readings from the same device. Chen introduced weekly comparisons with a portable reference instrument and recorded the amount of sediment at each visit. The revised method distinguished a real fall from a dirty sensor, but its usefulness depended on arrangements that could survive the researchers' departure."
+      },
+      {
+        "id": "B",
+        "text": "In the upland villages, the weekly checks became part of an existing volunteer group's walking route. Volunteers wrote down both the reference measurements and any cleaning they performed, rather than merely sending a reassuring message that a device still worked. Months after the field team left, these records continued to reveal problems hidden in the automatic readings."
+      },
+      {
+        "id": "E",
+        "text": "The pilot thus changed the question from whether a cheap sensor could replace an expensive one to how a dependable observation could be produced. Equipment, comparison procedures and local routines all contributed to the final record. Chen recommended wider trials built around that combination, with expansion depending on whether each valley could sustain the checking work."
+      }
+    ],
+    "expectedOrder": [
+      "D",
+      "A",
+      "F",
+      "C",
+      "B",
+      "E"
+    ],
+    "links": [
+      {
+        "from": "D",
+        "to": "A",
+        "signals": [
+          "anaphora",
+          "topic-introduction"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "D先交代Chen的目标、预算和廉价设备的条件，A再展开她的团队如何检验可靠性。Her只是人物回指，关键还在“只有反映真实河流水位才有价值”到比较实验的展开。",
+        "evidence": [
+          {
+            "level": "support",
+            "text": "Her team回指D中的Mira Chen。"
+          },
+          {
+            "level": "medium",
+            "text": "D提出可靠性条件；A把这一条件变为并排比较的实验，并提出待解释的问题。"
+          }
+        ]
+      },
+      {
+        "from": "A",
+        "to": "F",
+        "signals": [
+          "problem-to-reason",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "A段尾问为什么安静地点的读数下降更快，F解释慢水使沉积物附着，导致仪器响应变化。原因针对具体反常现象，不是看到river重复就能接。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "A的quietest sites对应F的Slow water与sediment。"
+          },
+          {
+            "level": "strong",
+            "text": "F的without any actual fall解释A的river appeared stable却出现读数变化。"
+          }
+        ]
+      },
+      {
+        "from": "F",
+        "to": "C",
+        "signals": [
+          "anaphora",
+          "cause-effect"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "F已经区分仪器误差与真实环境变化，C的This bias将这一偏差整体回指，并提出校验方法。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "This bias回指F的altering its response without any actual fall。"
+          },
+          {
+            "level": "medium",
+            "text": "不能只增加同一传感器读数，因而改用独立reference instrument。"
+          }
+        ]
+      },
+      {
+        "from": "C",
+        "to": "B",
+        "signals": [
+          "general-to-specific",
+          "lexical-chain"
+        ],
+        "strength": "support",
+        "anchor": false,
+        "explanation": "C提出校验能否长期持续的问题，B给出当地执行的实例。这条连接主要依赖“方法→落实方式”的全篇角色，不能把weekly一个词当成唯一接缝。",
+        "evidence": [
+          {
+            "level": "support",
+            "text": "weekly comparisons与weekly checks为同一校验步骤。"
+          },
+          {
+            "level": "medium",
+            "text": "C的researchers departure引出B的Months after the field team left仍有记录，回答可持续性问题。"
+          }
+        ]
+      },
+      {
+        "from": "B",
+        "to": "E",
+        "signals": [
+          "conclusion",
+          "synonym-chain"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "E把B的地方执行结果和前面的仪器、校验方法合并为结论，提出扩大试验的条件。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "Equipment, comparison procedures and local routines分别概括前文三个层面。"
+          },
+          {
+            "level": "medium",
+            "text": "The pilot thus及wider trials从已完成的实例转入整体判断与下一步。"
+          }
+        ]
+      }
+    ],
+    "globalLogic": "D介绍目标→A显示反常读数→F解释成因→C提出独立校验→B检验长期执行→E概括三者组合。F→C先锁定；A的问题不能在解释后才出现；B的weekly checks需在C定义方法后才成立。剩余实例放在总结前，由全篇角色确定。",
+    "themeTrap": "D、A、F都谈river与devices，B也谈readings；这些重复不支持随意相邻。尤其B不能因同样出现records就跳到A后面：那时还没有介绍weekly reference checks。",
+    "mechanism_source": {
+      "exam": "2011-english1",
+      "source_check": "data/source-checks/2011-english1.json",
+      "pairs": [
+        "G>B",
+        "B>D",
+        "D>E",
+        "E>A",
+        "A>C",
+        "C>F"
+      ]
+    }
+  }
+}

@@ -144,13 +144,17 @@ def get_issues(repo):
     raise RuntimeError("Issue pagination limit reached; refusing a partial history")
 
 
-def parse_issue(issue):
+def parse_issue(issue, root=ROOT):
     """Return one report id and evidence rows. Aggregate-only reports do not fabricate item order."""
     body = issue.get("body") or ""
     stamp = datetime.fromisoformat(issue["created_at"].replace("Z", "+00:00")).astimezone(TZ).date().isoformat()
     title_date = re.search(r"\d{4}-\d{2}-\d{2}", issue.get("title", ""))
     if title_date:
         stamp = title_date.group()
+    ordering = re.search(r"<!-- review-json:v4\s*\n(.*?)\n-->", body, re.S)
+    if ordering:
+        from partb_review import parse_report
+        return parse_report(json.loads(ordering.group(1)), issue, root)
     structured = re.search(r"<!-- review-json:v3\s*\n(.*?)\n-->", body, re.S)
     if structured:
         obj = json.loads(structured.group(1))
@@ -209,7 +213,7 @@ def parse_issue(issue):
     return "legacy-issue-" + str(issue["number"]), rows
 
 
-def evidence(issues, owner):
+def evidence(issues, owner, root=ROOT):
     rows, seen, accepted = [], set(), []
     for issue in sorted(issues, key=lambda x: x.get("created_at", "")):
         if issue.get("pull_request") or issue.get("user", {}).get("login", "").lower() != owner.lower():
@@ -218,7 +222,7 @@ def evidence(issues, owner):
             continue
         if "<!-- kaoyan-english-training-result -->" not in (issue.get("body") or ""):
             continue
-        report_id, report_rows = parse_issue(issue)
+        report_id, report_rows = parse_issue(issue, root)
         if report_id in seen:
             continue
         seen.add(report_id)
@@ -252,7 +256,7 @@ def make_stats(items, rows, notes, day):
             observations = per_day[stamp]
             day_errors = sum(x.get("errors", int(not x["ok"])) for x in observations)
             ok = day_errors == 0
-            day_slow = any(x["ms"] > threshold or x.get("uncertain", False) for x in observations)
+            day_slow = any(x["ms"] > x.get("slow_threshold_ms", threshold) or x.get("uncertain", False) for x in observations)
             errors += day_errors
             slow = slow or day_slow
             streak = streak + 1 if ok and not day_slow else 0
@@ -267,7 +271,7 @@ def make_stats(items, rows, notes, day):
                     continue
                 observations = per_day[stamp]
                 day_errors = sum(x.get("errors", int(not x["ok"])) for x in observations)
-                day_slow = any(x["ms"] > threshold or x.get("uncertain", False) for x in observations)
+                day_slow = any(x["ms"] > x.get("slow_threshold_ms", threshold) or x.get("uncertain", False) for x in observations)
                 clear_days = clear_days + 1 if day_errors == 0 and not day_slow else 0
         active_notes = bool(family_notes and clear_days < 2)
         if active_notes:
@@ -327,7 +331,10 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
     urgent = sorted(groups, key=urgent_rank, reverse=True)
     chosen = []
     def allowed(f):
-        return f not in chosen and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2) and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2)
+        # Full ordering belongs in the independent Part B page; at most one mini pair
+        # maintains these two families in an ordinary multiple-choice round.
+        partb_slot = not f.startswith("paragraph-order-") or not any(x.startswith("paragraph-order-") for x in chosen)
+        return partb_slot and f not in chosen and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2) and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2)
     def take(count, predicate, order=None):
         for f in (order or ranked):
             if count <= 0 or len(chosen) == requested:
@@ -367,7 +374,7 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
 def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     items = bank(root)
     if sync:
-        rows, accepted = evidence(get_issues(repo), repo.split("/")[0])
+        rows, accepted = evidence(get_issues(repo), repo.split("/")[0], root)
         save(root / "data/result-evidence.json", {"rows": rows, "issues": accepted})
     evidence_data = load(root / "data/result-evidence.json", {"rows": [], "issues": []})
     notes = load(root / "data/learning-notes.json", [])

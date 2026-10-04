@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;background:#f5f6fb;color:#192336;font-family:system-ui,"Microsoft YaHei",sans-serif}
+main{max-width:940px;margin:auto;padding:22px}h1{font-size:25px;margin:0 0 8px}h2{font-size:21px}h3{font-size:17px}
+a{color:#214ab7}nav,.actions{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
+button,select,a.button{font:inherit;border:1px solid #cfd7e5;border-radius:10px;background:#fff;color:#192336;padding:11px 14px;min-height:44px;cursor:pointer;text-decoration:none}
+button:hover,a.button:hover{border-color:#3157d5}button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}
+button:disabled{opacity:.55;cursor:default}.primary{background:#3157d5;color:white}.card{background:#fff;border:1px solid #e0e6ef;border-radius:15px;padding:22px;margin:16px 0}
+.muted{color:#58677e;font-size:14px;line-height:1.7}.notice{background:#fff6df;padding:12px;border-radius:10px;line-height:1.7}.error{color:#9a2929}
+.sequence{font-size:20px;line-height:1.8;overflow-wrap:anywhere;background:#eef2ff;padding:12px;border-radius:10px}
+.paragraphs{display:grid;grid-template-columns:1fr;gap:13px;padding:0;list-style:none}.paragraph-card{border:1px solid #dce3ed;border-radius:12px;padding:16px}
+.paragraph-card p{font-size:17px;line-height:1.8;margin:12px 0 0}.paragraph-card.selected{background:#f0f5ff;border-color:#a1b5ee}
+.result-pairs{display:grid;gap:12px;padding:0;list-style:none}.pair{padding:14px;border-left:4px solid #e0b47b;background:#fff8ef;border-radius:8px}
+.pair.hit{border-color:#58a475;background:#f0faf4}.pair p,.pair li{line-height:1.8}.good{color:#1b7139}.bad{color:#9a2929}
+.stats{display:flex;flex-wrap:wrap;gap:12px}.stats p{flex:1 1 180px;padding:12px;background:#f1f5fa;border-radius:10px;margin:0;line-height:1.7}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;border-bottom:1px solid #e1e7f0;padding:10px}
+label{line-height:1.8}select{max-width:100%;width:100%}details{margin:12px 0}summary{cursor:pointer;min-height:44px;padding:10px 0}
+.screen-note{line-height:1.8}input[type=checkbox]{width:20px;height:20px;vertical-align:middle;margin-right:8px}
+@media(max-width:600px){main{padding:12px}.card{padding:15px}.paragraph-card{padding:13px}.paragraph-card p{font-size:16px}.sequence{font-size:18px}h1{font-size:22px}.actions button{flex:1 1 145px}}

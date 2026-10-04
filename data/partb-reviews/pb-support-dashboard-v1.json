@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "storageId": "pb-support-dashboard-v1",
+  "question": {
+    "id": "pb-support-dashboard-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-10-04",
+    "title": "客服仪表盘漏掉了什么",
+    "topic": "公司管理",
+    "budget": 420,
+    "overview": "原创迁移材料。用局部证据与全篇结构共同判断，不靠主题词重复直接拼段。",
+    "paragraphs": [
+      {
+        "id": "B",
+        "text": "A software company introduced an automated assistant to shorten its customer support queues. Its dashboard soon showed faster replies and fewer open tickets, which executives welcomed as evidence of success. Callers, however, complained that they were explaining the same problems repeatedly, even while the official figures suggested that support was improving."
+      },
+      {
+        "id": "E",
+        "text": "Operations manager Nadia Singh was asked to explain the gap between that favourable dashboard and callers' experience. She followed a sample of requests from the first message to the moment a customer could actually use the product again. Several requests disappeared from the queue long before any workable solution reached the person who had asked for help."
+      },
+      {
+        "id": "A",
+        "text": "One reason for the mismatch was the rule used to close a ticket. A request counted as completed as soon as the assistant sent a standard reply, even when that reply merely directed the customer to another department. The system measured a successful first contact as though it were a successful resolution, concealing the work that still remained."
+      },
+      {
+        "id": "F",
+        "text": "That distinction became central to Singh's replacement dashboard, which displayed first contacts and resolved problems separately. Frontline agents now had to decide whether a quick reply genuinely advanced a case before accepting credit for it. Some worried that investigating a difficult request would make their individual figures look worse than sending several easy replies."
+      },
+      {
+        "id": "C",
+        "text": "Managers faced a comparable choice when they reviewed the new figures. Rewarding only the largest number of replies would reproduce the pressure felt by agents, whereas reviewing a few complete cases could expose stalled handovers between departments. Such reviews took time, but they also showed managers which staffing decisions were preventing agents from finishing the work."
+      },
+      {
+        "id": "D",
+        "text": "The company consequently stopped judging the assistant through the queue length alone. It retained fast replies as one useful measure while checking whether unresolved work had merely moved elsewhere, and linked staff rewards to that broader view. The redesign made the dashboard less convenient to summarize, yet more capable of identifying what customers actually needed the service to accomplish."
+      }
+    ],
+    "expectedOrder": [
+      "B",
+      "E",
+      "A",
+      "F",
+      "C",
+      "D"
+    ],
+    "links": [
+      {
+        "from": "B",
+        "to": "E",
+        "signals": [
+          "anaphora",
+          "topic-introduction"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "B引入指标好看却体验差的矛盾，E引入负责解释这一矛盾的人和调查方法。经理的出现不是单独的“人名接人名”，而是承接明确的gap。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "that favourable dashboard回指B的faster replies/fewer open tickets。"
+          },
+          {
+            "level": "medium",
+            "text": "B的callers重复陈述问题对应E追踪请求直至真正恢复使用。"
+          }
+        ]
+      },
+      {
+        "from": "E",
+        "to": "A",
+        "signals": [
+          "problem-to-reason",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "E末句出现请求在解决前就消失的现象，A解释关单规则，把首次回复误算为解决。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "E的disappeared long before any workable solution对应A的as soon as ... standard reply。"
+          },
+          {
+            "level": "strong",
+            "text": "One reason for the mismatch解释观察到的差距，而不是开启另一个统计话题。"
+          }
+        ]
+      },
+      {
+        "from": "A",
+        "to": "F",
+        "signals": [
+          "anaphora",
+          "contrast"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "A给出first contact与resolution的区别，F用That distinction回指并说明新仪表盘怎样分开显示。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "That distinction对应A最后一句的first contact / resolution。"
+          },
+          {
+            "level": "medium",
+            "text": "F的separately是针对A混为一谈的设计修复。"
+          }
+        ]
+      },
+      {
+        "from": "F",
+        "to": "C",
+        "signals": [
+          "parallel",
+          "cause-effect"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "F谈一线人员在速度指标下的选择，C转到管理者面临的同类选择。comparable只是辅助；管理者的奖励决定会重现一线压力，才把两个角色接起来。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "comparable choice要求前文已有agents的选择与压力。"
+          },
+          {
+            "level": "medium",
+            "text": "C的pressure felt by agents回顾F，并将原因追到管理者的奖励方式。"
+          }
+        ]
+      },
+      {
+        "from": "C",
+        "to": "D",
+        "signals": [
+          "conclusion",
+          "lexical-chain"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "D结合关单规则、跨部门交接和奖励问题总结管理改进，不能在调查原因前先收束。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "queue length alone与unresolved work moved elsewhere概括最初统计偏差及C的stalled handovers。"
+          },
+          {
+            "level": "medium",
+            "text": "linked staff rewards回收C的管理决策，把技术与制度一并总结。"
+          }
+        ]
+      }
+    ],
+    "globalLogic": "B矛盾→E追踪案例→A解释统计规则→F改变指标并呈现一线压力→C呈现平行的管理责任→D综合结论。A→F的distinction锁定，C需要F已介绍agents的选择；E的调查结果要先于原因说明。",
+    "themeTrap": "B与D都谈queue length，不能把开头和结尾直接相连；D已经总结Singh的调查与奖励制度。C与E都谈manager，但C回应的是F的一线压力，并非经理初次进入调查。",
+    "mechanism_source": {
+      "exam": "2011-english1",
+      "source_check": "data/source-checks/2011-english1.json",
+      "pairs": [
+        "G>B",
+        "B>D",
+        "D>E",
+        "E>A",
+        "A>C",
+        "C>F"
+      ]
+    }
+  }
+}

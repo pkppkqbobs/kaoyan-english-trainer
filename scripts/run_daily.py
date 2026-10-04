@@ -23,8 +23,8 @@ def apply_exclusions(rows, rules):
 
 def run(root, day, sync, repo):
     original_evidence = review.evidence
-    def checked_evidence(issues, owner):
-        rows, issue_ids = original_evidence(issues, owner)
+    def checked_evidence(issues, owner, evidence_root=root):
+        rows, issue_ids = original_evidence(issues, owner, evidence_root)
         rules = review.load(root / 'data/quality-exclusions.json', [])
         accepted, excluded = apply_exclusions(rows, rules)
         review.save(root / 'data/excluded-evidence.json', excluded)

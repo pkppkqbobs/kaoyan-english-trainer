@@ -10,7 +10,12 @@
 - 连续答对会自动降低频率
 - 错题本、能力分析、只练错题机制
 - 一键复制“给 ChatGPT 的学习报告”
-- 所有个人训练数据仅存浏览器 localStorage，不提交到 GitHub
+- 本地记录默认不上传；主动提交训练 Issue 后进入间隔复习
+- 独立 Part B 多段排序、逐接缝评分、历史恢复及机制统计
 
 ## GitHub Pages
 将 `index.html` 放到仓库根目录，然后在仓库 Settings → Pages 中选择从默认分支根目录部署。
+
+Part B：[排序训练](partb-review.html) · [历史与统计](partb-history.html)。
+模块 schema、成绩回流与维护约定见 [PARTB_REVIEW.md](PARTB_REVIEW.md)；
+每日/文章复盘约定见 [DAILY_REVIEW.md](DAILY_REVIEW.md)。

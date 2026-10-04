@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "storageId": "pb-transfer-buses-v1",
+  "question": {
+    "id": "pb-transfer-buses-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-10-04",
+    "title": "准点公交为何仍让人迟到",
+    "topic": "城市交通",
+    "budget": 420,
+    "overview": "原创迁移材料。用局部证据与全篇结构共同判断，不靠主题词重复直接拼段。",
+    "paragraphs": [
+      {
+        "id": "E",
+        "text": "A coastal city added an evening bus connection between its railway station and the industrial district to reduce car journeys. Early reports praised the buses for arriving on schedule, yet workers said that they still reached their shifts late. The transport office decided to examine the complete journey instead of assuming that punctual buses meant a usable connection."
+      },
+      {
+        "id": "C",
+        "text": "The review found that the connection worked well on paper but frequently failed at the station. Passengers leaving an arriving train often watched the bus depart while they were still walking across the concourse. The timetable allowed a short transfer, but why did a formally achievable walk turn into a missed bus on otherwise ordinary evenings?"
+      },
+      {
+        "id": "A",
+        "text": "The explanation was not that passengers were unusually slow. A narrow exit beside the platform was closed after the daytime shops shut, forcing evening travellers around a longer route through the building. A transfer time measured during the afternoon therefore understated the walk required at night, even when both the train and the bus kept exactly to schedule."
+      },
+      {
+        "id": "F",
+        "text": "Removing that hidden assumption required more than asking bus drivers to wait whenever somebody waved. Planners recalculated the evening walk and shifted departure times to provide a realistic margin, while clearly identifying the remaining open exit. They then tested whether this change helped people complete journeys that included a second leg beyond the industrial district."
+      },
+      {
+        "id": "D",
+        "text": "One such journey belonged to a cleaner who changed again to reach a small hospital outside the city. Previously, missing the station bus also meant missing the final local service and paying for a taxi. During the trial she caught both buses regularly, although her experience did not establish that the revised timing would suit every other shift pattern."
+      },
+      {
+        "id": "B",
+        "text": "The cleaner's result supported the broader decision to evaluate connected journeys rather than separate vehicles. The office kept its punctuality reports but added checks of transfer failures and access routes, recognizing that each service could meet its own target while the journey failed. Further timetable changes would be judged by the trips they enabled, with different shift patterns tested before expansion."
+      }
+    ],
+    "expectedOrder": [
+      "E",
+      "C",
+      "A",
+      "F",
+      "D",
+      "B"
+    ],
+    "links": [
+      {
+        "from": "E",
+        "to": "C",
+        "signals": [
+          "lexical-chain",
+          "topic-introduction"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "E引入准点却迟到的矛盾及全程调查，C给出站内错过车的具体观察。connection的重复辅助主题延续，调查角色才区分开篇与展开。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "E的examine the complete journey在C的review found中展开。"
+          },
+          {
+            "level": "support",
+            "text": "connection重复说明同一换乘服务，不单独保证相邻。"
+          }
+        ]
+      },
+      {
+        "from": "C",
+        "to": "A",
+        "signals": [
+          "problem-to-reason",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "C末句问正常晚上为什么错过车，A说明白天测量忽视夜间关闭出口，造成更长步行路线。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "C的formally achievable walk与A的afternoon measured time / required at night形成解释。"
+          },
+          {
+            "level": "medium",
+            "text": "even when ... kept exactly to schedule排除单车迟到这一替代原因。"
+          }
+        ]
+      },
+      {
+        "from": "A",
+        "to": "F",
+        "signals": [
+          "anaphora",
+          "cause-effect"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "A已经暴露把白天路线当夜间路线的隐含假设，F的that hidden assumption回指它，并给出重新测量和时刻调整。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "that hidden assumption对应白天测量低估夜间步行。"
+          },
+          {
+            "level": "medium",
+            "text": "recalculated the evening walk直接针对较长夜间路线。"
+          }
+        ]
+      },
+      {
+        "from": "F",
+        "to": "D",
+        "signals": [
+          "anaphora",
+          "example"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "F最后提出还要测试第二段行程，D以One such journey给出清洁工继续换乘的实例。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "One such journey回指F的journeys ... a second leg。"
+          },
+          {
+            "level": "medium",
+            "text": "D的changed again与caught both buses展示两段连接，而非只检验站内步行。"
+          }
+        ]
+      },
+      {
+        "from": "D",
+        "to": "B",
+        "signals": [
+          "conclusion",
+          "lexical-chain"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "B由清洁工实例回到全程评价原则，并提出扩展前的检验要求。这里主要是实例后的概括收束；并非看到office即可认定尾段。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "The cleaner result先要求D介绍个人旅程。"
+          },
+          {
+            "level": "medium",
+            "text": "新增transfer failures / access routes两项回收调查的关键发现；扩展要求结束本次论证。"
+          }
+        ]
+      }
+    ],
+    "globalLogic": "E提出矛盾→C定位站内问题→A解释夜间路线→F调整并提出第二段测试→D展示实例→B总结评价原则。A→F、F→D连续锁定；C的问题与A解释匹配；B概括清洁工结果不能早于D。",
+    "themeTrap": "E、A、B都出现准点概念，但A解释时间测量偏差，B总结评价方式。D的hospital只是行程目的地，不能凭station或workers与开篇拼接，需承接F提出的第二段测试。",
+    "mechanism_source": {
+      "exam": "2011-english1",
+      "source_check": "data/source-checks/2011-english1.json",
+      "pairs": [
+        "G>B",
+        "B>D",
+        "D>E",
+        "E>A",
+        "A>C",
+        "C>F"
+      ]
+    }
+  }
+}

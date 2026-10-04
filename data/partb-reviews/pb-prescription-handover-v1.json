@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "storageId": "pb-prescription-handover-v1",
+  "question": {
+    "id": "pb-prescription-handover-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-10-04",
+    "title": "出院处方的交接责任",
+    "topic": "医疗制度",
+    "budget": 420,
+    "overview": "原创迁移材料。用局部证据与全篇结构共同判断，不靠主题词重复直接拼段。",
+    "paragraphs": [
+      {
+        "id": "A",
+        "text": "A regional health service called patients several days after they left hospital to check whether follow-up arrangements had worked. Many reported no difficulty understanding their written instructions, yet some still waited for medicines that should have been available locally. The service asked researcher Owen Reed to investigate the journey of a prescription rather than immediately send patients more reminders."
+      },
+      {
+        "id": "D",
+        "text": "Reed's audit followed prescriptions from hospital offices to neighbourhood pharmacies. Staff on both sides could show records of work completed, but the same document sometimes appeared as finished in one system while remaining unreceived in the other. How could two teams each report that they had done their job while a patient was still waiting for a usable prescription?"
+      },
+      {
+        "id": "F",
+        "text": "A major reason was that sending and receiving were recorded under different responsibilities. The hospital closed its task when a file entered an outgoing queue; the pharmacy began its task only after an employee accepted that file into the local record. A rejected transmission could therefore sit between the two tasks without appearing as unfinished work on either team's ordinary list."
+      },
+      {
+        "id": "B",
+        "text": "This split in responsibility became the focus of a small redesign. The hospital kept the prescription visible until the receiving pharmacy acknowledged it, and a named member of staff investigated files that lacked acknowledgement. The procedure added one explicit handover point, with the aim of preventing a gap between two systems from becoming an unexplained delay for a patient."
+      },
+      {
+        "id": "E",
+        "text": "At one neighbourhood pharmacy, the acknowledgement step exposed files that had previously arrived without the information needed to process them. Staff returned these files to the named hospital contact instead of waiting for patients to ask what had happened. The first week required several extra conversations, but later records showed fewer requests stranded between the two offices."
+      },
+      {
+        "id": "C",
+        "text": "The audit suggested that a completed internal task was an unreliable substitute for a completed handover. The health service retained its calls to patients, but used the new acknowledgements to locate missing work before asking anyone to repeat an instruction. It would extend the trial only after checking how smaller pharmacies managed the additional contact, rather than assuming that one successful site represented the whole region."
+      }
+    ],
+    "expectedOrder": [
+      "A",
+      "D",
+      "F",
+      "B",
+      "E",
+      "C"
+    ],
+    "links": [
+      {
+        "from": "A",
+        "to": "D",
+        "signals": [
+          "topic-introduction",
+          "lexical-chain"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "A先提出患者懂说明却拿不到药的问题及Reed的任务，D才展开跨机构记录调查。接缝依靠任务到方法的展开，不只是研究者名字重复。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "journey of a prescription对应D的from hospital offices to ... pharmacies。"
+          },
+          {
+            "level": "support",
+            "text": "Reed名字使调查主体一致，但不能单独保证唯一相邻。"
+          }
+        ]
+      },
+      {
+        "from": "D",
+        "to": "F",
+        "signals": [
+          "problem-to-reason",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "D末句问两边都完成却患者仍等的矛盾，F解释发送与接收之间无人负责的空隙。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "F给出的outgoing queue与accepted file定义D的两种finished状态。"
+          },
+          {
+            "level": "medium",
+            "text": "rejected transmission解释患者等待而ordinary lists没有未完任务。"
+          }
+        ]
+      },
+      {
+        "from": "F",
+        "to": "B",
+        "signals": [
+          "anaphora",
+          "lexical-chain"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "F建立职责分裂和无人看管的交接区，B的This split in responsibility明确回指，并设计接收确认与专人追踪。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "This split对应F的sending and receiving ... different responsibilities。"
+          },
+          {
+            "level": "medium",
+            "text": "visible until acknowledged正面修复任务关闭与任务开启之间的空隙。"
+          }
+        ]
+      },
+      {
+        "from": "B",
+        "to": "E",
+        "signals": [
+          "general-to-specific",
+          "example"
+        ],
+        "strength": "support",
+        "anchor": false,
+        "explanation": "B给出一般程序，E展示一家药房怎样实际使用它。需要看acknowledgement的具体用途与named contact的复现；At one地点词不是唯一证据。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "E将B的acknowledged / named staff落实为退回缺信息文件。"
+          },
+          {
+            "level": "support",
+            "text": "从设计到单点试验符合全篇调查顺序，仍要结合后文整体评价核对。"
+          }
+        ]
+      },
+      {
+        "from": "E",
+        "to": "C",
+        "signals": [
+          "conclusion",
+          "contrast"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "C总结内部完成与真正交接的区别，并明确单点结果不能直接推广全区。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "completed internal task / completed handover概括调查与试验的共同问题。"
+          },
+          {
+            "level": "medium",
+            "text": "one successful site回顾E并限定推广范围，以后续验证收束。"
+          }
+        ]
+      }
+    ],
+    "globalLogic": "A引入问题和调查任务→D提出记录矛盾→F解释责任空隙→B重新定义交接→E单点试验→C限定结论。F→B的split锁定，E的acknowledgement需先由B定义；C评价one successful site须在实例后。",
+    "themeTrap": "A与C都提patient calls，但C评价它的作用并提出推广条件，不能跳过调查。D、E都出现pharmacy；D展示尚未解决的记录矛盾，E展示新确认程序后的结果，位置角色不同。",
+    "mechanism_source": {
+      "exam": "2011-english1",
+      "source_check": "data/source-checks/2011-english1.json",
+      "pairs": [
+        "G>B",
+        "B>D",
+        "D>E",
+        "E>A",
+        "A>C",
+        "C>F"
+      ]
+    }
+  }
+}
