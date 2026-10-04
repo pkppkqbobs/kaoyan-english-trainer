@@ -461,6 +461,78 @@
       "uncertain": false,
       "origin": 7,
       "qid": "reference-return-rules"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 52250,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "summary-overall-midsection"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 36264,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "conceivably-ferry"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "subject",
+      "ok": true,
+      "ms": 50263,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "subject-curtains-steam"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 61015,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "social-message-inference-career-a"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 7984,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "directness-curator-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "nested",
+      "ok": true,
+      "ms": 29510,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "legacy-who-that-main"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "causal-role-direction",
+      "ok": false,
+      "ms": 35953,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "causal-role-direction-fitness-a"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "faint",
+      "ok": true,
+      "ms": 20152,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "legacy-faint-praise"
     }
   ],
   "issues": [
@@ -470,6 +542,7 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ]
 }
