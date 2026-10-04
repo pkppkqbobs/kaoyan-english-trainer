@@ -533,6 +533,78 @@
       "uncertain": false,
       "origin": 8,
       "qid": "legacy-faint-praise"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 151239,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "paragraph-order-discourse-conclusion-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 45115,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "career-editor-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "paragraph-order-anaphora",
+      "ok": true,
+      "ms": 16682,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "paragraph-order-anaphora-separation-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 94288,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "causal-role-direction-travel-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "point",
+      "ok": false,
+      "ms": 36086,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "legacy-miss-point"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "social-message-inference",
+      "ok": false,
+      "ms": 49134,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "social-message-inference-parenting-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "with",
+      "ok": true,
+      "ms": 7159,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "with-bread-cooling"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 14182,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "recruitment-poach-a"
     }
   ],
   "issues": [
@@ -543,6 +615,7 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ]
 }
