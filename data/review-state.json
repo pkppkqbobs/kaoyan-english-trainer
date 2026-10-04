@@ -437,9 +437,9 @@
       "last": "2026-10-03",
       "due": "2026-10-04",
       "slow_or_uncertain": false,
-      "reported_confusion": true,
+      "reported_confusion": false,
       "observed_days": 3,
-      "observation_priority": 2
+      "observation_priority": 0
     },
     "with": {
       "streak": 1,
