@@ -230,7 +230,8 @@ class ArticleReviewTests(unittest.TestCase):
             self.assertTrue(all('qid' in r for r in rows))
             stable = next(r for r in rows[2:] if r['ok'] and not r['uncertain'])
             daily_answer = {**stable, 'origin': 92}
-            stats = review.make_stats(review.bank(ROOT), rows+[daily_answer], [], date(2026, 10, 3))
+            as_of = date.fromisoformat(rows[0]['date'])
+            stats = review.make_stats(review.bank(ROOT), rows+[daily_answer], [], as_of)
             self.assertEqual(stats[stable['family']]['streak'], 1)
             self.assertEqual(stats[stable['family']]['observed_days'], 1)
             self.assertEqual(stats[rows[0]['family']]['errors'], 1)
