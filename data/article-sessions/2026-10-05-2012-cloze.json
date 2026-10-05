@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-05-2012-cloze",
+  "date": "2026-10-05",
+  "created_at": "2026-10-05T19:59:00+08:00",
+  "source": "2012 英语一 Section I 完形填空",
+  "result_summary": "用户自述本篇20题仅第1、6、9、20题答对（4/20）；未记录其余错题具体首次选项，不补造pick。主要暴露：politician/politics/political被整体误作policy，导致全文law/court与politics主轴读偏；yet被机械理解为前后褒贬翻转；be bound by an ethics code、the rest of翻译困难；rest/just/dismiss/address等熟词单义化；第14、17、18、19题仍无法稳定判断。重点训练全文语义链反向校验、预期—现实转折、熟词生义、规则约束搭配及closely tied/set apart的关系逻辑。",
+  "focus_families": [
+    "politics-policy",
+    "expectation-contrast",
+    "familiar-word-polysemy",
+    "constraint-language",
+    "relation-collocation"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2012-english1.json"
+}
