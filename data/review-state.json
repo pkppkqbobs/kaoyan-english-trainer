@@ -123,6 +123,16 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "constraint-language": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-05",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "directness-modifier": {
       "streak": 2,
       "errors": 0,
@@ -153,6 +163,16 @@
       "observed_days": 2,
       "observation_priority": 0
     },
+    "expectation-contrast": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-05",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "faint": {
       "streak": 2,
       "errors": 1,
@@ -162,6 +182,16 @@
       "reported_confusion": false,
       "observed_days": 4,
       "observation_priority": 0
+    },
+    "familiar-word-polysemy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-05",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "feature-verb": {
       "streak": 0,
@@ -283,6 +313,16 @@
       "observed_days": 3,
       "observation_priority": 2
     },
+    "politics-policy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-05",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "provoke-family": {
       "streak": 0,
       "errors": 0,
@@ -312,6 +352,16 @@
       "reported_confusion": false,
       "observed_days": 5,
       "observation_priority": 0
+    },
+    "relation-collocation": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-05",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "relative": {
       "streak": 4,
