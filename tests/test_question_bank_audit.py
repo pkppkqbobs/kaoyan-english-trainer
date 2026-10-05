@@ -186,6 +186,11 @@ class BankCoverageTests(unittest.TestCase):
             for path in ROOT.glob("*.html"):
                 shutil.copy(path, root / path.name)
             locked_day = date.fromisoformat(review.load(root / "data/daily.json")["date"])
+            # A newly registered article session is allowed to update the latest alias.
+            # Normalize generated outputs first, then require a second full build to be
+            # byte-stable so locked daily/evidence/history still cannot be rewritten.
+            article_review.build(root)
+            partb_review.build(root)
             paths = [*root.glob("*.html"), *(root / "data").rglob("*.json")]
             before = {p: p.read_bytes() for p in paths}
             run(root, locked_day, False, "pkppkqbobs/kaoyan-english-trainer")
