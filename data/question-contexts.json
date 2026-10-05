@@ -180,7 +180,17 @@
     "title-coverage-local-energy-choices": "context:title-coverage-local-energy-choices",
     "title-specificity-bus-lane-tradeoff": "context:title-specificity-bus-lane-tradeoff",
     "title-specificity-bookshop-workload": "context:title-specificity-bookshop-workload",
-    "author-stance-volunteer-coordination": "context:author-stance-volunteer-coordination"
+    "author-stance-volunteer-coordination": "context:author-stance-volunteer-coordination",
+    "politics-policy-council-a": "context:politics-policy-council-a",
+    "politics-policy-report-b": "context:politics-policy-report-b",
+    "yet-warning-reality-a": "context:yet-warning-reality-a",
+    "yet-goal-outcome-b": "context:yet-goal-outcome-b",
+    "polysemy-rest-unjust-a": "context:polysemy-rest-unjust-a",
+    "polysemy-dismiss-address-b": "context:polysemy-dismiss-address-b",
+    "constraint-code-chain-a": "context:constraint-code-chain-a",
+    "constraint-accountable-b": "context:constraint-accountable-b",
+    "relation-tied-apart-a": "context:relation-tied-apart-a",
+    "relation-independence-b": "context:relation-independence-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
