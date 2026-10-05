@@ -78,7 +78,7 @@ class Exam2011ContentTests(unittest.TestCase):
         self.assertIn('disapproving social judgments', q['o'][q['a']])
         self.assertNotEqual(q['o'][q['a']], 'Non-volunteers are generally less happy than volunteers.')
         for q in self.items:
-            if q['family'] == 'social-message-inference':
+            if q['family'] == 'social-message-inference' and q.get('source_exam') == '2011-english1':
                 self.assertEqual(q['source_question'], 38)
                 self.assertNotIn('≠ 直接批评', q['skill'])
                 self.assertNotIn('≠ 被直接批评', q['skill'])
@@ -122,13 +122,15 @@ class Exam2011ContentTests(unittest.TestCase):
             shutil.copytree(ROOT / 'data', root / 'data')
             shutil.copytree(ROOT / 'web', root / 'web')
             shutil.copy(ROOT / 'today.html', root / 'today.html')
-            protected = [root / 'today.html', root / 'data/daily.json', root / 'data/days/2026-10-04.json',
+            locked_date = review.load(root / 'data/daily.json')['date']
+            day = date.fromisoformat(locked_date)
+            protected = [root / 'today.html', root / 'data/daily.json', root / f'data/days/{locked_date}.json',
                          root / 'data/result-evidence.json', root / 'data/excluded-evidence.json']
             protected += list((root / 'data/article-reviews').glob('*.json'))
             before = {p: p.read_bytes() for p in protected}
             expected_scoring = review.make_stats(self.items, review.load(root / 'data/result-evidence.json')['rows'],
-                                                 self.notes, date(2026, 10, 4))
-            run(root, date(2026, 10, 4), False, 'pkppkqbobs/kaoyan-english-trainer')
+                                                 self.notes, day)
+            run(root, day, False, 'pkppkqbobs/kaoyan-english-trainer')
             latest = article_review.build(root)
             audited_partb = review.load(root / 'data/article-reviews/2026-10-04-2011-partb-r2.json')
             self.assertEqual(audited_partb['storageId'], '2026-10-04-2011-partb-r2')

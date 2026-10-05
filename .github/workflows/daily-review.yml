@@ -19,6 +19,7 @@ on:
       - 'data/article-sessions/**'
       - 'data/source-checks/**'
       - 'data/partb-questions/**'
+      - 'data/question-contexts.json'
   issues:
     types: [opened, edited, deleted]
 
@@ -55,6 +56,7 @@ jobs:
           node --check web/partb-core.js
           node --check web/partb.js
           node --check web/partb-home.js
+          node --check scripts/question_bank_audit.mjs
           node tests/partb-ui.mjs
       - name: Read submitted results and build daily quiz
         env:

@@ -17,6 +17,7 @@ const data = {date: '2026-09-29', repo: 'pkppkqbobs/kaoyan-english-trainer',
 data.questions.forEach(q => { data.retry[q.family] = [question('retry-' + q.family, q.family)]; });
 const originalFirst = data.questions[0];
 originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta';
+originalFirst.diag = {1: 'diagnostic for choice two', 2: 'diagnostic for choice three', 3: 'diagnostic for choice four'};
 const source = fs.readFileSync('web/review.js', 'utf8');
 let nodes, opened;
 class Element {
@@ -70,7 +71,12 @@ const shuffledFirst = run().queue[0];
 const remapped = originalFirst.o.map((_, oldIndex) => 'ABCD'[shuffledFirst.o.indexOf(originalFirst.o[oldIndex])]);
 assert.equal(shuffledFirst.exp.rest, remapped.map((letter, i) => letter + ' ' + ['alpha', 'beta', 'gamma', 'delta'][i]).join('; '),
   'option-specific explanation labels must follow the shuffled options');
+for (const [oldIndex, diagnostic] of Object.entries(originalFirst.diag)) {
+  const currentIndex = shuffledFirst.o.indexOf(originalFirst.o[Number(oldIndex)]);
+  assert.equal(shuffledFirst.diag[currentIndex], diagnostic, 'diagnostic must follow the option, not its old index');
+}
 const firstWrong = run().answers[0];
+assert.ok(nodes.body.textContent.includes(shuffledFirst.diag[firstWrong.pick]), 'wrong choice must display its own diagnostic');
 boot();
 assert.equal(run().answers[0].ok, false, 'Refresh must retain the answer');
 clickText('下一题');

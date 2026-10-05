@@ -19,3 +19,4 @@
 Part B：[排序训练](partb-review.html) · [历史与统计](partb-history.html)。
 模块 schema、成绩回流与维护约定见 [PARTB_REVIEW.md](PARTB_REVIEW.md)；
 每日/文章复盘约定见 [DAILY_REVIEW.md](DAILY_REVIEW.md)。
+题库语境覆盖、曝光口径与维护审计见 [QUESTION_BANK_AUDIT.md](QUESTION_BANK_AUDIT.md)。

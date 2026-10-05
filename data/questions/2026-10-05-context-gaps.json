@@ -1,0 +1,458 @@
+[
+  {
+    "id": "point-timetable-argument",
+    "family": "point",
+    "introduced": "2026-09-29",
+    "published_on": "2026-10-05",
+    "budget": 35,
+    "target": "have a point",
+    "skill": "miss the point / point",
+    "q": "“Residents have a point: the evening bus reaches the station after the last train has left.” What does have a point convey?",
+    "o": [
+      "居民的意见有道理，时刻表提供了理由。",
+      "居民已经同意公交运营方的安排。",
+      "公交晚到导致火车晚点。",
+      "居民指出了一个新的候车地点。"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "“居民说得有道理：晚班公交抵达车站时，末班火车已经离开了。”问题问have a point表达什么。",
+      "structure": "Residents是主语，have是谓语，a point是宾语。冒号后的the evening bus + reaches + the station给出理由；after从句的has left表示火车先已离开。",
+      "other": "resident 居民；station 车站；the last train 末班火车；timetable 时刻表。",
+      "meaning": "have a point表示某人的意见有道理或值得考虑。这里肯定的是意见所据的理由，不是找到一个地点；与miss the point不同，这次是抓到了有效理由。",
+      "rest": "“同意运营方”加入了原文没有的立场，且解释的是时刻衔接不便。“导致火车晚点”倒置了时间信息：火车已走，并未晚点。“新的候车地点”把抽象的意见或道理误当具体地点。"
+    }
+  },
+  {
+    "id": "social-message-repair-framing",
+    "family": "social-message-inference",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "社会信息 / 推断边界",
+    "skill": "隐含批评与证据范围",
+    "q": "A shop’s guide calls replacing a worn battery “settling for yesterday’s technology.” It says nothing about whether a repaired phone would meet its owner’s needs. Which inference is best supported?",
+    "o": [
+      "The guide judges repairs from owners’ reported dissatisfaction.",
+      "The guide compares replacements by how long they last.",
+      "The guide frames repair negatively without establishing that it fails to meet users’ needs.",
+      "The guide identifies a technical obstacle that prevents battery replacement."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "一家商店的指南把更换磨损的电池称为“将就使用过时技术”。它没有讨论修好的手机能否满足机主的需要。最有依据的推断是：它对维修附加了负面评价，却没有证明维修无法满足需要。",
+      "structure": "主句A shop’s guide + calls + replacing a worn battery + 引语，call把维修描述成某种选择。It指guide；whether从句是about的补足内容，a repaired phone是该从句主语，would meet是谓语。",
+      "other": "worn 磨损的；settle for 将就接受；battery 电池；meet someone’s needs 满足某人的需要。",
+      "meaning": "区分价值标签与功能证据。“过时”是指南附加的评价标签，不能直接升级为对实际需要是否得到满足的证据，也不必出现人身侮辱才有否定性信息。",
+      "rest": "reported dissatisfaction补出未报告的用户调查；how long they last偷换成使用寿命比较；technical obstacle把负面描述变成无法换电池的技术原因，三者都没有文本依据。"
+    }
+  },
+  {
+    "id": "causal-role-trust-delays",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "因果角色 / 作用方向",
+    "skill": "谁影响谁",
+    "q": "Trust in the complaints system was weakened by delays in acknowledging reports. Fewer residents subsequently used it. Which chain matches the account?",
+    "o": [
+      "Lower use caused the earlier delays, which then improved trust.",
+      "Delays weakened trust; reduced use followed that loss of trust.",
+      "Residents’ increased trust made acknowledgement take longer.",
+      "Fewer reports showed that complaints had been resolved more quickly."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "投诉系统迟迟不确认收到报告，削弱了人们对它的信任。随后使用它的居民减少了。符合叙述的链条是：确认延迟削弱信任，使用减少随后发生。",
+      "structure": "Trust是主语；was weakened是被动谓语；by delays标明导致信任下降的因素。第二句Fewer residents是主语，used是谓语，it指投诉系统。subsequently给出时间方向。",
+      "other": "complaints system 投诉系统；acknowledge reports 确认收到报告；delay 延迟；subsequently 随后。",
+      "meaning": "被动句的语法主语是受到影响的信任，不是施加影响的延迟。第二步是后续使用减少，不能倒转为原先延迟的起因。文本是对该链条的叙述，并未报告受控实验。",
+      "rest": "Lower use caused the earlier delays把后续使用减少倒置为较早事件的原因，且improved trust与weakened相反；increased trust同时交换方向和变化趋势；resolved more quickly把使用量下降替换成解决速度提升，原文没有处理速度数据。"
+    }
+  },
+  {
+    "id": "causal-role-deadline-response",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "原因 / 应对措施 / 后续结果",
+    "skill": "谁影响谁",
+    "q": "After several small firms missed an application deadline, the council extended the next round by a week to give them another chance. Participation in that later round has not yet been measured. Which statement preserves the roles?",
+    "o": [
+      "The extension made firms miss the earlier deadline.",
+      "The later participation figures caused the council to extend the round.",
+      "The missed deadline prompted an extension; its effect on later participation is still unknown.",
+      "The earlier deadline was introduced in response to the extension."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "几家小企业错过申请截止时间后，市政委员会将下一轮的期限延长一周，给它们再一次机会。后一轮的参与情况尚未统计。错过期限是延长期限这一应对措施的背景，措施对随后参与的影响仍未知。",
+      "structure": "after从句：several small firms + missed + an application deadline。主句：the council + extended + the next round，by a week表示延长量，to give them another chance说明目的。Participation + has not yet been measured是现在完成时被动谓语。",
+      "other": "firm 企业；application 申请；deadline 截止时间；participation 参与情况。",
+      "meaning": "区分原先问题、事后应对和尚未观测的效果。不能让后来的措施成为较早失败的原因，也不能凭实施措施就宣称取得改善。",
+      "rest": "The extension made...让下一轮的措施反过来造成先前错过期限；later participation figures不存在已测量数据，不能成为依据；earlier deadline ... in response to the extension把较早规则与后来的回应倒置。"
+    }
+  },
+  {
+    "id": "subject-road-closure-risk",
+    "family": "subject",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "be subject to / 实际事件",
+    "skill": "be subject to / be subjected to",
+    "q": "The mountain road is subject to closure during heavy snow. No closure has been announced today. Which report preserves both statements?",
+    "o": [
+      "The road has already been closed after a snowstorm.",
+      "Heavy snow can lead to closure, but these lines do not report a closure today.",
+      "The road has been subjected to a closure test today.",
+      "The road is open because heavy snow cannot affect its status."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "这条山路在大雪期间可能封闭。今天尚未宣布封路。准确报道是：大雪可能带来封路，但这两句没有报道今天已经封路。",
+      "structure": "The mountain road是主语，is是系动词，subject to closure表达所受约束或可能状态。第二句No closure是主语，has been announced是现在完成时被动谓语；没有公告不等于已验证现场一定开放。",
+      "other": "mountain road 山路；closure 封闭；announce 宣布；status 状态。",
+      "meaning": "be subject to可表示有可能受某变化影响，不自动表示该事件已经发生。这里也不能从“尚无公告”推出现场已确认开放。",
+      "rest": "already been closed把可能状态改成已发生事件；subjected to a closure test虚构今天被施加测试的过程；open because ... cannot affect同时虚构开放状态并否认原文给出的封闭风险。"
+    }
+  },
+  {
+    "id": "conceivably-damaged-page",
+    "family": "conceivably",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 35,
+    "target": "conceivably / 可能性强度",
+    "skill": "conceivably",
+    "q": "The damaged page could conceivably contain the date we need, but the faded ink cannot yet be read. Which claim keeps the writer’s certainty level?",
+    "o": [
+      "页面上已经确认写有需要的日期。",
+      "需要的日期很可能就在这一页，比其他页更有可能。",
+      "这页或许写有需要的日期，目前仍未证实。",
+      "这页故意省略了日期。"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "那张受损的页面或许写有我们需要的日期，但褪色的墨迹目前还无法辨认。准确改写保留可能性，并说明尚未证实。",
+      "structure": "The damaged page是主语，could contain是谓语，the date是宾语；we need是省略关系代词的定语从句。conceivably修饰可能性；but之后the faded ink + cannot yet be read是被动谓语。",
+      "other": "damaged 受损的；faded 褪色的；ink 墨迹；certainty 确定程度。",
+      "meaning": "conceivably表示可以设想有这种可能。它既不是已经确认，也不自动表示比其他方案更可能。",
+      "rest": "“已经确认”抹掉could与无法辨认的限制；“很可能、比其他页更可能”加入原文没有的概率比较；“故意省略”把可能存在日期误写成有意不写，既换内容又补动机。"
+    }
+  },
+  {
+    "id": "conceivably-competing-explanations",
+    "family": "conceivably",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 35,
+    "target": "conceivably / 多种解释",
+    "skill": "conceivably",
+    "q": "No existing model explains the readings. They could conceivably point to a new process, although a faulty instrument remains another explanation. Which interpretation is justified?",
+    "o": [
+      "A new process is a possible explanation, alongside an instrument fault.",
+      "The readings establish a new process and rule out an instrument fault.",
+      "The instrument fault has been confirmed by a separate test.",
+      "The new process is less likely than an instrument fault according to measured probabilities."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "现有模型都解释不了这些读数。它们或许指向一个新过程，但仪器故障仍是另一种解释。有依据的是两种解释仍可并存，新的过程只是可能性之一。",
+      "structure": "No existing model + explains + the readings。They指readings；could point to是谓语。although从句中a faulty instrument是主语，remains是系动词，another explanation是表语。",
+      "other": "reading 仪器读数；process 过程；faulty 出故障的；rule out 排除。",
+      "meaning": "conceivably没有把一种可设想的解释升级为发现。another explanation尤其限制了唯一性；也没有给两种解释排名。",
+      "rest": "establish ... rule out将可能性改成证实和排除；confirmed by a separate test虚构检验；less likely ... measured probabilities补出概率比较，原文没有量化数据。"
+    }
+  },
+  {
+    "id": "parallel-governance-control-panel",
+    "family": "parallel-governance",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "共同动词支配 / not...but...",
+    "skill": "共同动词支配",
+    "q": "The redesign owes its success not to a faster motor but to a simpler control panel. Which reading keeps the shared relation intact?",
+    "o": [
+      "The faster motor owes its success to the control panel.",
+      "The redesign’s success is attributed to the simpler panel rather than the faster motor.",
+      "The simpler panel was made possible by the redesign’s earlier success.",
+      "The sentence credits the motor and the panel equally."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "这次重新设计的成功不是由于更快的电机，而是由于更简单的控制面板。两个to短语共同说明同一个成功应归因于什么。",
+      "structure": "The redesign是主语，owes是谓语，its success是宾语。not to a faster motor和but to a simpler control panel是同层并列的归因补足语，都受owes its success支配。",
+      "other": "redesign 重新设计；owe A to B 把A归因于B；motor 电机；control panel 控制面板。",
+      "meaning": "共享的是owe success to...的归因结构，不是让后半句生成新主语或改变成功的所属对象。not...but...排除电机、强调面板。",
+      "rest": "The faster motor owes...把电机改成主语并换掉success所属对象；panel was made possible...把面板作为成功的结果，反转因果；equally忽略not对电机解释的排除。"
+    }
+  },
+  {
+    "id": "parallel-governance-inspection-tasks",
+    "family": "parallel-governance",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "共同动词支配 / 并列任务",
+    "skill": "共同动词支配",
+    "q": "The inspector recommended replacing the worn belt and checking the tension before restarting the machine. Which reading preserves the recommendation?",
+    "o": [
+      "The inspector reported that both jobs had already been completed.",
+      "Replacing the belt was expected to check the tension automatically.",
+      "The inspector recommended two tasks: belt replacement and a tension check.",
+      "The machine should be restarted before either task is attempted."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "检查员建议在重新启动机器之前更换磨损的皮带并检查张力。建议包含两项任务：更换皮带和检查张力，而不是报告它们已经完成。",
+      "structure": "The inspector是主语，recommended是谓语。replacing the worn belt与checking the tension是并列动名词短语，共同作recommended的补足内容；before restarting the machine给执行顺序。",
+      "other": "inspector 检查员；worn belt 磨损的皮带；tension 张力；restart 重新启动。",
+      "meaning": "and把两项动作放在同一层级，都受recommended支配。后一个动名词不是第一个动作自动产生的效果，也不是新的已完成事实。",
+      "rest": "had already been completed把建议改成过去已完成事实；check ... automatically把两项独立任务合成一项的自动效果；restarted before either task反转before给出的执行顺序。"
+    }
+  },
+  {
+    "id": "summary-trials-next-question",
+    "family": "summary-location",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "局部总结 / 段尾钩子",
+    "skill": "总结词定位",
+    "q": "A paragraph says: “Taken together, the short trials show that the sensor detects small leaks. That finding raises a further question: can it operate for weeks without a battery change?” Which next paragraph would best develop the hook?",
+    "o": [
+      "A report of a month-long run and its power use.",
+      "A repetition of the first trial’s one-hour detection rate.",
+      "A history of the material used in the first sensor.",
+      "A claim that accurate detection already proves long battery life."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一段写道：“短期试验合起来表明传感器能检测到小泄漏。这个发现引出进一步的问题：不换电池，它能否运行数周？”最能展开段尾钩子的是长达一个月的运行和耗电报告。",
+      "structure": "Taken together概括short trials；the sensor + detects + small leaks是that宾语从句。That finding回指检测结果。can it operate...?的问题将检测能力推进到长期供电能力。",
+      "other": "trial 试验；leak 泄漏；operate 运转；power use 耗电量。",
+      "meaning": "局部总结不是全文封口。选下一段要回应新的运行时长问题，而非机械重复已总结的检测准确性。",
+      "rest": "one-hour detection rate只重复旧测试，未回答数周运行；material history转去材料背景，未接耗电问题；accurate detection proves long battery life把检测能力当成续航证据，两项指标不能自动互证。"
+    }
+  },
+  {
+    "id": "summary-current-and-follow-up",
+    "family": "summary-location",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "总结范围 / 后续核验",
+    "skill": "总结词定位",
+    "q": "After presenting a commuter survey, a paragraph says: “To sum up, the new schedule suits many commuters. The council will review it after winter, when school travel patterns change.” What do these lines support?",
+    "o": [
+      "The winter review has already overturned the survey findings.",
+      "The council has changed the discussion to the cost of new buses.",
+      "The paragraph summarises current findings and identifies a later check.",
+      "The survey has measured how school journeys changed during the coming winter."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "在呈现通勤调查后，一段写道：“总的说来，新时刻表适合许多通勤者。委员会将在冬季之后重新评估它，届时学生出行规律会变化。”这些句子总结当前发现，并提出之后的核验。",
+      "structure": "To sum up引入对已给调查的概括。The new schedule + suits + many commuters。The council + will review + it表达将来的评估；when从句补充冬后出行规律变化。",
+      "other": "commuter 通勤者；schedule 时刻表；review 重新评估；travel pattern 出行规律。",
+      "meaning": "总结当前部分与计划未来检查可以同段共存；未来检查还未发生。单靠总结词或后续计划，不能保证这一段必为全文末段或必有下一段。",
+      "rest": "already overturned把未来复核改成已完成的推翻；cost of new buses凭空替换主题；has measured ... coming winter把尚未来到的时期说成已取得观测结果。"
+    }
+  },
+  {
+    "id": "reference-panels-request-switch",
+    "family": "reference",
+    "introduced": null,
+    "published_on": "2026-10-05",
+    "budget": 35,
+    "target": "it / this request / 对象切换",
+    "skill": "these / such 回指",
+    "q": "Two panels examined a report. The finance panel recommended publishing it in full, while the technical panel asked for more time. This request was granted. Which reading tracks it and This request correctly?",
+    "o": [
+      "it = the report; This request = publishing the report in full",
+      "it = the finance panel’s recommendation; This request = more time",
+      "it = the report; This request = more time for the technical panel",
+      "it = the decision to publish; This request = the finance panel’s recommendation"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "两个小组审阅了一份报告。财务小组建议全文发布它，技术小组则请求更多时间。这个请求获准了。it指报告；This request指技术小组请求更多时间。",
+      "structure": "publishing it in full是recommended的补足内容，it代替前文的report。while对比两个小组的不同动作。This request作后句主语；was granted是被动谓语，回指asked for more time这一请求。",
+      "other": "panel 小组；in full 全文、完整地；technical 技术的；grant a request 批准请求。",
+      "meaning": "跟踪对象时既看名词数与位置，也看动作：publish的是report，asked for形成request。财务组的建议和技术组的请求不能混为同一对象。",
+      "rest": "把This request指向全文发布，忽略asked for more time和while的对象切换；把it解释成recommendation，会把publish报告改成发布建议；decision to publish也不是it出现前已建立的实体，且没有说发布决定已经获批。"
+    }
+  },
+  {
+    "id": "paragraph-anaphora-map-representatives",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-04",
+    "published_on": "2026-10-05",
+    "budget": 55,
+    "target": "段落回指 / 竞争先行项",
+    "skill": "排序题回指链",
+    "q": "段P：The coordinators sent a draft map to the two resident representatives. The other residents received a short notice. Neither coordinator could attend the meeting.\n段Q：They brought their copies of the draft map to the meeting and proposed changes.\nQ中的They最合理地指谁？",
+    "o": [
+      "The representatives: they received the draft map, and the coordinators were absent.",
+      "The other residents: they are the latest group mentioned before the coordinators.",
+      "The coordinators: they had sent the map, so they must have presented it.",
+      "The representatives and coordinators together: both groups worked on the plan."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "协调员把地图草稿发给两名居民代表，其他居民只收到简短通知；两名协调员都不能参会。下一段说他们带着各自的地图草稿参会并提出修改。They最合理地指居民代表。",
+      "structure": "P中The coordinators + sent + a draft map + to the representatives。The other residents + received + a notice。Neither coordinator + could attend为否定事实。Q的They + brought + their copies并与proposed并列，地图副本和参会事实共同锁定代表。",
+      "other": "coordinator 协调员；representative 代表；draft map 地图草稿；propose changes 提出修改。",
+      "meaning": "这里不能只按最近的复数名词选先行项。要联合“谁收到地图”“谁能参会”判断；同一主题的协调员并不因此与They相同。",
+      "rest": "The other residents只收到notice，未建立其地图副本；The coordinators虽然发送地图，却明确不能到场，must have presented偷换了行为；两组一起参会与Neither coordinator could attend矛盾。"
+    }
+  },
+  {
+    "id": "paragraph-discourse-ticket-deposits",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "段尾问题 / 原因解释",
+    "skill": "排序题并列递进标记",
+    "q": "前段：The theatre sold every seat at the advertised price. Yet the deposits in its bank account were smaller than the value of tickets sold. The manager began tracing the gap between bookings and payments.\n哪个后段最能推进这一问题？",
+    "o": [
+      "Audience surveys ranked music above scenery when asking about favourite parts of the performance.",
+      "The booking agency deducted its service fees before forwarding the remaining money to the theatre.",
+      "The theatre had used the same stage for years, although its audience changed with each production.",
+      "Rehearsals ended later than planned, so actors sometimes travelled home together."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "剧院按宣传价卖出了所有座位，但银行入账小于售票总额。经理追查订票与收到款项之间的差额。订票代理转款之前先扣除服务费，最直接解释这个差额。",
+      "structure": "The theatre + sold + every seat。deposits + were smaller than + the value of tickets sold是金额比较。正确后段中The booking agency + deducted + service fees；before forwarding说明扣款发生在剧院收到钱之前。",
+      "other": "deposit 入账款；advertised price 宣传价格；deduct 扣除；forward money 转款。",
+      "meaning": "没有One reason或Equally等显眼连接词，也能由段尾的收款差额锁定后段的扣费机制。这是问题→原因，不是看见theatre或audience就接同主题段。证据来自金额和交易阶段，不是一个单词。",
+      "rest": "Audience surveys解释演出偏好，未说明钱款差额；same stage介绍场地历史，未接收款链；rehearsals和共同回家是演出活动信息，不解释代理转款前少了什么。"
+    }
+  },
+  {
+    "id": "title-coverage-kitchen-evolution",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-05",
+    "budget": 55,
+    "target": "标题 / 全文发展主线",
+    "skill": "主旨标题覆盖范围",
+    "q": "短文追踪社区公共厨房如何从临时救灾供餐点转为日常共享备餐场所；中段介绍管理规则的变化，末段采访新加入的常住居民。哪个标题覆盖全文主线？",
+    "o": [
+      "Who Uses Community Kitchens Today",
+      "From Emergency Meals to Shared Cooking",
+      "Rules for Running a Disaster Kitchen",
+      "Why Shared Kitchens Need New Buildings"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "全文追踪公共厨房从灾时供餐到日常共享备餐的转变。From Emergency Meals to Shared Cooking意为“从应急供餐到共享烹饪”；其他标题分别聚焦当下使用者、灾时管理、未提到的新建筑需求。",
+      "structure": "叙述按功能转变组织；规则变化和居民采访都是这一演变的证据。标题中的from...to...覆盖起点、终点及中间变化，而不仅是末段人物。",
+      "other": "emergency meal 应急供餐；shared cooking 共享烹饪；resident 常住居民；disaster 灾害。",
+      "meaning": "全文覆盖可以体现时间或功能发展的主线，不必总列出多个并行服务。结尾采访显眼，但不应代替文章的发展轴。",
+      "rest": "Who Uses...只覆盖末段使用者；Rules for Running...只覆盖原有救灾角色的管理部分，漏掉转变；New Buildings引入未论述的建设需求。"
+    }
+  },
+  {
+    "id": "title-coverage-local-energy-choices",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-05",
+    "budget": 55,
+    "target": "标题 / 比较框架与局部例证",
+    "skill": "主旨标题覆盖范围",
+    "q": "短文比较潮汐发电、屋顶太阳能、废热回收在沿海城市中的成本、时间限制与扩展条件。末段详细讨论废热管网维护，作为能源方案受当地条件影响的例子。哪个标题最好？",
+    "o": [
+      "Maintaining Urban Heating Pipes",
+      "The Limits of Tidal Generation",
+      "Replacing Solar Panels with Recovered Heat",
+      "Energy Choices Shaped by Local Conditions"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "文章比较三类能源方案的成本、可用时段与扩展条件，并用废热管网维护作例证。Energy Choices Shaped by Local Conditions是“由当地条件塑造的能源选择”。",
+      "structure": "全文是多方案比较框架；末段维护细节从属于共同约束。标题中shaped by local conditions是修饰Energy Choices的过去分词短语，突出共同决定因素。",
+      "other": "tidal generation 潮汐发电；solar panel 太阳能板；recovered heat 回收热量；local condition 当地条件。",
+      "meaning": "标题要覆盖比较对象及比较所得的共同轴线。篇幅较长的末段案例不等于全文唯一对象。",
+      "rest": "Maintaining...缩成末段管网维护；Limits of Tidal...只剩一种发电方式；Replacing Solar...虚构“以废热替代太阳能”的取舍结论，原文只说比较与条件约束。"
+    }
+  },
+  {
+    "id": "title-specificity-bus-lane-tradeoff",
+    "family": "title-specificity",
+    "introduced": "2026-09-30",
+    "published_on": "2026-10-05",
+    "budget": 55,
+    "target": "标题具体性 / 核心取舍",
+    "skill": "主旨标题",
+    "q": "短文讨论两条普通车道改成公交专用道后的试验：公交通行更快，附近商铺的货车却因绕行而送货更慢。文章比较这两类影响。哪个标题最贴切？",
+    "o": [
+      "Funding the City’s New Bus Fleet",
+      "How Smaller Buses Save Road Space",
+      "Faster Bus Trips, Harder Local Deliveries",
+      "More Frequent Services for Busy Routes"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "把两条普通车道改成公交专用道后，公交更快，附近商铺送货更慢。Faster Bus Trips, Harder Local Deliveries是“公交更快，附近送货更难”，概括本文的具体取舍。",
+      "structure": "文章用试验结果对照受益者与受影响者。标题两部分平行呈现同一措施的两种影响，不能把新规则误写成采购车辆或增加班次。",
+      "other": "bus fleet 公交车队；road space 道路空间；delivery 送货；frequent service 密集班次。",
+      "meaning": "具体性来自措施和后果的关系，不只是找Before或排除Only。四个标题都像交通文章标题，需核对究竟是哪一种改变。",
+      "rest": "Funding...转成车队资金问题；Smaller Buses换成车辆大小这一原因；More Frequent Services改成增加班次。三者都是可能的交通议题，但不是给定试验的机制。"
+    }
+  },
+  {
+    "id": "title-specificity-bookshop-workload",
+    "family": "title-specificity",
+    "introduced": "2026-09-30",
+    "published_on": "2026-10-05",
+    "budget": 55,
+    "target": "标题具体性 / 反常现象的解释",
+    "skill": "主旨标题",
+    "q": "文章解释两家书店线上订单增长后为何反而缩短店面营业：员工花更多时间拣书、包装和处理退件，留给接待店内顾客的时间减少。哪个标题最贴切？",
+    "o": [
+      "Customer Ratings and Their Disputed Value",
+      "The Hidden Work Behind Shorter Opening Hours",
+      "The Search for Cheaper Storage Space",
+      "How Longer Hours Raised Book Sales"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "线上订单增长带来拣书、包装和退件处理，占用店内服务时间，书店因此缩短营业。The Hidden Work Behind Shorter Opening Hours是“营业时间缩短背后不显眼的工作”。",
+      "structure": "全文先给看似反常的现象，再解释员工时间如何转移。标题中的behind表示隐藏的原因；shorter opening hours保留要解释的现象。",
+      "other": "opening hours 营业时间；storage space 仓储空间；rating 评分；pick and pack 拣货和包装。",
+      "meaning": "标题应抓解释关系，而非选与行业同主题的名词，也不凭“线上需求增长”推成营业一定延长。",
+      "rest": "Customer Ratings换成评分价值争论；Cheaper Storage把工作量转移变成仓储成本；Longer Hours反转实际营业变化，又把销量增长归因于延长营业，文中没有这种关系。"
+    }
+  },
+  {
+    "id": "author-stance-volunteer-coordination",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "引述立场 / 作者限定评价",
+    "skill": "事实描述 ≠ 作者价值判断",
+    "q": "An association calls volunteers “unreliable.” The author notes that missed visits often follow last-minute roster changes. “Better coordination,” she writes, “would be more useful than another lecture about commitment.” Which view belongs to the author?",
+    "o": [
+      "She accepts the association’s description as an explanation for the missed visits.",
+      "She regards missed visits as evidence that volunteers want to leave.",
+      "She favours improving coordination over simply blaming commitment.",
+      "She considers punctuality irrelevant to the association’s work."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "某协会把志愿者称为“不可靠”。作者指出，缺席往往发生在排班临时变动之后。她写道：“更好的协调，比再说教一遍奉献精神更有用。”作者倾向改善协调，而不是简单归咎于态度。",
+      "structure": "An association + calls + volunteers + unreliable属于引述他人评价。The author + notes + that从句另给解释线索；would be more useful than是作者自己的比较判断，she writes确定说话者。",
+      "other": "association 协会；roster 排班表；last-minute 临时的；commitment 投入、责任心。",
+      "meaning": "先分清谁在评价，再追踪作者自己的证据和限定比较。这里没有deserve或all，也不能把文章引用的标签直接记到作者名下。",
+      "rest": "accepts the description把协会标签当作者解释，忽略作者提供的排班因素；want to leave补出离开的动机；punctuality irrelevant把“协调更有用”扩大成准时无关，比较优先级不等于否认准时的重要性。"
+    }
+  }
+]

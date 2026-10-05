@@ -288,8 +288,9 @@ class PartBIntegrationTests(unittest.TestCase):
             entry = issue(report(q, list(reversed(q["expectedOrder"]))))
             original = copy.deepcopy(entry)
             old_qs = review.load(root / "data/daily.json")["questions"]
+            locked_day = date.fromisoformat(review.load(root / "data/daily.json")["date"])
             with mock.patch.object(review, "get_issues", return_value=[entry, entry]):
-                run(root, date(2026, 10, 4), True, "pkppkqbobs/kaoyan-english-trainer")
+                run(root, locked_day, True, "pkppkqbobs/kaoyan-english-trainer")
             self.assertEqual(entry, original)
             self.assertEqual(review.load(root / "data/daily.json")["questions"], old_qs)
             payload = partb.build(root)

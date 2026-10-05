@@ -60,25 +60,15 @@ def storage_id(session):
 
 
 def choose_variant(groups, family, rng, avoid_ids, prefer_date=None, history=None):
-    variants = copy.deepcopy(groups[family])
-    rng.shuffle(variants)
-    unseen = [q for q in variants if q["id"] not in avoid_ids]
-    variants = unseen or variants
-    if prefer_date:
-        dated = [q for q in variants if q.get("introduced") == prefer_date]
-        variants = dated or variants
-    last_shown = {}
-    for stamp, ids in (history or {}).items():
-        for qid in ids:
-            last_shown[qid] = max(stamp, last_shown.get(qid, ""))
-    return min(variants, key=lambda q: last_shown.get(q["id"], ""))
+    return review.choose_variant(groups[family], history or {}, rng,
+                                 avoid_ids=avoid_ids, prefer_date=prefer_date)
 
 
 def make_payload(root, session, items, archives, repo):
     day = date.fromisoformat(session["date"])
     groups = {}
     for q in items:
-        if not q.get("introduced") or q["introduced"] <= session["date"]:
+        if review.available(q, day):
             groups.setdefault(q["family"], []).append(q)
     evidence = review.load(root / "data/result-evidence.json", {"rows": [], "issues": []})
     notes = review.load(root / "data/learning-notes.json", [])
@@ -95,6 +85,9 @@ def make_payload(root, session, items, archives, repo):
     today = review.load(root / "data/daily.json", {})
     today_ids = {q["id"] for q in today.get("questions", [])} if today.get("date") == session["date"] else set()
     history.setdefault(session["date"], []).extend(sorted(today_ids))
+    # Keep family ranking on its existing history; use all published modules
+    # only when deciding which context/qid to show for that family.
+    variant_shown = review.variant_history(root, day, history)
 
     focus = sorted(set(session["focus_families"]) & groups.keys())
     if not focus:
@@ -112,9 +105,10 @@ def make_payload(root, session, items, archives, repo):
     current_families = focus[:max_current]
     historical_items = [q for q in items if q["family"] in groups and q["family"] not in focus]
     historical = review.choose(historical_items, stats, history, day, count=8-max_current,
-                               seed="article-history:" + storage_id(session), include_today=True)
+                               seed="article-history:" + storage_id(session), include_today=True,
+                               variant_shown=variant_shown)
     historical_families = [q["family"] for q in historical]
-    selected = [choose_variant(groups, family, rng, today_ids, session["date"], history)
+    selected = [choose_variant(groups, family, rng, today_ids, session["date"], variant_shown)
                 for family in current_families]
     selected.extend(historical)
     rng.shuffle(selected)
@@ -126,7 +120,7 @@ def make_payload(root, session, items, archives, repo):
         "reportLabel": "考研英语文章复盘", "reportTitle": "文章复盘", "exportStem": "article-review",
         "footer": "本篇复盘结果只有在你点击“提交结果到 GitHub”并在 GitHub 再点 Submit new issue 后，才会进入后续间隔复习。",
         "questions": selected,
-        "retry": {q["family"]: [copy.deepcopy(v) for v in groups[q["family"]] if v["id"] != q["id"]] for q in selected},
+        "retry": {q["family"]: review.retry_variants(items, q, day) for q in selected},
         "article_session": {"id": session["id"], "source": session["source"],
                             "created_at": session["_created_at"].isoformat(), "revision": session.get("revision", 1),
                             "session_file": session["_path"], "current_families": current_families,

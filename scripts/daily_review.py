@@ -68,6 +68,8 @@ def validate(q):
     assert all(isinstance(q["exp"].get(k), str) and q["exp"][k].strip() for k in EXP_KEYS), q["id"]
     if q.get("introduced"):
         date.fromisoformat(q["introduced"])
+    if q.get("published_on"):
+        date.fromisoformat(q["published_on"])
     return q
 
 
@@ -116,7 +118,63 @@ def bank(root):
         stems.add(q["q"])
     if len({q["family"] for q in items}) < 8:
         raise ValueError("At least eight target families are required")
+    # Maintenance metadata affects variant spacing only, never scoring or learning dates.
+    contexts = load(root / "data/question-contexts.json", {}).get("contexts", {})
+    for q in items:
+        if q["id"] in contexts:
+            q["context_id"] = contexts[q["id"]]
     return items
+
+
+def available(q, day):
+    stamp = day.isoformat() if isinstance(day, date) else day
+    return all(not q.get(field) or q[field] <= stamp for field in ("introduced", "published_on"))
+
+
+def variant_history(root, day, daily=None):
+    """Published article/passage rounds inform qid spacing, not family priority."""
+    history = {stamp: list(ids) for stamp, ids in (daily or {}).items() if stamp <= day.isoformat()}
+    for path in sorted((root / "data/article-reviews").glob("*.json")):
+        payload = load(path)
+        if payload["date"] <= day.isoformat():
+            history.setdefault(payload["date"], []).extend(q["id"] for q in payload["questions"])
+    for path in sorted(root.glob("passage-drill-*.html")):
+        text = path.read_text(encoding="utf-8")
+        if "window.REVIEW_DATA=" in text:
+            payload, _ = json.JSONDecoder().raw_decode(text.split("window.REVIEW_DATA=", 1)[1].lstrip())
+            if payload["date"] <= day.isoformat():
+                history.setdefault(payload["date"], []).extend(q["id"] for q in payload["questions"])
+    return {stamp: sorted(set(ids)) for stamp, ids in history.items()}
+
+
+def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None):
+    variants = list(variants)
+    all_contexts = {q["id"]: q.get("context_id", q["id"]) for q in variants}
+    rng.shuffle(variants)
+    unseen = [q for q in variants if q["id"] not in avoid_ids]
+    variants = unseen or variants
+    if prefer_date:
+        dated = [q for q in variants if q.get("introduced") == prefer_date]
+        variants = dated or variants
+    last_shown, context_last = {}, {}
+    # Include avoided variants when measuring context exposure; a new qid with the
+    # same evidence path must not appear unseen simply because its sibling was used.
+    for stamp, ids in history.items():
+        for qid in ids:
+            last_shown[qid] = max(stamp, last_shown.get(qid, ""))
+            if qid in all_contexts:
+                ctx = all_contexts[qid]
+                context_last[ctx] = max(stamp, context_last.get(ctx, ""))
+    return copy.deepcopy(min(variants, key=lambda q: (context_last.get(q.get("context_id", q["id"]), ""),
+                                                       last_shown.get(q["id"], ""))))
+
+
+def retry_variants(items, question, day):
+    """Different qids are not automatically a fresh migration context."""
+    context = question.get("context_id", question["id"])
+    return [copy.deepcopy(q) for q in items if q["family"] == question["family"]
+            and q["id"] != question["id"] and available(q, day)
+            and q.get("context_id", q["id"]) != context]
 
 
 def get_issues(repo):
@@ -286,14 +344,14 @@ def make_stats(items, rows, notes, day):
     return result
 
 
-def choose(items, stats, history, day, *, count=8, seed=None, include_today=False):
+def choose(items, stats, history, day, *, count=8, seed=None, include_today=False, variant_shown=None):
     """Select directly from the candidate pool; article reviews request 4--6 slots."""
     if not 1 <= count <= 8:
         raise ValueError("Review count must be between one and eight")
     rng = random.Random(seed or "kaoyan-review:" + day.isoformat())
     groups = {}
     for q in items:
-        if not q.get("introduced") or q["introduced"] <= day.isoformat():
+        if available(q, day):
             groups.setdefault(q["family"], []).append(q)
     def age(f):
         dates = [q.get("introduced") for q in groups[f]]
@@ -364,10 +422,9 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
             break
     selected = []
     for f in chosen:
-        variants = groups[f][:]
-        rng.shuffle(variants)
-        variants.sort(key=lambda q: last_shown.get(q["id"], ""))
-        selected.append(copy.deepcopy(variants[0]))
+        shown = {stamp: ids for stamp, ids in (variant_shown if variant_shown is not None else history).items()
+                 if stamp < day.isoformat() or (stamp == day.isoformat() and include_today)}
+        selected.append(choose_variant(groups[f], shown, rng))
     return selected
 
 
@@ -387,9 +444,9 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     if existing.get("date") == day.isoformat():
         payload = existing
     else:
-        selected = choose(items, stats, history, day)
+        selected = choose(items, stats, history, day, variant_shown=variant_history(root, day, history))
         payload = {"date": day.isoformat(), "repo": repo, "questions": selected,
-                   "retry": {q["family"]: [v for v in items if v["family"] == q["family"] and v["id"] != q["id"]] for q in selected},
+                   "retry": {q["family"]: retry_variants(items, q, day) for q in selected},
                    "issues_used": evidence_data["issues"], "engine": 3}
         history[day.isoformat()] = [q["id"] for q in selected]
         save(root / "data/daily-history.json", history)

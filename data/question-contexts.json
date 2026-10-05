@@ -1,0 +1,773 @@
+{
+  "reviewed_on": "2026-10-05",
+  "source_commit": "5a1751e70d704a71b114a564b43ab3282e29abd7",
+  "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
+  "contexts": {
+    "legacy-unpretentious": "plain-room-unpretentious",
+    "legacy-faint-praise": "at-least-faint-praise",
+    "legacy-miss-point": "surface-detail-miss-point",
+    "legacy-who-that-main": "nested-who-that-predicate",
+    "legacy-even": "over-ever-even-position",
+    "legacy-which": "on-which-argument",
+    "legacy-such": "such-two-improvements",
+    "unpretentious-volunteer": "context:unpretentious-volunteer",
+    "unpredictable-response-time": "context:unpredictable-response-time",
+    "faint-map-line": "context:faint-map-line",
+    "faint-praise-restoration": "context:faint-praise-restoration",
+    "point-joke": "context:point-joke",
+    "point-waiting": "context:point-waiting",
+    "nested-shared-gate": "nested-who-that-predicate",
+    "relative-borrowed-ladder": "context:relative-borrowed-ladder",
+    "reference-radio-failures": "context:reference-radio-failures",
+    "reference-return-rules": "context:reference-return-rules",
+    "subject-rule-departure": "context:subject-rule-departure",
+    "subject-curtains-steam": "context:subject-curtains-steam",
+    "ever-tent-question": "context:ever-tent-question",
+    "account-night-train": "account-of-narrative-definition",
+    "with-bread-cooling": "with-simultaneous-ing",
+    "remote-lottery-chance": "context:remote-lottery-chance",
+    "compromise-coffee": "context:compromise-coffee",
+    "standard-repair-tickets": "standard-practice-definition",
+    "end-up-lamps": "context:end-up-lamps",
+    "conditions-telescope": "permission-so-long-as",
+    "logic-unless-freezer": "context:logic-unless-freezer",
+    "transition-river-levels": "context:transition-river-levels",
+    "parallel-governance-repair": "context:parallel-governance-repair",
+    "summary-overall-midsection": "context:summary-overall-midsection",
+    "tone-recovery-physio": "context:tone-recovery-physio",
+    "conceivably-ferry": "context:conceivably-ferry",
+    "compromise-seal-sterility": "context:compromise-seal-sterility",
+    "with-lights-dimming": "with-simultaneous-ing",
+    "result-direction-condensation": "context:result-direction-condensation",
+    "little-use-for-titles": "context:little-use-for-titles",
+    "directness-engineer-a": "directness-bad-news",
+    "directness-curator-b": "directness-bad-news",
+    "career-chef-a": "career-seeking-responsibility",
+    "career-editor-b": "career-seeking-responsibility",
+    "recruitment-poach-a": "context:recruitment-poach-a",
+    "recruitment-hunt-b": "context:recruitment-hunt-b",
+    "cling-policy-a": "context:cling-policy-a",
+    "cling-rail-b": "context:cling-rail-b",
+    "viewpoint-renting-a": "context:viewpoint-renting-a",
+    "viewpoint-diet-b": "context:viewpoint-diet-b",
+    "title-preprint-a": "before-approval-title",
+    "title-booking-b": "before-approval-title",
+    "lined-up-flat-a": "context:lined-up-flat-a",
+    "lined-up-internship-b": "context:lined-up-internship-b",
+    "absolute-cafes-a": "context:absolute-cafes-a",
+    "absolute-app-b": "context:absolute-app-b",
+    "author-stance-recall-a": "context:author-stance-recall-a",
+    "title-coverage-library-a": "context:title-coverage-library-a",
+    "infancy-payment-a": "context:infancy-payment-a",
+    "hostage-hijack-hashtag-a": "context:hostage-hijack-hashtag-a",
+    "alerts-dashboard-a": "context:alerts-dashboard-a",
+    "travel-provider-booking-a": "context:travel-provider-booking-a",
+    "complementary-printer-a": "context:complementary-printer-a",
+    "provoke-family-debate-a": "context:provoke-family-debate-a",
+    "past-tense-happiness-trip-a": "context:past-tense-happiness-trip-a",
+    "feature-verb-magazine-a": "context:feature-verb-magazine-a",
+    "subconscious-way-advertising-a": "context:subconscious-way-advertising-a",
+    "social-message-inference-career-a": "social-norm-self-doubt",
+    "social-message-inference-parenting-b": "social-norm-self-doubt",
+    "causal-role-direction-fitness-a": "context:causal-role-direction-fitness-a",
+    "causal-role-direction-travel-b": "context:causal-role-direction-travel-b",
+    "social-message-criticism-membership-c": "context:social-message-criticism-membership-c",
+    "paragraph-order-anaphora-course-a": "context:paragraph-order-anaphora-course-a",
+    "paragraph-order-anaphora-separation-b": "context:paragraph-order-anaphora-separation-b",
+    "paragraph-order-discourse-parallel-a": "context:paragraph-order-discourse-parallel-a",
+    "paragraph-order-discourse-conclusion-b": "context:paragraph-order-discourse-conclusion-b",
+    "ref1": "context:ref1",
+    "ref2": "context:ref2",
+    "num1": "numeric-set-member",
+    "num2": "numeric-set-member",
+    "summary1": "context:summary1",
+    "summary2": "context:summary2",
+    "lex1": "context:lex1",
+    "lex2": "context:lex2",
+    "chain1": "context:chain1",
+    "chain2": "context:chain2",
+    "vocab1": "context:vocab1",
+    "vocab2": "context:vocab2",
+    "old_subject1": "subject-rule-process-double",
+    "old_even1": "over-ever-even-position",
+    "old_solong1": "permission-so-long-as",
+    "old_account1": "account-of-narrative-definition",
+    "old_constraint1": "constraint-constrain-parts",
+    "old_remote1": "remote-far-removed-double",
+    "old_standard1": "standard-practice-definition",
+    "old_compromise1": "context:old_compromise1",
+    "old_oversight1": "context:old_oversight1",
+    "old_accommodation1": "context:old_accommodation1",
+    "old_blurred1": "context:old_blurred1",
+    "old_cannothelp1": "context:old_cannothelp1",
+    "old_prepwhich1": "system-under-which-merge",
+    "old_overestimate1": "context:old_overestimate1",
+    "old_counterpart1": "context:old_counterpart1",
+    "old_inturn1": "context:old_inturn1",
+    "old_institution1": "context:old_institution1",
+    "old_measure1": "context:old_measure1",
+    "old_minister1": "context:old_minister1",
+    "old_track1": "context:old_track1",
+    "old_adoption1": "context:old_adoption1",
+    "old_lineage1": "context:old_lineage1",
+    "old_lump1": "context:old_lump1",
+    "old_rely1": "context:old_rely1",
+    "old_specialize1": "context:old_specialize1",
+    "old_keepend1": "keep-end-up-competition",
+    "old_turncentury1": "context:old_turncentury1",
+    "old_fallvictim1": "exact-2009-wording",
+    "old_endup1": "context:old_endup1",
+    "old_perplexing1": "context:old_perplexing1",
+    "old_sufficient1": "context:old_sufficient1",
+    "old_keeping1": "context:old_keeping1",
+    "old_mock1": "context:old_mock1",
+    "old_earnest1": "context:old_earnest1",
+    "old_tuition1": "context:old_tuition1",
+    "old_disposition1": "context:old_disposition1",
+    "old_overtime1": "context:old_overtime1",
+    "old_littleuse1": "context:old_littleuse1",
+    "old_elaborate1": "context:old_elaborate1",
+    "old_prepwhom1": "context:old_prepwhom1",
+    "old_subjectactive1": "context:old_subjectactive1",
+    "vocab-2026-09-27#01": "subject-rule-process-double",
+    "vocab-2026-09-27#02": "over-ever-even-position",
+    "vocab-2026-09-27#03": "context:vocab-2026-09-27#03",
+    "vocab-2026-09-27#04": "account-of-narrative-definition",
+    "vocab-2026-09-27#05": "constraint-constrain-parts",
+    "vocab-2026-09-27#06": "exact-2009-wording",
+    "vocab-2026-09-27#07": "remote-far-removed-double",
+    "vocab-2026-09-27#08": "keep-end-up-competition",
+    "vocab-2026-09-27#09": "standard-practice-definition",
+    "vocab-2026-09-27#10": "system-under-which-merge",
+    "vocab-2026-09-27#11": "permission-so-long-as",
+    "pb-river-sensors-v1": "context:pb-river-sensors-v1",
+    "pb-support-dashboard-v1": "context:pb-support-dashboard-v1",
+    "pb-transfer-buses-v1": "context:pb-transfer-buses-v1",
+    "pb-library-writing-v1": "context:pb-library-writing-v1",
+    "pb-prescription-handover-v1": "context:pb-prescription-handover-v1",
+    "pb-market-compost-v1": "context:pb-market-compost-v1",
+    "archive:unpretentious": "plain-room-unpretentious",
+    "archive:faint-praise": "at-least-faint-praise",
+    "archive:miss-point": "surface-detail-miss-point",
+    "archive:who-that-main": "nested-who-that-predicate",
+    "archive:subject": "subject-rule-process-double",
+    "archive:even": "over-ever-even-position",
+    "archive:which": "on-which-argument",
+    "archive:such": "such-two-improvements",
+    "archive:retry-unpretentious": "plain-room-unpretentious",
+    "archive:retry-faint-praise": "at-least-faint-praise",
+    "archive:retry-miss-point": "surface-detail-miss-point",
+    "archive:retry-who-that-main": "nested-who-that-predicate",
+    "archive:retry-subject": "subject-rule-process-double",
+    "archive:retry-even": "over-ever-even-position",
+    "archive:retry-which": "on-which-argument",
+    "archive:retry-such": "such-two-improvements",
+    "point-timetable-argument": "context:point-timetable-argument",
+    "social-message-repair-framing": "context:social-message-repair-framing",
+    "causal-role-trust-delays": "context:causal-role-trust-delays",
+    "causal-role-deadline-response": "context:causal-role-deadline-response",
+    "subject-road-closure-risk": "context:subject-road-closure-risk",
+    "conceivably-damaged-page": "context:conceivably-damaged-page",
+    "conceivably-competing-explanations": "context:conceivably-competing-explanations",
+    "parallel-governance-control-panel": "context:parallel-governance-control-panel",
+    "parallel-governance-inspection-tasks": "context:parallel-governance-inspection-tasks",
+    "summary-trials-next-question": "context:summary-trials-next-question",
+    "summary-current-and-follow-up": "context:summary-current-and-follow-up",
+    "reference-panels-request-switch": "context:reference-panels-request-switch",
+    "paragraph-anaphora-map-representatives": "context:paragraph-anaphora-map-representatives",
+    "paragraph-discourse-ticket-deposits": "context:paragraph-discourse-ticket-deposits",
+    "title-coverage-kitchen-evolution": "context:title-coverage-kitchen-evolution",
+    "title-coverage-local-energy-choices": "context:title-coverage-local-energy-choices",
+    "title-specificity-bus-lane-tradeoff": "context:title-specificity-bus-lane-tradeoff",
+    "title-specificity-bookshop-workload": "context:title-specificity-bookshop-workload",
+    "author-stance-volunteer-coordination": "context:author-stance-volunteer-coordination"
+  },
+  "cluster_rationales": {
+    "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
+    "career-seeking-responsibility": "申请更高岗位+想获得最终控制/责任；厨师→编辑仍沿职业志向而非薪酬的同一路径。已有3个跨日清晰正确，暂缓扩充。",
+    "social-norm-self-doubt": "职场牺牲和学校满分都用唯一理想规范→自我价值怀疑；题型和正确推论近似，保守合并。明确负面评价membership另计。",
+    "with-simultaneous-ing": "均为主句+with名词现在分词，问伴随背景；只换bread/lights不覆盖with被动、形容词或依附范围。",
+    "nested-who-that-predicate": "who+认知动词+that内层主谓+外层主句，三个谓语定位题；领域变化没有改变识别步骤。",
+    "before-approval-title": "均为先做行动后获批准，选Before标题，对比宽泛标题、Only和无关主张。缺少其他全文约束。",
+    "permission-so-long-as": "许可借用/使用+归还/关门必要条件，同一空和同一组连接词。",
+    "numeric-set-member": "two/several causes→the first/one of these，同一种集合成员接缝，未自动升成不同机制。",
+    "over-ever-even-position": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "standard-practice-definition": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "account-of-narrative-definition": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "constraint-constrain-parts": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "remote-far-removed-double": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "keep-end-up-competition": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "exact-2009-wording": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "system-under-which-merge": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "plain-room-unpretentious": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "at-least-faint-praise": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "surface-detail-miss-point": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "on-which-argument": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "such-two-improvements": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "subject-rule-process-double": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。"
+  },
+  "family_assessments": {
+    "reference": {
+      "coverage_gap": false,
+      "previous_gap": "当前spaced题都依赖显式such/these+名词，缺少代词先行项竞争与referent switch。",
+      "reason": "新增it对象跟踪与对比小组的request切换，补代词和动作所形成的先行项。"
+    },
+    "with": {
+      "coverage_gap": true,
+      "reason": "spaced池只测with+名词+现在分词，尚未覆盖被动或其他补足语；近期连续清晰正确2天，暂缓。"
+    },
+    "nested": {
+      "coverage_gap": true,
+      "reason": "两题几乎是同一who+that嵌套框架与谓语定位；已有3个跨日正确，先观察新篇中的困难。"
+    },
+    "paragraph-order-anaphora": {
+      "coverage_gap": false,
+      "previous_gap": "两个mini均显式名词回指，错项多无关；完整六套另计，mini缺少竞争先行项。",
+      "reason": "mini新增多个群体竞争They先行项，地图接收与协调员缺席共同决定。"
+    },
+    "paragraph-order-discourse": {
+      "coverage_gap": false,
+      "previous_gap": "两个mini分别依赖显式平行词和sums up，mini缺少没有显眼连接词的局部问题→原因。",
+      "reason": "mini新增无显式原因连接词的售票收入差额→扣费机制，不能只认标记。"
+    },
+    "author-stance": {
+      "coverage_gap": false,
+      "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
+      "reason": "新增协会引述评价与作者自己的限定比较；两语境，仍偏少，先等真实作答。"
+    },
+    "causal-role-direction": {
+      "coverage_gap": false,
+      "previous_gap": "已有归因与As a result两种上下文，但没有介入措施与待解决问题的因果时序边界。",
+      "reason": "新增被动影响链与问题→应对措施→尚未知结果，补因果时序边界。"
+    },
+    "social-message-inference": {
+      "coverage_gap": false,
+      "previous_gap": "两道压力→怀疑题与一题直接负面评价；缺少不用自我怀疑措辞的间接规范/对象边界。",
+      "reason": "新增商业指南的负面价值框架与使用需要证据的区分，不沿自我怀疑台词。"
+    },
+    "parallel-governance": {
+      "coverage_gap": false,
+      "previous_gap": "单题只靠情态动词后动词形式排除；缺少共同实义动词支配和并列层级范围。",
+      "reason": "新增实义动词owe支配归因与recommend支配并列任务，不靠语法形式秒排。"
+    },
+    "summary-location": {
+      "coverage_gap": false,
+      "previous_gap": "只有Overall中段总结，直接告诉后面有两段；缺少新的段尾钩子及开放式收束对照。",
+      "reason": "新增局部试验总结后的续航钩子，以及当前总结与未来复核的边界。"
+    },
+    "point": {
+      "coverage_gap": false,
+      "previous_gap": null,
+      "reason": "新增have a point的肯定论证，不再只由miss识别答案。"
+    },
+    "subject": {
+      "coverage_gap": false,
+      "previous_gap": null,
+      "reason": "新增自然条件下的封闭风险与今日尚无事件报告，规则/过程之外补可能状态。"
+    },
+    "conceivably": {
+      "coverage_gap": false,
+      "previous_gap": null,
+      "reason": "新增不可辨读旧证据及多种竞争解释，两种不同的不确定性来源。"
+    },
+    "title-specificity": {
+      "coverage_gap": false,
+      "previous_gap": null,
+      "reason": "新增车道改造的具体取舍与订单增加却缩短营业的解释，摆脱Before/Only模板。"
+    },
+    "title-coverage": {
+      "coverage_gap": false,
+      "previous_gap": null,
+      "reason": "新增时间发展主线与多能源比较框架，不能只选末段显眼案例。"
+    }
+  },
+  "historical_content_findings": [
+    {
+      "pool": "archive_retry_only",
+      "finding": "自动化之前8个RETRY沿用主测exp，部分解析不对应新题；它们未导入当前spaced BANK。保留历史，不将这些版本计为合格retry。"
+    },
+    {
+      "pool": "legacy_fixed",
+      "key": "vocab-2026-09-27#10",
+      "finding": "旧独立词汇页介词which题的介词滞后选项也可成立；不能作为唯一语法答案的强掌握证据。未进入当前BANK，未知作答保持未知。"
+    },
+    {
+      "pool": "home_legacy",
+      "finding": "53题为旧compact schema；大量单义词义识记题，缺少五段exp，部分目标标题直接显示词义。保留入口和本地记录，不把题目可见或读过讲解算掌握。"
+    },
+    {
+      "pool": "partb_full",
+      "finding": "六套主题确实不同，但都采用引入现象→调查/原因→措施/第二路径→限定收束的近似骨架；有中/辅助接缝和全局约束，并非单纯名词替换。暂不增加完整套数，等真实排序结果后再测不同篇章骨架。"
+    }
+  ],
+  "before_additions": {
+    "absolute-language": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 1
+    },
+    "accommodation 熟词生义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "account": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "alerts": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "author-stance": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "structural_gap",
+      "recent_exposure_7d": 2
+    },
+    "blurred 熟词生义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "cannot help doing": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "career-evidence": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 3
+    },
+    "causal-role-direction": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "structural_gap",
+      "recent_exposure_7d": 7
+    },
+    "cling-climb": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 5
+    },
+    "complementary": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "compromise": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 1
+    },
+    "conceivably": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 3
+    },
+    "conditions": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "constraint / constrain": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "counterpart": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "directness-modifier": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 6
+    },
+    "disposition": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "earnestness": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "elaborate layout": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "end-up": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "even": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 0
+    },
+    "faint": {
+      "spaced_question_count": 3,
+      "spaced_effective_context_count": 3,
+      "status": "sufficient",
+      "recent_exposure_7d": 8
+    },
+    "fall victim of bias（真题原文措辞）": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "feature-verb": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 2
+    },
+    "have-little-use-for": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "hostage-hijack": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "in keeping with": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "in turn": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "infancy": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "institution 熟词生义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "lineage": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "lined-up": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 1
+    },
+    "logic": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "lump together": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "measure 熟词生义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "minister / sermon": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "mock": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "nested": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 1,
+      "status": "structural_gap",
+      "recent_exposure_7d": 6
+    },
+    "over time": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "overestimate": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "oversight 熟词生义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "paragraph-order-anaphora": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "structural_gap",
+      "recent_exposure_7d": 2
+    },
+    "paragraph-order-discourse": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "structural_gap",
+      "recent_exposure_7d": 3
+    },
+    "parallel-governance": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "structural_gap",
+      "recent_exposure_7d": 2
+    },
+    "past-tense-happiness": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "perplexing": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "point": {
+      "spaced_question_count": 3,
+      "spaced_effective_context_count": 3,
+      "status": "sufficient",
+      "recent_exposure_7d": 9
+    },
+    "provoke-family": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 2
+    },
+    "put up for adoption": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "recruitment-vocab": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 3
+    },
+    "reference": {
+      "spaced_question_count": 3,
+      "spaced_effective_context_count": 3,
+      "status": "structural_gap",
+      "recent_exposure_7d": 3
+    },
+    "relative": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 3
+    },
+    "rely on": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "remote": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 2
+    },
+    "result-direction": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "social-message-inference": {
+      "spaced_question_count": 3,
+      "spaced_effective_context_count": 2,
+      "status": "structural_gap",
+      "recent_exposure_7d": 7
+    },
+    "specialize in": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "standard": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "subconscious-way": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "subject": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 3
+    },
+    "sufficient": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "summary-location": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "structural_gap",
+      "recent_exposure_7d": 2
+    },
+    "title-coverage": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 2
+    },
+    "title-specificity": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 3
+    },
+    "tone": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 1
+    },
+    "track down": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "transition": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "travel-provider": {
+      "spaced_question_count": 1,
+      "spaced_effective_context_count": 1,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "tuition 熟词生义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "unpretentious": {
+      "spaced_question_count": 3,
+      "spaced_effective_context_count": 3,
+      "status": "sufficient",
+      "recent_exposure_7d": 3
+    },
+    "viewpoint-fact": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 2,
+      "status": "limited",
+      "recent_exposure_7d": 4
+    },
+    "with": {
+      "spaced_question_count": 2,
+      "spaced_effective_context_count": 1,
+      "status": "structural_gap",
+      "recent_exposure_7d": 3
+    },
+    "关键词词义": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "limited",
+      "recent_exposure_7d": 0
+    },
+    "数量对应": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "时间表达": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    },
+    "段首段尾关系": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "limited",
+      "recent_exposure_7d": 0
+    },
+    "真题固定措辞": {
+      "spaced_question_count": 0,
+      "spaced_effective_context_count": 0,
+      "status": "severe",
+      "recent_exposure_7d": 0
+    }
+  }
+}
