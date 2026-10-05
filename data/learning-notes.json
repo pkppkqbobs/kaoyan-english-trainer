@@ -251,5 +251,70 @@
     "session_id": "2026-10-04-2011-partb",
     "source_exam": "2011-english1",
     "source_part": "Part B"
+  },
+  {
+    "family": "politics-policy",
+    "date": "2026-10-05",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一完形：用户把 politician / politics / political 一类整体理解成“政策”，未与 policy / policies 区分，导致全文 law/court 与 politics 的核心对立被读偏。后文连续出现 politics、political support、those in power 等线索时，也没有用全文语义链反向校正前面的异常译法。训练重点是 politician=政客/政治人物，politics=政治，political=政治的，policy=政策，以及用重复语义链检查译意是否自洽。",
+    "session_id": "2026-10-05-2012-cloze",
+    "source_exam": "2012-english1",
+    "source_part": "Section I"
+  },
+  {
+    "family": "expectation-contrast",
+    "date": "2026-10-05",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一完形：用户知道 yet 表转折，但机械理解成“前后必须一正一负”，因此没有抓住“前文说明按理不能这样/应避免这样，yet 后文说明现实偏偏出现了这种行为”的预期—现实违背关系。训练 yet/however/nevertheless 时优先判断命题关系，而不是褒贬极性。",
+    "session_id": "2026-10-05-2012-cloze",
+    "source_exam": "2012-english1",
+    "source_part": "Section I"
+  },
+  {
+    "family": "familiar-word-polysemy",
+    "date": "2026-10-05",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一完形暴露出熟词单义化：用户记得 rest=休息、just=仅仅、dismiss=解雇，却不熟 the rest of=其余、just=公正的、unjust=不公正的、dismiss A as B=把A斥为/视为B；address 作动词“处理/应对”也不稳。重点训练由句法和搭配选择义项，而不是看到熟词就套最常见中文义。",
+    "session_id": "2026-10-05-2012-cloze",
+    "source_exam": "2012-english1",
+    "source_part": "Section I"
+  },
+  {
+    "family": "constraint-language",
+    "date": "2026-10-05",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一完形：用户明确表示 be bound by an ethics code 难以翻译，并对第19题 accountable to 仍无法稳定选择。需把 be bound by=受……约束、be subject to=受……约束/服从、apply to=适用于、be accountable to=对……负责/接受……问责作为同一规则约束语义链训练，注意介词与施受关系。",
+    "session_id": "2026-10-05-2012-cloze",
+    "source_exam": "2012-english1",
+    "source_part": "Section I",
+    "source_questions": [
+      5,
+      6,
+      7,
+      19
+    ]
+  },
+  {
+    "family": "relation-collocation",
+    "date": "2026-10-05",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一完形第14题用户仍无法确定。原文 set law apart from politics precisely because they are so closely tied：set A apart from B=把A与B区分开，be closely tied=联系紧密；逻辑是“正因为现实联系紧密，制度上才刻意区分”。需训练固定搭配与 because 连接的表面反直觉关系。",
+    "session_id": "2026-10-05-2012-cloze",
+    "source_exam": "2012-english1",
+    "source_part": "Section I",
+    "source_question": 14
+  },
+  {
+    "family": "familiar-word-polysemy",
+    "date": "2026-10-05",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一完形第17、18题用户自述仍选不出来/做错：dismissed as unjust 中 dismiss A as B=把A斥为/视为B，unjust=不公正的；address doubts 中 address=处理、应对，不是“地址”。未记录具体错误选项，不补造 pick。",
+    "session_id": "2026-10-05-2012-cloze",
+    "source_exam": "2012-english1",
+    "source_part": "Section I",
+    "source_questions": [
+      17,
+      18
+    ]
   }
 ]
