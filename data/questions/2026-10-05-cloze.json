@@ -1,0 +1,242 @@
+[
+  {
+    "id": "politics-policy-council-a",
+    "family": "politics-policy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 40,
+    "target": "politics / policy / politician",
+    "skill": "词族辨析 + 全文语义链",
+    "q": "The city changed its housing ___ after several local ___ argued that the old rules favored large developers. Which pair fits both blanks?",
+    "o": [
+      "politics / policies",
+      "policy / politicians",
+      "politician / politics",
+      "policies / political"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "在几位当地政治人物认为旧规定偏袒大型开发商之后，这座城市修改了住房政策。两个空分别需要“政策”和“政治人物”。",
+      "structure": "The city是主语，changed是谓语，its housing ___是宾语；after从句中several local ___是主语，argued是谓语，that从句说明其主张。",
+      "other": "housing 住房；favor 偏袒/有利于；developer 开发商；local 当地的。",
+      "meaning": "policy=政策；politician=政治人物/政客；politics=政治活动/政治；political=政治的。不要因为它们都以polit-开头就统一译成“政策”。",
+      "rest": "politics不能作“住房政策”这一可数具体制度；policies不能指“几位当地政治人物”；politician放第一空词性和语义都不合；political是形容词，不能单独作several local后的中心名词。"
+    }
+  },
+  {
+    "id": "politics-policy-report-b",
+    "family": "politics-policy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "politics / political / policy",
+    "skill": "词族辨析 + 语义一致性",
+    "q": "A report says that party politics can influence environmental policy, but it does not claim that every politician supports the same measure. Which reading is accurate?",
+    "o": [
+      "政党政策会影响环境政治，而且所有政策制定者支持同一措施。",
+      "政党政治可能影响环境政策，但这不等于每位政治人物都支持同一措施。",
+      "环境政治决定所有政客必须执行同一项政策。",
+      "politics、policy 和 politician 在这里都可以统一译为“政策”。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "报告说，政党政治可能影响环境政策，但它并没有声称每位政治人物都支持同一措施。",
+      "structure": "party politics是主语，can influence是谓语，environmental policy是宾语；but连接限制，it指report，that从句是否定其没有作出的强结论。",
+      "other": "party politics 政党政治；environmental 环境的；measure 措施；claim 声称。",
+      "meaning": "同一词根不等于同一词义。politics是政治，policy是政策，politician是政治人物；读长文时要让这些词在全文里形成一致的语义链。",
+      "rest": "A混淆politics/policy并扩大为所有人支持；C加入“必须执行”的强制关系；D正是需要避免的词族误认。"
+    }
+  },
+  {
+    "id": "yet-warning-reality-a",
+    "family": "expectation-contrast",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "yet / 预期—现实违背",
+    "skill": "转折逻辑不是正负翻转",
+    "q": "The manual warns that the batteries may fail below zero. Yet the field team left them outside overnight during a freeze. What does yet mainly signal?",
+    "o": [
+      "前句是负面，因此后句必须表达一个正面结果。",
+      "后句给出一个与前文警告所形成的合理预期相违的现实行为。",
+      "后句解释了为什么低温不会影响电池。",
+      "yet表示两件事按时间先后自然发生，没有对比。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "手册警告电池在零度以下可能失效。然而，野外团队却在严寒中把它们整夜放在室外。yet强调现实行为违背了前文警告所带来的正常预期。",
+      "structure": "第一句The manual + warns + that从句。第二句the field team + left + them + outside；during a freeze交代环境。yet连接两个完整命题。",
+      "other": "manual 手册；battery 电池；below zero 零度以下；freeze 严寒/冰冻天气。",
+      "meaning": "yet/however/nevertheless的核心是命题层面的逆预期，不是“前负后正”或“前正后负”的机械符号。这里前文让人预期团队会避免低温，现实却相反。",
+      "rest": "A把转折简化成情感极性；C与第一句警告相冲突且没有证据；D忽略了yet的篇章功能。"
+    }
+  },
+  {
+    "id": "yet-goal-outcome-b",
+    "family": "expectation-contrast",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "yet / 目标—结果反差",
+    "skill": "转折逻辑不是正负翻转",
+    "q": "The new timetable was designed to reduce delays. Yet average waiting time increased in its first month. Which relation is expressed?",
+    "o": [
+      "第二句说明第一句的目标已经实现。",
+      "第二句与第一句毫无逻辑关系，只是补充新数据。",
+      "实际结果违背了设计目标所产生的预期。",
+      "yet表示因为等待时间增加，所以才设计新时刻表。"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "新的时刻表原本是为了减少延误而设计的，然而第一个月的平均等待时间反而增加了。这里是目标与实际结果之间的逆预期。",
+      "structure": "The new timetable是主语，was designed是被动谓语，to reduce delays说明目的；第二句average waiting time + increased。",
+      "other": "timetable 时刻表；delay 延误；average 平均的；waiting time 等待时间。",
+      "meaning": "看到yet先问“前一句让我预期什么，后一句如何违背它”。不必先判断哪句是褒义、哪句是贬义。",
+      "rest": "A与increased矛盾；B忽略目标—结果关系；D把时间与因果方向倒置。"
+    }
+  },
+  {
+    "id": "polysemy-rest-unjust-a",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "the rest of / just / unjust",
+    "skill": "熟词生义由结构决定",
+    "q": "After approving two applications, the panel rejected the rest as unjust to smaller firms. In this sentence, the rest and unjust mean:",
+    "o": [
+      "休息 / 仅仅的",
+      "其余申请 / 不公正的",
+      "其余评委 / 刚刚发生的",
+      "暂停审批 / 合法的"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "批准两份申请后，评审组以“对小企业不公平”为由拒绝了其余申请。the rest指剩下的申请；unjust表示不公正的。",
+      "structure": "the panel是主语，rejected是谓语，the rest是宾语；as unjust to smaller firms说明把其余申请视为何种性质。After approving...是时间背景。",
+      "other": "application 申请；panel 评审组；approve 批准；firm 企业。",
+      "meaning": "rest单独可表示休息，但the rest (of...)常表示“其余的”；just既可作副词“仅仅/刚刚”，也可作形容词“公正的”，unjust由后者加un-构成“不公正的”。",
+      "rest": "A把两个熟词都套成最常见义；C误把the rest的先行集合换成评委，且unjust不是“刚刚”；D既不符合句法也不符合词义。"
+    }
+  },
+  {
+    "id": "polysemy-dismiss-address-b",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "dismiss A as B / address concerns",
+    "skill": "熟词生义 + 固定搭配",
+    "q": "Officials first dismissed the complaint as trivial, but later had to address the evidence it contained. Which paraphrase is best?",
+    "o": [
+      "他们先解雇了投诉人，后来查找证据的地址。",
+      "他们起初把投诉斥为无足轻重，后来不得不处理其中的证据。",
+      "他们先证明投诉正确，后来决定忽视证据。",
+      "他们先将投诉寄出，后来改变了通信地址。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "官员们起初把这项投诉斥为无足轻重，但后来不得不处理其中包含的证据。",
+      "structure": "Officials是主语；dismissed是第一个谓语，the complaint是宾语，as trivial是宾补；but后had to address是第二个谓语结构，the evidence是宾语。",
+      "other": "complaint 投诉；trivial 微不足道的；evidence 证据；contain 包含。",
+      "meaning": "dismiss可表示“解雇”，但dismiss A as B是“把A斥为/视为B而不予重视”；address作动词可表示“处理、应对问题/担忧/证据”，不只表示地址。",
+      "rest": "A把两个熟词都套成名词/常见义；C反转了dismiss与address的语义；D虚构邮寄和地址变化。"
+    }
+  },
+  {
+    "id": "constraint-code-chain-a",
+    "family": "constraint-language",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "be bound by / be subject to / apply to",
+    "skill": "规则约束语义链",
+    "q": "Researchers are bound by a confidentiality code. The same code applies to contractors, who are also subject to its reporting rules. Which statement preserves the relations?",
+    "o": [
+      "只有研究人员可以选择是否遵守该准则，承包商不受影响。",
+      "该准则约束研究人员，也适用于承包商；承包商同样受其报告规则约束。",
+      "研究人员负责制定准则，而准则被承包商约束。",
+      "apply to在这里表示“向承包商提出申请”。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "研究人员受保密准则约束。同一准则也适用于承包商，而承包商同样受其中的报告规则约束。",
+      "structure": "Researchers + are bound by + a code是被动/状态结构；The same code + applies to + contractors；who指contractors，are subject to表示他们受规则约束。",
+      "other": "confidentiality 保密；contractor 承包商；reporting rule 报告规则；code 准则。",
+      "meaning": "be bound by=受……约束；apply to=适用于；be subject to=受……约束/服从于。三者可以围绕同一规则形成语义复现链，注意谁是规则、谁是被约束对象。",
+      "rest": "A凭空加入可选择性并排除承包商；C倒置施受关系；D把apply to的“适用于”错当“申请”。"
+    }
+  },
+  {
+    "id": "constraint-accountable-b",
+    "family": "constraint-language",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 45,
+    "target": "be accountable to",
+    "skill": "责任/问责搭配",
+    "q": "The review board wants senior managers to be accountable to the same safety rules as everyone else. Here, accountable to most nearly means:",
+    "o": [
+      "能够接近这些规则",
+      "对这些规则承担责任并接受问责",
+      "与这些规则相处友好",
+      "同意这些规则写得很好"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "审查委员会希望高级管理者和其他所有人一样，对同一套安全规则承担责任并接受问责。",
+      "structure": "The review board是主语，wants是谓语，senior managers是宾语，to be accountable to...是不定式宾补。",
+      "other": "review board 审查委员会；senior manager 高级管理者；safety rule 安全规则；everyone else 其他所有人。",
+      "meaning": "be accountable to通常表示对某人/机构负责、接受其问责；在规则语境中可理解为必须对遵守规则负责。不要和accessible to（可接近/可获得）混淆。",
+      "rest": "A对应accessible；C接近amiable的语义；D把责任关系偷换成个人赞同。"
+    }
+  },
+  {
+    "id": "relation-tied-apart-a",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "set A apart from B / be closely tied",
+    "skill": "关系搭配 + because逻辑",
+    "q": "The company keeps approval and sales decisions formally separate precisely because the two teams are closely tied through shared bonuses. Which reading is best?",
+    "o": [
+      "两个团队彼此没有关系，所以没有必要区分决策。",
+      "两个团队现实利益联系紧密，因此制度上反而需要刻意把两类决策分开。",
+      "shared bonuses证明销售团队已经接管审批团队。",
+      "closely tied表示两个团队被绳子绑在一起。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "公司之所以在制度上把审批与销售决策分开，恰恰是因为两个团队通过共同奖金存在紧密利益联系。",
+      "structure": "The company是主语，keeps A and B separate是谓语结构；precisely because引出原因，the two teams是主语，are closely tied是系表结构。",
+      "other": "approval 审批；formally 正式地/制度上；bonus 奖金；shared 共同的。",
+      "meaning": "set/keep A apart/separate from B表示区分；be closely tied表示紧密相关。because并不要求“原因”和“措施”表面同方向：正因为现实容易纠缠，制度上才需要分开。",
+      "rest": "A与closely tied相反；C把联系紧密夸大成组织接管；D把比喻性关系搭配按字面绳子理解。"
+    }
+  },
+  {
+    "id": "relation-independence-b",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-05",
+    "budget": 50,
+    "target": "closely tied / institutional separation",
+    "skill": "关系搭配 + 反直觉因果",
+    "q": "The audit office is structurally independent from the ministry because its work is closely tied to decisions the ministry would otherwise judge itself. What is the logic?",
+    "o": [
+      "工作联系越紧密，两个机构在制度上越不需要独立。",
+      "由于审计事项与被审部门的决定紧密相关，制度上保持独立可减少自己审自己的问题。",
+      "closely tied说明审计办公室必须归部长直接管理。",
+      "because在这里表示转折，所以前后没有因果。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "审计办公室在组织上独立于该部门，因为它的工作与该部门原本可能自行评判的决定紧密相关。正因为利益和事项联系密切，制度上才需要独立。",
+      "structure": "The audit office是主语，is structurally independent是系表；because从句中its work是主语，is closely tied to是谓语结构，decisions是介词宾语。",
+      "other": "audit 审计；structurally 组织结构上；ministry 部门/部；otherwise 否则。",
+      "meaning": "closely tied to=与……紧密相关；independent from=独立于。文章常出现“现实联系紧密→制度上刻意分离”的治理逻辑，不能因为表面反向就否定because。",
+      "rest": "A把治理逻辑反了；C把“相关”偷换成组织隶属；D错误解释because。"
+    }
+  }
+]
