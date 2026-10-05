@@ -605,6 +605,78 @@
       "uncertain": false,
       "origin": 9,
       "qid": "recruitment-poach-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 119640,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "unpredictable-response-time"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 5776,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "paragraph-order-discourse-parallel-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 37210,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "social-message-inference-parenting-b"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 19553,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "title-coverage-library-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "relative",
+      "ok": true,
+      "ms": 29026,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "legacy-which"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "author-stance",
+      "ok": true,
+      "ms": 43683,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "author-stance-recall-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "point",
+      "ok": true,
+      "ms": 10632,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "point-waiting"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 47228,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "causal-role-direction-travel-b"
     }
   ],
   "issues": [
@@ -616,6 +688,7 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ]
 }
