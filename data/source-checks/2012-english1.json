@@ -1,0 +1,57 @@
+{
+  "exam": "2012-english1",
+  "checked_on": "2026-10-05",
+  "purpose": "2012 英语一 Section I Use of English 内容来源核验；不是网页训练成绩，不计 attempts、错误数或正确率。",
+  "sources": [
+    {
+      "id": "xdf-cloze-text",
+      "title": "新东方网：2012年英语一完形填空真题与选项",
+      "url": "https://kaoyan.xdf.cn/202604/15172437.html",
+      "covers": "Section I 题文与1–20选项"
+    },
+    {
+      "id": "koolearn-cloze-analysis",
+      "title": "新东方在线：历年考研英语完形填空真题解析（2012）",
+      "url": "https://m.koolearn.com/kaoyan/20140710/823115.html",
+      "covers": "1–20选项与解析"
+    }
+  ],
+  "answers": {
+    "1": "B",
+    "2": "A",
+    "3": "B",
+    "4": "D",
+    "5": "C",
+    "6": "B",
+    "7": "D",
+    "8": "B",
+    "9": "A",
+    "10": "B",
+    "11": "A",
+    "12": "C",
+    "13": "C",
+    "14": "D",
+    "15": "A",
+    "16": "C",
+    "17": "A",
+    "18": "C",
+    "19": "D",
+    "20": "D"
+  },
+  "performance_coverage": {
+    "Section I": "用户自述本篇仅第1、6、9、20题答对，即4/20；未可靠记录其余16题各自首次所选字母，因此只记录题号层面的对错，不补造具体错误选项。"
+  },
+  "observed_difficulties": [
+    "用户把 politician / politics / political 一类整体误作“政策”，没有与 policy / policies 区分，导致全文 court/law 与 politics 的主轴读偏。",
+    "用户把 yet 机械理解为“前后褒贬必须相反”，未识别“规范/预期与现实行为相违”的转折。",
+    "用户明确无法顺畅理解 be bound by an ethics code、the rest of。",
+    "用户只熟悉 rest=休息、just=仅仅、dismiss=解雇，未掌握 the rest of=其余、just=公正的、unjust=不公正的、dismiss A as B=把A斥为B。",
+    "用户对第14、17、18、19题仍无法稳定判断；对应需训练 closely tied、dismiss A as B、address doubts/concerns、accountable to。",
+    "全文多次出现 politics / political / political support 等同一语义链时，用户未用后文对前文异常译法进行反向校验。"
+  ],
+  "notes": [
+    "第5–7题的 bound by / subject to / apply to 构成同一“规则约束对象”语义链。",
+    "第14题 set law apart from politics precisely because they are closely tied 表示制度上刻意区分，正因为现实联系紧密。",
+    "第17–19题不是单纯生词：同时涉及熟词生义、固定搭配与动词支配。"
+  ]
+}
