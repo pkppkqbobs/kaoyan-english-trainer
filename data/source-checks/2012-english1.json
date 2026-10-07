@@ -1,7 +1,7 @@
 {
   "exam": "2012-english1",
-  "checked_on": "2026-10-05",
-  "purpose": "2012 英语一 Section I Use of English 内容来源核验；不是网页训练成绩，不计 attempts、错误数或正确率。",
+  "checked_on": "2026-10-07",
+  "purpose": "2012 英语一 Section I 与 Text 1 内容来源核验；不是网页训练成绩，不计 attempts、错误数或正确率。",
   "sources": [
     {
       "id": "xdf-cloze-text",
@@ -14,6 +14,12 @@
       "title": "新东方在线：历年考研英语完形填空真题解析（2012）",
       "url": "https://m.koolearn.com/kaoyan/20140710/823115.html",
       "covers": "1–20选项与解析"
+    },
+    {
+      "id": "eol-2012-text1",
+      "title": "中国教育在线：2012年考研英语一答案详细解析（Text 1）",
+      "url": "https://kaoyan.eol.cn/fu_xi/yingyu/201312/t20131219_1054422_2.shtml",
+      "covers": "Text 1 21–25答案与解析"
     }
   ],
   "answers": {
@@ -36,10 +42,16 @@
     "17": "A",
     "18": "C",
     "19": "D",
-    "20": "D"
+    "20": "D",
+    "21": "D",
+    "22": "B",
+    "23": "A",
+    "24": "C",
+    "25": "D"
   },
   "performance_coverage": {
-    "Section I": "用户自述本篇仅第1、6、9、20题答对，即4/20；未可靠记录其余16题各自首次所选字母，因此只记录题号层面的对错，不补造具体错误选项。"
+    "Section I": "用户自述本篇仅第1、6、9、20题答对，即4/20；未可靠记录其余16题各自首次所选字母，因此只记录题号层面的对错，不补造具体错误选项。",
+    "Text 1": "用户明确说明：第22题最终选B但AB之间犹豫、把握不足；第23题选D；第25题选C。未在聊天中明确确认21、24的首次答案，不据图片笔迹补造。"
   },
   "observed_difficulties": [
     "用户把 politician / politics / political 一类整体误作“政策”，没有与 policy / policies 区分，导致全文 court/law 与 politics 的主轴读偏。",
@@ -47,11 +59,18 @@
     "用户明确无法顺畅理解 be bound by an ethics code、the rest of。",
     "用户只熟悉 rest=休息、just=仅仅、dismiss=解雇，未掌握 the rest of=其余、just=公正的、unjust=不公正的、dismiss A as B=把A斥为B。",
     "用户对第14、17、18、19题仍无法稳定判断；对应需训练 closely tied、dismiss A as B、address doubts/concerns、accountable to。",
-    "全文多次出现 politics / political / political support 等同一语义链时，用户未用后文对前文异常译法进行反向校验。"
+    "全文多次出现 politics / political / political support 等同一语义链时，用户未用后文对前文异常译法进行反向校验。",
+    "Text 1 第22题：用户能定位第三段末句，但对 take a page from advertisers 的含义没有把握，在A“招募广告商”和B“学习广告商经验”之间犹豫；正确为B。",
+    "Text 1 第23题：用户先因原文存在 and 而排除只对应其中一半的A，又被 most glaring flaw / doesn't work very well for very long 的词面对应吸引而选D；实际D的评价对象是 social cure，而题干问 Rosenberg's book。暴露“选项可只改写并列句一侧”以及“关键词相似前先核对评价对象/主语”的问题。",
+    "Text 1 第25题：用户知道 profound 更接近“深刻/深远”而非“骄傲”，因此被上一段 enormous influence 吸引选C；但题干限定 in the last paragraph，末段评价的是专家人为利用/操控同伴压力这一策略的成效，Far less certain / never really works 支持D questionable。错因是段落范围与评价对象错位，不是 profound 词义错误。",
+    "用户确认标记规则：画框=明确翻译困难；画横线=认为重要或可能与答案有关，不能自动记为 translation_difficulty。",
+    "本页明确画框并作为翻译困难登记：invitation、social cure、a host of examples、antismoking、critique、lameness、spot-on、pleads、irrelevant detail、glaring flaw。横线内容不据此登记为翻译困难。"
   ],
   "notes": [
     "第5–7题的 bound by / subject to / apply to 构成同一“规则约束对象”语义链。",
     "第14题 set law apart from politics precisely because they are closely tied 表示制度上刻意区分，正因为现实联系紧密。",
-    "第17–19题不是单纯生词：同时涉及熟词生义、固定搭配与动词支配。"
+    "第17–19题不是单纯生词：同时涉及熟词生义、固定搭配与动词支配。",
+    "Text 1 第23题的A是对 not enough exploration of the social and biological factors 的直接同义改写；原句有 and 不要求正确选项同时覆盖并列两侧。",
+    "Text 1 第25题要区分：peer pressure 自然存在时 influence 很强，与专家/官员能否人为操控它产生理想效果是否可靠，是两个层次。"
   ]
 }
