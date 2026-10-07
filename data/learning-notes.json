@@ -316,5 +316,58 @@
       17,
       18
     ]
+  },
+  {
+    "family": "take-page-from",
+    "date": "2026-10-07",
+    "kind": "correct_but_uncertain",
+    "note": "2012 英语一 Text 1 第22题：用户最终选B但在A/B间犹豫，能定位到 public-health advocates ought to take a page from advertisers，却没有稳定掌握 take a page from sb.=借鉴/学习某人的做法，因此会把“向广告商学习”误想成“招募广告商”。",
+    "session_id": "2026-10-07-2012-text1",
+    "source_exam": "2012-english1",
+    "source_part": "Text 1",
+    "source_question": 22,
+    "reported_pick": "B"
+  },
+  {
+    "family": "scope-role-match",
+    "date": "2026-10-07",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Text 1 第23题：用户选D。先因原文 not enough exploration... 前还有 and，认为A只覆盖并列句一半所以“不太对”；随后看到 most glaring flaw 和 doesn't work very well for very long，按词面相似选D。实际A直接改写“对社会和生物因素探究不足”；D描述的是 social cure 的持久效果，而题干问 Rosenberg's book fails to...。训练：正确选项可以只对应并列句的一侧；关键词相似前先核对题干目标、主语/评价对象。",
+    "session_id": "2026-10-07-2012-text1",
+    "source_exam": "2012-english1",
+    "source_part": "Text 1",
+    "source_question": 23,
+    "reported_pick": "D"
+  },
+  {
+    "family": "paragraph-scope-attitude",
+    "date": "2026-10-07",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Text 1 第25题：用户选C profound，并且对 profound 的词义判断基本正确（深刻/深远，而非 proud“骄傲”）。错误在范围：上一段说明 peer groups exert enormous influence，支持“同伴压力本身影响很强”；但题干限定 in the last paragraph，末段讨论专家/官员人为选择同伴并引导行为这一策略是否有效，Far less certain / never really works 支持D questionable。训练段落限定、评价对象切换与作者态度。",
+    "session_id": "2026-10-07-2012-text1",
+    "source_exam": "2012-english1",
+    "source_part": "Text 1",
+    "source_question": 25,
+    "reported_pick": "C"
+  },
+  {
+    "family": "social-cure-vocab",
+    "date": "2026-10-07",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一 Text 1 画框翻译困难：invitation；social cure；a host of examples；antismoking。记录规则：只有画框算明确翻译困难，横线只是用户认为重要/可能与答案有关，不能据此新增 translation_difficulty。",
+    "session_id": "2026-10-07-2012-text1",
+    "source_exam": "2012-english1",
+    "source_part": "Text 1",
+    "review_importance": "low"
+  },
+  {
+    "family": "evaluation-vocab",
+    "date": "2026-10-07",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一 Text 1 画框翻译困难：critique；lameness；spot-on；pleads；irrelevant detail；glaring flaw。重点义项：critique=批判性评论/分析，lameness=乏力/差劲，spot-on=非常准确，plead=恳求，irrelevant=无关的，glaring flaw=明显缺陷。",
+    "session_id": "2026-10-07-2012-text1",
+    "source_exam": "2012-english1",
+    "source_part": "Text 1",
+    "review_importance": "low"
   }
 ]
