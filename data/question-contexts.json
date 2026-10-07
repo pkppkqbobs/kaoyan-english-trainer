@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-05",
+  "reviewed_on": "2026-10-07",
   "source_commit": "5a1751e70d704a71b114a564b43ab3282e29abd7",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -190,7 +190,17 @@
     "constraint-code-chain-a": "context:constraint-code-chain-a",
     "constraint-accountable-b": "context:constraint-accountable-b",
     "relation-tied-apart-a": "context:relation-tied-apart-a",
-    "relation-independence-b": "context:relation-independence-b"
+    "relation-independence-b": "context:relation-independence-b",
+    "take-page-clinic-a": "context:take-page-clinic-a",
+    "take-page-museum-b": "context:take-page-museum-b",
+    "scope-role-report-subsidy-a": "context:scope-role-report-subsidy-a",
+    "scope-role-device-study-b": "context:scope-role-device-study-b",
+    "paragraph-scope-algorithm-a": "context:paragraph-scope-algorithm-a",
+    "paragraph-scope-health-campaign-b": "context:paragraph-scope-health-campaign-b",
+    "social-cure-vocab-host-a": "context:social-cure-vocab-host-a",
+    "social-cure-vocab-anti-b": "context:social-cure-vocab-anti-b",
+    "evaluation-vocab-spoton-a": "context:evaluation-vocab-spoton-a",
+    "evaluation-vocab-flaw-b": "context:evaluation-vocab-flaw-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
