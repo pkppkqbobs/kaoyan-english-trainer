@@ -68,7 +68,7 @@
       "structure": "第一句The report是被评价对象；第二句The subsidy’s most serious weakness把评价对象切换成补贴政策。题干再次锁定the report。",
       "other": "anecdote 轶事；subsidy 补贴；participation 参与度；temporary bonus 临时奖励。",
       "meaning": "看到most serious weakness之类强信号不能直接选，先检查这个weakness属于谁。正确选项可以只改写并列句中的一侧，不必覆盖整句所有批评。",
-      "rest": "B描述的是subsidy的持久效果，不是report的写作缺陷；C把too many夸大成必须全部删除；D加入never和prove，原文没有。"
+      "rest": "“produce participation that lasts...”描述的是subsidy的持久效果，不是report的写作缺陷；“remove all anecdotes”把too many夸大成必须全部删除；“prove...never”加入绝对化的never和原文没有的证明要求。"
     }
   },
   {
@@ -92,7 +92,7 @@
       "structure": "but连接两个对study的评价：history详细，failure investigation不足；后句The device’s clearest flaw把主语切到device。",
       "other": "capacity 容量；freezing 冰冻环境；investigation 调查；critic 评论者。",
       "meaning": "并列句里一半信息就可以被题目抽出来做同义替换。不要因为答案没同时复述history和failure两侧就排除。",
-      "rest": "A与detailed history相反；C/D要求study改变设备性能，偷换研究报告与设备本身的职责。"
+      "rest": "“provide any historical background”与detailed history相反；要求study去prevent battery loss或让device indefinitely work in freezing conditions，都是把研究报告与设备本身的职责混在一起。"
     }
   },
   {
@@ -140,7 +140,7 @@
       "structure": "first notes...给背景；In its final paragraph, however锁定观点转折；a city program是末段被评价对象，rarely produces lasting change是评价核心。",
       "other": "deliberately 刻意地；inactive 不活跃的；lasting 持久的；peer influence 同伴影响。",
       "meaning": "不要把前文对自然影响力的强度评价，直接搬到末段对政策/项目有效性的评价。",
-      "rest": "B把“影响本身强”偷换成“项目效果深远”；C加入harmful；D忽略rarely produces lasting change。"
+      "rest": "“necessarily profound”把“同伴影响本身强”偷换成“这个项目效果深远”；“clearly harmful”加入原文没有的危害判断；“it succeeds”又与rarely produces lasting change相反。"
     }
   },
   {
@@ -164,7 +164,7 @@
       "structure": "The report是主语，offers是谓语，a host of examples是宾语；of a social cure说明这些例子属于哪类做法；in which引出其机制。",
       "other": "peer support 同伴支持；community group 社区团体；health habit 健康习惯；intervention 干预。",
       "meaning": "a host of = 大量、许多；social cure在这类语境中是借助社会/群体机制的干预办法，不是字面医学药物。",
-      "rest": "A把social cure字面化为医疗处方；C把host误解成“主持”；D把cure和disease关系颠倒。"
+      "rest": "“single medical treatment”把social cure字面化为医疗处方；“hosts a meeting”把host误解成“主持”；把peer support说成disease则把cure和disease关系颠倒。"
     }
   },
   {
@@ -212,7 +212,7 @@
       "structure": "Her critique是主语，was是系动词，spot-on是表语；of the campaign's lameness说明批评对象。冒号后给出为什么说“准确”。",
       "other": "vague 模糊的；call to action 行动号召；ignore 忽视；evidence 证据。",
       "meaning": "critique=批判性评论/分析；lameness在比喻语境中可指乏力、差劲；spot-on=非常准确、说到点子上。",
-      "rest": "B把lameness机械译成身体跛；C把critique/spot-on反成夸奖；D与weak evidence相反。"
+      "rest": "把lameness机械译成身体跛不合语境；把critique/spot-on反成随意夸奖也不对；认为evidence充分则与weak evidence直接相反。"
     }
   },
   {
@@ -236,7 +236,7 @@
       "structure": "The brochure是主语，pleads是谓语；but后much of it is filled...；Its most glaring flaw is that...是系表结构，that从句说明缺陷内容。",
       "other": "brochure 宣传册；donate 捐款；where the money goes 资金去向；detail 细节。",
       "meaning": "plead=恳求；irrelevant=无关的；glaring flaw=非常明显的缺陷。三者都是评价/语气词，不能只按最熟悉的字面义处理。",
-      "rest": "B把flaw反成优点；C否认pleads的请求语气；D把irrelevant解释成相关，方向相反。"
+      "rest": "把flaw说成优点与原文相反；否认pleads的请求语气不对；把irrelevant解释成“最相关”也正好反向。"
     }
   }
 ]
