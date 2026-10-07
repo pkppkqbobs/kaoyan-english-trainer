@@ -335,6 +335,8 @@ def parse_issue(issue, root=ROOT):
                     # This can inform review, but never adds a mastery day.
                     parsed["date_unverified"] = True
             rows.append(parsed)
+        if (obj.get("module") is not None or obj.get("storageId") is not None) and not rows:
+            raise ValueError("Published-page report contains no primary answers")
         return str(obj["roundId"]), rows
     if date.fromisoformat(stamp) > issue_day:
         raise ValueError("Legacy report cannot claim a future learning date")
@@ -371,6 +373,8 @@ def evidence(issues, owner, root=ROOT, *, rejected=None, fallback=None):
             continue
         try:
             report_id, report_rows = parse_issue(issue, root)
+            if not report_rows and (fallback or {}).get(issue["number"]):
+                raise ValueError("Previously scored report no longer contains primary answers")
         except (ValueError, KeyError, TypeError, AttributeError, AssertionError) as error:
             if rejected is None:
                 raise

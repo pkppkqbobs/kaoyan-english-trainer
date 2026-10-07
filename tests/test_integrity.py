@@ -142,6 +142,23 @@ class ReportIntegrityTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.parse(obj)
 
+    def test_new_page_report_requires_at_least_one_primary_answer(self):
+        obj = report(self.q)
+        for answers in [[], [{"kind": "retry"}]]:
+            with self.subTest(answers=answers), self.assertRaises(ValueError):
+                self.parse({**obj, "answers": answers})
+
+    def test_empty_edited_legacy_report_keeps_previously_accepted_scores(self):
+        original = issue(report(self.q))
+        with mock.patch.object(review, "get_issues", return_value=[original]), contextlib.redirect_stdout(io.StringIO()):
+            run(self.root, date(2026, 10, 7), True, "pkppkqbobs/kaoyan-english-trainer")
+        accepted = (self.root / "data/result-evidence.json").read_bytes()
+        empty = {"version": 3, "roundId": "fixture-round", "date": "2026-10-07", "answers": []}
+        with mock.patch.object(review, "get_issues", return_value=[issue(empty)]), contextlib.redirect_stdout(io.StringIO()):
+            run(self.root, date(2026, 10, 7), True, "pkppkqbobs/kaoyan-english-trainer")
+        self.assertEqual((self.root / "data/result-evidence.json").read_bytes(), accepted)
+        self.assertTrue(review.load(self.root / "data/rejected-results.json")["issues"][0]["retained_previous"])
+
     def test_two_old_daily_papers_completed_today_are_one_observed_day(self):
         for stamp in ["2026-10-05", "2026-10-06"]:
             review.save(self.root / f"data/days/{stamp}.json", {"date": stamp, "questions": self.items})
