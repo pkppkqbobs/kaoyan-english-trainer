@@ -138,7 +138,7 @@ def parse_report(obj, issue, root=ROOT):
     require(isinstance(obj.get("date"), str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", obj["date"]),
             "Invalid Part B report date")
     day = date.fromisoformat(obj["date"])
-    issue_day = datetime.fromisoformat(issue["created_at"].replace("Z", "+00:00")).astimezone(review.TZ).date()
+    issue_day = review.issue_report_day(issue)
     require(day <= issue_day, "Part B report cannot claim a future learning date")
     require(isinstance(obj.get("answers"), list) and obj["answers"], "Missing Part B answers")
     questions = {q["id"]: q for q in bank(root)}
@@ -209,7 +209,8 @@ def build(root=ROOT, repo="pkppkqbobs/kaoyan-english-trainer"):
         page = template.replace("__MODE__", mode)
         page = page.replace("__DATA__", json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c"))
         for name, version in versions.items():
-            page = page.replace("__" + name + "__", version)
+            cached_version = review.published_script_version(root / path, version, asset=name)
+            page = page.replace("__" + name + "__", cached_version)
         pages[path] = page
     # Everything has been validated/rendered before any published file is written.
     for q in questions:

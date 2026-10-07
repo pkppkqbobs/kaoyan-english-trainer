@@ -234,6 +234,15 @@ def published_question(root, report, qid):
     return matches[0]
 
 
+def issue_report_day(issue):
+    """Bound an edited report by its server revision time, not its initial creation."""
+    stamps = [issue["created_at"], issue.get("updated_at") or issue["created_at"]]
+    moments = [datetime.fromisoformat(stamp.replace("Z", "+00:00")) for stamp in stamps]
+    if any(moment.tzinfo is None for moment in moments):
+        raise ValueError("GitHub report timestamps must include a timezone")
+    return max(moments).astimezone(TZ).date()
+
+
 def parse_issue(issue, root=ROOT):
     """Return one report id and evidence rows. Aggregate-only reports do not fabricate item order."""
     body = issue.get("body") or ""
@@ -241,7 +250,7 @@ def parse_issue(issue, root=ROOT):
     title_date = re.search(r"\d{4}-\d{2}-\d{2}", issue.get("title", ""))
     if title_date:
         stamp = title_date.group()
-    issue_day = datetime.fromisoformat(issue["created_at"].replace("Z", "+00:00")).astimezone(TZ).date()
+    issue_day = issue_report_day(issue)
     markers = re.findall(r"<!--\s*review-json:(v\d+)", body)
     if markers and (len(markers) != 1 or markers[0] not in {"v3", "v4"}):
         raise ValueError("Ambiguous or unsupported structured report")
@@ -605,14 +614,14 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     return payload
 
 
-def published_script_version(page, fallback):
+def published_script_version(page, fallback, asset="review.js"):
     """Keep immutable page bytes; the shared asset URL still serves compatible fixes.
 
     New rounds use the current hash. Existing rounds keep their URL/query and
     local storage IDs instead of rewriting every historical HTML on a JS fix.
     """
     if page.exists():
-        match = re.search(r'src="\./web/review\.js\?v=([a-f0-9]{12})"', page.read_text(encoding="utf-8"))
+        match = re.search(r'(?:src|href)="\./web/' + re.escape(asset) + r'\?v=([a-f0-9]{12})"', page.read_text(encoding="utf-8"))
         if match:
             return match.group(1)
     return fallback

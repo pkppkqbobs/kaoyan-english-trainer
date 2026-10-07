@@ -12,11 +12,11 @@
   const app = document.getElementById('partb-app');
   const clone = x => JSON.parse(JSON.stringify(x));
   const byId = id => document.getElementById(id);
-  let state, storageKey, storageError='', started = performance.now(), active = !document.hidden;
+  let state, storageKey, storageError='', memoryOnly=false, started = performance.now(), active = !document.hidden;
   const today = () => new Intl.DateTimeFormat('sv-SE', {timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
   const uid = () => 'pb-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2,12);
   const current = () => state.runs[state.current];
-  const question = () => state.question;
+  const question = () => DATA.questions.find(q=>q.id===state.question.id) || state.question;
   function el(tag, text, className, parent) {
     const e = document.createElement(tag);
     if (text !== undefined) e.textContent = text;
@@ -33,18 +33,48 @@
   }
   function link(parent,label,href) { const a=el('a',label,'',parent); a.href=href; return a; }
   function warn(text) { const n=byId('storageNotice'); if(n) {n.textContent=text; n.hidden=false;} }
+  function validLocalState(value) {
+    try {
+      const q=DATA.questions.find(q=>q.id===value?.question?.id);
+      if(!q || value.version!==1 || !Array.isArray(value.runs) || !value.runs.length ||
+          !Number.isInteger(value.current) || !value.runs[value.current])return false;
+      const saved=value.question;
+      const signature=q=>JSON.stringify({paragraphs:q.paragraphs.map(p=>[p.id,p.text]),
+        expected:q.expectedOrder,links:q.links.map(l=>[l.from,l.to,l.signals,l.anchor])});
+      if(signature(saved)!==signature(q) || new Set(value.runs.map(r=>r?.id)).size!==value.runs.length)return false;
+      return value.runs.every(r=>{
+        if(!r || typeof r.id!=='string' || !r.id || !['main','retry'].includes(r.mode) ||
+            !/^\d{4}-\d{2}-\d{2}$/.test(r.date) || new Date(r.date+'T00:00:00Z').toISOString().slice(0,10)!==r.date ||
+            !Number.isFinite(r.elapsedMs) || r.elapsedMs<0 ||
+            typeof r.uncertain!=='boolean')return false;
+        if(r.mode==='retry' ? !value.runs.some(p=>p.id===r.parentId && p.mode==='main' && p.result) : !!r.parentId)return false;
+        CORE.validateOrder(q,r.displayOrder);
+        if(!Array.isArray(r.pickOrder) || new Set(r.pickOrder).size!==r.pickOrder.length ||
+            r.pickOrder.some(id=>typeof id!=='string' || !q.expectedOrder.includes(id)))return false;
+        if(r.result!==null && (!r.result || typeof r.result!=='object' || Array.isArray(r.result)))return false;
+        if(r.result) {
+          CORE.validateOrder(q,r.pickOrder);
+          if(!Number.isFinite(r.result.ms) || r.result.ms<0 || r.result.ms>3600000)return false;
+        }
+        return true;
+      });
+    }catch(_){return false;}
+  }
   function localStates() {
-    const found=[];
+    const found=[];let unreadable=0;
     try {
       for(const key of Object.keys(storage).filter(k=>k.startsWith(PREFIX) && k!==ACTIVE)) {
         try { const value=JSON.parse(storage.getItem(key));
-          if(value?.version===1 && value.question?.id && Array.isArray(value.runs)) found.push({key,value});
-        } catch(_) { /* An unreadable record is left intact. */ }
+          if(validLocalState(value) && key===PREFIX+value.question.id) found.push({key,value});
+          else unreadable++;
+        } catch(_) { unreadable++; }
       }
     } catch(_) { warn('浏览器无法读取本地历史，已有记录没有被清除。'); }
+    if(unreadable)warn('有 '+unreadable+' 套本地记录无法完整读取，原数据已保留。其他历史仍可查看。');
     return found;
   }
   function save() {
+    if(memoryOnly){warn(storageError);return;}
     try {storage.setItem(storageKey,JSON.stringify(state));storage.setItem(ACTIVE,JSON.stringify(question().id));}
     catch(_) {storageError='浏览器未能保存进度。请保持页面打开，完成后导出报告；已有记录不会被主动清除。';warn(storageError);}
   }
@@ -65,22 +95,29 @@
     const q=DATA.questions.find(q=>q.id===qid);
     if(!q) throw new Error('没有找到这套排序题。');
     const nextKey=PREFIX+qid;
-    let raw;try{raw=storage.getItem(nextKey);}catch(_){storageError='浏览器无法读取存储，当前可继续作答并导出报告。';}
+    let raw,candidate,nextMemoryOnly=false,nextError='';
+    try{raw=storage.getItem(nextKey);}catch(_){nextMemoryOnly=true;nextError='浏览器无法读取存储，原记录未被覆盖。当前仅临时作答，完成后请导出报告。';}
     if(raw) {
-      let candidate;try {candidate=JSON.parse(raw);} catch(_) {throw new Error('这套本地记录无法读取，已保留原数据。请换另一套练习。');}
-      if(candidate?.version!==1 || candidate.question?.id!==qid || !Array.isArray(candidate.runs) || !candidate.runs.length) {
+      try {candidate=JSON.parse(raw);} catch(_) {throw new Error('这套本地记录无法读取，已保留原数据。请换另一套练习。');}
+      if(candidate?.question?.id!==qid || !validLocalState(candidate)) {
         throw new Error('这套本地记录格式不完整，已保留原数据。请换另一套练习。');
       }
-      if(!Number.isInteger(candidate.current) || !candidate.runs[candidate.current] ||
-          candidate.runs.some(r=>!Array.isArray(r.pickOrder)||!Array.isArray(r.displayOrder))) {
-        throw new Error('这套本地轮次无法读取，已保留原数据。请换另一套练习。');
-      }
-      state=candidate;storageKey=nextKey;
       if(roundId) {
-        const index=state.runs.findIndex(r=>r.id===roundId);
-        if(index>=0) state.current=index;
+        const index=candidate.runs.findIndex(r=>r.id===roundId);
+        if(index>=0) candidate.current=index;
       }
-    } else {state={version:1,question:clone(q),runs:[],current:0};storageKey=nextKey;newRun();}
+    } else {
+      candidate={version:1,question:clone(q),runs:[],current:0};
+      const remote=DATA.results.find(r=>r.qid===qid);
+      if(remote) {
+        candidate.runs.push({id:remote.roundId,date:remote.date,mode:'main',parentId:null,
+          displayOrder:CORE.shuffle(q.paragraphs.map(p=>p.id)),pickOrder:remote.pickOrder.slice(),
+          elapsedMs:remote.ms,uncertain:remote.uncertain,result:{...CORE.score(q,remote.pickOrder),ms:remote.ms},restoredFrom:'github'});
+        if(!validLocalState(candidate))throw new Error('GitHub首次成绩无法完整恢复，已有记录未被修改。');
+      }
+    }
+    state=candidate;storageKey=nextKey;memoryOnly=nextMemoryOnly;storageError=nextError;
+    if(!state.runs.length)newRun();
     started=performance.now();active=!document.hidden;save();
   }
   function header(history=false) {
@@ -98,11 +135,12 @@
     const label=el('label','选择文章（全部为新语境）','',parent);label.htmlFor='partbKit';
     const select=el('select',undefined,'',parent);select.id='partbKit';
     DATA.questions.forEach(q=>{const o=el('option',q.topic+' · '+q.title,'',select);o.value=q.id;o.selected=q.id===question().id;});
-    select.addEventListener('change',()=>{try{load(select.value);render();}catch(error){warn(error.message);}});
+    select.addEventListener('change',()=>{try{load(select.value);render();}catch(error){select.value=question().id;warn(error.message);}});
   }
   function render() {
     header();const q=question(),r=current();const controls=el('section',undefined,'card',app);selector(controls);
     el('h2',q.title,'',controls);el('p',q.overview,'muted',controls);
+    if(r.restoredFrom==='github')el('p','本地没有本套记录，已从GitHub恢复真实首次成绩。原题回顾不计新的掌握证据。','notice',controls);
     if(r.mode==='retry') el('p','原题回顾，不计新的跨日掌握证据。首次提交的顺序与错误仍保留。','notice',controls);
     if(r.result) {resultView(app,q,r);return;}
     const area=el('section',undefined,'card',app);
@@ -173,8 +211,12 @@
     const url=URL.createObjectURL(new Blob([reportText()],{type:'text/plain;charset=utf-8'}));
     const a=el('a');a.href=url;a.download='partb-'+rootRun().date+'.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
+  function completedQuestions() {
+    return new Set([...DATA.results.map(r=>r.qid),
+      ...localStates().filter(x=>x.value.runs.some(r=>r.mode==='main'&&r.result)).map(x=>x.value.question.id)]);
+  }
   function nextContext() {
-    const attempted=new Set(localStates().filter(x=>x.value.runs.some(r=>r.mode==='main'&&r.result)).map(x=>x.value.question.id));
+    const attempted=completedQuestions();
     const next=DATA.questions.find(q=>q.id!==question().id&&!attempted.has(q.id));
     if(!next) {warn('目前6套新语境都已练过，可选择原题回顾；回顾不计新的掌握证据。');return;}
     load(next.id);render();
@@ -245,7 +287,9 @@
   try {
     const params=new URLSearchParams(window.location.search);
     let preferred;try{preferred=JSON.parse(storage.getItem(ACTIVE));}catch(_){}
-    const qid=params.get('qid') || (DATA.questions.some(q=>q.id===preferred)?preferred:DATA.questions[0].id);
+    const attempted=completedQuestions();
+    const fresh=DATA.questions.find(q=>!attempted.has(q.id));
+    const qid=params.get('qid') || (DATA.questions.some(q=>q.id===preferred)?preferred:(fresh||DATA.questions[0]).id);
     load(qid,params.get('round'));render();
   } catch(error) {
     header();el('p',error.message,'notice error',app);

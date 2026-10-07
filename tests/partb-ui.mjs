@@ -19,6 +19,7 @@ Object.defineProperties(storage,{
   setItem:{value(k,v){this[k]=v;}}
 });
 let nodes,opened='',clock=0,focused,documentEvents,windowEvents;
+let activeStorage=storage;
 class Element {
   constructor(tag='div'){this.tag=tag;this.children=[];this.listeners={};this.attrs={};this.dataset={};this.disabled=false;this._text='';}
   set id(value){this._id=value;nodes[value]=this;}get id(){return this._id;}
@@ -36,7 +37,8 @@ class TestDate extends Date {constructor(...args){super(...(args.length?args:[wa
 let counter=0;
 const random=()=>((++counter*37)%97)/97;
 const source=fs.readFileSync('web/partb.js','utf8');
-function boot(mode='review',search=''){
+function boot(mode='review',search='',store=storage){
+  activeStorage=store;
   nodes={};nodes['partb-app']=new Element();nodes['partb-app'].dataset.mode=mode;
   documentEvents={};windowEvents={};focused=null;opened='';
   const document={hidden:false,getElementById:id=>nodes[id],createElement:tag=>new Element(tag),
@@ -44,12 +46,12 @@ function boot(mode='review',search=''){
     addEventListener:(event,fn)=>{documentEvents[event]=fn;}};
   const window={PARTB_DATA:data,PARTB_CORE:core,location:{search},open:u=>{opened=u;},
     addEventListener:(event,fn)=>{windowEvents[event]=fn;}};
-  vm.runInNewContext(source,{window,document,localStorage:storage,performance:{now:()=>clock+=100},
+  vm.runInNewContext(source,{window,document,localStorage:store,performance:{now:()=>clock+=100},
     Math:Object.create(Math,{random:{value:random}}),Date:TestDate,Intl,JSON,Blob,URL,URLSearchParams,setTimeout,console});
 }
 function all(element=nodes['partb-app']){return [element,...element.children.flatMap(c=>all(c))];}
 function click(text){const b=all().find(e=>e.tag==='button'&&e.textContent===text);assert.ok(b,'Missing button: '+text);b.click();}
-const currentState=(qid=questions[0].id)=>JSON.parse(storage[data.storagePrefix+qid]);
+const currentState=(qid=questions[0].id)=>JSON.parse(activeStorage[data.storagePrefix+qid]);
 const run=(qid=questions[0].id)=>{const s=currentState(qid);return s.runs[s.current];};
 function choose(id){const b=nodes['choose-'+id];assert.ok(b);b.click();}
 function finish(order){order.forEach(choose);nodes.submitOrder.click();}
@@ -155,5 +157,57 @@ async function homeCheck(recommend,as_of) {
 assert.equal((await homeCheck(true,'2026-10-04')).textContent,'今日建议加练：Part B 排序 1 篇');
 assert.equal((await homeCheck(false,'2026-10-04')).hidden,true);
 assert.ok((await homeCheck(true,'2026-10-03')).textContent.includes('2026-10-03'));
+// One damaged kit must not crash history, mutate raw bytes, or hide healthy kits.
+const damagedKey=data.storagePrefix+q.id, healthy=storage[damagedKey];
+for(const corrupt of [
+  s=>{s.runs[0].pickOrder=[];}, s=>{s.runs[0].displayOrder[1]=s.runs[0].displayOrder[0];},
+  s=>{s.runs[0].elapsedMs='1200';}, s=>{s.runs[1].parentId='missing-parent';},
+  s=>{s.question.expectedOrder.reverse();}, s=>{s.runs[0].result=0;}, s=>{s.runs[0].date='2026-99-99';}
+]) {
+  const invalid=JSON.parse(healthy);corrupt(invalid);
+  const raw=JSON.stringify(invalid);storage[damagedKey]=raw;
+  boot('history');
+  assert.ok(nodes['partb-app'].textContent.includes('原数据已保留'));
+  assert.ok(nodes['partb-app'].textContent.includes(second.title),'Healthy history remains available');
+  assert.equal(storage[damagedKey],raw);
+  boot('review','?qid='+q.id);
+  assert.ok(nodes['partb-app'].textContent.includes('本地记录格式不完整'));
+  windowEvents.pagehide();assert.equal(storage[damagedKey],raw,'Unreadable kit cannot be overwritten after pagehide');
+}
+storage[damagedKey]=healthy;
+function isolatedStore(items={},getError=null) {
+  const store={...items};
+  Object.defineProperties(store,{getItem:{value(k){if(getError?.(k))throw Error('read blocked');return this[k]??null;}},
+    setItem:{value(k,v){this[k]=v;}}});
+  return store;
+}
+const blockedStore=isolatedStore({[damagedKey]:healthy,[data.storagePrefix+'active']:JSON.stringify(q.id)},()=>true);
+const blockedBefore=JSON.stringify(blockedStore);
+boot('review','?qid='+q.id,blockedStore);choose(q.expectedOrder[0]);windowEvents.pagehide();
+assert.equal(JSON.stringify(blockedStore),blockedBefore,'Blocked reads must never replace potentially existing records');
+assert.ok(nodes['partb-app'].textContent.includes('当前仅临时作答'));
+// Restoring remote first results must not create a new main attempt on a new browser.
+const remote=r=>({...core.score(r,r.expectedOrder),qid:r.id,title:r.title,date:'2026-10-04',
+  roundId:'pb-remote-'+r.id,pickOrder:r.expectedOrder.slice(),expectedOrder:r.expectedOrder.slice(),ms:120000,uncertain:false,origin:900});
+data.results=[remote(q),remote(questions[1])];
+const freshBrowser=isolatedStore();
+boot('review','?qid='+q.id,freshBrowser);
+assert.equal(run(q.id).id,data.results[0].roundId);
+assert.equal(run(q.id).result.fullOrderOk,true);
+assert.equal(currentState(q.id).runs.length,1);
+assert.ok(nodes['partb-app'].textContent.includes('恢复真实首次成绩'));
+click('原题回顾（不计掌握）');finish(q.expectedOrder);
+click('提交首次结果到 GitHub');
+const restoredReport=JSON.parse(new URL(opened).searchParams.get('body').match(/<!-- review-json:v4\s*\n(.*?)\n-->/s)[1]);
+assert.equal(restoredReport.roundId,data.results[0].roundId);
+assert.equal(restoredReport.date,'2026-10-04');
+assert.equal(restoredReport.answers[0].ms,120000);
+click('下一篇新语境');
+assert.equal(JSON.parse(freshBrowser[data.storagePrefix+'active']),questions[2].id,'Remote completed kits are excluded from fresh context selection');
+boot('review','',isolatedStore());
+assert.equal(nodes.partbKit.children.find(o=>o.selected).value,questions[2].id,'New browser starts with a truly unseen kit');
+data.results=[];
+boot('history');
+assert.equal(storage[damagedKey],healthy,'Remote restoration cannot modify existing local first results');
 if(process.argv.includes('--report'))process.stdout.write(JSON.stringify(obj));
-else console.log('Part B UI passed: shuffle, partial refresh, undo/clear, first result, retry, report, fresh variant, keyboard focus, history, isolated storage, 720 permutations.');
+else console.log('Part B UI passed: shuffle, partial refresh, first result/retry, verified remote recovery, local/remote fresh context spacing, damaged-history isolation, blocked-read protection, keyboard focus, isolated storage, 720 permutations.');

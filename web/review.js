@@ -14,6 +14,7 @@
   let active = !document.hidden;
   let storageError = '', memoryOnly = false;
   let questionVisible = false;
+  let retryLoading = false, contextMap = null;
   const sources = new Map([...DATA.questions, ...Object.values(DATA.retry || {}).flat()].map(q => [q.id, q]));
   const today = () => new Intl.DateTimeFormat('sv-SE', {timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'}).format(new Date());
   const byId = id => document.getElementById(id);
@@ -79,9 +80,9 @@
         typeof r.id === 'string' && ['main','retry'].includes(r.kind) &&
         (!r.parentId || value.runs.some(parent=>parent?.id===r.parentId && parent.kind==='main')) &&
         r.index >= 0 && r.index <= r.queue.length && r.answers.length <= r.queue.length &&
-        r.index <= r.answers.length && r.answers.every(a=>a && Number.isInteger(a.pick) &&
+        r.index <= r.answers.length && r.answers.every((a,i)=>a && a.qid===r.queue[i]?.id && a.family===r.queue[i]?.family && Number.isInteger(a.pick) &&
           a.pick >= 0 && a.pick < 4 && Number.isInteger(a.expected) && a.expected >= 0 && a.expected < 4 &&
-          typeof a.ok === 'boolean' && Number.isFinite(a.ms) && a.ms >= 0) &&
+          a.expected===r.queue[i].a && a.ok===(a.pick===a.expected) && Number.isFinite(a.ms) && a.ms >= 0) &&
         r.queue.every(q => q && typeof q.id === 'string' && typeof q.family === 'string' && typeof q.q === 'string' &&
           Array.isArray(q.o) && q.o.length === 4 && q.o.every(x=>typeof x==='string') &&
           Number.isInteger(q.a) && q.a >= 0 && q.a < 4 &&
@@ -98,8 +99,11 @@
         memoryOnly = true;
         storageError = '本地记录无法完整读取，原数据已保留。当前仅临时作答；完成后请导出报告。';
       }
-      state = {version: 3, date: DATA.date, runs: [], current: 0};
+      state = {version: 3, date: DATA.date, meta: DATA.meta, retry: copy(DATA.retry || {}), runs: [], current: 0};
       createRun('main', DATA.questions, null);
+    } else if (key === PREFIX + (DATA.storageId || DATA.date)) {
+      state.retry ??= copy(DATA.retry || {});
+      state.meta ??= DATA.meta;
     }
   }
   function current() { return state.runs[state.current]; }
@@ -156,7 +160,7 @@
   window.addEventListener('pagehide', checkpoint);
   function shell() {
     app.innerHTML = '<header><h1>' + (DATA.title || '今日定制 · 8题') + '</h1><div id="meta" class="muted"></div><div class="actions"><a class="button" href="./">返回总训练站</a><button id="historyBtn">本地历史记录</button><button id="todayBtn">' + (DATA.progressLabel || '返回本轮进度') + '</button></div></header><p id="notice" class="notice hidden" role="status"></p><section id="body" class="card" aria-live="polite"></section>';
-    byId('meta').textContent = DATA.meta || (state.date + ' · 约5–10分钟 · 答题后显示解析 · 刷新保留进度');
+    byId('meta').textContent = state.meta || (state.date + (storageKey === PREFIX + (DATA.storageId || DATA.date) ? '' : ' · 历史题单') + ' · 约5–10分钟 · 答题后显示解析 · 刷新保留进度');
     byId('historyBtn').onclick = () => { checkpoint(); historyView(); };
     byId('todayBtn').onclick = () => { checkpoint(); restore(PREFIX + (DATA.storageId || DATA.date)); render(); };
     if (!DATA.ignoreStale && DATA.date < today()) notice('服务器当前题单日期为 ' + DATA.date + '。若今日任务尚未发布，可先保留进度，稍后刷新；不要清空本地记录。');
@@ -172,7 +176,7 @@
     const body = byId('body');
     paragraph(body, '【本题目标：' + q.target + '】', 'target');
     paragraph(body, (run.kind === 'retry' ? '错题重做' : '主测') + ' · ' + (run.index + 1) + ' / ' + run.queue.length, 'muted');
-    if (q.retryOriginal) paragraph(body, '此目标暂时没有另一道经过审核的题，当前重做原题；首次错误仍保留。', 'notice');
+    if (q.retryOriginal) paragraph(body, q.retryNotice || '此目标暂时没有另一道新语境题，当前重做原题；首次错误仍保留。', 'notice');
     paragraph(body, q.q, 'sentence');
     const choices = document.createElement('div'); choices.className = 'choices';
     q.o.forEach((text, i) => {
@@ -205,16 +209,62 @@
     save(); render();
   }
   function wrongOf(run) { return run.answers.map((r, i) => ({record: r, q: run.queue[i]})).filter(x => !x.record.ok); }
-  function retryWrong() {
+  function validRetryPool(pool) {
+    return pool && typeof pool==='object' && !Array.isArray(pool) && Object.entries(pool).every(([family,items])=>
+      Array.isArray(items) && items.every(q=>q && typeof q.id==='string' && q.family===family && typeof q.q==='string' &&
+        Array.isArray(q.o) && q.o.length===4 && new Set(q.o).size===4 && q.o.every(x=>typeof x==='string') &&
+        Number.isInteger(q.a) && q.a>=0 && q.a<4 && q.exp && ['trans','structure','other','meaning','rest'].every(k=>typeof q.exp[k]==='string')));
+  }
+  async function historicalRetryPool(root, key) {
+    const id=key.slice(PREFIX.length);
+    let path;
+    if(PREFIX==='kaoyan.daily.v3.' && /^\d{4}-\d{2}-\d{2}$/.test(id))path='./data/days/'+id+'.json';
+    else if(PREFIX==='kaoyan.article.v1.' && /^[a-zA-Z0-9_-]{1,160}$/.test(id))path='./data/article-reviews/'+id+'.json';
+    if(!path)throw new Error('请从该轮的原页面打开迁移题。');
+    const response=await fetch(path,{cache:'no-store'});
+    if(!response.ok)throw new Error('历史题单暂时无法读取。');
+    const payload=await response.json();
+    if((payload.storageId||payload.date)!==id || payload.date!==root.date || !Array.isArray(payload.questions) || !validRetryPool(payload.retry) ||
+        !root.queue.every(q=>payload.questions.some(source=>source.id===q.id && source.family===q.family && source.q===q.q &&
+          source.o.length===4 && q.o.every(x=>source.o.includes(x)) && source.o[source.a]===q.o[q.a]))) {
+      throw new Error('历史题单与保存的首次题目不一致。');
+    }
+    return payload;
+  }
+  async function retryWrong() {
+    if(retryLoading)return;
     const root = rootRun();
     const wrong = wrongOf(root);
     if (!wrong.length) { notice('这次主测没有错题；可以查看解析或全部重做。'); return; }
+    const key=storageKey;
+    let pool=state.retry, retryNotice='';
+    retryLoading=true;
+    try {
+      if(!validRetryPool(pool) || wrong.some(({q})=>!Object.prototype.hasOwnProperty.call(pool,q.family))) {
+        notice('正在读取这份历史题单的迁移题；首次成绩保持不变。');
+        const payload=await historicalRetryPool(root,key);
+        if(storageKey!==key || rootRun().id!==root.id)return;
+        pool=copy(payload.retry);state.retry=pool;state.meta=payload.meta;save();
+      }
+      const variants=wrong.flatMap(({q})=>pool[q.family]||[]);
+      if(!contextMap && [...wrong.map(x=>x.q),...variants].some(q=>!q.context_id && !sources.get(q.id)?.context_id)) {
+        try {
+          const response=await fetch('./data/question-contexts.json',{cache:'no-store'});
+          const metadata=response.ok?await response.json():null;
+          contextMap=metadata?.contexts || {};
+        }catch(_){contextMap={};}
+      }
+    }catch(_){pool={};retryNotice='当前页面无法取得这轮的迁移题。可从历史入口打开原页；当前先回顾原题，首次成绩保留。';}
+    finally{retryLoading=false;}
+    if(storageKey!==key || rootRun().id!==root.id)return;
+    const contextOf=q=>q.context_id || sources.get(q.id)?.context_id || contextMap?.[q.id] || q.id;
     const used = new Set(state.runs.filter(r => r.parentId === root.id).flatMap(r => r.queue.map(q => q.id)));
+    const usedContexts = new Set(state.runs.filter(r => r.parentId === root.id).flatMap(r => r.queue.map(contextOf)));
     const questions = wrong.map(({q}) => {
-      const candidates = (DATA.retry[q.family] || []).filter(x => x.q !== q.q);
-      const fresh = candidates.filter(x => !used.has(x.id));
+      const candidates = (pool[q.family] || []).filter(x => x.id!==q.id && x.q !== q.q && contextOf(x)!==contextOf(q));
+      const fresh = candidates.filter(x => !used.has(x.id) && !usedContexts.has(contextOf(x)));
       if (fresh.length || candidates.length) return copy(shuffle(fresh.length ? fresh : candidates)[0]);
-      return {...copy(q), retryOriginal: true};
+      return {...copy(q), retryOriginal: true, ...(retryNotice?{retryNotice}:{})};
     });
     createRun('retry', shuffle(questions), root.id); render();
   }

@@ -100,6 +100,27 @@ class ReportIntegrityTests(unittest.TestCase):
             with self.subTest(stamp=stamp), self.assertRaises(ValueError):
                 self.parse(report(self.q, answeredOn=stamp))
 
+    def test_later_issue_edit_accepts_actual_answer_day_without_redating_prior_answers(self):
+        review.save(self.root / "data/days/2026-10-05.json", {"date": "2026-10-05", "questions": self.items})
+        obj = report(self.q, day="2026-10-05")
+        old = {**obj["answers"][0], "qid": self.items[1]["id"], "family": self.items[1]["family"], "answeredOn": "2026-10-06"}
+        obj["answers"].append(old)
+        edited = {**issue(obj), "created_at": "2026-10-06T08:00:00Z", "updated_at": "2026-10-07T08:00:00Z"}
+        rows = review.parse_issue(edited, self.root)[1]
+        self.assertEqual([r["date"] for r in rows], ["2026-10-07", "2026-10-06"])
+        obj["answers"][0]["answeredOn"] = "2026-10-08"
+        with self.assertRaises(ValueError):
+            review.parse_issue({**edited, "body": issue(obj)["body"]}, self.root)
+
+    def test_revision_timestamp_uses_beijing_day_and_never_invents_answer_day(self):
+        obj = report(self.q, answeredOn="2026-10-08")
+        edited = {**issue(obj), "updated_at": "2026-10-07T16:05:00Z"}
+        self.assertEqual(review.parse_issue(edited, self.root)[1][0]["date"], "2026-10-08")
+        del obj["answers"][0]["answeredOn"]
+        unknown = review.parse_issue({**edited, "body": issue(obj)["body"]}, self.root)[1][0]
+        self.assertTrue(unknown["date_unverified"])
+        self.assertEqual(review.make_stats(self.items, [unknown], [], date(2026, 10, 8))[self.q["family"]]["streak"], 0)
+
     def test_unknown_question_family_and_storage_namespace_are_rejected(self):
         for extra in [{"qid": "unknown-id"}, {"family": "family-1"}]:
             with self.subTest(extra=extra), self.assertRaises(ValueError):

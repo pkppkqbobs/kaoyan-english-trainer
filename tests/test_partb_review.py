@@ -128,6 +128,15 @@ class PartBScoringTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             review.parse_issue(entry, self.root)
 
+    def test_later_issue_edit_can_report_later_actual_completion_but_not_a_future_day(self):
+        obj = report(self.q, day="2026-10-05")
+        edited = {**issue(obj), "created_at": "2026-10-04T13:00:00Z", "updated_at": "2026-10-05T13:00:00Z"}
+        _, rows = review.parse_issue(edited, self.root)
+        self.assertTrue(all(row["date"] == "2026-10-05" for row in rows))
+        future = report(self.q, day="2026-10-06")
+        with self.assertRaises(ValueError):
+            review.parse_issue({**edited, "body": issue(future)["body"]}, self.root)
+
     def test_duplicate_issues_and_repeated_issue_are_counted_once(self):
         obj = report(self.q)
         one = issue(obj)
@@ -277,6 +286,21 @@ class PartBIntegrationTests(unittest.TestCase):
             review.save(root / "data/review-state.json", weak)
             self.assertFalse(partb.build(root)["recommend"])
             self.assertEqual(review.load(root / "data/result-evidence.json"), {"rows": [], "issues": []})
+
+    def test_compatible_shared_script_fix_keeps_published_pages_and_snapshots_unchanged(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(ROOT / "data", root / "data")
+            shutil.copytree(ROOT / "web", root / "web")
+            for page in ROOT.glob("partb*.html"):
+                shutil.copy(page, root / page.name)
+            protected = list(root.glob("partb*.html")) + list((root / "data/partb-reviews").glob("*.json"))
+            before = {p: p.read_bytes() for p in protected}
+            for name in ("partb.js", "partb-core.js", "partb-home.js"):
+                with (root / "web" / name).open("a") as handle:
+                    handle.write("\n// Compatible shared asset correction.\n")
+            partb.build(root)
+            self.assertTrue(all(p.read_bytes() == content for p, content in before.items()))
 
     def test_sync_parser_updates_family_and_history_but_keeps_locked_questions(self):
         with tempfile.TemporaryDirectory() as directory:

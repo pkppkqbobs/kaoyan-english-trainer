@@ -9,7 +9,7 @@ Object.defineProperties(storage, {
   setItem: {value(key, value) { this[key] = value; }}
 });
 const fields = ['trans', 'structure', 'other', 'meaning', 'rest'];
-const question = (id, family) => ({id, family, target: family, q: 'Question about ' + id,
+const question = (id, family) => ({id, family, context_id: id, target: family, q: 'Question about ' + id,
   o: ['choice one', 'choice two', 'choice three', 'choice four'], a: 0,
   exp: Object.fromEntries(fields.map(k => [k, id + ': ' + k]))});
 const data = {date: '2026-09-29', repo: 'pkppkqbobs/kaoyan-english-trainer',
@@ -21,6 +21,7 @@ originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta' + paragraphReferenc
 originalFirst.diag = {1: 'diagnostic for choice two; 段B位于段C之前', 2: 'diagnostic for choice three', 3: 'diagnostic for choice four'};
 const source = fs.readFileSync('web/review.js', 'utf8');
 let nodes, opened, clock, pageEvents, documentEvents, simulatedDay;
+const mockPayloads = new Map(), fetchRequests = [];
 class FixtureDate extends Date {
   constructor(...args) { super(...(args.length ? args : [FixtureDate.now()])); }
   static now() { return Date.parse((simulatedDay || data.date) + 'T12:00:00+08:00'); }
@@ -50,7 +51,11 @@ function boot() {
     addEventListener(type, handler) { documentEvents[type] = handler; }};
   const context = {window: {REVIEW_DATA: data, open: url => { opened = url; },
     addEventListener(type, handler) { pageEvents[type] = handler; }}, document, localStorage: storage,
-    performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console};
+    performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console,
+    fetch: async path => {
+      fetchRequests.push(path);
+      return {ok: mockPayloads.has(path), json: async () => structuredClone(mockPayloads.get(path))};
+    }};
   vm.runInNewContext(source, context, {timeout: 2000});
 }
 function allButtons(element = nodes.body) {
@@ -183,7 +188,8 @@ assert.equal(storage[damagedKey], 'not valid JSON', 'corrupt local records must 
 allButtons().find(b=>b.className==='choice').click();
 assert.equal(storage[damagedKey], 'not valid JSON', 'temporary answers must preserve the unreadable original');
 assert.ok(nodes.notice.textContent.includes('原数据已保留'));
-for (const corruption of [s=>{s.current=999;}, s=>{s.runs[0].answers[0].ms='invalid';}, s=>{s.runs[0].answers[0]=null;}]) {
+for (const corruption of [s=>{s.current=999;}, s=>{s.runs[0].answers[0].ms='invalid';}, s=>{s.runs[0].answers[0]=null;},
+  s=>{s.runs[0].answers[0].ok=false;}, s=>{s.runs[0].answers[0].qid='unrelated-question';}]) {
   const saved = JSON.parse(text3Snapshot); corruption(saved);
   const raw = JSON.stringify(saved); storage[damagedKey] = raw;
   boot();
@@ -193,4 +199,80 @@ for (const corruption of [s=>{s.current=999;}, s=>{s.runs[0].answers[0].ms='inva
   assert.ok(nodes.body.textContent.includes('本地历史'));
   assert.equal(storage[damagedKey], raw);
 }
-console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection.');
+
+// Old v3 records did not cache their original retry pool. Restoring one on the
+// latest article page must recover its immutable source, not the new article.
+const contexts = JSON.parse(fs.readFileSync('data/question-contexts.json', 'utf8')).contexts;
+const oldState = JSON.parse(text3Snapshot), oldMain = oldState.runs[0];
+delete oldState.retry; delete oldState.meta;
+const wrongIndex = oldMain.queue.findIndex(q => !text4.retry[q.family] &&
+  text3.retry[q.family]?.some(v => v.id !== q.id && contexts[v.id] !== contexts[q.id]));
+assert.ok(wrongIndex >= 0, 'fixture needs an old family absent from the latest sheet');
+oldMain.answers = oldMain.queue.map((q, i) => ({qid: q.id, family: q.family,
+  pick: i === wrongIndex ? (q.a + 1) % 4 : q.a, expected: q.a, ok: i !== wrongIndex,
+  ms: 1000, uncertain: false, answeredOn: text3.date}));
+oldMain.index = oldMain.queue.length;
+delete oldMain.timing;
+const originalAnswers = JSON.stringify(oldMain.answers), oldQuestion = oldMain.queue[wrongIndex];
+const oldSourcePath = './data/article-reviews/' + text3.storageId + '.json';
+Object.assign(data, text4);
+function restoreOld(state) {
+  storage[text3Key] = JSON.stringify(state); boot(); nodes.historyBtn.click();
+  clickText(text3.date + ' · 主测 · 7/8 · 已完成');
+}
+mockPayloads.set(oldSourcePath, text3);
+mockPayloads.set('./data/question-contexts.json', {contexts});
+restoreOld(oldState);
+assert.ok(nodes.meta.textContent.includes('历史题单'));
+assert.ok(!nodes.meta.textContent.includes('2012'));
+const beforeRequests = fetchRequests.length;
+clickText('① 只重做错题'); clickText('① 只重做错题');
+await new Promise(setImmediate);
+let restored = JSON.parse(storage[text3Key]);
+assert.equal(restored.runs.length, 2, 'double click while fetching must create only one retry');
+assert.equal(fetchRequests.slice(beforeRequests).filter(p=>p===oldSourcePath).length, 1);
+const migrated = restored.runs[1].queue[0];
+assert.equal(migrated.family, oldQuestion.family);
+assert.notEqual(migrated.id, oldQuestion.id);
+assert.notEqual(contexts[migrated.id], contexts[oldQuestion.id]);
+assert.equal(JSON.stringify(restored.runs[0].answers), originalAnswers);
+assert.ok(restored.retry[oldQuestion.family]);
+assert.equal(restored.meta, text3.meta);
+assert.ok(nodes.meta.textContent.includes('2011'));
+assert.ok(!nodes.meta.textContent.includes('2012'));
+
+// A failed fetch must preserve the first result and accurately label the fallback.
+mockPayloads.delete(oldSourcePath); restoreOld(oldState);
+clickText('① 只重做错题'); await new Promise(setImmediate);
+restored = JSON.parse(storage[text3Key]);
+assert.equal(restored.runs[1].queue[0].id, oldQuestion.id);
+assert.ok(nodes.body.textContent.includes('无法取得这轮的迁移题'));
+assert.equal(JSON.stringify(restored.runs[0].answers), originalAnswers);
+
+// A response from another published sheet must not be used for this old round.
+mockPayloads.set(oldSourcePath, text4); restoreOld(oldState);
+clickText('① 只重做错题'); await new Promise(setImmediate);
+restored = JSON.parse(storage[text3Key]);
+assert.equal(restored.runs[1].queue[0].id, oldQuestion.id);
+assert.equal(JSON.stringify(restored.runs[0].answers), originalAnswers);
+
+// Different IDs in the same curated context are not fresh transfer practice.
+const contextState = structuredClone(oldState);
+contextState.runs[0].queue[wrongIndex].context_id = 'same-old-context';
+const near = {...question('near-copy', oldQuestion.family), context_id: 'same-old-context'};
+const fresh = {...question('independent-transfer', oldQuestion.family), context_id: 'different-context'};
+contextState.retry = {[oldQuestion.family]: [near, fresh]};
+restoreOld(contextState); clickText('① 只重做错题'); await new Promise(setImmediate);
+restored = JSON.parse(storage[text3Key]);
+assert.equal(restored.runs[1].queue[0].id, fresh.id);
+assert.equal(JSON.stringify(restored.runs[0].answers), originalAnswers);
+contextState.retry[oldQuestion.family] = [near];
+restoreOld(contextState); clickText('① 只重做错题'); await new Promise(setImmediate);
+restored = JSON.parse(storage[text3Key]);
+assert.equal(restored.runs[1].queue[0].id, oldQuestion.id);
+assert.equal(restored.runs[1].queue[0].retryOriginal, true);
+assert.equal(JSON.stringify(restored.runs[0].answers), originalAnswers);
+assert.equal(storage[dailyKey], dailySnapshot);
+assert.equal(storage[passageKey], passageSnapshot);
+assert.equal(storage[text4Key], text4Snapshot, 'historical retry must preserve the latest article');
+console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection, immutable historical retry recovery, fetch failure, wrong-source rejection, duplicate-click prevention, same-context exclusion.');
