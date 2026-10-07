@@ -153,6 +153,16 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "evaluation-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-07",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
+    },
     "even": {
       "streak": 2,
       "errors": 0,
@@ -283,6 +293,16 @@
       "observed_days": 2,
       "observation_priority": 3
     },
+    "paragraph-scope-attitude": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-07",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "parallel-governance": {
       "streak": 1,
       "errors": 1,
@@ -393,6 +413,26 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "scope-role-match": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-07",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "social-cure-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-07",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
+    },
     "social-message-inference": {
       "streak": 0,
       "errors": 1,
@@ -442,6 +482,16 @@
       "reported_confusion": false,
       "observed_days": 3,
       "observation_priority": 0
+    },
+    "take-page-from": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-07",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "title-coverage": {
       "streak": 0,
