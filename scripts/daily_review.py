@@ -202,6 +202,38 @@ def get_issues(repo):
     raise RuntimeError("Issue pagination limit reached; refusing a partial history")
 
 
+def published_question(root, report, qid):
+    """Resolve the immutable published question, not today's mutable source bank."""
+    module, storage_id = report.get("module"), report.get("storageId")
+    payloads = []
+    if module is not None or storage_id is not None:
+        if module not in {"daily", "article", "passage"} or not isinstance(storage_id, str) or not re.fullmatch(r"[a-zA-Z0-9_-]{1,160}", storage_id):
+            raise ValueError("Invalid multiple-choice module/storageId")
+        if module == "daily":
+            if storage_id != report["date"]:
+                raise ValueError("Daily storageId differs from its published date")
+            payloads = [load(root / f"data/days/{storage_id}.json", {})]
+        elif module == "article":
+            payloads = [load(root / f"data/article-reviews/{storage_id}.json", {})]
+    else:
+        payloads = [load(root / f"data/days/{report['date']}.json", {})]
+        payloads += [load(p) for p in sorted((root / "data/article-reviews").glob("*.json"))]
+    if module in (None, "passage"):
+        for path in sorted(root.glob("passage-drill-*.html")):
+            text = path.read_text(encoding="utf-8")
+            if "window.REVIEW_DATA=" not in text:
+                continue
+            payload, _ = json.JSONDecoder().raw_decode(text.split("window.REVIEW_DATA=", 1)[1].lstrip())
+            if module is None or payload.get("storageId", payload["date"]) == storage_id:
+                payloads.append(payload)
+    matches = [q for p in payloads if p.get("date") == report["date"]
+               for q in p.get("questions", []) if q["id"] == qid]
+    definitions = {(q["family"], tuple(q["o"]), q["a"]) for q in matches}
+    if len(definitions) != 1:
+        raise ValueError("Unknown or ambiguous published question; refresh its original training page")
+    return matches[0]
+
+
 def parse_issue(issue, root=ROOT):
     """Return one report id and evidence rows. Aggregate-only reports do not fabricate item order."""
     body = issue.get("body") or ""
@@ -209,46 +241,103 @@ def parse_issue(issue, root=ROOT):
     title_date = re.search(r"\d{4}-\d{2}-\d{2}", issue.get("title", ""))
     if title_date:
         stamp = title_date.group()
+    issue_day = datetime.fromisoformat(issue["created_at"].replace("Z", "+00:00")).astimezone(TZ).date()
+    markers = re.findall(r"<!--\s*review-json:(v\d+)", body)
+    if markers and (len(markers) != 1 or markers[0] not in {"v3", "v4"}):
+        raise ValueError("Ambiguous or unsupported structured report")
     ordering = re.search(r"<!-- review-json:v4\s*\n(.*?)\n-->", body, re.S)
+    if markers == ["v4"] and not ordering:
+        raise ValueError("Incomplete review-json:v4 block")
     if ordering:
         from partb_review import parse_report
         return parse_report(json.loads(ordering.group(1)), issue, root)
     structured = re.search(r"<!-- review-json:v3\s*\n(.*?)\n-->", body, re.S)
+    if markers == ["v3"] and not structured:
+        raise ValueError("Incomplete review-json:v3 block")
     if structured:
         obj = json.loads(structured.group(1))
+        if not isinstance(obj, dict) or obj.get("version", 3) != 3:
+            raise ValueError("Malformed review-json:v3 object")
         if not isinstance(obj.get("roundId"), str) or not obj["roundId"].strip():
             raise ValueError("Malformed structured report id")
         if not isinstance(obj.get("answers"), list):
             raise ValueError("Malformed structured answers")
-        date.fromisoformat(obj["date"])
-        rows = []
+        paper_day = date.fromisoformat(obj["date"])
+        if paper_day > issue_day:
+            raise ValueError("Report cannot claim a future learning date")
+        rows, qids = [], set()
         for row in obj["answers"]:
             if not isinstance(row, dict):
                 raise ValueError("Malformed structured answer")
             kind = row.get("kind", "main")
+            if kind not in {"main", "retry"}:
+                raise ValueError("Unknown structured answer kind")
             if kind != "main":
                 continue
             if not isinstance(row.get("family"), str) or not row["family"].strip():
                 raise ValueError("Malformed structured family")
             if "qid" in row and (not isinstance(row["qid"], str) or not row["qid"].strip()):
                 raise ValueError("Malformed structured question id")
+            family = canonical(row["family"])
+            if row.get("qid") and row["qid"] in qids:
+                raise ValueError("Duplicate main question in one report")
+            if row.get("qid"):
+                qids.add(row["qid"])
             if type(row.get("pick")) is not int or not 0 <= row["pick"] < 4:
                 raise ValueError("Malformed structured choice")
             if type(row.get("expected")) is not int or not 0 <= row["expected"] < 4:
                 raise ValueError("Malformed structured answer key")
-            if type(row.get("ok")) is not bool or row["ok"] != (row["pick"] == row["expected"]):
+            if type(row.get("ok")) is not bool:
+                raise ValueError("Malformed structured correctness flag")
+            verified = "optionOrder" in row or "pickText" in row or "expectedText" in row
+            if (obj.get("module") is not None or obj.get("storageId") is not None) and not verified:
+                raise ValueError("Published-page report must include its saved option permutation/text")
+            ok = row["pick"] == row["expected"]
+            if verified:
+                q = published_question(root, obj, row.get("qid"))
+                if canonical(q["family"]) != family:
+                    raise ValueError("Reported family differs from the published question")
+                if "optionOrder" in row:
+                    order = row["optionOrder"]
+                    if not isinstance(order, list) or len(order) != 4 or any(type(x) is not int for x in order) or set(order) != set(range(4)):
+                        raise ValueError("Malformed option permutation")
+                    if row["expected"] != order.index(q["a"]):
+                        raise ValueError("Supplied answer key differs from the published key")
+                    ok = order[row["pick"]] == q["a"]
+                else:
+                    if row.get("pickText") not in q["o"] or row.get("expectedText") != q["o"][q["a"]]:
+                        raise ValueError("Choice text differs from the published options/key")
+                    ok = row["pickText"] == q["o"][q["a"]]
+                    if ok != (row["pick"] == row["expected"]):
+                        raise ValueError("Choice text contradicts the saved first indices")
+            elif row["ok"] != ok:
+                # Historical v3 reports did not save the shuffled option order.
+                # Keep their original evidence; never invent a missing permutation.
                 raise ValueError("Structured answer does not match its choice and key")
             if "uncertain" in row and type(row["uncertain"]) is not bool:
                 raise ValueError("Malformed uncertain flag")
             if type(row.get("ms")) not in (int, float) or not math.isfinite(row["ms"]) or not 0 <= row["ms"] <= 3600000:
                 raise ValueError("Malformed answer time")
-            parsed = {"date": obj["date"], "family": canonical(row["family"]),
-                      "ok": row["pick"] == row["expected"], "ms": row["ms"],
+            unknown_day = verified and "answeredOn" not in row
+            answered_day = issue_day if unknown_day else date.fromisoformat(row.get("answeredOn", obj["date"]))
+            if not paper_day <= answered_day <= issue_day:
+                raise ValueError("Answer date is outside publication/submission dates")
+            parsed = {"date": answered_day.isoformat(), "family": family,
+                      "ok": ok, "ms": row["ms"],
                       "uncertain": row.get("uncertain", False), "origin": issue["number"]}
             if "qid" in row:
                 parsed["qid"] = row["qid"]
+            if verified:
+                parsed["round_id"] = obj["roundId"]
+                parsed["source_date"] = obj["date"]
+                if unknown_day:
+                    # Submission is a known date; the original answer day is not.
+                    # This can inform review, but never adds a mastery day.
+                    parsed["date_unverified"] = True
             rows.append(parsed)
         return str(obj["roundId"]), rows
+    if date.fromisoformat(stamp) > issue_day:
+        raise ValueError("Legacy report cannot claim a future learning date")
     rows, detailed = [], set()
     for line in body.splitlines():
         match = re.match(r"Q\d+\s+(?:\[[^\]]+\]\s*)?(.+?)：选([ABCD])→正确([ABCD])；.*?([0-9.]+)s\s*$", line)
@@ -271,16 +360,27 @@ def parse_issue(issue, root=ROOT):
     return "legacy-issue-" + str(issue["number"]), rows
 
 
-def evidence(issues, owner, root=ROOT):
+def evidence(issues, owner, root=ROOT, *, rejected=None, fallback=None):
     rows, seen, accepted = [], set(), []
-    for issue in sorted(issues, key=lambda x: x.get("created_at", "")):
+    for issue in sorted(issues, key=lambda x: (x.get("created_at", ""), x.get("number", 0))):
         if issue.get("pull_request") or issue.get("user", {}).get("login", "").lower() != owner.lower():
             continue
         if not issue.get("title", "").startswith("[TRAINING_RESULT]"):
             continue
         if "<!-- kaoyan-english-training-result -->" not in (issue.get("body") or ""):
             continue
-        report_id, report_rows = parse_issue(issue, root)
+        try:
+            report_id, report_rows = parse_issue(issue, root)
+        except (ValueError, KeyError, TypeError, AttributeError, AssertionError) as error:
+            if rejected is None:
+                raise
+            retained = issue["number"] in (fallback or {})
+            rejected.append({"issue": issue["number"], "reason": str(error), "retained_previous": retained})
+            if retained:
+                seen.update(r["round_id"] for r in fallback[issue["number"]] if r.get("round_id"))
+                rows.extend(copy.deepcopy(fallback[issue["number"]]))
+                accepted.append(issue["number"])
+            continue
         if report_id in seen:
             continue
         seen.add(report_id)
@@ -317,8 +417,13 @@ def make_stats(items, rows, notes, day):
             day_slow = any(x["ms"] > x.get("slow_threshold_ms", threshold) or x.get("uncertain", False) for x in observations)
             errors += day_errors
             slow = slow or day_slow
-            streak = streak + 1 if ok and not day_slow else 0
-            last = stamp
+            known_day = any(not x.get("date_unverified") for x in observations)
+            if not ok or day_slow:
+                streak = 0
+            elif known_day:
+                streak += 1
+            if known_day or not ok or day_slow:
+                last = stamp
         # Chat observations are evidence of confusion, not fictitious scored attempts.
         family_notes = [n for n in notes if n["family"] == family and n["date"] <= day.isoformat()]
         latest_note = max((n["date"] for n in family_notes), default=None)
@@ -330,6 +435,10 @@ def make_stats(items, rows, notes, day):
                 observations = per_day[stamp]
                 day_errors = sum(x.get("errors", int(not x["ok"])) for x in observations)
                 day_slow = any(x["ms"] > x.get("slow_threshold_ms", threshold) or x.get("uncertain", False) for x in observations)
+                if not any(not x.get("date_unverified") for x in observations):
+                    if day_errors or day_slow:
+                        clear_days = 0
+                    continue
                 clear_days = clear_days + 1 if day_errors == 0 and not day_slow else 0
         active_notes = bool(family_notes and clear_days < 2)
         if active_notes:
@@ -339,7 +448,8 @@ def make_stats(items, rows, notes, day):
         if active_notes:
             due = min(due, day.isoformat())
         result[family] = {"streak": streak, "errors": errors, "last": last, "due": due,
-                          "slow_or_uncertain": slow, "reported_confusion": active_notes, "observed_days": len(per_day),
+                          "slow_or_uncertain": slow, "reported_confusion": active_notes,
+                          "observed_days": sum(any(not x.get("date_unverified") for x in group) for group in per_day.values()),
                           "observation_priority": max((note_priority(n) for n in family_notes), default=0) if active_notes else 0}
     return result
 
@@ -429,9 +539,21 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
 
 
 def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
+    existing = load(root / "data/daily.json", {})
+    if existing.get("date", "") > day.isoformat():
+        raise ValueError("Refusing to rewind the live daily quiz/state to an older date")
+    locked = load(root / f"data/days/{day.isoformat()}.json", {})
     items = bank(root)
     if sync:
-        rows, accepted = evidence(get_issues(repo), repo.split("/")[0], root)
+        previous = load(root / "data/result-evidence.json", {"rows": [], "issues": []})
+        saved_rows = previous["rows"] + load(root / "data/excluded-evidence.json", [])
+        fallback = {number: [r for r in saved_rows if r["origin"] == number] for number in previous["issues"]}
+        rejected = []
+        rows, accepted = evidence(get_issues(repo), repo.split("/")[0], root, rejected=rejected, fallback=fallback)
+        if rejected or (root / "data/rejected-results.json").exists():
+            save(root / "data/rejected-results.json", {"issues": rejected})
+        if rejected:
+            print(json.dumps({"rejected_reports": rejected}, ensure_ascii=False))
         save(root / "data/result-evidence.json", {"rows": rows, "issues": accepted})
     evidence_data = load(root / "data/result-evidence.json", {"rows": [], "issues": []})
     notes = load(root / "data/learning-notes.json", [])
@@ -439,10 +561,9 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     unmapped = sorted({r["family"] for r in evidence_data["rows"]} - set(stats))
     save(root / "data/review-state.json", {"as_of": day.isoformat(), "issues": evidence_data["issues"], "families": stats, "unmapped_targets": unmapped})
     history = load(root / "data/daily-history.json", {})
-    existing = load(root / "data/daily.json", {})
     # A submitted result or an evening bank expansion must not replace a quiz mid-session.
-    if existing.get("date") == day.isoformat():
-        payload = existing
+    if locked.get("date") == day.isoformat() or existing.get("date") == day.isoformat():
+        payload = locked if locked.get("date") == day.isoformat() else existing
     else:
         selected = choose(items, stats, history, day, variant_shown=variant_history(root, day, history))
         payload = {"date": day.isoformat(), "repo": repo, "questions": selected,
@@ -455,6 +576,8 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     save(root / f"data/days/{day.isoformat()}.json", payload)
     script = root / "web/review.js"
     version = hashlib.sha256(script.read_bytes()).hexdigest()[:12]
+    if locked.get("date") == day.isoformat() or existing.get("date") == day.isoformat():
+        version = published_script_version(root / "today.html", version)
     embedded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     page = '''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>今日定制8题 · 考研英语</title>
@@ -476,6 +599,19 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     (site / ".nojekyll").touch()
     print(json.dumps({"date": day.isoformat(), "questions": len(payload["questions"]), "bank_size": len(items), "families": len(stats), "issues_used": evidence_data["issues"], "unmapped_targets": unmapped}, ensure_ascii=False))
     return payload
+
+
+def published_script_version(page, fallback):
+    """Keep immutable page bytes; the shared asset URL still serves compatible fixes.
+
+    New rounds use the current hash. Existing rounds keep their URL/query and
+    local storage IDs instead of rewriting every historical HTML on a JS fix.
+    """
+    if page.exists():
+        match = re.search(r'src="\./web/review\.js\?v=([a-f0-9]{12})"', page.read_text(encoding="utf-8"))
+        if match:
+            return match.group(1)
+    return fallback
 
 
 if __name__ == "__main__":

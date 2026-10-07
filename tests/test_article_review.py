@@ -219,8 +219,9 @@ class ArticleReviewTests(unittest.TestCase):
             env = {**os.environ, 'ARTICLE_TEST_REPORT_PATH': str(report_file)}
             subprocess.run(['node', 'tests/ui.mjs'], cwd=ROOT, env=env, check=True, capture_output=True)
             body = report_file.read_text()
-            issue = {'number': 90, 'created_at': '2026-10-03T12:00:00Z',
-                     'user': {'login': 'pkppkqbobs'}, 'title': '[TRAINING_RESULT] 文章复盘 2026-10-03', 'body': body}
+            report = json.loads(body.split('<!-- review-json:v3\n', 1)[1].split('\n-->', 1)[0])
+            issue = {'number': 90, 'created_at': report['date'] + 'T12:00:00Z',
+                     'user': {'login': 'pkppkqbobs'}, 'title': '[TRAINING_RESULT] 文章复盘 ' + report['date'], 'body': body}
             rows, ids = review.evidence([issue, {**issue, 'number': 91}], 'pkppkqbobs')
             self.assertEqual(ids, [90])
             self.assertEqual(len(rows), 8)

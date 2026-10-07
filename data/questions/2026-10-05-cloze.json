@@ -44,7 +44,7 @@
       "structure": "party politics是主语，can influence是谓语，environmental policy是宾语；but连接限制，it指report，that从句是否定其没有作出的强结论。",
       "other": "party politics 政党政治；environmental 环境的；measure 措施；claim 声称。",
       "meaning": "同一词根不等于同一词义。politics是政治，policy是政策，politician是政治人物；读长文时要让这些词在全文里形成一致的语义链。",
-      "rest": "A混淆politics/policy并扩大为所有人支持；C加入“必须执行”的强制关系；D正是需要避免的词族误认。"
+      "rest": "“政党政策会影响环境政治”颠倒了politics与policy的含义，还把“并非人人赞同”扩大成“所有人支持”；“环境政治决定所有政客必须执行”加入原文没有的强制关系；“都译为政策”抹掉了政治活动、具体政策和政治人物之间的区别。"
     }
   },
   {
@@ -68,7 +68,7 @@
       "structure": "第一句The manual + warns + that从句。第二句the field team + left + them + outside；during a freeze交代环境。yet连接两个完整命题。",
       "other": "manual 手册；battery 电池；below zero 零度以下；freeze 严寒/冰冻天气。",
       "meaning": "yet/however/nevertheless的核心是命题层面的逆预期，不是“前负后正”或“前正后负”的机械符号。这里前文让人预期团队会避免低温，现实却相反。",
-      "rest": "A把转折简化成情感极性；C与第一句警告相冲突且没有证据；D忽略了yet的篇章功能。"
+      "rest": "“负面后必须是正面”把转折误解成情感极性，后句其实是无视警告的行为；“解释低温不会影响电池”既与警告相冲突，也没有文本依据；“自然的时间先后”忽略了yet所标记的预期与现实之间的反差。"
     }
   },
   {
@@ -92,7 +92,7 @@
       "structure": "The new timetable是主语，was designed是被动谓语，to reduce delays说明目的；第二句average waiting time + increased。",
       "other": "timetable 时刻表；delay 延误；average 平均的；waiting time 等待时间。",
       "meaning": "看到yet先问“前一句让我预期什么，后一句如何违背它”。不必先判断哪句是褒义、哪句是贬义。",
-      "rest": "A与increased矛盾；B忽略目标—结果关系；D把时间与因果方向倒置。"
+      "rest": "“目标已经实现”与等待时间increased相矛盾；“毫无逻辑关系”忽略了减少延误的目标与实际等待时间之间的联系；“因为等待增加才设计时刻表”倒置了先设计、后观察结果的时间和因果方向。"
     }
   },
   {
@@ -116,7 +116,7 @@
       "structure": "the panel是主语，rejected是谓语，the rest是宾语；as unjust to smaller firms说明把其余申请视为何种性质。After approving...是时间背景。",
       "other": "application 申请；panel 评审组；approve 批准；firm 企业。",
       "meaning": "rest单独可表示休息，但the rest (of...)常表示“其余的”；just既可作副词“仅仅/刚刚”，也可作形容词“公正的”，unjust由后者加un-构成“不公正的”。",
-      "rest": "A把两个熟词都套成最常见义；C误把the rest的先行集合换成评委，且unjust不是“刚刚”；D既不符合句法也不符合词义。"
+      "rest": "“休息 / 仅仅的”没有识别the rest所指的剩余申请，也误认了unjust的构词；“其余评委 / 刚刚发生的”把申请偷换成评委，且unjust不是副词just“刚刚”的否定；“暂停审批 / 合法的”既改变the rest的名词性含义，又把unjust的价值判断反转。"
     }
   },
   {
@@ -140,7 +140,7 @@
       "structure": "Officials是主语；dismissed是第一个谓语，the complaint是宾语，as trivial是宾补；but后had to address是第二个谓语结构，the evidence是宾语。",
       "other": "complaint 投诉；trivial 微不足道的；evidence 证据；contain 包含。",
       "meaning": "dismiss可表示“解雇”，但dismiss A as B是“把A斥为/视为B而不予重视”；address作动词可表示“处理、应对问题/担忧/证据”，不只表示地址。",
-      "rest": "A把两个熟词都套成名词/常见义；C反转了dismiss与address的语义；D虚构邮寄和地址变化。"
+      "rest": "“解雇投诉人、查找地址”把dismiss的宾语从投诉换成投诉人，并误用address的名词义；“先证明正确、后忽视证据”反转了dismiss与address在此处的意义；“寄出投诉、改变地址”虚构了邮寄行为和地址变化。"
     }
   },
   {
@@ -164,7 +164,7 @@
       "structure": "Researchers + are bound by + a code是被动/状态结构；The same code + applies to + contractors；who指contractors，are subject to表示他们受规则约束。",
       "other": "confidentiality 保密；contractor 承包商；reporting rule 报告规则；code 准则。",
       "meaning": "be bound by=受……约束；apply to=适用于；be subject to=受……约束/服从于。三者可以围绕同一规则形成语义复现链，注意谁是规则、谁是被约束对象。",
-      "rest": "A凭空加入可选择性并排除承包商；C倒置施受关系；D把apply to的“适用于”错当“申请”。"
+      "rest": "“研究人员可以选择、承包商不受影响”既抹掉bound by的约束义，又否定the same code applies to contractors；“研究人员制定、准则被承包商约束”倒置了施受关系；“向承包商提出申请”把apply to的“适用于”误认成另一种搭配用法。"
     }
   },
   {
@@ -188,7 +188,7 @@
       "structure": "The review board是主语，wants是谓语，senior managers是宾语，to be accountable to...是不定式宾补。",
       "other": "review board 审查委员会；senior manager 高级管理者；safety rule 安全规则；everyone else 其他所有人。",
       "meaning": "be accountable to通常表示对某人/机构负责、接受其问责；在规则语境中可理解为必须对遵守规则负责。不要和accessible to（可接近/可获得）混淆。",
-      "rest": "A对应accessible；C接近amiable的语义；D把责任关系偷换成个人赞同。"
+      "rest": "“能够接近”混入accessible的含义；“相处友好”混入amiable的含义；“同意规则写得好”把接受问责的责任关系偷换成个人态度，不能解释accountable。"
     }
   },
   {
@@ -212,7 +212,7 @@
       "structure": "The company是主语，keeps A and B separate是谓语结构；precisely because引出原因，the two teams是主语，are closely tied是系表结构。",
       "other": "approval 审批；formally 正式地/制度上；bonus 奖金；shared 共同的。",
       "meaning": "set/keep A apart/separate from B表示区分；be closely tied表示紧密相关。because并不要求“原因”和“措施”表面同方向：正因为现实容易纠缠，制度上才需要分开。",
-      "rest": "A与closely tied相反；C把联系紧密夸大成组织接管；D把比喻性关系搭配按字面绳子理解。"
+      "rest": "“没有关系、不必区分”与closely tied和keeps ... separate都相反；“销售团队接管审批团队”把利益联系夸大成组织控制，shared bonuses不能证明接管；“绳子绑在一起”按字面理解比喻性的关系搭配，无法解释共同奖金带来的利益联系。"
     }
   },
   {
@@ -236,7 +236,7 @@
       "structure": "The audit office是主语，is structurally independent是系表；because从句中its work是主语，is closely tied to是谓语结构，decisions是介词宾语。",
       "other": "audit 审计；structurally 组织结构上；ministry 部门/部；otherwise 否则。",
       "meaning": "closely tied to=与……紧密相关；independent from=独立于。文章常出现“现实联系紧密→制度上刻意分离”的治理逻辑，不能因为表面反向就否定because。",
-      "rest": "A把治理逻辑反了；C把“相关”偷换成组织隶属；D错误解释because。"
+      "rest": "“联系紧密就无需独立”反转了原文防止自己审自己的治理理由；“必须归部长管理”把工作事项相关偷换成组织隶属；“because表示转折”误认连接词，原文用because解释制度独立的原因。"
     }
   }
 ]

@@ -52,7 +52,7 @@ class BankCoverageTests(unittest.TestCase):
                 self.assertEqual(set(q["exp"]), set(review.EXP_KEYS))
 
     def test_full_explanations_are_shuffle_safe(self):
-        pattern = r"第[一二三四1234]项|前三项|[ABCD]选项|选项[ABCD]|\b[ABCD]\s*[.、：]"
+        pattern = r"第[一二三四1234]项|前三项|[ABCD]选项|选项[ABCD]|\b[ABCD]\s*[.、：]|(?:^|[;；。\n])\s*[ABCD](?=[\u4e00-\u9fff])"
         for q in review.bank(ROOT):
             with self.subTest(qid=q["id"]):
                 self.assertIsNone(re.search(pattern, q["exp"]["rest"]))

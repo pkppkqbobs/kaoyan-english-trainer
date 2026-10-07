@@ -12,7 +12,8 @@ def apply_exclusions(rows, rules):
     accepted, excluded = [], []
     for row in rows:
         rule = next((r for r in rules if r['family'] == row['family'] and
-                     all(row.get(key) == (int(r[key]) if key == 'origin' else r[key])
+                     all((row.get('source_date', row.get('date')) if key == 'date' else row.get(key)) ==
+                         (int(r[key]) if key == 'origin' else r[key])
                          for key in ('origin', 'date', 'qid') if key in r)), None)
         if rule:
             excluded.append({**row, 'exclusion_reason': rule['reason']})
@@ -23,8 +24,8 @@ def apply_exclusions(rows, rules):
 
 def run(root, day, sync, repo):
     original_evidence = review.evidence
-    def checked_evidence(issues, owner, evidence_root=root):
-        rows, issue_ids = original_evidence(issues, owner, evidence_root)
+    def checked_evidence(issues, owner, evidence_root=root, *, rejected=None, fallback=None):
+        rows, issue_ids = original_evidence(issues, owner, evidence_root, rejected=rejected, fallback=fallback)
         rules = review.load(root / 'data/quality-exclusions.json', [])
         accepted, excluded = apply_exclusions(rows, rules)
         review.save(root / 'data/excluded-evidence.json', excluded)

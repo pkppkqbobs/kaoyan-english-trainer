@@ -16,10 +16,15 @@ const data = {date: '2026-09-29', repo: 'pkppkqbobs/kaoyan-english-trainer',
   questions: Array.from({length: 8}, (_, i) => question('main-' + i, 'family-' + i)), retry: {}};
 data.questions.forEach(q => { data.retry[q.family] = [question('retry-' + q.family, q.family)]; });
 const originalFirst = data.questions[0];
-originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta';
-originalFirst.diag = {1: 'diagnostic for choice two', 2: 'diagnostic for choice three', 3: 'diagnostic for choice four'};
+const paragraphReferences = '; 段B位于段C之前。attribute A to B';
+originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta' + paragraphReferences;
+originalFirst.diag = {1: 'diagnostic for choice two; 段B位于段C之前', 2: 'diagnostic for choice three', 3: 'diagnostic for choice four'};
 const source = fs.readFileSync('web/review.js', 'utf8');
-let nodes, opened;
+let nodes, opened, clock, pageEvents, documentEvents, simulatedDay;
+class FixtureDate extends Date {
+  constructor(...args) { super(...(args.length ? args : [FixtureDate.now()])); }
+  static now() { return Date.parse((simulatedDay || data.date) + 'T12:00:00+08:00'); }
+}
 class Element {
   constructor(tag = 'div') {
     this.tag = tag; this.children = []; this.listeners = {}; this._text = ''; this.disabled = false;
@@ -40,10 +45,12 @@ class Element {
 }
 function boot() {
   nodes = {}; nodes.app = new Element(); opened = '';
-  const document = {hidden: false, getElementById: id => nodes[id], createElement: tag => new Element(tag), addEventListener() {}};
-  let clock = 0;
-  const context = {window: {REVIEW_DATA: data, open: url => { opened = url; }}, document, localStorage: storage,
-    performance: {now: () => ++clock}, Math, Date, Intl, JSON, Blob, URL, setTimeout, console};
+  clock = 0; pageEvents = {}; documentEvents = {};
+  const document = {hidden: false, getElementById: id => nodes[id], createElement: tag => new Element(tag),
+    addEventListener(type, handler) { documentEvents[type] = handler; }};
+  const context = {window: {REVIEW_DATA: data, open: url => { opened = url; },
+    addEventListener(type, handler) { pageEvents[type] = handler; }}, document, localStorage: storage,
+    performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console};
   vm.runInNewContext(source, context, {timeout: 2000});
 }
 function allButtons(element = nodes.body) {
@@ -65,11 +72,19 @@ boot();
 assert.ok(!nodes.body.textContent.includes('1.【整句翻译】'), 'Answers must initially be hidden');
 assert.equal(run().queue.length, 8);
 assert.deepEqual([0,1,2,3].map(i => run().queue.filter(q => q.a === i).length), [2,2,2,2]);
+clock += 20000; pageEvents.pagehide();
+const checkpointTime = run().timing.ms;
+assert.ok(checkpointTime >= 20000);
+boot(); clock += 5000;
+simulatedDay = '2026-10-01';
 answer(false);
+assert.ok(run().answers[0].ms >= 25000, 'refresh must retain active reading time');
+assert.equal(run().answers[0].answeredOn, '2026-10-01', 'old paper must record the actual answer day');
+simulatedDay = undefined;
 assert.ok(nodes.body.textContent.includes('1.【整句翻译】'));
 const shuffledFirst = run().queue[0];
 const remapped = originalFirst.o.map((_, oldIndex) => 'ABCD'[shuffledFirst.o.indexOf(originalFirst.o[oldIndex])]);
-assert.equal(shuffledFirst.exp.rest, remapped.map((letter, i) => letter + ' ' + ['alpha', 'beta', 'gamma', 'delta'][i]).join('; '),
+assert.equal(shuffledFirst.exp.rest, remapped.map((letter, i) => letter + ' ' + ['alpha', 'beta', 'gamma', 'delta'][i]).join('; ') + paragraphReferences,
   'option-specific explanation labels must follow the shuffled options');
 for (const [oldIndex, diagnostic] of Object.entries(originalFirst.diag)) {
   const currentIndex = shuffledFirst.o.indexOf(originalFirst.o[Number(oldIndex)]);
@@ -98,6 +113,8 @@ const report = JSON.parse(body.match(/<!-- review-json:v3\s*\n(.*?)\n-->/s)[1]);
 assert.equal(report.answers.length, 8);
 assert.equal(report.answers[0].ok, false);
 assert.equal(report.answers[0].pick, firstWrong.pick);
+assert.deepEqual(report.answers[0].optionOrder, shuffledFirst.o.map(x=>originalFirst.o.indexOf(x)));
+assert.equal(report.answers[0].optionOrder[report.answers[0].expected], originalFirst.a);
 assert.equal(report.retrySummary[0].correct, 1);
 clickText('③ 全部重做');
 assert.equal(snapshot().runs.length, 3, 'All-redo must archive previous runs');
@@ -159,4 +176,21 @@ Object.assign(data, text4, {storageId: text4.storageId + '-test-next-round'}); b
 assert.equal(run().answers.length, 0, 'A revised round must use a new isolated key');
 assert.equal(storage[text4Key], text4Snapshot, 'New rounds must not overwrite older article rounds');
 if (process.env.ARTICLE_TEST_REPORT_PATH) fs.writeFileSync(process.env.ARTICLE_TEST_REPORT_PATH, articleBody);
-console.log('UI tests passed: shuffle, refresh, retry, first errors, reports, daily/passage/article isolation, Text 3 -> Text 4, revision history.');
+const damagedKey = data.storagePrefix + data.storageId + '-damaged';
+data.storageId += '-damaged'; storage[damagedKey] = 'not valid JSON';
+boot();
+assert.equal(storage[damagedKey], 'not valid JSON', 'corrupt local records must not be replaced');
+allButtons().find(b=>b.className==='choice').click();
+assert.equal(storage[damagedKey], 'not valid JSON', 'temporary answers must preserve the unreadable original');
+assert.ok(nodes.notice.textContent.includes('原数据已保留'));
+for (const corruption of [s=>{s.current=999;}, s=>{s.runs[0].answers[0].ms='invalid';}, s=>{s.runs[0].answers[0]=null;}]) {
+  const saved = JSON.parse(text3Snapshot); corruption(saved);
+  const raw = JSON.stringify(saved); storage[damagedKey] = raw;
+  boot();
+  allButtons().find(b=>b.className==='choice').click();
+  assert.equal(storage[damagedKey], raw, 'invalid stored shape must be preserved without crashing');
+  nodes.historyBtn.click();
+  assert.ok(nodes.body.textContent.includes('本地历史'));
+  assert.equal(storage[damagedKey], raw);
+}
+console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection.');

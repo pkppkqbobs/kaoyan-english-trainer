@@ -131,6 +131,7 @@ def make_payload(root, session, items, archives, repo):
 
 def render_page(root, payload):
     version = hashlib.sha256((root / "web/review.js").read_bytes()).hexdigest()[:12]
+    version = review.published_script_version(root / f"article-review-{payload['storageId']}.html", version)
     embedded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     # Corrections are displayed beside immutable rounds, never written into answers.
     families = {q["family"] for q in payload["questions"]}
