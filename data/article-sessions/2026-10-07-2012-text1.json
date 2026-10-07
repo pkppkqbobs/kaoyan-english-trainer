@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-07-2012-text1",
+  "date": "2026-10-07",
+  "created_at": "2026-10-07T20:51:00+08:00",
+  "source": "2012 英语一 Text 1",
+  "result_summary": "用户明确反馈：Q22最终选B但A/B犹豫；Q23选D（正确A）；Q25选C（正确D）。Q23错因是把and理解成答案必须覆盖并列两侧，并被most glaring flaw / very long的词面相似吸引，却未核对题干问book而该句评价social cure。Q25中profound词义判断基本正确，错在把上一段peer pressure本身影响很强的评价带入题干限定的last paragraph；末段实际质疑人为利用同伴压力的策略成效。标记规则再次确认：画框=翻译困难，横线=认为重要/可能与答案有关，不能把横线自动记成translation_difficulty。明确画框登记：invitation、social cure、a host of examples、antismoking、critique、lameness、spot-on、pleads、irrelevant detail、glaring flaw。",
+  "focus_families": [
+    "take-page-from",
+    "scope-role-match",
+    "paragraph-scope-attitude",
+    "social-cure-vocab",
+    "evaluation-vocab"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2012-english1.json"
+}
