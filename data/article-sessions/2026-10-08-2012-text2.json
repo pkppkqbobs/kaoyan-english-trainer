@@ -1,0 +1,18 @@
+{
+  "id": "2026-10-08-2012-text2",
+  "date": "2026-10-08",
+  "created_at": "2026-10-08T21:38:00+08:00",
+  "source": "2012 英语一 Text 2",
+  "result_summary": "Q26 用户在A condemning/C dishonoring间犹豫，误把dishonoring当成“不以……为荣”，并不确定justified与公正的关系，未确认最终pick。Q27原先考虑D，但把power plant误作能源产品、不清楚买卖角色，又被seek原词复现吸引，最后选B（正确D）。Q29注意到test后被patchwork重复诱导，另质疑in the author's view与legal scholars say归属；尚未确认最终pick。Q28/Q30未给可靠作答。画框代表翻译困难，横线只是证据标记；明确框出provoked justified outrage、longstanding commitment、surfacing、patchwork，Entergy是专名。强调行为vs态度、目的vs交易条件、test直接对象vs制度担忧、作者引用别人的论断与作者立场的关系；不补造成绩。",
+  "focus_families": [
+    "commitment-semantics",
+    "transaction-purpose",
+    "test-object-scope",
+    "attribution-stance",
+    "familiar-word-polysemy",
+    "text2-boxed-vocab"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2012-english1.json"
+}

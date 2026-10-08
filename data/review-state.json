@@ -44,6 +44,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "attribution-stance": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "author-stance": {
       "streak": 0,
       "errors": 0,
@@ -82,6 +92,16 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2,
+      "observation_priority": 2
+    },
+    "commitment-semantics": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
       "observation_priority": 2
     },
     "complementary": {
@@ -494,6 +514,26 @@
       "observed_days": 0,
       "observation_priority": 2
     },
+    "test-object-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
+    "text2-boxed-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
+    },
     "title-coverage": {
       "streak": 0,
       "errors": 0,
@@ -523,6 +563,16 @@
       "reported_confusion": false,
       "observed_days": 2,
       "observation_priority": 0
+    },
+    "transaction-purpose": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "transition": {
       "streak": 1,

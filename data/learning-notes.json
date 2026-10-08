@@ -369,5 +369,67 @@
     "source_exam": "2012-english1",
     "source_part": "Text 1",
     "review_importance": "low"
+  },
+  {
+    "family": "commitment-semantics",
+    "date": "2026-10-08",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一 Text 2 第26题：用户不确定A condemning和C dishonoring，且把dishonoring想成“不以……为荣”。正确C；renege on a commitment = 背弃承诺，dishonor/honor a commitment = 违背/履行承诺，condemn = 谴责，属于表态而不必然违约。用户未明确最终选项，不补造原题pick/错误次数。",
+    "session_id": "2026-10-08-2012-text2",
+    "source_exam": "2012-english1",
+    "source_part": "Text 2",
+    "source_question": 26
+  },
+  {
+    "family": "transaction-purpose",
+    "date": "2026-10-08",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Text 2 第27题：用户原本考虑D，后因认为能源公司不应‘买能源’、搞反power plant（核电站资产）的买卖角色，又被原文seek permission表面匹配吸引，最终改选B；标准答案D。第三段Entergy为买入核电站取得州政府对交易的批准，答应以后想延长运营时向州监管者申请。这是‘购买目的→取得州批准→承诺的后续条件’，不是向联邦立法机关求 favor。保留最初考虑D的思路，但不记为一次正确提交。",
+    "session_id": "2026-10-08-2012-text2",
+    "source_exam": "2012-english1",
+    "source_part": "Text 2",
+    "source_question": 27,
+    "reported_pick": "B",
+    "first_considered": "D"
+  },
+  {
+    "family": "test-object-scope",
+    "date": "2026-10-08",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一 Text 2 第29题：用户抓到了test，却被相邻句patchwork regulations与B选项高度重复吸引，未区分案件test的直接对象（how far those powers extend→州监管权界限，D）与可能的州际规定碎片化后果。用户说不确定、受到B诱导，但未明确最终提交字母，不补造pick或原题错误次数。",
+    "session_id": "2026-10-08-2012-text2",
+    "source_exam": "2012-english1",
+    "source_part": "Text 2",
+    "source_question": 29
+  },
+  {
+    "family": "attribution-stance",
+    "date": "2026-10-08",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一 Text 2 第29题：用户质疑题干in the author's view，但直接证据是legal scholars say。需训练引述观点的来源归属：作者把法律学者对案件将检验什么的说明纳入自己的论述且未提出相反的测试对象，同时另行批评Entergy的失信行为；‘未反驳/引用’不等于自动完全背书，必须区分引述内容、作者评价和题干问的对象。",
+    "session_id": "2026-10-08-2012-text2",
+    "source_exam": "2012-english1",
+    "source_part": "Text 2",
+    "source_question": 29
+  },
+  {
+    "family": "familiar-word-polysemy",
+    "date": "2026-10-08",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一 Text 2 第26题用户追问justified是不是‘公正的’。原文provoked justified outrage指‘激起有正当理由的愤怒’，just可表示公正/仅仅/刚刚，justify=证明合理、为…辩护，justified=有正当理由/有证据支持，不应把形容词just的‘公正的’直接套作‘公正的愤怒’。",
+    "session_id": "2026-10-08-2012-text2",
+    "source_exam": "2012-english1",
+    "source_part": "Text 2",
+    "source_question": 26
+  },
+  {
+    "family": "text2-boxed-vocab",
+    "date": "2026-10-08",
+    "kind": "translation_difficulty",
+    "review_importance": "low",
+    "note": "2012 英语一 Text 2 明确画框翻译困难（根据图像中可辨认框线）：provoked justified outrage=激起有正当理由的愤怒；longstanding commitment=长期承诺；surfacing=矛盾不断显露；patchwork (regulations)=东拼西凑且不统一的监管规定。Entergy是公司专名，可辨认框但不需当普通词训练。对仅有横线及边界不清的obscure等不登记为翻译困难；框=翻译困难，横线=用户认为重要的证据。",
+    "session_id": "2026-10-08-2012-text2",
+    "source_exam": "2012-english1",
+    "source_part": "Text 2"
   }
 ]

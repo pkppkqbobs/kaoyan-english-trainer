@@ -1,0 +1,290 @@
+[
+  {
+    "id": "commitment-heaters-promise-a",
+    "family": "commitment-semantics",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 45,
+    "target": "renege on / dishonor a commitment",
+    "skill": "承诺的履行与背弃",
+    "q": "The manufacturer promised to replace defective heaters for five years. After two years it refused every replacement request, though it never publicly attacked the promise itself. Which description is supported?",
+    "o": [
+      "It reaffirmed its replacement pledge.",
+      "It condemned the pledge but continued honoring it.",
+      "It reneged on its pledge.",
+      "It secured stronger protection for customers."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "厂商承诺五年内更换有缺陷的取暖器，但两年后拒绝了所有更换请求，尽管它并没有公开批评承诺本身。它实际违背了原来的承诺。",
+      "structure": "The manufacturer + promised + to replace...；第二句it + refused + every replacement request。though引出与公开态度有关的让步信息，并不推翻实际行为。",
+      "other": "manufacturer 厂商；defective 有缺陷的；replacement 更换；pledge 承诺。",
+      "meaning": "renege on a promise/commitment = 食言、背弃承诺；dishonor a commitment是类似含义。condemn则是谴责某事，未必违反；honor a pledge表示履行承诺。",
+      "rest": "reaffirmed意味着重申，与拒绝履约不符；公开谴责协议的表述和never publicly attacked矛盾；stronger protection并未发生。题目要判定行为而非简单褒贬。"
+    }
+  },
+  {
+    "id": "commitment-contract-criticism-b",
+    "family": "commitment-semantics",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 50,
+    "target": "condemn vs dishonor / honor",
+    "skill": "负面态度不等于违反承诺",
+    "q": "The association condemned the delivery contract as unfair, yet continued to fulfill every obligation under it until a replacement agreement was signed. Which reading is accurate?",
+    "o": [
+      "It criticized the agreement without breaking it.",
+      "It dishonored the contract by refusing every delivery.",
+      "It withdrew its criticism and praised the agreement.",
+      "It had never agreed to the original contract."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "协会谴责这份配送合同不公平，但在替代协议签订前仍履行了合同规定的每项义务。因此它批评了合同，却没有违约。",
+      "structure": "The association是主语；condemned和continued是由yet对照的动作；to fulfill every obligation说明行为上仍然履约。",
+      "other": "association 协会；obligation 义务；fulfill 履行；replacement agreement 替代协议。",
+      "meaning": "condemn=谴责、批评，属于表态；honor/fulfill an agreement=履行协议；dishonor/renege on=违背约定。必须区分态度和实际行为。",
+      "rest": "refusing every delivery与fulfilled every obligation冲突；撤回批评或称赞没有出现；没有签过原合同与under it、replacement agreement矛盾。"
+    }
+  },
+  {
+    "id": "transaction-station-approval-a",
+    "family": "transaction-purpose",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 55,
+    "target": "买方目标 / 批准交易 / 附加条件",
+    "skill": "目的与条件的层级",
+    "q": "A local museum agreed to maintain public access for ten years as a condition of city approval for its purchase of an old railway station. Why did the museum accept this condition?",
+    "o": [
+      "To obtain permission to acquire the station.",
+      "To guarantee that the city would operate the museum for ten years.",
+      "To persuade a federal agency to buy the station.",
+      "To extend a business license it had already been granted."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "当地博物馆为了获得市政府对购买旧车站的批准，接受了十年内维持公众开放的条件。接受条件的直接目的，是取得购买车站的许可。",
+      "structure": "A local museum + agreed + to maintain...；as a condition of city approval说明维护开放是获得批准时接受的条件；for its purchase说明交易为博物馆购买车站。",
+      "other": "acquire 收购、取得；public access 公众进入；maintain 维持；approval 批准。",
+      "meaning": "分析交易要分清谁是买方、谁批准，以及目的和附加义务。purchase/acquire是获得资产；维持公众开放是为实现购买而接受的条件。",
+      "rest": "市政府运营十年不是承诺内容；federal agency既不是批准方也不是买方；延长已有营业执照与购买旧车站不是同一事项。"
+    }
+  },
+  {
+    "id": "transaction-grant-reports-b",
+    "family": "transaction-purpose",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 55,
+    "target": "资金目标 / 报告义务条件",
+    "skill": "目的与条件的跨语境迁移",
+    "q": "A university wanted funding for a water-quality pilot. The grant agency agreed to provide the money only if the university submitted quarterly progress reports. What was the university seeking when it accepted that requirement?",
+    "o": [
+      "Employment as a reporting contractor.",
+      "An exemption from future water testing.",
+      "Funding for its water-quality project.",
+      "The right to approve other universities' grants."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "大学想为水质试点项目争取资金；资助机构同意拨款，但要求大学按季度提交进度报告。大学接受报告义务是为了得到项目资金。",
+      "structure": "The university + wanted + funding；only if引出拨款所附带的条件。submitted quarterly reports是条件，不是大学原本要获得的主要利益。",
+      "other": "grant 资助款；pilot 试点；quarterly 每季度的；exemption 豁免。",
+      "meaning": "先找wanted/目的，再找only if/条件。不要因为条件句离题干更近，就把“提交报告”当成申请的最终目标。",
+      "rest": "承包商雇佣没有出现；豁免测试与试点目的相反；批准其他大学经费的权力也没有证据。"
+    }
+  },
+  {
+    "id": "evidence-flood-sensor-trial-a",
+    "family": "test-object-scope",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 55,
+    "target": "试验直接测试什么 / 邻近的制度担忧",
+    "skill": "test of 的宾语与信息角色",
+    "q": "An engineer says a tunnel trial will test whether a remote sensor detects flooding before water reaches the tracks. The council separately worries that districts may adopt a patchwork of incompatible warning rules. What does the trial directly assess?",
+    "o": [
+      "Why districts disagree about warning policies.",
+      "The cost of replacing all warning signs.",
+      "Whether differing regulations should be abolished.",
+      "How early the sensor identifies approaching flooding."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "工程师说隧道试验将检验远程传感器能否在水漫上轨道前发现洪水；委员会另外担心各区制定不统一的预警规则。试验直接测的是传感器预警是否足够及时。",
+      "structure": "a tunnel trial + will test + whether从句，这个从句是test的直接宾语。The council separately worries引出另一主体的附加担忧，并未改变试验目标。",
+      "other": "flooding 洪水、淹水；tracks 轨道；patchwork 零散拼凑、不统一的组合；incompatible 不兼容的。",
+      "meaning": "题干问直接测量的对象，优先读取test后面的宾语或从句。下文出现相同主题甚至patchwork一词，也可能只是在说潜在后果或制度顾虑。",
+      "rest": "各区分歧与patchwork属于另一段担忧，不是传感器试验的指标；替换所有标识的成本无证据；废除规则属于政策选择，不是该试验测量的结果。"
+    }
+  },
+  {
+    "id": "evidence-concrete-freeze-b",
+    "family": "test-object-scope",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 55,
+    "target": "研究测试对象 / 后续应用障碍",
+    "skill": "定位题干关系而非重复词",
+    "q": "A field study is designed to measure how well recycled concrete withstands repeated freezing. Later, the report notes that inconsistent municipal building codes could slow its adoption. Which issue does the study itself investigate?",
+    "o": [
+      "The durability of the material under freezing conditions.",
+      "The political motives behind local building codes.",
+      "Whether every city will adopt identical construction rules.",
+      "The cost of enforcing municipal regulations."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "实地研究旨在测量再生混凝土反复受冻后的耐久性；报告后面提到市政建筑规范不一致可能阻碍推广。研究本身调查的是材料耐冻性能。",
+      "structure": "A field study + is designed + to measure...，how well从句指出测量指标；Later标出随后讨论的应用障碍，不会追溯改变研究对象。",
+      "other": "recycled concrete 再生混凝土；withstand 承受；municipal 市政的；adoption 采用、推广。",
+      "meaning": "研究/案件究竟test、measure、assess什么，要以动词支配的内容为准。相邻句里的‘法规不统一’是相关后果或障碍，不等于研究问题本身。",
+      "rest": "政治动机没有被调查；所有城市采用相同规则只是可能的政策议题；执法成本没有数据，均不能替代耐冻性这一明确测量目标。"
+    }
+  },
+  {
+    "id": "attribution-fish-survey-a",
+    "family": "attribution-stance",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 55,
+    "target": "作者引用专家 / 报道对象",
+    "skill": "引述主张与作者的使用",
+    "q": "A journalist reports marine biologists' view that a river survey will reveal whether young fish can pass an old dam. She then criticizes the operator for delaying access to sampling sites but does not dispute the biologists' description of the survey. What does the article present as the survey's purpose?",
+    "o": [
+      "To determine whether young fish can travel past the dam.",
+      "To calculate the operator's annual advertising spending.",
+      "To prove the journalist agrees with every biologist's opinion.",
+      "To establish that delaying site access was legal."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "记者转述海洋生物学家观点：河流调查将查明幼鱼能否通过旧水坝；随后她批评运营方拖延提供取样点通行，但没有否认调查目的。因此文章呈现的调查目标仍是鱼类通行情况。",
+      "structure": "A journalist reports [biologists' view that...]；that从句的whether内容指明survey要查明什么。then后作者对运营方的批评是另一个命题。",
+      "other": "marine biologist 海洋生物学家；dam 水坝；sampling site 取样点；dispute 质疑、反驳。",
+      "meaning": "in the author's account可以包括作者引用并作为论述背景的专家描述，但这不等于作者无条件赞同专家所有观点。要分辨所引述的事件内容与作者额外的评价。",
+      "rest": "广告开支和访问是否合法不是调查问题；‘同意每一项观点’超出文本证据，不能从引用且未反驳推出。"
+    }
+  },
+  {
+    "id": "attribution-closing-budget-b",
+    "family": "attribution-stance",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 55,
+    "target": "转述观点 / 作者保留态度",
+    "skill": "没有反驳不等于完全赞同",
+    "q": "A columnist quotes a consultant who claims that closing the library on Sundays will save substantial money. The columnist adds that no cost figures have been released to support this prediction. Which description of the columnist's position is best?",
+    "o": [
+      "The columnist reports the claim but questions whether evidence supports it.",
+      "The columnist has independently verified large savings.",
+      "The columnist proves Sunday closure cannot save any money.",
+      "The columnist discusses only the consultant's personal character."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "专栏作者引用顾问的说法：图书馆周日闭馆能省下不少钱；但作者指出没有公开成本数据支持这一预测。作者报道了这个说法，同时保留对其依据的质疑。",
+      "structure": "A columnist + quotes + a consultant who claims...；后句The columnist + adds + that从句，说明作者自己的保留意见。that no cost figures...不是顾问的立场。",
+      "other": "consultant 顾问；substantial 大量的；prediction 预测；verify 核实。",
+      "meaning": "分清‘别人说了什么’和‘作者如何评价别人说法’。引用不是自动背书；提出证据不足，也不是凭空证明相反结论必然成立。",
+      "rest": "独立验证节省金额与no cost figures矛盾；绝不省钱是相反的过强断言；作者讨论了预测和证据，并非只评价个人品格。"
+    }
+  },
+  {
+    "id": "boxed-vocab-surfacing-dispute-a",
+    "family": "text2-boxed-vocab",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 40,
+    "target": "surfacing / 矛盾逐渐显露",
+    "skill": "画框词组的语境翻译",
+    "q": "Complaints about delayed refunds had been surfacing for months, although the retailer kept describing them as isolated accidents. Here, surfacing most nearly means:",
+    "o": [
+      "being resolved completely",
+      "becoming known little by little",
+      "being hidden under water",
+      "being deliberately withdrawn"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "关于退款延迟的投诉几个月来不断浮现，尽管零售商一直称这些问题只是孤立事件。surfacing表示问题逐渐显露、开始为人所知。",
+      "structure": "Complaints是主语，had been surfacing为过去完成进行时；although从句说明商家的回应，并不取消先前投诉持续出现的事实。",
+      "other": "refund 退款；retailer 零售商；isolated accident 孤立事件；withdraw 撤回。",
+      "meaning": "surface既可指物体浮出水面，也常比喻问题、事实、分歧逐渐显现。语境中complaints不会真的从水里冒出。",
+      "rest": "问题被完全解决与持续出现不同；水下隐藏是误读字面义；主动撤回投诉与surfacing语义相反。"
+    }
+  },
+  {
+    "id": "boxed-vocab-patchwork-rules-b",
+    "family": "text2-boxed-vocab",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 45,
+    "target": "patchwork / longstanding",
+    "skill": "画框词组的语境翻译",
+    "q": "A longstanding dispute among districts left the city with a patchwork of registration rules: the required documents differed from one neighborhood to another. Which reading is best?",
+    "o": [
+      "长期分歧使登记规则零散、不统一。",
+      "长期分歧已被一套完全统一的规则解决。",
+      "patchwork表示这些规则是用布料制作的。",
+      "longstanding说明分歧刚刚才出现。"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "各区之间长期的争议使城市形成了一套互不统一的登记规则：不同街区要求提供的材料各不相同。",
+      "structure": "A longstanding dispute是主语，left the city with...表示使城市处于某种状态；冒号后required documents differed提供patchwork的解释。",
+      "other": "district 区；registration rule 登记规则；neighborhood 街区；required document 所需材料。",
+      "meaning": "longstanding=长期存在的；a patchwork of rules=东拼西凑、零散且缺乏统一性的规则体系，不必是违法规则。",
+      "rest": "完全统一和各区材料不同相矛盾；织物是patchwork的字面义而非这里的制度比喻；longstanding不是刚出现。"
+    }
+  },
+  {
+    "id": "polysemy-justified-complaint-a",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 45,
+    "target": "justified anger / 有正当理由",
+    "skill": "just / justify / justified",
+    "q": "Residents' anger over the water outage was justified: records showed that the utility had ignored repeated warnings before the pipes failed. Here justified means:",
+    "o": [
+      "happening only a moment ago",
+      "expressed by an entirely impartial person",
+      "supported by adequate reasons",
+      "merely mentioned without emotion"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "居民因停水而愤怒是有充分理由的：记录显示，自来水公司在水管故障前多次忽视警告。",
+      "structure": "Residents' anger是主语，was justified是系表/被动性质表达；冒号后records showed...为其理由提供证据。",
+      "other": "utility 公用事业公司；outage 中断；ignore warnings 忽视警告；adequate 充分的。",
+      "meaning": "justified通常表示有正当理由或充分依据，不应因为just也有‘仅仅’或‘公正的’就机械套进来。这里强调愤怒有依据，而不是愤怒这个情绪是否中立。",
+      "rest": "刚刚发生对应just的副词用法而不是justified；完全中立并非愤怒有依据的条件；merely mentioned否定了原文的情绪与证据。"
+    }
+  },
+  {
+    "id": "polysemy-just-justified-b",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-08",
+    "budget": 50,
+    "target": "just decision / justified suspicion",
+    "skill": "公正性与证据充分性",
+    "q": "The panel made a just decision, but the suspicion that its members had accepted bribes was not justified by the available evidence. Which distinction is correct?",
+    "o": [
+      "just means recent; justified means only",
+      "The decision was fair, while the bribery suspicion lacked sufficient support.",
+      "The panel proved bribery, but acted unfairly.",
+      "Both just and justified mean the panel was proud of itself."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "委员会作出了公正的决定，但现有证据不足以支持成员受贿的怀疑。just修饰决定时指公正；justified修饰怀疑时指是否有充分依据。",
+      "structure": "The panel + made + a just decision；but后the suspicion是主语，was not justified by...表示该怀疑缺乏证据支持；that从句解释怀疑的内容。",
+      "other": "panel 委员会；suspicion 怀疑；bribe 贿赂；available evidence 现有证据。",
+      "meaning": "just作为形容词可表示公正；justify动词表示证明合理/有正当理由；justified为有依据、可辩护的。它们语义相连但不能在句中任意互换。",
+      "rest": "recent与only误套just副词义；‘已证明受贿’与not justified相反；proud不是这两个词在此处的意义。"
+    }
+  }
+]
