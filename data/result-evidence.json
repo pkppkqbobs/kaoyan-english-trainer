@@ -677,6 +677,94 @@
       "uncertain": false,
       "origin": 10,
       "qid": "causal-role-direction-travel-b"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 33966,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "causal-role-direction-travel-b",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "paragraph-scope-attitude",
+      "ok": true,
+      "ms": 51053,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "paragraph-scope-algorithm-a",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "with",
+      "ok": true,
+      "ms": 17856,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "with-bread-cooling",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 9539,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "legacy-unpretentious",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "point",
+      "ok": true,
+      "ms": 273213,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "legacy-miss-point",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 114556,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "scope-role-device-study-b",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 130461,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "social-message-criticism-membership-c",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 30568,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "paragraph-order-discourse-conclusion-b",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
     }
   ],
   "issues": [
@@ -689,6 +777,7 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ]
 }

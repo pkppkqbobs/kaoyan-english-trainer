@@ -10,7 +10,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "families": {
     "absolute-language": {
@@ -64,14 +65,14 @@
       "observation_priority": 0
     },
     "causal-role-direction": {
-      "streak": 0,
+      "streak": 2,
       "errors": 1,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-08",
+      "due": "2026-10-12",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 2,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 3,
+      "observation_priority": 0
     },
     "cling-climb": {
       "streak": 0,
@@ -284,23 +285,23 @@
       "observation_priority": 3
     },
     "paragraph-order-discourse": {
-      "streak": 0,
+      "streak": 2,
       "errors": 0,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-08",
+      "due": "2026-10-12",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 2,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 3,
+      "observation_priority": 0
     },
     "paragraph-scope-attitude": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-08",
       "due": "2026-10-08",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "parallel-governance": {
@@ -326,11 +327,11 @@
     "point": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-08",
+      "due": "2026-10-08",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 2
     },
     "politics-policy": {
@@ -416,11 +417,11 @@
     "scope-role-match": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-08",
       "due": "2026-10-08",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "social-cure-vocab": {
@@ -436,11 +437,11 @@
     "social-message-inference": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-08",
+      "due": "2026-10-08",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 3
     },
     "standard": {
@@ -546,11 +547,11 @@
     "unpretentious": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-08",
+      "due": "2026-10-08",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "viewpoint-fact": {
@@ -564,13 +565,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 2,
+      "streak": 3,
       "errors": 0,
-      "last": "2026-10-04",
-      "due": "2026-10-08",
+      "last": "2026-10-08",
+      "due": "2026-10-15",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 0
     }
   },
