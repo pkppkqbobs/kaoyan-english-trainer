@@ -765,6 +765,94 @@
       "qid": "paragraph-order-discourse-conclusion-b",
       "round_id": "muzin61z-vshbhpr8",
       "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "point",
+      "ok": true,
+      "ms": 31730,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "point-joke",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 49583,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "scope-role-device-study-b",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "commitment-semantics",
+      "ok": true,
+      "ms": 33212,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "commitment-heaters-promise-a",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "nested",
+      "ok": true,
+      "ms": 15929,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "nested-shared-gate",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 31741,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "unpredictable-response-time",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 50289,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "conceivably-ferry",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 41907,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "social-message-inference-career-a",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "test-object-scope",
+      "ok": true,
+      "ms": 48550,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "evidence-concrete-freeze-b",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
     }
   ],
   "issues": [
@@ -778,6 +866,7 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ]
 }

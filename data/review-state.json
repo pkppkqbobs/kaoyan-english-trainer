@@ -11,7 +11,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "families": {
     "absolute-language": {
@@ -97,11 +98,11 @@
     "commitment-semantics": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-10",
       "due": "2026-10-10",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "complementary": {
@@ -127,11 +128,11 @@
     "conceivably": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-04",
-      "due": "2026-10-05",
+      "last": "2026-10-10",
+      "due": "2026-10-11",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 0
     },
     "conditions": {
@@ -285,13 +286,13 @@
       "observation_priority": 0
     },
     "nested": {
-      "streak": 3,
+      "streak": 4,
       "errors": 0,
-      "last": "2026-10-04",
-      "due": "2026-10-11",
+      "last": "2026-10-10",
+      "due": "2026-10-24",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 0
     },
     "paragraph-order-anaphora": {
@@ -347,11 +348,11 @@
     "point": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-08",
-      "due": "2026-10-09",
+      "last": "2026-10-10",
+      "due": "2026-10-10",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 2
     },
     "politics-policy": {
@@ -437,11 +438,11 @@
     "scope-role-match": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-08",
-      "due": "2026-10-09",
+      "last": "2026-10-10",
+      "due": "2026-10-10",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "social-cure-vocab": {
@@ -457,11 +458,11 @@
     "social-message-inference": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-08",
-      "due": "2026-10-09",
+      "last": "2026-10-10",
+      "due": "2026-10-10",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "standard": {
@@ -517,11 +518,11 @@
     "test-object-scope": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-10",
       "due": "2026-10-10",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "text2-boxed-vocab": {
@@ -595,14 +596,14 @@
       "observation_priority": 1
     },
     "unpretentious": {
-      "streak": 0,
+      "streak": 2,
       "errors": 0,
-      "last": "2026-10-08",
-      "due": "2026-10-09",
+      "last": "2026-10-10",
+      "due": "2026-10-14",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 4,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 5,
+      "observation_priority": 0
     },
     "viewpoint-fact": {
       "streak": 0,
