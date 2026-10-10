@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-10-2012-text3",
+  "date": "2026-10-10",
+  "created_at": "2026-10-10T22:15:00+08:00",
+  "source": "2012 英语一 Text 3",
+  "result_summary": "用户明确反馈：Q32选C individual wisdom（正确B shared efforts），因为看到individual就认为需要个人独有的研究视角，未注意individual ... becomes community与collective scrutiny and acceptance；Q34选B（正确D），把‘对熟悉事实提出别人未想到的新解释’推成‘今天的发现会激励未来研究’，越过引文证据；Q35选D（正确C），原本偏向C但因前面没出现D而改选。Q31、33不推定选择。画框的protoscience与staked (mining claims)为翻译困难，括出人名Albert Szent-Györgyi只识别身份不测试；下划线仅视为用户标的候选证据。重点练起点/验证机制/结果、引述推断边界、全文主旨覆盖，以及两处低权重词汇。",
+  "focus_families": [
+    "process-stage-role",
+    "inference-boundary",
+    "title-coverage",
+    "science-claim-vocab"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2012-english1.json"
+}

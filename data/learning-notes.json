@@ -431,5 +431,49 @@
     "session_id": "2026-10-08-2012-text2",
     "source_exam": "2012-english1",
     "source_part": "Text 2"
+  },
+  {
+    "family": "process-stage-role",
+    "date": "2026-10-10",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Text 3 第32题用户选C individual wisdom，因为看到the individual researcher's me, here, now，理解为个人独特的研究视角。但句子主干是A becomes B：个人发现主张通过collective scrutiny and acceptance转化为community认可的成熟发现。题干问使credibility process成立的条件，应选B shared efforts。训练区分个人起点、集体验证这一过程与最终可信结果，不能只凭individual定位。",
+    "session_id": "2026-10-10-2012-text3",
+    "source_exam": "2012-english1",
+    "source_part": "Text 3",
+    "source_question": 32,
+    "reported_pick": "C"
+  },
+  {
+    "family": "inference-boundary",
+    "date": "2026-10-10",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Text 3 第34题用户选B discoveries today inspire future research，推理是‘能想到前人没想到的→新发现推动后人研究’。原引文seeing what everybody has seen and thinking what nobody has thought直接强调面对熟悉事实产生独立/批判性思考（D critical mind），未说对未来研究的因果影响。训练区分引述可支持的思考方式与合理但越界的后续影响预测。",
+    "session_id": "2026-10-10-2012-text3",
+    "source_exam": "2012-english1",
+    "source_part": "Text 3",
+    "source_question": 34,
+    "reported_pick": "B"
+  },
+  {
+    "family": "title-coverage",
+    "date": "2026-10-10",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Text 3 第35题用户最终选D（正确C），但自述原本更倾向C；改选D是因为此前答案里没出现过D。C Evolution of Credibility in Doing Science覆盖从个人发现主张、共同体检验、挑战修订到成为可信知识的主线；D只强调科学门槛处的可信度挑战、范围偏窄。记录答案分布启发式误导：正确答案不要求A/B/C/D均匀出现；不要把初步考虑C计成正确提交。",
+    "session_id": "2026-10-10-2012-text3",
+    "source_exam": "2012-english1",
+    "source_part": "Text 3",
+    "source_question": 35,
+    "reported_pick": "D",
+    "first_considered": "C"
+  },
+  {
+    "family": "science-claim-vocab",
+    "date": "2026-10-10",
+    "kind": "translation_difficulty",
+    "review_importance": "low",
+    "note": "2012 英语一 Text 3 图中能明确辨认的画框：protoscience=前科学/尚未经过充分检验的初步科学认识（不等于pseudoscience伪科学），newly staked mining claims里的staked/stake a claim=圈定矿区、提出开采权益主张；用矿区有潜力但尚未经验证比喻初步发现主张。括出Albert Szent-Györgyi为人物专名，只需知道是被引述的科学家，不加入生词训练。画横线仅是可能答案证据，不自动记录translation_difficulty。",
+    "session_id": "2026-10-10-2012-text3",
+    "source_exam": "2012-english1",
+    "source_part": "Text 3"
   }
 ]

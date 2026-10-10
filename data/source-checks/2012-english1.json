@@ -1,7 +1,7 @@
 {
   "exam": "2012-english1",
-  "checked_on": "2026-10-08",
-  "purpose": "2012 英语一 Section I、Text 1、Text 2 真题答案来源核验；用户观察不等于网页计分证据。",
+  "checked_on": "2026-10-10",
+  "purpose": "2012 英语一完形及Text 1–3真题答案核验；用户主观反馈与翻译困难只作观察，不能伪造计分记录。",
   "sources": [
     {
       "id": "xdf-cloze-text",
@@ -32,6 +32,18 @@
       "title": "2012考研英语一Text 2原文与题目证据路径",
       "url": "https://xiedonglileo.github.io/Time_Garden_4Dual_Exam/english1/2012.html",
       "covers": "Text 2 26–30答案及段落证据对应"
+    },
+    {
+      "id": "eol-2012-text3",
+      "title": "中国教育在线：2012考研英语一阅读Text 3答案与解析",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201605/t20160513_1397571_12.shtml",
+      "covers": "31–35标准答案和篇章证据"
+    },
+    {
+      "id": "educity-2012-text3",
+      "title": "希赛网：2012考研英语一阅读Text 3答案解析",
+      "url": "https://www.educity.cn/kyyy/1990454.html",
+      "covers": "31–35交叉核验"
     }
   ],
   "answers": {
@@ -64,12 +76,18 @@
     "27": "D",
     "28": "A",
     "29": "D",
-    "30": "A"
+    "30": "A",
+    "31": "A",
+    "32": "B",
+    "33": "B",
+    "34": "D",
+    "35": "C"
   },
   "performance_coverage": {
     "Section I": "用户自述本篇仅第1、6、9、20题答对，即4/20；未可靠记录其余16题各自首次所选字母，因此只记录题号层面的对错，不补造具体错误选项。",
     "Text 1": "用户明确说明：第22题最终选B但AB之间犹豫、把握不足；第23题选D；第25题选C。未在聊天中明确确认21、24的首次答案，不据图片笔迹补造。",
-    "Text 2": "用户明确说Q27最终选B（原本考虑D），Q26在A/C间不确定，Q29注意test但受B的patchwork原词复现吸引且未确认最终选项。Q28/Q30未确认真实作答；不从手写笔迹推定，也不补造Q26/Q29 pick。"
+    "Text 2": "用户明确说Q27最终选B（原本考虑D），Q26在A/C间不确定，Q29注意test但受B的patchwork原词复现吸引且未确认最终选项。Q28/Q30未确认真实作答；不从手写笔迹推定，也不补造Q26/Q29 pick。",
+    "Text 3": "聊天中用户明确：第32题选C（标准B）、第34题选B（标准D）、第35题选D（标准C），且第35题原本倾向C，因前面未出现过D而改选。第31、33题未明确提供可靠首次选择，不根据图片手写猜测；无任何本篇网页主测Issue，不计入自动答题次数。"
   },
   "observed_difficulties": [
     "用户把 politician / politics / political 一类整体误作“政策”，没有与 policy / policies 区分，导致全文 court/law 与 politics 的主轴读偏。",
@@ -87,7 +105,11 @@
     "Text 2 Q27：用户把power plant当成能源产品而非核电站资产，误判Entergy在买卖中的角色；原本考虑正确D，后来看到seek permission转选B，混淆购买目的、州批准和未来延长运营的条件，误把州监管机关与联邦立法机关混同。",
     "Text 2 Q29：用户看到test，后又被patchwork regulations与选项的词面重复诱导，没有稳定锁定test of how far those powers extend（州权力界限），且对题干作者观点与legal scholars say的引述来源关系提出合理质疑。",
     "Text 2 Q26语义：justified在justified outrage中=有正当理由/证据支持，不宜机械套用just=公正的或仅仅。",
-    "Text 2 画框与横线严格区分：框内provoked justified outrage、longstanding commitment、surfacing、patchwork为翻译困难；Entergy是专名；横线表示用户认为与答案有关，不据此猜测其他翻译困难。"
+    "Text 2 画框与横线严格区分：框内provoked justified outrage、longstanding commitment、surfacing、patchwork为翻译困难；Entergy是专名；横线表示用户认为与答案有关，不据此猜测其他翻译困难。",
+    "Text 3 Q32：将the individual researcher's ... becomes the community's ...的起点individual错当credibility process所需要的核心机制，忽略collective scrutiny and acceptance。最终C，正确B。",
+    "Text 3 Q34：把名言‘看到熟悉事物却想到新观点’引申成‘今天的发现激发未来研究’，增加未被名言支持的跨代因果。最终B，正确D。",
+    "Text 3 Q35：原本偏向正确C，却因此前没选过D而改选D；答案字母分布不能用于推翻对全文主线的判断。",
+    "Text 3 画框翻译困难：protoscience=前科学/初步科学认识；staked in newly staked mining claims=圈定并提出采矿权主张。人名Albert Szent-Györgyi不是词汇弱项。横线只标可能的答案证据，不能自动记成翻译困难。"
   ],
   "notes": [
     "第5–7题的 bound by / subject to / apply to 构成同一“规则约束对象”语义链。",
@@ -96,6 +118,8 @@
     "Text 1 第23题的A是对 not enough exploration of the social and biological factors 的直接同义改写；原句有 and 不要求正确选项同时覆盖并列两侧。",
     "Text 1 第25题要区分：peer pressure 自然存在时 influence 很强，与专家/官员能否人为操控它产生理想效果是否可靠，是两个层次。",
     "Text 2的26、27、29分别训练‘承诺是否履行而非评价是否负面’、‘取得交易批准的目的vs后续承诺条件’、‘test的支配对象vs邻近patchwork担忧’。引述法律学者的案件焦点与作者自己的道德评价须分别标注，不能把未反驳等同于完全赞同。",
-    "Text 2 Q28标准A、Q30标准A只作source-check，不补写用户的答题记录。"
+    "Text 2 Q28标准A、Q30标准A只作source-check，不补写用户的答题记录。",
+    "Text 3的中心是发现主张如何通过科学共同体的审视、挑战和修正成为可信发现。Q32区分个人起点和集体过程，Q34控制推断边界，Q35选能覆盖全篇发展过程的标题。",
+    "答案交叉核验采用中国教育在线详细解析与希赛网（31 A、32 B、33 B、34 D、35 C）；网上个别简表答案可能有误，不能单凭一处速览替代原文证据。"
   ]
 }

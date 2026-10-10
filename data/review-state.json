@@ -265,6 +265,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "inference-boundary": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "lined-up": {
       "streak": 1,
       "errors": 0,
@@ -365,6 +375,16 @@
       "observed_days": 0,
       "observation_priority": 2
     },
+    "process-stage-role": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "provoke-family": {
       "streak": 0,
       "errors": 0,
@@ -434,6 +454,16 @@
       "reported_confusion": false,
       "observed_days": 0,
       "observation_priority": 0
+    },
+    "science-claim-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
     },
     "scope-role-match": {
       "streak": 0,
@@ -539,11 +569,11 @@
       "streak": 0,
       "errors": 0,
       "last": "2026-10-05",
-      "due": "2026-10-06",
+      "due": "2026-10-10",
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 1,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "title-specificity": {
       "streak": 0,

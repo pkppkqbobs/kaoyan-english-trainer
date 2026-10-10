@@ -1,0 +1,194 @@
+[
+  {
+    "id": "process-stage-shelter-approval-a",
+    "family": "process-stage-role",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 55,
+    "target": "个人估计 vs 集体验证",
+    "skill": "区分主张起点和取得认可所需条件",
+    "q": "An analyst estimates that the city has room for 4,000 people in emergency shelters. Officials will use this figure for evacuation plans only after independent teams verify the counts and agree on a common estimate. What makes the figure suitable for official planning?",
+    "o": [
+      "The analyst's personal familiarity with the shelters.",
+      "Verification and agreement across independent teams.",
+      "The public release of a large numerical estimate.",
+      "The analyst's decision to avoid revising the original number."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一位分析员估计城市应急避难所可容纳4000人；只有独立团队核查数据并就统一估计达成一致，政府才会在疏散计划中采用这一数字。",
+      "structure": "An analyst + estimates + that从句提出最初主张；Officials + will use + this figure ... only after ...，only after指出主张转化为官方依据所需的条件。",
+      "other": "emergency shelter 应急避难所；evacuation 疏散；estimate 估计；verify 核验。",
+      "meaning": "题干问的是让一项初步主张获得认可所需要的机制。个人估计是起点，独立团队核查与达成一致是条件；不能因为看到analyst就选个人经验。",
+      "rest": "个人熟悉情况只能解释估计如何产生；数字公开和规模大都不能自动证明可靠；拒绝修订反而与核查机制相冲突。"
+    }
+  },
+  {
+    "id": "process-stage-bridge-warning-b",
+    "family": "process-stage-role",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 55,
+    "target": "单次发现 vs 跨来源确认",
+    "skill": "过程终点与条件的角色识别",
+    "q": "A driver first reports cracks on a bridge, but the warning is not issued to the whole region until engineers compare photographs, inspect the structure, and confirm the hazard. What is required for the initial report to become an official warning?",
+    "o": [
+      "A more vivid description from the first driver.",
+      "Agreement that the first driver deserves public credit.",
+      "Public enthusiasm for an alarming photograph.",
+      "Independent assessment and confirmation of the reported danger."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "司机最先报告桥面裂缝，但直到工程师比对照片、检查结构并确认危险，地区警报才正式发布。",
+      "structure": "A driver + reports + cracks引入起点；the warning + is not issued ... until engineers compare, inspect, and confirm，用not...until表示形成正式警报的必要过程。",
+      "other": "crack 裂缝；structure 结构；hazard 危险；issue a warning 发布警报。",
+      "meaning": "个人首次报告不等于正式被认可；由多个步骤进行独立评估并确认，才使主张具有可推广的效力。注意题目问required而非who noticed it first。",
+      "rest": "报告更生动不能替代核验；给报告人荣誉不是警报成立条件；公众情绪不能替代工程检查。"
+    }
+  },
+  {
+    "id": "inference-boundary-architect-layout-a",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 55,
+    "target": "重新审视惯例 vs 无依据的未来结果",
+    "skill": "推断必须有直接语义支撑",
+    "q": "An architect argues: 'When an old street layout fails its users, we should question the layout instead of assuming that pedestrians are the problem.' Later the article mentions plans to renovate the district. Which view is most directly supported by the architect's remark?",
+    "o": [
+      "Old designs should be reconsidered when experience reveals their limits.",
+      "Every renovation will inspire a generation of future architects.",
+      "Pedestrian choices have no effect on city traffic.",
+      "New designs should always replace old ones, even when they work."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "建筑师认为，旧道路布局若不能服务使用者，就应质疑布局本身，而不是预设行人有问题。引文支持反思既有设计，而非预言未来创新的效果。",
+      "structure": "When从句给出条件；we should question A instead of assuming B是核心主张。Later句子另行交代翻修计划，但没有为引文添加未来代际因果关系。",
+      "other": "layout 布局；pedestrian 行人；renovate 翻修；reconsider 重新考虑。",
+      "meaning": "引用某人的一句话，优先提炼这句话本身可支持的思考方式。与文章主题有关的后续结果可能合理，但若引文没谈到，就不能据此归给说话人。",
+      "rest": "鼓舞未来建筑师引入未提及的影响链；完全否认行人作用和一律淘汰旧设计，都比原话更绝对。"
+    }
+  },
+  {
+    "id": "inference-boundary-archive-questions-b",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 55,
+    "target": "思考方式 vs 后代研究因果",
+    "skill": "引述证据与外推限制",
+    "q": "A historian says of a newly revised account: 'The documents did not change; the questions I asked of them did.' The article later notes that her book was reprinted thirty years later. What does her statement most strongly suggest?",
+    "o": [
+      "An influential book must be reprinted before its argument becomes valid.",
+      "Repeatedly publishing the same documents automatically produces new discoveries.",
+      "Revisiting familiar evidence with different questions can yield new interpretations.",
+      "The historian's method necessarily shaped every later generation of researchers."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "历史学家说：文献没有改变，改变的是我向它们提出的问题。这表明熟悉的证据也能因为新的提问方式产生新解释。",
+      "structure": "The documents did not change与the questions ... did形成对照；did省略changed。后句reprinted thirty years later说的是再版事实，不包含对后代研究的必然影响。",
+      "other": "historian 历史学家；document 文献；reprint 再版；interpretation 解释。",
+      "meaning": "‘旧材料+新问题→新解释’是引文直接支持的内容。后面提及多年后再版，并不能证明她影响了所有后来研究，更不能把时间先后直接改成因果。",
+      "rest": "把再版当成论证有效性的必要条件属于添加规则；自动产生发现与提问改变的机制不符；对所有后代研究产生必然影响远超引文证据。"
+    }
+  },
+  {
+    "id": "title-coverage-public-alerts-a",
+    "family": "title-coverage",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 65,
+    "target": "多阶段主题覆盖 / 防止只抓矛盾",
+    "skill": "全文标题覆盖检验",
+    "q": "A town once treated residents' road-hazard reports as isolated messages. It later built a system in which local volunteers gather reports, engineers check them, and officials publish verified travel advice. Advice is corrected when new evidence arrives. The town says repeated checking and revision—not merely the first report—has made the system dependable. Which title best covers the passage?",
+    "o": [
+      "Why Local Volunteers Sometimes Make Mistakes",
+      "The Threat of False Reports at the Start of Every Journey",
+      "How Road-Hazard Reports Become Trusted Public Advice",
+      "A Debate over Whether Engineers Should Be Replaced"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "小镇从最初零散的道路危险报告，发展到志愿者收集、工程师核查、官方发布，并根据新证据修订建议的流程。全文重点是信息如何逐步成为可靠的公共建议。",
+      "structure": "once ... later ... when ... 的时间和条件连接展开过程；最后一句not merely the first report强调可信度来自持续核查与修订。",
+      "other": "hazard 危险；isolated 零散的；verified 核实过的；dependable 可靠的。",
+      "meaning": "标题需要覆盖‘初始信息→验证→公开→更新→可信’整条主线。仅强调最初的错误或一次争论，都只覆盖局部或无证据。",
+      "rest": "志愿者犯错只是潜在局部问题；旅途中的虚假报告不是全文核心；替换工程师与原文分工核查相反。"
+    }
+  },
+  {
+    "id": "title-coverage-school-meals-b",
+    "family": "title-coverage",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 65,
+    "target": "标题跨段覆盖 / 不凭字母分布",
+    "skill": "选择覆盖发展主线的标题",
+    "q": "A school district began by collecting students' complaints about lunch menus. Nutrition staff then tested alternative recipes, while parents and kitchen workers assessed cost and acceptance. Several proposals were changed after trials. The district now repeats the evaluation each year rather than treating its first reform as final. Which is the best title?",
+    "o": [
+      "The Hidden Cost of Hiring School Kitchen Workers",
+      "From Lunch Complaints to an Evolving Food Program",
+      "Why Students Reject Every Healthy Menu",
+      "A Final Recipe That Ended School Food Debates"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "学区从收集学生对午餐菜单的意见出发，经过营养人员测试、家长和食堂人员评估、试行后修改，并每年继续复评。主线是餐食方案逐步形成并不断演进。",
+      "structure": "began by ... then ... after trials ... now ... each year组成完整发展顺序；rather than treating ... as final明确不是一次定案。",
+      "other": "nutrition staff 营养工作人员；alternative recipe 替代食谱；assess 评估；trial 试行。",
+      "meaning": "最佳标题应包含问题提出、集体检验和持续改进。不能因为某个字母此前少出现，就放弃更能覆盖全文的选项。",
+      "rest": "雇员成本只是局部评估维度；every healthy menu属于无依据的绝对化；final recipe与每年重新评估矛盾。"
+    }
+  },
+  {
+    "id": "science-claim-vocab-proto-a",
+    "family": "science-claim-vocab",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 45,
+    "target": "protoscience / 不等于伪科学",
+    "skill": "识别科学认识阶段",
+    "q": "Early explanations of how migratory birds navigate were treated as protoscience: they offered testable ideas but lacked repeated measurements. What does protoscience mean here?",
+    "o": [
+      "Scientifically established knowledge that can no longer be questioned.",
+      "An early, not-yet-fully-validated stage of scientific inquiry.",
+      "A deliberate effort to deceive the public with fake data.",
+      "An area of research unrelated to evidence or testing."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "早期关于候鸟如何导航的解释被视为尚处初步阶段的科学认识：提出了可检验的设想，但缺乏反复测量的证据。",
+      "structure": "Early explanations是主语，were treated as protoscience是被动结构；冒号后they offered...but lacked...说明其潜力与尚未获得充分检验并存。",
+      "other": "migratory bird 候鸟；navigate 导航、辨认方向；validate 验证；measurement 测量。",
+      "meaning": "proto-表示初期/原始阶段，protoscience通常指尚在形成、未充分成熟的科学探索，不自动等于pseudoscience（伪科学）。",
+      "rest": "永久不可质疑与科学检验不符；故意欺骗没有证据；原文明确有testable ideas，不能说与证据和检验无关。"
+    }
+  },
+  {
+    "id": "science-claim-vocab-archive-b",
+    "family": "science-claim-vocab",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-10",
+    "budget": 50,
+    "target": "stake a claim / 权利主张",
+    "skill": "识别比喻及法律含义",
+    "q": "Before historians could verify the ownership papers, several community groups staked a claim to the abandoned archive, each citing an old agreement. What did the groups do?",
+    "o": [
+      "They completed a final sale of the archive.",
+      "They physically built fences around all the records.",
+      "They asserted a right to the archive, though ownership remained unverified.",
+      "They agreed to give up every possible legal interest."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "在历史学家核验所有权文件之前，几个社区团体分别援引旧协议，对废弃档案馆提出权利主张。但所有权尚未核实。",
+      "structure": "several community groups是主语，staked a claim to是谓语词组，the abandoned archive是所主张的对象；Before从句指出正式核验尚未完成。",
+      "other": "archive 档案馆/档案；ownership 所有权；cite 引用、援引；agreement 协议。",
+      "meaning": "stake a claim to sth.=宣称对某物有权利或权益；原文newly staked mining claims是新圈定并提出采矿权主张的矿区。提出主张并不等于已证实拥有。",
+      "rest": "最终出售和建围栏都未出现；宣布放弃权利与staked a claim意义相反。"
+    }
+  }
+]
