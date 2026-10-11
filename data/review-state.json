@@ -106,6 +106,16 @@
       "observed_days": 1,
       "observation_priority": 2
     },
+    "compensation-components": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-11",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "complementary": {
       "streak": 0,
       "errors": 0,
@@ -195,6 +205,16 @@
       "reported_confusion": false,
       "observed_days": 2,
       "observation_priority": 0
+    },
+    "example-claim-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-11",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "expectation-contrast": {
       "streak": 0,
@@ -565,6 +585,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 0.25
+    },
+    "text4-boxed-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-11",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "title-coverage": {
       "streak": 0,

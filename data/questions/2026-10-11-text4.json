@@ -1,0 +1,242 @@
+[
+  {
+    "id": "compensation-hospital-benefits-a",
+    "family": "compensation-components",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 55,
+    "target": "工资涨幅 vs 福利形式",
+    "skill": "基本工资与间接报酬",
+    "q": "The hospital increased nurses' basic pay by only 1%, but expanded subsidized childcare and doubled its contribution to their retirement accounts. Which conclusion is best supported?",
+    "o": [
+      "Every nurse's cash salary doubled.",
+      "The hospital eliminated all non-wage benefits.",
+      "The overall reward package improved partly through benefits beyond basic pay.",
+      "The hospital cut pension support to finance the salary increase."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "医院只把护士的基本工资提高了1%，却扩大了托育补贴，并将其养老金账户的雇主缴费翻倍。合理结论是报酬待遇部分通过工资以外的福利改善。",
+      "structure": "The hospital + increased + basic pay ... but expanded ... and doubled ...；but对照基本工资小幅增长和两种福利的明显增加，结论应兼顾两边。",
+      "other": "subsidized childcare 托育补贴；contribution 缴费、投入；retirement account 退休金账户；reward package 总体报酬待遇。",
+      "meaning": "basic pay / cash salary与benefits / pensions不能混为一谈。工资表面增幅modest并不排除实际待遇因非工资福利而indirectly augmented。",
+      "rest": "基本工资翻倍与only 1%冲突；取消福利与expanded相反；削减养老金支持与doubled contribution直接相反。"
+    }
+  },
+  {
+    "id": "compensation-port-delayed-benefits-b",
+    "family": "compensation-components",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 60,
+    "target": "公开工资表 vs 延后福利",
+    "skill": "后置福利与总体收入",
+    "q": "A port authority's new contract capped immediate wage increases at 2%. Negotiators nevertheless won additional paid leave and retirement payments that workers would receive years later. Why might the published wage table understate the agreement's value?",
+    "o": [
+      "Because future benefits add compensation not visible in current wage increases.",
+      "Because the wage table proves that workers lost all holiday entitlement.",
+      "Because capped wages show that pensions must have been reduced.",
+      "Because only the highest-paid managers can receive retirement benefits."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "港务局新合同将近期工资涨幅限制在2%，但谈判代表争取到更多带薪休假和多年后领取的退休福利。因此只看当前工资表，会低估协议的总体价值。",
+      "structure": "A port authority's contract + capped + wage increases；Negotiators + won + leave and payments；years later修饰后续领取时间。Why题要解释工资表遗漏了哪一部分。",
+      "other": "cap 限定上限；port authority 港务局；negotiator 谈判代表；paid leave 带薪休假。",
+      "meaning": "backloaded compensation指把部分报酬安排在之后或以福利形式提供。不能把工资涨幅不大误读为整体待遇没有提高，更不能凭空判定增长‘过度’。",
+      "rest": "原文明确增加假期而非失去假期；养老金被削减与additional retirement payments相反；限定只给高管没有证据。"
+    }
+  },
+  {
+    "id": "example-council-reform-opposition-a",
+    "family": "example-claim-scope",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 60,
+    "target": "具体反对行动支持哪条主旨",
+    "skill": "例子→论点 / 不能多推态度变化",
+    "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
+    "o": [
+      "Organized groups can impede administrative reforms.",
+      "The association persuaded every resident to change political allegiance.",
+      "Most builders oppose the current political system in all circumstances.",
+      "Digital permits always cost more than paper applications."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
+      "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
+      "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
+      "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
+      "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
+    }
+  },
+  {
+    "id": "example-farmers-support-trial-b",
+    "family": "example-claim-scope",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 60,
+    "target": "例子同样可以说明支持改革",
+    "skill": "不能靠团体行动推固定结论",
+    "q": "An article argues that locally organized groups can sometimes help an unpopular policy get started. It describes a farmers' cooperative that trained volunteers and persuaded members to test a water-saving system, helping the trial begin on schedule. What is the role of this example?",
+    "o": [
+      "It proves every member had opposed water conservation before joining.",
+      "It shows cooperatives necessarily control the national government.",
+      "It establishes that all unpopular policies eventually succeed.",
+      "It supports the claim that organized groups can facilitate policy implementation."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "文章认为地方组织有时能帮助不受欢迎的政策启动，随后举农民合作社培训志愿者、推动成员试用节水系统，使试验按时开展的例子。这个例子是在支持‘团体也能帮助政策落实’。",
+      "structure": "An article argues + that从句是主张；It describes...引出实例；helping the trial begin是实例中的实际结果。",
+      "other": "cooperative 合作社；facilitate 促进；implementation 落实；trial 试行。",
+      "meaning": "例子支持的结论可以是促进改革，也可以是阻碍改革，取决于前后文。不要机械地把‘团体动员’与‘妨碍改革’绑定。",
+      "rest": "成员加入前态度没有交代；合作社对国家政府的控制与本文无关；一次成功试行不能保证所有政策最终成功。"
+    }
+  },
+  {
+    "id": "inference-boundary-tenant-supporters-a",
+    "family": "inference-boundary",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 50,
+    "target": "动员支持者≠改变看法",
+    "skill": "行动证据与态度变化证据",
+    "q": "A tenants' group rallied 800 long-time supporters at a public hearing against a proposed rent increase. No survey of participants' earlier opinions was conducted. Which statement is warranted?",
+    "o": [
+      "The campaign converted 800 opponents into supporters.",
+      "The gathering shows mobilization of supporters, not necessarily a change in their prior attitudes.",
+      "The group persuaded the city to cancel the proposal.",
+      "All residents now oppose rent increases."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "租户组织动员了800名长期支持者，在公开听证会上反对拟议涨租。没有调查这些参与者以前的观点。只能确认组织动员了支持者，不能确认他们是被说服后改变立场。",
+      "structure": "A tenants' group + rallied + long-time supporters；No survey ... was conducted明确缺失了对以前态度的测量。Which statement is warranted要求只说证据足以支持的内容。",
+      "other": "tenant 租户；rally 动员；hearing 听证会；prior attitude 先前态度。",
+      "meaning": "rally supporters是组织已有支持者采取行动；change someone's political attitude要有前后立场变化的证据。动员和说服是不同关系。",
+      "rest": "转化反对者需要原先反对的证据；城市撤销提案未被提及；把800名支持者扩大为所有居民属于范围过度扩大。"
+    }
+  },
+  {
+    "id": "inference-boundary-survey-shift-b",
+    "family": "inference-boundary",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 55,
+    "target": "态度确有变化 vs 是否由活动造成",
+    "skill": "观察变化与归因分开",
+    "q": "After a public campaign, a survey of the same 500 residents found support for the new bus plan had risen from 30% to 55%. During the same period, a fare cut was also announced. What is the most defensible conclusion?",
+    "o": [
+      "The campaign alone caused every changed opinion.",
+      "Support was measured to have risen, but the campaign's independent causal effect is not established.",
+      "There is no evidence anyone's opinion changed.",
+      "The fare cut certainly had no influence on residents."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一场宣传活动之后，对同一批500名居民的调查发现，新公交方案支持率从30%升至55%；与此同时还宣布降低车费。能确定支持率发生变化，但不能断定全由宣传活动造成。",
+      "structure": "a survey ... found + that支持率变化；During the same period引入另一同时发生的因素，阻止将全部变化归因于campaign。",
+      "other": "fare cut 降低票价；resident 居民；causal effect 因果效应；establish 证实。",
+      "meaning": "这次确有前后态度数据，因此不能机械否认变化；但‘变化发生了’与‘某活动单独导致变化’仍是两回事。推断题要守住证据提供的层级。",
+      "rest": "alone和every绝对化且忽略票价变化；‘没有证据变化’与同群体前后调查冲突；完全排除票价影响没有依据。"
+    }
+  },
+  {
+    "id": "text4-vocab-unionist-prime-a",
+    "family": "text4-boxed-vocab",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 40,
+    "target": "unionist / in one's prime",
+    "skill": "画框身份和阶段词",
+    "q": "The unionist became a prominent negotiator in her prime, when she had the energy and experience to lead several major workplace campaigns. Here unionist and in her prime mean:",
+    "o": [
+      "政府公务员 / 刚开始工作的时候",
+      "行业雇主 / 在退休之后",
+      "工会人士 / 处于事业或能力的鼎盛时期",
+      "独立记者 / 工作经验尚浅时"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "这名工会人士在事业巅峰时期成为知名谈判代表，那时她有精力和经验领导数次重大职场行动。",
+      "structure": "The unionist是主语，became是系动词，a prominent negotiator是表语；in her prime是时间状态状语；when从句解释为什么说她正处鼎盛时期。",
+      "other": "prominent 知名的；negotiator 谈判代表；workplace 职场；campaign 行动。",
+      "meaning": "unionist是工会成员或工会活动人士；in one's prime是人生或事业的全盛、鼎盛时期，不是‘在首要位置’。",
+      "rest": "公务员、雇主、记者都不能替代工会人士；退休后、经验尚浅都与energy and experience表达的巅峰状态不一致。"
+    }
+  },
+  {
+    "id": "text4-vocab-way-fearsome-b",
+    "family": "text4-boxed-vocab",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 50,
+    "target": "in the way of / fearsome",
+    "skill": "介词词组的语境含义",
+    "q": "The smaller team had little in the way of legal resources, while its opponent had a fearsome reputation for lengthy court battles. Which translation is accurate?",
+    "o": [
+      "小团队的法律资源不多，而对手长期诉讼的名声令人畏惧。",
+      "小团队在通往法庭的道路上迷路了，而对手声誉良好。",
+      "小团队有充足法律资源，对手从不打官司。",
+      "小团队为了避免诉讼故意封锁道路。"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "这个较小的团队几乎没有多少法律资源，而对手因擅长旷日持久的诉讼而名声令人畏惧。",
+      "structure": "The smaller team + had + little in the way of legal resources；while连接另一主语its opponent + had + a fearsome reputation。",
+      "other": "legal resources 法律资源；opponent 对手；reputation 名声；court battle 法庭争讼。",
+      "meaning": "little/much in the way of sth.表示在某方面拥有的东西少/多；fearsome=令人畏惧的、很强硬可怕的。in the way of在此不是‘挡路’。",
+      "rest": "道路与阻挡都误读了in the way of；‘资源充足’和little相反；从不打官司与lengthy court battles不符。"
+    }
+  },
+  {
+    "id": "text4-vocab-merit-generous-c",
+    "family": "text4-boxed-vocab",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 50,
+    "target": "generous / merit pay",
+    "skill": "薪酬和绩效词组",
+    "q": "The laboratory offers generous merit pay to researchers whose work meets demanding performance standards, even though their basic salary is ordinary. What is being described?",
+    "o": [
+      "根据研究员家庭财产发放的基本工资",
+      "所有人的基本工资被削减到同一标准",
+      "只奖励研究员在岗年限的津贴",
+      "对达到绩效标准的研究者提供优厚的绩效奖金或工资"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "实验室为达到严格绩效标准的研究人员提供优厚的绩效报酬，尽管他们的基本工资很普通。",
+      "structure": "The laboratory + offers + generous merit pay + to researchers；whose work ...定语从句限定哪些研究者；even though引出与基本工资的对比。",
+      "other": "laboratory 实验室；demanding 严格的、要求高的；performance standard 绩效标准；ordinary 普通的。",
+      "meaning": "generous修饰待遇时表示丰厚、优厚；merit pay是按能力表现或工作绩效确定的工资或奖金，与basic salary不能简单画等号。",
+      "rest": "家庭财产与绩效标准无关；统一削薪未出现；只按资历奖励与performance standards不符。"
+    }
+  },
+  {
+    "id": "text4-vocab-rally-drawnout-d",
+    "family": "text4-boxed-vocab",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-11",
+    "budget": 55,
+    "target": "notoriously / drawn-out / rally",
+    "skill": "典型改革冲突词块",
+    "q": "After a notoriously drawn-out hearing, campaigners rallied local residents to oppose the plan. Which interpretation best matches the sentence?",
+    "o": [
+      "听证会异常简短，因此活动人士解散了居民。",
+      "经过众所周知旷日持久的听证会，活动人士动员当地居民反对计划。",
+      "听证会从未进行，居民被要求保持中立。",
+      "活动人士隐瞒了整个听证会，因此居民改变了政治立场。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "在一次众所周知拖延了很久的听证会之后，活动人士动员当地居民反对这项计划。",
+      "structure": "After a ... hearing是时间状语；campaigners + rallied + local residents是主谓宾；to oppose the plan说明动员的行动方向。",
+      "other": "hearing 听证会；campaigner 活动人士；resident 居民；oppose 反对。",
+      "meaning": "notoriously=众所周知地、臭名昭著地（通常有负面色彩）；drawn-out=拖延很久的、旷日持久的；rally作动词=动员、召集。动员不自动证明居民改变了原有政治态度。",
+      "rest": "简短与drawn-out相反；从未举行和保持中立均无依据；隐瞒听证会与改变政治立场都是额外增添的动作。"
+    }
+  }
+]

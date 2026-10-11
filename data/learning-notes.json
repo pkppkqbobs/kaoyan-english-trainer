@@ -475,5 +475,56 @@
     "session_id": "2026-10-10-2012-text3",
     "source_exam": "2012-english1",
     "source_part": "Text 3"
+  },
+  {
+    "family": "compensation-components",
+    "date": "2026-10-11",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一 Text 4 第38题用户明确表示拿不准，但未在聊天中确认最终选项。正确B indirectly augmented。原文pay increases modest（基本工资增幅小）却加 holidays、pensions 和其他 benefits；收入/总体报酬可通过非基本工资福利间接增加。不应把‘福利丰厚’直接升级成excessively increased（涨幅过度）。保持观察，不补造pick或错误记录。",
+    "session_id": "2026-10-11-2012-text4",
+    "source_exam": "2012-english1",
+    "source_part": "Text 4",
+    "source_question": 38
+  },
+  {
+    "family": "example-claim-scope",
+    "date": "2026-10-11",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一 Text 4 第39题用户最初选择/倾向正确C（工会可能阻碍公共部门改革），因排除A后临时想到B（改变人们的政治态度）也许成立，尚未确认最终提交字母。文章前文明确改革遭强烈反对，Wisconsin工会动员反对州长的支持者举例说明改革阻力；并未给出支持者前后政治态度数据。A并非主语错误，真正错误是把反对某州长/具体改革扩展成often反对整个现行政治体制。先区分例子支持的上层论点和选项额外宣称的关系。",
+    "session_id": "2026-10-11-2012-text4",
+    "source_exam": "2012-english1",
+    "source_part": "Text 4",
+    "source_question": 39,
+    "first_considered": "C",
+    "later_considered": "B"
+  },
+  {
+    "family": "inference-boundary",
+    "date": "2026-10-11",
+    "kind": "user_reported_confusion",
+    "note": "2012 英语一 Text 4 第39题思路：rallied thousands of supporters只能直接证明动员了支持者，不能无依据推出changed people's political attitudes。与2012 Text 3 Q34一样，要防止把现实中可能的后续变化当作文章已经提供的事实；但若有前后态度测量，也不能机械否认态度变化。用户未确认最终选项，此为非计分困惑观察。",
+    "session_id": "2026-10-11-2012-text4",
+    "source_exam": "2012-english1",
+    "source_part": "Text 4",
+    "source_question": 39
+  },
+  {
+    "family": "text4-boxed-vocab",
+    "date": "2026-10-11",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一 Text 4 图片中用户明确的画框翻译困难（高价值词块）：in the way of (consequences)=在……方面/多少后果；generous (pensions)=丰厚的、优厚的；merit pay=绩效工资；rallied supporters=动员、召集支持者。画横线是用户认为与答题证据有关，不作为翻译困难。关联Q37/38/39但不自动计分。",
+    "session_id": "2026-10-11-2012-text4",
+    "source_exam": "2012-english1",
+    "source_part": "Text 4"
+  },
+  {
+    "family": "text4-boxed-vocab",
+    "date": "2026-10-11",
+    "kind": "translation_difficulty",
+    "review_importance": "low",
+    "note": "2012 英语一 Text 4 其余可明确辨认的画框：unionist=工会人士；in their prime=处于鼎盛时期；fearsome=令人畏惧的；notoriously=众所周知地（常有负面含义）；drawn-out=旷日持久的。区分工会身份、职业阶段、评价程度与改革冲突语境，后续少量轮换即可。",
+    "session_id": "2026-10-11-2012-text4",
+    "source_exam": "2012-english1",
+    "source_part": "Text 4"
   }
 ]

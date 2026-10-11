@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-11-2012-text4",
+  "date": "2026-10-11",
+  "created_at": "2026-10-11T20:33:00+08:00",
+  "source": "2012 英语一 Text 4",
+  "result_summary": "用户明确表示Q38拿不准，但未给出最终选项（正确B indirectly augmented）；Q39原本选/倾向正确C，排除D与A后又觉得B可能成立，最终选项未确认（标准C）。Q38须区分基本工资微涨与假期、养老金等非工资待遇的间接增加。Q39段落论点是公共部门改革受到工会阻挠；Wisconsin工会动员支持者反对州长可作为例证，但不能推出支持者改变了政治态度。用户排除A的‘主语不对’不准确，A是反对对象及often频率被扩大。Q36/37/40未可靠确认作答。明确画框翻译困难：unionist, in their prime, in the way of, fearsome, generous, notoriously, merit pay, drawn-out, rallied；横线仅是候选答题证据。所有观察与网页成绩分离，绝不补造pick或计分。",
+  "focus_families": [
+    "compensation-components",
+    "example-claim-scope",
+    "inference-boundary",
+    "text4-boxed-vocab"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2012-english1.json"
+}

@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-10",
+  "reviewed_on": "2026-10-11",
   "source_commit": "5a1751e70d704a71b114a564b43ab3282e29abd7",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -220,7 +220,17 @@
     "title-coverage-public-alerts-a": "context:title-coverage-public-alerts-a",
     "title-coverage-school-meals-b": "context:title-coverage-school-meals-b",
     "science-claim-vocab-proto-a": "context:science-claim-vocab-proto-a",
-    "science-claim-vocab-archive-b": "context:science-claim-vocab-archive-b"
+    "science-claim-vocab-archive-b": "context:science-claim-vocab-archive-b",
+    "compensation-hospital-benefits-a": "context:compensation-hospital-benefits-a",
+    "compensation-port-delayed-benefits-b": "context:compensation-port-delayed-benefits-b",
+    "example-council-reform-opposition-a": "context:example-council-reform-opposition-a",
+    "example-farmers-support-trial-b": "context:example-farmers-support-trial-b",
+    "inference-boundary-tenant-supporters-a": "context:inference-boundary-tenant-supporters-a",
+    "inference-boundary-survey-shift-b": "context:inference-boundary-survey-shift-b",
+    "text4-vocab-unionist-prime-a": "context:text4-vocab-unionist-prime-a",
+    "text4-vocab-way-fearsome-b": "context:text4-vocab-way-fearsome-b",
+    "text4-vocab-merit-generous-c": "context:text4-vocab-merit-generous-c",
+    "text4-vocab-rally-drawnout-d": "context:text4-vocab-rally-drawnout-d"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
