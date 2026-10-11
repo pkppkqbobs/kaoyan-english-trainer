@@ -853,6 +853,94 @@
       "qid": "evidence-concrete-freeze-b",
       "round_id": "mv2ews14-44ts0fp9",
       "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 14806,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "title-preprint-a",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "point",
+      "ok": true,
+      "ms": 388654,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "legacy-miss-point",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "process-stage-role",
+      "ok": false,
+      "ms": 57536,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "process-stage-shelter-approval-a",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 123492,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "parallel-governance-repair",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "relative",
+      "ok": false,
+      "ms": 16867,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 16783,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "social-message-repair-framing",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 83108,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "inference-boundary-archive-questions-b",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "subject",
+      "ok": true,
+      "ms": 19649,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "subject-curtains-steam",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
     }
   ],
   "issues": [
@@ -867,6 +955,7 @@
     9,
     10,
     11,
-    12
+    12,
+    13
   ]
 }
