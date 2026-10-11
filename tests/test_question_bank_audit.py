@@ -104,7 +104,7 @@ class BankCoverageTests(unittest.TestCase):
             selected = review.choose_variant(variants, shown, random.Random(7), avoid_ids=avoid)
             self.assertEqual(selected["id"], "old-context")
 
-    def test_cross_module_variant_history_does_not_change_family_priority(self):
+    def test_cross_module_history_keeps_urgent_priority_and_only_changes_the_waiting_reserve(self):
         day = date(2026, 10, 6)
         items = review.bank(ROOT)
         evidence = review.load(ROOT / "data/result-evidence.json")["rows"]
@@ -113,9 +113,19 @@ class BankCoverageTests(unittest.TestCase):
         combined = review.variant_history(ROOT, day, daily)
         self.assertIn("point-waiting", combined["2026-10-04"])
         self.assertNotIn("point-waiting", daily["2026-10-04"])
-        old = review.choose(items, stats, daily, day)
-        new = review.choose(items, stats, daily, day, variant_shown=combined)
-        self.assertEqual([q["family"] for q in old], [q["family"] for q in new])
+        # The ordinary urgent ranking still uses daily family exposure only.
+        # A one-question urgent request has no waiting reserve to fill.
+        old_urgent = review.choose(items, stats, daily, day, count=1)
+        new_urgent = review.choose(items, stats, daily, day, count=1, variant_shown=combined)
+        self.assertEqual([q["family"] for q in old_urgent], [q["family"] for q in new_urgent])
+        old = [q["family"] for q in review.choose(items, stats, daily, day)]
+        new = [q["family"] for q in review.choose(items, stats, daily, day, variant_shown=combined)]
+        # The sole aged-weakness reserve should now notice that title-specificity
+        # was already offered in the Oct 5 article, while parallel-governance has
+        # had no opportunity since Oct 3. The other seven families stay unchanged.
+        self.assertEqual(set(old) - set(new), {"title-specificity"})
+        self.assertEqual(set(new) - set(old), {"parallel-governance"})
+        self.assertEqual([f for f in old if f in new], [f for f in new if f in old])
 
     def test_same_family_rotates_qids_and_contexts_across_recent_rounds(self):
         items = [item("alpha", "a"), item("beta", "b"), item("gamma", "c")]

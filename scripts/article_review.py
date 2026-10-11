@@ -85,8 +85,8 @@ def make_payload(root, session, items, archives, repo):
     today = review.load(root / "data/daily.json", {})
     today_ids = {q["id"] for q in today.get("questions", [])} if today.get("date") == session["date"] else set()
     history.setdefault(session["date"], []).extend(sorted(today_ids))
-    # Keep family ranking on its existing history; use all published modules
-    # only when deciding which context/qid to show for that family.
+    # Keep ordinary urgency on its existing history. All published modules
+    # inform context/qid spacing and the single waiting-time reserve only.
     variant_shown = review.variant_history(root, day, history)
 
     focus = sorted(set(session["focus_families"]) & groups.keys())

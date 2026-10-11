@@ -510,6 +510,27 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
                 - min(exposure.get(f, 0) * 0.5, 2) + rng.random())
     ranked = sorted(groups, key=rank, reverse=True)
     urgent = sorted(groups, key=urgent_rank, reverse=True)
+    # The single anti-starvation slot must not reuse the urgency ranking: a
+    # persistent cluster of slow/error targets can otherwise take it forever.
+    # A published opportunity is not an attempt; it only resets this queue age.
+    family_for = {q['id']: f for f, variants in groups.items() for q in variants}
+    family_shown = {}
+    for stamp, ids in (variant_shown if variant_shown is not None else history).items():
+        if stamp > day.isoformat() or (stamp == day.isoformat() and not include_today):
+            continue
+        for qid in ids:
+            if qid in family_for:
+                f = family_for[qid]
+                family_shown[f] = max(stamp, family_shown.get(f, ''))
+    def waiting(f):
+        activity = [stamp for stamp in (family_shown.get(f), stats[f].get('last')) if stamp]
+        available_dates = [max(stamps) for q in groups[f]
+                           if (stamps := [q[k] for k in ('introduced', 'published_on') if q.get(k)])]
+        since = max(activity) if activity else min(available_dates, default=day.isoformat())
+        return max(0, (day - date.fromisoformat(since)).days)
+    # Stable sorting keeps the existing urgency order for equal waiting times;
+    # it introduces no new randomness or scoring/learning evidence.
+    neglected = sorted(urgent, key=waiting, reverse=True)
     chosen = []
     def allowed(f):
         # Full ordering belongs in the independent Part B page; at most one mini pair
@@ -526,11 +547,11 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
     requested = count
     take(min(4, max(1, requested - 2)), lambda f: (stats[f]["due"] <= day.isoformat()
                        and (stats[f]["errors"] > 0 or stats[f]["reported_confusion"] or stats[f]["slow_or_uncertain"])), urgent)
-    # Keep one slot for a weak family that has been overdue for several days.
-    # Without this reserve, a large cluster of newer mistakes can repeatedly
-    # displace older slow/uncertain targets such as subject/long-term grammar.
-    take(1, lambda f: ((day - date.fromisoformat(stats[f]["due"])).days >= 2
-                       and (stats[f]["errors"] > 0 or stats[f]["slow_or_uncertain"] or stats[f]["reported_confusion"])), urgent)
+    # Translation-only observations keep their normal rank, but cannot displace
+    # a real error/slow answer or explicit uncertainty in this one reserve.
+    take(1, lambda f: (stats[f]['due'] <= day.isoformat() and waiting(f) >= 3
+                       and (stats[f]['errors'] > 0 or stats[f]['slow_or_uncertain']
+                            or (stats[f]['reported_confusion'] and stats[f].get('observation_priority', 2) >= 2))), neglected)
     take(1, lambda f: f in STRUCTURE)
     take(max(0, 3 - sum(age(f) > 3 for f in chosen)), lambda f: age(f) > 3)
     take(2, lambda f: 1 <= age(f) <= 3)
