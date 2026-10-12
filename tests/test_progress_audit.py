@@ -49,6 +49,18 @@ class ProgressAuditTests(unittest.TestCase):
         history = review.load(ROOT / 'data/daily-history.json')
         start = date.fromisoformat(review.load(ROOT / 'data/review-state.json')['as_of']) + timedelta(days=1)
         shown = {family: [] for family in ('viewpoint-fact', 'summary-location')}
+        # A recent article/passage publication is already a scheduled review
+        # opportunity. It is not a scored attempt or a mastery day, but it should
+        # count when measuring whether the scheduler offered an old weakness
+        # within the seven-day window. Otherwise an article shown yesterday
+        # can make this daily-only starvation assertion fail spuriously.
+        family_by_qid = {q['id']: q['family'] for q in items}
+        for stamp, qids in review.variant_history(ROOT, start, history).items():
+            offset = (date.fromisoformat(stamp) - start).days
+            if -6 <= offset < 0:
+                for family in shown:
+                    if any(family_by_qid.get(qid) == family for qid in qids):
+                        shown[family].append(offset)
         initial = review.make_stats(items, rows, notes, start)
         for offset in range(21):
             day = start + timedelta(days=offset)
