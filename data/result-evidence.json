@@ -941,6 +941,94 @@
       "qid": "subject-curtains-steam",
       "round_id": "mv3t3scl-l603g6es",
       "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 59049,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "scope-role-report-subsidy-a",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "point",
+      "ok": true,
+      "ms": 9621,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "point-joke",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "cling-climb",
+      "ok": true,
+      "ms": 11984,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "cling-policy-a",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "process-stage-role",
+      "ok": false,
+      "ms": 53647,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "process-stage-shelter-approval-a",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "example-claim-scope",
+      "ok": false,
+      "ms": 98870,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "example-council-reform-opposition-a",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "relative",
+      "ok": true,
+      "ms": 10389,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "legacy-which",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 66282,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "inference-boundary-survey-shift-b",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-12",
+      "family": "compensation-components",
+      "ok": true,
+      "ms": 65135,
+      "uncertain": false,
+      "origin": 14,
+      "qid": "compensation-hospital-benefits-a",
+      "round_id": "mv55zm6w-l1a5uqa4",
+      "source_date": "2026-10-12"
     }
   ],
   "issues": [
@@ -956,6 +1044,7 @@
     10,
     11,
     12,
-    13
+    13,
+    14
   ]
 }
