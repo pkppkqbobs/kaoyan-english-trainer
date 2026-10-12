@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sentence-link-soil-sensor-a",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12",
+    "budget": 60,
+    "target": "话题相同不等于双向衔接",
+    "skill": "回指 + 承上启下",
+    "q": "前文：Local farmers and engineers spent three years designing a sensor that could measure soil moisture, temperature and rainfall.\n【空缺】\n后文：Today this linked network lets dozens of villages compare conditions in real time.\n哪一句最适合填入？",
+    "o": [
+      "A photo-sharing app lets farmers combine pictures and short videos into attractive posts.",
+      "They then connected the sensors to a shared network that automatically exchanged readings.",
+      "Rainfall is usually lower in the eastern villages than in the western ones.",
+      "Some local farmers prefer older methods of recording the weather."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "前文介绍农民和工程师共同开发传感器；正确衔接句说明他们随后把传感器接入共享网络；后文再说这个联网系统让许多村庄实时比较天气条件。",
+      "structure": "前文Local farmers and engineers是复数施动者；正确句They回指这群人，the sensors回指前面的sensor，a shared network引出后文this linked network。",
+      "other": "soil moisture 土壤湿度；sensor 传感器；reading 测量读数；in real time 实时。",
+      "meaning": "至少核对两侧：前文的人和物在候选句中有没有明确承接？候选句又是否为后文this linked network提供来源？泛泛谈某种应用的主题关联比这种双向回指弱。",
+      "rest": "照片分享应用也属于农业数字技术，但没有承接开发传感器的人，也不能解释this linked network；降雨分布和传统记录方式均缺少双向承接链。"
+    }
+  },
+  {
+    "id": "sentence-link-train-timetable-b",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12",
+    "budget": 60,
+    "target": "指示表达与所指关系",
+    "skill": "过程承接 + This lack of coordination",
+    "q": "前文：The regional train and bus operators publish separate schedules. Passengers often miss a connection when one service runs late.\n【空缺】\n后文：This lack of coordination persuaded the council to introduce a common timetable.\n哪一句最自然？",
+    "o": [
+      "The operators bought more comfortable seats for several long-distance services.",
+      "Mobile apps help tourists discover nearby restaurants and shops.",
+      "Neither operator adjusts its departure times when the other's service is delayed.",
+      "The council's new office opened beside the railway station last summer."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "前文指出火车和公交时刻表各自独立，乘客因此误车；正确句补充双方遇到延误也不调整衔接班次；后文的this lack of coordination便有明确指代对象。",
+      "structure": "Neither operator是主语，adjusts是谓语；when从句补充触发条件。后文This lack of coordination概括了这种双方未协调的行为。",
+      "other": "timetable 时刻表；connection 换乘衔接；departure time 发车时间；adjust 调整。",
+      "meaning": "这种题不是谁的主题词多谁正确，而是候选句是否构成后文this/these抽象名词可总结的具体事实，并与前文的矛盾同向。",
+      "rest": "座椅改善和附近商店虽与交通有关，却无法解释协调缺失；办公室搬迁也不构成换乘失误的直接原因。"
+    }
+  },
+  {
+    "id": "sentence-link-course-participation-a",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12",
+    "budget": 60,
+    "target": "表面便利 vs 参与不足",
+    "skill": "讽刺语气 + 对比过渡",
+    "q": "前文：The online course called itself interactive, but students could do little more than click Next after each recorded lecture. The easiest part was operating the screen; the hardest was staying awake.\n【空缺】\n后文：What would genuine participation require? Students could challenge arguments and revise one another's work.\n哪句最适合？",
+    "o": [
+      "The screen's simplicity proves that the course already offers full participation.",
+      "By contrast, a redesigned course could let students contribute arguments instead of merely consuming lectures.",
+      "Video lectures are cheaper to store than printed textbooks.",
+      "Some courses include subtitles in several languages."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "前文用带讽刺性的说法指出所谓互动课仍只让学生被动点下一页；正确句转向让学生真正贡献观点的另一种课程；后文追问真正参与需要什么。",
+      "structure": "but建立宣称interactive与实际只能click Next的矛盾；the hardest was staying awake暗示被动乏味；By contrast引出另一模式，contribute arguments与后文challenge/revise形成衔接。",
+      "other": "interactive 互动的；lecture 讲座/课；challenge an argument 质疑论点；revise 修订。",
+      "meaning": "看到操作很简单，不能自动判为作者赞扬。应结合转折、夸张和后文提问判断作者真正评价：被动消费不足，主动参与才是重点。",
+      "rest": "简单操作证明充分互动与but students could do little more相反；储存成本和字幕虽与网课有关，却不解释后文genuine participation。"
+    }
+  },
+  {
+    "id": "sentence-link-museum-experiment-b",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12",
+    "budget": 65,
+    "target": "单向展示→反向参与→后文设问",
+    "skill": "双向篇章钩子",
+    "q": "前文：At the old science museum, visitors watched a machine demonstrate each experiment. The most demanding thing they could do was press the Start button.\n【空缺】\n后文：What counts as taking part in an experiment? Visitors must be able to change a variable and compare the results.\n哪一句最适合？",
+    "o": [
+      "The museum's historical building has been repaired many times.",
+      "The simple controls made the demonstrations easier for young children to watch.",
+      "Every machine had a colorful label describing its inventor.",
+      "A redesigned exhibition could reverse this passive arrangement by inviting visitors to conduct their own tests."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "旧科技馆由机器单向演示，观众几乎只能按开始按钮。正确句引出新展览如何扭转这种被动观看，让观众亲自试验；后文再问什么才是真正参与实验。",
+      "structure": "前文visitors watched与could do ... press Start显示参与程度极低；正确句reverse this passive arrangement回指前文整体模式，conduct their own tests引出后文taking part in an experiment和change a variable。",
+      "other": "demanding 费力的/要求高的；demonstration 演示；variable 变量；conduct a test 进行试验。",
+      "meaning": "最有力的证据是双向：反转被动的安排承接前文，主动测试又引出后文讨论。‘最难任务只是按按钮’在语境中揭示参与不足，不是对设备的夸赞。",
+      "rest": "场馆维修、标签介绍、控制简单都不能完成被动到主动的论证转折；即使表面上与展览有关，也不构成后文提问的直接来源。"
+    }
+  }
+]

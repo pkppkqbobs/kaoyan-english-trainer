@@ -526,5 +526,31 @@
     "session_id": "2026-10-11-2012-text4",
     "source_exam": "2012-english1",
     "source_part": "Text 4"
+  },
+  {
+    "family": "paragraph-order-anaphora",
+    "date": "2026-10-12",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Part B（7选5）第41题：用户最初选正确C，最终主动改成错误B。理由：前文提及typewriter/printing press/studio/theatre等多种功能，用户看到B的Tumblr等创作分享应用便觉得主题一致。实际上C的they严格回指geniuses/warriors/entrepreneurs/visionaries，such a device回指fabulous machine，embed it in a worldwide system承接并引出后段The networked computer。B只有应用层的泛话题关联，缺乏空前与空后的双向回指/递进；记录为真实改错，不是答对犹豫。",
+    "session_id": "2026-10-12-2012-partb",
+    "source_exam": "2012-english1",
+    "source_part": "Part B (7选5)",
+    "source_question": 41,
+    "first_considered": "C",
+    "reported_pick": "B",
+    "expected": "C"
+  },
+  {
+    "family": "paragraph-order-discourse",
+    "date": "2026-10-12",
+    "kind": "user_reported_wrong",
+    "note": "2012 英语一 Part B（7选5）第45题：用户最初选正确G，后来选错误C。理由：看到The hardest task ... is to turn the power off after he has turned it on，觉得‘最难的事这么简单’是在赞扬电视。实际上作者讽刺电视让人习惯于被动接收信息，呼应one-way tap flowing；G的reverse the flow回应前文单向流动，meaningful uploading直接引出下段What counts as meaningful uploading?。C的they与such a device在此缺先行对象，原本属于41。须根据全文立场判断反讽，核验句子两端，而不能只凭直觉改变答案。更正先前误转写：原句是after he has turned it on，不是tamed into it。真实最终C、标准G。",
+    "session_id": "2026-10-12-2012-partb",
+    "source_exam": "2012-english1",
+    "source_part": "Part B (7选5)",
+    "source_question": 45,
+    "first_considered": "G",
+    "reported_pick": "C",
+    "expected": "G"
   }
 ]

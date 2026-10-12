@@ -1,0 +1,14 @@
+{
+  "id": "2026-10-12-2012-partb",
+  "date": "2026-10-12",
+  "created_at": "2026-10-12T19:20:00+08:00",
+  "source": "2012 英语一 Part B（7选5）",
+  "result_summary": "用户纸面作答：最初41 C、45 G都对，后来将41改为B、45改为C，二者确认为真实最终错误，不能记成答对犹豫。41误把Tumblr等应用与计算机多功能描述的相似话题视为强连接，忽略C的they/such a device回指与全球网络双向承接。45把关电视的讽刺‘hardest task...turn the power off after he has turned it on’解读成电视很好，忽略作者在批评单向被动下载；G以reverse the flow承上，以meaningful uploading引出后文问句。42/43/44不根据图片推测最终选项；此处不生成计分Issue，也不修改当日锁定daily。训练双向篇章证据优先于泛主题相似、讽刺性陈述与主旨立场相容性。",
+  "focus_families": [
+    "paragraph-order-anaphora",
+    "paragraph-order-discourse"
+  ],
+  "max_current": 2,
+  "revision": 1,
+  "source_check": "data/source-checks/2012-english1.json"
+}

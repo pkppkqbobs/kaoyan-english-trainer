@@ -338,14 +338,14 @@
       "observation_priority": 3
     },
     "paragraph-order-discourse": {
-      "streak": 2,
+      "streak": 0,
       "errors": 0,
       "last": "2026-10-08",
       "due": "2026-10-12",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 3,
-      "observation_priority": 0
+      "observation_priority": 3
     },
     "paragraph-scope-attitude": {
       "streak": 0,

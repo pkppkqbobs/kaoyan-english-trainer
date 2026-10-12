@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-11",
+  "reviewed_on": "2026-10-12",
   "source_commit": "5a1751e70d704a71b114a564b43ab3282e29abd7",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -230,7 +230,11 @@
     "text4-vocab-unionist-prime-a": "context:text4-vocab-unionist-prime-a",
     "text4-vocab-way-fearsome-b": "context:text4-vocab-way-fearsome-b",
     "text4-vocab-merit-generous-c": "context:text4-vocab-merit-generous-c",
-    "text4-vocab-rally-drawnout-d": "context:text4-vocab-rally-drawnout-d"
+    "text4-vocab-rally-drawnout-d": "context:text4-vocab-rally-drawnout-d",
+    "sentence-link-soil-sensor-a": "context:sentence-link-soil-sensor-a",
+    "sentence-link-train-timetable-b": "context:sentence-link-train-timetable-b",
+    "sentence-link-course-participation-a": "context:sentence-link-course-participation-a",
+    "sentence-link-museum-experiment-b": "context:sentence-link-museum-experiment-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
