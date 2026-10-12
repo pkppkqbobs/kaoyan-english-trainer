@@ -150,6 +150,23 @@ class ProgressAuditTests(unittest.TestCase):
                 shutil.copytree(ROOT / name, root / name)
             for page in ROOT.glob('*.html'):
                 shutil.copy(page, root / page.name)
+            # New article sessions may legitimately advance the latest alias.
+            # The already-published daily, evidence, and archived rounds must
+            # remain byte-identical while that first new alias is generated.
+            paths = [*root.glob('*.html'), *(root / 'data').rglob('*.json')]
+            latest_aliases = {
+                root / 'article-review.html',
+                root / 'article-reviews.html',
+                root / 'data/article-review.json',
+            }
+            immutable_before = {p: p.read_bytes() for p in paths if p not in latest_aliases}
+            with contextlib.redirect_stdout(io.StringIO()):
+                article_review.build(root)
+                partb_review.build(root)
+            self.assertTrue(all(p.read_bytes() == content for p, content in immutable_before.items()))
+
+            # After first-time generation, two further builds must be idempotent
+            # including the newly published article and history index.
             paths = [*root.glob('*.html'), *(root / 'data').rglob('*.json')]
             before = {p: p.read_bytes() for p in paths}
             day = date.fromisoformat(review.load(root / 'data/daily.json')['date'])
