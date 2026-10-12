@@ -367,6 +367,16 @@
       "observed_days": 4,
       "observation_priority": 0
     },
+    "partb-boxed-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-12",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "past-tense-happiness": {
       "streak": 0,
       "errors": 0,

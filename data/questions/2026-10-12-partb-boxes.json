@@ -1,0 +1,98 @@
+[
+  {
+    "id": "partb-vocab-aurora-moment-a",
+    "target": "fleeting / marvels",
+    "budget": 45,
+    "skill": "转瞬即逝的经历和令人惊叹的事物",
+    "q": "During a fleeting break in the clouds, visitors caught sight of the northern lights, one of the natural marvels they had travelled so far to see. What is the best interpretation?",
+    "o": [
+      "云层持续整天散开，游客看见了一件日常工具。",
+      "云层短暂散开，游客看到了令人惊叹的自然奇观。",
+      "游客收到了来自北方的旅行信封。",
+      "自然景观在云层散开后永久消失。"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "云层短暂散开时，游客看到了北极光——他们远道而来希望见到的自然奇观。",
+      "structure": "During a fleeting break是时间状语；visitors caught sight of the northern lights为主干；one of the natural marvels是补充说明。",
+      "other": "catch sight of 看见；northern lights 北极光；travel far 远道而来。",
+      "meaning": "fleeting表示转瞬即逝的；marvels表示奇观、令人惊叹的事物，不是普通的工具。",
+      "rest": "整天晴朗与fleeting冲突；旅行信封并未提及；永久消失不是短暂看见。"
+    },
+    "family": "partb-boxed-vocab",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12"
+  },
+  {
+    "id": "partb-vocab-heritage-research-b",
+    "target": "inheritor / a dream come true",
+    "budget": 50,
+    "skill": "科学文化成果的继承者",
+    "q": "The young scientists are inheritors of decades of research on affordable prosthetic limbs. For patients who can finally afford one, the treatment is a dream come true. What does the sentence mean?",
+    "o": [
+      "科学家继承患者财产后才可开展研究。",
+      "科学家放弃了前人的工作，病人的愿望无法实现。",
+      "患者继承了科学家的工作职位，但治疗仍是空想。",
+      "年轻科学家承接前人成果；患者长期以来的愿望终于实现。"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "年轻科学家承接了前人几十年的廉价假肢研究成果；对终于能负担相关治疗的患者来说，愿望成真了。",
+      "structure": "scientists are inheritors of...为系表结构；后句patients who can finally afford one中who引导定语从句，the treatment is a dream come true为主干。",
+      "other": "prosthetic limb 假肢；affordable 负担得起的；decades of research 数十年研究。",
+      "meaning": "inheritor可指继承文化、技术等成果的人或成果的受益者，不限于法律遗产；dream come true表示梦想实现。",
+      "rest": "遗嘱、财产和工作职位均不存在于文章；放弃成果与inheritors相反；空想未实现与finally afford相反。"
+    },
+    "family": "partb-boxed-vocab",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12"
+  },
+  {
+    "id": "partb-vocab-envelope-forms-c",
+    "target": "envelope / function as",
+    "budget": 45,
+    "skill": "具体物品和功能用途",
+    "q": "The aid centre handed out a brown-paper envelope that could also function as a folder for application forms. In this sentence, envelope and function as mean:",
+    "o": [
+      "牛皮纸信封；还可充当存放申请表的文件夹。",
+      "电子邮件；负责审批所有申请。",
+      "被包围的区域；监督申请者。",
+      "一种打印机；自动向远处发送申请。"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "援助中心发放了牛皮纸信封，它还可以当作装申请表的文件夹。",
+      "structure": "The aid centre handed out a brown-paper envelope为主干；that could also function as a folder是定语从句，修饰envelope。",
+      "other": "aid centre 援助中心；hand out 分发；application form 申请表。",
+      "meaning": "envelope为信封，brown-paper envelope为牛皮纸信封；function as表示充当、发挥……的功能。",
+      "rest": "电子邮件不同于纸信封；监督区域和打印机功能均与folder无关。"
+    },
+    "family": "partb-boxed-vocab",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12"
+  },
+  {
+    "id": "partb-vocab-workshop-second-half-d",
+    "target": "the second half / function as",
+    "budget": 45,
+    "skill": "时间结构与功能整合",
+    "q": "In the second half of the workshop, the tablet began to function as a camera, a map and a shared notebook for the team. Which interpretation is correct?",
+    "o": [
+      "工作坊开始前，团队卖掉了平板电脑。",
+      "工作坊结束后，平板只负责播放视频。",
+      "工作坊后半段，团队把平板当作相机、地图和共享笔记本使用。",
+      "一半的参与者不知道地图有什么用。"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "在工作坊的后半段，这台平板电脑开始同时发挥相机、地图和共享笔记本的功能。",
+      "structure": "In the second half of the workshop为时间状语；the tablet began to function as为主干；as后有三个并列功能。",
+      "other": "workshop 工作坊；tablet 平板电脑；shared notebook 共享笔记本。",
+      "meaning": "the second half of表示某一活动或时代的后半段；function as表示充当、起某种作用，例如function as a typewriter。",
+      "rest": "卖掉平板、只播放视频以及参与者知识都没有证据；原句列举三个实用功能。"
+    },
+    "family": "partb-boxed-vocab",
+    "introduced": "2026-10-12",
+    "published_on": "2026-10-12"
+  }
+]

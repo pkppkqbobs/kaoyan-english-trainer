@@ -552,5 +552,25 @@
     "first_considered": "G",
     "reported_pick": "C",
     "expected": "G"
+  },
+  {
+    "family": "partb-boxed-vocab",
+    "date": "2026-10-12",
+    "kind": "translation_difficulty",
+    "note": "2012 英语一 Part B（7选5）：用户明确图中画框=翻译困难、横线=其认为可能重要的答题证据。清晰画框中优先训练inheritor（文化/技术成果的继承受益者，不只财产继承）和function as（充当/发挥功能）；后者影响理解41题前文一台设备整合打字机、印刷机等工具的功能。属于翻译困难，不另算作答错误或Issue尝试。",
+    "session_id": "2026-10-12-2012-partb",
+    "source_exam": "2012-english1",
+    "source_part": "Part B (7选5)",
+    "source_question": 41
+  },
+  {
+    "family": "partb-boxed-vocab",
+    "date": "2026-10-12",
+    "kind": "translation_difficulty",
+    "review_importance": "low",
+    "note": "2012 英语一 Part B其余可明确识别的画框：fleeting moments=转瞬即逝的时刻；brown-paper envelope=牛皮纸信封；marvels=奇迹般的事物/奇观；the second half of the 20th century=20世纪下半叶。slightly字迹像框又像横线，暂不记录为确定翻译困难。仅画横线的superfluous、pyramid of production等不得冒充画框困难。",
+    "session_id": "2026-10-12-2012-partb",
+    "source_exam": "2012-english1",
+    "source_part": "Part B (7选5)"
   }
 ]

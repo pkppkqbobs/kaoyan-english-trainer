@@ -234,7 +234,11 @@
     "sentence-link-soil-sensor-a": "context:sentence-link-soil-sensor-a",
     "sentence-link-train-timetable-b": "context:sentence-link-train-timetable-b",
     "sentence-link-course-participation-a": "context:sentence-link-course-participation-a",
-    "sentence-link-museum-experiment-b": "context:sentence-link-museum-experiment-b"
+    "sentence-link-museum-experiment-b": "context:sentence-link-museum-experiment-b",
+    "partb-vocab-aurora-moment-a": "context:partb-vocab-aurora-moment-a",
+    "partb-vocab-heritage-research-b": "context:partb-vocab-heritage-research-b",
+    "partb-vocab-envelope-forms-c": "context:partb-vocab-envelope-forms-c",
+    "partb-vocab-workshop-second-half-d": "context:partb-vocab-workshop-second-half-d"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
