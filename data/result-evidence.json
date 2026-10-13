@@ -1029,6 +1029,94 @@
       "qid": "compensation-hospital-benefits-a",
       "round_id": "mv55zm6w-l1a5uqa4",
       "source_date": "2026-10-12"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 67987,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "process-stage-bridge-warning-b",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 90590,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "sentence-link-course-participation-a",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "partb-boxed-vocab",
+      "ok": true,
+      "ms": 27193,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "partb-vocab-aurora-moment-a",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "with",
+      "ok": true,
+      "ms": 63715,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "with-lights-dimming",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "example-claim-scope",
+      "ok": false,
+      "ms": 98853,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "example-council-reform-opposition-a",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "reference",
+      "ok": true,
+      "ms": 62838,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "reference-panels-request-switch",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "point",
+      "ok": true,
+      "ms": 14705,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "legacy-miss-point",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-13",
+      "family": "text4-boxed-vocab",
+      "ok": true,
+      "ms": 28828,
+      "uncertain": false,
+      "origin": 15,
+      "qid": "text4-vocab-unionist-prime-a",
+      "round_id": "mv6lnf25-lrccyn1t",
+      "source_date": "2026-10-13"
     }
   ],
   "issues": [
@@ -1045,6 +1133,7 @@
     11,
     12,
     13,
-    14
+    14,
+    15
   ]
 }
