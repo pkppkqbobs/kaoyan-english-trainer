@@ -99,6 +99,86 @@
       "observed_days": 3,
       "observation_priority": 0
     },
+    "cloze-applicant-outcome": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "cloze-baseline-necessary": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
+    "cloze-big-picture": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "cloze-comparison-chain": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "cloze-conditional-contrast": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "cloze-legal-stance": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "cloze-score-marked": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
+    "cloze-time-adverbs": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "commitment-semantics": {
       "streak": 0,
       "errors": 0,

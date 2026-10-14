@@ -1,0 +1,84 @@
+{
+  "exam": "2013-english1",
+  "checked_on": "2026-10-14",
+  "purpose": "2013年考研英语一完形填空(Section I)原题标准答案与用户纸面真实反馈分开保存。用户明确确认10/20、5/10分，原始网页训练的Issue和streak不计入这份纸质练习。不同线上版本选项排列不同，以下答案字母按用户提供的2013年试卷图片核对。",
+  "sources": [
+    {
+      "id": "xdf-2013-cloze",
+      "title": "新东方：2013年英语一完形填空真题与选项",
+      "url": "https://kaoyan.xdf.cn/202604/15172443.html",
+      "covers": "原文、选项和字母顺序"
+    },
+    {
+      "id": "kaoyan-2013-cloze",
+      "title": "考研帮：2013年英语（一）试题完型答案",
+      "url": "https://m.kaoyan.com/www/ky/05/469110/",
+      "covers": "第1至20题与用户图片一致的答案排列"
+    },
+    {
+      "id": "sina-2013-cloze",
+      "title": "新浪教育：2013年研究生入学考试英语一试题详解",
+      "url": "https://edu.sina.com.cn/kaoyan/2013-01-06/1216368080.shtml",
+      "covers": "完形正确答案及全文论证"
+    }
+  ],
+  "answers": {
+    "1": "A",
+    "2": "D",
+    "3": "C",
+    "4": "A",
+    "5": "B",
+    "6": "B",
+    "7": "A",
+    "8": "D",
+    "9": "D",
+    "10": "A",
+    "11": "D",
+    "12": "C",
+    "13": "B",
+    "14": "D",
+    "15": "B",
+    "16": "C",
+    "17": "A",
+    "18": "C",
+    "19": "B",
+    "20": "C"
+  },
+  "answer_words": {
+    "1": "grants",
+    "2": "external",
+    "3": "picture",
+    "4": "For example",
+    "5": "fearful",
+    "6": "on",
+    "7": "if",
+    "8": "test",
+    "9": "success",
+    "10": "chosen",
+    "11": "otherwise",
+    "12": "conducted",
+    "13": "rated",
+    "14": "took",
+    "15": "then",
+    "16": "marked",
+    "17": "before",
+    "18": "drop",
+    "19": "undo",
+    "20": "necessary"
+  },
+  "performance_coverage": {
+    "Section I": "用户明确确认10/20，换算5/10分。实际错误题号：3、5、6、7、9、11、15、17、18、19；答对：1、2、4、8、10、12、13、14、16、20。其中第16、20题用户明确称答对但不确定，不能算错。最初具体选错字母未由用户逐一确认，禁止从图像涂改或旧助手误识别猜测。网页Issue不计这份纸面答卷。"
+  },
+  "observed_difficulties": [
+    "10道实际错误：3 big picture；5 fearful of；6 soft on crime；7 if；9 applicant's success；11 truth was otherwise；15 then；17 the one before that；18 drop by（such a decrease）；19 undo the effects。均为用户明确报告的错题号，无需补造具体初选字母。",
+    "用户词性误判：把a judge里的judge当作动词‘判断’，没有先识别a + 可数名词及sentence ... to prison的司法语境。",
+    "用户词形混淆：ever（曾经/任何时候）与even（甚至）易混；15实际需要then表达先后步骤。",
+    "16 marked out of 800 points、20 than would otherwise have been necessary 均已答对但没有把握，分别训练计分搭配与反事实比较基线。",
+    "用户明确画框的appearing too soft、sentenced、in conjunction with为翻译困难，不能把下划线或正确作答自动改记为困难。"
+  ],
+  "notes": [
+    "不能用曾经错误的8/20统计替代用户纠正的10/20；第2、13题真实答对，第16、20题答对但犹豫。",
+    "写入learning-notes的是chat feedback与画框困难，用于新语境复习优先级，不增加result-evidence的attempts/errors，也不构造Issue。",
+    "词组‘a judge fearful of appearing too soft on crime’要分清名词角色与后置形容词短语；17–19要连接前后人次、下降回指与抵消效果，不要拆成孤立词汇。"
+  ]
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "cloze-overview-rainfall-a",
+    "family": "cloze-big-picture",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "the big picture / 整体背景",
+    "skill": "固定词组与局部-整体",
+    "q": "The emergency office assessed drought risk using only last week's rainfall. A researcher urged officials to examine five years of climate data and consider ______ before announcing a new water policy.",
+    "o": [
+      "the next visitor",
+      "a single newspaper headline",
+      "the big picture",
+      "an unrelated complaint"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "应急部门仅凭上周降雨量评估干旱风险；研究者建议在宣布新供水政策前查看五年气候数据、考虑整体情况。",
+      "structure": "The emergency office是主语，assessed是谓语；A researcher urged officials to examine... and consider...，两个不定式动作共同构成建议。",
+      "other": "drought 干旱；rainfall 降雨量；climate data 气候数据；water policy 供水政策。",
+      "meaning": "the big picture是整体局面或全貌；与仅凭上周局部数据下判断形成鲜明对比，不是一个单独的大问题。",
+      "rest": "下一位访客、某篇报道与无关投诉都不能概括五年的整体数据，无法解释作者要求扩大视野的目的。"
+    }
+  },
+  {
+    "id": "cloze-overview-plant-b",
+    "family": "cloze-big-picture",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "big picture / 整体绩效",
+    "skill": "全面证据与单个样本",
+    "q": "A factory manager praised a production line after one unusually productive morning. The annual report, however, showed repeated delays and large repair costs. Which advice is best supported?",
+    "o": [
+      "Celebrate the morning and ignore the report.",
+      "Look at the big picture rather than one exceptional shift.",
+      "Decide that the line has never produced anything useful.",
+      "Assume that annual costs are irrelevant to performance."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "厂长凭一次特别高产的上午就夸奖生产线，但年度报告显示反复延误及高额维修费。评价应着眼整体而非单次样本。",
+      "structure": "A factory manager + praised + a production line；however引出与单次乐观印象相反的长期证据；Which advice要求概括两边的关系。",
+      "other": "productive 高产的；annual report 年报；repair cost 维修费用；exceptional 例外的。",
+      "meaning": "look at the big picture表示看全局、顾及长期背景，避免单凭个别表现判断整体。",
+      "rest": "只看那一个上午就是原文批评的做法；断言生产线毫无用处过度概括；完全忽略年度成本也背离证据。"
+    }
+  },
+  {
+    "id": "cloze-judge-traffic-a",
+    "family": "cloze-legal-stance",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 60,
+    "target": "a judge / fearful of / soft on",
+    "skill": "词性与司法固定搭配",
+    "q": "A judge, ______ of appearing too soft ______ repeat traffic offenders, imposed a fine after several earlier cases had ended with warnings. Which pair fits?",
+    "o": [
+      "capable / in",
+      "fearful / on",
+      "fond / to",
+      "thoughtless / for"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一名法官担心自己显得对屡次违反交通法规的人过于宽容，在前几宗案件仅予以警告后，对下一名违规者罚了款。",
+      "structure": "A judge是名词主语；fearful of appearing...是修饰judge的形容词短语；imposed是谓语；after从句交代之前的处置。",
+      "other": "judge 法官/判断；offender 违法者；impose a fine 处以罚款；warning 警告。",
+      "meaning": "judge在a judge中是可数名词法官，不是动词判断；be fearful of doing sth.为担心做某事；be soft on sth./sb.为对违规行为或人处罚宽松。",
+      "rest": "capable of不表示忧虑且soft in不合习惯；fond of是喜欢显得宽容而非担心，soft to不合搭配；thoughtless不能表达后文处罚动机。"
+    }
+  },
+  {
+    "id": "cloze-judge-school-b",
+    "family": "cloze-legal-stance",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "soft on / 表现得太宽容",
+    "skill": "跨校园纪律场景迁移",
+    "q": "The principal was afraid of appearing too soft on repeated cheating, so she enforced the stated penalty instead of issuing another warning. What was the principal worried about?",
+    "o": [
+      "Whether the rules would make exams too difficult.",
+      "Whether the teacher had completed enough paperwork.",
+      "Whether she lacked the authority to open the school.",
+      "Whether others would think she treated repeated cheating too leniently."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "校长害怕别人认为她对屡次作弊过于宽容，于是按照规定执行处罚，而没有继续警告。",
+      "structure": "The principal was afraid of...是主干；appearing too soft on repeated cheating说明担心被如何看待；so引出后续处罚行动。",
+      "other": "principal 校长；cheating 作弊；enforce 执行；penalty 处罚。",
+      "meaning": "appearing too soft on是显得对某事态度过于宽松；afraid of/fearful of说明心理担忧，而不是有能力或喜欢宽容。",
+      "rest": "试卷难度、教师手续和是否有开门的权力都不能解释‘担心显得过于宽容’与执行惩罚的关系。"
+    }
+  },
+  {
+    "id": "cloze-condition-inspection-a",
+    "family": "cloze-conditional-contrast",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 55,
+    "target": "if / 条件与until的区别",
+    "skill": "条件连接与先后",
+    "q": "The auditor would order an independent recount ______ two consecutive inventory checks reported exactly the same suspiciously low number of errors. Which connective fits the stated condition?",
+    "o": [
+      "if",
+      "until",
+      "though",
+      "unless"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "如果连续两次库存检查都报告了可疑地相同且极低的差错数，审计员就会要求独立复核。",
+      "structure": "The auditor would order是主句；if引导条件从句，说明什么情形会触发重新清点；consecutive修饰两次盘点。",
+      "other": "auditor 审计员；inventory 库存；recount 重新清点；suspiciously 可疑地。",
+      "meaning": "if表示触发后续行动的条件；until表示动作持续到某一时间点为止，不能代替此处的判断条件。",
+      "rest": "until会改变主句行为的时间边界；though只引出让步而非触发条件；unless表示若不发生该条件则行动，与所需逻辑相反。"
+    }
+  },
+  {
+    "id": "cloze-contrast-review-b",
+    "family": "cloze-conditional-contrast",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "otherwise / 事实并非如此",
+    "skill": "理论—现实反差",
+    "q": "In theory, each grant application was judged only on its own merits. The audit later revealed that reviewers were influenced by earlier applications, so the evidence showed ______.",
+    "o": [
+      "likewise",
+      "otherwise",
+      "meanwhile",
+      "therefore"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "理论上，每份资助申请应只按自身质量评审；审计却发现评委受到之前申请的影响，所以证据表明实际情况并非如此。",
+      "structure": "In theory提出预期；The audit later revealed...给出相反事实；the evidence showed otherwise里的otherwise代替‘与理论预测不同’的情形。",
+      "other": "grant application 资助申请；merit 优点/实际价值；reviewer 评审员；reveal 揭示。",
+      "meaning": "otherwise在show/prove/suspect ... otherwise中常表示事实与此前观点不同；不只是‘此外’。",
+      "rest": "likewise表示同样，不能表达相反；meanwhile强调同时发生而非反证；therefore虽表因果，却不说明前述理论为何被推翻。"
+    }
+  },
+  {
+    "id": "cloze-applicant-scholarship-a",
+    "family": "cloze-applicant-outcome",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "applicant success / selection outcome",
+    "skill": "区分申请者结果与其本人决定",
+    "q": "A scholarship committee, not the students, decides who receives funding. In theory, an applicant's ______ should not depend on which other candidate happened to be interviewed immediately before her.",
+    "o": [
+      "success",
+      "decision",
+      "vision",
+      "complaint"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "奖学金由评审委员会决定授予谁。理论上，申请者能否成功获得资助，不应取决于刚在她之前接受面试的其他候选人。",
+      "structure": "A scholarship committee ... decides是前句主干；后句an applicant's success是名词中心，should not depend on...交代不该受谁影响。",
+      "other": "funding 资助；candidate 候选人；committee 委员会；depend on 取决于。",
+      "meaning": "success of an applicant在录取或资助语境中可指申请成功；decision of an applicant通常是申请者自己做的决定，而此处决策权属于委员会。",
+      "rest": "decision会将委员会作出的录取决定错写成申请者自身的决定；vision和complaint与资助是否获批的结果都不相称。"
+    }
+  },
+  {
+    "id": "cloze-applicant-residency-b",
+    "family": "cloze-applicant-outcome",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "who makes the decision / 谁决定录取",
+    "skill": "动作主体与申请结果",
+    "q": "The applicant chose which research group to approach, but an external panel decided whether to admit her. Which distinction is supported?",
+    "o": [
+      "Both decisions were made by the panel.",
+      "Her admission was entirely within her own control.",
+      "Her choice of group was her decision; admission success depended on the panel.",
+      "The panel controlled which group she originally wanted to contact."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "申请者自行决定联系哪个研究组，但是否录取由外部评审委员会决定。她的选择与最终申请成功不是同一个主体作出的决定。",
+      "structure": "The applicant chose...与an external panel decided...构成两个并列且主语不同的分句；whether to admit her为委员会决定的内容。",
+      "other": "research group 研究组；external panel 外部评审委员会；admit 录取；approach 联系。",
+      "meaning": "必须区分applicant's decision（申请者自己的选择）与applicant's success（由他人评估后能否成功获准），不能仅凭同一个applicant归为同一行为。",
+      "rest": "录取不由申请者单独控制；研究组选择由她本人做出；把两个行为都交给委员会或认为录取完全在本人控制下，都忽视了主语切换。"
+    }
+  },
+  {
+    "id": "cloze-adverb-checking-a",
+    "family": "cloze-time-adverbs",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "then / 流程顺序",
+    "skill": "ever、even与then区别",
+    "q": "The interviewers first rated each applicant on a five-point scale. The scores were ______ combined with a written test result before the committee made its final decision.",
+    "o": [
+      "ever",
+      "then",
+      "even",
+      "unless"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "面试官先用五分制给申请者打分，随后将这些分数与笔试成绩合并，最后由委员会作出决定。",
+      "structure": "first标出初始步骤；The scores were then combined...是被动结构；before引出后续委员会决策，整个流程有清楚的先后顺序。",
+      "other": "rate 评分；scale 量表；written test 笔试；committee 委员会。",
+      "meaning": "then表示接着/随后；ever强调在任何时候或曾经；even强调甚至/出乎意料；在中性流程描述中then最精确。",
+      "rest": "ever不能自然表达流程先后；even无须强调出人意料的递进；unless引导条件从句，不能直接充当这个位置的流程副词。"
+    }
+  },
+  {
+    "id": "cloze-adverb-research-b",
+    "family": "cloze-time-adverbs",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "ever vs even / 曾经与甚至",
+    "skill": "副词意义对照",
+    "q": "Have you ______ attended a blind-review workshop? Surprisingly, the university ______ invited first-year students to participate. Choose the best pair.",
+    "o": [
+      "even / ever",
+      "then / even",
+      "ever / even",
+      "ever / then"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "你曾经参加过匿名评审工作坊吗？令人意外的是，学校甚至邀请大一学生参与。",
+      "structure": "Have you ... attended是现在完成时疑问句；ever修饰attended；Surprisingly在后句提供意外语气，even修饰invited强调连大一学生也被邀请。",
+      "other": "blind review 匿名评审；workshop 工作坊；first-year student 大一学生；participate 参与。",
+      "meaning": "ever表示曾经/在任何时候，与现在完成时常见；even表示甚至/连……也，强调程度或意外，两者不可互换。",
+      "rest": "把even放在曾经参加的时间提问位置、把ever放在甚至邀请的位置，均改变原意；then只表示随后，不能表达意外程度。"
+    }
+  },
+  {
+    "id": "cloze-queue-review-a",
+    "family": "cloze-comparison-chain",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 60,
+    "target": "the one before that / 顺序回指",
+    "skill": "前一个与更前一个",
+    "q": "Three applicants were interviewed in this order: Lila at 11:00, Omar at 11:20, and Mei at 11:40. While assessing Mei, the reviewer compared the previous candidate with 'the one before that'. Who was 'the one before that'?",
+    "o": [
+      "Omar",
+      "Mei",
+      "Lila",
+      "the next applicant after Mei"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "按照Lila、Omar、Mei的面试顺序，在评价Mei时，上一位是Omar，而上一位之前的人是Lila。",
+      "structure": "While assessing Mei确定当前位置；the previous candidate指Omar；the one before that中的that回指前一个人，因此the one指Lila。",
+      "other": "assess 评估；previous 前一个的；candidate 候选人；in this order 按此顺序。",
+      "meaning": "the one before that不是‘这个人之后的人’；先在时间轴上找previous，再向前退一位。遇到that of，还应区分that替代前面的分数。",
+      "rest": "Omar是previous candidate本身，Mei是当前被评价者，Mei后面的人没有出现；只有Lila位于Omar之前。"
+    }
+  },
+  {
+    "id": "cloze-meter-readings-b",
+    "family": "cloze-comparison-chain",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 60,
+    "target": "that of / 名词替代与比较对象",
+    "skill": "省略结构与顺序",
+    "q": "A technician read meters 12, 13 and 14 in that order. The reading on meter 13 was higher than that of the one before it. What does 'that of the one before it' mean?",
+    "o": [
+      "The value on meter 12.",
+      "The value on meter 14.",
+      "The technician's reading speed.",
+      "Meter 13 itself, not its recorded value."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "技术员按顺序读取12、13、14号仪表。13号读数高于它前一个12号仪表的读数。",
+      "structure": "The reading on meter 13是比较的第一个量；than that of the one before it中第一个that替代reading，one替代meter，before it表示在13号之前的12号。",
+      "other": "meter 仪表；reading 读数；technician 技术员；in order 按顺序。",
+      "meaning": "that of可替代前面名词以避免重复，the one before it再限定相应对象；要同时找被替代的‘量’和所指的‘人/物’。",
+      "rest": "14号在13号之后；读数不等于技术员的速度；仅说13号仪表忽略比较对象应为读数。"
+    }
+  },
+  {
+    "id": "cloze-decline-output-c",
+    "family": "cloze-comparison-chain",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "drop by / such a decrease",
+    "skill": "从后文回指判定变化方向",
+    "q": "The system's output would ______ by about 6% after the filters were clogged. Engineers warned that such a decrease could interrupt delivery. Which verb fits best?",
+    "o": [
+      "float",
+      "fluctuate",
+      "drop",
+      "jump"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "过滤器堵塞后，系统输出会下降大约6%；工程师警告说，这种下降可能中断供应。",
+      "structure": "The system's output would ... by about 6%为第一句主干；such a decrease是第二句的回指，明确第一句变化方向为下降。",
+      "other": "output 产出/输出；filter 过滤器；clog 堵塞；interrupt 中断。",
+      "meaning": "drop by + 数量或百分比=下降多少；such a decrease直接把上一句概括为下降，能排除上涨或方向不明的动词。",
+      "rest": "jump表示上升方向错误；fluctuate仅表示上下波动，不能确定decrease；float不表示此处的可量化下降。"
+    }
+  },
+  {
+    "id": "cloze-undo-coldchain-d",
+    "family": "cloze-comparison-chain",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "undo the effects / 抵消负面影响",
+    "skill": "目的与不利效果",
+    "q": "A delivery company added extra cooling packs to ______ the effects of an unexpected rise in temperature during transport. Which verb best conveys its purpose?",
+    "o": [
+      "undo",
+      "achieve",
+      "maintain",
+      "disregard"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "运输过程中温度意外升高，配送公司额外添加冷却包来抵消温度上升造成的影响。",
+      "structure": "A delivery company是主语，added是谓语，cooling packs是宾语；to引导目的不定式，说明添加冷却包是为了对抗之前的不利变化。",
+      "other": "cooling pack 冷却包；unexpected 意外的；during transport 运输期间；effect 影响。",
+      "meaning": "undo the effects of表示消除、抵消某事造成的影响；既可指恢复原状，也可指采取补偿措施，不等于忽略。",
+      "rest": "achieve或maintain意味着实现或维持温升效果，与冷却目的相反；disregard只是忽视，并不能说明添加冷却包的实际功能。"
+    }
+  },
+  {
+    "id": "cloze-marked-license-a",
+    "family": "cloze-score-marked",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "be marked out of + 满分",
+    "skill": "熟词marked的考试义",
+    "q": "The licensing exam is ______ out of 200 points, and a candidate needs at least 140 points to pass. Which word fits?",
+    "o": [
+      "introduced",
+      "marked",
+      "selected",
+      "recruited"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "资格考试以200分为满分评分，考生至少需要140分才能通过。",
+      "structure": "The licensing exam是主语，is marked为被动谓语，out of 200 points表示计分满分；and后分句说明及格分数。",
+      "other": "licensing exam 资格考试；candidate 考生；pass 通过；points 分数。",
+      "meaning": "mark既能表示做标记，也能表示批改、评分；be marked out of 200 points表示以200分为满分计分。",
+      "rest": "introduced是被引入，不表示计分；selected是被选中，recruited是被招募，都不能和out of 200 points自然说明评分标准。"
+    }
+  },
+  {
+    "id": "cloze-marked-project-b",
+    "family": "cloze-score-marked",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 50,
+    "target": "mark out of / graded on scale",
+    "skill": "评分而非标记",
+    "q": "Every project is marked out of 50 by two independent reviewers. What is the meaning of marked in this sentence?",
+    "o": [
+      "贴上颜色标签",
+      "被随机分组",
+      "按50分满分进行评分",
+      "从50个项目中挑选"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "每个项目由两名独立评审员按照50分满分进行打分。",
+      "structure": "Every project是主语，is marked是被动谓语，out of 50说明满分标准；by引出评分的施事者two independent reviewers。",
+      "other": "project 项目；independent reviewer 独立评审员；grade 评分；full marks 满分。",
+      "meaning": "marked在考试或项目评审语境中表示评分、批改，out of + 数值指定最高可得分；不要机械理解为划线标记。",
+      "rest": "颜色标签、随机分组与从50个项目中挑选，都不能解释评分语境及两名评审员的工作。"
+    }
+  },
+  {
+    "id": "cloze-necessary-transport-a",
+    "family": "cloze-baseline-necessary",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 60,
+    "target": "otherwise have been necessary / 反事实基线",
+    "skill": "比较结构与必要性",
+    "q": "Because of the road closure, the driver needed 25 more minutes than would otherwise have been ______. Which adjective fits?",
+    "o": [
+      "promising",
+      "helpful",
+      "possible",
+      "necessary"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "由于道路封闭，司机比道路没有封闭时原本需要的时间多花25分钟。",
+      "structure": "Because of...说明额外耗时原因；needed 25 more minutes than...是比较结构；would otherwise have been necessary表达另一种条件下原本必需的时间。",
+      "other": "road closure 封路；driver 司机；otherwise 若非如此/在其他情况下；extra time 额外时间。",
+      "meaning": "need与necessary构成精确呼应；otherwise指如果没有前面封路这种情况，不是随意的‘另外’。",
+      "rest": "promising描述前景，helpful表示有用但不表示必需，possible表示可能，都不能与needed...than...形成原本需要多少的准确比较。"
+    }
+  },
+  {
+    "id": "cloze-necessary-teachers-b",
+    "family": "cloze-baseline-necessary",
+    "introduced": "2026-10-14",
+    "published_on": "2026-10-14",
+    "budget": 60,
+    "target": "比原本所需要的更多",
+    "skill": "反事实必要数量",
+    "q": "The teacher had to prepare three extra lessons after a sudden schedule change. Without that change, how many extra lessons would have been necessary?",
+    "o": [
+      "The same three extra lessons.",
+      "None of those three extra lessons.",
+      "At least six extra lessons.",
+      "The sentence gives no basis for comparing the extra work."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "因为课表突然改变，教师不得不多准备三节课。如果没有这次改变，这三节额外课程原本并非必需。",
+      "structure": "The teacher had to prepare...是事实；after引出变更原因；Without that change引导与事实相反的假设，问必要的额外备课量。",
+      "other": "schedule change 课表变更；prepare lessons 备课；sudden 突然的；extra 额外的。",
+      "meaning": "otherwise have been necessary类结构是拿事实中的额外需要与没有干扰时的原始基线比较；注意only extra lessons的范围，不推断全部课程。",
+      "rest": "仍需准备同样三节、至少六节与extra after a change的限定不合；本题足以判断这些额外课程是由改变触发，不属于完全无法比较。"
+    }
+  }
+]

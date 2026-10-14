@@ -572,5 +572,163 @@
     "session_id": "2026-10-12-2012-partb",
     "source_exam": "2012-english1",
     "source_part": "Part B (7选5)"
+  },
+  {
+    "family": "cloze-big-picture",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第3题错误；正确为C picture，the big picture为整体情况/全貌，需利用daily samples等上下文区分全局与某个大问题。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 3
+  },
+  {
+    "family": "cloze-legal-stance",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第5题错误；正确为B fearful，fearful of appearing too soft表示担心自己看上去对犯罪太宽容，不是单纯能力或偏好。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 5
+  },
+  {
+    "family": "cloze-legal-stance",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第6题错误；正确为B on，be soft on crime是固定搭配，注意不能按中文随意选介词。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 6
+  },
+  {
+    "family": "cloze-conditional-contrast",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第7题错误；正确为A if，前面较轻处罚是后续从严倾向的触发条件，不是until的时间截止。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 7
+  },
+  {
+    "family": "cloze-applicant-outcome",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第9题错误；正确为D success；句中讨论的是申请者是否被录取，不是申请者自己作出的decision。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 9
+  },
+  {
+    "family": "cloze-conditional-contrast",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第11题错误；正确为D otherwise，the truth was otherwise指事实与前文理论判断不同。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 11
+  },
+  {
+    "family": "cloze-time-adverbs",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第15题错误；正确为B then，句子表示先评分后把评分与GMAT结合使用的步骤先后；用户明确自述把ever和even混淆。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 15
+  },
+  {
+    "family": "cloze-comparison-chain",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第17题错误；正确为A before，the one before that指上一位申请者的再前一位；that of替代前述score，必须画出相对顺序。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 17
+  },
+  {
+    "family": "cloze-comparison-chain",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第18题错误；正确为C drop，下一句such a decrease直接回指下降方向；drop by表示下降某个幅度。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 18
+  },
+  {
+    "family": "cloze-comparison-chain",
+    "date": "2026-10-14",
+    "kind": "user_reported_wrong",
+    "note": "2013 英语一 Section I 完形填空：第19题错误；正确为B undo，undo the effects of such a decrease表示抵消评分下降的影响，不能改成achieve/maintain/disregard。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 19
+  },
+  {
+    "family": "cloze-score-marked",
+    "date": "2026-10-14",
+    "kind": "correct_but_uncertain",
+    "note": "2013 英语一 Section I 完形填空：第16题答对C marked但用户说没有把握；be marked out of 800 points表示按800分满分计分；不是另一道真实错误。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 16
+  },
+  {
+    "family": "cloze-baseline-necessary",
+    "date": "2026-10-14",
+    "kind": "correct_but_uncertain",
+    "note": "2013 英语一 Section I 完形填空：第20题答对C necessary但用户说没有把握；need 30 more ... than would otherwise have been necessary，otherwise表示若没有前述评分损失原本所需的分数，需理解省略比较。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "source_question": 20
+  },
+  {
+    "family": "cloze-legal-stance",
+    "date": "2026-10-14",
+    "kind": "user_reported_confusion",
+    "note": "2013 英语一 Section I 完形填空：用户明确说把judge理解成动词‘判断’，没有识别a judge为名词‘法官’；结合sentence someone to prison等司法动作复核词性与上下文。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I"
+  },
+  {
+    "family": "cloze-time-adverbs",
+    "date": "2026-10-14",
+    "kind": "user_reported_confusion",
+    "note": "2013 英语一 Section I 完形填空：用户明确说将ever和even混在一起；ever=曾经/任何时候，even=甚至/连……也，then=然后，不能凭字形相似代替流程逻辑。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I"
+  },
+  {
+    "family": "cloze-legal-stance",
+    "date": "2026-10-14",
+    "kind": "translation_difficulty",
+    "note": "2013 英语一 Section I 完形填空：照片明确画框的appearing too soft=显得过于宽容；sentenced=判刑、宣判；与法官例子相关，画框与错误计分分开。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "review_importance": "low"
+  },
+  {
+    "family": "cloze-time-adverbs",
+    "date": "2026-10-14",
+    "kind": "translation_difficulty",
+    "note": "2013 英语一 Section I 完形填空：照片画框的in conjunction with=与……结合使用；原句介绍面试分数再与GMAT分数结合，只有画框是翻译困难，横线不自动计入。本篇用户自报10/20得5/10分，纸质练习不算网页Issue计分或streak；未确认该题首次选项，不猜测字母。",
+    "session_id": "2026-10-14-2013-cloze",
+    "source_exam": "2013-english1",
+    "source_part": "Section I",
+    "review_importance": "low"
   }
 ]

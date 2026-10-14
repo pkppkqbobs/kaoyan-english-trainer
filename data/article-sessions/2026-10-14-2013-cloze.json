@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-14-2013-cloze",
+  "date": "2026-10-14",
+  "created_at": "2026-10-14T20:19:00+08:00",
+  "source": "2013 英语一 Section I 完形填空",
+  "result_summary": "纸质练习用户自报10/20、5/10分；错误题号3、5、6、7、9、11、15、17、18、19，答对1、2、4、8、10、12、13、14、16、20。用户补充：a judge被误作动词‘判断’（应为法官）；ever/even词形意义混淆；第16题marked out of 800和第20题would otherwise have been necessary虽然选对但不稳。明确画框appearing too soft、sentenced、in conjunction with为翻译困难。重点先练固定搭配、条件/转折/流程、success vs decision、时间顺序和比较对象、drop/undo，后面混入正确但不确定的数字计分及反事实比较题。不得沿用此前误统计8/20，不补造初选字母、原始Issue或streak。",
+  "focus_families": [
+    "cloze-big-picture",
+    "cloze-legal-stance",
+    "cloze-conditional-contrast",
+    "cloze-applicant-outcome",
+    "cloze-time-adverbs",
+    "cloze-comparison-chain",
+    "cloze-score-marked",
+    "cloze-baseline-necessary"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2013-english1.json"
+}

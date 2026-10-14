@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-12",
+  "reviewed_on": "2026-10-14",
   "source_commit": "5a1751e70d704a71b114a564b43ab3282e29abd7",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -238,7 +238,25 @@
     "partb-vocab-aurora-moment-a": "context:partb-vocab-aurora-moment-a",
     "partb-vocab-heritage-research-b": "context:partb-vocab-heritage-research-b",
     "partb-vocab-envelope-forms-c": "context:partb-vocab-envelope-forms-c",
-    "partb-vocab-workshop-second-half-d": "context:partb-vocab-workshop-second-half-d"
+    "partb-vocab-workshop-second-half-d": "context:partb-vocab-workshop-second-half-d",
+    "cloze-overview-rainfall-a": "context:cloze-overview-rainfall-a",
+    "cloze-overview-plant-b": "context:cloze-overview-plant-b",
+    "cloze-judge-traffic-a": "context:cloze-judge-traffic-a",
+    "cloze-judge-school-b": "context:cloze-judge-school-b",
+    "cloze-condition-inspection-a": "context:cloze-condition-inspection-a",
+    "cloze-contrast-review-b": "context:cloze-contrast-review-b",
+    "cloze-applicant-scholarship-a": "context:cloze-applicant-scholarship-a",
+    "cloze-applicant-residency-b": "context:cloze-applicant-residency-b",
+    "cloze-adverb-checking-a": "context:cloze-adverb-checking-a",
+    "cloze-adverb-research-b": "context:cloze-adverb-research-b",
+    "cloze-queue-review-a": "context:cloze-queue-review-a",
+    "cloze-meter-readings-b": "context:cloze-meter-readings-b",
+    "cloze-decline-output-c": "context:cloze-decline-output-c",
+    "cloze-undo-coldchain-d": "context:cloze-undo-coldchain-d",
+    "cloze-marked-license-a": "context:cloze-marked-license-a",
+    "cloze-marked-project-b": "context:cloze-marked-project-b",
+    "cloze-necessary-transport-a": "context:cloze-necessary-transport-a",
+    "cloze-necessary-teachers-b": "context:cloze-necessary-teachers-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
