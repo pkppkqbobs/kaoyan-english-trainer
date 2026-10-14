@@ -1,601 +1,293 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "questions": [
     {
-      "id": "process-stage-bridge-warning-b",
+      "id": "scope-role-device-study-b",
+      "family": "scope-role-match",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 55,
+      "target": "并列信息 / 主语对象",
+      "skill": "正确选项可对应并列句一侧",
+      "q": "A critic writes: “The study gives a detailed history of the device but offers little investigation of the failures reported in cold weather.” Two sentences later: “The device’s clearest flaw is that its battery loses capacity after repeated freezing.” What does the study fail to do?",
+      "o": [
+        "provide any historical background",
+        "investigate the cold-weather failures sufficiently",
+        "prevent the battery from losing capacity",
+        "make the device work indefinitely in freezing conditions"
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "评论者说研究对设备历史讲得很详细，但对寒冷天气中的故障调查不足。后面说设备本身最明显的缺陷是反复结冰后电池容量下降。题目问study，因此答案是调查不足。",
+        "structure": "but连接两个对study的评价：history详细，failure investigation不足；后句The device’s clearest flaw把主语切到device。",
+        "other": "capacity 容量；freezing 冰冻环境；investigation 调查；critic 评论者。",
+        "meaning": "并列句里一半信息就可以被题目抽出来做同义替换。不要因为答案没同时复述history和failure两侧就排除。",
+        "rest": "“provide any historical background”与detailed history相反；要求study去prevent battery loss或让device indefinitely work in freezing conditions，都是把研究报告与设备本身的职责混在一起。"
+      },
+      "context_id": "context:scope-role-device-study-b"
+    },
+    {
+      "id": "process-stage-shelter-approval-a",
       "family": "process-stage-role",
       "introduced": "2026-10-10",
       "published_on": "2026-10-10",
       "budget": 55,
-      "target": "单次发现 vs 跨来源确认",
-      "skill": "过程终点与条件的角色识别",
-      "q": "A driver first reports cracks on a bridge, but the warning is not issued to the whole region until engineers compare photographs, inspect the structure, and confirm the hazard. What is required for the initial report to become an official warning?",
+      "target": "个人估计 vs 集体验证",
+      "skill": "区分主张起点和取得认可所需条件",
+      "q": "An analyst estimates that the city has room for 4,000 people in emergency shelters. Officials will use this figure for evacuation plans only after independent teams verify the counts and agree on a common estimate. What makes the figure suitable for official planning?",
       "o": [
-        "A more vivid description from the first driver.",
-        "Agreement that the first driver deserves public credit.",
-        "Public enthusiasm for an alarming photograph.",
-        "Independent assessment and confirmation of the reported danger."
-      ],
-      "a": 3,
-      "exp": {
-        "trans": "司机最先报告桥面裂缝，但直到工程师比对照片、检查结构并确认危险，地区警报才正式发布。",
-        "structure": "A driver + reports + cracks引入起点；the warning + is not issued ... until engineers compare, inspect, and confirm，用not...until表示形成正式警报的必要过程。",
-        "other": "crack 裂缝；structure 结构；hazard 危险；issue a warning 发布警报。",
-        "meaning": "个人首次报告不等于正式被认可；由多个步骤进行独立评估并确认，才使主张具有可推广的效力。注意题目问required而非who noticed it first。",
-        "rest": "报告更生动不能替代核验；给报告人荣誉不是警报成立条件；公众情绪不能替代工程检查。"
-      },
-      "context_id": "context:process-stage-bridge-warning-b"
-    },
-    {
-      "id": "sentence-link-course-participation-a",
-      "family": "paragraph-order-discourse",
-      "introduced": "2026-10-12",
-      "published_on": "2026-10-12",
-      "budget": 60,
-      "target": "表面便利 vs 参与不足",
-      "skill": "讽刺语气 + 对比过渡",
-      "q": "前文：The online course called itself interactive, but students could do little more than click Next after each recorded lecture. The easiest part was operating the screen; the hardest was staying awake.\n【空缺】\n后文：What would genuine participation require? Students could challenge arguments and revise one another's work.\n哪句最适合？",
-      "o": [
-        "The screen's simplicity proves that the course already offers full participation.",
-        "By contrast, a redesigned course could let students contribute arguments instead of merely consuming lectures.",
-        "Video lectures are cheaper to store than printed textbooks.",
-        "Some courses include subtitles in several languages."
+        "The analyst's personal familiarity with the shelters.",
+        "Verification and agreement across independent teams.",
+        "The public release of a large numerical estimate.",
+        "The analyst's decision to avoid revising the original number."
       ],
       "a": 1,
       "exp": {
-        "trans": "前文用带讽刺性的说法指出所谓互动课仍只让学生被动点下一页；正确句转向让学生真正贡献观点的另一种课程；后文追问真正参与需要什么。",
-        "structure": "but建立宣称interactive与实际只能click Next的矛盾；the hardest was staying awake暗示被动乏味；By contrast引出另一模式，contribute arguments与后文challenge/revise形成衔接。",
-        "other": "interactive 互动的；lecture 讲座/课；challenge an argument 质疑论点；revise 修订。",
-        "meaning": "看到操作很简单，不能自动判为作者赞扬。应结合转折、夸张和后文提问判断作者真正评价：被动消费不足，主动参与才是重点。",
-        "rest": "简单操作证明充分互动与but students could do little more相反；储存成本和字幕虽与网课有关，却不解释后文genuine participation。"
+        "trans": "一位分析员估计城市应急避难所可容纳4000人；只有独立团队核查数据并就统一估计达成一致，政府才会在疏散计划中采用这一数字。",
+        "structure": "An analyst + estimates + that从句提出最初主张；Officials + will use + this figure ... only after ...，only after指出主张转化为官方依据所需的条件。",
+        "other": "emergency shelter 应急避难所；evacuation 疏散；estimate 估计；verify 核验。",
+        "meaning": "题干问的是让一项初步主张获得认可所需要的机制。个人估计是起点，独立团队核查与达成一致是条件；不能因为看到analyst就选个人经验。",
+        "rest": "个人熟悉情况只能解释估计如何产生；数字公开和规模大都不能自动证明可靠；拒绝修订反而与核查机制相冲突。"
       },
-      "context_id": "context:sentence-link-course-participation-a"
+      "context_id": "context:process-stage-shelter-approval-a"
     },
     {
-      "id": "partb-vocab-aurora-moment-a",
-      "target": "fleeting / marvels",
-      "budget": 45,
-      "skill": "转瞬即逝的经历和令人惊叹的事物",
-      "q": "During a fleeting break in the clouds, visitors caught sight of the northern lights, one of the natural marvels they had travelled so far to see. What is the best interpretation?",
+      "id": "text4-vocab-rally-drawnout-d",
+      "family": "text4-boxed-vocab",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 55,
+      "target": "notoriously / drawn-out / rally",
+      "skill": "典型改革冲突词块",
+      "q": "After a notoriously drawn-out hearing, campaigners rallied local residents to oppose the plan. Which interpretation best matches the sentence?",
       "o": [
-        "云层持续整天散开，游客看见了一件日常工具。",
-        "云层短暂散开，游客看到了令人惊叹的自然奇观。",
-        "游客收到了来自北方的旅行信封。",
-        "自然景观在云层散开后永久消失。"
+        "听证会异常简短，因此活动人士解散了居民。",
+        "经过众所周知旷日持久的听证会，活动人士动员当地居民反对计划。",
+        "听证会从未进行，居民被要求保持中立。",
+        "活动人士隐瞒了整个听证会，因此居民改变了政治立场。"
       ],
       "a": 1,
       "exp": {
-        "trans": "云层短暂散开时，游客看到了北极光——他们远道而来希望见到的自然奇观。",
-        "structure": "During a fleeting break是时间状语；visitors caught sight of the northern lights为主干；one of the natural marvels是补充说明。",
-        "other": "catch sight of 看见；northern lights 北极光；travel far 远道而来。",
-        "meaning": "fleeting表示转瞬即逝的；marvels表示奇观、令人惊叹的事物，不是普通的工具。",
-        "rest": "整天晴朗与fleeting冲突；旅行信封并未提及；永久消失不是短暂看见。"
+        "trans": "在一次众所周知拖延了很久的听证会之后，活动人士动员当地居民反对这项计划。",
+        "structure": "After a ... hearing是时间状语；campaigners + rallied + local residents是主谓宾；to oppose the plan说明动员的行动方向。",
+        "other": "hearing 听证会；campaigner 活动人士；resident 居民；oppose 反对。",
+        "meaning": "notoriously=众所周知地、臭名昭著地（通常有负面色彩）；drawn-out=拖延很久的、旷日持久的；rally作动词=动员、召集。动员不自动证明居民改变了原有政治态度。",
+        "rest": "简短与drawn-out相反；从未举行和保持中立均无依据；隐瞒听证会与改变政治立场都是额外增添的动作。"
       },
-      "family": "partb-boxed-vocab",
-      "introduced": "2026-10-12",
-      "published_on": "2026-10-12",
-      "context_id": "context:partb-vocab-aurora-moment-a"
+      "context_id": "context:text4-vocab-rally-drawnout-d"
     },
     {
-      "id": "with-lights-dimming",
-      "family": "with",
-      "introduced": null,
-      "target": "with + 名词 + 后置成分",
-      "skill": "with + 名词 + 后置修饰",
-      "q": "The audience waited quietly, with the lights gradually dimming before the film began. The with-structure mainly:",
+      "id": "legacy-such",
+      "source": "old",
+      "skill": "these / such 回指",
+      "target": "these / such 回指",
+      "q": "段A：The museum lowered ticket prices and added evening hours.\n段B：Such changes attracted more local families during the week.\n段C：A different museum across town raised its prices last year.\n\n段B中的 Such changes 最直接回指什么？",
       "o": [
-        "adds a simultaneous background state",
-        "states the purpose of waiting",
-        "introduces an independent main clause",
-        "means the audience waited together with the lights"
+        "段A中的降价和延长晚间开放时间",
+        "段C中另一家博物馆的涨价",
+        "所有博物馆过去一年的变化",
+        "local families 本身"
       ],
       "a": 0,
-      "budget": 55,
+      "diag": {
+        "1": "段B先于段C，且 Such changes 就近概括段A的两个措施。",
+        "2": "题干没有支持“所有博物馆”的泛指。",
+        "3": "changes 指的是措施变化，不是家庭。"
+      },
       "exp": {
-        "trans": "观众安静地等待着，电影开始前，灯光正逐渐变暗。",
-        "structure": "主干：The audience（主语）+ waited（谓语）+ quietly（状语）。原始简单句：The lights were gradually dimming before the film began. → 去掉were，用with引出：with the lights gradually dimming...。the lights是with结构的逻辑主语，dimming与lights构成主动关系。",
-        "other": "audience 观众；gradually 逐渐地；dim 变暗；before the film began 电影开始前。",
-        "meaning": "with + 名词 + 后置成分可补充主句发生时的伴随状态或背景。",
-        "rest": "目的通常用to do/in order to；with结构不是新的独立主句；这里with不是“和灯光一起”等普通介词伴随对象，而是带逻辑主语和分词的复合结构。"
+        "trans": "A：博物馆降低了票价，并延长了晚间开放时间。B：这些变化吸引了更多本地家庭在工作日前来。C：城另一边的另一家博物馆去年提高了票价。",
+        "structure": "段A先给出两个并列措施 lowered ticket prices / added evening hours；段B用 Such changes 对这两个措施整体回指，再说明结果 attracted more local families。",
+        "other": "lower 降低；ticket price 票价；evening hours 晚间开放时段；attract 吸引。",
+        "meaning": "such + 名词 常把前文已经描述过的同类事物/情况概括回指；这里 Such changes = 段A的两项变化。",
+        "rest": "后文另一家博物馆的涨价、所有博物馆的泛指以及 local families 都不是 Such changes 的先行内容；它直接概括前文的降价和延长晚间开放时间。"
+      },
+      "family": "reference",
+      "introduced": null,
+      "budget": 35,
+      "context_id": "such-two-improvements"
+    },
+    {
+      "id": "with-bread-cooling",
+      "family": "with",
+      "introduced": null,
+      "budget": 60,
+      "target": "with + 名词 + 分词",
+      "skill": "with + 名词 + 后置成分",
+      "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
+      "o": [
+        "补充开门时伴随的状态",
+        "引出老板的直接引语",
+        "说明开门的唯一目的",
+        "充当opened的直接宾语"
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
+        "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
+        "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
+        "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
+        "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
       },
       "context_id": "with-simultaneous-ing"
     },
     {
-      "id": "example-council-reform-opposition-a",
+      "id": "compensation-port-delayed-benefits-b",
+      "family": "compensation-components",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 60,
+      "target": "公开工资表 vs 延后福利",
+      "skill": "后置福利与总体收入",
+      "q": "A port authority's new contract capped immediate wage increases at 2%. Negotiators nevertheless won additional paid leave and retirement payments that workers would receive years later. Why might the published wage table understate the agreement's value?",
+      "o": [
+        "Because future benefits add compensation not visible in current wage increases.",
+        "Because the wage table proves that workers lost all holiday entitlement.",
+        "Because capped wages show that pensions must have been reduced.",
+        "Because only the highest-paid managers can receive retirement benefits."
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "港务局新合同将近期工资涨幅限制在2%，但谈判代表争取到更多带薪休假和多年后领取的退休福利。因此只看当前工资表，会低估协议的总体价值。",
+        "structure": "A port authority's contract + capped + wage increases；Negotiators + won + leave and payments；years later修饰后续领取时间。Why题要解释工资表遗漏了哪一部分。",
+        "other": "cap 限定上限；port authority 港务局；negotiator 谈判代表；paid leave 带薪休假。",
+        "meaning": "backloaded compensation指把部分报酬安排在之后或以福利形式提供。不能把工资涨幅不大误读为整体待遇没有提高，更不能凭空判定增长‘过度’。",
+        "rest": "原文明确增加假期而非失去假期；养老金被削减与additional retirement payments相反；限定只给高管没有证据。"
+      },
+      "context_id": "context:compensation-port-delayed-benefits-b"
+    },
+    {
+      "id": "example-farmers-support-trial-b",
       "family": "example-claim-scope",
       "introduced": "2026-10-11",
       "published_on": "2026-10-11",
       "budget": 60,
-      "target": "具体反对行动支持哪条主旨",
-      "skill": "例子→论点 / 不能多推态度变化",
-      "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
+      "target": "例子同样可以说明支持改革",
+      "skill": "不能靠团体行动推固定结论",
+      "q": "An article argues that locally organized groups can sometimes help an unpopular policy get started. It describes a farmers' cooperative that trained volunteers and persuaded members to test a water-saving system, helping the trial begin on schedule. What is the role of this example?",
       "o": [
-        "Organized groups can impede administrative reforms.",
-        "The association persuaded every resident to change political allegiance.",
-        "Most builders oppose the current political system in all circumstances.",
-        "Digital permits always cost more than paper applications."
+        "It proves every member had opposed water conservation before joining.",
+        "It shows cooperatives necessarily control the national government.",
+        "It establishes that all unpopular policies eventually succeed.",
+        "It supports the claim that organized groups can facilitate policy implementation."
       ],
-      "a": 0,
+      "a": 3,
       "exp": {
-        "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
-        "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
-        "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
-        "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
-        "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
+        "trans": "文章认为地方组织有时能帮助不受欢迎的政策启动，随后举农民合作社培训志愿者、推动成员试用节水系统，使试验按时开展的例子。这个例子是在支持‘团体也能帮助政策落实’。",
+        "structure": "An article argues + that从句是主张；It describes...引出实例；helping the trial begin是实例中的实际结果。",
+        "other": "cooperative 合作社；facilitate 促进；implementation 落实；trial 试行。",
+        "meaning": "例子支持的结论可以是促进改革，也可以是阻碍改革，取决于前后文。不要机械地把‘团体动员’与‘妨碍改革’绑定。",
+        "rest": "成员加入前态度没有交代；合作社对国家政府的控制与本文无关；一次成功试行不能保证所有政策最终成功。"
       },
-      "context_id": "context:example-council-reform-opposition-a"
+      "context_id": "context:example-farmers-support-trial-b"
     },
     {
-      "id": "reference-panels-request-switch",
-      "family": "reference",
+      "id": "summary-current-and-follow-up",
+      "family": "summary-location",
       "introduced": null,
       "published_on": "2026-10-05",
-      "budget": 35,
-      "target": "it / this request / 对象切换",
-      "skill": "these / such 回指",
-      "q": "Two panels examined a report. The finance panel recommended publishing it in full, while the technical panel asked for more time. This request was granted. Which reading tracks it and This request correctly?",
+      "budget": 45,
+      "target": "总结范围 / 后续核验",
+      "skill": "总结词定位",
+      "q": "After presenting a commuter survey, a paragraph says: “To sum up, the new schedule suits many commuters. The council will review it after winter, when school travel patterns change.” What do these lines support?",
       "o": [
-        "it = the report; This request = publishing the report in full",
-        "it = the finance panel’s recommendation; This request = more time",
-        "it = the report; This request = more time for the technical panel",
-        "it = the decision to publish; This request = the finance panel’s recommendation"
+        "The winter review has already overturned the survey findings.",
+        "The council has changed the discussion to the cost of new buses.",
+        "The paragraph summarises current findings and identifies a later check.",
+        "The survey has measured how school journeys changed during the coming winter."
       ],
       "a": 2,
       "exp": {
-        "trans": "两个小组审阅了一份报告。财务小组建议全文发布它，技术小组则请求更多时间。这个请求获准了。it指报告；This request指技术小组请求更多时间。",
-        "structure": "publishing it in full是recommended的补足内容，it代替前文的report。while对比两个小组的不同动作。This request作后句主语；was granted是被动谓语，回指asked for more time这一请求。",
-        "other": "panel 小组；in full 全文、完整地；technical 技术的；grant a request 批准请求。",
-        "meaning": "跟踪对象时既看名词数与位置，也看动作：publish的是report，asked for形成request。财务组的建议和技术组的请求不能混为同一对象。",
-        "rest": "把This request指向全文发布，忽略asked for more time和while的对象切换；把it解释成recommendation，会把publish报告改成发布建议；decision to publish也不是it出现前已建立的实体，且没有说发布决定已经获批。"
+        "trans": "在呈现通勤调查后，一段写道：“总的说来，新时刻表适合许多通勤者。委员会将在冬季之后重新评估它，届时学生出行规律会变化。”这些句子总结当前发现，并提出之后的核验。",
+        "structure": "To sum up引入对已给调查的概括。The new schedule + suits + many commuters。The council + will review + it表达将来的评估；when从句补充冬后出行规律变化。",
+        "other": "commuter 通勤者；schedule 时刻表；review 重新评估；travel pattern 出行规律。",
+        "meaning": "总结当前部分与计划未来检查可以同段共存；未来检查还未发生。单靠总结词或后续计划，不能保证这一段必为全文末段或必有下一段。",
+        "rest": "already overturned把未来复核改成已完成的推翻；cost of new buses凭空替换主题；has measured ... coming winter把尚未来到的时期说成已取得观测结果。"
       },
-      "context_id": "context:reference-panels-request-switch"
-    },
-    {
-      "id": "legacy-miss-point",
-      "source": "today",
-      "skill": "miss the point / point",
-      "target": "miss the point / point",
-      "q": "The committee spent twenty minutes arguing about the font on the warning sign, while the real issue was whether the bridge was safe. They were clearly ___.",
-      "o": [
-        "missing the point",
-        "making a point",
-        "reaching the point",
-        "pointing out"
-      ],
-      "a": 0,
-      "diag": {
-        "1": "make a point 常表示“提出观点/特意强调”，这里强调的是没抓住真正问题。",
-        "2": "reach the point 需要具体语境，如 reach the point where...，不能表达“没抓住重点”。",
-        "3": "point out 通常后接宾语，表示“指出”；这里既不合结构也不合语义。"
-      },
-      "exp": {
-        "trans": "委员会花了二十分钟争论警示牌的字体，而真正的问题是这座桥是否安全。他们显然没有抓住重点。",
-        "structure": "第一句：The committee（主语）+ spent（谓语）+ twenty minutes（宾语）；arguing...说明时间花在何事上。while连接对比；whether the bridge was safe作表语从句。第二句：They（主语）+ were missing（现在进行时谓语）+ the point（宾语）。",
-        "other": "committee 委员会；warning sign 警示牌；issue 问题/争议点；safe 安全的。",
-        "meaning": "miss the point = 没抓住重点、没理解关键。point 在这里是“要点/关键”，不是“节点”。",
-        "rest": "make a point = 提出/强调观点；reach the point = 达到某个阶段/程度；point out = 指出某事。只有 missing the point（没抓住重点）符合他们纠结字体却忽视桥梁安全的语境。"
-      },
-      "family": "point",
-      "introduced": "2026-09-29",
-      "budget": 35,
-      "context_id": "surface-detail-miss-point"
-    },
-    {
-      "id": "text4-vocab-unionist-prime-a",
-      "family": "text4-boxed-vocab",
-      "introduced": "2026-10-11",
-      "published_on": "2026-10-11",
-      "budget": 40,
-      "target": "unionist / in one's prime",
-      "skill": "画框身份和阶段词",
-      "q": "The unionist became a prominent negotiator in her prime, when she had the energy and experience to lead several major workplace campaigns. Here unionist and in her prime mean:",
-      "o": [
-        "政府公务员 / 刚开始工作的时候",
-        "行业雇主 / 在退休之后",
-        "工会人士 / 处于事业或能力的鼎盛时期",
-        "独立记者 / 工作经验尚浅时"
-      ],
-      "a": 2,
-      "exp": {
-        "trans": "这名工会人士在事业巅峰时期成为知名谈判代表，那时她有精力和经验领导数次重大职场行动。",
-        "structure": "The unionist是主语，became是系动词，a prominent negotiator是表语；in her prime是时间状态状语；when从句解释为什么说她正处鼎盛时期。",
-        "other": "prominent 知名的；negotiator 谈判代表；workplace 职场；campaign 行动。",
-        "meaning": "unionist是工会成员或工会活动人士；in one's prime是人生或事业的全盛、鼎盛时期，不是‘在首要位置’。",
-        "rest": "公务员、雇主、记者都不能替代工会人士；退休后、经验尚浅都与energy and experience表达的巅峰状态不一致。"
-      },
-      "context_id": "context:text4-vocab-unionist-prime-a"
+      "context_id": "context:summary-current-and-follow-up"
     }
   ],
   "retry": {
+    "scope-role-match": [
+      {
+        "id": "scope-role-report-subsidy-a",
+        "family": "scope-role-match",
+        "introduced": "2026-10-07",
+        "published_on": "2026-10-07",
+        "budget": 55,
+        "target": "题干对象 / 评价对象匹配",
+        "skill": "关键词相似前先核对主语",
+        "q": "A review says: “The report contains pages of anecdotes and too little analysis of why small firms avoid the subsidy.” It later adds: “The subsidy’s most serious weakness is that participation falls once temporary bonuses end.” If asked what the report fails to do, which answer is best?",
+        "o": [
+          "explain adequately why small firms avoid the subsidy",
+          "produce participation that lasts after bonuses end",
+          "remove all anecdotes from the discussion",
+          "prove that temporary bonuses never increase participation"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "评论先说报告轶事过多，却没有充分分析小企业为何避开补贴；后面又说补贴本身最严重的问题是奖金结束后参与度下降。若题干问“报告没做到什么”，答案应回到报告本身。",
+          "structure": "第一句The report是被评价对象；第二句The subsidy’s most serious weakness把评价对象切换成补贴政策。题干再次锁定the report。",
+          "other": "anecdote 轶事；subsidy 补贴；participation 参与度；temporary bonus 临时奖励。",
+          "meaning": "看到most serious weakness之类强信号不能直接选，先检查这个weakness属于谁。正确选项可以只改写并列句中的一侧，不必覆盖整句所有批评。",
+          "rest": "“produce participation that lasts...”描述的是subsidy的持久效果，不是report的写作缺陷；“remove all anecdotes”把too many夸大成必须全部删除；“prove...never”加入绝对化的never和原文没有的证明要求。"
+        },
+        "context_id": "context:scope-role-report-subsidy-a"
+      }
+    ],
     "process-stage-role": [
       {
-        "id": "process-stage-shelter-approval-a",
+        "id": "process-stage-bridge-warning-b",
         "family": "process-stage-role",
         "introduced": "2026-10-10",
         "published_on": "2026-10-10",
         "budget": 55,
-        "target": "个人估计 vs 集体验证",
-        "skill": "区分主张起点和取得认可所需条件",
-        "q": "An analyst estimates that the city has room for 4,000 people in emergency shelters. Officials will use this figure for evacuation plans only after independent teams verify the counts and agree on a common estimate. What makes the figure suitable for official planning?",
+        "target": "单次发现 vs 跨来源确认",
+        "skill": "过程终点与条件的角色识别",
+        "q": "A driver first reports cracks on a bridge, but the warning is not issued to the whole region until engineers compare photographs, inspect the structure, and confirm the hazard. What is required for the initial report to become an official warning?",
         "o": [
-          "The analyst's personal familiarity with the shelters.",
-          "Verification and agreement across independent teams.",
-          "The public release of a large numerical estimate.",
-          "The analyst's decision to avoid revising the original number."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "一位分析员估计城市应急避难所可容纳4000人；只有独立团队核查数据并就统一估计达成一致，政府才会在疏散计划中采用这一数字。",
-          "structure": "An analyst + estimates + that从句提出最初主张；Officials + will use + this figure ... only after ...，only after指出主张转化为官方依据所需的条件。",
-          "other": "emergency shelter 应急避难所；evacuation 疏散；estimate 估计；verify 核验。",
-          "meaning": "题干问的是让一项初步主张获得认可所需要的机制。个人估计是起点，独立团队核查与达成一致是条件；不能因为看到analyst就选个人经验。",
-          "rest": "个人熟悉情况只能解释估计如何产生；数字公开和规模大都不能自动证明可靠；拒绝修订反而与核查机制相冲突。"
-        },
-        "context_id": "context:process-stage-shelter-approval-a"
-      }
-    ],
-    "paragraph-order-discourse": [
-      {
-        "id": "paragraph-order-discourse-parallel-a",
-        "family": "paragraph-order-discourse",
-        "introduced": "2026-10-04",
-        "target": "Not surprisingly / Equally unsurprisingly",
-        "skill": "排序题并列递进标记",
-        "budget": 50,
-        "q": "段落甲结尾：Not surprisingly, nearly half of the applicants withdraw before the final interview.\n下面哪个段首与它的衔接最强？",
-        "o": [
-          "Equally unsurprisingly, only a small share of those who remain receive an offer.",
-          "By contrast, the building was completed twenty years earlier.",
-          "For example, the company sells products in four countries.",
-          "In conclusion, this proves that all interviews are unnecessary."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "甲段说“不出所料，近一半申请者在终面前退出”。最强衔接是：“同样不足为奇的是，留下的人中也只有很少一部分收到录用。”",
-          "structure": "Not surprisingly先给出一个“并不意外”的结果；Equally unsurprisingly显式要求前面已经有一个同类判断，再补第二个并列结果。两个副词短语构成明显篇章钩子。",
-          "other": "withdraw 退出；final interview 终面；a small share 少部分；receive an offer 获得录用。",
-          "meaning": "Equally / similarly / also 等段首词常要求前文存在可并列对象。排序题中这种平行措辞比泛泛的主题相似更可靠。",
-          "rest": "By contrast需要真正对立关系；For example需要前文有待举例的一般命题；In conclusion过早收束，而且all interviews are unnecessary也超出前文。"
-        },
-        "source_exam": "2011-english1",
-        "source_part": "Part B",
-        "context_id": "context:paragraph-order-discourse-parallel-a"
-      },
-      {
-        "id": "paragraph-order-discourse-conclusion-b",
-        "family": "paragraph-order-discourse",
-        "introduced": "2026-10-04",
-        "target": "concludes / 收束段识别",
-        "skill": "排序题结论信号",
-        "budget": 50,
-        "q": "一篇先分析家电过早报废、后提出改进办法的文章，有一候选段写道：After examining the figures, Dr Patel sums up her proposal: shared repair services could help residents keep appliances longer. 段末又说：Whether enough households will join, however, remains an open question.\n这一段最适合放在哪里？",
-        "o": [
-          "全文开头，用来首次介绍Dr Patel",
-          "问题分析展开之前",
-          "全文结尾附近，作为总结和改革建议",
-          "只能放在具体数据段之前"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "考察数据后，Patel博士总结自己的建议：共享维修服务或许能让居民更长久地使用电器。但是否有足够多家庭参与，仍是未决问题。这段最适合放在结尾附近。",
-          "structure": "After examining the figures回看前文数据；Dr Patel + sums up + her proposal明确给出总结动作。末句Whether...will join作主语，remains...为谓语部分，以未决问题收束。",
-          "other": "sum up 总结；shared repair service 共享维修服务；appliance 家电；household 家庭；open question 未决问题。",
-          "meaning": "总结建议与回顾数据、开放结尾合起来支持尾段位置；单独出现concludes或sum up并不能证明必为全文最后一段。",
-          "rest": "首次介绍人物不能解释已分析过数据；在问题分析前放总结建议与给定结构不合；“只能放在数据段之前”更与After examining the figures相反。"
-        },
-        "source_exam": "2011-english1",
-        "source_part": "Part B",
-        "context_id": "context:paragraph-order-discourse-conclusion-b"
-      },
-      {
-        "id": "paragraph-discourse-ticket-deposits",
-        "family": "paragraph-order-discourse",
-        "introduced": "2026-10-04",
-        "published_on": "2026-10-05",
-        "budget": 50,
-        "target": "段尾问题 / 原因解释",
-        "skill": "排序题并列递进标记",
-        "q": "前段：The theatre sold every seat at the advertised price. Yet the deposits in its bank account were smaller than the value of tickets sold. The manager began tracing the gap between bookings and payments.\n哪个后段最能推进这一问题？",
-        "o": [
-          "Audience surveys ranked music above scenery when asking about favourite parts of the performance.",
-          "The booking agency deducted its service fees before forwarding the remaining money to the theatre.",
-          "The theatre had used the same stage for years, although its audience changed with each production.",
-          "Rehearsals ended later than planned, so actors sometimes travelled home together."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "剧院按宣传价卖出了所有座位，但银行入账小于售票总额。经理追查订票与收到款项之间的差额。订票代理转款之前先扣除服务费，最直接解释这个差额。",
-          "structure": "The theatre + sold + every seat。deposits + were smaller than + the value of tickets sold是金额比较。正确后段中The booking agency + deducted + service fees；before forwarding说明扣款发生在剧院收到钱之前。",
-          "other": "deposit 入账款；advertised price 宣传价格；deduct 扣除；forward money 转款。",
-          "meaning": "没有One reason或Equally等显眼连接词，也能由段尾的收款差额锁定后段的扣费机制。这是问题→原因，不是看见theatre或audience就接同主题段。证据来自金额和交易阶段，不是一个单词。",
-          "rest": "Audience surveys解释演出偏好，未说明钱款差额；same stage介绍场地历史，未接收款链；rehearsals和共同回家是演出活动信息，不解释代理转款前少了什么。"
-        },
-        "context_id": "context:paragraph-discourse-ticket-deposits"
-      },
-      {
-        "id": "sentence-link-museum-experiment-b",
-        "family": "paragraph-order-discourse",
-        "introduced": "2026-10-12",
-        "published_on": "2026-10-12",
-        "budget": 65,
-        "target": "单向展示→反向参与→后文设问",
-        "skill": "双向篇章钩子",
-        "q": "前文：At the old science museum, visitors watched a machine demonstrate each experiment. The most demanding thing they could do was press the Start button.\n【空缺】\n后文：What counts as taking part in an experiment? Visitors must be able to change a variable and compare the results.\n哪一句最适合？",
-        "o": [
-          "The museum's historical building has been repaired many times.",
-          "The simple controls made the demonstrations easier for young children to watch.",
-          "Every machine had a colorful label describing its inventor.",
-          "A redesigned exhibition could reverse this passive arrangement by inviting visitors to conduct their own tests."
+          "A more vivid description from the first driver.",
+          "Agreement that the first driver deserves public credit.",
+          "Public enthusiasm for an alarming photograph.",
+          "Independent assessment and confirmation of the reported danger."
         ],
         "a": 3,
         "exp": {
-          "trans": "旧科技馆由机器单向演示，观众几乎只能按开始按钮。正确句引出新展览如何扭转这种被动观看，让观众亲自试验；后文再问什么才是真正参与实验。",
-          "structure": "前文visitors watched与could do ... press Start显示参与程度极低；正确句reverse this passive arrangement回指前文整体模式，conduct their own tests引出后文taking part in an experiment和change a variable。",
-          "other": "demanding 费力的/要求高的；demonstration 演示；variable 变量；conduct a test 进行试验。",
-          "meaning": "最有力的证据是双向：反转被动的安排承接前文，主动测试又引出后文讨论。‘最难任务只是按按钮’在语境中揭示参与不足，不是对设备的夸赞。",
-          "rest": "场馆维修、标签介绍、控制简单都不能完成被动到主动的论证转折；即使表面上与展览有关，也不构成后文提问的直接来源。"
+          "trans": "司机最先报告桥面裂缝，但直到工程师比对照片、检查结构并确认危险，地区警报才正式发布。",
+          "structure": "A driver + reports + cracks引入起点；the warning + is not issued ... until engineers compare, inspect, and confirm，用not...until表示形成正式警报的必要过程。",
+          "other": "crack 裂缝；structure 结构；hazard 危险；issue a warning 发布警报。",
+          "meaning": "个人首次报告不等于正式被认可；由多个步骤进行独立评估并确认，才使主张具有可推广的效力。注意题目问required而非who noticed it first。",
+          "rest": "报告更生动不能替代核验；给报告人荣誉不是警报成立条件；公众情绪不能替代工程检查。"
         },
-        "context_id": "context:sentence-link-museum-experiment-b"
-      }
-    ],
-    "partb-boxed-vocab": [
-      {
-        "id": "partb-vocab-heritage-research-b",
-        "target": "inheritor / a dream come true",
-        "budget": 50,
-        "skill": "科学文化成果的继承者",
-        "q": "The young scientists are inheritors of decades of research on affordable prosthetic limbs. For patients who can finally afford one, the treatment is a dream come true. What does the sentence mean?",
-        "o": [
-          "科学家继承患者财产后才可开展研究。",
-          "科学家放弃了前人的工作，病人的愿望无法实现。",
-          "患者继承了科学家的工作职位，但治疗仍是空想。",
-          "年轻科学家承接前人成果；患者长期以来的愿望终于实现。"
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "年轻科学家承接了前人几十年的廉价假肢研究成果；对终于能负担相关治疗的患者来说，愿望成真了。",
-          "structure": "scientists are inheritors of...为系表结构；后句patients who can finally afford one中who引导定语从句，the treatment is a dream come true为主干。",
-          "other": "prosthetic limb 假肢；affordable 负担得起的；decades of research 数十年研究。",
-          "meaning": "inheritor可指继承文化、技术等成果的人或成果的受益者，不限于法律遗产；dream come true表示梦想实现。",
-          "rest": "遗嘱、财产和工作职位均不存在于文章；放弃成果与inheritors相反；空想未实现与finally afford相反。"
-        },
-        "family": "partb-boxed-vocab",
-        "introduced": "2026-10-12",
-        "published_on": "2026-10-12",
-        "context_id": "context:partb-vocab-heritage-research-b"
-      },
-      {
-        "id": "partb-vocab-envelope-forms-c",
-        "target": "envelope / function as",
-        "budget": 45,
-        "skill": "具体物品和功能用途",
-        "q": "The aid centre handed out a brown-paper envelope that could also function as a folder for application forms. In this sentence, envelope and function as mean:",
-        "o": [
-          "牛皮纸信封；还可充当存放申请表的文件夹。",
-          "电子邮件；负责审批所有申请。",
-          "被包围的区域；监督申请者。",
-          "一种打印机；自动向远处发送申请。"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "援助中心发放了牛皮纸信封，它还可以当作装申请表的文件夹。",
-          "structure": "The aid centre handed out a brown-paper envelope为主干；that could also function as a folder是定语从句，修饰envelope。",
-          "other": "aid centre 援助中心；hand out 分发；application form 申请表。",
-          "meaning": "envelope为信封，brown-paper envelope为牛皮纸信封；function as表示充当、发挥……的功能。",
-          "rest": "电子邮件不同于纸信封；监督区域和打印机功能均与folder无关。"
-        },
-        "family": "partb-boxed-vocab",
-        "introduced": "2026-10-12",
-        "published_on": "2026-10-12",
-        "context_id": "context:partb-vocab-envelope-forms-c"
-      },
-      {
-        "id": "partb-vocab-workshop-second-half-d",
-        "target": "the second half / function as",
-        "budget": 45,
-        "skill": "时间结构与功能整合",
-        "q": "In the second half of the workshop, the tablet began to function as a camera, a map and a shared notebook for the team. Which interpretation is correct?",
-        "o": [
-          "工作坊开始前，团队卖掉了平板电脑。",
-          "工作坊结束后，平板只负责播放视频。",
-          "工作坊后半段，团队把平板当作相机、地图和共享笔记本使用。",
-          "一半的参与者不知道地图有什么用。"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "在工作坊的后半段，这台平板电脑开始同时发挥相机、地图和共享笔记本的功能。",
-          "structure": "In the second half of the workshop为时间状语；the tablet began to function as为主干；as后有三个并列功能。",
-          "other": "workshop 工作坊；tablet 平板电脑；shared notebook 共享笔记本。",
-          "meaning": "the second half of表示某一活动或时代的后半段；function as表示充当、起某种作用，例如function as a typewriter。",
-          "rest": "卖掉平板、只播放视频以及参与者知识都没有证据；原句列举三个实用功能。"
-        },
-        "family": "partb-boxed-vocab",
-        "introduced": "2026-10-12",
-        "published_on": "2026-10-12",
-        "context_id": "context:partb-vocab-workshop-second-half-d"
-      }
-    ],
-    "with": [],
-    "example-claim-scope": [
-      {
-        "id": "example-farmers-support-trial-b",
-        "family": "example-claim-scope",
-        "introduced": "2026-10-11",
-        "published_on": "2026-10-11",
-        "budget": 60,
-        "target": "例子同样可以说明支持改革",
-        "skill": "不能靠团体行动推固定结论",
-        "q": "An article argues that locally organized groups can sometimes help an unpopular policy get started. It describes a farmers' cooperative that trained volunteers and persuaded members to test a water-saving system, helping the trial begin on schedule. What is the role of this example?",
-        "o": [
-          "It proves every member had opposed water conservation before joining.",
-          "It shows cooperatives necessarily control the national government.",
-          "It establishes that all unpopular policies eventually succeed.",
-          "It supports the claim that organized groups can facilitate policy implementation."
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "文章认为地方组织有时能帮助不受欢迎的政策启动，随后举农民合作社培训志愿者、推动成员试用节水系统，使试验按时开展的例子。这个例子是在支持‘团体也能帮助政策落实’。",
-          "structure": "An article argues + that从句是主张；It describes...引出实例；helping the trial begin是实例中的实际结果。",
-          "other": "cooperative 合作社；facilitate 促进；implementation 落实；trial 试行。",
-          "meaning": "例子支持的结论可以是促进改革，也可以是阻碍改革，取决于前后文。不要机械地把‘团体动员’与‘妨碍改革’绑定。",
-          "rest": "成员加入前态度没有交代；合作社对国家政府的控制与本文无关；一次成功试行不能保证所有政策最终成功。"
-        },
-        "context_id": "context:example-farmers-support-trial-b"
-      }
-    ],
-    "reference": [
-      {
-        "id": "legacy-such",
-        "source": "old",
-        "skill": "these / such 回指",
-        "target": "these / such 回指",
-        "q": "段A：The museum lowered ticket prices and added evening hours.\n段B：Such changes attracted more local families during the week.\n段C：A different museum across town raised its prices last year.\n\n段B中的 Such changes 最直接回指什么？",
-        "o": [
-          "段A中的降价和延长晚间开放时间",
-          "段C中另一家博物馆的涨价",
-          "所有博物馆过去一年的变化",
-          "local families 本身"
-        ],
-        "a": 0,
-        "diag": {
-          "1": "段B先于段C，且 Such changes 就近概括段A的两个措施。",
-          "2": "题干没有支持“所有博物馆”的泛指。",
-          "3": "changes 指的是措施变化，不是家庭。"
-        },
-        "exp": {
-          "trans": "A：博物馆降低了票价，并延长了晚间开放时间。B：这些变化吸引了更多本地家庭在工作日前来。C：城另一边的另一家博物馆去年提高了票价。",
-          "structure": "段A先给出两个并列措施 lowered ticket prices / added evening hours；段B用 Such changes 对这两个措施整体回指，再说明结果 attracted more local families。",
-          "other": "lower 降低；ticket price 票价；evening hours 晚间开放时段；attract 吸引。",
-          "meaning": "such + 名词 常把前文已经描述过的同类事物/情况概括回指；这里 Such changes = 段A的两项变化。",
-          "rest": "后文另一家博物馆的涨价、所有博物馆的泛指以及 local families 都不是 Such changes 的先行内容；它直接概括前文的降价和延长晚间开放时间。"
-        },
-        "family": "reference",
-        "introduced": null,
-        "budget": 35,
-        "context_id": "such-two-improvements"
-      },
-      {
-        "id": "reference-radio-failures",
-        "family": "reference",
-        "introduced": null,
-        "target": "these/such 回指 / 原词复现干扰",
-        "skill": "原词复现 vs 明确回指",
-        "q": "段A：The team lost radio contact, and its spare battery failed.\n段B：These failures forced the team to abandon the search.\n段C：Another team tested a radio before leaving camp.\n\n哪两个段落之间的衔接最强？",
-        "o": [
-          "A → C",
-          "B → C",
-          "C → A",
-          "A → B"
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "段A：团队失去了无线电联系，备用电池也出了故障。段B：这些故障迫使团队放弃搜寻。段C：另一支团队离开营地前测试了一台无线电设备。",
-          "structure": "段A有两个并列分句：The team + lost + radio contact；its spare battery + failed。段B：These failures（主语，概括前面的两项故障）+ forced（谓语）+ the team（宾语）+ to abandon the search（宾语补足语）。段C的Another team引入另一对象。",
-          "other": "radio contact 无线电联系；spare 备用的；abandon 放弃；search 搜寻。",
-          "meaning": "These failures明确回指已出现的两次故障；重复radio一词并不保证谈的是同一团队、同一事件。",
-          "rest": "把两个含radio的句子相接，会忽略Another team造成的对象切换。把这些故障放在另一团队测试设备之前，后句没有承接故障结果。先说另一团队测试再说本团队出故障，也没有明确回指建立连接。"
-        },
-        "context_id": "context:reference-radio-failures"
-      },
-      {
-        "id": "reference-return-rules",
-        "family": "reference",
-        "introduced": null,
-        "target": "these requirements",
-        "skill": "these / such 回指",
-        "q": "A return is accepted only within thirty days and with a receipt. These requirements apply to online orders too.\nThese requirements 具体指什么？",
-        "o": [
-          "网上订单本身",
-          "所有商店的规定",
-          "三十天以内退货且出示收据这两个条件",
-          "退款已经完成这一结果"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "只有在三十天内并出示收据，退货才会被受理。这些要求也适用于网上订单。",
-          "structure": "第一句：A return（主语）+ is accepted（被动谓语）；only within thirty days和with a receipt并列限制受理条件。第二句：These requirements（主语）+ apply（谓语）+ to online orders（介词短语）。",
-          "other": "return 退货；receipt 收据；apply to 适用于；online order 网上订单。",
-          "meaning": "these + 名词可以概括前文的整组条件，不一定只指紧挨着它的一个名词。",
-          "rest": "online orders是第二句中被这些要求约束的对象，不是要求本身。所有商店的规定扩大了范围，原文未说all shops。退款完成是结果，但前句只陈述受理规则，没有报告任何实际退款。"
-        },
-        "context_id": "context:reference-return-rules"
-      }
-    ],
-    "point": [
-      {
-        "id": "point-joke",
-        "family": "point",
-        "introduced": "2026-09-29",
-        "target": "miss the point",
-        "skill": "miss the point / point",
-        "q": "Even after I explained the joke twice, my brother still missed the point.\nmissed the point 在这里表示什么？",
-        "o": [
-          "仍然怀念以前的笑话",
-          "仍然没明白笑话的关键",
-          "忘记了一个标点符号",
-          "没赶上兄弟聚会"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "即使我把这个笑话解释了两遍，我弟弟仍然没有明白其中的关键。",
-          "structure": "主句：my brother（主语）+ missed（谓语）+ the point（宾语）。after从句：I + explained + the joke；twice修饰explained。even强调即便已经解释过，结果仍如此。",
-          "other": "joke 笑话；twice 两次；still 仍然；explain 解释。",
-          "meaning": "miss the point整体表示没领会关键、没明白意思，不能把miss机械地译成怀念。",
-          "rest": "miss sb可表示想念某人，但miss the point不是这一义项。标点符号一般是punctuation mark，不是这里的point。miss a meeting可表示错过聚会，但原句没有meeting；brother是主语，不是被错过的活动。"
-        },
-        "context_id": "context:point-joke"
-      },
-      {
-        "id": "point-waiting",
-        "family": "point",
-        "introduced": "2026-09-29",
-        "target": "point / there is no point in doing",
-        "skill": "point 熟词生义",
-        "q": "With the last bus already gone, there was no point in waiting at the stop.\npoint 在这里最接近：",
-        "o": [
-          "联合会",
-          "尖端",
-          "分数",
-          "意义、用处"
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "末班车已经开走了，继续在车站等也没有意义。",
-          "structure": "主干：there was no point in waiting at the stop，是there be存在句。With the last bus already gone补充原因背景。简单句The last bus was already gone → 去掉was，用with + 名词 + 状态补语压缩。",
-          "other": "last bus 末班车；already 已经；be gone 已经离开、不在了；bus stop 公交站。",
-          "meaning": "there is no point in doing sth：做某事没有意义；point不是物理位置上的点。",
-          "rest": "联合会常用federation/association，与句意无关。尖端可用the point of a needle，必须是具体物体的尖端。分数可说score three points，但这里不是计分语境。"
-        },
-        "context_id": "context:point-waiting"
-      },
-      {
-        "id": "point-timetable-argument",
-        "family": "point",
-        "introduced": "2026-09-29",
-        "published_on": "2026-10-05",
-        "budget": 35,
-        "target": "have a point",
-        "skill": "miss the point / point",
-        "q": "“Residents have a point: the evening bus reaches the station after the last train has left.” What does have a point convey?",
-        "o": [
-          "居民的意见有道理，时刻表提供了理由。",
-          "居民已经同意公交运营方的安排。",
-          "公交晚到导致火车晚点。",
-          "居民指出了一个新的候车地点。"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "“居民说得有道理：晚班公交抵达车站时，末班火车已经离开了。”问题问have a point表达什么。",
-          "structure": "Residents是主语，have是谓语，a point是宾语。冒号后的the evening bus + reaches + the station给出理由；after从句的has left表示火车先已离开。",
-          "other": "resident 居民；station 车站；the last train 末班火车；timetable 时刻表。",
-          "meaning": "have a point表示某人的意见有道理或值得考虑。这里肯定的是意见所据的理由，不是找到一个地点；与miss the point不同，这次是抓到了有效理由。",
-          "rest": "“同意运营方”加入了原文没有的立场，且解释的是时刻衔接不便。“导致火车晚点”倒置了时间信息：火车已走，并未晚点。“新的候车地点”把抽象的意见或道理误当具体地点。"
-        },
-        "context_id": "context:point-timetable-argument"
+        "context_id": "context:process-stage-bridge-warning-b"
       }
     ],
     "text4-boxed-vocab": [
+      {
+        "id": "text4-vocab-unionist-prime-a",
+        "family": "text4-boxed-vocab",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 40,
+        "target": "unionist / in one's prime",
+        "skill": "画框身份和阶段词",
+        "q": "The unionist became a prominent negotiator in her prime, when she had the energy and experience to lead several major workplace campaigns. Here unionist and in her prime mean:",
+        "o": [
+          "政府公务员 / 刚开始工作的时候",
+          "行业雇主 / 在退休之后",
+          "工会人士 / 处于事业或能力的鼎盛时期",
+          "独立记者 / 工作经验尚浅时"
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "这名工会人士在事业巅峰时期成为知名谈判代表，那时她有精力和经验领导数次重大职场行动。",
+          "structure": "The unionist是主语，became是系动词，a prominent negotiator是表语；in her prime是时间状态状语；when从句解释为什么说她正处鼎盛时期。",
+          "other": "prominent 知名的；negotiator 谈判代表；workplace 职场；campaign 行动。",
+          "meaning": "unionist是工会成员或工会活动人士；in one's prime是人生或事业的全盛、鼎盛时期，不是‘在首要位置’。",
+          "rest": "公务员、雇主、记者都不能替代工会人士；退休后、经验尚浅都与energy and experience表达的巅峰状态不一致。"
+        },
+        "context_id": "context:text4-vocab-unionist-prime-a"
+      },
       {
         "id": "text4-vocab-way-fearsome-b",
         "family": "text4-boxed-vocab",
@@ -645,31 +337,185 @@
           "rest": "家庭财产与绩效标准无关；统一削薪未出现；只按资历奖励与performance standards不符。"
         },
         "context_id": "context:text4-vocab-merit-generous-c"
+      }
+    ],
+    "reference": [
+      {
+        "id": "reference-radio-failures",
+        "family": "reference",
+        "introduced": null,
+        "target": "these/such 回指 / 原词复现干扰",
+        "skill": "原词复现 vs 明确回指",
+        "q": "段A：The team lost radio contact, and its spare battery failed.\n段B：These failures forced the team to abandon the search.\n段C：Another team tested a radio before leaving camp.\n\n哪两个段落之间的衔接最强？",
+        "o": [
+          "A → C",
+          "B → C",
+          "C → A",
+          "A → B"
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "段A：团队失去了无线电联系，备用电池也出了故障。段B：这些故障迫使团队放弃搜寻。段C：另一支团队离开营地前测试了一台无线电设备。",
+          "structure": "段A有两个并列分句：The team + lost + radio contact；its spare battery + failed。段B：These failures（主语，概括前面的两项故障）+ forced（谓语）+ the team（宾语）+ to abandon the search（宾语补足语）。段C的Another team引入另一对象。",
+          "other": "radio contact 无线电联系；spare 备用的；abandon 放弃；search 搜寻。",
+          "meaning": "These failures明确回指已出现的两次故障；重复radio一词并不保证谈的是同一团队、同一事件。",
+          "rest": "把两个含radio的句子相接，会忽略Another team造成的对象切换。把这些故障放在另一团队测试设备之前，后句没有承接故障结果。先说另一团队测试再说本团队出故障，也没有明确回指建立连接。"
+        },
+        "context_id": "context:reference-radio-failures"
       },
       {
-        "id": "text4-vocab-rally-drawnout-d",
-        "family": "text4-boxed-vocab",
+        "id": "reference-return-rules",
+        "family": "reference",
+        "introduced": null,
+        "target": "these requirements",
+        "skill": "these / such 回指",
+        "q": "A return is accepted only within thirty days and with a receipt. These requirements apply to online orders too.\nThese requirements 具体指什么？",
+        "o": [
+          "网上订单本身",
+          "所有商店的规定",
+          "三十天以内退货且出示收据这两个条件",
+          "退款已经完成这一结果"
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "只有在三十天内并出示收据，退货才会被受理。这些要求也适用于网上订单。",
+          "structure": "第一句：A return（主语）+ is accepted（被动谓语）；only within thirty days和with a receipt并列限制受理条件。第二句：These requirements（主语）+ apply（谓语）+ to online orders（介词短语）。",
+          "other": "return 退货；receipt 收据；apply to 适用于；online order 网上订单。",
+          "meaning": "these + 名词可以概括前文的整组条件，不一定只指紧挨着它的一个名词。",
+          "rest": "online orders是第二句中被这些要求约束的对象，不是要求本身。所有商店的规定扩大了范围，原文未说all shops。退款完成是结果，但前句只陈述受理规则，没有报告任何实际退款。"
+        },
+        "context_id": "context:reference-return-rules"
+      },
+      {
+        "id": "reference-panels-request-switch",
+        "family": "reference",
+        "introduced": null,
+        "published_on": "2026-10-05",
+        "budget": 35,
+        "target": "it / this request / 对象切换",
+        "skill": "these / such 回指",
+        "q": "Two panels examined a report. The finance panel recommended publishing it in full, while the technical panel asked for more time. This request was granted. Which reading tracks it and This request correctly?",
+        "o": [
+          "it = the report; This request = publishing the report in full",
+          "it = the finance panel’s recommendation; This request = more time",
+          "it = the report; This request = more time for the technical panel",
+          "it = the decision to publish; This request = the finance panel’s recommendation"
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "两个小组审阅了一份报告。财务小组建议全文发布它，技术小组则请求更多时间。这个请求获准了。it指报告；This request指技术小组请求更多时间。",
+          "structure": "publishing it in full是recommended的补足内容，it代替前文的report。while对比两个小组的不同动作。This request作后句主语；was granted是被动谓语，回指asked for more time这一请求。",
+          "other": "panel 小组；in full 全文、完整地；technical 技术的；grant a request 批准请求。",
+          "meaning": "跟踪对象时既看名词数与位置，也看动作：publish的是report，asked for形成request。财务组的建议和技术组的请求不能混为同一对象。",
+          "rest": "把This request指向全文发布，忽略asked for more time和while的对象切换；把it解释成recommendation，会把publish报告改成发布建议；decision to publish也不是it出现前已建立的实体，且没有说发布决定已经获批。"
+        },
+        "context_id": "context:reference-panels-request-switch"
+      }
+    ],
+    "with": [],
+    "compensation-components": [
+      {
+        "id": "compensation-hospital-benefits-a",
+        "family": "compensation-components",
         "introduced": "2026-10-11",
         "published_on": "2026-10-11",
         "budget": 55,
-        "target": "notoriously / drawn-out / rally",
-        "skill": "典型改革冲突词块",
-        "q": "After a notoriously drawn-out hearing, campaigners rallied local residents to oppose the plan. Which interpretation best matches the sentence?",
+        "target": "工资涨幅 vs 福利形式",
+        "skill": "基本工资与间接报酬",
+        "q": "The hospital increased nurses' basic pay by only 1%, but expanded subsidized childcare and doubled its contribution to their retirement accounts. Which conclusion is best supported?",
         "o": [
-          "听证会异常简短，因此活动人士解散了居民。",
-          "经过众所周知旷日持久的听证会，活动人士动员当地居民反对计划。",
-          "听证会从未进行，居民被要求保持中立。",
-          "活动人士隐瞒了整个听证会，因此居民改变了政治立场。"
+          "Every nurse's cash salary doubled.",
+          "The hospital eliminated all non-wage benefits.",
+          "The overall reward package improved partly through benefits beyond basic pay.",
+          "The hospital cut pension support to finance the salary increase."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "医院只把护士的基本工资提高了1%，却扩大了托育补贴，并将其养老金账户的雇主缴费翻倍。合理结论是报酬待遇部分通过工资以外的福利改善。",
+          "structure": "The hospital + increased + basic pay ... but expanded ... and doubled ...；but对照基本工资小幅增长和两种福利的明显增加，结论应兼顾两边。",
+          "other": "subsidized childcare 托育补贴；contribution 缴费、投入；retirement account 退休金账户；reward package 总体报酬待遇。",
+          "meaning": "basic pay / cash salary与benefits / pensions不能混为一谈。工资表面增幅modest并不排除实际待遇因非工资福利而indirectly augmented。",
+          "rest": "基本工资翻倍与only 1%冲突；取消福利与expanded相反；削减养老金支持与doubled contribution直接相反。"
+        },
+        "context_id": "context:compensation-hospital-benefits-a"
+      }
+    ],
+    "example-claim-scope": [
+      {
+        "id": "example-council-reform-opposition-a",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 60,
+        "target": "具体反对行动支持哪条主旨",
+        "skill": "例子→论点 / 不能多推态度变化",
+        "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
+        "o": [
+          "Organized groups can impede administrative reforms.",
+          "The association persuaded every resident to change political allegiance.",
+          "Most builders oppose the current political system in all circumstances.",
+          "Digital permits always cost more than paper applications."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
+          "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
+          "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
+          "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
+          "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
+        },
+        "context_id": "context:example-council-reform-opposition-a"
+      }
+    ],
+    "summary-location": [
+      {
+        "id": "summary-overall-midsection",
+        "family": "summary-location",
+        "introduced": null,
+        "target": "Overall / 总结词定位",
+        "skill": "总结词定位",
+        "q": "A paragraph begins: “Overall, the first phase cut waiting times but raised operating costs.” The article then spends two more paragraphs discussing why costs rose. What does Overall most likely do here?",
+        "o": [
+          "It proves the article has reached its final sentence.",
+          "It summarizes the first phase before the article moves to further analysis.",
+          "It introduces a completely unrelated example.",
+          "It means the following claim is uncertain."
         ],
         "a": 1,
+        "budget": 45,
         "exp": {
-          "trans": "在一次众所周知拖延了很久的听证会之后，活动人士动员当地居民反对这项计划。",
-          "structure": "After a ... hearing是时间状语；campaigners + rallied + local residents是主谓宾；to oppose the plan说明动员的行动方向。",
-          "other": "hearing 听证会；campaigner 活动人士；resident 居民；oppose 反对。",
-          "meaning": "notoriously=众所周知地、臭名昭著地（通常有负面色彩）；drawn-out=拖延很久的、旷日持久的；rally作动词=动员、召集。动员不自动证明居民改变了原有政治态度。",
-          "rest": "简短与drawn-out相反；从未举行和保持中立均无依据；隐瞒听证会与改变政治立场都是额外增添的动作。"
+          "trans": "段落开头说：“总体来看，第一阶段缩短了等待时间，但提高了运营成本。”随后文章又用两段分析成本为何上升。这里 Overall 最可能是在进一步分析之前概括第一阶段的总体结果。",
+          "structure": "引号内主干：the first phase（主语）+ cut / raised（并列谓语）+ waiting times / operating costs（宾语）。Overall修饰整句判断，表示概括性评价；后文仍可继续展开。",
+          "other": "phase 阶段；waiting time 等待时间；operating cost 运营成本；further analysis 进一步分析。",
+          "meaning": "Overall是句子/段落层面的总结副词，表示“总体而言”；它不等于“全文到此结束”。",
+          "rest": "总结词可以出现在文章中段，不能凭Overall就判断是最后一句；unrelated example是引例功能，与概括相反；Overall不表达不确定性，uncertain更接近possibly/apparently等语气词。"
         },
-        "context_id": "context:text4-vocab-rally-drawnout-d"
+        "context_id": "context:summary-overall-midsection"
+      },
+      {
+        "id": "summary-trials-next-question",
+        "family": "summary-location",
+        "introduced": null,
+        "published_on": "2026-10-05",
+        "budget": 45,
+        "target": "局部总结 / 段尾钩子",
+        "skill": "总结词定位",
+        "q": "A paragraph says: “Taken together, the short trials show that the sensor detects small leaks. That finding raises a further question: can it operate for weeks without a battery change?” Which next paragraph would best develop the hook?",
+        "o": [
+          "A report of a month-long run and its power use.",
+          "A repetition of the first trial’s one-hour detection rate.",
+          "A history of the material used in the first sensor.",
+          "A claim that accurate detection already proves long battery life."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "一段写道：“短期试验合起来表明传感器能检测到小泄漏。这个发现引出进一步的问题：不换电池，它能否运行数周？”最能展开段尾钩子的是长达一个月的运行和耗电报告。",
+          "structure": "Taken together概括short trials；the sensor + detects + small leaks是that宾语从句。That finding回指检测结果。can it operate...?的问题将检测能力推进到长期供电能力。",
+          "other": "trial 试验；leak 泄漏；operate 运转；power use 耗电量。",
+          "meaning": "局部总结不是全文封口。选下一段要回应新的运行时长问题，而非机械重复已总结的检测准确性。",
+          "rest": "one-hour detection rate只重复旧测试，未回答数周运行；material history转去材料背景，未接耗电问题；accurate detection proves long battery life把检测能力当成续航证据，两项指标不能自动互证。"
+        },
+        "context_id": "context:summary-trials-next-question"
       }
     ]
   },
