@@ -1117,6 +1117,94 @@
       "qid": "text4-vocab-unionist-prime-a",
       "round_id": "mv6lnf25-lrccyn1t",
       "source_date": "2026-10-13"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 46102,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "scope-role-device-study-b",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 31072,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "process-stage-shelter-approval-a",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "text4-boxed-vocab",
+      "ok": true,
+      "ms": 33920,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "text4-vocab-rally-drawnout-d",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "reference",
+      "ok": true,
+      "ms": 21115,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "legacy-such",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "with",
+      "ok": true,
+      "ms": 9742,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "with-bread-cooling",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "compensation-components",
+      "ok": true,
+      "ms": 38389,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "compensation-port-delayed-benefits-b",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 95543,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "example-farmers-support-trial-b",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-14",
+      "family": "summary-location",
+      "ok": false,
+      "ms": 28756,
+      "uncertain": false,
+      "origin": 16,
+      "qid": "summary-current-and-follow-up",
+      "round_id": "mv80lbv0-dqnb8lbu",
+      "source_date": "2026-10-14"
     }
   ],
   "issues": [
@@ -1134,6 +1222,7 @@
     12,
     13,
     14,
-    15
+    15,
+    16
   ]
 }
