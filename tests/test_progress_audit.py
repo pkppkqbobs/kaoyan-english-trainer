@@ -82,6 +82,8 @@ class ProgressAuditTests(unittest.TestCase):
             with self.subTest(family=family):
                 self.assertTrue(offsets, 'known old weakness cannot be starved for three weeks')
                 self.assertLess(offsets[0], 7, 'the existing old weakness needs a near-term opportunity')
+                self.assertTrue(any(offset >= 0 for offset in offsets),
+                                'a recent past article cannot satisfy every future review opportunity')
 
     def test_one_reserve_uses_waiting_time_while_four_urgent_slots_keep_their_priority(self):
         items, stats, history = fixture()

@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-10-14",
-  "source_commit": "5a1751e70d704a71b114a564b43ab3282e29abd7",
+  "reviewed_on": "2026-10-15",
+  "source_commit": "eb503af21ff40db678078310237a5aeb9b8c9212",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -213,8 +213,8 @@
     "boxed-vocab-patchwork-rules-b": "context:boxed-vocab-patchwork-rules-b",
     "polysemy-justified-complaint-a": "context:polysemy-justified-complaint-a",
     "polysemy-just-justified-b": "context:polysemy-just-justified-b",
-    "process-stage-shelter-approval-a": "context:process-stage-shelter-approval-a",
-    "process-stage-bridge-warning-b": "context:process-stage-bridge-warning-b",
+    "process-stage-shelter-approval-a": "process-initial-report-independent-verification",
+    "process-stage-bridge-warning-b": "process-initial-report-independent-verification",
     "inference-boundary-architect-layout-a": "context:inference-boundary-architect-layout-a",
     "inference-boundary-archive-questions-b": "context:inference-boundary-archive-questions-b",
     "title-coverage-public-alerts-a": "context:title-coverage-public-alerts-a",
@@ -256,7 +256,11 @@
     "cloze-marked-license-a": "context:cloze-marked-license-a",
     "cloze-marked-project-b": "context:cloze-marked-project-b",
     "cloze-necessary-transport-a": "context:cloze-necessary-transport-a",
-    "cloze-necessary-teachers-b": "context:cloze-necessary-teachers-b"
+    "cloze-necessary-teachers-b": "context:cloze-necessary-teachers-b",
+    "process-stage-hospital-routine-authority-c": "context:process-stage-hospital-routine-authority-c",
+    "process-stage-shipment-hold-decision-d": "context:process-stage-shipment-hold-decision-d",
+    "example-museum-hours-transport-c": "context:example-museum-hours-transport-c",
+    "example-factory-reporting-measure-d": "context:example-factory-reporting-measure-d"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -280,7 +284,8 @@
     "surface-detail-miss-point": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
     "on-which-argument": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
     "such-two-improvements": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
-    "subject-rule-process-double": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。"
+    "subject-rule-process-double": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
+    "process-initial-report-independent-verification": "旧两题分别讲避难所估计和桥梁报告，但都用个人起点→独立核验→正式采用，答案路径与排除逻辑近似；保守合并，不把换题号当不同推理。新增题另测核验与实施授权的区别、暂停决定与后续放行的区别。"
   },
   "family_assessments": {
     "reference": {

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "process-stage-hospital-routine-authority-c",
+    "family": "process-stage-role",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "流程阶段与授权条件",
+    "skill": "区分结果核验、消息公开与实施授权",
+    "q": "A hospital trial finds that a scheduling tool reduces missed appointments. The methods panel accepts the results after checking the analysis, and a staff newsletter reports the trial. Routine use must nevertheless wait for the operations board to approve a staffing plan. Which event authorises the hospital to start using the tool routinely?",
+    "o": [
+      "Acceptance of the trial analysis by the methods panel.",
+      "Publication of the trial results in the staff newsletter.",
+      "The operations board's approval of the staffing plan.",
+      "The trial team's observation of fewer missed appointments."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "一家医院的试验发现，一种预约安排工具减少了爽约。方法审核小组检查分析后认可了结果，员工通讯也报道了这项试验。不过，常规使用仍须等待运营委员会批准人员配置计划。哪个事件授权医院开始常规使用该工具？答案是人员配置计划获批。",
+      "structure": "A hospital trial + finds + that从句给出试验发现；The methods panel + accepts + the results说明核验阶段。Routine use + must wait + for the operations board to approve a staffing plan说明实施仍受另一项决定约束。nevertheless连接结果已获认可与尚不能常规实施的转折。",
+      "other": "scheduling tool 预约安排工具；miss an appointment 爽约；methods panel 方法审核小组；staffing plan 人员配置计划；authorise 授权。",
+      "meaning": "题目问开始常规实施的授权条件。独立核查在本文确实发生，却只让研究结果获得认可，不能替代运营委员会的实施批准。不能把所有过程题都机械答成独立验证。",
+      "rest": "审核小组认可的是试验分析，不是常规使用的授权；员工通讯负责传播消息，没有审批权；试验团队观察到效果是提出采用建议的证据起点，仍未满足文中保留的实施条件。"
+    }
+  },
+  {
+    "id": "process-stage-shipment-hold-decision-d",
+    "family": "process-stage-role",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "异常上报、暂停与放行",
+    "skill": "按提问定位过程中的决定而非总选最后一步",
+    "q": "A technician noticed an unusual label on a food shipment and asked a supervisor whether it should be checked. The supervisor marked the shipment 'hold', stopping dispatch. A laboratory later found the contents safe, and the quality manager signed the release form. Which event directly stopped the shipment from leaving?",
+    "o": [
+      "The technician's request for advice about the label.",
+      "The supervisor's decision to put the shipment on hold.",
+      "The laboratory's conclusion that the contents were safe.",
+      "The quality manager's signature on the release form."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "技术员发现一批食品的标签异常，询问主管是否应检查。主管将这批货标为暂扣，停止发运。实验室后来确认货物内容安全，质量经理签署了放行单。哪个事件直接阻止了货物运出？是主管作出的暂扣决定。",
+      "structure": "The technician + noticed ... and asked ...是发现和上报；whether it should be checked是询问内容，其中should be checked为被动谓语。The supervisor + marked + the shipment + hold，后接stopping dispatch说明结果。found the contents safe为find加宾语和形容词补语；signed the release form属于后来的放行阶段。",
+      "other": "shipment 一批货物；put on hold 暂停、暂扣；dispatch 发运；release form 放行单；contents 所装物品。",
+      "meaning": "先确定题目问的是停止发运，而非最早发现异常、确认安全或最终放行。直接产生停运结果的是主管的暂扣决定。过程角色题必须按问题定位阶段，不能一概选最后的正式批准。",
+      "rest": "技术员询问是否检查，是上报起点，文中实际停运由主管决定；实验室认定安全发生在之后，支持解除疑虑；经理签放行单允许后续运出，与停止运出方向相反。"
+    }
+  },
+  {
+    "id": "example-museum-hours-transport-c",
+    "family": "example-claim-scope",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-15",
+    "budget": 60,
+    "target": "例子在论证中的作用",
+    "skill": "识别反例对充分条件的限制而非扩大成全面否定",
+    "q": "A consultant argues that longer opening hours are enough to widen access to museums. A writer responds with a neighbourhood museum that stayed open until 10 p.m., yet attracted few additional night-shift workers. Interviews revealed that the last bus serving their workplaces left at 8 p.m. Why does the writer include this case?",
+    "o": [
+      "To show that transport constraints can limit what extended hours achieve.",
+      "To identify reduced bus services as a consequence of the later museum hours.",
+      "To compare tourists' reasons for visiting with those of local residents.",
+      "To present later opening as a substitute for improving transport links."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "顾问认为，只要延长开放时间，就足以让更多人有机会参观博物馆。作者回应说，一家社区博物馆开放到晚上十点，却几乎没有多吸引夜班工人。访谈发现，途经他们工作地点的末班公交在晚上八点就开走了。作者为何举这个例子？为了说明交通限制会影响延长开放时间的实际效果。",
+      "structure": "A consultant + argues + that从句提出待检验的充分条件；A writer + responds with + a museum引出反例。that stayed open...为修饰museum的定语从句；yet转向预期未实现的结果；Interviews + revealed + that从句提供限制条件。",
+      "other": "widen access 扩大参与机会；neighbourhood 社区；night-shift worker 夜班工人；extended hours 延长的开放时间；transport link 交通连接。",
+      "meaning": "例子针对的是延长开放时间是否单独就足够。公交仍是障碍，说明措施的效果受另一条件限制；没有证明延时开放普遍无效，也没有比较不同群体的喜好。",
+      "rest": "末班车时间是已有约束，文中没有说公交服务因博物馆延时而削减；游客与本地居民的参观动机没有被比较；例子指出仅延时仍不足，不能反说延时可以替代交通改善。"
+    }
+  },
+  {
+    "id": "example-factory-reporting-measure-d",
+    "family": "example-claim-scope",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-15",
+    "budget": 60,
+    "target": "观测数字与论证作用",
+    "skill": "把实例放回可见记录与实际行为的区分",
+    "q": "An essay distinguishes a visible change in records from a change in underlying behaviour. It describes a factory where reported near-misses increased after a safety bonus was introduced. An anonymous survey found no change in how often hazards occurred; workers said they had previously kept quiet about them. What does the case illustrate?",
+    "o": [
+      "A safety bonus can make a workplace more dangerous even when workers welcome it.",
+      "Anonymous surveys provide weaker safety evidence than official incident totals.",
+      "Workers respond more strongly to anonymity than to financial rewards.",
+      "Recorded events can increase because reporting changes, without a matching increase in hazards."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "文章区分记录上的可见变化与实际行为的变化。文中举例，一家工厂引入安全奖励后，上报的险情增多。匿名调查发现，危险出现的频率并没有变化；工人说自己以前对这些情况保持沉默。这个例子说明，记录数量上升可能源自上报方式改变，而不意味着危险同步增加。",
+      "structure": "An essay + distinguishes + A from B提出上层区分；It + describes + a factory引出例子，where从句补充上报数量变化。was introduced是被动谓语。An anonymous survey + found + no change；how often hazards occurred补充频率。had previously kept quiet指出早期漏报背景。",
+      "other": "near-miss 险些发生的事故、险情；underlying 实际的、深层的；anonymous 匿名的；hazard 危险因素；incident total 事件总数。",
+      "meaning": "实例在支持记录变化不等于实际事件变化这一论点。新增上报与此前沉默形成对照，不能把记录增多直接推成工作更危险；也不应把例证题改答成未讨论的奖励与匿名措施孰强。",
+      "rest": "奖励后上报增多不能证明危险增多，调查反而指出发生频率未变；文中没有比较匿名调查和正式记录的证据等级；匿名是调查方式，奖励是先前制度变化，材料没有直接比较二者激励强度。"
+    }
+  }
+]

@@ -132,7 +132,7 @@ def available(q, day):
 
 
 def variant_history(root, day, daily=None):
-    """Published article/passage rounds inform qid spacing, not family priority."""
+    """Published rounds inform variant spacing and the single waiting reserve."""
     history = {stamp: list(ids) for stamp, ids in (daily or {}).items() if stamp <= day.isoformat()}
     for path in sorted((root / "data/article-reviews").glob("*.json")):
         payload = load(path)
@@ -147,7 +147,7 @@ def variant_history(root, day, daily=None):
     return {stamp: sorted(set(ids)) for stamp, ids in history.items()}
 
 
-def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None):
+def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None, primary_history=None):
     variants = list(variants)
     all_contexts = {q["id"]: q.get("context_id", q["id"]) for q in variants}
     rng.shuffle(variants)
@@ -165,8 +165,20 @@ def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None):
             if qid in all_contexts:
                 ctx = all_contexts[qid]
                 context_last[ctx] = max(stamp, context_last.get(ctx, ""))
+    primary_last, primary_context = {}, {}
+    for stamp, ids in (primary_history or {}).items():
+        for qid in ids:
+            primary_last[qid] = max(stamp, primary_last.get(qid, ""))
+            if qid in all_contexts:
+                ctx = all_contexts[qid]
+                primary_context[ctx] = max(stamp, primary_context.get(ctx, ""))
+    # A same-day article may make both contexts equally recent globally. Break
+    # that tie using this selector's own history before trying an unseen sibling
+    # qid; otherwise yesterday's daily context can be randomly repeated.
     return copy.deepcopy(min(variants, key=lambda q: (context_last.get(q.get("context_id", q["id"]), ""),
-                                                       last_shown.get(q["id"], ""))))
+                                                       primary_context.get(q.get("context_id", q["id"]), ""),
+                                                       last_shown.get(q["id"], ""),
+                                                       primary_last.get(q["id"], ""))))
 
 
 def retry_variants(items, question, day):
@@ -528,9 +540,18 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
                            if (stamps := [q[k] for k in ('introduced', 'published_on') if q.get(k)])]
         since = max(activity) if activity else min(available_dates, default=day.isoformat())
         return max(0, (day - date.fromisoformat(since)).days)
-    # Stable sorting keeps the existing urgency order for equal waiting times;
-    # it introduces no new randomness or scoring/learning evidence.
-    neglected = sorted(urgent, key=waiting, reverse=True)
+    def recent_followup(f):
+        s = stats[f]
+        # Existing scored errors plus a recent, still-unstable answer need a
+        # prompt opportunity. This is not a claim that the latest answer was
+        # wrong: an old error followed by a slow correct answer also qualifies.
+        # A later publication resets waiting, preventing repeat reserve claims.
+        return (s['errors'] > 0 and s['streak'] == 0 and s.get('last') is not None
+                and 2 <= (day - date.fromisoformat(s['last'])).days <= 3
+                and waiting(f) >= 2)
+    # Use the same one slot for prompt follow-up, otherwise the oldest weakness.
+    # Stable ties preserve urgency; neither rule creates learning evidence.
+    neglected = sorted(urgent, key=lambda f: (recent_followup(f), waiting(f)), reverse=True)
     chosen = []
     def allowed(f):
         # Full ordering belongs in the independent Part B page; at most one mini pair
@@ -549,7 +570,7 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
                        and (stats[f]["errors"] > 0 or stats[f]["reported_confusion"] or stats[f]["slow_or_uncertain"])), urgent)
     # Translation-only observations keep their normal rank, but cannot displace
     # a real error/slow answer or explicit uncertainty in this one reserve.
-    take(1, lambda f: (stats[f]['due'] <= day.isoformat() and waiting(f) >= 3
+    take(1, lambda f: (stats[f]['due'] <= day.isoformat() and (waiting(f) >= 3 or recent_followup(f))
                        and (stats[f]['errors'] > 0 or stats[f]['slow_or_uncertain']
                             or (stats[f]['reported_confusion'] and stats[f].get('observation_priority', 2) >= 2))), neglected)
     take(1, lambda f: f in STRUCTURE)
@@ -565,10 +586,12 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         if all(not (age(a) == 0 and age(b) == 0) for a, b in zip(chosen, chosen[1:])):
             break
     selected = []
+    shown = {stamp: ids for stamp, ids in (variant_shown if variant_shown is not None else history).items()
+             if stamp < day.isoformat() or (stamp == day.isoformat() and include_today)}
+    primary = {stamp: ids for stamp, ids in history.items()
+               if stamp < day.isoformat() or (stamp == day.isoformat() and include_today)}
     for f in chosen:
-        shown = {stamp: ids for stamp, ids in (variant_shown if variant_shown is not None else history).items()
-                 if stamp < day.isoformat() or (stamp == day.isoformat() and include_today)}
-        selected.append(choose_variant(groups[f], shown, rng))
+        selected.append(choose_variant(groups[f], shown, rng, primary_history=primary))
     return selected
 
 
