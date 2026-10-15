@@ -1205,6 +1205,94 @@
       "qid": "summary-current-and-follow-up",
       "round_id": "mv80lbv0-dqnb8lbu",
       "source_date": "2026-10-14"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 193130,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "example-farmers-support-trial-b",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "cloze-comparison-chain",
+      "ok": true,
+      "ms": 34483,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "cloze-meter-readings-b",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "relative",
+      "ok": true,
+      "ms": 24870,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "legacy-which",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 72703,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "inference-boundary-architect-layout-a",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 33306,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "paragraph-order-discourse-parallel-a",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "cloze-applicant-outcome",
+      "ok": true,
+      "ms": 26299,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "cloze-applicant-scholarship-a",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 26047,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "directness-engineer-a",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 20409,
+      "uncertain": false,
+      "origin": 17,
+      "qid": "process-stage-shelter-approval-a",
+      "round_id": "mv9i9b3p-h6knnn7b",
+      "source_date": "2026-10-15"
     }
   ],
   "issues": [
@@ -1223,6 +1311,7 @@
     13,
     14,
     15,
-    16
+    16,
+    17
   ]
 }
