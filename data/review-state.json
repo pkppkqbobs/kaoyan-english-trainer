@@ -40,6 +40,16 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "accusation-context-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
+    },
     "alerts": {
       "streak": 0,
       "errors": 0,
@@ -69,6 +79,16 @@
       "reported_confusion": true,
       "observed_days": 1,
       "observation_priority": 2
+    },
+    "belief-negation-clause": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "career-evidence": {
       "streak": 3,
@@ -230,6 +250,16 @@
       "observed_days": 4,
       "observation_priority": 0
     },
+    "concession-claim-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "conditions": {
       "streak": 0,
       "errors": 0,
@@ -340,6 +370,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "figurative-descent-relative": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "have-little-use-for": {
       "streak": 0,
       "errors": 0,
@@ -399,6 +439,16 @@
       "reported_confusion": false,
       "observed_days": 2,
       "observation_priority": 0
+    },
+    "negative-ellipsis-afford": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "nested": {
       "streak": 4,

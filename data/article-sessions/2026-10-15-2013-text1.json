@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-15-2013-text1",
+  "date": "2026-10-15",
+  "created_at": "2026-10-15T21:01:00+08:00",
+  "source": "2013 英语一 Reading Text 1",
+  "result_summary": "用户纸面第21题初选B正确、因误读imagine that high fashion doesn't affect her改选最终C错误；第23题A正确但accusation不认识，靠排除答对；第24题最终B错误（标准D），把污染/浪费扩大成全行业忽视环保、忽略部分企业减害努力，且把末句only when/can't afford not to译为直到无法承担，more sustainably误译为更持续地购买。用户另对首段descend‘下降’与长句explains how...from/to...in which...提问，应识别流行趋势由高端向普通渠道传播及宾语从句与定语从句的层级。第22/25未可靠确认作答，不补造总分、选项或任何网页计分结果。新增异语境训练四个主要薄弱点，第23词义低频巩固。",
+  "focus_families": [
+    "belief-negation-clause",
+    "concession-claim-scope",
+    "negative-ellipsis-afford",
+    "figurative-descent-relative",
+    "accusation-context-vocab"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2013-english1.json"
+}

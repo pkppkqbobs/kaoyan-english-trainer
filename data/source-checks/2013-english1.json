@@ -20,6 +20,24 @@
       "title": "新浪教育：2013年研究生入学考试英语一试题详解",
       "url": "https://edu.sina.com.cn/kaoyan/2013-01-06/1216368080.shtml",
       "covers": "完形正确答案及全文论证"
+    },
+    {
+      "id": "eol-2013-reading-text1",
+      "title": "中国教育在线：2013年英语一阅读Text 1原文及选项",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201605/t20160513_1397489_1.shtml",
+      "covers": "2013 Reading Text 1 21–25题及末段"
+    },
+    {
+      "id": "chinakaoyan-2013-reading-text1",
+      "title": "中国考研网：2013英语一完整试题",
+      "url": "https://www.chinakaoyan.com/info/article/id/27023.shtml",
+      "covers": "与用户试卷一致的Text 1各选项顺序"
+    },
+    {
+      "id": "eol-2013-reading-text1-analysis",
+      "title": "中国教育在线：2013英语一阅读Text 1解析",
+      "url": "https://kaoyan.eol.cn/fu_xi/yingyu/201312/t20131219_1054327_2.shtml",
+      "covers": "21 B、22 D、23 A、24 D、25 C及定位解释"
     }
   ],
   "answers": {
@@ -42,7 +60,12 @@
     "17": "A",
     "18": "C",
     "19": "B",
-    "20": "C"
+    "20": "C",
+    "21": "B",
+    "22": "D",
+    "23": "A",
+    "24": "D",
+    "25": "C"
   },
   "answer_words": {
     "1": "grants",
@@ -64,21 +87,33 @@
     "17": "before",
     "18": "drop",
     "19": "undo",
-    "20": "necessary"
+    "20": "necessary",
+    "21": "insensitivity to fashion",
+    "22": "shop for their garments more frequently",
+    "23": "accusation",
+    "24": "Pricing is vital to environment-friendly purchasing",
+    "25": "Criticism of the fast-fashion industry"
   },
   "performance_coverage": {
-    "Section I": "用户明确确认10/20，换算5/10分。实际错误题号：3、5、6、7、9、11、15、17、18、19；答对：1、2、4、8、10、12、13、14、16、20。其中第16、20题用户明确称答对但不确定，不能算错。最初具体选错字母未由用户逐一确认，禁止从图像涂改或旧助手误识别猜测。网页Issue不计这份纸面答卷。"
+    "Section I": "用户明确确认10/20，换算5/10分。实际错误题号：3、5、6、7、9、11、15、17、18、19；答对：1、2、4、8、10、12、13、14、16、20。其中第16、20题用户明确称答对但不确定，不能算错。最初具体选错字母未由用户逐一确认，禁止从图像涂改或旧助手误识别猜测。网页Issue不计这份纸面答卷。",
+    "Text 1": "用户明确第21题初选B正确，回看第一段后改为最终C错误；第23题选A正确但不认识accusation，只靠排除选择；第24题选B错误（标准D），误把造成浪费扩大成整个行业忽视环保，且不理解末段经济代价的双重否定。第22和25题没有可靠的聊天确认最终选项，不猜测答题字母、不计算本篇总分；纸质练习不计入GitHub自动Issue得分。"
   },
   "observed_difficulties": [
     "10道实际错误：3 big picture；5 fearful of；6 soft on crime；7 if；9 applicant's success；11 truth was otherwise；15 then；17 the one before that；18 drop by（such a decrease）；19 undo the effects。均为用户明确报告的错题号，无需补造具体初选字母。",
     "用户词性误判：把a judge里的judge当作动词‘判断’，没有先识别a + 可数名词及sentence ... to prison的司法语境。",
     "用户词形混淆：ever（曾经/任何时候）与even（甚至）易混；15实际需要then表达先后步骤。",
     "16 marked out of 800 points、20 than would otherwise have been necessary 均已答对但没有把握，分别训练计分搭配与反事实比较基线。",
-    "用户明确画框的appearing too soft、sentenced、in conjunction with为翻译困难，不能把下划线或正确作答自动改记为困难。"
+    "用户明确画框的appearing too soft、sentenced、in conjunction with为翻译困难，不能把下划线或正确作答自动改记为困难。",
+    "Text 1 Q21：错误理解imagining that high fashion doesn't affect her，误把否定命题‘助手以为时尚不影响她’读成‘助手沉迷高端时尚’，导致初选B正确改成C错误。",
+    "Text 1 Q23：A accusation（指控）词义不熟，但通过其余选项排除答对；与indictment（严厉谴责）语义吻合。",
+    "Text 1 Q24：快时尚造成浪费不等于全行业忽略环保；末段Though several... made efforts to curb...限定范围，部分公司尝试减害与污染仍存在并不矛盾。",
+    "Text 1 Q24末句：用户把only ... when和can't afford not to连成直到买不起的意思，漏掉否定的不定式动作shop more sustainably；sustainably应译为环保、可持续而非持续地购买。真正强调价格/经济代价推动改变。",
+    "Text 1首段：用户对descended提问，实际为流行趋势从高级时装秀向大众市场逐级传播；how从句、from-to路径及bargain bin in which...定语从句需要合并理解；不从其他划线词推定翻译障碍。"
   ],
   "notes": [
     "不能用曾经错误的8/20统计替代用户纠正的10/20；第2、13题真实答对，第16、20题答对但犹豫。",
     "写入learning-notes的是chat feedback与画框困难，用于新语境复习优先级，不增加result-evidence的attempts/errors，也不构造Issue。",
-    "词组‘a judge fearful of appearing too soft on crime’要分清名词角色与后置形容词短语；17–19要连接前后人次、下降回指与抵消效果，不要拆成孤立词汇。"
+    "词组‘a judge fearful of appearing too soft on crime’要分清名词角色与后置形容词短语；17–19要连接前后人次、下降回指与抵消效果，不要拆成孤立词汇。",
+    "Text 1标准答案21 B、22 D、23 A、24 D、25 C是根据用户上传试卷的选项顺序复核；不同网站重排字母不可混用。真实观察只涉及21/23/24，不补造22/25作答或纸面总分。"
   ]
 }

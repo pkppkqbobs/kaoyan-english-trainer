@@ -730,5 +730,85 @@
     "source_exam": "2013-english1",
     "source_part": "Section I",
     "review_importance": "low"
+  },
+  {
+    "family": "belief-negation-clause",
+    "date": "2026-10-15",
+    "kind": "user_reported_wrong",
+    "note": "2013 Text 1 Q21：最初选B insensitivity to fashion（正确），自述初读首段看不懂；读第二段后回看首段，误解imagining that high fashion doesn't affect her为助手在想高端时尚这种不该想的东西，最终改成错误C obsession with high fashion。正确句是助手‘以为高端时尚不会影响自己’，Priestly用廉价毛衣颜色受高级时尚影响进行反驳。不能把初选B计成最终正确，也不能只看high fashion忽略that后的否定。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 21,
+    "first_considered": "B",
+    "reported_pick": "C",
+    "expected": "B"
+  },
+  {
+    "family": "concession-claim-scope",
+    "date": "2026-10-15",
+    "kind": "user_reported_wrong",
+    "note": "2013 Text 1 Q24：用户选B The fast-fashion industry ignores sustainability（错误；正确D），认为行业造成大量浪费就等于忽视可持续性，起初还排除了C和D。但末段Though several companies have made efforts to curb their impact...明示部分企业已尝试减轻环境影响。‘造成浪费’不推出‘全行业完全不作为’，努力也不等于问题彻底解决；D pricing来自末句can't afford not to的经济代价。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 24,
+    "reported_pick": "B",
+    "expected": "D"
+  },
+  {
+    "family": "negative-ellipsis-afford",
+    "date": "2026-10-15",
+    "kind": "user_reported_confusion",
+    "note": "2013 Text 1 Q24末句用户仅部分看懂，粗译为‘人们只开始更持续地购买直到他们无法承担得起’。应分析only...when=只有当……才，can't afford not to中not否定后面省略的shop more sustainably，意为承担不起‘不如此购物’的代价；不是‘买不起环保商品’。把末句逻辑理解不足与B项过度概括单独记录。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 24
+  },
+  {
+    "family": "negative-ellipsis-afford",
+    "date": "2026-10-15",
+    "kind": "translation_difficulty",
+    "note": "2013 Text 1 Q24：用户把more sustainably译为‘更持续地购买’。环保消费语境应为‘以更可持续、更环保的方式购物’，不是频率持续。本观察来自明确的自述翻译困难，并非根据图片横线推测。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 24,
+    "review_importance": "low"
+  },
+  {
+    "family": "figurative-descent-relative",
+    "date": "2026-10-15",
+    "kind": "user_reported_confusion",
+    "note": "2013 Text 1首段长句：用户问descend不是‘下降’吗，要求拆解Priestly explains how...the deep blue color ... descended ... from fashion shows to department stores and to the bargain bin in which ...。descend此处比喻流行色从高端时装秀向大众及廉价市场下沉传播，下降主体是颜色/流行趋势不是助手毛衣本身。explains后how宾语从句，其主语为the deep blue color of the assistant's sweater，in which定语从句回指bargain bin。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 21
+  },
+  {
+    "family": "figurative-descent-relative",
+    "date": "2026-10-15",
+    "kind": "translation_difficulty",
+    "note": "2013 Text 1用户明确提出descend比喻义和整句从属结构不懂。doubtless=无疑/很可能、garment=服装；长句翻译困难由口头提问明确确认，但不将文章其他划线词一律记为画框翻译困难。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 21,
+    "review_importance": "low"
+  },
+  {
+    "family": "accusation-context-vocab",
+    "date": "2026-10-15",
+    "kind": "correct_but_uncertain",
+    "note": "2013 Text 1 Q23：用户选A accusation正确，但说A的单词看不懂，只靠排除其余词义不合适才选中。accusation=控诉、指控，indictment本义为起诉书、此处比喻严厉谴责；利用后文hijacked、waste等负面语气辨析。记录为答对但词义掌握不牢、低频复习；不得登记成错误。",
+    "session_id": "2026-10-15-2013-text1",
+    "source_exam": "2013-english1",
+    "source_part": "Text 1",
+    "source_question": 23,
+    "reported_pick": "A",
+    "expected": "A",
+    "review_importance": "low"
   }
 ]

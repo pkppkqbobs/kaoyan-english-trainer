@@ -260,7 +260,18 @@
     "process-stage-hospital-routine-authority-c": "context:process-stage-hospital-routine-authority-c",
     "process-stage-shipment-hold-decision-d": "context:process-stage-shipment-hold-decision-d",
     "example-museum-hours-transport-c": "context:example-museum-hours-transport-c",
-    "example-factory-reporting-measure-d": "context:example-factory-reporting-measure-d"
+    "example-factory-reporting-measure-d": "context:example-factory-reporting-measure-d",
+    "belief-negation-online-bookings-a": "context:belief-negation-online-bookings-a",
+    "belief-negation-software-update-b": "context:belief-negation-software-update-b",
+    "concession-shipping-emissions-a": "context:concession-shipping-emissions-a",
+    "concession-festival-cups-b": "context:concession-festival-cups-b",
+    "afford-ellipsis-archive-encryption-a": "context:afford-ellipsis-archive-encryption-a",
+    "afford-ellipsis-reusable-cups-b": "context:afford-ellipsis-reusable-cups-b",
+    "sustainably-commuting-context-c": "context:sustainably-commuting-context-c",
+    "descent-medical-device-a": "context:descent-medical-device-a",
+    "relative-workshop-filters-b": "context:relative-workshop-filters-b",
+    "accusation-editorial-review-a": "context:accusation-editorial-review-a",
+    "accusation-research-report-b": "context:accusation-research-report-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

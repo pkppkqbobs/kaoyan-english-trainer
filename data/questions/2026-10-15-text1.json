@@ -1,0 +1,266 @@
+[
+  {
+    "id": "belief-negation-online-bookings-a",
+    "family": "belief-negation-clause",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "assume that ... did not / 被批评的信念",
+    "skill": "宾语从句与否定范围",
+    "q": "A restaurant owner rebuked an apprentice for assuming that the online booking page did not influence walk-in customers. Surveys showed that many visitors discovered the restaurant through the page. What did the apprentice mistakenly believe?",
+    "o": [
+      "The owner had never built a website.",
+      "The page could not influence customers arriving without reservations.",
+      "Customers preferred online orders to dining at the restaurant.",
+      "The owner was obsessed with online advertising."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "老板批评学徒，因为学徒以为网上订位页面不影响未经预约直接到店的人；调查却显示不少访客就是经此页面了解餐厅。",
+      "structure": "rebuked an apprentice为主干，for assuming that...说明批评原因，that后的did not influence是学徒持有的错误判断。",
+      "other": "rebuke 责备；apprentice 学徒；walk-in customer 无预约上门顾客；reservation 预约。",
+      "meaning": "assume/imagine that表示以为、认为；否定词位于从句中，决定被批评的是低估作用而非对网络的痴迷。",
+      "rest": "老板是否建站、客人点餐偏好均缺证据；痴迷网络广告反而把漠视影响错误变成过度沉迷。"
+    }
+  },
+  {
+    "id": "belief-negation-software-update-b",
+    "family": "belief-negation-clause",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "imagined that ... had not / 提取完整观点",
+    "skill": "信念内容不能由后续结果倒推",
+    "q": "Noor imagined that a software update had not changed her machine's output. Later measurements showed a substantial change. Which statement describes Noor's initial belief?",
+    "o": [
+      "She initially thought the update made no difference.",
+      "She had decided to replace the machine entirely.",
+      "She knew from the beginning that output had changed greatly.",
+      "She was excessively enthusiastic about software updates."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "Noor起初认为更新没有改变机器产出，后来的测量才发现变化明显。",
+      "structure": "Noor imagined that...中that从句作宾语；had not changed是其核心否定谓语；Later measurements引出相反事实。",
+      "other": "output 产出；substantial 显著的；measurement 测量；initial 初始的。",
+      "meaning": "必须区分人物当时相信什么与后来实际发现了什么；不能只因出现update就推定其对软件痴迷。",
+      "rest": "更换机器无依据；把后来证据当成最初已知事实颠倒时间；过分热衷更新是附加心理描述。"
+    }
+  },
+  {
+    "id": "concession-shipping-emissions-a",
+    "family": "concession-claim-scope",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "排放仍在 vs 部分公司减排",
+    "skill": "让步限定防止以偏概全",
+    "q": "Cargo ships still produce substantial emissions. Nevertheless, several shipping firms have installed cleaner engines to reduce their impact. What is best supported?",
+    "o": [
+      "All firms have eliminated shipping emissions.",
+      "Environmental impact has become irrelevant.",
+      "The whole shipping sector has refused any cleaner technology.",
+      "Some firms have attempted to limit environmental harm despite continuing pollution."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "货船仍然产生大量排放，但部分航运企业已安装清洁型发动机来减轻影响。",
+      "structure": "The first sentence confirms ongoing harm; Nevertheless introduces partial mitigation, while several limits the number of firms.",
+      "other": "cargo ship 货船；emissions 排放；shipping firm 航运公司；mitigation 减轻不利影响。",
+      "meaning": "污染依旧存在，与部分企业已经尝试治理能够同时为真；不能由存在损害推出全行业完全无视问题。",
+      "rest": "所有公司零排放与still冲突；环保影响无关紧要没有依据；全行业拒绝技术与several firms have installed相反。"
+    }
+  },
+  {
+    "id": "concession-festival-cups-b",
+    "family": "concession-claim-scope",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "some与all / 尝试不等于成功",
+    "skill": "部分证据与总体主张",
+    "q": "A city festival generated considerable disposable-cup waste. Some stalls started using returnable cups, but single-use cups remained common. Which conclusion is justified?",
+    "o": [
+      "No stall has taken any step to reduce waste.",
+      "Some stalls are trying to cut waste, although the problem persists.",
+      "All festival waste has been eliminated.",
+      "Every customer has stopped buying drinks in disposable cups."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "节庆活动产生了大量一次性杯子垃圾；少数摊位尝试使用可重复使用的杯子，不过一次性杯子仍很常见。",
+      "structure": "Some stalls started...交代部分行动；but...remained common限制实施效果，两句必须同时保留。",
+      "other": "disposable 一次性的；returnable 可回收再使用的；persist 持续存在；stall 摊位。",
+      "meaning": "some不能扩大为整个活动；部分努力不代表问题完全解决，而仍有垃圾也不表示完全无人行动。",
+      "rest": "完全无举措否认原文明示的行动；垃圾彻底消除与remained common冲突；所有顾客拒买无证据。"
+    }
+  },
+  {
+    "id": "afford-ellipsis-archive-encryption-a",
+    "family": "negative-ellipsis-afford",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "can't afford not to / 省略动作",
+    "skill": "双重否定和不定式省略",
+    "q": "After a costly data leak, the agency began encrypting its archives. The director said, 'We can't afford not to.' What is omitted after 'not to'?",
+    "o": [
+      "Encrypt its archives.",
+      "Cause another data leak.",
+      "Close every department.",
+      "Publish the stolen data."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "严重泄漏后，机构开始加密档案；主管说承担不起不加密造成的风险。",
+      "structure": "The action encrypting archives appears in the preceding sentence and is omitted after the final to; can't afford not to implies it must be done.",
+      "other": "data leak 数据泄漏；encrypt 加密；archives 档案；omit 省略。",
+      "meaning": "can't afford not to do X = 承受不起不做X的代价；to后可省略前面已经出现的动作，不是买不起做X。",
+      "rest": "再次泄漏和发布失窃数据都是要避免的结果；关停全部部门未出现，均无法补全不定式。"
+    }
+  },
+  {
+    "id": "afford-ellipsis-reusable-cups-b",
+    "family": "negative-ellipsis-afford",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "only when ... can't afford not to",
+    "skill": "经济代价触发行为改变",
+    "q": "A café chain says it will only switch to reusable containers when it can no longer afford not to. Which change would most likely trigger that switch?",
+    "o": [
+      "Disposable containers become cheaper.",
+      "All customers stop caring about waste.",
+      "Continuing to use disposable containers becomes too costly.",
+      "Reusable containers are banned by law."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "咖啡店连锁品牌说，只有继续使用一次性包装变得代价太高，它们才会改用重复使用的容器。",
+      "structure": "only...when表示必要条件；not to省略switch to reusable containers；can no longer afford限定无法继续承担不改变的代价。",
+      "other": "reusable 可重复用的；disposable 一次性的；trigger 触发；container 容器。",
+      "meaning": "cannot afford not to switch是承担不起不更换，而不是买不起环保容器；only when不应译成until的单纯时间截止。",
+      "rest": "一次性容器更便宜不构成压力；顾客不在乎环保减弱动力；新容器被禁则无法执行更换。"
+    }
+  },
+  {
+    "id": "sustainably-commuting-context-c",
+    "family": "negative-ellipsis-afford",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "more sustainably / 可持续与持续频率",
+    "skill": "环境话题中的词义",
+    "q": "A city newsletter urges residents to travel more sustainably by cycling or using buses instead of driving alone. Here 'more sustainably' means:",
+    "o": [
+      "At exactly the same hour every day.",
+      "For a greater number of years.",
+      "By buying a new vehicle for each trip.",
+      "With less long-term environmental impact."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "城市简报呼吁居民骑车或乘公交来更可持续地出行，降低长期环境负担。",
+      "structure": "travel more sustainably是谓语不定式，by cycling or using buses说明实现方式，instead of driving alone明确对比。",
+      "other": "newsletter 简报；cycling 骑车；commute 通勤；environmental impact 环境影响。",
+      "meaning": "sustainably在生态语境指资源和环境方面可持续，而不是每天更持续、更多次地进行同一动作。",
+      "rest": "同一时间、持续年数属于时间频率；每次购买新车反而增加浪费，都不是这里的评价维度。"
+    }
+  },
+  {
+    "id": "descent-medical-device-a",
+    "family": "figurative-descent-relative",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "descend 比喻从高端走向大众",
+    "skill": "熟词语义在传播路径中的变化",
+    "q": "A monitoring technique once restricted to specialist hospitals gradually descended into community clinics as costs fell. In context, 'descended' suggests that the technique:",
+    "o": [
+      "Became available to a wider, less specialized market.",
+      "Physically fell down a hospital staircase.",
+      "Was outlawed by every hospital.",
+      "Stopped being used because of lower prices."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一种最早限于专科医院的监测技术，随着成本降低而逐渐普及到社区诊所。",
+      "structure": "A monitoring technique is subject; descended is predicate; once restricted to... identifies original level and into community clinics shows destination.",
+      "other": "monitoring technique 监测技术；specialist 专科的；community clinic 社区诊所；outlaw 禁止。",
+      "meaning": "descend的本义是下降，但搭配高端领域到大众场景的路径时，可理解成技术或潮流的层级下沉传播。",
+      "rest": "物理坠落不涉及传播；违法和停止使用都无法由成本降低且进入社区诊所推出。"
+    }
+  },
+  {
+    "id": "relative-workshop-filters-b",
+    "family": "figurative-descent-relative",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 65,
+    "target": "explained how... + in which 定语从句",
+    "skill": "分清主句、宾语从句与先行词",
+    "q": "The engineer explained how a water-filter design had spread from research laboratories to neighborhood workshops, in which local volunteers built simple filters. Which account matches the sentence?",
+    "o": [
+      "The volunteers moved the laboratories into their neighborhood.",
+      "The design reached workshops where volunteers constructed filters.",
+      "The engineer alone made every filter inside the research labs.",
+      "The water-filter design fell physically between two buildings."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "工程师解释了一种净水设计如何从研究实验室推广到社区工作坊，当地志愿者在这些工作坊制作简易滤水器。",
+      "structure": "explained后是how引导的宾语从句，design是该从句主语，had spread为谓语；in which引导定语从句，回指workshops。",
+      "other": "water filter 净水器；laboratory 实验室；workshop 工作坊；local volunteer 本地志愿者。",
+      "meaning": "不能把物品技术的传播理解成实物降落；in which = in the neighborhood workshops，不等于in the research laboratories。",
+      "rest": "没有说实验室被搬迁，也没有说所有滤水器由工程师独做；物理下落误解spread的传播含义。"
+    }
+  },
+  {
+    "id": "accusation-editorial-review-a",
+    "family": "accusation-context-vocab",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "indictment与accusation / 批评语气",
+    "skill": "上下文猜词并巩固答案词",
+    "q": "An editorial called the agency's concealment of safety warnings an indictment of its leadership. The article described a serious failure, not an achievement. What does 'indictment' mean here?",
+    "o": [
+      "Public praise of the agency.",
+      "Neutral reporting without any judgment.",
+      "A strong accusation or condemnation.",
+      "A promise to supply more funding."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "社论将机构隐瞒安全预警视为对领导层的严厉指责、控诉。",
+      "structure": "called the concealment an indictment是宾补结构；serious failure与not an achievement明确评价为负面。",
+      "other": "editorial 社论；concealment 隐瞒；accusation 指控；condemnation 谴责。",
+      "meaning": "indictment可表示起诉书，在评论语境中可表示严厉谴责；accusation是指控，可借后文负面态度推断。",
+      "rest": "赞扬与serious failure矛盾；中性报道不等于严厉指控；拨款承诺与所述失职无关。"
+    }
+  },
+  {
+    "id": "accusation-research-report-b",
+    "family": "accusation-context-vocab",
+    "introduced": "2026-10-15",
+    "published_on": "2026-10-15",
+    "budget": 55,
+    "target": "accusation / 控告、指责",
+    "skill": "由指控行为回推名词词义",
+    "q": "When an auditor claimed that a lab had changed test results, the director rejected the accusation and requested evidence. What does 'accusation' refer to?",
+    "o": [
+      "The laboratory's work schedule.",
+      "An official permit to publish findings.",
+      "An apology sent to the auditor.",
+      "A statement alleging that someone had done something wrong."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "审计员指称实验室修改试验结果，实验室主任否认这一指控并要求证据。",
+      "structure": "the director rejected the accusation中accusation回指前一句auditor claimed that...，指控内容属于said而非已被证明。",
+      "other": "auditor 审计员；allege 指称；reject 否认、拒绝；evidence 证据。",
+      "meaning": "accusation表示指责、控告，来源是对某人涉嫌错误行为的陈述；指控不必然已经证实。",
+      "rest": "日程安排、发表许可和道歉都不属于对篡改结果的指称，也不符合要求证据的语境。"
+    }
+  }
+]
