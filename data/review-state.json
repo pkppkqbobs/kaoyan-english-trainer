@@ -17,7 +17,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "families": {
     "absolute-language": {
@@ -192,12 +193,12 @@
     },
     "cloze-time-adverbs": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-10-16",
       "due": "2026-10-16",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "commitment-semantics": {
@@ -253,11 +254,11 @@
     "concession-claim-scope": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-16",
       "due": "2026-10-16",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "conditions": {
@@ -323,11 +324,11 @@
     "example-claim-scope": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-10-15",
+      "last": "2026-10-16",
       "due": "2026-10-16",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 2
     },
     "expectation-contrast": {
@@ -413,11 +414,11 @@
     "inference-boundary": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-15",
+      "last": "2026-10-16",
       "due": "2026-10-16",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "lined-up": {
@@ -571,13 +572,13 @@
       "observation_priority": 0
     },
     "reference": {
-      "streak": 1,
+      "streak": 0,
       "errors": 2,
-      "last": "2026-10-14",
-      "due": "2026-10-16",
+      "last": "2026-10-16",
+      "due": "2026-10-17",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 0
     },
     "relation-collocation": {
@@ -631,14 +632,14 @@
       "observation_priority": 0.25
     },
     "scope-role-match": {
-      "streak": 0,
+      "streak": 2,
       "errors": 0,
-      "last": "2026-10-14",
-      "due": "2026-10-15",
+      "last": "2026-10-16",
+      "due": "2026-10-20",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 4,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 5,
+      "observation_priority": 0
     },
     "social-cure-vocab": {
       "streak": 0,
@@ -692,12 +693,12 @@
     },
     "summary-location": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-10-14",
-      "due": "2026-10-15",
+      "errors": 2,
+      "last": "2026-10-16",
+      "due": "2026-10-17",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 0
     },
     "take-page-from": {
@@ -821,13 +822,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 1,
+      "streak": 2,
       "errors": 0,
-      "last": "2026-10-14",
-      "due": "2026-10-16",
+      "last": "2026-10-16",
+      "due": "2026-10-20",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     }
   },

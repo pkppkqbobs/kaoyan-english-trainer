@@ -1293,6 +1293,94 @@
       "qid": "process-stage-shelter-approval-a",
       "round_id": "mv9i9b3p-h6knnn7b",
       "source_date": "2026-10-15"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "cloze-time-adverbs",
+      "ok": false,
+      "ms": 21836,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "cloze-adverb-research-b",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 23693,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "inference-boundary-tenant-supporters-a",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "summary-location",
+      "ok": false,
+      "ms": 59188,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "summary-trials-next-question",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "with",
+      "ok": true,
+      "ms": 15964,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "with-lights-dimming",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "concession-claim-scope",
+      "ok": true,
+      "ms": 34973,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "concession-shipping-emissions-a",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 103483,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "example-factory-reporting-measure-d",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 47648,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "scope-role-report-subsidy-a",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-16",
+      "family": "reference",
+      "ok": true,
+      "ms": 67061,
+      "uncertain": false,
+      "origin": 18,
+      "qid": "reference-radio-failures",
+      "round_id": "mvawccjz-5q5zmet1",
+      "source_date": "2026-10-16"
     }
   ],
   "issues": [
@@ -1312,6 +1400,7 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ]
 }
