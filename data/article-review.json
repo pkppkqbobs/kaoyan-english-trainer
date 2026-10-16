@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "title": "文章复盘 · 8题",
-  "meta": "2013 英语一 Reading Text 1 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
+  "meta": "2013 英语一 Reading Text 2 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-10-15-2013-text1",
+  "storageId": "2026-10-16-2013-text2",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,422 +13,258 @@
   "footer": "本篇复盘结果只有在你点击“提交结果到 GitHub”并在 GitHub 再点 Submit new issue 后，才会进入后续间隔复习。",
   "questions": [
     {
-      "id": "afford-ellipsis-reusable-cups-b",
-      "family": "negative-ellipsis-afford",
-      "introduced": "2026-10-15",
-      "published_on": "2026-10-15",
-      "budget": 55,
-      "target": "only when ... can't afford not to",
-      "skill": "经济代价触发行为改变",
-      "q": "A café chain says it will only switch to reusable containers when it can no longer afford not to. Which change would most likely trigger that switch?",
-      "o": [
-        "Disposable containers become cheaper.",
-        "All customers stop caring about waste.",
-        "Continuing to use disposable containers becomes too costly.",
-        "Reusable containers are banned by law."
-      ],
-      "a": 2,
-      "exp": {
-        "trans": "咖啡店连锁品牌说，只有继续使用一次性包装变得代价太高，它们才会改用重复使用的容器。",
-        "structure": "only...when表示必要条件；not to省略switch to reusable containers；can no longer afford限定无法继续承担不改变的代价。",
-        "other": "reusable 可重复用的；disposable 一次性的；trigger 触发；container 容器。",
-        "meaning": "cannot afford not to switch是承担不起不更换，而不是买不起环保容器；only when不应译成until的单纯时间截止。",
-        "rest": "一次性容器更便宜不构成压力；顾客不在乎环保减弱动力；新容器被禁则无法执行更换。"
-      },
-      "context_id": "context:afford-ellipsis-reusable-cups-b"
-    },
-    {
-      "id": "author-stance-volunteer-coordination",
-      "family": "author-stance",
-      "introduced": "2026-10-03",
-      "published_on": "2026-10-05",
-      "budget": 50,
-      "target": "引述立场 / 作者限定评价",
-      "skill": "事实描述 ≠ 作者价值判断",
-      "q": "An association calls volunteers “unreliable.” The author notes that missed visits often follow last-minute roster changes. “Better coordination,” she writes, “would be more useful than another lecture about commitment.” Which view belongs to the author?",
-      "o": [
-        "She accepts the association’s description as an explanation for the missed visits.",
-        "She regards missed visits as evidence that volunteers want to leave.",
-        "She favours improving coordination over simply blaming commitment.",
-        "She considers punctuality irrelevant to the association’s work."
-      ],
-      "a": 2,
-      "exp": {
-        "trans": "某协会把志愿者称为“不可靠”。作者指出，缺席往往发生在排班临时变动之后。她写道：“更好的协调，比再说教一遍奉献精神更有用。”作者倾向改善协调，而不是简单归咎于态度。",
-        "structure": "An association + calls + volunteers + unreliable属于引述他人评价。The author + notes + that从句另给解释线索；would be more useful than是作者自己的比较判断，she writes确定说话者。",
-        "other": "association 协会；roster 排班表；last-minute 临时的；commitment 投入、责任心。",
-        "meaning": "先分清谁在评价，再追踪作者自己的证据和限定比较。这里没有deserve或all，也不能把文章引用的标签直接记到作者名下。",
-        "rest": "accepts the description把协会标签当作者解释，忽略作者提供的排班因素；want to leave补出离开的动机；punctuality irrelevant把“协调更有用”扩大成准时无关，比较优先级不等于否认准时的重要性。"
-      },
-      "context_id": "context:author-stance-volunteer-coordination"
-    },
-    {
-      "id": "conceivably-competing-explanations",
-      "family": "conceivably",
+      "id": "parallel-governance-inspection-tasks",
+      "family": "parallel-governance",
       "introduced": null,
       "published_on": "2026-10-05",
-      "budget": 35,
-      "target": "conceivably / 多种解释",
-      "skill": "conceivably",
-      "q": "No existing model explains the readings. They could conceivably point to a new process, although a faulty instrument remains another explanation. Which interpretation is justified?",
+      "budget": 45,
+      "target": "共同动词支配 / 并列任务",
+      "skill": "共同动词支配",
+      "q": "The inspector recommended replacing the worn belt and checking the tension before restarting the machine. Which reading preserves the recommendation?",
       "o": [
-        "A new process is a possible explanation, alongside an instrument fault.",
-        "The readings establish a new process and rule out an instrument fault.",
-        "The instrument fault has been confirmed by a separate test.",
-        "The new process is less likely than an instrument fault according to measured probabilities."
+        "The inspector reported that both jobs had already been completed.",
+        "Replacing the belt was expected to check the tension automatically.",
+        "The inspector recommended two tasks: belt replacement and a tension check.",
+        "The machine should be restarted before either task is attempted."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "检查员建议在重新启动机器之前更换磨损的皮带并检查张力。建议包含两项任务：更换皮带和检查张力，而不是报告它们已经完成。",
+        "structure": "The inspector是主语，recommended是谓语。replacing the worn belt与checking the tension是并列动名词短语，共同作recommended的补足内容；before restarting the machine给执行顺序。",
+        "other": "inspector 检查员；worn belt 磨损的皮带；tension 张力；restart 重新启动。",
+        "meaning": "and把两项动作放在同一层级，都受recommended支配。后一个动名词不是第一个动作自动产生的效果，也不是新的已完成事实。",
+        "rest": "had already been completed把建议改成过去已完成事实；check ... automatically把两项独立任务合成一项的自动效果；restarted before either task反转before给出的执行顺序。"
+      },
+      "context_id": "context:parallel-governance-inspection-tasks"
+    },
+    {
+      "id": "example-council-reform-opposition-a",
+      "family": "example-claim-scope",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 60,
+      "target": "具体反对行动支持哪条主旨",
+      "skill": "例子→论点 / 不能多推态度变化",
+      "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
+      "o": [
+        "Organized groups can impede administrative reforms.",
+        "The association persuaded every resident to change political allegiance.",
+        "Most builders oppose the current political system in all circumstances.",
+        "Digital permits always cost more than paper applications."
       ],
       "a": 0,
       "exp": {
-        "trans": "现有模型都解释不了这些读数。它们或许指向一个新过程，但仪器故障仍是另一种解释。有依据的是两种解释仍可并存，新的过程只是可能性之一。",
-        "structure": "No existing model + explains + the readings。They指readings；could point to是谓语。although从句中a faulty instrument是主语，remains是系动词，another explanation是表语。",
-        "other": "reading 仪器读数；process 过程；faulty 出故障的；rule out 排除。",
-        "meaning": "conceivably没有把一种可设想的解释升级为发现。another explanation尤其限制了唯一性；也没有给两种解释排名。",
-        "rest": "establish ... rule out将可能性改成证实和排除；confirmed by a separate test虚构检验；less likely ... measured probabilities补出概率比较，原文没有量化数据。"
+        "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
+        "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
+        "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
+        "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
+        "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
       },
-      "context_id": "context:conceivably-competing-explanations"
+      "context_id": "context:example-council-reform-opposition-a"
     },
     {
-      "id": "concession-festival-cups-b",
-      "family": "concession-claim-scope",
-      "introduced": "2026-10-15",
-      "published_on": "2026-10-15",
-      "budget": 55,
-      "target": "some与all / 尝试不等于成功",
-      "skill": "部分证据与总体主张",
-      "q": "A city festival generated considerable disposable-cup waste. Some stalls started using returnable cups, but single-use cups remained common. Which conclusion is justified?",
+      "id": "yet-goal-outcome-b",
+      "family": "expectation-contrast",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "target": "yet / 目标—结果反差",
+      "skill": "转折逻辑不是正负翻转",
+      "q": "The new timetable was designed to reduce delays. Yet average waiting time increased in its first month. Which relation is expressed?",
       "o": [
-        "No stall has taken any step to reduce waste.",
-        "Some stalls are trying to cut waste, although the problem persists.",
-        "All festival waste has been eliminated.",
-        "Every customer has stopped buying drinks in disposable cups."
+        "第二句说明第一句的目标已经实现。",
+        "第二句与第一句毫无逻辑关系，只是补充新数据。",
+        "实际结果违背了设计目标所产生的预期。",
+        "yet表示因为等待时间增加，所以才设计新时刻表。"
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "新的时刻表原本是为了减少延误而设计的，然而第一个月的平均等待时间反而增加了。这里是目标与实际结果之间的逆预期。",
+        "structure": "The new timetable是主语，was designed是被动谓语，to reduce delays说明目的；第二句average waiting time + increased。",
+        "other": "timetable 时刻表；delay 延误；average 平均的；waiting time 等待时间。",
+        "meaning": "看到yet先问“前一句让我预期什么，后一句如何违背它”。不必先判断哪句是褒义、哪句是贬义。",
+        "rest": "“目标已经实现”与等待时间increased相矛盾；“毫无逻辑关系”忽略了减少延误的目标与实际等待时间之间的联系；“因为等待增加才设计时刻表”倒置了先设计、后观察结果的时间和因果方向。"
+      },
+      "context_id": "context:yet-goal-outcome-b"
+    },
+    {
+      "id": "working-out-how-museum-a",
+      "family": "workout-how-ellipsis",
+      "target": "working out how=研究具体办法和补足省略",
+      "introduced": "2026-10-16",
+      "published_on": "2026-10-16",
+      "budget": 55,
+      "skill": "working out how=研究具体办法和补足省略",
+      "q": "A museum promised to put fragile manuscripts online, though it is still working out how. What is the museum still determining?",
+      "o": [
+        "Whether the manuscripts ever existed.",
+        "Whether to close the museum.",
+        "How to make the manuscripts available online.",
+        "How to force visitors to buy expensive books."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "博物馆承诺将珍贵手稿上传网络，但仍在研究如何落实这一承诺。",
+        "structure": "though引导让步关系；working out how后省略to put fragile manuscripts online这一已知任务。",
+        "other": "manuscript手稿；fragile易损坏的；put online上传网络；work out想出办法。",
+        "meaning": "work out how强调拟定具体执行方法，how后往往可从前面承诺的动作恢复被省略的不定式。",
+        "rest": "手稿存在与否、关闭场馆和强制购买书籍均不是已被明确承诺的行动。"
+      },
+      "context_id": "context:working-out-how-museum-a"
+    },
+    {
+      "id": "relative-borrowed-ladder",
+      "family": "relative",
+      "introduced": null,
+      "budget": 60,
+      "target": "preposition + whom",
+      "skill": "介词 + whom",
+      "q": "The plumber thanked the neighbour. He had borrowed a ladder from the neighbour.\n哪句合并正确？",
+      "o": [
+        "The plumber thanked the neighbour from that he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom from he had borrowed a ladder.",
+        "The plumber thanked the neighbour from whom he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom he had borrowed a ladder from him."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "水管工感谢了那位借梯子给他的邻居。",
+        "structure": "原始简单句：He had borrowed a ladder from the neighbour. → 用whom替代重复的the neighbour：the neighbour whom he had borrowed a ladder from → 把from前置：the neighbour from whom he had borrowed a ladder。外层主干是The plumber + thanked + the neighbour，后接修饰neighbour的定语从句。",
+        "other": "plumber 水管工；neighbour 邻居；ladder 梯子；borrow A from B 从B那里借来A。",
+        "meaning": "from不是临时猜出来的，来自原句borrow...from...；先行词是人，介词后用whom。",
+        "rest": "from that：关系代词that不能直接置于介词后。whom from he：介词前置时必须是from whom，不是whom from。from him：关系代词whom已经代替该人，再保留him造成重复。"
+      },
+      "context_id": "context:relative-borrowed-ladder"
+    },
+    {
+      "id": "cracked-engineering-b",
+      "family": "crack-polysemy",
+      "target": "crack a problem=破解难题",
+      "introduced": "2026-10-16",
+      "published_on": "2026-10-16",
+      "budget": 55,
+      "skill": "crack a problem=破解难题",
+      "q": "After weeks of testing, engineers finally cracked a difficult battery problem and improved the prototype's reliability. What does cracked mean?",
+      "o": [
+        "Physically smashed every battery.",
+        "Successfully solved a technical problem.",
+        "Refused to study the issue.",
+        "Created another failure accidentally."
       ],
       "a": 1,
       "exp": {
-        "trans": "节庆活动产生了大量一次性杯子垃圾；少数摊位尝试使用可重复使用的杯子，不过一次性杯子仍很常见。",
-        "structure": "Some stalls started...交代部分行动；but...remained common限制实施效果，两句必须同时保留。",
-        "other": "disposable 一次性的；returnable 可回收再使用的；persist 持续存在；stall 摊位。",
-        "meaning": "some不能扩大为整个活动；部分努力不代表问题完全解决，而仍有垃圾也不表示完全无人行动。",
-        "rest": "完全无举措否认原文明示的行动；垃圾彻底消除与remained common冲突；所有顾客拒买无证据。"
+        "trans": "经过数周测试，工程师终于攻克电池难题，提高了原型机的可靠性。",
+        "structure": "finally cracked a difficult battery problem中cracked及物，problem为宾语；improved说明解决后的积极结果。",
+        "other": "engineer工程师；battery电池；prototype原型机；reliability可靠性。",
+        "meaning": "crack除了裂开，还可接code、problem等表示破解或攻克；具体意思取决于宾语和上下文。",
+        "rest": "砸开电池是未经提及的物理行为；拒绝研究及制造失败与finally和improved形成的逻辑不合。"
       },
-      "context_id": "context:concession-festival-cups-b"
+      "context_id": "context:cracked-engineering-b"
     },
     {
-      "id": "legacy-who-that-main",
-      "source": "today",
-      "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-      "target": "who 定语从句 / that 宾语从句",
-      "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
-      "o": [
-        "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
-        "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
-        "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
-        "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
-      ],
-      "a": 0,
-      "diag": {
-        "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
-        "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
-        "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
-      },
-      "exp": {
-        "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
-        "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
-        "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
-        "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
-        "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
-      },
-      "family": "nested",
-      "introduced": "2026-09-29",
-      "budget": 60,
-      "context_id": "nested-who-that-predicate"
-    },
-    {
-      "id": "belief-negation-software-update-b",
-      "family": "belief-negation-clause",
-      "introduced": "2026-10-15",
-      "published_on": "2026-10-15",
+      "id": "dnt-vendors-messages-b",
+      "family": "dnt-actor-boundary",
+      "target": "跨句识别负责执行的主体",
+      "introduced": "2026-10-16",
+      "published_on": "2026-10-16",
       "budget": 55,
-      "target": "imagined that ... had not / 提取完整观点",
-      "skill": "信念内容不能由后续结果倒推",
-      "q": "Noor imagined that a software update had not changed her machine's output. Later measurements showed a substantial change. Which statement describes Noor's initial belief?",
+      "skill": "跨句识别负责执行的主体",
+      "q": "A council built a website where residents could ask outside contractors to stop marketing messages. The contractors promised to comply. Who is responsible for changing the outgoing messages?",
       "o": [
-        "She initially thought the update made no difference.",
-        "She had decided to replace the machine entirely.",
-        "She knew from the beginning that output had changed greatly.",
-        "She was excessively enthusiastic about software updates."
+        "The outside contractors.",
+        "The residents who used the form.",
+        "The council members who created the site.",
+        "The unrelated firms hosting the city's internet connection."
       ],
       "a": 0,
       "exp": {
-        "trans": "Noor起初认为更新没有改变机器产出，后来的测量才发现变化明显。",
-        "structure": "Noor imagined that...中that从句作宾语；had not changed是其核心否定谓语；Later measurements引出相反事实。",
-        "other": "output 产出；substantial 显著的；measurement 测量；initial 初始的。",
-        "meaning": "必须区分人物当时相信什么与后来实际发现了什么；不能只因出现update就推定其对软件痴迷。",
-        "rest": "更换机器无依据；把后来证据当成最初已知事实颠倒时间；过分热衷更新是附加心理描述。"
+        "trans": "市议会提供请求渠道，居民提出停止消息的要求，但真正承诺停止发送营销信息的是外部承包商。",
+        "structure": "第一句council built引出平台建设者；第二句The contractors promised to comply明确承诺者和履行请求的执行方。",
+        "other": "council市议会；contractor承包商；comply遵守；marketing message营销信息。",
+        "meaning": "指代分析不能只看上文最近被提到的组织，还要核对承诺、执行和发送行为对应的真实主语。",
+        "rest": "居民是请求方，市议会是平台建设方；互联网连接服务商没有参与这项承诺，也没有文本证据表明它能停止消息。"
       },
-      "context_id": "context:belief-negation-software-update-b"
+      "context_id": "context:dnt-vendors-messages-b"
     },
     {
-      "id": "example-museum-hours-transport-c",
-      "family": "example-claim-scope",
-      "introduced": "2026-10-11",
-      "published_on": "2026-10-15",
-      "budget": 60,
-      "target": "例子在论证中的作用",
-      "skill": "识别反例对充分条件的限制而非扩大成全面否定",
-      "q": "A consultant argues that longer opening hours are enough to widen access to museums. A writer responds with a neighbourhood museum that stayed open until 10 p.m., yet attracted few additional night-shift workers. Interviews revealed that the last bus serving their workplaces left at 8 p.m. Why does the writer include this case?",
-      "o": [
-        "To show that transport constraints can limit what extended hours achieve.",
-        "To identify reduced bus services as a consequence of the later museum hours.",
-        "To compare tourists' reasons for visiting with those of local residents.",
-        "To present later opening as a substitute for improving transport links."
-      ],
-      "a": 0,
-      "exp": {
-        "trans": "顾问认为，只要延长开放时间，就足以让更多人有机会参观博物馆。作者回应说，一家社区博物馆开放到晚上十点，却几乎没有多吸引夜班工人。访谈发现，途经他们工作地点的末班公交在晚上八点就开走了。作者为何举这个例子？为了说明交通限制会影响延长开放时间的实际效果。",
-        "structure": "A consultant + argues + that从句提出待检验的充分条件；A writer + responds with + a museum引出反例。that stayed open...为修饰museum的定语从句；yet转向预期未实现的结果；Interviews + revealed + that从句提供限制条件。",
-        "other": "widen access 扩大参与机会；neighbourhood 社区；night-shift worker 夜班工人；extended hours 延长的开放时间；transport link 交通连接。",
-        "meaning": "例子针对的是延长开放时间是否单独就足够。公交仍是障碍，说明措施的效果受另一条件限制；没有证明延时开放普遍无效，也没有比较不同群体的喜好。",
-        "rest": "末班车时间是已有约束，文中没有说公交服务因博物馆延时而削减；游客与本地居民的参观动机没有被比较；例子指出仅延时仍不足，不能反说延时可以替代交通改善。"
-      },
-      "context_id": "context:example-museum-hours-transport-c"
-    },
-    {
-      "id": "descent-medical-device-a",
-      "family": "figurative-descent-relative",
-      "introduced": "2026-10-15",
-      "published_on": "2026-10-15",
+      "id": "quarrel-library-b",
+      "family": "finegrain-quarrel",
+      "target": "quarrel=争论与分歧",
+      "introduced": "2026-10-16",
+      "published_on": "2026-10-16",
       "budget": 55,
-      "target": "descend 比喻从高端走向大众",
-      "skill": "熟词语义在传播路径中的变化",
-      "q": "A monitoring technique once restricted to specialist hospitals gradually descended into community clinics as costs fell. In context, 'descended' suggests that the technique:",
+      "skill": "quarrel=争论与分歧",
+      "q": "A quarrel divided a library committee: some members wanted fines for late returns, but others worried fines would discourage reading. What is a quarrel here?",
       "o": [
-        "Became available to a wider, less specialized market.",
-        "Physically fell down a hospital staircase.",
-        "Was outlawed by every hospital.",
-        "Stopped being used because of lower prices."
+        "A new library card.",
+        "A disagreement over policy.",
+        "A list of paid penalties.",
+        "An agreement supported by every member."
       ],
-      "a": 0,
+      "a": 1,
       "exp": {
-        "trans": "一种最早限于专科医院的监测技术，随着成本降低而逐渐普及到社区诊所。",
-        "structure": "A monitoring technique is subject; descended is predicate; once restricted to... identifies original level and into community clinics shows destination.",
-        "other": "monitoring technique 监测技术；specialist 专科的；community clinic 社区诊所；outlaw 禁止。",
-        "meaning": "descend的本义是下降，但搭配高端领域到大众场景的路径时，可理解成技术或潮流的层级下沉传播。",
-        "rest": "物理坠落不涉及传播；违法和停止使用都无法由成本降低且进入社区诊所推出。"
+        "trans": "委员会围绕是否对逾期还书收取罚款产生争执，不同成员持有相反看法。",
+        "structure": "A quarrel是句子主语；some members...but others...明确呈现两方存在意见分歧。",
+        "other": "late return逾期归还；fine罚款；discourage阻碍积极性；member成员。",
+        "meaning": "quarrel是争吵或争论，在政策话题中可指观点分歧，并非一定发生肢体冲突。",
+        "rest": "借书证、罚款名单不是讨论过程；全体一致的协议与两派相互反对的事实矛盾。"
       },
-      "context_id": "context:descent-medical-device-a"
+      "context_id": "context:quarrel-library-b"
     }
   ],
   "retry": {
-    "negative-ellipsis-afford": [
+    "parallel-governance": [
       {
-        "id": "afford-ellipsis-archive-encryption-a",
-        "family": "negative-ellipsis-afford",
-        "introduced": "2026-10-15",
-        "published_on": "2026-10-15",
-        "budget": 55,
-        "target": "can't afford not to / 省略动作",
-        "skill": "双重否定和不定式省略",
-        "q": "After a costly data leak, the agency began encrypting its archives. The director said, 'We can't afford not to.' What is omitted after 'not to'?",
+        "id": "parallel-governance-repair",
+        "family": "parallel-governance",
+        "introduced": null,
+        "target": "共同动词支配 / either...or...",
+        "skill": "共同动词支配",
+        "q": "Which sentence has a clean parallel structure in which the same modal verb governs both alternatives?",
         "o": [
-          "Encrypt its archives.",
-          "Cause another data leak.",
-          "Close every department.",
-          "Publish the stolen data."
+          "The technician can either replace the sensor or recalibrate the device.",
+          "The technician either can replace the sensor or recalibration of the device.",
+          "The technician can either replacing the sensor or recalibrate the device.",
+          "The technician can either replace the sensor or the device is recalibrated."
         ],
         "a": 0,
+        "budget": 45,
         "exp": {
-          "trans": "严重泄漏后，机构开始加密档案；主管说承担不起不加密造成的风险。",
-          "structure": "The action encrypting archives appears in the preceding sentence and is omitted after the final to; can't afford not to implies it must be done.",
-          "other": "data leak 数据泄漏；encrypt 加密；archives 档案；omit 省略。",
-          "meaning": "can't afford not to do X = 承受不起不做X的代价；to后可省略前面已经出现的动作，不是买不起做X。",
-          "rest": "再次泄漏和发布失窃数据都是要避免的结果；关停全部部门未出现，均无法补全不定式。"
+          "trans": "正确句：技术员可以要么更换传感器，要么重新校准设备。",
+          "structure": "主干：The technician（主语）+ can（情态动词）+ either replace... or recalibrate...。can同时支配replace和recalibrate，两边都是动词原形，结构完全平行。",
+          "other": "technician 技术员；sensor 传感器；recalibrate 重新校准；device 设备。",
+          "meaning": "共同动词支配时，并列两端应保持同一语法层级。这里 can + replace / recalibrate。",
+          "rest": "either can replace... or recalibration... 把动词结构和名词结构并列；can either replacing... 中情态动词后不能接-ing形式；replace... or the device is recalibrated 把动词短语和完整从句并列，层级不一致。"
         },
-        "context_id": "context:afford-ellipsis-archive-encryption-a"
+        "context_id": "context:parallel-governance-repair"
       },
       {
-        "id": "sustainably-commuting-context-c",
-        "family": "negative-ellipsis-afford",
-        "introduced": "2026-10-15",
-        "published_on": "2026-10-15",
-        "budget": 55,
-        "target": "more sustainably / 可持续与持续频率",
-        "skill": "环境话题中的词义",
-        "q": "A city newsletter urges residents to travel more sustainably by cycling or using buses instead of driving alone. Here 'more sustainably' means:",
-        "o": [
-          "At exactly the same hour every day.",
-          "For a greater number of years.",
-          "By buying a new vehicle for each trip.",
-          "With less long-term environmental impact."
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "城市简报呼吁居民骑车或乘公交来更可持续地出行，降低长期环境负担。",
-          "structure": "travel more sustainably是谓语不定式，by cycling or using buses说明实现方式，instead of driving alone明确对比。",
-          "other": "newsletter 简报；cycling 骑车；commute 通勤；environmental impact 环境影响。",
-          "meaning": "sustainably在生态语境指资源和环境方面可持续，而不是每天更持续、更多次地进行同一动作。",
-          "rest": "同一时间、持续年数属于时间频率；每次购买新车反而增加浪费，都不是这里的评价维度。"
-        },
-        "context_id": "context:sustainably-commuting-context-c"
-      }
-    ],
-    "author-stance": [
-      {
-        "id": "author-stance-recall-a",
-        "family": "author-stance",
-        "introduced": "2026-10-03",
-        "target": "事实描述 / 作者价值判断",
-        "skill": "事实描述 ≠ 作者价值判断",
-        "budget": 50,
-        "q": "A report says that residents posted hundreds of angry comments after the council announced a parking plan. Which conclusion is directly supported?",
-        "o": [
-          "The plan deserved every angry comment it received.",
-          "Residents posted a large number of angry comments following the announcement.",
-          "The council knowingly designed a harmful plan.",
-          "All residents opposed the plan."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "一份报告说，市议会公布停车方案后，居民发布了数百条愤怒评论。原文直接支持：居民在公告后发布了大量愤怒评论；after只说明先后，不能据此确定因果。",
-          "structure": "主句：A report（主语）+ says（谓语）+ that宾语从句。that从句：residents（主语）+ posted（谓语）+ hundreds of angry comments（宾语）；after从句只交代时间。句子报告发生了什么，没有评价这些评论是否应得。",
-          "other": "council 市议会；announce 公布；substantial 大量的/显著的；reaction 反应。",
-          "meaning": "负面评论的存在不等于作者认为批评对象活该。after只报告时间先后；要断言公告引发评论，还需要明确的因果证据。",
-          "rest": "deserved every angry comment加入作者价值判断和绝对化every；knowingly designed a harmful plan推测动机；All residents把数百条评论扩大成所有居民。"
-        },
-        "context_id": "context:author-stance-recall-a"
-      }
-    ],
-    "conceivably": [
-      {
-        "id": "conceivably-ferry",
-        "family": "conceivably",
-        "introduced": null,
-        "target": "conceivably",
-        "skill": "conceivably",
-        "q": "If the wind weakens before noon, the ferry could conceivably resume service this afternoon, but the operator has made no promise. Conceivably most nearly means:",
-        "o": [
-          "必然地",
-          "有这种可能，但不能确定",
-          "故意地",
-          "表面上地"
-        ],
-        "a": 1,
-        "budget": 35,
-        "exp": {
-          "trans": "如果中午前风势减弱，渡轮今天下午有可能恢复运营，但运营方没有作出任何保证。",
-          "structure": "if从句给出条件：the wind weakens before noon。主句：the ferry + could resume + service；conceivably修饰could resume，降低确定性。but后面的no promise进一步说明并不确定。",
-          "other": "weaken 减弱；ferry 渡轮；resume service 恢复运营；operator 运营方。",
-          "meaning": "conceivably = 可以设想地、有可能地，强调可能存在但远未确定。",
-          "rest": "必然地接近certainly/inevitably，语气过强；故意地是deliberately/intentionally；表面上地是apparently/superficially，均不符合could...but no promise的弱可能语境。"
-        },
-        "context_id": "context:conceivably-ferry"
-      },
-      {
-        "id": "conceivably-damaged-page",
-        "family": "conceivably",
+        "id": "parallel-governance-control-panel",
+        "family": "parallel-governance",
         "introduced": null,
         "published_on": "2026-10-05",
-        "budget": 35,
-        "target": "conceivably / 可能性强度",
-        "skill": "conceivably",
-        "q": "The damaged page could conceivably contain the date we need, but the faded ink cannot yet be read. Which claim keeps the writer’s certainty level?",
+        "budget": 45,
+        "target": "共同动词支配 / not...but...",
+        "skill": "共同动词支配",
+        "q": "The redesign owes its success not to a faster motor but to a simpler control panel. Which reading keeps the shared relation intact?",
         "o": [
-          "页面上已经确认写有需要的日期。",
-          "需要的日期很可能就在这一页，比其他页更有可能。",
-          "这页或许写有需要的日期，目前仍未证实。",
-          "这页故意省略了日期。"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "那张受损的页面或许写有我们需要的日期，但褪色的墨迹目前还无法辨认。准确改写保留可能性，并说明尚未证实。",
-          "structure": "The damaged page是主语，could contain是谓语，the date是宾语；we need是省略关系代词的定语从句。conceivably修饰可能性；but之后the faded ink + cannot yet be read是被动谓语。",
-          "other": "damaged 受损的；faded 褪色的；ink 墨迹；certainty 确定程度。",
-          "meaning": "conceivably表示可以设想有这种可能。它既不是已经确认，也不自动表示比其他方案更可能。",
-          "rest": "“已经确认”抹掉could与无法辨认的限制；“很可能、比其他页更可能”加入原文没有的概率比较；“故意省略”把可能存在日期误写成有意不写，既换内容又补动机。"
-        },
-        "context_id": "context:conceivably-damaged-page"
-      }
-    ],
-    "concession-claim-scope": [
-      {
-        "id": "concession-shipping-emissions-a",
-        "family": "concession-claim-scope",
-        "introduced": "2026-10-15",
-        "published_on": "2026-10-15",
-        "budget": 55,
-        "target": "排放仍在 vs 部分公司减排",
-        "skill": "让步限定防止以偏概全",
-        "q": "Cargo ships still produce substantial emissions. Nevertheless, several shipping firms have installed cleaner engines to reduce their impact. What is best supported?",
-        "o": [
-          "All firms have eliminated shipping emissions.",
-          "Environmental impact has become irrelevant.",
-          "The whole shipping sector has refused any cleaner technology.",
-          "Some firms have attempted to limit environmental harm despite continuing pollution."
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "货船仍然产生大量排放，但部分航运企业已安装清洁型发动机来减轻影响。",
-          "structure": "The first sentence confirms ongoing harm; Nevertheless introduces partial mitigation, while several limits the number of firms.",
-          "other": "cargo ship 货船；emissions 排放；shipping firm 航运公司；mitigation 减轻不利影响。",
-          "meaning": "污染依旧存在，与部分企业已经尝试治理能够同时为真；不能由存在损害推出全行业完全无视问题。",
-          "rest": "所有公司零排放与still冲突；环保影响无关紧要没有依据；全行业拒绝技术与several firms have installed相反。"
-        },
-        "context_id": "context:concession-shipping-emissions-a"
-      }
-    ],
-    "nested": [],
-    "belief-negation-clause": [
-      {
-        "id": "belief-negation-online-bookings-a",
-        "family": "belief-negation-clause",
-        "introduced": "2026-10-15",
-        "published_on": "2026-10-15",
-        "budget": 55,
-        "target": "assume that ... did not / 被批评的信念",
-        "skill": "宾语从句与否定范围",
-        "q": "A restaurant owner rebuked an apprentice for assuming that the online booking page did not influence walk-in customers. Surveys showed that many visitors discovered the restaurant through the page. What did the apprentice mistakenly believe?",
-        "o": [
-          "The owner had never built a website.",
-          "The page could not influence customers arriving without reservations.",
-          "Customers preferred online orders to dining at the restaurant.",
-          "The owner was obsessed with online advertising."
+          "The faster motor owes its success to the control panel.",
+          "The redesign’s success is attributed to the simpler panel rather than the faster motor.",
+          "The simpler panel was made possible by the redesign’s earlier success.",
+          "The sentence credits the motor and the panel equally."
         ],
         "a": 1,
         "exp": {
-          "trans": "老板批评学徒，因为学徒以为网上订位页面不影响未经预约直接到店的人；调查却显示不少访客就是经此页面了解餐厅。",
-          "structure": "rebuked an apprentice为主干，for assuming that...说明批评原因，that后的did not influence是学徒持有的错误判断。",
-          "other": "rebuke 责备；apprentice 学徒；walk-in customer 无预约上门顾客；reservation 预约。",
-          "meaning": "assume/imagine that表示以为、认为；否定词位于从句中，决定被批评的是低估作用而非对网络的痴迷。",
-          "rest": "老板是否建站、客人点餐偏好均缺证据；痴迷网络广告反而把漠视影响错误变成过度沉迷。"
+          "trans": "这次重新设计的成功不是由于更快的电机，而是由于更简单的控制面板。两个to短语共同说明同一个成功应归因于什么。",
+          "structure": "The redesign是主语，owes是谓语，its success是宾语。not to a faster motor和but to a simpler control panel是同层并列的归因补足语，都受owes its success支配。",
+          "other": "redesign 重新设计；owe A to B 把A归因于B；motor 电机；control panel 控制面板。",
+          "meaning": "共享的是owe success to...的归因结构，不是让后半句生成新主语或改变成功的所属对象。not...but...排除电机、强调面板。",
+          "rest": "The faster motor owes...把电机改成主语并换掉success所属对象；panel was made possible...把面板作为成功的结果，反转因果；equally忽略not对电机解释的排除。"
         },
-        "context_id": "context:belief-negation-online-bookings-a"
+        "context_id": "context:parallel-governance-control-panel"
       }
     ],
     "example-claim-scope": [
-      {
-        "id": "example-council-reform-opposition-a",
-        "family": "example-claim-scope",
-        "introduced": "2026-10-11",
-        "published_on": "2026-10-11",
-        "budget": 60,
-        "target": "具体反对行动支持哪条主旨",
-        "skill": "例子→论点 / 不能多推态度变化",
-        "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
-        "o": [
-          "Organized groups can impede administrative reforms.",
-          "The association persuaded every resident to change political allegiance.",
-          "Most builders oppose the current political system in all circumstances.",
-          "Digital permits always cost more than paper applications."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
-          "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
-          "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
-          "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
-          "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
-        },
-        "context_id": "context:example-council-reform-opposition-a"
-      },
       {
         "id": "example-farmers-support-trial-b",
         "family": "example-claim-scope",
@@ -453,6 +289,31 @@
           "rest": "成员加入前态度没有交代；合作社对国家政府的控制与本文无关；一次成功试行不能保证所有政策最终成功。"
         },
         "context_id": "context:example-farmers-support-trial-b"
+      },
+      {
+        "id": "example-museum-hours-transport-c",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-15",
+        "budget": 60,
+        "target": "例子在论证中的作用",
+        "skill": "识别反例对充分条件的限制而非扩大成全面否定",
+        "q": "A consultant argues that longer opening hours are enough to widen access to museums. A writer responds with a neighbourhood museum that stayed open until 10 p.m., yet attracted few additional night-shift workers. Interviews revealed that the last bus serving their workplaces left at 8 p.m. Why does the writer include this case?",
+        "o": [
+          "To show that transport constraints can limit what extended hours achieve.",
+          "To identify reduced bus services as a consequence of the later museum hours.",
+          "To compare tourists' reasons for visiting with those of local residents.",
+          "To present later opening as a substitute for improving transport links."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "顾问认为，只要延长开放时间，就足以让更多人有机会参观博物馆。作者回应说，一家社区博物馆开放到晚上十点，却几乎没有多吸引夜班工人。访谈发现，途经他们工作地点的末班公交在晚上八点就开走了。作者为何举这个例子？为了说明交通限制会影响延长开放时间的实际效果。",
+          "structure": "A consultant + argues + that从句提出待检验的充分条件；A writer + responds with + a museum引出反例。that stayed open...为修饰museum的定语从句；yet转向预期未实现的结果；Interviews + revealed + that从句提供限制条件。",
+          "other": "widen access 扩大参与机会；neighbourhood 社区；night-shift worker 夜班工人；extended hours 延长的开放时间；transport link 交通连接。",
+          "meaning": "例子针对的是延长开放时间是否单独就足够。公交仍是障碍，说明措施的效果受另一条件限制；没有证明延时开放普遍无效，也没有比较不同群体的喜好。",
+          "rest": "末班车时间是已有约束，文中没有说公交服务因博物馆延时而削减；游客与本地居民的参观动机没有被比较；例子指出仅延时仍不足，不能反说延时可以替代交通改善。"
+        },
+        "context_id": "context:example-museum-hours-transport-c"
       },
       {
         "id": "example-factory-reporting-measure-d",
@@ -480,54 +341,194 @@
         "context_id": "context:example-factory-reporting-measure-d"
       }
     ],
-    "figurative-descent-relative": [
+    "expectation-contrast": [
       {
-        "id": "relative-workshop-filters-b",
-        "family": "figurative-descent-relative",
-        "introduced": "2026-10-15",
-        "published_on": "2026-10-15",
-        "budget": 65,
-        "target": "explained how... + in which 定语从句",
-        "skill": "分清主句、宾语从句与先行词",
-        "q": "The engineer explained how a water-filter design had spread from research laboratories to neighborhood workshops, in which local volunteers built simple filters. Which account matches the sentence?",
+        "id": "yet-warning-reality-a",
+        "family": "expectation-contrast",
+        "introduced": "2026-10-05",
+        "published_on": "2026-10-05",
+        "budget": 45,
+        "target": "yet / 预期—现实违背",
+        "skill": "转折逻辑不是正负翻转",
+        "q": "The manual warns that the batteries may fail below zero. Yet the field team left them outside overnight during a freeze. What does yet mainly signal?",
         "o": [
-          "The volunteers moved the laboratories into their neighborhood.",
-          "The design reached workshops where volunteers constructed filters.",
-          "The engineer alone made every filter inside the research labs.",
-          "The water-filter design fell physically between two buildings."
+          "前句是负面，因此后句必须表达一个正面结果。",
+          "后句给出一个与前文警告所形成的合理预期相违的现实行为。",
+          "后句解释了为什么低温不会影响电池。",
+          "yet表示两件事按时间先后自然发生，没有对比。"
         ],
         "a": 1,
         "exp": {
-          "trans": "工程师解释了一种净水设计如何从研究实验室推广到社区工作坊，当地志愿者在这些工作坊制作简易滤水器。",
-          "structure": "explained后是how引导的宾语从句，design是该从句主语，had spread为谓语；in which引导定语从句，回指workshops。",
-          "other": "water filter 净水器；laboratory 实验室；workshop 工作坊；local volunteer 本地志愿者。",
-          "meaning": "不能把物品技术的传播理解成实物降落；in which = in the neighborhood workshops，不等于in the research laboratories。",
-          "rest": "没有说实验室被搬迁，也没有说所有滤水器由工程师独做；物理下落误解spread的传播含义。"
+          "trans": "手册警告电池在零度以下可能失效。然而，野外团队却在严寒中把它们整夜放在室外。yet强调现实行为违背了前文警告所带来的正常预期。",
+          "structure": "第一句The manual + warns + that从句。第二句the field team + left + them + outside；during a freeze交代环境。yet连接两个完整命题。",
+          "other": "manual 手册；battery 电池；below zero 零度以下；freeze 严寒/冰冻天气。",
+          "meaning": "yet/however/nevertheless的核心是命题层面的逆预期，不是“前负后正”或“前正后负”的机械符号。这里前文让人预期团队会避免低温，现实却相反。",
+          "rest": "“负面后必须是正面”把转折误解成情感极性，后句其实是无视警告的行为；“解释低温不会影响电池”既与警告相冲突，也没有文本依据；“自然的时间先后”忽略了yet所标记的预期与现实之间的反差。"
         },
-        "context_id": "context:relative-workshop-filters-b"
+        "context_id": "context:yet-warning-reality-a"
+      }
+    ],
+    "workout-how-ellipsis": [
+      {
+        "id": "working-out-how-river-b",
+        "family": "workout-how-ellipsis",
+        "target": "work out how to do sth.=找到可行方法",
+        "introduced": "2026-10-16",
+        "published_on": "2026-10-16",
+        "budget": 55,
+        "skill": "work out how to do sth.=找到可行方法",
+        "q": "The scientists agree that the river must be cleaned. However, they have not worked out how to remove the chemical residue safely. What is still unresolved?",
+        "o": [
+          "The practical method for safe removal.",
+          "Whether the river exists.",
+          "Whether all chemicals are harmless.",
+          "Whether cleaning has already finished."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "研究者一致认为河流需要清理，但尚未想出安全去除化学残留物的方法。",
+          "structure": "首句说明明确目标；however后not worked out how to remove表达具体操作方法仍未确定。",
+          "other": "residue残留物；remove去除；safely安全地；unresolved尚未解决的。",
+          "meaning": "work out how to do sth.表示弄清楚怎样做，不是‘工作完毕’，更不是不知道问题是否存在。",
+          "rest": "河流存在和需要清理已经明确；清理尚未完成，化学物是否无害也不是句子悬而未决的核心。"
+        },
+        "context_id": "context:working-out-how-river-b"
+      }
+    ],
+    "relative": [
+      {
+        "id": "legacy-which",
+        "source": "old",
+        "skill": "介词 + which",
+        "target": "preposition + which",
+        "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
+        "o": [
+          "The archive contains several letters on which the historian based her argument.",
+          "The archive contains several letters which on the historian based her argument.",
+          "The archive contains several letters on that the historian based her argument.",
+          "The archive contains several letters which the historian based her argument on them."
+        ],
+        "a": 0,
+        "diag": {
+          "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+          "2": "介词后不能用关系代词 that；应使用 which。",
+          "3": "which 已经代替 those letters，后面再用 them 造成重复。"
+        },
+        "exp": {
+          "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+          "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+          "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+          "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+          "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
+        },
+        "family": "relative",
+        "introduced": null,
+        "budget": 60,
+        "context_id": "on-which-argument"
+      }
+    ],
+    "crack-polysemy": [
+      {
+        "id": "get-cracking-reviews-a",
+        "family": "crack-polysemy",
+        "target": "get cracking on=赶紧开始做",
+        "introduced": "2026-10-16",
+        "published_on": "2026-10-16",
+        "budget": 55,
+        "skill": "get cracking on=赶紧开始做",
+        "q": "The committee had twenty files to review before lunch. Its chair said, 'We had better get cracking on these applications.' What did the chair mean?",
+        "o": [
+          "Find cracks in the paper folders.",
+          "Delay the work until next month.",
+          "Argue about the names of all the files.",
+          "Start reviewing the files without delay."
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "委员会午餐前需要审查二十份文件，主席催促大家立刻着手审查。",
+          "structure": "had twenty files to review描述紧迫任务；get cracking on these applications在引语中表达催促启动工作。",
+          "other": "committee委员会；application申请材料；review审查；without delay不要拖延。",
+          "meaning": "get cracking是习惯表达，意思是立即行动；不能把crack名词裂缝的字面意义套用到整个短语。",
+          "rest": "破损纸张没有依据；延迟或争论文件命名都和午餐前必须审查的工作目标矛盾。"
+        },
+        "context_id": "context:get-cracking-reviews-a"
+      }
+    ],
+    "dnt-actor-boundary": [
+      {
+        "id": "dnt-consent-partners-a",
+        "family": "dnt-actor-boundary",
+        "target": "提出请求、提供设置、执行响应的主体",
+        "introduced": "2026-10-16",
+        "published_on": "2026-10-16",
+        "budget": 55,
+        "skill": "提出请求、提供设置、执行响应的主体",
+        "q": "A news app lets users send an opt-out notice to independent advertising partners. The app supplies the switch; the partners must decide whether to stop profiling users. Which interpretation preserves the roles?",
+        "o": [
+          "The app alone decides whether all advertisers stop profiling.",
+          "The app offers the setting, while the advertising partners handle requests.",
+          "The users created the advertising partners' software.",
+          "The advertising partners are the only parties who can send opt-out notices."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "新闻应用提供开关，用户借此发出退出通知，而收到通知的广告合作方需要决定如何响应。",
+          "structure": "第一句说明app提供的渠道与用户动作，第二句分别用The app和the partners指明执行开关与处理请求的主体。",
+          "other": "opt-out notice退出通知；profiling用户画像；independent独立的；advertising partner广告合作方。",
+          "meaning": "将创建界面、发送用户偏好和执行请求分开，不能将相关业务主体一概等同为同一家公司。",
+          "rest": "只由应用负责所有广告商的行动与原文partners decide相反；用户和广告方软件开发、唯一发送者均未得到原文支持。"
+        },
+        "context_id": "context:dnt-consent-partners-a"
+      }
+    ],
+    "finegrain-quarrel": [
+      {
+        "id": "fine-grained-water-a",
+        "family": "finegrain-quarrel",
+        "target": "fine-grained information=细粒度信息",
+        "introduced": "2026-10-16",
+        "published_on": "2026-10-16",
+        "budget": 55,
+        "skill": "fine-grained information=细粒度信息",
+        "q": "A utility's monthly total shows how much water was used. Its fine-grained records additionally show the hourly use of each building. Here fine-grained means:",
+        "o": [
+          "Only the yearly average is recorded.",
+          "Records are necessarily inaccurate.",
+          "Detailed across smaller units and intervals.",
+          "Information is completely unavailable."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "供水公司既有月度用水总量，也有按建筑和小时拆分的细致记录；后者就是细粒度信息。",
+          "structure": "monthly total与fine-grained records对照；additionally引出能够分别查看的更小时间和空间单位。",
+          "other": "utility公用事业机构；monthly每月的；hourly每小时的；interval时间间隔。",
+          "meaning": "fine-grained指信息足够精细，可按较小类别展开；并不自动表示更准确或更涉及私人隐私。",
+          "rest": "仅有年度平均数与按小时和建筑拆分冲突；不准确或完全不可获得都不是细粒度的定义。"
+        },
+        "context_id": "context:fine-grained-water-a"
       }
     ]
   },
   "article_session": {
-    "id": "2026-10-15-2013-text1",
-    "source": "2013 英语一 Reading Text 1",
-    "created_at": "2026-10-15T21:01:00+08:00",
+    "id": "2026-10-16-2013-text2",
+    "source": "2013 英语一 Reading Text 2",
+    "created_at": "2026-10-16T20:42:00+08:00",
     "revision": 1,
-    "session_file": "data/article-sessions/2026-10-15-2013-text1.json",
+    "session_file": "data/article-sessions/2026-10-16-2013-text2.json",
     "current_families": [
-      "concession-claim-scope",
-      "belief-negation-clause",
-      "negative-ellipsis-afford",
-      "figurative-descent-relative"
+      "crack-polysemy",
+      "dnt-actor-boundary",
+      "finegrain-quarrel",
+      "workout-how-ellipsis"
     ],
     "deferred_families": [
-      "accusation-context-vocab"
+      "indulgence-vocab"
     ],
     "historical_families": [
-      "conceivably",
+      "parallel-governance",
       "example-claim-scope",
-      "author-stance",
-      "nested"
+      "relative",
+      "expectation-contrast"
     ]
   },
   "issues_used": [
@@ -547,7 +548,8 @@
     14,
     15,
     16,
-    17
+    17,
+    18
   ],
   "engine": 4
 }
