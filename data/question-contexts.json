@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-15",
+  "reviewed_on": "2026-10-16",
   "source_commit": "eb503af21ff40db678078310237a5aeb9b8c9212",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -271,7 +271,17 @@
     "descent-medical-device-a": "context:descent-medical-device-a",
     "relative-workshop-filters-b": "context:relative-workshop-filters-b",
     "accusation-editorial-review-a": "context:accusation-editorial-review-a",
-    "accusation-research-report-b": "context:accusation-research-report-b"
+    "accusation-research-report-b": "context:accusation-research-report-b",
+    "dnt-consent-partners-a": "context:dnt-consent-partners-a",
+    "dnt-vendors-messages-b": "context:dnt-vendors-messages-b",
+    "get-cracking-reviews-a": "context:get-cracking-reviews-a",
+    "cracked-engineering-b": "context:cracked-engineering-b",
+    "fine-grained-water-a": "context:fine-grained-water-a",
+    "quarrel-library-b": "context:quarrel-library-b",
+    "working-out-how-museum-a": "context:working-out-how-museum-a",
+    "working-out-how-river-b": "context:working-out-how-river-b",
+    "indulgence-lateness-a": "context:indulgence-lateness-a",
+    "indulgence-microphone-b": "context:indulgence-microphone-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

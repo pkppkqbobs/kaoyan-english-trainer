@@ -810,5 +810,67 @@
     "reported_pick": "A",
     "expected": "A",
     "review_importance": "low"
+  },
+  {
+    "family": "dnt-actor-boundary",
+    "date": "2026-10-16",
+    "kind": "user_reported_confusion",
+    "note": "第27题用户初选D internet browser developers，看第五段the industry指广告商、且广告商收集消费者偏好信息后，最终改选A online advertisers。2013年新浪教育等常用参考给D，强调段内IE/Safari/Chrome浏览器开发商，但responding to DNT requests可从广告服务商执行请求角度支持A，另有公开解析选择advertisers。保存有争议的改选过程，不能粗暴作为已确证的能力错误。未来仅使用无歧义新语境考提供设置、提出请求、回应请求的主体。",
+    "session_id": "2026-10-16-2013-text2",
+    "source_exam": "2013-english1",
+    "source_part": "Text 2",
+    "source_question": 27,
+    "first_considered": "D",
+    "reported_pick": "A",
+    "expected": "D"
+  },
+  {
+    "family": "finegrain-quarrel",
+    "date": "2026-10-16",
+    "kind": "translation_difficulty",
+    "note": "照片中明确画框a quarrel（一场争论、争执）和fine-grained information（精细、细粒度信息）；第二段的value to advertisers of information意为信息对广告商的价值。不要把其他只有横线的短语擅自登记为翻译困难。",
+    "session_id": "2026-10-16-2013-text2",
+    "source_exam": "2013-english1",
+    "source_part": "Text 2"
+  },
+  {
+    "family": "crack-polysemy",
+    "date": "2026-10-16",
+    "kind": "translation_difficulty",
+    "note": "画框get cracking on responding to DNT requests：get cracking on=赶紧开始着手处理，需整个搭配识别，而非单独把cracking译为‘裂缝’。",
+    "session_id": "2026-10-16-2013-text2",
+    "source_exam": "2013-english1",
+    "source_part": "Text 2"
+  },
+  {
+    "family": "crack-polysemy",
+    "date": "2026-10-16",
+    "kind": "user_reported_confusion",
+    "note": "用户明确说只记得crack是裂缝，需巩固名词a crack、动词crack a code/problem以及get cracking（立即动手）的词性、语境和固定表达。",
+    "session_id": "2026-10-16-2013-text2",
+    "source_exam": "2013-english1",
+    "source_part": "Text 2"
+  },
+  {
+    "family": "workout-how-ellipsis",
+    "date": "2026-10-16",
+    "kind": "translation_difficulty",
+    "note": "画框working out how：微软表示自身广告业务会遵守DNT请求，但仍在研究如何具体做到；这里how后省略to comply with DNT requests。区分已经表态承诺与尚未确定实施细节。",
+    "session_id": "2026-10-16-2013-text2",
+    "source_exam": "2013-english1",
+    "source_part": "Text 2"
+  },
+  {
+    "family": "indulgence-vocab",
+    "date": "2026-10-16",
+    "kind": "translation_difficulty",
+    "note": "第30题用户明确‘确定选D skepticism’，且答案正确，不是答对但犹豫。只是不确定干扰项A indulgence是否为‘允许’，应解释为宽容、迁就、纵容或礼貌语境中的包涵；permission才强调正式许可。仅词汇难点，不安排多余的作者态度改错。",
+    "session_id": "2026-10-16-2013-text2",
+    "source_exam": "2013-english1",
+    "source_part": "Text 2",
+    "source_question": 30,
+    "reported_pick": "D",
+    "expected": "D",
+    "review_importance": "low"
   }
 ]

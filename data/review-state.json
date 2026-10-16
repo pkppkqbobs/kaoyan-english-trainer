@@ -281,6 +281,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "crack-polysemy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-16",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "directness-modifier": {
       "streak": 3,
       "errors": 0,
@@ -290,6 +300,16 @@
       "reported_confusion": false,
       "observed_days": 5,
       "observation_priority": 0
+    },
+    "dnt-actor-boundary": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-16",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "end-up": {
       "streak": 0,
@@ -381,6 +401,16 @@
       "observed_days": 0,
       "observation_priority": 2
     },
+    "finegrain-quarrel": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-16",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "have-little-use-for": {
       "streak": 0,
       "errors": 0,
@@ -400,6 +430,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "indulgence-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-16",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
     },
     "infancy": {
       "streak": 0,
@@ -830,6 +870,16 @@
       "reported_confusion": false,
       "observed_days": 6,
       "observation_priority": 0
+    },
+    "workout-how-ellipsis": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-16",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     }
   },
   "unmapped_targets": []

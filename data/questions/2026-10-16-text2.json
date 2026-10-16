@@ -1,0 +1,242 @@
+[
+  {
+    "id": "dnt-consent-partners-a",
+    "family": "dnt-actor-boundary",
+    "target": "提出请求、提供设置、执行响应的主体",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "提出请求、提供设置、执行响应的主体",
+    "q": "A news app lets users send an opt-out notice to independent advertising partners. The app supplies the switch; the partners must decide whether to stop profiling users. Which interpretation preserves the roles?",
+    "o": [
+      "The app alone decides whether all advertisers stop profiling.",
+      "The app offers the setting, while the advertising partners handle requests.",
+      "The users created the advertising partners' software.",
+      "The advertising partners are the only parties who can send opt-out notices."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "新闻应用提供开关，用户借此发出退出通知，而收到通知的广告合作方需要决定如何响应。",
+      "structure": "第一句说明app提供的渠道与用户动作，第二句分别用The app和the partners指明执行开关与处理请求的主体。",
+      "other": "opt-out notice退出通知；profiling用户画像；independent独立的；advertising partner广告合作方。",
+      "meaning": "将创建界面、发送用户偏好和执行请求分开，不能将相关业务主体一概等同为同一家公司。",
+      "rest": "只由应用负责所有广告商的行动与原文partners decide相反；用户和广告方软件开发、唯一发送者均未得到原文支持。"
+    }
+  },
+  {
+    "id": "dnt-vendors-messages-b",
+    "family": "dnt-actor-boundary",
+    "target": "跨句识别负责执行的主体",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "跨句识别负责执行的主体",
+    "q": "A council built a website where residents could ask outside contractors to stop marketing messages. The contractors promised to comply. Who is responsible for changing the outgoing messages?",
+    "o": [
+      "The outside contractors.",
+      "The residents who used the form.",
+      "The council members who created the site.",
+      "The unrelated firms hosting the city's internet connection."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "市议会提供请求渠道，居民提出停止消息的要求，但真正承诺停止发送营销信息的是外部承包商。",
+      "structure": "第一句council built引出平台建设者；第二句The contractors promised to comply明确承诺者和履行请求的执行方。",
+      "other": "council市议会；contractor承包商；comply遵守；marketing message营销信息。",
+      "meaning": "指代分析不能只看上文最近被提到的组织，还要核对承诺、执行和发送行为对应的真实主语。",
+      "rest": "居民是请求方，市议会是平台建设方；互联网连接服务商没有参与这项承诺，也没有文本证据表明它能停止消息。"
+    }
+  },
+  {
+    "id": "get-cracking-reviews-a",
+    "family": "crack-polysemy",
+    "target": "get cracking on=赶紧开始做",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "get cracking on=赶紧开始做",
+    "q": "The committee had twenty files to review before lunch. Its chair said, 'We had better get cracking on these applications.' What did the chair mean?",
+    "o": [
+      "Find cracks in the paper folders.",
+      "Delay the work until next month.",
+      "Argue about the names of all the files.",
+      "Start reviewing the files without delay."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "委员会午餐前需要审查二十份文件，主席催促大家立刻着手审查。",
+      "structure": "had twenty files to review描述紧迫任务；get cracking on these applications在引语中表达催促启动工作。",
+      "other": "committee委员会；application申请材料；review审查；without delay不要拖延。",
+      "meaning": "get cracking是习惯表达，意思是立即行动；不能把crack名词裂缝的字面意义套用到整个短语。",
+      "rest": "破损纸张没有依据；延迟或争论文件命名都和午餐前必须审查的工作目标矛盾。"
+    }
+  },
+  {
+    "id": "cracked-engineering-b",
+    "family": "crack-polysemy",
+    "target": "crack a problem=破解难题",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "crack a problem=破解难题",
+    "q": "After weeks of testing, engineers finally cracked a difficult battery problem and improved the prototype's reliability. What does cracked mean?",
+    "o": [
+      "Physically smashed every battery.",
+      "Successfully solved a technical problem.",
+      "Refused to study the issue.",
+      "Created another failure accidentally."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "经过数周测试，工程师终于攻克电池难题，提高了原型机的可靠性。",
+      "structure": "finally cracked a difficult battery problem中cracked及物，problem为宾语；improved说明解决后的积极结果。",
+      "other": "engineer工程师；battery电池；prototype原型机；reliability可靠性。",
+      "meaning": "crack除了裂开，还可接code、problem等表示破解或攻克；具体意思取决于宾语和上下文。",
+      "rest": "砸开电池是未经提及的物理行为；拒绝研究及制造失败与finally和improved形成的逻辑不合。"
+    }
+  },
+  {
+    "id": "fine-grained-water-a",
+    "family": "finegrain-quarrel",
+    "target": "fine-grained information=细粒度信息",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "fine-grained information=细粒度信息",
+    "q": "A utility's monthly total shows how much water was used. Its fine-grained records additionally show the hourly use of each building. Here fine-grained means:",
+    "o": [
+      "Only the yearly average is recorded.",
+      "Records are necessarily inaccurate.",
+      "Detailed across smaller units and intervals.",
+      "Information is completely unavailable."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "供水公司既有月度用水总量，也有按建筑和小时拆分的细致记录；后者就是细粒度信息。",
+      "structure": "monthly total与fine-grained records对照；additionally引出能够分别查看的更小时间和空间单位。",
+      "other": "utility公用事业机构；monthly每月的；hourly每小时的；interval时间间隔。",
+      "meaning": "fine-grained指信息足够精细，可按较小类别展开；并不自动表示更准确或更涉及私人隐私。",
+      "rest": "仅有年度平均数与按小时和建筑拆分冲突；不准确或完全不可获得都不是细粒度的定义。"
+    }
+  },
+  {
+    "id": "quarrel-library-b",
+    "family": "finegrain-quarrel",
+    "target": "quarrel=争论与分歧",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "quarrel=争论与分歧",
+    "q": "A quarrel divided a library committee: some members wanted fines for late returns, but others worried fines would discourage reading. What is a quarrel here?",
+    "o": [
+      "A new library card.",
+      "A disagreement over policy.",
+      "A list of paid penalties.",
+      "An agreement supported by every member."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "委员会围绕是否对逾期还书收取罚款产生争执，不同成员持有相反看法。",
+      "structure": "A quarrel是句子主语；some members...but others...明确呈现两方存在意见分歧。",
+      "other": "late return逾期归还；fine罚款；discourage阻碍积极性；member成员。",
+      "meaning": "quarrel是争吵或争论，在政策话题中可指观点分歧，并非一定发生肢体冲突。",
+      "rest": "借书证、罚款名单不是讨论过程；全体一致的协议与两派相互反对的事实矛盾。"
+    }
+  },
+  {
+    "id": "working-out-how-museum-a",
+    "family": "workout-how-ellipsis",
+    "target": "working out how=研究具体办法和补足省略",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "working out how=研究具体办法和补足省略",
+    "q": "A museum promised to put fragile manuscripts online, though it is still working out how. What is the museum still determining?",
+    "o": [
+      "Whether the manuscripts ever existed.",
+      "Whether to close the museum.",
+      "How to make the manuscripts available online.",
+      "How to force visitors to buy expensive books."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "博物馆承诺将珍贵手稿上传网络，但仍在研究如何落实这一承诺。",
+      "structure": "though引导让步关系；working out how后省略to put fragile manuscripts online这一已知任务。",
+      "other": "manuscript手稿；fragile易损坏的；put online上传网络；work out想出办法。",
+      "meaning": "work out how强调拟定具体执行方法，how后往往可从前面承诺的动作恢复被省略的不定式。",
+      "rest": "手稿存在与否、关闭场馆和强制购买书籍均不是已被明确承诺的行动。"
+    }
+  },
+  {
+    "id": "working-out-how-river-b",
+    "family": "workout-how-ellipsis",
+    "target": "work out how to do sth.=找到可行方法",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "work out how to do sth.=找到可行方法",
+    "q": "The scientists agree that the river must be cleaned. However, they have not worked out how to remove the chemical residue safely. What is still unresolved?",
+    "o": [
+      "The practical method for safe removal.",
+      "Whether the river exists.",
+      "Whether all chemicals are harmless.",
+      "Whether cleaning has already finished."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "研究者一致认为河流需要清理，但尚未想出安全去除化学残留物的方法。",
+      "structure": "首句说明明确目标；however后not worked out how to remove表达具体操作方法仍未确定。",
+      "other": "residue残留物；remove去除；safely安全地；unresolved尚未解决的。",
+      "meaning": "work out how to do sth.表示弄清楚怎样做，不是‘工作完毕’，更不是不知道问题是否存在。",
+      "rest": "河流存在和需要清理已经明确；清理尚未完成，化学物是否无害也不是句子悬而未决的核心。"
+    }
+  },
+  {
+    "id": "indulgence-lateness-a",
+    "family": "indulgence-vocab",
+    "target": "indulgence=迁就/宽容而不是正式许可",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "indulgence=迁就/宽容而不是正式许可",
+    "q": "The teacher repeatedly excused late homework without changing the deadline. Parents called this indulgence rather than a formal permission to submit late. Indulgence means:",
+    "o": [
+      "An instruction to submit earlier.",
+      "A written license to miss every deadline.",
+      "An error in the submission system.",
+      "Excessive tolerance toward breaking a rule."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "老师屡次对迟交作业网开一面，却没有正式改变截止期限；家长认为这是纵容。",
+      "structure": "repeatedly excused提供宽容的行为证据；rather than明确把实际迁就与正式准许区分。",
+      "other": "excuse宽恕、放过；deadline截止日期；formal permission正式许可；tolerance宽容。",
+      "meaning": "indulgence通常表示宽容、迁就，有时含纵容；与明确授予行为资格的permission不能完全等同。",
+      "rest": "正式许可迟交被rather than排除；提前提交的规定或系统错误都不能解释老师反复放宽处罚的行为。"
+    }
+  },
+  {
+    "id": "indulgence-microphone-b",
+    "family": "indulgence-vocab",
+    "target": "ask for your indulgence=请包涵",
+    "introduced": "2026-10-16",
+    "published_on": "2026-10-16",
+    "budget": 55,
+    "skill": "ask for your indulgence=请包涵",
+    "q": "At a lecture delayed by a broken microphone, the speaker said, 'I ask for your indulgence while we repair the equipment.' What did the speaker request?",
+    "o": [
+      "An extra fee from the audience.",
+      "Patience and understanding during the delay.",
+      "A vote to cancel all lectures permanently.",
+      "Authorization to release confidential records."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "演讲者因麦克风故障造成延误，请观众在维修期间耐心等待并给予包涵。",
+      "structure": "I ask for your indulgence是礼貌请求；while we repair the equipment限定包涵针对维修期间的不便。",
+      "other": "microphone麦克风；equipment设备；lecture讲座；patience耐心。",
+      "meaning": "indulgence不仅有过度纵容的意思，在礼貌表达中也指宽容、体谅；语境决定具体语气。",
+      "rest": "额外收费、永久取消讲座和公开机密记录都不属于维修期间请求听众耐心等待的内容。"
+    }
+  }
+]

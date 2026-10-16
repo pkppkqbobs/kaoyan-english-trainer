@@ -1,0 +1,17 @@
+{
+  "id": "2026-10-16-2013-text2",
+  "date": "2026-10-16",
+  "created_at": "2026-10-16T20:42:00+08:00",
+  "source": "2013 英语一 Reading Text 2",
+  "result_summary": "已知个性化广告背景帮助用户理解文章。第27题最初选主流参考D，因后文the industry在广告商收集信息的语境出现，最终改选A；广告业务响应DNT也有语义依据，参考答案有争议，故仅作为语篇角色和改选判断的观察，不编造已确定错题。画框a quarrel、fine-grained、get cracking on、working out how属翻译困难；用户只记得crack=裂缝，需训练熟词多义和固定搭配。第30题确定选D skepticism正确，仅不理解干扰项indulgence=宽容/纵容/包涵（非正式许可）。其他题最终作答未确认，不推断成绩。新增五种迁移能力题，由GitHub现有调度安排本篇4+历史4，不改变已锁定daily或Issue证据。",
+  "focus_families": [
+    "dnt-actor-boundary",
+    "finegrain-quarrel",
+    "crack-polysemy",
+    "workout-how-ellipsis",
+    "indulgence-vocab"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2013-english1.json"
+}
