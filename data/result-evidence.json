@@ -1381,6 +1381,94 @@
       "qid": "reference-radio-failures",
       "round_id": "mvawccjz-5q5zmet1",
       "source_date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "nested",
+      "ok": true,
+      "ms": 69224,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "nested-shared-gate",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 42450,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "conceivably-damaged-page",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "reference",
+      "ok": true,
+      "ms": 64012,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "reference-return-rules",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 129698,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "example-museum-hours-transport-c",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 68587,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "summary-overall-midsection",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "cloze-legal-stance",
+      "ok": true,
+      "ms": 25447,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "cloze-judge-school-b",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "familiar-word-polysemy",
+      "ok": true,
+      "ms": 115200,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "polysemy-just-justified-b",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-17",
+      "family": "belief-negation-clause",
+      "ok": true,
+      "ms": 39335,
+      "uncertain": false,
+      "origin": 19,
+      "qid": "belief-negation-online-bookings-a",
+      "round_id": "mvcd18g8-qw1oig0a",
+      "source_date": "2026-10-17"
     }
   ],
   "issues": [
@@ -1401,6 +1489,7 @@
     15,
     16,
     17,
-    18
+    18,
+    19
   ]
 }
