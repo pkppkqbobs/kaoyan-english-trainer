@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-16",
+  "reviewed_on": "2026-10-17",
   "source_commit": "eb503af21ff40db678078310237a5aeb9b8c9212",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -281,7 +281,15 @@
     "working-out-how-museum-a": "context:working-out-how-museum-a",
     "working-out-how-river-b": "context:working-out-how-river-b",
     "indulgence-lateness-a": "context:indulgence-lateness-a",
-    "indulgence-microphone-b": "context:indulgence-microphone-b"
+    "indulgence-microphone-b": "context:indulgence-microphone-b",
+    "text3-comparison-transport-a": "context:text3-comparison-transport-a",
+    "text3-comparison-energy-b": "context:text3-comparison-energy-b",
+    "text3-willfully-audit-a": "context:text3-willfully-audit-a",
+    "text3-willfully-committee-b": "context:text3-willfully-committee-b",
+    "text3-boxed-uniformly-asteroid-a": "context:text3-boxed-uniformly-asteroid-a",
+    "text3-boxed-flagship-b": "context:text3-boxed-flagship-b",
+    "text3-phrases-dedicated-timescale-a": "context:text3-phrases-dedicated-timescale-a",
+    "text3-phrases-fad-rosy-b": "context:text3-phrases-fad-rosy-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

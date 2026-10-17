@@ -1,6 +1,6 @@
 {
   "exam": "2013-english1",
-  "checked_on": "2026-10-14",
+  "checked_on": "2026-10-17",
   "purpose": "2013年考研英语一完形填空(Section I)原题标准答案与用户纸面真实反馈分开保存。用户明确确认10/20、5/10分，原始网页训练的Issue和streak不计入这份纸质练习。不同线上版本选项排列不同，以下答案字母按用户提供的2013年试卷图片核对。",
   "sources": [
     {
@@ -88,7 +88,12 @@
     "27": "D",
     "28": "C",
     "29": "A",
-    "30": "D"
+    "30": "D",
+    "31": "B",
+    "32": "A",
+    "33": "D",
+    "34": "C",
+    "35": "C"
   },
   "answer_words": {
     "1": "grants",
@@ -120,12 +125,18 @@
     "27": "internet browser developers（常见参考，存在online advertisers争议）",
     "28": "will not benefit consumers",
     "29": "DNT may not serve its intended purpose",
-    "30": "skepticism"
+    "30": "skepticism",
+    "31": "our faith in science and technology",
+    "32": "a sustained species",
+    "33": "Our immediate future is hard to conceive",
+    "34": "draw on our experience from the past",
+    "35": "The Ever-bright Prospects of Mankind"
   },
   "performance_coverage": {
     "Section I": "用户明确确认10/20，换算5/10分。实际错误题号：3、5、6、7、9、11、15、17、18、19；答对：1、2、4、8、10、12、13、14、16、20。其中第16、20题用户明确称答对但不确定，不能算错。最初具体选错字母未由用户逐一确认，禁止从图像涂改或旧助手误识别猜测。网页Issue不计这份纸面答卷。",
     "Text 1": "用户明确第21题初选B正确，回看第一段后改为最终C错误；第23题选A正确但不认识accusation，只靠排除选择；第24题选B错误（标准D），误把造成浪费扩大成整个行业忽视环保，且不理解末段经济代价的双重否定。第22和25题没有可靠的聊天确认最终选项，不猜测答题字母、不计算本篇总分；纸质练习不计入GitHub自动Issue得分。",
-    "Text 2": "用户有个性化广告的既有背景知识，主观认为本篇比较好理解。明确只确认Q27最初选D、后来因后段the industry涉及广告商而改选A；Q30确定选D skepticism（标准D）且没有犹豫，仅不认识干扰项A indulgence。Q26、28、29最终选项未在聊天中明确确认，不能凭笔迹猜测，整篇总分未知。Q27常见参考D，但存在online advertisers的词义及执行DNT请求的角色争议，因此保存争议状态和改选历程，不用这一题直接判定能力差。纸质反馈不计入GitHub Issue自动计分。"
+    "Text 2": "用户有个性化广告的既有背景知识，主观认为本篇比较好理解。明确只确认Q27最初选D、后来因后段the industry涉及广告商而改选A；Q30确定选D skepticism（标准D）且没有犹豫，仅不认识干扰项A indulgence。Q26、28、29最终选项未在聊天中明确确认，不能凭笔迹猜测，整篇总分未知。Q27常见参考D，但存在online advertisers的词义及执行DNT请求的角色争议，因此保存争议状态和改选历程，不用这一题直接判定能力差。纸质反馈不计入GitHub Issue自动计分。",
+    "Text 3": "用户明确报告2013英语一Text 3只错第33题，因此按自述为4/5正确；第31、32、34、35题均视为答对。第33题正确答案D。用户没有明确说明第33题最后选的字母，不根据手写笔迹猜测；纸质答卷不创建GitHub网页Issue作答/成绩，不改变streak或attempt/error计数。"
   },
   "observed_difficulties": [
     "10道实际错误：3 big picture；5 fearful of；6 soft on crime；7 if；9 applicant's success；11 truth was otherwise；15 then；17 the one before that；18 drop by（such a decrease）；19 undo the effects。均为用户明确报告的错题号，无需补造具体初选字母。",
@@ -141,13 +152,17 @@
     "2013 Text 2第27题用户D→A的改选基于第五段行业广告业务与第三段主语切换；需要训练提供开关、发送用户请求与处理请求的不同责任主体。主流答案D但另有advertisers解读，训练材料须排除这一歧义。",
     "2013 Text2明确画框：a quarrel=争论；fine-grained=精细、细粒度的；get cracking on=赶紧着手；working out how=研究具体如何做。不能自动把横线材料登记为翻译困难。",
     "用户只记得crack=裂缝，不熟悉get cracking习语及crack a problem/code的动词延伸义。",
-    "第30题用户确定选D skepticism正确，仅A indulgence词义不熟（宽容/迁就/纵容，区别于permission许可），不是作者态度判断错误或正确但犹豫。"
+    "第30题用户确定选D skepticism正确，仅A indulgence词义不熟（宽容/迁就/纵容，区别于permission许可），不是作者态度判断错误或正确但犹豫。",
+    "2013 Text 3 Q33：用户拒绝D，因为认为‘思考漫长时间跨度比思考近期未来容易’不能证明近期未来绝对难以想象。需训练相对比较推断：easier A than B可支持B相对更难，且后句dazzlingly complicated补充近期技术演变及社会后果的复杂性。",
+    "2013 Text 3：用户问willfully是否为‘蓄意地’；基本义是有意、故意，在Perhaps willfully中受perhaps缓和，表示人们或许有意选择较容易想象的时间尺度，不必理解成恶意。",
+    "2013 Text 3画框翻译困难：uniformly=一致地；asteroid strike=小行星撞击；flagship project=最具代表性的项目；lengthy timescales=漫长的时间跨度；dedicated to the near future=专注于近期未来；a passing fad=一时风潮；not all rosy=并非一切美好。严格区分画框与横线。"
   ],
   "notes": [
     "不能用曾经错误的8/20统计替代用户纠正的10/20；第2、13题真实答对，第16、20题答对但犹豫。",
     "写入learning-notes的是chat feedback与画框困难，用于新语境复习优先级，不增加result-evidence的attempts/errors，也不构造Issue。",
     "词组‘a judge fearful of appearing too soft on crime’要分清名词角色与后置形容词短语；17–19要连接前后人次、下降回指与抵消效果，不要拆成孤立词汇。",
     "Text 1标准答案21 B、22 D、23 A、24 D、25 C是根据用户上传试卷的选项顺序复核；不同网站重排字母不可混用。真实观察只涉及21/23/24，不补造22/25作答或纸面总分。",
-    "2013 Text2参考答案26 B、27 D、28 C、29 A、30 D按用户上传试卷顺序核对；27对于the industry的解释在不同公开来源间有争议，按标准参考D存档但注明语义争议，不能用它造虚假网页答题记录。"
+    "2013 Text2参考答案26 B、27 D、28 C、29 A、30 D按用户上传试卷顺序核对；27对于the industry的解释在不同公开来源间有争议，按标准参考D存档但注明语义争议，不能用它造虚假网页答题记录。",
+    "2013 Text 3答案按用户照片的选项顺序记录：31 B、32 A、33 D、34 C、35 C。用户只错33，未明确其最终选项，不补造错误字母；纸面反馈仅进入学习观察和迁移复习，不计入GitHub网页Issue成绩。"
   ]
 }

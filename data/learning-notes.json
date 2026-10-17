@@ -872,5 +872,42 @@
     "reported_pick": "D",
     "expected": "D",
     "review_importance": "low"
+  },
+  {
+    "family": "text3-comparison-inference",
+    "date": "2026-10-17",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Text 3第33题是用户明确报告的唯一错题。用户认为原文‘easier to think about lengthy timescales than about the more immediate future’不能证明近期未来绝对难以想象。需要训练比较级推断：easier to think about A than B支持B相对更难，后句dazzlingly complicated提供原因；hard to conceive是相对难度的语境概括，不表示完全不可能。用户没有明确最终选项，不补造其选择字母。",
+    "session_id": "2026-10-17-2013-text3",
+    "source_exam": "2013-english1",
+    "source_part": "Text 3",
+    "source_question": 33
+  },
+  {
+    "family": "text3-willfully",
+    "date": "2026-10-17",
+    "kind": "user_reported_confusion",
+    "note": "用户主动核对willfully是否为‘蓄意地’。基本义正确：故意地、有意地；在Perhaps willfully, it may be easier...中是带推测语气的插入表达，暗示人们可能有意选择思考漫长时间尺度，不一定表示恶意。训练重点是将词义放回句中解释语气，不把willfully记为原题错词。",
+    "session_id": "2026-10-17-2013-text3",
+    "source_exam": "2013-english1",
+    "source_part": "Text 3"
+  },
+  {
+    "family": "text3-boxed-vocab",
+    "date": "2026-10-17",
+    "kind": "translation_difficulty",
+    "note": "按用户规则，画框=翻译困难。2013 Text 3图中可辨认的框词：uniformly（一致地、全都以同样方式）；asteroid strike（小行星撞击）；flagship project（最重要/最具代表性的项目，flagship为旗舰的引申义）。不把仅画横线的表达自动加入画框词表。",
+    "session_id": "2026-10-17-2013-text3",
+    "source_exam": "2013-english1",
+    "source_part": "Text 3"
+  },
+  {
+    "family": "text3-future-phrases",
+    "date": "2026-10-17",
+    "kind": "translation_difficulty",
+    "note": "按用户规则，画框=翻译困难。2013 Text 3可辨认的框词组：lengthy timescales（漫长的时间跨度）；dedicated to the near future（专注于近期未来）；a passing fad（一时风潮）；not all rosy（并非一切美好/未来并非一片光明）。需按比喻和搭配整体理解，不逐词硬翻。",
+    "session_id": "2026-10-17-2013-text3",
+    "source_exam": "2013-english1",
+    "source_part": "Text 3"
   }
 ]

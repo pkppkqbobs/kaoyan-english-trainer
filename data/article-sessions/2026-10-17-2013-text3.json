@@ -1,0 +1,16 @@
+{
+  "id": "2026-10-17-2013-text3",
+  "date": "2026-10-17",
+  "created_at": "2026-10-17T21:25:00+09:00",
+  "source": "2013 英语一 Reading Text 3",
+  "result_summary": "用户明确表示本篇只错第33题（其余31、32、34、35答对），但没有明确告知33最终选项。其理由是原文‘easier to think about lengthy timescales than about the more immediate future’并不能证明近期未来绝对难以想象；训练目标是比较级可支持相对难度推断，结合下一句dazzlingly complicated的解释。用户问willfully是否为蓄意地：基本义正确，但Perhaps willfully语境里不必带恶意。明确画框翻译困难：uniformly、asteroid strike、flagship project、lengthy timescales、dedicated to the near future、a passing fad、not all rosy。保持词汇观察与Q33真实错误分开，不生成虚构最终选项、Issue或成绩。",
+  "focus_families": [
+    "text3-comparison-inference",
+    "text3-willfully",
+    "text3-boxed-vocab",
+    "text3-future-phrases"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "source_check": "data/source-checks/2013-english1.json"
+}

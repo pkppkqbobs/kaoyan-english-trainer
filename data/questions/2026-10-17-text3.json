@@ -1,0 +1,194 @@
+[
+  {
+    "id": "text3-comparison-transport-a",
+    "family": "text3-comparison-inference",
+    "target": "比较级推断 / 近期预测可能更难",
+    "skill": "相对比较与证据范围",
+    "q": "A transport planner finds it easier to sketch cities in 2300 than to forecast next year's commuting habits. Near-term forecasts depend on changing regulations, battery prices, and commuter choices. What is best supported?",
+    "o": [
+      "Long-range city life can be predicted precisely from current data.",
+      "The near future may be harder to forecast than a distant future.",
+      "Commuting habits will certainly remain unchanged next year.",
+      "Long-term planning is never useful."
+    ],
+    "a": 1,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "交通规划者发现，勾勒2300年的城市图景，比预测明年的通勤习惯更容易。近期预测取决于不断变化的法规、电池价格和通勤者选择。",
+      "structure": "finds it easier to A than to B建立比较关系；第二句解释近期预测为什么复杂。",
+      "other": "forecast 预测；commuting habits 通勤习惯；regulation 法规；commuter 通勤者。",
+      "meaning": "easier to think about A than B支持B相对更难设想；这不等于B绝对无法预测，而是近期细节可能比遥远未来的宽泛图景更难预测。",
+      "rest": "精确预测2300年超出easier的证据；明年习惯一定不变与快速变化的条件冲突；放弃长期规划也未被建议。"
+    }
+  },
+  {
+    "id": "text3-comparison-energy-b",
+    "family": "text3-comparison-inference",
+    "target": "long-range scenario vs near-term forecast",
+    "skill": "比较关系支持相对难度推断",
+    "q": "Researchers can outline broad possibilities for energy use in 2200, yet cannot confidently predict household electricity bills next winter because fuel prices, weather, and policy may shift quickly. Which inference follows?",
+    "o": [
+      "No event next winter can be predicted under any circumstances.",
+      "The far future contains no uncertainty at all.",
+      "Specific near-term outcomes may be harder to predict than broad distant scenarios.",
+      "Household energy costs are unaffected by weather or policy."
+    ],
+    "a": 2,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "研究者可以概述2200年能源使用的几种大致可能性，却无法有把握地预测明年冬天的家庭电费，因为燃料价格、天气和政策可能迅速变化。",
+      "structure": "can outline...yet cannot confidently predict...构成对比；because引出近期预测困难的原因。",
+      "other": "outline 概述；household 家庭的；fuel price 燃料价格；shift 改变。",
+      "meaning": "比较的是预测的具体程度：宽泛的远期情景有时比近期精确结果更容易描绘。不能把相对差异扩大成远期没有不确定性。",
+      "rest": "任何事件都无法预测过于绝对；远期也不是没有不确定性；天气和政策被明确列为影响因素。"
+    }
+  },
+  {
+    "id": "text3-willfully-audit-a",
+    "family": "text3-willfully",
+    "target": "willfully=故意地、有意地",
+    "skill": "副词含义与行为意图",
+    "q": "The inspector willfully ignored the warning light even after a colleague explained the risk. In this sentence, willfully means:",
+    "o": [
+      "Accidentally, without noticing the light.",
+      "Deliberately, with awareness of what was being ignored.",
+      "Reluctantly, because someone forced the inspector.",
+      "Uniformly, in exactly the same way as everyone else."
+    ],
+    "a": 1,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "同事解释风险后，检查员仍故意忽视警示灯。",
+      "structure": "willfully修饰ignored，说明忽视警示灯是有意作出的；even after...强调检查员已经知道风险。",
+      "other": "inspector 检查员；warning light 警示灯；risk 风险；deliberately 故意地。",
+      "meaning": "willfully的基本义是故意地、有意地；在某些语境中带有执意或明知故犯的负面色彩，但核心不是偶然。",
+      "rest": "没有注意到与已解释风险不符；被迫与意愿相反；uniformly描述一致程度，不表达行为意图。"
+    }
+  },
+  {
+    "id": "text3-willfully-committee-b",
+    "family": "text3-willfully",
+    "target": "perhaps willfully=或许是有意如此",
+    "skill": "语气副词与语境含义",
+    "q": "Perhaps willfully, the committee concentrated on a century-long scenario rather than next year's disruptions, whose effects depended on rapidly changing rules and technology. What does perhaps willfully suggest?",
+    "o": [
+      "The committee may have chosen that focus deliberately, perhaps to avoid a more complicated near-term question.",
+      "The committee had no choice and could not consider any other period.",
+      "Every member knew the century-long scenario was certainly accurate.",
+      "The near future had already become impossible to experience."
+    ],
+    "a": 0,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "或许是有意如此，委员会把注意力放在百年尺度的情景上，而不是明年的各种变化，因为近期结果取决于迅速变化的规则和技术。",
+      "structure": "Perhaps willfully是句首插入性表达；the committee concentrated... rather than...说明它选择了一个时间范围而不是另一个。",
+      "other": "century-long 百年尺度的；disruption 变化或扰动；concentrate on 集中关注；deliberately 有意地。",
+      "meaning": "willfully有故意、有意的基本义；Perhaps使判断保持推测语气。它不必表示恶意，而是暗示这种注意力选择可能并非偶然。",
+      "rest": "无法选择与willfully相反；准确性不能由关注某个时间范围推出；无法体验未来也不是句子表达的意思。"
+    }
+  },
+  {
+    "id": "text3-boxed-uniformly-asteroid-a",
+    "family": "text3-boxed-vocab",
+    "target": "uniformly / asteroid strike",
+    "skill": "框中词汇：一致程度与灾害事件",
+    "q": "Researchers did not uniformly rank future threats: some considered an asteroid strike possible but remote, while others focused on climate change. Which paraphrase best preserves the sentence?",
+    "o": [
+      "All researchers agreed an asteroid impact would happen soon.",
+      "Researchers differed in their rankings; an asteroid impact was one possible threat among several.",
+      "No researcher thought an asteroid impact was possible.",
+      "Every threat was considered equally likely."
+    ],
+    "a": 1,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "研究者并没有以完全一致的方式给未来威胁排序：有人认为小行星撞击虽有可能但概率遥远，另一些人则关注气候变化。",
+      "structure": "did not uniformly rank是否定一致程度；冒号后some...while others...明确呈现分歧；asteroid strike是被评估的威胁之一。",
+      "other": "uniformly 一致地；asteroid 小行星；strike 撞击；remote 可能性较低或遥远的。",
+      "meaning": "uniformly在这里指观点并不一致；asteroid strike指小行星撞击事件，不是罢工。",
+      "rest": "所有研究者都认为即将发生与some...while others...相反；无人认为可能以及所有威胁等可能均超出原句。"
+    }
+  },
+  {
+    "id": "text3-boxed-flagship-b",
+    "family": "text3-boxed-vocab",
+    "target": "flagship project=最具代表性的项目",
+    "skill": "框中词汇：熟词引申义",
+    "q": "A foundation's flagship project is a mechanical clock designed to keep time for ten thousand years. Here, flagship project means:",
+    "o": [
+      "A ship used to transport the foundation's staff.",
+      "The organization's most prominent or representative project.",
+      "A temporary task that the organization has abandoned.",
+      "A project concerned only with commercial shipping."
+    ],
+    "a": 1,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "某基金会最具代表性的项目是一座机械钟，设计目标是持续计时一万年。",
+      "structure": "A foundation's flagship project是主语名词短语；is后面的a mechanical clock说明项目具体是什么。",
+      "other": "foundation 基金会；mechanical clock 机械钟；representative 代表性的；prominent 重要且突出的。",
+      "meaning": "flagship原指旗舰，引申为机构最重要、最具代表性或最能体现其特点的项目或产品。",
+      "rest": "工作人员乘坐的船、被放弃的临时任务和商业航运都不符合后面所描述的机械钟项目。"
+    }
+  },
+  {
+    "id": "text3-phrases-dedicated-timescale-a",
+    "family": "text3-future-phrases",
+    "target": "lengthy timescales / dedicated to",
+    "skill": "框中词组：时间跨度与主题定位",
+    "q": "A journal dedicated to the near future examines the next decade, while a separate clock project is designed around lengthy timescales stretching thousands of years. Which interpretation is accurate?",
+    "o": [
+      "The journal studies only events thousands of years away, while the clock predicts next year's news.",
+      "The journal focuses on relatively near-term questions, while the clock concerns very long periods.",
+      "Both projects reject any discussion of future events.",
+      "Dedicated to means the journal has donated itself to a person."
+    ],
+    "a": 1,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "一本专注于近期未来的刊物研究未来十年；另一个钟表项目则围绕长达数千年的漫长时间跨度设计。",
+      "structure": "dedicated to the near future修饰journal并说明主题；while连接两项不同的时间范围；lengthy timescales stretching thousands of years补充说明钟表项目的跨度。",
+      "other": "journal 刊物；decade 十年；lengthy 漫长的；timescale 时间跨度；stretch 延伸。",
+      "meaning": "dedicated to在这里表示专注于某个主题；lengthy timescales指漫长的时间尺度，不是完成任务所花的时间。",
+      "rest": "把时间范围倒置与near/lengthy的对比相反；两项工作都在研究未来；dedicated to不是把刊物献给某个人。"
+    }
+  },
+  {
+    "id": "text3-phrases-fad-rosy-b",
+    "family": "text3-future-phrases",
+    "target": "passing fad / not all rosy",
+    "skill": "框中词组：短暂风潮与并非一片光明",
+    "q": "The author calls today's pessimism a passing fad but adds that the future is not all rosy. Which interpretation preserves both ideas?",
+    "o": [
+      "Pessimism may be temporary, although genuine difficulties still lie ahead.",
+      "The future is guaranteed to be perfect, so no risks remain.",
+      "Pessimism will last forever and all future efforts are useless.",
+      "Rosy means that every forecast is literally about flowers."
+    ],
+    "a": 0,
+    "budget": 55,
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-17",
+    "exp": {
+      "trans": "作者认为当下的悲观情绪可能只是一时风潮，但也补充说未来并非一切都美好。",
+      "structure": "calls today's pessimism a passing fad说明作者认为悲观可能短暂；but adds...形成限制，not all rosy承认未来仍有问题。",
+      "other": "pessimism 悲观；fad 一时流行的风潮；genuine 真实存在的；lie ahead 将会出现。",
+      "meaning": "a passing fad表示短暂的流行风潮；not all rosy是比喻表达，表示并非一切顺利或前景完全美好。",
+      "rest": "未来完美与not all rosy相反；悲观永远持续与passing fad相反；rosy在此不是字面上的花朵。"
+    }
+  }
+]
