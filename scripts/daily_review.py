@@ -650,9 +650,10 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     save(root / "data/daily.json", payload)
     save(root / f"data/days/{day.isoformat()}.json", payload)
     script = root / "web/review.js"
+    # Only the current today.html alias updates its script cache key. The JSON
+    # question sheet and dated snapshot remain locked; a JS submission fix must
+    # reach browsers immediately instead of being cached under an old version.
     version = hashlib.sha256(script.read_bytes()).hexdigest()[:12]
-    if locked.get("date") == day.isoformat() or existing.get("date") == day.isoformat():
-        version = published_script_version(root / "today.html", version)
     embedded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     page = '''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>今日定制8题 · 考研英语</title>

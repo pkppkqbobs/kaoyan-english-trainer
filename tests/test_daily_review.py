@@ -160,6 +160,26 @@ class ReviewTests(unittest.TestCase):
                     review.validate(retry)
 
 
+    def test_locked_daily_sheet_uses_current_script_without_changing_question_ids(self):
+        import hashlib
+        from run_daily import run
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data/questions').mkdir(parents=True)
+            (root / 'web').mkdir()
+            items = [sample('daily-refresh-' + str(i), 'target-' + str(i)) for i in range(8)]
+            review.save(root / 'data/base-bank.json', items)
+            (root / 'web/review.js').write_text('// old engine', encoding='utf-8')
+            (root / 'index.html').write_text('original')
+            run(root, date(2026, 10, 18), False, 'pkppkqbobs/kaoyan-english-trainer')
+            before = review.load(root / 'data/days/2026-10-18.json')['questions']
+            (root / 'web/review.js').write_text('// updated engine', encoding='utf-8')
+            run(root, date(2026, 10, 18), False, 'pkppkqbobs/kaoyan-english-trainer')
+            after = review.load(root / 'data/days/2026-10-18.json')['questions']
+            expected = hashlib.sha256((root / 'web/review.js').read_bytes()).hexdigest()[:12]
+            self.assertEqual(before, after)
+            self.assertIn('review.js?v=' + expected, (root / 'today.html').read_text())
+
     def test_equal_exposure_prefers_variant_without_longest_correct_answer(self):
         import random
         biased = sample('length-biased', 'length-cue')
