@@ -175,10 +175,19 @@ def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None, pr
     # A same-day article may make both contexts equally recent globally. Break
     # that tie using this selector's own history before trying an unseen sibling
     # qid; otherwise yesterday's daily context can be randomly repeated.
+    # If exposure is otherwise identical, avoid a correct option that is
+    # uniquely the longest. This is only a tie-breaker, not a family exclusion
+    # or a change to already recorded attempts.
+    def length_cue(q):
+        lengths = [len(option) for option in q["o"]]
+        maximum = max(lengths)
+        return (int(lengths[q["a"]] == maximum and lengths.count(maximum) == 1),
+                maximum - min(lengths))
     return copy.deepcopy(min(variants, key=lambda q: (context_last.get(q.get("context_id", q["id"]), ""),
                                                        primary_context.get(q.get("context_id", q["id"]), ""),
                                                        last_shown.get(q["id"], ""),
-                                                       primary_last.get(q["id"], ""))))
+                                                       primary_last.get(q["id"], ""),
+                                                       *length_cue(q))))
 
 
 def retry_variants(items, question, day):

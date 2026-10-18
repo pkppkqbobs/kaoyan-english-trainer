@@ -20,7 +20,7 @@ const paragraphReferences = '; 段B位于段C之前。attribute A to B';
 originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta' + paragraphReferences;
 originalFirst.diag = {1: 'diagnostic for choice two; 段B位于段C之前', 2: 'diagnostic for choice three', 3: 'diagnostic for choice four'};
 const source = fs.readFileSync('web/review.js', 'utf8');
-let nodes, opened, clock, pageEvents, documentEvents, simulatedDay;
+let nodes, opened, clock, pageEvents, documentEvents, simulatedDay, clipboardImpl = null, copiedBeforeOpen = false;
 const mockPayloads = new Map(), fetchRequests = [];
 class FixtureDate extends Date {
   constructor(...args) { super(...(args.length ? args : [FixtureDate.now()])); }
@@ -49,7 +49,12 @@ function boot() {
   clock = 0; pageEvents = {}; documentEvents = {};
   const document = {hidden: false, getElementById: id => nodes[id], createElement: tag => new Element(tag),
     addEventListener(type, handler) { documentEvents[type] = handler; }};
-  const context = {window: {REVIEW_DATA: data, open: url => { opened = url; },
+  const context = {window: {REVIEW_DATA: data,
+    navigator: clipboardImpl ? {clipboard: {writeText(value) {
+      copiedBeforeOpen = opened === '';
+      return clipboardImpl(value);
+    }}} : undefined,
+    open: url => { opened = url; },
     addEventListener(type, handler) { pageEvents[type] = handler; }}, document, localStorage: storage,
     performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console,
     fetch: async path => {
@@ -123,6 +128,18 @@ assert.equal(report.answers[0].pick, firstWrong.pick);
 assert.deepEqual(report.answers[0].optionOrder, shuffledFirst.o.map(x=>originalFirst.o.indexOf(x)));
 assert.equal(report.answers[0].optionOrder[report.answers[0].expected], originalFirst.a);
 assert.equal(report.retrySummary[0].correct, 1);
+// A real clipboard request must occur before the new GitHub tab takes focus.
+clipboardImpl = value => {
+  assert.ok(value.includes('<!-- review-json:v3'));
+  return Promise.resolve();
+};
+boot();
+clickText('提交结果到 GitHub');
+assert.ok(copiedBeforeOpen, 'request clipboard before window.open steals focus');
+assert.equal(new URL(opened).searchParams.has('body'), false);
+await new Promise(setImmediate);
+clipboardImpl = null;
+boot();
 clickText('备用提交：复制报告并打开空白 Issue');
 assert.equal(new URL(opened).searchParams.has('body'), false, 'fallback issue URL must not carry a long body query');
 assert.ok(nodes.body.children.some(x => x.tag === 'textarea' && x.value.includes('<!-- review-json:v3')),

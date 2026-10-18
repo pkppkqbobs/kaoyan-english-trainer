@@ -321,19 +321,19 @@
   function fallbackSubmit() {
     const root = rootRun();
     const title = '[TRAINING_RESULT] ' + (DATA.reportTitle || '每日复习') + ' ' + root.date + ' ' + root.id;
-    window.open('https://github.com/' + DATA.repo + '/issues/new?title=' + encodeURIComponent(title), '_blank', 'noopener,noreferrer');
     const text = reportText();
     const clipboard = window.navigator && window.navigator.clipboard;
-    if (!clipboard || typeof clipboard.writeText !== 'function') { showCopyFallback(text); return; }
-    try {
-      const pending = clipboard.writeText(text);
-      if (pending && typeof pending.then === 'function') {
-        pending.then(() => notice('已打开备用 Issue 页面并复制完整报告；请粘贴到内容框后提交。'))
-          .catch(() => showCopyFallback(text));
-      } else {
-        notice('已打开备用 Issue 页面；请将报告粘贴到内容框后提交。');
-      }
-    } catch (_) {
+    // Request clipboard permission while this page still has focus and the
+    // click is active, then open only a short Issue URL (no encoded JSON body).
+    let pending = null;
+    if (clipboard && typeof clipboard.writeText === 'function') {
+      try { pending = clipboard.writeText(text); } catch (_) { /* manual fallback below */ }
+    }
+    window.open('https://github.com/' + DATA.repo + '/issues/new?title=' + encodeURIComponent(title), '_blank', 'noopener,noreferrer');
+    if (pending && typeof pending.then === 'function') {
+      pending.then(() => notice('报告已复制。请在 GitHub Issue 正文粘贴后点击 Submit new issue，才算提交。'))
+        .catch(() => showCopyFallback(text));
+    } else {
       showCopyFallback(text);
     }
   }

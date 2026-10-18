@@ -160,5 +160,19 @@ class ReviewTests(unittest.TestCase):
                     review.validate(retry)
 
 
+    def test_equal_exposure_prefers_variant_without_longest_correct_answer(self):
+        import random
+        biased = sample('length-biased', 'length-cue')
+        balanced = sample('length-balanced', 'length-cue')
+        biased['o'] = ['Short.', 'A much longer answer containing many unnecessary additional words.', 'Other.', 'Maybe.']
+        balanced['o'] = ['A plausible distractor.', 'The correct reading.', 'Another plausible reading.', 'A third possible interpretation.']
+        # Both variants are initially unseen: answer length is only a last tie-break.
+        picked = review.choose_variant([biased, balanced], {}, random.Random(3))
+        self.assertEqual(picked['id'], 'length-balanced')
+        # A previously shown balanced item must not block an older unseen item.
+        picked = review.choose_variant([biased, balanced], {'2026-10-01': ['length-balanced']}, random.Random(3))
+        self.assertEqual(picked['id'], 'length-biased')
+
+
 if __name__ == '__main__':
     unittest.main()
