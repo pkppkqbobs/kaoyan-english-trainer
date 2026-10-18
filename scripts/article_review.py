@@ -168,8 +168,14 @@ def build(root=ROOT, repo="pkppkqbobs/kaoyan-english-trainer"):
             archives[key] = payload
             new[key] = payload
     latest = archives[storage_id(ordered[-1])]
-    # Validate and render everything before touching any published page.
-    pages = {key: render_page(root, payload) for key, payload in archives.items()}
+    # Existing article rounds are immutable. Render only newly published pages,
+    # plus missing archive pages that need repair; never regenerate an existing
+    # archive page merely because a newer session was added.
+    pages = {
+        key: render_page(root, payload)
+        for key, payload in archives.items()
+        if key in new or not (root / f"article-review-{key}.html").exists()
+    }
     links = []
     for key, payload in sorted(archives.items(), key=lambda pair: (pair[1]["date"], pair[0]), reverse=True):
         label = payload["article_session"]["source"] + " · " + key
@@ -179,8 +185,13 @@ def build(root=ROOT, repo="pkppkqbobs/kaoyan-english-trainer"):
         review.save(root / f"data/article-reviews/{key}.json", payload)
     for key, page in pages.items():
         (root / f"article-review-{key}.html").write_text(page, encoding="utf-8")
+    latest_key = latest["storageId"]
+    latest_page_path = root / f"article-review-{latest_key}.html"
+    latest_page = pages.get(latest_key)
+    if latest_page is None:
+        latest_page = latest_page_path.read_text(encoding="utf-8")
     review.save(root / "data/article-review.json", latest)
-    (root / "article-review.html").write_text(pages[latest["storageId"]], encoding="utf-8")
+    (root / "article-review.html").write_text(latest_page, encoding="utf-8")
     (root / "article-reviews.html").write_text(index, encoding="utf-8")
     return latest
 

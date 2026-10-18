@@ -813,6 +813,16 @@
       "observed_days": 0,
       "observation_priority": 2
     },
+    "text4-agreement-target": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "text4-boxed-vocab": {
       "streak": 2,
       "errors": 0,
@@ -822,6 +832,36 @@
       "reported_confusion": false,
       "observed_days": 2,
       "observation_priority": 0
+    },
+    "text4-executive-overreach": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "text4-federal-state-boundary": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "text4-historical-inference": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-10-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "title-coverage": {
       "streak": 0,
