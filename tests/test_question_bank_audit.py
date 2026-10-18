@@ -270,7 +270,7 @@ class BankCoverageTests(unittest.TestCase):
 
     def test_text4_followup_variants_keep_option_lengths_balanced(self):
         questions = review.load(ROOT / "data/questions/2026-10-18-text4-followup.json")
-        self.assertEqual(len(questions), 2)
+        self.assertEqual(len(questions), 3)
         for q in questions:
             lengths = [len(option) for option in q["o"]]
             self.assertLessEqual(max(lengths) - min(lengths), 20, q["id"])
