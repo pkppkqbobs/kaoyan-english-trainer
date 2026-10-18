@@ -27,7 +27,7 @@
   let submitBusy = false;
   const tokenTemplate = 'https://github.com/settings/personal-access-tokens/new' +
     '?name=English+Review+Uploader&description=Only+write+training+issues' +
-    '&target_name=pkppkqbobs&expires_in=90&repository_ids=1390812500&issues=write';
+    '&target_name=pkppkqbobs&expires_in=90&issues=write';
 
   function credential() {
     try { return volatileCredential || window.sessionStorage?.getItem(AUTH_KEY) ||
