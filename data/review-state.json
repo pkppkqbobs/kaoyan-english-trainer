@@ -20,7 +20,8 @@
     17,
     18,
     19,
-    20
+    20,
+    21
   ],
   "families": {
     "absolute-language": {
@@ -104,14 +105,14 @@
       "observation_priority": 0
     },
     "causal-role-direction": {
-      "streak": 2,
+      "streak": 0,
       "errors": 1,
-      "last": "2026-10-08",
-      "due": "2026-10-12",
+      "last": "2026-10-18",
+      "due": "2026-10-18",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 3,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 4,
+      "observation_priority": 3
     },
     "cling-climb": {
       "streak": 3,
@@ -816,11 +817,11 @@
     "text4-agreement-target": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-18",
       "due": "2026-10-18",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "text4-boxed-vocab": {
@@ -836,31 +837,31 @@
     "text4-executive-overreach": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-18",
       "due": "2026-10-18",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "text4-federal-state-boundary": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-10-18",
       "due": "2026-10-18",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "text4-historical-inference": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-10-18",
       "due": "2026-10-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "title-coverage": {
@@ -944,13 +945,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 2,
+      "streak": 3,
       "errors": 0,
-      "last": "2026-10-16",
-      "due": "2026-10-20",
+      "last": "2026-10-18",
+      "due": "2026-10-25",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "workout-how-ellipsis": {

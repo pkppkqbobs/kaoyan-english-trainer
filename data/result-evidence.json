@@ -1557,6 +1557,94 @@
       "qid": "paragraph-order-discourse-conclusion-b",
       "round_id": "mvdokmfj-hc3deafs",
       "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 85341,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "text4-executive-overreach-b",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "text4-agreement-target",
+      "ok": true,
+      "ms": 119913,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "text4-agreement-target-a",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 102586,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "causal-role-deadline-response",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "text4-federal-state-boundary",
+      "ok": true,
+      "ms": 58049,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "text4-federal-field-b",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 110601,
+      "uncertain": true,
+      "origin": 21,
+      "qid": "example-factory-reporting-measure-d",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "text4-historical-inference",
+      "ok": false,
+      "ms": 12966,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "text4-state-privileges-b",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "with",
+      "ok": true,
+      "ms": 8010,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "with-bread-cooling",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "nested",
+      "ok": true,
+      "ms": 6098,
+      "uncertain": false,
+      "origin": 21,
+      "qid": "nested-shared-gate",
+      "round_id": "mvdsaa3b-3frd9n0g",
+      "source_date": "2026-10-18"
     }
   ],
   "issues": [
@@ -1579,6 +1667,7 @@
     17,
     18,
     19,
-    20
+    20,
+    21
   ]
 }
