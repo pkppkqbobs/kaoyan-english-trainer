@@ -15,6 +15,8 @@ const question = (id, family) => ({id, family, context_id: id, target: family, q
 const data = {date: '2026-09-29', repo: 'pkppkqbobs/kaoyan-english-trainer',
   questions: Array.from({length: 8}, (_, i) => question('main-' + i, 'family-' + i)), retry: {}};
 data.questions.forEach(q => { data.retry[q.family] = [question('retry-' + q.family, q.family)]; });
+const dailyQuestionsForAuto = structuredClone(data.questions);
+const dailyRetryForAuto = structuredClone(data.retry);
 const originalFirst = data.questions[0];
 const paragraphReferences = '; 段B位于段C之前。attribute A to B';
 originalFirst.exp.rest = 'A alpha; B beta; C gamma; D delta' + paragraphReferences;
@@ -22,6 +24,8 @@ originalFirst.diag = {1: 'diagnostic for choice two; 段B位于段C之前', 2: '
 const source = fs.readFileSync('web/review.js', 'utf8');
 let nodes, opened, clock, pageEvents, documentEvents, simulatedDay, clipboardImpl = null, copiedBeforeOpen = false;
 const mockPayloads = new Map(), fetchRequests = [];
+const githubIssues = [];
+let githubIssueCreates = 0, githubPostedBody = '';
 class FixtureDate extends Date {
   constructor(...args) { super(...(args.length ? args : [FixtureDate.now()])); }
   static now() { return Date.parse((simulatedDay || data.date) + 'T12:00:00+08:00'); }
@@ -48,6 +52,7 @@ function boot() {
   nodes = {}; nodes.app = new Element(); opened = '';
   clock = 0; pageEvents = {}; documentEvents = {};
   const document = {hidden: false, getElementById: id => nodes[id], createElement: tag => new Element(tag),
+    createTextNode(value) { const node = new Element('text'); node.textContent = value; return node; },
     addEventListener(type, handler) { documentEvents[type] = handler; }};
   const context = {window: {REVIEW_DATA: data,
     navigator: clipboardImpl ? {clipboard: {writeText(value) {
@@ -55,10 +60,33 @@ function boot() {
       return clipboardImpl(value);
     }}} : undefined,
     open: url => { opened = url; },
+    sessionStorage: storage,
     addEventListener(type, handler) { pageEvents[type] = handler; }}, document, localStorage: storage,
     performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console,
-    fetch: async path => {
+    fetch: async (path, options={}) => {
       fetchRequests.push(path);
+      const repoRoot = 'https://api.github.com/repos/pkppkqbobs/kaoyan-english-trainer/issues';
+      if (path === 'https://api.github.com/user') {
+        assert.ok(options.headers.Authorization.startsWith('Bearer github_pat_'));
+        return {ok:true,status:200,json:async()=>({login:'pkppkqbobs'})};
+      }
+      if (path.startsWith(repoRoot + '?')) {
+        return {ok:true,status:200,json:async()=>structuredClone(githubIssues)};
+      }
+      if (path.startsWith(repoRoot + '/') && options.method !== 'POST') {
+        const id = Number(path.split('/').at(-1));
+        const found = githubIssues.find(i=>i.number===id);
+        return {ok:!!found,status:found?200:404,json:async()=>structuredClone(found)};
+      }
+      if (path === repoRoot && options.method === 'POST') {
+        githubIssueCreates++;
+        const payload=JSON.parse(options.body);
+        githubPostedBody=payload.body;
+        const issue={number:300+githubIssueCreates,title:payload.title,body:payload.body,
+          html_url:'https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/'+(300+githubIssueCreates)};
+        githubIssues.push(issue);
+        return {ok:true,status:201,json:async()=>structuredClone(issue)};
+      }
       return {ok: mockPayloads.has(path), json: async () => structuredClone(mockPayloads.get(path))};
     }};
   vm.runInNewContext(source, context, {timeout: 2000});
@@ -117,7 +145,7 @@ assert.equal(snapshot().runs[0].answers[0].ok, false, 'Retry must not erase init
 clickText('② 查看本轮错题与解析');
 assert.ok(nodes.body.textContent.includes('Question about main-0'));
 clickText('返回本轮结果');
-clickText('提交结果到 GitHub');
+clickText('备用提交：复制报告并打开空白 Issue');
 assert.equal(new URL(opened).searchParams.has('body'), false, 'submission URL must not include a long report body');
 const body = nodes.body.children.find(x => x.tag === 'textarea' && x.value.includes('<!-- review-json:v3'))?.value;
 assert.ok(body, 'full structured report must remain available on page');
@@ -134,7 +162,7 @@ clipboardImpl = value => {
   return Promise.resolve();
 };
 boot();
-clickText('提交结果到 GitHub');
+clickText('备用提交：复制报告并打开空白 Issue');
 assert.ok(copiedBeforeOpen, 'request clipboard before window.open steals focus');
 assert.equal(new URL(opened).searchParams.has('body'), false);
 await new Promise(setImmediate);
@@ -300,4 +328,34 @@ assert.equal(JSON.stringify(restored.runs[0].answers), originalAnswers);
 assert.equal(storage[dailyKey], dailySnapshot);
 assert.equal(storage[passageKey], passageSnapshot);
 assert.equal(storage[text4Key], text4Snapshot, 'historical retry must preserve the latest article');
+
+// One-time credential setup: never include PAT in reports or answer storage.
+Object.assign(data, {date:'2026-09-29',storagePrefix:'kaoyan.daily.v3.',
+  storageId:'2026-09-29',questions:dailyQuestionsForAuto, retry:dailyRetryForAuto,
+  repo:'pkppkqbobs/kaoyan-english-trainer'});
+boot();
+nodes.githubAuthBtn.click();
+const authInput=nodes.body.children.find(x=>x.tag==='input' && x.type==='password');
+assert.ok(authInput, 'settings must render a masked credential field');
+authInput.value='github_pat_minimum_issues_test';
+clickText('③ 保存授权并自动同步');
+await new Promise(setImmediate);
+assert.equal(storage['kaoyan.github.issue-credential.v1.pkppkqbobs/kaoyan-english-trainer'],
+  'github_pat_minimum_issues_test', 'opt-in persistence is separate from the training record');
+assert.equal(githubIssueCreates,0,'configuring an unfinished quiz must not invent a score');
+for(let i=0;i<8;i++) { answer(true); clickText(i===7?'完成本轮':'下一题'); }
+await new Promise(setImmediate);
+assert.equal(githubIssueCreates,1,'completion must directly create one authenticated Issue');
+assert.equal(githubIssues[0].title.startsWith('[TRAINING_RESULT]'),true);
+assert.ok(githubPostedBody.includes('<!-- review-json:v3'));
+assert.ok(!githubPostedBody.includes('github_pat_'),'secret must never appear in the report');
+assert.ok(!JSON.stringify(snapshot()).includes('github_pat_'),'secret must not leak into learning state');
+clickText('提交结果到 GitHub');
+await new Promise(setImmediate);
+assert.equal(githubIssueCreates,1,'repeated clicks must not create duplicate Issues');
+nodes.githubAuthBtn.click();
+clickText('移除此浏览器中的 GitHub 授权');
+assert.equal(storage['kaoyan.github.issue-credential.v1.pkppkqbobs/kaoyan-english-trainer'],undefined,
+  'revocation must remove the local credential');
+
 console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection, immutable historical retry recovery, fetch failure, wrong-source rejection, duplicate-click prevention, same-context exclusion.');
