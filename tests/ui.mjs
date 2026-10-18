@@ -121,6 +121,10 @@ assert.equal(report.answers[0].pick, firstWrong.pick);
 assert.deepEqual(report.answers[0].optionOrder, shuffledFirst.o.map(x=>originalFirst.o.indexOf(x)));
 assert.equal(report.answers[0].optionOrder[report.answers[0].expected], originalFirst.a);
 assert.equal(report.retrySummary[0].correct, 1);
+clickText('备用提交：复制报告并打开空白 Issue');
+assert.equal(new URL(opened).searchParams.has('body'), false, 'fallback issue URL must not carry a long body query');
+assert.ok(nodes.body.children.some(x => x.tag === 'textarea' && x.value.includes('<!-- review-json:v3')),
+  'fallback must expose the full structured report when clipboard is unavailable');
 clickText('③ 全部重做');
 assert.equal(snapshot().runs.length, 3, 'All-redo must archive previous runs');
 assert.equal(run().answers.length, 0);

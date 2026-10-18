@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-10-18",
-  "source_commit": "eb503af21ff40db678078310237a5aeb9b8c9212",
+  "source_commit": "8b4d4dd98c0cf83a777726b06e6e35398fbfbd0f",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -297,7 +297,15 @@
     "text4-state-privileges-a": "context:text4-state-privileges-a",
     "text4-state-privileges-b": "context:text4-state-privileges-b",
     "text4-executive-overreach-a": "context:text4-executive-overreach-a",
-    "text4-executive-overreach-b": "context:text4-executive-overreach-b"
+    "text4-executive-overreach-b": "context:text4-executive-overreach-b",
+    "text4-field-safety-label-c": "context:text4-field-safety-label-c",
+    "text4-agreement-target-c": "context:text4-agreement-target-c",
+    "text4-historical-inference-c": "context:text4-historical-inference-c",
+    "text4-executive-overreach-c": "context:text4-executive-overreach-c",
+    "causal-role-deadline-response-c": "context:causal-role-deadline-response-c",
+    "example-factory-reporting-measure-e": "context:example-factory-reporting-measure-e",
+    "with-archive-loading-c": "context:with-archive-loading-c",
+    "nested-valve-leak-c": "context:nested-valve-leak-c"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -330,7 +338,15 @@
     "text4-state-privileges-a": "沿海定居法案的历史引用，用于推断异议法官支持地方权力。",
     "text4-state-privileges-b": "河流管理语境，练习历史材料的论证方向。",
     "text4-executive-overreach-a": "铁路安全政策语境，测试行政部门阻止地方执行与司法制衡之间的关系。",
-    "text4-executive-overreach-b": "地区规则与行政执法优先级语境，区分行政机构的主张与作者认可的事实。"
+    "text4-executive-overreach-b": "地区规则与行政执法优先级语境，区分行政机构的主张与作者认可的事实。",
+    "text4-field-safety-label-c": "产品标签制度语境，区分parallel、直接冲突与occupied field；正确项不靠唯一最长的选项长度提示。",
+    "text4-agreement-target-c": "县级身份核查语境，区分法官认可的地方执法角色与国会提供的理由。",
+    "text4-historical-inference-c": "旧法案用于质疑国家裁决的历史推断，判断材料支持州权还是联邦权力。",
+    "text4-executive-overreach-c": "行政机构的执法优先级与地区权限冲突，识别被描述的权力主张。",
+    "causal-role-deadline-response-c": "拨款申请延期语境，区分已知触发原因与未测量的后续参与影响。",
+    "example-factory-reporting-measure-e": "匿名安全报告语境，区分记录事件数量与真实危险因素变化。",
+    "with-archive-loading-c": "档案馆重新开放语境，识别with + noun + participle表达的伴随状态。",
+    "nested-valve-leak-c": "工程师关闭生产线语境，分别定位who定语从句、that宾语从句和主句谓语。"
   },
   "family_assessments": {
     "reference": {
@@ -408,19 +424,19 @@
     },
     "text4-federal-state-boundary": {
       "coverage_gap": true,
-      "reason": "首批两个不同语境：一题训练knock out/contested及field preemption语义，一题迁移到医疗器械标签规则。继续观察是否能区分parallel、direct contradiction与occupied field，不凭两题即判掌握。"
+      "reason": "新迁移题刻意平衡选项长度，检验能否区分parallel、direct contradiction与field pre-emption。"
     },
     "text4-agreement-target": {
       "coverage_gap": true,
-      "reason": "首批两个不同语境专门区分题干询问的司法结论与国会提供的理由；需要通过后续真实作答确认主体跟踪是否稳定。"
+      "reason": "新迁移题用相近长度选项区分司法结论与国会提供的理由。"
     },
     "text4-historical-inference": {
       "coverage_gap": true,
-      "reason": "首批两个不同历史背景的迁移题训练历史材料支持哪一方；不以法案名称相似作为唯一连接证据。"
+      "reason": "新迁移题保留历史材料的论证方向推断，同时控制正确选项的长度优势。"
     },
     "text4-executive-overreach": {
       "coverage_gap": true,
-      "reason": "首批两个不同语境区分行政部门所主张的权力范围与作者认可的司法制衡结论；继续观察是否避免把具体权限扩大成一般命题。"
+      "reason": "新迁移题区分行政部门的权力主张与司法制衡结论，并控制选项长度差异。"
     }
   },
   "historical_content_findings": [

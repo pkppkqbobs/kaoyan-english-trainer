@@ -306,10 +306,42 @@
     lines.push('', '<!-- review-json:v3', JSON.stringify(obj), '-->');
     return lines.join('\n');
   }
+  function showCopyFallback(text) {
+    const body = byId('body');
+    const area = document.createElement('textarea');
+    area.value = text;
+    area.rows = 14;
+    area.readOnly = true;
+    if (area.style) { area.style.width = '100%'; area.style.minHeight = '220px'; }
+    body.appendChild(area);
+    if (typeof area.focus === 'function') area.focus();
+    if (typeof area.select === 'function') area.select();
+    notice('备用 Issue 页面已打开。若报告未自动复制，下面已显示完整报告；按 Ctrl+C 后粘贴到 GitHub 内容框。');
+  }
+  function fallbackSubmit() {
+    const root = rootRun();
+    const title = '[TRAINING_RESULT] ' + (DATA.reportTitle || '每日复习') + ' ' + root.date + ' ' + root.id;
+    window.open('https://github.com/' + DATA.repo + '/issues/new?title=' + encodeURIComponent(title), '_blank', 'noopener,noreferrer');
+    const text = reportText();
+    const clipboard = window.navigator && window.navigator.clipboard;
+    if (!clipboard || typeof clipboard.writeText !== 'function') { showCopyFallback(text); return; }
+    try {
+      const pending = clipboard.writeText(text);
+      if (pending && typeof pending.then === 'function') {
+        pending.then(() => notice('已打开备用 Issue 页面并复制完整报告；请粘贴到内容框后提交。'))
+          .catch(() => showCopyFallback(text));
+      } else {
+        notice('已打开备用 Issue 页面；请将报告粘贴到内容框后提交。');
+      }
+    } catch (_) {
+      showCopyFallback(text);
+    }
+  }
   function submit() {
     const root = rootRun();
     const title = '[TRAINING_RESULT] ' + (DATA.reportTitle || '每日复习') + ' ' + root.date + ' ' + root.id;
     const url = 'https://github.com/' + DATA.repo + '/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(reportText());
+    if (url.length > 6000) { fallbackSubmit(); return; }
     window.open(url, '_blank', 'noopener,noreferrer');
     notice('已打开预填报告。还需在 GitHub 点击 Submit new issue 才算提交；重复提交同一轮不会重复计算。仓库是公开的，报告只含题目表现，不含聊天全文。');
   }
@@ -328,6 +360,7 @@
     actions.appendChild(button('② 查看本轮错题与解析', wrongView));
     actions.appendChild(button('③ 全部重做', () => { createRun('main', shuffle(root.queue), null); render(); }));
     actions.appendChild(button('提交结果到 GitHub', submit, 'primary'));
+    actions.appendChild(button('备用提交：复制报告并打开空白 Issue', fallbackSubmit));
     actions.appendChild(button('导出本轮报告', exportReport));
     body.appendChild(actions);
     paragraph(body, '下一轮优先：' + (root.answers.filter(r => !r.ok || r.uncertain).map(r => root.queue.find(q => q.id === r.qid)?.target || r.family).join('；') || '继续间隔复习，不因一次答对就认定稳定。'), 'muted');

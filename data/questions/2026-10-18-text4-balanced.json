@@ -1,0 +1,194 @@
+[
+  {
+    "id": "text4-field-safety-label-c",
+    "family": "text4-federal-state-boundary",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "parallel rule / occupied the field / field pre-emption",
+    "skill": "区分并行规则、直接冲突与领域排除",
+    "q": "A national safety code covers the whole field of product labelling. A state adds a parallel rule, and a court invalidates it because the code has “occupied the field.” Which explanation best fits the ruling?",
+    "o": [
+      "The rule failed because another state's policy directly contradicted it.",
+      "The rule was pre-empted because national law already covered the field.",
+      "The rule was approved because parallel rules can never conflict.",
+      "The court delayed the case until lawmakers revised the enforcement budget."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "国家安全规范全面覆盖了产品标签领域。某州又增加了一项并行规定，法院因为国家规范已经“占据了该领域”而判定州规定无效。最合适的解释是：国家法律已全面规制该领域，因此州规定被排除。",
+      "structure": "A national safety code covers the whole field；第二句由and连接州增加规定与法院判定无效的动作；because从句给出判决理由。occupied the field是法律语境中的领域排除概念。",
+      "other": "product labelling 产品标签；invalidate 判定无效；pre-empt 排除州层面的规制；enforcement budget 执法预算。",
+      "meaning": "parallel表示并行，不等于contradict。即使没有逐条直接冲突，若国家立法已经全面覆盖该领域，州规定仍可能被排除。",
+      "rest": "另一州的政策不是本案依据；parallel rules can never conflict把并行绝对化；法院已经作出无效判决，并非等待预算调整。"
+    }
+  },
+  {
+    "id": "text4-agreement-target-c",
+    "family": "text4-agreement-target",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "judicial conclusion vs legislative reason",
+    "skill": "区分法官认可的结论与国会提供的理由",
+    "q": "A court permits county officers to check residency status during limited enforcement encounters. It cites Congress's support for joint national-local enforcement. What did the judges agree on?",
+    "o": [
+      "Congress must personally direct every local enforcement decision.",
+      "Local authorities may assist with enforcement within the limits set by law.",
+      "National officers must withhold all enforcement information from local teams.",
+      "Local authorities can disregard national rules when enforcing local policy."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "法院允许县级执法人员在有限的执法接触中核查居住身份，并引用国会支持国家与地方共同执法的立场。法官达成一致的是：地方当局可以在法律规定的范围内协助执法。",
+      "structure": "A court permits...直接陈述司法结论；It cites...引出支持这一结论的立法背景。题目问What did the judges agree on，因此应回答法院允许什么，而不是重复国会的理由。",
+      "other": "permit 允许；residency status 居住身份；joint 共同的；enforcement 执法；withhold information 不提供信息。",
+      "meaning": "阅读题要区分结论和论据。国会鼓励共同执法，是法院认可地方执法角色的理由，不是题目所问的结论本身。",
+      "rest": "国会亲自指挥每项地方执法决定过于绝对；原文鼓励信息共享而非要求扣留信息；地方参与执法并不意味着可以无视国家规则。"
+    }
+  },
+  {
+    "id": "text4-historical-inference-c",
+    "family": "text4-historical-inference",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "historical reference / side supported by the argument",
+    "skill": "从历史材料判断论证方向",
+    "q": "A dissenting judge calls an old statute a “strong defense of state privileges” and uses it to challenge a national ruling. What is the best inference about the judge's position?",
+    "o": [
+      "The judge uses the statute to defend state authority against federal control.",
+      "The judge argues that states have no separate authority in this field.",
+      "The judge treats the statute as proof that every federal law is invalid.",
+      "The judge cites the statute only to explain the dispute's historical setting."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一位持异议的法官把一项旧法案称为对州权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官借此维护州的权限，反对联邦权力过度扩张。",
+      "structure": "A dissenting judge是主语；calls an old statute a strong defense...说明他如何描述该法案；uses it to challenge a national ruling进一步说明历史材料在论证中发挥的作用。",
+      "other": "dissenting 持异议的；statute 成文法；privileges 权限、特权；challenge 质疑、反对。",
+      "meaning": "推断历史材料的作用，要看作者把它用于支持哪一方。这里明确把法案当作州权的辩护，而非联邦权力的依据。",
+      "rest": "认为州没有独立权限与strong defense of state privileges相反；文中没有说所有联邦法律都无效；历史背景不是唯一目的，因为法官用该材料来挑战当前裁决。"
+    }
+  },
+  {
+    "id": "text4-executive-overreach-c",
+    "family": "text4-executive-overreach",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "executive claim / relative authority",
+    "skill": "区分行政部门的权力主张与作者认可的结论",
+    "q": "An executive agency says it can invalidate any otherwise lawful regional rule whenever the rule conflicts with its enforcement priorities. What does that claim imply?",
+    "o": [
+      "It claims its enforcement power outweighs regional governments' authority.",
+      "Regional governments may override national laws whenever they disagree.",
+      "The legislature expressly banned all regional enforcement activity.",
+      "The agency accepts regional rules despite differences in enforcement priorities."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一个行政机构声称，只要原本合法的地区规则与其执法优先事项冲突，它就可以使该规则失效。这相当于声称行政机构的执法权高于地区政府的权限。",
+      "structure": "An executive agency says that...引出机构的主张；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+      "other": "executive agency 行政机构；invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；authority 权限。",
+      "meaning": "题目问what does that claim imply，应概括机构声称自己拥有多大权限，而不是把这一主张误当成作者认可的法律结论。",
+      "rest": "地区政府可以随意推翻国家法律是把权力方向反过来；立法机关明文禁止所有地区执法并未在句中出现；最后一项与机构声称可使冲突规则失效相反。"
+    }
+  },
+  {
+    "id": "causal-role-deadline-response-c",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "causal direction / known vs unknown outcome",
+    "skill": "区分已知原因、措施与尚未验证的后续结果",
+    "q": "A grant committee extended an application deadline after several applicants missed it. The report says the effect on later participation has not been measured. Which summary is justified?",
+    "o": [
+      "The missed deadline prompted an extension; later participation effects remain unmeasured.",
+      "Later participation figures prompted the committee to extend the earlier deadline.",
+      "The extension caused applicants to miss a deadline that had already passed.",
+      "Officials changed the deadline only after a separate review showed participation had fallen."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "几名申请者错过截止日期后，拨款委员会延长了申请期限。报告说，尚未测量这一调整对后续参与情况的影响。最准确的概括是：错过截止日期促成了延期，但延期对后续参与的影响仍未知。",
+      "structure": "extended是主句谓语；after several applicants missed it交代延期的时间背景和触发情境；the effect...has not been measured明确限制了对后续结果的推断。",
+      "other": "grant committee 拨款委员会；application deadline 申请截止日期；participation 参与；measure 测量、评估。",
+      "meaning": "必须区分已知的原因与尚未测量的后果。原文支持错过期限后发生延期，但不支持断言延期一定提高或降低后续参与。",
+      "rest": "后续参与数据没有促成前面的延期；延期不可能导致申请者错过一个已经过去的截止日期；原文没有提到另一次审查或参与人数下降。"
+    }
+  },
+  {
+    "id": "example-factory-reporting-measure-e",
+    "family": "example-claim-scope",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "recorded events / actual hazard rate",
+    "skill": "区分记录数量变化与真实风险变化",
+    "q": "After a factory introduced anonymous reporting, recorded safety events rose. Independent inspections found no increase in hazards. Which conclusion is best supported?",
+    "o": [
+      "The factory became more dangerous after anonymous reporting was introduced.",
+      "The rise in reports proves workers deliberately exaggerated safety incidents.",
+      "The higher event count may reflect reporting changes rather than more hazards.",
+      "Independent inspections confirmed that hazards increased throughout the factory."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "工厂引入匿名报告后，记录到的安全事件增加了，但独立检查没有发现危险因素增加。最有根据的结论是：记录数量的上升可能来自报告方式的变化，而非真实危险增加。",
+      "structure": "After引导时间背景；recorded safety events rose描述记录数；Independent inspections found no increase in hazards提供独立证据，限制了对真实风险的推断。",
+      "other": "anonymous reporting 匿名报告；recorded event 记录到的事件；independent inspection 独立检查；hazard 危险因素。",
+      "meaning": "报告数量是观测到的数据，可能受报告机制影响；不能直接把记录数增加等同于真实危险增加。",
+      "rest": "第一项直接断言工厂更危险，与独立检查结果不符；第二项把报告增加归因于故意夸大，原文没有动机证据；第四项把检查结果说反了。"
+    }
+  },
+  {
+    "id": "with-archive-loading-c",
+    "family": "with",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "with + noun + participial phrase",
+    "skill": "识别with复合结构的伴随状态",
+    "q": "The archive reopened at noon, with several boxes waiting in the loading area. What does the with-clause do?",
+    "o": [
+      "It describes a state accompanying the archive's reopening.",
+      "It gives the sole reason the archive reopened at noon.",
+      "It reports an action that archive staff carried out.",
+      "It is the direct object of reopened in the main clause."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "档案馆中午重新开放，当时有几个箱子正等在装卸区。with结构补充了重新开放时伴随的状态。",
+      "structure": "主干是The archive reopened at noon；with several boxes waiting in the loading area是with + 名词 + 现在分词结构，several boxes是waiting的逻辑主语。",
+      "other": "archive 档案馆；reopen 重新开放；loading area 装卸区；accompany 伴随。",
+      "meaning": "with复合结构常补充主句发生时的伴随状态。它不是reopened的直接宾语，也不自动表达原因或目的。",
+      "rest": "句子没有说明这是档案馆重新开放的唯一原因；with短语描述箱子所处的状态，并未说工作人员另做了一项动作；reopened在这里是不及物动词，不需要直接宾语。"
+    }
+  },
+  {
+    "id": "nested-valve-leak-c",
+    "family": "nested",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 60,
+    "target": "who-clause / that-clause / main-clause predicate",
+    "skill": "区分定语从句、宾语从句和主句谓语",
+    "q": "Engineers who noticed that the valve was leaking shut down the line. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+    "o": [
+      "Engineers / noticed / shut down",
+      "the valve / noticed / was leaking",
+      "Engineers / was leaking / noticed",
+      "the line / shut down / noticed"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "注意到阀门漏液的工程师关闭了生产线。按题目要求的顺序，主句主语中心词是Engineers，who从句谓语是noticed，主句谓语是shut down。",
+      "structure": "主句骨架是Engineers shut down the line；who noticed...修饰Engineers；that the valve was leaking是noticed的宾语从句。三个谓语分别属于不同层级。",
+      "other": "engineer 工程师；valve 阀门；leak 漏液；shut down 关闭、停运；subject head 主语中心词。",
+      "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。阀门是that从句的主语，工程师才是主句主语。",
+      "rest": "the valve只在that从句中作主语；was leaking属于that宾语从句，不是who从句谓语；the line是shut down的宾语，不是主句主语。"
+    }
+  }
+]

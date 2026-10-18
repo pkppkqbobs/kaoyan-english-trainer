@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "audited_on": "2026-10-18",
+  "scope": "all active multiple-choice questions in the repository before the balanced Text 4 additions",
+  "baseline": {
+    "question_count": 209,
+    "correct_option_at_max_length": 122,
+    "correct_option_at_max_length_pct": 58.4,
+    "correct_option_uniquely_longest": 105,
+    "correct_option_uniquely_longest_pct": 50.2,
+    "current_article_round_unique_longest": 5,
+    "current_article_round_question_count": 8
+  },
+  "remediation": {
+    "balanced_transfer_questions": 8,
+    "balanced_round_unique_longest": 1,
+    "balanced_round_correct_at_max": 2,
+    "max_option_length_spread": 17
+  },
+  "policy": "For newly authored eight-question review rounds, audit option lengths. Do not let the correct answer be uniquely longest in more than two items, and do not invert the cue so all correct answers are shorter. Length is a quality signal, not a scoring signal.",
+  "note": "This audit is question-quality metadata only. It is not learning evidence, an attempt record, or a score."
+}
