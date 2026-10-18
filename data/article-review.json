@@ -5,7 +5,7 @@
   "meta": "2013 英语一 Reading Text 4 · 平衡选项复盘 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-10-18-2013-text4-balanced",
+  "storageId": "2026-10-18-2013-text4-balanced-r2",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,368 +13,281 @@
   "footer": "本篇复盘结果只有在你点击“提交结果到 GitHub”并在 GitHub 再点 Submit new issue 后，才会进入后续间隔复习。",
   "questions": [
     {
-      "id": "legacy-which",
-      "source": "old",
-      "skill": "介词 + which",
-      "target": "preposition + which",
-      "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
-      "o": [
-        "The archive contains several letters on which the historian based her argument.",
-        "The archive contains several letters which on the historian based her argument.",
-        "The archive contains several letters on that the historian based her argument.",
-        "The archive contains several letters which the historian based her argument on them."
-      ],
-      "a": 0,
-      "diag": {
-        "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
-        "2": "介词后不能用关系代词 that；应使用 which。",
-        "3": "which 已经代替 those letters，后面再用 them 造成重复。"
-      },
-      "exp": {
-        "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
-        "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
-        "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
-        "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
-        "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
-      },
-      "family": "relative",
+      "id": "subject-road-closure-risk",
+      "family": "subject",
       "introduced": null,
-      "budget": 60,
-      "context_id": "on-which-argument"
-    },
-    {
-      "id": "text4-agreement-target-b",
-      "family": "text4-agreement-target",
-      "target": "conclusion vs supporting reason",
-      "skill": "区分司法结论与立法背景",
-      "introduced": "2026-10-18",
-      "published_on": "2026-10-18",
-      "budget": 55,
-      "q": "A court allows city inspectors to check permit status while coordinating with national officers. The opinion cites a statute encouraging shared databases and joint inspections. Which statement is the court's conclusion rather than the supporting reason?",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "target": "be subject to / 实际事件",
+      "skill": "be subject to / be subjected to",
+      "q": "The mountain road is subject to closure during heavy snow. No closure has been announced today. Which report preserves both statements?",
       "o": [
-        "The legislature encouraged coordination between national and local officials.",
-        "Local inspectors may play a legitimate role within the enforcement system.",
-        "Officials are encouraged to share information.",
-        "National law no longer applies to local inspections."
+        "The road has already been closed after a snowstorm.",
+        "Heavy snow can lead to closure, but these lines do not report a closure today.",
+        "The road has been subjected to a closure test today.",
+        "The road is open because heavy snow cannot affect its status."
       ],
       "a": 1,
       "exp": {
-        "trans": "法院允许城市检查员在与国家执法人员协调时核查许可证状态。判决援引了一项鼓励共享数据库和联合检查的法律。法院的结论是：地方检查员可以在执法体系中发挥正当作用。",
-        "structure": "The court allows...陈述法院允许的行为；The opinion cites...介绍支撑理由的法律背景。问题要求找conclusion，因此应回到法院实际允许什么。",
-        "other": "coordinate 协调；permit status 许可证状态；cite 引用；supporting reason 支持理由。",
-        "meaning": "文章中的立法背景、理由和司法结论承担不同功能。即使理由出现得更显眼，也不能把它当成题干询问的结论。",
-        "rest": "鼓励协调和共享信息都是支持理由；原文并未取消国家法律对地方检查的约束。"
+        "trans": "这条山路在大雪期间可能封闭。今天尚未宣布封路。准确报道是：大雪可能带来封路，但这两句没有报道今天已经封路。",
+        "structure": "The mountain road是主语，is是系动词，subject to closure表达所受约束或可能状态。第二句No closure是主语，has been announced是现在完成时被动谓语；没有公告不等于已验证现场一定开放。",
+        "other": "mountain road 山路；closure 封闭；announce 宣布；status 状态。",
+        "meaning": "be subject to可表示有可能受某变化影响，不自动表示该事件已经发生。这里也不能从“尚无公告”推出现场已确认开放。",
+        "rest": "already been closed把可能状态改成已发生事件；subjected to a closure test虚构今天被施加测试的过程；open because ... cannot affect同时虚构开放状态并否认原文给出的封闭风险。"
       },
-      "context_id": "context:text4-agreement-target-b"
+      "context_id": "context:subject-road-closure-risk"
     },
     {
-      "id": "unpretentious-volunteer",
-      "family": "unpretentious",
-      "introduced": "2026-09-29",
-      "target": "unpretentious / unpredictable",
-      "skill": "unpretentious / unpredictable",
-      "q": "Despite her fame, the author washed dishes with the volunteers and asked for no special treatment. Her manner was ___.",
-      "o": [
-        "unpredictable",
-        "hostile",
-        "unpretentious",
-        "perplexing"
-      ],
-      "a": 2,
-      "exp": {
-        "trans": "尽管很有名，这位作家还是和志愿者一起洗碗，没有要求任何特殊待遇。她为人不摆架子。",
-        "structure": "第一句主干：the author（主语）+ washed / asked（并列谓语）；dishes是washed的宾语，for no special treatment是asked后的介词短语。Despite her fame是让步状语。第二句：Her manner + was + unpretentious。",
-        "other": "despite 尽管；fame 名气；volunteer 志愿者；special treatment 特殊待遇。",
-        "meaning": "unpretentious表示朴实、不自命不凡，描述作风而非能否预测。",
-        "rest": "unpredictable：无法预测的，常搭配weather或behaviour；这里没有反复无常的线索。hostile：敌对的，常用be hostile to；与合作洗碗不符。perplexing：令人困惑的，常修饰question或situation；这里强调不摆架子。"
-      },
-      "context_id": "context:unpretentious-volunteer"
-    },
-    {
-      "id": "text4-executive-overreach-c",
+      "id": "text4-executive-overreach-a",
       "family": "text4-executive-overreach",
+      "target": "executive unwillingness vs local permission",
+      "skill": "作者立场 + do so 回指",
       "introduced": "2026-10-18",
       "published_on": "2026-10-18",
-      "budget": 50,
-      "target": "executive claim / relative authority",
-      "skill": "区分行政部门的权力主张与作者认可的结论",
-      "q": "An executive agency says it can invalidate any otherwise lawful regional rule whenever the rule conflicts with its enforcement priorities. What does that claim imply?",
+      "budget": 55,
+      "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
       "o": [
-        "It claims its enforcement power outweighs regional governments' authority.",
-        "Regional governments may override national laws whenever they disagree.",
-        "The legislature expressly banned all regional enforcement activity.",
-        "The agency accepts regional rules despite differences in enforcement priorities."
+        "The court checks an executive attempt to extend power over local councils.",
+        "Parliament alone must enforce every rail-safety rule across all regions.",
+        "The ministry has unlimited control over local councils and their rules.",
+        "Local councils may ignore national rail-safety laws whenever they choose to do so."
       ],
       "a": 0,
       "exp": {
-        "trans": "一个行政机构声称，只要原本合法的地区规则与其执法优先事项冲突，它就可以使该规则失效。这相当于声称行政机构的执法权高于地区政府的权限。",
-        "structure": "An executive agency says that...引出机构的主张；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
-        "other": "executive agency 行政机构；invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；authority 权限。",
-        "meaning": "题目问what does that claim imply，应概括机构声称自己拥有多大权限，而不是把这一主张误当成作者认可的法律结论。",
-        "rest": "地区政府可以随意推翻国家法律是把权力方向反过来；立法机关明文禁止所有地区执法并未在句中出现；最后一项与机构声称可使冲突规则失效相反。"
+        "trans": "法院正在制衡行政部门试图扩大自身对地方议会的权力。",
+        "structure": "because引出交通部不愿执行议会计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出司法回应。",
+        "other": "carry out 执行；executive 行政部门；council 地方议会；reject a claim 驳回一种主张。",
+        "meaning": "行政部门不愿执行议会的计划，不等于它可以阻止地方在法律允许范围内执行。法院驳回这种主张，体现对行政权的制衡。",
+        "rest": "原文没有说所有铁路安全规则只能由议会执行；交通部并没有无限控制权；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
       },
-      "context_id": "context:text4-executive-overreach-c"
+      "context_id": "context:text4-executive-overreach-a"
     },
     {
-      "id": "text4-historical-inference-c",
+      "id": "example-factory-reporting-measure-f",
+      "family": "example-claim-scope",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 50,
+      "target": "recorded incidents / underlying fault rate",
+      "skill": "区分报告数量变化与真实问题变化",
+      "q": "A clinic switched to an online incident form, after which recorded reports rose. External audits found no increase in underlying faults. Which conclusion is best supported?",
+      "o": [
+        "The underlying fault rate rose because the clinic changed its form.",
+        "More recorded incidents may reflect easier reporting, not more faults.",
+        "External audits proved the old reporting system had been accurate.",
+        "The clinic changed the form after a separate review found fewer faults."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "诊所改用在线事件表单后，记录的报告增加了，但外部审计没有发现实际故障增加。记录数量的上升可能来自报告更容易，而不是故障变多。",
+        "structure": "A clinic switched...描述制度变化；after which引出其后的记录变化；External audits found...提供独立证据，限制对真实故障率的推断。",
+        "other": "incident form 事件报告表；recorded report 记录的报告；external audit 外部审计；underlying fault 实际故障。",
+        "meaning": "观测到的报告数会受到报告渠道影响。记录数增加不能单独证明实际问题变多。",
+        "rest": "表单变化本身不能证明故障率上升；审计没有证明旧系统完全准确；文中没有说改表单之前另一次审查发现故障减少。"
+      },
+      "context_id": "context:example-factory-reporting-measure-f"
+    },
+    {
+      "id": "text4-agreement-target-c",
+      "family": "text4-agreement-target",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 50,
+      "target": "judicial conclusion vs legislative reason",
+      "skill": "区分法官认可的结论与国会提供的理由",
+      "q": "A court permits county officers to check residency status during limited enforcement encounters. It cites Congress's support for joint national-local enforcement. What did the judges agree on?",
+      "o": [
+        "Congress must personally direct every local enforcement decision.",
+        "Local authorities may assist with enforcement within the limits set by law.",
+        "National officers must withhold all enforcement information from local teams.",
+        "Local authorities can disregard national rules when enforcing local policy."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "法院允许县级执法人员在有限的执法接触中核查居住身份，并引用国会支持国家与地方共同执法的立场。法官达成一致的是：地方当局可以在法律规定的范围内协助执法。",
+        "structure": "A court permits...直接陈述司法结论；It cites...引出支持这一结论的立法背景。题目问What did the judges agree on，因此应回答法院允许什么，而不是重复国会的理由。",
+        "other": "permit 允许；residency status 居住身份；joint 共同的；enforcement 执法；withhold information 不提供信息。",
+        "meaning": "阅读题要区分结论和论据。国会鼓励共同执法，是法院认可地方执法角色的理由，不是题目所问的结论本身。",
+        "rest": "国会亲自指挥每项地方执法决定过于绝对；原文鼓励信息共享而非要求扣留信息；地方参与执法并不意味着可以无视国家规则。"
+      },
+      "context_id": "context:text4-agreement-target-c"
+    },
+    {
+      "id": "text4-state-privileges-a",
       "family": "text4-historical-inference",
+      "target": "historical reference used to defend local powers",
+      "skill": "历史背景的论证方向推断",
       "introduced": "2026-10-18",
       "published_on": "2026-10-18",
-      "budget": 50,
-      "target": "historical reference / side supported by the argument",
-      "skill": "从历史材料判断论证方向",
-      "q": "A dissenting judge calls an old statute a “strong defense of state privileges” and uses it to challenge a national ruling. What is the best inference about the judge's position?",
+      "budget": 55,
+      "q": "A dissenting judge describes an old coastal settlement act as part of a 'robust defense of local privileges' and uses it to challenge a national ruling. What does this suggest about the judge's position?",
       "o": [
-        "The judge uses the statute to defend state authority against federal control.",
+        "The judge uses the history to defend state authority against federal control.",
         "The judge argues that states have no separate authority in this field.",
-        "The judge treats the statute as proof that every federal law is invalid.",
-        "The judge cites the statute only to explain the dispute's historical setting."
+        "The judge treats the act as proof that every federal law is invalid.",
+        "The judge cites the act only to explain the dispute's historical background."
       ],
       "a": 0,
       "exp": {
-        "trans": "一位持异议的法官把一项旧法案称为对州权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官借此维护州的权限，反对联邦权力过度扩张。",
-        "structure": "A dissenting judge是主语；calls an old statute a strong defense...说明他如何描述该法案；uses it to challenge a national ruling进一步说明历史材料在论证中发挥的作用。",
-        "other": "dissenting 持异议的；statute 成文法；privileges 权限、特权；challenge 质疑、反对。",
-        "meaning": "推断历史材料的作用，要看作者把它用于支持哪一方。这里明确把法案当作州权的辩护，而非联邦权力的依据。",
-        "rest": "认为州没有独立权限与strong defense of state privileges相反；文中没有说所有联邦法律都无效；历史背景不是唯一目的，因为法官用该材料来挑战当前裁决。"
+        "trans": "法官把历史法案用于有力地维护州的权限，反对联邦控制。",
+        "structure": "A dissenting judge是主语；describes...as...说明法官如何定位历史法案；uses it to challenge a national ruling说明引用历史材料的论证方向。",
+        "other": "dissenting 持异议的；robust 有力的；state privileges 州权；challenge 质疑、反对。",
+        "meaning": "推断历史材料的作用，要看它支持哪一方。这里的关键是对州权的辩护，而不是法案名称本身。",
+        "rest": "认为州没有独立权限与对州权的辩护相反；没有证据证明所有联邦法律都无效；历史背景不是唯一目的，因为法官用它来质疑当前裁决。"
       },
-      "context_id": "context:text4-historical-inference-c"
+      "context_id": "context:text4-state-privileges-a"
     },
     {
-      "id": "nested-valve-leak-c",
+      "id": "nested-editor-quote-d",
       "family": "nested",
       "introduced": "2026-10-18",
       "published_on": "2026-10-18",
       "budget": 60,
       "target": "who-clause / that-clause / main-clause predicate",
       "skill": "区分定语从句、宾语从句和主句谓语",
-      "q": "Engineers who noticed that the valve was leaking shut down the line. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+      "q": "Editors who learned that the quote was inaccurate removed it from the draft. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
       "o": [
-        "Engineers / noticed / shut down",
-        "the valve / noticed / was leaking",
-        "Engineers / was leaking / noticed",
-        "the line / shut down / noticed"
+        "Editors / learned / removed",
+        "the quote / learned / was",
+        "Editors / was / learned",
+        "the draft / removed / learned"
       ],
       "a": 0,
       "exp": {
-        "trans": "注意到阀门漏液的工程师关闭了生产线。按题目要求的顺序，主句主语中心词是Engineers，who从句谓语是noticed，主句谓语是shut down。",
-        "structure": "主句骨架是Engineers shut down the line；who noticed...修饰Engineers；that the valve was leaking是noticed的宾语从句。三个谓语分别属于不同层级。",
-        "other": "engineer 工程师；valve 阀门；leak 漏液；shut down 关闭、停运；subject head 主语中心词。",
-        "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。阀门是that从句的主语，工程师才是主句主语。",
-        "rest": "the valve只在that从句中作主语；was leaking属于that宾语从句，不是who从句谓语；the line是shut down的宾语，不是主句主语。"
+        "trans": "得知引文不准确的编辑把它从草稿中删掉了。主句主语中心词是Editors，who从句谓语是learned，主句谓语是removed。",
+        "structure": "主句骨架是Editors removed it from the draft；who learned...修饰Editors；that the quote was inaccurate是learned的宾语从句。三个谓语属于不同层级。",
+        "other": "editor 编辑；quote 引文；inaccurate 不准确的；draft 草稿。",
+        "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
+        "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
       },
-      "context_id": "context:nested-valve-leak-c"
+      "context_id": "context:nested-editor-quote-d"
     },
     {
-      "id": "example-factory-reporting-measure-e",
-      "family": "example-claim-scope",
-      "introduced": "2026-10-18",
-      "published_on": "2026-10-18",
-      "budget": 50,
-      "target": "recorded events / actual hazard rate",
-      "skill": "区分记录数量变化与真实风险变化",
-      "q": "After a factory introduced anonymous reporting, recorded safety events rose. Independent inspections found no increase in hazards. Which conclusion is best supported?",
+      "id": "relative-borrowed-ladder",
+      "family": "relative",
+      "introduced": null,
+      "budget": 60,
+      "target": "preposition + whom",
+      "skill": "介词 + whom",
+      "q": "The plumber thanked the neighbour. He had borrowed a ladder from the neighbour.\n哪句合并正确？",
       "o": [
-        "The factory became more dangerous after anonymous reporting was introduced.",
-        "The rise in reports proves workers deliberately exaggerated safety incidents.",
-        "The higher event count may reflect reporting changes rather than more hazards.",
-        "Independent inspections confirmed that hazards increased throughout the factory."
+        "The plumber thanked the neighbour from that he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom from he had borrowed a ladder.",
+        "The plumber thanked the neighbour from whom he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom he had borrowed a ladder from him."
       ],
       "a": 2,
       "exp": {
-        "trans": "工厂引入匿名报告后，记录到的安全事件增加了，但独立检查没有发现危险因素增加。最有根据的结论是：记录数量的上升可能来自报告方式的变化，而非真实危险增加。",
-        "structure": "After引导时间背景；recorded safety events rose描述记录数；Independent inspections found no increase in hazards提供独立证据，限制了对真实风险的推断。",
-        "other": "anonymous reporting 匿名报告；recorded event 记录到的事件；independent inspection 独立检查；hazard 危险因素。",
-        "meaning": "报告数量是观测到的数据，可能受报告机制影响；不能直接把记录数增加等同于真实危险增加。",
-        "rest": "直接断言工厂更危险，与独立检查结果不符；把报告增加归因于故意夸大，原文没有动机证据；把检查结果说反了。"
+        "trans": "水管工感谢了那位借梯子给他的邻居。",
+        "structure": "原始简单句：He had borrowed a ladder from the neighbour. → 用whom替代重复的the neighbour：the neighbour whom he had borrowed a ladder from → 把from前置：the neighbour from whom he had borrowed a ladder。外层主干是The plumber + thanked + the neighbour，后接修饰neighbour的定语从句。",
+        "other": "plumber 水管工；neighbour 邻居；ladder 梯子；borrow A from B 从B那里借来A。",
+        "meaning": "from不是临时猜出来的，来自原句borrow...from...；先行词是人，介词后用whom。",
+        "rest": "from that：关系代词that不能直接置于介词后。whom from he：介词前置时必须是from whom，不是whom from。from him：关系代词whom已经代替该人，再保留him造成重复。"
       },
-      "context_id": "context:example-factory-reporting-measure-e"
+      "context_id": "context:relative-borrowed-ladder"
     },
     {
-      "id": "text4-field-safety-label-c",
+      "id": "text4-federal-field-a",
       "family": "text4-federal-state-boundary",
+      "target": "knock out / contested provisions / field preemption",
+      "skill": "法律词组放回语境 + 联邦与州权限边界",
       "introduced": "2026-10-18",
       "published_on": "2026-10-18",
-      "budget": 50,
-      "target": "parallel rule / occupied the field / field pre-emption",
-      "skill": "区分并行规则、直接冲突与领域排除",
-      "q": "A national safety code covers the whole field of product labelling. A state adds a parallel rule, and a court invalidates it because the code has “occupied the field.” Which explanation best fits the ruling?",
+      "budget": 55,
+      "q": "A legal report says the court 'knocked out' three contested provisions in a state's licensing plan. The judgment adds that the national legislature had already 'occupied the field,' although the state rules did not directly contradict one specific national clause. Which paraphrase best captures the reasoning?",
       "o": [
-        "The rule failed because another state's policy directly contradicted it.",
-        "The rule was pre-empted because national law already covered the field.",
-        "The rule was approved because parallel rules can never conflict.",
-        "The court delayed the case until lawmakers revised the enforcement budget."
+        "The court delayed the dispute because the rules were too complicated.",
+        "The court struck down the rules because national law covered this field.",
+        "The court approved the rules as harmless additions to national policy.",
+        "The court found that the state had contradicted two other states' own laws."
       ],
       "a": 1,
       "exp": {
-        "trans": "国家安全规范全面覆盖了产品标签领域。某州又增加了一项并行规定，法院因为国家规范已经“占据了该领域”而判定州规定无效。最合适的解释是：国家法律已全面规制该领域，因此州规定被排除。",
-        "structure": "A national safety code covers the whole field；第二句由and连接州增加规定与法院判定无效的动作；because从句给出判决理由。occupied the field是法律语境中的领域排除概念。",
-        "other": "product labelling 产品标签；invalidate 判定无效；pre-empt 排除州层面的规制；enforcement budget 执法预算。",
-        "meaning": "parallel表示并行，不等于contradict。即使没有逐条直接冲突，若国家立法已经全面覆盖该领域，州规定仍可能被排除。",
-        "rest": "另一州的政策不是本案依据；parallel rules can never conflict把并行绝对化；法院已经作出无效判决，并非等待预算调整。"
+        "trans": "法院推翻了州计划中的争议条款，因为国家立法已经全面覆盖该领域。",
+        "structure": "knocked out表示推翻；contested provisions是有争议的条款；although引导让步，说明即使没有直接违反某一条具体规定，也可能因为occupied the field而被排除。",
+        "other": "knock out 推翻、使无效；contested 有争议的；provision 法律条款；occupy the field 全面覆盖某一立法领域。",
+        "meaning": "判决的理由不是其他州的政策，也不是条款太复杂，而是国家立法已经全面规制该领域。parallel不自动等于contradict。",
+        "rest": "延期审理与法院已经推翻条款不符；批准条款与invalidates相反；原文没有说州政策违反了另外两个州的法律。"
       },
-      "context_id": "context:text4-field-safety-label-c"
+      "context_id": "context:text4-federal-field-a"
     }
   ],
   "retry": {
-    "relative": [
+    "subject": [
       {
-        "id": "relative-borrowed-ladder",
-        "family": "relative",
+        "id": "subject-rule-departure",
+        "family": "subject",
         "introduced": null,
-        "budget": 60,
-        "target": "preposition + whom",
-        "skill": "介词 + whom",
-        "q": "The plumber thanked the neighbour. He had borrowed a ladder from the neighbour.\n哪句合并正确？",
+        "budget": 40,
+        "target": "be subject to / be subjected to",
+        "skill": "be subject to / be subjected to",
+        "q": "需要写一句仍适用的票务规则：“发车时间可能调整。”这里只说明可能性，不报告已经执行的处理。哪句准确？",
         "o": [
-          "The plumber thanked the neighbour from that he had borrowed a ladder.",
-          "The plumber thanked the neighbour whom from he had borrowed a ladder.",
-          "The plumber thanked the neighbour from whom he had borrowed a ladder.",
-          "The plumber thanked the neighbour whom he had borrowed a ladder from him."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "水管工感谢了那位借梯子给他的邻居。",
-          "structure": "原始简单句：He had borrowed a ladder from the neighbour. → 用whom替代重复的the neighbour：the neighbour whom he had borrowed a ladder from → 把from前置：the neighbour from whom he had borrowed a ladder。外层主干是The plumber + thanked + the neighbour，后接修饰neighbour的定语从句。",
-          "other": "plumber 水管工；neighbour 邻居；ladder 梯子；borrow A from B 从B那里借来A。",
-          "meaning": "from不是临时猜出来的，来自原句borrow...from...；先行词是人，介词后用whom。",
-          "rest": "from that：关系代词that不能直接置于介词后。whom from he：介词前置时必须是from whom，不是whom from。from him：关系代词whom已经代替该人，再保留him造成重复。"
-        },
-        "context_id": "context:relative-borrowed-ladder"
-      }
-    ],
-    "text4-agreement-target": [
-      {
-        "id": "text4-agreement-target-c",
-        "family": "text4-agreement-target",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "judicial conclusion vs legislative reason",
-        "skill": "区分法官认可的结论与国会提供的理由",
-        "q": "A court permits county officers to check residency status during limited enforcement encounters. It cites Congress's support for joint national-local enforcement. What did the judges agree on?",
-        "o": [
-          "Congress must personally direct every local enforcement decision.",
-          "Local authorities may assist with enforcement within the limits set by law.",
-          "National officers must withhold all enforcement information from local teams.",
-          "Local authorities can disregard national rules when enforcing local policy."
+          "Departure times were subjected to repeated adjustments yesterday.",
+          "Departure times are subject to change.",
+          "Departure times are subjected to a detailed inspection every morning.",
+          "Departure times are immune to change."
         ],
         "a": 1,
         "exp": {
-          "trans": "法院允许县级执法人员在有限的执法接触中核查居住身份，并引用国会支持国家与地方共同执法的立场。法官达成一致的是：地方当局可以在法律规定的范围内协助执法。",
-          "structure": "A court permits...直接陈述司法结论；It cites...引出支持这一结论的立法背景。题目问What did the judges agree on，因此应回答法院允许什么，而不是重复国会的理由。",
-          "other": "permit 允许；residency status 居住身份；joint 共同的；enforcement 执法；withhold information 不提供信息。",
-          "meaning": "阅读题要区分结论和论据。国会鼓励共同执法，是法院认可地方执法角色的理由，不是题目所问的结论本身。",
-          "rest": "国会亲自指挥每项地方执法决定过于绝对；原文鼓励信息共享而非要求扣留信息；地方参与执法并不意味着可以无视国家规则。"
+          "trans": "Departure times are subject to change：发车时间可能发生调整。",
+          "structure": "Departure times（主语）+ are（系动词）+ subject to change（表语）。这里是规则或可能状态，不是在叙述谁已经对时刻表做了什么处理。",
+          "other": "departure 出发；adjustment 调整；inspection 检查；be immune to 不受……影响。",
+          "meaning": "be subject to在这条规则中表示可能受变化影响。be subjected to通常强调某对象被施加了某个过程。",
+          "rest": "were subjected to repeated adjustments yesterday：报告昨天实际经历了反复调整，时态和事件性质均不符。are subjected to a detailed inspection：说每天被施加检查过程，inspection也不是时间可能调整。are immune to change：表示不受变化影响，与题意相反。"
         },
-        "context_id": "context:text4-agreement-target-c"
+        "context_id": "context:subject-rule-departure"
       },
       {
-        "id": "text4-agreement-target-a",
-        "family": "text4-agreement-target",
-        "target": "what the judges agreed on vs why",
-        "skill": "题干询问对象 + 结论与理由分层",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "Judges agreed that county officers could verify residency status during certain enforcement encounters. The opinion explains that the national legislature had repeatedly encouraged joint national-local enforcement and information sharing. What did the judges agree on?",
+        "id": "subject-curtains-steam",
+        "family": "subject",
+        "introduced": null,
+        "budget": 45,
+        "target": "subject A to B / be subjected to",
+        "skill": "be subject to / be subjected to",
+        "q": "The cleaner deliberately subjected the curtains to a steam treatment yesterday.\n要保留“昨天实际施加了处理”的含义，哪句被动改写准确？",
         "o": [
-          "The national legislature had taken over every local enforcement decision.",
-          "Counties were independent of national law.",
-          "Local authorities had a legitimate role in enforcement within legal limits.",
-          "National officers were required to withhold information."
+          "The curtains are subject to changes in fashion.",
+          "The curtains were exempt from treatment yesterday.",
+          "The curtains were subjected to a steam treatment by the cleaner yesterday.",
+          "The curtains are suitable for steam treatment."
         ],
         "a": 2,
         "exp": {
-          "trans": "法官们同意，县级执法人员在某些执法接触中可以核查居住身份。判决解释说，国家立法机关一直鼓励国家与地方共同执法和共享信息。法官们达成一致的是：地方当局在法律允许的范围内拥有正当的执法角色。",
-          "structure": "Judges agreed that...直接引出法官认可的结论；The opinion explains that...再引出支持这一结论的理由。不要把后一句的national legislature误当成题干询问的结论主体。",
-          "other": "verify 核实；enforcement 执法；legitimate 正当的、合法的；withhold information 扣留信息、不提供信息。",
-          "meaning": "题干问what did the judges agree on，先找法院允许什么，再看立法机关的政策如何解释该决定。理由提到了国会，不代表答案就是国会介入。",
-          "rest": "没有说立法机关接管所有地方执法；地方仍受国家法律约束；原文支持信息共享，而非要求联邦人员隐瞒信息。"
+          "trans": "清洁人员昨天特意对窗帘做了蒸汽处理。被动句：窗帘昨天被清洁人员进行了蒸汽处理。",
+          "structure": "主动简单句：The cleaner（主语）+ subjected（谓语）+ the curtains（宾语）+ to a steam treatment。→ 把宾语the curtains提升为被动句主语，把subjected改成were subjected，并用by保留施事：The curtains were subjected to a steam treatment by the cleaner yesterday。",
+          "other": "cleaner 清洁人员；curtain 窗帘；deliberately 特意地；steam treatment 蒸汽处理。",
+          "meaning": "subject A to B表示使A经历B；变成被动结构就是A be subjected to B，实际处理过程仍然保留。",
+          "rest": "are subject to changes in fashion：说窗帘可能受时尚变化影响，不是昨天被处理的事件。were exempt from treatment：免于处理，与原文相反。are suitable for steam treatment：适合做处理，只表示适宜性，不能证明处理发生过。"
         },
-        "context_id": "context:text4-agreement-target-a"
-      }
-    ],
-    "unpretentious": [
-      {
-        "id": "legacy-unpretentious",
-        "source": "today",
-        "skill": "unpretentious / unpredictable",
-        "target": "unpretentious / unpredictable",
-        "q": "The scientist's office was surprisingly ___: plain shelves, an old desk, and no awards on display.",
-        "o": [
-          "unpretentious",
-          "unpredictable",
-          "formidable",
-          "perplexing"
-        ],
-        "a": 0,
-        "diag": {
-          "1": "把 unpretentious 和 unpredictable 混淆了：这里描述的是朴素、不摆架子的风格，不是“无法预测”。",
-          "2": "formidable 表示“令人敬畏的、难对付的”，与 plain / no awards 的语义方向相反。",
-          "3": "perplexing 表示“令人困惑的”，这里没有“难以理解”的线索。"
-        },
-        "exp": {
-          "trans": "这位科学家的办公室出人意料地朴素：普通的书架、一张旧书桌，而且没有陈列任何奖项。",
-          "structure": "主干：The scientist's office（主语）+ was（系动词）+ unpretentious（表语）。冒号后 plain shelves, an old desk, and no awards on display 是对“朴素”的具体说明。",
-          "other": "plain 普通的/朴素的；shelf 书架；on display 陈列着；award 奖项。",
-          "meaning": "unpretentious = 不装腔作势的、朴实低调的。注意：unpredictable 才是“无法预测的”。",
-          "rest": "unpredictable = 无法预测的；formidable = 令人敬畏的/难对付的；perplexing = 令人困惑的。这道题只有 unpretentious（朴素、不摆架子）与后面的普通书架、旧桌子、不展示奖项一致。"
-        },
-        "family": "unpretentious",
-        "introduced": "2026-09-29",
-        "budget": 35,
-        "context_id": "plain-room-unpretentious"
-      },
-      {
-        "id": "unpredictable-response-time",
-        "family": "unpretentious",
-        "introduced": "2026-09-29",
-        "target": "unpretentious / unpredictable",
-        "skill": "unpretentious / unpredictable",
-        "q": "On the same phone, the app sometimes opens instantly and sometimes takes a full minute. Its response time is ___.",
-        "o": [
-          "unpretentious",
-          "unpredictable",
-          "constant",
-          "reliable"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "在同一部手机上，这个应用有时马上打开，有时却要整整一分钟。它的响应时间难以预测。",
-          "structure": "the app是主语；opens和takes是并列谓语，sometimes...and sometimes...形成对比。第二句：Its response time（主语）+ is（系动词）+ unpredictable（表语）。",
-          "other": "instantly 立刻；a full minute 整整一分钟；response time 响应时间；constant 恒定的。",
-          "meaning": "unpredictable来自predict，表示难以预测；这里说性能表现忽快忽慢。",
-          "rest": "unpretentious：朴实、不摆架子的，常修饰person/style，不表示快慢无法预测。constant：恒定的，与忽快忽慢相反。reliable：可靠的，常用reliable information/service，不能概括这里不稳定的时间表现。"
-        },
-        "context_id": "context:unpredictable-response-time"
+        "context_id": "context:subject-curtains-steam"
       }
     ],
     "text4-executive-overreach": [
       {
-        "id": "text4-executive-overreach-a",
+        "id": "text4-executive-overreach-c",
         "family": "text4-executive-overreach",
-        "target": "executive unwillingness vs local permission",
-        "skill": "作者立场 + do so 回指",
         "introduced": "2026-10-18",
         "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
+        "budget": 50,
+        "target": "executive claim / relative authority",
+        "skill": "区分行政部门的权力主张与作者认可的结论",
+        "q": "An executive agency says it can invalidate any otherwise lawful regional rule whenever the rule conflicts with its enforcement priorities. What does that claim imply?",
         "o": [
-          "The court is checking an attempt by the executive to extend its own power.",
-          "Rail-safety issues are always decided solely by Parliament.",
-          "The ministry has unlimited authority over local councils.",
-          "Local councils may disregard every national law."
+          "It claims its enforcement power outweighs regional governments' authority.",
+          "Regional governments may override national laws whenever they disagree.",
+          "The legislature expressly banned all regional enforcement activity.",
+          "The agency accepts regional rules despite differences in enforcement priorities."
         ],
         "a": 0,
         "exp": {
-          "trans": "交通部表示，因为它不想执行议会的铁路安全计划，地方议会也不应被允许执行。法院驳回了这一主张。最有根据的结论是，法院正在制衡行政部门扩大自身权力的企图。",
-          "structure": "because引出交通部不愿执行计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出对该主张的司法回应。",
-          "other": "carry out 执行、落实；executive 行政部门；council 地方议会/委员会；reject a claim 驳回一种主张。",
-          "meaning": "行政部门不愿执行立法机关的计划，不等于它可以禁止地方在法律允许的范围内执行。法院驳回这种主张，支持对行政权的制衡。",
-          "rest": "文本没有说铁路安全只能由议会处理；交通部并没有无限权力；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
+          "trans": "一个行政机构声称，只要原本合法的地区规则与其执法优先事项冲突，它就可以使该规则失效。这相当于声称行政机构的执法权高于地区政府的权限。",
+          "structure": "An executive agency says that...引出机构的主张；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+          "other": "executive agency 行政机构；invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；authority 权限。",
+          "meaning": "题目问what does that claim imply，应概括机构声称自己拥有多大权限，而不是把这一主张误当成作者认可的法律结论。",
+          "rest": "地区政府可以随意推翻国家法律是把权力方向反过来；立法机关明文禁止所有地区执法并未在句中出现；最后一项与机构声称可使冲突规则失效相反。"
         },
-        "context_id": "context:text4-executive-overreach-a"
+        "context_id": "context:text4-executive-overreach-c"
       },
       {
         "id": "text4-executive-overreach-b",
@@ -400,114 +313,6 @@
           "rest": "地区政府权力永远高于国家法律过于绝对；没有说立法机关明文禁止所有地区执法；机构声称能使规则失效，说明它并未承认地区规则一律有效。"
         },
         "context_id": "context:text4-executive-overreach-b"
-      }
-    ],
-    "text4-historical-inference": [
-      {
-        "id": "text4-state-privileges-a",
-        "family": "text4-historical-inference",
-        "target": "historical reference used to defend local powers",
-        "skill": "历史背景的论证方向推断",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "A dissenting judge describes an old coastal settlement act as part of a 'robust defense of local privileges' and uses it to challenge a national ruling. What does this suggest about the judge's position?",
-        "o": [
-          "The judge favors protecting local or state authority.",
-          "The judge argues that local authorities should have no powers.",
-          "The judge believes the old act proves every national statute is invalid.",
-          "The judge supports the national ruling and rejects local autonomy."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "一位持异议的法官把一项旧的沿海定居法案描述为对地方特权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官倾向于保护地方或州的权力。",
-          "structure": "a dissenting judge是主语；describes...as...说明法官如何定位该历史法案；uses it to challenge...表明引用它是为了反对国家裁决。",
-          "other": "dissenting 持异议的；robust 有力的；privilege 特权、权限；local autonomy 地方自治。",
-          "meaning": "推断历史材料的论证方向，要看作者如何使用它。robust defense of local privileges明确把历史材料用于支持地方权力，而不是支持国家权力。",
-          "rest": "地方权力被取消与defense of local privileges相反；没有证据证明所有国家法律都无效；法官正在质疑国家裁决，并非支持它。"
-        },
-        "context_id": "context:text4-state-privileges-a"
-      },
-      {
-        "id": "text4-state-privileges-b",
-        "family": "text4-historical-inference",
-        "target": "historical evidence and the side it supports",
-        "skill": "历史引用的立场归属",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "In a dispute over river management, a judge's dissent traces a 'strong defense of state privileges' back to an early national statute. What is the best inference?",
-        "o": [
-          "The judge's argument favors state powers.",
-          "The judge says the statute stripped states of all authority.",
-          "The judge agrees national officials may cancel any state rule they dislike.",
-          "The judge is discussing only the technical cost of river management."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "在一场河流管理争议中，一位法官的异议意见把对州权的有力辩护追溯到一项早期国家法案。最合理的推断是，该法官的论证支持州的权力。",
-          "structure": "a judge's dissent是中心名词短语；traces...back to...表示追溯来源；strong defense of state privileges直接提示被辩护的一方是州。",
-          "other": "dissent 异议意见；trace back to 追溯到；strip someone of authority 剥夺某人的权限。",
-          "meaning": "历史法案的名称或年代不是唯一线索；更重要的是作者把它用来支持哪一方。此处明确说的是对州权的辩护。",
-          "rest": "剥夺州权与strong defense of state privileges相反；文中没有授权国家官员随意取消州规则；河流管理成本不是论证重点。"
-        },
-        "context_id": "context:text4-state-privileges-b"
-      }
-    ],
-    "nested": [
-      {
-        "id": "legacy-who-that-main",
-        "source": "today",
-        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-        "target": "who 定语从句 / that 宾语从句",
-        "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
-        "o": [
-          "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
-          "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
-          "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
-          "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
-        ],
-        "a": 0,
-        "diag": {
-          "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
-          "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
-          "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
-        },
-        "exp": {
-          "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
-          "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
-          "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
-          "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
-          "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
-        },
-        "family": "nested",
-        "introduced": "2026-09-29",
-        "budget": 60,
-        "context_id": "nested-who-that-predicate"
-      },
-      {
-        "id": "nested-shared-gate",
-        "family": "nested",
-        "introduced": "2026-09-29",
-        "budget": 60,
-        "target": "who 定语从句 / that 宾语从句",
-        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-        "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
-        "o": [
-          "Residents / discovered / called",
-          "the shared gate / discovered / was",
-          "Residents / was unlocked / discovered",
-          "the caretaker / called / discovered"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
-          "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
-          "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
-          "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
-          "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
-        },
-        "context_id": "nested-who-that-predicate"
       }
     ],
     "example-claim-scope": [
@@ -610,33 +415,275 @@
           "rest": "奖励后上报增多不能证明危险增多，调查反而指出发生频率未变；文中没有比较匿名调查和正式记录的证据等级；匿名是调查方式，奖励是先前制度变化，材料没有直接比较二者激励强度。"
         },
         "context_id": "context:example-factory-reporting-measure-d"
+      },
+      {
+        "id": "example-factory-reporting-measure-e",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "recorded events / actual hazard rate",
+        "skill": "区分记录数量变化与真实风险变化",
+        "q": "After a factory introduced anonymous reporting, recorded safety events rose. Independent inspections found no increase in hazards. Which conclusion is best supported?",
+        "o": [
+          "The factory became more dangerous after anonymous reporting was introduced.",
+          "The rise in reports proves workers deliberately exaggerated safety incidents.",
+          "The higher event count may reflect reporting changes rather than more hazards.",
+          "Independent inspections confirmed that hazards increased throughout the factory."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "工厂引入匿名报告后，记录到的安全事件增加了，但独立检查没有发现危险因素增加。最有根据的结论是：记录数量的上升可能来自报告方式的变化，而非真实危险增加。",
+          "structure": "After引导时间背景；recorded safety events rose描述记录数；Independent inspections found no increase in hazards提供独立证据，限制了对真实风险的推断。",
+          "other": "anonymous reporting 匿名报告；recorded event 记录到的事件；independent inspection 独立检查；hazard 危险因素。",
+          "meaning": "报告数量是观测到的数据，可能受报告机制影响；不能直接把记录数增加等同于真实危险增加。",
+          "rest": "直接断言工厂更危险，与独立检查结果不符；把报告增加归因于故意夸大，原文没有动机证据；把检查结果说反了。"
+        },
+        "context_id": "context:example-factory-reporting-measure-e"
+      }
+    ],
+    "text4-agreement-target": [
+      {
+        "id": "text4-agreement-target-a",
+        "family": "text4-agreement-target",
+        "target": "what the judges agreed on vs why",
+        "skill": "题干询问对象 + 结论与理由分层",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "Judges agreed that county officers could verify residency status during certain enforcement encounters. The opinion explains that the national legislature had repeatedly encouraged joint national-local enforcement and information sharing. What did the judges agree on?",
+        "o": [
+          "The national legislature had taken over every local enforcement decision.",
+          "Counties were independent of national law.",
+          "Local authorities had a legitimate role in enforcement within legal limits.",
+          "National officers were required to withhold information."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "法官们同意，县级执法人员在某些执法接触中可以核查居住身份。判决解释说，国家立法机关一直鼓励国家与地方共同执法和共享信息。法官们达成一致的是：地方当局在法律允许的范围内拥有正当的执法角色。",
+          "structure": "Judges agreed that...直接引出法官认可的结论；The opinion explains that...再引出支持这一结论的理由。不要把后一句的national legislature误当成题干询问的结论主体。",
+          "other": "verify 核实；enforcement 执法；legitimate 正当的、合法的；withhold information 扣留信息、不提供信息。",
+          "meaning": "题干问what did the judges agree on，先找法院允许什么，再看立法机关的政策如何解释该决定。理由提到了国会，不代表答案就是国会介入。",
+          "rest": "没有说立法机关接管所有地方执法；地方仍受国家法律约束；原文支持信息共享，而非要求联邦人员隐瞒信息。"
+        },
+        "context_id": "context:text4-agreement-target-a"
+      },
+      {
+        "id": "text4-agreement-target-b",
+        "family": "text4-agreement-target",
+        "target": "conclusion vs supporting reason",
+        "skill": "区分司法结论与立法背景",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A court allows city inspectors to check permit status while coordinating with national officers. The opinion cites a statute encouraging shared databases and joint inspections. Which statement is the court's conclusion rather than the supporting reason?",
+        "o": [
+          "The legislature encouraged coordination between national and local officials.",
+          "Local inspectors may play a legitimate role within the enforcement system.",
+          "Officials are encouraged to share information.",
+          "National law no longer applies to local inspections."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "法院允许城市检查员在与国家执法人员协调时核查许可证状态。判决援引了一项鼓励共享数据库和联合检查的法律。法院的结论是：地方检查员可以在执法体系中发挥正当作用。",
+          "structure": "The court allows...陈述法院允许的行为；The opinion cites...介绍支撑理由的法律背景。问题要求找conclusion，因此应回到法院实际允许什么。",
+          "other": "coordinate 协调；permit status 许可证状态；cite 引用；supporting reason 支持理由。",
+          "meaning": "文章中的立法背景、理由和司法结论承担不同功能。即使理由出现得更显眼，也不能把它当成题干询问的结论。",
+          "rest": "鼓励协调和共享信息都是支持理由；原文并未取消国家法律对地方检查的约束。"
+        },
+        "context_id": "context:text4-agreement-target-b"
+      }
+    ],
+    "text4-historical-inference": [
+      {
+        "id": "text4-historical-inference-c",
+        "family": "text4-historical-inference",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "historical reference / side supported by the argument",
+        "skill": "从历史材料判断论证方向",
+        "q": "A dissenting judge calls an old statute a “strong defense of state privileges” and uses it to challenge a national ruling. What is the best inference about the judge's position?",
+        "o": [
+          "The judge uses the statute to defend state authority against federal control.",
+          "The judge argues that states have no separate authority in this field.",
+          "The judge treats the statute as proof that every federal law is invalid.",
+          "The judge cites the statute only to explain the dispute's historical setting."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "一位持异议的法官把一项旧法案称为对州权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官借此维护州的权限，反对联邦权力过度扩张。",
+          "structure": "A dissenting judge是主语；calls an old statute a strong defense...说明他如何描述该法案；uses it to challenge a national ruling进一步说明历史材料在论证中发挥的作用。",
+          "other": "dissenting 持异议的；statute 成文法；privileges 权限、特权；challenge 质疑、反对。",
+          "meaning": "推断历史材料的作用，要看作者把它用于支持哪一方。这里明确把法案当作州权的辩护，而非联邦权力的依据。",
+          "rest": "认为州没有独立权限与strong defense of state privileges相反；文中没有说所有联邦法律都无效；历史背景不是唯一目的，因为法官用该材料来挑战当前裁决。"
+        },
+        "context_id": "context:text4-historical-inference-c"
+      },
+      {
+        "id": "text4-state-privileges-b",
+        "family": "text4-historical-inference",
+        "target": "historical evidence and the side it supports",
+        "skill": "历史引用的立场归属",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "In a dispute over river management, a judge's dissent traces a 'strong defense of state privileges' back to an early national statute. What is the best inference?",
+        "o": [
+          "The judge's argument favors state powers.",
+          "The judge says the statute stripped states of all authority.",
+          "The judge agrees national officials may cancel any state rule they dislike.",
+          "The judge is discussing only the technical cost of river management."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "在一场河流管理争议中，一位法官的异议意见把对州权的有力辩护追溯到一项早期国家法案。最合理的推断是，该法官的论证支持州的权力。",
+          "structure": "a judge's dissent是中心名词短语；traces...back to...表示追溯来源；strong defense of state privileges直接提示被辩护的一方是州。",
+          "other": "dissent 异议意见；trace back to 追溯到；strip someone of authority 剥夺某人的权限。",
+          "meaning": "历史法案的名称或年代不是唯一线索；更重要的是作者把它用来支持哪一方。此处明确说的是对州权的辩护。",
+          "rest": "剥夺州权与strong defense of state privileges相反；文中没有授权国家官员随意取消州规则；河流管理成本不是论证重点。"
+        },
+        "context_id": "context:text4-state-privileges-b"
+      }
+    ],
+    "nested": [
+      {
+        "id": "legacy-who-that-main",
+        "source": "today",
+        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+        "target": "who 定语从句 / that 宾语从句",
+        "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+        "o": [
+          "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+          "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+          "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+          "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+        ],
+        "a": 0,
+        "diag": {
+          "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
+          "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
+          "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
+        },
+        "exp": {
+          "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
+          "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
+          "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
+          "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
+          "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
+        },
+        "family": "nested",
+        "introduced": "2026-09-29",
+        "budget": 60,
+        "context_id": "nested-who-that-predicate"
+      },
+      {
+        "id": "nested-shared-gate",
+        "family": "nested",
+        "introduced": "2026-09-29",
+        "budget": 60,
+        "target": "who 定语从句 / that 宾语从句",
+        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+        "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
+        "o": [
+          "Residents / discovered / called",
+          "the shared gate / discovered / was",
+          "Residents / was unlocked / discovered",
+          "the caretaker / called / discovered"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
+          "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
+          "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
+          "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
+          "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
+        },
+        "context_id": "nested-who-that-predicate"
+      },
+      {
+        "id": "nested-valve-leak-c",
+        "family": "nested",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 60,
+        "target": "who-clause / that-clause / main-clause predicate",
+        "skill": "区分定语从句、宾语从句和主句谓语",
+        "q": "Engineers who noticed that the valve was leaking shut down the line. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+        "o": [
+          "Engineers / noticed / shut down",
+          "the valve / noticed / was leaking",
+          "Engineers / was leaking / noticed",
+          "the line / shut down / noticed"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "注意到阀门漏液的工程师关闭了生产线。按题目要求的顺序，主句主语中心词是Engineers，who从句谓语是noticed，主句谓语是shut down。",
+          "structure": "主句骨架是Engineers shut down the line；who noticed...修饰Engineers；that the valve was leaking是noticed的宾语从句。三个谓语分别属于不同层级。",
+          "other": "engineer 工程师；valve 阀门；leak 漏液；shut down 关闭、停运；subject head 主语中心词。",
+          "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。阀门是that从句的主语，工程师才是主句主语。",
+          "rest": "the valve只在that从句中作主语；was leaking属于that宾语从句，不是who从句谓语；the line是shut down的宾语，不是主句主语。"
+        },
+        "context_id": "context:nested-valve-leak-c"
+      }
+    ],
+    "relative": [
+      {
+        "id": "legacy-which",
+        "source": "old",
+        "skill": "介词 + which",
+        "target": "preposition + which",
+        "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
+        "o": [
+          "The archive contains several letters on which the historian based her argument.",
+          "The archive contains several letters which on the historian based her argument.",
+          "The archive contains several letters on that the historian based her argument.",
+          "The archive contains several letters which the historian based her argument on them."
+        ],
+        "a": 0,
+        "diag": {
+          "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+          "2": "介词后不能用关系代词 that；应使用 which。",
+          "3": "which 已经代替 those letters，后面再用 them 造成重复。"
+        },
+        "exp": {
+          "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+          "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+          "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+          "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+          "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
+        },
+        "family": "relative",
+        "introduced": null,
+        "budget": 60,
+        "context_id": "on-which-argument"
       }
     ],
     "text4-federal-state-boundary": [
       {
-        "id": "text4-federal-field-a",
+        "id": "text4-field-safety-label-c",
         "family": "text4-federal-state-boundary",
-        "target": "knock out / contested provisions / field preemption",
-        "skill": "法律词组放回语境 + 联邦与州权限边界",
         "introduced": "2026-10-18",
         "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "A legal report says the court 'knocked out' three contested provisions in a state's licensing plan. The judgment adds that the national legislature had already 'occupied the field,' although the state rules did not directly contradict one specific national clause. Which paraphrase best captures the reasoning?",
+        "budget": 50,
+        "target": "parallel rule / occupied the field / field pre-emption",
+        "skill": "区分并行规则、直接冲突与领域排除",
+        "q": "A national safety code covers the whole field of product labelling. A state adds a parallel rule, and a court invalidates it because the code has “occupied the field.” Which explanation best fits the ruling?",
         "o": [
-          "The court postponed the dispute because the rules were too complicated.",
-          "The court struck down the disputed rules because national law had comprehensively regulated that field.",
-          "The court approved the rules as harmless additions to national policy.",
-          "The court found that the state had contradicted the policies of two other states."
+          "The rule failed because another state's policy directly contradicted it.",
+          "The rule was pre-empted because national law already covered the field.",
+          "The rule was approved because parallel rules can never conflict.",
+          "The court delayed the case until lawmakers revised the enforcement budget."
         ],
         "a": 1,
         "exp": {
-          "trans": "法律报道说，法院推翻了某州许可计划中的三项有争议的规定。判决补充说，国家立法机关已经全面覆盖了这一领域，尽管州规定并未直接违反某一条具体的国家条款。",
-          "structure": "knocked out的宾语是three contested provisions；although引导让步从句，说明没有直接冲突也不必然排除field preemption。had already occupied the field说明国家立法已经全面规制该领域。",
-          "other": "knock out在法律报道中可表示推翻、废除；contested provisions是有争议的条款；occupy the field是法律语境中的全面占据某立法领域；contradict是直接相抵触。",
-          "meaning": "这里要把词组与判决理由连起来：法院推翻争议条款，是因为国家立法已全面覆盖该领域。州规定即使没有逐条直接矛盾，也可能因越过该领域的权限边界而被排除。",
-          "rest": "延期审理与法院已推翻条款不符；原文没有说法院批准了州规定；也没有证据表明该州违反了其他州的政策。"
+          "trans": "国家安全规范全面覆盖了产品标签领域。某州又增加了一项并行规定，法院因为国家规范已经“占据了该领域”而判定州规定无效。最合适的解释是：国家法律已全面规制该领域，因此州规定被排除。",
+          "structure": "A national safety code covers the whole field；第二句由and连接州增加规定与法院判定无效的动作；because从句给出判决理由。occupied the field是法律语境中的领域排除概念。",
+          "other": "product labelling 产品标签；invalidate 判定无效；pre-empt 排除州层面的规制；enforcement budget 执法预算。",
+          "meaning": "parallel表示并行，不等于contradict。即使没有逐条直接冲突，若国家立法已经全面覆盖该领域，州规定仍可能被排除。",
+          "rest": "另一州的政策不是本案依据；parallel rules can never conflict把并行绝对化；法院已经作出无效判决，并非等待预算调整。"
         },
-        "context_id": "context:text4-federal-field-a"
+        "context_id": "context:text4-field-safety-label-c"
       },
       {
         "id": "text4-federal-field-b",
@@ -668,21 +715,21 @@
   "article_session": {
     "id": "2026-10-18-2013-text4-balanced",
     "source": "2013 英语一 Reading Text 4 · 平衡选项复盘",
-    "created_at": "2026-10-18T21:30:00+09:00",
-    "revision": 1,
+    "created_at": "2026-10-18T21:35:00+09:00",
+    "revision": 2,
     "session_file": "data/article-sessions/2026-10-18-2013-text4-balanced.json",
     "current_families": [
       "text4-federal-state-boundary",
+      "text4-agreement-target",
       "text4-historical-inference",
-      "text4-executive-overreach",
-      "text4-agreement-target"
+      "text4-executive-overreach"
     ],
     "deferred_families": [],
     "historical_families": [
       "relative",
-      "example-claim-scope",
       "nested",
-      "unpretentious"
+      "example-claim-scope",
+      "subject"
     ]
   },
   "issues_used": [
