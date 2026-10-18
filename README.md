@@ -20,3 +20,19 @@ Part B：[排序训练](partb-review.html) · [历史与统计](partb-history.ht
 模块 schema、成绩回流与维护约定见 [PARTB_REVIEW.md](PARTB_REVIEW.md)；
 每日/文章复盘约定见 [DAILY_REVIEW.md](DAILY_REVIEW.md)。
 题库语境覆盖、曝光口径与维护审计见 [QUESTION_BANK_AUDIT.md](QUESTION_BANK_AUDIT.md)。
+
+## 成绩自动回流（可选）
+
+每日 8 题和文章专项复盘可在完成主测时自动创建 GitHub Issue，避免每次手动打开 GitHub 表单。
+第一次在 [每日训练](today.html) 或 [文章复盘](article-review.html) 点击 **GitHub 自动同步设置**：
+
+1. 打开页面提供的 GitHub **Fine-grained personal access token** 创建链接。
+2. Resource owner 选 `pkppkqbobs`，Repository access 选 **Only select repositories → kaoyan-english-trainer**。
+3. Repository permissions **Issues → Read and write**（其他权限不需要）；推荐设置 90 天有效期。
+4. 只在训练网页的密码输入框粘贴令牌，点击 **保存授权并自动同步**。以后完成主测后会自动提交，并核查旧 Issue 避免重复提交。
+
+**安全提醒：令牌等同于密码。** 网页代码公开，但**令牌不写进源码、GitHub Issue 或成绩记录**。勾选“记住此浏览器”时，令牌只存储于当前浏览器的 localStorage，同源脚本可能读取；公共电脑应取消勾选，或仍使用手动导出。可以通过训练页面移除本地授权，也可以在 GitHub Settings 撤销令牌。**不要把令牌发到 ChatGPT 或任何聊天窗口**。
+
+GitHub API 只有返回创建成功的 Issue 后，网页才显示已提交；Actions 完成后才会进入正式成绩证据。接口失败、授权过期或网络断开时保留本地作答，不虚构 Issue 或 streak。Part B 独立模块暂继续原有成绩提交流程。
+
+如果不愿创建令牌，可以导出完整报告发到已连接 GitHub 的 ChatGPT，由我提交原始成绩；不要只发正确率截图。

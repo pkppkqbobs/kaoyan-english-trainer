@@ -360,6 +360,10 @@ assert.ok(!JSON.stringify(snapshot()).includes('github_pat_'),'secret must not l
 clickText('提交结果到 GitHub');
 await new Promise(setImmediate);
 assert.equal(githubIssueCreates,1,'repeated clicks must not create duplicate Issues');
+boot();
+clickText('提交结果到 GitHub');
+await new Promise(setImmediate);
+assert.equal(githubIssueCreates,1,'reload + retry must verify prior Issue without reposting');
 nodes.githubAuthBtn.click();
 clickText('移除此浏览器中的 GitHub 授权');
 assert.equal(storage['kaoyan.github.issue-credential.v1.pkppkqbobs/kaoyan-english-trainer'],undefined,
