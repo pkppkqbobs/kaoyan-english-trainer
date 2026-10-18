@@ -1,4 +1,5 @@
 import json
+import hashlib
 import shutil
 from datetime import date, timedelta
 import os
@@ -239,6 +240,26 @@ class ArticleReviewTests(unittest.TestCase):
             self.assertEqual(stats[rows[0]['family']]['errors'], 1)
             self.assertEqual(stats[rows[0]['family']]['streak'], 0)
 
+
+    def test_latest_alias_refreshes_script_version_without_rewriting_archive(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            focus, _ = fixture(root)
+            session(root, 'stable-archive-session', focus)
+            first = article_review.build(root)
+            archive = root / 'article-review-stable-archive-session.html'
+            before_archive = archive.read_bytes()
+            before_alias = (root / 'article-review.html').read_bytes()
+            # A browser script fix must not alter an already-published round.
+            (root / 'web/review.js').write_text('// updated shared review engine', encoding='utf-8')
+            article_review.build(root)
+            after_alias = (root / 'article-review.html').read_bytes()
+            expected = hashlib.sha256((root / 'web/review.js').read_bytes()).hexdigest()[:12]
+            self.assertEqual(archive.read_bytes(), before_archive)
+            self.assertNotEqual(before_alias, after_alias)
+            self.assertIn(('review.js?v=' + expected).encode(), after_alias)
+            self.assertEqual(article_review.build(root), first)
+            self.assertEqual((root / 'article-review.html').read_bytes(), after_alias)
 
     def test_latest_article_round_does_not_reward_the_longest_option_heuristic(self):
         with tempfile.TemporaryDirectory() as directory:

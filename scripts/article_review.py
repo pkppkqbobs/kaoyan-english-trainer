@@ -207,6 +207,12 @@ def build(root=ROOT, repo="pkppkqbobs/kaoyan-english-trainer"):
     latest_page = pages.get(latest_key)
     if latest_page is None:
         latest_page = latest_page_path.read_text(encoding="utf-8")
+    # Archive pages remain byte-immutable. The rolling alias may update the
+    # shared JavaScript version query so browsers get submission fixes instead
+    # of a cached copy tied to the original archived publication.
+    current_script_version = hashlib.sha256((root / "web/review.js").read_bytes()).hexdigest()[:12]
+    latest_page = re.sub(r'(\./web/review\.js\?v=)[a-f0-9]{12}',
+                         lambda match: match.group(1) + current_script_version, latest_page)
     review.save(root / "data/article-review.json", latest)
     (root / "article-review.html").write_text(latest_page, encoding="utf-8")
     (root / "article-reviews.html").write_text(index, encoding="utf-8")
