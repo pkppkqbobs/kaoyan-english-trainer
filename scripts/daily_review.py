@@ -549,11 +549,18 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         return (s['errors'] > 0 and s['streak'] == 0 and s.get('last') is not None
                 and 2 <= (day - date.fromisoformat(s['last'])).days <= 3
                 and waiting(f) >= 2)
-    # The single reserve is the anti-starvation path: rank qualifying targets by
-    # how long they have gone without any published review opportunity. Recent
-    # follow-up is a tie-breaker; it must not keep jumping ahead of older errors.
-    # Prompt follow-ups still compete in the ordinary urgent slots above.
-    neglected = sorted(urgent, key=lambda f: (waiting(f), recent_followup(f)), reverse=True)
+    # Preserve prompt follow-up for recent scored errors, but do not let
+    # untested observations outrank a confirmed old error indefinitely. Within
+    # each priority tier, the longest wait for any published opportunity wins.
+    neglected = sorted(
+        urgent,
+        key=lambda f: (
+            recent_followup(f),
+            bool(stats[f]["errors"] or stats[f]["slow_or_uncertain"]),
+            waiting(f),
+        ),
+        reverse=True,
+    )
     chosen = []
     def allowed(f):
         # Full ordering belongs in the independent Part B page; at most one mini pair
