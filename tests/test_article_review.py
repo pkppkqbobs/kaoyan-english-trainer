@@ -219,7 +219,8 @@ class ArticleReviewTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             report_file = Path(directory) / 'report.txt'
             env = {**os.environ, 'ARTICLE_TEST_REPORT_PATH': str(report_file)}
-            subprocess.run(['node', 'tests/ui.mjs'], cwd=ROOT, env=env, check=True, capture_output=True)
+            result = subprocess.run(['node', 'tests/ui.mjs'], cwd=ROOT, env=env, capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr or result.stdout)
             body = report_file.read_text()
             report = json.loads(body.split('<!-- review-json:v3\n', 1)[1].split('\n-->', 1)[0])
             issue = {'number': 90, 'created_at': report['date'] + 'T12:00:00Z',
