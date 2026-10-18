@@ -32,7 +32,7 @@ class FixtureDate extends Date {
 }
 class Element {
   constructor(tag = 'div') {
-    this.tag = tag; this.children = []; this.listeners = {}; this._text = ''; this.disabled = false;
+    this.tag = tag; this.children = []; this.listeners = {}; this._text = ''; this.disabled = false; this.style = {};
     const classes = new Set();
     this.classList = {add: x => classes.add(x), remove: x => classes.delete(x), contains: x => classes.has(x)};
   }
@@ -211,7 +211,7 @@ clickText('① 只重做错题');
 assert.equal(run().kind, 'retry');
 answer(true); clickText('完成本轮');
 assert.equal(snapshot().runs[0].answers[0].ok, false, 'Article retry must preserve the initial error');
-clickText('提交结果到 GitHub');
+clickText('备用提交：复制报告并打开空白 Issue');
 assert.equal(new URL(opened).searchParams.has('body'), false, 'article submission must use the short URL');
 const articleBody = nodes.body.children.find(x => x.tag === 'textarea' && x.value.includes('<!-- review-json:v3'))?.value;
 assert.ok(articleBody, 'full article report must be available for manual paste');
