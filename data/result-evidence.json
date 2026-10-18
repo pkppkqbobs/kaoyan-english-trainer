@@ -1469,6 +1469,94 @@
       "qid": "belief-negation-online-bookings-a",
       "round_id": "mvcd18g8-qw1oig0a",
       "source_date": "2026-10-17"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "text3-comparison-inference",
+      "ok": true,
+      "ms": 50158,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "text3-comparison-energy-b",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 41498,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "example-council-reform-opposition-a",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "negative-ellipsis-afford",
+      "ok": true,
+      "ms": 50168,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "afford-ellipsis-archive-encryption-a",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "nested",
+      "ok": false,
+      "ms": 20707,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "legacy-who-that-main",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "cloze-time-adverbs",
+      "ok": true,
+      "ms": 9559,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "cloze-adverb-checking-a",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "summary-location",
+      "ok": false,
+      "ms": 100293,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "summary-current-and-follow-up",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "reference",
+      "ok": true,
+      "ms": 55797,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "reference-panels-request-switch",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-18",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 10294,
+      "uncertain": false,
+      "origin": 20,
+      "qid": "paragraph-order-discourse-conclusion-b",
+      "round_id": "mvdokmfj-hc3deafs",
+      "source_date": "2026-10-18"
     }
   ],
   "issues": [
@@ -1490,6 +1578,7 @@
     16,
     17,
     18,
-    19
+    19,
+    20
   ]
 }
