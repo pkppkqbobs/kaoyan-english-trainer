@@ -10,9 +10,9 @@
     "q": "A legal report says the court 'knocked out' three contested provisions in a state's licensing plan. The judgment adds that the national legislature had already 'occupied the field,' although the state rules did not directly contradict one specific national clause. Which paraphrase best captures the reasoning?",
     "o": [
       "The court delayed the dispute because the rules were too complicated.",
-      "The court struck down the rules because national law covered that field.",
+      "The court struck down the rules because national law covered this field.",
       "The court approved the rules as harmless additions to national policy.",
-      "The court found that the state had contradicted two other states' laws."
+      "The court found that the state had contradicted two other states' own laws."
     ],
     "a": 1,
     "exp": {
@@ -162,7 +162,7 @@
       "The court checks an executive attempt to extend power over local councils.",
       "Parliament alone must enforce every rail-safety rule across all regions.",
       "The ministry has unlimited control over local councils and their rules.",
-      "Local councils may ignore national rail-safety laws whenever they choose."
+      "Local councils may ignore national rail-safety laws whenever they choose to do so."
     ],
     "a": 0,
     "exp": {

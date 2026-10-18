@@ -107,7 +107,7 @@ class RecentProgressTests(unittest.TestCase):
         self.assertEqual(old[0]['context_id'], old[1]['context_id'])
         additions = review.load(ROOT / 'data/questions/2026-10-15-review-transfer.json')
         self.assertEqual(len(additions), 4)
-        for family, expected_count, contexts in [('process-stage-role', 4, 3), ('example-claim-scope', 5, 5)]:
+        for family, expected_count, contexts in [('process-stage-role', 4, 3), ('example-claim-scope', 6, 6)]:
             group = [q for q in items if q['family'] == family]
             self.assertEqual(len(group), expected_count)
             self.assertEqual(len({q['context_id'] for q in group}), contexts)
