@@ -268,5 +268,26 @@ class BankCoverageTests(unittest.TestCase):
         self.assertLessEqual(correct_at_max, 4)
 
 
+    def test_text4_followup_variants_keep_option_lengths_balanced(self):
+        questions = review.load(ROOT / "data/questions/2026-10-18-text4-followup.json")
+        self.assertEqual(len(questions), 2)
+        for q in questions:
+            lengths = [len(option) for option in q["o"]]
+            self.assertLessEqual(max(lengths) - min(lengths), 20, q["id"])
+
+    def test_unpublished_text4_variants_do_not_make_every_key_the_longest(self):
+        source = review.load(ROOT / "data/questions/2026-10-18-text4.json")
+        wanted = {"text4-federal-field-a", "text4-state-privileges-a", "text4-executive-overreach-a"}
+        questions = [q for q in source if q["id"] in wanted]
+        self.assertEqual({q["id"] for q in questions}, wanted)
+        unique_longest = 0
+        for q in questions:
+            lengths = [len(option) for option in q["o"]]
+            self.assertLessEqual(max(lengths) - min(lengths), 20, q["id"])
+            if lengths[q["a"]] == max(lengths) and lengths.count(max(lengths)) == 1:
+                unique_longest += 1
+        self.assertEqual(unique_longest, 1)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -9,18 +9,18 @@
     "budget": 55,
     "q": "A legal report says the court 'knocked out' three contested provisions in a state's licensing plan. The judgment adds that the national legislature had already 'occupied the field,' although the state rules did not directly contradict one specific national clause. Which paraphrase best captures the reasoning?",
     "o": [
-      "The court postponed the dispute because the rules were too complicated.",
-      "The court struck down the disputed rules because national law had comprehensively regulated that field.",
+      "The court delayed the dispute because the rules were too complicated.",
+      "The court struck down the rules because national law covered that field.",
       "The court approved the rules as harmless additions to national policy.",
-      "The court found that the state had contradicted the policies of two other states."
+      "The court found that the state had contradicted two other states' laws."
     ],
     "a": 1,
     "exp": {
-      "trans": "法律报道说，法院推翻了某州许可计划中的三项有争议的规定。判决补充说，国家立法机关已经全面覆盖了这一领域，尽管州规定并未直接违反某一条具体的国家条款。",
-      "structure": "knocked out的宾语是three contested provisions；although引导让步从句，说明没有直接冲突也不必然排除field preemption。had already occupied the field说明国家立法已经全面规制该领域。",
-      "other": "knock out在法律报道中可表示推翻、废除；contested provisions是有争议的条款；occupy the field是法律语境中的全面占据某立法领域；contradict是直接相抵触。",
-      "meaning": "这里要把词组与判决理由连起来：法院推翻争议条款，是因为国家立法已全面覆盖该领域。州规定即使没有逐条直接矛盾，也可能因越过该领域的权限边界而被排除。",
-      "rest": "延期审理与法院已推翻条款不符；原文没有说法院批准了州规定；也没有证据表明该州违反了其他州的政策。"
+      "trans": "法院推翻了州计划中的争议条款，因为国家立法已经全面覆盖该领域。",
+      "structure": "knocked out表示推翻；contested provisions是有争议的条款；although引导让步，说明即使没有直接违反某一条具体规定，也可能因为occupied the field而被排除。",
+      "other": "knock out 推翻、使无效；contested 有争议的；provision 法律条款；occupy the field 全面覆盖某一立法领域。",
+      "meaning": "判决的理由不是其他州的政策，也不是条款太复杂，而是国家立法已经全面规制该领域。parallel不自动等于contradict。",
+      "rest": "延期审理与法院已经推翻条款不符；批准条款与invalidates相反；原文没有说州政策违反了另外两个州的法律。"
     },
     "context_id": "context:text4-federal-field-a"
   },
@@ -109,18 +109,18 @@
     "budget": 55,
     "q": "A dissenting judge describes an old coastal settlement act as part of a 'robust defense of local privileges' and uses it to challenge a national ruling. What does this suggest about the judge's position?",
     "o": [
-      "The judge favors protecting local or state authority.",
-      "The judge argues that local authorities should have no powers.",
-      "The judge believes the old act proves every national statute is invalid.",
-      "The judge supports the national ruling and rejects local autonomy."
+      "The judge uses the history to defend state authority against federal control.",
+      "The judge argues that states have no separate authority in this field.",
+      "The judge treats the act as proof that every federal law is invalid.",
+      "The judge cites the act only to explain the dispute's historical background."
     ],
     "a": 0,
     "exp": {
-      "trans": "一位持异议的法官把一项旧的沿海定居法案描述为对地方特权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官倾向于保护地方或州的权力。",
-      "structure": "a dissenting judge是主语；describes...as...说明法官如何定位该历史法案；uses it to challenge...表明引用它是为了反对国家裁决。",
-      "other": "dissenting 持异议的；robust 有力的；privilege 特权、权限；local autonomy 地方自治。",
-      "meaning": "推断历史材料的论证方向，要看作者如何使用它。robust defense of local privileges明确把历史材料用于支持地方权力，而不是支持国家权力。",
-      "rest": "地方权力被取消与defense of local privileges相反；没有证据证明所有国家法律都无效；法官正在质疑国家裁决，并非支持它。"
+      "trans": "法官把历史法案用于有力地维护州的权限，反对联邦控制。",
+      "structure": "A dissenting judge是主语；describes...as...说明法官如何定位历史法案；uses it to challenge a national ruling说明引用历史材料的论证方向。",
+      "other": "dissenting 持异议的；robust 有力的；state privileges 州权；challenge 质疑、反对。",
+      "meaning": "推断历史材料的作用，要看它支持哪一方。这里的关键是对州权的辩护，而不是法案名称本身。",
+      "rest": "认为州没有独立权限与对州权的辩护相反；没有证据证明所有联邦法律都无效；历史背景不是唯一目的，因为法官用它来质疑当前裁决。"
     },
     "context_id": "context:text4-state-privileges-a"
   },
@@ -159,18 +159,18 @@
     "budget": 55,
     "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
     "o": [
-      "The court is checking an attempt by the executive to extend its own power.",
-      "Rail-safety issues are always decided solely by Parliament.",
-      "The ministry has unlimited authority over local councils.",
-      "Local councils may disregard every national law."
+      "The court checks an executive attempt to extend power over local councils.",
+      "Parliament alone must enforce every rail-safety rule across all regions.",
+      "The ministry has unlimited control over local councils and their rules.",
+      "Local councils may ignore national rail-safety laws whenever they choose."
     ],
     "a": 0,
     "exp": {
-      "trans": "交通部表示，因为它不想执行议会的铁路安全计划，地方议会也不应被允许执行。法院驳回了这一主张。最有根据的结论是，法院正在制衡行政部门扩大自身权力的企图。",
-      "structure": "because引出交通部不愿执行计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出对该主张的司法回应。",
-      "other": "carry out 执行、落实；executive 行政部门；council 地方议会/委员会；reject a claim 驳回一种主张。",
-      "meaning": "行政部门不愿执行立法机关的计划，不等于它可以禁止地方在法律允许的范围内执行。法院驳回这种主张，支持对行政权的制衡。",
-      "rest": "文本没有说铁路安全只能由议会处理；交通部并没有无限权力；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
+      "trans": "法院正在制衡行政部门试图扩大自身对地方议会的权力。",
+      "structure": "because引出交通部不愿执行议会计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出司法回应。",
+      "other": "carry out 执行；executive 行政部门；council 地方议会；reject a claim 驳回一种主张。",
+      "meaning": "行政部门不愿执行议会的计划，不等于它可以阻止地方在法律允许范围内执行。法院驳回这种主张，体现对行政权的制衡。",
+      "rest": "原文没有说所有铁路安全规则只能由议会执行；交通部并没有无限控制权；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
     },
     "context_id": "context:text4-executive-overreach-a"
   },

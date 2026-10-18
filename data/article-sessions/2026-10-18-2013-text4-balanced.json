@@ -1,9 +1,9 @@
 {
   "id": "2026-10-18-2013-text4-balanced",
   "date": "2026-10-18",
-  "created_at": "2026-10-18T21:30:00+09:00",
+  "created_at": "2026-10-18T21:35:00+09:00",
   "source": "2013 英语一 Reading Text 4 · 平衡选项复盘",
-  "result_summary": "在原文章复盘中发现正确选项过度集中为最长选项。该新轮次使用不同迁移语境，平衡选项长度；不覆盖原轮次、原始作答或旧storageId。只作为新训练轮次，不把旧轮次未提交的7/8成绩带入。",
+  "result_summary": "平衡选项长度后的第2版复盘轮次。原始Text 4轮次与第1版复盘轮次保留为不可变历史；纸质真题错误只作为学习观察，不生成网页成绩或GitHub Issue成绩。",
   "focus_families": [
     "text4-federal-state-boundary",
     "text4-agreement-target",
@@ -11,5 +11,5 @@
     "text4-executive-overreach"
   ],
   "max_current": 4,
-  "revision": 1
+  "revision": 2
 }

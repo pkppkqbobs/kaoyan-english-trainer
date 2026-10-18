@@ -1,0 +1,50 @@
+[
+  {
+    "id": "example-factory-reporting-measure-f",
+    "family": "example-claim-scope",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "recorded incidents / underlying fault rate",
+    "skill": "区分报告数量变化与真实问题变化",
+    "q": "A clinic switched to an online incident form, after which recorded reports rose. External audits found no increase in underlying faults. Which conclusion is best supported?",
+    "o": [
+      "The underlying fault rate rose because the clinic changed its form.",
+      "More recorded incidents may reflect easier reporting, not more faults.",
+      "External audits proved the old reporting system had been accurate.",
+      "The clinic changed the form after a separate review found fewer faults."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "诊所改用在线事件表单后，记录的报告增加了，但外部审计没有发现实际故障增加。记录数量的上升可能来自报告更容易，而不是故障变多。",
+      "structure": "A clinic switched...描述制度变化；after which引出其后的记录变化；External audits found...提供独立证据，限制对真实故障率的推断。",
+      "other": "incident form 事件报告表；recorded report 记录的报告；external audit 外部审计；underlying fault 实际故障。",
+      "meaning": "观测到的报告数会受到报告渠道影响。记录数增加不能单独证明实际问题变多。",
+      "rest": "表单变化本身不能证明故障率上升；审计没有证明旧系统完全准确；文中没有说改表单之前另一次审查发现故障减少。"
+    }
+  },
+  {
+    "id": "nested-editor-quote-d",
+    "family": "nested",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 60,
+    "target": "who-clause / that-clause / main-clause predicate",
+    "skill": "区分定语从句、宾语从句和主句谓语",
+    "q": "Editors who learned that the quote was inaccurate removed it from the draft. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+    "o": [
+      "Editors / learned / removed",
+      "the quote / learned / was",
+      "Editors / was / learned",
+      "the draft / removed / learned"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "得知引文不准确的编辑把它从草稿中删掉了。主句主语中心词是Editors，who从句谓语是learned，主句谓语是removed。",
+      "structure": "主句骨架是Editors removed it from the draft；who learned...修饰Editors；that the quote was inaccurate是learned的宾语从句。三个谓语属于不同层级。",
+      "other": "editor 编辑；quote 引文；inaccurate 不准确的；draft 草稿。",
+      "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
+      "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
+    }
+  }
+]

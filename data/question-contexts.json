@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-10-18",
-  "source_commit": "8b4d4dd98c0cf83a777726b06e6e35398fbfbd0f",
+  "source_commit": "43561f6e80d98805b4c08350dc3ec3082dd2a9fe",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -305,7 +305,9 @@
     "causal-role-deadline-response-c": "context:causal-role-deadline-response-c",
     "example-factory-reporting-measure-e": "context:example-factory-reporting-measure-e",
     "with-archive-loading-c": "context:with-archive-loading-c",
-    "nested-valve-leak-c": "context:nested-valve-leak-c"
+    "nested-valve-leak-c": "context:nested-valve-leak-c",
+    "example-factory-reporting-measure-f": "context:example-factory-reporting-measure-f",
+    "nested-editor-quote-d": "context:nested-editor-quote-d"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -331,13 +333,13 @@
     "such-two-improvements": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
     "subject-rule-process-double": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
     "process-initial-report-independent-verification": "旧两题分别讲避难所估计和桥梁报告，但都用个人起点→独立核验→正式采用，答案路径与排除逻辑近似；保守合并，不把换题号当不同推理。新增题另测核验与实施授权的区别、暂停决定与后续放行的区别。",
-    "text4-federal-field-a": "法律新闻语境，重点是knock out/contested和occupied the field共同表达的判决理由。",
+    "text4-federal-field-a": "未曝光的州许可规则变体；修正选项长度，仍测occupied the field与直接冲突的区别。",
     "text4-federal-field-b": "医疗器械标签语境，测试无直接冲突时仍可能存在field preemption。",
     "text4-agreement-target-a": "县级身份核查语境，区分法官认可的地方执法角色与立法机关提供的理由。",
     "text4-agreement-target-b": "许可证检查语境，明确区分法院结论与支持理由。",
-    "text4-state-privileges-a": "沿海定居法案的历史引用，用于推断异议法官支持地方权力。",
+    "text4-state-privileges-a": "未曝光的历史法案变体；选项长度相近，正确项略有自然变化，避免明显的长短提示。",
     "text4-state-privileges-b": "河流管理语境，练习历史材料的论证方向。",
-    "text4-executive-overreach-a": "铁路安全政策语境，测试行政部门阻止地方执行与司法制衡之间的关系。",
+    "text4-executive-overreach-a": "未曝光的行政权力变体；选项长度平衡，训练行政主张与司法制衡。",
     "text4-executive-overreach-b": "地区规则与行政执法优先级语境，区分行政机构的主张与作者认可的事实。",
     "text4-field-safety-label-c": "产品标签制度语境，区分parallel、直接冲突与occupied field；正确项不靠唯一最长的选项长度提示。",
     "text4-agreement-target-c": "县级身份核查语境，区分法官认可的地方执法角色与国会提供的理由。",
@@ -346,7 +348,9 @@
     "causal-role-deadline-response-c": "拨款申请延期语境，区分已知触发原因与未测量的后续参与影响。",
     "example-factory-reporting-measure-e": "匿名安全报告语境，区分记录事件数量与真实危险因素变化。",
     "with-archive-loading-c": "档案馆重新开放语境，识别with + noun + participle表达的伴随状态。",
-    "nested-valve-leak-c": "工程师关闭生产线语境，分别定位who定语从句、that宾语从句和主句谓语。"
+    "nested-valve-leak-c": "工程师关闭生产线语境，分别定位who定语从句、that宾语从句和主句谓语。",
+    "example-factory-reporting-measure-f": "诊所在线事件表单语境，测试报告数量变化与真实故障率的区别。",
+    "nested-editor-quote-d": "编辑审稿语境，练习主句、who定语从句与that宾语从句的谓语层级。"
   },
   "family_assessments": {
     "reference": {
