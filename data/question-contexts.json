@@ -308,7 +308,11 @@
     "nested-valve-leak-c": "context:nested-valve-leak-c",
     "example-factory-reporting-measure-f": "context:example-factory-reporting-measure-f",
     "nested-editor-quote-d": "context:nested-editor-quote-d",
-    "subject-road-closure-risk-balanced-b": "context:subject-road-closure-risk-balanced-b"
+    "subject-road-closure-risk-balanced-b": "context:subject-road-closure-risk-balanced-b",
+    "text4-airspace-exclusive-d": "context:text4-airspace-exclusive-d",
+    "text4-flood-inspections-d": "context:text4-flood-inspections-d",
+    "text4-federal-precedent-d": "context:text4-federal-precedent-d",
+    "text4-agency-inaction-d": "context:text4-agency-inaction-d"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -352,7 +356,11 @@
     "nested-valve-leak-c": "工程师关闭生产线语境，分别定位who定语从句、that宾语从句和主句谓语。",
     "example-factory-reporting-measure-f": "诊所在线事件表单语境，测试报告数量变化与真实故障率的区别。",
     "nested-editor-quote-d": "编辑审稿语境，练习主句、who定语从句与that宾语从句的谓语层级。",
-    "subject-road-closure-risk-balanced-b": "山区道路预报语境，区分可能风险与当前已确认事件；选项长度接近，防止靠最长选项猜答案。"
+    "subject-road-closure-risk-balanced-b": "山区道路预报语境，区分可能风险与当前已确认事件；选项长度接近，防止靠最长选项猜答案。",
+    "text4-airspace-exclusive-d": "Independent follow-up context for text4-federal-state-boundary; answer options balanced against length cue. occupied field / parallel vs contradict.",
+    "text4-flood-inspections-d": "Independent follow-up context for text4-agreement-target; answer options balanced against length cue. what judges upheld vs legislative justification.",
+    "text4-federal-precedent-d": "Independent follow-up context for text4-historical-inference; answer options balanced against length cue. historical citation supporting which side.",
+    "text4-agency-inaction-d": "Independent follow-up context for text4-executive-overreach; answer options balanced against length cue. executive enforcement choice vs statutory local authority."
   },
   "family_assessments": {
     "reference": {

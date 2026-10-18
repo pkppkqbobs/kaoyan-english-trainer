@@ -112,6 +112,15 @@ def make_payload(root, session, items, archives, repo):
     max_current = max(1, min(4, int(session.get("max_current", 4)), len(focus)))
     current_families = focus[:max_current]
     historical_items = [q for q in items if q["family"] in groups and q["family"] not in focus]
+    if session.get("balanced_options"):
+        # Quality gating applies only to this new round. Published snapshots are
+        # immutable; do not distort the scoring or suppress old mistake evidence.
+        def is_balanced(q):
+            lengths = [len(option) for option in q["o"]]
+            return max(lengths) - min(lengths) <= 20 and lengths[q["a"]] < max(lengths)
+        historical_items = [q for q in historical_items if is_balanced(q)]
+        if len({q["family"] for q in historical_items}) < 8 - max_current:
+            raise ValueError("Insufficient balanced historical variants for new review")
     historical = review.choose(historical_items, stats, history, day, count=8-max_current,
                                seed="article-history:" + storage_id(session), include_today=True,
                                variant_shown=variant_shown)

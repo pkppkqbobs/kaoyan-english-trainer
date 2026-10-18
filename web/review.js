@@ -338,12 +338,10 @@
     }
   }
   function submit() {
-    const root = rootRun();
-    const title = '[TRAINING_RESULT] ' + (DATA.reportTitle || '每日复习') + ' ' + root.date + ' ' + root.id;
-    const url = 'https://github.com/' + DATA.repo + '/issues/new?title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(reportText());
-    if (url.length > 6000) { fallbackSubmit(); return; }
-    window.open(url, '_blank', 'noopener,noreferrer');
-    notice('已打开预填报告。还需在 GitHub 点击 Submit new issue 才算提交；重复提交同一轮不会重复计算。仓库是公开的，报告只含题目表现，不含聊天全文。');
+    // Avoid sending a multi-kilobyte encoded JSON body in the GitHub issue URL.
+    // GitHub can reject the form after Submit new issue. Copy exact evidence
+    // locally, open a short title-only form and let the user paste and confirm.
+    fallbackSubmit();
   }
   function exportReport() {
     const blob = new Blob([reportText()], {type: 'text/plain;charset=utf-8'});

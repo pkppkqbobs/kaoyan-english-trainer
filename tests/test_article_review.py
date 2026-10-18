@@ -247,11 +247,14 @@ class ArticleReviewTests(unittest.TestCase):
             shutil.copytree(ROOT / "web", root / "web")
             for page in ROOT.glob("*.html"):
                 shutil.copy(page, root / page.name)
+            # Compare with earlier rounds, not the latest round itself after
+            # it has been archived; otherwise the test becomes self-contradictory.
+            target_key = article_review.storage_id(article_review.latest_session(root))
             prior_same_day_article_ids = {
                 q["id"]
                 for path in (root / "data/article-reviews").glob("*.json")
                 for old in [review.load(path)]
-                if old["date"] == "2026-10-18"
+                if old["date"] == "2026-10-18" and old["storageId"] != target_key
                 for q in old["questions"]
             }
             payload = article_review.build(root)

@@ -11,5 +11,6 @@
     "text4-executive-overreach"
   ],
   "max_current": 4,
-  "revision": 3
+  "revision": 3,
+  "balanced_options": true
 }

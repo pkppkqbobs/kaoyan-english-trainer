@@ -1,0 +1,98 @@
+[
+  {
+    "id": "text4-airspace-exclusive-d",
+    "family": "text4-federal-state-boundary",
+    "target": "occupied field / parallel vs contradict",
+    "skill": "区分并行规则、直接冲突与领域排除",
+    "budget": 55,
+    "q": "A federal air-safety code exclusively regulates emergency signals. A city adopted a similar signal rule. Although the city's rule was not shown to contradict a specific clause, a court set it aside because the code already covered the entire field. Why?",
+    "o": [
+      "The city rule was barred because national law already occupied the field.",
+      "The federal code was cancelled because the city's provisions ran parallel.",
+      "The court ordered the city to enforce its rule beside the national code.",
+      "The judges delayed a decision until the national agency reviewed its budget."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一套联邦航空安全规范对紧急信号作了专属规定。某市采用了类似规则。尽管没有证明市级规则直接违反特定条文，法院仍因联邦规范已全面覆盖该领域而排除了市级规定。",
+      "structure": "Although引导让步：没有证明逐条直接矛盾；主句a court set it aside给出判决；because说明真正理由是整个领域已由上级规则全面规制。",
+      "other": "exclusively 专属地；signal 信号；contradict 与……相矛盾；set aside 废除、排除；occupy the field 通过全面规制排除下级立法。",
+      "meaning": "并行或类似不等于相抵触；领域排除的判断依据是整个领域已由上级法律覆盖，不要求指出某条具体文字直接冲突。",
+      "rest": "没有推翻联邦规范；法院没有命令城市同时执行两套规则；也没有推迟判决等待预算审查。"
+    },
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18"
+  },
+  {
+    "id": "text4-flood-inspections-d",
+    "family": "text4-agreement-target",
+    "target": "what judges upheld vs legislative justification",
+    "skill": "判断题干询问的是司法结论还是解释理由",
+    "budget": 50,
+    "q": "A court upheld municipal inspectors' limited role in checking flood barriers. In support, it cited a law inviting national and municipal teams to share inspection reports. What did the court uphold?",
+    "o": [
+      "National lawmakers were required to lead each municipal inspection.",
+      "City inspectors could assist while complying with national rules.",
+      "Municipal teams gained the right to replace national flood standards.",
+      "National inspectors had to stop exchanging reports with city teams."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "法院认可市政检查员在防洪设施检查中的有限作用，并援引鼓励国家和地方机构共享检查报告的法律作为依据。问题问法院认可的结论，而不是法律提供的支持理由。",
+      "structure": "A court upheld是第一句核心司法结论；In support, it cited...是第二句介绍支持证据的结构。What did the court uphold要求回到第一句。",
+      "other": "uphold 维持、认可；municipal 市政的；barrier 防洪设施；cite 引用；inspection 检查；comply with 遵守。",
+      "meaning": "法院认可地方机构在法律约束下协助检查；国会的协作规定只是理由。不能把原因中的立法机关错认成法院同意的具体事项。",
+      "rest": "立法机关亲自检查不是结论；市政机构没有权力替换国家标准；原文支持共享报告，不能推成停止共享。"
+    },
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18"
+  },
+  {
+    "id": "text4-federal-precedent-d",
+    "family": "text4-historical-inference",
+    "target": "historical citation supporting which side",
+    "skill": "不靠历史法案名称，判断证据支持的权力主体",
+    "budget": 55,
+    "q": "In a dispute over food labelling, a dissenting judge cites an old statute as a strong defense of national supervision and uses it to challenge a province's claim of exclusive authority. What does the historical reference support?",
+    "o": [
+      "The judge treats the statute as a neutral date in the dispute's history.",
+      "The statute supports the province's exclusive control of labelling rules.",
+      "The judge uses earlier law to defend national regulatory authority.",
+      "The judge believes the statute makes all newer supervision unnecessary."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "在食品标签争议中，一位持异议的法官引用旧法，将其作为国家监督权的有力辩护，用来反驳某省认为自己拥有独占权限的主张。历史材料在这里支持国家监管权。",
+      "structure": "cites an old statute as...说明引用材料被赋予的论证功能；uses it to challenge...说明它反对的一方。本题与原文支持州权的例子相反，应按当前措辞判断。",
+      "other": "dissenting judge 持异议法官；statute 成文法；supervision 监督；exclusive authority 独占权限；province 省。",
+      "meaning": "历史法案的名称和年代不是推理依据；需要追踪谁引用它、引用它支持谁、反驳谁。这里强调national supervision，不是地方自治。",
+      "rest": "材料并非中立年代标记；省的独占监管主张正被质疑；没有证据表明旧法使所有后续监管失去必要性。"
+    },
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18"
+  },
+  {
+    "id": "text4-agency-inaction-d",
+    "family": "text4-executive-overreach",
+    "target": "executive enforcement choice vs statutory local authority",
+    "skill": "行政不执行是否能取消地方依法获授的权力",
+    "budget": 55,
+    "q": "A national agency declined to inspect licensed buses, then claimed towns could not carry out inspections that a statute authorized them to do. The court rejected the claim. What principle does its decision illustrate?",
+    "o": [
+      "The agency may suspend towns' lawful inspections by choosing not to act.",
+      "The court rejected an attempt to block towns from exercising powers granted by law.",
+      "The towns were newly authorized to rewrite national transport standards.",
+      "The court found that national agencies alone may set all inspection dates."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "国家行政机构不愿检查已获许可的公交车，随后却声称法律已授权的市镇检查也不能执行。法院驳回该主张，说明行政机关自身选择不执法，不能自动取消地方依法获授的权限。",
+      "structure": "declined... then claimed...区分行政机关自身行为与扩张主张；a statute authorized them to do修饰inspections；The court rejected the claim给出司法回应。",
+      "other": "agency 行政机构；statute 成文法；authorize 授权；suspend 暂停；licensed bus 已获许可的公交车辆。",
+      "meaning": "行政机关不执行某项政策与禁止地方执行是两个命题。这里法院限制的是行政部门把其执行偏好扩展成否定地方合法权限的企图。",
+      "rest": "行政不作为并未赋予机构暂停合法地方执法的权力；法院未授权市镇重写国家标准；设定检查日期也不是法院本次驳回的争点。"
+    },
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18"
+  }
+]
