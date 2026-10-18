@@ -247,8 +247,20 @@ class ArticleReviewTests(unittest.TestCase):
             shutil.copytree(ROOT / "web", root / "web")
             for page in ROOT.glob("*.html"):
                 shutil.copy(page, root / page.name)
+            prior_same_day_article_ids = {
+                q["id"]
+                for path in (root / "data/article-reviews").glob("*.json")
+                for old in [review.load(path)]
+                if old["date"] == "2026-10-18"
+                for q in old["questions"]
+            }
             payload = article_review.build(root)
             questions = payload["questions"]
+            current_ids = {
+                q["id"] for q in questions
+                if q["family"] in payload["article_session"]["current_families"]
+            }
+            self.assertTrue(current_ids.isdisjoint(prior_same_day_article_ids))
             self.assertEqual(len(questions), 8)
             unique_longest = 0
             correct_at_max = 0

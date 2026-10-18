@@ -84,6 +84,14 @@ def make_payload(root, session, items, archives, repo):
                 shown_current[family] = shown_current.get(family, 0) + 1
     today = review.load(root / "data/daily.json", {})
     today_ids = {q["id"] for q in today.get("questions", [])} if today.get("date") == session["date"] else set()
+    # A revision published on the same day must also avoid exact qids already
+    # used by earlier article rounds that day, not just the daily quiz. Archives
+    # remain immutable; this only changes candidate selection for the new round.
+    same_day_article_ids = {
+        q["id"] for old in archives.values() if old["date"] == session["date"]
+        for q in old["questions"]
+    }
+    today_ids.update(same_day_article_ids)
     history.setdefault(session["date"], []).extend(sorted(today_ids))
     # Keep ordinary urgency on its existing history. All published modules
     # inform context/qid spacing and the single waiting-time reserve only.
