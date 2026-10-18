@@ -1,0 +1,525 @@
+{
+  "date": "2026-10-18",
+  "repo": "pkppkqbobs/kaoyan-english-trainer",
+  "title": "文章复盘 · 8题",
+  "meta": "2013 英语一 Reading Text 4 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
+  "progressLabel": "返回本篇进度",
+  "storagePrefix": "kaoyan.article.v1.",
+  "storageId": "2026-10-18-2013-text4",
+  "ignoreStale": true,
+  "reportLabel": "考研英语文章复盘",
+  "reportTitle": "文章复盘",
+  "exportStem": "article-review",
+  "footer": "本篇复盘结果只有在你点击“提交结果到 GitHub”并在 GitHub 再点 Submit new issue 后，才会进入后续间隔复习。",
+  "questions": [
+    {
+      "id": "text4-executive-overreach-b",
+      "family": "text4-executive-overreach",
+      "target": "claim about enforcement power vs legal authority",
+      "skill": "区分行政部门的主张与作者认可的结论",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 55,
+      "q": "An executive agency claims it can invalidate any otherwise lawful regional rule whenever that rule conflicts with the agency's enforcement priorities. What does the agency's claim amount to?",
+      "o": [
+        "Regional governments always have more authority than national law.",
+        "The agency claims its enforcement power outweighs the authority held by regional governments.",
+        "The legislature has expressly banned all regional enforcement.",
+        "The agency accepts that regional rules are always valid."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "一个行政机构声称，只要某项原本合法的地区规则与该机构的执法优先事项冲突，它就可以使该规则失效。这相当于声称，该机构的执法权高于地区政府所拥有的权限。",
+        "structure": "claims后面是机构主张的内容；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+        "other": "invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；outweigh 权重或重要性高于。",
+        "meaning": "要区分被描述的主张与文章作者认可的结论。句子是在复述行政机构想要的权力范围，并不代表作者认为这种主张正确。",
+        "rest": "地区政府权力永远高于国家法律过于绝对；没有说立法机关明文禁止所有地区执法；机构声称能使规则失效，说明它并未承认地区规则一律有效。"
+      },
+      "context_id": "context:text4-executive-overreach-b"
+    },
+    {
+      "id": "text4-agreement-target-a",
+      "family": "text4-agreement-target",
+      "target": "what the judges agreed on vs why",
+      "skill": "题干询问对象 + 结论与理由分层",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 55,
+      "q": "Judges agreed that county officers could verify residency status during certain enforcement encounters. The opinion explains that the national legislature had repeatedly encouraged joint national-local enforcement and information sharing. What did the judges agree on?",
+      "o": [
+        "The national legislature had taken over every local enforcement decision.",
+        "Counties were independent of national law.",
+        "Local authorities had a legitimate role in enforcement within legal limits.",
+        "National officers were required to withhold information."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "法官们同意，县级执法人员在某些执法接触中可以核查居住身份。判决解释说，国家立法机关一直鼓励国家与地方共同执法和共享信息。法官们达成一致的是：地方当局在法律允许的范围内拥有正当的执法角色。",
+        "structure": "Judges agreed that...直接引出法官认可的结论；The opinion explains that...再引出支持这一结论的理由。不要把后一句的national legislature误当成题干询问的结论主体。",
+        "other": "verify 核实；enforcement 执法；legitimate 正当的、合法的；withhold information 扣留信息、不提供信息。",
+        "meaning": "题干问what did the judges agree on，先找法院允许什么，再看立法机关的政策如何解释该决定。理由提到了国会，不代表答案就是国会介入。",
+        "rest": "没有说立法机关接管所有地方执法；地方仍受国家法律约束；原文支持信息共享，而非要求联邦人员隐瞒信息。"
+      },
+      "context_id": "context:text4-agreement-target-a"
+    },
+    {
+      "id": "causal-role-deadline-response",
+      "family": "causal-role-direction",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "target": "原因 / 应对措施 / 后续结果",
+      "skill": "谁影响谁",
+      "q": "After several small firms missed an application deadline, the council extended the next round by a week to give them another chance. Participation in that later round has not yet been measured. Which statement preserves the roles?",
+      "o": [
+        "The extension made firms miss the earlier deadline.",
+        "The later participation figures caused the council to extend the round.",
+        "The missed deadline prompted an extension; its effect on later participation is still unknown.",
+        "The earlier deadline was introduced in response to the extension."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "几家小企业错过申请截止时间后，市政委员会将下一轮的期限延长一周，给它们再一次机会。后一轮的参与情况尚未统计。错过期限是延长期限这一应对措施的背景，措施对随后参与的影响仍未知。",
+        "structure": "after从句：several small firms + missed + an application deadline。主句：the council + extended + the next round，by a week表示延长量，to give them another chance说明目的。Participation + has not yet been measured是现在完成时被动谓语。",
+        "other": "firm 企业；application 申请；deadline 截止时间；participation 参与情况。",
+        "meaning": "区分原先问题、事后应对和尚未观测的效果。不能让后来的措施成为较早失败的原因，也不能凭实施措施就宣称取得改善。",
+        "rest": "The extension made...让下一轮的措施反过来造成先前错过期限；later participation figures不存在已测量数据，不能成为依据；earlier deadline ... in response to the extension把较早规则与后来的回应倒置。"
+      },
+      "context_id": "context:causal-role-deadline-response"
+    },
+    {
+      "id": "text4-federal-field-b",
+      "family": "text4-federal-state-boundary",
+      "target": "parallel rule vs direct conflict",
+      "skill": "区分并行规定、直接冲突与领域排除",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 55,
+      "q": "A national law creates a comprehensive safety-label system for medical devices. A state adds a parallel labelling rule. A court invalidates the state provision because the national law has occupied the field. Which inference is strongest?",
+      "o": [
+        "Any state rule that resembles a national rule is automatically invalid.",
+        "The state provision can be pre-empted even without a direct contradiction because national regulation has occupied the field.",
+        "The ruling shows that the state policy violated another state's law.",
+        "The court concluded that the national safety law has no authority."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "国家法律建立了全面的医疗器械安全标签制度。某州又增加了一项并行的标签规定。法院因为国家法律已经全面覆盖该领域而判定州规定无效。最有力的推断是：即使没有直接矛盾，州规定也可能因领域排除而不能成立。",
+        "structure": "creates与adds分别描述国家和州制定规则；because引出法院判决的原因。because the national law has occupied the field不是说两项规则必须逐字冲突，而是说明该领域已由国家立法全面规制。",
+        "other": "comprehensive 全面的；labelling 标签规定；invalidate 判定无效；pre-empt 排除与之不相容的州层面规制。",
+        "meaning": "parallel只表示并行或相应，并不自动等于contradict。判断权限问题时，要区分直接冲突与国家立法已占据整个领域这两种理由。",
+        "rest": "把任何相似规定一概判无效过于绝对；另一州的法律没有被提及；国家法律具有权威正是判决理由的一部分，并非被否定。"
+      },
+      "context_id": "context:text4-federal-field-b"
+    },
+    {
+      "id": "example-factory-reporting-measure-d",
+      "family": "example-claim-scope",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-15",
+      "budget": 60,
+      "target": "观测数字与论证作用",
+      "skill": "把实例放回可见记录与实际行为的区分",
+      "q": "An essay distinguishes a visible change in records from a change in underlying behaviour. It describes a factory where reported near-misses increased after a safety bonus was introduced. An anonymous survey found no change in how often hazards occurred; workers said they had previously kept quiet about them. What does the case illustrate?",
+      "o": [
+        "A safety bonus can make a workplace more dangerous even when workers welcome it.",
+        "Anonymous surveys provide weaker safety evidence than official incident totals.",
+        "Workers respond more strongly to anonymity than to financial rewards.",
+        "Recorded events can increase because reporting changes, without a matching increase in hazards."
+      ],
+      "a": 3,
+      "exp": {
+        "trans": "文章区分记录上的可见变化与实际行为的变化。文中举例，一家工厂引入安全奖励后，上报的险情增多。匿名调查发现，危险出现的频率并没有变化；工人说自己以前对这些情况保持沉默。这个例子说明，记录数量上升可能源自上报方式改变，而不意味着危险同步增加。",
+        "structure": "An essay + distinguishes + A from B提出上层区分；It + describes + a factory引出例子，where从句补充上报数量变化。was introduced是被动谓语。An anonymous survey + found + no change；how often hazards occurred补充频率。had previously kept quiet指出早期漏报背景。",
+        "other": "near-miss 险些发生的事故、险情；underlying 实际的、深层的；anonymous 匿名的；hazard 危险因素；incident total 事件总数。",
+        "meaning": "实例在支持记录变化不等于实际事件变化这一论点。新增上报与此前沉默形成对照，不能把记录增多直接推成工作更危险；也不应把例证题改答成未讨论的奖励与匿名措施孰强。",
+        "rest": "奖励后上报增多不能证明危险增多，调查反而指出发生频率未变；文中没有比较匿名调查和正式记录的证据等级；匿名是调查方式，奖励是先前制度变化，材料没有直接比较二者激励强度。"
+      },
+      "context_id": "context:example-factory-reporting-measure-d"
+    },
+    {
+      "id": "text4-state-privileges-b",
+      "family": "text4-historical-inference",
+      "target": "historical evidence and the side it supports",
+      "skill": "历史引用的立场归属",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 55,
+      "q": "In a dispute over river management, a judge's dissent traces a 'strong defense of state privileges' back to an early national statute. What is the best inference?",
+      "o": [
+        "The judge's argument favors state powers.",
+        "The judge says the statute stripped states of all authority.",
+        "The judge agrees national officials may cancel any state rule they dislike.",
+        "The judge is discussing only the technical cost of river management."
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "在一场河流管理争议中，一位法官的异议意见把对州权的有力辩护追溯到一项早期国家法案。最合理的推断是，该法官的论证支持州的权力。",
+        "structure": "a judge's dissent是中心名词短语；traces...back to...表示追溯来源；strong defense of state privileges直接提示被辩护的一方是州。",
+        "other": "dissent 异议意见；trace back to 追溯到；strip someone of authority 剥夺某人的权限。",
+        "meaning": "历史法案的名称或年代不是唯一线索；更重要的是作者把它用来支持哪一方。此处明确说的是对州权的辩护。",
+        "rest": "剥夺州权与strong defense of state privileges相反；文中没有授权国家官员随意取消州规则；河流管理成本不是论证重点。"
+      },
+      "context_id": "context:text4-state-privileges-b"
+    },
+    {
+      "id": "with-bread-cooling",
+      "family": "with",
+      "introduced": null,
+      "budget": 60,
+      "target": "with + 名词 + 分词",
+      "skill": "with + 名词 + 后置成分",
+      "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
+      "o": [
+        "补充开门时伴随的状态",
+        "引出老板的直接引语",
+        "说明开门的唯一目的",
+        "充当opened的直接宾语"
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
+        "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
+        "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
+        "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
+        "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
+      },
+      "context_id": "with-simultaneous-ing"
+    },
+    {
+      "id": "nested-shared-gate",
+      "family": "nested",
+      "introduced": "2026-09-29",
+      "budget": 60,
+      "target": "who 定语从句 / that 宾语从句",
+      "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+      "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
+      "o": [
+        "Residents / discovered / called",
+        "the shared gate / discovered / was",
+        "Residents / was unlocked / discovered",
+        "the caretaker / called / discovered"
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
+        "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
+        "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
+        "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
+        "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
+      },
+      "context_id": "nested-who-that-predicate"
+    }
+  ],
+  "retry": {
+    "text4-executive-overreach": [
+      {
+        "id": "text4-executive-overreach-a",
+        "family": "text4-executive-overreach",
+        "target": "executive unwillingness vs local permission",
+        "skill": "作者立场 + do so 回指",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
+        "o": [
+          "The court is checking an attempt by the executive to extend its own power.",
+          "Rail-safety issues are always decided solely by Parliament.",
+          "The ministry has unlimited authority over local councils.",
+          "Local councils may disregard every national law."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "交通部表示，因为它不想执行议会的铁路安全计划，地方议会也不应被允许执行。法院驳回了这一主张。最有根据的结论是，法院正在制衡行政部门扩大自身权力的企图。",
+          "structure": "because引出交通部不愿执行计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出对该主张的司法回应。",
+          "other": "carry out 执行、落实；executive 行政部门；council 地方议会/委员会；reject a claim 驳回一种主张。",
+          "meaning": "行政部门不愿执行立法机关的计划，不等于它可以禁止地方在法律允许的范围内执行。法院驳回这种主张，支持对行政权的制衡。",
+          "rest": "文本没有说铁路安全只能由议会处理；交通部并没有无限权力；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
+        },
+        "context_id": "context:text4-executive-overreach-a"
+      }
+    ],
+    "text4-agreement-target": [
+      {
+        "id": "text4-agreement-target-b",
+        "family": "text4-agreement-target",
+        "target": "conclusion vs supporting reason",
+        "skill": "区分司法结论与立法背景",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A court allows city inspectors to check permit status while coordinating with national officers. The opinion cites a statute encouraging shared databases and joint inspections. Which statement is the court's conclusion rather than the supporting reason?",
+        "o": [
+          "The legislature encouraged coordination between national and local officials.",
+          "Local inspectors may play a legitimate role within the enforcement system.",
+          "Officials are encouraged to share information.",
+          "National law no longer applies to local inspections."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "法院允许城市检查员在与国家执法人员协调时核查许可证状态。判决援引了一项鼓励共享数据库和联合检查的法律。法院的结论是：地方检查员可以在执法体系中发挥正当作用。",
+          "structure": "The court allows...陈述法院允许的行为；The opinion cites...介绍支撑理由的法律背景。问题要求找conclusion，因此应回到法院实际允许什么。",
+          "other": "coordinate 协调；permit status 许可证状态；cite 引用；supporting reason 支持理由。",
+          "meaning": "文章中的立法背景、理由和司法结论承担不同功能。即使理由出现得更显眼，也不能把它当成题干询问的结论。",
+          "rest": "鼓励协调和共享信息都是支持理由；原文并未取消国家法律对地方检查的约束。"
+        },
+        "context_id": "context:text4-agreement-target-b"
+      }
+    ],
+    "causal-role-direction": [
+      {
+        "id": "causal-role-direction-fitness-a",
+        "family": "causal-role-direction",
+        "introduced": "2026-10-03",
+        "target": "attribute A to B / 原因与结果",
+        "skill": "谁影响谁",
+        "budget": 50,
+        "q": "A trial attributed a drop in workshop dust to the installation of a new air filter. Which paraphrase preserves the reported cause and effect?",
+        "o": [
+          "The decrease in dust made the workshop install a new filter.",
+          "Installing the filter helped reduce the amount of dust in the workshop.",
+          "Dust in the workshop improved the filter's performance.",
+          "The trial proved that every type of pollution had disappeared."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "一项试验把车间粉尘的减少归因于安装了新的空气过滤器。准确改写应保留“安装过滤器 → 粉尘减少”的因果方向。",
+          "structure": "A trial（主语）+ attributed（谓语）+ a drop in workshop dust（宾语/结果）+ to the installation of a new air filter（原因）。attribute A to B中A是被解释的结果，B是原因；名词化的installation保留install the filter这一动作。",
+          "other": "trial 试验；workshop 车间；dust 粉尘；installation 安装；air filter 空气过滤器。",
+          "meaning": "不要把先出现的名词误当成原因。attribute A to B的方向是B导致A，而不是A导致B。",
+          "rest": "The decrease in dust made...把结果倒置为安装的原因；Dust improved the filter's performance交换了受影响对象并添加无据效果；every type of pollution把粉尘减少扩大为所有污染消失。"
+        },
+        "source_exam": "2011-english1",
+        "source_question": 40,
+        "context_id": "context:causal-role-direction-fitness-a"
+      },
+      {
+        "id": "causal-role-direction-travel-b",
+        "family": "causal-role-direction",
+        "introduced": "2026-10-03",
+        "target": "施事与受事 / 原因与结果",
+        "skill": "作用关系不能倒置",
+        "budget": 50,
+        "q": "The gardeners shaded the seedlings during the hottest hours. As a result, fewer seedlings dried out. Which statement keeps the cause and the affected object in the right roles?",
+        "o": [
+          "The healthier seedlings caused the gardeners to provide shade.",
+          "Shade provided by the gardeners reduced the seedlings' exposure to heat.",
+          "The seedlings protected the gardeners from the heat.",
+          "The heat was reduced because the seedlings dried out."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "园丁在最热的几小时给幼苗遮阴，因此干枯的幼苗变少了。正确改写是：园丁提供的遮阴减少了幼苗暴露在高温中的程度。",
+          "structure": "第一句：The gardeners（施事/主语）+ shaded（谓语）+ the seedlings（受事/宾语）。第二句：fewer seedlings（主语）+ dried out（谓语）。As a result明确把遮阴和干枯减少连接为原因与结果。",
+          "other": "gardener 园丁；shade 给……遮阴；seedling 幼苗；dry out 干枯；exposure 暴露。",
+          "meaning": "先标明谁采取动作、谁受影响，再核对因果方向。gardener → shade → seedlings dry out less，不能交换施事与受事。",
+          "rest": "healthier seedlings caused...把结果当成原先行动的原因；seedlings protected gardeners交换了保护者与被保护者；heat was reduced because...反转因果，还把减少高温暴露偷换成降低环境温度。"
+        },
+        "source_exam": "2011-english1",
+        "source_question": 40,
+        "context_id": "context:causal-role-direction-travel-b"
+      },
+      {
+        "id": "causal-role-trust-delays",
+        "family": "causal-role-direction",
+        "introduced": "2026-10-03",
+        "published_on": "2026-10-05",
+        "budget": 50,
+        "target": "因果角色 / 作用方向",
+        "skill": "谁影响谁",
+        "q": "Trust in the complaints system was weakened by delays in acknowledging reports. Fewer residents subsequently used it. Which chain matches the account?",
+        "o": [
+          "Lower use caused the earlier delays, which then improved trust.",
+          "Delays weakened trust; reduced use followed that loss of trust.",
+          "Residents’ increased trust made acknowledgement take longer.",
+          "Fewer reports showed that complaints had been resolved more quickly."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "投诉系统迟迟不确认收到报告，削弱了人们对它的信任。随后使用它的居民减少了。符合叙述的链条是：确认延迟削弱信任，使用减少随后发生。",
+          "structure": "Trust是主语；was weakened是被动谓语；by delays标明导致信任下降的因素。第二句Fewer residents是主语，used是谓语，it指投诉系统。subsequently给出时间方向。",
+          "other": "complaints system 投诉系统；acknowledge reports 确认收到报告；delay 延迟；subsequently 随后。",
+          "meaning": "被动句的语法主语是受到影响的信任，不是施加影响的延迟。第二步是后续使用减少，不能倒转为原先延迟的起因。文本是对该链条的叙述，并未报告受控实验。",
+          "rest": "Lower use caused the earlier delays把后续使用减少倒置为较早事件的原因，且improved trust与weakened相反；increased trust同时交换方向和变化趋势；resolved more quickly把使用量下降替换成解决速度提升，原文没有处理速度数据。"
+        },
+        "context_id": "context:causal-role-trust-delays"
+      }
+    ],
+    "text4-federal-state-boundary": [
+      {
+        "id": "text4-federal-field-a",
+        "family": "text4-federal-state-boundary",
+        "target": "knock out / contested provisions / field preemption",
+        "skill": "法律词组放回语境 + 联邦与州权限边界",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A legal report says the court 'knocked out' three contested provisions in a state's licensing plan. The judgment adds that the national legislature had already 'occupied the field,' although the state rules did not directly contradict one specific national clause. Which paraphrase best captures the reasoning?",
+        "o": [
+          "The court postponed the dispute because the rules were too complicated.",
+          "The court struck down the disputed rules because national law had comprehensively regulated that field.",
+          "The court approved the rules as harmless additions to national policy.",
+          "The court found that the state had contradicted the policies of two other states."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "法律报道说，法院推翻了某州许可计划中的三项有争议的规定。判决补充说，国家立法机关已经全面覆盖了这一领域，尽管州规定并未直接违反某一条具体的国家条款。",
+          "structure": "knocked out的宾语是three contested provisions；although引导让步从句，说明没有直接冲突也不必然排除field preemption。had already occupied the field说明国家立法已经全面规制该领域。",
+          "other": "knock out在法律报道中可表示推翻、废除；contested provisions是有争议的条款；occupy the field是法律语境中的全面占据某立法领域；contradict是直接相抵触。",
+          "meaning": "这里要把词组与判决理由连起来：法院推翻争议条款，是因为国家立法已全面覆盖该领域。州规定即使没有逐条直接矛盾，也可能因越过该领域的权限边界而被排除。",
+          "rest": "延期审理与法院已推翻条款不符；原文没有说法院批准了州规定；也没有证据表明该州违反了其他州的政策。"
+        },
+        "context_id": "context:text4-federal-field-a"
+      }
+    ],
+    "example-claim-scope": [
+      {
+        "id": "example-council-reform-opposition-a",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 60,
+        "target": "具体反对行动支持哪条主旨",
+        "skill": "例子→论点 / 不能多推态度变化",
+        "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
+        "o": [
+          "Organized groups can impede administrative reforms.",
+          "The association persuaded every resident to change political allegiance.",
+          "Most builders oppose the current political system in all circumstances.",
+          "Digital permits always cost more than paper applications."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
+          "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
+          "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
+          "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
+          "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
+        },
+        "context_id": "context:example-council-reform-opposition-a"
+      },
+      {
+        "id": "example-farmers-support-trial-b",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 60,
+        "target": "例子与论点的对应范围",
+        "skill": "不能靠团体行动推固定结论",
+        "q": "An article argues that locally organized groups can sometimes help an unpopular policy get started. It describes a farmers' cooperative that trained volunteers and persuaded members to test a water-saving system, helping the trial begin on schedule. What is the role of this example?",
+        "o": [
+          "It proves every member had opposed water conservation before joining.",
+          "It shows cooperatives necessarily control the national government.",
+          "It establishes that all unpopular policies eventually succeed.",
+          "It supports the claim that organized groups can facilitate policy implementation."
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "文章认为地方组织有时能帮助不受欢迎的政策启动，随后举农民合作社培训志愿者、推动成员试用节水系统，使试验按时开展的例子。这个例子是在支持‘团体也能帮助政策落实’。",
+          "structure": "An article argues + that从句是主张；It describes...引出实例；helping the trial begin是实例中的实际结果。",
+          "other": "cooperative 合作社；facilitate 促进；implementation 落实；trial 试行。",
+          "meaning": "例子支持的结论可以是促进改革，也可以是阻碍改革，取决于前后文。不要机械地把‘团体动员’与‘妨碍改革’绑定。",
+          "rest": "成员加入前态度没有交代；合作社对国家政府的控制与本文无关；一次成功试行不能保证所有政策最终成功。"
+        },
+        "context_id": "context:example-farmers-support-trial-b"
+      },
+      {
+        "id": "example-museum-hours-transport-c",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-15",
+        "budget": 60,
+        "target": "例子在论证中的作用",
+        "skill": "识别反例对充分条件的限制而非扩大成全面否定",
+        "q": "A consultant argues that longer opening hours are enough to widen access to museums. A writer responds with a neighbourhood museum that stayed open until 10 p.m., yet attracted few additional night-shift workers. Interviews revealed that the last bus serving their workplaces left at 8 p.m. Why does the writer include this case?",
+        "o": [
+          "To show that transport constraints can limit what extended hours achieve.",
+          "To identify reduced bus services as a consequence of the later museum hours.",
+          "To compare tourists' reasons for visiting with those of local residents.",
+          "To present later opening as a substitute for improving transport links."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "顾问认为，只要延长开放时间，就足以让更多人有机会参观博物馆。作者回应说，一家社区博物馆开放到晚上十点，却几乎没有多吸引夜班工人。访谈发现，途经他们工作地点的末班公交在晚上八点就开走了。作者为何举这个例子？为了说明交通限制会影响延长开放时间的实际效果。",
+          "structure": "A consultant + argues + that从句提出待检验的充分条件；A writer + responds with + a museum引出反例。that stayed open...为修饰museum的定语从句；yet转向预期未实现的结果；Interviews + revealed + that从句提供限制条件。",
+          "other": "widen access 扩大参与机会；neighbourhood 社区；night-shift worker 夜班工人；extended hours 延长的开放时间；transport link 交通连接。",
+          "meaning": "例子针对的是延长开放时间是否单独就足够。公交仍是障碍，说明措施的效果受另一条件限制；没有证明延时开放普遍无效，也没有比较不同群体的喜好。",
+          "rest": "末班车时间是已有约束，文中没有说公交服务因博物馆延时而削减；游客与本地居民的参观动机没有被比较；例子指出仅延时仍不足，不能反说延时可以替代交通改善。"
+        },
+        "context_id": "context:example-museum-hours-transport-c"
+      }
+    ],
+    "text4-historical-inference": [
+      {
+        "id": "text4-state-privileges-a",
+        "family": "text4-historical-inference",
+        "target": "historical reference used to defend local powers",
+        "skill": "历史背景的论证方向推断",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A dissenting judge describes an old coastal settlement act as part of a 'robust defense of local privileges' and uses it to challenge a national ruling. What does this suggest about the judge's position?",
+        "o": [
+          "The judge favors protecting local or state authority.",
+          "The judge argues that local authorities should have no powers.",
+          "The judge believes the old act proves every national statute is invalid.",
+          "The judge supports the national ruling and rejects local autonomy."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "一位持异议的法官把一项旧的沿海定居法案描述为对地方特权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官倾向于保护地方或州的权力。",
+          "structure": "a dissenting judge是主语；describes...as...说明法官如何定位该历史法案；uses it to challenge...表明引用它是为了反对国家裁决。",
+          "other": "dissenting 持异议的；robust 有力的；privilege 特权、权限；local autonomy 地方自治。",
+          "meaning": "推断历史材料的论证方向，要看作者如何使用它。robust defense of local privileges明确把历史材料用于支持地方权力，而不是支持国家权力。",
+          "rest": "地方权力被取消与defense of local privileges相反；没有证据证明所有国家法律都无效；法官正在质疑国家裁决，并非支持它。"
+        },
+        "context_id": "context:text4-state-privileges-a"
+      }
+    ],
+    "with": [],
+    "nested": []
+  },
+  "article_session": {
+    "id": "2026-10-18-2013-text4",
+    "source": "2013 英语一 Reading Text 4",
+    "created_at": "2026-10-18T20:18:00+09:00",
+    "revision": 1,
+    "session_file": "data/article-sessions/2026-10-18-2013-text4.json",
+    "current_families": [
+      "text4-executive-overreach",
+      "text4-historical-inference",
+      "text4-agreement-target",
+      "text4-federal-state-boundary"
+    ],
+    "deferred_families": [],
+    "historical_families": [
+      "with",
+      "nested",
+      "example-claim-scope",
+      "causal-role-direction"
+    ]
+  },
+  "issues_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "engine": 4
+}
