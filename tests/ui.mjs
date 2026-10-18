@@ -9,6 +9,12 @@ Object.defineProperties(storage, {
   setItem: {value(key, value) { this[key] = value; }},
   removeItem: {value(key) { delete this[key]; }}
 });
+const sessionStore = {
+  items: {},
+  getItem(key) { return this.items[key] ?? null; },
+  setItem(key, value) { this.items[key] = value; },
+  removeItem(key) { delete this.items[key]; }
+};
 const fields = ['trans', 'structure', 'other', 'meaning', 'rest'];
 const question = (id, family) => ({id, family, context_id: id, target: family, q: 'Question about ' + id,
   o: ['choice one', 'choice two', 'choice three', 'choice four'], a: 0,
@@ -61,7 +67,7 @@ function boot() {
       return clipboardImpl(value);
     }}} : undefined,
     open: url => { opened = url; },
-    sessionStorage: storage,
+    sessionStorage: sessionStore,
     addEventListener(type, handler) { pageEvents[type] = handler; }}, document, localStorage: storage,
     performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console,
     fetch: async (path, options={}) => {
