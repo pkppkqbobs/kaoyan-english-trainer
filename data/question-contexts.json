@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-17",
+  "reviewed_on": "2026-10-18",
   "source_commit": "eb503af21ff40db678078310237a5aeb9b8c9212",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -289,7 +289,15 @@
     "text3-boxed-uniformly-asteroid-a": "context:text3-boxed-uniformly-asteroid-a",
     "text3-boxed-flagship-b": "context:text3-boxed-flagship-b",
     "text3-phrases-dedicated-timescale-a": "context:text3-phrases-dedicated-timescale-a",
-    "text3-phrases-fad-rosy-b": "context:text3-phrases-fad-rosy-b"
+    "text3-phrases-fad-rosy-b": "context:text3-phrases-fad-rosy-b",
+    "text4-federal-field-a": "context:text4-federal-field-a",
+    "text4-federal-field-b": "context:text4-federal-field-b",
+    "text4-agreement-target-a": "context:text4-agreement-target-a",
+    "text4-agreement-target-b": "context:text4-agreement-target-b",
+    "text4-state-privileges-a": "context:text4-state-privileges-a",
+    "text4-state-privileges-b": "context:text4-state-privileges-b",
+    "text4-executive-overreach-a": "context:text4-executive-overreach-a",
+    "text4-executive-overreach-b": "context:text4-executive-overreach-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -314,7 +322,15 @@
     "on-which-argument": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
     "such-two-improvements": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
     "subject-rule-process-double": "原始语境不同但主要句架、选项排除路径和被测义项相同；保守按一类计，不据此改变用户成绩。",
-    "process-initial-report-independent-verification": "旧两题分别讲避难所估计和桥梁报告，但都用个人起点→独立核验→正式采用，答案路径与排除逻辑近似；保守合并，不把换题号当不同推理。新增题另测核验与实施授权的区别、暂停决定与后续放行的区别。"
+    "process-initial-report-independent-verification": "旧两题分别讲避难所估计和桥梁报告，但都用个人起点→独立核验→正式采用，答案路径与排除逻辑近似；保守合并，不把换题号当不同推理。新增题另测核验与实施授权的区别、暂停决定与后续放行的区别。",
+    "text4-federal-field-a": "法律新闻语境，重点是knock out/contested和occupied the field共同表达的判决理由。",
+    "text4-federal-field-b": "医疗器械标签语境，测试无直接冲突时仍可能存在field preemption。",
+    "text4-agreement-target-a": "县级身份核查语境，区分法官认可的地方执法角色与立法机关提供的理由。",
+    "text4-agreement-target-b": "许可证检查语境，明确区分法院结论与支持理由。",
+    "text4-state-privileges-a": "沿海定居法案的历史引用，用于推断异议法官支持地方权力。",
+    "text4-state-privileges-b": "河流管理语境，练习历史材料的论证方向。",
+    "text4-executive-overreach-a": "铁路安全政策语境，测试行政部门阻止地方执行与司法制衡之间的关系。",
+    "text4-executive-overreach-b": "地区规则与行政执法优先级语境，区分行政机构的主张与作者认可的事实。"
   },
   "family_assessments": {
     "reference": {
@@ -389,6 +405,22 @@
       "coverage_gap": false,
       "previous_gap": null,
       "reason": "新增时间发展主线与多能源比较框架，不能只选末段显眼案例。"
+    },
+    "text4-federal-state-boundary": {
+      "coverage_gap": true,
+      "reason": "首批两个不同语境：一题训练knock out/contested及field preemption语义，一题迁移到医疗器械标签规则。继续观察是否能区分parallel、direct contradiction与occupied field，不凭两题即判掌握。"
+    },
+    "text4-agreement-target": {
+      "coverage_gap": true,
+      "reason": "首批两个不同语境专门区分题干询问的司法结论与国会提供的理由；需要通过后续真实作答确认主体跟踪是否稳定。"
+    },
+    "text4-historical-inference": {
+      "coverage_gap": true,
+      "reason": "首批两个不同历史背景的迁移题训练历史材料支持哪一方；不以法案名称相似作为唯一连接证据。"
+    },
+    "text4-executive-overreach": {
+      "coverage_gap": true,
+      "reason": "首批两个不同语境区分行政部门所主张的权力范围与作者认可的司法制衡结论；继续观察是否避免把具体权限扩大成一般命题。"
     }
   },
   "historical_content_findings": [

@@ -909,5 +909,54 @@
     "session_id": "2026-10-17-2013-text3",
     "source_exam": "2013-english1",
     "source_part": "Text 3"
+  },
+  {
+    "family": "text4-federal-state-boundary",
+    "date": "2026-10-18",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Text 4第36题：用户明确确认最终选D，曾犹豫A但未选A；正确答案C。用户知道parallel是“平行/并行”、overstep是“越界”，但在D（contradicted both federal and state policies）与C间摇摆。需要区分parallel并不自动等于contradict；第三段的occupied the field与intruded on the federal's privileged powers共同支持州越权。用户特别澄清：画框表示阅读理解存在障碍，不限于纯词义翻译。图中框出的knocked out在首段指法院推翻/废除条款；contested provisions指有争议的条款，应放回判决语境理解。",
+    "session_id": "2026-10-18-2013-text4",
+    "source_exam": "2013-english1",
+    "source_part": "Text 4",
+    "source_question": 36,
+    "reported_pick": "D",
+    "uncertain_alternative": "A",
+    "expected": "C"
+  },
+  {
+    "family": "text4-agreement-target",
+    "date": "2026-10-18",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Text 4第37题：用户最终选D，正确答案C。用户把段落中Congress鼓励联合执法/信息共享这一理由，误当成题干问的Justices同意的内容。需要先识别题干主语与询问对象：法官认可的是州在移民执法中的合法作用；国会的共同执法设想是支持这一结论的理由，不是答案本身。",
+    "session_id": "2026-10-18-2013-text4",
+    "source_exam": "2013-english1",
+    "source_part": "Text 4",
+    "source_question": 37,
+    "reported_pick": "D",
+    "expected": "C"
+  },
+  {
+    "family": "text4-historical-inference",
+    "date": "2026-10-18",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Text 4第38题：用户最终选C，正确答案D。用户把前一句的the federal statute与本句提到的the Alien and Sedition Acts混为一谈。推断必须看后半句：Scalia offered an even more robust defense of state privileges going back to the Alien and Sedition Acts；历史材料被用来强化州权辩护，因此推断他站在各州一边。此题应记录为指代对象与论证方向混淆，不仅是法案词汇不熟。",
+    "session_id": "2026-10-18-2013-text4",
+    "source_exam": "2013-english1",
+    "source_part": "Text 4",
+    "source_question": 38,
+    "reported_pick": "C",
+    "expected": "D"
+  },
+  {
+    "family": "text4-executive-overreach",
+    "date": "2026-10-18",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Text 4第40题：用户最终选A，正确答案B。A把“国会如果想禁止州使用自己的资源核查移民身份，本来可以这么做”扩大成“移民问题通常由国会决定”，超出原文。作者最后一句Every Justice rightly rejected this remarkable claim明确赞同大法官驳回行政部门的主张，因此最佳推断是司法机关制衡行政部门权力。用户确认画框代表阅读理解障碍；末段框出的immigration wishes需整体理解：carry out Congress's immigration wishes=执行/落实国会希望推行的移民政策；do so either回指carry out该政策。",
+    "session_id": "2026-10-18-2013-text4",
+    "source_exam": "2013-english1",
+    "source_part": "Text 4",
+    "source_question": 40,
+    "reported_pick": "A",
+    "expected": "B"
   }
 ]

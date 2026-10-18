@@ -1,0 +1,15 @@
+{
+  "id": "2026-10-18-2013-text4",
+  "date": "2026-10-18",
+  "created_at": "2026-10-18T20:18:00+09:00",
+  "source": "2013 英语一 Reading Text 4",
+  "result_summary": "用户明确报告第36题最终选D并曾犹豫A，第37题选D，第38题选C，第39题选A，第40题选A。核对答案：36C、37C、38D、39A、40B。纸质真题反馈仅用于学习观察，不伪造成网页成绩、错误次数或GitHub Issue评分。用户整体表示文章看不懂，核心困难为联邦政府/国会/白宫行政部门/州政府/大法官等主体混淆，具体条款胜负与宪法权力分配两层论证混淆，以及题干询问对象、论据与结论、历史材料的论证方向。用户特别澄清画框表示阅读理解障碍词句，可能涉及词义、搭配、句法或逻辑，不限于纯翻译；可辨认的框线包括knocked out、contested及末段immigration wishes附近。横线仅表示重要/可能与答案有关，不自动代表理解困难。",
+  "focus_families": [
+    "text4-federal-state-boundary",
+    "text4-agreement-target",
+    "text4-historical-inference",
+    "text4-executive-overreach"
+  ],
+  "max_current": 4,
+  "revision": 1
+}

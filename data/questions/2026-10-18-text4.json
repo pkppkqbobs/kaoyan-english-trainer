@@ -1,0 +1,202 @@
+[
+  {
+    "id": "text4-federal-field-a",
+    "family": "text4-federal-state-boundary",
+    "target": "knock out / contested provisions / field preemption",
+    "skill": "法律词组放回语境 + 联邦与州权限边界",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "A legal report says the court 'knocked out' three contested provisions in a state's licensing plan. The judgment adds that the national legislature had already 'occupied the field,' although the state rules did not directly contradict one specific national clause. Which paraphrase best captures the reasoning?",
+    "o": [
+      "The court postponed the dispute because the rules were too complicated.",
+      "The court struck down the disputed rules because national law had comprehensively regulated that field.",
+      "The court approved the rules as harmless additions to national policy.",
+      "The court found that the state had contradicted the policies of two other states."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "法律报道说，法院推翻了某州许可计划中的三项有争议的规定。判决补充说，国家立法机关已经全面覆盖了这一领域，尽管州规定并未直接违反某一条具体的国家条款。",
+      "structure": "knocked out的宾语是three contested provisions；although引导让步从句，说明没有直接冲突也不必然排除field preemption。had already occupied the field说明国家立法已经全面规制该领域。",
+      "other": "knock out在法律报道中可表示推翻、废除；contested provisions是有争议的条款；occupy the field是法律语境中的全面占据某立法领域；contradict是直接相抵触。",
+      "meaning": "这里要把词组与判决理由连起来：法院推翻争议条款，是因为国家立法已全面覆盖该领域。州规定即使没有逐条直接矛盾，也可能因越过该领域的权限边界而被排除。",
+      "rest": "延期审理与法院已推翻条款不符；原文没有说法院批准了州规定；也没有证据表明该州违反了其他州的政策。"
+    },
+    "context_id": "context:text4-federal-field-a"
+  },
+  {
+    "id": "text4-federal-field-b",
+    "family": "text4-federal-state-boundary",
+    "target": "parallel rule vs direct conflict",
+    "skill": "区分并行规定、直接冲突与领域排除",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "A national law creates a comprehensive safety-label system for medical devices. A state adds a parallel labelling rule. A court invalidates the state provision because the national law has occupied the field. Which inference is strongest?",
+    "o": [
+      "Any state rule that resembles a national rule is automatically invalid.",
+      "The state provision can be pre-empted even without a direct contradiction because national regulation has occupied the field.",
+      "The ruling shows that the state policy violated another state's law.",
+      "The court concluded that the national safety law has no authority."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "国家法律建立了全面的医疗器械安全标签制度。某州又增加了一项并行的标签规定。法院因为国家法律已经全面覆盖该领域而判定州规定无效。最有力的推断是：即使没有直接矛盾，州规定也可能因领域排除而不能成立。",
+      "structure": "creates与adds分别描述国家和州制定规则；because引出法院判决的原因。because the national law has occupied the field不是说两项规则必须逐字冲突，而是说明该领域已由国家立法全面规制。",
+      "other": "comprehensive 全面的；labelling 标签规定；invalidate 判定无效；pre-empt 排除与之不相容的州层面规制。",
+      "meaning": "parallel只表示并行或相应，并不自动等于contradict。判断权限问题时，要区分直接冲突与国家立法已占据整个领域这两种理由。",
+      "rest": "把任何相似规定一概判无效过于绝对；另一州的法律没有被提及；国家法律具有权威正是判决理由的一部分，并非被否定。"
+    },
+    "context_id": "context:text4-federal-field-b"
+  },
+  {
+    "id": "text4-agreement-target-a",
+    "family": "text4-agreement-target",
+    "target": "what the judges agreed on vs why",
+    "skill": "题干询问对象 + 结论与理由分层",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "Judges agreed that county officers could verify residency status during certain enforcement encounters. The opinion explains that the national legislature had repeatedly encouraged joint national-local enforcement and information sharing. What did the judges agree on?",
+    "o": [
+      "The national legislature had taken over every local enforcement decision.",
+      "Counties were independent of national law.",
+      "Local authorities had a legitimate role in enforcement within legal limits.",
+      "National officers were required to withhold information."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "法官们同意，县级执法人员在某些执法接触中可以核查居住身份。判决解释说，国家立法机关一直鼓励国家与地方共同执法和共享信息。法官们达成一致的是：地方当局在法律允许的范围内拥有正当的执法角色。",
+      "structure": "Judges agreed that...直接引出法官认可的结论；The opinion explains that...再引出支持这一结论的理由。不要把后一句的national legislature误当成题干询问的结论主体。",
+      "other": "verify 核实；enforcement 执法；legitimate 正当的、合法的；withhold information 扣留信息、不提供信息。",
+      "meaning": "题干问what did the judges agree on，先找法院允许什么，再看立法机关的政策如何解释该决定。理由提到了国会，不代表答案就是国会介入。",
+      "rest": "没有说立法机关接管所有地方执法；地方仍受国家法律约束；原文支持信息共享，而非要求联邦人员隐瞒信息。"
+    },
+    "context_id": "context:text4-agreement-target-a"
+  },
+  {
+    "id": "text4-agreement-target-b",
+    "family": "text4-agreement-target",
+    "target": "conclusion vs supporting reason",
+    "skill": "区分司法结论与立法背景",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "A court allows city inspectors to check permit status while coordinating with national officers. The opinion cites a statute encouraging shared databases and joint inspections. Which statement is the court's conclusion rather than the supporting reason?",
+    "o": [
+      "The legislature encouraged coordination between national and local officials.",
+      "Local inspectors may play a legitimate role within the enforcement system.",
+      "Officials are encouraged to share information.",
+      "National law no longer applies to local inspections."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "法院允许城市检查员在与国家执法人员协调时核查许可证状态。判决援引了一项鼓励共享数据库和联合检查的法律。法院的结论是：地方检查员可以在执法体系中发挥正当作用。",
+      "structure": "The court allows...陈述法院允许的行为；The opinion cites...介绍支撑理由的法律背景。问题要求找conclusion，因此应回到法院实际允许什么。",
+      "other": "coordinate 协调；permit status 许可证状态；cite 引用；supporting reason 支持理由。",
+      "meaning": "文章中的立法背景、理由和司法结论承担不同功能。即使理由出现得更显眼，也不能把它当成题干询问的结论。",
+      "rest": "鼓励协调和共享信息都是支持理由；原文并未取消国家法律对地方检查的约束。"
+    },
+    "context_id": "context:text4-agreement-target-b"
+  },
+  {
+    "id": "text4-state-privileges-a",
+    "family": "text4-historical-inference",
+    "target": "historical reference used to defend local powers",
+    "skill": "历史背景的论证方向推断",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "A dissenting judge describes an old coastal settlement act as part of a 'robust defense of local privileges' and uses it to challenge a national ruling. What does this suggest about the judge's position?",
+    "o": [
+      "The judge favors protecting local or state authority.",
+      "The judge argues that local authorities should have no powers.",
+      "The judge believes the old act proves every national statute is invalid.",
+      "The judge supports the national ruling and rejects local autonomy."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一位持异议的法官把一项旧的沿海定居法案描述为对地方特权的有力辩护，并用它来质疑国家层面的裁决。这表明该法官倾向于保护地方或州的权力。",
+      "structure": "a dissenting judge是主语；describes...as...说明法官如何定位该历史法案；uses it to challenge...表明引用它是为了反对国家裁决。",
+      "other": "dissenting 持异议的；robust 有力的；privilege 特权、权限；local autonomy 地方自治。",
+      "meaning": "推断历史材料的论证方向，要看作者如何使用它。robust defense of local privileges明确把历史材料用于支持地方权力，而不是支持国家权力。",
+      "rest": "地方权力被取消与defense of local privileges相反；没有证据证明所有国家法律都无效；法官正在质疑国家裁决，并非支持它。"
+    },
+    "context_id": "context:text4-state-privileges-a"
+  },
+  {
+    "id": "text4-state-privileges-b",
+    "family": "text4-historical-inference",
+    "target": "historical evidence and the side it supports",
+    "skill": "历史引用的立场归属",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "In a dispute over river management, a judge's dissent traces a 'strong defense of state privileges' back to an early national statute. What is the best inference?",
+    "o": [
+      "The judge's argument favors state powers.",
+      "The judge says the statute stripped states of all authority.",
+      "The judge agrees national officials may cancel any state rule they dislike.",
+      "The judge is discussing only the technical cost of river management."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "在一场河流管理争议中，一位法官的异议意见把对州权的有力辩护追溯到一项早期国家法案。最合理的推断是，该法官的论证支持州的权力。",
+      "structure": "a judge's dissent是中心名词短语；traces...back to...表示追溯来源；strong defense of state privileges直接提示被辩护的一方是州。",
+      "other": "dissent 异议意见；trace back to 追溯到；strip someone of authority 剥夺某人的权限。",
+      "meaning": "历史法案的名称或年代不是唯一线索；更重要的是作者把它用来支持哪一方。此处明确说的是对州权的辩护。",
+      "rest": "剥夺州权与strong defense of state privileges相反；文中没有授权国家官员随意取消州规则；河流管理成本不是论证重点。"
+    },
+    "context_id": "context:text4-state-privileges-b"
+  },
+  {
+    "id": "text4-executive-overreach-a",
+    "family": "text4-executive-overreach",
+    "target": "executive unwillingness vs local permission",
+    "skill": "作者立场 + do so 回指",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
+    "o": [
+      "The court is checking an attempt by the executive to extend its own power.",
+      "Rail-safety issues are always decided solely by Parliament.",
+      "The ministry has unlimited authority over local councils.",
+      "Local councils may disregard every national law."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "交通部表示，因为它不想执行议会的铁路安全计划，地方议会也不应被允许执行。法院驳回了这一主张。最有根据的结论是，法院正在制衡行政部门扩大自身权力的企图。",
+      "structure": "because引出交通部不愿执行计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出对该主张的司法回应。",
+      "other": "carry out 执行、落实；executive 行政部门；council 地方议会/委员会；reject a claim 驳回一种主张。",
+      "meaning": "行政部门不愿执行立法机关的计划，不等于它可以禁止地方在法律允许的范围内执行。法院驳回这种主张，支持对行政权的制衡。",
+      "rest": "文本没有说铁路安全只能由议会处理；交通部并没有无限权力；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
+    },
+    "context_id": "context:text4-executive-overreach-a"
+  },
+  {
+    "id": "text4-executive-overreach-b",
+    "family": "text4-executive-overreach",
+    "target": "claim about enforcement power vs legal authority",
+    "skill": "区分行政部门的主张与作者认可的结论",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 55,
+    "q": "An executive agency claims it can invalidate any otherwise lawful regional rule whenever that rule conflicts with the agency's enforcement priorities. What does the agency's claim amount to?",
+    "o": [
+      "Regional governments always have more authority than national law.",
+      "The agency claims its enforcement power outweighs the authority held by regional governments.",
+      "The legislature has expressly banned all regional enforcement.",
+      "The agency accepts that regional rules are always valid."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "一个行政机构声称，只要某项原本合法的地区规则与该机构的执法优先事项冲突，它就可以使该规则失效。这相当于声称，该机构的执法权高于地区政府所拥有的权限。",
+      "structure": "claims后面是机构主张的内容；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+      "other": "invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；outweigh 权重或重要性高于。",
+      "meaning": "要区分被描述的主张与文章作者认可的结论。句子是在复述行政机构想要的权力范围，并不代表作者认为这种主张正确。",
+      "rest": "地区政府权力永远高于国家法律过于绝对；没有说立法机关明文禁止所有地区执法；机构声称能使规则失效，说明它并未承认地区规则一律有效。"
+    },
+    "context_id": "context:text4-executive-overreach-b"
+  }
+]
