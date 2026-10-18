@@ -239,5 +239,31 @@ class ArticleReviewTests(unittest.TestCase):
             self.assertEqual(stats[rows[0]['family']]['streak'], 0)
 
 
+    def test_latest_article_round_does_not_reward_the_longest_option_heuristic(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(ROOT / "data", root / "data")
+            shutil.copytree(ROOT / "web", root / "web")
+            for page in ROOT.glob("*.html"):
+                shutil.copy(page, root / page.name)
+            payload = article_review.build(root)
+            questions = payload["questions"]
+            self.assertEqual(len(questions), 8)
+            unique_longest = 0
+            correct_at_max = 0
+            for q in questions:
+                lengths = [len(option) for option in q["o"]]
+                maximum = max(lengths)
+                self.assertLessEqual(maximum - min(lengths), 20, q["id"])
+                if lengths[q["a"]] == maximum:
+                    correct_at_max += 1
+                    if lengths.count(maximum) == 1:
+                        unique_longest += 1
+            self.assertGreaterEqual(unique_longest, 1)
+            self.assertLessEqual(unique_longest, 2)
+            self.assertGreaterEqual(correct_at_max, 1)
+            self.assertLessEqual(correct_at_max, 4)
+
+
 if __name__ == '__main__':
     unittest.main()

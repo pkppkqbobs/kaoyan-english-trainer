@@ -46,5 +46,29 @@
       "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
       "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
     }
+  },
+  {
+    "id": "subject-road-closure-risk-balanced-b",
+    "family": "subject",
+    "introduced": "2026-10-18",
+    "published_on": "2026-10-18",
+    "budget": 50,
+    "target": "conditional risk vs current event",
+    "skill": "避免把可能风险扩大成已经发生的事实",
+    "q": "A mountain road report says heavy snow can lead to closures, but today's bulletin only forecasts snow. Which conclusion is supported?",
+    "o": [
+      "The road is closed today because heavy snow is forecast.",
+      "The forecast identifies a risk, not a confirmed closure today.",
+      "The road has remained open through every previous snowstorm.",
+      "The report proves that snow will not affect road access today."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "山区道路报告说，大雪可能导致封路，但今天的公告只是在预报降雪。最有根据的结论是：预报指出一种风险，并没有确认今天已经封路。",
+      "structure": "can lead to closures表达可能结果；today's bulletin only forecasts snow限制了当前已知事实。题干要求判断能得出什么结论，而不是推断可能后果已经发生。",
+      "other": "forecast 预报；closure 封路；confirmed 已确认的；road access 道路通行。",
+      "meaning": "不能把条件性风险升级为已发生事件。可能导致封路，不等于今天已经封路；同样也不能反向断言降雪一定不会影响通行。",
+      "rest": "预报降雪不等于已经封路；没有证据说明道路经历过所有以往的雪暴；报告指出风险，并没有证明雪不会影响通行。"
+    }
   }
 ]

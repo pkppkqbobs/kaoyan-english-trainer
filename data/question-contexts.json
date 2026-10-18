@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-10-18",
-  "source_commit": "43561f6e80d98805b4c08350dc3ec3082dd2a9fe",
+  "source_commit": "8aeacbd809264032f1d388c0dae90aaff0b33a22",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -307,7 +307,8 @@
     "with-archive-loading-c": "context:with-archive-loading-c",
     "nested-valve-leak-c": "context:nested-valve-leak-c",
     "example-factory-reporting-measure-f": "context:example-factory-reporting-measure-f",
-    "nested-editor-quote-d": "context:nested-editor-quote-d"
+    "nested-editor-quote-d": "context:nested-editor-quote-d",
+    "subject-road-closure-risk-balanced-b": "context:subject-road-closure-risk-balanced-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -350,7 +351,8 @@
     "with-archive-loading-c": "档案馆重新开放语境，识别with + noun + participle表达的伴随状态。",
     "nested-valve-leak-c": "工程师关闭生产线语境，分别定位who定语从句、that宾语从句和主句谓语。",
     "example-factory-reporting-measure-f": "诊所在线事件表单语境，测试报告数量变化与真实故障率的区别。",
-    "nested-editor-quote-d": "编辑审稿语境，练习主句、who定语从句与that宾语从句的谓语层级。"
+    "nested-editor-quote-d": "编辑审稿语境，练习主句、who定语从句与that宾语从句的谓语层级。",
+    "subject-road-closure-risk-balanced-b": "山区道路预报语境，区分可能风险与当前已确认事件；选项长度接近，防止靠最长选项猜答案。"
   },
   "family_assessments": {
     "reference": {
@@ -407,9 +409,8 @@
       "reason": "新增have a point的肯定论证，不再只由miss识别答案。"
     },
     "subject": {
-      "coverage_gap": false,
-      "previous_gap": null,
-      "reason": "新增自然条件下的封闭风险与今日尚无事件报告，规则/过程之外补可能状态。"
+      "coverage_gap": true,
+      "reason": "增加平衡长度的道路预报变体，训练不把条件性风险扩大为已发生事实。"
     },
     "conceivably": {
       "coverage_gap": false,
