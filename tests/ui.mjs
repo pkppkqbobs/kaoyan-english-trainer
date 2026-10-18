@@ -6,7 +6,8 @@ import assert from 'node:assert/strict';
 const storage = {};
 Object.defineProperties(storage, {
   getItem: {value(key) { return this[key] ?? null; }},
-  setItem: {value(key, value) { this[key] = value; }}
+  setItem: {value(key, value) { this[key] = value; }},
+  removeItem: {value(key) { delete this[key]; }}
 });
 const fields = ['trans', 'structure', 'other', 'meaning', 'rest'];
 const question = (id, family) => ({id, family, context_id: id, target: family, q: 'Question about ' + id,
