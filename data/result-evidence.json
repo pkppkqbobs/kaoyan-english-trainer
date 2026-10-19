@@ -1645,6 +1645,94 @@
       "qid": "nested-shared-gate",
       "round_id": "mvdsaa3b-3frd9n0g",
       "source_date": "2026-10-18"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "text4-federal-state-boundary",
+      "ok": true,
+      "ms": 54794,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "text4-airspace-exclusive-d",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 14383,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "conceivably-ferry",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 34821,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "summary-trials-next-question",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "relative",
+      "ok": true,
+      "ms": 7462,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "nested",
+      "ok": true,
+      "ms": 23012,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "nested-valve-leak-c",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 118986,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "example-farmers-support-trial-b",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 52584,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "causal-role-deadline-response-c",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-19",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 89926,
+      "uncertain": false,
+      "origin": 22,
+      "qid": "text4-federal-precedent-d",
+      "round_id": "mvfa10qj-xxp8h3xm",
+      "source_date": "2026-10-19"
     }
   ],
   "issues": [
@@ -1668,6 +1756,7 @@
     18,
     19,
     20,
-    21
+    21,
+    22
   ]
 }

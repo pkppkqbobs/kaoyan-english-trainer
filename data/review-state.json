@@ -21,7 +21,8 @@
     18,
     19,
     20,
-    21
+    21,
+    22
   ],
   "families": {
     "absolute-language": {
@@ -107,11 +108,11 @@
     "causal-role-direction": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-18",
+      "last": "2026-10-19",
       "due": "2026-10-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 3
     },
     "cling-climb": {
@@ -245,13 +246,13 @@
       "observation_priority": 0
     },
     "conceivably": {
-      "streak": 0,
+      "streak": 1,
       "errors": 1,
-      "last": "2026-10-17",
-      "due": "2026-10-18",
+      "last": "2026-10-19",
+      "due": "2026-10-21",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "concession-claim-scope": {
@@ -347,11 +348,11 @@
     "example-claim-scope": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-10-18",
+      "last": "2026-10-19",
       "due": "2026-10-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 2
     },
     "expectation-contrast": {
@@ -497,11 +498,11 @@
     "nested": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-18",
+      "last": "2026-10-19",
       "due": "2026-10-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 2
     },
     "paragraph-order-anaphora": {
@@ -635,13 +636,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 2,
+      "streak": 3,
       "errors": 1,
-      "last": "2026-10-15",
-      "due": "2026-10-19",
+      "last": "2026-10-19",
+      "due": "2026-10-26",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 0
     },
     "remote": {
@@ -735,13 +736,13 @@
       "observation_priority": 0
     },
     "summary-location": {
-      "streak": 0,
+      "streak": 1,
       "errors": 3,
-      "last": "2026-10-18",
-      "due": "2026-10-19",
+      "last": "2026-10-19",
+      "due": "2026-10-21",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 0
     },
     "take-page-from": {
@@ -847,21 +848,21 @@
     "text4-federal-state-boundary": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-18",
+      "last": "2026-10-19",
       "due": "2026-10-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "text4-historical-inference": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-18",
+      "last": "2026-10-19",
       "due": "2026-10-19",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "title-coverage": {
