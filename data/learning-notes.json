@@ -958,5 +958,29 @@
     "source_question": 40,
     "reported_pick": "A",
     "expected": "B"
+  },
+  {
+    "family": "paragraph-order-anaphora",
+    "date": "2026-10-19",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Part B七选五第44空：用户明确确认最终选D（The solution is to change the mindset...），正确G（社会科学研究经费约占总研发资金4%—25%，欧洲多数国家约15%）。用户因空前The problem is not necessarily the amount of available funding看到problem，就以problem→solution匹配D；且为了控制用时，最后两空未充分阅读。真正的更强衔接是空后This is an adequate amount：This需要G项具体的经费比例作先行内容，D无任何金额/比例，无法满足后句。问题为主题/语义近似替代指代核验，不能泛化为完全不懂单词。41—43最终选项未明确确认，不猜写正确率。",
+    "session_id": "2026-10-19-2013-partb-observation",
+    "source_exam": "2013-english1",
+    "source_part": "Part B (7选5)",
+    "source_question": 44,
+    "reported_pick": "D",
+    "expected": "G"
+  },
+  {
+    "family": "paragraph-order-discourse",
+    "date": "2026-10-19",
+    "kind": "user_reported_wrong",
+    "note": "2013英语一Part B七选五第45空：用户明确确认选A（It could be that we are evolving two communities of social scientists...），正确C（the idea is to force social scientists to integrate their work with other categories...）。用户因控制时间没有细看最后两空，选A的自述理由仅为读着感觉顺，不能臆造更具体的排除过程。A虽与全文学科导向vs问题导向的话题相关，却没有紧接Horizon 2020调整资助类别的具体整合机制；C的integrate...with other categories能被下一句That should create more collaborative endeavors中的That回指，且integrate→collaborative构成改革措施→合作结果。记录为主题相近但局部双向衔接不足、限时略过核验；不是网页成绩。",
+    "session_id": "2026-10-19-2013-partb-observation",
+    "source_exam": "2013-english1",
+    "source_part": "Part B (7选5)",
+    "source_question": 45,
+    "reported_pick": "A",
+    "expected": "C"
   }
 ]

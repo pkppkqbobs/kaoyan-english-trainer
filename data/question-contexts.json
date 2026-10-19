@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-18",
+  "reviewed_on": "2026-10-19",
   "source_commit": "8aeacbd809264032f1d388c0dae90aaff0b33a22",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -312,7 +312,11 @@
     "text4-airspace-exclusive-d": "context:text4-airspace-exclusive-d",
     "text4-flood-inspections-d": "context:text4-flood-inspections-d",
     "text4-federal-precedent-d": "context:text4-federal-precedent-d",
-    "text4-agency-inaction-d": "context:text4-agency-inaction-d"
+    "text4-agency-inaction-d": "context:text4-agency-inaction-d",
+    "pb13-clinic-training-hours-a": "context:pb13-clinic-training-hours-a",
+    "pb13-garden-land-share-b": "context:pb13-garden-land-share-b",
+    "pb13-library-joint-grants-a": "context:pb13-library-joint-grants-a",
+    "pb13-museum-team-proposals-b": "context:pb13-museum-team-proposals-b"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -360,7 +364,11 @@
     "text4-airspace-exclusive-d": "Independent follow-up context for text4-federal-state-boundary; answer options balanced against length cue. occupied field / parallel vs contradict.",
     "text4-flood-inspections-d": "Independent follow-up context for text4-agreement-target; answer options balanced against length cue. what judges upheld vs legislative justification.",
     "text4-federal-precedent-d": "Independent follow-up context for text4-historical-inference; answer options balanced against length cue. historical citation supporting which side.",
-    "text4-agency-inaction-d": "Independent follow-up context for text4-executive-overreach; answer options balanced against length cue. executive enforcement choice vs statutory local authority."
+    "text4-agency-inaction-d": "Independent follow-up context for text4-executive-overreach; answer options balanced against length cue. executive enforcement choice vs statutory local authority.",
+    "pb13-clinic-training-hours-a": "独立的医疗培训时长语境：检查This number of hours与明确时长数据，而不是前句problem→solution的宽泛联系。",
+    "pb13-garden-land-share-b": "不同的城市土地分配语境：检查This proportion所要求的具体比例，不靠场景关键词。",
+    "pb13-library-joint-grants-a": "图书馆联合资助语境：通过That的因果回指分辨具体合作机制与描述两个群体的主题诱饵。",
+    "pb13-museum-team-proposals-b": "博物馆联合评审语境：检查改革→协作方法→成果，不能用展览或研究词汇的出现频率代替逻辑。"
   },
   "family_assessments": {
     "reference": {
@@ -377,14 +385,12 @@
       "reason": "两题几乎是同一who+that嵌套框架与谓语定位；已有3个跨日正确，先观察新篇中的困难。"
     },
     "paragraph-order-anaphora": {
-      "coverage_gap": false,
-      "previous_gap": "两个mini均显式名词回指，错项多无关；完整六套另计，mini缺少竞争先行项。",
-      "reason": "mini新增多个群体竞争They先行项，地图接收与协调员缺席共同决定。"
+      "coverage_gap": true,
+      "reason": "2013 Part B第44空错误显示，仅识别problem→solution而没有检查This is an adequate amount的数量先行项。新增跨医疗培训小时数和城市土地比例两种不同语境，下一次真实作答核验。"
     },
     "paragraph-order-discourse": {
-      "coverage_gap": false,
-      "previous_gap": "两个mini分别依赖显式平行词和sums up，mini缺少没有显眼连接词的局部问题→原因。",
-      "reason": "mini新增无显式原因连接词的售票收入差额→扣费机制，不能只认标记。"
+      "coverage_gap": true,
+      "reason": "2013 Part B第45空错误显示，因赶时间以‘读着顺’选话题相近的两个学者群体，未验证That回指的具体改革整合机制及合作结果；新增图书馆和博物馆两种独立场景。"
     },
     "author-stance": {
       "coverage_gap": false,

@@ -289,5 +289,23 @@ class BankCoverageTests(unittest.TestCase):
         self.assertEqual(unique_longest, 1)
 
 
+    def test_partb_2013_short_transfer_variants_have_distinct_contexts(self):
+        items = review.load(ROOT / 'data/questions/2026-10-19-2013-partb.json')
+        self.assertEqual(len(items), 4)
+        self.assertEqual({q['family'] for q in items},
+                         {'paragraph-order-anaphora','paragraph-order-discourse'})
+        self.assertEqual(len({q['context_id'] for q in items}), 4)
+        self.assertEqual({q['introduced'] for q in items}, {'2026-10-19'})
+        contexts = review.load(ROOT / 'data/question-contexts.json')['contexts']
+        uniquely_longest = 0
+        for q in items:
+            review.validate(q)
+            self.assertEqual(contexts[q['id']], q['context_id'])
+            lengths = [len(option) for option in q['o']]
+            self.assertLessEqual(max(lengths) - min(lengths), 20, q['id'])
+            uniquely_longest += lengths[q['a']] == max(lengths) and lengths.count(max(lengths)) == 1
+        self.assertEqual(uniquely_longest, 1)
+
+
 if __name__ == "__main__":
     unittest.main()

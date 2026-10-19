@@ -1,0 +1,102 @@
+[
+  {
+    "id": "pb13-clinic-training-hours-a",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-19",
+    "published_on": "2026-10-19",
+    "budget": 60,
+    "context_id": "context:pb13-clinic-training-hours-a",
+    "target": "This is sufficient... / quantifiable antecedent / theme trap",
+    "skill": "后句This+数量必须有可计量先行内容，不能只凭problem→solution",
+    "q": "The hospital board says the size of its training budget may not be the main problem. [BLANK] This is a sufficient number of hours if sessions address the most frequent errors. Which sentence best fills the blank?",
+    "o": [
+      "The board urged instructors to reconsider the goals of clinical education.",
+      "Staff nurses receive six hours of simulation training each month.",
+      "The department combined several medical units into one joint task force.",
+      "Several written assessments have become more demanding this year."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "医院管理层认为培训预算规模可能并非主要问题。空后说：如果培训针对最常见的错误，这个小时数就是足够的。应填入护士每月接受六小时模拟训练的信息。",
+      "structure": "后句This is a sufficient number of hours的This需要一个明确时长先行内容。B项six hours满足，前文budget提供主题背景，但不能只靠前文的problem寻找任何泛泛的solution。",
+      "other": "training budget 培训预算；simulation training 模拟训练；sufficient 足够的；reconsider 重新考虑。",
+      "meaning": "原文前后双向核验：problem→solution是泛语义关联，不如This+具体数量的指代关系有约束力。正确项中的six hours与后句number of hours精确衔接。",
+      "rest": "改变教育目标、合并科室、增加书面考核均未说明小时数，填入后会导致This缺少合适先行内容。"
+    }
+  },
+  {
+    "id": "pb13-garden-land-share-b",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-19",
+    "published_on": "2026-10-19",
+    "budget": 60,
+    "context_id": "context:pb13-garden-land-share-b",
+    "target": "This proportion / measurable percentage / unrelated topic",
+    "skill": "比例指代需要数量基线，避免凭本段主题选句",
+    "q": "The city wants to assess whether the space reserved for public gardens is sufficient. [BLANK] This proportion would be enough if new plots were placed near crowded neighborhoods. Which sentence fits best?",
+    "o": [
+      "The city also plans to make gardeners more aware of soil safety.",
+      "Researchers expect volunteers to help with seasonal maintenance tasks and outreach.",
+      "Recent records show that one tenth of vacant lots are reserved for gardens.",
+      "Several gardens have attracted growing interest from local schools."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "城市想判断公共花园预留空间是否够用。空后说如果地块靠近人口密集社区，这个比例就足够。应填入‘有十分之一的空置地块预留给花园’的统计数据。",
+      "structure": "This proportion的先行内容必须是可作为比例的数据。C项one tenth of vacant lots提供比例；其余选项只是相关话题，没有提供所指比例。",
+      "other": "proportion 比例；vacant lot 空置地块；outreach 外展活动；plot 小块土地。",
+      "meaning": "即使四句都围绕社区花园，只有能解释This proportion的句子才构成强衔接。不能将同一话题等同于相邻句必然连贯。",
+      "rest": "土壤安全、志愿者维护、学校兴趣都与花园相关，但无法为This proportion提供数值。"
+    }
+  },
+  {
+    "id": "pb13-library-joint-grants-a",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-19",
+    "published_on": "2026-10-19",
+    "budget": 60,
+    "context_id": "context:pb13-library-joint-grants-a",
+    "target": "new funding mechanism / That consequence / topical two-group distractor",
+    "skill": "制度改革先说明执行机制，再由That引出合作结果",
+    "q": "A public library will stop funding children's and adult literacy programs through entirely separate budgets. Officials stress that the reform should strengthen both. [BLANK] That should produce more projects serving whole families, rather than two unrelated groups. Which fits?",
+    "o": [
+      "The new process will require both programs to design projects together.",
+      "Regional libraries have published more reports about literacy this year.",
+      "Some employees focus on adult readers, while others teach children.",
+      "The board will create separate committees for each age group."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "图书馆计划取消儿童和成人识字项目完全分立的预算。改革目标是同时加强两者。随后要解释两项目如何一起设计方案，这才能使服务整个家庭的合作项目增加。",
+      "structure": "That回指空格中描述的具体做法；new process...design projects together才会自然导致projects serving whole families。两个研究群体的存在是话题背景，不是合作机制。",
+      "other": "literacy 读写能力；entirely separate 完全分开的；joint project 联合项目；committee 委员会。",
+      "meaning": "topic match≠discourse link：后句That should produce...是结果句，前句需要明确的行动或机制。如果只描述两个群体，读起来相关却没有形成因果链。",
+      "rest": "发表报告不一定促进合作；成人/儿童分工只描述现状；继续成立独立委员会甚至背离整合改革的目标。"
+    }
+  },
+  {
+    "id": "pb13-museum-team-proposals-b",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-19",
+    "published_on": "2026-10-19",
+    "budget": 60,
+    "context_id": "context:pb13-museum-team-proposals-b",
+    "target": "policy integration / mechanism / This change consequence",
+    "skill": "空前改革目标与空后合作效果需要中间实施步骤",
+    "q": "A museum plans to replace isolated conservation and education grants with a shared application process. Its directors say neither department will lose support. [BLANK] This change could generate exhibitions linking research and visitor experience. Which fits?",
+    "o": [
+      "The museum has recently seen a sharp increase in visitor attendance.",
+      "Staff will evaluate proposals jointly and choose teams to collaborate.",
+      "The departments have long published very different research reports.",
+      "The museum will divide each grant into two fixed independent parts."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "博物馆将把保护和教育研究的独立资助改成联合申请。管理层说两部门都不会失去支持。空格要解释联合评审并选择合作团队，才能顺接‘这一变化会产生连接研究与观众体验的展览’。",
+      "structure": "空格前提供改革背景和意图；This change could generate...给出预期效果。中间需要能产生该效果的具体协作措施，而非笼统主题描述。",
+      "other": "conservation 保护、文物修复；grant 资助；jointly 联合地；exhibition 展览。",
+      "meaning": "要核实桥接是否构成‘政策→机制→结果’链条，不能因选项也谈博物馆或部门就草率接受。",
+      "rest": "游客增加和以往报告差异只是主题信息；再把资金硬分成两部分反而违背联合申请改革。"
+    }
+  }
+]
