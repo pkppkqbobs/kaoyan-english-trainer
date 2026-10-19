@@ -307,5 +307,20 @@ class BankCoverageTests(unittest.TestCase):
         self.assertEqual(uniquely_longest, 1)
 
 
+    def test_2013_partb_transfer_inventory_is_audit_only_not_score(self):
+        data = review.load(ROOT / 'data/option-length-audit.json')
+        variants = review.load(ROOT / 'data/questions/2026-10-19-2013-partb.json')
+        inventory = data['after']['questions']
+        self.assertEqual(data['after']['pools']['daily_article']['question_count'],
+                         sum(row['pool'] == 'daily_article' for row in inventory.values()))
+        for q in variants:
+            with self.subTest(qid=q['id']):
+                self.assertIn(q['id'], inventory)
+                self.assertEqual(inventory[q['id']]['source'],
+                                 'data/questions/2026-10-19-2013-partb.json')
+                self.assertEqual(inventory[q['id']]['lengths'], [len(x) for x in q['o']])
+        self.assertTrue(data['audit_is_not_scoring_evidence'])
+
+
 if __name__ == "__main__":
     unittest.main()
