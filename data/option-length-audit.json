@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 224,
-        "correct_uniquely_longest": 54,
+        "question_count": 228,
+        "correct_uniquely_longest": 55,
         "correct_uniquely_shortest": 37,
-        "longest_guess_pct": 30.1,
-        "shortest_guess_pct": 20.42,
+        "longest_guess_pct": 30.01,
+        "shortest_guess_pct": 20.29,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -3876,6 +3876,74 @@
         "pool": "daily_article",
         "family": "text4-executive-overreach",
         "source": "data/questions/2026-10-18-text4.json"
+      },
+      "pb13-clinic-training-hours-a": {
+        "lengths": [
+          74,
+          65,
+          72,
+          65
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-19-2013-partb.json"
+      },
+      "pb13-garden-land-share-b": {
+        "lengths": [
+          64,
+          83,
+          75,
+          67
+        ],
+        "spread": 19,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-19-2013-partb.json"
+      },
+      "pb13-library-joint-grants-a": {
+        "lengths": [
+          71,
+          72,
+          67,
+          61
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-19-2013-partb.json"
+      },
+      "pb13-museum-team-proposals-b": {
+        "lengths": [
+          68,
+          70,
+          68,
+          67
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-19-2013-partb.json"
       },
       "ref1": {
         "lengths": [
