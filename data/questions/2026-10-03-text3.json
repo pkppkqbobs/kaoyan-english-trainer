@@ -8,10 +8,10 @@
     "budget": 50,
     "q": "A report says that residents posted hundreds of angry comments after the council announced a parking plan. Which conclusion is directly supported?",
     "o": [
-      "The plan deserved every angry comment it received.",
-      "Residents posted a large number of angry comments following the announcement.",
-      "The council knowingly designed a harmful plan.",
-      "All residents opposed the plan."
+      "The report endorses the angry comments as a fair response.",
+      "Residents posted many angry comments after the announcement.",
+      "The council designed the plan knowing it would harm residents.",
+      "The comments show that opposition extended to every resident."
     ],
     "a": 1,
     "exp": {
@@ -19,7 +19,7 @@
       "structure": "主句：A report（主语）+ says（谓语）+ that宾语从句。that从句：residents（主语）+ posted（谓语）+ hundreds of angry comments（宾语）；after从句只交代时间。句子报告发生了什么，没有评价这些评论是否应得。",
       "other": "council 市议会；announce 公布；substantial 大量的/显著的；reaction 反应。",
       "meaning": "负面评论的存在不等于作者认为批评对象活该。after只报告时间先后；要断言公告引发评论，还需要明确的因果证据。",
-      "rest": "deserved every angry comment加入作者价值判断和绝对化every；knowingly designed a harmful plan推测动机；All residents把数百条评论扩大成所有居民。"
+      "rest": "报告评论数量不等于赞同评论；设计有害方案的动机没有证据；数百条评论不能扩大为每一位居民的立场。"
     }
   },
   {
@@ -100,7 +100,7 @@
     "budget": 35,
     "q": "Users can choose to receive e-mail alerts whenever the price of a saved product falls. Here, alerts means:",
     "o": [
-      "电子邮件提醒或通知",
+      "降价提醒",
       "付款凭证",
       "广告屏蔽工具",
       "投诉记录"

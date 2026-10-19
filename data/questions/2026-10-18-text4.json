@@ -34,10 +34,10 @@
     "budget": 55,
     "q": "A national law creates a comprehensive safety-label system for medical devices. A state adds a parallel labelling rule. A court invalidates the state provision because the national law has occupied the field. Which inference is strongest?",
     "o": [
-      "Any state rule that resembles a national rule is automatically invalid.",
-      "The state provision can be pre-empted even without a direct contradiction because national regulation has occupied the field.",
-      "The ruling shows that the state policy violated another state's law.",
-      "The court concluded that the national safety law has no authority."
+      "Resemblance to national rules is enough to void a state rule.",
+      "National coverage can bar a state rule without a direct clash.",
+      "The state rule conflicted with a neighbouring state's law.",
+      "The court found the national safety-label law lacked authority."
     ],
     "a": 1,
     "exp": {
@@ -45,7 +45,7 @@
       "structure": "creates与adds分别描述国家和州制定规则；because引出法院判决的原因。because the national law has occupied the field不是说两项规则必须逐字冲突，而是说明该领域已由国家立法全面规制。",
       "other": "comprehensive 全面的；labelling 标签规定；invalidate 判定无效；pre-empt 排除与之不相容的州层面规制。",
       "meaning": "parallel只表示并行或相应，并不自动等于contradict。判断权限问题时，要区分直接冲突与国家立法已占据整个领域这两种理由。",
-      "rest": "把任何相似规定一概判无效过于绝对；另一州的法律没有被提及；国家法律具有权威正是判决理由的一部分，并非被否定。"
+      "rest": "类似不自动等于无效，关键是国家立法已全面覆盖该领域；判决没有依据邻州法律；法院承认国家规范的权威，并未否定它。"
     },
     "context_id": "context:text4-federal-field-b"
   },
@@ -184,10 +184,10 @@
     "budget": 55,
     "q": "An executive agency claims it can invalidate any otherwise lawful regional rule whenever that rule conflicts with the agency's enforcement priorities. What does the agency's claim amount to?",
     "o": [
-      "Regional governments always have more authority than national law.",
-      "The agency claims its enforcement power outweighs the authority held by regional governments.",
-      "The legislature has expressly banned all regional enforcement.",
-      "The agency accepts that regional rules are always valid."
+      "Regional governments can override national laws they oppose.",
+      "Its enforcement priorities can override lawful regional rules.",
+      "The legislature prohibited regional agencies from enforcing rules.",
+      "Regional rules remain valid despite different enforcement priorities."
     ],
     "a": 1,
     "exp": {
@@ -195,7 +195,7 @@
       "structure": "claims后面是机构主张的内容；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
       "other": "invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；outweigh 权重或重要性高于。",
       "meaning": "要区分被描述的主张与文章作者认可的结论。句子是在复述行政机构想要的权力范围，并不代表作者认为这种主张正确。",
-      "rest": "地区政府权力永远高于国家法律过于绝对；没有说立法机关明文禁止所有地区执法；机构声称能使规则失效，说明它并未承认地区规则一律有效。"
+      "rest": "地区推翻国家法律反转了主张中的权力方向；立法机关禁止地方执法没有文本依据；机构声称可使规则失效，并非承认优先事项不同时规则仍有效。"
     },
     "context_id": "context:text4-executive-overreach-b"
   }

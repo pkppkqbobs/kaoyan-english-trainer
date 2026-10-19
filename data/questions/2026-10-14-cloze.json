@@ -81,10 +81,10 @@
     "skill": "跨校园纪律场景迁移",
     "q": "The principal was afraid of appearing too soft on repeated cheating, so she enforced the stated penalty instead of issuing another warning. What was the principal worried about?",
     "o": [
-      "Whether the rules would make exams too difficult.",
-      "Whether the teacher had completed enough paperwork.",
-      "Whether she lacked the authority to open the school.",
-      "Whether others would think she treated repeated cheating too leniently."
+      "Whether the penalty made passing the examination too difficult.",
+      "Whether teachers had completed the required disciplinary paperwork.",
+      "Whether she had authority to let students enter the school.",
+      "Whether she would seem too lenient towards repeated cheating."
     ],
     "a": 3,
     "exp": {
@@ -92,7 +92,7 @@
       "structure": "The principal was afraid of...是主干；appearing too soft on repeated cheating说明担心被如何看待；so引出后续处罚行动。",
       "other": "principal 校长；cheating 作弊；enforce 执行；penalty 处罚。",
       "meaning": "appearing too soft on是显得对某事态度过于宽松；afraid of/fearful of说明心理担忧，而不是有能力或喜欢宽容。",
-      "rest": "试卷难度、教师手续和是否有开门的权力都不能解释‘担心显得过于宽容’与执行惩罚的关系。"
+      "rest": "担心显得宽容针对的是对作弊者的态度，不是考试通过难度、教师手续或允许学生入校的权限。"
     }
   },
   {
@@ -177,10 +177,10 @@
     "skill": "动作主体与申请结果",
     "q": "The applicant chose which research group to approach, but an external panel decided whether to admit her. Which distinction is supported?",
     "o": [
-      "Both decisions were made by the panel.",
-      "Her admission was entirely within her own control.",
-      "Her choice of group was her decision; admission success depended on the panel.",
-      "The panel controlled which group she originally wanted to contact."
+      "The panel chose the group; she decided on her admission.",
+      "She controlled both her group choice and her admission.",
+      "She chose a group; the panel decided on her admission.",
+      "The panel controlled both her group choice and her admission."
     ],
     "a": 2,
     "exp": {
@@ -188,7 +188,7 @@
       "structure": "The applicant chose...与an external panel decided...构成两个并列且主语不同的分句；whether to admit her为委员会决定的内容。",
       "other": "research group 研究组；external panel 外部评审委员会；admit 录取；approach 联系。",
       "meaning": "必须区分applicant's decision（申请者自己的选择）与applicant's success（由他人评估后能否成功获准），不能仅凭同一个applicant归为同一行为。",
-      "rest": "录取不由申请者单独控制；研究组选择由她本人做出；把两个行为都交给委员会或认为录取完全在本人控制下，都忽视了主语切换。"
+      "rest": "申请者选择研究组，委员会决定是否录取。交换两者主语、把两个决定都交给她或都交给委员会，都不符合原句的角色分工。"
     }
   },
   {
@@ -370,9 +370,9 @@
     "q": "Every project is marked out of 50 by two independent reviewers. What is the meaning of marked in this sentence?",
     "o": [
       "贴上颜色标签",
-      "被随机分组",
-      "按50分满分进行评分",
-      "从50个项目中挑选"
+      "被随机地分组",
+      "按满分制评分",
+      "从项目中挑选"
     ],
     "a": 2,
     "exp": {
@@ -380,7 +380,7 @@
       "structure": "Every project是主语，is marked是被动谓语，out of 50说明满分标准；by引出评分的施事者two independent reviewers。",
       "other": "project 项目；independent reviewer 独立评审员；grade 评分；full marks 满分。",
       "meaning": "marked在考试或项目评审语境中表示评分、批改，out of + 数值指定最高可得分；不要机械理解为划线标记。",
-      "rest": "颜色标签、随机分组与从50个项目中挑选，都不能解释评分语境及两名评审员的工作。"
+      "rest": "out of 50给评分满分，两位reviewers执行评审；贴标签、随机分组和挑选项目都没有表达这一评分关系。"
     }
   },
   {

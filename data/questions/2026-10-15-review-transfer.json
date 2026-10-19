@@ -81,10 +81,10 @@
     "skill": "把实例放回可见记录与实际行为的区分",
     "q": "An essay distinguishes a visible change in records from a change in underlying behaviour. It describes a factory where reported near-misses increased after a safety bonus was introduced. An anonymous survey found no change in how often hazards occurred; workers said they had previously kept quiet about them. What does the case illustrate?",
     "o": [
-      "A safety bonus can make a workplace more dangerous even when workers welcome it.",
-      "Anonymous surveys provide weaker safety evidence than official incident totals.",
-      "Workers respond more strongly to anonymity than to financial rewards.",
-      "Recorded events can increase because reporting changes, without a matching increase in hazards."
+      "The bonus increased hazards along with reports of near-misses.",
+      "Official incident totals are more reliable than the survey.",
+      "Anonymity motivated workers more than the safety bonus did.",
+      "Reporting changes can raise counts without raising hazards."
     ],
     "a": 3,
     "exp": {
@@ -92,7 +92,7 @@
       "structure": "An essay + distinguishes + A from B提出上层区分；It + describes + a factory引出例子，where从句补充上报数量变化。was introduced是被动谓语。An anonymous survey + found + no change；how often hazards occurred补充频率。had previously kept quiet指出早期漏报背景。",
       "other": "near-miss 险些发生的事故、险情；underlying 实际的、深层的；anonymous 匿名的；hazard 危险因素；incident total 事件总数。",
       "meaning": "实例在支持记录变化不等于实际事件变化这一论点。新增上报与此前沉默形成对照，不能把记录增多直接推成工作更危险；也不应把例证题改答成未讨论的奖励与匿名措施孰强。",
-      "rest": "奖励后上报增多不能证明危险增多，调查反而指出发生频率未变；文中没有比较匿名调查和正式记录的证据等级；匿名是调查方式，奖励是先前制度变化，材料没有直接比较二者激励强度。"
+      "rest": "调查显示危险发生频率未变，不能断言奖励增加危险；材料没有给两种数据排可靠性名次；匿名是调查方式，不能据此比较匿名与奖金的激励强度。"
     }
   }
 ]

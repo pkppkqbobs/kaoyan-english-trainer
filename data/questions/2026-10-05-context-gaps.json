@@ -33,10 +33,10 @@
     "skill": "隐含批评与证据范围",
     "q": "A shop’s guide calls replacing a worn battery “settling for yesterday’s technology.” It says nothing about whether a repaired phone would meet its owner’s needs. Which inference is best supported?",
     "o": [
-      "The guide judges repairs from owners’ reported dissatisfaction.",
+      "The guide judges repairs from owners' reported dissatisfaction.",
       "The guide compares replacements by how long they last.",
-      "The guide frames repair negatively without establishing that it fails to meet users’ needs.",
-      "The guide identifies a technical obstacle that prevents battery replacement."
+      "The guide criticizes repair without showing it fails users.",
+      "The guide identifies a technical barrier to battery replacement."
     ],
     "a": 2,
     "exp": {
@@ -81,10 +81,10 @@
     "skill": "谁影响谁",
     "q": "After several small firms missed an application deadline, the council extended the next round by a week to give them another chance. Participation in that later round has not yet been measured. Which statement preserves the roles?",
     "o": [
-      "The extension made firms miss the earlier deadline.",
-      "The later participation figures caused the council to extend the round.",
-      "The missed deadline prompted an extension; its effect on later participation is still unknown.",
-      "The earlier deadline was introduced in response to the extension."
+      "The extension caused firms to miss the earlier deadline.",
+      "Measured gains in later participation prompted the council's extension.",
+      "Missed deadlines prompted an extension; later effects are unmeasured.",
+      "The earlier deadline was a response to the council's later extension."
     ],
     "a": 2,
     "exp": {
@@ -92,7 +92,7 @@
       "structure": "after从句：several small firms + missed + an application deadline。主句：the council + extended + the next round，by a week表示延长量，to give them another chance说明目的。Participation + has not yet been measured是现在完成时被动谓语。",
       "other": "firm 企业；application 申请；deadline 截止时间；participation 参与情况。",
       "meaning": "区分原先问题、事后应对和尚未观测的效果。不能让后来的措施成为较早失败的原因，也不能凭实施措施就宣称取得改善。",
-      "rest": "The extension made...让下一轮的措施反过来造成先前错过期限；later participation figures不存在已测量数据，不能成为依据；earlier deadline ... in response to the extension把较早规则与后来的回应倒置。"
+      "rest": "后来的延期不能造成更早的错过期限；尚未测量的后续参与数据不能成为先前延期的依据；较早的规则也不是对较晚措施的回应。"
     }
   },
   {
@@ -105,10 +105,10 @@
     "skill": "be subject to / be subjected to",
     "q": "The mountain road is subject to closure during heavy snow. No closure has been announced today. Which report preserves both statements?",
     "o": [
-      "The road has already been closed after a snowstorm.",
-      "Heavy snow can lead to closure, but these lines do not report a closure today.",
-      "The road has been subjected to a closure test today.",
-      "The road is open because heavy snow cannot affect its status."
+      "The road is reported closed after today's heavy snowfall.",
+      "Snow may close the road; no closure is reported today.",
+      "The road underwent a test involving closure earlier today.",
+      "The road is open because snow cannot lead to its closure."
     ],
     "a": 1,
     "exp": {
@@ -116,7 +116,7 @@
       "structure": "The mountain road是主语，is是系动词，subject to closure表达所受约束或可能状态。第二句No closure是主语，has been announced是现在完成时被动谓语；没有公告不等于已验证现场一定开放。",
       "other": "mountain road 山路；closure 封闭；announce 宣布；status 状态。",
       "meaning": "be subject to可表示有可能受某变化影响，不自动表示该事件已经发生。这里也不能从“尚无公告”推出现场已确认开放。",
-      "rest": "already been closed把可能状态改成已发生事件；subjected to a closure test虚构今天被施加测试的过程；open because ... cannot affect同时虚构开放状态并否认原文给出的封闭风险。"
+      "rest": "原文只报告可能受封闭影响，没有报告今天已封路；封路测试是虚构事件；未公布封路不等于已确认开放，更不能说大雪不会造成封路。"
     }
   },
   {
@@ -178,8 +178,8 @@
     "q": "The redesign owes its success not to a faster motor but to a simpler control panel. Which reading keeps the shared relation intact?",
     "o": [
       "The faster motor owes its success to the control panel.",
-      "The redesign’s success is attributed to the simpler panel rather than the faster motor.",
-      "The simpler panel was made possible by the redesign’s earlier success.",
+      "Success is credited to the panel rather than to the motor.",
+      "The simpler panel was made possible by the redesign's earlier success.",
       "The sentence credits the motor and the panel equally."
     ],
     "a": 1,

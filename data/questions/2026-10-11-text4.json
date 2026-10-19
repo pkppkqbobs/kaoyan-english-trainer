@@ -9,10 +9,10 @@
     "skill": "基本工资与间接报酬",
     "q": "The hospital increased nurses' basic pay by only 1%, but expanded subsidized childcare and doubled its contribution to their retirement accounts. Which conclusion is best supported?",
     "o": [
-      "Every nurse's cash salary doubled.",
-      "The hospital eliminated all non-wage benefits.",
-      "The overall reward package improved partly through benefits beyond basic pay.",
-      "The hospital cut pension support to finance the salary increase."
+      "The package improved mainly because basic salaries doubled.",
+      "The package replaced childcare support with a rise in salary.",
+      "The package improved through benefits as well as basic pay.",
+      "The package funded higher pay by reducing pension support."
     ],
     "a": 2,
     "exp": {
@@ -20,7 +20,7 @@
       "structure": "The hospital + increased + basic pay ... but expanded ... and doubled ...；but对照基本工资小幅增长和两种福利的明显增加，结论应兼顾两边。",
       "other": "subsidized childcare 托育补贴；contribution 缴费、投入；retirement account 退休金账户；reward package 总体报酬待遇。",
       "meaning": "basic pay / cash salary与benefits / pensions不能混为一谈。工资表面增幅modest并不排除实际待遇因非工资福利而indirectly augmented。",
-      "rest": "基本工资翻倍与only 1%冲突；取消福利与expanded相反；削减养老金支持与doubled contribution直接相反。"
+      "rest": "基本工资只涨1%，不是翻倍；托育补助扩大而非被替代；退休账户缴款翻倍，不能说削减养老金资助工资。"
     }
   },
   {
@@ -81,10 +81,10 @@
     "skill": "不能靠团体行动推固定结论",
     "q": "An article argues that locally organized groups can sometimes help an unpopular policy get started. It describes a farmers' cooperative that trained volunteers and persuaded members to test a water-saving system, helping the trial begin on schedule. What is the role of this example?",
     "o": [
-      "It proves every member had opposed water conservation before joining.",
-      "It shows cooperatives necessarily control the national government.",
-      "It establishes that all unpopular policies eventually succeed.",
-      "It supports the claim that organized groups can facilitate policy implementation."
+      "It measures a shift in members' views on conservation.",
+      "It shows why government funds were needed for the trial.",
+      "It explains how the new system reduced water consumption.",
+      "It illustrates how local groups can help launch a policy."
     ],
     "a": 3,
     "exp": {
@@ -92,7 +92,7 @@
       "structure": "An article argues + that从句是主张；It describes...引出实例；helping the trial begin是实例中的实际结果。",
       "other": "cooperative 合作社；facilitate 促进；implementation 落实；trial 试行。",
       "meaning": "例子支持的结论可以是促进改革，也可以是阻碍改革，取决于前后文。不要机械地把‘团体动员’与‘妨碍改革’绑定。",
-      "rest": "成员加入前态度没有交代；合作社对国家政府的控制与本文无关；一次成功试行不能保证所有政策最终成功。"
+      "rest": "没有成员前后态度的测量，不能证明观点转变；材料没有交代政府资金；也没有比较节水系统的技术效果。合作社组织志愿者和动员试用，支持的是政策启动机制。"
     }
   },
   {
@@ -105,10 +105,10 @@
     "skill": "行动证据与态度变化证据",
     "q": "A tenants' group rallied 800 long-time supporters at a public hearing against a proposed rent increase. No survey of participants' earlier opinions was conducted. Which statement is warranted?",
     "o": [
-      "The campaign converted 800 opponents into supporters.",
-      "The gathering shows mobilization of supporters, not necessarily a change in their prior attitudes.",
-      "The group persuaded the city to cancel the proposal.",
-      "All residents now oppose rent increases."
+      "It converted former opponents into supporters of the group.",
+      "It mobilized supporters; a change of views is unproved.",
+      "It persuaded the city to cancel the proposed rent increase.",
+      "Most residents have shifted from support to opposition."
     ],
     "a": 1,
     "exp": {
@@ -116,7 +116,7 @@
       "structure": "A tenants' group + rallied + long-time supporters；No survey ... was conducted明确缺失了对以前态度的测量。Which statement is warranted要求只说证据足以支持的内容。",
       "other": "tenant 租户；rally 动员；hearing 听证会；prior attitude 先前态度。",
       "meaning": "rally supporters是组织已有支持者采取行动；change someone's political attitude要有前后立场变化的证据。动员和说服是不同关系。",
-      "rest": "转化反对者需要原先反对的证据；城市撤销提案未被提及；把800名支持者扩大为所有居民属于范围过度扩大。"
+      "rest": "原文称参加者为长期支持者，没有原先反对的证据；未报告提案撤销；800名参与者也不能代表多数居民的态度转变。"
     }
   },
   {
@@ -129,10 +129,10 @@
     "skill": "观察变化与归因分开",
     "q": "After a public campaign, a survey of the same 500 residents found support for the new bus plan had risen from 30% to 55%. During the same period, a fare cut was also announced. What is the most defensible conclusion?",
     "o": [
-      "The campaign alone caused every changed opinion.",
-      "Support was measured to have risen, but the campaign's independent causal effect is not established.",
-      "There is no evidence anyone's opinion changed.",
-      "The fare cut certainly had no influence on residents."
+      "The campaign explains the full rise in support for the plan.",
+      "Support rose; the campaign's separate effect remains unclear.",
+      "Residents' attitudes stayed the same despite the campaign.",
+      "The fare cut explains the full rise in support for the plan."
     ],
     "a": 1,
     "exp": {
@@ -140,7 +140,7 @@
       "structure": "a survey ... found + that支持率变化；During the same period引入另一同时发生的因素，阻止将全部变化归因于campaign。",
       "other": "fare cut 降低票价；resident 居民；causal effect 因果效应；establish 证实。",
       "meaning": "这次确有前后态度数据，因此不能机械否认变化；但‘变化发生了’与‘某活动单独导致变化’仍是两回事。推断题要守住证据提供的层级。",
-      "rest": "alone和every绝对化且忽略票价变化；‘没有证据变化’与同群体前后调查冲突；完全排除票价影响没有依据。"
+      "rest": "同群体前后调查证明支持率上升，但同期还有票价变化，不能把全部变化单独归给宣传或降价；态度未变则与调查结果冲突。"
     }
   },
   {
@@ -201,10 +201,10 @@
     "skill": "薪酬和绩效词组",
     "q": "The laboratory offers generous merit pay to researchers whose work meets demanding performance standards, even though their basic salary is ordinary. What is being described?",
     "o": [
-      "根据研究员家庭财产发放的基本工资",
-      "所有人的基本工资被削减到同一标准",
-      "只奖励研究员在岗年限的津贴",
-      "对达到绩效标准的研究者提供优厚的绩效奖金或工资"
+      "按家庭财产发放的优厚基本工资",
+      "按统一标准削减的研究员基本工资",
+      "仅依在岗年限发放的额外津贴",
+      "按绩效标准发放的优厚奖金"
     ],
     "a": 3,
     "exp": {
@@ -212,7 +212,7 @@
       "structure": "The laboratory + offers + generous merit pay + to researchers；whose work ...定语从句限定哪些研究者；even though引出与基本工资的对比。",
       "other": "laboratory 实验室；demanding 严格的、要求高的；performance standard 绩效标准；ordinary 普通的。",
       "meaning": "generous修饰待遇时表示丰厚、优厚；merit pay是按能力表现或工作绩效确定的工资或奖金，与basic salary不能简单画等号。",
-      "rest": "家庭财产与绩效标准无关；统一削薪未出现；只按资历奖励与performance standards不符。"
+      "rest": "家庭财产与绩效无关；统一削薪未出现；仅按在岗年限奖励也不能表达达到绩效标准。generous修饰的是绩效报酬，不是普通基本工资。"
     }
   },
   {
@@ -225,10 +225,10 @@
     "skill": "典型改革冲突词块",
     "q": "After a notoriously drawn-out hearing, campaigners rallied local residents to oppose the plan. Which interpretation best matches the sentence?",
     "o": [
-      "听证会异常简短，因此活动人士解散了居民。",
-      "经过众所周知旷日持久的听证会，活动人士动员当地居民反对计划。",
-      "听证会从未进行，居民被要求保持中立。",
-      "活动人士隐瞒了整个听证会，因此居民改变了政治立场。"
+      "听证会异常简短，活动人士随后解散了当地居民。",
+      "听证会以冗长著称，会后活动人士动员居民反对计划。",
+      "听证会尚未举行，活动人士要求当地居民保持中立。",
+      "听证会一直被隐瞒，居民因此改变了原有的政治立场。"
     ],
     "a": 1,
     "exp": {
@@ -236,7 +236,7 @@
       "structure": "After a ... hearing是时间状语；campaigners + rallied + local residents是主谓宾；to oppose the plan说明动员的行动方向。",
       "other": "hearing 听证会；campaigner 活动人士；resident 居民；oppose 反对。",
       "meaning": "notoriously=众所周知地、臭名昭著地（通常有负面色彩）；drawn-out=拖延很久的、旷日持久的；rally作动词=动员、召集。动员不自动证明居民改变了原有政治态度。",
-      "rest": "简短与drawn-out相反；从未举行和保持中立均无依据；隐瞒听证会与改变政治立场都是额外增添的动作。"
+      "rest": "drawn-out不是简短；原文说经过听证会，不是尚未举行或隐瞒听证会；rallied指动员支持行动，不是解散或要求中立，也未报告政治立场转变。"
     }
   }
 ]

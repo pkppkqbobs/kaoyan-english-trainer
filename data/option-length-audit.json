@@ -1,22 +1,4973 @@
 {
-  "schema_version": 1,
-  "audited_on": "2026-10-18",
-  "scope": "all active multiple-choice questions in the repository before the balanced Text 4 additions",
-  "baseline": {
-    "question_count": 209,
-    "correct_option_at_max_length": 122,
-    "correct_option_at_max_length_pct": 58.4,
-    "correct_option_uniquely_longest": 105,
-    "correct_option_uniquely_longest_pct": 50.2,
-    "current_article_round_unique_longest": 5,
-    "current_article_round_question_count": 8
+  "schema_version": 2,
+  "audited_on": "2026-10-19",
+  "baseline_commit": "ea440b37a366c4a9f36858d171a2de56d1583154",
+  "definitions": {
+    "length": "Unicode character count, matching the existing round quality check.",
+    "guessing": "Always choose an extreme length; choose uniformly among tied extremes. Random baseline is 25%. These are not user scores.",
+    "flag": "Correct option alone is longest and exceeds the next longest by >=10 characters, or is >1.4 times the other three mean lengths. A flag requires semantic review.",
+    "scope": "daily_article and home_legacy are editable candidates; legacy_fixed is a dated standalone snapshot, preserved.",
+    "publication": "Existing daily/article/passage snapshots retain their original options and keys. Source edits apply to future rounds."
   },
-  "remediation": {
-    "balanced_transfer_questions": 8,
-    "balanced_round_unique_longest": 1,
-    "balanced_round_correct_at_max": 2,
-    "max_option_length_spread": 17
+  "before": {
+    "daily_article": {
+      "question_count": 224,
+      "correct_uniquely_longest": 106,
+      "correct_uniquely_shortest": 28,
+      "longest_guess_pct": 51.15,
+      "shortest_guess_pct": 14.32,
+      "length_cue_flags": 60,
+      "max_spread": 77
+    },
+    "home_legacy": {
+      "question_count": 53,
+      "correct_uniquely_longest": 31,
+      "correct_uniquely_shortest": 1,
+      "longest_guess_pct": 63.36,
+      "shortest_guess_pct": 7.7,
+      "length_cue_flags": 25,
+      "max_spread": 53
+    },
+    "legacy_fixed": {
+      "question_count": 11,
+      "correct_uniquely_longest": 4,
+      "correct_uniquely_shortest": 0,
+      "longest_guess_pct": 41.67,
+      "shortest_guess_pct": 9.85,
+      "length_cue_flags": 3,
+      "max_spread": 9
+    }
   },
-  "policy": "For newly authored eight-question review rounds, audit option lengths. Do not let the correct answer be uniquely longest in more than two items, and do not invert the cue so all correct answers are shorter. Length is a quality signal, not a scoring signal.",
-  "note": "This audit is question-quality metadata only. It is not learning evidence, an attempt record, or a score."
+  "after": {
+    "pools": {
+      "daily_article": {
+        "question_count": 224,
+        "correct_uniquely_longest": 54,
+        "correct_uniquely_shortest": 37,
+        "longest_guess_pct": 30.1,
+        "shortest_guess_pct": 20.42,
+        "length_cue_flags": 0,
+        "max_spread": 46
+      },
+      "home_legacy": {
+        "question_count": 53,
+        "correct_uniquely_longest": 1,
+        "correct_uniquely_shortest": 3,
+        "longest_guess_pct": 15.72,
+        "shortest_guess_pct": 21.38,
+        "length_cue_flags": 0,
+        "max_spread": 10
+      },
+      "legacy_fixed": {
+        "question_count": 11,
+        "correct_uniquely_longest": 4,
+        "correct_uniquely_shortest": 0,
+        "longest_guess_pct": 41.67,
+        "shortest_guess_pct": 9.85,
+        "length_cue_flags": 3,
+        "max_spread": 9
+      }
+    },
+    "questions": {
+      "legacy-unpretentious": {
+        "lengths": [
+          13,
+          13,
+          10,
+          10
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "unpretentious",
+        "source": "data/base-bank.json"
+      },
+      "legacy-faint-praise": {
+        "lengths": [
+          12,
+          16,
+          14,
+          19
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "faint",
+        "source": "data/base-bank.json"
+      },
+      "legacy-miss-point": {
+        "lengths": [
+          17,
+          14,
+          18,
+          12
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "point",
+        "source": "data/base-bank.json"
+      },
+      "legacy-who-that-main": {
+        "lengths": [
+          46,
+          44,
+          51,
+          44
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/base-bank.json"
+      },
+      "legacy-even": {
+        "lengths": [
+          18,
+          18,
+          18,
+          18
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "even",
+        "source": "data/base-bank.json"
+      },
+      "legacy-which": {
+        "lengths": [
+          79,
+          79,
+          78,
+          84
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relative",
+        "source": "data/base-bank.json"
+      },
+      "legacy-such": {
+        "lengths": [
+          15,
+          12,
+          12,
+          17
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "reference",
+        "source": "data/base-bank.json"
+      },
+      "unpretentious-volunteer": {
+        "lengths": [
+          13,
+          7,
+          13,
+          10
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "unpretentious",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "unpredictable-response-time": {
+        "lengths": [
+          13,
+          13,
+          8,
+          8
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "unpretentious",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "faint-map-line": {
+        "lengths": [
+          3,
+          5,
+          4,
+          5
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "faint",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "faint-praise-restoration": {
+        "lengths": [
+          58,
+          54,
+          58,
+          52
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "faint",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "point-joke": {
+        "lengths": [
+          9,
+          10,
+          9,
+          7
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "point",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "point-waiting": {
+        "lengths": [
+          3,
+          2,
+          2,
+          2
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "point",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "nested-shared-gate": {
+        "lengths": [
+          31,
+          34,
+          37,
+          35
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "relative-borrowed-ladder": {
+        "lengths": [
+          69,
+          69,
+          69,
+          73
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relative",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "reference-radio-failures": {
+        "lengths": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "reference",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "reference-return-rules": {
+        "lengths": [
+          12,
+          13,
+          11,
+          13
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "reference",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "subject-rule-departure": {
+        "lengths": [
+          65,
+          38,
+          69,
+          37
+        ],
+        "spread": 32,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "subject",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "subject-curtains-steam": {
+        "lengths": [
+          47,
+          50,
+          47,
+          46
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "subject",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "ever-tent-question": {
+        "lengths": [
+          40,
+          40,
+          41,
+          40
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "even",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "account-night-train": {
+        "lengths": [
+          4,
+          5,
+          4,
+          4
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "account",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "with-bread-cooling": {
+        "lengths": [
+          10,
+          9,
+          9,
+          13
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "with",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "remote-lottery-chance": {
+        "lengths": [
+          7,
+          8,
+          6,
+          6
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "remote",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "compromise-coffee": {
+        "lengths": [
+          3,
+          6,
+          3,
+          5
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "compromise",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "standard-repair-tickets": {
+        "lengths": [
+          4,
+          7,
+          5,
+          8
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "standard",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "end-up-lamps": {
+        "lengths": [
+          9,
+          8,
+          6,
+          9
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "end-up",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "conditions-telescope": {
+        "lengths": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conditions",
+        "source": "data/questions/2026-09-29-reviewed.json"
+      },
+      "logic-unless-freezer": {
+        "lengths": [
+          7,
+          6,
+          8,
+          7
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "logic",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "transition-river-levels": {
+        "lengths": [
+          9,
+          10,
+          9,
+          11
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "transition",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "parallel-governance-repair": {
+        "lengths": [
+          71,
+          76,
+          73,
+          75
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "parallel-governance",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "summary-overall-midsection": {
+        "lengths": [
+          56,
+          56,
+          54,
+          58
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "summary-location",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "tone-recovery-physio": {
+        "lengths": [
+          4,
+          4,
+          2,
+          2
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "tone",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "conceivably-ferry": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conceivably",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "compromise-seal-sterility": {
+        "lengths": [
+          8,
+          5,
+          4,
+          4
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "compromise",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "with-lights-dimming": {
+        "lengths": [
+          36,
+          29,
+          37,
+          50
+        ],
+        "spread": 21,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "with",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "result-direction-condensation": {
+        "lengths": [
+          27,
+          27,
+          29,
+          25
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "result-direction",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "little-use-for-titles": {
+        "lengths": [
+          5,
+          4,
+          5,
+          4
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "have-little-use-for",
+        "source": "data/questions/2026-09-30-fresh.json"
+      },
+      "directness-engineer-a": {
+        "lengths": [
+          5,
+          9,
+          10,
+          7
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "directness-modifier",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "directness-curator-b": {
+        "lengths": [
+          7,
+          5,
+          9,
+          11
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "directness-modifier",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "career-chef-a": {
+        "lengths": [
+          29,
+          35,
+          45,
+          45
+        ],
+        "spread": 16,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "career-evidence",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "career-editor-b": {
+        "lengths": [
+          41,
+          43,
+          43,
+          43
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "career-evidence",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "recruitment-poach-a": {
+        "lengths": [
+          9,
+          5,
+          13,
+          10
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "recruitment-vocab",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "recruitment-hunt-b": {
+        "lengths": [
+          8,
+          9,
+          13,
+          10
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "recruitment-vocab",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "cling-policy-a": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cling-climb",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "cling-rail-b": {
+        "lengths": [
+          15,
+          13,
+          15,
+          15
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cling-climb",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "viewpoint-renting-a": {
+        "lengths": [
+          49,
+          53,
+          39,
+          45
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "viewpoint-fact",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "viewpoint-diet-b": {
+        "lengths": [
+          61,
+          63,
+          63,
+          60
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "viewpoint-fact",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "title-preprint-a": {
+        "lengths": [
+          19,
+          31,
+          29,
+          25
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-specificity",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "title-booking-b": {
+        "lengths": [
+          26,
+          23,
+          28,
+          26
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-specificity",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "lined-up-flat-a": {
+        "lengths": [
+          11,
+          13,
+          12,
+          9
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "lined-up",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "lined-up-internship-b": {
+        "lengths": [
+          50,
+          47,
+          40,
+          39
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "lined-up",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "absolute-cafes-a": {
+        "lengths": [
+          60,
+          62,
+          64,
+          68
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "absolute-language",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "absolute-app-b": {
+        "lengths": [
+          41,
+          37,
+          51,
+          38
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "absolute-language",
+        "source": "data/questions/2026-09-30-passage-review.json"
+      },
+      "author-stance-recall-a": {
+        "lengths": [
+          58,
+          60,
+          62,
+          61
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "title-coverage-library-a": {
+        "lengths": [
+          36,
+          42,
+          34,
+          33
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "infancy-payment-a": {
+        "lengths": [
+          6,
+          7,
+          6,
+          7
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "infancy",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "hostage-hijack-hashtag-a": {
+        "lengths": [
+          59,
+          69,
+          56,
+          60
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "hostage-hijack",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "alerts-dashboard-a": {
+        "lengths": [
+          4,
+          4,
+          6,
+          4
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "alerts",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "travel-provider-booking-a": {
+        "lengths": [
+          49,
+          53,
+          36,
+          39
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "travel-provider",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "complementary-printer-a": {
+        "lengths": [
+          13,
+          13,
+          11,
+          9
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "complementary",
+        "source": "data/questions/2026-10-03-text3.json"
+      },
+      "provoke-family-debate-a": {
+        "lengths": [
+          65,
+          66,
+          67,
+          64
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "provoke-family",
+        "source": "data/questions/2026-10-03-text4-boxes.json"
+      },
+      "past-tense-happiness-trip-a": {
+        "lengths": [
+          61,
+          59,
+          62,
+          57
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "past-tense-happiness",
+        "source": "data/questions/2026-10-03-text4-boxes.json"
+      },
+      "feature-verb-magazine-a": {
+        "lengths": [
+          55,
+          46,
+          28,
+          45
+        ],
+        "spread": 27,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "feature-verb",
+        "source": "data/questions/2026-10-03-text4-boxes.json"
+      },
+      "subconscious-way-advertising-a": {
+        "lengths": [
+          63,
+          57,
+          64,
+          60
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "subconscious-way",
+        "source": "data/questions/2026-10-03-text4-boxes.json"
+      },
+      "social-message-inference-career-a": {
+        "lengths": [
+          64,
+          63,
+          61,
+          59
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "social-message-inference",
+        "source": "data/questions/2026-10-03-text4.json"
+      },
+      "social-message-inference-parenting-b": {
+        "lengths": [
+          63,
+          60,
+          61,
+          54
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "social-message-inference",
+        "source": "data/questions/2026-10-03-text4.json"
+      },
+      "causal-role-direction-fitness-a": {
+        "lengths": [
+          60,
+          71,
+          55,
+          62
+        ],
+        "spread": 16,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-10-03-text4.json"
+      },
+      "causal-role-direction-travel-b": {
+        "lengths": [
+          60,
+          61,
+          59,
+          59
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-10-03-text4.json"
+      },
+      "social-message-criticism-membership-c": {
+        "lengths": [
+          45,
+          50,
+          45,
+          56
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "social-message-inference",
+        "source": "data/questions/2026-10-03-text4.json"
+      },
+      "paragraph-order-anaphora-course-a": {
+        "lengths": [
+          96,
+          95,
+          95,
+          95
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-04-partb.json"
+      },
+      "paragraph-order-anaphora-separation-b": {
+        "lengths": [
+          74,
+          72,
+          68,
+          65
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-04-partb.json"
+      },
+      "paragraph-order-discourse-parallel-a": {
+        "lengths": [
+          73,
+          75,
+          74,
+          74
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-04-partb.json"
+      },
+      "paragraph-order-discourse-conclusion-b": {
+        "lengths": [
+          19,
+          8,
+          16,
+          11
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-04-partb.json"
+      },
+      "politics-policy-council-a": {
+        "lengths": [
+          19,
+          20,
+          21,
+          20
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "politics-policy",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "politics-policy-report-b": {
+        "lengths": [
+          28,
+          32,
+          20,
+          44
+        ],
+        "spread": 24,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "politics-policy",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "yet-warning-reality-a": {
+        "lengths": [
+          21,
+          27,
+          17,
+          23
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "expectation-contrast",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "yet-goal-outcome-b": {
+        "lengths": [
+          16,
+          22,
+          18,
+          24
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "expectation-contrast",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "polysemy-rest-unjust-a": {
+        "lengths": [
+          8,
+          11,
+          12,
+          10
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "polysemy-dismiss-address-b": {
+        "lengths": [
+          20,
+          27,
+          19,
+          19
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "constraint-code-chain-a": {
+        "lengths": [
+          26,
+          32,
+          21,
+          24
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "constraint-language",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "constraint-accountable-b": {
+        "lengths": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "constraint-language",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "relation-tied-apart-a": {
+        "lengths": [
+          22,
+          32,
+          29,
+          26
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "relation-independence-b": {
+        "lengths": [
+          22,
+          22,
+          21,
+          25
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-10-05-cloze.json"
+      },
+      "point-timetable-argument": {
+        "lengths": [
+          18,
+          15,
+          11,
+          14
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "point",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "social-message-repair-framing": {
+        "lengths": [
+          63,
+          54,
+          59,
+          64
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "social-message-inference",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "causal-role-trust-delays": {
+        "lengths": [
+          63,
+          63,
+          60,
+          68
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "causal-role-deadline-response": {
+        "lengths": [
+          56,
+          71,
+          69,
+          69
+        ],
+        "spread": 15,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "subject-road-closure-risk": {
+        "lengths": [
+          57,
+          54,
+          58,
+          57
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "subject",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "conceivably-damaged-page": {
+        "lengths": [
+          15,
+          23,
+          19,
+          10
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conceivably",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "conceivably-competing-explanations": {
+        "lengths": [
+          71,
+          70,
+          59,
+          92
+        ],
+        "spread": 33,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conceivably",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "parallel-governance-control-panel": {
+        "lengths": [
+          55,
+          58,
+          70,
+          53
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "parallel-governance",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "parallel-governance-inspection-tasks": {
+        "lengths": [
+          65,
+          67,
+          74,
+          64
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "parallel-governance",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "summary-trials-next-question": {
+        "lengths": [
+          47,
+          58,
+          51,
+          65
+        ],
+        "spread": 18,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "summary-location",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "summary-current-and-follow-up": {
+        "lengths": [
+          61,
+          64,
+          71,
+          77
+        ],
+        "spread": 16,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "summary-location",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "reference-panels-request-switch": {
+        "lengths": [
+          61,
+          65,
+          65,
+          79
+        ],
+        "spread": 18,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "reference",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "paragraph-anaphora-map-representatives": {
+        "lengths": [
+          83,
+          81,
+          72,
+          78
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "paragraph-discourse-ticket-deposits": {
+        "lengths": [
+          97,
+          98,
+          98,
+          81
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "title-coverage-kitchen-evolution": {
+        "lengths": [
+          33,
+          38,
+          36,
+          38
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "title-coverage-local-energy-choices": {
+        "lengths": [
+          31,
+          30,
+          42,
+          41
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "title-specificity-bus-lane-tradeoff": {
+        "lengths": [
+          32,
+          33,
+          41,
+          38
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-specificity",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "title-specificity-bookshop-workload": {
+        "lengths": [
+          41,
+          44,
+          36,
+          34
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-specificity",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "author-stance-volunteer-coordination": {
+        "lengths": [
+          82,
+          68,
+          66,
+          63
+        ],
+        "spread": 19,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-10-05-context-gaps.json"
+      },
+      "take-page-clinic-a": {
+        "lengths": [
+          14,
+          9,
+          13,
+          11
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "take-page-from",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "take-page-museum-b": {
+        "lengths": [
+          55,
+          56,
+          63,
+          71
+        ],
+        "spread": 16,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "take-page-from",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "scope-role-report-subsidy-a": {
+        "lengths": [
+          52,
+          50,
+          40,
+          57
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "scope-role-match",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "scope-role-device-study-b": {
+        "lengths": [
+          33,
+          50,
+          40,
+          56
+        ],
+        "spread": 23,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "scope-role-match",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "paragraph-scope-algorithm-a": {
+        "lengths": [
+          8,
+          9,
+          9,
+          8
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-scope-attitude",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "paragraph-scope-health-campaign-b": {
+        "lengths": [
+          36,
+          50,
+          45,
+          45
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-scope-attitude",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "social-cure-vocab-host-a": {
+        "lengths": [
+          65,
+          64,
+          60,
+          63
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "social-cure-vocab",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "social-cure-vocab-anti-b": {
+        "lengths": [
+          10,
+          10,
+          12,
+          10
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "social-cure-vocab",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "evaluation-vocab-spoton-a": {
+        "lengths": [
+          16,
+          17,
+          13,
+          17
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "evaluation-vocab",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "evaluation-vocab-flaw-b": {
+        "lengths": [
+          27,
+          26,
+          24,
+          34
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "evaluation-vocab",
+        "source": "data/questions/2026-10-07-text1.json"
+      },
+      "commitment-heaters-promise-a": {
+        "lengths": [
+          37,
+          50,
+          25,
+          45
+        ],
+        "spread": 25,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "commitment-semantics",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "commitment-contract-criticism-b": {
+        "lengths": [
+          48,
+          54,
+          52,
+          45
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "commitment-semantics",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "transaction-station-approval-a": {
+        "lengths": [
+          44,
+          66,
+          48,
+          57
+        ],
+        "spread": 22,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "transaction-purpose",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "transaction-grant-reports-b": {
+        "lengths": [
+          37,
+          39,
+          38,
+          48
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "transaction-purpose",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "evidence-flood-sensor-trial-a": {
+        "lengths": [
+          46,
+          40,
+          50,
+          53
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "test-object-scope",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "evidence-concrete-freeze-b": {
+        "lengths": [
+          57,
+          50,
+          59,
+          44
+        ],
+        "spread": 15,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "test-object-scope",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "attribution-fish-survey-a": {
+        "lengths": [
+          56,
+          56,
+          62,
+          49
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "attribution-closing-budget-b": {
+        "lengths": [
+          63,
+          55,
+          58,
+          65
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "boxed-vocab-surfacing-dispute-a": {
+        "lengths": [
+          25,
+          31,
+          24,
+          28
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text2-boxed-vocab",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "boxed-vocab-patchwork-rules-b": {
+        "lengths": [
+          16,
+          18,
+          23,
+          22
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text2-boxed-vocab",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "polysemy-justified-complaint-a": {
+        "lengths": [
+          27,
+          41,
+          29,
+          32
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "polysemy-just-justified-b": {
+        "lengths": [
+          63,
+          62,
+          62,
+          62
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-10-08-text2.json"
+      },
+      "process-stage-shelter-approval-a": {
+        "lengths": [
+          53,
+          52,
+          49,
+          61
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "process-stage-role",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "process-stage-bridge-warning-b": {
+        "lengths": [
+          47,
+          55,
+          45,
+          63
+        ],
+        "spread": 18,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "process-stage-role",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "inference-boundary-architect-layout-a": {
+        "lengths": [
+          72,
+          64,
+          50,
+          64
+        ],
+        "spread": 22,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "inference-boundary-archive-questions-b": {
+        "lengths": [
+          72,
+          80,
+          84,
+          80
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "title-coverage-public-alerts-a": {
+        "lengths": [
+          44,
+          57,
+          52,
+          50
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "title-coverage-school-meals-b": {
+        "lengths": [
+          48,
+          49,
+          38,
+          45
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "science-claim-vocab-proto-a": {
+        "lengths": [
+          70,
+          62,
+          57,
+          53
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "science-claim-vocab",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "science-claim-vocab-archive-b": {
+        "lengths": [
+          60,
+          59,
+          59,
+          53
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "science-claim-vocab",
+        "source": "data/questions/2026-10-10-text3.json"
+      },
+      "compensation-hospital-benefits-a": {
+        "lengths": [
+          59,
+          61,
+          59,
+          58
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "compensation-components",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "compensation-port-delayed-benefits-b": {
+        "lengths": [
+          79,
+          72,
+          63,
+          71
+        ],
+        "spread": 16,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "compensation-components",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "example-council-reform-opposition-a": {
+        "lengths": [
+          51,
+          72,
+          71,
+          57
+        ],
+        "spread": 21,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "example-claim-scope",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "example-farmers-support-trial-b": {
+        "lengths": [
+          54,
+          56,
+          57,
+          57
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "example-claim-scope",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "inference-boundary-tenant-supporters-a": {
+        "lengths": [
+          59,
+          55,
+          59,
+          55
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "inference-boundary-survey-shift-b": {
+        "lengths": [
+          60,
+          61,
+          58,
+          60
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "text4-vocab-unionist-prime-a": {
+        "lengths": [
+          16,
+          12,
+          19,
+          14
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-boxed-vocab",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "text4-vocab-way-fearsome-b": {
+        "lengths": [
+          26,
+          24,
+          19,
+          16
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-boxed-vocab",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "text4-vocab-merit-generous-c": {
+        "lengths": [
+          14,
+          15,
+          13,
+          12
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-boxed-vocab",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "text4-vocab-rally-drawnout-d": {
+        "lengths": [
+          22,
+          24,
+          23,
+          24
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-boxed-vocab",
+        "source": "data/questions/2026-10-11-text4.json"
+      },
+      "partb-vocab-aurora-moment-a": {
+        "lengths": [
+          21,
+          22,
+          15,
+          15
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "partb-boxed-vocab",
+        "source": "data/questions/2026-10-12-partb-boxes.json"
+      },
+      "partb-vocab-heritage-research-b": {
+        "lengths": [
+          17,
+          22,
+          22,
+          26
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "partb-boxed-vocab",
+        "source": "data/questions/2026-10-12-partb-boxes.json"
+      },
+      "partb-vocab-envelope-forms-c": {
+        "lengths": [
+          20,
+          14,
+          13,
+          16
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "partb-boxed-vocab",
+        "source": "data/questions/2026-10-12-partb-boxes.json"
+      },
+      "partb-vocab-workshop-second-half-d": {
+        "lengths": [
+          22,
+          25,
+          21,
+          24
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "partb-boxed-vocab",
+        "source": "data/questions/2026-10-12-partb-boxes.json"
+      },
+      "sentence-link-soil-sensor-a": {
+        "lengths": [
+          89,
+          90,
+          75,
+          65
+        ],
+        "spread": 25,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-12-partb.json"
+      },
+      "sentence-link-train-timetable-b": {
+        "lengths": [
+          79,
+          64,
+          81,
+          71
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-10-12-partb.json"
+      },
+      "sentence-link-course-participation-a": {
+        "lengths": [
+          79,
+          80,
+          79,
+          80
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-12-partb.json"
+      },
+      "sentence-link-museum-experiment-b": {
+        "lengths": [
+          82,
+          80,
+          78,
+          83
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-10-12-partb.json"
+      },
+      "cloze-overview-rainfall-a": {
+        "lengths": [
+          16,
+          27,
+          15,
+          22
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-big-picture",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-overview-plant-b": {
+        "lengths": [
+          44,
+          58,
+          56,
+          55
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-big-picture",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-judge-traffic-a": {
+        "lengths": [
+          12,
+          12,
+          9,
+          17
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-legal-stance",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-judge-school-b": {
+        "lengths": [
+          63,
+          67,
+          59,
+          61
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-legal-stance",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-condition-inspection-a": {
+        "lengths": [
+          2,
+          5,
+          6,
+          6
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-conditional-contrast",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-contrast-review-b": {
+        "lengths": [
+          8,
+          9,
+          9,
+          9
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-conditional-contrast",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-applicant-scholarship-a": {
+        "lengths": [
+          7,
+          8,
+          6,
+          9
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-applicant-outcome",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-applicant-residency-b": {
+        "lengths": [
+          56,
+          55,
+          54,
+          61
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-applicant-outcome",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-adverb-checking-a": {
+        "lengths": [
+          4,
+          4,
+          4,
+          6
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-time-adverbs",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-adverb-research-b": {
+        "lengths": [
+          11,
+          11,
+          11,
+          11
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-time-adverbs",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-queue-review-a": {
+        "lengths": [
+          4,
+          3,
+          4,
+          28
+        ],
+        "spread": 25,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-comparison-chain",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-meter-readings-b": {
+        "lengths": [
+          22,
+          22,
+          31,
+          40
+        ],
+        "spread": 18,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-comparison-chain",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-decline-output-c": {
+        "lengths": [
+          5,
+          9,
+          4,
+          4
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-comparison-chain",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-undo-coldchain-d": {
+        "lengths": [
+          4,
+          7,
+          8,
+          9
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-comparison-chain",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-marked-license-a": {
+        "lengths": [
+          10,
+          6,
+          8,
+          9
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-score-marked",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-marked-project-b": {
+        "lengths": [
+          6,
+          6,
+          6,
+          6
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-score-marked",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-necessary-transport-a": {
+        "lengths": [
+          9,
+          7,
+          8,
+          9
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-baseline-necessary",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "cloze-necessary-teachers-b": {
+        "lengths": [
+          29,
+          34,
+          27,
+          57
+        ],
+        "spread": 30,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "cloze-baseline-necessary",
+        "source": "data/questions/2026-10-14-cloze.json"
+      },
+      "process-stage-hospital-routine-authority-c": {
+        "lengths": [
+          54,
+          57,
+          53,
+          58
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "process-stage-role",
+        "source": "data/questions/2026-10-15-review-transfer.json"
+      },
+      "process-stage-shipment-hold-decision-d": {
+        "lengths": [
+          52,
+          54,
+          56,
+          52
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "process-stage-role",
+        "source": "data/questions/2026-10-15-review-transfer.json"
+      },
+      "example-museum-hours-transport-c": {
+        "lengths": [
+          73,
+          76,
+          72,
+          71
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "example-claim-scope",
+        "source": "data/questions/2026-10-15-review-transfer.json"
+      },
+      "example-factory-reporting-measure-d": {
+        "lengths": [
+          62,
+          59,
+          59,
+          59
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "example-claim-scope",
+        "source": "data/questions/2026-10-15-review-transfer.json"
+      },
+      "belief-negation-online-bookings-a": {
+        "lengths": [
+          54,
+          54,
+          61,
+          60
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "belief-negation-clause",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "belief-negation-software-update-b": {
+        "lengths": [
+          52,
+          48,
+          60,
+          56
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "belief-negation-clause",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "concession-shipping-emissions-a": {
+        "lengths": [
+          62,
+          62,
+          61,
+          59
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "concession-claim-scope",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "concession-festival-cups-b": {
+        "lengths": [
+          58,
+          59,
+          58,
+          59
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "concession-claim-scope",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "afford-ellipsis-archive-encryption-a": {
+        "lengths": [
+          21,
+          24,
+          23,
+          24
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "negative-ellipsis-afford",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "afford-ellipsis-reusable-cups-b": {
+        "lengths": [
+          64,
+          60,
+          64,
+          59
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "negative-ellipsis-afford",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "sustainably-commuting-context-c": {
+        "lengths": [
+          35,
+          30,
+          38,
+          41
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "negative-ellipsis-afford",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "descent-medical-device-a": {
+        "lengths": [
+          57,
+          56,
+          55,
+          54
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "figurative-descent-relative",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "relative-workshop-filters-b": {
+        "lengths": [
+          62,
+          66,
+          62,
+          62
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "figurative-descent-relative",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "accusation-editorial-review-a": {
+        "lengths": [
+          28,
+          39,
+          36,
+          33
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "accusation-context-vocab",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "accusation-research-report-b": {
+        "lengths": [
+          59,
+          59,
+          61,
+          62
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "accusation-context-vocab",
+        "source": "data/questions/2026-10-15-text1.json"
+      },
+      "dnt-consent-partners-a": {
+        "lengths": [
+          61,
+          75,
+          53,
+          75
+        ],
+        "spread": 22,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "dnt-actor-boundary",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "dnt-vendors-messages-b": {
+        "lengths": [
+          24,
+          32,
+          41,
+          59
+        ],
+        "spread": 35,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "dnt-actor-boundary",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "get-cracking-reviews-a": {
+        "lengths": [
+          33,
+          32,
+          39,
+          40
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "crack-polysemy",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "cracked-engineering-b": {
+        "lengths": [
+          33,
+          40,
+          27,
+          37
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "crack-polysemy",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "fine-grained-water-a": {
+        "lengths": [
+          36,
+          35,
+          44,
+          38
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "finegrain-quarrel",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "quarrel-library-b": {
+        "lengths": [
+          19,
+          27,
+          25,
+          39
+        ],
+        "spread": 20,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "finegrain-quarrel",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "working-out-how-museum-a": {
+        "lengths": [
+          37,
+          28,
+          45,
+          45
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "workout-how-ellipsis",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "working-out-how-river-b": {
+        "lengths": [
+          38,
+          25,
+          35,
+          38
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "workout-how-ellipsis",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "indulgence-lateness-a": {
+        "lengths": [
+          33,
+          41,
+          34,
+          43
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "indulgence-vocab",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "indulgence-microphone-b": {
+        "lengths": [
+          31,
+          44,
+          42,
+          46
+        ],
+        "spread": 15,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "indulgence-vocab",
+        "source": "data/questions/2026-10-16-text2.json"
+      },
+      "text3-comparison-transport-a": {
+        "lengths": [
+          66,
+          64,
+          59,
+          35
+        ],
+        "spread": 31,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-comparison-inference",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-comparison-energy-b": {
+        "lengths": [
+          63,
+          62,
+          66,
+          67
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-comparison-inference",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-willfully-audit-a": {
+        "lengths": [
+          41,
+          55,
+          50,
+          52
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-willfully",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-willfully-committee-b": {
+        "lengths": [
+          61,
+          63,
+          69,
+          63
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-willfully",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-boxed-uniformly-asteroid-a": {
+        "lengths": [
+          70,
+          70,
+          76,
+          71
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-boxed-vocab",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-boxed-flagship-b": {
+        "lengths": [
+          48,
+          60,
+          53,
+          50
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-boxed-vocab",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-phrases-dedicated-timescale-a": {
+        "lengths": [
+          99,
+          98,
+          53,
+          62
+        ],
+        "spread": 46,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-future-phrases",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-phrases-fad-rosy-b": {
+        "lengths": [
+          61,
+          63,
+          61,
+          61
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text3-future-phrases",
+        "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text4-field-safety-label-c": {
+        "lengths": [
+          72,
+          71,
+          64,
+          74
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-federal-state-boundary",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "text4-agreement-target-c": {
+        "lengths": [
+          65,
+          75,
+          77,
+          75
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-agreement-target",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "text4-historical-inference-c": {
+        "lengths": [
+          77,
+          70,
+          72,
+          77
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-historical-inference",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "text4-executive-overreach-c": {
+        "lengths": [
+          74,
+          71,
+          67,
+          80
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-executive-overreach",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "causal-role-deadline-response-c": {
+        "lengths": [
+          89,
+          82,
+          75,
+          92
+        ],
+        "spread": 17,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "example-factory-reporting-measure-e": {
+        "lengths": [
+          75,
+          77,
+          78,
+          80
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "example-claim-scope",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "with-archive-loading-c": {
+        "lengths": [
+          58,
+          54,
+          52,
+          55
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "with",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "nested-valve-leak-c": {
+        "lengths": [
+          31,
+          33,
+          33,
+          30
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-10-18-text4-balanced.json"
+      },
+      "example-factory-reporting-measure-f": {
+        "lengths": [
+          67,
+          70,
+          66,
+          71
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "example-claim-scope",
+        "source": "data/questions/2026-10-18-text4-followup.json"
+      },
+      "nested-editor-quote-d": {
+        "lengths": [
+          27,
+          25,
+          23,
+          29
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-10-18-text4-followup.json"
+      },
+      "subject-road-closure-risk-balanced-b": {
+        "lengths": [
+          56,
+          62,
+          60,
+          62
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "subject",
+        "source": "data/questions/2026-10-18-text4-followup.json"
+      },
+      "text4-airspace-exclusive-d": {
+        "lengths": [
+          73,
+          74,
+          72,
+          76
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-federal-state-boundary",
+        "source": "data/questions/2026-10-18-text4-rev3.json"
+      },
+      "text4-flood-inspections-d": {
+        "lengths": [
+          67,
+          65,
+          69,
+          67
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-agreement-target",
+        "source": "data/questions/2026-10-18-text4-rev3.json"
+      },
+      "text4-federal-precedent-d": {
+        "lengths": [
+          72,
+          73,
+          67,
+          71
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-historical-inference",
+        "source": "data/questions/2026-10-18-text4-rev3.json"
+      },
+      "text4-agency-inaction-d": {
+        "lengths": [
+          72,
+          83,
+          72,
+          74
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-executive-overreach",
+        "source": "data/questions/2026-10-18-text4-rev3.json"
+      },
+      "text4-federal-field-a": {
+        "lengths": [
+          69,
+          72,
+          70,
+          75
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-federal-state-boundary",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-federal-field-b": {
+        "lengths": [
+          61,
+          62,
+          58,
+          63
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-federal-state-boundary",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-agreement-target-a": {
+        "lengths": [
+          73,
+          42,
+          75,
+          56
+        ],
+        "spread": 33,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-agreement-target",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-agreement-target-b": {
+        "lengths": [
+          77,
+          74,
+          46,
+          52
+        ],
+        "spread": 31,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-agreement-target",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-state-privileges-a": {
+        "lengths": [
+          77,
+          70,
+          68,
+          76
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-historical-inference",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-state-privileges-b": {
+        "lengths": [
+          41,
+          60,
+          75,
+          68
+        ],
+        "spread": 34,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-historical-inference",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-executive-overreach-a": {
+        "lengths": [
+          74,
+          72,
+          71,
+          82
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-executive-overreach",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "text4-executive-overreach-b": {
+        "lengths": [
+          60,
+          62,
+          66,
+          69
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "text4-executive-overreach",
+        "source": "data/questions/2026-10-18-text4.json"
+      },
+      "ref1": {
+        "lengths": [
+          35,
+          39,
+          39,
+          30
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "reference",
+        "source": "index.html"
+      },
+      "ref2": {
+        "lengths": [
+          38,
+          38,
+          36,
+          35
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "reference",
+        "source": "index.html"
+      },
+      "num1": {
+        "lengths": [
+          42,
+          42,
+          41,
+          41
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "数量对应",
+        "source": "index.html"
+      },
+      "num2": {
+        "lengths": [
+          36,
+          39,
+          36,
+          39
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "数量对应",
+        "source": "index.html"
+      },
+      "summary1": {
+        "lengths": [
+          16,
+          15,
+          15,
+          14
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "summary-location",
+        "source": "index.html"
+      },
+      "summary2": {
+        "lengths": [
+          13,
+          15,
+          15,
+          14
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "summary-location",
+        "source": "index.html"
+      },
+      "lex1": {
+        "lengths": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "reference",
+        "source": "index.html"
+      },
+      "lex2": {
+        "lengths": [
+          40,
+          35,
+          37,
+          42
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "reference",
+        "source": "index.html"
+      },
+      "chain1": {
+        "lengths": [
+          5,
+          5,
+          4,
+          4
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "段首段尾关系",
+        "source": "index.html"
+      },
+      "chain2": {
+        "lengths": [
+          5,
+          5,
+          4,
+          7
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "段首段尾关系",
+        "source": "index.html"
+      },
+      "vocab1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "关键词词义",
+        "source": "index.html"
+      },
+      "vocab2": {
+        "lengths": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "关键词词义",
+        "source": "index.html"
+      },
+      "old_subject1": {
+        "lengths": [
+          25,
+          25,
+          23,
+          27
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "subject",
+        "source": "index.html"
+      },
+      "old_even1": {
+        "lengths": [
+          18,
+          18,
+          18,
+          18
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "even",
+        "source": "index.html"
+      },
+      "old_solong1": {
+        "lengths": [
+          10,
+          7,
+          9,
+          11
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "conditions",
+        "source": "index.html"
+      },
+      "old_account1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "account",
+        "source": "index.html"
+      },
+      "old_constraint1": {
+        "lengths": [
+          22,
+          22,
+          23,
+          21
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "constraint / constrain",
+        "source": "index.html"
+      },
+      "old_remote1": {
+        "lengths": [
+          25,
+          25,
+          25,
+          27
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "remote",
+        "source": "index.html"
+      },
+      "old_standard1": {
+        "lengths": [
+          5,
+          4,
+          5,
+          4
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "standard",
+        "source": "index.html"
+      },
+      "old_compromise1": {
+        "lengths": [
+          4,
+          2,
+          2,
+          2
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "compromise",
+        "source": "index.html"
+      },
+      "old_oversight1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          3
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "oversight 熟词生义",
+        "source": "index.html"
+      },
+      "old_accommodation1": {
+        "lengths": [
+          2,
+          5,
+          6,
+          2
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "accommodation 熟词生义",
+        "source": "index.html"
+      },
+      "old_blurred1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "blurred 熟词生义",
+        "source": "index.html"
+      },
+      "old_cannothelp1": {
+        "lengths": [
+          41,
+          41,
+          39,
+          45
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "cannot help doing",
+        "source": "index.html"
+      },
+      "old_prepwhich1": {
+        "lengths": [
+          97,
+          97,
+          96,
+          100
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "relative",
+        "source": "index.html"
+      },
+      "old_overestimate1": {
+        "lengths": [
+          2,
+          4,
+          4,
+          4
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "overestimate",
+        "source": "index.html"
+      },
+      "old_counterpart1": {
+        "lengths": [
+          2,
+          3,
+          2,
+          4
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "counterpart",
+        "source": "index.html"
+      },
+      "old_inturn1": {
+        "lengths": [
+          6,
+          5,
+          2,
+          7
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "in turn",
+        "source": "index.html"
+      },
+      "old_institution1": {
+        "lengths": [
+          3,
+          4,
+          2,
+          2
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "institution 熟词生义",
+        "source": "index.html"
+      },
+      "old_measure1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "measure 熟词生义",
+        "source": "index.html"
+      },
+      "old_minister1": {
+        "lengths": [
+          21,
+          21,
+          22,
+          21
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "minister / sermon",
+        "source": "index.html"
+      },
+      "old_track1": {
+        "lengths": [
+          6,
+          5,
+          4,
+          4
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "track down",
+        "source": "index.html"
+      },
+      "old_adoption1": {
+        "lengths": [
+          5,
+          5,
+          4,
+          5
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "put up for adoption",
+        "source": "index.html"
+      },
+      "old_lineage1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "lineage",
+        "source": "index.html"
+      },
+      "old_lump1": {
+        "lengths": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "lump together",
+        "source": "index.html"
+      },
+      "old_rely1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "rely on",
+        "source": "index.html"
+      },
+      "old_specialize1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "specialize in",
+        "source": "index.html"
+      },
+      "old_keepend1": {
+        "lengths": [
+          7,
+          6,
+          4,
+          5
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "end-up",
+        "source": "index.html"
+      },
+      "old_turncentury1": {
+        "lengths": [
+          30,
+          31,
+          21,
+          27
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "时间表达",
+        "source": "index.html"
+      },
+      "old_fallvictim1": {
+        "lengths": [
+          25,
+          25,
+          25,
+          28
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "真题固定措辞",
+        "source": "index.html"
+      },
+      "old_endup1": {
+        "lengths": [
+          8,
+          11,
+          10,
+          12
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "end-up",
+        "source": "index.html"
+      },
+      "old_perplexing1": {
+        "lengths": [
+          5,
+          5,
+          4,
+          3
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "perplexing",
+        "source": "index.html"
+      },
+      "old_sufficient1": {
+        "lengths": [
+          3,
+          7,
+          3,
+          8
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "sufficient",
+        "source": "index.html"
+      },
+      "old_keeping1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "in keeping with",
+        "source": "index.html"
+      },
+      "old_mock1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "mock",
+        "source": "index.html"
+      },
+      "old_earnest1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "earnestness",
+        "source": "index.html"
+      },
+      "old_tuition1": {
+        "lengths": [
+          2,
+          2,
+          3,
+          2
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "tuition 熟词生义",
+        "source": "index.html"
+      },
+      "old_disposition1": {
+        "lengths": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "disposition",
+        "source": "index.html"
+      },
+      "old_overtime1": {
+        "lengths": [
+          2,
+          6,
+          6,
+          2
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "over time",
+        "source": "index.html"
+      },
+      "old_littleuse1": {
+        "lengths": [
+          5,
+          5,
+          7,
+          7
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "have-little-use-for",
+        "source": "index.html"
+      },
+      "old_elaborate1": {
+        "lengths": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "elaborate layout",
+        "source": "index.html"
+      },
+      "old_prepwhom1": {
+        "lengths": [
+          89,
+          89,
+          89,
+          94
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "relative",
+        "source": "index.html"
+      },
+      "old_subjectactive1": {
+        "lengths": [
+          2,
+          3,
+          4,
+          2
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "home_legacy",
+        "family": "subject",
+        "source": "index.html"
+      },
+      "vocab-2026-09-27#01": {
+        "lengths": [
+          25,
+          25,
+          28,
+          28
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "subject",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#02": {
+        "lengths": [
+          18,
+          18,
+          18,
+          18
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "even",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#03": {
+        "lengths": [
+          44,
+          42,
+          45,
+          48
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "end-up",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#04": {
+        "lengths": [
+          2,
+          5,
+          2,
+          2
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": true,
+        "pool": "legacy_fixed",
+        "family": "account",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#05": {
+        "lengths": [
+          22,
+          22,
+          23,
+          21
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "constraint / constrain",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#06": {
+        "lengths": [
+          46,
+          46,
+          44,
+          50
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "fall victim of bias（真题原文措辞）",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#07": {
+        "lengths": [
+          25,
+          25,
+          25,
+          27
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "remote",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#08": {
+        "lengths": [
+          7,
+          16,
+          8,
+          8
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": true,
+        "pool": "legacy_fixed",
+        "family": "end-up",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#09": {
+        "lengths": [
+          5,
+          4,
+          9,
+          4
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": true,
+        "pool": "legacy_fixed",
+        "family": "standard",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#10": {
+        "lengths": [
+          100,
+          100,
+          99,
+          100
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "relative",
+        "source": "vocab-quiz-2026-09-27.html"
+      },
+      "vocab-2026-09-27#11": {
+        "lengths": [
+          10,
+          7,
+          9,
+          7
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "legacy_fixed",
+        "family": "conditions",
+        "source": "vocab-quiz-2026-09-27.html"
+      }
+    }
+  },
+  "revised_question_count": 90,
+  "policy": "Review meaningful distractors and matching explanations; check longest AND shortest cues. Do not pad options, exclude answers by length, or treat a revision as a new context or attempt.",
+  "audit_is_not_scoring_evidence": true
 }

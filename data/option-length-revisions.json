@@ -1,0 +1,2019 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-19",
+  "baseline_commit": "ea440b37a366c4a9f36858d171a2de56d1583154",
+  "scope": "Mutable candidate banks only; no new qids, contexts, learning dates, attempts, scores or exposures. Dated published rounds remain immutable.",
+  "semantic_review": "Each edited set was read against its stem: retain the unique best answer and target mechanism; remove unsupported or absurd distractors where revised; check matching explanations and shuffle independence. Lengths are a diagnostic, not proof of semantic quality.",
+  "before": {
+    "daily_article": {
+      "question_count": 224,
+      "correct_uniquely_longest": 106,
+      "correct_uniquely_shortest": 28,
+      "longest_guess_pct": 51.15,
+      "shortest_guess_pct": 14.32,
+      "length_cue_flags": 60,
+      "max_spread": 77
+    },
+    "home_legacy": {
+      "question_count": 53,
+      "correct_uniquely_longest": 31,
+      "correct_uniquely_shortest": 1,
+      "longest_guess_pct": 63.36,
+      "shortest_guess_pct": 7.7,
+      "length_cue_flags": 25,
+      "max_spread": 53
+    },
+    "legacy_fixed": {
+      "question_count": 11,
+      "correct_uniquely_longest": 4,
+      "correct_uniquely_shortest": 0,
+      "longest_guess_pct": 41.67,
+      "shortest_guess_pct": 9.85,
+      "length_cue_flags": 3,
+      "max_spread": 9
+    }
+  },
+  "questions": [
+    {
+      "qid": "faint-map-line",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-29-reviewed.json",
+      "family": "faint",
+      "answer_index": 2,
+      "stable_definition_sha256": "51902e106338e7e268fa490771abd3ec9acf2731c6b46e3f2f958ac8ee68c517",
+      "before_sha256": "23c8e51269d86867cad5827a72578ed47f8bec93d1175c4e43b74f5e79bb8b16",
+      "after_sha256": "c156d80a9bfa8a4c0826a2f49fddee890cfa055b29e37de92ccef6aa3f7d58d5",
+      "before_lengths": [
+        3,
+        5,
+        8,
+        5
+      ],
+      "after_lengths": [
+        3,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "qid": "point-waiting",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-29-reviewed.json",
+      "family": "point",
+      "answer_index": 3,
+      "stable_definition_sha256": "0d09e088b0cbe544a15b880ed4fe279cf8993634a07fe2fcc3fbc6e6c424c874",
+      "before_sha256": "87bbeab8a27aa66b3df8147784a205af284f246d368bb7136c949293bb19d4f1",
+      "after_sha256": "df97f4eacc890a36254ceee3ddf41143273f3a90cb40d2265a41df7ba91c0e54",
+      "before_lengths": [
+        3,
+        2,
+        2,
+        5
+      ],
+      "after_lengths": [
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "reference-return-rules",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-29-reviewed.json",
+      "family": "reference",
+      "answer_index": 2,
+      "stable_definition_sha256": "fc60bce8fd08c3e56787ffb05eebb4538f243303bd195fe1af76dd97055b4b00",
+      "before_sha256": "c7f61d524855dcefe561dbf8ea27fe0e724ba62172a2f553e43b1b9431878384",
+      "after_sha256": "07ea92d5ffc30fdacbc980cb5d0cb33b39d78cacc5a76a024c03d63f80c52b04",
+      "before_lengths": [
+        6,
+        7,
+        17,
+        10
+      ],
+      "after_lengths": [
+        12,
+        13,
+        11,
+        13
+      ]
+    },
+    {
+      "qid": "subject-curtains-steam",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-29-reviewed.json",
+      "family": "subject",
+      "answer_index": 2,
+      "stable_definition_sha256": "17c07e259ec20256db3f93c17dd920217ddc4adcda54ae9a3566751bf0386256",
+      "before_sha256": "8cfe1542f121541806f928d04e35cdbba7a17983fc00bcccb80cd6878116ade7",
+      "after_sha256": "f908373386f10050c9c58d95feb30830b94d6807e75196a7d4d6cd0214bb1183",
+      "before_lengths": [
+        47,
+        50,
+        74,
+        46
+      ],
+      "after_lengths": [
+        47,
+        50,
+        47,
+        46
+      ]
+    },
+    {
+      "qid": "summary-overall-midsection",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-fresh.json",
+      "family": "summary-location",
+      "answer_index": 1,
+      "stable_definition_sha256": "9f15ae695d9f5ef8b257acc33eaee7872fe9c5901ee3cc24b9133468c18e0a1e",
+      "before_sha256": "89d7282448d5018b7f10eac4f63b9447f58602bd33866271a5d0e8e5ab4c0416",
+      "after_sha256": "0d3bc1aa687e35eff466221cc69f66e8b2d516b3636882f92cf49bd58bf4861e",
+      "before_lengths": [
+        53,
+        75,
+        45,
+        42
+      ],
+      "after_lengths": [
+        56,
+        56,
+        54,
+        58
+      ]
+    },
+    {
+      "qid": "conceivably-ferry",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-fresh.json",
+      "family": "conceivably",
+      "answer_index": 1,
+      "stable_definition_sha256": "decb4180bd3c7e7d5884bafd59154a7e80a98379b07bf08f6eb3ce16977351e0",
+      "before_sha256": "2cf10acf3ead2d6457646595de0cda5c36c8da6021a71e5796051718d6e06768",
+      "after_sha256": "b99c777321666b70a7bf024e4674f8828289615a23fba8bb6a7ad1076e78f5e8",
+      "before_lengths": [
+        3,
+        11,
+        3,
+        4
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "little-use-for-titles",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-fresh.json",
+      "family": "have-little-use-for",
+      "answer_index": 1,
+      "stable_definition_sha256": "1d608adef5d0ecd946143de7368412e613986f5269c785ce775b6cdc6f0587d8",
+      "before_sha256": "a90187f0913b5dcf74f1b8a17b5d0f6c35ac9d6fd4046fdc7f84aa881f522758",
+      "after_sha256": "cbcc413b37a98701102ffdaa2a3067a1b4258ef66a9e138d039e72b9dfe42b06",
+      "before_lengths": [
+        8,
+        12,
+        7,
+        6
+      ],
+      "after_lengths": [
+        5,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "qid": "career-editor-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-passage-review.json",
+      "family": "career-evidence",
+      "answer_index": 1,
+      "stable_definition_sha256": "daca0f022a8ff67c1e18544a9d4388a643417497583d86adf7ee9f16f87dd4ea",
+      "before_sha256": "10de2626ddcdc9428d854f04a0a613932bdfd40a3c6d7e1483909966e57a88c0",
+      "after_sha256": "08053351b4b5700310536ca0155c5c9131952b3bf76bcb902a2ea8df2e283f8c",
+      "before_lengths": [
+        41,
+        59,
+        43,
+        43
+      ],
+      "after_lengths": [
+        41,
+        43,
+        43,
+        43
+      ]
+    },
+    {
+      "qid": "cling-policy-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-passage-review.json",
+      "family": "cling-climb",
+      "answer_index": 1,
+      "stable_definition_sha256": "5479a8b69fd792f59855290f3b53bab9d6b9bec6fb0a97c970ed9311300787e8",
+      "before_sha256": "55c4e014bfe4d7540355f550e854349879005c0d1b54b4613e2198722a0730bd",
+      "after_sha256": "dbde1222532a51e891b5abcbe6aa8bb13e12687d84bd600010206c6f48b7d700",
+      "before_lengths": [
+        4,
+        7,
+        4,
+        4
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "viewpoint-diet-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-passage-review.json",
+      "family": "viewpoint-fact",
+      "answer_index": 1,
+      "stable_definition_sha256": "c94a4f60b82df2d85e3c4f5fdb0540994d1c6d21873fb484a8c79c30cdfb171c",
+      "before_sha256": "658404a5c99d9f38efe5f9ceb97d979fa3b34aa02b1e8781207db0c2152572cc",
+      "after_sha256": "b5afdc6b58c023023cc6cc167ce92508c2881ca4d5d0988d3ae14559b3e1cae8",
+      "before_lengths": [
+        49,
+        76,
+        56,
+        59
+      ],
+      "after_lengths": [
+        61,
+        63,
+        63,
+        60
+      ]
+    },
+    {
+      "qid": "absolute-cafes-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-09-30-passage-review.json",
+      "family": "absolute-language",
+      "answer_index": 3,
+      "stable_definition_sha256": "da55f73ad2c648cc911d8d3a2889788bcc95ca78db715c8a11ff3417274c36bd",
+      "before_sha256": "4ea056fe756a34851393364dd511dad286e6b70281e3e041bfa00189bb1582b4",
+      "after_sha256": "a17c8421ca7dbb1c402732508ccf2c01002c65e77ba7fd1c728024f6634905c6",
+      "before_lengths": [
+        46,
+        37,
+        68,
+        72
+      ],
+      "after_lengths": [
+        60,
+        62,
+        64,
+        68
+      ]
+    },
+    {
+      "qid": "author-stance-recall-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text3.json",
+      "family": "author-stance",
+      "answer_index": 1,
+      "stable_definition_sha256": "005f62b77721ac3fdc2aac02d8815e7ebb44a50aa8a539ed25afc3cf75ed15cf",
+      "before_sha256": "27ce4f86aaf54427f46813794c118a79d01bcc6b3fa6cd9f227df6077c04810f",
+      "after_sha256": "14043b04334d31123c708798a06474c087ed903f89129e8796ae4fd7fde94fdb",
+      "before_lengths": [
+        50,
+        77,
+        46,
+        31
+      ],
+      "after_lengths": [
+        58,
+        60,
+        62,
+        61
+      ]
+    },
+    {
+      "qid": "alerts-dashboard-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text3.json",
+      "family": "alerts",
+      "answer_index": 0,
+      "stable_definition_sha256": "2f5955381ac57f635a6aa30b9f24d873c33856e14a67fdc629bb06e60fe6a7d8",
+      "before_sha256": "d32b65d15b555f94fa01c6d0995f11fd9abd4e636b311005e7ea4739d0340d00",
+      "after_sha256": "17a2e5dd0a376ed3120695e37b5fdfa841fa586b9054f6faef442173c4fb2d7b",
+      "before_lengths": [
+        9,
+        4,
+        6,
+        4
+      ],
+      "after_lengths": [
+        4,
+        4,
+        6,
+        4
+      ]
+    },
+    {
+      "qid": "provoke-family-debate-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4-boxes.json",
+      "family": "provoke-family",
+      "answer_index": 1,
+      "stable_definition_sha256": "ee9131390f31ebef2841d80e1aa6f33ad58a6f0fbbfe24f5dbc056caa07c8417",
+      "before_sha256": "13fe0cc5f315cf370ceb1564bf7e374b4450cbac81e81d3f837884abe3ef34da",
+      "after_sha256": "56a7058b569ff8a140dac2afffefc71772e770a2d4fbebae48f3eae9bc52f3fe",
+      "before_lengths": [
+        42,
+        115,
+        39,
+        38
+      ],
+      "after_lengths": [
+        65,
+        66,
+        67,
+        64
+      ]
+    },
+    {
+      "qid": "past-tense-happiness-trip-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4-boxes.json",
+      "family": "past-tense-happiness",
+      "answer_index": 1,
+      "stable_definition_sha256": "be3fd2d55a04a3dbc0446aefb4d627728f9f1faa26aa6e41d55efeab4436bf5d",
+      "before_sha256": "cf7dc91ec0afcf73b9500b49c944252d606ad6280e872fe8d4088d5c48e55be7",
+      "after_sha256": "6b2fff563464cee4fb76224d624ae3ca319f0e70cdbf8e891ec1d1d52379c9f3",
+      "before_lengths": [
+        37,
+        81,
+        41,
+        48
+      ],
+      "after_lengths": [
+        61,
+        59,
+        62,
+        57
+      ]
+    },
+    {
+      "qid": "subconscious-way-advertising-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4-boxes.json",
+      "family": "subconscious-way",
+      "answer_index": 1,
+      "stable_definition_sha256": "c86864f9dde9e7e9d268e0405f36ed8135796647f452a995a2ed3a8dd8f21379",
+      "before_sha256": "97e33514c9f526417e63aa7b98afc3e9aeaf74f7753b3ea18acdbce0ea09506c",
+      "after_sha256": "29e89ad77b84b592fedfde1686f097f07377852f185532151d38fdf607d2c8ee",
+      "before_lengths": [
+        46,
+        63,
+        49,
+        40
+      ],
+      "after_lengths": [
+        63,
+        57,
+        64,
+        60
+      ]
+    },
+    {
+      "qid": "social-message-inference-career-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4.json",
+      "family": "social-message-inference",
+      "answer_index": 1,
+      "stable_definition_sha256": "a826f69200663791e401f6720e5e3712956a6ed4941b27e309894b15c1a874d6",
+      "before_sha256": "184511462ca3363e6ce782e266b9cfc5d3f24cab87bd037fb8f74d11d1bfe4d5",
+      "after_sha256": "165e46f2fef01d58aac8ce45e2942b3594d04055421c36e27f98de1eb120a14d",
+      "before_lengths": [
+        58,
+        77,
+        51,
+        42
+      ],
+      "after_lengths": [
+        64,
+        63,
+        61,
+        59
+      ]
+    },
+    {
+      "qid": "social-message-inference-parenting-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4.json",
+      "family": "social-message-inference",
+      "answer_index": 1,
+      "stable_definition_sha256": "9454176529a97e56818724799910a15058e302801402798abebb0e1b3aebf2e3",
+      "before_sha256": "09e6e3ac00bf14ccb84e173ccd881baede2af22ff68a464096c1faa7560a9adf",
+      "after_sha256": "8b3a0c07e311fcca3c666370e7f515c3e9e7ece4976a2b5c26f5898d9c944a46",
+      "before_lengths": [
+        56,
+        84,
+        49,
+        59
+      ],
+      "after_lengths": [
+        63,
+        60,
+        61,
+        54
+      ]
+    },
+    {
+      "qid": "causal-role-direction-travel-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4.json",
+      "family": "causal-role-direction",
+      "answer_index": 1,
+      "stable_definition_sha256": "a79f922fe5932eb755cdf27636e45ea7431ea8c53c31606c5c05d80f41d9c31e",
+      "before_sha256": "ec034e6639e3d7af0b41fa49c3ffaabe8523b00d62c7178c8b85c00e56b01203",
+      "after_sha256": "0de82163b126fc8c52e9428c2b69671b89a27e110a1cedb5a9d59987d3321dc2",
+      "before_lengths": [
+        62,
+        72,
+        52,
+        53
+      ],
+      "after_lengths": [
+        60,
+        61,
+        59,
+        59
+      ]
+    },
+    {
+      "qid": "social-message-criticism-membership-c",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-03-text4.json",
+      "family": "social-message-inference",
+      "answer_index": 1,
+      "stable_definition_sha256": "167a957cacd3989f02290c5b691c0da19cfcde469940eb2e6df6291d89aec36f",
+      "before_sha256": "d3dbd4c53ac5a6786edb5c9e19c9aadaf21fe96b9973234052cd796e00e99b2d",
+      "after_sha256": "3f8d03db79b5adfe0d00c8d68468ea935e5d8842e8f67c950a989b2dd2966f21",
+      "before_lengths": [
+        45,
+        71,
+        45,
+        56
+      ],
+      "after_lengths": [
+        45,
+        50,
+        45,
+        56
+      ]
+    },
+    {
+      "qid": "paragraph-order-anaphora-course-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-04-partb.json",
+      "family": "paragraph-order-anaphora",
+      "answer_index": 0,
+      "stable_definition_sha256": "626e74aa48ebaf8774a504aee1d92a90d8d45ba16feb491fbe493e0c0433c90b",
+      "before_sha256": "1f05c499b5f769a08a0435cf98a0020112d004317810e946ae1e378a5f2208ba",
+      "after_sha256": "395509e8f5cdeb51897d484cc0718aa9716649ed6e60c1d54932993040c5a82f",
+      "before_lengths": [
+        96,
+        72,
+        72,
+        70
+      ],
+      "after_lengths": [
+        96,
+        95,
+        95,
+        95
+      ]
+    },
+    {
+      "qid": "paragraph-order-anaphora-separation-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-04-partb.json",
+      "family": "paragraph-order-anaphora",
+      "answer_index": 0,
+      "stable_definition_sha256": "76c68af94f58adf9ec954c7fff67700491aeda9335391af7801b430d2877f444",
+      "before_sha256": "83bf9c411c14f0c1bf86602ed1d15b332d6ff8af3fac51026b97a092296ce666",
+      "after_sha256": "4ee02028ae039f8eb5f1502bcfc403b5d0a43ce46a6fe43956cd59258c3ae1a1",
+      "before_lengths": [
+        69,
+        56,
+        53,
+        46
+      ],
+      "after_lengths": [
+        74,
+        72,
+        68,
+        65
+      ]
+    },
+    {
+      "qid": "paragraph-order-discourse-parallel-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-04-partb.json",
+      "family": "paragraph-order-discourse",
+      "answer_index": 0,
+      "stable_definition_sha256": "44678db04a55186c42ad5374c2a36c7e2b22d7d786bea3384b3ed55a89e83804",
+      "before_sha256": "5a74e9a59143f8174364ad413f0c679ffaa1acd2ddaf8391322b9bca9ecc5bdd",
+      "after_sha256": "01f22be4dc9c48dd0a6ffc0ed16445ee217eae22484c76ce6a4a3f63aa2ab6fb",
+      "before_lengths": [
+        80,
+        61,
+        58,
+        63
+      ],
+      "after_lengths": [
+        73,
+        75,
+        74,
+        74
+      ]
+    },
+    {
+      "qid": "constraint-accountable-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-05-cloze.json",
+      "family": "constraint-language",
+      "answer_index": 1,
+      "stable_definition_sha256": "537d65d365ad423c70707d610cee9a3643db89d300e5fd9773068ffc35eb7d93",
+      "before_sha256": "21f9c8fc890321f97ea4991d2f5b9bbda1d445c24dc7f0b0d049442f9e74a85b",
+      "after_sha256": "61a6ce81d02a97944d0697daf869aa521a6090ab40bfc08961db0218774731ad",
+      "before_lengths": [
+        8,
+        14,
+        9,
+        10
+      ],
+      "after_lengths": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "qid": "relation-independence-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-05-cloze.json",
+      "family": "relation-collocation",
+      "answer_index": 1,
+      "stable_definition_sha256": "445e514a684b02ef594a70c3deaaef049b98e47ffc0e2e79752d05bedb09255a",
+      "before_sha256": "4a9f4ab579e885870ebc90769ce02a2a24bfa2dc0d96eb014208d501f56ef634",
+      "after_sha256": "35447452f8b1e1b2e7706d4b9caa60eeb7cbe718f2ce3fa767f8ae0d2deb4207",
+      "before_lengths": [
+        23,
+        38,
+        29,
+        24
+      ],
+      "after_lengths": [
+        22,
+        22,
+        21,
+        25
+      ]
+    },
+    {
+      "qid": "social-message-repair-framing",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-05-context-gaps.json",
+      "family": "social-message-inference",
+      "answer_index": 2,
+      "stable_definition_sha256": "fd245bb501ca6132722ebf29ec90194dedc419fd70ff26153d6aa51853a4c5b9",
+      "before_sha256": "9a7a3dbed3fb6a6614de3c0f923c102d5ae57b60b6c97e822f4fb30fedd88c95",
+      "after_sha256": "e4fc3f118691b460e36e0f08cf55aedc001da04d85539dc4ee294054f7ed76c0",
+      "before_lengths": [
+        63,
+        54,
+        91,
+        76
+      ],
+      "after_lengths": [
+        63,
+        54,
+        59,
+        64
+      ]
+    },
+    {
+      "qid": "causal-role-deadline-response",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-05-context-gaps.json",
+      "family": "causal-role-direction",
+      "answer_index": 2,
+      "stable_definition_sha256": "358a0bc9d97ae5ac18c4cf7b3b6efc8f80aa064327753e70c03cee6126181e0a",
+      "before_sha256": "83a381b561b6c9ab1fe972cbd0c8c20e50e767ef7ee125a2b34eda45f73b7cec",
+      "after_sha256": "ea03e6396507d2f8477f823cad199937d569ed14392d8dc9309ac62c3daf0553",
+      "before_lengths": [
+        51,
+        71,
+        94,
+        65
+      ],
+      "after_lengths": [
+        56,
+        71,
+        69,
+        69
+      ]
+    },
+    {
+      "qid": "subject-road-closure-risk",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-05-context-gaps.json",
+      "family": "subject",
+      "answer_index": 1,
+      "stable_definition_sha256": "745f227f794dc36ac9e874576862baeacad02eff71faf2260d9b70cfbdc0a50c",
+      "before_sha256": "9022aa749e00f0eabc8336121787e545da3da15e604207986a0137c158d1593c",
+      "after_sha256": "de1eecb9eef882401b123eef153766278d70f206539b12c30370840254cb8ea7",
+      "before_lengths": [
+        51,
+        78,
+        52,
+        61
+      ],
+      "after_lengths": [
+        57,
+        54,
+        58,
+        57
+      ]
+    },
+    {
+      "qid": "parallel-governance-control-panel",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-05-context-gaps.json",
+      "family": "parallel-governance",
+      "answer_index": 1,
+      "stable_definition_sha256": "1ab656fbf3d159dca9d20a6684475a0bed63de4e4c5b1874e2a96f9eb094b348",
+      "before_sha256": "d9e961f5b01e1dd67ee3d74406b330a3b8a2b5f07e2ca9cd797fb3ad41e3506a",
+      "after_sha256": "15507bdebd8b24fceb3c41d98bd8675c8f59f94dbcfa25a85a0cc5c00a4de9a8",
+      "before_lengths": [
+        55,
+        87,
+        70,
+        53
+      ],
+      "after_lengths": [
+        55,
+        58,
+        70,
+        53
+      ]
+    },
+    {
+      "qid": "paragraph-scope-algorithm-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-07-text1.json",
+      "family": "paragraph-scope-attitude",
+      "answer_index": 1,
+      "stable_definition_sha256": "7222c2d6c456e64e8fdc7bd8d2ebc60c742a4acd177da6f65d602112987c4d7c",
+      "before_sha256": "e3bf37a481ac7191e8baf373940de518ffc1a4bdb7e3bbb908587593ffac51b1",
+      "after_sha256": "7b8eaec4a299079e8db02433bf818d9e77ff67cd64821a9009c50addadb4afcf",
+      "before_lengths": [
+        8,
+        12,
+        9,
+        8
+      ],
+      "after_lengths": [
+        8,
+        9,
+        9,
+        8
+      ]
+    },
+    {
+      "qid": "social-cure-vocab-host-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-07-text1.json",
+      "family": "social-cure-vocab",
+      "answer_index": 1,
+      "stable_definition_sha256": "317a8f74ef7bee3afe8c06a98ee4b354bb83d872f650d215383be07da92dd99d",
+      "before_sha256": "c47099888ab5e14806d5077992c5aa50ac5705acd965b0e2272e2b3fe04c800f",
+      "after_sha256": "64b78e1c72ec3508e7e13523c4dca058424013b422457c274b29ef21b4813302",
+      "before_lengths": [
+        67,
+        78,
+        56,
+        49
+      ],
+      "after_lengths": [
+        65,
+        64,
+        60,
+        63
+      ]
+    },
+    {
+      "qid": "evaluation-vocab-flaw-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-07-text1.json",
+      "family": "evaluation-vocab",
+      "answer_index": 0,
+      "stable_definition_sha256": "a35e2df2c7b157a5dfd903d005a67f888c55fdd4d7f7e5fc7144b0802d966785",
+      "before_sha256": "2d4de996f4fa9e49a830df699c3a334cc9363bd8de6e8a46daa5c4903702b90c",
+      "after_sha256": "5f94d9d4261c11949095974a138c141aac2e0380b5133870d73f2ce962c1602b",
+      "before_lengths": [
+        34,
+        22,
+        19,
+        29
+      ],
+      "after_lengths": [
+        27,
+        26,
+        24,
+        34
+      ]
+    },
+    {
+      "qid": "attribution-closing-budget-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-08-text2.json",
+      "family": "attribution-stance",
+      "answer_index": 0,
+      "stable_definition_sha256": "ad1406dde132ce3ea299864ea4ec300180a5fc601732af8653aae91d5c8ec13a",
+      "before_sha256": "0d69c1b5af0a5da1209bfecb5282264644a821fd390292374ee8a019decabdf6",
+      "after_sha256": "7daf4cd17e49f2c115b5458f1d3a49aded354e12eac111fd4f51ea3961ce8907",
+      "before_lengths": [
+        75,
+        55,
+        58,
+        65
+      ],
+      "after_lengths": [
+        63,
+        55,
+        58,
+        65
+      ]
+    },
+    {
+      "qid": "polysemy-just-justified-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-08-text2.json",
+      "family": "familiar-word-polysemy",
+      "answer_index": 1,
+      "stable_definition_sha256": "e1dbdc1bc0bbedc985a9c2b4c107e39f714013d28072770038f3a09ebd24e414",
+      "before_sha256": "87ee550f6cabb0f4e40fac13639ef567f5e561e4810da1e865344ceebf10d24e",
+      "after_sha256": "6f731eebd08efca7a6a45c9cf9316b0b7977b1936f3cd49d73e8faa27d3ff935",
+      "before_lengths": [
+        39,
+        77,
+        45,
+        59
+      ],
+      "after_lengths": [
+        63,
+        62,
+        62,
+        62
+      ]
+    },
+    {
+      "qid": "science-claim-vocab-archive-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-10-text3.json",
+      "family": "science-claim-vocab",
+      "answer_index": 2,
+      "stable_definition_sha256": "4062820f857a29dfc37691e3cdd6777b72462719a969d9cd94222d5137419a05",
+      "before_sha256": "1b96d908da8b0a457716e0689cf705d77678cf5d2dc226d7059565aa7196cc12",
+      "after_sha256": "53399796e1cbb12a6099fcd8ce0d6480a3b3e70106da2e5a5fb2f31c4eb06e67",
+      "before_lengths": [
+        43,
+        52,
+        75,
+        53
+      ],
+      "after_lengths": [
+        60,
+        59,
+        59,
+        53
+      ]
+    },
+    {
+      "qid": "compensation-hospital-benefits-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-11-text4.json",
+      "family": "compensation-components",
+      "answer_index": 2,
+      "stable_definition_sha256": "fc5b165b869dff75e67fe0123da4bdcf442b25093367ebffc8bcaf4b34fe1b4e",
+      "before_sha256": "89d62638c865ddef123264984263c37a1575bd8a54aaec28a3ab8a18499dccb4",
+      "after_sha256": "8e2d186590d7e2c6ef10621fabbb2f82bea307af3c53d7f55e932dc419e84b73",
+      "before_lengths": [
+        34,
+        46,
+        77,
+        64
+      ],
+      "after_lengths": [
+        59,
+        61,
+        59,
+        58
+      ]
+    },
+    {
+      "qid": "example-farmers-support-trial-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-11-text4.json",
+      "family": "example-claim-scope",
+      "answer_index": 3,
+      "stable_definition_sha256": "6c7bcc880d8594c0a032555588b63cf40c37b069f1300770862ac23d4479f052",
+      "before_sha256": "087fbd333940b53dea8f4cae3f44dc245f142158342b2a0481a63e2593835146",
+      "after_sha256": "7a00a433431d5ce8b09455daa442742ab3ebe64f641d59758578ffc9303f8ed6",
+      "before_lengths": [
+        69,
+        66,
+        62,
+        81
+      ],
+      "after_lengths": [
+        54,
+        56,
+        57,
+        57
+      ]
+    },
+    {
+      "qid": "inference-boundary-tenant-supporters-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-11-text4.json",
+      "family": "inference-boundary",
+      "answer_index": 1,
+      "stable_definition_sha256": "b7bfdf83f4f5e6dfea261b5e06cf2791706c3b7e5add876996af6c950f0ac02b",
+      "before_sha256": "083b45595291a5b6224a061f7b0d07b045893440b8a6aee566f583b58872910a",
+      "after_sha256": "2a338472e3e7a21e06bbd3bbe9e340fb393001508591b5c42092de0cfda0208d",
+      "before_lengths": [
+        53,
+        98,
+        52,
+        40
+      ],
+      "after_lengths": [
+        59,
+        55,
+        59,
+        55
+      ]
+    },
+    {
+      "qid": "inference-boundary-survey-shift-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-11-text4.json",
+      "family": "inference-boundary",
+      "answer_index": 1,
+      "stable_definition_sha256": "b76e0238b4b92855b43d066cb0d6b56a1c69c01c61e43957ac3b7146c12b6f85",
+      "before_sha256": "d5b5be0557202c5ad3f47026966ab74e4872a2df906a56f0b57efe9b99e34e95",
+      "after_sha256": "235711360e52666804c27a18143e8964b3095337885c609773d58cbb1fd764e3",
+      "before_lengths": [
+        48,
+        100,
+        46,
+        53
+      ],
+      "after_lengths": [
+        60,
+        61,
+        58,
+        60
+      ]
+    },
+    {
+      "qid": "text4-vocab-merit-generous-c",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-11-text4.json",
+      "family": "text4-boxed-vocab",
+      "answer_index": 3,
+      "stable_definition_sha256": "5f8f1f02e7bf3e36e81d56009bb73995b723a50fb5e5bf7fad79349e1e0d554d",
+      "before_sha256": "77048d8ab90926de201b7cb5ccaa780334ba1f4def4b8309c05af5592e7d20de",
+      "after_sha256": "dfadef4ec6334a3f236b92caef2c10d4651914383215655e1e3a3dc9d9c7d769",
+      "before_lengths": [
+        16,
+        16,
+        13,
+        23
+      ],
+      "after_lengths": [
+        14,
+        15,
+        13,
+        12
+      ]
+    },
+    {
+      "qid": "text4-vocab-rally-drawnout-d",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-11-text4.json",
+      "family": "text4-boxed-vocab",
+      "answer_index": 1,
+      "stable_definition_sha256": "9dec8aa5c09e3f4cec751d48e0130197fa0b000ec5279fd6d52570b3fd2fc775",
+      "before_sha256": "29c11995b5bec1c2044aae5aefc2e8ea4761199a11807774e1a5bdaef68d1c9c",
+      "after_sha256": "93e571846a88c4607d3a6171419fc8a8a04bb1b16df14d7bc86cb1544579ceb0",
+      "before_lengths": [
+        20,
+        30,
+        18,
+        25
+      ],
+      "after_lengths": [
+        22,
+        24,
+        23,
+        24
+      ]
+    },
+    {
+      "qid": "partb-vocab-workshop-second-half-d",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-12-partb-boxes.json",
+      "family": "partb-boxed-vocab",
+      "answer_index": 2,
+      "stable_definition_sha256": "2200e1af03319e27e89dd304f1dc82e9c603dd772127139652b666f37bd18ef3",
+      "before_sha256": "f8d4469a8e1f97a894fd75e40712452565ee5812978dd9775ae83b75a1535145",
+      "after_sha256": "ff80ce5b0a8219e6eb14dc8c9071666e8a7347c6eeb41ff413b4f1a6da025b76",
+      "before_lengths": [
+        17,
+        17,
+        28,
+        16
+      ],
+      "after_lengths": [
+        22,
+        25,
+        21,
+        24
+      ]
+    },
+    {
+      "qid": "sentence-link-course-participation-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-12-partb.json",
+      "family": "paragraph-order-discourse",
+      "answer_index": 1,
+      "stable_definition_sha256": "f66250b09f3206d2463989fd2a4d1c42209393208a6d636dc82362cd6a52b444",
+      "before_sha256": "e3917f8eccdfcdcd30486b395e742737f7a9fb23acc293600ca8167660a871ea",
+      "after_sha256": "0461b5f04988bb297df69bf66f56ed188f808894ea16229c4ade9cd53293ed94",
+      "before_lengths": [
+        81,
+        110,
+        59,
+        52
+      ],
+      "after_lengths": [
+        79,
+        80,
+        79,
+        80
+      ]
+    },
+    {
+      "qid": "sentence-link-museum-experiment-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-12-partb.json",
+      "family": "paragraph-order-discourse",
+      "answer_index": 3,
+      "stable_definition_sha256": "8d4e3d3c54d040f95a33a503c4c5182a818bf463e494d5ab7495962fc0efebd9",
+      "before_sha256": "65582cb09d34efa47cc155e80152967d5383f1f6f467b1ef40cf813dfa44d958",
+      "after_sha256": "84e6f44c7beaa6ee785f298fa07ab10436fcc2e11c7bb3ec4040dc989977999b",
+      "before_lengths": [
+        62,
+        79,
+        59,
+        111
+      ],
+      "after_lengths": [
+        82,
+        80,
+        78,
+        83
+      ]
+    },
+    {
+      "qid": "cloze-judge-school-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-14-cloze.json",
+      "family": "cloze-legal-stance",
+      "answer_index": 3,
+      "stable_definition_sha256": "890d7a0c0b5754caf7df694f6fcf03220ff13c5483613602ba5f461d62b5d047",
+      "before_sha256": "f93ad08f5c34add3fb520af103e9675d9f83478dd2433b03e49952887ded8a03",
+      "after_sha256": "bab7addab15af2f531b468239b39f684cacd0dce6d2035a67fb072eb4337dafd",
+      "before_lengths": [
+        49,
+        51,
+        52,
+        71
+      ],
+      "after_lengths": [
+        63,
+        67,
+        59,
+        61
+      ]
+    },
+    {
+      "qid": "cloze-applicant-residency-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-14-cloze.json",
+      "family": "cloze-applicant-outcome",
+      "answer_index": 2,
+      "stable_definition_sha256": "f1653c3da20561475d7bccbd4e596f7cb0821cd4666d841eccffe715d389e4bb",
+      "before_sha256": "d029356f575f8e0c2a8f6e0d57d3a85c596994ebe99e3ce00d208342a95900be",
+      "after_sha256": "c6e637df451b11882443286221cc2e88903218ec78a2a85e6b94a8c0d49b52af",
+      "before_lengths": [
+        38,
+        50,
+        78,
+        66
+      ],
+      "after_lengths": [
+        56,
+        55,
+        54,
+        61
+      ]
+    },
+    {
+      "qid": "cloze-marked-project-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-14-cloze.json",
+      "family": "cloze-score-marked",
+      "answer_index": 2,
+      "stable_definition_sha256": "b51909e780c4d9797504bd23dd1dd5833d1143840d67bd29f0ea94f1744a0cec",
+      "before_sha256": "7d51f8615fb02fb955ea9a62d3ad98cc2fb4e4fb10a76bef2286466c6d1399e1",
+      "after_sha256": "4bd680c964a5f6a978e83e24362be3c223ed8b40339631438176a2d2072cbe0e",
+      "before_lengths": [
+        6,
+        5,
+        10,
+        9
+      ],
+      "after_lengths": [
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "qid": "example-factory-reporting-measure-d",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-review-transfer.json",
+      "family": "example-claim-scope",
+      "answer_index": 3,
+      "stable_definition_sha256": "a8a1ff259788808a40afe2b72b07f867a15e4745f60056e161cba01b61f78b21",
+      "before_sha256": "306547e829820514857613a9722f57bba873275f643d92ff0609eb56e117b76d",
+      "after_sha256": "dd52bb44bced13eb880ad0f0ae79d398dcbb3459164683562e9bf63903e57a59",
+      "before_lengths": [
+        80,
+        79,
+        69,
+        95
+      ],
+      "after_lengths": [
+        62,
+        59,
+        59,
+        59
+      ]
+    },
+    {
+      "qid": "belief-negation-online-bookings-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-text1.json",
+      "family": "belief-negation-clause",
+      "answer_index": 1,
+      "stable_definition_sha256": "a95d01db0a500e39bb55fa2f7d5d669e216ae6613d62dc2c1b4e4374fc6ddf0f",
+      "before_sha256": "8b3b5f5301fd13543fb00780ef72a9eb3a6a320cafff1cb7a4df8a1b85d2eed9",
+      "after_sha256": "abb1586a249405f40c8b026b52a48862641496366fe542229d80596373dc8fe0",
+      "before_lengths": [
+        36,
+        69,
+        62,
+        47
+      ],
+      "after_lengths": [
+        54,
+        54,
+        61,
+        60
+      ]
+    },
+    {
+      "qid": "concession-shipping-emissions-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-text1.json",
+      "family": "concession-claim-scope",
+      "answer_index": 3,
+      "stable_definition_sha256": "f2e5ca8e61004fbfe12ac6f9910e4dab8f7a6d355186f987209edbb38a3f92d7",
+      "before_sha256": "4820e4f67ffd52ba109b3b42ecd41c6ec5fc7ce14ffec0da91ac5c83e46bcd03",
+      "after_sha256": "f06724a8f687b7b25f022a12658e18e3a2ec1f7bd527aeba7a4ea76162fe9c87",
+      "before_lengths": [
+        45,
+        43,
+        61,
+        83
+      ],
+      "after_lengths": [
+        62,
+        62,
+        61,
+        59
+      ]
+    },
+    {
+      "qid": "concession-festival-cups-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-text1.json",
+      "family": "concession-claim-scope",
+      "answer_index": 1,
+      "stable_definition_sha256": "d0e7bfd630b5c0526b8fd8df2d1e655cd7515970a43ea8f8116833ff1b2d1639",
+      "before_sha256": "5019ba76410c5e80357a19aa9aeaa96ceaee5152425f4fbbabb1343cff7752ac",
+      "after_sha256": "342f55e4b41de80b2e13a56f7c2e15182460cd2eb805a74f3c1df4c9b86164ce",
+      "before_lengths": [
+        44,
+        67,
+        39,
+        60
+      ],
+      "after_lengths": [
+        58,
+        59,
+        58,
+        59
+      ]
+    },
+    {
+      "qid": "afford-ellipsis-reusable-cups-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-text1.json",
+      "family": "negative-ellipsis-afford",
+      "answer_index": 2,
+      "stable_definition_sha256": "288c67b1aaa17650b3bfac7dd58710fb505740ef3c83e2159554ba592416d7ba",
+      "before_sha256": "35e22e6811dc49edac045d8d9578f846b35ea593f87744e4b70cb78d8cdff023",
+      "after_sha256": "1eeb920b4f14261d267449f3bd34cd68b2f3904a4a78ad4ef6a0408fb200ee1e",
+      "before_lengths": [
+        37,
+        38,
+        59,
+        38
+      ],
+      "after_lengths": [
+        64,
+        60,
+        64,
+        59
+      ]
+    },
+    {
+      "qid": "descent-medical-device-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-text1.json",
+      "family": "figurative-descent-relative",
+      "answer_index": 0,
+      "stable_definition_sha256": "f1db7ea9dcac8550f9eea41d74cf81e6c9c6850eab5cf98edd11cdb95b3e3c7d",
+      "before_sha256": "5df2ea7a772ceda15766f5853a8938de6962454e3b5d8f204def3adb06101567",
+      "after_sha256": "e1adf086414d763102c27fb7dc74603be4fc8d6565d2f0fde156ea58bcbcd1e3",
+      "before_lengths": [
+        53,
+        42,
+        31,
+        43
+      ],
+      "after_lengths": [
+        57,
+        56,
+        55,
+        54
+      ]
+    },
+    {
+      "qid": "accusation-research-report-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-15-text1.json",
+      "family": "accusation-context-vocab",
+      "answer_index": 3,
+      "stable_definition_sha256": "9ab1eed5609fccb5911e9605c2aa2c292a4d86408448b53c72f6e80382814e74",
+      "before_sha256": "17db007c56bf81dc5b68de4713cef484e3f85296af9ba7bdf249fa187df2b8ce",
+      "after_sha256": "12e6b248c98ad8b425c24a532a8198fd5cac6320b255b2b92d4df3a8d1583f38",
+      "before_lengths": [
+        31,
+        39,
+        31,
+        59
+      ],
+      "after_lengths": [
+        59,
+        59,
+        61,
+        62
+      ]
+    },
+    {
+      "qid": "text3-comparison-energy-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-17-text3.json",
+      "family": "text3-comparison-inference",
+      "answer_index": 2,
+      "stable_definition_sha256": "10eae7efa21e871809dee1f61c23f80e062097605c091578f0875fdedd834c4e",
+      "before_sha256": "dfd8e2c5fbfca2dcf76dc0745842c34a00e7ad876e2d5400bce11baa130496ea",
+      "after_sha256": "34404af6023a2b7d0c80e368ae126dcc30767b27224ddcfc16c6c7ca9044577d",
+      "before_lengths": [
+        62,
+        46,
+        82,
+        59
+      ],
+      "after_lengths": [
+        63,
+        62,
+        66,
+        67
+      ]
+    },
+    {
+      "qid": "text3-willfully-committee-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-17-text3.json",
+      "family": "text3-willfully",
+      "answer_index": 0,
+      "stable_definition_sha256": "27311a9d3e30f8119b61ca68dd7eee588c865d8e4c17cfd6d7d20817d5335768",
+      "before_sha256": "d7675c716750f434d854e290805fa2f374d62884db973af3af4fe3dcb3b7557e",
+      "after_sha256": "989ecf1aa83a5a4dbfd969e35b24f49417db50e9a17b334f01a3e55fe823bad3",
+      "before_lengths": [
+        110,
+        68,
+        67,
+        60
+      ],
+      "after_lengths": [
+        61,
+        63,
+        69,
+        63
+      ]
+    },
+    {
+      "qid": "text3-boxed-uniformly-asteroid-a",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-17-text3.json",
+      "family": "text3-boxed-vocab",
+      "answer_index": 1,
+      "stable_definition_sha256": "b039221df9b16dcbcb57f8438caa33495ad823ba823afbfe49fbd9f58957836e",
+      "before_sha256": "fb14470a87ac16cc22a9922bde0c1a1eb81ceb21e085c8d013c0f0f4a84a5948",
+      "after_sha256": "a2ac4a85a83b250ae38140218c38fe43df165cfec723df4fe287b28fc9bad859",
+      "before_lengths": [
+        60,
+        97,
+        54,
+        43
+      ],
+      "after_lengths": [
+        70,
+        70,
+        76,
+        71
+      ]
+    },
+    {
+      "qid": "text3-phrases-fad-rosy-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-17-text3.json",
+      "family": "text3-future-phrases",
+      "answer_index": 0,
+      "stable_definition_sha256": "290362fdb3154e2b162867a74f9309428c5b2281320be1a59f9cdf90fe4cfc29",
+      "before_sha256": "5656cc6709729d7817d232ff00fcc302793fbb4cd8dd88fc6d78e5a4d41d8d21",
+      "after_sha256": "9f2076cd21d8aa3e9cf1fb794c5d0b5af0f5633d8cea7e9cc97d03dcadd98dac",
+      "before_lengths": [
+        74,
+        59,
+        63,
+        58
+      ],
+      "after_lengths": [
+        61,
+        63,
+        61,
+        61
+      ]
+    },
+    {
+      "qid": "text4-federal-field-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-18-text4.json",
+      "family": "text4-federal-state-boundary",
+      "answer_index": 1,
+      "stable_definition_sha256": "8452e463b892f3519128dc81a1b58b399efc6af258b3562457271b4785965d2d",
+      "before_sha256": "9a0a3de7761431f235ea82755835c8e4f5220711d8e8a9b696489e896039a79a",
+      "after_sha256": "a1548551aa618cb72f9da3755f916db17396658635321423e79cd795edc5596a",
+      "before_lengths": [
+        71,
+        125,
+        68,
+        66
+      ],
+      "after_lengths": [
+        61,
+        62,
+        58,
+        63
+      ]
+    },
+    {
+      "qid": "text4-executive-overreach-b",
+      "pool": "daily_article",
+      "source": "data/questions/2026-10-18-text4.json",
+      "family": "text4-executive-overreach",
+      "answer_index": 1,
+      "stable_definition_sha256": "4bb6b37ad19b785c2bcd02bb803c889a14f6df026a0de96c423686b7388cf75d",
+      "before_sha256": "bc1519b1b15f5e6aeba14556231127697ac75afb853130f27db5d8a526558475",
+      "after_sha256": "caa867d4bcfd8382a8fa32db24ec48b20d1b73d5cd25d0fa966bd37ea49187a2",
+      "before_lengths": [
+        66,
+        93,
+        62,
+        56
+      ],
+      "after_lengths": [
+        60,
+        62,
+        66,
+        69
+      ]
+    },
+    {
+      "qid": "ref1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "reference",
+      "answer_index": 0,
+      "stable_definition_sha256": "aa1831688ba21c09c94b9a27605741c29ca9381a4418f6804c1033b180e59e32",
+      "before_sha256": "09912358644ce19dee5cdb7d311782c41e83e9bf4d061e5c5c85c6f80fbb63e9",
+      "after_sha256": "52a2a22ca0e327a4d9a37f470b22f49265e9f948bfb509e626f6001a1f29b74a",
+      "before_lengths": [
+        44,
+        39,
+        39,
+        30
+      ],
+      "after_lengths": [
+        35,
+        39,
+        39,
+        30
+      ]
+    },
+    {
+      "qid": "ref2",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "reference",
+      "answer_index": 0,
+      "stable_definition_sha256": "dbe84defd4209ba943b15b98df8ccb3faeebef97aa59bac14798a769bfec2093",
+      "before_sha256": "f2c3ee4eeb9baa606cd42cf2f2f76a462169eaa473cc0924d3d70b9c001e24b7",
+      "after_sha256": "6e07e41ba2fc9c61f20441104383eea40baa6410a9b4f5615833ab18b68ef925",
+      "before_lengths": [
+        40,
+        38,
+        36,
+        35
+      ],
+      "after_lengths": [
+        38,
+        38,
+        36,
+        35
+      ]
+    },
+    {
+      "qid": "num1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "数量对应",
+      "answer_index": 0,
+      "stable_definition_sha256": "d803b871a3a44cdf73b616994ff9755066dd9d6edd767f52f10b88667580dbd4",
+      "before_sha256": "cc1176f049dbface9b3e1cbb36a3aa452c375fe197334be15d8881223740b5ce",
+      "after_sha256": "e5a09225df84c636a5270dad10863bcbfe4322268b588704b5f8b3a09ed56281",
+      "before_lengths": [
+        43,
+        36,
+        32,
+        38
+      ],
+      "after_lengths": [
+        42,
+        42,
+        41,
+        41
+      ]
+    },
+    {
+      "qid": "summary1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "summary-location",
+      "answer_index": 1,
+      "stable_definition_sha256": "8cda406a5208711f114704649441fb57bb288ff7ac1d8c6c5818eef31ed92266",
+      "before_sha256": "2a78071a69691e8c59b4d55b039cd07b385858e4365e6deaf22d9244bf13fbe3",
+      "after_sha256": "2deac9c6ac69a0b47ec16540510c977bb6f4c61b64948272d498f54be072645d",
+      "before_lengths": [
+        11,
+        24,
+        7,
+        11
+      ],
+      "after_lengths": [
+        16,
+        15,
+        15,
+        14
+      ]
+    },
+    {
+      "qid": "summary2",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "summary-location",
+      "answer_index": 0,
+      "stable_definition_sha256": "430936329ee3c0a02e0573c8ca776bb3b3b707ce5c4296016bcf2e364d618bb7",
+      "before_sha256": "790d4c8957a22cbece3c7ae6b724037df53cb4651a2f0355963769e1d4a1e0ba",
+      "after_sha256": "9ef7bca2f6dfbd8297a5fb202f9342911c74c83ecd38a644a79c7ebb383a43be",
+      "before_lengths": [
+        13,
+        7,
+        6,
+        5
+      ],
+      "after_lengths": [
+        13,
+        15,
+        15,
+        14
+      ]
+    },
+    {
+      "qid": "lex2",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "reference",
+      "answer_index": 0,
+      "stable_definition_sha256": "15a446e968a90e19998405e64549b7c0e4d50b22e95778878cde3dcecdb28c72",
+      "before_sha256": "ca5ffc6ff8a16885bf0d9e95cea5e357afef6d8516a279ff7631ce54020f7ef9",
+      "after_sha256": "ae397847b7605b0bb1d208955369c950821f171517f15a7be51a3d2a9d471d1c",
+      "before_lengths": [
+        52,
+        35,
+        37,
+        42
+      ],
+      "after_lengths": [
+        40,
+        35,
+        37,
+        42
+      ]
+    },
+    {
+      "qid": "vocab1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "关键词词义",
+      "answer_index": 1,
+      "stable_definition_sha256": "ea43519d96e4bd542420e3c1551c6be4634f81c03901c85b56e6021884804ba9",
+      "before_sha256": "e07387ef73647faab773c0afb4ffbb8d01ede00e541b6f6b465793d744b9d1eb",
+      "after_sha256": "d3962ae57dfa7481c61d03c9ac8fccd2f197ddf089f475b3d5f0d243f37dda03",
+      "before_lengths": [
+        2,
+        6,
+        2,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_account1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "account",
+      "answer_index": 1,
+      "stable_definition_sha256": "49eccd02f9562de9d2fdc0962b613cbffd4544754e5cfb56578ebf27fe931674",
+      "before_sha256": "55d1bb56927212fe976ce430dd30120ebd34bfa794e3c933cd2850ca9c197f29",
+      "after_sha256": "9f1c1875f4cdc4fe009de4fd0fdfad1fbe5bfd4d74224257dd283e9344d90240",
+      "before_lengths": [
+        2,
+        5,
+        4,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_standard1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "standard",
+      "answer_index": 2,
+      "stable_definition_sha256": "0ab62b376022a54cf86e2fd815fc7ca0f812b54742785bde7793adf0861391f9",
+      "before_sha256": "927a28cf050b5b95429558f4255d78178214af4c039d1940cacdd4af58ee5ce2",
+      "after_sha256": "272c0a39791f0305ea679d8f43e8e7d05029d84efc7564aa27addd5c49bf959a",
+      "before_lengths": [
+        5,
+        4,
+        9,
+        4
+      ],
+      "after_lengths": [
+        5,
+        4,
+        5,
+        4
+      ]
+    },
+    {
+      "qid": "old_compromise1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "compromise",
+      "answer_index": 1,
+      "stable_definition_sha256": "3aec25855c911575e719746da139ed8806a1129addab251585d6eef3cfcf72d0",
+      "before_sha256": "e8ddc20e552861f27edac505f02f65add8dfff59bc4ce1587ac2c7823d88e9fe",
+      "after_sha256": "312313fe6ee67315df7fd4b5b14eb60918408ef59c7bece6a566ca7ef506263f",
+      "before_lengths": [
+        4,
+        5,
+        2,
+        2
+      ],
+      "after_lengths": [
+        4,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_oversight1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "oversight 熟词生义",
+      "answer_index": 2,
+      "stable_definition_sha256": "bb366d2b254be9b3f33f2ff2fdc2f80a3cd03e60366238f582955d1568225890",
+      "before_sha256": "b04c1c71183f1d4e7063888fa18d8aa8801f61ca4eb274cea5fe68b6c76ceb51",
+      "after_sha256": "d17fa52fc44683f2baa8daf43f9478363e0a520ae365868f2d90198bd27eb647",
+      "before_lengths": [
+        2,
+        2,
+        5,
+        3
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "qid": "old_blurred1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "blurred 熟词生义",
+      "answer_index": 1,
+      "stable_definition_sha256": "a017c84803e46f72b20e51045df6cffe195059c7c8cc35ea44dd28b7ac0b9078",
+      "before_sha256": "34e405643b7f18000f672bf10bf9ab6c23322ac9c787acda48145b911a174d42",
+      "after_sha256": "f476af0e94161329f7b73e128cd9e065fe9313747dffbde21343771fc2b027b5",
+      "before_lengths": [
+        2,
+        7,
+        2,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_cannothelp1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "cannot help doing",
+      "answer_index": 0,
+      "stable_definition_sha256": "0edd1b3231b1d819c5ba7508dd463c69ce3dad6941eaa097b0c1c3bc8a7fbae1",
+      "before_sha256": "c8f0e72056c59c472b516030041b0f1f98acb83e34a876e7b02cae6920d765f5",
+      "after_sha256": "95ad8f83e3169c307fa6de77718cc12fedc04a19b372d7911f2003ad4862f44e",
+      "before_lengths": [
+        92,
+        51,
+        39,
+        55
+      ],
+      "after_lengths": [
+        41,
+        41,
+        39,
+        45
+      ]
+    },
+    {
+      "qid": "old_prepwhich1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "relative",
+      "answer_index": 0,
+      "stable_definition_sha256": "b9e64e46d1c7d43f7b22ec4415422c68033cb190f4fc508b794b2cc2047f7b8e",
+      "before_sha256": "98ca734127627e7b7a47574e0db02abcc97db888dee32344aba1b4227999b5d0",
+      "after_sha256": "511b6e49d3a013fe3938128a4fad11b3f28f35975e294ee9ba484a924d70df99",
+      "before_lengths": [
+        109,
+        88,
+        87,
+        92
+      ],
+      "after_lengths": [
+        97,
+        97,
+        96,
+        100
+      ]
+    },
+    {
+      "qid": "old_counterpart1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "counterpart",
+      "answer_index": 1,
+      "stable_definition_sha256": "73bf5657547f7b548a3449a7ed5330c085fbff17c75aa5075eba04577ba0987b",
+      "before_sha256": "74ac12bcd7d82e385834f4fb0fd4fdf5ab1a2a1b3071f05b2251fe1d2793d9c7",
+      "after_sha256": "6503c7a211211fdd943934025489a0d8e45bdddf5c301a86128e392a3c0208a8",
+      "before_lengths": [
+        2,
+        10,
+        2,
+        4
+      ],
+      "after_lengths": [
+        2,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "qid": "old_institution1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "institution 熟词生义",
+      "answer_index": 2,
+      "stable_definition_sha256": "a1a3d388a36f5e2ef06f220cfbfb7c341022e4dbbc4218d8aa0be1105c3d772b",
+      "before_sha256": "b3cb7ec6da3a7e0c0aea0cc0d65a7a700c73bfacbedd3602a87c1852a73f7f77",
+      "after_sha256": "21edab4927bacc23ae48e970f668b7c36e571cefa40114c25bd8acac248b20e7",
+      "before_lengths": [
+        3,
+        4,
+        7,
+        2
+      ],
+      "after_lengths": [
+        3,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_measure1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "measure 熟词生义",
+      "answer_index": 1,
+      "stable_definition_sha256": "fbcc51553e5c8533a7a11127c4f8ab3d1bbbfc25f870bbc36c284157b81a0f98",
+      "before_sha256": "d27fb7f046d913c7c829a19685ace6d5343883dd1a080f494178c033e235a64d",
+      "after_sha256": "318ac6d8350291b8d7c308e2813a722bedae386adc73803b98c5b6c72725d595",
+      "before_lengths": [
+        2,
+        7,
+        2,
+        4
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_adoption1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "put up for adoption",
+      "answer_index": 2,
+      "stable_definition_sha256": "9f80993c59fa9982fef7a954fdfdd5d81866bc964cd2fd258eb6f25f1adfd323",
+      "before_sha256": "9696517246ddfc99f2e2ce096e671f850d6a4d128877f43d70fcb9b47adf91a2",
+      "after_sha256": "e903c7d065cc2fb5ea1eb0802d713bf6f092bd3122cdad87a558352f27ee1fc1",
+      "before_lengths": [
+        5,
+        5,
+        7,
+        5
+      ],
+      "after_lengths": [
+        5,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "qid": "old_lineage1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "lineage",
+      "answer_index": 1,
+      "stable_definition_sha256": "cba8bf3d17b6f5ae8ea3a024f64b8840bd46a9c7703b1b6a0552d0a1a533d09d",
+      "before_sha256": "f75d0f9545550e3ae6f89d4ea73660b495986e55582bca07e9bf3b5f3d62d982",
+      "after_sha256": "ec850eaacd4af10be56d14704ee17f855d96122b8d4977acb486bea4522dc6d6",
+      "before_lengths": [
+        4,
+        5,
+        4,
+        4
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_lump1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "lump together",
+      "answer_index": 1,
+      "stable_definition_sha256": "fc85a5bf3f1a1333f37b04f6550779bd0fbcb8674da06ddcdf69c76c67cc7014",
+      "before_sha256": "6490d3e251fb5e09cb7f88b52c93126e604c52d32a0d554cea018b9502e657c7",
+      "after_sha256": "ed3fc8d944726792eb5f0fdf49055d6e22e55f2423b167dbab8d57ce0540d940",
+      "before_lengths": [
+        4,
+        9,
+        4,
+        4
+      ],
+      "after_lengths": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "qid": "old_rely1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "rely on",
+      "answer_index": 1,
+      "stable_definition_sha256": "8a73425a3a2c74bf89579bbc39a68185c93300a65b56cbfcc339b7b20a900107",
+      "before_sha256": "4bca48dd7f2192c6b7125e4a1abf5a3157c6591d65ac581db241a1809d6da58b",
+      "after_sha256": "9606e7c1b16b79a450bbd16b4205cceb2974187d66fd134c30505d3bfb421ca5",
+      "before_lengths": [
+        2,
+        5,
+        2,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_specialize1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "specialize in",
+      "answer_index": 1,
+      "stable_definition_sha256": "e83009d323dd76c41bea9df478e8f06a2429162725db07dc4c0c1e522b586fdf",
+      "before_sha256": "12ed1c3e4ea8d21645276da8b070f235c0e8c7d6a93808f214a034f546e23335",
+      "after_sha256": "9d8ece7e5b20fe9bf347138a370b3a9bd20bd2c68e19df0e9eceab9e572e3256",
+      "before_lengths": [
+        4,
+        7,
+        2,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_keepend1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "end-up",
+      "answer_index": 1,
+      "stable_definition_sha256": "d93d52b59b8d36a9dd2c4da6180711177ec5dfa1f9751032bb159d97d286d7fd",
+      "before_sha256": "ee64851b6abe45377d641e92ea630dfb038c149dd265cb5d72cc0054652db331",
+      "after_sha256": "cf9d81e3c0993d980c12d5f2642668865b1c6e3796e78f008a1fb10bca77d099",
+      "before_lengths": [
+        7,
+        13,
+        4,
+        5
+      ],
+      "after_lengths": [
+        7,
+        6,
+        4,
+        5
+      ]
+    },
+    {
+      "qid": "old_keeping1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "in keeping with",
+      "answer_index": 0,
+      "stable_definition_sha256": "3f711f95e7e9ae5b314fe0f17f926137ec017cf3005621b35a48a9e639118f13",
+      "before_sha256": "7d1349837133e7d83d736b09454e701ed9385e9375ce5a8faf7770b257e5f1e6",
+      "after_sha256": "e4d0b07cc626adc02a0e5be55e66a5ad8128a2eb2a6f82c81e1e46280651aed9",
+      "before_lengths": [
+        8,
+        4,
+        4,
+        4
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_mock1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "mock",
+      "answer_index": 1,
+      "stable_definition_sha256": "383d8269cb93de612134280fe0ad475abc875f6418b394c5ebb408e1af10f90d",
+      "before_sha256": "43de7b0dad6c5891935a9a7848b20b07f3326addc21d1d8ff53886ac04fdb8c4",
+      "after_sha256": "d5f9e21503e70210f305c38644a84d3442bba94853396837024977d93e21ddfc",
+      "before_lengths": [
+        4,
+        5,
+        2,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_earnest1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "earnestness",
+      "answer_index": 1,
+      "stable_definition_sha256": "2f798c403c03ae57818becfad362f3700db4e2cbde6b84ae46036992c721af7e",
+      "before_sha256": "2392f83b22605addd3ae02fabd2131eb21c74eb121ad42db643ad867bc1cc80b",
+      "after_sha256": "f1518bbdd7f0e05d135070110d3021d89f97a58f6e2e406f3bcc99bf714eb234",
+      "before_lengths": [
+        2,
+        5,
+        3,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_tuition1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "tuition 熟词生义",
+      "answer_index": 1,
+      "stable_definition_sha256": "41ec61b33926a3e0701b990696bc3b2d265cc9223da4a8363154ff9d0f5c81b4",
+      "before_sha256": "a14875f82944309df25129972515b95ac0f37cda082f307860f9eee7190d2575",
+      "after_sha256": "bdd41c5240c2ce762b29b84b1e6fbdf10cbfd82c70ad0c5518eaccb99ad53d1b",
+      "before_lengths": [
+        2,
+        5,
+        3,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "qid": "old_disposition1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "disposition",
+      "answer_index": 1,
+      "stable_definition_sha256": "9469a1f6e36c9c18feb1d3ff9d4127945a33e8ea73451a18bc59ecf05b0be735",
+      "before_sha256": "bf4905496dcba3767f40f6f7fda7c170fce0f80705b60c716a1bc9c3fe7cb0e1",
+      "after_sha256": "09e7f1ef76bcbc54470cb5afa7de49b42be75fd387e5b450703d040c6233e0a8",
+      "before_lengths": [
+        4,
+        5,
+        2,
+        2
+      ],
+      "after_lengths": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "qid": "old_littleuse1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "have-little-use-for",
+      "answer_index": 0,
+      "stable_definition_sha256": "64495d8dc59be5c5c50d2d2af9eac182b5818187f6ffb3a4c6cf4ab89f3fac15",
+      "before_sha256": "82f85766b6ab12ff1429fbbbf1e1ff51fa43d51069b276ddbf168694641aacb9",
+      "after_sha256": "d74510afa510f7746eebb41526f803e9c63a3e6534d03975ee8d06a1b74c1807",
+      "before_lengths": [
+        12,
+        4,
+        4,
+        4
+      ],
+      "after_lengths": [
+        5,
+        5,
+        7,
+        7
+      ]
+    },
+    {
+      "qid": "old_elaborate1",
+      "pool": "home_legacy",
+      "source": "index.html",
+      "family": "elaborate layout",
+      "answer_index": 1,
+      "stable_definition_sha256": "66142baa4424d5bbbbc478ed0a33ccd9120bc094c1c309a1246b0bba9523353a",
+      "before_sha256": "e803ff86a5e1a87fd2352d9c336c3568ee9e6a031dc40ed7611a5559d92d1c0a",
+      "after_sha256": "a891bf1bb552e3b2d599173028895f7038ccc24319d0c83cdfab7b3fd70396b7",
+      "before_lengths": [
+        4,
+        8,
+        4,
+        4
+      ],
+      "after_lengths": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "audit_is_not_scoring_evidence": true
+}

@@ -177,10 +177,10 @@
     "skill": "责任/问责搭配",
     "q": "The review board wants senior managers to be accountable to the same safety rules as everyone else. Here, accountable to most nearly means:",
     "o": [
-      "能够接近这些规则",
-      "对这些规则承担责任并接受问责",
-      "与这些规则相处友好",
-      "同意这些规则写得很好"
+      "容易接近",
+      "接受问责",
+      "相处友好",
+      "表示赞同"
     ],
     "a": 1,
     "exp": {
@@ -188,7 +188,7 @@
       "structure": "The review board是主语，wants是谓语，senior managers是宾语，to be accountable to...是不定式宾补。",
       "other": "review board 审查委员会；senior manager 高级管理者；safety rule 安全规则；everyone else 其他所有人。",
       "meaning": "be accountable to通常表示对某人/机构负责、接受其问责；在规则语境中可理解为必须对遵守规则负责。不要和accessible to（可接近/可获得）混淆。",
-      "rest": "“能够接近”混入accessible的含义；“相处友好”混入amiable的含义；“同意规则写得好”把接受问责的责任关系偷换成个人态度，不能解释accountable。"
+      "rest": "接近和友好分别混入accessible、amiable的含义；表示赞同只是一种态度，不等于承担责任、接受问责。"
     }
   },
   {
@@ -225,10 +225,10 @@
     "skill": "关系搭配 + 反直觉因果",
     "q": "The audit office is structurally independent from the ministry because its work is closely tied to decisions the ministry would otherwise judge itself. What is the logic?",
     "o": [
-      "工作联系越紧密，两个机构在制度上越不需要独立。",
-      "由于审计事项与被审部门的决定紧密相关，制度上保持独立可减少自己审自己的问题。",
-      "closely tied说明审计办公室必须归部长直接管理。",
-      "because在这里表示转折，所以前后没有因果。"
+      "工作联系紧密，所以两个机构不再需要制度独立。",
+      "审计涉及该部决定，制度独立可避免自己审自己。",
+      "审计内容相关，所以审计办公室必须直属部长。",
+      "because表达转折，前后两个分句没有因果关系。"
     ],
     "a": 1,
     "exp": {
@@ -236,7 +236,7 @@
       "structure": "The audit office是主语，is structurally independent是系表；because从句中its work是主语，is closely tied to是谓语结构，decisions是介词宾语。",
       "other": "audit 审计；structurally 组织结构上；ministry 部门/部；otherwise 否则。",
       "meaning": "closely tied to=与……紧密相关；independent from=独立于。文章常出现“现实联系紧密→制度上刻意分离”的治理逻辑，不能因为表面反向就否定because。",
-      "rest": "“联系紧密就无需独立”反转了原文防止自己审自己的治理理由；“必须归部长管理”把工作事项相关偷换成组织隶属；“because表示转折”误认连接词，原文用because解释制度独立的原因。"
+      "rest": "联系紧密就无需独立反转了治理理由；工作内容相关不等于必须直属部长；because引出原因，不是转折。制度独立针对的是同一部门可能自己评判自己的决定。"
     }
   }
 ]

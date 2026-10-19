@@ -106,7 +106,7 @@
     "q": "One paragraph says recommendation algorithms exert enormous influence on what users click. The last paragraph says attempts by regulators to steer those algorithms through a simple disclosure rule are 'far less certain' to work. If a question asks about the effect of the intervention in the last paragraph, which description fits best?",
     "o": [
       "profound",
-      "questionable",
+      "uncertain",
       "desirable",
       "harmless"
     ],
@@ -116,7 +116,7 @@
       "structure": "第一句评价algorithm influence；第二句把对象切到attempts by regulators，并用far less certain限定能否奏效。",
       "other": "intervention 干预；regulator 监管者；disclosure 披露；steer 引导。",
       "meaning": "“影响本身很强”不等于“人为操控这种影响的策略有效”。题干有in the last paragraph时，必须服从局部段落的评价对象。",
-      "rest": "profound可概括前段influence，却不对应末段对干预成效的怀疑；desirable/harmless都没有末段证据。"
+      "rest": "profound对应前段影响巨大，不能移作末段干预效果；desirable评价是否值得期待，harmless评价有无伤害，均不是far less certain表达的成效存疑。"
     }
   },
   {
@@ -153,10 +153,10 @@
     "skill": "画框词组迁移",
     "q": "The report offers a host of examples of a 'social cure' in which community groups use peer support to improve health habits. Which paraphrase is accurate?",
     "o": [
-      "The report offers a single medical treatment prescribed by doctors.",
-      "The report gives many examples of a social intervention using group influence.",
-      "The report hosts a meeting where examples are displayed.",
-      "The report argues that peer support is a disease."
+      "It gives a doctor's treatment plan for patients with one illness.",
+      "It gives many cases of peer groups influencing healthier habits.",
+      "It describes a meeting held to display different treatments.",
+      "It identifies peer support as a source of illness in the group."
     ],
     "a": 1,
     "exp": {
@@ -164,7 +164,7 @@
       "structure": "The report是主语，offers是谓语，a host of examples是宾语；of a social cure说明这些例子属于哪类做法；in which引出其机制。",
       "other": "peer support 同伴支持；community group 社区团体；health habit 健康习惯；intervention 干预。",
       "meaning": "a host of = 大量、许多；social cure在这类语境中是借助社会/群体机制的干预办法，不是字面医学药物。",
-      "rest": "“single medical treatment”把social cure字面化为医疗处方；“hosts a meeting”把host误解成“主持”；把peer support说成disease则把cure和disease关系颠倒。"
+      "rest": "social cure不是一份医生处方；a host of意为大量，不是主持展示会；peer support用于改善健康习惯，不是被说成疾病来源。"
     }
   },
   {
@@ -225,10 +225,10 @@
     "skill": "画框评价词",
     "q": "The brochure pleads with readers to donate, but much of it is filled with irrelevant detail. Its most glaring flaw is that it never explains where the money goes. Which paraphrase is accurate?",
     "o": [
-      "宣传册恳求读者捐款，但无关细节很多，最明显的缺陷是没有说明资金去向。",
-      "宣传册命令读者捐款，而最大的优点是细节丰富。",
-      "宣传册只是平静陈述事实，没有表达请求。",
-      "irrelevant detail指最关键、最相关的证据。"
+      "宣传册恳求捐款却细节跑题，最明显的缺陷是没说资金去向。",
+      "宣传册命令读者捐款，丰富的无关细节构成它最大的优点。",
+      "宣传册平静陈述捐款事实，全文没有向读者表达请求。",
+      "宣传册最关键的证据就是细节，irrelevant表示与主题密切相关。"
     ],
     "a": 0,
     "exp": {
@@ -236,7 +236,7 @@
       "structure": "The brochure是主语，pleads是谓语；but后much of it is filled...；Its most glaring flaw is that...是系表结构，that从句说明缺陷内容。",
       "other": "brochure 宣传册；donate 捐款；where the money goes 资金去向；detail 细节。",
       "meaning": "plead=恳求；irrelevant=无关的；glaring flaw=非常明显的缺陷。三者都是评价/语气词，不能只按最熟悉的字面义处理。",
-      "rest": "把flaw说成优点与原文相反；否认pleads的请求语气不对；把irrelevant解释成“最相关”也正好反向。"
+      "rest": "pleads是恳求而非命令，也不是平静地不作请求；flaw是缺陷而非优点；irrelevant指无关，不能把它解释为关键且密切相关。"
     }
   }
 ]

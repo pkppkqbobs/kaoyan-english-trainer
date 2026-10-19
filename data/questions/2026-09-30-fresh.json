@@ -76,10 +76,10 @@
     "skill": "总结词定位",
     "q": "A paragraph begins: “Overall, the first phase cut waiting times but raised operating costs.” The article then spends two more paragraphs discussing why costs rose. What does Overall most likely do here?",
     "o": [
-      "It proves the article has reached its final sentence.",
-      "It summarizes the first phase before the article moves to further analysis.",
-      "It introduces a completely unrelated example.",
-      "It means the following claim is uncertain."
+      "It announces the final conclusion of the entire article.",
+      "It sums up the first phase before further cost analysis.",
+      "It introduces an example unrelated to the first phase.",
+      "It signals doubt about the first phase's reported results."
     ],
     "a": 1,
     "budget": 45,
@@ -88,7 +88,7 @@
       "structure": "引号内主干：the first phase（主语）+ cut / raised（并列谓语）+ waiting times / operating costs（宾语）。Overall修饰整句判断，表示概括性评价；后文仍可继续展开。",
       "other": "phase 阶段；waiting time 等待时间；operating cost 运营成本；further analysis 进一步分析。",
       "meaning": "Overall是句子/段落层面的总结副词，表示“总体而言”；它不等于“全文到此结束”。",
-      "rest": "总结词可以出现在文章中段，不能凭Overall就判断是最后一句；unrelated example是引例功能，与概括相反；Overall不表达不确定性，uncertain更接近possibly/apparently等语气词。"
+      "rest": "后文还要分析成本，不能判为全文终结；这句话概括第一阶段而非引入无关例子；Overall本身不表示对结果存疑。"
     }
   },
   {
@@ -122,10 +122,10 @@
     "skill": "conceivably",
     "q": "If the wind weakens before noon, the ferry could conceivably resume service this afternoon, but the operator has made no promise. Conceivably most nearly means:",
     "o": [
-      "必然地",
-      "有这种可能，但不能确定",
-      "故意地",
-      "表面上地"
+      "必定",
+      "或许",
+      "故意",
+      "表面"
     ],
     "a": 1,
     "budget": 35,
@@ -134,7 +134,7 @@
       "structure": "if从句给出条件：the wind weakens before noon。主句：the ferry + could resume + service；conceivably修饰could resume，降低确定性。but后面的no promise进一步说明并不确定。",
       "other": "weaken 减弱；ferry 渡轮；resume service 恢复运营；operator 运营方。",
       "meaning": "conceivably = 可以设想地、有可能地，强调可能存在但远未确定。",
-      "rest": "必然地接近certainly/inevitably，语气过强；故意地是deliberately/intentionally；表面上地是apparently/superficially，均不符合could...but no promise的弱可能语境。"
+      "rest": "必定对应确定性，强于could且与未作承诺冲突；故意描述意图；表面描述外观，都不是这里的可能性。"
     }
   },
   {
@@ -214,10 +214,10 @@
     "skill": "have little use for",
     "q": "Although she runs a large laboratory, Dr. Lin has little use for formal titles and asks everyone to call her by her first name. Here, has little use for means:",
     "o": [
-      "几乎没有机会使用",
-      "不看重、对……没什么兴趣",
-      "正在寻找替代品",
-      "必须谨慎使用"
+      "难有机会用",
+      "并不看重",
+      "寻求替代品",
+      "务必慎用"
     ],
     "a": 1,
     "budget": 35,
@@ -226,7 +226,7 @@
       "structure": "Although引导让步从句：she + runs + a large laboratory。主句：Dr. Lin（主语）+ has little use for（谓语表达）+ formal titles（宾语）；and连接第二个谓语asks，asks everyone to call... 是ask sb to do结构。",
       "other": "laboratory 实验室；formal title 正式头衔；first name 名；ask sb to do 要求某人做某事。",
       "meaning": "have little use for sth常表示不喜欢、不看重、认为没什么价值，不是字面上的“很少使用”。",
-      "rest": "几乎没有机会使用强调客观使用频率，但后文主动要求直呼名字说明是态度；寻找替代品需search for alternatives；谨慎使用是use carefully，均不是该习语义。"
+      "rest": "难有机会使用是客观机会，后文直呼名字体现的是不看重头衔的态度；寻找替代品和必须慎用均不是该习语在这里的意思。"
     }
   }
 ]

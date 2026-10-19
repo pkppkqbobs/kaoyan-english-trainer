@@ -23,6 +23,13 @@
 - 文章复盘做完后可自动或手动提交 `[TRAINING_RESULT]` Issue。网页核查作者、单一完整 v3 报告和首次作答内容；网络超时后再次提交先查重，不能把文本片段或其他作者的 Issue 当成已接收。只有 GitHub 接收且 Actions 成功处理，成绩才进入后续间隔复习。
 - 首次主测完成前请标记犹豫。已提交后再新增本地标记，页面会明确提示尚未同步，不会改写原 Issue或用重复 roundId 制造新成绩；即时重做统计的改变不影响首次成绩查重。
 
+## 选项长度维护
+
+- `data/option-length-revisions.json` 记录候选题的逐题语义复核与修改指纹；`python3 scripts/option_length_audit.py` 可重算 `data/option-length-audit.json`。两者不参与计分、曝光统计或选题权重。
+- 长度报告把并列最长/最短的命中均摊，分别检查“总选最长”和“总选最短”；这些是假设猜答策略，不是用户正确率。长度仅用于发现内容风险，不能代替唯一答案与干扰项的语义复核。
+- 只改可编辑候选库的选项与配套解析，保留 qid、family、答案位置、语境分组、学习日期和用时阈值。选项措辞修订不算新语境或新曝光。已发布 daily/article/passage JSON 和 HTML 沿用原版，后端按其快照核验历史提交。
+- 首页旧题也保留原 storage key、题号、正确答案位置及成绩；独立日期固定的小测保持历史版本。旧轮次仍可能带有当时的长度提示，不能把候选库改进当成旧成绩的新掌握证据。
+
 ## 真实成绩与间隔复习
 
 独立 Part B 排序模块见 [PARTB_REVIEW.md](PARTB_REVIEW.md)。`partb-review.html` 使用 `data/partb-questions/*.json` 与独立脚本，不把完整排序塞进四选一题库。v4排序报告由脚本按不可变答案重算接缝，再按现有两个paragraph-order family汇总回流；旧v3报告兼容。新生成的普通daily最多一道小型Part B维护题，当天已锁定题单不变。

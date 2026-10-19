@@ -78,7 +78,7 @@
     "q": "Marco said he was looking for an editor-in-chief post because he wanted final responsibility for a magazine's content. Which explanation stays closest to the text?",
     "o": [
       "He mainly wanted better financial status.",
-      "He wanted a different level of professional responsibility.",
+      "He wanted greater editorial responsibility.",
       "He had been dismissed from his current job.",
       "He was trying to avoid all management work."
     ],
@@ -146,10 +146,10 @@
     "skill": "形近词辨析",
     "q": "Even after the company simplified its procedures, a few managers continued to cling to the old rules. Here, cling to means:",
     "o": [
-      "向上攀爬",
-      "紧抓着不愿放弃",
-      "公开批评",
-      "快速修改"
+      "攀爬",
+      "固守",
+      "批评",
+      "修改"
     ],
     "a": 1,
     "exp": {
@@ -157,7 +157,7 @@
       "structure": "Even after...是让步背景。主干：a few managers（主语）+ continued（谓语）+ to cling to the old rules（补足内容）。cling to的宾语是the old rules。",
       "other": "simplify 简化；procedure 流程；continue to do 继续做；old rules 旧规定。",
       "meaning": "cling to = 紧抓、依恋、不愿放弃。注意cling不是climb。",
-      "rest": "climb才是“攀爬”；公开批评是criticize openly；快速修改是revise quickly。这里语境是明知规则已简化仍不愿放弃旧做法。"
+      "rest": "攀爬对应climb，不是cling to规则的比喻；批评和修改是对规则采取改变的态度，语境却说仍不愿放弃旧规则。"
     }
   },
   {
@@ -221,10 +221,10 @@
     "skill": "区分规范与事实，结合完整证据",
     "q": "The article states: “The old rule of thumb was that athletes should avoid strength training during the season.” What can you safely conclude?",
     "o": [
-      "No athlete ever lifted weights during the season.",
-      "There was once a general recommendation against in-season strength training.",
-      "Strength training was banned by every sports federation.",
-      "Athletes who trained during the season were always injured."
+      "Athletes avoided weights throughout every competitive season.",
+      "Athletes were once advised against in-season strength training.",
+      "Sports federations formally banned strength training in season.",
+      "In-season strength training invariably resulted in injuries."
     ],
     "a": 1,
     "exp": {
@@ -232,7 +232,7 @@
       "structure": "主干：The old rule of thumb + was + that从句。that athletes should avoid...说明规则/建议内容。should表达规范性判断，而不是历史行为统计。",
       "other": "rule of thumb 经验法则；athlete 运动员；strength training 力量训练；in-season 赛季期间的。",
       "meaning": "本题只给出一条观念或建议，不能据此推出所有人都遵守；若完整文章另有实际行为证据，仍可以作相应行为推断。2011年第29题的A不能被这条孤立句原则排除。",
-      "rest": "No athlete ever把建议扩大成所有运动员的实际行为；every sports federation加入全部协会的禁令；always injured把风险判断改成必然受伤。一般建议的改写保持了原文范围，没有擅自补出教练这一主体。"
+      "rest": "一般建议不等于所有运动员实际遵从，也不等于体育协会正式禁令；原句没有提供必然受伤的因果结论。"
     },
     "source_diagnosis": {
       "exam": "2011-english1",
@@ -342,10 +342,10 @@
     "skill": "范围与绝对化",
     "q": "原文只说：“An increasing number of neighborhood cafés are adding late-night hours.” 哪个改写明显过强？",
     "o": [
-      "More neighborhood cafés are staying open late.",
-      "Some cafés are extending their hours.",
-      "Late-night opening is becoming more common among neighborhood cafés.",
-      "Keeping late-night hours is the only way neighborhood cafés can survive."
+      "More neighborhood cafés are now staying open into the night.",
+      "A growing group of local cafés is extending its opening hours.",
+      "Late-night hours are becoming more common in neighborhood cafés.",
+      "Late-night hours are essential for any neighborhood café's survival."
     ],
     "a": 3,
     "exp": {
@@ -353,7 +353,7 @@
       "structure": "原句核心：An increasing number of...（主语）+ are adding（谓语）+ late-night hours（宾语）。它描述趋势，不提供生存因果，更没有唯一性。",
       "other": "an increasing number of 越来越多；extend hours 延长营业时间；common 常见的；survive 生存。",
       "meaning": "only / all / always / must等词会把“趋势/部分”升级成“唯一/全部/必然”。没有强证据时通常属于过度推断。",
-      "rest": "More cafés、Some cafés和becoming more common都保留趋势或部分范围；Keeping late-night hours is the only way...不仅加入生存因果，还加入唯一性，超出了原文。"
+      "rest": "更多咖啡馆延时营业、群体扩大和深夜营业更常见均保留趋势；声称每家咖啡馆都必须深夜营业才能生存，加入了原文没有的必要条件与全称范围。"
     }
   },
   {

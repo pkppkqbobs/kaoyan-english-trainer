@@ -8,10 +8,10 @@
     "budget": 50,
     "q": "A workplace culture repeatedly celebrates employees who stay late, and workers who leave on time are often reminded that “real commitment means sacrifice.” What is most safely suggested?",
     "o": [
-      "Workers who leave on time are formally punished every day.",
-      "The culture may make some workers question whether they are committed enough.",
-      "Employees who stay late are always more productive.",
-      "Managers ignore workers who leave on time."
+      "Timely leavers face formal penalties rather than mere criticism.",
+      "Some timely leavers may start to question their own commitment.",
+      "Longer working hours show that employees produce better work.",
+      "Those who leave on time receive no comment from colleagues."
     ],
     "a": 1,
     "exp": {
@@ -19,7 +19,7 @@
       "structure": "主句1：A workplace culture + celebrates + employees。who stay late修饰employees。主句2：workers who leave on time + are reminded + that从句。that从句给出被灌输的信息。题目要从这种持续信息推断心理影响，而不是擅自添加处罚事实。",
       "other": "workplace culture 职场文化；commitment 投入/忠诚；sacrifice 牺牲；question whether 怀疑是否。",
       "meaning": "持续传递带否定意味的价值标准可以构成广义批评，不必出现直接人身侮辱。本题的具体线索支持自我评价可能受到影响，但不支持正式惩罚或跨群体满意度比较。",
-      "rest": "formally punished every day加入原文没有的正式处罚；always more productive把价值宣传偷换成生产率事实；ignore与“are often reminded”相反。"
+      "rest": "价值评价不等于正式处分；加班受表扬不能证明工作产出更好；经常受到提醒与无人评论相反。可支持的是这种环境可能使部分人怀疑自己的投入程度。"
     },
     "source_exam": "2011-english1",
     "source_question": 38
@@ -33,10 +33,10 @@
     "budget": 50,
     "q": "At a school, the wall of honour lists only perfect test scores. A pupil who has improved greatly still asks, “Does my progress count if I never appear on that wall?” Which inference is best supported?",
     "o": [
-      "The pupil has been personally insulted by every teacher.",
-      "The display may lead the pupil to doubt the value of improvement without perfection.",
-      "The school has failed to display any test scores.",
-      "Every pupil with a perfect score has made greater progress."
+      "Teachers have individually criticised the pupil's test results.",
+      "The display may make the pupil undervalue personal progress.",
+      "The wall celebrates progress rather than perfect final marks.",
+      "Perfect scorers have improved more than the pupil has."
     ],
     "a": 1,
     "exp": {
@@ -44,7 +44,7 @@
       "structure": "第一句：the wall of honour + lists + only perfect test scores。第二句：A pupil + asks + 引语；who has improved greatly修饰pupil。引语里if从句给出没有上榜这一条件。学生的问题体现了对进步价值的怀疑。",
       "other": "wall of honour 荣誉墙；perfect score 满分；progress 进步；count 有价值/算数。",
       "meaning": "持续传递带否定意味的价值标准可以构成广义批评，不必出现直接人身侮辱。本题的具体线索支持自我评价可能受到影响，但不支持正式惩罚或跨群体满意度比较。",
-      "rest": "personally insulted无直接侮辱证据，every teacher还扩大范围；failed to display any scores与列出满分矛盾；greater progress把最终成绩偷换成进步幅度。"
+      "rest": "没有教师逐一批评的证据；墙上列的是满分而非进步幅度；满分也不能证明进步更多。学生的疑问直接支持进步价值可能被这种评价展示削弱。"
     },
     "source_exam": "2011-english1",
     "source_question": 38
@@ -83,10 +83,10 @@
     "budget": 50,
     "q": "The gardeners shaded the seedlings during the hottest hours. As a result, fewer seedlings dried out. Which statement keeps the cause and the affected object in the right roles?",
     "o": [
-      "The healthier seedlings caused the gardeners to provide shade.",
-      "Shade provided by the gardeners reduced the seedlings' exposure to heat.",
-      "The seedlings protected the gardeners from the heat.",
-      "The heat was reduced because the seedlings dried out."
+      "Healthier seedlings prompted the gardeners to provide shade.",
+      "The gardeners' shade reduced heat exposure for the seedlings.",
+      "The seedlings sheltered the gardeners from the hottest sun.",
+      "The drying seedlings caused a fall in the surrounding heat."
     ],
     "a": 1,
     "exp": {
@@ -94,7 +94,7 @@
       "structure": "第一句：The gardeners（施事/主语）+ shaded（谓语）+ the seedlings（受事/宾语）。第二句：fewer seedlings（主语）+ dried out（谓语）。As a result明确把遮阴和干枯减少连接为原因与结果。",
       "other": "gardener 园丁；shade 给……遮阴；seedling 幼苗；dry out 干枯；exposure 暴露。",
       "meaning": "先标明谁采取动作、谁受影响，再核对因果方向。gardener → shade → seedlings dry out less，不能交换施事与受事。",
-      "rest": "healthier seedlings caused...把结果当成原先行动的原因；seedlings protected gardeners交换了保护者与被保护者；heat was reduced because...反转因果，还把减少高温暴露偷换成降低环境温度。"
+      "rest": "把幼苗更健康当成遮阳的先前原因是因果倒置；幼苗保护园丁交换了施事与受益者；干枯导致环境降温既反转因果，又偷换了暴露量与环境温度。"
     },
     "source_exam": "2011-english1",
     "source_question": 40
@@ -111,7 +111,7 @@
     "q": "The town newsletter repeatedly portrays residents who do not volunteer as “taking from the town without giving back.” Non-volunteers hear this judgment week after week. Which conclusion is best supported?",
     "o": [
       "Every resident wants the newsletter to close.",
-      "Non-volunteers are repeatedly exposed to disapproving social judgments.",
+      "Non-volunteers face disapproving social judgments.",
       "The newsletter never mentions non-volunteers.",
       "Non-volunteers are generally less happy than volunteers."
     ],

@@ -177,7 +177,7 @@
     "skill": "没有反驳不等于完全赞同",
     "q": "A columnist quotes a consultant who claims that closing the library on Sundays will save substantial money. The columnist adds that no cost figures have been released to support this prediction. Which description of the columnist's position is best?",
     "o": [
-      "The columnist reports the claim but questions whether evidence supports it.",
+      "The columnist finds the savings claim insufficiently supported.",
       "The columnist has independently verified large savings.",
       "The columnist proves Sunday closure cannot save any money.",
       "The columnist discusses only the consultant's personal character."
@@ -273,10 +273,10 @@
     "skill": "公正性与证据充分性",
     "q": "The panel made a just decision, but the suspicion that its members had accepted bribes was not justified by the available evidence. Which distinction is correct?",
     "o": [
-      "just means recent; justified means only",
-      "The decision was fair, while the bribery suspicion lacked sufficient support.",
-      "The panel proved bribery, but acted unfairly.",
-      "Both just and justified mean the panel was proud of itself."
+      "The decision was recent; the evidence only referred to bribery.",
+      "The decision was fair; evidence did not support the suspicion.",
+      "The decision was unfair; evidence confirmed the bribery claim.",
+      "The decision expressed pride; the suspicion praised the panel."
     ],
     "a": 1,
     "exp": {
@@ -284,7 +284,7 @@
       "structure": "The panel + made + a just decision；but后the suspicion是主语，was not justified by...表示该怀疑缺乏证据支持；that从句解释怀疑的内容。",
       "other": "panel 委员会；suspicion 怀疑；bribe 贿赂；available evidence 现有证据。",
       "meaning": "just作为形容词可表示公正；justify动词表示证明合理/有正当理由；justified为有依据、可辩护的。它们语义相连但不能在句中任意互换。",
-      "rest": "recent与only误套just副词义；‘已证明受贿’与not justified相反；proud不是这两个词在此处的意义。"
+      "rest": "recent和only误套just的其他词义；不公正且受贿已证实把两处意思都反转；pride和praise均不是这里just或justified的含义。"
     }
   }
 ]

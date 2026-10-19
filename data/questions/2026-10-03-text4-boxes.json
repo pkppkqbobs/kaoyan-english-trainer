@@ -8,10 +8,10 @@
     "skill": "provoke 词族语境义",
     "q": "The documentary was deliberately provocative: it was designed to provoke viewers to question assumptions they had long accepted. Which explanation is most accurate?",
     "o": [
-      "provocative means sexually attractive here",
-      "provocative means thought-provoking or controversial, and provoke viewers to question means prompt them to question",
-      "provoke always means make someone angry",
-      "provocative means completely objective"
+      "It attracts viewers sexually rather than challenging their ideas.",
+      "It challenges accepted ideas and prompts viewers to question them.",
+      "It angers viewers but asks them to preserve their existing beliefs.",
+      "It records events neutrally and avoids inviting reconsideration."
     ],
     "a": 1,
     "exp": {
@@ -19,7 +19,7 @@
       "structure": "第一分句：The documentary（主语）+ was（系动词）+ deliberately provocative（表语）。冒号后：it（主语）+ was designed（被动谓语）+ to provoke viewers to question...（目的）。provoke viewers to question是provoke sb to do结构；they had long accepted修饰assumptions。",
       "other": "documentary 纪录片；deliberately 有意地；assumption 假设/想当然的看法；accept 接受。",
       "meaning": "provocative在文章、观点、作品语境中常表示会引发争议或思考；provoke sb to do 可表示促使、激起某人去做某事，不一定是“激怒”。",
-      "rest": "sexually attractive是某些人物/服装语境中的另一义，不能解释question assumptions；always make someone angry把一种义项扩大成唯一义项；completely objective讨论客观程度，原文没有提供这种判断，provocative本身也不等于不客观。"
+      "rest": "这里明确指向质疑既有假设，不是性吸引；生气并维护原有信念与question assumptions相反；provocative不是中性记录或回避重新思考。"
     }
   },
   {
@@ -31,10 +31,10 @@
     "skill": "回顾性幸福",
     "q": "A difficult expedition may be exhausting day by day yet feel deeply rewarding years later. In this sense, happiness is being treated as a “past-tense condition.” What does that mean?",
     "o": [
-      "happiness can only exist in childhood",
-      "happiness is judged retrospectively rather than only by moment-to-moment pleasure",
-      "people should ignore all present emotions",
-      "past events are always happier than present ones"
+      "Happiness depends on returning to the pleasures of childhood.",
+      "Happiness can be assessed later, beyond immediate pleasure.",
+      "Happiness requires people to disregard their present emotions.",
+      "Happiness in the past outweighs happiness in the present."
     ],
     "a": 1,
     "exp": {
@@ -42,7 +42,7 @@
       "structure": "第一句：A difficult expedition（主语）+ may be exhausting... yet feel deeply rewarding...（并列谓语部分），yet连接当时疲惫与事后满足的对比。第二句happiness + is being treated（现在进行时的被动谓语）+ as a past-tense condition。past-tense在这里是比喻性的时间视角。",
       "other": "expedition 探险；exhausting 令人疲惫的；rewarding 值得的/有回报的；retrospectively 回顾性地。",
       "meaning": "past-tense condition在此不是语法题，而是说幸福感可能在经历之后回看时才成立，与happiness in retrospect一致。",
-      "rest": "childhood无关；不是要求忽略当下情绪，而是不把瞬时快乐当作唯一尺度；也没有说过去的事情总比现在幸福。"
+      "rest": "past-tense不是童年；回顾整体意义不等于忽略当下情绪；原句也没有笼统比较过去与现在谁更幸福。"
     }
   },
   {
@@ -77,10 +77,10 @@
     "skill": "潜意识影响",
     "q": "After hearing the same melody at lunch for a month, Lina starts humming it without noticing. A researcher calls this a subconscious influence. The influence is subconscious chiefly because:",
     "o": [
-      "Lina deliberately planned to learn the melody.",
-      "Lina is not fully aware of how the repeated melody affects her.",
-      "The restaurant is legally required to play music.",
-      "The melody has no effect on Lina at all."
+      "She had made a deliberate plan to practise the familiar melody.",
+      "She is unaware of the repeated melody's influence on her.",
+      "The restaurant is obliged by law to play that particular melody.",
+      "Hearing the melody has left her musical behaviour unchanged."
     ],
     "a": 1,
     "exp": {
@@ -88,7 +88,7 @@
       "structure": "After hearing...是时间背景，其逻辑主语是Lina。主干：Lina + starts humming + it；without noticing表示她没有察觉这一行为。A researcher + calls + this + a subconscious influence是call A B结构。",
       "other": "melody 旋律；hum 哼唱；repeated 反复的；be aware of 意识到。",
       "meaning": "subconscious强调影响发生在充分自觉意识之下；不等于影响不存在，也不能根据她未察觉来猜测他人的法律义务。",
-      "rest": "deliberately planned与without noticing描述的未充分自觉相反；legally required无证据；no effect与Lina开始哼唱的行为变化矛盾。"
+      "rest": "主动制定练习计划与without noticing相反；法律义务无依据；开始哼唱表明行为受到影响，不能说保持不变。"
     }
   }
 ]

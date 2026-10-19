@@ -9,9 +9,9 @@
     "q": "前一段结尾：Several departments agree that first-year students need a common research course, but they cannot agree on what the course should include.\n下面哪一段最适合紧接其后？",
     "o": [
       "One reason such a course is hard to design is that each department defines research differently.",
-      "Professor Li published her first article in 2008 and later moved abroad.",
-      "Meanwhile, graduate salaries have risen in several unrelated industries.",
-      "The university library was renovated before the new president arrived."
+      "Research courses are popular with students seeking employment in large international companies.",
+      "Departments report rising salaries among graduates who completed laboratory training last year.",
+      "The library keeps earlier course outlines that several departments submitted before the merger."
     ],
     "a": 0,
     "exp": {
@@ -19,7 +19,7 @@
       "structure": "前段核心名词是a common research course / the course。正确后段以such a course回指这个已经出现的课程，再用One reason解释前文的困难。这里such不是凭空引入新对象。",
       "other": "department 院系；first-year student 大一学生；define 定义；include 包含。",
       "meaning": "such a course需结合前文课程对象、无法就内容达成一致与后文原因解释来判断；有回指不等于必然紧邻，还需核对其他候选和篇章位置。",
-      "rest": "Professor Li引入新人物，没有承接course；graduate salaries换话题；library renovation也没有任何回指或因果连接。"
+      "rest": "研究课受欢迎、毕业生薪资和旧课程档案都与教育有关，却不解释各部门为何难以就课程内容达成一致；such a course加上原因解释同时承接前文的对象和问题。"
     },
     "source_exam": "2011-english1",
     "source_part": "Part B"
@@ -33,18 +33,18 @@
     "budget": 55,
     "q": "前一段：The warehouse stores chilled goods in one area and dry goods in another to keep them separate.\n哪一句最自然地承接这一安排？",
     "o": [
-      "This separation also helps staff choose the right storage conditions.",
-      "These teachers were born in several different countries.",
-      "Such salaries are difficult to compare across cities.",
-      "That book was translated into three languages."
+      "This separation helps staff set suitable storage conditions for each type.",
+      "These delivery dates help the warehouse decide how many drivers to hire.",
+      "Such price differences explain why customers buy smaller quantities.",
+      "The same goods sell faster in the city's larger shopping centres."
     ],
     "a": 0,
     "exp": {
       "trans": "前文说仓库把冷藏货物和干货分区存放。最自然的衔接是：这种分开存放也有助于员工选择合适的储存条件。",
-      "structure": "The warehouse + stores + chilled goods / dry goods，两个地点与keep them separate明确建立分离关系。This separation把这个关系名词化并回指，also再补充该安排的作用。",
+      "structure": "The warehouse + stores + chilled goods / dry goods，两个存放地点与keep them separate建立分离关系；This separation将这一安排名词化并回指，再补充它对储存条件选择的作用。",
       "other": "warehouse 仓库；chilled 冷藏的；dry goods 干货；storage conditions 储存条件。",
-      "meaning": "在给定候选中，this separation有明确先行关系，另外几个指示词没有相应对象。这是本题的充分比较证据；不能推广成所有排序题都有唯一代词连接。",
-      "rest": "These teachers需要前文先出现teachers；Such salaries需要先出现salary；That book需要先出现某本书，三者在给定前文中都没有先行对象。"
+      "meaning": "this separation既有明确的分区存放关系，也解释这一安排的作用。配送日期和价格差异缺少先行对象；the same goods虽能指货物，却转去讨论销售速度，不能只因主题相似就优先。",
+      "rest": "前文没有提供配送日期或价格差异，These delivery dates和Such price differences缺先行对象；销售速度只是主题相关，没有承接分区存储这一安排。"
     },
     "source_exam": "2011-english1",
     "source_part": "Part B"
@@ -58,10 +58,10 @@
     "budget": 50,
     "q": "段落甲结尾：Not surprisingly, nearly half of the applicants withdraw before the final interview.\n下面哪个段首与它的衔接最强？",
     "o": [
-      "Equally unsurprisingly, only a small share of those who remain receive an offer.",
-      "By contrast, the building was completed twenty years earlier.",
-      "For example, the company sells products in four countries.",
-      "In conclusion, this proves that all interviews are unnecessary."
+      "Equally unsurprisingly, few of the remaining applicants receive an offer.",
+      "By contrast, the final interviews take place in the company's new building.",
+      "For example, managers from several departments attend the final interview.",
+      "In conclusion, a final interview is unnecessary for applicants who remain."
     ],
     "a": 0,
     "exp": {
@@ -69,7 +69,7 @@
       "structure": "Not surprisingly先给出一个“并不意外”的结果；Equally unsurprisingly显式要求前面已经有一个同类判断，再补第二个并列结果。两个副词短语构成明显篇章钩子。",
       "other": "withdraw 退出；final interview 终面；a small share 少部分；receive an offer 获得录用。",
       "meaning": "Equally / similarly / also 等段首词常要求前文存在可并列对象。排序题中这种平行措辞比泛泛的主题相似更可靠。",
-      "rest": "By contrast需要真正对立关系；For example需要前文有待举例的一般命题；In conclusion过早收束，而且all interviews are unnecessary也超出前文。"
+      "rest": "换到面试地点没有形成真正对立；经理参会不是申请者退出的例子；也不能从退出比例推出剩余申请者无需面试。平行标记与申请者筛选链共同支持承接。"
     },
     "source_exam": "2011-english1",
     "source_part": "Part B"

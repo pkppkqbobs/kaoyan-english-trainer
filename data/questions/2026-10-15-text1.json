@@ -9,10 +9,10 @@
     "skill": "宾语从句与否定范围",
     "q": "A restaurant owner rebuked an apprentice for assuming that the online booking page did not influence walk-in customers. Surveys showed that many visitors discovered the restaurant through the page. What did the apprentice mistakenly believe?",
     "o": [
-      "The owner had never built a website.",
-      "The page could not influence customers arriving without reservations.",
-      "Customers preferred online orders to dining at the restaurant.",
-      "The owner was obsessed with online advertising."
+      "The owner had avoided creating an online booking page.",
+      "Walk-in customers were unaffected by the booking page.",
+      "Customers preferred online orders to meals at the restaurant.",
+      "The owner placed excessive importance on online advertising."
     ],
     "a": 1,
     "exp": {
@@ -20,7 +20,7 @@
       "structure": "rebuked an apprentice为主干，for assuming that...说明批评原因，that后的did not influence是学徒持有的错误判断。",
       "other": "rebuke 责备；apprentice 学徒；walk-in customer 无预约上门顾客；reservation 预约。",
       "meaning": "assume/imagine that表示以为、认为；否定词位于从句中，决定被批评的是低估作用而非对网络的痴迷。",
-      "rest": "老板是否建站、客人点餐偏好均缺证据；痴迷网络广告反而把漠视影响错误变成过度沉迷。"
+      "rest": "老板未建网页和顾客点餐偏好均无证据；把老板说成过分重视广告，也没有回答学徒错误地否认网页对临时到店顾客的影响。"
     }
   },
   {
@@ -57,10 +57,10 @@
     "skill": "让步限定防止以偏概全",
     "q": "Cargo ships still produce substantial emissions. Nevertheless, several shipping firms have installed cleaner engines to reduce their impact. What is best supported?",
     "o": [
-      "All firms have eliminated shipping emissions.",
-      "Environmental impact has become irrelevant.",
-      "The whole shipping sector has refused any cleaner technology.",
-      "Some firms have attempted to limit environmental harm despite continuing pollution."
+      "Cleaner engines have removed the sector's remaining emissions.",
+      "Emissions have ceased to be a concern for the shipping sector.",
+      "Shipping firms have refused the move towards cleaner engines.",
+      "Pollution persists, but some firms are trying to reduce it."
     ],
     "a": 3,
     "exp": {
@@ -68,7 +68,7 @@
       "structure": "The first sentence confirms ongoing harm; Nevertheless introduces partial mitigation, while several limits the number of firms.",
       "other": "cargo ship 货船；emissions 排放；shipping firm 航运公司；mitigation 减轻不利影响。",
       "meaning": "污染依旧存在，与部分企业已经尝试治理能够同时为真；不能由存在损害推出全行业完全无视问题。",
-      "rest": "所有公司零排放与still冲突；环保影响无关紧要没有依据；全行业拒绝技术与several firms have installed相反。"
+      "rest": "still说明排放仍在，不能说已消除或不再值得关注；several firms已安装清洁发动机，不能概括为拒绝改进。"
     }
   },
   {
@@ -81,10 +81,10 @@
     "skill": "部分证据与总体主张",
     "q": "A city festival generated considerable disposable-cup waste. Some stalls started using returnable cups, but single-use cups remained common. Which conclusion is justified?",
     "o": [
-      "No stall has taken any step to reduce waste.",
-      "Some stalls are trying to cut waste, although the problem persists.",
-      "All festival waste has been eliminated.",
-      "Every customer has stopped buying drinks in disposable cups."
+      "Stalls have taken no steps to reduce disposable-cup waste.",
+      "Some stalls are reducing waste, while the problem persists.",
+      "Returnable cups have removed the festival's waste problem.",
+      "Customers have stopped accepting drinks in disposable cups."
     ],
     "a": 1,
     "exp": {
@@ -92,7 +92,7 @@
       "structure": "Some stalls started...交代部分行动；but...remained common限制实施效果，两句必须同时保留。",
       "other": "disposable 一次性的；returnable 可回收再使用的；persist 持续存在；stall 摊位。",
       "meaning": "some不能扩大为整个活动；部分努力不代表问题完全解决，而仍有垃圾也不表示完全无人行动。",
-      "rest": "完全无举措否认原文明示的行动；垃圾彻底消除与remained common冲突；所有顾客拒买无证据。"
+      "rest": "部分摊位已行动，不能否认举措；一次性杯仍普遍，不能说问题已消除；也没有证据说顾客已经停止接受一次性杯。"
     }
   },
   {
@@ -129,10 +129,10 @@
     "skill": "经济代价触发行为改变",
     "q": "A café chain says it will only switch to reusable containers when it can no longer afford not to. Which change would most likely trigger that switch?",
     "o": [
-      "Disposable containers become cheaper.",
-      "All customers stop caring about waste.",
-      "Continuing to use disposable containers becomes too costly.",
-      "Reusable containers are banned by law."
+      "The cost of disposable containers falls below its present level.",
+      "Customers become less concerned about waste from containers.",
+      "Keeping disposable containers becomes financially unsustainable.",
+      "The café loses legal permission to use reusable containers."
     ],
     "a": 2,
     "exp": {
@@ -140,7 +140,7 @@
       "structure": "only...when表示必要条件；not to省略switch to reusable containers；can no longer afford限定无法继续承担不改变的代价。",
       "other": "reusable 可重复用的；disposable 一次性的；trigger 触发；container 容器。",
       "meaning": "cannot afford not to switch是承担不起不更换，而不是买不起环保容器；only when不应译成until的单纯时间截止。",
-      "rest": "一次性容器更便宜不构成压力；顾客不在乎环保减弱动力；新容器被禁则无法执行更换。"
+      "rest": "一次性容器降价和顾客更不在意垃圾都会减弱更换压力；失去可重复容器的使用许可反而使更换不可行。not to省略的是switch，指再不换就承受不起。"
     }
   },
   {
@@ -177,10 +177,10 @@
     "skill": "熟词语义在传播路径中的变化",
     "q": "A monitoring technique once restricted to specialist hospitals gradually descended into community clinics as costs fell. In context, 'descended' suggests that the technique:",
     "o": [
-      "Became available to a wider, less specialized market.",
-      "Physically fell down a hospital staircase.",
-      "Was outlawed by every hospital.",
-      "Stopped being used because of lower prices."
+      "Spread beyond specialist centres into routine local care.",
+      "Moved physically downstairs within specialist hospitals.",
+      "Lost official approval for use in specialist hospitals.",
+      "Fell out of use in clinics because its price declined."
     ],
     "a": 0,
     "exp": {
@@ -188,7 +188,7 @@
       "structure": "A monitoring technique is subject; descended is predicate; once restricted to... identifies original level and into community clinics shows destination.",
       "other": "monitoring technique 监测技术；specialist 专科的；community clinic 社区诊所；outlaw 禁止。",
       "meaning": "descend的本义是下降，但搭配高端领域到大众场景的路径时，可理解成技术或潮流的层级下沉传播。",
-      "rest": "物理坠落不涉及传播；违法和停止使用都无法由成本降低且进入社区诊所推出。"
+      "rest": "这里描述技术使用范围扩大，不是物理位置下降；进入社区诊所不等于失去许可或停止使用，后两者反而与传播方向冲突。"
     }
   },
   {
@@ -249,10 +249,10 @@
     "skill": "由指控行为回推名词词义",
     "q": "When an auditor claimed that a lab had changed test results, the director rejected the accusation and requested evidence. What does 'accusation' refer to?",
     "o": [
-      "The laboratory's work schedule.",
-      "An official permit to publish findings.",
-      "An apology sent to the auditor.",
-      "A statement alleging that someone had done something wrong."
+      "The timetable set for the laboratory's next round of tests.",
+      "The permission needed to publish the laboratory's findings.",
+      "The apology offered for questioning the laboratory's conduct.",
+      "The allegation that the laboratory had falsified test results."
     ],
     "a": 3,
     "exp": {
@@ -260,7 +260,7 @@
       "structure": "the director rejected the accusation中accusation回指前一句auditor claimed that...，指控内容属于said而非已被证明。",
       "other": "auditor 审计员；allege 指称；reject 否认、拒绝；evidence 证据。",
       "meaning": "accusation表示指责、控告，来源是对某人涉嫌错误行为的陈述；指控不必然已经证实。",
-      "rest": "日程安排、发表许可和道歉都不属于对篡改结果的指称，也不符合要求证据的语境。"
+      "rest": "指控的内容是篡改结果，不是日程、发表许可或道歉；rejected并要求证据说明主任否认这项指控，没有报告道歉已经发生。"
     }
   }
 ]

@@ -30,10 +30,10 @@
     "skill": "比较关系支持相对难度推断",
     "q": "Researchers can outline broad possibilities for energy use in 2200, yet cannot confidently predict household electricity bills next winter because fuel prices, weather, and policy may shift quickly. Which inference follows?",
     "o": [
-      "No event next winter can be predicted under any circumstances.",
-      "The far future contains no uncertainty at all.",
-      "Specific near-term outcomes may be harder to predict than broad distant scenarios.",
-      "Household energy costs are unaffected by weather or policy."
+      "Next winter's events resist any kind of prediction or planning.",
+      "Distant energy scenarios can be predicted without uncertainty.",
+      "Near-term details may be harder to predict than distant scenarios.",
+      "Weather and policy have little relevance to household energy costs."
     ],
     "a": 2,
     "budget": 55,
@@ -44,7 +44,7 @@
       "structure": "can outline...yet cannot confidently predict...构成对比；because引出近期预测困难的原因。",
       "other": "outline 概述；household 家庭的；fuel price 燃料价格；shift 改变。",
       "meaning": "比较的是预测的具体程度：宽泛的远期情景有时比近期精确结果更容易描绘。不能把相对差异扩大成远期没有不确定性。",
-      "rest": "任何事件都无法预测过于绝对；远期也不是没有不确定性；天气和政策被明确列为影响因素。"
+      "rest": "近期细节难以准确预测不等于任何形式的预测或规划都无效；概述远期可能性也不等于毫无不确定性；天气和政策被明确列为影响因素。"
     }
   },
   {
@@ -78,10 +78,10 @@
     "skill": "语气副词与语境含义",
     "q": "Perhaps willfully, the committee concentrated on a century-long scenario rather than next year's disruptions, whose effects depended on rapidly changing rules and technology. What does perhaps willfully suggest?",
     "o": [
-      "The committee may have chosen that focus deliberately, perhaps to avoid a more complicated near-term question.",
-      "The committee had no choice and could not consider any other period.",
-      "Every member knew the century-long scenario was certainly accurate.",
-      "The near future had already become impossible to experience."
+      "The focus may have been a deliberate choice by the committee.",
+      "The focus was imposed on the committee by outside instructions.",
+      "The committee had established that its distant scenario was accurate.",
+      "The committee had proved that near-term events could not occur."
     ],
     "a": 0,
     "budget": 55,
@@ -92,7 +92,7 @@
       "structure": "Perhaps willfully是句首插入性表达；the committee concentrated... rather than...说明它选择了一个时间范围而不是另一个。",
       "other": "century-long 百年尺度的；disruption 变化或扰动；concentrate on 集中关注；deliberately 有意地。",
       "meaning": "willfully有故意、有意的基本义；Perhaps使判断保持推测语气。它不必表示恶意，而是暗示这种注意力选择可能并非偶然。",
-      "rest": "无法选择与willfully相反；准确性不能由关注某个时间范围推出；无法体验未来也不是句子表达的意思。"
+      "rest": "或许有意如此不等于受外部指令强迫；选择关注某种情景不证明它准确；近期事件不能发生也不是原句的意思。"
     }
   },
   {
@@ -102,10 +102,10 @@
     "skill": "框中词汇：一致程度与灾害事件",
     "q": "Researchers did not uniformly rank future threats: some considered an asteroid strike possible but remote, while others focused on climate change. Which paraphrase best preserves the sentence?",
     "o": [
-      "All researchers agreed an asteroid impact would happen soon.",
-      "Researchers differed in their rankings; an asteroid impact was one possible threat among several.",
-      "No researcher thought an asteroid impact was possible.",
-      "Every threat was considered equally likely."
+      "Researchers agreed that an asteroid impact was the most urgent threat.",
+      "Rankings differed; some included an asteroid impact among the threats.",
+      "Researchers excluded an asteroid impact from their list of possible threats.",
+      "Researchers assigned the same likelihood to each of the listed threats."
     ],
     "a": 1,
     "budget": 55,
@@ -116,7 +116,7 @@
       "structure": "did not uniformly rank是否定一致程度；冒号后some...while others...明确呈现分歧；asteroid strike是被评估的威胁之一。",
       "other": "uniformly 一致地；asteroid 小行星；strike 撞击；remote 可能性较低或遥远的。",
       "meaning": "uniformly在这里指观点并不一致；asteroid strike指小行星撞击事件，不是罢工。",
-      "rest": "所有研究者都认为即将发生与some...while others...相反；无人认为可能以及所有威胁等可能均超出原句。"
+      "rest": "some与others显示评估不一致，不能说一致认定撞击最紧迫；有人认为撞击有可能，不是将其排除；原文也未说每种威胁概率相同。"
     }
   },
   {
@@ -174,10 +174,10 @@
     "skill": "框中词组：短暂风潮与并非一片光明",
     "q": "The author calls today's pessimism a passing fad but adds that the future is not all rosy. Which interpretation preserves both ideas?",
     "o": [
-      "Pessimism may be temporary, although genuine difficulties still lie ahead.",
-      "The future is guaranteed to be perfect, so no risks remain.",
-      "Pessimism will last forever and all future efforts are useless.",
-      "Rosy means that every forecast is literally about flowers."
+      "Pessimism may pass, while real difficulties can still remain.",
+      "Future conditions are assured to improve without further risks.",
+      "Current pessimism will endure and make future efforts futile.",
+      "Rosy describes the flowers appearing in each future forecast."
     ],
     "a": 0,
     "budget": 55,
@@ -188,7 +188,7 @@
       "structure": "calls today's pessimism a passing fad说明作者认为悲观可能短暂；but adds...形成限制，not all rosy承认未来仍有问题。",
       "other": "pessimism 悲观；fad 一时流行的风潮；genuine 真实存在的；lie ahead 将会出现。",
       "meaning": "a passing fad表示短暂的流行风潮；not all rosy是比喻表达，表示并非一切顺利或前景完全美好。",
-      "rest": "未来完美与not all rosy相反；悲观永远持续与passing fad相反；rosy在此不是字面上的花朵。"
+      "rest": "passing fad不支持悲观会持续不变；not all rosy保留困难，不保证未来无风险；rosy在这里比喻前景美好，并非字面花朵。"
     }
   }
 ]

@@ -177,10 +177,10 @@
     "skill": "识别比喻及法律含义",
     "q": "Before historians could verify the ownership papers, several community groups staked a claim to the abandoned archive, each citing an old agreement. What did the groups do?",
     "o": [
-      "They completed a final sale of the archive.",
-      "They physically built fences around all the records.",
-      "They asserted a right to the archive, though ownership remained unverified.",
-      "They agreed to give up every possible legal interest."
+      "They completed a sale transferring ownership of the archive.",
+      "They enclosed the archive to stop other people entering it.",
+      "They asserted an ownership right that was not yet verified.",
+      "They signed away their legal interest in the archive."
     ],
     "a": 2,
     "exp": {
@@ -188,7 +188,7 @@
       "structure": "several community groups是主语，staked a claim to是谓语词组，the abandoned archive是所主张的对象；Before从句指出正式核验尚未完成。",
       "other": "archive 档案馆/档案；ownership 所有权；cite 引用、援引；agreement 协议。",
       "meaning": "stake a claim to sth.=宣称对某物有权利或权益；原文newly staked mining claims是新圈定并提出采矿权主张的矿区。提出主张并不等于已证实拥有。",
-      "rest": "最终出售和建围栏都未出现；宣布放弃权利与staked a claim意义相反。"
+      "rest": "声称拥有权利不等于完成所有权交易；原文未提实际封闭档案馆；签字放弃权利与staked a claim的方向相反。"
     }
   }
 ]
