@@ -6,7 +6,7 @@
 - 不再让 ChatGPT 定时任务在无人值守状态下直接写 GitHub；这类外部写入可能被运行环境的安全检查拦截并产生失败通知。ChatGPT 只在用户主动聊天、当前会话可执行 GitHub 写入时补充经过语义审核的 `data/questions/*.json` 或学习观察。
 - 固定入口仍为 `today.html`。当天首次生成后锁定题单；之后收到的成绩更新复习状态，追加的新题进入后续日期的候选池，不会把正在做的一套题换掉。
 - GitHub 本身读不到聊天记录。聊天中新暴露的错点只有在主动会话中被同步到仓库后，GitHub 的每日生成器才会使用。
-- 不需要个人访问令牌、模型 API key 或额外服务。GitHub 工作流只使用平台临时提供的 `GITHUB_TOKEN`，且只赋予构建所需的仓库写入、成绩读取以及单独部署任务所需的 Pages 权限。
+- GitHub 工作流只使用平台临时提供的 `GITHUB_TOKEN`，权限限于仓库内容写入与成绩读取；Pages 使用现有分支发布器。每日/文章页面可以自愿设置仅限此仓库的 fine-grained token（Issues 读写）以自动提交成绩，未设置时仍可手动提交或导出。不需要模型 API key 或额外服务；具体授权和本地保存方式见 README。
 
 ## 文章复盘链路
 
@@ -15,11 +15,13 @@
 - 每篇文章再写一个很小的 `data/article-sessions/YYYY-MM-DD-*.json`，保存唯一 `id`、学习日期 `date`、带时区的 `created_at`、来源标签、`focus_families` 和 `max_current`（1–4）。最新 session 按 `created_at` 选取，不按文件名猜测；既有无时间戳文件兼容学习日期，但新增文件必须写明时间。
 - 同日多篇的 learning note 加 `session_id`。`user_reported_wrong`、`correct_but_uncertain`、`translation_difficulty` 都是观察，绝不增加错误数、attempts 或 streak；选题权重依次降低。低价值可组合词可标记 `review_importance: "low"`，不能与阅读机制同权。
 - `scripts/article_review.py` 把本篇问题与历史弱项混成 8 题。默认本篇 4 + 历史 4；只有两个有效本篇目标时为 2 + 6。本篇超过四个目标时按证据优先级选择，同级目标在新轮次间轮换。历史部分直接从排除所有本篇目标后的候选池调用共用间隔选择器，并参考 daily 和已发布 article 的出题历史。
+- session 若开启 `balanced_options`，历史候选只按四个选项的长度差（最多 20 字符）筛选，不能按正确答案是否最长筛选。新题单再统一检查：每题长度差合格、8 题最多 2 题正确项独自最长；不满足则生成失败、保留上一版，不改已发布轮次。
 - 固定入口是 `article-review.html`。它与 `today.html` 分离，使用独立 localStorage 前缀 `kaoyan.article.v1.`，因此刷新文章复盘不会覆盖每日训练进度。
 - `today.html` 仍保持当天锁定。新的 Text 4 可以刷新最新文章入口，但 Text 3 的 `data/article-reviews/ID.json` 与独立 HTML 保留，可通过 `article-reviews.html` 返回旧复盘。
 - 已发布 article 轮次的 JSON 不再因 Issue 或题库更新重写。补充本篇证据后需要新一套时，在 session 中显式增加 `revision`；第一轮沿用既有 storageId，第二轮起使用 `ID-r2` 等独立键。不要复用同一个 ID 覆盖旧题单或清空 localStorage。
 - 把一篇文章的学习观察、题库和 session 放在同一次提交中。Actions 生成文件不匹配输入触发路径，因此不会形成 commit loop；分支 Pages 在源提交和生成提交时都可能构建，分散小提交会额外产生构建/取消。维护时尽量一次提交经过完整测试的源文件与生成结果，不恢复自定义重复 deploy。
-- 文章复盘做完后也可提交 `[TRAINING_RESULT]` Issue；只有用户在 GitHub 最终点击 Submit new issue 后，成绩才进入后续间隔复习。
+- 文章复盘做完后可自动或手动提交 `[TRAINING_RESULT]` Issue。网页核查作者、单一完整 v3 报告和首次作答内容；网络超时后再次提交先查重，不能把文本片段或其他作者的 Issue 当成已接收。只有 GitHub 接收且 Actions 成功处理，成绩才进入后续间隔复习。
+- 首次主测完成前请标记犹豫。已提交后再新增本地标记，页面会明确提示尚未同步，不会改写原 Issue或用重复 roundId 制造新成绩；即时重做统计的改变不影响首次成绩查重。
 
 ## 真实成绩与间隔复习
 

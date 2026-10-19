@@ -1,7 +1,7 @@
 {
   "exam": "2013-english1",
-  "checked_on": "2026-10-17",
-  "purpose": "2013年考研英语一完形填空(Section I)原题标准答案与用户纸面真实反馈分开保存。用户明确确认10/20、5/10分，原始网页训练的Issue和streak不计入这份纸质练习。不同线上版本选项排列不同，以下答案字母按用户提供的2013年试卷图片核对。",
+  "checked_on": "2026-10-19",
+  "purpose": "2013年考研英语一完形填空与阅读Text 1–4：标准答案与用户纸面反馈分开保存。完形10/20、5/10分沿用用户明确确认；纸面观察不创建网页Issue成绩或streak。不同版本选项排列不同，以下字母按用户试卷与对应选项含义核对；公开参考存在错误时记录差异，不盲从单一答案表。",
   "sources": [
     {
       "id": "xdf-2013-cloze",
@@ -52,6 +52,24 @@
       "covers": "用户试卷的2013 Text 2原文及答案字母顺序"
     },
     {
+      "id": "chsi-haitian-2013-reading",
+      "title": "研招网转载海天教育：2013年英语一真题及参考答案",
+      "url": "https://yz.chsi.com.cn/kyzx/en/201301/20130107/382329009-9.html",
+      "covers": "Text 3按答案内容核对31 B、32 A、33 D、34 C、35 C；Text 4为36 C、37 C、38 D、39 A、40 B。此页为培训机构参考答案，不标称教育部官方答案；27采用A，与既有D参考的争议继续保留。"
+    },
+    {
+      "id": "sina-2013-text3-crosscheck",
+      "title": "新浪转载跨考2013 Text 3：原文与第33题解释",
+      "url": "https://edu.sina.com.cn/kaoyan/2013-01-06/1216368080_5.shtml",
+      "covers": "原文及第33题D的相对难度比较；该页32、35答案与原文和海天参考不一致，不能据此推翻用户其他题答对的反馈。"
+    },
+    {
+      "id": "sina-2013-text4-crosscheck",
+      "title": "新浪转载跨考2013 Text 4：原文选项与参考差异",
+      "url": "https://edu.sina.com.cn/kaoyan/2013-01-06/1216368080_6.shtml",
+      "covers": "36–39答案内容相符；40给D，但末段明确反对行政机关主张，采用与原文及海天一致的B。该页36、38局部解析也有字母笔误，不能机械复制。"
+    },
+    {
       "id": "alternative-2013-text2-27",
       "title": "懒笔记：2013阅读Text2第27题另一解析",
       "url": "https://english-exam.lazynote.cn/kaoyan/sections/2013-english-one/section2-part-a-2/",
@@ -93,7 +111,12 @@
     "32": "A",
     "33": "D",
     "34": "C",
-    "35": "C"
+    "35": "C",
+    "36": "C",
+    "37": "C",
+    "38": "D",
+    "39": "A",
+    "40": "B"
   },
   "answer_words": {
     "1": "grants",
@@ -130,13 +153,19 @@
     "32": "a sustained species",
     "33": "Our immediate future is hard to conceive",
     "34": "draw on our experience from the past",
-    "35": "The Ever-bright Prospects of Mankind"
+    "35": "The Ever-bright Prospects of Mankind",
+    "36": "州条款越过联邦移民法权限",
+    "37": "州在移民执法中的合法作用",
+    "38": "历史材料在该段论证中支持州权",
+    "39": "白宫声称其执法权高于州",
+    "40": "司法机关意在制衡行政部门权力"
   },
   "performance_coverage": {
     "Section I": "用户明确确认10/20，换算5/10分。实际错误题号：3、5、6、7、9、11、15、17、18、19；答对：1、2、4、8、10、12、13、14、16、20。其中第16、20题用户明确称答对但不确定，不能算错。最初具体选错字母未由用户逐一确认，禁止从图像涂改或旧助手误识别猜测。网页Issue不计这份纸面答卷。",
     "Text 1": "用户明确第21题初选B正确，回看第一段后改为最终C错误；第23题选A正确但不认识accusation，只靠排除选择；第24题选B错误（标准D），误把造成浪费扩大成整个行业忽视环保，且不理解末段经济代价的双重否定。第22和25题没有可靠的聊天确认最终选项，不猜测答题字母、不计算本篇总分；纸质练习不计入GitHub自动Issue得分。",
     "Text 2": "用户有个性化广告的既有背景知识，主观认为本篇比较好理解。明确只确认Q27最初选D、后来因后段the industry涉及广告商而改选A；Q30确定选D skepticism（标准D）且没有犹豫，仅不认识干扰项A indulgence。Q26、28、29最终选项未在聊天中明确确认，不能凭笔迹猜测，整篇总分未知。Q27常见参考D，但存在online advertisers的词义及执行DNT请求的角色争议，因此保存争议状态和改选历程，不用这一题直接判定能力差。纸质反馈不计入GitHub Issue自动计分。",
-    "Text 3": "用户明确报告2013英语一Text 3只错第33题，因此按自述为4/5正确；第31、32、34、35题均视为答对。第33题正确答案D。用户没有明确说明第33题最后选的字母，不根据手写笔迹猜测；纸质答卷不创建GitHub网页Issue作答/成绩，不改变streak或attempt/error计数。"
+    "Text 3": "用户明确报告2013英语一Text 3只错第33题，因此按自述为4/5正确；第31、32、34、35题均视为答对。第33题正确答案D。用户没有明确说明第33题最后选的字母，不根据手写笔迹猜测；纸质答卷不创建GitHub网页Issue作答/成绩，不改变streak或attempt/error计数。",
+    "Text 4": "沿用现有学习观察：用户确认36最终D（曾犹豫A但未选），37最终D，38最终C，40最终A；分别对照C、C、D、B记录为真实纸面错题。39最终A正确，不凭空建立错题或犹豫观察。画框是阅读理解困难，不能自动算成另一道错误。上述观察只影响选题优先级，不新增网页attempts、errors或streak；原始文章复盘Issue #21的7/8是独立迁移题表现，不等同于纸面真题成绩。"
   },
   "observed_difficulties": [
     "10道实际错误：3 big picture；5 fearful of；6 soft on crime；7 if；9 applicant's success；11 truth was otherwise；15 then；17 the one before that；18 drop by（such a decrease）；19 undo the effects。均为用户明确报告的错题号，无需补造具体初选字母。",

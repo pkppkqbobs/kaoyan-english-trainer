@@ -117,7 +117,7 @@ def make_payload(root, session, items, archives, repo):
         # immutable; do not distort the scoring or suppress old mistake evidence.
         def is_balanced(q):
             lengths = [len(option) for option in q["o"]]
-            return max(lengths) - min(lengths) <= 20 and lengths[q["a"]] < max(lengths)
+            return max(lengths) - min(lengths) <= 20
         historical_items = [q for q in historical_items if is_balanced(q)]
         if len({q["family"] for q in historical_items}) < 8 - max_current:
             raise ValueError("Insufficient balanced historical variants for new review")
@@ -128,6 +128,18 @@ def make_payload(root, session, items, archives, repo):
     selected = [choose_variant(groups, family, rng, today_ids, session["date"], variant_shown)
                 for family in current_families]
     selected.extend(historical)
+    if session.get("balanced_options"):
+        # Check the whole new sheet rather than teaching that the longest
+        # historical option is always wrong. A failed quality check publishes
+        # nothing; existing rounds and their first-answer records stay intact.
+        unique_longest = 0
+        for q in selected:
+            lengths = [len(option) for option in q["o"]]
+            if max(lengths) - min(lengths) > 20:
+                raise ValueError("Unbalanced option lengths in new article round")
+            unique_longest += lengths[q["a"]] == max(lengths) and lengths.count(max(lengths)) == 1
+        if unique_longest > 2:
+            raise ValueError("Too many uniquely longest correct options in new article round")
     rng.shuffle(selected)
     return {
         "date": session["date"], "repo": repo, "title": "文章复盘 · 8题",

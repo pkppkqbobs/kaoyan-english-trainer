@@ -53,6 +53,44 @@ def session(root, sid, focus, created='2026-10-03T10:00:00+08:00', day='2026-10-
 
 
 class ArticleReviewTests(unittest.TestCase):
+    def test_balanced_options_allow_equal_lengths_and_correct_longest(self):
+        for correct_longest in (False, True):
+            with self.subTest(correct_longest=correct_longest), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                focus, old = fixture(root, history=4)
+                items = review.load(root / 'data/base-bank.json')
+                for item in items:
+                    item['o'] = ['first', 'other', 'third', 'final']
+                    if correct_longest and item['family'] == old[0]:
+                        item['o'][item['a']] = 'longer'
+                review.save(root / 'data/base-bank.json', items)
+                path = session(root, 'balanced-session', focus)
+                obj = review.load(path); obj['balanced_options'] = True; review.save(path, obj)
+                before = (root / 'data/result-evidence.json').read_bytes()
+                payload = article_review.build(root)
+                self.assertEqual(len(payload['questions']), 8)
+                self.assertEqual(set(payload['article_session']['historical_families']), set(old))
+                self.assertEqual((root / 'data/result-evidence.json').read_bytes(), before)
+                self.assertEqual((root / 'today.html').read_text(), 'locked daily page')
+
+    def test_unbalanced_new_round_fails_without_overwriting_previous_round(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            focus, _ = fixture(root)
+            session(root, 'previous-session', focus)
+            article_review.build(root)
+            before = {p: p.read_bytes() for p in root.glob('article-review*.html')}
+            items = review.load(root / 'data/base-bank.json')
+            for item in items:
+                item['o'] = ['first', 'longer', 'third', 'final']
+            review.save(root / 'data/base-bank.json', items)
+            path = session(root, 'unbalanced-session', focus, '2026-10-03T12:00:00+08:00')
+            obj = review.load(path); obj['balanced_options'] = True; review.save(path, obj)
+            with self.assertRaisesRegex(ValueError, 'longest'):
+                article_review.build(root)
+            self.assertEqual({p: p.read_bytes() for p in before}, before)
+            self.assertFalse((root / 'data/article-reviews/unbalanced-session.json').exists())
+
     def test_no_session_is_a_noop(self):
         with tempfile.TemporaryDirectory() as directory:
             self.assertIsNone(article_review.build(Path(directory)))

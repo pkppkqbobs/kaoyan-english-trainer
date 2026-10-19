@@ -79,31 +79,54 @@
     }
   }
   async function issueApi(path, token, options={}) {
-    let response;
-    try {
-      response = await fetch('https://api.github.com' + path, {
-        ...options, cache: 'no-store',
-        headers: {'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
-          'Authorization': 'Bearer ' + token, ...(options.body ? {'Content-Type':'application/json'} : {})}
-      });
-    } catch (_) {
-      throw Error('无法访问 GitHub API；可能是网络、浏览器跨域或扩展拦截。');
-    }
-    if (!response.ok) {
-      const status = Number(response.status);
-      if (status === 401) throw Error('授权已失效；请重新设置令牌。');
-      if (status === 403) throw Error('没有 Issues 写入权限，或触发 GitHub API 限流。请核对令牌仓库和权限。');
-      if (status === 404) throw Error('无法访问目标仓库，请核对令牌选择的仓库。');
-      if (status === 422) throw Error('GitHub 拒绝了 Issue 内容；原始成绩仍保存在本地。');
-      throw Error('GitHub API 请求失败（HTTP ' + status + '），未确认成绩提交。');
-    }
-    try { return await response.json(); }
-    catch (_) { throw Error('GitHub 响应不完整。请点击重试检查是否已提交，不要手动创建重复 Issue。'); }
+    const controller = new AbortController();
+    let timer;
+    const deadline = new Promise((_, reject) => {
+      timer = setTimeout(() => {
+        controller.abort();
+        reject(Error('GitHub API 请求超时。重试时会先核查是否已收到，不会直接重复上传。'));
+      }, 20000);
+    });
+    const request = async () => {
+      let response;
+      try {
+        response = await fetch('https://api.github.com' + path, {
+          ...options, cache: 'no-store', signal: controller.signal,
+          headers: {'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28',
+            'Authorization': 'Bearer ' + token, ...(options.body ? {'Content-Type':'application/json'} : {})}
+        });
+      } catch (_) {
+        throw Error('无法访问 GitHub API；可能是网络、浏览器跨域或扩展拦截。');
+      }
+      if (!response.ok) {
+        const status = Number(response.status);
+        if (status === 401) throw Error('授权已失效；请重新设置令牌。');
+        if (status === 403) throw Error('没有 Issues 写入权限，或触发 GitHub API 限流。请核对令牌仓库和权限。');
+        if (status === 404) throw Error('无法访问目标仓库，请核对令牌选择的仓库。');
+        if (status === 422) throw Error('GitHub 拒绝了 Issue 内容；原始成绩仍保存在本地。');
+        throw Error('GitHub API 请求失败（HTTP ' + status + '），未确认成绩提交。');
+      }
+      try { return await response.json(); }
+      catch (_) { throw Error('GitHub 响应不完整。请点击重试检查是否已提交，不要手动创建重复 Issue。'); }
+    };
+    try { return await Promise.race([request(), deadline]); }
+    finally { clearTimeout(timer); }
   }
   function isOurIssue(item, title, roundId) {
-    return item && !item.pull_request && item.title === title &&
-      typeof item.body === 'string' && item.body.includes('<!-- review-json:v3') &&
-      item.body.includes('"roundId":"' + roundId + '"');
+    if (!item || item.pull_request || item.title !== title ||
+        String(item.user?.login || '').toLowerCase() !== ISSUE_REPO.split('/')[0]) return null;
+    const body = typeof item.body === 'string' ? item.body : '';
+    const markers = [...body.matchAll(/<!--\s*review-json:(v\d+)/g)];
+    const block = body.match(/<!-- review-json:v3\s*\n([\s\S]*?)\n-->/);
+    let result;
+    try { result = block && JSON.parse(block[1]); } catch (_) {}
+    if (markers.length !== 1 || markers[0][1] !== 'v3' || !result ||
+        result.version !== 3 || result.roundId !== roundId || !Array.isArray(result.answers) ||
+        !Number.isInteger(item.number) || item.number <= 0 ||
+        item.html_url !== 'https://github.com/' + ISSUE_REPO + '/issues/' + item.number) {
+      throw Error('同一轮标题已有本人 Issue，但完整报告无法核验；未重复上传，请先核对原 Issue。');
+    }
+    return result;
   }
   async function findSubmittedIssue(token, title, roundId) {
     // REST issue listing is immediately consistent and avoids search-index lag.
@@ -112,8 +135,10 @@
       const found = await issueApi('/repos/' + ISSUE_REPO +
         '/issues?state=all&per_page=100&page=' + page, token);
       if (!Array.isArray(found)) throw Error('无法验证 GitHub 历史 Issue，已停止提交以免重复。');
-      const existing = found.find(item => isOurIssue(item, title, roundId));
-      if (existing) return existing;
+      for (const issue of found) {
+        const result = isOurIssue(issue, title, roundId);
+        if (result) return {issue, result};
+      }
       if (found.length < 100) return null;
     }
     throw Error('已有 Issue 超过自动查重上限，为避免重复提交，本次未上传。');
@@ -130,34 +155,54 @@
     syncStatus('正在检查是否已提交该轮，并通过 GitHub API 同步首次作答……');
     const originalKey = storageKey;
     const title = issueTitle(run);
+    const payload = report(), body = reportText();
+    const sameContext = () => storageKey === originalKey && rootRun().id === run.id;
+    const confirmExisting = ({issue, result}) => {
+      saveReceipt(run.id, issue);
+      if (!sameContext()) return;
+      // Compare the immutable first answers, not property order or retry totals.
+      const primary = obj => JSON.stringify({date: obj.date, module: obj.module, storageId: obj.storageId,
+        answers: obj.answers.map(row => Object.fromEntries([
+          'qid', 'family', 'pick', 'expected', 'ok', 'ms', 'uncertain', 'answeredOn',
+          'optionOrder', 'pickText', 'expectedText'
+        ].map(key => [key, row?.[key]])))});
+      if (primary(result) !== primary(payload)) {
+        syncStatus('该轮已有 Issue #' + issue.number + '，但本地首次作答或犹豫标记与已提交内容不同；' +
+          '新增本地内容尚未同步。未改写原 Issue，也未重复计分。', issue.html_url);
+      } else {
+        syncStatus('已核验同一轮的完整首次作答：Issue #' + issue.number +
+          '；没有重复提交。正式统计以 Actions 处理结果为准。', issue.html_url);
+      }
+    };
     try {
       const cached = receiptsInMemory[run.id] || savedReceipts()[run.id];
-      if (cached?.number && cached?.url) {
+      if (Number.isInteger(cached?.number) && cached.number > 0 &&
+          cached.url === 'https://github.com/' + ISSUE_REPO + '/issues/' + cached.number) {
         const verified = await issueApi('/repos/' + ISSUE_REPO + '/issues/' + cached.number, token);
-        if (isOurIssue(verified, title, run.id)) {
-          syncStatus('已确认此前提交成功，Issue #' + verified.number + '；没有重复提交。', verified.html_url);
+        const result = isOurIssue(verified, title, run.id);
+        if (result) {
+          confirmExisting({issue: verified, result});
           return;
         }
       }
       const existing = await findSubmittedIssue(token, title, run.id);
       if (existing) {
-        saveReceipt(run.id, existing);
-        syncStatus('已找到同一轮的 Issue #' + existing.number + '，不会重复计分。', existing.html_url);
+        confirmExisting(existing);
         return;
       }
-      if (storageKey !== originalKey || rootRun().id !== run.id) {
+      if (!sameContext()) {
         throw Error('正在查看的训练轮次已改变；取消本次上传以免提交错误记录。');
       }
       const issue = await issueApi('/repos/' + ISSUE_REPO + '/issues', token,
-        {method:'POST',body:JSON.stringify({title, body:reportText()})});
-      if (!Number.isInteger(issue.number) || !issue.html_url) {
+        {method:'POST',body:JSON.stringify({title, body})});
+      if (!isOurIssue(issue, title, run.id)) {
         throw Error('GitHub 返回结果不完整，请重试核对是否已创建 Issue。');
       }
       saveReceipt(run.id, issue);
-      syncStatus('GitHub 已接收首次作答：Issue #' + issue.number +
+      if (sameContext()) syncStatus('GitHub 已接收首次作答：Issue #' + issue.number +
         '。成绩将在 Actions 成功处理后进入复习统计。', issue.html_url);
     } catch (error) {
-      syncStatus('自动提交未确认成功：' + String(error.message || error) +
+      if (sameContext()) syncStatus('自动提交未确认成功：' + String(error.message || error) +
         ' 本地成绩保留，可以重试或使用导出报告。');
     } finally { submitBusy = false; }
   }
@@ -564,7 +609,9 @@
     actions.appendChild(button('导出本轮报告', exportReport));
     body.appendChild(actions);
     paragraph(body, '下一轮优先：' + (root.answers.filter(r => !r.ok || r.uncertain).map(r => root.queue.find(q => q.id === r.qid)?.target || r.family).join('；') || '继续间隔复习，不因一次答对就认定稳定。'), 'muted');
-    paragraph(body, DATA.footer || '网页本地记录不会自动上传。提交到 GitHub 后，服务端会重新计算复习优先级；今天这套题不会中途被替换。', 'muted');
+    paragraph(body, credential()
+      ? '自动同步已启用；完成主测后会尝试提交，请以上方提交状态为准。提交后的新增本地标记不会改写原 Issue。'
+      : '本轮保存在当前浏览器。可设置自动同步，或提交、导出完整报告；仅保存在本地的记录不会进入后续复习。', 'muted');
   }
   function historyView() {
     questionVisible = false; active = false;

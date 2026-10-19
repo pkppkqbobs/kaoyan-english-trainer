@@ -33,6 +33,17 @@ let nodes, opened, clock, pageEvents, documentEvents, simulatedDay, clipboardImp
 const mockPayloads = new Map(), fetchRequests = [];
 const githubIssues = [];
 let githubIssueCreates = 0, githubPostedBody = '';
+let githubApiOverride = null, apiTimers = null;
+function storeGitHubIssue(options) {
+  githubIssueCreates++;
+  const payload = JSON.parse(options.body);
+  githubPostedBody = payload.body;
+  const issue = {number:300+githubIssueCreates, title:payload.title, body:payload.body,
+    user:{login:'pkppkqbobs'},
+    html_url:'https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/'+(300+githubIssueCreates)};
+  githubIssues.push(issue);
+  return issue;
+}
 class FixtureDate extends Date {
   constructor(...args) { super(...(args.length ? args : [FixtureDate.now()])); }
   static now() { return Date.parse((simulatedDay || data.date) + 'T12:00:00+08:00'); }
@@ -69,9 +80,15 @@ function boot() {
     open: url => { opened = url; },
     sessionStorage: sessionStore,
     addEventListener(type, handler) { pageEvents[type] = handler; }}, document, localStorage: storage,
-    performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, setTimeout, console,
+    performance: {now: () => ++clock}, Math, Date: FixtureDate, Intl, JSON, Blob, URL, AbortController, console,
+    setTimeout: (...args) => apiTimers ? apiTimers.set(...args) : setTimeout(...args),
+    clearTimeout: id => apiTimers ? apiTimers.clear(id) : clearTimeout(id),
     fetch: async (path, options={}) => {
       fetchRequests.push(path);
+      if (path.startsWith('https://api.github.com') && githubApiOverride) {
+        const overridden = await githubApiOverride(path, options);
+        if (overridden !== undefined) return overridden;
+      }
       const repoRoot = 'https://api.github.com/repos/pkppkqbobs/kaoyan-english-trainer/issues';
       if (path === 'https://api.github.com/user') {
         assert.ok(options.headers.Authorization.startsWith('Bearer github_pat_'));
@@ -86,12 +103,7 @@ function boot() {
         return {ok:!!found,status:found?200:404,json:async()=>structuredClone(found)};
       }
       if (path === repoRoot && options.method === 'POST') {
-        githubIssueCreates++;
-        const payload=JSON.parse(options.body);
-        githubPostedBody=payload.body;
-        const issue={number:300+githubIssueCreates,title:payload.title,body:payload.body,
-          html_url:'https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/'+(300+githubIssueCreates)};
-        githubIssues.push(issue);
+        const issue = storeGitHubIssue(options);
         return {ok:true,status:201,json:async()=>structuredClone(issue)};
       }
       return {ok: mockPayloads.has(path), json: async () => structuredClone(mockPayloads.get(path))};
@@ -364,9 +376,95 @@ boot();
 clickText('提交结果到 GitHub');
 await new Promise(setImmediate);
 assert.equal(githubIssueCreates,1,'reload + retry must verify prior Issue without reposting');
+const acceptedIssue = structuredClone(githubIssues[0]);
+const autoKey = 'kaoyan.daily.v3.2026-09-29';
+const firstState = storage[autoKey];
+const receiptKey = 'kaoyan.github.issue-receipts.v1.pkppkqbobs/kaoyan-english-trainer';
+const packet = body => JSON.parse(body.match(/<!-- review-json:v3\s*\n([\s\S]*?)\n-->/)[1]);
+const withPacket = (issue, obj) => ({...issue,
+  body:issue.body.replace(/<!-- review-json:v3\s*\n[\s\S]*?\n-->/,
+    '<!-- review-json:v3\n' + JSON.stringify(obj, null, 2) + '\n-->')});
+function resetSync(issues=[]) {
+  storage[autoKey] = firstState;
+  delete storage[receiptKey];
+  githubIssues.splice(0, githubIssues.length, ...structuredClone(issues));
+  githubIssueCreates = 0; githubApiOverride = null;
+  boot();
+}
+// Author and a single complete parsed packet must match, not a title/substring.
+resetSync([{...acceptedIssue, user:{login:'someone-else'}}]);
+clickText('提交结果到 GitHub'); await new Promise(setImmediate);
+assert.equal(githubIssueCreates,1,'a foreign Issue must not masquerade as accepted owner evidence');
+assert.equal(githubIssues[1].user.login,'pkppkqbobs');
+for (const badBody of [
+  '<!-- review-json:v3\n{"roundId":"' + packet(acceptedIssue.body).roundId + '",\n-->',
+  acceptedIssue.body + '\n<!-- review-json:v3\n{}\n-->'
+]) {
+  resetSync([{...acceptedIssue,body:badBody}]);
+  clickText('提交结果到 GitHub'); await new Promise(setImmediate);
+  assert.equal(githubIssueCreates,0,'unverifiable existing owner report must block a blind duplicate');
+  assert.ok(nodes.notice.textContent.includes('无法核验'));
+  assert.ok(nodes.notice.textContent.includes('未确认成功'));
+  assert.equal(storage[autoKey],firstState);
+}
+const reordered = packet(acceptedIssue.body);
+reordered.retrySummary = [{answered:1,correct:1}];
+reordered.answers = reordered.answers.map(row=>Object.fromEntries(Object.entries(row).reverse()));
+resetSync([withPacket(acceptedIssue,reordered)]);
+clickText('提交结果到 GitHub'); await new Promise(setImmediate);
+assert.equal(githubIssueCreates,0,'pretty JSON, property order and retry totals must not defeat dedup');
+assert.ok(nodes.notice.textContent.includes('已核验同一轮的完整首次作答'));
+
+// A later local annotation cannot silently claim to have edited immutable evidence.
+resetSync([acceptedIssue]);
+const annotated = JSON.parse(firstState);
+const submittedRun = annotated.runs.find(r=>r.id===packet(acceptedIssue.body).roundId);
+assert.ok(submittedRun);
+submittedRun.answers[0].uncertain = !submittedRun.answers[0].uncertain;
+storage[autoKey] = JSON.stringify(annotated); boot();
+clickText('提交结果到 GitHub'); await new Promise(setImmediate);
+assert.equal(githubIssueCreates,0);
+assert.ok(nodes.notice.textContent.includes('新增本地内容尚未同步'), nodes.notice.textContent);
+assert.equal(githubIssues[0].body,acceptedIssue.body,'never rewrite the original Issue');
+assert.equal(snapshot().runs.find(r=>r.id===submittedRun.id).answers[0].uncertain,
+  submittedRun.answers[0].uncertain,'preserve the local annotation');
+
+// Deterministic deadlines cover fetch, a stalled response body, and a lost POST response.
+for (const failure of ['list-timeout','body-timeout','post-response-lost','list-http-error']) {
+  resetSync();
+  let timeoutId = 0;
+  const timers = new Map();
+  apiTimers = {set(fn,ms) { assert.equal(ms,20000); timers.set(++timeoutId,fn); return timeoutId; },
+    clear(id) { timers.delete(id); }};
+  githubApiOverride = (path,options) => {
+    if (failure === 'post-response-lost' && options.method === 'POST') {
+      storeGitHubIssue(options); // GitHub wrote it; the browser never received confirmation.
+      return new Promise(()=>{});
+    }
+    if (path.includes('/issues?')) {
+      if (failure === 'list-timeout') return new Promise(()=>{});
+      if (failure === 'body-timeout') return {ok:true,status:200,json:()=>new Promise(()=>{})};
+      if (failure === 'list-http-error') return {ok:false,status:503};
+    }
+  };
+  clickText('提交结果到 GitHub'); await new Promise(setImmediate);
+  if (failure !== 'list-http-error') {
+    assert.equal(timers.size,1);
+    [...timers.values()][0](); await new Promise(setImmediate);
+    assert.ok(nodes.notice.textContent.includes('超时'));
+  }
+  assert.ok(nodes.notice.textContent.includes('未确认成功'));
+  assert.equal(storage[autoKey],firstState,'failed upload must preserve all first answers');
+  assert.equal(timers.size,0,'all deadline handles must be cleared');
+  githubApiOverride = null; apiTimers = null;
+  clickText('提交结果到 GitHub'); await new Promise(setImmediate);
+  assert.equal(githubIssueCreates,1,'retry must release the busy state and dedup any lost POST');
+  assert.equal(githubIssues.length,1);
+  assert.equal(storage[autoKey],firstState);
+}
 nodes.githubAuthBtn.click();
 clickText('移除此浏览器中的 GitHub 授权');
 assert.equal(storage['kaoyan.github.issue-credential.v1.pkppkqbobs/kaoyan-english-trainer'],undefined,
   'revocation must remove the local credential');
 
-console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection, immutable historical retry recovery, fetch failure, wrong-source rejection, duplicate-click prevention, same-context exclusion.');
+console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection, immutable historical retry recovery, fetch failure, wrong-source rejection, duplicate-click prevention, same-context exclusion, owner/packet dedup, changed annotations, API deadlines and lost POST recovery.');
