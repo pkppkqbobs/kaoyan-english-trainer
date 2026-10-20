@@ -322,5 +322,19 @@ class BankCoverageTests(unittest.TestCase):
         self.assertTrue(data['audit_is_not_scoring_evidence'])
 
 
+    def test_2014_cloze_paper_notes_remain_observations(self):
+        notes = review.load(ROOT / "data/learning-notes.json")
+        source = [n for n in notes if n.get("session_id") ==
+                  "2026-10-20-2014-cloze-observation"]
+        self.assertEqual(len(source), 3)
+        self.assertEqual({n["family"] for n in source},
+                         {"logic", "familiar-word-polysemy", "relation-collocation"})
+        for n in source:
+            self.assertEqual(n["kind"], "user_reported_confusion")
+            self.assertNotIn("reported_pick", n)
+            self.assertNotIn("expected", n)
+            self.assertNotIn("source_question", n)
+
+
 if __name__ == "__main__":
     unittest.main()
