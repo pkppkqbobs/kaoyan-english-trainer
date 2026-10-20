@@ -1733,6 +1733,94 @@
       "qid": "text4-federal-precedent-d",
       "round_id": "mvfa10qj-xxp8h3xm",
       "source_date": "2026-10-19"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "reference",
+      "ok": true,
+      "ms": 74145,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "legacy-such",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "nested",
+      "ok": true,
+      "ms": 28353,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "nested-editor-quote-d",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 43479,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "text4-historical-inference-c",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "text4-agreement-target",
+      "ok": true,
+      "ms": 184563,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "text4-flood-inspections-d",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 62779,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "causal-role-trust-delays",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 89206,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "example-factory-reporting-measure-e",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "text4-executive-overreach",
+      "ok": false,
+      "ms": 89208,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "text4-executive-overreach-b",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-20",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 68898,
+      "uncertain": false,
+      "origin": 23,
+      "qid": "inference-boundary-archive-questions-b",
+      "round_id": "mvgqts58-ein1jdju",
+      "source_date": "2026-10-20"
     }
   ],
   "issues": [
@@ -1757,6 +1845,7 @@
     19,
     20,
     21,
-    22
+    22,
+    23
   ]
 }
