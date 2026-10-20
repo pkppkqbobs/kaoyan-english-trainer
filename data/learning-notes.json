@@ -987,19 +987,41 @@
     "family": "familiar-word-polysemy",
     "date": "2026-10-20",
     "kind": "user_reported_confusion",
-    "note": "2014英语一完形：用户自述本篇逻辑、主题比此前容易读懂，因此做得相对好，但对部分错题即使看答案仍不明白为何选。照片的第2、第14题附近可见涂改，未经用户明确确认原始最终选项，不据此认定错题或成绩。建议迁移辨析fade（能力、记忆力逐渐衰退 vs recover/collapse）、mental sharpness（思维敏锐度）vs mental stability；根据上下文memory and mental clarity进行词义推断。没有将照片订正字母当作真实Issue成绩。",
+    "note": "2014英语一完形：用户自述文章主线较易理解、整体表现较好，但部分词义辨析看答案仍难解释。2026-10-21进一步明确报告第14题原先把sharpness误记为‘可塑性’，因此没有选择正确选项A（sharpness）。正确：mental sharpness=思维敏锐度，呼应开头memory and mental clarity；plasticity才是可塑性；flexibility是灵活性。用户尚未确认第14题最终选项字母，不根据涂改笔迹猜测。第2题附近的订正痕迹同样不等于确认最终选项。应设计不同语境的sharp/acuity vs plasticity/flexibility辨析，而不是复现原句。纸质观察不计网页成绩或错误次数。",
     "session_id": "2026-10-20-2014-cloze-observation",
     "source_exam": "2014-english1",
-    "source_part": "Section I (Cloze)"
+    "source_part": "Section I (Cloze)",
+    "clarified_on": "2026-10-21",
+    "user_confirmed_reasoning": [
+      {
+        "question": 14,
+        "incorrect_association": "sharpness was remembered as 可塑性",
+        "consequence": "did not select sharpness",
+        "final_choice_letter_confirmed": false
+      }
+    ]
   },
   {
     "family": "relation-collocation",
     "date": "2026-10-20",
     "kind": "user_reported_confusion",
-    "note": "2014英语一完形：用户报告文章整体较能理解但部分选项解释仍不明白。照片第6、15、17题可见订正/涂改，原始选项未明确确认，不能标为真实错题。针对性解释固定结构It turns out that（结果发现）vs someone points out that（指出），allow sb. to（使某人能够）vs force sb. to（强迫），provide feedback on sth（针对……给反馈）而非with sth。应在不同语境考查句型和介词，不复用原题答案。",
+    "note": "2014英语一完形：2026-10-21用户进一步明确两条实际误解。第15题把forces理解成宽泛的中文‘让’，没有意识到force sb. to do含‘强迫’；allow sb. to do表示‘允许/使能够’。二者语法结构都成立，区别在施加意志的强制性，软件帮助改善记忆的语境适合allows（D）。第17题用户原意是用with构成介词短语后置修饰feedback；这一句法设想一般可成立，但语义搭配不成立：feedback on/about your performance是‘针对表现的反馈’，feedback with examples中的with只表示‘附有例子’，不能替代主题介词on（D）。本轮未明确确认第15、17题原先选定的字母，不推测或计分。第6题It turns out that与point out that的混淆曾在照片中疑似出现，但未获得明确原始选项，不记录为真实错题。后续在不同语境测试force/allow/enable及feedback on/with的结构语义。",
     "session_id": "2026-10-20-2014-cloze-observation",
     "source_exam": "2014-english1",
-    "source_part": "Section I (Cloze)"
+    "source_part": "Section I (Cloze)",
+    "clarified_on": "2026-10-21",
+    "user_confirmed_reasoning": [
+      {
+        "question": 15,
+        "incorrect_association": "forces interpreted as general 让, without force/compulsion",
+        "final_choice_letter_confirmed": false
+      },
+      {
+        "question": 17,
+        "incorrect_association": "with chosen conceptually as a postnominal modifier of feedback, disregarding topic/complement relation",
+        "final_choice_letter_confirmed": false
+      }
+    ]
   },
   {
     "family": "logic",
