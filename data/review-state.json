@@ -477,14 +477,14 @@
       "observation_priority": 0
     },
     "logic": {
-      "streak": 2,
+      "streak": 0,
       "errors": 0,
       "last": "2026-10-01",
-      "due": "2026-10-05",
+      "due": "2026-10-20",
       "slow_or_uncertain": false,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 2,
-      "observation_priority": 0
+      "observation_priority": 2
     },
     "negative-ellipsis-afford": {
       "streak": 0,

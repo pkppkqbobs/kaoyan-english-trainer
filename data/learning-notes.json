@@ -982,5 +982,32 @@
     "source_question": 45,
     "reported_pick": "A",
     "expected": "C"
+  },
+  {
+    "family": "familiar-word-polysemy",
+    "date": "2026-10-20",
+    "kind": "user_reported_confusion",
+    "note": "2014英语一完形：用户自述本篇逻辑、主题比此前容易读懂，因此做得相对好，但对部分错题即使看答案仍不明白为何选。照片的第2、第14题附近可见涂改，未经用户明确确认原始最终选项，不据此认定错题或成绩。建议迁移辨析fade（能力、记忆力逐渐衰退 vs recover/collapse）、mental sharpness（思维敏锐度）vs mental stability；根据上下文memory and mental clarity进行词义推断。没有将照片订正字母当作真实Issue成绩。",
+    "session_id": "2026-10-20-2014-cloze-observation",
+    "source_exam": "2014-english1",
+    "source_part": "Section I (Cloze)"
+  },
+  {
+    "family": "relation-collocation",
+    "date": "2026-10-20",
+    "kind": "user_reported_confusion",
+    "note": "2014英语一完形：用户报告文章整体较能理解但部分选项解释仍不明白。照片第6、15、17题可见订正/涂改，原始选项未明确确认，不能标为真实错题。针对性解释固定结构It turns out that（结果发现）vs someone points out that（指出），allow sb. to（使某人能够）vs force sb. to（强迫），provide feedback on sth（针对……给反馈）而非with sth。应在不同语境考查句型和介词，不复用原题答案。",
+    "session_id": "2026-10-20-2014-cloze-observation",
+    "source_exam": "2014-english1",
+    "source_part": "Section I (Cloze)"
+  },
+  {
+    "family": "logic",
+    "date": "2026-10-20",
+    "kind": "user_reported_confusion",
+    "note": "2014英语一完形第11题附近可见涂改，但没有用户亲口确认原始最终选项。用户表示本篇能读懂但有错项看解析后仍不清楚。需要针对inherited（部分先天遗传）与through effort and practice（努力练习可形成）间的转折，区分However（转折）和Moreover（并列补充），不只是识别两句的共同话题。该反馈仅作纸质练习学习观察，不新增网站作答、Issue成绩、错误次数或streak。",
+    "session_id": "2026-10-20-2014-cloze-observation",
+    "source_exam": "2014-english1",
+    "source_part": "Section I (Cloze)"
   }
 ]
