@@ -1036,7 +1036,7 @@
     "family": "conditions",
     "date": "2026-10-21",
     "kind": "user_reported_wrong",
-    "note": "2014英语一 Reading Text 1 第21题：用户明确报告先直接排除B、C，然后最终选A；本题正确选项B（encourage jobseekers' active engagement in job seeking）。不能臆测用户为何排除B或C，只有排除及最终选项经过确认。原文Only if the jobless...start looking for work will they be eligible for benefit是Only if倒装的必要条件：履行主动求职要求才有资格领津贴，不支持A的easier access to benefits；C的voluntarily也与每周报到的规定不符。注意把政策鼓励的目标（积极求职）与是否简化福利领取区分。纸质作答进入学习观察与后续调度，不生成网页成绩、Issues、错误计数或streak。",
+    "note": "2014英语一 Reading Text 1 第21题：用户明确报告先直接排除B、C，然后最终选A；本题正确选项B（encourage jobseekers' active engagement in job seeking）。不能臆测用户为何排除B或C，只有排除及最终选项经过确认。原文Only if the jobless...start looking for work will they be eligible for benefit是Only if倒装的必要条件：履行主动求职要求才有资格领津贴，不支持A的easier access to benefits；C的voluntarily也与每周报到的规定不符。注意把政策鼓励的目标（积极求职）与是否简化福利领取区分。纸质作答进入学习观察与后续调度，不生成网页成绩、Issues、错误计数或streak。 2026-10-21补充：用户说明自己第一段未读懂就继续向下，第二段把to sign on当成Osborne鼓励的好事，认为这是第21和第25题共同的前置错因；sign on在英国福利语境中指登记申领失业救济，not looking to sign on是Osborne不鼓励最初几天把精力放在办理福利上。应优先检验首段Only if倒装、第二段not的对比结构，而非简单认为用户不认识active engagement。具体为什么逐一排除B/C仍未说明。",
     "session_id": "2026-10-21-2014-text1",
     "source_exam": "2014-english1",
     "source_part": "Reading Text 1",
@@ -1047,13 +1047,20 @@
       "B",
       "C"
     ],
-    "reason_for_elimination_confirmed": false
+    "reason_for_elimination_confirmed": false,
+    "followup_clarification": {
+      "date": "2026-10-21",
+      "user_reported": "第一段没看懂，继续往下看；看到第二段to sign on，以为是Osborne所肯定的好事，因此影响第21、25题判断。",
+      "semantic_correction": "sign on在英国福利语境中是登记失业/申领失业救济，不是求职行为。Those first few days should be spent looking for work, not looking to sign on中not明确表达Osborne要求优先找工作，而非优先申领救济。",
+      "causal_hypothesis": "未理解首段Only if倒装资格条件，再误解第二段sign on的政策评价方向，导致对改革目的的判断偏离。用户尚未说明排除B与C时每个选项的独立理由，因此不可推定具体词汇不会。",
+      "training_priority": "Only if条件倒装、sign on福利制度含义、not连接对比和政策目标推断"
+    }
   },
   {
     "family": "author-stance",
     "date": "2026-10-21",
     "kind": "user_reported_wrong",
-    "note": "2014英语一 Reading Text 1 第25题：用户明确报告最先选D，后觉得B似乎也对，最终改选B；正确D（Unemployment benefits should not be made conditional）。不臆测用户改变选项的具体内心理由。原文Osborne声称方案helps those on benefits get into work faster，但那是被作者Help? Really?反问质疑的政策宣传；即便成立，缩短已失业者的求职时间也不等于B声称降低失业发生风险。作者后段批评从以国家保险缴费获得的应有失业保障变成有期限、附求职条件的allowance，支持D。训练必须区分引用主体立场与作者立场，及效果推断边界。保留初选D作为有效思路，最终选B才是纸质错题；不得虚构一条正确答题或网页数据。",
+    "note": "2014英语一 Reading Text 1 第25题：用户明确报告最先选D，后觉得B似乎也对，最终改选B；正确D（Unemployment benefits should not be made conditional）。不臆测用户改变选项的具体内心理由。原文Osborne声称方案helps those on benefits get into work faster，但那是被作者Help? Really?反问质疑的政策宣传；即便成立，缩短已失业者的求职时间也不等于B声称降低失业发生风险。作者后段批评从以国家保险缴费获得的应有失业保障变成有期限、附求职条件的allowance，支持D。训练必须区分引用主体立场与作者立场，及效果推断边界。保留初选D作为有效思路，最终选B才是纸质错题；不得虚构一条正确答题或网页数据。 2026-10-21补充：用户说第21、25题共同的误判源于第一段未读懂、第二段误把to sign on当成正面行为。应强调Osborne的主张和作者Help? Really?的反问在立场上不一致；保持对改选B时具体论证过程尚未充分确认的标记。",
     "session_id": "2026-10-21-2014-text1",
     "source_exam": "2014-english1",
     "source_part": "Reading Text 1",
@@ -1062,6 +1069,13 @@
     "expected": "D",
     "first_considered": "D",
     "user_stated_reason": "felt B was also correct",
-    "specific_reason_unconfirmed": true
+    "specific_reason_unconfirmed": true,
+    "followup_clarification": {
+      "date": "2026-10-21",
+      "user_reported": "第一段没读懂，第二段误以为to sign on是好事；用户明确认为这种理解导致第21和第25题错误。第25题最初D，后来觉得B也对而改选B。",
+      "semantic_correction": "These first days should be spent looking for work, not looking to sign on是Osborne的政策主张，sign on指登记申领失业救济；Help? Really?是作者对他所谓帮助失业者的质疑。",
+      "causal_hypothesis": "关键短语和否定关系误解可能连带模糊Osborne的主张与作者立场。不能断言用户确切如何推出B符合降低失业风险，已知仅为用户觉得B也合理。",
+      "training_priority": "人物立场归属、引用与反问、政策声称的帮助和作者认可之间区别、降低失业风险与缩短求职时间区别"
+    }
   }
 ]
