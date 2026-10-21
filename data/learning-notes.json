@@ -1031,5 +1031,37 @@
     "session_id": "2026-10-20-2014-cloze-observation",
     "source_exam": "2014-english1",
     "source_part": "Section I (Cloze)"
+  },
+  {
+    "family": "conditions",
+    "date": "2026-10-21",
+    "kind": "user_reported_wrong",
+    "note": "2014英语一 Reading Text 1 第21题：用户明确报告先直接排除B、C，然后最终选A；本题正确选项B（encourage jobseekers' active engagement in job seeking）。不能臆测用户为何排除B或C，只有排除及最终选项经过确认。原文Only if the jobless...start looking for work will they be eligible for benefit是Only if倒装的必要条件：履行主动求职要求才有资格领津贴，不支持A的easier access to benefits；C的voluntarily也与每周报到的规定不符。注意把政策鼓励的目标（积极求职）与是否简化福利领取区分。纸质作答进入学习观察与后续调度，不生成网页成绩、Issues、错误计数或streak。",
+    "session_id": "2026-10-21-2014-text1",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 1",
+    "source_question": 21,
+    "reported_pick": "A",
+    "expected": "B",
+    "reported_eliminations": [
+      "B",
+      "C"
+    ],
+    "reason_for_elimination_confirmed": false
+  },
+  {
+    "family": "author-stance",
+    "date": "2026-10-21",
+    "kind": "user_reported_wrong",
+    "note": "2014英语一 Reading Text 1 第25题：用户明确报告最先选D，后觉得B似乎也对，最终改选B；正确D（Unemployment benefits should not be made conditional）。不臆测用户改变选项的具体内心理由。原文Osborne声称方案helps those on benefits get into work faster，但那是被作者Help? Really?反问质疑的政策宣传；即便成立，缩短已失业者的求职时间也不等于B声称降低失业发生风险。作者后段批评从以国家保险缴费获得的应有失业保障变成有期限、附求职条件的allowance，支持D。训练必须区分引用主体立场与作者立场，及效果推断边界。保留初选D作为有效思路，最终选B才是纸质错题；不得虚构一条正确答题或网页数据。",
+    "session_id": "2026-10-21-2014-text1",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 1",
+    "source_question": 25,
+    "reported_pick": "B",
+    "expected": "D",
+    "first_considered": "D",
+    "user_stated_reason": "felt B was also correct",
+    "specific_reason_unconfirmed": true
   }
 ]

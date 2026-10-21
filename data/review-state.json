@@ -85,7 +85,7 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 1,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "belief-negation-clause": {
       "streak": 0,
@@ -273,9 +273,9 @@
       "last": null,
       "due": "2026-10-21",
       "slow_or_uncertain": false,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 0,
-      "observation_priority": 0
+      "observation_priority": 3
     },
     "constraint-language": {
       "streak": 0,
