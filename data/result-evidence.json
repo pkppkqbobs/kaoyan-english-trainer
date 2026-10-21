@@ -1821,6 +1821,94 @@
       "qid": "inference-boundary-archive-questions-b",
       "round_id": "mvgqts58-ein1jdju",
       "source_date": "2026-10-20"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 83213,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "summary-overall-midsection",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "text4-federal-state-boundary",
+      "ok": true,
+      "ms": 81642,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "text4-federal-field-b",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "text4-executive-overreach",
+      "ok": false,
+      "ms": 114051,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "text4-executive-overreach-a",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 147870,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "example-factory-reporting-measure-f",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "with",
+      "ok": true,
+      "ms": 22165,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "with-archive-loading-c",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "cloze-time-adverbs",
+      "ok": true,
+      "ms": 13581,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "cloze-adverb-research-b",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 18852,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "causal-role-direction-fitness-a",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-21",
+      "family": "text4-agreement-target",
+      "ok": true,
+      "ms": 36417,
+      "uncertain": false,
+      "origin": 24,
+      "qid": "text4-agreement-target-c",
+      "round_id": "mvi0ga2d-ssys18r0",
+      "source_date": "2026-10-21"
     }
   ],
   "issues": [
@@ -1846,6 +1934,7 @@
     20,
     21,
     22,
-    23
+    23,
+    24
   ]
 }
