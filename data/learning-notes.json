@@ -1052,8 +1052,21 @@
       "date": "2026-10-21",
       "user_reported": "第一段没看懂，继续往下看；看到第二段to sign on，以为是Osborne所肯定的好事，因此影响第21、25题判断。",
       "semantic_correction": "sign on在英国福利语境中是登记失业/申领失业救济，不是求职行为。Those first few days should be spent looking for work, not looking to sign on中not明确表达Osborne要求优先找工作，而非优先申领救济。",
-      "causal_hypothesis": "未理解首段Only if倒装资格条件，再误解第二段sign on的政策评价方向，导致对改革目的的判断偏离。用户尚未说明排除B与C时每个选项的独立理由，因此不可推定具体词汇不会。",
-      "training_priority": "Only if条件倒装、sign on福利制度含义、not连接对比和政策目标推断"
+      "causal_hypothesis": "User now explicitly confirms the central misunderstanding: while reading, they mixed up who did what and understood Osborne's reform as making unemployment benefits easier to obtain. Misread sign on and the Only if eligibility condition contributed to reversal of the scheme's purpose. Do not treat this as generic inability to understand the whole text.",
+      "training_priority": "actor→action→object tracking; condition (Only if...) vs intended policy goal; Osborne's claim vs author's response; sign on and 'not'"
+    },
+    "subject_action_clarification": {
+      "date": "2026-10-21",
+      "direct_user_explanation": "我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。",
+      "error_mechanism": "Confused actor-action-goal/condition: mistook Osborne's policy requiring concrete job-seeking actions as a scheme making benefit collection easier. The user can follow text overall but misassigned what the reform does and whom its conditions constrain; this is not primarily missing the meaning of active engagement.",
+      "correct_mapping": [
+        "George Osborne introduced a scheme imposing more active job-seeking requirements.",
+        "Jobseekers must arrive with a CV, register for online search and begin seeking work to qualify for benefit; they report weekly rather than fortnightly.",
+        "Osborne claimed this would keep some people off benefits and help current recipients find work faster.",
+        "The author challenges Osborne's characterization and criticizes conditional benefits."
+      ],
+      "training_target": "For each policy sentence identify subject/action/object and separate goal from eligibility condition; explicitly parse only if + inverted will they be eligible; distinguish facilitating access from conditioning access.",
+      "status": "user-confirmed root-cause refinement, not a new attempt"
     }
   },
   {
@@ -1076,6 +1089,13 @@
       "semantic_correction": "These first days should be spent looking for work, not looking to sign on是Osborne的政策主张，sign on指登记申领失业救济；Help? Really?是作者对他所谓帮助失业者的质疑。",
       "causal_hypothesis": "关键短语和否定关系误解可能连带模糊Osborne的主张与作者立场。不能断言用户确切如何推出B符合降低失业风险，已知仅为用户觉得B也合理。",
       "training_priority": "人物立场归属、引用与反问、政策声称的帮助和作者认可之间区别、降低失业风险与缩短求职时间区别"
+    },
+    "subject_action_clarification": {
+      "date": "2026-10-21",
+      "direct_user_explanation": "认为George改革方便申领失业救济，且明确说理解主语和行为关系搞混了。",
+      "carryover": "This misconstrual likely colored the user's evaluation of both 21 and 25, but the user has not established a full item-by-item rationale for changing D to B on Q25. Preserve that uncertainty.",
+      "training_target": "Track whose view is quoted (Osborne) versus evaluated (the author), and whether the policy makes benefits easier, imposes conditions, or purports to speed reemployment.",
+      "status": "shared-root-cause clarification, no independent new wrong attempt"
     }
   }
 ]
