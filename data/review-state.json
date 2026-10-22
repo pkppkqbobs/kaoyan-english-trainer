@@ -776,7 +776,7 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 0,
-      "observation_priority": 0.25
+      "observation_priority": 1
     },
     "text3-boxed-vocab": {
       "streak": 0,

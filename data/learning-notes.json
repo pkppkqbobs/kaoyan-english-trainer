@@ -1112,5 +1112,49 @@
     "likely_distractor_mechanism": "A's higher has no explicit comparative tuition evidence; exact personal reasoning unconfirmed",
     "answer_from_verified_key": "C",
     "scoring_policy": "paper reading observation only; do not count as incorrect attempt, online issue, repeat exposure, or streak"
+  },
+  {
+    "family": "text2-boxed-vocab",
+    "date": "2026-10-22",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 2",
+    "session_id": "2026-10-22-2014-text2-reading-observation",
+    "source_spans": [
+      "complaint",
+      "nuisance-lawsuit",
+      "tort"
+    ],
+    "note": "2014英语一Text 2画框翻译困难（只记录框线，不能把画横线当翻译难点）：complaint出现在grounds for complaint里，整组是有理由抱怨/申诉，不是物理的grounds；nuisance-lawsuit需要连filer理解为提起滋扰性、缺乏合理依据诉讼的人/滥诉者，而非任何普通诉讼；tort system是侵权法或侵权诉讼体系（民事侵权语境）。连接整句：部分法学院毕业生未进入大律所，却成了频繁提出滋扰诉讼的人，使侵权诉讼体系耗费巨大。三个框词是用户报告的翻译困难，不是已确认纸质选错项，更不算网页Issue答题。"
+  },
+  {
+    "family": "text2-boxed-vocab",
+    "date": "2026-10-22",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 2",
+    "session_id": "2026-10-22-2014-text2-reading-observation",
+    "source_spans": [
+      "skyscrapers-full"
+    ],
+    "review_importance": "low",
+    "note": "2014英语一Text 2清晰画框的skyscrapers-full（原文made skyscrapers-full of money）是形象夸张表达：赚了摩天大楼一般多的钱，即收入极丰厚。不是实际有摩天大楼。词组表达一方面与花费越来越高相呼应，后文却转折为大多数法律毕业生得不到大律所职位。只作为翻译障碍低频轮换，不把周围下划线的twice as fast as inflation、pile into law schools等额外登记成翻译困难。"
+  },
+  {
+    "family": "text2-boxed-vocab",
+    "date": "2026-10-22",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 2",
+    "session_id": "2026-10-22-2014-text2-reading-observation",
+    "source_spans": [
+      "sensible",
+      "too conservative to",
+      "regulators"
+    ],
+    "note": "2014英语一Text 2清晰画框词句：sensible ideas=明智/合理且可行的改革建议（不能混淆sensitive）；too conservative to implement them=过于保守以至于不肯/无法落实它们，too...to...表程度导致无法做某事，them指前文sensible ideas；regulators=行业监管者/监管机构人员，在opponents of change among the regulators insist...中限定为监管者中反对改革的部分人，insist引出的理由是这些反对者的主张，不能当作作者认同。其它仅下划线标出的restrictive guild-like ownership structure、on top of、professional managers等不登记为画框翻译困难。"
   }
 ]
