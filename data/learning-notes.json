@@ -1106,12 +1106,20 @@
     "source_exam": "2014-english1",
     "source_part": "Reading Text 2",
     "source_question": 27,
-    "note": "2014英语一Text 2 第27题（法律教育成本）。用户报告整篇总体较易理解，但核对答案后仍认为A Higher tuition fees for undergraduate studies看起来更合理，不清楚为什么标准答案是C Pursuing a bachelor's degree in another major。原文第三段明示取得法律职业资格前须先有a four-year undergraduate degree in some unrelated subject，再读a three-year law degree并支付昂贵的资格考试准备成本；C中的another major对应unrelated subject。这不是再多读第二个本科学位。A中的Higher增加了原文未支持的比较级‘本科学费更高/上涨’；undergraduate debts只能支持存在本科阶段负债，不能推出学费上涨或比别处更贵。训练目标：区分原文明确要求的额外培养阶段/费用与‘higher fees’无证据的比较；识别选项中没有证据的形容词或比较限定，并保持先行内容及题干对象的精确对应。照片存在不同标记，但用户未明确确认第27题最终提交选项，不能从笔迹猜测，也不能记为正式错题或GitHub Issue成绩。",
-    "user_reported_reasoning": "觉得第27题A仍然比C合理，暂未说明为什么排除C或把A看得更合适",
+    "note": "2014英语一Text 2 第27题最新确认的核心错因：用户把a four-year undergraduate degree in some unrelated subject理解成‘法律本科中上四年无关紧要的水课’，导致没识别出原文明确说先在一个与法律无关的学科读四年本科，再读三年法律学位。some unrelated subject里的subject指学科/专业，unrelated指与法律无关，而非不重要的课程；in...修饰undergraduate degree；then引出下一教育阶段。正确C（Pursuing a bachelor's degree in another major）对应四年其他学科本科的额外阶段，不表示再额外读第二个本科。用户原先认为A（Higher tuition fees for undergraduate studies）更合理；A的higher没有与本科学费上涨/更贵对应的原文证据，但这不是用户本次亲自确认的核心推理错误。纸质练习的第27题最终作答字母未口头明确确认，不从试卷笔迹猜测，也不计正式错误次数或Issue成绩。后续优先通过不同专业培养路径语境训练subject/degree/course、unrelated to、then时序及精确改写。",
+    "user_reported_reasoning": "用户现已明确说明：把原文some unrelated subject误以为‘法律本科里上四年水课’，因此没有识别出它讲的是先修其他学科四年本科、再读三年法律专业学位。曾认为27题A合理，但未明确确认最终提交字母，不可推断具体卷面答案。",
     "final_choice_letter_confirmed": false,
-    "likely_distractor_mechanism": "A's higher has no explicit comparative tuition evidence; exact personal reasoning unconfirmed",
+    "likely_distractor_mechanism": "已确认首要错误来自unrelated subject词组和两个学位阶段的结构误读，而非单纯凭常识认为Higher tuition必然成立。A中的higher缺少原文依据仍是需要辨析的次要错误线索。",
     "answer_from_verified_key": "C",
-    "scoring_policy": "paper reading observation only; do not count as incorrect attempt, online issue, repeat exposure, or streak"
+    "scoring_policy": "paper reading observation only; do not count as incorrect attempt, online issue, repeat exposure, or streak",
+    "understanding_clarification": {
+      "date": "2026-10-22",
+      "user_words": "我27理解错了，我看那个some unrelated subject还以为是法律本科但上四年水课的意思",
+      "confirmed_root_cause": "将in some unrelated subject（修饰a four-year undergraduate degree，指与法律无关的本科专业）误读成法律本科学位内部无关紧要的课程，并因此没有分清four-year undergraduate degree与then a three-year law degree是先后两个完整教育阶段。",
+      "meaning": "subject此处为学科/本科专业，而非一门随便上的课；unrelated相对于law专业，表示学科领域无关，不表示无关紧要的水课；then明确标出其后另一个阶段。C another major为原文unrelated subject的对应改写。",
+      "training_focus": "academic qualification/degree vs subject vs individual course；in + academic subject修饰degree；then表两个阶段的顺序；先建立真实原文培养路径再做同义替换，避免凭常识猜A的higher。",
+      "score_handling": "纸质真题明确的理解困难更新；不擅自确认最终选项字母，不生成Issue或错误次数。"
+    }
   },
   {
     "family": "text2-boxed-vocab",
