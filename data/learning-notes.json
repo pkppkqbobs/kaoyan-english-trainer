@@ -1097,5 +1097,20 @@
       "training_target": "Track whose view is quoted (Osborne) versus evaluated (the author), and whether the policy makes benefits easier, imposes conditions, or purports to speed reemployment.",
       "status": "shared-root-cause clarification, no independent new wrong attempt"
     }
+  },
+  {
+    "family": "inference-boundary",
+    "date": "2026-10-22",
+    "kind": "user_reported_confusion",
+    "session_id": "2026-10-22-2014-text2-reading-observation",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 2",
+    "source_question": 27,
+    "note": "2014英语一Text 2 第27题（法律教育成本）。用户报告整篇总体较易理解，但核对答案后仍认为A Higher tuition fees for undergraduate studies看起来更合理，不清楚为什么标准答案是C Pursuing a bachelor's degree in another major。原文第三段明示取得法律职业资格前须先有a four-year undergraduate degree in some unrelated subject，再读a three-year law degree并支付昂贵的资格考试准备成本；C中的another major对应unrelated subject。这不是再多读第二个本科学位。A中的Higher增加了原文未支持的比较级‘本科学费更高/上涨’；undergraduate debts只能支持存在本科阶段负债，不能推出学费上涨或比别处更贵。训练目标：区分原文明确要求的额外培养阶段/费用与‘higher fees’无证据的比较；识别选项中没有证据的形容词或比较限定，并保持先行内容及题干对象的精确对应。照片存在不同标记，但用户未明确确认第27题最终提交选项，不能从笔迹猜测，也不能记为正式错题或GitHub Issue成绩。",
+    "user_reported_reasoning": "觉得第27题A仍然比C合理，暂未说明为什么排除C或把A看得更合适",
+    "final_choice_letter_confirmed": false,
+    "likely_distractor_mechanism": "A's higher has no explicit comparative tuition evidence; exact personal reasoning unconfirmed",
+    "answer_from_verified_key": "C",
+    "scoring_policy": "paper reading observation only; do not count as incorrect attempt, online issue, repeat exposure, or streak"
   }
 ]
