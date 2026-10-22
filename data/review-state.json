@@ -24,7 +24,8 @@
     21,
     22,
     23,
-    24
+    24,
+    25
   ],
   "families": {
     "absolute-language": {
@@ -80,11 +81,11 @@
     "author-stance": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-22",
+      "due": "2026-10-22",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "belief-negation-clause": {
@@ -349,12 +350,12 @@
     },
     "example-claim-scope": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-10-21",
+      "errors": 3,
+      "last": "2026-10-22",
       "due": "2026-10-22",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 10,
+      "observed_days": 11,
       "observation_priority": 2
     },
     "expectation-contrast": {
@@ -368,13 +369,13 @@
       "observation_priority": 2
     },
     "faint": {
-      "streak": 2,
+      "streak": 3,
       "errors": 1,
-      "last": "2026-10-04",
-      "due": "2026-10-08",
+      "last": "2026-10-22",
+      "due": "2026-10-29",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 0
     },
     "familiar-word-polysemy": {
@@ -619,12 +620,12 @@
     },
     "reference": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-10-20",
-      "due": "2026-10-21",
+      "errors": 3,
+      "last": "2026-10-22",
+      "due": "2026-10-23",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 11,
+      "observed_days": 12,
       "observation_priority": 0
     },
     "relation-collocation": {
@@ -638,13 +639,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 3,
+      "streak": 4,
       "errors": 1,
-      "last": "2026-10-19",
-      "due": "2026-10-26",
+      "last": "2026-10-22",
+      "due": "2026-11-05",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 8,
+      "observed_days": 9,
       "observation_priority": 0
     },
     "remote": {
@@ -740,11 +741,11 @@
     "summary-location": {
       "streak": 0,
       "errors": 3,
-      "last": "2026-10-21",
-      "due": "2026-10-22",
+      "last": "2026-10-22",
+      "due": "2026-10-23",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 0
     },
     "take-page-from": {
@@ -840,11 +841,11 @@
     "text4-executive-overreach": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-10-21",
+      "last": "2026-10-22",
       "due": "2026-10-22",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "text4-federal-state-boundary": {
@@ -859,12 +860,12 @@
     },
     "text4-historical-inference": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-10-20",
-      "due": "2026-10-21",
+      "errors": 2,
+      "last": "2026-10-22",
+      "due": "2026-10-22",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "title-coverage": {

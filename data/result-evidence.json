@@ -1909,6 +1909,94 @@
       "qid": "text4-agreement-target-c",
       "round_id": "mvi0ga2d-ssys18r0",
       "source_date": "2026-10-21"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "text4-historical-inference",
+      "ok": false,
+      "ms": 70674,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "text4-state-privileges-b",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "reference",
+      "ok": false,
+      "ms": 26043,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "reference-radio-failures",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 66051,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "text4-executive-overreach-c",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "faint",
+      "ok": true,
+      "ms": 28524,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "legacy-faint-praise",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "example-claim-scope",
+      "ok": false,
+      "ms": 86656,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "example-factory-reporting-measure-d",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "author-stance",
+      "ok": true,
+      "ms": 18847,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "author-stance-recall-a",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 84313,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "summary-current-and-follow-up",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-22",
+      "family": "relative",
+      "ok": true,
+      "ms": 5947,
+      "uncertain": false,
+      "origin": 25,
+      "qid": "legacy-which",
+      "round_id": "mvjfdlxp-p7apw021",
+      "source_date": "2026-10-22"
     }
   ],
   "issues": [
@@ -1935,6 +2023,7 @@
     21,
     22,
     23,
-    24
+    24,
+    25
   ]
 }
