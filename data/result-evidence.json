@@ -1997,6 +1997,94 @@
       "qid": "legacy-which",
       "round_id": "mvjfdlxp-p7apw021",
       "source_date": "2026-10-22"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "reference",
+      "ok": true,
+      "ms": 33522,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "reference-return-rules",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 44159,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "causal-role-direction-travel-b",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 50370,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "example-museum-hours-transport-c",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "paragraph-scope-attitude",
+      "ok": true,
+      "ms": 118850,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "paragraph-scope-health-campaign-b",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "tone",
+      "ok": true,
+      "ms": 14311,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "tone-recovery-physio",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 80327,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "text4-agency-inaction-d",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 72948,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "text4-state-privileges-a",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-23",
+      "family": "nested",
+      "ok": true,
+      "ms": 7856,
+      "uncertain": false,
+      "origin": 26,
+      "qid": "nested-shared-gate",
+      "round_id": "mvkuel5x-u6mmtn6d",
+      "source_date": "2026-10-23"
     }
   ],
   "issues": [
@@ -2024,6 +2112,7 @@
     22,
     23,
     24,
-    25
+    25,
+    26
   ]
 }
