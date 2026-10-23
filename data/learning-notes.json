@@ -1164,5 +1164,38 @@
       "regulators"
     ],
     "note": "2014英语一Text 2清晰画框词句：sensible ideas=明智/合理且可行的改革建议（不能混淆sensitive）；too conservative to implement them=过于保守以至于不肯/无法落实它们，too...to...表程度导致无法做某事，them指前文sensible ideas；regulators=行业监管者/监管机构人员，在opponents of change among the regulators insist...中限定为监管者中反对改革的部分人，insist引出的理由是这些反对者的主张，不能当作作者认同。其它仅下划线标出的restrictive guild-like ownership structure、on top of、professional managers等不登记为画框翻译困难。"
+  },
+  {
+    "family": "author-stance",
+    "date": "2026-10-23",
+    "kind": "user_reported_wrong",
+    "session_id": "2026-10-23-2014-text3",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 3",
+    "source_question": 32,
+    "reported_pick": "A",
+    "expected": "B",
+    "user_reported_reasoning": "用户明确说第32题感觉A，能排除C、D，但第二段反复读仍没太读懂；没有进一步说明为什么在A、B间更倾向A。",
+    "note": "2014英语一Text 3第32题：用户最终序列DABAA，Q32选A the profit-oriented scientists，正确B the founders of the new awards。第二段批评者原话是The new awards are an exercise in self-promotion for those behind them；those behind them指创办/推动这些奖项的人，即founders，而不是获奖的逐利科学家。文章后续说they could distort the achievement-based system of peer-review-led research、do not fund peer-reviewed research、perpetuate the myth of the lone genius，都是批评这些奖项机制的理由。用户表示第二段没读懂且Q32排除了C/D，但A/B间的具体思路未明确；不能臆造为词汇不懂。重点训练批评对象、代词回指those behind them、奖项创办者与潜在获奖研究人员的角色区分。",
+    "final_choice_letter_confirmed": true,
+    "paper_attempt": true,
+    "scoring_policy": "Paper true-answer observation only; not a web Issue, no online result row or streak."
+  },
+  {
+    "family": "inference-boundary",
+    "date": "2026-10-23",
+    "kind": "correct_but_uncertain",
+    "session_id": "2026-10-23-2014-text3",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 3",
+    "source_question": 33,
+    "first_considered": "A",
+    "reported_pick": "B",
+    "expected": "B",
+    "user_reported_reasoning": "用户认为A、B差不多，觉得B可能是A的特定范围，因为诺奖每项最多三人领奖；最初几乎写成DAAAA，最后改为DABAA。",
+    "note": "2014英语一Text 3第33题：用户先在A controversies over the recipients' status和B the joint effort of modern researchers间犹豫，最终从A改选B，改选正确。原文逻辑是Nobel Foundation每项奖最多三名且必须仍在世的获奖者这一规则，早已不适配现代研究的协作性质（collaborative nature of modern research）；Higgs boson的例子将会引发对谁被忽略、谁得到承认的争议。B描述根本背景/研究方式：现代科学是多人协作；A描述这一背景与获奖人数限制冲突后产生的署名/认可争议。A并不是B的上位概念，B也不是A的特定范围：它们是成因背景与后果/争议两个不同维度。用户的类属关系误判尚需用新语境迁移题验证。虽然最终答对，但明确不确定，记作paper correct-but-uncertain，不计正式网页成绩或streak。",
+    "final_choice_letter_confirmed": true,
+    "paper_attempt": true,
+    "scoring_policy": "Paper true-answer observation only; no fabricated web result, no score import."
   }
 ]
