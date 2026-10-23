@@ -1197,5 +1197,66 @@
     "final_choice_letter_confirmed": true,
     "paper_attempt": true,
     "scoring_policy": "Paper true-answer observation only; no fabricated web result, no score import."
+  },
+  {
+    "family": "text3-boxed-vocab",
+    "date": "2026-10-23",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 3",
+    "session_id": "2026-10-23-2014-text3",
+    "source_spans": [
+      "a string of",
+      "benefactors",
+      "upstart",
+      "distort"
+    ],
+    "note": "只按2014英语一Text 3照片里明确框起来的内容登记为翻译困难，不把横线内容混进来。a string of = 一系列、许多（a string of lucrative awards=一系列奖金丰厚的奖项）；benefactors=资助者/捐助者，指资助新奖项的互联网企业家，注意不是beneficiaries（受益者）；upstart（常带贬义）=暴发户、新贵、突然冒起的人，upstart entrepreneurs=新贵企业家；distort=扭曲、歪曲，distort the achievement-based system=扭曲以成果为基础的评价体系。"
+  },
+  {
+    "family": "text3-boxed-vocab",
+    "date": "2026-10-23",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 3",
+    "session_id": "2026-10-23-2014-text3",
+    "source_spans": [
+      "peer-review-led",
+      "cement",
+      "scattered"
+    ],
+    "note": "只记录框词。peer-review-led=由同行评审主导的（科研体系）；不要只逐词翻译peer/review/led，而要理解它说明研究评价机制。cement作动词是巩固、使固定下来，cement the status quo=使现状固化/巩固现状。scattered本义分散的；the goals ... seem as scattered as the criticism=设奖者的目标像批评意见一样五花八门、分散不一，并非物理散落。"
+  },
+  {
+    "family": "text3-boxed-vocab",
+    "date": "2026-10-23",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 3",
+    "session_id": "2026-10-23-2014-text3",
+    "source_spans": [
+      "unrepresentative",
+      "outgrown",
+      "row"
+    ],
+    "note": "只记录框词。unrepresentative=不能代表整体的、不具代表性的；takes an unrepresentative view of what the life sciences include=对生命科学范围的理解/呈现不全面，不能代表该领域整体。outgrown在has long been outgrown by the collaborative nature of modern research中表示旧规则已被现代协作科研的发展超越、变得不再适用；limit of three recipients has long been outgrown=每项最多三名获奖者的限制早已跟不上现代科研的协作性质。row在英式英语里可表示争吵、争议（此处读/raʊ/），the inevitable row over who is ignored=围绕谁被忽略而不可避免的争议，不是座位排/一排。"
+  },
+  {
+    "family": "familiar-word-polysemy",
+    "date": "2026-10-23",
+    "kind": "user_reported_confusion",
+    "mark_type": "explicit-question",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 3",
+    "session_id": "2026-10-23-2014-text3",
+    "source_spans": [
+      "exercise in self-promotion",
+      "myth of the lone genius",
+      "perpetuate the myth"
+    ],
+    "note": "用户直接询问exercise、myth、perpetuate的词义；此记录源自用户明确提问，不根据横线推断为画框。exercise in self-promotion=一种自我宣传行为/做法；exercise在该结构中不是单独等于method/means。myth在此是广泛流传但不准确的观念/迷思，不是mystery（神秘/谜团）。perpetuate=使某种情况或观念持续/延续，perpetuate the myth=让这种迷思继续流传，并不一定指永远存在。"
   }
 ]
