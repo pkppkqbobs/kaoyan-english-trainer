@@ -1258,5 +1258,44 @@
       "perpetuate the myth"
     ],
     "note": "用户直接询问exercise、myth、perpetuate的词义；此记录源自用户明确提问，不根据横线推断为画框。exercise in self-promotion=一种自我宣传行为/做法；exercise在该结构中不是单独等于method/means。myth在此是广泛流传但不准确的观念/迷思，不是mystery（神秘/谜团）。perpetuate=使某种情况或观念持续/延续，perpetuate the myth=让这种迷思继续流传，并不一定指永远存在。"
+  },
+  {
+    "family": "author-stance",
+    "date": "2026-10-24",
+    "kind": "user_reported_wrong",
+    "session_id": "2026-10-24-2014-text4",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 4",
+    "source_question": 36,
+    "reported_pick": "B",
+    "expected": "A",
+    "user_reported_reasoning": "用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。",
+    "note": "2014英语一Text 4第36题：作者对AAAS《The Heart of the Matter》报告的态度，正确A Critical，用户明确选择B Appreciative，原因是抓住首句deserves praise的局部肯定，却漏掉紧接的Regrettably, however和report's failure to address the true nature of the crisis ... may cause more harm than good。作者肯定报告重视人文社科，但对报告未触及博雅/通识教育危机根源、可能弊大于利提出批评。用户还报告全文理解较差，概括为‘自由教育好像没有成功’；应纠正为作者批评高校通识教育陷入思想偏向，且认为AAAS报告忽略了这个问题，并非否定liberal education自身价值。重点练习局部褒扬vs总体批评、转折权重、谁/什么是被评价对象。纸质作答只作为学习观察，不生成或修改真实网页Issue、错误次数及跨日streak。",
+    "final_choice_letter_confirmed": true,
+    "paper_attempt": true,
+    "scoring_policy": "Paper reported wrong answer only; no fabricated online Issue or score row."
+  },
+  {
+    "family": "inference-boundary",
+    "date": "2026-10-24",
+    "kind": "user_reported_confusion",
+    "session_id": "2026-10-24-2014-text4",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 4",
+    "source_question": 38,
+    "candidate_choices": [
+      "A",
+      "C"
+    ],
+    "eliminated_choices": [
+      "B",
+      "D"
+    ],
+    "expected": "C",
+    "final_choice_letter_confirmed": false,
+    "user_reported_reasoning": "用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。",
+    "note": "2014英语一Text 4第38题：用户明确表示能排除B/D，在A an exclusive study of American history与C the application of emerging technologies之间犹豫，未确认最终选项，不能计真实错题。段3原文stresses the study of history and government, particularly American history and American government只强调特别重视美国史及美国政府，并非exclusive（仅限于）；而encourages the use of new digital technologies与C的application of emerging technologies精确同义。训练重点：particularly/especially与exclusive/only的限定强度；use→application、new→emerging语义映射；不能因为两项都与文中主题相关就忽略额外限定。另需区别报告的政策建议（第3段）和作者对报告的批评（第4—6段）。作为纸质理解犹豫，不写Issue成绩或streak。",
+    "paper_attempt": true,
+    "scoring_policy": "Paper uncertainty and explicitly reported eliminations, no scored answer or web attempt."
   }
 ]
