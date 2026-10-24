@@ -1,0 +1,51 @@
+# 考研英语一跨对话交接
+
+数据截至 2026-10-24；仅索引已同步到仓库的证据。
+[仓库](https://github.com/pkppkqbobs/kaoyan-english-trainer) · [每日8题](https://pkppkqbobs.github.io/kaoyan-english-trainer/today.html) · [文章复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-review.html) · [历史复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html)
+
+## 接续规则
+
+普通对话负责解题与错因分析，Work负责GitHub写入、测试、Actions与Pages验收。先读取本摘要，必要时回查原记录；它不替代证据。
+画框只表示翻译困难，横线只表示认为重要；未确认的最终选项保持未知。纸质错题、答对犹豫和理解困惑只影响观察与后续训练，不是网页主测。
+原始Issue、首次选择、当天锁定8题、历史快照、localStorage与storageId均须保留。不从未同步的聊天、照片或本地未提交作答补造成绩。
+
+## 已核验网页进度
+
+最近已接受的完整daily：题单日期2026-10-24，[Issue #27](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/27)，8/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
+当前题单日期：2026-10-24；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
+网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
+旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
+
+## 最近纸质学习阶段
+
+- 2026-10-24｜2014 英语一 Text 4：Q36 自述错题：B；参考A（待来源核对）。用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 后续补充（不倒推首次原因）：用户问“regrettably是后悔的意思吗”；应区分regret（后悔/遗憾）与句子副词regrettably（遗憾的是/可惜的是）。Regrettably, however在此用于引出对报告的批评… Q38 理解困惑：最终选项未确认；参考C（待来源核对）。用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。 后续补充（不倒推首次原因）：用户亲口说明自己把A选项an exclusive study of American history中的exclusive study译成“广泛地学习”。词义根因是将exclusive（排他的、仅限于… 画框翻译：interpretation、presupposes。 尚无对应article session；不因此遗漏观察。
+- 2026-10-23｜2014 英语一 Text 3：Q32 自述错题：A；参考B（待来源核对）。用户明确说第32题感觉A，能排除C、D，但第二段反复读仍没太读懂；没有进一步说明为什么在A、B间更倾向A。 Q33 答对但犹豫：先考虑A→B；参考B（待来源核对）。用户认为A、B差不多，觉得B可能是A的特定范围，因为诺奖每项最多三人领奖；最初几乎写成DAAAA，最后改为DABAA。 画框翻译：a string of、benefactors、cement、distort、outgrown、peer-review-led等。 尚无对应article session；不因此遗漏观察。
+- 2026-10-22｜2014 英语一 Text 2：Q27 理解困惑：最终选项未确认；参考C（待来源核对）。用户现已明确说明：把原文some unrelated subject误以为‘法律本科里上四年水课’，因此没有识别出它讲的是先修其他学科四年本科、再读三年法律专业学位。曾认为27题A… 画框翻译：complaint、nuisance-lawsuit、regulators、sensible、skyscrapers-full、too conservative to等。 尚无对应article session；不因此遗漏观察。
+- 2026-10-21｜2014 英语一 Text 1：Q21 自述错题：A；参考B（待来源核对）。我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。 Q25 自述错题：先考虑D→B；参考D（待来源核对）。认为George改革方便申领失业救济，且明确说理解主语和行为关系搞混了。 尚无对应article session；不因此遗漏观察。
+- 2026-10-21｜2014 英语一 Section I (Cloze)：Q14 理解困惑：最终选项未确认。2014英语一完形：用户自述文章主线较易理解、整体表现较好，但部分词义辨析看答案仍难解释。2026-10-21进一步明确报告第14题原先把sharpness误记为‘可塑性’，因此没… Q15/Q17 理解困惑：最终选项未确认。2014英语一完形：2026-10-21用户进一步明确两条实际误解。第15题把forces理解成宽泛的中文‘让’，没有意识到force sb. to do含‘强迫’；allow s… 尚无对应article session；不因此遗漏观察。
+
+## 当前优先机制
+
+以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
+- 作者态度、评价对象与转折（author-stance、viewpoint-fact）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
+- 选项范围与额外限定（inference-boundary、text4-historical-inference）：用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。 网页错误数/streak单列于JSON。
+- 主语—动作—对象与政策条件（conditions、text4-executive-overreach）：我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（familiar-word-polysemy、text4-boxed-vocab）：用户直接询问exercise、myth、perpetuate的词义；此记录源自用户明确提问，不根据横线推断为画框。exercise in self-promotion=一种自我宣传… 网页错误数/streak单列于JSON。
+- Part B 指代与前后衔接（paragraph-order-discourse、paragraph-order-anaphora）：2013英语一Part B七选五第45空：用户明确确认选A（It could be that we are evolving two communities of social s… 网页错误数/streak单列于JSON。
+
+## 待确认
+
+- 2014 英语一 Text 4 Q38：最终选项未确认。
+- 2014 英语一 Text 2 Q27：最终选项未确认。
+- 2014 英语一 Text 1 Q25：具体改选推理尚未完全确认。
+- 2014 英语一 Section I (Cloze) Q17：最终选项未确认。
+- 2014 英语一 Section I (Cloze) Q15：最终选项未确认。
+- 2014 英语一 Section I (Cloze) Q14：最终选项未确认。
+- 2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对。
+
+## 下一对话怎么继续
+
+先围绕最近一篇的真实误读，核对主语、动作、评价对象、转折和选项新增限定；再用少量不同语境题检验，避免复读原文或凭选项长度猜答案。
+若用户补充新照片或最终选项，先核验来源，再交给Work更新观察；需要新文章轮次时另建session，不能覆盖旧轮或当天daily。未同步材料不会自动出现在本摘要中。
+追溯：`data/learning-notes.json`（按日期/篇目/题号及JSON中的note指纹定位）；`data/result-evidence.json`与对应Issue（网页成绩）；`data/review-state.json`（掌握度）；`data/days/`、`data/article-reviews/`（题单）；`data/source-checks/`（答案核验）。
+机器索引：[`data/session-handoff.json`](data/session-handoff.json)。同输入重复生成无差异；摘要本身不参与评分、选题或曝光统计。

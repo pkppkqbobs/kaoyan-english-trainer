@@ -66,9 +66,11 @@ jobs:
         run: python3 scripts/article_review.py
       - name: Build independent Part B training and history
         run: python3 scripts/partb_review.py
+      - name: Build synchronized session handoff
+        run: python3 scripts/build_session_handoff.py
       - name: Preserve generated daily history
         run: |
-          git add -- today.html data archive
+          git add -- today.html data archive SESSION_HANDOFF.md
           if [ -f article-review.html ]; then git add -- article-review*.html; fi
           if [ -f partb-review.html ]; then git add -- partb-review.html partb-history.html; fi
           if ! git diff --cached --quiet; then

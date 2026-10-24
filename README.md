@@ -21,6 +21,13 @@ Part B：[排序训练](partb-review.html) · [历史与统计](partb-history.ht
 每日/文章复盘约定见 [DAILY_REVIEW.md](DAILY_REVIEW.md)。
 题库语境覆盖、曝光口径与维护审计见 [QUESTION_BANK_AUDIT.md](QUESTION_BANK_AUDIT.md)。
 
+## 跨对话交接
+
+新对话先读 [SESSION_HANDOFF.md](SESSION_HANDOFF.md)，需要逐项追溯时读取
+[data/session-handoff.json](data/session-handoff.json) 和其中标出的原始记录。
+摘要在现有 Actions 同步成绩、生成文章与 Part B 后自动更新，只索引已同步的学习观察和已接受主测；
+不能读取尚未交给 Work 的聊天、照片或未提交的浏览器作答。日常对话负责教学，Work负责仓库维护、测试与部署验收。
+
 ## 成绩自动回流（可选）
 
 每日 8 题和文章专项复盘可在完成主测时自动创建 GitHub Issue，避免每次手动打开 GitHub 表单。
