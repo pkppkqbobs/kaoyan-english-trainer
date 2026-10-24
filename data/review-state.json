@@ -26,7 +26,8 @@
     23,
     24,
     25,
-    26
+    26,
+    27
   ],
   "families": {
     "absolute-language": {
@@ -352,11 +353,11 @@
     "example-claim-scope": {
       "streak": 0,
       "errors": 3,
-      "last": "2026-10-23",
+      "last": "2026-10-24",
       "due": "2026-10-24",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 12,
+      "observed_days": 13,
       "observation_priority": 2
     },
     "expectation-contrast": {
@@ -500,13 +501,13 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 3,
+      "streak": 4,
       "errors": 1,
-      "last": "2026-10-23",
-      "due": "2026-10-30",
+      "last": "2026-10-24",
+      "due": "2026-11-07",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 0
     },
     "paragraph-order-anaphora": {
@@ -700,13 +701,13 @@
       "observation_priority": 0.25
     },
     "social-message-inference": {
-      "streak": 2,
+      "streak": 3,
       "errors": 1,
-      "last": "2026-10-11",
-      "due": "2026-10-15",
+      "last": "2026-10-24",
+      "due": "2026-10-31",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "standard": {
@@ -740,13 +741,13 @@
       "observation_priority": 0
     },
     "summary-location": {
-      "streak": 0,
+      "streak": 1,
       "errors": 3,
-      "last": "2026-10-22",
-      "due": "2026-10-23",
+      "last": "2026-10-24",
+      "due": "2026-10-26",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 10,
+      "observed_days": 11,
       "observation_priority": 0
     },
     "take-page-from": {
@@ -842,11 +843,11 @@
     "text4-executive-overreach": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-10-23",
+      "last": "2026-10-24",
       "due": "2026-10-24",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 3
     },
     "text4-federal-state-boundary": {
@@ -862,21 +863,21 @@
     "text4-historical-inference": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-10-23",
+      "last": "2026-10-24",
       "due": "2026-10-24",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 3
     },
     "title-coverage": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-05",
-      "due": "2026-10-06",
+      "last": "2026-10-24",
+      "due": "2026-10-24",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "title-specificity": {
@@ -930,13 +931,13 @@
       "observation_priority": 1
     },
     "unpretentious": {
-      "streak": 2,
+      "streak": 3,
       "errors": 0,
-      "last": "2026-10-10",
-      "due": "2026-10-14",
+      "last": "2026-10-24",
+      "due": "2026-10-31",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "viewpoint-fact": {

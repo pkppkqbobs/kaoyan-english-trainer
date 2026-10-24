@@ -2085,6 +2085,94 @@
       "qid": "nested-shared-gate",
       "round_id": "mvkuel5x-u6mmtn6d",
       "source_date": "2026-10-23"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "nested",
+      "ok": true,
+      "ms": 13408,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "nested-valve-leak-c",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 118729,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "example-council-reform-opposition-a",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 62700,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "text4-executive-overreach-b",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 6768,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "legacy-unpretentious",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 32903,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "title-coverage-kitchen-evolution",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 41768,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "summary-trials-next-question",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 39811,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "social-message-criticism-membership-c",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 79627,
+      "uncertain": false,
+      "origin": 27,
+      "qid": "text4-federal-precedent-d",
+      "round_id": "mvm5dh1u-fpq48vfb",
+      "source_date": "2026-10-24"
     }
   ],
   "issues": [
@@ -2113,6 +2201,7 @@
     23,
     24,
     25,
-    26
+    26,
+    27
   ]
 }
