@@ -1297,5 +1297,19 @@
     "note": "2014英语一Text 4第38题：用户明确表示能排除B/D，在A an exclusive study of American history与C the application of emerging technologies之间犹豫，未确认最终选项，不能计真实错题。段3原文stresses the study of history and government, particularly American history and American government只强调特别重视美国史及美国政府，并非exclusive（仅限于）；而encourages the use of new digital technologies与C的application of emerging technologies精确同义。训练重点：particularly/especially与exclusive/only的限定强度；use→application、new→emerging语义映射；不能因为两项都与文中主题相关就忽略额外限定。另需区别报告的政策建议（第3段）和作者对报告的批评（第4—6段）。作为纸质理解犹豫，不写Issue成绩或streak。",
     "paper_attempt": true,
     "scoring_policy": "Paper uncertainty and explicitly reported eliminations, no scored answer or web attempt."
+  },
+  {
+    "family": "text4-boxed-vocab",
+    "date": "2026-10-24",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "session_id": "2026-10-24-2014-text4",
+    "source_exam": "2014-english1",
+    "source_part": "Reading Text 4",
+    "source_spans": [
+      "presupposes",
+      "interpretation"
+    ],
+    "note": "2014英语一Text 4图片放大后能清楚确认框起来的两个翻译难点（不能把其他画横线的内容当翻译困难）。P3 representative government presupposes an informed citizenry：presuppose是以某事为前提/预先假定某事成立，代议制政府需要以具备知识和判断力的公民群体为前提；不是简单猜测。P5 the progressive interpretation of history：interpretation是解释、阐释、解读；这里指从进步主义角度解读历史。句子重点为professors如何评价历史解释与公共政策及如何对待conservative/classical liberal ideas；作者对这种学术偏向提出批评。其余下划线如deserves praise、Regrettably、full literacy、new digital technologies、illiberal nature、set back reform等不冒充框词。"
   }
 ]
