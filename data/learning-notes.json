@@ -1270,7 +1270,7 @@
     "reported_pick": "B",
     "expected": "A",
     "user_reported_reasoning": "用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。",
-    "note": "2014英语一Text 4第36题：作者对AAAS《The Heart of the Matter》报告的态度，正确A Critical，用户明确选择B Appreciative，原因是抓住首句deserves praise的局部肯定，却漏掉紧接的Regrettably, however和report's failure to address the true nature of the crisis ... may cause more harm than good。作者肯定报告重视人文社科，但对报告未触及博雅/通识教育危机根源、可能弊大于利提出批评。用户还报告全文理解较差，概括为‘自由教育好像没有成功’；应纠正为作者批评高校通识教育陷入思想偏向，且认为AAAS报告忽略了这个问题，并非否定liberal education自身价值。重点练习局部褒扬vs总体批评、转折权重、谁/什么是被评价对象。纸质作答只作为学习观察，不生成或修改真实网页Issue、错误次数及跨日streak。",
+    "note": "2014英语一Text 4第36题：作者对AAAS《The Heart of the Matter》报告的态度，正确A Critical，用户明确选择B Appreciative，原因是抓住首句deserves praise的局部肯定，却漏掉紧接的Regrettably, however和report's failure to address the true nature of the crisis ... may cause more harm than good。作者肯定报告重视人文社科，但对报告未触及博雅/通识教育危机根源、可能弊大于利提出批评。用户还报告全文理解较差，概括为‘自由教育好像没有成功’；应纠正为作者批评高校通识教育陷入思想偏向，且认为AAAS报告忽略了这个问题，并非否定liberal education自身价值。重点练习局部褒扬vs总体批评、转折权重、谁/什么是被评价对象。纸质作答只作为学习观察，不生成或修改真实网页Issue、错误次数及跨日streak。 后续词义追问（2026-10-24）：用户问“regrettably是后悔的意思吗”；应区分regret（后悔/遗憾）与句子副词regrettably（遗憾的是/可惜的是）。Regrettably, however在此用于引出对报告的批评态度，但这一后续提问不能倒推为用户第36题误选B时已经明确存在的词义错误。用户未将regrettably明确标为画框，属于主动词义疑问。",
     "final_choice_letter_confirmed": true,
     "paper_attempt": true,
     "scoring_policy": "Paper reported wrong answer only; no fabricated online Issue or score row."
@@ -1294,7 +1294,7 @@
     "expected": "C",
     "final_choice_letter_confirmed": false,
     "user_reported_reasoning": "用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。",
-    "note": "2014英语一Text 4第38题：用户明确表示能排除B/D，在A an exclusive study of American history与C the application of emerging technologies之间犹豫，未确认最终选项，不能计真实错题。段3原文stresses the study of history and government, particularly American history and American government只强调特别重视美国史及美国政府，并非exclusive（仅限于）；而encourages the use of new digital technologies与C的application of emerging technologies精确同义。训练重点：particularly/especially与exclusive/only的限定强度；use→application、new→emerging语义映射；不能因为两项都与文中主题相关就忽略额外限定。另需区别报告的政策建议（第3段）和作者对报告的批评（第4—6段）。作为纸质理解犹豫，不写Issue成绩或streak。",
+    "note": "2014英语一Text 4第38题：用户明确表示能排除B/D，在A an exclusive study of American history与C the application of emerging technologies之间犹豫，未确认最终选项，不能计真实错题。段3原文stresses the study of history and government, particularly American history and American government只强调特别重视美国史及美国政府，并非exclusive（仅限于）；而encourages the use of new digital technologies与C的application of emerging technologies精确同义。训练重点：particularly/especially与exclusive/only的限定强度；use→application、new→emerging语义映射；不能因为两项都与文中主题相关就忽略额外限定。另需区别报告的政策建议（第3段）和作者对报告的批评（第4—6段）。作为纸质理解犹豫，不写Issue成绩或streak。 后续明确补充（2026-10-24）：用户亲口说明自己把A选项an exclusive study of American history中的exclusive study译成“广泛地学习”。词义根因是将exclusive（排他的、仅限于）误解为extensive（广泛的）这一类含义；需优先纠正词义，再训练particularly（尤其强调）不等于exclusively/only（仅限于）的限定范围。仍没有确认最终纸质选项，不记作真实答错或网页主测。该疑问不是图片中的画框词，而是用户主动解释的词义误判。",
     "paper_attempt": true,
     "scoring_policy": "Paper uncertainty and explicitly reported eliminations, no scored answer or web attempt."
   },
