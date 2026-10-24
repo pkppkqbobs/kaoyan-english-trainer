@@ -335,6 +335,31 @@ class BankCoverageTests(unittest.TestCase):
             self.assertNotIn("expected", n)
             self.assertNotIn("source_question", n)
 
+    def test_2014_text4_boxed_notes_are_not_scored_attempts(self):
+        notes = review.load(ROOT / "data/learning-notes.json")
+        relevant = [n for n in notes if n.get("session_id") ==
+                    "2026-10-24-2014-text4"]
+        self.assertEqual(len(relevant), 3)
+        mistaken = [n for n in relevant if n.get("source_question") == 36][0]
+        uncertain = [n for n in relevant if n.get("source_question") == 38][0]
+        boxed = [n for n in relevant if n.get("mark_type") == "box"]
+        self.assertEqual((mistaken["kind"], mistaken["reported_pick"], mistaken["expected"]),
+                         ("user_reported_wrong", "B", "A"))
+        self.assertEqual(uncertain["candidate_choices"], ["A", "C"])
+        self.assertFalse(uncertain["final_choice_letter_confirmed"])
+        self.assertEqual(len(boxed), 1)
+        self.assertEqual(boxed[0]["source_spans"], ["presupposes", "interpretation"])
+        self.assertEqual(boxed[0]["kind"], "translation_difficulty")
+        state = review.load(ROOT / "data/review-state.json")
+        self.assertTrue(state["families"]["text4-boxed-vocab"]["reported_confusion"])
+        self.assertEqual(state["families"]["text4-boxed-vocab"]["observation_priority"], 1)
+        evidence = review.load(ROOT / "data/result-evidence.json")
+        # Paper notes must never enter GitHub Issue-derived scored attempts.
+        self.assertFalse(any(row.get("source_exam") == "2014-english1" and
+                             row.get("source_part") == "Reading Text 4"
+                             for row in evidence["rows"]))
+
+
 
 if __name__ == "__main__":
     unittest.main()
