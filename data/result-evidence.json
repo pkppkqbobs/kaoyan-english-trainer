@@ -2173,6 +2173,94 @@
       "qid": "text4-federal-precedent-d",
       "round_id": "mvm5dh1u-fpq48vfb",
       "source_date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 24895,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "viewpoint-renting-a",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "even",
+      "ok": true,
+      "ms": 9076,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "legacy-even",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "reference",
+      "ok": true,
+      "ms": 29204,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "reference-panels-request-switch",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "paragraph-order-anaphora",
+      "ok": true,
+      "ms": 91413,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "pb13-clinic-training-hours-a",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "text4-executive-overreach",
+      "ok": false,
+      "ms": 89881,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "text4-executive-overreach-a",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "with",
+      "ok": true,
+      "ms": 20574,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "with-lights-dimming",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 14137,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "example-farmers-support-trial-b",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 55555,
+      "uncertain": false,
+      "origin": 28,
+      "qid": "text4-historical-inference-c",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "source_date": "2026-10-25"
     }
   ],
   "issues": [
@@ -2202,6 +2290,7 @@
     24,
     25,
     26,
-    27
+    27,
+    28
   ]
 }

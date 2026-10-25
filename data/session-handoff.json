@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-10-25",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 28,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-10-24",
-      "issue": 27,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/27",
-      "round_id": "mvm5dh1u-fpq48vfb",
-      "correct": 8,
+      "date": "2026-10-25",
+      "issue": 28,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/28",
+      "round_id": "mvnra4a9-ydauvlo4",
+      "correct": 7,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-10-24"
+        "2026-10-25"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-10-24.json",
+      "source": "data/days/2026-10-25.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -504,17 +504,21 @@
           }
         },
         {
-          "family": "viewpoint-fact",
-          "label": "区分规范与事实，结合完整证据",
-          "focus": "网页到期且仍有错误或慢答信号，需跨语境复查。",
-          "paper_kind": null,
-          "latest_observation": "2026-10-03",
-          "web_errors": 1,
+          "family": "paragraph-scope-attitude",
+          "label": "范围词锁定证据",
+          "focus": "2012 英语一 Text 1 第25题：用户选C profound，并且对 profound 的词义判断基本正确（深刻/深远，而非 proud“骄傲”）。错误在范围：上一段说明…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-10-07",
+          "web_errors": 0,
           "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-04",
+          "slow_or_uncertain": true,
+          "due": "2026-10-24",
           "source": {
-            "path": "data/review-state.json"
+            "path": "data/learning-notes.json",
+            "date": "2026-10-07",
+            "family": "paragraph-scope-attitude",
+            "question": 25,
+            "note_fingerprint": "a75a65adb364e4ec"
           }
         }
       ]
@@ -589,7 +593,7 @@
           "focus": "2013英语一Text 4第40题：用户最终选A，正确答案B。A把“国会如果想禁止州使用自己的资源核查移民身份，本来可以这么做”扩大成“移民问题通常由国会决定”，超出原文。作者最后…",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-10-18",
-          "web_errors": 2,
+          "web_errors": 3,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-10-25",
@@ -675,8 +679,8 @@
           "latest_observation": "2026-10-19",
           "web_errors": 0,
           "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-05",
+          "slow_or_uncertain": true,
+          "due": "2026-10-25",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-10-19",
@@ -815,7 +819,7 @@
     "data/article-sessions/2026-10-18-2013-text4-balanced.json": "9e1150d19dbef3de248be2b80747319773740a05ecee9256b39e6537d3d3cb1e",
     "data/article-sessions/2026-10-18-2013-text4.json": "581fe06fdc88b2d49fcd594e8124aed0253a9b09f6a6dbd1b11c32b3ccd21a8d",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "a0ae0390d128f11dfaef3a8e80c6464dbb08512b8812d35d50d6b4fa3d984a67",
+    "data/daily.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -842,7 +846,7 @@
     "data/days/2026-10-22.json": "95f0d4a3dcbf95c7816386abcbe7d3988f5bff829820d8ad5ea1724140a3866d",
     "data/days/2026-10-23.json": "5054fc47280c9565b5a5dcfa02265e0d97d60adf167faf9b96469a7c0302a8bd",
     "data/days/2026-10-24.json": "259ee160bab6ae06da10f054a9308df300be103395092727f2235f5ec0ae5bae",
-    "data/days/2026-10-25.json": "a0ae0390d128f11dfaef3a8e80c6464dbb08512b8812d35d50d6b4fa3d984a67",
+    "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
     "data/learning-notes.json": "d6f661abf296b84c0b1712891f43f54d50375857a7a0d107fc6af938913726bd",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
@@ -872,13 +876,13 @@
     "data/questions/2026-10-18-text4.json": "4b461424546d84620e10baf7fa591a4ec3563884c020489ba02cb99d89a460ef",
     "data/questions/2026-10-19-2013-partb.json": "e17f0079148422a8ac97a9ade9736832afbb87f271fdd17f8b64daecdfc4b6ad",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "8b524c6707007f81145b74a4e68ee5bdff8e7cf5b0366643d3aa8ef9a2f1f152",
-    "data/review-state.json": "74935f16988993db0236caf0c997daeb9255af1f1f57ccf370ad8c4f4629f548",
+    "data/result-evidence.json": "4c41da0c5d97860ef73a7a50aeaac6dca12fa3efa56ed4ca70f925b964821944",
+    "data/review-state.json": "abe9c4092eea3b55ff945ba5d782daf4a7d4a67f296c1cbc5ecfe366b78835fd",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "7413a5a214476c7d13113b730697bec44f3a859c754ca0054d18382f294566f1",
+  "source_fingerprint": "e9299187da087a37070faff408c583549d515ae28476b9b227ce71d24d4f1200",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

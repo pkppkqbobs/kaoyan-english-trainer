@@ -11,8 +11,8 @@
 
 ## 已核验网页进度
 
-最近已接受的完整daily：题单日期2026-10-24，[Issue #27](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/27)，8/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-10-25；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
+最近已接受的完整daily：题单日期2026-10-25，[Issue #28](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/28)，7/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
+当前题单日期：2026-10-25；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 
@@ -27,7 +27,7 @@
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
-- 作者态度、评价对象与转折（author-stance、viewpoint-fact）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
+- 作者态度、评价对象与转折（author-stance、paragraph-scope-attitude）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（inference-boundary、text4-historical-inference）：用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（conditions、text4-executive-overreach）：我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。 网页错误数/streak单列于JSON。
 - 修饰关系与熟词搭配（familiar-word-polysemy、text4-boxed-vocab）：用户直接询问exercise、myth、perpetuate的词义；此记录源自用户明确提问，不根据横线推断为画框。exercise in self-promotion=一种自我宣传… 网页错误数/streak单列于JSON。
