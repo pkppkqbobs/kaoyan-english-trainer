@@ -103,7 +103,7 @@
           "eliminated_choices": [],
           "reference_answer": "G",
           "reference_status": "note_only",
-          "summary": "用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断…",
+          "summary": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…",
           "followup": null,
           "spans": [],
           "source": {
@@ -111,7 +111,7 @@
             "date": "2026-10-25",
             "family": "paragraph-order-discourse",
             "question": 43,
-            "note_fingerprint": "b1fcdd32de8937e9"
+            "note_fingerprint": "08f8c254b5420082"
           },
           "choice_conflict": false
         }
@@ -475,7 +475,7 @@
         {
           "family": "paragraph-order-discourse",
           "label": "空前改革目标与空后合作效果需要中间实施步骤",
-          "focus": "用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断…",
+          "focus": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-25",
           "web_errors": 0,
@@ -487,7 +487,7 @@
             "date": "2026-10-25",
             "family": "paragraph-order-discourse",
             "question": 43,
-            "note_fingerprint": "b1fcdd32de8937e9"
+            "note_fingerprint": "08f8c254b5420082"
           }
         },
         {
@@ -649,7 +649,7 @@
         "date": "2026-10-25",
         "family": "paragraph-order-discourse",
         "question": 43,
-        "note_fingerprint": "b1fcdd32de8937e9"
+        "note_fingerprint": "08f8c254b5420082"
       }
     },
     {
@@ -764,7 +764,7 @@
     "data/days/2026-10-23.json": "5054fc47280c9565b5a5dcfa02265e0d97d60adf167faf9b96469a7c0302a8bd",
     "data/days/2026-10-24.json": "259ee160bab6ae06da10f054a9308df300be103395092727f2235f5ec0ae5bae",
     "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
-    "data/learning-notes.json": "771c2b42e829aa120fa8d7fb2b7303ffba3628a3279056ac320283519e4fc185",
+    "data/learning-notes.json": "66f13d676823e9acf5557ed2d41f58e88e3064cd784c00f7dbf3b35fcaa9aca9",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
@@ -799,7 +799,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "e0aa80551f6f7e025359fdd06e364fd955dbc35a194876b09454b436ff066997",
+  "source_fingerprint": "e60259109c1516973105efc0bf43bca9f9738f7ca91aa2aae9b3ec5fd53564a2",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

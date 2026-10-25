@@ -18,7 +18,7 @@
 
 ## 最近纸质学习阶段
 
-- 2026-10-25｜2014 英语一 Part B (paragraph ordering)：Q43 理解困惑：最终选项未确认；参考G（待来源核对）。用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断… 尚无对应article session；不因此遗漏观察。
+- 2026-10-25｜2014 英语一 Part B (paragraph ordering)：Q43 理解困惑：最终选项未确认；参考G（待来源核对）。用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t… 尚无对应article session；不因此遗漏观察。
 - 2026-10-24｜2014 英语一 Text 4：Q36 自述错题：B；参考A（待来源核对）。用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 后续补充（不倒推首次原因）：用户问“regrettably是后悔的意思吗”；应区分regret（后悔/遗憾）与句子副词regrettably（遗憾的是/可惜的是）。Regrettably, however在此用于引出对报告的批评… Q38 理解困惑：最终选项未确认；参考C（待来源核对）。用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。 后续补充（不倒推首次原因）：用户亲口说明自己把A选项an exclusive study of American history中的exclusive study译成“广泛地学习”。词义根因是将exclusive（排他的、仅限于… 画框翻译：interpretation、presupposes。 尚无对应article session；不因此遗漏观察。
 - 2026-10-23｜2014 英语一 Text 3：Q32 自述错题：A；参考B（待来源核对）。用户明确说第32题感觉A，能排除C、D，但第二段反复读仍没太读懂；没有进一步说明为什么在A、B间更倾向A。 Q33 答对但犹豫：先考虑A→B；参考B（待来源核对）。用户认为A、B差不多，觉得B可能是A的特定范围，因为诺奖每项最多三人领奖；最初几乎写成DAAAA，最后改为DABAA。 画框翻译：a string of、benefactors、cement、distort、outgrown、peer-review-led等。 尚无对应article session；不因此遗漏观察。
 - 2026-10-22｜2014 英语一 Text 2：Q27 理解困惑：最终选项未确认；参考C（待来源核对）。用户现已明确说明：把原文some unrelated subject误以为‘法律本科里上四年水课’，因此没有识别出它讲的是先修其他学科四年本科、再读三年法律专业学位。曾认为27题A… 画框翻译：complaint、nuisance-lawsuit、regulators、sensible、skyscrapers-full、too conservative to等。 尚无对应article session；不因此遗漏观察。
@@ -28,7 +28,7 @@
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
 - 作者态度、评价对象与转折（author-stance、paragraph-scope-attitude）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
-- Part B 指代与前后衔接（paragraph-order-discourse、paragraph-order-anaphora）：用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断… 网页错误数/streak单列于JSON。
+- Part B 指代与前后衔接（paragraph-order-discourse、paragraph-order-anaphora）：用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t… 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（inference-boundary、text4-historical-inference）：用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（conditions、text4-executive-overreach）：我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。 网页错误数/streak单列于JSON。
 - 修饰关系与熟词搭配（familiar-word-polysemy、text4-boxed-vocab）：用户直接询问exercise、myth、perpetuate的词义；此记录源自用户明确提问，不根据横线推断为画框。exercise in self-promotion=一种自我宣传… 网页错误数/streak单列于JSON。
