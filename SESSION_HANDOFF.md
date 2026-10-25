@@ -1,6 +1,6 @@
 # 考研英语一跨对话交接
 
-数据截至 2026-10-24；仅索引已同步到仓库的证据。
+数据截至 2026-10-25；仅索引已同步到仓库的证据。
 [仓库](https://github.com/pkppkqbobs/kaoyan-english-trainer) · [每日8题](https://pkppkqbobs.github.io/kaoyan-english-trainer/today.html) · [文章复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-review.html) · [历史复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html)
 
 ## 接续规则
@@ -12,7 +12,7 @@
 ## 已核验网页进度
 
 最近已接受的完整daily：题单日期2026-10-24，[Issue #27](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/27)，8/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-10-24；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
+当前题单日期：2026-10-25；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 
