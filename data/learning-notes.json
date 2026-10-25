@@ -1323,8 +1323,8 @@
     "expected": "G",
     "final_choice_letter_confirmed": false,
     "paper_attempt": true,
-    "user_reported_reasoning": "用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断或记错题。",
-    "note": "2014英语一Part B排序标准为C→A→F→E→G→D→B（41 C、42 F、43 G、44 D、45 B）。E末句讲aerial surveys（空中勘察）寻找大致区域与较大埋藏遗迹，G首句讲ground surveys（地面勘察）精确定位挖掘点，两者构成勘察方式的并列展开，并有general areas→pinpoint的语义衔接。G介绍ground radar、metal detectors、computer maps等方法；D将surveys用途扩展到聚落和景观并以In one case举Copán案例；B的In another case承接D举Teotihuacán案例，形成一般方法→两个具体案例。G、B均有map/mapping，主题相关不等于必须直接相邻。需跨语境训练方法分类、一般说明→案例、并列实例、段落组织层级与局部关键词匹配的区别。本次是明确口头困惑，不作纸质错题、网页主测、错误次数或连续正确天数的证据。",
+    "user_reported_reasoning": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and three-dimensional maps，觉得G可能是在总结空中勘察与地面勘察，因此倾向于把G放在B后。用户没有说自己是因为G、B都出现map/mapping而配对；此前这种归因属于助手未经核实的推测，已更正。用户尚未确认41—45最终纸质选择，不推测成绩。",
+    "note": "2014英语一Part B排序标准为C→A→F→E→G→D→B（41 C、42 F、43 G、44 D、45 B）。用户的真实困难是对G段篇章功能及位置的推断：读到E的aerial surveys便倾向转入D、B案例，看到G末句two- and three-dimensional maps，觉得G可能概括空中+地面方法，想放在B之后；但two-/three-dimensional maps仅指二维和三维地图的表现形式，不是对aerial/ground两类勘察的命名或总结信号。E介绍aerial surveys，G开头明确介绍ground surveys，属于并列的方法说明（E定位general areas，G进一步pinpoint digs）；D案例明确写by using aerial photographs and by making surveys on foot，同时应用前面两类方法，这一双向证据强于只按E提到航空勘察就接D。D以In one case引出Copán案例，B以In another case续举Teotihuacán案例，构成E→G（两类方法）→D→B（两项应用案例）。训练应比较候选顺序可解释的全部局部证据，避免未经证实地给段末句赋予总结功能；不要把用户动因误写成map/mapping词汇重复。保留这是用户自述的未确定位置，不把纸质回答伪造成错题、网页Issue成绩、错误次数或连续答对天数。",
     "scoring_policy": "Paper reasoning observation only; no invented final choice, score, Issue attempt or streak."
   }
 ]
