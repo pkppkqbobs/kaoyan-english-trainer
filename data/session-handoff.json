@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-10-25",
     "daily_quiz": "2026-10-25",
-    "latest_observation": "2026-10-24"
+    "latest_observation": "2026-10-25"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -85,6 +85,42 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-10-25",
+      "exam": "2014-english1",
+      "part": "Part B (paragraph ordering)",
+      "items": [
+        {
+          "kind": "user_reported_confusion",
+          "family": "paragraph-order-discourse",
+          "question": 43,
+          "related_questions": [],
+          "updated_on": "2026-10-25",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "G",
+          "reference_status": "note_only",
+          "summary": "用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-25",
+            "family": "paragraph-order-discourse",
+            "question": 43,
+            "note_fingerprint": "b1fcdd32de8937e9"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [],
+      "translation_note_count": 0,
+      "translation_source": null,
+      "article_session_files": []
+    },
     {
       "date": "2026-10-24",
       "exam": "2014-english1",
@@ -387,97 +423,6 @@
       "translation_note_count": 0,
       "translation_source": null,
       "article_session_files": []
-    },
-    {
-      "date": "2026-10-21",
-      "exam": "2014-english1",
-      "part": "Section I (Cloze)",
-      "items": [
-        {
-          "kind": "user_reported_confusion",
-          "family": "familiar-word-polysemy",
-          "question": null,
-          "related_questions": [
-            14
-          ],
-          "updated_on": "2026-10-21",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "2014英语一完形：用户自述文章主线较易理解、整体表现较好，但部分词义辨析看答案仍难解释。2026-10-21进一步明确报告第14题原先把sharpness误记为‘可塑性’，因此没…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-20",
-            "family": "familiar-word-polysemy",
-            "question": null,
-            "note_fingerprint": "eea6de9986e7aed3"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "relation-collocation",
-          "question": null,
-          "related_questions": [
-            15,
-            17
-          ],
-          "updated_on": "2026-10-21",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "2014英语一完形：2026-10-21用户进一步明确两条实际误解。第15题把forces理解成宽泛的中文‘让’，没有意识到force sb. to do含‘强迫’；allow s…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-20",
-            "family": "relation-collocation",
-            "question": null,
-            "note_fingerprint": "8c9fa0d477a0370b"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "logic",
-          "question": null,
-          "related_questions": [],
-          "updated_on": "2026-10-20",
-          "final_choice": null,
-          "final_choice_status": "not_applicable",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "2014英语一完形第11题附近可见涂改，但没有用户亲口确认原始最终选项。用户表示本篇能读懂但有错项看解析后仍不清楚。需要针对inherited（部分先天遗传）与through ef…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-20",
-            "family": "logic",
-            "question": null,
-            "note_fingerprint": "660db3266db7f5c9"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [],
-      "translation_note_count": 0,
-      "translation_source": null,
-      "article_session_files": []
     }
   ],
   "priorities": [
@@ -519,6 +464,48 @@
             "family": "paragraph-scope-attitude",
             "question": 25,
             "note_fingerprint": "a75a65adb364e4ec"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "paragraph",
+      "label": "Part B 指代与前后衔接",
+      "families": [
+        {
+          "family": "paragraph-order-discourse",
+          "label": "空前改革目标与空后合作效果需要中间实施步骤",
+          "focus": "用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断…",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-25",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-10-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-25",
+            "family": "paragraph-order-discourse",
+            "question": 43,
+            "note_fingerprint": "b1fcdd32de8937e9"
+          }
+        },
+        {
+          "family": "paragraph-order-anaphora",
+          "label": "比例指代需要数量基线，避免凭本段主题选句",
+          "focus": "2013英语一Part B七选五第44空：用户明确确认最终选D（The solution is to change the mindset...），正确G（社会科学研究经费约占总研…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-10-19",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-10-25",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-19",
+            "family": "paragraph-order-anaphora",
+            "question": 44,
+            "note_fingerprint": "aeee06448e239d22"
           }
         }
       ]
@@ -648,51 +635,23 @@
           }
         }
       ]
-    },
-    {
-      "mechanism": "paragraph",
-      "label": "Part B 指代与前后衔接",
-      "families": [
-        {
-          "family": "paragraph-order-discourse",
-          "label": "空前改革目标与空后合作效果需要中间实施步骤",
-          "focus": "2013英语一Part B七选五第45空：用户明确确认选A（It could be that we are evolving two communities of social s…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-19",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-19",
-            "family": "paragraph-order-discourse",
-            "question": 45,
-            "note_fingerprint": "bac3207633bf5293"
-          }
-        },
-        {
-          "family": "paragraph-order-anaphora",
-          "label": "比例指代需要数量基线，避免凭本段主题选句",
-          "focus": "2013英语一Part B七选五第44空：用户明确确认最终选D（The solution is to change the mindset...），正确G（社会科学研究经费约占总研…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-19",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-25",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-19",
-            "family": "paragraph-order-anaphora",
-            "question": 44,
-            "note_fingerprint": "aeee06448e239d22"
-          }
-        }
-      ]
     }
   ],
   "pending": [
+    {
+      "exam": "2014-english1",
+      "part": "Part B (paragraph ordering)",
+      "question": 43,
+      "date": "2026-10-25",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-25",
+        "family": "paragraph-order-discourse",
+        "question": 43,
+        "note_fingerprint": "b1fcdd32de8937e9"
+      }
+    },
     {
       "exam": "2014-english1",
       "part": "Text 4",
@@ -733,48 +692,6 @@
         "family": "author-stance",
         "question": 25,
         "note_fingerprint": "4aaa6cf8759824c5"
-      }
-    },
-    {
-      "exam": "2014-english1",
-      "part": "Section I (Cloze)",
-      "question": 17,
-      "date": "2026-10-21",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-20",
-        "family": "relation-collocation",
-        "question": 17,
-        "note_fingerprint": "8c9fa0d477a0370b"
-      }
-    },
-    {
-      "exam": "2014-english1",
-      "part": "Section I (Cloze)",
-      "question": 15,
-      "date": "2026-10-21",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-20",
-        "family": "relation-collocation",
-        "question": 15,
-        "note_fingerprint": "8c9fa0d477a0370b"
-      }
-    },
-    {
-      "exam": "2014-english1",
-      "part": "Section I (Cloze)",
-      "question": 14,
-      "date": "2026-10-21",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-20",
-        "family": "familiar-word-polysemy",
-        "question": 14,
-        "note_fingerprint": "eea6de9986e7aed3"
       }
     }
   ],
@@ -847,7 +764,7 @@
     "data/days/2026-10-23.json": "5054fc47280c9565b5a5dcfa02265e0d97d60adf167faf9b96469a7c0302a8bd",
     "data/days/2026-10-24.json": "259ee160bab6ae06da10f054a9308df300be103395092727f2235f5ec0ae5bae",
     "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
-    "data/learning-notes.json": "d6f661abf296b84c0b1712891f43f54d50375857a7a0d107fc6af938913726bd",
+    "data/learning-notes.json": "771c2b42e829aa120fa8d7fb2b7303ffba3628a3279056ac320283519e4fc185",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
@@ -882,7 +799,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "e9299187da087a37070faff408c583549d515ae28476b9b227ce71d24d4f1200",
+  "source_fingerprint": "e0aa80551f6f7e025359fdd06e364fd955dbc35a194876b09454b436ff066997",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
