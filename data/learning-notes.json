@@ -1311,5 +1311,20 @@
       "interpretation"
     ],
     "note": "2014英语一Text 4图片放大后能清楚确认框起来的两个翻译难点（不能把其他画横线的内容当翻译困难）。P3 representative government presupposes an informed citizenry：presuppose是以某事为前提/预先假定某事成立，代议制政府需要以具备知识和判断力的公民群体为前提；不是简单猜测。P5 the progressive interpretation of history：interpretation是解释、阐释、解读；这里指从进步主义角度解读历史。句子重点为professors如何评价历史解释与公共政策及如何对待conservative/classical liberal ideas；作者对这种学术偏向提出批评。其余下划线如deserves praise、Regrettably、full literacy、new digital technologies、illiberal nature、set back reform等不冒充框词。"
+  },
+  {
+    "family": "paragraph-order-discourse",
+    "date": "2026-10-25",
+    "kind": "user_reported_confusion",
+    "session_id": "2026-10-25-2014-partb",
+    "source_exam": "2014-english1",
+    "source_part": "Part B (paragraph ordering)",
+    "source_question": 43,
+    "expected": "G",
+    "final_choice_letter_confirmed": false,
+    "paper_attempt": true,
+    "user_reported_reasoning": "用户明确表示自己能确定C→A→F→E，还判断D后应跟B；但认为G更应该紧跟B，对G为何紧跟E有疑问。未解释G→B的具体依据，也未确认41—45的最终纸质填空字母，不得从照片笔迹推断或记错题。",
+    "note": "2014英语一Part B排序标准为C→A→F→E→G→D→B（41 C、42 F、43 G、44 D、45 B）。E末句讲aerial surveys（空中勘察）寻找大致区域与较大埋藏遗迹，G首句讲ground surveys（地面勘察）精确定位挖掘点，两者构成勘察方式的并列展开，并有general areas→pinpoint的语义衔接。G介绍ground radar、metal detectors、computer maps等方法；D将surveys用途扩展到聚落和景观并以In one case举Copán案例；B的In another case承接D举Teotihuacán案例，形成一般方法→两个具体案例。G、B均有map/mapping，主题相关不等于必须直接相邻。需跨语境训练方法分类、一般说明→案例、并列实例、段落组织层级与局部关键词匹配的区别。本次是明确口头困惑，不作纸质错题、网页主测、错误次数或连续正确天数的证据。",
+    "scoring_policy": "Paper reasoning observation only; no invented final choice, score, Issue attempt or streak."
   }
 ]
