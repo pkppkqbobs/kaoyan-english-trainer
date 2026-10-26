@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-10-26",
     "daily_quiz": "2026-10-26",
-    "latest_observation": "2026-10-25"
+    "latest_observation": "2026-10-26"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -85,6 +85,128 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-10-26",
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "items": [
+        {
+          "kind": "user_reported_confusion",
+          "family": "test-object-scope",
+          "question": 5,
+          "related_questions": [],
+          "updated_on": "2026-10-26",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "C",
+          "reference_status": "note_only",
+          "summary": "用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "test-object-scope",
+            "question": 5,
+            "note_fingerprint": "6d19f3536dfd7ad5"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "familiar-word-polysemy",
+          "question": 6,
+          "related_questions": [],
+          "updated_on": "2026-10-26",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "note_only",
+          "summary": "用户明确表示第6题属于‘脑抽’，漏看了A选项insignificant中的否定前缀in-；自述如果注意到in-就会选择A，但未确认纸质最终选项。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "familiar-word-polysemy",
+            "question": 6,
+            "note_fingerprint": "985ca723f640a52f"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "familiar-word-polysemy",
+          "question": 8,
+          "related_questions": [],
+          "updated_on": "2026-10-26",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "note_only",
+          "summary": "用户说第8题没有看明白、不清楚如何选择；没有报告原始最终字母或具体错误词义。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "familiar-word-polysemy",
+            "question": 8,
+            "note_fingerprint": "fad37cbfe78996c3"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "logic",
+          "question": 13,
+          "related_questions": [],
+          "updated_on": "2026-10-26",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "B",
+          "reference_status": "note_only",
+          "summary": "用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "logic",
+            "question": 13,
+            "note_fingerprint": "93d01bce5999fc6c"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "conducted",
+        "drawn from",
+        "genome-wide",
+        "smell"
+      ],
+      "translation_note_count": 1,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "test-object-scope",
+        "question": null,
+        "note_fingerprint": "a1a58009456f9ed8"
+      },
+      "article_session_files": []
+    },
     {
       "date": "2026-10-25",
       "exam": "2014-english1",
@@ -359,70 +481,6 @@
         "note_fingerprint": "e0eda5674b0a6e79"
       },
       "article_session_files": []
-    },
-    {
-      "date": "2026-10-21",
-      "exam": "2014-english1",
-      "part": "Text 1",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "conditions",
-          "question": 21,
-          "related_questions": [],
-          "updated_on": "2026-10-21",
-          "final_choice": "A",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [
-            "B",
-            "C"
-          ],
-          "reference_answer": "B",
-          "reference_status": "note_only",
-          "summary": "我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-21",
-            "family": "conditions",
-            "question": 21,
-            "note_fingerprint": "79eee035884b8042"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "author-stance",
-          "question": 25,
-          "related_questions": [],
-          "updated_on": "2026-10-21",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": "D",
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "D",
-          "reference_status": "note_only",
-          "summary": "认为George改革方便申领失业救济，且明确说理解主语和行为关系搞混了。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-21",
-            "family": "author-stance",
-            "question": 25,
-            "note_fingerprint": "4aaa6cf8759824c5"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [],
-      "translation_note_count": 0,
-      "translation_source": null,
-      "article_session_files": []
     }
   ],
   "priorities": [
@@ -469,6 +527,132 @@
       ]
     },
     {
+      "mechanism": "language",
+      "label": "修饰关系与熟词搭配",
+      "families": [
+        {
+          "family": "familiar-word-polysemy",
+          "label": "公正性与证据充分性",
+          "focus": "用户说第8题没有看明白、不清楚如何选择；没有报告原始最终字母或具体错误词义。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-10-26",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "familiar-word-polysemy",
+            "question": 8,
+            "note_fingerprint": "fad37cbfe78996c3"
+          }
+        },
+        {
+          "family": "relation-collocation",
+          "label": "关系搭配 + 反直觉因果",
+          "focus": "用户明确表示第14题没看明白、难以选出答案；未确认最终字母，也未说自己把benefits理解成哪一个其他词。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-26",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "relation-collocation",
+            "question": 14,
+            "note_fingerprint": "1922c51b0ec483c9"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "scope",
+      "label": "选项范围与额外限定",
+      "families": [
+        {
+          "family": "test-object-scope",
+          "label": "定位题干关系而非重复词",
+          "focus": "用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-11",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "test-object-scope",
+            "question": 5,
+            "note_fingerprint": "6d19f3536dfd7ad5"
+          }
+        },
+        {
+          "family": "inference-boundary",
+          "label": "观察变化与归因分开",
+          "focus": "用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-24",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-10-21",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-24",
+            "family": "inference-boundary",
+            "question": 38,
+            "note_fingerprint": "19f911e81a59cd80"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "roles",
+      "label": "主语—动作—对象与政策条件",
+      "families": [
+        {
+          "family": "logic",
+          "label": "because / unless 整句逻辑",
+          "focus": "用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-02",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "logic",
+            "question": 13,
+            "note_fingerprint": "93d01bce5999fc6c"
+          }
+        },
+        {
+          "family": "conditions",
+          "label": "so long as / in case / as far as",
+          "focus": "我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-10-21",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-26",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-21",
+            "family": "conditions",
+            "question": 21,
+            "note_fingerprint": "79eee035884b8042"
+          }
+        }
+      ]
+    },
+    {
       "mechanism": "paragraph",
       "label": "Part B 指代与前后衔接",
       "families": [
@@ -509,135 +693,107 @@
           }
         }
       ]
-    },
-    {
-      "mechanism": "scope",
-      "label": "选项范围与额外限定",
-      "families": [
-        {
-          "family": "inference-boundary",
-          "label": "观察变化与归因分开",
-          "focus": "用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-24",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-21",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-24",
-            "family": "inference-boundary",
-            "question": 38,
-            "note_fingerprint": "19f911e81a59cd80"
-          }
-        },
-        {
-          "family": "text4-historical-inference",
-          "label": "历史引用的立场归属",
-          "focus": "2013英语一Text 4第38题：用户最终选C，正确答案D。用户把前一句的the federal statute与本句提到的the Alien and Sedition Acts…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-18",
-          "web_errors": 2,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-18",
-            "family": "text4-historical-inference",
-            "question": 38,
-            "note_fingerprint": "7463e560c70fd918"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "roles",
-      "label": "主语—动作—对象与政策条件",
-      "families": [
-        {
-          "family": "conditions",
-          "label": "so long as / in case / as far as",
-          "focus": "我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-21",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-21",
-            "family": "conditions",
-            "question": 21,
-            "note_fingerprint": "79eee035884b8042"
-          }
-        },
-        {
-          "family": "text4-executive-overreach",
-          "label": "区分行政部门的主张与作者认可的结论",
-          "focus": "2013英语一Text 4第40题：用户最终选A，正确答案B。A把“国会如果想禁止州使用自己的资源核查移民身份，本来可以这么做”扩大成“移民问题通常由国会决定”，超出原文。作者最后…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-18",
-          "web_errors": 3,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-18",
-            "family": "text4-executive-overreach",
-            "question": 40,
-            "note_fingerprint": "f6532d17c9db994e"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "language",
-      "label": "修饰关系与熟词搭配",
-      "families": [
-        {
-          "family": "familiar-word-polysemy",
-          "label": "公正性与证据充分性",
-          "focus": "用户直接询问exercise、myth、perpetuate的词义；此记录源自用户明确提问，不根据横线推断为画框。exercise in self-promotion=一种自我宣传…",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-23",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-23",
-            "family": "familiar-word-polysemy",
-            "question": null,
-            "note_fingerprint": "2b351386a13088af"
-          }
-        },
-        {
-          "family": "text4-boxed-vocab",
-          "label": "典型改革冲突词块",
-          "focus": "2014英语一Text 4图片放大后能清楚确认框起来的两个翻译难点（不能把其他画横线的内容当翻译困难）。P3 representative government presuppos…",
-          "paper_kind": "translation_difficulty",
-          "latest_observation": "2026-10-24",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-15",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-24",
-            "family": "text4-boxed-vocab",
-            "question": null,
-            "note_fingerprint": "f488379d99a18c7d"
-          }
-        }
-      ]
     }
   ],
   "pending": [
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 20,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "familiar-word-polysemy",
+        "question": 20,
+        "note_fingerprint": "431574d775639919"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 15,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "cloze-comparison-chain",
+        "question": 15,
+        "note_fingerprint": "2567cc9cd9c27182"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 14,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "relation-collocation",
+        "question": 14,
+        "note_fingerprint": "1922c51b0ec483c9"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 13,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "logic",
+        "question": 13,
+        "note_fingerprint": "93d01bce5999fc6c"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 8,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "familiar-word-polysemy",
+        "question": 8,
+        "note_fingerprint": "fad37cbfe78996c3"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 6,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "familiar-word-polysemy",
+        "question": 6,
+        "note_fingerprint": "985ca723f640a52f"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Section I (Cloze)",
+      "question": 5,
+      "date": "2026-10-26",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-26",
+        "family": "test-object-scope",
+        "question": 5,
+        "note_fingerprint": "6d19f3536dfd7ad5"
+      }
+    },
     {
       "exam": "2014-english1",
       "part": "Part B (paragraph ordering)",
@@ -679,24 +835,11 @@
         "question": 27,
         "note_fingerprint": "4f3efdcb2d5058f5"
       }
-    },
-    {
-      "exam": "2014-english1",
-      "part": "Text 1",
-      "question": 25,
-      "date": "2026-10-21",
-      "status": "具体改选推理尚未完全确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-21",
-        "family": "author-stance",
-        "question": 25,
-        "note_fingerprint": "4aaa6cf8759824c5"
-      }
     }
   ],
   "warnings": [
-    "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
+    "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对",
+    "2015-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
   ],
   "sources": {
     "data/article-review.json": "67f9a9c2c46dee604b213cc9b81fe4521bc565f886742f69afa2dd31b6a4bdf9",
@@ -765,7 +908,7 @@
     "data/days/2026-10-24.json": "259ee160bab6ae06da10f054a9308df300be103395092727f2235f5ec0ae5bae",
     "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
     "data/days/2026-10-26.json": "a90c479d10d971b2369e77e37588e77893936aacc9c91b059203a52b4a1eb3bb",
-    "data/learning-notes.json": "66f13d676823e9acf5557ed2d41f58e88e3064cd784c00f7dbf3b35fcaa9aca9",
+    "data/learning-notes.json": "51eab04168c59e7d495b8afb7354cc84e493de0b23d3754f5f58fbe3eb1c1e03",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
@@ -800,7 +943,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "ee541076b0b4ecf61bd9d8425c7096e9a7a360d6bb262344031fbe95f6e9ae31",
+  "source_fingerprint": "55846452cf4baf6a3f106a0a1a4eef095bfa2b57ac5f7c95561caba533273ec0",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
