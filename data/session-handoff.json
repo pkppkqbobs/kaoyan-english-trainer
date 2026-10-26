@@ -161,7 +161,7 @@
             "date": "2026-10-26",
             "family": "relation-collocation",
             "question": 11,
-            "note_fingerprint": "dc60df9cb6a93bfc"
+            "note_fingerprint": "d2ec5daf35cabdb5"
           },
           "choice_conflict": false
         },
@@ -203,7 +203,7 @@
         "date": "2026-10-26",
         "family": "test-object-scope",
         "question": null,
-        "note_fingerprint": "a1a58009456f9ed8"
+        "note_fingerprint": "46a9cdb762844dc1"
       },
       "article_session_files": []
     },
@@ -563,7 +563,7 @@
             "date": "2026-10-26",
             "family": "relation-collocation",
             "question": 11,
-            "note_fingerprint": "dc60df9cb6a93bfc"
+            "note_fingerprint": "d2ec5daf35cabdb5"
           }
         }
       ]
@@ -721,7 +721,7 @@
         "date": "2026-10-26",
         "family": "cloze-comparison-chain",
         "question": 15,
-        "note_fingerprint": "2567cc9cd9c27182"
+        "note_fingerprint": "ec7bed112a1252b5"
       }
     },
     {
@@ -763,7 +763,7 @@
         "date": "2026-10-26",
         "family": "relation-collocation",
         "question": 11,
-        "note_fingerprint": "dc60df9cb6a93bfc"
+        "note_fingerprint": "d2ec5daf35cabdb5"
       }
     },
     {
@@ -908,7 +908,7 @@
     "data/days/2026-10-24.json": "259ee160bab6ae06da10f054a9308df300be103395092727f2235f5ec0ae5bae",
     "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
     "data/days/2026-10-26.json": "a90c479d10d971b2369e77e37588e77893936aacc9c91b059203a52b4a1eb3bb",
-    "data/learning-notes.json": "35fafaadc1e40f383e11881366f3079036ddc1dd4551cdc473dd9278b633faae",
+    "data/learning-notes.json": "ee08d9899397f8174a359737965b21700a1f8c11223309a781d768d7619beea0",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
@@ -943,7 +943,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "453cdf1df408245a4913087a2ae8761ed38d89780d817caa065ec2127ef7a37b",
+  "source_fingerprint": "b6e0b54c1fe05b4d2d38afd97a371ca32ce7c138fc9571fed33e258e751164ec",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
