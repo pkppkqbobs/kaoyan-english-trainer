@@ -142,8 +142,8 @@
         },
         {
           "kind": "user_reported_confusion",
-          "family": "familiar-word-polysemy",
-          "question": 8,
+          "family": "relation-collocation",
+          "question": 11,
           "related_questions": [],
           "updated_on": "2026-10-26",
           "final_choice": null,
@@ -151,17 +151,17 @@
           "first_considered": null,
           "candidate_choices": [],
           "eliminated_choices": [],
-          "reference_answer": "A",
+          "reference_answer": "B",
           "reference_status": "note_only",
-          "summary": "用户说第8题没有看明白、不清楚如何选择；没有报告原始最终字母或具体错误词义。",
+          "summary": "用户明确说第11题没有看明白，不清楚该如何选。用户并未提到第8题存在理解困难；先前将这一反馈误记为第8题属于不实归因，现已更正。用户没有确认第11题纸质最终字母，也没有解释自己当时…",
           "followup": null,
           "spans": [],
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-10-26",
-            "family": "familiar-word-polysemy",
-            "question": 8,
-            "note_fingerprint": "fad37cbfe78996c3"
+            "family": "relation-collocation",
+            "question": 11,
+            "note_fingerprint": "dc60df9cb6a93bfc"
           },
           "choice_conflict": false
         },
@@ -186,7 +186,7 @@
             "date": "2026-10-26",
             "family": "logic",
             "question": 13,
-            "note_fingerprint": "93d01bce5999fc6c"
+            "note_fingerprint": "739ef5ce03ec1ae5"
           },
           "choice_conflict": false
         }
@@ -533,7 +533,7 @@
         {
           "family": "familiar-word-polysemy",
           "label": "公正性与证据充分性",
-          "focus": "用户说第8题没有看明白、不清楚如何选择；没有报告原始最终字母或具体错误词义。",
+          "focus": "用户明确表示第20题不太理解，未确认最终字母或具体词义联想。",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-26",
           "web_errors": 0,
@@ -544,14 +544,14 @@
             "path": "data/learning-notes.json",
             "date": "2026-10-26",
             "family": "familiar-word-polysemy",
-            "question": 8,
-            "note_fingerprint": "fad37cbfe78996c3"
+            "question": 20,
+            "note_fingerprint": "431574d775639919"
           }
         },
         {
           "family": "relation-collocation",
           "label": "关系搭配 + 反直觉因果",
-          "focus": "用户明确表示第14题没看明白、难以选出答案；未确认最终字母，也未说自己把benefits理解成哪一个其他词。",
+          "focus": "用户明确说第11题没有看明白，不清楚该如何选。用户并未提到第8题存在理解困难；先前将这一反馈误记为第8题属于不实归因，现已更正。用户没有确认第11题纸质最终字母，也没有解释自己当时…",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-26",
           "web_errors": 0,
@@ -562,8 +562,8 @@
             "path": "data/learning-notes.json",
             "date": "2026-10-26",
             "family": "relation-collocation",
-            "question": 14,
-            "note_fingerprint": "1922c51b0ec483c9"
+            "question": 11,
+            "note_fingerprint": "dc60df9cb6a93bfc"
           }
         }
       ]
@@ -629,7 +629,7 @@
             "date": "2026-10-26",
             "family": "logic",
             "question": 13,
-            "note_fingerprint": "93d01bce5999fc6c"
+            "note_fingerprint": "739ef5ce03ec1ae5"
           }
         },
         {
@@ -749,21 +749,21 @@
         "date": "2026-10-26",
         "family": "logic",
         "question": 13,
-        "note_fingerprint": "93d01bce5999fc6c"
+        "note_fingerprint": "739ef5ce03ec1ae5"
       }
     },
     {
       "exam": "2015-english1",
       "part": "Section I (Cloze)",
-      "question": 8,
+      "question": 11,
       "date": "2026-10-26",
       "status": "最终选项未确认",
       "source": {
         "path": "data/learning-notes.json",
         "date": "2026-10-26",
-        "family": "familiar-word-polysemy",
-        "question": 8,
-        "note_fingerprint": "fad37cbfe78996c3"
+        "family": "relation-collocation",
+        "question": 11,
+        "note_fingerprint": "dc60df9cb6a93bfc"
       }
     },
     {
@@ -908,7 +908,7 @@
     "data/days/2026-10-24.json": "259ee160bab6ae06da10f054a9308df300be103395092727f2235f5ec0ae5bae",
     "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
     "data/days/2026-10-26.json": "a90c479d10d971b2369e77e37588e77893936aacc9c91b059203a52b4a1eb3bb",
-    "data/learning-notes.json": "51eab04168c59e7d495b8afb7354cc84e493de0b23d3754f5f58fbe3eb1c1e03",
+    "data/learning-notes.json": "35fafaadc1e40f383e11881366f3079036ddc1dd4551cdc473dd9278b633faae",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
@@ -943,7 +943,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "55846452cf4baf6a3f106a0a1a4eef095bfa2b57ac5f7c95561caba533273ec0",
+  "source_fingerprint": "453cdf1df408245a4913087a2ae8761ed38d89780d817caa065ec2127ef7a37b",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

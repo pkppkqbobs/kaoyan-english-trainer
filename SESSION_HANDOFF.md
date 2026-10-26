@@ -28,7 +28,7 @@
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
 - 作者态度、评价对象与转折（author-stance、paragraph-scope-attitude）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
-- 修饰关系与熟词搭配（familiar-word-polysemy、relation-collocation）：用户说第8题没有看明白、不清楚如何选择；没有报告原始最终字母或具体错误词义。 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（familiar-word-polysemy、relation-collocation）：用户明确表示第20题不太理解，未确认最终字母或具体词义联想。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（test-object-scope、inference-boundary）：用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（logic、conditions）：用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。 网页错误数/streak单列于JSON。
 - Part B 指代与前后衔接（paragraph-order-discourse、paragraph-order-anaphora）：用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t… 网页错误数/streak单列于JSON。
@@ -39,7 +39,7 @@
 - 2015 英语一 Section I (Cloze) Q15：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q14：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q13：最终选项未确认。
-- 2015 英语一 Section I (Cloze) Q8：最终选项未确认。
+- 2015 英语一 Section I (Cloze) Q11：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q6：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q5：最终选项未确认。
 - 2014 英语一 Part B (paragraph ordering) Q43：最终选项未确认。
