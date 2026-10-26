@@ -1370,8 +1370,8 @@
     "kind": "user_reported_confusion",
     "source_question": 11,
     "expected": "B",
-    "user_reported_reasoning": "用户明确说第11题没有看明白，不清楚该如何选。用户并未提到第8题存在理解困难；先前将这一反馈误记为第8题属于不实归因，现已更正。用户没有确认第11题纸质最终字母，也没有解释自己当时对to的具体误解。",
-    "note": "2015英语一完形第11空：it draws us to similar environments but there is more to it。前一处draw sb. to sth.表示把某人吸引到某种环境；空格处there is more to it表示事情不止如此/背后还有别的原因，完整搭配可扩展为there is more to the story than that（改编来源的表达）。B to正确；about/from/like不构成这一义项的惯用结构。后续在新语境辨认there is more to ... 与普通比较级及draw sb. to sth.，不推断用户有特定错误选项。"
+    "user_reported_reasoning": "用户明确说第11题没有看明白，不清楚该如何选。用户并未提到第8题存在理解困难；先前将这一反馈误记为第8题属于不实归因，现已更正。用户没有确认第11题纸质最终字母，也没有解释自己当时对to的具体误解。 后续明确追问（2026-10-26）：用户询问“but there is more to it这个固定句式是啥意思”，证实尚不熟悉there is more to + 名词/代词这一整体表达；但没有明确说明当时选择了哪个错误介词，仍不得倒推为错误作答。",
+    "note": "2015英语一完形第11空：it draws us to similar environments but there is more to it。前一处draw sb. to sth.表示把某人吸引到某种环境；空格处there is more to it表示事情不止如此/背后还有别的原因，完整搭配可扩展为there is more to the story than that（改编来源的表达）。B to正确；about/from/like不构成这一义项的惯用结构。后续在新语境辨认there is more to ... 与普通比较级及draw sb. to sth.，不推断用户有特定错误选项。 补充：there is more to it = 事情不止于此/还有更深层原因；to是介词；there is more to X than Y 表示X不只是Y，原文it回指朋友基因相似现象及其成因，不宜逐词直译。"
   },
   {
     "date": "2026-10-26",
@@ -1415,8 +1415,8 @@
     "kind": "user_reported_confusion",
     "source_question": 15,
     "expected": "C",
-    "user_reported_reasoning": "用户明确说第15题没看明白、不清楚怎么选，未确认最终纸质选择，也未说明自己倾向slower或earlier。",
-    "note": "2015英语一完形第15空：similar genes seem to be evolving faster than other genes；下一句说human evolution picked pace in the last 30,000 years（人类进化加速），给出faster的方向证据。slower语法成立但与后文证据方向相反；earlier/later比较时间节点而非速度。训练要关注比较维度和跨句解释/同义表达，不虚构用户原选项。"
+    "user_reported_reasoning": "用户明确说第15题没看明白、不清楚怎么选，未确认最终纸质选择，也未说明自己倾向slower或earlier。 后续明确追问（2026-10-26）：用户说“picked不是采摘的意思吗”，表明在原文picked pace的搭配中将picked联想到采摘，未识别整体加速义；此前并未确认最终第15题选择，不可据此推测选错的字母。",
+    "note": "2015英语一完形第15空：similar genes seem to be evolving faster than other genes；下一句说human evolution picked pace in the last 30,000 years（人类进化加速），给出faster的方向证据。slower语法成立但与后文证据方向相反；earlier/later比较时间节点而非速度。训练要关注比较维度和跨句解释/同义表达，不虚构用户原选项。 补充：原题印作picked pace（意思为进化步伐加快）；英语中更常见、更推荐掌握的是pick up/gather pace或pick up the pace（加快速度/加速）。picked单独可表示采摘，但本句需结合pace及上下文判断，和空15的faster形成速度方向呼应；不要把原题非典型写法picked pace当成通用标准固定搭配。"
   },
   {
     "date": "2026-10-26",
@@ -1450,6 +1450,6 @@
       "smell",
       "drawn from"
     ],
-    "note": "2015英语一完形左页可辨认的画框词：genome-wide=全基因组范围的（a genome-wide analysis）；conducted=开展的、实施的，过去分词后置修饰analysis，conducted on 1,932 unique subjects=针对1932名受试者开展的；smell=嗅觉，genes for smell=嗅觉相关基因；drawn from=从……中选取/抽取，subjects were drawn from a population of European extraction=研究对象选自欧洲血统人群。图片框词按翻译困难记录；下划线不当成框词；这条不是错题或网页成绩。"
+    "note": "2015英语一完形左页可辨认的画框词：genome-wide=全基因组范围的（a genome-wide analysis）；conducted=开展的、实施的，过去分词后置修饰analysis，conducted on 1,932 unique subjects=针对1932名受试者开展的；smell=嗅觉，genes for smell=嗅觉相关基因；drawn from=从……中选取/抽取，subjects were drawn from a population of European extraction=研究对象选自欧洲血统人群。图片框词按翻译困难记录；下划线不当成框词；这条不是错题或网页成绩。 补充用户主动追问（2026-10-26）：用户记得conduct可表示导电或指导，却不理解研究语境的conducted。conduct electricity=导电；conduct a study/research/an experiment=开展研究/进行实验；conduct an orchestra=指挥乐团；这里conducted on ...为后置过去分词修饰analysis（相当于analysis that was conducted on ...）。这来自用户明确词义提问，不据此虚构选择题失误。"
   }
 ]
