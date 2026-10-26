@@ -1366,12 +1366,12 @@
     "paper_attempt": true,
     "final_choice_letter_confirmed": false,
     "scoring_policy": "User-reported paper comprehension evidence only; no guessed letter choice, web Issue attempt, error count, streak or paper total.",
-    "family": "familiar-word-polysemy",
+    "family": "relation-collocation",
     "kind": "user_reported_confusion",
-    "source_question": 8,
-    "expected": "A",
-    "user_reported_reasoning": "用户说第8题没有看明白、不清楚如何选择；没有报告原始最终字母或具体错误词义。",
-    "note": "2015英语一完形第8空：the people who resemble our kin（与我们的亲属相似的人）。resemble=与……相似；kin=亲属。通篇讨论朋友与亲属之间的基因相似性，而不是influence（影响）、surpass（胜过）。favor在特定美式语境也可指长得像某人，但此处resemble是最直截了当的科学相似性表达。应训练语境义及动词角色，而不是假设用户误译了某一个选项。"
+    "source_question": 11,
+    "expected": "B",
+    "user_reported_reasoning": "用户明确说第11题没有看明白，不清楚该如何选。用户并未提到第8题存在理解困难；先前将这一反馈误记为第8题属于不实归因，现已更正。用户没有确认第11题纸质最终字母，也没有解释自己当时对to的具体误解。",
+    "note": "2015英语一完形第11空：it draws us to similar environments but there is more to it。前一处draw sb. to sth.表示把某人吸引到某种环境；空格处there is more to it表示事情不止如此/背后还有别的原因，完整搭配可扩展为there is more to the story than that（改编来源的表达）。B to正确；about/from/like不构成这一义项的惯用结构。后续在新语境辨认there is more to ... 与普通比较级及draw sb. to sth.，不推断用户有特定错误选项。"
   },
   {
     "date": "2026-10-26",
@@ -1386,7 +1386,7 @@
     "source_question": 13,
     "expected": "B",
     "user_reported_reasoning": "用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。",
-    "note": "2015英语一完形第13空：choose genetically similar friends rather than 'functional kinship' of being friends with benefits。rather than（而不是）在作者的局部论证中形成两种择友动因的取舍对照：基因相似 vs 以实用利益为纽带。according to=依据，regardless of=不顾，along with=连同。这里只是作者的强调，不证明两种动因在现实中绝对互斥。迁移时针对取舍/让步/并列/依据的语义关系设计新语境。"
+    "note": "2015英语一完形第13空：choose genetically similar friends rather than 'functional kinship' of being friends with benefits。rather than（而不是）在作者的局部论证中形成两种择友动因的取舍对照：基因相似 vs 以实用利益为纽带。according to=依据，regardless of=不顾，along with=连同。这里只是作者的强调，不证明两种动因在现实中绝对互斥。迁移时针对取舍/让步/并列/依据的语义关系设计新语境。 来源与题目质量说明：核查2014年UC San Diego报道 https://today.ucsd.edu/story/friends_are_the_family_you_choose ，原报道分别介绍functional kinship的互利优势和多种机制共同驱动基因相似的择友，并未证明二者天然对立；考试改写以rather than作为标准答案，语义对照较生硬。记录为对题目表述不够顺畅情形下的理解困难，不能据此推断用户逻辑能力不足或误选某字母。"
   },
   {
     "date": "2026-10-26",
