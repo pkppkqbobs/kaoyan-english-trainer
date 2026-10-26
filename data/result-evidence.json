@@ -2261,6 +2261,94 @@
       "qid": "text4-historical-inference-c",
       "round_id": "mvnra4a9-ydauvlo4",
       "source_date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 29777,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "summary-overall-midsection",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 55722,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "text4-executive-overreach-c",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 52178,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "text4-state-privileges-b",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 31747,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "example-factory-reporting-measure-e",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "point",
+      "ok": true,
+      "ms": 21708,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "point-timetable-argument",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "familiar-word-polysemy",
+      "ok": true,
+      "ms": 65060,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "polysemy-justified-complaint-a",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "relative",
+      "ok": true,
+      "ms": 6820,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-26",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 10842,
+      "uncertain": false,
+      "origin": 29,
+      "qid": "recruitment-hunt-b",
+      "round_id": "mvp5enzx-mpvft4m5",
+      "source_date": "2026-10-26"
     }
   ],
   "issues": [
@@ -2291,6 +2379,7 @@
     25,
     26,
     27,
-    28
+    28,
+    29
   ]
 }
