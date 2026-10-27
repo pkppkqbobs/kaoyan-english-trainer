@@ -1451,5 +1451,83 @@
       "drawn from"
     ],
     "note": "2015英语一完形左页可辨认的画框词：genome-wide=全基因组范围的（a genome-wide analysis）；conducted=开展的、实施的，过去分词后置修饰analysis，conducted on 1,932 unique subjects=针对1932名受试者开展的；smell=嗅觉，genes for smell=嗅觉相关基因；drawn from=从……中选取/抽取，subjects were drawn from a population of European extraction=研究对象选自欧洲血统人群。图片框词按翻译困难记录；下划线不当成框词；这条不是错题或网页成绩。 补充用户主动追问（2026-10-26）：用户记得conduct可表示导电或指导，却不理解研究语境的conducted。conduct electricity=导电；conduct a study/research/an experiment=开展研究/进行实验；conduct an orchestra=指挥乐团；这里conducted on ...为后置过去分词修饰analysis（相当于analysis that was conducted on ...）。这来自用户明确词义提问，不据此虚构选择题失误。"
+  },
+  {
+    "date": "2026-10-27",
+    "session_id": "2026-10-27-2015-text1",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "family": "causal-role-direction",
+    "kind": "user_reported_wrong",
+    "source_question": 22,
+    "reported_pick": "C",
+    "expected": "A",
+    "final_choice_letter_confirmed": true,
+    "user_reported_reasoning": "用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成立，不应倒推为已证实的具体翻译错误。",
+    "note": "2015英语一Text 1第22题：第三段末句 most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure。主干：王室得以延续because王室使选民免于艰难寻找一位无争议且受尊敬的国家公共象征。正确A owing to their undoubted and respectable status，是针对其相对无争议且受尊敬的地位的概括（undoubted措辞比non-controversial字面更强，按四选一最佳匹配）。用户选C给选民更多可以敬仰的公众人物，原文却是avoid the search（无需再找），并未说增加人物数量或供给。用户明确定位第三段末句但选C；可推测需训练动作-结果方向及否定/省去行为与增加供给的区别，尚未确认用户当时具体误解机制。后续在不同领域训练allow sb to avoid X ≠ provide more X，both causality and semantic scope。本题纸质选错仅是学习观察，不增加网页Issue得分或错误次数。",
+    "scoring_policy": "Confirmed wrong PAPER answer only; do not fabricate GitHub web attempt, errors, score or streak."
+  },
+  {
+    "date": "2026-10-27",
+    "session_id": "2026-10-27-2015-text1",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "family": "inference-boundary",
+    "kind": "correct_but_uncertain",
+    "source_question": 24,
+    "reported_pick": "D",
+    "expected": "D",
+    "considered_choice": "A",
+    "candidate_choices": [
+      "A",
+      "D"
+    ],
+    "final_choice_letter_confirmed": true,
+    "user_reported_reasoning": "用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。",
+    "note": "2015英语一Text 1第24题：选项A takes a tough line on political issues意为在政治议题上采取强硬立场，take a tough line on sth=对...采取强硬态度。文章末段Charles has a pretty hierarchical view of the world（等级观念强）并说He has failed to understand that monarchies have largely survived because they provide a service—as non-controversial and non-political heads of state。等级观念强不等于具体政治议题采取强硬立场；A属于额外推断。D fails to adapt himself to his future role最符合：未意识到其未来国家元首角色应保持超党派、争议较少和公众服务性质。用户最终D正确，但明确犹豫且不理解A的固定搭配，记为paper correct-but-uncertain，不能凭正确字母视为稳定掌握。用户还报告整篇文章理解较差；文章主线为卡洛斯退位引出问题→君主制在现代欧洲仍得以存在的价值→世袭特权与民主平等的冲突→英国王室特别是查尔斯要吸取教训。",
+    "scoring_policy": "Confirmed correct but uncertain PAPER answer only; do not fabricate web attempt, score or streak."
+  },
+  {
+    "date": "2026-10-27",
+    "session_id": "2026-10-27-2015-text1",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "family": "politics-policy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "abdicate",
+      "arguments",
+      "polarized",
+      "transcendence",
+      "absolutist",
+      "downside",
+      "their very history"
+    ],
+    "note": "2015英语一Text 1图片可辨认画框的词/语：abdicate（君主）退位；arguments both for and against=支持与反对的两方面论据（arguments在此不是吵架）；polarized=（政治/公众意见）两极分化；transcendence of politics=超越党派政治，来自transcend；absolutist counterparts=实行君权专制的同类君主（counterparts作对比对象）；downside=弊端、负面的一面；their very history=恰恰是他们自身的历史，very在此强化限定并非非常。只记录明确画框，原文下划线如respected public figure等属于用户标重要证据，不能混入框词。",
+    "scoring_policy": "Translation observation only; no fabricated answer, attempt, errors or streak."
+  },
+  {
+    "date": "2026-10-27",
+    "session_id": "2026-10-27-2015-text1",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "economists",
+      "aristocratic",
+      "party with",
+      "intrusiveness",
+      "granny",
+      "hierarchical"
+    ],
+    "note": "2015英语一Text 1图片可辨认画框的词/语：economists=经济学家；aristocratic (families)=贵族的、具有贵族背景的；party with the international 1%=与国际顶尖富豪圈交际/参加聚会，这里party是动词而非政党；media intrusiveness=媒体侵扰、过度介入私生活的程度；granny style=（老）奶奶式的朴素、亲民风格；hierarchical view of the world=等级秩序观念强的世界观。注意granny和hierarchical直接帮助理解第24题。仅纸质画框词算translation difficulty；下划线不自动算看不懂。",
+    "scoring_policy": "Translation observation only; no fabricated answer, attempt, errors or streak."
   }
 ]
