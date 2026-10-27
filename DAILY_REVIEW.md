@@ -3,7 +3,7 @@
 ## 稳定主链路
 
 - GitHub Actions `Daily review state` 是唯一的无人值守写入链路：每天北京时间约 08:17 读取已提交成绩、按间隔规则组 8 题并提交状态文件；仓库现有的 Pages 分支发布器随后只构建一次最新提交。题库更新和本人提交/编辑成绩也会触发处理。GitHub 定时运行可能延迟，不承诺精确到分钟。
-- 不再让 ChatGPT 定时任务在无人值守状态下直接写 GitHub；这类外部写入可能被运行环境的安全检查拦截并产生失败通知。ChatGPT 只在用户主动聊天、当前会话可执行 GitHub 写入时补充经过语义审核的 `data/questions/*.json` 或学习观察。
+- GitHub Actions负责无人值守处理；主动的仓库维护统一交给这个Work对话。普通学习对话负责教学与结构化交接，避免两个对话并行改库。Work在用户委托的范围内补充经语义审核的题库与观察，并负责测试、提交和线上验收；常规维护沿用已有授权，明确的审批拦截须如实说明。
 - 固定入口仍为 `today.html`。当天首次生成后锁定题单；之后收到的成绩更新复习状态，追加的新题进入后续日期的候选池，不会把正在做的一套题换掉。
 - GitHub 本身读不到聊天记录。聊天中新暴露的错点只有在主动会话中被同步到仓库后，GitHub 的每日生成器才会使用。
 - GitHub 工作流只使用平台临时提供的 `GITHUB_TOKEN`，权限限于仓库内容写入与成绩读取；Pages 使用现有分支发布器。每日/文章页面可以自愿设置仅限此仓库的 fine-grained token（Issues 读写）以自动提交成绩，未设置时仍可手动提交或导出。不需要模型 API key 或额外服务；具体授权和本地保存方式见 README。
@@ -11,8 +11,9 @@
 ## 文章复盘链路
 
 - 用户做完一篇真题后，可以在当前 ChatGPT 对话中发送文章截图并说明：哪些题做错、哪些题虽然做对但犹豫、哪些画框位置翻译困难。
-- ChatGPT 只把与训练有关的结构化学习证据同步到 `data/learning-notes.json`，并按需要补充经过审核的新语境题到 `data/questions/*.json`；不上传聊天全文，也不把“答对但犹豫/翻译困难”伪造成答错记录。
-- 每篇文章再写一个很小的 `data/article-sessions/YYYY-MM-DD-*.json`，保存唯一 `id`、学习日期 `date`、带时区的 `created_at`、来源标签、`focus_families` 和 `max_current`（1–4）。最新 session 按 `created_at` 选取，不按文件名猜测；既有无时间戳文件兼容学习日期，但新增文件必须写明时间。
+- Work把与训练有关的结构化学习证据同步到 `data/learning-notes.json`，并按需要补充经过审核的新语境题到 `data/questions/*.json`；不上传聊天全文，也不把“答对但犹豫/翻译困难”伪造成答错记录。已有反馈直接读取，尚未同步的聊天和照片不能假装已读。
+- 新篇复盘由Work同时补齐 `data/article-sessions/YYYY-MM-DD-*.json`，保存唯一 `id`、题单发布日期 `date`、原学习日期 `learning_date`、带时区的 `created_at`、来源标签、`focus_families` 和 `max_current`（1–4）。最新 session 按 `created_at` 选取，不按文件名猜测；既有缺少学习日期或时间戳的文件按旧规则兼容，不能重写历史。
+- 一篇的维护完成以观察、独立复盘入口和交接摘要均已核验为准。仅保存观察时必须说明尚缺复盘及原因；补充既有篇目的词义澄清不自动重开已发布轮次。
 - 同日多篇的 learning note 加 `session_id`。`user_reported_wrong`、`correct_but_uncertain`、`translation_difficulty` 都是观察，绝不增加错误数、attempts 或 streak；选题权重依次降低。低价值可组合词可标记 `review_importance: "low"`，不能与阅读机制同权。
 - `scripts/article_review.py` 把本篇问题与历史弱项混成 8 题。默认本篇 4 + 历史 4；只有两个有效本篇目标时为 2 + 6。本篇超过四个目标时按证据优先级选择，同级目标在新轮次间轮换。历史部分直接从排除所有本篇目标后的候选池调用共用间隔选择器，并参考 daily 和已发布 article 的出题历史。
 - session 若开启 `balanced_options`，历史候选只按四个选项的长度差（最多 20 字符）筛选，不能按正确答案是否最长筛选。新题单再统一检查：每题长度差合格、8 题最多 2 题正确项独自最长；不满足则生成失败、保留上一版，不改已发布轮次。
