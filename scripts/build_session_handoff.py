@@ -318,6 +318,42 @@ def priorities(items, notes, state, state_valid, as_of):
     return result[:5]
 
 
+def article_coverage(source, notes, sessions):
+    """A successful build is not proof every synchronized article has a round."""
+    grouped = defaultdict(list)
+    for note in notes:
+        if note.get('session_id') and note.get('source_exam') and note.get('source_part'):
+            grouped[note['session_id']].append(note)
+    coverage = []
+    for sid, entries in grouped.items():
+        path = sessions.get(sid)
+        definition = source.read(path, {}) if path else {}
+        revision = definition.get('revision', 1)
+        if not isinstance(sid, str) or not re.fullmatch(r'[a-z0-9][a-z0-9_-]{2,120}', sid):
+            raise ValueError('Invalid article observation session id')
+        if type(revision) is not int or revision < 1:
+            raise ValueError('Invalid article coverage revision')
+        key = sid if revision == 1 else f'{sid}-r{revision}'
+        round_path = 'data/article-reviews/' + key + '.json' if path else None
+        payload = source.read(round_path, {}) if round_path else {}
+        page_path = 'article-review-' + key + '.html'
+        page = source.root / page_path
+        if path:
+            source.sources[page_path] = hashlib.sha256(page.read_bytes()).hexdigest() if page.is_file() else None
+        published = bool(payload.get('storageId') == key and len(payload.get('questions', [])) == 8 and page.is_file())
+        coverage.append({'session_id': sid, 'learning_date': min(n['date'] for n in entries),
+                         'updated_on': max(updated(n) for n in entries),
+                         'exam': entries[0]['source_exam'], 'part': entries[0]['source_part'],
+                         'status': 'published' if published else 'missing_round' if path else 'missing_session',
+                         'session_file': path, 'round_file': round_path if published else None,
+                         'publication_date': payload.get('date') if published else None})
+    coverage.sort(key=lambda item: (item['learning_date'], item['session_id']), reverse=True)
+    pending = [item for item in coverage if item['status'] != 'published']
+    if pending:
+        source.warnings.add(f'有{len(pending)}个已登记学习阶段尚无可用文章专项复盘；任务运行成功不代表篇目覆盖完整')
+    return {'pending': pending, 'recent': coverage[:8]}
+
+
 def make_report(root=ROOT):
     source = Inputs(root)
     notes = source.read('data/learning-notes.json', [], required=True)
@@ -385,6 +421,7 @@ def make_report(root=ROOT):
             source.warnings.add(f"{n.get('source_exam')} {n.get('source_part')} Q{n.get('source_question')} 记录与source-check冲突，待核对")
     current = latest['current_daily']
     recent = paper_summary(notes, sessions, checks)
+    coverage = article_coverage(source, notes, sessions)
     return {'schema_version': 1, 'as_of': as_of,
             'source_dates': {'review_state': state.get('as_of'), 'daily_quiz': daily.get('date'),
                              'latest_observation': max((updated(n) for n in notes), default=None)},
@@ -395,9 +432,11 @@ def make_report(root=ROOT):
                     'current_daily_issue': current['issue'] if current else None,
                     'current_daily_status': 'verified' if valid and current and current['status'] == 'verified' and current['date'] == daily.get('date') else 'unverified',
                     'latest_daily': latest['daily'], 'latest_article': latest['article'],
-                    'available_article': {'date': article.get('date'), 'storageId': article.get('storageId')},
+                    'available_article': {'date': article.get('date'), 'storageId': article.get('storageId'),
+                                          'learning_date': article.get('article_session', {}).get('learning_date', article.get('date'))},
                     'unverified_complete_rounds': unknown, 'review_state_status': 'verified' if valid else 'unverified'},
             'recent_paper': recent,
+            'article_review_coverage': coverage,
             'priorities': priorities(items, [n for n in notes if paper_item(n, checks)['reference_status'] != 'conflict'], state, valid, as_of or ''),
             'pending': pending_items(notes, rejected, recent), 'warnings': sorted(source.warnings),
             'sources': dict(sorted(source.sources.items())), 'source_fingerprint': fingerprint(source.sources),
@@ -429,6 +468,10 @@ def markdown(report):
     lines.append(f"当前题单日期：{web['current_daily_date'] or '未知'}；完成状态：{'已核验' if web['current_daily_status'] == 'verified' else '未验证'}。即使本轮全对，也不能替代其他机制的后续跨日验证。")
     lines.append('网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。')
     lines.append('旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。')
+    available = web['available_article']
+    lines.append(f"当前文章专项：发布日期{available['date'] or '未知'}，对应学习日期{available['learning_date'] or '未知'}；题单已发布不等于已经作答。")
+    missing = len(report['article_review_coverage']['pending'])
+    lines.append(f'已登记篇目复盘缺口：{missing}个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。')
     lines.extend(['', '## 最近纸质学习阶段', ''])
     for stage in report['recent_paper']:
         details = []
@@ -504,5 +547,9 @@ def build(root=ROOT):
 
 if __name__ == '__main__':
     output = build()
+    missing = len(output['article_review_coverage']['pending'])
+    if missing:
+        print(f'::warning title=Article review coverage::{missing} synchronized paper stages have no published article round.')
     print(json.dumps({'as_of': output['as_of'], 'source_fingerprint': output['source_fingerprint'],
-                      'latest_daily_issue': (output['web']['latest_daily'] or {}).get('issue')}, ensure_ascii=False))
+                      'latest_daily_issue': (output['web']['latest_daily'] or {}).get('issue'),
+                      'pending_article_reviews': missing}, ensure_ascii=False))

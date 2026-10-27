@@ -1,0 +1,290 @@
+[
+  {
+    "id": "stance-reading-room-cost-report",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-27",
+    "target": "评价对象与让步关系",
+    "skill": "评价对象与让步关系",
+    "budget": 50,
+    "q": "An editorial says: \"Opening the reading room on Sundays deserves a trial. The report offered to justify it, however, omits staff costs and cannot establish that the plan is affordable.\" How does the editorial assess the report?",
+    "o": [
+      "It is inadequate as a case for the proposal.",
+      "It convincingly establishes the project's value.",
+      "It merely lists facts without supporting a view.",
+      "It gives a fair account of all financial effects."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "社论认为周日开放阅览室值得试行；但作为论据的报告漏计人力成本，无法证明方案负担得起。对报告的判断是论证不足。",
+      "structure": "Opening...是首句主语；第二句The report是主语，omits与cannot establish是并列谓语。however把值得尝试的方案与不足以支撑它的报告区分开。",
+      "other": "editorial 社论；justify 为……提供理由；omit 漏计；affordable 负担得起的。",
+      "meaning": "问评价时先确定对象。对方案的局部肯定不能代替对报告证据质量的否定评价。",
+      "rest": "“有力证明项目价值”与cannot establish相反；报告被用来论证方案，不能说不支持任何观点；漏计人力成本使其并未完整涵盖财务影响。"
+    }
+  },
+  {
+    "id": "conditions-workshop-entry-training",
+    "family": "conditions",
+    "introduced": null,
+    "published_on": "2026-10-27",
+    "target": "资格条件与行为主体",
+    "skill": "资格条件与行为主体",
+    "budget": 35,
+    "q": "Only volunteers who complete safety training may enter the workshop. Completing the training does not guarantee a place, because capacity is limited. Which conclusion follows?",
+    "o": [
+      "Every trained volunteer is assured a workshop place.",
+      "A volunteer may enter before finishing the training.",
+      "Limited capacity removes the need for safety training.",
+      "An entrant must have completed the safety training."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "只有完成安全培训的志愿者才可进入工作坊；名额有限，所以完成培训并不保证获得名额。能进入者必须已完成培训。",
+      "structure": "Only限定volunteers who complete safety training；who从句修饰志愿者。第二句以Completing the training作主语，does not guarantee作谓语，a place作宾语。",
+      "other": "entrant 进入者；guarantee 保证；capacity 容纳人数。",
+      "meaning": "进入蕴含完成培训；完成培训不必然蕴含进入。资格条件和保证结果不能反向互换。",
+      "rest": "“受训者均保证入场”把必要条件扩大成充分条件；“培训前可入场”和“容量限制取消培训要求”都与Only引出的限制冲突。"
+    }
+  },
+  {
+    "id": "logic-sensor-trends-safety-limit",
+    "family": "logic",
+    "introduced": null,
+    "published_on": "2026-10-27",
+    "target": "前后命题的适用范围",
+    "skill": "前后命题的适用范围",
+    "budget": 40,
+    "q": "The sensor readings are useful for tracking daily changes. ___, they are too imprecise to determine whether a bridge meets the safety limit. Which connector best links the two assessments?",
+    "o": [
+      "For example",
+      "However",
+      "Similarly",
+      "Therefore"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "这些传感器读数有助于追踪每日变化；然而，读数还不够精确，无法判断桥梁是否达到安全限值。",
+      "structure": "首句主语The sensor readings，系表结构are useful；第二句they回指读数，too imprecise to determine说明精度限制。",
+      "other": "reading 读数；imprecise 不精确的；meet a limit 达到界限要求。",
+      "meaning": "共同话题并不等于并列关系。第一句肯定一种用途，第二句限制另一种用途，因此用转折引出限定。",
+      "rest": "“例如”不能把不适用的用途当成前句有用的实例；“同样”忽略由肯定到限制的变化；“因此”错误地把精度不足说成有用的必然结果。"
+    }
+  },
+  {
+    "id": "relation-more-to-repair-testing",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-27",
+    "target": "整体表达与后文解释",
+    "skill": "整体表达与后文解释",
+    "budget": 50,
+    "q": "The repair looks like replacing one cable, but there is more to it: the technician must also find the cause of the overheating and retest the circuit. What does \"there is more to it\" mean here?",
+    "o": [
+      "The replacement requires a longer piece of cable.",
+      "The cable costs more than the other spare parts.",
+      "It involves further work beyond changing a cable.",
+      "It creates more faults than the tests can identify."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "维修表面上像是换根电缆，但事情还不止这些：技师还必须查明过热原因，并重新测试电路。",
+      "structure": "there is more to it是完整表达；it指维修这件事。冒号后的also与并列动作find、retest说明more具体增加了哪些工作。",
+      "other": "overheating 过热；circuit 电路；retest 重新测试。",
+      "meaning": "there is more to something表示某事比表面呈现的更复杂或包含更多内容；to连接所涉及的事情，不单独表示方向。",
+      "rest": "电缆更长、价格更高都没有证据；后文是查因和复测，也没有说维修新制造了更多故障。"
+    }
+  },
+  {
+    "id": "polysemy-hearing-picked-up-pace",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-27",
+    "target": "搭配中的动作与指向",
+    "skill": "搭配中的动作与指向",
+    "budget": 50,
+    "q": "At first, witnesses answered one question every ten minutes. Once the clerk combined repeated questions, the proceedings picked up pace. What changed?",
+    "o": [
+      "The hearing moved through the questions faster.",
+      "The hearing switched to a more cautious schedule.",
+      "The clerk collected more questions for later use.",
+      "The witnesses were chosen at a more regular rate."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "起初证人每十分钟回答一题；书记员合并重复问题后，听证进程加快了。",
+      "structure": "Once引出时间条件；主句the proceedings是主语，picked up pace是谓语表达。速度变化属于听证进程，不属于挑选证人的频率。",
+      "other": "proceedings 会议或听证程序；clerk 书记员；witness 证人；pace 节奏、速度。",
+      "meaning": "pick up pace表示加快进程，要把pick up和pace作为整体理解，再结合减少重复问题的背景确认方向。",
+      "rest": "更谨慎的日程不等于加速；收集问题把pick up误套到另一个宾语；挑选证人的频率把动作主体和对象都换掉了。"
+    }
+  },
+  {
+    "id": "text2-boxed-curators-implement-ideas",
+    "family": "text2-boxed-vocab",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-27",
+    "target": "词组修饰与执行关系",
+    "skill": "词组修饰与执行关系",
+    "budget": 45,
+    "q": "The curators proposed several sensible changes, but the board was too conservative to implement them. Which paraphrase is accurate?",
+    "o": [
+      "The proposals were risky, so the board sensibly abandoned them.",
+      "The proposals were reasonable, but the board did not apply them.",
+      "The board found the proposals reasonable and then applied them.",
+      "The board rejected caution after the curators adopted the plan."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "策展人提出了几项合理改动，但董事会过于保守，不愿或无法把这些改动付诸实施。",
+      "structure": "sensible修饰changes；but连接提出方案与未能落实的反差；too conservative to implement表示保守程度阻碍实施，them回指changes。",
+      "other": "curator 策展人；sensible 合理明智的；implement 落实、执行；conservative 保守的。",
+      "meaning": "合理的是方案，阻碍实施的是董事会的保守。不能把sensible转成对拒绝方案的赞许，也不能漏掉too...to的否定性结果。",
+      "rest": "“方案危险、拒绝明智”改变sensible的修饰对象；“随后实施”颠倒too...to的结果；“策展人采用方案后董事会放弃谨慎”重排了主体与行为。"
+    }
+  },
+  {
+    "id": "text3-boxed-museum-format-outgrown",
+    "family": "text3-boxed-vocab",
+    "introduced": "2026-10-17",
+    "published_on": "2026-10-27",
+    "target": "动词与宾语的关系",
+    "skill": "动词与宾语的关系",
+    "budget": 55,
+    "q": "Small grants cemented the museum's preference for solo exhibits, although its expanding collection had outgrown that format. Which reading is best?",
+    "o": [
+      "The grants weakened a format that still met the collection's needs.",
+      "The collection shrank, allowing the existing format to work better.",
+      "The grants reinforced a format that no longer suited the collection.",
+      "The grants replaced solo exhibits with a newly collaborative format."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "小额资助固化了博物馆偏好个人展览的做法，尽管日益扩展的馆藏已使这种形式不再适用。",
+      "structure": "Small grants是主句主语，cemented是谓语，preference是宾语；although从句的主语是collection，had outgrown的宾语是that format。",
+      "other": "cement 巩固、固化；solo exhibit 个人展览；outgrow 因发展而不再适合原有事物。",
+      "meaning": "cement在此不是物质水泥；outgrow不是让某物变大，而是主体的发展超出原形式的适用范围。两处动作要分别落实到宾语。",
+      "rest": "削弱形式与cemented相反；馆藏缩小与expanding相反；新增协作形式没有依据，原文说资助强化了旧偏好。"
+    }
+  },
+  {
+    "id": "text4-boxed-routing-rule-presupposes",
+    "family": "text4-boxed-vocab",
+    "introduced": "2026-10-11",
+    "published_on": "2026-10-27",
+    "target": "前提与验证结果",
+    "skill": "前提与验证结果",
+    "budget": 55,
+    "q": "An automated routing rule presupposes that the addresses in the directory are current. A trial is now checking that condition. Which statement is supported?",
+    "o": [
+      "The trial has established that every address is up to date.",
+      "The rule itself updates every address before routing begins.",
+      "The directory can be outdated without affecting the rule.",
+      "Current addresses are an assumption the rule relies on."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "自动路由规则以目录中的地址仍有效为前提；现在正在试验中核查这一条件。能确定的是规则依赖这个假设。",
+      "structure": "An automated routing rule是主语，presupposes是谓语，that从句给出前提内容；is now checking只说明验证正在进行。",
+      "other": "routing 路由或分派；directory 目录；current 仍有效、最新的；presuppose 以……为前提。",
+      "meaning": "依赖一个前提不等于已经证实前提，也不等于规则自身能制造这个条件。要区分假定、核查与已取得的结果。",
+      "rest": "“已证明所有地址有效”把正在核查变成完成结果；“规则更新地址”增加了未提及的功能；“地址过时也不影响规则”取消了presupposes表达的依赖。"
+    }
+  },
+  {
+    "id": "polysemy-sleep-mental-sharpness",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-27",
+    "target": "语境中的能力与变化",
+    "skill": "语境中的能力与变化",
+    "budget": 50,
+    "q": "After a week of poor sleep, her mental sharpness declined: she needed longer to notice mistakes in a familiar spreadsheet. What declined?",
+    "o": [
+      "Her readiness to adopt a different working method.",
+      "Her willingness to persevere with a difficult task.",
+      "Her speed and accuracy in noticing relevant details.",
+      "Her freedom to choose which assignments to accept."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "一周睡眠不足后，她的思维敏锐度下降了：在熟悉的电子表格中发现错误也需要更久。",
+      "structure": "mental修饰sharpness；冒号后needed longer to notice mistakes解释这种能力下降的具体表现。",
+      "other": "sharpness 敏锐度；plasticity 可塑性；flexibility 灵活性；spreadsheet 电子表格。",
+      "meaning": "敏锐度是及时捕捉、辨识信息的能力，不是可塑性、意志或选择自由。后文的表现帮助确定这个抽象名词的含义。",
+      "rest": "采用新方法的意愿接近灵活性而非敏锐度；坚持意愿属于毅力；自主选择工作属于自由度，都不能解释发现熟悉表格中的错误变慢。"
+    }
+  },
+  {
+    "id": "relation-display-allows-comparison",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-27",
+    "target": "动作的施事与作用方式",
+    "skill": "动作的施事与作用方式",
+    "budget": 50,
+    "q": "A map display shows travel time and price side by side; passengers remain free to ignore it. Which sentence best describes the function the display provides?",
+    "o": [
+      "It forces passengers to follow the cheapest route.",
+      "It allows passengers to compare the route options.",
+      "It requires passengers to book before comparing.",
+      "It expects all passengers to make the same choice."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "地图界面并列显示行程时间和价格，乘客可以不使用它。它的作用是让乘客能够比较方案，而不是强制某种选择。",
+      "structure": "shows的主语是display；remain free的主语是passengers。allow/force/require/expect都可接宾语加to不定式，须进一步辨别语义。",
+      "other": "allow 允许、使能够；force 强迫；require 要求；expect 期待；side by side 并列地。",
+      "meaning": "中文“让”可能表示使能够或迫使，英语并不总用同一个动词。要看工具提供能力，还是主体施加强制要求。",
+      "rest": "强迫走最便宜路线和要求先订票都增加了没有出现的限制；期待所有人同选也没有证据，且不能准确表述并列显示信息提供的比较能力。"
+    }
+  },
+  {
+    "id": "paragraph-discourse-audit-method-before-cases",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-10-27",
+    "target": "说明与例证的层级",
+    "skill": "说明与例证的层级",
+    "budget": 65,
+    "q": "An energy guide first explains that meter logs locate periods of high demand. A paragraph about equipment inspections follows. The next two paragraphs describe a bakery and a warehouse that combined logs with inspections. What is the role of the inspections paragraph?",
+    "o": [
+      "It completes the methods that the later cases apply.",
+      "It summarizes the outcomes reported in the later cases.",
+      "It gives a third case after the bakery and warehouse.",
+      "It withdraws the claim that meter logs can be useful."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "能源指南先解释用电表日志定位高需求时段，再介绍设备检查；后面两个案例同时使用日志和检查。检查段是在补齐随后案例会应用的方法。",
+      "structure": "first、follows、next交代段落顺序；combined logs with inspections说明两个案例同时依赖前面两种方法，不是只应用第一段的方法。",
+      "other": "meter log 电表记录；equipment inspection 设备检查；high demand 高需求；apply 应用。",
+      "meaning": "一个方法段结束，不代表下一段必须马上举例。要检查后面案例需要哪些方法说明，再分清并列方法与两则应用案例的层级。",
+      "rest": "总结后文结果需要结果性内容，检查方法本身不能当作结果总结；它位于两案例前也不是第三案例；案例同时使用日志，并未撤回日志有用的判断。"
+    }
+  },
+  {
+    "id": "inference-troupe-travel-payments",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-27",
+    "target": "数量限制的修饰对象",
+    "skill": "数量限制的修饰对象",
+    "budget": 55,
+    "q": "An arts fund pays travel expenses for at most three performers in each selected troupe. The rest of the troupe may still take part at its own expense. Which inference is warranted?",
+    "o": [
+      "Every funded troupe must contain at most three performers.",
+      "A troupe with four performers cannot enter the festival.",
+      "Only three performers from a troupe are allowed onstage.",
+      "The payment limit does not cap the size of a troupe."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "艺术基金为每个入选剧团最多三名演员支付差旅费，其余演员仍可自费参与。因此获资助人数的限制不等于剧团人数的上限。",
+      "structure": "at most three performers限定基金付费覆盖的人；第二句The rest仍可参与，明确区分资助范围与参与范围。",
+      "other": "troupe 剧团；travel expense 差旅费；at its own expense 自费；cap 限制上限。",
+      "meaning": "数字出现后应先问“限制的是谁的什么权利”。对报销人数的限制不能移成对团队人数、报名资格或上台人数的限制。",
+      "rest": "“每团最多三人”“四人剧团不能参加”“仅三人可上台”都把差旅资助范围扩大成团队规模或参与资格限制，且忽略其余演员可自费参与。"
+    }
+  }
+]

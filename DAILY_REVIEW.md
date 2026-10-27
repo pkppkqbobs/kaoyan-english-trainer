@@ -16,6 +16,8 @@
 - 同日多篇的 learning note 加 `session_id`。`user_reported_wrong`、`correct_but_uncertain`、`translation_difficulty` 都是观察，绝不增加错误数、attempts 或 streak；选题权重依次降低。低价值可组合词可标记 `review_importance: "low"`，不能与阅读机制同权。
 - `scripts/article_review.py` 把本篇问题与历史弱项混成 8 题。默认本篇 4 + 历史 4；只有两个有效本篇目标时为 2 + 6。本篇超过四个目标时按证据优先级选择，同级目标在新轮次间轮换。历史部分直接从排除所有本篇目标后的候选池调用共用间隔选择器，并参考 daily 和已发布 article 的出题历史。
 - session 若开启 `balanced_options`，历史候选只按四个选项的长度差（最多 20 字符）筛选，不能按正确答案是否最长筛选。新题单再统一检查：每题长度差合格、8 题最多 2 题正确项独自最长；不满足则生成失败、保留上一版，不改已发布轮次。
+- 补发旧文章复盘时，`date` 记录实际题单发布日期，`learning_date` 保留原学习日期；本篇观察优先级按后者匹配，不向过去倒填曝光。`created_at` 使用实际创建时间，旧session及快照不改。
+- `focus_question_ids` 可按family显式指定经过语义复核的本篇迁移题，避免同名宽泛词汇family抽到其他文章的框词。题号必须属于该family且在发布日期可用；长度均衡筛选同时适用于本篇与历史候选，仍允许正确项最长。
 - 固定入口是 `article-review.html`。它与 `today.html` 分离，使用独立 localStorage 前缀 `kaoyan.article.v1.`，因此刷新文章复盘不会覆盖每日训练进度。
 - `today.html` 仍保持当天锁定。新的 Text 4 可以刷新最新文章入口，但 Text 3 的 `data/article-reviews/ID.json` 与独立 HTML 保留，可通过 `article-reviews.html` 返回旧复盘。
 - 已发布 article 轮次的 JSON 不再因 Issue 或题库更新重写。补充本篇证据后需要新一套时，在 session 中显式增加 `revision`；第一轮沿用既有 storageId，第二轮起使用 `ID-r2` 等独立键。不要复用同一个 ID 覆盖旧题单或清空 localStorage。
@@ -34,6 +36,7 @@
 
 - `python3 scripts/build_session_handoff.py` 确定性生成 `SESSION_HANDOFF.md` 和 `data/session-handoff.json`。现有工作流在成绩、文章与Part B生成后运行；输出不匹配push输入路径，不增加部署器或权限。
 - 最近纸质阶段直接从 `learning-notes.json` 按证据/澄清日期汇总；没有article session也不能遗漏。只提取必要字段和短摘记，未知最终选项不猜，答对犹豫与框词不会变成网页错误。来源缺失或与source-check冲突时明确标记待核对。
+- `article_review_coverage` 区分只有笔记、缺session、缺题单和已发布的篇目；有缺口时摘要和Actions日志明确警告。Actions成功只证明程序完成，不能替代近期篇目是否有复盘的验收。同步新篇目后应创建相应session并核对该列表；单纯补充已有篇目的理解不自动重开已发布轮次。
 - 完整网页主测须来自已接受Issue的首次作答，并唯一匹配已发布8题快照；缺项、旧汇总、重复轮次或歧义不能推算完整成绩。原有汇总成绩仍由既有评分链路保留。复用排除规则和 `make_stats` 核对派生状态，摘要不反向参与评分/选题/曝光。
 - 五类机制只是稳定分类，不是固定诊断顺序；摘要按现有观察强度、距证据日期的天数和真实网页弱项排序。此排序只用于交接，不修改每日间隔调度。JSON逐family标出网页errors/streak和独立纸质观察来源。
 - 同输入重复生成不产生diff；使用源文件指纹和源数据日期，不写每次运行的当前时间。两份输出先完整校验并暂存，失败保留上一版。文件仅是索引，详细原始证据继续留在现有文件与Issue中。

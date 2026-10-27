@@ -1,0 +1,814 @@
+{
+  "date": "2026-10-27",
+  "repo": "pkppkqbobs/kaoyan-english-trainer",
+  "title": "文章复盘 · 8题",
+  "meta": "2014 英语一 Reading Text 2 · 2026-10-22学习复盘 · 本篇问题 2 题 + 历史弱项 6 题 · 全部使用迁移语境",
+  "progressLabel": "返回本篇进度",
+  "storagePrefix": "kaoyan.article.v1.",
+  "storageId": "2026-10-22-2014-text2-reading-observation",
+  "ignoreStale": true,
+  "reportLabel": "考研英语文章复盘",
+  "reportTitle": "文章复盘",
+  "exportStem": "article-review",
+  "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
+  "questions": [
+    {
+      "id": "conceivably-damaged-page",
+      "family": "conceivably",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 35,
+      "target": "conceivably / 可能性强度",
+      "skill": "conceivably",
+      "q": "The damaged page could conceivably contain the date we need, but the faded ink cannot yet be read. Which claim keeps the writer’s certainty level?",
+      "o": [
+        "页面上已经确认写有需要的日期。",
+        "需要的日期很可能就在这一页，比其他页更有可能。",
+        "这页或许写有需要的日期，目前仍未证实。",
+        "这页故意省略了日期。"
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "那张受损的页面或许写有我们需要的日期，但褪色的墨迹目前还无法辨认。准确改写保留可能性，并说明尚未证实。",
+        "structure": "The damaged page是主语，could contain是谓语，the date是宾语；we need是省略关系代词的定语从句。conceivably修饰可能性；but之后the faded ink + cannot yet be read是被动谓语。",
+        "other": "damaged 受损的；faded 褪色的；ink 墨迹；certainty 确定程度。",
+        "meaning": "conceivably表示可以设想有这种可能。它既不是已经确认，也不自动表示比其他方案更可能。",
+        "rest": "“已经确认”抹掉could与无法辨认的限制；“很可能、比其他页更可能”加入原文没有的概率比较；“故意省略”把可能存在日期误写成有意不写，既换内容又补动机。"
+      },
+      "context_id": "context:conceivably-damaged-page"
+    },
+    {
+      "id": "subject-curtains-steam",
+      "family": "subject",
+      "introduced": null,
+      "budget": 45,
+      "target": "subject A to B / be subjected to",
+      "skill": "be subject to / be subjected to",
+      "q": "The cleaner deliberately subjected the curtains to a steam treatment yesterday.\n要保留“昨天实际施加了处理”的含义，哪句被动改写准确？",
+      "o": [
+        "The curtains are subject to changes in fashion.",
+        "The curtains were exempt from treatment yesterday.",
+        "The curtains were subjected to steam yesterday.",
+        "The curtains are suitable for steam treatment."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "清洁人员昨天特意对窗帘做了蒸汽处理。选项中的被动改写为：窗帘昨天受了蒸汽处理。",
+        "structure": "原主干The cleaner + subjected + the curtains + to a steam treatment。被动改写将the curtains作主语，were subjected是一般过去时被动谓语，to steam说明处理内容，yesterday保留时间；施事已经明确时可省略by the cleaner。这里不是系表结构。",
+        "other": "cleaner 清洁人员；curtain 窗帘；deliberately 特意地；steam treatment 蒸汽处理。",
+        "meaning": "were subjected to steam表示窗帘昨天实际经历了蒸汽处理；关键是事件性的被动谓语，不是可能受影响或适合处理的状态。",
+        "rest": "are subject to changes in fashion：说窗帘可能受时尚变化影响，不是昨天被处理的事件。were exempt from treatment：免于处理，与原文相反。are suitable for steam treatment：适合做处理，只表示适宜性，不能证明处理发生过。"
+      },
+      "context_id": "context:subject-curtains-steam"
+    },
+    {
+      "id": "relative-borrowed-ladder",
+      "family": "relative",
+      "introduced": null,
+      "budget": 60,
+      "target": "preposition + whom",
+      "skill": "介词 + whom",
+      "q": "The plumber thanked the neighbour. He had borrowed a ladder from the neighbour.\n哪句合并正确？",
+      "o": [
+        "The plumber thanked the neighbour from that he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom from he had borrowed a ladder.",
+        "The plumber thanked the neighbour from whom he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom he had borrowed a ladder from him."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "水管工感谢了那位借梯子给他的邻居。",
+        "structure": "原始简单句：He had borrowed a ladder from the neighbour. → 用whom替代重复的the neighbour：the neighbour whom he had borrowed a ladder from → 把from前置：the neighbour from whom he had borrowed a ladder。外层主干是The plumber + thanked + the neighbour，后接修饰neighbour的定语从句。",
+        "other": "plumber 水管工；neighbour 邻居；ladder 梯子；borrow A from B 从B那里借来A。",
+        "meaning": "from不是临时猜出来的，来自原句borrow...from...；先行词是人，介词后用whom。",
+        "rest": "from that：关系代词that不能直接置于介词后。whom from he：介词前置时必须是from whom，不是whom from。from him：关系代词whom已经代替该人，再保留him造成重复。"
+      },
+      "context_id": "context:relative-borrowed-ladder"
+    },
+    {
+      "id": "inference-troupe-travel-payments",
+      "family": "inference-boundary",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-27",
+      "target": "数量限制的修饰对象",
+      "skill": "数量限制的修饰对象",
+      "budget": 55,
+      "q": "An arts fund pays travel expenses for at most three performers in each selected troupe. The rest of the troupe may still take part at its own expense. Which inference is warranted?",
+      "o": [
+        "Every funded troupe must contain at most three performers.",
+        "A troupe with four performers cannot enter the festival.",
+        "Only three performers from a troupe are allowed onstage.",
+        "The payment limit does not cap the size of a troupe."
+      ],
+      "a": 3,
+      "exp": {
+        "trans": "艺术基金为每个入选剧团最多三名演员支付差旅费，其余演员仍可自费参与。因此获资助人数的限制不等于剧团人数的上限。",
+        "structure": "at most three performers限定基金付费覆盖的人；第二句The rest仍可参与，明确区分资助范围与参与范围。",
+        "other": "troupe 剧团；travel expense 差旅费；at its own expense 自费；cap 限制上限。",
+        "meaning": "数字出现后应先问“限制的是谁的什么权利”。对报销人数的限制不能移成对团队人数、报名资格或上台人数的限制。",
+        "rest": "“每团最多三人”“四人剧团不能参加”“仅三人可上台”都把差旅资助范围扩大成团队规模或参与资格限制，且忽略其余演员可自费参与。"
+      },
+      "context_id": "context:inference-troupe-travel-payments"
+    },
+    {
+      "id": "text2-boxed-curators-implement-ideas",
+      "family": "text2-boxed-vocab",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-27",
+      "target": "词组修饰与执行关系",
+      "skill": "词组修饰与执行关系",
+      "budget": 45,
+      "q": "The curators proposed several sensible changes, but the board was too conservative to implement them. Which paraphrase is accurate?",
+      "o": [
+        "The proposals were risky, so the board sensibly abandoned them.",
+        "The proposals were reasonable, but the board did not apply them.",
+        "The board found the proposals reasonable and then applied them.",
+        "The board rejected caution after the curators adopted the plan."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "策展人提出了几项合理改动，但董事会过于保守，不愿或无法把这些改动付诸实施。",
+        "structure": "sensible修饰changes；but连接提出方案与未能落实的反差；too conservative to implement表示保守程度阻碍实施，them回指changes。",
+        "other": "curator 策展人；sensible 合理明智的；implement 落实、执行；conservative 保守的。",
+        "meaning": "合理的是方案，阻碍实施的是董事会的保守。不能把sensible转成对拒绝方案的赞许，也不能漏掉too...to的否定性结果。",
+        "rest": "“方案危险、拒绝明智”改变sensible的修饰对象；“随后实施”颠倒too...to的结果；“策展人采用方案后董事会放弃谨慎”重排了主体与行为。"
+      },
+      "context_id": "context:text2-boxed-curators-implement-ideas"
+    },
+    {
+      "id": "process-stage-shipment-hold-decision-d",
+      "family": "process-stage-role",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-15",
+      "budget": 55,
+      "target": "异常上报、暂停与放行",
+      "skill": "按提问定位过程中的决定而非总选最后一步",
+      "q": "A technician noticed an unusual label on a food shipment and asked a supervisor whether it should be checked. The supervisor marked the shipment 'hold', stopping dispatch. A laboratory later found the contents safe, and the quality manager signed the release form. Which event directly stopped the shipment from leaving?",
+      "o": [
+        "The technician's request for advice about the label.",
+        "The supervisor's decision to put the shipment on hold.",
+        "The laboratory's conclusion that the contents were safe.",
+        "The quality manager's signature on the release form."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "技术员发现一批食品的标签异常，询问主管是否应检查。主管将这批货标为暂扣，停止发运。实验室后来确认货物内容安全，质量经理签署了放行单。哪个事件直接阻止了货物运出？是主管作出的暂扣决定。",
+        "structure": "The technician + noticed ... and asked ...是发现和上报；whether it should be checked是询问内容，其中should be checked为被动谓语。The supervisor + marked + the shipment + hold，后接stopping dispatch说明结果。found the contents safe为find加宾语和形容词补语；signed the release form属于后来的放行阶段。",
+        "other": "shipment 一批货物；put on hold 暂停、暂扣；dispatch 发运；release form 放行单；contents 所装物品。",
+        "meaning": "先确定题目问的是停止发运，而非最早发现异常、确认安全或最终放行。直接产生停运结果的是主管的暂扣决定。过程角色题必须按问题定位阶段，不能一概选最后的正式批准。",
+        "rest": "技术员询问是否检查，是上报起点，文中实际停运由主管决定；实验室认定安全发生在之后，支持解除疑虑；经理签放行单允许后续运出，与停止运出方向相反。"
+      },
+      "context_id": "context:process-stage-shipment-hold-decision-d"
+    },
+    {
+      "id": "text4-executive-overreach-b",
+      "family": "text4-executive-overreach",
+      "target": "claim about enforcement power vs legal authority",
+      "skill": "区分行政部门的主张与作者认可的结论",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 55,
+      "q": "An executive agency claims it can invalidate any otherwise lawful regional rule whenever that rule conflicts with the agency's enforcement priorities. What does the agency's claim amount to?",
+      "o": [
+        "Regional governments can override national laws they oppose.",
+        "Its enforcement priorities can override lawful regional rules.",
+        "The legislature prohibited regional agencies from enforcing rules.",
+        "Regional rules remain valid despite different enforcement priorities."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "一个行政机构声称，只要某项原本合法的地区规则与该机构的执法优先事项冲突，它就可以使该规则失效。这相当于声称，该机构的执法权高于地区政府所拥有的权限。",
+        "structure": "claims后面是机构主张的内容；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+        "other": "invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；outweigh 权重或重要性高于。",
+        "meaning": "要区分被描述的主张与文章作者认可的结论。句子是在复述行政机构想要的权力范围，并不代表作者认为这种主张正确。",
+        "rest": "地区推翻国家法律反转了主张中的权力方向；立法机关禁止地方执法没有文本依据；机构声称可使规则失效，并非承认优先事项不同时规则仍有效。"
+      },
+      "context_id": "context:text4-executive-overreach-b"
+    },
+    {
+      "id": "text4-agreement-target-c",
+      "family": "text4-agreement-target",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 50,
+      "target": "judicial conclusion vs legislative reason",
+      "skill": "区分法官认可的结论与国会提供的理由",
+      "q": "A court permits county officers to check residency status during limited enforcement encounters. It cites Congress's support for joint national-local enforcement. What did the judges agree on?",
+      "o": [
+        "Congress must personally direct every local enforcement decision.",
+        "Local authorities may assist with enforcement within the limits set by law.",
+        "National officers must withhold all enforcement information from local teams.",
+        "Local authorities can disregard national rules when enforcing local policy."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "法院允许县级执法人员在有限的执法接触中核查居住身份，并引用国会支持国家与地方共同执法的立场。法官达成一致的是：地方当局可以在法律规定的范围内协助执法。",
+        "structure": "A court permits...直接陈述司法结论；It cites...引出支持这一结论的立法背景。题目问What did the judges agree on，因此应回答法院允许什么，而不是重复国会的理由。",
+        "other": "permit 允许；residency status 居住身份；joint 共同的；enforcement 执法；withhold information 不提供信息。",
+        "meaning": "阅读题要区分结论和论据。国会鼓励共同执法，是法院认可地方执法角色的理由，不是题目所问的结论本身。",
+        "rest": "国会亲自指挥每项地方执法决定过于绝对；原文鼓励信息共享而非要求扣留信息；地方参与执法并不意味着可以无视国家规则。"
+      },
+      "context_id": "context:text4-agreement-target-c"
+    }
+  ],
+  "retry": {
+    "conceivably": [
+      {
+        "id": "conceivably-ferry",
+        "family": "conceivably",
+        "introduced": null,
+        "target": "conceivably",
+        "skill": "conceivably",
+        "q": "If the wind weakens before noon, the ferry could conceivably resume service this afternoon, but the operator has made no promise. Conceivably most nearly means:",
+        "o": [
+          "必定",
+          "或许",
+          "故意",
+          "表面"
+        ],
+        "a": 1,
+        "budget": 35,
+        "exp": {
+          "trans": "如果中午前风势减弱，渡轮今天下午有可能恢复运营，但运营方没有作出任何保证。",
+          "structure": "if从句给出条件：the wind weakens before noon。主句：the ferry + could resume + service；conceivably修饰could resume，降低确定性。but后面的no promise进一步说明并不确定。",
+          "other": "weaken 减弱；ferry 渡轮；resume service 恢复运营；operator 运营方。",
+          "meaning": "conceivably = 可以设想地、有可能地，强调可能存在但远未确定。",
+          "rest": "必定对应确定性，强于could且与未作承诺冲突；故意描述意图；表面描述外观，都不是这里的可能性。"
+        },
+        "context_id": "context:conceivably-ferry"
+      },
+      {
+        "id": "conceivably-competing-explanations",
+        "family": "conceivably",
+        "introduced": null,
+        "published_on": "2026-10-05",
+        "budget": 35,
+        "target": "conceivably / 多种解释",
+        "skill": "conceivably",
+        "q": "No existing model explains the readings. They could conceivably point to a new process, although a faulty instrument remains another explanation. Which interpretation is justified?",
+        "o": [
+          "A new process is a possible explanation, alongside an instrument fault.",
+          "The readings establish a new process and rule out an instrument fault.",
+          "The instrument fault has been confirmed by a separate test.",
+          "The new process is less likely than an instrument fault according to measured probabilities."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "现有模型都解释不了这些读数。它们或许指向一个新过程，但仪器故障仍是另一种解释。有依据的是两种解释仍可并存，新的过程只是可能性之一。",
+          "structure": "No existing model + explains + the readings。They指readings；could point to是谓语。although从句中a faulty instrument是主语，remains是系动词，another explanation是表语。",
+          "other": "reading 仪器读数；process 过程；faulty 出故障的；rule out 排除。",
+          "meaning": "conceivably没有把一种可设想的解释升级为发现。another explanation尤其限制了唯一性；也没有给两种解释排名。",
+          "rest": "establish ... rule out将可能性改成证实和排除；confirmed by a separate test虚构检验；less likely ... measured probabilities补出概率比较，原文没有量化数据。"
+        },
+        "context_id": "context:conceivably-competing-explanations"
+      }
+    ],
+    "subject": [
+      {
+        "id": "subject-rule-departure",
+        "family": "subject",
+        "introduced": null,
+        "budget": 40,
+        "target": "be subject to / be subjected to",
+        "skill": "be subject to / be subjected to",
+        "q": "需要写一句仍适用的票务规则：“发车时间可能调整。”这里只说明可能性，不报告已经执行的处理。哪句准确？",
+        "o": [
+          "Departure times were subjected to repeated adjustments yesterday.",
+          "Departure times are subject to change.",
+          "Departure times are subjected to a detailed inspection every morning.",
+          "Departure times are immune to change."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "Departure times are subject to change：发车时间可能发生调整。",
+          "structure": "Departure times（主语）+ are（系动词）+ subject to change（表语）。这里是规则或可能状态，不是在叙述谁已经对时刻表做了什么处理。",
+          "other": "departure 出发；adjustment 调整；inspection 检查；be immune to 不受……影响。",
+          "meaning": "be subject to在这条规则中表示可能受变化影响。be subjected to通常强调某对象被施加了某个过程。",
+          "rest": "were subjected to repeated adjustments yesterday：报告昨天实际经历了反复调整，时态和事件性质均不符。are subjected to a detailed inspection：说每天被施加检查过程，inspection也不是时间可能调整。are immune to change：表示不受变化影响，与题意相反。"
+        },
+        "context_id": "context:subject-rule-departure"
+      },
+      {
+        "id": "subject-road-closure-risk",
+        "family": "subject",
+        "introduced": null,
+        "published_on": "2026-10-05",
+        "budget": 45,
+        "target": "be subject to / 实际事件",
+        "skill": "be subject to / be subjected to",
+        "q": "The mountain road is subject to closure during heavy snow. No closure has been announced today. Which report preserves both statements?",
+        "o": [
+          "The road is reported closed after today's heavy snowfall.",
+          "Snow may close the road; no closure is reported today.",
+          "The road underwent a test involving closure earlier today.",
+          "The road is open because snow cannot lead to its closure."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "这条山路在大雪期间可能封闭。今天尚未宣布封路。准确报道是：大雪可能带来封路，但这两句没有报道今天已经封路。",
+          "structure": "The mountain road是主语，is是系动词，subject to closure表达所受约束或可能状态。第二句No closure是主语，has been announced是现在完成时被动谓语；没有公告不等于已验证现场一定开放。",
+          "other": "mountain road 山路；closure 封闭；announce 宣布；status 状态。",
+          "meaning": "be subject to可表示有可能受某变化影响，不自动表示该事件已经发生。这里也不能从“尚无公告”推出现场已确认开放。",
+          "rest": "原文只报告可能受封闭影响，没有报告今天已封路；封路测试是虚构事件；未公布封路不等于已确认开放，更不能说大雪不会造成封路。"
+        },
+        "context_id": "context:subject-road-closure-risk"
+      },
+      {
+        "id": "subject-road-closure-risk-balanced-b",
+        "family": "subject",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "conditional risk vs current event",
+        "skill": "避免把可能风险扩大成已经发生的事实",
+        "q": "A mountain road report says heavy snow can lead to closures, but today's bulletin only forecasts snow. Which conclusion is supported?",
+        "o": [
+          "The road is closed today because heavy snow is forecast.",
+          "The forecast identifies a risk, not a confirmed closure today.",
+          "The road has remained open through every previous snowstorm.",
+          "The report proves that snow will not affect road access today."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "山区道路报告说，大雪可能导致封路，但今天的公告只是在预报降雪。最有根据的结论是：预报指出一种风险，并没有确认今天已经封路。",
+          "structure": "can lead to closures表达可能结果；today's bulletin only forecasts snow限制了当前已知事实。题干要求判断能得出什么结论，而不是推断可能后果已经发生。",
+          "other": "forecast 预报；closure 封路；confirmed 已确认的；road access 道路通行。",
+          "meaning": "不能把条件性风险升级为已发生事件。可能导致封路，不等于今天已经封路；同样也不能反向断言降雪一定不会影响通行。",
+          "rest": "预报降雪不等于已经封路；没有证据说明道路经历过所有以往的雪暴；报告指出风险，并没有证明雪不会影响通行。"
+        },
+        "context_id": "context:subject-road-closure-risk-balanced-b"
+      }
+    ],
+    "relative": [
+      {
+        "id": "legacy-which",
+        "source": "old",
+        "skill": "介词 + which",
+        "target": "preposition + which",
+        "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
+        "o": [
+          "The archive contains several letters on which the historian based her argument.",
+          "The archive contains several letters which on the historian based her argument.",
+          "The archive contains several letters on that the historian based her argument.",
+          "The archive contains several letters which the historian based her argument on them."
+        ],
+        "a": 0,
+        "diag": {
+          "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+          "2": "介词后不能用关系代词 that；应使用 which。",
+          "3": "which 已经代替 those letters，后面再用 them 造成重复。"
+        },
+        "exp": {
+          "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+          "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+          "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+          "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+          "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
+        },
+        "family": "relative",
+        "introduced": null,
+        "budget": 60,
+        "context_id": "on-which-argument"
+      }
+    ],
+    "inference-boundary": [
+      {
+        "id": "inference-boundary-architect-layout-a",
+        "family": "inference-boundary",
+        "introduced": "2026-10-10",
+        "published_on": "2026-10-10",
+        "budget": 55,
+        "target": "重新审视惯例 vs 无依据的未来结果",
+        "skill": "推断必须有直接语义支撑",
+        "q": "An architect argues: 'When an old street layout fails its users, we should question the layout instead of assuming that pedestrians are the problem.' Later the article mentions plans to renovate the district. Which view is most directly supported by the architect's remark?",
+        "o": [
+          "Old designs should be reconsidered when experience reveals their limits.",
+          "Every renovation will inspire a generation of future architects.",
+          "Pedestrian choices have no effect on city traffic.",
+          "New designs should always replace old ones, even when they work."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "建筑师认为，旧道路布局若不能服务使用者，就应质疑布局本身，而不是预设行人有问题。引文支持反思既有设计，而非预言未来创新的效果。",
+          "structure": "When从句给出条件；we should question A instead of assuming B是核心主张。Later句子另行交代翻修计划，但没有为引文添加未来代际因果关系。",
+          "other": "layout 布局；pedestrian 行人；renovate 翻修；reconsider 重新考虑。",
+          "meaning": "引用某人的一句话，优先提炼这句话本身可支持的思考方式。与文章主题有关的后续结果可能合理，但若引文没谈到，就不能据此归给说话人。",
+          "rest": "鼓舞未来建筑师引入未提及的影响链；完全否认行人作用和一律淘汰旧设计，都比原话更绝对。"
+        },
+        "context_id": "context:inference-boundary-architect-layout-a"
+      },
+      {
+        "id": "inference-boundary-archive-questions-b",
+        "family": "inference-boundary",
+        "introduced": "2026-10-10",
+        "published_on": "2026-10-10",
+        "budget": 55,
+        "target": "思考方式 vs 后代研究因果",
+        "skill": "引述证据与外推限制",
+        "q": "A historian says of a newly revised account: 'The documents did not change; the questions I asked of them did.' The article later notes that her book was reprinted thirty years later. What does her statement most strongly suggest?",
+        "o": [
+          "An influential book must be reprinted before its argument becomes valid.",
+          "Repeatedly publishing the same documents automatically produces new discoveries.",
+          "Revisiting familiar evidence with different questions can yield new interpretations.",
+          "The historian's method necessarily shaped every later generation of researchers."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "历史学家说：文献没有改变，改变的是我向它们提出的问题。这表明熟悉的证据也能因为新的提问方式产生新解释。",
+          "structure": "The documents did not change与the questions ... did形成对照；did代替did change，省略重复的动词原形change。后句reprinted thirty years later说的是再版事实，不包含对后代研究的必然影响。",
+          "other": "historian 历史学家；document 文献；reprint 再版；interpretation 解释。",
+          "meaning": "‘旧材料+新问题→新解释’是引文直接支持的内容。后面提及多年后再版，并不能证明她影响了所有后来研究，更不能把时间先后直接改成因果。",
+          "rest": "把再版当成论证有效性的必要条件属于添加规则；自动产生发现与提问改变的机制不符；对所有后代研究产生必然影响远超引文证据。"
+        },
+        "context_id": "context:inference-boundary-archive-questions-b"
+      },
+      {
+        "id": "inference-boundary-tenant-supporters-a",
+        "family": "inference-boundary",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 50,
+        "target": "动员支持者≠改变看法",
+        "skill": "行动证据与态度变化证据",
+        "q": "A tenants' group rallied 800 long-time supporters at a public hearing against a proposed rent increase. No survey of participants' earlier opinions was conducted. Which statement is warranted?",
+        "o": [
+          "It converted former opponents into supporters of the group.",
+          "It mobilized supporters; a change of views is unproved.",
+          "It persuaded the city to cancel the proposed rent increase.",
+          "Most residents have shifted from support to opposition."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "租户组织动员了800名长期支持者，在公开听证会上反对拟议涨租。没有调查这些参与者以前的观点。只能确认组织动员了支持者，不能确认他们是被说服后改变立场。",
+          "structure": "A tenants' group + rallied + long-time supporters；No survey ... was conducted明确缺失了对以前态度的测量。Which statement is warranted要求只说证据足以支持的内容。",
+          "other": "tenant 租户；rally 动员；hearing 听证会；prior attitude 先前态度。",
+          "meaning": "rally supporters是组织已有支持者采取行动；change someone's political attitude要有前后立场变化的证据。动员和说服是不同关系。",
+          "rest": "原文称参加者为长期支持者，没有原先反对的证据；未报告提案撤销；800名参与者也不能代表多数居民的态度转变。"
+        },
+        "context_id": "context:inference-boundary-tenant-supporters-a"
+      },
+      {
+        "id": "inference-boundary-survey-shift-b",
+        "family": "inference-boundary",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 55,
+        "target": "态度确有变化 vs 是否由活动造成",
+        "skill": "观察变化与归因分开",
+        "q": "After a public campaign, a survey of the same 500 residents found support for the new bus plan had risen from 30% to 55%. During the same period, a fare cut was also announced. What is the most defensible conclusion?",
+        "o": [
+          "The campaign explains the full rise in support for the plan.",
+          "Support rose; the campaign's separate effect remains unclear.",
+          "Residents' attitudes stayed the same despite the campaign.",
+          "The fare cut explains the full rise in support for the plan."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "一场宣传活动之后，对同一批500名居民的调查发现，新公交方案支持率从30%升至55%；与此同时还宣布降低车费。能确定支持率发生变化，但不能断定全由宣传活动造成。",
+          "structure": "a survey ... found + that支持率变化；During the same period引入另一同时发生的因素，阻止将全部变化归因于campaign。",
+          "other": "fare cut 降低票价；resident 居民；causal effect 因果效应；establish 证实。",
+          "meaning": "这次确有前后态度数据，因此不能机械否认变化；但‘变化发生了’与‘某活动单独导致变化’仍是两回事。推断题要守住证据提供的层级。",
+          "rest": "同群体前后调查证明支持率上升，但同期还有票价变化，不能把全部变化单独归给宣传或降价；态度未变则与调查结果冲突。"
+        },
+        "context_id": "context:inference-boundary-survey-shift-b"
+      }
+    ],
+    "text2-boxed-vocab": [
+      {
+        "id": "boxed-vocab-surfacing-dispute-a",
+        "family": "text2-boxed-vocab",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-08",
+        "budget": 40,
+        "target": "surfacing / 矛盾逐渐显露",
+        "skill": "画框词组的语境翻译",
+        "q": "Complaints about delayed refunds had been surfacing for months, although the retailer kept describing them as isolated accidents. Here, surfacing most nearly means:",
+        "o": [
+          "being resolved completely",
+          "becoming known little by little",
+          "being hidden under water",
+          "being deliberately withdrawn"
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "关于退款延迟的投诉几个月来不断浮现，尽管零售商一直称这些问题只是孤立事件。surfacing表示问题逐渐显露、开始为人所知。",
+          "structure": "Complaints是主语，had been surfacing为过去完成进行时；although从句说明商家的回应，并不取消先前投诉持续出现的事实。",
+          "other": "refund 退款；retailer 零售商；isolated accident 孤立事件；withdraw 撤回。",
+          "meaning": "surface既可指物体浮出水面，也常比喻问题、事实、分歧逐渐显现。语境中complaints不会真的从水里冒出。",
+          "rest": "问题被完全解决与持续出现不同；水下隐藏是误读字面义；主动撤回投诉与surfacing语义相反。"
+        },
+        "context_id": "context:boxed-vocab-surfacing-dispute-a"
+      },
+      {
+        "id": "boxed-vocab-patchwork-rules-b",
+        "family": "text2-boxed-vocab",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-08",
+        "budget": 45,
+        "target": "patchwork / longstanding",
+        "skill": "画框词组的语境翻译",
+        "q": "A longstanding dispute among districts left the city with a patchwork of registration rules: the required documents differed from one neighborhood to another. Which reading is best?",
+        "o": [
+          "长期分歧使登记规则零散、不统一。",
+          "长期分歧已被一套完全统一的规则解决。",
+          "patchwork表示这些规则是用布料制作的。",
+          "longstanding说明分歧刚刚才出现。"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "各区之间长期的争议使城市形成了一套互不统一的登记规则：不同街区要求提供的材料各不相同。",
+          "structure": "A longstanding dispute是主语，left the city with...表示使城市处于某种状态；冒号后required documents differed提供patchwork的解释。",
+          "other": "district 区；registration rule 登记规则；neighborhood 街区；required document 所需材料。",
+          "meaning": "longstanding=长期存在的；a patchwork of rules=东拼西凑、零散且缺乏统一性的规则体系，不必是违法规则。",
+          "rest": "完全统一和各区材料不同相矛盾；织物是patchwork的字面义而非这里的制度比喻；longstanding不是刚出现。"
+        },
+        "context_id": "context:boxed-vocab-patchwork-rules-b"
+      }
+    ],
+    "process-stage-role": [
+      {
+        "id": "process-stage-shelter-approval-a",
+        "family": "process-stage-role",
+        "introduced": "2026-10-10",
+        "published_on": "2026-10-10",
+        "budget": 55,
+        "target": "个人估计 vs 集体验证",
+        "skill": "区分主张起点和取得认可所需条件",
+        "q": "An analyst estimates that the city has room for 4,000 people in emergency shelters. Officials will use this figure for evacuation plans only after independent teams verify the counts and agree on a common estimate. What makes the figure suitable for official planning?",
+        "o": [
+          "The analyst's personal familiarity with the shelters.",
+          "Verification and agreement across independent teams.",
+          "The public release of a large numerical estimate.",
+          "The analyst's decision to avoid revising the original number."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "一位分析员估计城市应急避难所可容纳4000人；只有独立团队核查数据并就统一估计达成一致，政府才会在疏散计划中采用这一数字。",
+          "structure": "An analyst + estimates + that从句提出最初主张；Officials + will use + this figure ... only after ...，only after指出主张转化为官方依据所需的条件。",
+          "other": "emergency shelter 应急避难所；evacuation 疏散；estimate 估计；verify 核验。",
+          "meaning": "题干问的是让一项初步主张获得认可所需要的机制。个人估计是起点，独立团队核查与达成一致是条件；不能因为看到analyst就选个人经验。",
+          "rest": "个人熟悉情况只能解释估计如何产生；数字公开和规模大都不能自动证明可靠；拒绝修订反而与核查机制相冲突。"
+        },
+        "context_id": "process-initial-report-independent-verification"
+      },
+      {
+        "id": "process-stage-bridge-warning-b",
+        "family": "process-stage-role",
+        "introduced": "2026-10-10",
+        "published_on": "2026-10-10",
+        "budget": 55,
+        "target": "单次发现 vs 跨来源确认",
+        "skill": "过程终点与条件的角色识别",
+        "q": "A driver first reports cracks on a bridge, but the warning is not issued to the whole region until engineers compare photographs, inspect the structure, and confirm the hazard. What is required for the initial report to become an official warning?",
+        "o": [
+          "A more vivid description from the first driver.",
+          "Agreement that the first driver deserves public credit.",
+          "Public enthusiasm for an alarming photograph.",
+          "Independent assessment and confirmation of the reported danger."
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "司机最先报告桥面裂缝，但直到工程师比对照片、检查结构并确认危险，地区警报才正式发布。",
+          "structure": "A driver + reports + cracks引入起点；the warning + is not issued ... until engineers compare, inspect, and confirm，用not...until表示形成正式警报的必要过程。",
+          "other": "crack 裂缝；structure 结构；hazard 危险；issue a warning 发布警报。",
+          "meaning": "个人首次报告不等于正式被认可；由多个步骤进行独立评估并确认，才使主张具有可推广的效力。注意题目问required而非who noticed it first。",
+          "rest": "报告更生动不能替代核验；给报告人荣誉不是警报成立条件；公众情绪不能替代工程检查。"
+        },
+        "context_id": "process-initial-report-independent-verification"
+      },
+      {
+        "id": "process-stage-hospital-routine-authority-c",
+        "family": "process-stage-role",
+        "introduced": "2026-10-10",
+        "published_on": "2026-10-15",
+        "budget": 55,
+        "target": "流程阶段与授权条件",
+        "skill": "区分结果核验、消息公开与实施授权",
+        "q": "A hospital trial finds that a scheduling tool reduces missed appointments. The methods panel accepts the results after checking the analysis, and a staff newsletter reports the trial. Routine use must nevertheless wait for the operations board to approve a staffing plan. Which event authorises the hospital to start using the tool routinely?",
+        "o": [
+          "Acceptance of the trial analysis by the methods panel.",
+          "Publication of the trial results in the staff newsletter.",
+          "The operations board's approval of the staffing plan.",
+          "The trial team's observation of fewer missed appointments."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "一家医院的试验发现，一种预约安排工具减少了爽约。方法审核小组检查分析后认可了结果，员工通讯也报道了这项试验。不过，常规使用仍须等待运营委员会批准人员配置计划。哪个事件授权医院开始常规使用该工具？答案是人员配置计划获批。",
+          "structure": "A hospital trial + finds + that从句给出试验发现；The methods panel + accepts + the results说明核验阶段。Routine use + must wait + for the operations board to approve a staffing plan说明实施仍受另一项决定约束。nevertheless连接结果已获认可与尚不能常规实施的转折。",
+          "other": "scheduling tool 预约安排工具；miss an appointment 爽约；methods panel 方法审核小组；staffing plan 人员配置计划；authorise 授权。",
+          "meaning": "题目问开始常规实施的授权条件。独立核查在本文确实发生，却只让研究结果获得认可，不能替代运营委员会的实施批准。不能把所有过程题都机械答成独立验证。",
+          "rest": "审核小组认可的是试验分析，不是常规使用的授权；员工通讯负责传播消息，没有审批权；试验团队观察到效果是提出采用建议的证据起点，仍未满足文中保留的实施条件。"
+        },
+        "context_id": "context:process-stage-hospital-routine-authority-c"
+      }
+    ],
+    "text4-executive-overreach": [
+      {
+        "id": "text4-executive-overreach-c",
+        "family": "text4-executive-overreach",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "executive claim / relative authority",
+        "skill": "区分行政部门的权力主张与作者认可的结论",
+        "q": "An executive agency says it can invalidate any otherwise lawful regional rule whenever the rule conflicts with its enforcement priorities. What does that claim imply?",
+        "o": [
+          "It claims its enforcement power outweighs regional governments' authority.",
+          "Regional governments may override national laws whenever they disagree.",
+          "The legislature expressly banned all regional enforcement activity.",
+          "The agency accepts regional rules despite differences in enforcement priorities."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "一个行政机构声称，只要原本合法的地区规则与其执法优先事项冲突，它就可以使该规则失效。这相当于声称行政机构的执法权高于地区政府的权限。",
+          "structure": "An executive agency says that...引出机构的主张；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+          "other": "executive agency 行政机构；invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；authority 权限。",
+          "meaning": "题目问what does that claim imply，应概括机构声称自己拥有多大权限，而不是把这一主张误当成作者认可的法律结论。",
+          "rest": "地区政府可以随意推翻国家法律是把权力方向反过来；立法机关明文禁止所有地区执法并未在句中出现；最后一项与机构声称可使冲突规则失效相反。"
+        },
+        "context_id": "context:text4-executive-overreach-c"
+      },
+      {
+        "id": "text4-agency-inaction-d",
+        "family": "text4-executive-overreach",
+        "target": "executive enforcement choice vs statutory local authority",
+        "skill": "行政不执行是否能取消地方依法获授的权力",
+        "budget": 55,
+        "q": "A national agency declined to inspect licensed buses, then claimed towns could not carry out inspections that a statute authorized them to do. The court rejected the claim. What principle does its decision illustrate?",
+        "o": [
+          "The agency may suspend towns' lawful inspections by choosing not to act.",
+          "The court rejected an attempt to block towns from exercising powers granted by law.",
+          "The towns were newly authorized to rewrite national transport standards.",
+          "The court found that national agencies alone may set all inspection dates."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "国家行政机构不愿检查已获许可的公交车，随后却声称法律已授权的市镇检查也不能执行。法院驳回该主张，说明行政机关自身选择不执法，不能自动取消地方依法获授的权限。",
+          "structure": "declined... then claimed...区分行政机关自身行为与扩张主张；a statute authorized them to do修饰inspections；The court rejected the claim给出司法回应。",
+          "other": "agency 行政机构；statute 成文法；authorize 授权；suspend 暂停；licensed bus 已获许可的公交车辆。",
+          "meaning": "行政机关不执行某项政策与禁止地方执行是两个命题。这里法院限制的是行政部门把其执行偏好扩展成否定地方合法权限的企图。",
+          "rest": "行政不作为并未赋予机构暂停合法地方执法的权力；法院未授权市镇重写国家标准；设定检查日期也不是法院本次驳回的争点。"
+        },
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "context_id": "context:text4-agency-inaction-d"
+      },
+      {
+        "id": "text4-executive-overreach-a",
+        "family": "text4-executive-overreach",
+        "target": "executive unwillingness vs local permission",
+        "skill": "作者立场 + do so 回指",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
+        "o": [
+          "The court checks an executive attempt to extend power over local councils.",
+          "Parliament alone must enforce every rail-safety rule across all regions.",
+          "The ministry has unlimited control over local councils and their rules.",
+          "Local councils may ignore national rail-safety laws whenever they choose to do so."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "法院正在制衡行政部门试图扩大自身对地方议会的权力。",
+          "structure": "because引出交通部不愿执行议会计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出司法回应。",
+          "other": "carry out 执行；executive 行政部门；council 地方议会；reject a claim 驳回一种主张。",
+          "meaning": "行政部门不愿执行议会的计划，不等于它可以阻止地方在法律允许范围内执行。法院驳回这种主张，体现对行政权的制衡。",
+          "rest": "原文没有说所有铁路安全规则只能由议会执行；交通部并没有无限控制权；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
+        },
+        "context_id": "context:text4-executive-overreach-a"
+      }
+    ],
+    "text4-agreement-target": [
+      {
+        "id": "text4-flood-inspections-d",
+        "family": "text4-agreement-target",
+        "target": "what judges upheld vs legislative justification",
+        "skill": "判断题干询问的是司法结论还是解释理由",
+        "budget": 50,
+        "q": "A court upheld municipal inspectors' limited role in checking flood barriers. In support, it cited a law inviting national and municipal teams to share inspection reports. What did the court uphold?",
+        "o": [
+          "National lawmakers were required to lead each municipal inspection.",
+          "City inspectors could assist while complying with national rules.",
+          "Municipal teams gained the right to replace national flood standards.",
+          "National inspectors had to stop exchanging reports with city teams."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "法院认可市政检查员在防洪设施检查中的有限作用，并援引鼓励国家和地方机构共享检查报告的法律作为依据。问题问法院认可的结论，而不是法律提供的支持理由。",
+          "structure": "A court upheld是第一句核心司法结论；In support, it cited...是第二句介绍支持证据的结构。What did the court uphold要求回到第一句。",
+          "other": "uphold 维持、认可；municipal 市政的；barrier 防洪设施；cite 引用；inspection 检查；comply with 遵守。",
+          "meaning": "法院认可地方机构在法律约束下协助检查；国会的协作规定只是理由。不能把原因中的立法机关错认成法院同意的具体事项。",
+          "rest": "立法机关亲自检查不是结论；市政机构没有权力替换国家标准；原文支持共享报告，不能推成停止共享。"
+        },
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "context_id": "context:text4-flood-inspections-d"
+      },
+      {
+        "id": "text4-agreement-target-a",
+        "family": "text4-agreement-target",
+        "target": "what the judges agreed on vs why",
+        "skill": "题干询问对象 + 结论与理由分层",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "Judges agreed that county officers could verify residency status during certain enforcement encounters. The opinion explains that the national legislature had repeatedly encouraged joint national-local enforcement and information sharing. What did the judges agree on?",
+        "o": [
+          "The national legislature had taken over every local enforcement decision.",
+          "Counties were independent of national law.",
+          "Local authorities had a legitimate role in enforcement within legal limits.",
+          "National officers were required to withhold information."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "法官们同意，县级执法人员在某些执法接触中可以核查居住身份。判决解释说，国家立法机关一直鼓励国家与地方共同执法和共享信息。法官们达成一致的是：地方当局在法律允许的范围内拥有正当的执法角色。",
+          "structure": "Judges agreed that...直接引出法官认可的结论；The opinion explains that...再引出支持这一结论的理由。不要把后一句的national legislature误当成题干询问的结论主体。",
+          "other": "verify 核实；enforcement 执法；legitimate 正当的、合法的；withhold information 扣留信息、不提供信息。",
+          "meaning": "题干问what did the judges agree on，先找法院允许什么，再看立法机关的政策如何解释该决定。理由提到了国会，不代表答案就是国会介入。",
+          "rest": "没有说立法机关接管所有地方执法；地方仍受国家法律约束；原文支持信息共享，而非要求联邦人员隐瞒信息。"
+        },
+        "context_id": "context:text4-agreement-target-a"
+      },
+      {
+        "id": "text4-agreement-target-b",
+        "family": "text4-agreement-target",
+        "target": "conclusion vs supporting reason",
+        "skill": "区分司法结论与立法背景",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "A court allows city inspectors to check permit status while coordinating with national officers. The opinion cites a statute encouraging shared databases and joint inspections. Which statement is the court's conclusion rather than the supporting reason?",
+        "o": [
+          "The legislature encouraged coordination between national and local officials.",
+          "Local inspectors may play a legitimate role within the enforcement system.",
+          "Officials are encouraged to share information.",
+          "National law no longer applies to local inspections."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "法院允许城市检查员在与国家执法人员协调时核查许可证状态。判决援引了一项鼓励共享数据库和联合检查的法律。法院的结论是：地方检查员可以在执法体系中发挥正当作用。",
+          "structure": "The court allows...陈述法院允许的行为；The opinion cites...介绍支撑理由的法律背景。问题要求找conclusion，因此应回到法院实际允许什么。",
+          "other": "coordinate 协调；permit status 许可证状态；cite 引用；supporting reason 支持理由。",
+          "meaning": "文章中的立法背景、理由和司法结论承担不同功能。即使理由出现得更显眼，也不能把它当成题干询问的结论。",
+          "rest": "鼓励协调和共享信息都是支持理由；原文并未取消国家法律对地方检查的约束。"
+        },
+        "context_id": "context:text4-agreement-target-b"
+      }
+    ]
+  },
+  "article_session": {
+    "id": "2026-10-22-2014-text2-reading-observation",
+    "source": "2014 英语一 Reading Text 2 · 2026-10-22学习复盘",
+    "created_at": "2026-10-27T21:46:10+09:00",
+    "revision": 1,
+    "learning_date": "2026-10-22",
+    "session_file": "data/article-sessions/2026-10-22-2014-text2-reading-observation.json",
+    "current_families": [
+      "inference-boundary",
+      "text2-boxed-vocab"
+    ],
+    "deferred_families": [],
+    "historical_families": [
+      "relative",
+      "subject",
+      "conceivably",
+      "process-stage-role",
+      "text4-agreement-target",
+      "text4-executive-overreach"
+    ]
+  },
+  "issues_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "engine": 4
+}

@@ -26,10 +26,19 @@ def sessions(root):
             raise ValueError("Duplicate article session id")
         ids.add(obj["id"])
         date.fromisoformat(obj["date"])
+        learning_day = obj.get("learning_date", obj["date"])
+        if date.fromisoformat(learning_day) > date.fromisoformat(obj["date"]):
+            raise ValueError("Article learning_date cannot follow its publication date")
         if not isinstance(obj["source"], str):
             raise ValueError("Invalid article source")
         if not isinstance(obj["focus_families"], list) or not all(isinstance(x, str) and x for x in obj["focus_families"]):
             raise ValueError("Invalid focus_families")
+        preferred = obj.get("focus_question_ids", {})
+        if not isinstance(preferred, dict) or any(
+                family not in obj["focus_families"] or not isinstance(qids, list) or not qids
+                or not all(isinstance(qid, str) and qid for qid in qids)
+                for family, qids in preferred.items()):
+            raise ValueError("Invalid focus_question_ids")
         revision = obj.get("revision", 1)
         if type(revision) is not int or revision < 1:
             raise ValueError("Invalid article revision")
@@ -100,10 +109,18 @@ def make_payload(root, session, items, archives, repo):
     focus = sorted(set(session["focus_families"]) & groups.keys())
     if not focus:
         raise ValueError("Article session has no question-backed focus family")
+    focus_groups = {}
+    for family in focus:
+        preferred = session.get("focus_question_ids", {}).get(family)
+        variants = [q for q in groups[family] if not preferred or q["id"] in preferred]
+        if not variants or (preferred and set(preferred) - {q["id"] for q in variants}):
+            raise ValueError("Focus question is missing, unavailable or in the wrong family")
+        focus_groups[family] = variants
     rng = random.Random("article-review:" + storage_id(session))
     priority = {}
     for family in focus:
-        observations = [n for n in notes if n["family"] == family and n["date"] == session["date"]
+        observations = [n for n in notes if n["family"] == family
+                        and n["date"] == session.get("learning_date", session["date"])
                         and n.get("session_id", session["id"]) == session["id"]]
         priority[family] = max((review.note_priority(n) for n in observations), default=1)
     # Wrong > uncertain > translation. Equal-priority targets rotate across revisions.
@@ -119,13 +136,17 @@ def make_payload(root, session, items, archives, repo):
             lengths = [len(option) for option in q["o"]]
             return max(lengths) - min(lengths) <= 20
         historical_items = [q for q in historical_items if is_balanced(q)]
+        focus_groups = {family: [q for q in variants if is_balanced(q)]
+                        for family, variants in focus_groups.items()}
+        if any(not variants for variants in focus_groups.values()):
+            raise ValueError("Insufficient balanced focus variants for new review")
         if len({q["family"] for q in historical_items}) < 8 - max_current:
             raise ValueError("Insufficient balanced historical variants for new review")
     historical = review.choose(historical_items, stats, history, day, count=8-max_current,
                                seed="article-history:" + storage_id(session), include_today=True,
                                variant_shown=variant_shown)
     historical_families = [q["family"] for q in historical]
-    selected = [choose_variant(groups, family, rng, today_ids, session["date"], variant_shown)
+    selected = [choose_variant(focus_groups, family, rng, today_ids, session["date"], variant_shown)
                 for family in current_families]
     selected.extend(historical)
     if session.get("balanced_options"):
@@ -147,11 +168,12 @@ def make_payload(root, session, items, archives, repo):
         "progressLabel": "返回本篇进度", "storagePrefix": "kaoyan.article.v1.",
         "storageId": storage_id(session), "ignoreStale": True,
         "reportLabel": "考研英语文章复盘", "reportTitle": "文章复盘", "exportStem": "article-review",
-        "footer": "本篇复盘结果只有在你点击“提交结果到 GitHub”并在 GitHub 再点 Submit new issue 后，才会进入后续间隔复习。",
+        "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
         "questions": selected,
         "retry": {q["family"]: review.retry_variants(items, q, day) for q in selected},
         "article_session": {"id": session["id"], "source": session["source"],
                             "created_at": session["_created_at"].isoformat(), "revision": session.get("revision", 1),
+                            **({"learning_date": session["learning_date"]} if "learning_date" in session else {}),
                             "session_file": session["_path"], "current_families": current_families,
                             "deferred_families": focus[max_current:], "historical_families": historical_families},
         "issues_used": evidence.get("issues", []), "engine": 4,

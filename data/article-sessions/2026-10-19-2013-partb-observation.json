@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-19-2013-partb-observation",
+  "date": "2026-10-27",
+  "learning_date": "2026-10-19",
+  "created_at": "2026-10-27T21:46:10+09:00",
+  "source": "2013 英语一 Part B (7选5) · 2026-10-19学习复盘",
+  "result_summary": "根据已同步的纸质学习观察补齐独立复盘。学习日期与本次题单发布日期分列；不补造过去曝光、最终选择、分数或跨日掌握。未知选项保持未知。",
+  "focus_families": [
+    "paragraph-order-anaphora",
+    "paragraph-order-discourse"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "paragraph-order-anaphora": [
+      "pb13-clinic-training-hours-a",
+      "pb13-garden-land-share-b"
+    ],
+    "paragraph-order-discourse": [
+      "pb13-library-joint-grants-a",
+      "pb13-museum-team-proposals-b"
+    ]
+  }
+}

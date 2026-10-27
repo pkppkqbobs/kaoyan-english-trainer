@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-10-19",
-  "source_commit": "8aeacbd809264032f1d388c0dae90aaff0b33a22",
+  "reviewed_on": "2026-10-27",
+  "source_commit": "56bf9856d8e5d291fbdfe89cfac582baa87fb22e",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -316,7 +316,19 @@
     "pb13-clinic-training-hours-a": "context:pb13-clinic-training-hours-a",
     "pb13-garden-land-share-b": "context:pb13-garden-land-share-b",
     "pb13-library-joint-grants-a": "context:pb13-library-joint-grants-a",
-    "pb13-museum-team-proposals-b": "context:pb13-museum-team-proposals-b"
+    "pb13-museum-team-proposals-b": "context:pb13-museum-team-proposals-b",
+    "stance-reading-room-cost-report": "context:stance-reading-room-cost-report",
+    "conditions-workshop-entry-training": "context:conditions-workshop-entry-training",
+    "logic-sensor-trends-safety-limit": "context:logic-sensor-trends-safety-limit",
+    "relation-more-to-repair-testing": "context:relation-more-to-repair-testing",
+    "polysemy-hearing-picked-up-pace": "context:polysemy-hearing-picked-up-pace",
+    "text2-boxed-curators-implement-ideas": "context:text2-boxed-curators-implement-ideas",
+    "text3-boxed-museum-format-outgrown": "context:text3-boxed-museum-format-outgrown",
+    "text4-boxed-routing-rule-presupposes": "context:text4-boxed-routing-rule-presupposes",
+    "polysemy-sleep-mental-sharpness": "context:polysemy-sleep-mental-sharpness",
+    "relation-display-allows-comparison": "context:relation-display-allows-comparison",
+    "paragraph-discourse-audit-method-before-cases": "context:paragraph-discourse-audit-method-before-cases",
+    "inference-troupe-travel-payments": "context:inference-troupe-travel-payments"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -395,7 +407,7 @@
     "author-stance": {
       "coverage_gap": false,
       "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
-      "reason": "新增协会引述评价与作者自己的限定比较；两语境，仍偏少，先等真实作答。"
+      "reason": "新增阅览室方案与成本报告的评价对象区分，当前三种语境；新题尚无作答证据，旧成绩及语境分组保留。"
     },
     "causal-role-direction": {
       "coverage_gap": false,

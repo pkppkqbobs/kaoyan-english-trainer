@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-20-2014-cloze-observation",
+  "date": "2026-10-27",
+  "learning_date": "2026-10-20",
+  "created_at": "2026-10-27T21:46:10+09:00",
+  "source": "2014 英语一 Section I (Cloze) · 2026-10-20学习复盘",
+  "result_summary": "根据已同步的纸质学习观察补齐独立复盘。学习日期与本次题单发布日期分列；不补造过去曝光、最终选择、分数或跨日掌握。未知选项保持未知。",
+  "focus_families": [
+    "familiar-word-polysemy",
+    "relation-collocation",
+    "logic"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "familiar-word-polysemy": [
+      "polysemy-sleep-mental-sharpness"
+    ],
+    "relation-collocation": [
+      "relation-display-allows-comparison"
+    ],
+    "logic": [
+      "logic-sensor-trends-safety-limit"
+    ]
+  }
+}

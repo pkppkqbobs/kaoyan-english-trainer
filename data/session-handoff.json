@@ -52,8 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-10-18",
-      "storageId": "2026-10-18-2013-text4-balanced-r3"
+      "date": "2026-10-27",
+      "storageId": "2026-10-26-2015-cloze",
+      "learning_date": "2026-10-26"
     },
     "unverified_complete_rounds": [
       {
@@ -286,7 +287,9 @@
         "question": null,
         "note_fingerprint": "46a9cdb762844dc1"
       },
-      "article_session_files": []
+      "article_session_files": [
+        "data/article-sessions/2026-10-26-2015-cloze.json"
+      ]
     },
     {
       "date": "2026-10-25",
@@ -322,7 +325,9 @@
       "boxed_spans": [],
       "translation_note_count": 0,
       "translation_source": null,
-      "article_session_files": []
+      "article_session_files": [
+        "data/article-sessions/2026-10-25-2014-partb.json"
+      ]
     },
     {
       "date": "2026-10-24",
@@ -404,7 +409,9 @@
         "question": null,
         "note_fingerprint": "f488379d99a18c7d"
       },
-      "article_session_files": []
+      "article_session_files": [
+        "data/article-sessions/2026-10-24-2014-text4.json"
+      ]
     },
     {
       "date": "2026-10-23",
@@ -511,9 +518,116 @@
         "question": null,
         "note_fingerprint": "cd84b6f7cab67d4c"
       },
-      "article_session_files": []
+      "article_session_files": [
+        "data/article-sessions/2026-10-23-2014-text3.json"
+      ]
     }
   ],
+  "article_review_coverage": {
+    "pending": [
+      {
+        "session_id": "2026-10-27-2015-text1",
+        "learning_date": "2026-10-27",
+        "updated_on": "2026-10-27",
+        "exam": "2015-english1",
+        "part": "Reading Text 1",
+        "status": "missing_session",
+        "session_file": null,
+        "round_file": null,
+        "publication_date": null
+      }
+    ],
+    "recent": [
+      {
+        "session_id": "2026-10-27-2015-text1",
+        "learning_date": "2026-10-27",
+        "updated_on": "2026-10-27",
+        "exam": "2015-english1",
+        "part": "Reading Text 1",
+        "status": "missing_session",
+        "session_file": null,
+        "round_file": null,
+        "publication_date": null
+      },
+      {
+        "session_id": "2026-10-26-2015-cloze",
+        "learning_date": "2026-10-26",
+        "updated_on": "2026-10-26",
+        "exam": "2015-english1",
+        "part": "Section I (Cloze)",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-26-2015-cloze.json",
+        "round_file": "data/article-reviews/2026-10-26-2015-cloze.json",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "session_id": "2026-10-25-2014-partb",
+        "learning_date": "2026-10-25",
+        "updated_on": "2026-10-25",
+        "exam": "2014-english1",
+        "part": "Part B (paragraph ordering)",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-25-2014-partb.json",
+        "round_file": "data/article-reviews/2026-10-25-2014-partb.json",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "session_id": "2026-10-24-2014-text4",
+        "learning_date": "2026-10-24",
+        "updated_on": "2026-10-24",
+        "exam": "2014-english1",
+        "part": "Reading Text 4",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-24-2014-text4.json",
+        "round_file": "data/article-reviews/2026-10-24-2014-text4.json",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "session_id": "2026-10-23-2014-text3",
+        "learning_date": "2026-10-23",
+        "updated_on": "2026-10-23",
+        "exam": "2014-english1",
+        "part": "Reading Text 3",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-23-2014-text3.json",
+        "round_file": "data/article-reviews/2026-10-23-2014-text3.json",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "session_id": "2026-10-22-2014-text2-reading-observation",
+        "learning_date": "2026-10-22",
+        "updated_on": "2026-10-22",
+        "exam": "2014-english1",
+        "part": "Reading Text 2",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-22-2014-text2-reading-observation.json",
+        "round_file": "data/article-reviews/2026-10-22-2014-text2-reading-observation.json",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "session_id": "2026-10-21-2014-text1",
+        "learning_date": "2026-10-21",
+        "updated_on": "2026-10-21",
+        "exam": "2014-english1",
+        "part": "Reading Text 1",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-21-2014-text1.json",
+        "round_file": "data/article-reviews/2026-10-21-2014-text1.json",
+        "publication_date": "2026-10-27"
+      },
+      {
+        "session_id": "2026-10-20-2014-cloze-observation",
+        "learning_date": "2026-10-20",
+        "updated_on": "2026-10-21",
+        "exam": "2014-english1",
+        "part": "Section I (Cloze)",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-20-2014-cloze-observation.json",
+        "round_file": "data/article-reviews/2026-10-20-2014-cloze-observation.json",
+        "publication_date": "2026-10-27"
+      }
+    ]
+  },
   "priorities": [
     {
       "mechanism": "roles",
@@ -539,7 +653,7 @@
         },
         {
           "family": "logic",
-          "label": "because / unless 整句逻辑",
+          "label": "前后命题的适用范围",
           "focus": "用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-26",
@@ -563,7 +677,7 @@
       "families": [
         {
           "family": "inference-boundary",
-          "label": "观察变化与归因分开",
+          "label": "数量限制的修饰对象",
           "focus": "用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。",
           "paper_kind": "correct_but_uncertain",
           "latest_observation": "2026-10-27",
@@ -605,7 +719,7 @@
       "families": [
         {
           "family": "author-stance",
-          "label": "事实描述 ≠ 作者价值判断",
+          "label": "评价对象与让步关系",
           "focus": "用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-10-24",
@@ -643,7 +757,7 @@
       "families": [
         {
           "family": "familiar-word-polysemy",
-          "label": "公正性与证据充分性",
+          "label": "语境中的能力与变化",
           "focus": "用户明确表示第20题不太理解，未确认最终字母或具体词义联想。",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-27",
@@ -661,7 +775,7 @@
         },
         {
           "family": "relation-collocation",
-          "label": "关系搭配 + 反直觉因果",
+          "label": "动作的施事与作用方式",
           "focus": "用户明确说第11题没有看明白，不清楚该如何选。用户并未提到第8题存在理解困难；先前将这一反馈误记为第8题属于不实归因，现已更正。用户没有确认第11题纸质最终字母，也没有解释自己当时…",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-26",
@@ -685,7 +799,7 @@
       "families": [
         {
           "family": "paragraph-order-discourse",
-          "label": "空前改革目标与空后合作效果需要中间实施步骤",
+          "label": "说明与例证的层级",
           "focus": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-10-25",
@@ -852,10 +966,33 @@
   ],
   "warnings": [
     "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对",
-    "2015-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
+    "2015-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对",
+    "有1个已登记学习阶段尚无可用文章专项复盘；任务运行成功不代表篇目覆盖完整"
   ],
   "sources": {
-    "data/article-review.json": "67f9a9c2c46dee604b213cc9b81fe4521bc565f886742f69afa2dd31b6a4bdf9",
+    "article-review-2026-10-03-2011-text3.html": "f478af0ddd24f8573cffba3f22a38e8c6dfa42a5d98ba117455fce18154161e1",
+    "article-review-2026-10-03-2011-text4-r3.html": "1a7467134dbd02087c8be4b9b61184cdaada2cded6e5dc31037dc961293e2267",
+    "article-review-2026-10-04-2011-partb-r2.html": "4b9018758097939d09cb76e73d1048738c95d259b525e0011220e3f6632a2488",
+    "article-review-2026-10-05-2012-cloze.html": "ca639d3ad5ed32cdd8df6af200bd9609bbb054a889536a30125e1f6f09a43c34",
+    "article-review-2026-10-07-2012-text1.html": "ab2ffee111834b7c640f382f49278b56127418fb82e94dc8770dc480ea812f80",
+    "article-review-2026-10-08-2012-text2.html": "b4dcd7799b9593831772c063a7f96c799e5afc01cedb807aecfa49ec80fa52da",
+    "article-review-2026-10-10-2012-text3.html": "8e417dbe0a4698f86de5149e17b8e78d7eea6553092439bf0da51cef238dc075",
+    "article-review-2026-10-11-2012-text4.html": "ad652d0bcc17fa3ca7e6d725dd478c01aa9d4743069c0b3cb25eeb09bc8ac344",
+    "article-review-2026-10-12-2012-partb.html": "6fef5bea92eb6418198aacb3fc6b883ebcf8cb2d014ff48a24a31d9c763f31fd",
+    "article-review-2026-10-14-2013-cloze.html": "fa90ef371b0ae90b8c93d45dd37912c257178cdbfbc5f1ea626acfa1ba91ed66",
+    "article-review-2026-10-15-2013-text1.html": "297ad8eb5c558b11a96aa6f8248561dca71938101916fe10e4fdf13960e73066",
+    "article-review-2026-10-16-2013-text2.html": "d8dbaeab3527faaea1dff20d89a7b4d5e8d80461e3710653715f016ff9f9511d",
+    "article-review-2026-10-17-2013-text3.html": "a5331e210efeb2a4777be2ed6fbc5095294c8c86d4449e2886c7b42ebba981ba",
+    "article-review-2026-10-18-2013-text4.html": "91b302042e271d6f86ca61884f53ca7cd48ad00054858f379c1a7d16a0c6b1c9",
+    "article-review-2026-10-19-2013-partb-observation.html": "936326d3513b5edbbe5bc9038dfd64b556956c64fcaf344543db9e6a71da1bb0",
+    "article-review-2026-10-20-2014-cloze-observation.html": "b2d901fa60011923aba8d131322a458ac294276ed1f18a7aa512d4929338652a",
+    "article-review-2026-10-21-2014-text1.html": "f2b1483ffbc613601148e965993f443c5b5386e54481ea5173e1cddefb465cda",
+    "article-review-2026-10-22-2014-text2-reading-observation.html": "889ef6ff387546b6cfc9bc4a83db90936fe211533cfd94bd06b6576426afe4d0",
+    "article-review-2026-10-23-2014-text3.html": "2a1bbc025c014b0c3360a306401bfd694f6c6f67f980a4ec7eb21b749b1ba2fc",
+    "article-review-2026-10-24-2014-text4.html": "3c90166ba12c17849795c49214bb4669353ab791b58dc7f49f1efd9bd9a03d5f",
+    "article-review-2026-10-25-2014-partb.html": "725bc1b520d776c1e12318c98111a4192de0dc9e8ddac548a3bc04bf006c6ff3",
+    "article-review-2026-10-26-2015-cloze.html": "15cafb4456fe1509afb749dc091f4e96182b4aa4a1ddded1d9a659fd5f6b7054",
+    "data/article-review.json": "342fe2ce539b3366cba6257e66849e98bb17e3bc9d5807131fa01a9db0ae525a",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -876,6 +1013,14 @@
     "data/article-reviews/2026-10-18-2013-text4-balanced-r3.json": "67f9a9c2c46dee604b213cc9b81fe4521bc565f886742f69afa2dd31b6a4bdf9",
     "data/article-reviews/2026-10-18-2013-text4-balanced.json": "af4c5eeecb1232323dd624caa97d595bbdd790fa2eba5cc67e12bbdc658b9f6b",
     "data/article-reviews/2026-10-18-2013-text4.json": "0e0a83b6534d5960b771b09a2f34c1796f9c528730a124c1c1d611adb2a1a7f1",
+    "data/article-reviews/2026-10-19-2013-partb-observation.json": "bb255d6736c85946f1b46d8f519f2aae81151072c7f1cdbe7aa5783f7a8f852a",
+    "data/article-reviews/2026-10-20-2014-cloze-observation.json": "f4e4b092a5672ac67f0128bbafb3981bdd1babfe9ca23ad1313cc8dfd6076ef7",
+    "data/article-reviews/2026-10-21-2014-text1.json": "10588dc6bfbbb742606f74fbc53c75e886410bc00a3b3c0927fca15cba44fa5e",
+    "data/article-reviews/2026-10-22-2014-text2-reading-observation.json": "897648e45c51d0c482b0ac2872afd93beb3dc556840fd17be6a5a54a0fafeace",
+    "data/article-reviews/2026-10-23-2014-text3.json": "726d835ab62df7120d50d2501d01f5f6eb9145b92d5bfe2bd03de3913a0f3124",
+    "data/article-reviews/2026-10-24-2014-text4.json": "22fbd7adc9379bb5a8ae89d95de317b18a0e0ef7fcc7ca629e063bfcda04a684",
+    "data/article-reviews/2026-10-25-2014-partb.json": "dda8fa13a4cce32879b8c8ee188ba5a4333425dd0c31bad42e6e9db85f3f0b44",
+    "data/article-reviews/2026-10-26-2015-cloze.json": "342fe2ce539b3366cba6257e66849e98bb17e3bc9d5807131fa01a9db0ae525a",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -891,6 +1036,14 @@
     "data/article-sessions/2026-10-17-2013-text3.json": "631876533f8a9fe0f6e6f90fe5cb8b54d6227bd897a4017a511bdbf94ddb995e",
     "data/article-sessions/2026-10-18-2013-text4-balanced.json": "9e1150d19dbef3de248be2b80747319773740a05ecee9256b39e6537d3d3cb1e",
     "data/article-sessions/2026-10-18-2013-text4.json": "581fe06fdc88b2d49fcd594e8124aed0253a9b09f6a6dbd1b11c32b3ccd21a8d",
+    "data/article-sessions/2026-10-19-2013-partb-observation.json": "f76e8753ada2103b8c995f6f43ea7d2601008f1383d02bb2921fa7368b7e8495",
+    "data/article-sessions/2026-10-20-2014-cloze-observation.json": "4ff2cf6d3bbbdc76784e0814ae9b7a03694314ecd4bbfab60cdaf8d307797e40",
+    "data/article-sessions/2026-10-21-2014-text1.json": "b29183c88e588de10c233189712d5eaad986700f03227b77e9e0ae8020642d3f",
+    "data/article-sessions/2026-10-22-2014-text2-reading-observation.json": "219992b95174339d3c8e5ba2444c2917a880401665cb1365b0af4679b4cbc199",
+    "data/article-sessions/2026-10-23-2014-text3.json": "c21c460ce7ff25a7a31451a6904a363f6e704f9aac9e8f8a6a1eea73ff280fe3",
+    "data/article-sessions/2026-10-24-2014-text4.json": "eda28207d831c78ca3775348b6907eca73dbb0bd38227bdc1947dc0ac1d95f53",
+    "data/article-sessions/2026-10-25-2014-partb.json": "7b20f83aa95af02b0082a17ebee0b4a9c42d17d0d32201e2d47de352f01dbd7a",
+    "data/article-sessions/2026-10-26-2015-cloze.json": "abb0d08628065db183ae107198faa61434bac16f11e7ee839916e9372c6f757f",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -924,7 +1077,7 @@
     "data/days/2026-10-27.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
     "data/learning-notes.json": "1a2312e9286a8a1b14a4189570cf13870e06ad0249bda7a829b4627e7dd07917",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
-    "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
+    "data/question-contexts.json": "97ac1a5634b04e5e0b02adfbe009e75138757d3d6b8dbca36fbe6facbfafdb7f",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -950,6 +1103,7 @@
     "data/questions/2026-10-18-text4-rev3.json": "01df614f9448a0bda7f6f3654ea5c4dc7aeeb99e59f7166375e5b04c9867206b",
     "data/questions/2026-10-18-text4.json": "4b461424546d84620e10baf7fa591a4ec3563884c020489ba02cb99d89a460ef",
     "data/questions/2026-10-19-2013-partb.json": "e17f0079148422a8ac97a9ade9736832afbb87f271fdd17f8b64daecdfc4b6ad",
+    "data/questions/2026-10-27-article-followup.json": "abc6c9994222bebf884dd0f85969b0d01bc5c84b5a3dd47cf6c6dde7860eb02b",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "c33b457f021e11a2abbd67d9c08b2c57191f045f7bcd6e0ac78ed4c34a253923",
     "data/review-state.json": "32b721d20b4550dd02dbb2b84dfded92aeb5084ab73cd59418dff78e83bcbf8d",
@@ -957,7 +1111,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "4e7c669d352acb6601b61f3e36edc15b6ae80986cdca645b8d57c76397d7b5a5",
+  "source_fingerprint": "d1d57fc2fe6886e772c1418f2b44b5dff5c8bf781d8f9b50e41fc2470e034933",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
