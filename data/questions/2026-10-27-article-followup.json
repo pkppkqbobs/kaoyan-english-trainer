@@ -286,5 +286,53 @@
       "meaning": "数字出现后应先问“限制的是谁的什么权利”。对报销人数的限制不能移成对团队人数、报名资格或上台人数的限制。",
       "rest": "“每团最多三人”“四人剧团不能参加”“仅三人可上台”都把差旅资助范围扩大成团队规模或参与资格限制，且忽略其余演员可自费参与。"
     }
+  },
+  {
+    "id": "causal-role-single-form-signatures",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-27",
+    "budget": 50,
+    "target": "措施与结果的对应关系",
+    "skill": "措施与结果的对应关系",
+    "q": "By accepting a single signed form, the club allows volunteers to avoid requesting a separate signature for every shift. Which benefit is described?",
+    "o": [
+      "Volunteers may work extra shifts without signing any form.",
+      "Volunteers need not seek another signature for each shift.",
+      "Supervisors supply more signatures for every new volunteer.",
+      "Only supervisors may change the shifts a volunteer accepts."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "俱乐部接受一份签好字的表格，从而使志愿者不必每个班次都另外请求签字。好处是省去反复请求签字的手续。",
+      "structure": "By accepting...说明俱乐部采取的措施；allows的宾语是volunteers；to avoid requesting...说明志愿者由此免于什么行为。separate signature是被省去的逐班次手续。",
+      "other": "shift 班次；signature 签字；avoid doing 避免做、不必做；single 单份的。",
+      "meaning": "使某人免于寻找或请求某物，不等于给他更多该物。先列措施、受益主体、被省去的行为和结果，再检查选项有没有改成增加数量或扩大资格。",
+      "rest": "原文仍有一份已签字表格，不能说完全无须签字或允许多工作班次；也未说主管供应更多签字；变更班次的权限没有提及。"
+    }
+  },
+  {
+    "id": "inference-director-hierarchical-profile",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-27",
+    "budget": 55,
+    "target": "行为描述与立场推断",
+    "skill": "行为描述与立场推断",
+    "q": "The director insists on formal titles and a clear chain of command. This explains why her staff describe her as hierarchical. Which conclusion is supported?",
+    "o": [
+      "She values distinctions of rank within the workplace.",
+      "She takes a tough line in every wage negotiation.",
+      "She prevents junior staff from expressing any opinion.",
+      "She supports the same political party as her managers."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "主管要求使用正式职衔并保持明确的指挥层级，因此员工说她等级观念强。能确定的是她重视工作场所的等级区分。",
+      "structure": "The director是主语，insists on连接她强调的组织安排；This回指前句行为；describe her as hierarchical是员工对这种行为特征的概括。",
+      "other": "hierarchical 等级分明的、等级观念强的；chain of command 指挥链；take a tough line on 对某事采取强硬立场。",
+      "meaning": "组织等级观念与具体议题上的立场强硬是不同判断。要把评价落实到原文给出的行为维度，不能因为某个形容词听起来强势就添加其他政治或谈判结论。",
+      "rest": "谈判一概强硬、禁止下属发表任何意见、与经理支持同一政党都增加了原文没有提供的具体立场或限制。"
+    }
   }
 ]

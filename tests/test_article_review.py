@@ -300,16 +300,18 @@ class ArticleReviewTests(unittest.TestCase):
             self.assertEqual(article_review.build(root), first)
             self.assertEqual((root / 'article-review.html').read_bytes(), after_alias)
 
-    def test_latest_article_round_does_not_reward_the_longest_option_heuristic(self):
+    def test_published_oct18_round_keeps_checked_option_balance(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             shutil.copytree(ROOT / "data", root / "data")
             shutil.copytree(ROOT / "web", root / "web")
             for page in ROOT.glob("*.html"):
                 shutil.copy(page, root / page.name)
-            # Compare with earlier rounds, not the latest round itself after
-            # it has been archived; otherwise the test becomes self-contradictory.
-            target_key = article_review.storage_id(article_review.latest_session(root))
+            # These lower bounds describe the checked October 18 snapshot.
+            # Future legitimate sheets may contain zero longest correct options;
+            # do not impose a per-sheet answer-length quota on every new article.
+            target_key = '2026-10-18-2013-text4-balanced-r3'
+            payload = review.load(root / f'data/article-reviews/{target_key}.json')
             prior_same_day_article_ids = {
                 q["id"]
                 for path in (root / "data/article-reviews").glob("*.json")
@@ -317,7 +319,6 @@ class ArticleReviewTests(unittest.TestCase):
                 if old["date"] == "2026-10-18" and old["storageId"] != target_key
                 for q in old["questions"]
             }
-            payload = article_review.build(root)
             questions = payload["questions"]
             current_ids = {
                 q["id"] for q in questions

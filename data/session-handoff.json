@@ -53,8 +53,8 @@
     },
     "available_article": {
       "date": "2026-10-27",
-      "storageId": "2026-10-26-2015-cloze",
-      "learning_date": "2026-10-26"
+      "storageId": "2026-10-27-2015-text1",
+      "learning_date": "2026-10-27"
     },
     "unverified_complete_rounds": [
       {
@@ -165,7 +165,9 @@
         "question": null,
         "note_fingerprint": "f55afb08fc7da29f"
       },
-      "article_session_files": []
+      "article_session_files": [
+        "data/article-sessions/2026-10-27-2015-text1.json"
+      ]
     },
     {
       "date": "2026-10-26",
@@ -524,19 +526,7 @@
     }
   ],
   "article_review_coverage": {
-    "pending": [
-      {
-        "session_id": "2026-10-27-2015-text1",
-        "learning_date": "2026-10-27",
-        "updated_on": "2026-10-27",
-        "exam": "2015-english1",
-        "part": "Reading Text 1",
-        "status": "missing_session",
-        "session_file": null,
-        "round_file": null,
-        "publication_date": null
-      }
-    ],
+    "pending": [],
     "recent": [
       {
         "session_id": "2026-10-27-2015-text1",
@@ -544,10 +534,10 @@
         "updated_on": "2026-10-27",
         "exam": "2015-english1",
         "part": "Reading Text 1",
-        "status": "missing_session",
-        "session_file": null,
-        "round_file": null,
-        "publication_date": null
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-27-2015-text1.json",
+        "round_file": "data/article-reviews/2026-10-27-2015-text1.json",
+        "publication_date": "2026-10-27"
       },
       {
         "session_id": "2026-10-26-2015-cloze",
@@ -635,7 +625,7 @@
       "families": [
         {
           "family": "causal-role-direction",
-          "label": "区分已知原因、措施与尚未验证的后续结果",
+          "label": "措施与结果的对应关系",
           "focus": "用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成…",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-10-27",
@@ -677,7 +667,7 @@
       "families": [
         {
           "family": "inference-boundary",
-          "label": "数量限制的修饰对象",
+          "label": "行为描述与立场推断",
           "focus": "用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。",
           "paper_kind": "correct_but_uncertain",
           "latest_observation": "2026-10-27",
@@ -966,8 +956,7 @@
   ],
   "warnings": [
     "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对",
-    "2015-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对",
-    "有1个已登记学习阶段尚无可用文章专项复盘；任务运行成功不代表篇目覆盖完整"
+    "2015-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
   ],
   "sources": {
     "article-review-2026-10-03-2011-text3.html": "f478af0ddd24f8573cffba3f22a38e8c6dfa42a5d98ba117455fce18154161e1",
@@ -992,7 +981,8 @@
     "article-review-2026-10-24-2014-text4.html": "3c90166ba12c17849795c49214bb4669353ab791b58dc7f49f1efd9bd9a03d5f",
     "article-review-2026-10-25-2014-partb.html": "725bc1b520d776c1e12318c98111a4192de0dc9e8ddac548a3bc04bf006c6ff3",
     "article-review-2026-10-26-2015-cloze.html": "15cafb4456fe1509afb749dc091f4e96182b4aa4a1ddded1d9a659fd5f6b7054",
-    "data/article-review.json": "342fe2ce539b3366cba6257e66849e98bb17e3bc9d5807131fa01a9db0ae525a",
+    "article-review-2026-10-27-2015-text1.html": "7cf15c206c7074397ca3f598f36fe32c85b8e29eb467be71c5b5eee3c7777259",
+    "data/article-review.json": "457b2430b0b3f7368204c44d300d667b6e74a4f0979e0e4378ce8902c47ea368",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1021,6 +1011,7 @@
     "data/article-reviews/2026-10-24-2014-text4.json": "22fbd7adc9379bb5a8ae89d95de317b18a0e0ef7fcc7ca629e063bfcda04a684",
     "data/article-reviews/2026-10-25-2014-partb.json": "dda8fa13a4cce32879b8c8ee188ba5a4333425dd0c31bad42e6e9db85f3f0b44",
     "data/article-reviews/2026-10-26-2015-cloze.json": "342fe2ce539b3366cba6257e66849e98bb17e3bc9d5807131fa01a9db0ae525a",
+    "data/article-reviews/2026-10-27-2015-text1.json": "457b2430b0b3f7368204c44d300d667b6e74a4f0979e0e4378ce8902c47ea368",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1044,6 +1035,7 @@
     "data/article-sessions/2026-10-24-2014-text4.json": "eda28207d831c78ca3775348b6907eca73dbb0bd38227bdc1947dc0ac1d95f53",
     "data/article-sessions/2026-10-25-2014-partb.json": "7b20f83aa95af02b0082a17ebee0b4a9c42d17d0d32201e2d47de352f01dbd7a",
     "data/article-sessions/2026-10-26-2015-cloze.json": "abb0d08628065db183ae107198faa61434bac16f11e7ee839916e9372c6f757f",
+    "data/article-sessions/2026-10-27-2015-text1.json": "51f2c94ac8a14c1f6c7f6fac89f4dd28b1e4c81f9bc91a16ef6749deaba7d371",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1077,7 +1069,7 @@
     "data/days/2026-10-27.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
     "data/learning-notes.json": "1a2312e9286a8a1b14a4189570cf13870e06ad0249bda7a829b4627e7dd07917",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
-    "data/question-contexts.json": "97ac1a5634b04e5e0b02adfbe009e75138757d3d6b8dbca36fbe6facbfafdb7f",
+    "data/question-contexts.json": "8dfd2056afbf53e7984c8392c78d428f202783981abaaafb1270174c30224e1b",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1103,7 +1095,7 @@
     "data/questions/2026-10-18-text4-rev3.json": "01df614f9448a0bda7f6f3654ea5c4dc7aeeb99e59f7166375e5b04c9867206b",
     "data/questions/2026-10-18-text4.json": "4b461424546d84620e10baf7fa591a4ec3563884c020489ba02cb99d89a460ef",
     "data/questions/2026-10-19-2013-partb.json": "e17f0079148422a8ac97a9ade9736832afbb87f271fdd17f8b64daecdfc4b6ad",
-    "data/questions/2026-10-27-article-followup.json": "abc6c9994222bebf884dd0f85969b0d01bc5c84b5a3dd47cf6c6dde7860eb02b",
+    "data/questions/2026-10-27-article-followup.json": "942573413f754af99af36b836f7cdb156439c9fd7d0bc456e75b8fae476b3237",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "c33b457f021e11a2abbd67d9c08b2c57191f045f7bcd6e0ac78ed4c34a253923",
     "data/review-state.json": "32b721d20b4550dd02dbb2b84dfded92aeb5084ab73cd59418dff78e83bcbf8d",
@@ -1111,7 +1103,7 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "d1d57fc2fe6886e772c1418f2b44b5dff5c8bf781d8f9b50e41fc2470e034933",
+  "source_fingerprint": "f519b20ada4ee9d47098f6a3e4cc9dd66b1125742ccf4ec4544716759013887d",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

@@ -15,12 +15,12 @@
 当前题单日期：2026-10-27；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
-当前文章专项：发布日期2026-10-27，对应学习日期2026-10-26；题单已发布不等于已经作答。
-已登记篇目复盘缺口：1个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。
+当前文章专项：发布日期2026-10-27，对应学习日期2026-10-27；题单已发布不等于已经作答。
+已登记篇目复盘缺口：0个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。
 
 ## 最近纸质学习阶段
 
-- 2026-10-27｜2015 英语一 Text 1：Q22 自述错题：C；参考A（待来源核对）。用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成… Q24 答对但犹豫：D；参考D（待来源核对）。用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。 画框翻译：abdicate、absolutist、arguments、aristocratic、downside、economists等。 尚无对应article session；不因此遗漏观察。
+- 2026-10-27｜2015 英语一 Text 1：Q22 自述错题：C；参考A（待来源核对）。用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成… Q24 答对但犹豫：D；参考D（待来源核对）。用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。 画框翻译：abdicate、absolutist、arguments、aristocratic、downside、economists等。
 - 2026-10-26｜2015 英语一 Section I (Cloze)：Q5 理解困惑：最终选项未确认；参考C（待来源核对）。用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。 Q6 理解困惑：最终选项未确认；参考A（待来源核对）。用户明确表示第6题属于‘脑抽’，漏看了A选项insignificant中的否定前缀in-；自述如果注意到in-就会选择A，但未确认纸质最终选项。 画框翻译：conducted、drawn from、genome-wide、smell。
 - 2026-10-25｜2014 英语一 Part B (paragraph ordering)：Q43 理解困惑：最终选项未确认；参考G（待来源核对）。用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…
 - 2026-10-24｜2014 英语一 Text 4：Q36 自述错题：B；参考A（待来源核对）。用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 后续补充（不倒推首次原因）：用户问“regrettably是后悔的意思吗”；应区分regret（后悔/遗憾）与句子副词regrettably（遗憾的是/可惜的是）。Regrettably, however在此用于引出对报告的批评… Q38 理解困惑：最终选项未确认；参考C（待来源核对）。用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。 后续补充（不倒推首次原因）：用户亲口说明自己把A选项an exclusive study of American history中的exclusive study译成“广泛地学习”。词义根因是将exclusive（排他的、仅限于… 画框翻译：interpretation、presupposes。
@@ -48,7 +48,6 @@
 - 2014 英语一 Text 4 Q38：最终选项未确认。
 - 2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对。
 - 2015-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对。
-- 有1个已登记学习阶段尚无可用文章专项复盘；任务运行成功不代表篇目覆盖完整。
 
 ## 下一对话怎么继续
 

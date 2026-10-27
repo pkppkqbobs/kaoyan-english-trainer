@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 240,
+        "question_count": 242,
         "correct_uniquely_longest": 57,
         "correct_uniquely_shortest": 44,
-        "longest_guess_pct": 29.69,
-        "shortest_guess_pct": 22.19,
+        "longest_guess_pct": 29.44,
+        "shortest_guess_pct": 22.21,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -4144,6 +4144,40 @@
         "correct_uniquely_shortest": true,
         "longest_guess_credit": 0,
         "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-10-27-article-followup.json"
+      },
+      "causal-role-single-form-signatures": {
+        "lengths": [
+          58,
+          58,
+          59,
+          59
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-10-27-article-followup.json"
+      },
+      "inference-director-hierarchical-profile": {
+        "lengths": [
+          53,
+          49,
+          54,
+          54
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
         "length_cue_flag": false,
         "pool": "daily_article",
         "family": "inference-boundary",
