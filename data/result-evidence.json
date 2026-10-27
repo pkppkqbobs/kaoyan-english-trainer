@@ -2349,6 +2349,94 @@
       "qid": "recruitment-hunt-b",
       "round_id": "mvp5enzx-mpvft4m5",
       "source_date": "2026-10-26"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 65158,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "pb13-library-joint-grants-a",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 155071,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "inference-boundary-survey-shift-b",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "compensation-components",
+      "ok": false,
+      "ms": 63012,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "compensation-hospital-benefits-a",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 59068,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "text4-agency-inaction-d",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "concession-claim-scope",
+      "ok": true,
+      "ms": 26844,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "concession-festival-cups-b",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "nested",
+      "ok": true,
+      "ms": 46687,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "nested-editor-quote-d",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 28158,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "text4-state-privileges-a",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-27",
+      "family": "process-stage-role",
+      "ok": false,
+      "ms": 38898,
+      "uncertain": false,
+      "origin": 30,
+      "qid": "process-stage-shipment-hold-decision-d",
+      "round_id": "mvqobqes-68dqrfn0",
+      "source_date": "2026-10-27"
     }
   ],
   "issues": [
@@ -2380,6 +2468,7 @@
     26,
     27,
     28,
-    29
+    29,
+    30
   ]
 }
