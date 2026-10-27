@@ -1,6 +1,6 @@
 # 考研英语一跨对话交接
 
-数据截至 2026-10-26；仅索引已同步到仓库的证据。
+数据截至 2026-10-27；仅索引已同步到仓库的证据。
 [仓库](https://github.com/pkppkqbobs/kaoyan-english-trainer) · [每日8题](https://pkppkqbobs.github.io/kaoyan-english-trainer/today.html) · [文章复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-review.html) · [历史复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html)
 
 ## 接续规则
@@ -12,7 +12,7 @@
 ## 已核验网页进度
 
 最近已接受的完整daily：题单日期2026-10-26，[Issue #29](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/29)，8/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-10-26；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
+当前题单日期：2026-10-27；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 
@@ -27,7 +27,7 @@
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
-- 作者态度、评价对象与转折（author-stance、paragraph-scope-attitude）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
+- 作者态度、评价对象与转折（author-stance、viewpoint-fact）：用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。 网页错误数/streak单列于JSON。
 - 修饰关系与熟词搭配（familiar-word-polysemy、relation-collocation）：用户明确表示第20题不太理解，未确认最终字母或具体词义联想。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（test-object-scope、inference-boundary）：用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（logic、conditions）：用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。 网页错误数/streak单列于JSON。
