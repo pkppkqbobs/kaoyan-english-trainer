@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-10-27",
     "daily_quiz": "2026-10-27",
-    "latest_observation": "2026-10-26"
+    "latest_observation": "2026-10-27"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -85,6 +85,87 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-10-27",
+      "exam": "2015-english1",
+      "part": "Text 1",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "causal-role-direction",
+          "question": 22,
+          "related_questions": [],
+          "updated_on": "2026-10-27",
+          "final_choice": "C",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "note_only",
+          "summary": "用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-27",
+            "family": "causal-role-direction",
+            "question": 22,
+            "note_fingerprint": "1de5a67bddb74bfb"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "correct_but_uncertain",
+          "family": "inference-boundary",
+          "question": 24,
+          "related_questions": [],
+          "updated_on": "2026-10-27",
+          "final_choice": "D",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "A",
+            "D"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "D",
+          "reference_status": "note_only",
+          "summary": "用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-27",
+            "family": "inference-boundary",
+            "question": 24,
+            "note_fingerprint": "a0b3bbdb2cc3e4c0"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "abdicate",
+        "absolutist",
+        "arguments",
+        "aristocratic",
+        "downside",
+        "economists",
+        "granny",
+        "hierarchical",
+        "intrusiveness",
+        "party with"
+      ],
+      "translation_note_count": 2,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-27",
+        "family": "familiar-word-polysemy",
+        "question": null,
+        "note_fingerprint": "f55afb08fc7da29f"
+      },
+      "article_session_files": []
+    },
     {
       "date": "2026-10-26",
       "exam": "2015-english1",
@@ -431,59 +512,93 @@
         "note_fingerprint": "cd84b6f7cab67d4c"
       },
       "article_session_files": []
-    },
-    {
-      "date": "2026-10-22",
-      "exam": "2014-english1",
-      "part": "Text 2",
-      "items": [
-        {
-          "kind": "user_reported_confusion",
-          "family": "inference-boundary",
-          "question": 27,
-          "related_questions": [],
-          "updated_on": "2026-10-22",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "C",
-          "reference_status": "note_only",
-          "summary": "用户现已明确说明：把原文some unrelated subject误以为‘法律本科里上四年水课’，因此没有识别出它讲的是先修其他学科四年本科、再读三年法律专业学位。曾认为27题A…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-22",
-            "family": "inference-boundary",
-            "question": 27,
-            "note_fingerprint": "4f3efdcb2d5058f5"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "complaint",
-        "nuisance-lawsuit",
-        "regulators",
-        "sensible",
-        "skyscrapers-full",
-        "too conservative to",
-        "tort"
-      ],
-      "translation_note_count": 3,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-22",
-        "family": "text2-boxed-vocab",
-        "question": null,
-        "note_fingerprint": "e0eda5674b0a6e79"
-      },
-      "article_session_files": []
     }
   ],
   "priorities": [
+    {
+      "mechanism": "roles",
+      "label": "主语—动作—对象与政策条件",
+      "families": [
+        {
+          "family": "causal-role-direction",
+          "label": "区分已知原因、措施与尚未验证的后续结果",
+          "focus": "用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-10-27",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-10-24",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-27",
+            "family": "causal-role-direction",
+            "question": 22,
+            "note_fingerprint": "1de5a67bddb74bfb"
+          }
+        },
+        {
+          "family": "logic",
+          "label": "because / unless 整句逻辑",
+          "focus": "用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-02",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "logic",
+            "question": 13,
+            "note_fingerprint": "739ef5ce03ec1ae5"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "scope",
+      "label": "选项范围与额外限定",
+      "families": [
+        {
+          "family": "inference-boundary",
+          "label": "观察变化与归因分开",
+          "focus": "用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。",
+          "paper_kind": "correct_but_uncertain",
+          "latest_observation": "2026-10-27",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-10-27",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-27",
+            "family": "inference-boundary",
+            "question": 24,
+            "note_fingerprint": "a0b3bbdb2cc3e4c0"
+          }
+        },
+        {
+          "family": "test-object-scope",
+          "label": "定位题干关系而非重复词",
+          "focus": "用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-11",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-26",
+            "family": "test-object-scope",
+            "question": 5,
+            "note_fingerprint": "6d19f3536dfd7ad5"
+          }
+        }
+      ]
+    },
     {
       "mechanism": "stance",
       "label": "作者态度、评价对象与转折",
@@ -531,7 +646,7 @@
           "label": "公正性与证据充分性",
           "focus": "用户明确表示第20题不太理解，未确认最终字母或具体词义联想。",
           "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-26",
+          "latest_observation": "2026-10-27",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
@@ -560,90 +675,6 @@
             "family": "relation-collocation",
             "question": 11,
             "note_fingerprint": "d2ec5daf35cabdb5"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "scope",
-      "label": "选项范围与额外限定",
-      "families": [
-        {
-          "family": "test-object-scope",
-          "label": "定位题干关系而非重复词",
-          "focus": "用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-26",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-11",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-26",
-            "family": "test-object-scope",
-            "question": 5,
-            "note_fingerprint": "6d19f3536dfd7ad5"
-          }
-        },
-        {
-          "family": "inference-boundary",
-          "label": "观察变化与归因分开",
-          "focus": "用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-24",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-10-27",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-24",
-            "family": "inference-boundary",
-            "question": 38,
-            "note_fingerprint": "19f911e81a59cd80"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "roles",
-      "label": "主语—动作—对象与政策条件",
-      "families": [
-        {
-          "family": "logic",
-          "label": "because / unless 整句逻辑",
-          "focus": "用户明确说第13题不理解、不知道怎么选，未确认最终纸质选择，也未提供具体比较过程。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-26",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-02",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-26",
-            "family": "logic",
-            "question": 13,
-            "note_fingerprint": "739ef5ce03ec1ae5"
-          }
-        },
-        {
-          "family": "conditions",
-          "label": "so long as / in case / as far as",
-          "focus": "我看懂了，但我的主语谁干了什么搞混了，我以为George这次的改革就是为了让人方便领上失业救济金。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-21",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-27",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-21",
-            "family": "conditions",
-            "question": 21,
-            "note_fingerprint": "79eee035884b8042"
           }
         }
       ]
@@ -817,20 +848,6 @@
         "question": 38,
         "note_fingerprint": "19f911e81a59cd80"
       }
-    },
-    {
-      "exam": "2014-english1",
-      "part": "Text 2",
-      "question": 27,
-      "date": "2026-10-22",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-22",
-        "family": "inference-boundary",
-        "question": 27,
-        "note_fingerprint": "4f3efdcb2d5058f5"
-      }
     }
   ],
   "warnings": [
@@ -905,7 +922,7 @@
     "data/days/2026-10-25.json": "40823ef19e4e4b08992925aa4c5eb659cd8eccba7e7ee9a0cd0f83f4205595ea",
     "data/days/2026-10-26.json": "a90c479d10d971b2369e77e37588e77893936aacc9c91b059203a52b4a1eb3bb",
     "data/days/2026-10-27.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
-    "data/learning-notes.json": "ee08d9899397f8174a359737965b21700a1f8c11223309a781d768d7619beea0",
+    "data/learning-notes.json": "1a2312e9286a8a1b14a4189570cf13870e06ad0249bda7a829b4627e7dd07917",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "fa7d03d05827a583cc2c6c36db267e31e6a8b1818ec891e20194c4c348ce5fc4",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
@@ -935,12 +952,12 @@
     "data/questions/2026-10-19-2013-partb.json": "e17f0079148422a8ac97a9ade9736832afbb87f271fdd17f8b64daecdfc4b6ad",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "c33b457f021e11a2abbd67d9c08b2c57191f045f7bcd6e0ac78ed4c34a253923",
-    "data/review-state.json": "443611d6245e9fe5d158576207faea2f7f20ce694e5c430e6727e41636120fcf",
+    "data/review-state.json": "32b721d20b4550dd02dbb2b84dfded92aeb5084ab73cd59418dff78e83bcbf8d",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50"
   },
-  "source_fingerprint": "cb50efce347387f0a422f27cf4163930bcce65934901ab30d8c44630c2caa43b",
+  "source_fingerprint": "4e7c669d352acb6601b61f3e36edc15b6ae80986cdca645b8d57c76397d7b5a5",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
