@@ -2437,6 +2437,94 @@
       "qid": "process-stage-shipment-hold-decision-d",
       "round_id": "mvqobqes-68dqrfn0",
       "source_date": "2026-10-27"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 34485,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "text4-executive-overreach-b",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "nested",
+      "ok": true,
+      "ms": 4519,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "nested-shared-gate",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "cloze-applicant-outcome",
+      "ok": true,
+      "ms": 81417,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "cloze-applicant-residency-b",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "text4-agreement-target",
+      "ok": false,
+      "ms": 39166,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "text4-agreement-target-b",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 38119,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "career-editor-b",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "process-stage-role",
+      "ok": false,
+      "ms": 170342,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "process-stage-hospital-routine-authority-c",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 23842,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "viewpoint-diet-b",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-28",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 70460,
+      "uncertain": false,
+      "origin": 31,
+      "qid": "causal-role-deadline-response-c",
+      "round_id": "mvs31b7l-vr073i6r",
+      "source_date": "2026-10-28"
     }
   ],
   "issues": [
@@ -2469,6 +2557,7 @@
     27,
     28,
     29,
-    30
+    30,
+    31
   ]
 }
