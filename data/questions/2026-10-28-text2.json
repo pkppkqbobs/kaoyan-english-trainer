@@ -1,0 +1,98 @@
+[
+  {
+    "id": "search-ledger-donation-entry",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-28",
+    "target": "search for / search ... for ...",
+    "skill": "搜索对象与寻找目标",
+    "budget": 50,
+    "q": "A curator searched for a missing ledger. After finding it, she searched the ledger for a donation entry. Which description matches only the second search?",
+    "o": [
+      "She examined the office to locate the ledger.",
+      "She examined the address to locate its owner.",
+      "She examined the ledger to locate an entry.",
+      "She examined the donor to locate the ledger."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "管理员先寻找一本失踪的账簿。找到后，她查看账簿，寻找一条捐赠记录。第二次搜索检查的是账簿，寻找的目标是记录。",
+      "structure": "首句searched for后接寻找的目标a missing ledger；第二句searched的直接宾语是the ledger，for a donation entry说明要在其中寻找什么。After finding it中的it回指账簿，先找到它才进行第二个动作。",
+      "other": "curator藏品管理员；ledger账簿；donation捐赠；entry一条记录。",
+      "meaning": "search for X强调寻找X；search Y for X强调检查Y以寻找X。要分开标出被检查的范围和想找到的东西。",
+      "rest": "“检查办公室找账簿”把第二次查看内容换回寻找物品；“检查地址找主人”加入不存在的对象与目标；“检查捐赠人找账簿”把账簿中的记录换成了人。只有“检查账簿找记录”对应第二句。"
+    }
+  },
+  {
+    "id": "conditions-storm-court-exception",
+    "family": "conditions",
+    "introduced": null,
+    "published_on": "2026-10-28",
+    "target": "总体规则 / 有限例外",
+    "skill": "条件范围与规则保留",
+    "budget": 35,
+    "q": "A sports centre requires advance booking for court use. If a school loses its gym to storm damage, its team may use an empty court without booking for one week. Which statement follows?",
+    "o": [
+      "All school teams may ignore the booking rule.",
+      "Storm damage removes booking rules for good.",
+      "A stated emergency allows a temporary exception.",
+      "Every school team must book even in this case."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "体育中心通常要求提前预约。若某学校的体育馆因暴风雨受损，该校队伍可在一周内不预约而使用空场地。因此，指定紧急情形下存在临时例外。",
+      "structure": "首句requires建立总体规则。第二句If引导条件从句；主句its team may use...的许可受学校、灾损、空场地和一周期限限制。",
+      "other": "advance booking提前预约；court运动场地；storm damage风暴造成的损害；temporary临时的。",
+      "meaning": "有限条件下准许例外，不等于所有对象从此都不受原规则约束；也不能反过来抹掉文中明说的例外。",
+      "rest": "“所有校队都可忽略规则”扩大对象；“永久取消预约规则”删除一周期限并扩大结果；“即使此情形也必须预约”否定了without booking的明确许可。"
+    }
+  },
+  {
+    "id": "paragraph-scope-delivery-fees",
+    "family": "paragraph-scope-attitude",
+    "introduced": "2026-10-07",
+    "published_on": "2026-10-28",
+    "target": "题干段落范围 / But",
+    "skill": "段落限定与转折作用范围",
+    "budget": 55,
+    "q": "[Paragraph 2] Hidden delivery charges stop buyers from comparing full prices.\n[Paragraph 3] Sellers should show all charges before payment, though small shops could have a short transition period.\n[Paragraph 4] But a shared billing platform would take years to build; simple cost tables can be used first.\nWhich concern is expressed in Paragraphs 2 and 3?",
+    "o": [
+      "Buyers cannot readily compare the total prices.",
+      "Small shops will have to stop selling online.",
+      "A shared billing platform faces a lengthy delay.",
+      "All delivery charges should be removed now."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "第2段说隐藏配送费妨碍买家比较总价；第3段要求付款前披露所有费用，但小商家可有短暂过渡期；第4段转谈统一计费平台耗时，可先用简单费用表。题干问第2、3段的关切，是总价难以比较。",
+      "structure": "第2段Hidden delivery charges是主语，stop是谓语，buyers是宾语，from comparing...表示被阻碍的动作。第3段though引出执行时间上的让步；第4段But引出实施工具的困难与替代办法，不能自动改写前两段的问题。",
+      "other": "delivery charge配送费；transition period过渡期；billing计费；cost table费用表。",
+      "meaning": "先按题干限定取证，再判断转折连接的具体命题。后文But不天然比指定段落更有权重；局部过渡安排也不推翻披露总价的原则。",
+      "rest": "“小店将停止网售”没有证据；“统一平台建设耗时”是第4段的信息，超出题干要求的段落；“立即取消全部配送费”把披露费用换成取消费用。"
+    }
+  },
+  {
+    "id": "inference-musician-slots-revision",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-28",
+    "target": "情态强度 / 改选证据",
+    "skill": "比较初选与改选的证据支持",
+    "budget": 55,
+    "q": "A memo says, \"The council may consider giving street musicians a few extra evening slots.\" A reader first chooses \"Extra slots are a possibility\", then changes to \"The council is now cutting performance time\". No other evidence is given. Which judgment is warranted?",
+    "o": [
+      "The revision fits because all new policies cut time.",
+      "The initial reading fits the proposal's uncertainty.",
+      "The revision fits because consider means implement.",
+      "The initial reading proves extra slots are certain."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "备忘录说，市议会可能考虑多给街头音乐家一些晚间时段。读者先理解为可能增加时段，后改为议会现在正削减演出时间。在没有其他证据时，初选与原句相符。",
+      "structure": "The council是主语，may consider是谓语，giving...是consider的宾语；giving结构中street musicians是接受者，a few extra evening slots是给予的内容。may同时保留考虑及执行上的不确定性；is now cutting则声称削减正在发生。",
+      "other": "memo备忘录；council市议会；slot时段；warranted有依据的。",
+      "meaning": "改选必须有更强且相关的文本证据。这里extra表示增加，may consider不等于已经执行；改选同时改变了方向与确定性。结论来自证据匹配，不能归纳为一律坚持初选。",
+      "rest": "“新政策都削减时间”是无依据概括；“consider等于implement”混淆考虑与实施；“必定增加”也把可能性夸大成确定性。只有承认初选符合提议的不确定性才保留了原句边界。"
+    }
+  }
+]

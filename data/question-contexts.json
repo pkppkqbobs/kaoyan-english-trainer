@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-10-27",
-  "source_commit": "9f277ded31dd3f4a04f978c98657658c761ffe21",
+  "reviewed_on": "2026-10-28",
+  "source_commit": "085391c81bd16316b421639bc0eab6c5a9fb62b4",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -330,7 +330,11 @@
     "paragraph-discourse-audit-method-before-cases": "context:paragraph-discourse-audit-method-before-cases",
     "inference-troupe-travel-payments": "context:inference-troupe-travel-payments",
     "causal-role-single-form-signatures": "context:causal-role-single-form-signatures",
-    "inference-director-hierarchical-profile": "context:inference-director-hierarchical-profile"
+    "inference-director-hierarchical-profile": "context:inference-director-hierarchical-profile",
+    "search-ledger-donation-entry": "ledger-found-then-donation-entry",
+    "conditions-storm-court-exception": "storm-gym-one-week-court-exception",
+    "paragraph-scope-delivery-fees": "delivery-fees-disclosure-vs-platform-delay",
+    "inference-musician-slots-revision": "musician-slots-proposal-vs-asserted-cut"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 242,
-        "correct_uniquely_longest": 57,
-        "correct_uniquely_shortest": 44,
-        "longest_guess_pct": 29.44,
-        "shortest_guess_pct": 22.21,
+        "question_count": 246,
+        "correct_uniquely_longest": 58,
+        "correct_uniquely_shortest": 45,
+        "longest_guess_pct": 29.57,
+        "shortest_guess_pct": 22.26,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -4182,6 +4182,74 @@
         "pool": "daily_article",
         "family": "inference-boundary",
         "source": "data/questions/2026-10-27-article-followup.json"
+      },
+      "search-ledger-donation-entry": {
+        "lengths": [
+          45,
+          45,
+          43,
+          44
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-10-28-text2.json"
+      },
+      "conditions-storm-court-exception": {
+        "lengths": [
+          45,
+          44,
+          48,
+          46
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conditions",
+        "source": "data/questions/2026-10-28-text2.json"
+      },
+      "paragraph-scope-delivery-fees": {
+        "lengths": [
+          47,
+          45,
+          48,
+          43
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-scope-attitude",
+        "source": "data/questions/2026-10-28-text2.json"
+      },
+      "inference-musician-slots-revision": {
+        "lengths": [
+          52,
+          52,
+          51,
+          51
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-10-28-text2.json"
       },
       "ref1": {
         "lengths": [

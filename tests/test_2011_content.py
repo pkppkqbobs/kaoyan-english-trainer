@@ -43,9 +43,10 @@ class Exam2011ContentTests(unittest.TestCase):
         self.assertNotIn('first_pick', q38)  # considering an answer is not a submitted attempt
 
     def test_q29_wrong_diagnosis_is_withdrawn_without_erasing_real_transfer_errors(self):
-        self.assertFalse(any(n['family'] == 'viewpoint-fact' for n in self.notes))
+        notes = [n for n in self.notes if n.get('source_exam') == '2011-english1']
+        self.assertFalse(any(n['family'] == 'viewpoint-fact' for n in notes))
         self.assertFalse(any(n.get('source_question') == 29 and n['kind'] == 'user_reported_wrong'
-                             for n in self.notes))
+                             for n in notes))
         correction = next(c for c in self.check['withdrawn_diagnoses'] if c['question'] == 29)
         self.assertIsNone(correction['reported_pick'])
         evidence = review.load(ROOT / 'data/result-evidence.json')['rows']

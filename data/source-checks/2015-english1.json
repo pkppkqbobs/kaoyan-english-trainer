@@ -1,0 +1,45 @@
+{
+  "exam": "2015-english1",
+  "checked_on": "2026-10-28",
+  "scope": "Partial source check: Reading Text 2 Q26 and Q29 only.",
+  "purpose": "仅核对本次用户明确反馈的Text 2第26、29题；参考字母按用户说明及匹配的公开选项顺序保存。公开页面存在选项重排与转录错误，比较选项含义后才比较字母；本文件不代表2015整卷或旧篇目已全部核验。",
+  "sources": [
+    {
+      "id": "eol-2015-text2-options",
+      "title": "中国教育在线：2015英语一Text 2原文、选项与解析",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201605/t20160512_1397237_2.shtml",
+      "covers": "核对第26、29题的B/C内容，以及第5、6段和末段转折。该页第29题题干误重复第28题，解析首段也误加search for，不能照抄转录错误。"
+    },
+    {
+      "id": "eol-2015-answer-words",
+      "title": "中国教育在线：2015考研英语一阅读真题答案",
+      "url": "https://kaoyan.eol.cn/fu_xi/yingyu/201412/t20141227_1218843.shtml",
+      "covers": "第26、29题均列C并附答案文字，用来交叉核对所选含义。"
+    },
+    {
+      "id": "xdf-2015-alternate-order",
+      "title": "新东方：2015英语一真题（另一选项排列）",
+      "url": "https://jn.xdf.cn/daxue/kaoyan/201512/298248235.html",
+      "covers": "核对第29题题干限定第5、6段；该版本第26、29题同义正确项字母分别为B、D，不能据此改写用户试卷的C。"
+    }
+  ],
+  "answers": {
+    "26": "C",
+    "29": "C"
+  },
+  "answer_words": {
+    "26": "check suspects' phone contents without being authorized",
+    "29": "citizens' privacy is not effectively protected"
+  },
+  "performance_coverage": {
+    "Text 2": "用户明确确认Q26和Q29均为初选C、最终B，参考C；这是两道纸质改选错误。Q27、28、30最终选项未知，不从照片笔迹推断，不计算整篇总分。纸质记录与网页Issue成绩、streak分开。"
+  },
+  "observed_difficulties": [
+    "Q26：寻找物品与检查其内容的对象区别待迁移核查；未确认用户具体误译了哪个词。",
+    "Q29：用户明确提到末段But影响改选；检查题干段落限定、转折作用范围、有限例外与总体原则、方向与确定性。"
+  ],
+  "notes": [
+    "仅核对26和29；2015完形及Text 1等旧记录的参考答案仍须各自核验，不能从本文件推断已核对。",
+    "本文件是来源核验与纸质覆盖说明，不参与计分，不构造网页尝试或新streak。"
+  ]
+}

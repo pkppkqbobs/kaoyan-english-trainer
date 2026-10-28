@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "title": "文章复盘 · 8题",
-  "meta": "2015 英语一 Reading Text 1 · 2026-10-27学习复盘 · 本篇问题 2 题 + 历史弱项 6 题 · 全部使用迁移语境",
+  "meta": "2015 英语一 Reading Text 2 · 2026-10-28纸质复盘 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-10-27-2015-text1",
+  "storageId": "2026-10-28-2015-text2",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,54 +13,103 @@
   "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
   "questions": [
     {
-      "id": "nested-valve-leak-c",
-      "family": "nested",
-      "introduced": "2026-10-18",
-      "published_on": "2026-10-18",
+      "id": "relative-borrowed-ladder",
+      "family": "relative",
+      "introduced": null,
       "budget": 60,
-      "target": "who-clause / that-clause / main-clause predicate",
-      "skill": "区分定语从句、宾语从句和主句谓语",
-      "q": "Engineers who noticed that the valve was leaking shut down the line. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+      "target": "preposition + whom",
+      "skill": "介词 + whom",
+      "q": "The plumber thanked the neighbour. He had borrowed a ladder from the neighbour.\n哪句合并正确？",
       "o": [
-        "Engineers / noticed / shut down",
-        "the valve / noticed / was leaking",
-        "Engineers / was leaking / noticed",
-        "the line / shut down / noticed"
+        "The plumber thanked the neighbour from that he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom from he had borrowed a ladder.",
+        "The plumber thanked the neighbour from whom he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom he had borrowed a ladder from him."
       ],
-      "a": 0,
+      "a": 2,
       "exp": {
-        "trans": "注意到阀门漏液的工程师关闭了生产线。按题目要求的顺序，主句主语中心词是Engineers，who从句谓语是noticed，主句谓语是shut down。",
-        "structure": "主句骨架是Engineers shut down the line；who noticed...修饰Engineers；that the valve was leaking是noticed的宾语从句。三个谓语分别属于不同层级。",
-        "other": "engineer 工程师；valve 阀门；leak 漏液；shut down 关闭、停运；subject head 主语中心词。",
-        "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。阀门是that从句的主语，工程师才是主句主语。",
-        "rest": "the valve只在that从句中作主语；was leaking属于that宾语从句，不是who从句谓语；the line是shut down的宾语，不是主句主语。"
+        "trans": "水管工感谢了那位借梯子给他的邻居。",
+        "structure": "原始简单句：He had borrowed a ladder from the neighbour. → 用whom替代重复的the neighbour：the neighbour whom he had borrowed a ladder from → 把from前置：the neighbour from whom he had borrowed a ladder。外层主干是The plumber + thanked + the neighbour，后接修饰neighbour的定语从句。",
+        "other": "plumber 水管工；neighbour 邻居；ladder 梯子；borrow A from B 从B那里借来A。",
+        "meaning": "from不是临时猜出来的，来自原句borrow...from...；先行词是人，介词后用whom。",
+        "rest": "from that：关系代词that不能直接置于介词后。whom from he：介词前置时必须是from whom，不是whom from。from him：关系代词whom已经代替该人，再保留him造成重复。"
       },
-      "context_id": "context:nested-valve-leak-c"
+      "context_id": "context:relative-borrowed-ladder"
     },
     {
-      "id": "attribution-closing-budget-b",
-      "family": "attribution-stance",
-      "introduced": "2026-10-08",
-      "published_on": "2026-10-08",
-      "budget": 55,
-      "target": "转述观点 / 作者保留态度",
-      "skill": "没有反驳不等于完全赞同",
-      "q": "A columnist quotes a consultant who claims that closing the library on Sundays will save substantial money. The columnist adds that no cost figures have been released to support this prediction. Which description of the columnist's position is best?",
+      "id": "search-ledger-donation-entry",
+      "family": "relation-collocation",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-28",
+      "target": "search for / search ... for ...",
+      "skill": "搜索对象与寻找目标",
+      "budget": 50,
+      "q": "A curator searched for a missing ledger. After finding it, she searched the ledger for a donation entry. Which description matches only the second search?",
       "o": [
-        "The columnist finds the savings claim insufficiently supported.",
-        "The columnist has independently verified large savings.",
-        "The columnist proves Sunday closure cannot save any money.",
-        "The columnist discusses only the consultant's personal character."
+        "She examined the office to locate the ledger.",
+        "She examined the address to locate its owner.",
+        "She examined the ledger to locate an entry.",
+        "She examined the donor to locate the ledger."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "管理员先寻找一本失踪的账簿。找到后，她查看账簿，寻找一条捐赠记录。第二次搜索检查的是账簿，寻找的目标是记录。",
+        "structure": "首句searched for后接寻找的目标a missing ledger；第二句searched的直接宾语是the ledger，for a donation entry说明要在其中寻找什么。After finding it中的it回指账簿，先找到它才进行第二个动作。",
+        "other": "curator藏品管理员；ledger账簿；donation捐赠；entry一条记录。",
+        "meaning": "search for X强调寻找X；search Y for X强调检查Y以寻找X。要分开标出被检查的范围和想找到的东西。",
+        "rest": "“检查办公室找账簿”把第二次查看内容换回寻找物品；“检查地址找主人”加入不存在的对象与目标；“检查捐赠人找账簿”把账簿中的记录换成了人。只有“检查账簿找记录”对应第二句。"
+      },
+      "context_id": "ledger-found-then-donation-entry"
+    },
+    {
+      "id": "paragraph-scope-delivery-fees",
+      "family": "paragraph-scope-attitude",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-28",
+      "target": "题干段落范围 / But",
+      "skill": "段落限定与转折作用范围",
+      "budget": 55,
+      "q": "[Paragraph 2] Hidden delivery charges stop buyers from comparing full prices.\n[Paragraph 3] Sellers should show all charges before payment, though small shops could have a short transition period.\n[Paragraph 4] But a shared billing platform would take years to build; simple cost tables can be used first.\nWhich concern is expressed in Paragraphs 2 and 3?",
+      "o": [
+        "Buyers cannot readily compare the total prices.",
+        "Small shops will have to stop selling online.",
+        "A shared billing platform faces a lengthy delay.",
+        "All delivery charges should be removed now."
       ],
       "a": 0,
       "exp": {
-        "trans": "专栏作者引用顾问的说法：图书馆周日闭馆能省下不少钱；但作者指出没有公开成本数据支持这一预测。作者报道了这个说法，同时保留对其依据的质疑。",
-        "structure": "A columnist + quotes + a consultant who claims...；后句The columnist + adds + that从句，说明作者自己的保留意见。that no cost figures...不是顾问的立场。",
-        "other": "consultant 顾问；substantial 大量的；prediction 预测；verify 核实。",
-        "meaning": "分清‘别人说了什么’和‘作者如何评价别人说法’。引用不是自动背书；提出证据不足，也不是凭空证明相反结论必然成立。",
-        "rest": "独立验证节省金额与no cost figures矛盾；绝不省钱是相反的过强断言；作者讨论了预测和证据，并非只评价个人品格。"
+        "trans": "第2段说隐藏配送费妨碍买家比较总价；第3段要求付款前披露所有费用，但小商家可有短暂过渡期；第4段转谈统一计费平台耗时，可先用简单费用表。题干问第2、3段的关切，是总价难以比较。",
+        "structure": "第2段Hidden delivery charges是主语，stop是谓语，buyers是宾语，from comparing...表示被阻碍的动作。第3段though引出执行时间上的让步；第4段But引出实施工具的困难与替代办法，不能自动改写前两段的问题。",
+        "other": "delivery charge配送费；transition period过渡期；billing计费；cost table费用表。",
+        "meaning": "先按题干限定取证，再判断转折连接的具体命题。后文But不天然比指定段落更有权重；局部过渡安排也不推翻披露总价的原则。",
+        "rest": "“小店将停止网售”没有证据；“统一平台建设耗时”是第4段的信息，超出题干要求的段落；“立即取消全部配送费”把披露费用换成取消费用。"
       },
-      "context_id": "context:attribution-closing-budget-b"
+      "context_id": "delivery-fees-disclosure-vs-platform-delay"
+    },
+    {
+      "id": "text4-executive-overreach-a",
+      "family": "text4-executive-overreach",
+      "target": "executive unwillingness vs local permission",
+      "skill": "作者立场 + do so 回指",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 55,
+      "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
+      "o": [
+        "The court checks an executive attempt to extend power over local councils.",
+        "Parliament alone must enforce every rail-safety rule across all regions.",
+        "The ministry has unlimited control over local councils and their rules.",
+        "Local councils may ignore national rail-safety laws whenever they choose to do so."
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "法院正在制衡行政部门试图扩大自身对地方议会的权力。",
+        "structure": "because引出交通部不愿执行议会计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出司法回应。",
+        "other": "carry out 执行；executive 行政部门；council 地方议会；reject a claim 驳回一种主张。",
+        "meaning": "行政部门不愿执行议会的计划，不等于它可以阻止地方在法律允许范围内执行。法院驳回这种主张，体现对行政权的制衡。",
+        "rest": "原文没有说所有铁路安全规则只能由议会执行；交通部并没有无限控制权；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
+      },
+      "context_id": "context:text4-executive-overreach-a"
     },
     {
       "id": "process-stage-shipment-hold-decision-d",
@@ -88,238 +137,343 @@
       "context_id": "context:process-stage-shipment-hold-decision-d"
     },
     {
-      "id": "inference-director-hierarchical-profile",
+      "id": "transaction-grant-reports-b",
+      "family": "transaction-purpose",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "target": "资金目标 / 报告义务条件",
+      "skill": "目的与条件的跨语境迁移",
+      "q": "A university wanted funding for a water-quality pilot. The grant agency agreed to provide the money only if the university submitted quarterly progress reports. What was the university seeking when it accepted that requirement?",
+      "o": [
+        "Employment as a reporting contractor.",
+        "An exemption from future water testing.",
+        "Funding for its water-quality project.",
+        "The right to approve other universities' grants."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "大学想为水质试点项目争取资金；资助机构同意拨款，但要求大学按季度提交进度报告。大学接受报告义务是为了得到项目资金。",
+        "structure": "The university + wanted + funding；only if引出拨款所附带的条件。submitted quarterly reports是条件，不是大学原本要获得的主要利益。",
+        "other": "grant 资助款；pilot 试点；quarterly 每季度的；exemption 豁免。",
+        "meaning": "先找wanted/目的，再找only if/条件。不要因为条件句离题干更近，就把“提交报告”当成申请的最终目标。",
+        "rest": "承包商雇佣没有出现；豁免测试与试点目的相反；批准其他大学经费的权力也没有证据。"
+      },
+      "context_id": "context:transaction-grant-reports-b"
+    },
+    {
+      "id": "conditions-storm-court-exception",
+      "family": "conditions",
+      "introduced": null,
+      "published_on": "2026-10-28",
+      "target": "总体规则 / 有限例外",
+      "skill": "条件范围与规则保留",
+      "budget": 35,
+      "q": "A sports centre requires advance booking for court use. If a school loses its gym to storm damage, its team may use an empty court without booking for one week. Which statement follows?",
+      "o": [
+        "All school teams may ignore the booking rule.",
+        "Storm damage removes booking rules for good.",
+        "A stated emergency allows a temporary exception.",
+        "Every school team must book even in this case."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "体育中心通常要求提前预约。若某学校的体育馆因暴风雨受损，该校队伍可在一周内不预约而使用空场地。因此，指定紧急情形下存在临时例外。",
+        "structure": "首句requires建立总体规则。第二句If引导条件从句；主句its team may use...的许可受学校、灾损、空场地和一周期限限制。",
+        "other": "advance booking提前预约；court运动场地；storm damage风暴造成的损害；temporary临时的。",
+        "meaning": "有限条件下准许例外，不等于所有对象从此都不受原规则约束；也不能反过来抹掉文中明说的例外。",
+        "rest": "“所有校队都可忽略规则”扩大对象；“永久取消预约规则”删除一周期限并扩大结果；“即使此情形也必须预约”否定了without booking的明确许可。"
+      },
+      "context_id": "storm-gym-one-week-court-exception"
+    },
+    {
+      "id": "inference-musician-slots-revision",
       "family": "inference-boundary",
       "introduced": "2026-10-10",
-      "published_on": "2026-10-27",
+      "published_on": "2026-10-28",
+      "target": "情态强度 / 改选证据",
+      "skill": "比较初选与改选的证据支持",
       "budget": 55,
-      "target": "行为描述与立场推断",
-      "skill": "行为描述与立场推断",
-      "q": "The director insists on formal titles and a clear chain of command. This explains why her staff describe her as hierarchical. Which conclusion is supported?",
+      "q": "A memo says, \"The council may consider giving street musicians a few extra evening slots.\" A reader first chooses \"Extra slots are a possibility\", then changes to \"The council is now cutting performance time\". No other evidence is given. Which judgment is warranted?",
       "o": [
-        "She values distinctions of rank within the workplace.",
-        "She takes a tough line in every wage negotiation.",
-        "She prevents junior staff from expressing any opinion.",
-        "She supports the same political party as her managers."
-      ],
-      "a": 0,
-      "exp": {
-        "trans": "主管要求使用正式职衔并保持明确的指挥层级，因此员工说她等级观念强。能确定的是她重视工作场所的等级区分。",
-        "structure": "The director是主语，insists on连接她强调的组织安排；This回指前句行为；describe her as hierarchical是员工对这种行为特征的概括。",
-        "other": "hierarchical 等级分明的、等级观念强的；chain of command 指挥链；take a tough line on 对某事采取强硬立场。",
-        "meaning": "组织等级观念与具体议题上的立场强硬是不同判断。要把评价落实到原文给出的行为维度，不能因为某个形容词听起来强势就添加其他政治或谈判结论。",
-        "rest": "谈判一概强硬、禁止下属发表任何意见、与经理支持同一政党都增加了原文没有提供的具体立场或限制。"
-      },
-      "context_id": "context:inference-director-hierarchical-profile"
-    },
-    {
-      "id": "subject-road-closure-risk",
-      "family": "subject",
-      "introduced": null,
-      "published_on": "2026-10-05",
-      "budget": 45,
-      "target": "be subject to / 实际事件",
-      "skill": "be subject to / be subjected to",
-      "q": "The mountain road is subject to closure during heavy snow. No closure has been announced today. Which report preserves both statements?",
-      "o": [
-        "The road is reported closed after today's heavy snowfall.",
-        "Snow may close the road; no closure is reported today.",
-        "The road underwent a test involving closure earlier today.",
-        "The road is open because snow cannot lead to its closure."
+        "The revision fits because all new policies cut time.",
+        "The initial reading fits the proposal's uncertainty.",
+        "The revision fits because consider means implement.",
+        "The initial reading proves extra slots are certain."
       ],
       "a": 1,
       "exp": {
-        "trans": "这条山路在大雪期间可能封闭。今天尚未宣布封路。准确报道是：大雪可能带来封路，但这两句没有报道今天已经封路。",
-        "structure": "The mountain road是主语，is是系动词，subject to closure表达所受约束或可能状态。第二句No closure是主语，has been announced是现在完成时被动谓语；没有公告不等于已验证现场一定开放。",
-        "other": "mountain road 山路；closure 封闭；announce 宣布；status 状态。",
-        "meaning": "be subject to可表示有可能受某变化影响，不自动表示该事件已经发生。这里也不能从“尚无公告”推出现场已确认开放。",
-        "rest": "原文只报告可能受封闭影响，没有报告今天已封路；封路测试是虚构事件；未公布封路不等于已确认开放，更不能说大雪不会造成封路。"
+        "trans": "备忘录说，市议会可能考虑多给街头音乐家一些晚间时段。读者先理解为可能增加时段，后改为议会现在正削减演出时间。在没有其他证据时，初选与原句相符。",
+        "structure": "The council是主语，may consider是谓语，giving...是consider的宾语；giving结构中street musicians是接受者，a few extra evening slots是给予的内容。may同时保留考虑及执行上的不确定性；is now cutting则声称削减正在发生。",
+        "other": "memo备忘录；council市议会；slot时段；warranted有依据的。",
+        "meaning": "改选必须有更强且相关的文本证据。这里extra表示增加，may consider不等于已经执行；改选同时改变了方向与确定性。结论来自证据匹配，不能归纳为一律坚持初选。",
+        "rest": "“新政策都削减时间”是无依据概括；“consider等于implement”混淆考虑与实施；“必定增加”也把可能性夸大成确定性。只有承认初选符合提议的不确定性才保留了原句边界。"
       },
-      "context_id": "context:subject-road-closure-risk"
-    },
-    {
-      "id": "text4-flood-inspections-d",
-      "family": "text4-agreement-target",
-      "target": "what judges upheld vs legislative justification",
-      "skill": "判断题干询问的是司法结论还是解释理由",
-      "budget": 50,
-      "q": "A court upheld municipal inspectors' limited role in checking flood barriers. In support, it cited a law inviting national and municipal teams to share inspection reports. What did the court uphold?",
-      "o": [
-        "National lawmakers were required to lead each municipal inspection.",
-        "City inspectors could assist while complying with national rules.",
-        "Municipal teams gained the right to replace national flood standards.",
-        "National inspectors had to stop exchanging reports with city teams."
-      ],
-      "a": 1,
-      "exp": {
-        "trans": "法院认可市政检查员在防洪设施检查中的有限作用，并援引鼓励国家和地方机构共享检查报告的法律作为依据。问题问法院认可的结论，而不是法律提供的支持理由。",
-        "structure": "A court upheld是第一句核心司法结论；In support, it cited...是第二句介绍支持证据的结构。What did the court uphold要求回到第一句。",
-        "other": "uphold 维持、认可；municipal 市政的；barrier 防洪设施；cite 引用；inspection 检查；comply with 遵守。",
-        "meaning": "法院认可地方机构在法律约束下协助检查；国会的协作规定只是理由。不能把原因中的立法机关错认成法院同意的具体事项。",
-        "rest": "立法机关亲自检查不是结论；市政机构没有权力替换国家标准；原文支持共享报告，不能推成停止共享。"
-      },
-      "introduced": "2026-10-18",
-      "published_on": "2026-10-18",
-      "context_id": "context:text4-flood-inspections-d"
-    },
-    {
-      "id": "causal-role-single-form-signatures",
-      "family": "causal-role-direction",
-      "introduced": "2026-10-03",
-      "published_on": "2026-10-27",
-      "budget": 50,
-      "target": "措施与结果的对应关系",
-      "skill": "措施与结果的对应关系",
-      "q": "By accepting a single signed form, the club allows volunteers to avoid requesting a separate signature for every shift. Which benefit is described?",
-      "o": [
-        "Volunteers may work extra shifts without signing any form.",
-        "Volunteers need not seek another signature for each shift.",
-        "Supervisors supply more signatures for every new volunteer.",
-        "Only supervisors may change the shifts a volunteer accepts."
-      ],
-      "a": 1,
-      "exp": {
-        "trans": "俱乐部接受一份签好字的表格，从而使志愿者不必每个班次都另外请求签字。好处是省去反复请求签字的手续。",
-        "structure": "By accepting...说明俱乐部采取的措施；allows的宾语是volunteers；to avoid requesting...说明志愿者由此免于什么行为。separate signature是被省去的逐班次手续。",
-        "other": "shift 班次；signature 签字；avoid doing 避免做、不必做；single 单份的。",
-        "meaning": "使某人免于寻找或请求某物，不等于给他更多该物。先列措施、受益主体、被省去的行为和结果，再检查选项有没有改成增加数量或扩大资格。",
-        "rest": "原文仍有一份已签字表格，不能说完全无须签字或允许多工作班次；也未说主管供应更多签字；变更班次的权限没有提及。"
-      },
-      "context_id": "context:causal-role-single-form-signatures"
-    },
-    {
-      "id": "text4-executive-overreach-b",
-      "family": "text4-executive-overreach",
-      "target": "claim about enforcement power vs legal authority",
-      "skill": "区分行政部门的主张与作者认可的结论",
-      "introduced": "2026-10-18",
-      "published_on": "2026-10-18",
-      "budget": 55,
-      "q": "An executive agency claims it can invalidate any otherwise lawful regional rule whenever that rule conflicts with the agency's enforcement priorities. What does the agency's claim amount to?",
-      "o": [
-        "Regional governments can override national laws they oppose.",
-        "Its enforcement priorities can override lawful regional rules.",
-        "The legislature prohibited regional agencies from enforcing rules.",
-        "Regional rules remain valid despite different enforcement priorities."
-      ],
-      "a": 1,
-      "exp": {
-        "trans": "一个行政机构声称，只要某项原本合法的地区规则与该机构的执法优先事项冲突，它就可以使该规则失效。这相当于声称，该机构的执法权高于地区政府所拥有的权限。",
-        "structure": "claims后面是机构主张的内容；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
-        "other": "invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；outweigh 权重或重要性高于。",
-        "meaning": "要区分被描述的主张与文章作者认可的结论。句子是在复述行政机构想要的权力范围，并不代表作者认为这种主张正确。",
-        "rest": "地区推翻国家法律反转了主张中的权力方向；立法机关禁止地方执法没有文本依据；机构声称可使规则失效，并非承认优先事项不同时规则仍有效。"
-      },
-      "context_id": "context:text4-executive-overreach-b"
+      "context_id": "musician-slots-proposal-vs-asserted-cut"
     }
   ],
   "retry": {
-    "nested": [
+    "relative": [
       {
-        "id": "legacy-who-that-main",
-        "source": "today",
-        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-        "target": "who 定语从句 / that 宾语从句",
-        "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+        "id": "legacy-which",
+        "source": "old",
+        "skill": "介词 + which",
+        "target": "preposition + which",
+        "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
         "o": [
-          "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
-          "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
-          "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
-          "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+          "The archive contains several letters on which the historian based her argument.",
+          "The archive contains several letters which on the historian based her argument.",
+          "The archive contains several letters on that the historian based her argument.",
+          "The archive contains several letters which the historian based her argument on them."
         ],
         "a": 0,
         "diag": {
-          "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
-          "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
-          "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
+          "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+          "2": "介词后不能用关系代词 that；应使用 which。",
+          "3": "which 已经代替 those letters，后面再用 them 造成重复。"
         },
         "exp": {
-          "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
-          "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
-          "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
-          "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
-          "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
+          "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+          "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+          "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+          "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+          "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
         },
-        "family": "nested",
-        "introduced": "2026-09-29",
+        "family": "relative",
+        "introduced": null,
         "budget": 60,
-        "context_id": "nested-who-that-predicate"
-      },
-      {
-        "id": "nested-shared-gate",
-        "family": "nested",
-        "introduced": "2026-09-29",
-        "budget": 60,
-        "target": "who 定语从句 / that 宾语从句",
-        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-        "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
-        "o": [
-          "Residents / discovered / called",
-          "the shared gate / discovered / was",
-          "Residents / was unlocked / discovered",
-          "the caretaker / called / discovered"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
-          "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
-          "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
-          "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
-          "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
-        },
-        "context_id": "nested-who-that-predicate"
-      },
-      {
-        "id": "nested-editor-quote-d",
-        "family": "nested",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 60,
-        "target": "who-clause / that-clause / main-clause predicate",
-        "skill": "区分定语从句、宾语从句和主句谓语",
-        "q": "Editors who learned that the quote was inaccurate removed it from the draft. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
-        "o": [
-          "Editors / learned / removed",
-          "the quote / learned / was",
-          "Editors / was / learned",
-          "the draft / removed / learned"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "得知引文不准确的编辑把它从草稿中删掉了。主句主语中心词是Editors，who从句谓语是learned，主句谓语是removed。",
-          "structure": "主句骨架是Editors removed it from the draft；who learned...修饰Editors；that the quote was inaccurate是learned的宾语从句。三个谓语属于不同层级。",
-          "other": "editor 编辑；quote 引文；inaccurate 不准确的；draft 草稿。",
-          "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
-          "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
-        },
-        "context_id": "context:nested-editor-quote-d"
+        "context_id": "on-which-argument"
       }
     ],
-    "attribution-stance": [
+    "relation-collocation": [
       {
-        "id": "attribution-fish-survey-a",
-        "family": "attribution-stance",
-        "introduced": "2026-10-08",
-        "published_on": "2026-10-08",
-        "budget": 55,
-        "target": "作者引用专家 / 报道对象",
-        "skill": "引述主张与作者的使用",
-        "q": "A journalist reports marine biologists' view that a river survey will reveal whether young fish can pass an old dam. She then criticizes the operator for delaying access to sampling sites but does not dispute the biologists' description of the survey. What does the article present as the survey's purpose?",
+        "id": "relation-tied-apart-a",
+        "family": "relation-collocation",
+        "introduced": "2026-10-05",
+        "published_on": "2026-10-05",
+        "budget": 50,
+        "target": "set A apart from B / be closely tied",
+        "skill": "关系搭配 + because逻辑",
+        "q": "The company keeps approval and sales decisions formally separate precisely because the two teams are closely tied through shared bonuses. Which reading is best?",
         "o": [
-          "To determine whether young fish can travel past the dam.",
-          "To calculate the operator's annual advertising spending.",
-          "To prove the journalist agrees with every biologist's opinion.",
-          "To establish that delaying site access was legal."
+          "两个团队彼此没有关系，所以没有必要区分决策。",
+          "两个团队现实利益联系紧密，因此制度上反而需要刻意把两类决策分开。",
+          "shared bonuses证明销售团队已经接管审批团队。",
+          "closely tied表示两个团队被绳子绑在一起。"
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "公司之所以在制度上把审批与销售决策分开，恰恰是因为两个团队通过共同奖金存在紧密利益联系。",
+          "structure": "The company是主语，keeps A and B separate是谓语结构；precisely because引出原因，the two teams是主语，are closely tied是系表结构。",
+          "other": "approval 审批；formally 正式地/制度上；bonus 奖金；shared 共同的。",
+          "meaning": "set/keep A apart/separate from B表示区分；be closely tied表示紧密相关。because并不要求“原因”和“措施”表面同方向：正因为现实容易纠缠，制度上才需要分开。",
+          "rest": "“没有关系、不必区分”与closely tied和keeps ... separate都相反；“销售团队接管审批团队”把利益联系夸大成组织控制，shared bonuses不能证明接管；“绳子绑在一起”按字面理解比喻性的关系搭配，无法解释共同奖金带来的利益联系。"
+        },
+        "context_id": "context:relation-tied-apart-a"
+      },
+      {
+        "id": "relation-independence-b",
+        "family": "relation-collocation",
+        "introduced": "2026-10-05",
+        "published_on": "2026-10-05",
+        "budget": 50,
+        "target": "closely tied / institutional separation",
+        "skill": "关系搭配 + 反直觉因果",
+        "q": "The audit office is structurally independent from the ministry because its work is closely tied to decisions the ministry would otherwise judge itself. What is the logic?",
+        "o": [
+          "工作联系紧密，所以两个机构不再需要制度独立。",
+          "审计涉及该部决定，制度独立可避免自己审自己。",
+          "审计内容相关，所以审计办公室必须直属部长。",
+          "because表达转折，前后两个分句没有因果关系。"
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "审计办公室在组织上独立于该部门，因为它的工作与该部门原本可能自行评判的决定紧密相关。正因为利益和事项联系密切，制度上才需要独立。",
+          "structure": "The audit office是主语，is structurally independent是系表；because从句中its work是主语，is closely tied to是谓语结构，decisions是介词宾语。",
+          "other": "audit 审计；structurally 组织结构上；ministry 部门/部；otherwise 否则。",
+          "meaning": "closely tied to=与……紧密相关；independent from=独立于。文章常出现“现实联系紧密→制度上刻意分离”的治理逻辑，不能因为表面反向就否定because。",
+          "rest": "联系紧密就无需独立反转了治理理由；工作内容相关不等于必须直属部长；because引出原因，不是转折。制度独立针对的是同一部门可能自己评判自己的决定。"
+        },
+        "context_id": "context:relation-independence-b"
+      },
+      {
+        "id": "relation-more-to-repair-testing",
+        "family": "relation-collocation",
+        "introduced": "2026-10-05",
+        "published_on": "2026-10-27",
+        "target": "整体表达与后文解释",
+        "skill": "整体表达与后文解释",
+        "budget": 50,
+        "q": "The repair looks like replacing one cable, but there is more to it: the technician must also find the cause of the overheating and retest the circuit. What does \"there is more to it\" mean here?",
+        "o": [
+          "The replacement requires a longer piece of cable.",
+          "The cable costs more than the other spare parts.",
+          "It involves further work beyond changing a cable.",
+          "It creates more faults than the tests can identify."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "维修表面上像是换根电缆，但事情还不止这些：技师还必须查明过热原因，并重新测试电路。",
+          "structure": "there is more to it是完整表达；it指维修这件事。冒号后的also与并列动作find、retest说明more具体增加了哪些工作。",
+          "other": "overheating 过热；circuit 电路；retest 重新测试。",
+          "meaning": "there is more to something表示某事比表面呈现的更复杂或包含更多内容；to连接所涉及的事情，不单独表示方向。",
+          "rest": "电缆更长、价格更高都没有证据；后文是查因和复测，也没有说维修新制造了更多故障。"
+        },
+        "context_id": "context:relation-more-to-repair-testing"
+      },
+      {
+        "id": "relation-display-allows-comparison",
+        "family": "relation-collocation",
+        "introduced": "2026-10-05",
+        "published_on": "2026-10-27",
+        "target": "动作的施事与作用方式",
+        "skill": "动作的施事与作用方式",
+        "budget": 50,
+        "q": "A map display shows travel time and price side by side; passengers remain free to ignore it. Which sentence best describes the function the display provides?",
+        "o": [
+          "It forces passengers to follow the cheapest route.",
+          "It allows passengers to compare the route options.",
+          "It requires passengers to book before comparing.",
+          "It expects all passengers to make the same choice."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "地图界面并列显示行程时间和价格，乘客可以不使用它。它的作用是让乘客能够比较方案，而不是强制某种选择。",
+          "structure": "shows的主语是display；remain free的主语是passengers。allow/force/require/expect都可接宾语加to不定式，须进一步辨别语义。",
+          "other": "allow 允许、使能够；force 强迫；require 要求；expect 期待；side by side 并列地。",
+          "meaning": "中文“让”可能表示使能够或迫使，英语并不总用同一个动词。要看工具提供能力，还是主体施加强制要求。",
+          "rest": "强迫走最便宜路线和要求先订票都增加了没有出现的限制；期待所有人同选也没有证据，且不能准确表述并列显示信息提供的比较能力。"
+        },
+        "context_id": "context:relation-display-allows-comparison"
+      }
+    ],
+    "paragraph-scope-attitude": [
+      {
+        "id": "paragraph-scope-algorithm-a",
+        "family": "paragraph-scope-attitude",
+        "introduced": "2026-10-07",
+        "published_on": "2026-10-07",
+        "budget": 55,
+        "target": "段落限定 / 一般影响 vs 人为干预成效",
+        "skill": "作者态度范围",
+        "q": "One paragraph says recommendation algorithms exert enormous influence on what users click. The last paragraph says attempts by regulators to steer those algorithms through a simple disclosure rule are 'far less certain' to work. If a question asks about the effect of the intervention in the last paragraph, which description fits best?",
+        "o": [
+          "profound",
+          "uncertain",
+          "desirable",
+          "harmless"
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "前一段说推荐算法对点击行为影响很大；最后一段却说监管者仅靠披露规则来引导算法是否有效，远没有那么确定。若题干限定最后一段的人为干预，其成效应是“存疑的”。",
+          "structure": "第一句评价algorithm influence；第二句把对象切到attempts by regulators，并用far less certain限定能否奏效。",
+          "other": "intervention 干预；regulator 监管者；disclosure 披露；steer 引导。",
+          "meaning": "“影响本身很强”不等于“人为操控这种影响的策略有效”。题干有in the last paragraph时，必须服从局部段落的评价对象。",
+          "rest": "profound对应前段影响巨大，不能移作末段干预效果；desirable评价是否值得期待，harmless评价有无伤害，均不是far less certain表达的成效存疑。"
+        },
+        "context_id": "context:paragraph-scope-algorithm-a"
+      },
+      {
+        "id": "paragraph-scope-health-campaign-b",
+        "family": "paragraph-scope-attitude",
+        "introduced": "2026-10-07",
+        "published_on": "2026-10-07",
+        "budget": 55,
+        "target": "段落观点切换",
+        "skill": "范围词锁定证据",
+        "q": "A passage first notes that friends strongly influence exercise habits. In its final paragraph, however, it says a city program that deliberately groups inactive residents with athletes 'rarely produces lasting change.' What does the final paragraph suggest about the program's use of peer influence?",
+        "o": [
+          "Its effect is uncertain or doubtful.",
+          "Its influence on behavior is necessarily profound.",
+          "It is clearly harmful to friendship networks.",
+          "It succeeds because peer influence is strong."
         ],
         "a": 0,
         "exp": {
-          "trans": "记者转述海洋生物学家观点：河流调查将查明幼鱼能否通过旧水坝；随后她批评运营方拖延提供取样点通行，但没有否认调查目的。因此文章呈现的调查目标仍是鱼类通行情况。",
-          "structure": "A journalist reports [biologists' view that...]；that从句的whether内容指明survey要查明什么。then后作者对运营方的批评是另一个命题。",
-          "other": "marine biologist 海洋生物学家；dam 水坝；sampling site 取样点；dispute 质疑、反驳。",
-          "meaning": "in the author's account可以包括作者引用并作为论述背景的专家描述，但这不等于作者无条件赞同专家所有观点。要分辨所引述的事件内容与作者额外的评价。",
-          "rest": "广告开支和访问是否合法不是调查问题；‘同意每一项观点’超出文本证据，不能从引用且未反驳推出。"
+          "trans": "文章先承认朋友会强烈影响锻炼习惯；但末段说，城市刻意把不运动者与运动者配组的项目很少产生持久变化。因此，项目利用同伴影响的成效值得怀疑。",
+          "structure": "first notes...给背景；In its final paragraph, however锁定观点转折；a city program是末段被评价对象，rarely produces lasting change是评价核心。",
+          "other": "deliberately 刻意地；inactive 不活跃的；lasting 持久的；peer influence 同伴影响。",
+          "meaning": "不要把前文对自然影响力的强度评价，直接搬到末段对政策/项目有效性的评价。",
+          "rest": "“necessarily profound”把“同伴影响本身强”偷换成“这个项目效果深远”；“clearly harmful”加入原文没有的危害判断；“it succeeds”又与rarely produces lasting change相反。"
         },
-        "context_id": "context:attribution-fish-survey-a"
+        "context_id": "context:paragraph-scope-health-campaign-b"
+      }
+    ],
+    "text4-executive-overreach": [
+      {
+        "id": "text4-executive-overreach-c",
+        "family": "text4-executive-overreach",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "executive claim / relative authority",
+        "skill": "区分行政部门的权力主张与作者认可的结论",
+        "q": "An executive agency says it can invalidate any otherwise lawful regional rule whenever the rule conflicts with its enforcement priorities. What does that claim imply?",
+        "o": [
+          "It claims its enforcement power outweighs regional governments' authority.",
+          "Regional governments may override national laws whenever they disagree.",
+          "The legislature expressly banned all regional enforcement activity.",
+          "The agency accepts regional rules despite differences in enforcement priorities."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "一个行政机构声称，只要原本合法的地区规则与其执法优先事项冲突，它就可以使该规则失效。这相当于声称行政机构的执法权高于地区政府的权限。",
+          "structure": "An executive agency says that...引出机构的主张；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+          "other": "executive agency 行政机构；invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；authority 权限。",
+          "meaning": "题目问what does that claim imply，应概括机构声称自己拥有多大权限，而不是把这一主张误当成作者认可的法律结论。",
+          "rest": "地区政府可以随意推翻国家法律是把权力方向反过来；立法机关明文禁止所有地区执法并未在句中出现；最后一项与机构声称可使冲突规则失效相反。"
+        },
+        "context_id": "context:text4-executive-overreach-c"
+      },
+      {
+        "id": "text4-agency-inaction-d",
+        "family": "text4-executive-overreach",
+        "target": "executive enforcement choice vs statutory local authority",
+        "skill": "行政不执行是否能取消地方依法获授的权力",
+        "budget": 55,
+        "q": "A national agency declined to inspect licensed buses, then claimed towns could not carry out inspections that a statute authorized them to do. The court rejected the claim. What principle does its decision illustrate?",
+        "o": [
+          "The agency may suspend towns' lawful inspections by choosing not to act.",
+          "The court rejected an attempt to block towns from exercising powers granted by law.",
+          "The towns were newly authorized to rewrite national transport standards.",
+          "The court found that national agencies alone may set all inspection dates."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "国家行政机构不愿检查已获许可的公交车，随后却声称法律已授权的市镇检查也不能执行。法院驳回该主张，说明行政机关自身选择不执法，不能自动取消地方依法获授的权限。",
+          "structure": "declined... then claimed...区分行政机关自身行为与扩张主张；a statute authorized them to do修饰inspections；The court rejected the claim给出司法回应。",
+          "other": "agency 行政机构；statute 成文法；authorize 授权；suspend 暂停；licensed bus 已获许可的公交车辆。",
+          "meaning": "行政机关不执行某项政策与禁止地方执行是两个命题。这里法院限制的是行政部门把其执行偏好扩展成否定地方合法权限的企图。",
+          "rest": "行政不作为并未赋予机构暂停合法地方执法的权力；法院未授权市镇重写国家标准；设定检查日期也不是法院本次驳回的争点。"
+        },
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "context_id": "context:text4-agency-inaction-d"
+      },
+      {
+        "id": "text4-executive-overreach-b",
+        "family": "text4-executive-overreach",
+        "target": "claim about enforcement power vs legal authority",
+        "skill": "区分行政部门的主张与作者认可的结论",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 55,
+        "q": "An executive agency claims it can invalidate any otherwise lawful regional rule whenever that rule conflicts with the agency's enforcement priorities. What does the agency's claim amount to?",
+        "o": [
+          "Regional governments can override national laws they oppose.",
+          "Its enforcement priorities can override lawful regional rules.",
+          "The legislature prohibited regional agencies from enforcing rules.",
+          "Regional rules remain valid despite different enforcement priorities."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "一个行政机构声称，只要某项原本合法的地区规则与该机构的执法优先事项冲突，它就可以使该规则失效。这相当于声称，该机构的执法权高于地区政府所拥有的权限。",
+          "structure": "claims后面是机构主张的内容；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
+          "other": "invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；outweigh 权重或重要性高于。",
+          "meaning": "要区分被描述的主张与文章作者认可的结论。句子是在复述行政机构想要的权力范围，并不代表作者认为这种主张正确。",
+          "rest": "地区推翻国家法律反转了主张中的权力方向；立法机关禁止地方执法没有文本依据；机构声称可使规则失效，并非承认优先事项不同时规则仍有效。"
+        },
+        "context_id": "context:text4-executive-overreach-b"
       }
     ],
     "process-stage-role": [
@@ -397,6 +551,83 @@
           "rest": "审核小组认可的是试验分析，不是常规使用的授权；员工通讯负责传播消息，没有审批权；试验团队观察到效果是提出采用建议的证据起点，仍未满足文中保留的实施条件。"
         },
         "context_id": "context:process-stage-hospital-routine-authority-c"
+      }
+    ],
+    "transaction-purpose": [
+      {
+        "id": "transaction-station-approval-a",
+        "family": "transaction-purpose",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-08",
+        "budget": 55,
+        "target": "买方目标 / 批准交易 / 附加条件",
+        "skill": "目的与条件的层级",
+        "q": "A local museum agreed to maintain public access for ten years as a condition of city approval for its purchase of an old railway station. Why did the museum accept this condition?",
+        "o": [
+          "To obtain permission to acquire the station.",
+          "To guarantee that the city would operate the museum for ten years.",
+          "To persuade a federal agency to buy the station.",
+          "To extend a business license it had already been granted."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "当地博物馆为了获得市政府对购买旧车站的批准，接受了十年内维持公众开放的条件。接受条件的直接目的，是取得购买车站的许可。",
+          "structure": "A local museum + agreed + to maintain...；as a condition of city approval说明维护开放是获得批准时接受的条件；for its purchase说明交易为博物馆购买车站。",
+          "other": "acquire 收购、取得；public access 公众进入；maintain 维持；approval 批准。",
+          "meaning": "分析交易要分清谁是买方、谁批准，以及目的和附加义务。purchase/acquire是获得资产；维持公众开放是为实现购买而接受的条件。",
+          "rest": "市政府运营十年不是承诺内容；federal agency既不是批准方也不是买方；延长已有营业执照与购买旧车站不是同一事项。"
+        },
+        "context_id": "context:transaction-station-approval-a"
+      }
+    ],
+    "conditions": [
+      {
+        "id": "conditions-telescope",
+        "family": "conditions",
+        "introduced": null,
+        "target": "so long as / in case / as far as",
+        "skill": "so long as / in case / as far as",
+        "q": "借用望远镜的许可只有一个条件：必须在日落前归还。不是为某种意外做预防，也不是表达让步。\nYou may borrow my telescope ___ you return it before sunset.",
+        "o": [
+          "in case",
+          "as far as",
+          "so long as",
+          "even though"
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "只要你在日落前归还，就可以借我的望远镜。",
+          "structure": "主句：You（主语）+ may borrow（谓语）+ my telescope（宾语）。so long as引导条件状语从句：you + return + it + before sunset。it指望远镜。",
+          "other": "borrow 借入；telescope 望远镜；return 归还；sunset 日落。",
+          "meaning": "so long as在这里等于provided that，表示只要、条件是。",
+          "rest": "in case：以防、为可能情况预作准备，如Take a coat in case it rains；不是授权借用的必要条件。as far as：就……而言或远到，常用as far as I know；这里既无范围界限也无相应结构。even though：即使、尽管，表示让步，不能表达借用许可依赖归还条件。"
+        },
+        "context_id": "permission-so-long-as"
+      },
+      {
+        "id": "conditions-workshop-entry-training",
+        "family": "conditions",
+        "introduced": null,
+        "published_on": "2026-10-27",
+        "target": "资格条件与行为主体",
+        "skill": "资格条件与行为主体",
+        "budget": 35,
+        "q": "Only volunteers who complete safety training may enter the workshop. Completing the training does not guarantee a place, because capacity is limited. Which conclusion follows?",
+        "o": [
+          "Every trained volunteer is assured a workshop place.",
+          "A volunteer may enter before finishing the training.",
+          "Limited capacity removes the need for safety training.",
+          "An entrant must have completed the safety training."
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "只有完成安全培训的志愿者才可进入工作坊；名额有限，所以完成培训并不保证获得名额。能进入者必须已完成培训。",
+          "structure": "Only限定volunteers who complete safety training；who从句修饰志愿者。第二句以Completing the training作主语，does not guarantee作谓语，a place作宾语。",
+          "other": "entrant 进入者；guarantee 保证；capacity 容纳人数。",
+          "meaning": "进入蕴含完成培训；完成培训不必然蕴含进入。资格条件和保证结果不能反向互换。",
+          "rest": "“受训者均保证入场”把必要条件扩大成充分条件；“培训前可入场”和“容量限制取消培训要求”都与Only引出的限制冲突。"
+        },
+        "context_id": "context:conditions-workshop-entry-training"
       }
     ],
     "inference-boundary": [
@@ -524,386 +755,53 @@
           "rest": "“每团最多三人”“四人剧团不能参加”“仅三人可上台”都把差旅资助范围扩大成团队规模或参与资格限制，且忽略其余演员可自费参与。"
         },
         "context_id": "context:inference-troupe-travel-payments"
-      }
-    ],
-    "subject": [
-      {
-        "id": "subject-rule-departure",
-        "family": "subject",
-        "introduced": null,
-        "budget": 40,
-        "target": "be subject to / be subjected to",
-        "skill": "be subject to / be subjected to",
-        "q": "需要写一句仍适用的票务规则：“发车时间可能调整。”这里只说明可能性，不报告已经执行的处理。哪句准确？",
-        "o": [
-          "Departure times were subjected to repeated adjustments yesterday.",
-          "Departure times are subject to change.",
-          "Departure times are subjected to a detailed inspection every morning.",
-          "Departure times are immune to change."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "Departure times are subject to change：发车时间可能发生调整。",
-          "structure": "Departure times（主语）+ are（系动词）+ subject to change（表语）。这里是规则或可能状态，不是在叙述谁已经对时刻表做了什么处理。",
-          "other": "departure 出发；adjustment 调整；inspection 检查；be immune to 不受……影响。",
-          "meaning": "be subject to在这条规则中表示可能受变化影响。be subjected to通常强调某对象被施加了某个过程。",
-          "rest": "were subjected to repeated adjustments yesterday：报告昨天实际经历了反复调整，时态和事件性质均不符。are subjected to a detailed inspection：说每天被施加检查过程，inspection也不是时间可能调整。are immune to change：表示不受变化影响，与题意相反。"
-        },
-        "context_id": "context:subject-rule-departure"
       },
       {
-        "id": "subject-curtains-steam",
-        "family": "subject",
-        "introduced": null,
-        "budget": 45,
-        "target": "subject A to B / be subjected to",
-        "skill": "be subject to / be subjected to",
-        "q": "The cleaner deliberately subjected the curtains to a steam treatment yesterday.\n要保留“昨天实际施加了处理”的含义，哪句被动改写准确？",
-        "o": [
-          "The curtains are subject to changes in fashion.",
-          "The curtains were exempt from treatment yesterday.",
-          "The curtains were subjected to steam yesterday.",
-          "The curtains are suitable for steam treatment."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "清洁人员昨天特意对窗帘做了蒸汽处理。选项中的被动改写为：窗帘昨天受了蒸汽处理。",
-          "structure": "原主干The cleaner + subjected + the curtains + to a steam treatment。被动改写将the curtains作主语，were subjected是一般过去时被动谓语，to steam说明处理内容，yesterday保留时间；施事已经明确时可省略by the cleaner。这里不是系表结构。",
-          "other": "cleaner 清洁人员；curtain 窗帘；deliberately 特意地；steam treatment 蒸汽处理。",
-          "meaning": "were subjected to steam表示窗帘昨天实际经历了蒸汽处理；关键是事件性的被动谓语，不是可能受影响或适合处理的状态。",
-          "rest": "are subject to changes in fashion：说窗帘可能受时尚变化影响，不是昨天被处理的事件。were exempt from treatment：免于处理，与原文相反。are suitable for steam treatment：适合做处理，只表示适宜性，不能证明处理发生过。"
-        },
-        "context_id": "context:subject-curtains-steam"
-      },
-      {
-        "id": "subject-road-closure-risk-balanced-b",
-        "family": "subject",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "conditional risk vs current event",
-        "skill": "避免把可能风险扩大成已经发生的事实",
-        "q": "A mountain road report says heavy snow can lead to closures, but today's bulletin only forecasts snow. Which conclusion is supported?",
-        "o": [
-          "The road is closed today because heavy snow is forecast.",
-          "The forecast identifies a risk, not a confirmed closure today.",
-          "The road has remained open through every previous snowstorm.",
-          "The report proves that snow will not affect road access today."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "山区道路报告说，大雪可能导致封路，但今天的公告只是在预报降雪。最有根据的结论是：预报指出一种风险，并没有确认今天已经封路。",
-          "structure": "can lead to closures表达可能结果；today's bulletin only forecasts snow限制了当前已知事实。题干要求判断能得出什么结论，而不是推断可能后果已经发生。",
-          "other": "forecast 预报；closure 封路；confirmed 已确认的；road access 道路通行。",
-          "meaning": "不能把条件性风险升级为已发生事件。可能导致封路，不等于今天已经封路；同样也不能反向断言降雪一定不会影响通行。",
-          "rest": "预报降雪不等于已经封路；没有证据说明道路经历过所有以往的雪暴；报告指出风险，并没有证明雪不会影响通行。"
-        },
-        "context_id": "context:subject-road-closure-risk-balanced-b"
-      }
-    ],
-    "text4-agreement-target": [
-      {
-        "id": "text4-agreement-target-c",
-        "family": "text4-agreement-target",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "judicial conclusion vs legislative reason",
-        "skill": "区分法官认可的结论与国会提供的理由",
-        "q": "A court permits county officers to check residency status during limited enforcement encounters. It cites Congress's support for joint national-local enforcement. What did the judges agree on?",
-        "o": [
-          "Congress must personally direct every local enforcement decision.",
-          "Local authorities may assist with enforcement within the limits set by law.",
-          "National officers must withhold all enforcement information from local teams.",
-          "Local authorities can disregard national rules when enforcing local policy."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "法院允许县级执法人员在有限的执法接触中核查居住身份，并引用国会支持国家与地方共同执法的立场。法官达成一致的是：地方当局可以在法律规定的范围内协助执法。",
-          "structure": "A court permits...直接陈述司法结论；It cites...引出支持这一结论的立法背景。题目问What did the judges agree on，因此应回答法院允许什么，而不是重复国会的理由。",
-          "other": "permit 允许；residency status 居住身份；joint 共同的；enforcement 执法；withhold information 不提供信息。",
-          "meaning": "阅读题要区分结论和论据。国会鼓励共同执法，是法院认可地方执法角色的理由，不是题目所问的结论本身。",
-          "rest": "国会亲自指挥每项地方执法决定过于绝对；原文鼓励信息共享而非要求扣留信息；地方参与执法并不意味着可以无视国家规则。"
-        },
-        "context_id": "context:text4-agreement-target-c"
-      },
-      {
-        "id": "text4-agreement-target-a",
-        "family": "text4-agreement-target",
-        "target": "what the judges agreed on vs why",
-        "skill": "题干询问对象 + 结论与理由分层",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
+        "id": "inference-director-hierarchical-profile",
+        "family": "inference-boundary",
+        "introduced": "2026-10-10",
+        "published_on": "2026-10-27",
         "budget": 55,
-        "q": "Judges agreed that county officers could verify residency status during certain enforcement encounters. The opinion explains that the national legislature had repeatedly encouraged joint national-local enforcement and information sharing. What did the judges agree on?",
+        "target": "行为描述与立场推断",
+        "skill": "行为描述与立场推断",
+        "q": "The director insists on formal titles and a clear chain of command. This explains why her staff describe her as hierarchical. Which conclusion is supported?",
         "o": [
-          "The national legislature had taken over every local enforcement decision.",
-          "Counties were independent of national law.",
-          "Local authorities had a legitimate role in enforcement within legal limits.",
-          "National officers were required to withhold information."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "法官们同意，县级执法人员在某些执法接触中可以核查居住身份。判决解释说，国家立法机关一直鼓励国家与地方共同执法和共享信息。法官们达成一致的是：地方当局在法律允许的范围内拥有正当的执法角色。",
-          "structure": "Judges agreed that...直接引出法官认可的结论；The opinion explains that...再引出支持这一结论的理由。不要把后一句的national legislature误当成题干询问的结论主体。",
-          "other": "verify 核实；enforcement 执法；legitimate 正当的、合法的；withhold information 扣留信息、不提供信息。",
-          "meaning": "题干问what did the judges agree on，先找法院允许什么，再看立法机关的政策如何解释该决定。理由提到了国会，不代表答案就是国会介入。",
-          "rest": "没有说立法机关接管所有地方执法；地方仍受国家法律约束；原文支持信息共享，而非要求联邦人员隐瞒信息。"
-        },
-        "context_id": "context:text4-agreement-target-a"
-      },
-      {
-        "id": "text4-agreement-target-b",
-        "family": "text4-agreement-target",
-        "target": "conclusion vs supporting reason",
-        "skill": "区分司法结论与立法背景",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "A court allows city inspectors to check permit status while coordinating with national officers. The opinion cites a statute encouraging shared databases and joint inspections. Which statement is the court's conclusion rather than the supporting reason?",
-        "o": [
-          "The legislature encouraged coordination between national and local officials.",
-          "Local inspectors may play a legitimate role within the enforcement system.",
-          "Officials are encouraged to share information.",
-          "National law no longer applies to local inspections."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "法院允许城市检查员在与国家执法人员协调时核查许可证状态。判决援引了一项鼓励共享数据库和联合检查的法律。法院的结论是：地方检查员可以在执法体系中发挥正当作用。",
-          "structure": "The court allows...陈述法院允许的行为；The opinion cites...介绍支撑理由的法律背景。问题要求找conclusion，因此应回到法院实际允许什么。",
-          "other": "coordinate 协调；permit status 许可证状态；cite 引用；supporting reason 支持理由。",
-          "meaning": "文章中的立法背景、理由和司法结论承担不同功能。即使理由出现得更显眼，也不能把它当成题干询问的结论。",
-          "rest": "鼓励协调和共享信息都是支持理由；原文并未取消国家法律对地方检查的约束。"
-        },
-        "context_id": "context:text4-agreement-target-b"
-      }
-    ],
-    "causal-role-direction": [
-      {
-        "id": "causal-role-direction-fitness-a",
-        "family": "causal-role-direction",
-        "introduced": "2026-10-03",
-        "target": "attribute A to B / 原因与结果",
-        "skill": "谁影响谁",
-        "budget": 50,
-        "q": "A trial attributed a drop in workshop dust to the installation of a new air filter. Which paraphrase preserves the reported cause and effect?",
-        "o": [
-          "The decrease in dust made the workshop install a new filter.",
-          "Installing the filter helped reduce the amount of dust in the workshop.",
-          "Dust in the workshop improved the filter's performance.",
-          "The trial proved that every type of pollution had disappeared."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "一项试验把车间粉尘的减少归因于安装了新的空气过滤器。准确改写应保留“安装过滤器 → 粉尘减少”的因果方向。",
-          "structure": "A trial（主语）+ attributed（谓语）+ a drop in workshop dust（宾语/结果）+ to the installation of a new air filter（原因）。attribute A to B中A是被解释的结果，B是原因；名词化的installation保留install the filter这一动作。",
-          "other": "trial 试验；workshop 车间；dust 粉尘；installation 安装；air filter 空气过滤器。",
-          "meaning": "不要把先出现的名词误当成原因。attribute A to B的方向是B导致A，而不是A导致B。",
-          "rest": "The decrease in dust made...把结果倒置为安装的原因；Dust improved the filter's performance交换了受影响对象并添加无据效果；every type of pollution把粉尘减少扩大为所有污染消失。"
-        },
-        "source_exam": "2011-english1",
-        "source_question": 40,
-        "context_id": "context:causal-role-direction-fitness-a"
-      },
-      {
-        "id": "causal-role-direction-travel-b",
-        "family": "causal-role-direction",
-        "introduced": "2026-10-03",
-        "target": "施事与受事 / 原因与结果",
-        "skill": "作用关系不能倒置",
-        "budget": 50,
-        "q": "The gardeners shaded the seedlings during the hottest hours. As a result, fewer seedlings dried out. Which statement keeps the cause and the affected object in the right roles?",
-        "o": [
-          "Healthier seedlings prompted the gardeners to provide shade.",
-          "The gardeners' shade reduced heat exposure for the seedlings.",
-          "The seedlings sheltered the gardeners from the hottest sun.",
-          "The drying seedlings caused a fall in the surrounding heat."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "园丁在最热的几小时给幼苗遮阴，因此干枯的幼苗变少了。正确改写是：园丁提供的遮阴减少了幼苗暴露在高温中的程度。",
-          "structure": "第一句：The gardeners（施事/主语）+ shaded（谓语）+ the seedlings（受事/宾语）。第二句：fewer seedlings（主语）+ dried out（谓语）。As a result明确把遮阴和干枯减少连接为原因与结果。",
-          "other": "gardener 园丁；shade 给……遮阴；seedling 幼苗；dry out 干枯；exposure 暴露。",
-          "meaning": "先标明谁采取动作、谁受影响，再核对因果方向。gardener → shade → seedlings dry out less，不能交换施事与受事。",
-          "rest": "把幼苗更健康当成遮阳的先前原因是因果倒置；幼苗保护园丁交换了施事与受益者；干枯导致环境降温既反转因果，又偷换了暴露量与环境温度。"
-        },
-        "source_exam": "2011-english1",
-        "source_question": 40,
-        "context_id": "context:causal-role-direction-travel-b"
-      },
-      {
-        "id": "causal-role-trust-delays",
-        "family": "causal-role-direction",
-        "introduced": "2026-10-03",
-        "published_on": "2026-10-05",
-        "budget": 50,
-        "target": "因果角色 / 作用方向",
-        "skill": "谁影响谁",
-        "q": "Trust in the complaints system was weakened by delays in acknowledging reports. Fewer residents subsequently used it. Which chain matches the account?",
-        "o": [
-          "Lower use caused the earlier delays, which then improved trust.",
-          "Delays weakened trust; reduced use followed that loss of trust.",
-          "Residents’ increased trust made acknowledgement take longer.",
-          "Fewer reports showed that complaints had been resolved more quickly."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "投诉系统迟迟不确认收到报告，削弱了人们对它的信任。随后使用它的居民减少了。符合叙述的链条是：确认延迟削弱信任，使用减少随后发生。",
-          "structure": "Trust是主语；was weakened是被动谓语；by delays标明导致信任下降的因素。第二句Fewer residents是主语，used是谓语，it指投诉系统。subsequently给出时间方向。",
-          "other": "complaints system 投诉系统；acknowledge reports 确认收到报告；delay 延迟；subsequently 随后。",
-          "meaning": "被动句的语法主语是受到影响的信任，不是施加影响的延迟。第二步是后续使用减少，不能倒转为原先延迟的起因。文本是对该链条的叙述，并未报告受控实验。",
-          "rest": "Lower use caused the earlier delays把后续使用减少倒置为较早事件的原因，且improved trust与weakened相反；increased trust同时交换方向和变化趋势；resolved more quickly把使用量下降替换成解决速度提升，原文没有处理速度数据。"
-        },
-        "context_id": "context:causal-role-trust-delays"
-      },
-      {
-        "id": "causal-role-deadline-response",
-        "family": "causal-role-direction",
-        "introduced": "2026-10-03",
-        "published_on": "2026-10-05",
-        "budget": 50,
-        "target": "原因 / 应对措施 / 后续结果",
-        "skill": "谁影响谁",
-        "q": "After several small firms missed an application deadline, the council extended the next round by a week to give them another chance. Participation in that later round has not yet been measured. Which statement preserves the roles?",
-        "o": [
-          "The extension caused firms to miss the earlier deadline.",
-          "Measured gains in later participation prompted the council's extension.",
-          "Missed deadlines prompted an extension; later effects are unmeasured.",
-          "The earlier deadline was a response to the council's later extension."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "几家小企业错过申请截止时间后，市政委员会将下一轮的期限延长一周，给它们再一次机会。后一轮的参与情况尚未统计。错过期限是延长期限这一应对措施的背景，措施对随后参与的影响仍未知。",
-          "structure": "after从句：several small firms + missed + an application deadline。主句：the council + extended + the next round，by a week表示延长量，to give them another chance说明目的。Participation + has not yet been measured是现在完成时被动谓语。",
-          "other": "firm 企业；application 申请；deadline 截止时间；participation 参与情况。",
-          "meaning": "区分原先问题、事后应对和尚未观测的效果。不能让后来的措施成为较早失败的原因，也不能凭实施措施就宣称取得改善。",
-          "rest": "后来的延期不能造成更早的错过期限；尚未测量的后续参与数据不能成为先前延期的依据；较早的规则也不是对较晚措施的回应。"
-        },
-        "context_id": "context:causal-role-deadline-response"
-      },
-      {
-        "id": "causal-role-deadline-response-c",
-        "family": "causal-role-direction",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "causal direction / known vs unknown outcome",
-        "skill": "区分已知原因、措施与尚未验证的后续结果",
-        "q": "A grant committee extended an application deadline after several applicants missed it. The report says the effect on later participation has not been measured. Which summary is justified?",
-        "o": [
-          "The missed deadline prompted an extension; later participation effects remain unmeasured.",
-          "Later participation figures prompted the committee to extend the earlier deadline.",
-          "The extension caused applicants to miss a deadline that had already passed.",
-          "Officials changed the deadline only after a separate review showed participation had fallen."
+          "She values distinctions of rank within the workplace.",
+          "She takes a tough line in every wage negotiation.",
+          "She prevents junior staff from expressing any opinion.",
+          "She supports the same political party as her managers."
         ],
         "a": 0,
         "exp": {
-          "trans": "几名申请者错过截止日期后，拨款委员会延长了申请期限。报告说，尚未测量这一调整对后续参与情况的影响。最准确的概括是：错过截止日期促成了延期，但延期对后续参与的影响仍未知。",
-          "structure": "extended是主句谓语；after several applicants missed it交代延期的时间背景和触发情境；the effect...has not been measured明确限制了对后续结果的推断。",
-          "other": "grant committee 拨款委员会；application deadline 申请截止日期；participation 参与；measure 测量、评估。",
-          "meaning": "必须区分已知的原因与尚未测量的后果。原文支持错过期限后发生延期，但不支持断言延期一定提高或降低后续参与。",
-          "rest": "后续参与数据没有促成前面的延期；延期不可能导致申请者错过一个已经过去的截止日期；原文没有提到另一次审查或参与人数下降。"
+          "trans": "主管要求使用正式职衔并保持明确的指挥层级，因此员工说她等级观念强。能确定的是她重视工作场所的等级区分。",
+          "structure": "The director是主语，insists on连接她强调的组织安排；This回指前句行为；describe her as hierarchical是员工对这种行为特征的概括。",
+          "other": "hierarchical 等级分明的、等级观念强的；chain of command 指挥链；take a tough line on 对某事采取强硬立场。",
+          "meaning": "组织等级观念与具体议题上的立场强硬是不同判断。要把评价落实到原文给出的行为维度，不能因为某个形容词听起来强势就添加其他政治或谈判结论。",
+          "rest": "谈判一概强硬、禁止下属发表任何意见、与经理支持同一政党都增加了原文没有提供的具体立场或限制。"
         },
-        "context_id": "context:causal-role-deadline-response-c"
-      }
-    ],
-    "text4-executive-overreach": [
-      {
-        "id": "text4-executive-overreach-c",
-        "family": "text4-executive-overreach",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "executive claim / relative authority",
-        "skill": "区分行政部门的权力主张与作者认可的结论",
-        "q": "An executive agency says it can invalidate any otherwise lawful regional rule whenever the rule conflicts with its enforcement priorities. What does that claim imply?",
-        "o": [
-          "It claims its enforcement power outweighs regional governments' authority.",
-          "Regional governments may override national laws whenever they disagree.",
-          "The legislature expressly banned all regional enforcement activity.",
-          "The agency accepts regional rules despite differences in enforcement priorities."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "一个行政机构声称，只要原本合法的地区规则与其执法优先事项冲突，它就可以使该规则失效。这相当于声称行政机构的执法权高于地区政府的权限。",
-          "structure": "An executive agency says that...引出机构的主张；whenever引出触发条件；otherwise lawful表示该规则在其他方面原本合法。",
-          "other": "executive agency 行政机构；invalidate 使……失效；otherwise lawful 原本合法的；enforcement priorities 执法优先事项；authority 权限。",
-          "meaning": "题目问what does that claim imply，应概括机构声称自己拥有多大权限，而不是把这一主张误当成作者认可的法律结论。",
-          "rest": "地区政府可以随意推翻国家法律是把权力方向反过来；立法机关明文禁止所有地区执法并未在句中出现；最后一项与机构声称可使冲突规则失效相反。"
-        },
-        "context_id": "context:text4-executive-overreach-c"
-      },
-      {
-        "id": "text4-agency-inaction-d",
-        "family": "text4-executive-overreach",
-        "target": "executive enforcement choice vs statutory local authority",
-        "skill": "行政不执行是否能取消地方依法获授的权力",
-        "budget": 55,
-        "q": "A national agency declined to inspect licensed buses, then claimed towns could not carry out inspections that a statute authorized them to do. The court rejected the claim. What principle does its decision illustrate?",
-        "o": [
-          "The agency may suspend towns' lawful inspections by choosing not to act.",
-          "The court rejected an attempt to block towns from exercising powers granted by law.",
-          "The towns were newly authorized to rewrite national transport standards.",
-          "The court found that national agencies alone may set all inspection dates."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "国家行政机构不愿检查已获许可的公交车，随后却声称法律已授权的市镇检查也不能执行。法院驳回该主张，说明行政机关自身选择不执法，不能自动取消地方依法获授的权限。",
-          "structure": "declined... then claimed...区分行政机关自身行为与扩张主张；a statute authorized them to do修饰inspections；The court rejected the claim给出司法回应。",
-          "other": "agency 行政机构；statute 成文法；authorize 授权；suspend 暂停；licensed bus 已获许可的公交车辆。",
-          "meaning": "行政机关不执行某项政策与禁止地方执行是两个命题。这里法院限制的是行政部门把其执行偏好扩展成否定地方合法权限的企图。",
-          "rest": "行政不作为并未赋予机构暂停合法地方执法的权力；法院未授权市镇重写国家标准；设定检查日期也不是法院本次驳回的争点。"
-        },
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "context_id": "context:text4-agency-inaction-d"
-      },
-      {
-        "id": "text4-executive-overreach-a",
-        "family": "text4-executive-overreach",
-        "target": "executive unwillingness vs local permission",
-        "skill": "作者立场 + do so 回指",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 55,
-        "q": "A transport ministry says that because it does not want to carry out Parliament's rail-safety plan, local councils should not be allowed to enforce it either. The court rejects this claim. What is best supported?",
-        "o": [
-          "The court checks an executive attempt to extend power over local councils.",
-          "Parliament alone must enforce every rail-safety rule across all regions.",
-          "The ministry has unlimited control over local councils and their rules.",
-          "Local councils may ignore national rail-safety laws whenever they choose to do so."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "法院正在制衡行政部门试图扩大自身对地方议会的权力。",
-          "structure": "because引出交通部不愿执行议会计划的原因；should not be allowed...either表示它还想阻止地方执行；The court rejects this claim给出司法回应。",
-          "other": "carry out 执行；executive 行政部门；council 地方议会；reject a claim 驳回一种主张。",
-          "meaning": "行政部门不愿执行议会的计划，不等于它可以阻止地方在法律允许范围内执行。法院驳回这种主张，体现对行政权的制衡。",
-          "rest": "原文没有说所有铁路安全规则只能由议会执行；交通部并没有无限控制权；法院驳回行政部门的主张也不意味着地方可以无视所有国家法律。"
-        },
-        "context_id": "context:text4-executive-overreach-a"
+        "context_id": "context:inference-director-hierarchical-profile"
       }
     ]
   },
   "article_session": {
-    "id": "2026-10-27-2015-text1",
-    "source": "2015 英语一 Reading Text 1 · 2026-10-27学习复盘",
-    "created_at": "2026-10-27T22:24:18+09:00",
+    "id": "2026-10-28-2015-text2",
+    "source": "2015 英语一 Reading Text 2 · 2026-10-28纸质复盘",
+    "created_at": "2026-10-28T22:09:05+09:00",
     "revision": 1,
-    "learning_date": "2026-10-27",
-    "session_file": "data/article-sessions/2026-10-27-2015-text1.json",
+    "learning_date": "2026-10-28",
+    "session_file": "data/article-sessions/2026-10-28-2015-text2.json",
     "current_families": [
-      "causal-role-direction",
-      "inference-boundary"
+      "paragraph-scope-attitude",
+      "relation-collocation",
+      "inference-boundary",
+      "conditions"
     ],
     "deferred_families": [],
     "historical_families": [
-      "text4-executive-overreach",
       "process-stage-role",
-      "text4-agreement-target",
-      "nested",
-      "attribution-stance",
-      "subject"
+      "transaction-purpose",
+      "text4-executive-overreach",
+      "relative"
     ]
   },
   "issues_used": [
@@ -936,7 +834,8 @@
     27,
     28,
     29,
-    30
+    30,
+    31
   ],
   "engine": 4
 }

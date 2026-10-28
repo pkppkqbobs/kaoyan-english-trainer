@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-28-2015-text2",
+  "date": "2026-10-28",
+  "learning_date": "2026-10-28",
+  "created_at": "2026-10-28T22:09:05+09:00",
+  "source": "2015 英语一 Reading Text 2 · 2026-10-28纸质复盘",
+  "result_summary": "Q26、Q29均为初选C→最终B，标准C；Q27、28、30最终选择未知。框词仅为翻译观察。四个迁移目标配四道历史题，不新增纸质对应的网页Issue、分数或streak。",
+  "focus_families": [
+    "relation-collocation",
+    "conditions",
+    "paragraph-scope-attitude",
+    "inference-boundary"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "relation-collocation": [
+      "search-ledger-donation-entry"
+    ],
+    "conditions": [
+      "conditions-storm-court-exception"
+    ],
+    "paragraph-scope-attitude": [
+      "paragraph-scope-delivery-fees"
+    ],
+    "inference-boundary": [
+      "inference-musician-slots-revision"
+    ]
+  }
+}

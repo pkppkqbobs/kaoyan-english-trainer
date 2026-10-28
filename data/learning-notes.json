@@ -1529,5 +1529,87 @@
     ],
     "note": "2015英语一Text 1图片可辨认画框的词/语：economists=经济学家；aristocratic (families)=贵族的、具有贵族背景的；party with the international 1%=与国际顶尖富豪圈交际/参加聚会，这里party是动词而非政党；media intrusiveness=媒体侵扰、过度介入私生活的程度；granny style=（老）奶奶式的朴素、亲民风格；hierarchical view of the world=等级秩序观念强的世界观。注意granny和hierarchical直接帮助理解第24题。仅纸质画框词算translation difficulty；下划线不自动算看不懂。",
     "scoring_policy": "Translation observation only; no fabricated answer, attempt, errors or streak."
+  },
+  {
+    "date": "2026-10-28",
+    "session_id": "2026-10-28-2015-text2",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, errors, score or streak.",
+    "family": "relation-collocation",
+    "kind": "user_reported_wrong",
+    "source_question": 26,
+    "initial_pick": "C",
+    "first_considered": "C",
+    "reported_pick": "B",
+    "expected": "C",
+    "initial_choice_letter_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "choice_change_confirmed": true,
+    "candidate_choices": [
+      "B",
+      "C"
+    ],
+    "user_reported_reasoning": "用户确认初选C正确、最终改B错误；在B/C间犹豫，觉得B更合适。未确认具体误译了哪个词。",
+    "note": "核对用户版本：B是寻找嫌疑人的手机，C是未经授权检查手机内容。需区分search for mobile phones（寻找手机）与search the contents of a phone（检查手机内容）：前者寻找的目标是手机，后者被检查的对象是手机内的信息。原文首段讨论后者。此差异是后续核查与迁移训练方向，不能倒推为用户已经亲口确认某个词的误译。保留初选C→最终B的真实改选过程；只记录纸质错误，不计入网页成绩。",
+    "training_targets": [
+      "搜索动作的对象与寻找目标",
+      "改选所依据的文本证据"
+    ],
+    "source_check": "data/source-checks/2015-english1.json"
+  },
+  {
+    "date": "2026-10-28",
+    "session_id": "2026-10-28-2015-text2",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, errors, score or streak.",
+    "family": "paragraph-scope-attitude",
+    "kind": "user_reported_wrong",
+    "source_question": 29,
+    "initial_pick": "C",
+    "first_considered": "C",
+    "reported_pick": "B",
+    "expected": "C",
+    "initial_choice_letter_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "choice_change_confirmed": true,
+    "candidate_choices": [
+      "B",
+      "C"
+    ],
+    "user_reported_reasoning": "用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。",
+    "note": "题干限定第5、6段，关切是公民数字隐私未得到有效保护；有限紧急例外与正常情况下须有授权的总体原则并不互相取消。末段But针对不应全盘接受加州论证，并引出新技术下保护原则的适用，不能把它当成无条件推翻第5、6段的信号。may want to allow room表达可能希望为符合条件的情形保留空间；is giving less room断言正在缩小行动空间，方向与确定性均不同。后续应核对改选证据是否落在题干范围、是否支持选项的主体/方向/强度；不能仅因转折词靠后就给它更高证据权重，也不能形成永远不改初选的规则。除用户明确说明的末段But影响改选外，不追加未经确认的词义根因。",
+    "training_targets": [
+      "题干限定段落与转折作用范围",
+      "有限例外和总体原则",
+      "may want to allow room与is giving less room的方向和确定性",
+      "初选与改选的证据强度比较"
+    ],
+    "source_check": "data/source-checks/2015-english1.json"
+  },
+  {
+    "date": "2026-10-28",
+    "session_id": "2026-10-28-2015-text2",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, errors, score or streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "sweeping",
+      "recklessly",
+      "discarding",
+      "lame argument",
+      "storehouse",
+      "purse",
+      "expect",
+      "line-drawing"
+    ],
+    "note": "本次明确画框词：sweeping（裁决等）影响广泛的、范围很大的；recklessly鲁莽地、不顾后果地，recklessly modest指过度谦抑/谨慎而不负责任；discarding摒弃、抛弃；lame argument站不住脚/缺乏说服力的论点；storehouse储藏库，此处比喻大量数字信息的存储；purse钱包/手提包；expect在隐私语境中表示期望或有理由要求，不等于保护已经实现；line-drawing划定原则适用范围及例外的界限。画框仅作翻译困难观察，不视为另答错8题；横线不混入框词。第27、28、30题未有可靠的最终选择确认，不从照片笔迹猜测，也不计算整篇纸质总分。"
   }
 ]
