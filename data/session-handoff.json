@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "source_dates": {
-    "review_state": "2026-10-28",
-    "daily_quiz": "2026-10-28",
+    "review_state": "2026-10-29",
+    "daily_quiz": "2026-10-29",
     "latest_observation": "2026-10-28"
   },
   "project": {
@@ -14,9 +14,9 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-10-28",
-    "current_daily_issue": 31,
-    "current_daily_status": "verified",
+    "current_daily_date": "2026-10-29",
+    "current_daily_issue": null,
+    "current_daily_status": "unverified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
@@ -649,7 +649,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-10-28",
+          "due": "2026-10-29",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-10-28",
@@ -691,7 +691,7 @@
           "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-10-28",
+          "due": "2026-10-29",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-10-27",
@@ -1018,7 +1018,7 @@
     "data/article-sessions/2026-10-27-2015-text1.json": "51f2c94ac8a14c1f6c7f6fac89f4dd28b1e4c81f9bc91a16ef6749deaba7d371",
     "data/article-sessions/2026-10-28-2015-text2.json": "861568aea99517b2b4b1e8bd5d82d9d3d27a8e5349a5e4e3990b5b2fe10dcfe0",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "5d850fe05185928aa90501c13ab272571c64b137fa1c8d99c8eff92da2cd377e",
+    "data/daily.json": "4e0f59c3cc7155606740d5eb407c0c27b1563b35668eb7ec87d26c110e8dfe27",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1049,6 +1049,7 @@
     "data/days/2026-10-26.json": "a90c479d10d971b2369e77e37588e77893936aacc9c91b059203a52b4a1eb3bb",
     "data/days/2026-10-27.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
     "data/days/2026-10-28.json": "5d850fe05185928aa90501c13ab272571c64b137fa1c8d99c8eff92da2cd377e",
+    "data/days/2026-10-29.json": "4e0f59c3cc7155606740d5eb407c0c27b1563b35668eb7ec87d26c110e8dfe27",
     "data/learning-notes.json": "e4d24bff96d078e5b1c3ad556ee92104b613869dded8a225971d952ad5874e8d",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "e0e7a2974b0130083c79d7242d4eef23ec05bd0cf52debb168b0c2b886ed4f48",
@@ -1081,13 +1082,13 @@
     "data/questions/2026-10-28-text2.json": "a4db01211b23b5a08c0895c85aa51df746c09aa28d863105142fbe3fc827e01c",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "f8d8f3edb3492cee1c3389427e21b184733d9aaa4cb33bf90b4c017a7c7d8ebe",
-    "data/review-state.json": "86a5b8ef2ed4074c7f0eb68403da9417156593ca68bb736b09b5d07d34036421",
+    "data/review-state.json": "132ea06020b5b9474671b844a1022149e118d320b964c42dd54bf8c9c22b8b0f",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "7d307248c240c0ab35e9b38a291bc32bb024ea4f6bae38df0b27c0e1446d9919"
   },
-  "source_fingerprint": "48effefd5e216dfe553b04571229740f5850991836861a90da3cc6df2964e1d7",
+  "source_fingerprint": "91c6ded0ce3d4b0df147a33160235626ef16b3e15509e5da74fae0a26ffaf19f",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
