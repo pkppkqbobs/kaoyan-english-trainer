@@ -2525,6 +2525,94 @@
       "qid": "causal-role-deadline-response-c",
       "round_id": "mvs31b7l-vr073i6r",
       "source_date": "2026-10-28"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "text4-agreement-target",
+      "ok": true,
+      "ms": 53633,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "text4-agreement-target-a",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 27026,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "title-specificity-bookshop-workload",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 101160,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "causal-role-trust-delays",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "with",
+      "ok": true,
+      "ms": 19204,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "with-archive-loading-c",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 39622,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "text4-executive-overreach-c",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 73721,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "process-stage-bridge-warning-b",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "compensation-components",
+      "ok": true,
+      "ms": 44074,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "compensation-port-delayed-benefits-b",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-29",
+      "family": "belief-negation-clause",
+      "ok": false,
+      "ms": 46688,
+      "uncertain": false,
+      "origin": 32,
+      "qid": "belief-negation-software-update-b",
+      "round_id": "mvtia0qc-xpbgqpzd",
+      "source_date": "2026-10-29"
     }
   ],
   "issues": [
@@ -2558,6 +2646,7 @@
     28,
     29,
     30,
-    31
+    31,
+    32
   ]
 }

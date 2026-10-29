@@ -31,7 +31,8 @@
     28,
     29,
     30,
-    31
+    31,
+    32
   ],
   "families": {
     "absolute-language": {
@@ -96,12 +97,12 @@
     },
     "belief-negation-clause": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-10-17",
-      "due": "2026-10-18",
+      "errors": 1,
+      "last": "2026-10-29",
+      "due": "2026-10-29",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "career-evidence": {
@@ -117,11 +118,11 @@
     "causal-role-direction": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-28",
+      "last": "2026-10-29",
       "due": "2026-10-29",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 3
     },
     "cling-climb": {
@@ -227,11 +228,11 @@
     "compensation-components": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-27",
-      "due": "2026-10-28",
+      "last": "2026-10-29",
+      "due": "2026-10-29",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 2
     },
     "complementary": {
@@ -597,11 +598,11 @@
     "process-stage-role": {
       "streak": 0,
       "errors": 4,
-      "last": "2026-10-28",
+      "last": "2026-10-29",
       "due": "2026-10-29",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 3
     },
     "provoke-family": {
@@ -827,11 +828,11 @@
     "text4-agreement-target": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-28",
+      "last": "2026-10-29",
       "due": "2026-10-29",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 3
     },
     "text4-boxed-vocab": {
@@ -845,14 +846,14 @@
       "observation_priority": 1
     },
     "text4-executive-overreach": {
-      "streak": 0,
+      "streak": 2,
       "errors": 3,
-      "last": "2026-10-28",
-      "due": "2026-10-29",
+      "last": "2026-10-29",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 10,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 11,
+      "observation_priority": 0
     },
     "text4-federal-state-boundary": {
       "streak": 0,
@@ -885,13 +886,13 @@
       "observation_priority": 3
     },
     "title-specificity": {
-      "streak": 3,
+      "streak": 4,
       "errors": 0,
-      "last": "2026-10-11",
-      "due": "2026-10-18",
+      "last": "2026-10-29",
+      "due": "2026-11-12",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 0
     },
     "tone": {
@@ -955,13 +956,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 5,
+      "streak": 6,
       "errors": 0,
-      "last": "2026-10-25",
-      "due": "2026-11-15",
+      "last": "2026-10-29",
+      "due": "2026-11-19",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 0
     },
     "workout-how-ellipsis": {
