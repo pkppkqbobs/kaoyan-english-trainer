@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-10-30",
     "daily_quiz": "2026-10-30",
-    "latest_observation": "2026-10-28"
+    "latest_observation": "2026-10-29"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-10-28",
-      "storageId": "2026-10-28-2015-text2",
-      "learning_date": "2026-10-28"
+      "date": "2026-10-30",
+      "storageId": "2026-10-29-2015-text3",
+      "learning_date": "2026-10-29"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,87 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-10-29",
+      "exam": "2015-english1",
+      "part": "Text 3",
+      "items": [
+        {
+          "kind": "user_reported_confusion",
+          "family": "relation-collocation",
+          "question": 32,
+          "related_questions": [],
+          "updated_on": "2026-10-29",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "B",
+            "D"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "C",
+          "reference_status": "source_checked",
+          "summary": "用户在B revised与D stored间犹豫，不理解flagged up为何表示标记、指出；最终纸质选项未确认。",
+          "followup": null,
+          "spans": [
+            "flagged up"
+          ],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-29",
+            "family": "relation-collocation",
+            "question": 32,
+            "note_fingerprint": "bd248d5d648fa5db"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "title-coverage",
+          "question": 35,
+          "related_questions": [],
+          "updated_on": "2026-10-29",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "A",
+            "C"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "source_checked",
+          "summary": "用户认为C也很合适，复盘后理解A更准确；未明确确认最终纸质选项，不能据此判错或判对。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-29",
+            "family": "title-coverage",
+            "question": 35,
+            "note_fingerprint": "6719d52a3896ae73"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "biomedical",
+        "impelled",
+        "tougher"
+      ],
+      "translation_note_count": 1,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-29",
+        "family": "familiar-word-polysemy",
+        "question": null,
+        "note_fingerprint": "3111ac0fa1d490f7"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-10-29-2015-text3.json"
+      ]
+    },
     {
       "date": "2026-10-28",
       "exam": "2015-english1",
@@ -414,95 +495,22 @@
       "article_session_files": [
         "data/article-sessions/2026-10-25-2014-partb.json"
       ]
-    },
-    {
-      "date": "2026-10-24",
-      "exam": "2014-english1",
-      "part": "Text 4",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "author-stance",
-          "question": 36,
-          "related_questions": [],
-          "updated_on": "2026-10-24",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "note_only",
-          "summary": "用户明确表示第36题看见deserves praise就选了B（Appreciative）；没有识别首段Regrettably, however转折后对报告更总体的负面判断。",
-          "followup": {
-            "date": "2026-10-24",
-            "summary": "用户问“regrettably是后悔的意思吗”；应区分regret（后悔/遗憾）与句子副词regrettably（遗憾的是/可惜的是）。Regrettably, however在此用于引出对报告的批评态度，但这一后续提问不能倒推为用户第36题误选B时已经明确存在的词义错误。用户未…"
-          },
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-24",
-            "family": "author-stance",
-            "question": 36,
-            "note_fingerprint": "f0b233fd17b026f5"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "inference-boundary",
-          "question": 38,
-          "related_questions": [],
-          "updated_on": "2026-10-24",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "A",
-            "C"
-          ],
-          "eliminated_choices": [
-            "B",
-            "D"
-          ],
-          "reference_answer": "C",
-          "reference_status": "note_only",
-          "summary": "用户说第38题A和C之间犹豫，能排除B、D，但无法在A/C之间定夺；未报告最终答题选项。",
-          "followup": {
-            "date": "2026-10-24",
-            "summary": "用户亲口说明自己把A选项an exclusive study of American history中的exclusive study译成“广泛地学习”。词义根因是将exclusive（排他的、仅限于）误解为extensive（广泛的）这一类含义；需优先纠正词义，再训练parti…"
-          },
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-24",
-            "family": "inference-boundary",
-            "question": 38,
-            "note_fingerprint": "19f911e81a59cd80"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "interpretation",
-        "presupposes"
-      ],
-      "translation_note_count": 1,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-24",
-        "family": "text4-boxed-vocab",
-        "question": null,
-        "note_fingerprint": "f488379d99a18c7d"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-10-24-2014-text4.json"
-      ]
     }
   ],
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-10-29-2015-text3",
+        "learning_date": "2026-10-29",
+        "updated_on": "2026-10-29",
+        "exam": "2015-english1",
+        "part": "Reading Text 3",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-10-29-2015-text3.json",
+        "round_file": "data/article-reviews/2026-10-29-2015-text3.json",
+        "publication_date": "2026-10-30"
+      },
       {
         "session_id": "2026-10-28-2015-text2",
         "learning_date": "2026-10-28",
@@ -579,17 +587,6 @@
         "session_file": "data/article-sessions/2026-10-22-2014-text2-reading-observation.json",
         "round_file": "data/article-reviews/2026-10-22-2014-text2-reading-observation.json",
         "publication_date": "2026-10-27"
-      },
-      {
-        "session_id": "2026-10-21-2014-text1",
-        "learning_date": "2026-10-21",
-        "updated_on": "2026-10-21",
-        "exam": "2014-english1",
-        "part": "Reading Text 1",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-10-21-2014-text1.json",
-        "round_file": "data/article-reviews/2026-10-21-2014-text1.json",
-        "publication_date": "2026-10-27"
       }
     ]
   },
@@ -642,10 +639,10 @@
       "families": [
         {
           "family": "relation-collocation",
-          "label": "搜索对象与寻找目标",
+          "label": "提示问题不等于审查或修改完成",
           "focus": "用户确认初选C正确、最终改B错误；在B/C间犹豫，觉得B更合适。未确认具体误译了哪个词。",
           "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-28",
+          "latest_observation": "2026-10-29",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
@@ -661,19 +658,19 @@
         {
           "family": "familiar-word-polysemy",
           "label": "语境中的能力与变化",
-          "focus": "用户明确表示第20题不太理解，未确认最终字母或具体词义联想。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-28",
+          "focus": "仅按本次结构化文字中明确列出的3个画框词登记：impelled促使、推动，impelled the change表示推动这次改变；biomedical生物医学的，biomedica…",
+          "paper_kind": "translation_difficulty",
+          "latest_observation": "2026-10-29",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-10-27",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-10-26",
+            "date": "2026-10-29",
             "family": "familiar-word-polysemy",
-            "question": 20,
-            "note_fingerprint": "431574d775639919"
+            "question": null,
+            "note_fingerprint": "3111ac0fa1d490f7"
           }
         }
       ]
@@ -725,6 +722,24 @@
       "label": "选项范围与额外限定",
       "families": [
         {
+          "family": "title-coverage",
+          "label": "概括全文发展而非抓相关词",
+          "focus": "用户认为C也很合适，复盘后理解A更准确；未明确确认最终纸质选项，不能据此判错或判对。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-29",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-10-25",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-29",
+            "family": "title-coverage",
+            "question": 35,
+            "note_fingerprint": "6719d52a3896ae73"
+          }
+        },
+        {
           "family": "inference-boundary",
           "label": "比较初选与改选的证据支持",
           "focus": "用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。",
@@ -740,24 +755,6 @@
             "family": "inference-boundary",
             "question": 24,
             "note_fingerprint": "a0b3bbdb2cc3e4c0"
-          }
-        },
-        {
-          "family": "test-object-scope",
-          "label": "定位题干关系而非重复词",
-          "focus": "用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-26",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-11",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-26",
-            "family": "test-object-scope",
-            "question": 5,
-            "note_fingerprint": "6d19f3536dfd7ad5"
           }
         }
       ]
@@ -806,6 +803,34 @@
     }
   ],
   "pending": [
+    {
+      "exam": "2015-english1",
+      "part": "Text 3",
+      "question": 35,
+      "date": "2026-10-29",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-29",
+        "family": "title-coverage",
+        "question": 35,
+        "note_fingerprint": "6719d52a3896ae73"
+      }
+    },
+    {
+      "exam": "2015-english1",
+      "part": "Text 3",
+      "question": 32,
+      "date": "2026-10-29",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-10-29",
+        "family": "relation-collocation",
+        "question": 32,
+        "note_fingerprint": "bd248d5d648fa5db"
+      }
+    },
     {
       "exam": "2015-english1",
       "part": "Section I (Cloze)",
@@ -917,20 +942,6 @@
         "question": 43,
         "note_fingerprint": "08f8c254b5420082"
       }
-    },
-    {
-      "exam": "2014-english1",
-      "part": "Text 4",
-      "question": 38,
-      "date": "2026-10-24",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-24",
-        "family": "inference-boundary",
-        "question": 38,
-        "note_fingerprint": "19f911e81a59cd80"
-      }
     }
   ],
   "warnings": [
@@ -961,7 +972,8 @@
     "article-review-2026-10-26-2015-cloze.html": "15cafb4456fe1509afb749dc091f4e96182b4aa4a1ddded1d9a659fd5f6b7054",
     "article-review-2026-10-27-2015-text1.html": "7cf15c206c7074397ca3f598f36fe32c85b8e29eb467be71c5b5eee3c7777259",
     "article-review-2026-10-28-2015-text2.html": "643d56c9b79ba18ec3c8cca9a758eb810694b1f06483ff7f6460d06a7ed422dd",
-    "data/article-review.json": "5f1899f28499a4e82da6a4529f9ed21a5f2fdd62c8c056749b58d2a3b1f71d92",
+    "article-review-2026-10-29-2015-text3.html": "1022044a93d84c3f3c4c4ba427a83ecec1da6b38be944f05dc56ac47f3037c91",
+    "data/article-review.json": "a560ba5c96e6c01211f82df718896217fc0e9abc37e5d6953c21eecc2071efae",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -992,6 +1004,7 @@
     "data/article-reviews/2026-10-26-2015-cloze.json": "342fe2ce539b3366cba6257e66849e98bb17e3bc9d5807131fa01a9db0ae525a",
     "data/article-reviews/2026-10-27-2015-text1.json": "457b2430b0b3f7368204c44d300d667b6e74a4f0979e0e4378ce8902c47ea368",
     "data/article-reviews/2026-10-28-2015-text2.json": "5f1899f28499a4e82da6a4529f9ed21a5f2fdd62c8c056749b58d2a3b1f71d92",
+    "data/article-reviews/2026-10-29-2015-text3.json": "a560ba5c96e6c01211f82df718896217fc0e9abc37e5d6953c21eecc2071efae",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1017,6 +1030,7 @@
     "data/article-sessions/2026-10-26-2015-cloze.json": "abb0d08628065db183ae107198faa61434bac16f11e7ee839916e9372c6f757f",
     "data/article-sessions/2026-10-27-2015-text1.json": "51f2c94ac8a14c1f6c7f6fac89f4dd28b1e4c81f9bc91a16ef6749deaba7d371",
     "data/article-sessions/2026-10-28-2015-text2.json": "861568aea99517b2b4b1e8bd5d82d9d3d27a8e5349a5e4e3990b5b2fe10dcfe0",
+    "data/article-sessions/2026-10-29-2015-text3.json": "f6ec115bf359296fea83ca4142645a61f194c94e962f6892df3c2a02fccb5b7a",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "a22c71e6afb7c198d41ef4736b660a95153f2e5cf791969549d646b03c802e21",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1051,9 +1065,9 @@
     "data/days/2026-10-28.json": "5d850fe05185928aa90501c13ab272571c64b137fa1c8d99c8eff92da2cd377e",
     "data/days/2026-10-29.json": "c0cf69ec30913af9973c77916b02cbc6ddbd3d4cc4efec6bf67d17ce0106eac3",
     "data/days/2026-10-30.json": "a22c71e6afb7c198d41ef4736b660a95153f2e5cf791969549d646b03c802e21",
-    "data/learning-notes.json": "e4d24bff96d078e5b1c3ad556ee92104b613869dded8a225971d952ad5874e8d",
+    "data/learning-notes.json": "47b21109da681ae860bafc08078ae57a1dca0f316a77b5a1d93ebdfe758565fc",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
-    "data/question-contexts.json": "e0e7a2974b0130083c79d7242d4eef23ec05bd0cf52debb168b0c2b886ed4f48",
+    "data/question-contexts.json": "cbf2035f59d2bc5bbb942c368b84076a49b3a99cfcadea1e4d8c3c2fae3361d5",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1081,15 +1095,16 @@
     "data/questions/2026-10-19-2013-partb.json": "e17f0079148422a8ac97a9ade9736832afbb87f271fdd17f8b64daecdfc4b6ad",
     "data/questions/2026-10-27-article-followup.json": "942573413f754af99af36b836f7cdb156439c9fd7d0bc456e75b8fae476b3237",
     "data/questions/2026-10-28-text2.json": "a4db01211b23b5a08c0895c85aa51df746c09aa28d863105142fbe3fc827e01c",
+    "data/questions/2026-10-30-text3.json": "7a1d98144fb2a70b5260ea3edb2d0fe4e6e60b1ffeaa2e02c7cf569706273c76",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "a715402674c89438b84b7d1d813cadd843d3131c93d8c3e73346329a5301bf95",
     "data/review-state.json": "48925016061814cde809e1ad73e0cddf740dd7bccd3d00aebe2eef8d9c457e38",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
-    "data/source-checks/2015-english1.json": "7d307248c240c0ab35e9b38a291bc32bb024ea4f6bae38df0b27c0e1446d9919"
+    "data/source-checks/2015-english1.json": "b225f450d3daaafbdd2ec7962942f3c5d162d20a71e0c55662b1fe088f962d8c"
   },
-  "source_fingerprint": "77e973cb5c34bcbed8b802929e828ceedb5274e4fb238296792b6fbadaac5994",
+  "source_fingerprint": "d15f99d57c6807a3252371e3fafef6b7a03ffe6a76bdaa152eb8d7d689b8ea89",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

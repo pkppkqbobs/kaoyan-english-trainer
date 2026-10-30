@@ -1,0 +1,98 @@
+[
+  {
+    "id": "flag-up-walking-tour-warning",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-30",
+    "target": "flag up / revise / store",
+    "skill": "固定搭配与动作阶段辨析",
+    "budget": 50,
+    "q": "A walking-tour guide flagged up a shadeless stretch before the group set out. She kept the planned route and advised everyone to bring water. What did she do by flagging it up?",
+    "o": [
+      "Highlighted it as something to prepare for.",
+      "Revised the route to leave that stretch out.",
+      "Stored the route for a later walking tour.",
+      "Found a shaded stretch to replace that part."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "徒步导游在出发前特别提醒大家有一段路没有遮阴。她保留原定路线，建议大家带水。flagged up在此表示指出这段路值得提前留意和准备。",
+      "structure": "首句主语A walking-tour guide，谓语flagged up，宾语a shadeless stretch；before从句说明提醒的时间。第二句kept与advised为并列谓语，分别表明路线未改和提醒带水。",
+      "other": "walking tour徒步游览；shadeless无遮阴的；stretch一段路程；set out出发。",
+      "meaning": "flag up是整体搭配，表示使某事引起注意，不是由up推断向上或动作完成。这里提醒风险与修改路线是不同动作。",
+      "rest": "“修改路线避开该段”与kept the planned route矛盾；“储存路线供以后旅行”把提醒换成保存；“找到替代的遮阴路段”加入文中没有发生的发现和替换。只有“提醒大家提前准备”符合后续带水建议。"
+    }
+  },
+  {
+    "id": "flag-up-booking-workflow",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-30",
+    "target": "flag up / 流程阶段",
+    "skill": "提示问题不等于审查或修改完成",
+    "budget": 50,
+    "q": "A night audit has flagged up a possible double booking, but the support team has not opened the case. Changing either reservation requires the customer's approval. Which stage has certainly been reached?",
+    "o": [
+      "Both customers have approved changes to their rooms.",
+      "The support team has confirmed that an error occurred.",
+      "A possible clash has been marked for staff attention.",
+      "One reservation has already been revised and saved."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "夜间检查已提示可能存在重复预订，但客服尚未查看此事。更改任一预订还需要客户同意。现在只能确认潜在冲突已被标示出来，供工作人员关注。",
+      "structure": "A night audit为主语，has flagged up为谓语，a possible double booking为宾语；but后has not opened明确限制审查进度。Changing either reservation是第二句主语，requires为谓语，the customer's approval为宾语。",
+      "other": "audit检查、核查；double booking重复预订；reservation预订；approval同意、批准。",
+      "meaning": "先提示可能有问题，再核查是否确有问题，必要时取得许可并修改。possible保留不确定性，不能把流程的后续步骤当成已经完成。",
+      "rest": "“两位客户都同意改动”没有依据；“客服确认错误”与尚未查看此事不符，也删掉possible；“已经修改并保存预订”跳过核查和授权。正确描述只停在已标示潜在冲突这一阶段。"
+    }
+  },
+  {
+    "id": "title-coverage-depot-cycle-parking",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-30",
+    "target": "标题覆盖 / 核心事件",
+    "skill": "核心行动与话题相关性辨析",
+    "budget": 65,
+    "q": "A city bus operator is testing overnight bicycle parking at three depots. The article explains how the trial works, cyclists' responses, and staffing limits. Nearby repair shops appear only as background. Which title best captures the article's central event?",
+    "o": [
+      "Cyclists Turn to Bus Drivers for Help with Bike Repairs",
+      "City Bus Depots Host an Overnight Cycle-Parking Trial",
+      "Bicycles Become Part of the City's Transport Mix",
+      "Every Bus Depot Opens Permanently for Cycle Storage"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "城市公交运营方正在三个车场试行夜间自行车停车服务。文章介绍试行办法、骑车者反应和人员限制，附近修车店只是背景。标题应概括公交车场试行夜间自行车停车这一事件。",
+      "structure": "首句主语A city bus operator，谓语is testing，宾语overnight bicycle parking；at three depots限定试点范围。后两句区分围绕试行的主体内容与仅作背景的修车店。",
+      "other": "operator运营方；depot车场；overnight过夜的；staffing人员配备。",
+      "meaning": "标题要保留核心主体、行动及试行性质，并能统领实施、反应和限制。仅与自行车或交通话题相关，不足以概括文章。",
+      "rest": "“公交司机帮忙修车”把背景改成主要行动；“自行车进入城市交通组合”虽话题相关，却遗漏夜间停车试行；“所有车场永久开放”同时扩大three和testing的范围、确定性。"
+    }
+  },
+  {
+    "id": "title-coverage-bookshop-pooled-delivery",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-10-30",
+    "target": "主旨标题 / 行动与原因",
+    "skill": "概括全文发展而非抓相关词",
+    "budget": 65,
+    "q": "Local bookshops are replacing separate next-day deliveries with a slower shared service. The article explains rising van costs, pooled routes, and customers accepting longer waits for lower delivery charges. A brief section about authors' visits supplies background. Which title best captures the main development?",
+    "o": [
+      "Online Shopping Reshapes Relations with Local Shops",
+      "Local Bookshops Abandon Online Orders and Deliveries",
+      "Book Launches Become the Main Job of Delivery Teams",
+      "Bookshops Pool Deliveries to Lower Transport Costs"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "当地书店正用速度稍慢的共享配送取代各店分别进行的次日配送。文章分析货车成本上涨、合并线路以及顾客接受较长等待来换取较低配送费；作家来访只是背景。主线是书店通过合并配送降低运输成本。",
+      "structure": "首句主语Local bookshops，谓语are replacing，宾语separate next-day deliveries，with引出替代方案。第二句explains后列举改革原因、运作方式及顾客反应；最后一句明示作家活动只是背景。",
+      "other": "pooled routes合并安排的线路；van厢式货车；delivery charge配送费；background背景。",
+      "meaning": "一个标题若能同时统领成本原因、共享做法和顾客取舍，比只罗列相关话题更准确。概括不能把改用另一种配送扩大为停止线上业务。",
+      "rest": "“网购改变与商店的关系”相关但过于宽泛，遗漏合并配送降成本的核心变化；“放弃网购订单和配送”与仍有shared service矛盾；“送货团队主要举办新书活动”把背景细节升级成主旨，并加入无依据的团队职责。"
+    }
+  }
+]

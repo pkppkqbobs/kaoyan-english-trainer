@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-10-28",
-  "source_commit": "085391c81bd16316b421639bc0eab6c5a9fb62b4",
+  "reviewed_on": "2026-10-30",
+  "source_commit": "aa79c07b3c38bd75af43912c4bcba37251380b0b",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -334,7 +334,11 @@
     "search-ledger-donation-entry": "ledger-found-then-donation-entry",
     "conditions-storm-court-exception": "storm-gym-one-week-court-exception",
     "paragraph-scope-delivery-fees": "delivery-fees-disclosure-vs-platform-delay",
-    "inference-musician-slots-revision": "musician-slots-proposal-vs-asserted-cut"
+    "inference-musician-slots-revision": "musician-slots-proposal-vs-asserted-cut",
+    "flag-up-walking-tour-warning": "tour-shade-practical-warning",
+    "flag-up-booking-workflow": "booking-alert-before-review-and-approval",
+    "title-coverage-depot-cycle-parking": "depot-cycle-service-pilot-vs-transport-topic",
+    "title-coverage-bookshop-pooled-delivery": "pooled-delivery-cost-response-vs-online-topic"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -386,7 +390,11 @@
     "pb13-clinic-training-hours-a": "独立的医疗培训时长语境：检查This number of hours与明确时长数据，而不是前句problem→solution的宽泛联系。",
     "pb13-garden-land-share-b": "不同的城市土地分配语境：检查This proportion所要求的具体比例，不靠场景关键词。",
     "pb13-library-joint-grants-a": "图书馆联合资助语境：通过That的因果回指分辨具体合作机制与描述两个群体的主题诱饵。",
-    "pb13-museum-team-proposals-b": "博物馆联合评审语境：检查改革→协作方法→成果，不能用展览或研究词汇的出现频率代替逻辑。"
+    "pb13-museum-team-proposals-b": "博物馆联合评审语境：检查改革→协作方法→成果，不能用展览或研究词汇的出现频率代替逻辑。",
+    "tour-shade-practical-warning": "导游提前提醒旅途困难，后文保留路线并建议带水，以实际应对区分提醒与修改/储存；不同于论文待审流程。",
+    "booking-alert-before-review-and-approval": "软件提示可能的重复预订，审查尚未开始、修改须另获客户同意；需同时核对阶段、确定性和授权边界。",
+    "depot-cycle-service-pilot-vs-transport-topic": "以试点运作、用户反应和人员限制概括新服务，排除泛交通话题及把试点扩大为永久全面开放。",
+    "pooled-delivery-cost-response-vs-online-topic": "从成本动因、配送方式替换和消费者取舍概括改革，不把网购泛主题或作家来访背景当成主旨。"
   },
   "family_assessments": {
     "reference": {

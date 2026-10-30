@@ -1,0 +1,25 @@
+{
+  "id": "2026-10-29-2015-text3",
+  "date": "2026-10-30",
+  "learning_date": "2026-10-29",
+  "created_at": "2026-10-30T21:04:59+09:00",
+  "source": "2015 英语一 Reading Text 3 · 2026-10-29纸质复盘（10月30日发布）",
+  "result_summary": "第32、35题仅确认理解困难，最终纸质字母未知；32在revised/stored间犹豫，35复盘后理解A更准确。flagged up来自主动提问，画框仅impelled、biomedical、tougher。2道本篇迁移题配6道历史题；不新增纸质对应的网页Issue或成绩。",
+  "focus_families": [
+    "relation-collocation",
+    "title-coverage"
+  ],
+  "max_current": 2,
+  "revision": 1,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "relation-collocation": [
+      "flag-up-walking-tour-warning",
+      "flag-up-booking-workflow"
+    ],
+    "title-coverage": [
+      "title-coverage-depot-cycle-parking",
+      "title-coverage-bookshop-pooled-delivery"
+    ]
+  }
+}

@@ -1611,5 +1611,81 @@
       "line-drawing"
     ],
     "note": "本次明确画框词：sweeping（裁决等）影响广泛的、范围很大的；recklessly鲁莽地、不顾后果地，recklessly modest指过度谦抑/谨慎而不负责任；discarding摒弃、抛弃；lame argument站不住脚/缺乏说服力的论点；storehouse储藏库，此处比喻大量数字信息的存储；purse钱包/手提包；expect在隐私语境中表示期望或有理由要求，不等于保护已经实现；line-drawing划定原则适用范围及例外的界限。画框仅作翻译困难观察，不视为另答错8题；横线不混入框词。第27、28、30题未有可靠的最终选择确认，不从照片笔迹猜测，也不计算整篇纸质总分。"
+  },
+  {
+    "date": "2026-10-29",
+    "session_id": "2026-10-29-2015-text3",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-30",
+    "scoring_policy": "Learning observation only; do not fabricate a final paper pick, web Issue, attempt, errors, score or streak.",
+    "family": "relation-collocation",
+    "kind": "user_reported_confusion",
+    "source_question": 32,
+    "expected": "C",
+    "candidate_choices": [
+      "B",
+      "D"
+    ],
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "flagged up"
+    ],
+    "user_reported_reasoning": "用户在B revised与D stored间犹豫，不理解flagged up为何表示标记、指出；最终纸质选项未确认。",
+    "note": "标准C marked。flag up表示把值得关注的问题或事项标示、指出；flag up for additional scrutiny是标记出来以供进一步审查，不等于已经审查或修改。原文标记稿件后，再由SBoRE寻找外部统计学家审查，不能把标记、审查和修改合并成一个阶段。revised表示修改，stored表示储存，均不等于标记待审查。此处flagged up是用户主动提出的词组理解困难，独立于本次3个画框词保存；不声称它来自画框或横线。本题记理解困难，不记真实错题或答对犹豫，不猜测最终字母。",
+    "training_targets": [
+      "固定搭配flag up",
+      "标记、审查与修改的流程阶段"
+    ],
+    "source_check": "data/source-checks/2015-english1.json"
+  },
+  {
+    "date": "2026-10-29",
+    "session_id": "2026-10-29-2015-text3",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-30",
+    "scoring_policy": "Learning observation only; do not fabricate a final paper pick, web Issue, attempt, errors, score or streak.",
+    "family": "title-coverage",
+    "kind": "user_reported_confusion",
+    "source_question": 35,
+    "expected": "A",
+    "candidate_choices": [
+      "A",
+      "C"
+    ],
+    "final_choice_letter_confirmed": false,
+    "user_reported_reasoning": "用户认为C也很合适，复盘后理解A更准确；未明确确认最终纸质选项，不能据此判错或判对。",
+    "understanding_status": "understood_after_teaching_review_without_verified_paper_pick",
+    "note": "标准A Science Joins Push to Screen Statistics in Papers；用户也认为C Data Analysis Finds Its Way onto Editors' Desks很合适。C涉及数据分析和编辑，话题相关，但遗漏文章核心主体《Science》加入加强论文统计审查的具体事件。A概括主体、加入既有行动和统计审查对象；后文介绍审查安排、动因及专家评价，都围绕此事件。训练应比较标题是否概括全文核心事件，而不是只因出现相关词汇就认定它覆盖主旨。用户复盘后理解A，不等于已确认原答A或原答C，也不构成新的掌握日。",
+    "training_targets": [
+      "标题覆盖与核心事件",
+      "话题相关性与主旨准确性的区别"
+    ],
+    "source_check": "data/source-checks/2015-english1.json"
+  },
+  {
+    "date": "2026-10-29",
+    "session_id": "2026-10-29-2015-text3",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-30",
+    "scoring_policy": "Learning observation only; do not fabricate a final paper pick, web Issue, attempt, errors, score or streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "impelled",
+      "biomedical",
+      "tougher"
+    ],
+    "note": "仅按本次结构化文字中明确列出的3个画框词登记：impelled促使、推动，impelled the change表示推动这次改变；biomedical生物医学的，biomedical journals表示生物医学期刊；tougher更严格的、更强硬的，take a tougher line表示采取更严格的立场。不能把画横线的词全部登记为翻译困难。flagged up另存于第32题主动词组提问记录，不纳入本篇画框清单。画框词不变成作答错误或网页成绩。"
   }
 ]
