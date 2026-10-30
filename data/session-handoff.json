@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-10-30",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 33,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-10-29",
-      "issue": 32,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/32",
-      "round_id": "mvtia0qc-xpbgqpzd",
-      "correct": 7,
+      "date": "2026-10-30",
+      "issue": 33,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/33",
+      "round_id": "mvuxittk-hjimwx37",
+      "correct": 8,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-10-29"
+        "2026-10-30"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-10-29.json",
+      "source": "data/days/2026-10-30.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -1032,7 +1032,7 @@
     "data/article-sessions/2026-10-28-2015-text2.json": "861568aea99517b2b4b1e8bd5d82d9d3d27a8e5349a5e4e3990b5b2fe10dcfe0",
     "data/article-sessions/2026-10-29-2015-text3.json": "f6ec115bf359296fea83ca4142645a61f194c94e962f6892df3c2a02fccb5b7a",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "a22c71e6afb7c198d41ef4736b660a95153f2e5cf791969549d646b03c802e21",
+    "data/daily.json": "93ab188132c2098bc10268333bc87d77254427b5add5b3d97f702c44e4d9f26e",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1064,7 +1064,7 @@
     "data/days/2026-10-27.json": "261d09f3f631f02f760e84e59a6603f4f09b92677b88a1c908026376863c8209",
     "data/days/2026-10-28.json": "5d850fe05185928aa90501c13ab272571c64b137fa1c8d99c8eff92da2cd377e",
     "data/days/2026-10-29.json": "c0cf69ec30913af9973c77916b02cbc6ddbd3d4cc4efec6bf67d17ce0106eac3",
-    "data/days/2026-10-30.json": "a22c71e6afb7c198d41ef4736b660a95153f2e5cf791969549d646b03c802e21",
+    "data/days/2026-10-30.json": "93ab188132c2098bc10268333bc87d77254427b5add5b3d97f702c44e4d9f26e",
     "data/learning-notes.json": "47b21109da681ae860bafc08078ae57a1dca0f316a77b5a1d93ebdfe758565fc",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "cbf2035f59d2bc5bbb942c368b84076a49b3a99cfcadea1e4d8c3c2fae3361d5",
@@ -1097,14 +1097,14 @@
     "data/questions/2026-10-28-text2.json": "a4db01211b23b5a08c0895c85aa51df746c09aa28d863105142fbe3fc827e01c",
     "data/questions/2026-10-30-text3.json": "7a1d98144fb2a70b5260ea3edb2d0fe4e6e60b1ffeaa2e02c7cf569706273c76",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "a715402674c89438b84b7d1d813cadd843d3131c93d8c3e73346329a5301bf95",
-    "data/review-state.json": "48925016061814cde809e1ad73e0cddf740dd7bccd3d00aebe2eef8d9c457e38",
+    "data/result-evidence.json": "35f1c22cedd39e96168c8702139d27e36a2275d02737116543216c39c0e7682f",
+    "data/review-state.json": "e721ce2502ad57ecaf2776898578fae46e8171190f42242ef306d6a825d8f29f",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "b225f450d3daaafbdd2ec7962942f3c5d162d20a71e0c55662b1fe088f962d8c"
   },
-  "source_fingerprint": "d15f99d57c6807a3252371e3fafef6b7a03ffe6a76bdaa152eb8d7d689b8ea89",
+  "source_fingerprint": "db71cc8788f72e819cd75f845b026bb0a9fb8de446d2e5f60f6751983ec2c164",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

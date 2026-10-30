@@ -2613,6 +2613,94 @@
       "qid": "belief-negation-software-update-b",
       "round_id": "mvtia0qc-xpbgqpzd",
       "source_date": "2026-10-29"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "relative",
+      "ok": true,
+      "ms": 9639,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "legacy-which",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 45726,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "causal-role-direction-fitness-a",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "text4-federal-state-boundary",
+      "ok": true,
+      "ms": 68713,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "text4-federal-field-a",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 34430,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "scope-role-device-study-b",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "text4-agreement-target",
+      "ok": true,
+      "ms": 52210,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "text4-flood-inspections-d",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 23492,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "process-stage-shipment-hold-decision-d",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "faint",
+      "ok": true,
+      "ms": 10244,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "faint-map-line",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-30",
+      "family": "cloze-legal-stance",
+      "ok": true,
+      "ms": 7476,
+      "uncertain": false,
+      "origin": 33,
+      "qid": "cloze-judge-traffic-a",
+      "round_id": "mvuxittk-hjimwx37",
+      "source_date": "2026-10-30"
     }
   ],
   "issues": [
@@ -2647,6 +2735,7 @@
     29,
     30,
     31,
-    32
+    32,
+    33
   ]
 }
