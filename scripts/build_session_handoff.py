@@ -453,7 +453,7 @@ def markdown(report):
     lines = ['# 考研英语一跨对话交接', '', f"数据截至 {report['as_of'] or '未知'}；仅索引已同步到仓库的证据。",
              f"[仓库]({p['repo']}) · [每日8题]({p['daily_url']}) · [文章复盘]({p['article_url']}) · [历史复盘]({p['history_url']})", '',
              '## 接续规则', '',
-             '普通对话负责解题、确认反馈并整理交接，不直接改仓库；Work统一写入GitHub，补迁移题和session，完成测试与发布验收。Actions只处理已入库数据。',
+             '英语教学对话负责解题、确认反馈并整理交接；GitHub维护助手统一维护学习数据、题库与迁移训练、每日/文章/Part B复盘，完成必要的页面开发、算法及跨模块修复，负责测试、提交与发布验收。Actions只处理已入库数据。',
              '新篇不能只存观察就算维护完成：还须核对对应复盘可做、交接已更新。先读本摘要，必要时回查原记录；它不替代证据。',
              '画框只表示翻译困难，横线只表示认为重要；未确认的最终选项保持未知。纸质错题、答对犹豫和理解困惑只影响观察与后续训练，不是网页主测。',
              '原始Issue、首次选择、当天锁定8题、历史快照、localStorage与storageId均须保留。不从未同步的聊天、照片或本地未提交作答补造成绩。', '',
@@ -509,7 +509,7 @@ def markdown(report):
         lines.append('- ' + safe(warning) + '。')
     lines.extend(['', '## 下一对话怎么继续', '',
                   '先围绕最近一篇的真实误读，核对主语、动作、评价对象、转折和选项新增限定；再用少量不同语境题检验，避免复读原文或凭选项长度猜答案。',
-                  '若用户补充新照片或最终选项，先核验来源，再交给Work更新观察；需要新文章轮次时另建session，不能覆盖旧轮或当天daily。未同步材料不会自动出现在本摘要中。',
+                  '若用户补充结构化学习反馈或最终选项，由GitHub维护助手核验来源并更新观察、题库与复盘配置；已有文字证据无需重复照片。需要新文章轮次时另建session，不能覆盖旧轮或当天daily。未同步材料不会自动出现在本摘要中。',
                   '追溯：`data/learning-notes.json`（按日期/篇目/题号及JSON中的note指纹定位）；`data/result-evidence.json`与对应Issue（网页成绩）；`data/review-state.json`（掌握度）；`data/days/`、`data/article-reviews/`（题单）；`data/source-checks/`（答案核验）。',
                   '机器索引：[`data/session-handoff.json`](data/session-handoff.json)。同输入重复生成无差异；摘要本身不参与评分、选题或曝光统计。', ''])
     return '\n'.join(lines)
