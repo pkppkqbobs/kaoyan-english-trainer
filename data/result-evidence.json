@@ -2701,6 +2701,94 @@
       "qid": "cloze-judge-traffic-a",
       "round_id": "mvuxittk-hjimwx37",
       "source_date": "2026-10-30"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "compensation-components",
+      "ok": true,
+      "ms": 37068,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "compensation-hospital-benefits-a",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 41253,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "process-stage-shelter-approval-a",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "paragraph-scope-attitude",
+      "ok": true,
+      "ms": 75329,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "paragraph-scope-health-campaign-b",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "relative",
+      "ok": true,
+      "ms": 3624,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "text3-comparison-inference",
+      "ok": true,
+      "ms": 44460,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "text3-comparison-transport-a",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "cling-climb",
+      "ok": false,
+      "ms": 11891,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "cling-rail-b",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 70481,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "causal-role-single-form-signatures",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-10-31",
+      "family": "paragraph-order-anaphora",
+      "ok": true,
+      "ms": 98608,
+      "uncertain": false,
+      "origin": 34,
+      "qid": "sentence-link-train-timetable-b",
+      "round_id": "mvwb3wq8-huxass2s",
+      "source_date": "2026-10-31"
     }
   ],
   "issues": [
@@ -2736,6 +2824,7 @@
     30,
     31,
     32,
-    33
+    33,
+    34
   ]
 }
