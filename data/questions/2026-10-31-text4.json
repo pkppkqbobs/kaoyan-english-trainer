@@ -1,0 +1,242 @@
+[
+  {
+    "id": "polysemy-sort-maker-entries",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-31",
+    "target": "sort / sorting",
+    "skill": "熟词词性与语境",
+    "budget": 50,
+    "q": "The maker club receives projects of every sort. Before choosing a display, volunteers sort the entries by safety requirements, not by the money their owners can pay. Which reading of the two uses of sort is correct?",
+    "o": [
+      "First: organise; second: a category of projects.",
+      "First: a category; second: arrange into groups.",
+      "First: select; second: the quality of projects.",
+      "First: a group; second: repair faulty projects."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "创客社团收到各种类型的项目。决定展示什么之前，志愿者按安全要求整理、分类这些参展项目，而不是按所有者能付多少钱。第一处sort是种类，第二处是进行分类。",
+      "structure": "of every sort中sort是介词of后的名词；第二句volunteers是主语，sort是谓语，the entries是宾语，by safety requirements说明分类依据。not by...排除另一标准。",
+      "other": "maker club创客社团；entry参展项目；display展示；requirement要求。",
+      "meaning": "同一个熟词要根据句中位置判断词性。名词sort指种类，动词sort指分类、整理或筛选；这里不能让一种词性覆盖两处。",
+      "rest": "“先整理、后种类”将两处词性颠倒；“先选择、后项目质量”既把首处当动词又替换第二处含义；“先群体、后修理”没有体现of every sort的各类义，也把分类错成修复。"
+    }
+  },
+  {
+    "id": "polysemy-sorting-arts-fund",
+    "family": "familiar-word-polysemy",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-31",
+    "target": "sorting mechanism / 评价依据",
+    "skill": "抽象表达在具体决策中的作用",
+    "budget": 50,
+    "q": "A youth arts fund calls online popularity its 'sorting mechanism': acts with large followings get support, even if less visible groups show greater improvement. The writer questions the criterion, not the existence of different art forms. What does the expression refer to?",
+    "o": [
+      "A building in which applications are kept on file.",
+      "A rule that prevents all public performances.",
+      "A criterion deciding which groups receive support.",
+      "A kind of performance that the fund itself buys."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "青年艺术基金把网络人气当作筛选机制：粉丝多的团队得到支持，即使曝光少的团队进步更大。作者质疑的是这种选择标准，而非艺术形式有不同种类这一事实。",
+      "structure": "首句A youth arts fund为主语，calls为谓语，online popularity为宾语，its sorting mechanism为宾语补足语；冒号后用实际分配支持的做法解释该抽象词组。even if引出不改变结果的让步条件。",
+      "other": "act演出团队；following追随者群体；criterion标准；visible受关注的。",
+      "meaning": "sorting mechanism在这里指决定支持给谁的筛选、评价机制；理解抽象名词时，应找后文说明它如何运作的具体案例。",
+      "rest": "“存放申请的建筑”只抓到整理文件的表层联想；“禁止全部公共演出”加入并不存在的禁令；“基金购买的演出种类”把选择机制换成艺术类别。"
+    }
+  },
+  {
+    "id": "center-on-ferry-meeting",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-31",
+    "target": "center on / trivial",
+    "skill": "搭配与完整命题辨析",
+    "budget": 50,
+    "q": "Residents said the ferry meeting centered on trivial issues: paint colours and the ticket logo filled the agenda, while wheelchair access was never discussed. Which paraphrase keeps the whole meaning?",
+    "o": [
+      "It took place in the town's central meeting room.",
+      "It put essential access problems first on the agenda.",
+      "It solved the main problem before discussing colours.",
+      "It focused on minor details and missed a major need."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "居民说渡轮会议围绕琐碎问题展开：议程尽是油漆颜色和票面标志，却从未讨论轮椅通行。准确改写应同时保留关注小细节及忽略重要需要这两层。",
+      "structure": "主句Residents said后接宾语从句；其中the ferry meeting是主语，centered on是谓语搭配，trivial issues是其对象。冒号后具体说明trivial所指，while连接与未讨论无障碍通行的对照。",
+      "other": "ferry渡轮；agenda议程；logo标志；wheelchair access轮椅无障碍通行。",
+      "meaning": "center on指围绕、以……为中心；trivial评价问题的重要程度。只有保留搭配及其对象的含义，才是整句同义。",
+      "rest": "“在镇中心会议室举行”把center的动词义错成地点；“把重要通行问题放首位”颠倒原文；“已解决主要问题”给never discussed增添相反的结果。"
+    }
+  },
+  {
+    "id": "center-on-archive-damage",
+    "family": "relation-collocation",
+    "introduced": "2026-10-05",
+    "published_on": "2026-10-31",
+    "target": "be centered on / 评价限定",
+    "skill": "话题焦点与话题重要性",
+    "budget": 50,
+    "q": "An archive's restoration debate was centered on the cause of fading photographs. The minutes describe the damage as a serious loss and ask whether damp storage was responsible. Which description is supported?",
+    "o": [
+      "Its focus was explaining the cause of serious damage.",
+      "Its purpose was arranging pictures around a centre.",
+      "It dealt mainly with matters of little importance.",
+      "It had already proved that damp storage was to blame."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "档案馆的修复讨论围绕照片褪色的原因展开。会议记录称这种损害是严重损失，并追问是否因存放潮湿所致。能确认讨论的焦点是解释严重损害的原因。",
+      "structure": "首句The restoration debate为主语，was centered on为被动形式的动词搭配，the cause...为其对象；第二句describe和ask为并列谓语，whether引导待解问题。",
+      "other": "archive档案馆；restoration修复；minutes会议记录；damp潮湿的。",
+      "meaning": "be centered on只说明讨论围绕什么，不自动说明该问题琐碎、重大或已解决；这些限定必须另有文本证据。",
+      "rest": "“围绕一个中心摆放照片”误把抽象讨论当实体布置；“主要谈不重要的事”与serious loss相反；“已经证明潮湿是原因”把whether所表达的疑问变成了结论。"
+    }
+  },
+  {
+    "id": "attribution-race-panel-account",
+    "family": "attribution-stance",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-31",
+    "target": "正式结论 / 作者评价",
+    "skill": "观点归属与评价对象",
+    "budget": 55,
+    "q": "A race panel restored a runner's result because no rule allowed exclusion on a single faulty sensor reading. A columnist accepts that decision but notes that the runner's account of his route clashes with two camera records. Which view belongs to the columnist?",
+    "o": [
+      "The official result must be cancelled immediately.",
+      "The runner's account is not entirely persuasive.",
+      "The panel has proved the runner told the truth.",
+      "The camera records are too trivial to consider."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "比赛裁判组恢复了一名选手的成绩，因为规则不允许只凭一次有问题的传感器读数取消资格。评论者接受这一决定，但指出选手对路线的叙述与两处影像记录不符。因此，评论者对叙述的可信度有保留。",
+      "structure": "首句race panel是决定的主体，because从句说明规则依据；第二句columnist是accepts和notes的共同主语，but把接受正式结果与质疑叙述分开。which view要求匹配后者的评价。",
+      "other": "panel裁判组；exclusion取消资格；faulty有问题的；clash with与……冲突。",
+      "meaning": "正式处理结果与叙述是否可信是两个判断。作者可以接受前者，同时质疑后者；不能因此替作者增加撤销成绩或已经证明说谎等结论。",
+      "rest": "“必须立即取消成绩”与accepts that decision不符；“裁判组证明选手说真话”将证据不足以取消资格扩大为事实证明；“影像记录太琐碎”颠倒了评论者用它提出疑问的作用。"
+    }
+  },
+  {
+    "id": "attribution-garden-responsibility",
+    "family": "attribution-stance",
+    "introduced": "2026-10-08",
+    "published_on": "2026-10-31",
+    "target": "人物观点 / 道德评价",
+    "skill": "具体案例与作者主张",
+    "budget": 55,
+    "q": "A school committee says a garden project met its minimum reporting rules. In an editorial, a teacher writes that the organiser never asked why some children were left out: 'A completed form is no substitute for taking responsibility.' Which view is the teacher expressing?",
+    "o": [
+      "The school needs a new national inspection agency.",
+      "Every excluded child must have broken school rules.",
+      "Formal compliance does not settle the ethical concern.",
+      "The committee found that no children were excluded."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "校方委员会说花园项目达到了最低报告要求。教师在社论中指出，组织者从没追问某些孩子为何被排除，并说填完表格不能代替承担责任。教师强调，形式合规尚未解决道德责任问题。",
+      "structure": "首句school committee转述形式规则方面的判断；第二句a teacher writes引出教师评价，that从句记录组织者遗漏的追问。引语中A completed form是主语，is no substitute for...是否定性的表语结构。",
+      "other": "committee委员会；leave out排除；compliance合规；ethical道德上的。",
+      "meaning": "通过具体的未追问案例，作者把关注点从完成手续转向组织者责任。提到规则，并不等于作者一定主张另设监管机构。",
+      "rest": "“需要新国家级检查机构”是额外政策推断；“每个被排除的孩子都违规”没有证据；“无人被排除”与some children were left out直接矛盾。"
+    }
+  },
+  {
+    "id": "evaluation-help-centre-speed",
+    "family": "evaluation-vocab",
+    "introduced": "2026-10-07",
+    "published_on": "2026-10-31",
+    "target": "distorted values / rigid moral code",
+    "skill": "抽象评价取向与词义边界",
+    "budget": 45,
+    "q": "A help centre rewards agents only for ending calls quickly. An essay notes that callers with complex problems are repeatedly cut off, then says, 'The trouble is what counts as success here.' What is the essay criticising?",
+    "o": [
+      "A rigid ethical code that demands flawless conduct.",
+      "The complete absence of any measure of performance.",
+      "The equal weight given to speed and careful advice.",
+      "A narrow value system that puts speed above service."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "帮助中心只奖励迅速结束通话的工作人员。文章指出复杂问题来电屡遭挂断，随后批评这里把什么当作成功。批评对象是把速度置于服务之上的狭窄评价取向。",
+      "structure": "首句only限定奖励依据；第二句essay为notes和says的主语，that从句提供评价造成的具体后果；引语中的what counts as success是名词性从句，指被当作成功的标准。",
+      "other": "agent工作人员；cut off中断通话；count as被视为；flawless无瑕疵的。",
+      "meaning": "distorted values批评何种目标被抬高、何种责任被忽视；a rigid moral code说的是道德规范过于严格，不能只因都涉及好坏就当成同义。",
+      "rest": "“要求道德完美的僵硬准则”错置了批评对象；“完全没有绩效标准”忽略只按速度奖励的明确标准；“速度和认真建议同权”与only及cut off的后果不符。"
+    }
+  },
+  {
+    "id": "evaluation-arts-prize-accounts",
+    "family": "evaluation-vocab",
+    "introduced": "2026-10-07",
+    "published_on": "2026-10-31",
+    "target": "distorted values / 具体评价标准",
+    "skill": "抽象批评与案例对应",
+    "budget": 45,
+    "q": "An awards committee praises productions for ticket income while treating honest accounts of costs as an inconvenience. A critic calls this 'distorted values'. Which explanation fits?",
+    "o": [
+      "Financial results are placed above honest conduct.",
+      "Ethical rules are enforced with excessive strictness.",
+      "Artistic work is no longer judged by any standard.",
+      "Every production has deliberately falsified accounts."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "评奖委员会赞赏作品的票房，却把如实交代成本当作麻烦。评论者称之为价值观扭曲，意思是经济结果被置于诚实行事之上。",
+      "structure": "首句committee为主语，praises为谓语；while treating...补充与之对照的做法，treat A as B表示把A看作B。第二句critic为calls的主语，this回指前述评价取向。",
+      "other": "production文艺作品；ticket income票房收入；account账目、说明；inconvenience麻烦。",
+      "meaning": "抽象评价必须回到支持它的具体对照：重票房、轻如实报告。它既不是道德过严，也不能证明所有参与者实际造假。",
+      "rest": "“道德规范执行过严”与不重视诚实的方向相反；“完全没有判断标准”忽略已有的票房标准；“所有作品均故意造假”加入了原文没有确认的全称事实。"
+    }
+  },
+  {
+    "id": "inference-pending-auditions",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-31",
+    "target": "待处理 / 可能结果",
+    "skill": "流程状态与确定性",
+    "budget": 55,
+    "q": "A music academy has confirmed two scholarship awards. Three other applicants still await an audition, and no decisions on them have been announced. Which inference is warranted?",
+    "o": [
+      "All five applicants have already been given awards.",
+      "Every pending applicant will be refused an award.",
+      "Further awards are possible, but not yet confirmed.",
+      "The two confirmed awards have now been withdrawn."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "音乐学院已确认两份奖学金，另外三名申请者仍在等试演，尚无决定公布。因此，可能还有人获奖，但目前不能确认结果。",
+      "structure": "has confirmed表明已有结果；other applicants与still await把另一组人放在尚待处理阶段；no decisions...进一步排除对他们已有定论的说法。",
+      "other": "academy学院；scholarship奖学金；audition试演；pending待处理的。",
+      "meaning": "等待某程序只说明状态，既不等于已获肯定结果，也不等于将获否定结果。可以保留可能性，不能把它升级为确定事实。",
+      "rest": "“五人全已获奖”把待试演者混入已确认者；“待处理者全会被拒”把未知变成必然；“原两份已撤回”增加了不存在的逆转。"
+    }
+  },
+  {
+    "id": "inference-seed-label-inspections",
+    "family": "inference-boundary",
+    "introduced": "2026-10-10",
+    "published_on": "2026-10-31",
+    "target": "已发现 / 待检查",
+    "skill": "可能性与证据范围",
+    "budget": 55,
+    "q": "A seed bank has found incorrect labels in two boxes. Four more boxes are awaiting inspection; no results for them are available. What can be concluded now?",
+    "o": [
+      "The other boxes may contain errors, but this is unconfirmed.",
+      "All six boxes have already been shown to carry wrong labels.",
+      "Every uninspected box must be free from labelling mistakes.",
+      "The first two findings prove that the inspectors were biased."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "种子库已发现两个盒子的标签有误，另外四个仍在等检查，尚无结果。其他盒子可能有误，但不能说已确认。",
+      "structure": "has found限定已知发现的范围为two boxes；Four more boxes是are awaiting的主语，待检查状态与no results共同标出证据边界。",
+      "other": "seed bank种子库；label标签；inspection检查；biased有偏见的。",
+      "meaning": "已检查对象的结果不能自动外推给未检查对象。may保留可能性；already shown、must及prove都需要更强证据。",
+      "rest": "“六个都已证实标签错误”扩大已知范围；“未检查者必定无误”把未知反向说成确定；“发现错误证明检查者偏见”凭空增加了因果和动机判断。"
+    }
+  }
+]

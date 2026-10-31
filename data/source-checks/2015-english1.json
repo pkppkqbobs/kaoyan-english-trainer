@@ -1,8 +1,8 @@
 {
   "exam": "2015-english1",
-  "checked_on": "2026-10-30",
-  "scope": "Partial source check: Text 2 Q26/Q29 and Text 3 Q32/Q35 only.",
-  "purpose": "部分核验2015英语一Text 2第26、29题及Text 3第32、35题；按对应选项文字核对参考字母，不能混用不同版本的排列。公开页面若答案字母与选项文字不一致，以交叉核对的选项含义为依据。本文件不代表2015整卷或其他篇目已全部核验。",
+  "checked_on": "2026-10-31",
+  "scope": "Partial source check: Text 2 Q26/Q29, Text 3 Q32/Q35, and Text 4 Q36-Q40.",
+  "purpose": "部分核验2015英语一Text 2第26、29题，Text 3第32、35题，以及Text 4第36—40题；先按选项内容核对，再对应用户版本的字母。不同转载页面可能重排选项或存在转录错误。本文件不代表2015整卷或其他篇目已全部核验。",
   "sources": [
     {
       "id": "eol-2015-text2-options",
@@ -39,33 +39,61 @@
       "title": "Cambridge Dictionary：flag / flag up",
       "url": "https://dictionary.cambridge.org/us/dictionary/english/flag",
       "covers": "词条列出flag up使重要事项或问题引起注意的义项；只作为词组核验，不是用户作答证据。"
+    },
+    {
+      "id": "eol-2015-text4-matching-order",
+      "title": "中国教育在线：2015英语一Text 4及匹配选项顺序的答案",
+      "url": "https://kaoyan.eol.cn/fu_xi/yingyu/201412/t20141228_1218940_4.shtml",
+      "covers": "核对36—40为A/B/C/A/C及相应选项含义；此页部分文章转录不全，语境与另一来源交叉核对。仅作为题目来源，不是用户作答证据。"
+    },
+    {
+      "id": "koolearn-2015-text4-options",
+      "title": "新东方在线：2015年英语一试题与Text 4选项",
+      "url": "https://m.koolearn.com/kaoyan/20181015/1023409.html",
+      "covers": "核对36—40选项排列及sorting mechanism、centered on trivial issues、distorted values/rigid moral code的出处；未从页面推断用户选择。"
     }
   ],
   "answers": {
     "26": "C",
     "29": "C",
     "32": "C",
-    "35": "A"
+    "35": "A",
+    "36": "A",
+    "37": "B",
+    "38": "C",
+    "39": "A",
+    "40": "C"
   },
   "answer_words": {
     "26": "check suspects' phone contents without being authorized",
     "29": "citizens' privacy is not effectively protected",
     "32": "marked",
-    "35": "Science Joins Push to Screen Statistics in Papers"
+    "35": "Science Joins Push to Screen Statistics in Papers",
+    "36": "the consequences of the current sorting mechanism",
+    "37": "更多记者可能被判犯有电话窃听罪（may，非已经全部定罪）",
+    "38": "was hardly convincing",
+    "39": "generally distorted values",
+    "40": "Moral awareness matters in editing a newspaper"
   },
   "performance_coverage": {
     "Text 2": "用户明确确认Q26和Q29均为初选C、最终B，参考C；这是两道纸质改选错误。Q27、28、30最终选项未知，不从照片笔迹推断，不计算整篇总分。纸质记录与网页Issue成绩、streak分开。",
-    "Text 3": "依据用户转交的教学对话结构化文字：Q32在B revised/D stored间犹豫、不理解flagged up，标准C；Q35认为C也合适，复盘后理解标准A更准确。两题最终纸质选项均未确认，均记理解困难，不判对错。画框仅impelled、biomedical、tougher；flagged up另按主动提问记录。本次Work未接收或重看照片。纸质观察不创建网页Issue或成绩，不计算整篇纸质总分。"
+    "Text 3": "依据用户转交的教学对话结构化文字：Q32在B revised/D stored间犹豫、不理解flagged up，标准C；Q35认为C也合适，复盘后理解标准A更准确。两题最终纸质选项均未确认，均记理解困难，不判对错。画框仅impelled、biomedical、tougher；flagged up另按主动提问记录。本次Work未接收或重看照片。纸质观察不创建网页Issue或成绩，不计算整篇纸质总分。",
+    "Text 4": "仅依据用户提供的结构化文字：整篇基本没看懂、基本每个选项没把握、主要靠猜。36—40全部最终纸质字母未知，正确率、答对数量、错误次数与逐题错因均未知。问38题B和39题D不等于选择了它们；“蒙对”不等于确认具体题目正确或已经掌握。主动疑问为sort/sorting mechanism、center和39题D的区别；画框仅六处，其他教学词汇不自动成为明确生词。参考答案ABCAC只用于题目核验，不是用户作答。本次Work未接收或重新查看照片；纸质观察不生成网页Issue或成绩。"
   },
   "observed_difficulties": [
     "Q26：寻找物品与检查其内容的对象区别待迁移核查；未确认用户具体误译了哪个词。",
     "Q29：用户明确提到末段But影响改选；检查题干段落限定、转折作用范围、有限例外与总体原则、方向与确定性。",
     "Q32：flag up与revise/store不同；区分标记、审查、修改等流程阶段。",
-    "Q35：区分话题相关的标题与准确概括Science加入加强论文统计审查这一核心事件的标题。"
+    "Q35：区分话题相关的标题与准确概括Science加入加强论文统计审查这一核心事件的标题。",
+    "Text 4：整体理解困难和低置信度/猜测报告，未知逐题最终选择。",
+    "sort已知名词种类义，需核对动词与抽象筛选、评价机制。",
+    "Q38只确认问B的center；core/center相关不能替代整句同义或作者态度。",
+    "Q39只确认问D为何不对；区分价值观扭曲与道德准则僵硬，不补造最终D。"
   ],
   "notes": [
-    "仅核对26、29、32、35；2015完形及Text 1等旧记录的参考答案仍须各自核验，不能从本文件推断已核对。",
+    "仅核对26、29、32、35及36—40；2015完形及Text 1等旧记录的参考答案仍须各自核验，不能从本文件推断已核对。",
     "本文件是来源核验与纸质覆盖说明，不参与计分，不构造网页尝试或新streak。",
-    "Text 3的Q32 C marked和Q35 A已按试题PDF及新东方解析交叉核对；部分转载页把Q32误写为B marked，不能据此修改用户版本中的C。"
+    "Text 3的Q32 C marked和Q35 A已按试题PDF及新东方解析交叉核对；部分转载页把Q32误写为B marked，不能据此修改用户版本中的C。",
+    "Text 4的ABCAC按匹配的选项排列与答案内容核对；其他转载中的D/A/C/B/D等不同排列不能用于改写用户交接。部分页面把第36题答案误写B，或将editing误录为exciting，均须按完整选项及语境核查。"
   ]
 }

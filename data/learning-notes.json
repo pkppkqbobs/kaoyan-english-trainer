@@ -1687,5 +1687,177 @@
       "tougher"
     ],
     "note": "仅按本次结构化文字中明确列出的3个画框词登记：impelled促使、推动，impelled the change表示推动这次改变；biomedical生物医学的，biomedical journals表示生物医学期刊；tougher更严格的、更强硬的，take a tougher line表示采取更严格的立场。不能把画横线的词全部登记为翻译困难。flagged up另存于第32题主动词组提问记录，不纳入本篇画框清单。画框词不变成作答错误或网页成绩。"
+  },
+  {
+    "date": "2026-10-30",
+    "session_id": "2026-10-30-2015-text4",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字及其中明确标出的用户原话；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-31",
+    "scoring_policy": "Observation only: unknown final paper choices and outcomes; no fabricated web Issue, attempts, errors, accuracy or mastery streak.",
+    "family": "attribution-stance",
+    "kind": "user_reported_confusion",
+    "scope": "whole_article",
+    "source_questions": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "final_choice_letter_confirmed": false,
+    "reported_final_choices": {
+      "36": null,
+      "37": null,
+      "38": null,
+      "39": null,
+      "40": null
+    },
+    "reported_paper_correct_count": null,
+    "user_quote": "这一篇文章我基本没看懂，基本每个选项都没什么把握，纯运气蒙对的。",
+    "reported_confidence": "low",
+    "guessing_reported": true,
+    "guessing_scope": "whole_article_general_report",
+    "paper_outcome_known": false,
+    "user_reported_reasoning": "用户自述整篇基本没看懂、基本每个选项没把握、主要靠猜；36—40题最终字母、答对数量与具体逐题错因均未知。",
+    "note": "仅将整篇理解困难和低置信度/猜测倾向作为观察。“蒙对”没有给出任何具体题目的最终选择或正确数量，不能据此登记真实错题、答对但犹豫、纸质正确率或稳定掌握。人物陈述、正式判决、被告辩护和作者评价需分别取证；文章主线及以下训练目标由教学交接提供，都是待验证能力，不是已经确认的逐题错因。",
+    "article_outline": [
+      "第1—2段：Elisabeth批评社会及机构缺乏诚信，利润和市场成为主要评价标准。",
+      "第3—4段：窃听事件、不同人物的判决和辩护；正式判决与作者评价不是同一层信息。",
+      "第5段：效率、利润、股东价值被强调，公平、正义、问责被边缘化。",
+      "第6段：作者批评新闻行业追求发行量而忽视道德责任。"
+    ],
+    "training_targets": [
+      {
+        "question": 36,
+        "goal": "sort词性与sorting mechanism；评价标准的后果；缺乏与滥用之别",
+        "status": "to_validate"
+      },
+      {
+        "question": 37,
+        "goal": "await trial；已定论、待处理与可能结果；不把可能性变成确定事实",
+        "status": "to_validate"
+      },
+      {
+        "question": 38,
+        "goal": "center on、trivial；作者质疑与正式判决；词语相关不等于整句同义",
+        "status": "to_validate"
+      },
+      {
+        "question": 39,
+        "goal": "distorted values与rigid moral code；利润评价标准和道德缺失的关系",
+        "status": "to_validate"
+      },
+      {
+        "question": 40,
+        "goal": "结尾针对编辑角色的道德责任；不凭常识加入加强监管等结论",
+        "status": "to_validate"
+      }
+    ],
+    "additional_vocabulary_policy": "教学中涉及的其他词汇不是用户明确不认识的清单；优先主动疑问及六处画框，再根据真实测试决定补充。"
+  },
+  {
+    "date": "2026-10-30",
+    "session_id": "2026-10-30-2015-text4",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字及其中明确标出的用户原话；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-31",
+    "scoring_policy": "Observation only: unknown final paper choices and outcomes; no fabricated web Issue, attempts, errors, accuracy or mastery streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "user_reported_confusion",
+    "source_questions": [
+      36,
+      39
+    ],
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "sort",
+      "sorting mechanism"
+    ],
+    "user_quote": "sort不是种类的意思吗？",
+    "user_reported_reasoning": "用户熟悉sort作名词的种类义，主动询问其在sorting mechanism中的含义；这是词性与抽象语境理解困难，不是已确认的逐题错误。",
+    "note": "sort作名词可表示种类，作动词可表示分类、整理或筛选；sorting mechanism在本文中指社会以利润和市场表现来筛选、评价事物的机制。应从动作、对象和标准理解抽象表达，不能把名词义机械代入。第36、39题仅是相关出处，最终选择未知。dearth与misuse的区别是教学补充目标，不因此把两词都标成用户明确不认识。"
+  },
+  {
+    "date": "2026-10-30",
+    "session_id": "2026-10-30-2015-text4",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字及其中明确标出的用户原话；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-31",
+    "scoring_policy": "Observation only: unknown final paper choices and outcomes; no fabricated web Issue, attempts, errors, accuracy or mastery streak.",
+    "family": "relation-collocation",
+    "kind": "user_reported_confusion",
+    "source_question": 38,
+    "expected": "C",
+    "queried_option": "B",
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "centered on trivial issues"
+    ],
+    "user_quote": "那个38的B我看不太懂，center是啥意思？",
+    "user_reported_reasoning": "整篇低置信度、主要靠猜；用户明确询问38题B的center含义，没有确认选B或其他最终字母。",
+    "note": "center作名词是中心，作动词可表示使集中于；center on/be centered on表示围绕或以……为中心。trivial表示琐碎、无关紧要。B centered on trivial issues指围绕无关紧要的问题展开。原句The core of her successful defence was that she knew nothing只指出其辩护的核心内容，不支持trivial这一评价；词语core/center相关不能证明整句同义。C was hardly convincing表示几乎没有说服力，属于作者对辩护的质疑，不等于作者改写法院判决。此记录只确认词组疑问，未确认用户当时的选择或完整误判机制。",
+    "training_targets": [
+      "center on固定搭配",
+      "整句语义与评价对象"
+    ],
+    "source_check": "data/source-checks/2015-english1.json"
+  },
+  {
+    "date": "2026-10-30",
+    "session_id": "2026-10-30-2015-text4",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字及其中明确标出的用户原话；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-31",
+    "scoring_policy": "Observation only: unknown final paper choices and outcomes; no fabricated web Issue, attempts, errors, accuracy or mastery streak.",
+    "family": "evaluation-vocab",
+    "kind": "user_reported_confusion",
+    "source_question": 39,
+    "expected": "A",
+    "queried_option": "D",
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_option_question",
+    "source_spans": [
+      "a rigid moral code"
+    ],
+    "user_reported_reasoning": "用户问39题D为何不对；需区分僵化的道德准则与扭曲的价值观，未确认最终选D或具体词义误解。",
+    "note": "D a rigid moral code指一套僵化、严格不变通的道德准则。A generally distorted values指总体扭曲的价值观。文章批评利润、效率、发行量压过公平、正义和道德责任，问题在评价取向而不是道德要求过严。dearth of integrity是缺乏诚信，misuse of integrity是滥用诚信，二者也不能互换；这是交接中的训练方向，不把相关词全部扩成已确认生词。询问D错误原因不等于已选择D，也不证明用户已完整理解A。",
+    "training_targets": [
+      "评价词组的语义区别",
+      "抽象评价标准与道德批评"
+    ],
+    "source_check": "data/source-checks/2015-english1.json"
+  },
+  {
+    "date": "2026-10-30",
+    "session_id": "2026-10-30-2015-text4",
+    "source_exam": "2015-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户转交的教学对话结构化文字及其中明确标出的用户原话；本次Work未接收或重新查看照片。",
+    "received_on": "2026-10-31",
+    "scoring_policy": "Observation only: unknown final paper choices and outcomes; no fabricated web Issue, attempts, errors, accuracy or mastery streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "unsettling",
+      "institutions",
+      "we the people",
+      "capitalism",
+      "wounding",
+      "purpose"
+    ],
+    "note": "本次结构化交接明确列出的六处画框：unsettling令人不安的；institutions机构、制度性组织；we the people我们人民、普通公民；capitalism资本主义；wounding伤害、损害；purpose目的，moral purpose指道德使命感。只把这六处登记为画框翻译困难。画横线表示认为重要，不能自动变成不认识；sort、center及39题D的主动提问分别保存，不混入画框清单。"
   }
 ]

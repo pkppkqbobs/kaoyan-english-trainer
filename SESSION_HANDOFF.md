@@ -1,6 +1,6 @@
 # 考研英语一跨对话交接
 
-数据截至 2026-10-30；仅索引已同步到仓库的证据。
+数据截至 2026-10-31；仅索引已同步到仓库的证据。
 [仓库](https://github.com/pkppkqbobs/kaoyan-english-trainer) · [每日8题](https://pkppkqbobs.github.io/kaoyan-english-trainer/today.html) · [文章复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-review.html) · [历史复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html)
 
 ## 接续规则
@@ -13,24 +13,24 @@
 ## 已核验网页进度
 
 最近已接受的完整daily：题单日期2026-10-30，[Issue #33](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/33)，8/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-10-30；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
+当前题单日期：2026-10-31；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
-当前文章专项：发布日期2026-10-30，对应学习日期2026-10-29；题单已发布不等于已经作答。
+当前文章专项：发布日期2026-10-31，对应学习日期2026-10-30；题单已发布不等于已经作答。
 已登记篇目复盘缺口：0个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。
 
 ## 最近纸质学习阶段
 
+- 2026-10-30｜2015 英语一 Text 4：Q38 理解困惑：最终选项未确认；参考C。整篇低置信度、主要靠猜；用户明确询问38题B的center含义，没有确认选B或其他最终字母。 Q39 理解困惑：最终选项未确认；参考A。用户问39题D为何不对；需区分僵化的道德准则与扭曲的价值观，未确认最终选D或具体词义误解。 画框翻译：capitalism、institutions、purpose、unsettling、we the people、wounding。
 - 2026-10-29｜2015 英语一 Text 3：Q32 理解困惑：最终选项未确认；参考C。用户在B revised与D stored间犹豫，不理解flagged up为何表示标记、指出；最终纸质选项未确认。 Q35 理解困惑：最终选项未确认；参考A。用户认为C也很合适，复盘后理解A更准确；未明确确认最终纸质选项，不能据此判错或判对。 画框翻译：biomedical、impelled、tougher。
 - 2026-10-28｜2015 英语一 Text 2：Q26 自述错题：先考虑C→B；参考C。用户确认初选C正确、最终改B错误；在B/C间犹豫，觉得B更合适。未确认具体误译了哪个词。 Q29 自述错题：先考虑C→B；参考C。用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。 画框翻译：discarding、expect、lame argument、line-drawing、purse、recklessly等。
 - 2026-10-27｜2015 英语一 Text 1：Q22 自述错题：C；参考A（待来源核对）。用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成… Q24 答对但犹豫：D；参考D（待来源核对）。用户说第24题一度想选A，但A的意思并没有完全看懂；最终觉得D更合适并选D。未声称曾在答题纸上先填A再改D。 画框翻译：abdicate、absolutist、arguments、aristocratic、downside、economists等。
 - 2026-10-26｜2015 英语一 Section I (Cloze)：Q5 理解困惑：最终选项未确认；参考C（待来源核对）。用户明确说仍不知道为什么第5空必须选C samples，未报告最终纸质选项或详细误选动机。 Q6 理解困惑：最终选项未确认；参考A（待来源核对）。用户明确表示第6题属于‘脑抽’，漏看了A选项insignificant中的否定前缀in-；自述如果注意到in-就会选择A，但未确认纸质最终选项。 画框翻译：conducted、drawn from、genome-wide、smell。
-- 2026-10-25｜2014 英语一 Part B (paragraph ordering)：Q43 理解困惑：最终选项未确认；参考G（待来源核对）。用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…
 
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
-- 作者态度、评价对象与转折（paragraph-scope-attitude、author-stance）：用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。 网页错误数/streak单列于JSON。
+- 作者态度、评价对象与转折（paragraph-scope-attitude、attribution-stance）：用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。 网页错误数/streak单列于JSON。
 - 修饰关系与熟词搭配（relation-collocation、familiar-word-polysemy）：用户确认初选C正确、最终改B错误；在B/C间犹豫，觉得B更合适。未确认具体误译了哪个词。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（causal-role-direction、logic）：用户明确说自己根据第三段最后一句选了C（to give voters more public figures to look up to）。用户没有进一步明确解释C为何在自己看来成… 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（title-coverage、inference-boundary）：用户认为C也很合适，复盘后理解A更准确；未明确确认最终纸质选项，不能据此判错或判对。 网页错误数/streak单列于JSON。
@@ -38,6 +38,8 @@
 
 ## 待确认
 
+- 2015 英语一 Text 4 Q39：最终选项未确认。
+- 2015 英语一 Text 4 Q38：最终选项未确认。
 - 2015 英语一 Text 3 Q35：最终选项未确认。
 - 2015 英语一 Text 3 Q32：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q20：最终选项未确认。
@@ -46,8 +48,6 @@
 - 2015 英语一 Section I (Cloze) Q13：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q11：最终选项未确认。
 - 2015 英语一 Section I (Cloze) Q6：最终选项未确认。
-- 2015 英语一 Section I (Cloze) Q5：最终选项未确认。
-- 2014 英语一 Part B (paragraph ordering) Q43：最终选项未确认。
 - 2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对。
 
 ## 下一对话怎么继续

@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-10-30",
-  "source_commit": "aa79c07b3c38bd75af43912c4bcba37251380b0b",
+  "reviewed_on": "2026-10-31",
+  "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -338,7 +338,17 @@
     "flag-up-walking-tour-warning": "tour-shade-practical-warning",
     "flag-up-booking-workflow": "booking-alert-before-review-and-approval",
     "title-coverage-depot-cycle-parking": "depot-cycle-service-pilot-vs-transport-topic",
-    "title-coverage-bookshop-pooled-delivery": "pooled-delivery-cost-response-vs-online-topic"
+    "title-coverage-bookshop-pooled-delivery": "pooled-delivery-cost-response-vs-online-topic",
+    "polysemy-sort-maker-entries": "maker-sort-noun-and-verb",
+    "polysemy-sorting-arts-fund": "arts-fund-popularity-allocation",
+    "center-on-ferry-meeting": "ferry-agenda-minor-details-vs-access",
+    "center-on-archive-damage": "archive-damage-focus-vs-triviality",
+    "attribution-race-panel-account": "race-formal-result-vs-story-credibility",
+    "attribution-garden-responsibility": "school-garden-compliance-vs-responsibility",
+    "evaluation-help-centre-speed": "help-centre-speed-above-service",
+    "evaluation-arts-prize-accounts": "arts-prize-revenue-vs-honest-costs",
+    "inference-pending-auditions": "awards-confirmed-vs-pending-auditions",
+    "inference-seed-label-inspections": "seed-labels-known-vs-uninspected"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -394,7 +404,17 @@
     "tour-shade-practical-warning": "导游提前提醒旅途困难，后文保留路线并建议带水，以实际应对区分提醒与修改/储存；不同于论文待审流程。",
     "booking-alert-before-review-and-approval": "软件提示可能的重复预订，审查尚未开始、修改须另获客户同意；需同时核对阶段、确定性和授权边界。",
     "depot-cycle-service-pilot-vs-transport-topic": "以试点运作、用户反应和人员限制概括新服务，排除泛交通话题及把试点扩大为永久全面开放。",
-    "pooled-delivery-cost-response-vs-online-topic": "从成本动因、配送方式替换和消费者取舍概括改革，不把网购泛主题或作家来访背景当成主旨。"
+    "pooled-delivery-cost-response-vs-online-topic": "从成本动因、配送方式替换和消费者取舍概括改革，不把网购泛主题或作家来访背景当成主旨。",
+    "maker-sort-noun-and-verb": "同句对比名词种类与动词按安全要求分类，使用语法位置和动作对象判断。",
+    "arts-fund-popularity-allocation": "从基金实际分配支持的规则还原抽象筛选机制；不同于具体物品分类。",
+    "ferry-agenda-minor-details-vs-access": "议程所谈小事与遗漏无障碍问题对照，需同时保留center on和trivial的含义。",
+    "archive-damage-focus-vs-triviality": "明确严重的照片损害与未确认原因，区分讨论焦点、重要性及已经证明。",
+    "race-formal-result-vs-story-credibility": "接受按比赛规则恢复结果，同时用独立影像质疑路线叙述；正式结论与作者评价分开。",
+    "school-garden-compliance-vs-responsibility": "最低报告合规与组织者遗漏追问形成对照，以具体案例推出责任评价。",
+    "help-centre-speed-above-service": "以复杂来电被挂断的后果判断绩效价值取向，不把批评误当道德要求过严。",
+    "arts-prize-revenue-vs-honest-costs": "奖项重票房而轻如实报告的对照，区分价值观批评、严格准则与未经证明的全员造假。",
+    "awards-confirmed-vs-pending-auditions": "既有奖项与未完成试演并列，正向结果也不能从等待程序中推出。",
+    "seed-labels-known-vs-uninspected": "已知标签错误与尚未检查对象分开；发现不能外推为全部错误或偏见证据。"
   },
   "family_assessments": {
     "reference": {

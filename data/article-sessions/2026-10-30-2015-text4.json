@@ -1,0 +1,40 @@
+{
+  "id": "2026-10-30-2015-text4",
+  "date": "2026-10-31",
+  "learning_date": "2026-10-30",
+  "created_at": "2026-10-31T11:48:25+09:00",
+  "source": "2015 英语一 Reading Text 4 · 2026-10-30纸质复盘（10月31日发布）",
+  "result_summary": "整篇理解困难、整体低置信度且主要靠猜；36—40最终纸质选择及正确数量均未知。sort、38题B的center和39题D来自主动提问，画框仅六处。优先四个已确认需要复查的目标，搭配四道历史题；第37题可能性目标保留后续轮换，不新增纸质对应的网页成绩。",
+  "focus_families": [
+    "familiar-word-polysemy",
+    "relation-collocation",
+    "attribution-stance",
+    "evaluation-vocab",
+    "inference-boundary"
+  ],
+  "max_current": 4,
+  "revision": 1,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "familiar-word-polysemy": [
+      "polysemy-sort-maker-entries",
+      "polysemy-sorting-arts-fund"
+    ],
+    "relation-collocation": [
+      "center-on-ferry-meeting",
+      "center-on-archive-damage"
+    ],
+    "attribution-stance": [
+      "attribution-race-panel-account",
+      "attribution-garden-responsibility"
+    ],
+    "evaluation-vocab": [
+      "evaluation-help-centre-speed",
+      "evaluation-arts-prize-accounts"
+    ],
+    "inference-boundary": [
+      "inference-pending-auditions",
+      "inference-seed-label-inspections"
+    ]
+  }
+}
