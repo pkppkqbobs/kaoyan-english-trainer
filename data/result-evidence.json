@@ -2789,6 +2789,94 @@
       "qid": "sentence-link-train-timetable-b",
       "round_id": "mvwb3wq8-huxass2s",
       "source_date": "2026-10-31"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "nested",
+      "ok": true,
+      "ms": 12387,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "nested-editor-quote-d",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 45661,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "causal-role-deadline-response",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "conceivably",
+      "ok": false,
+      "ms": 40278,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "conceivably-competing-explanations",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "cloze-comparison-chain",
+      "ok": true,
+      "ms": 9576,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "cloze-decline-output-c",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "parallel-governance",
+      "ok": false,
+      "ms": 51879,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "parallel-governance-inspection-tasks",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "familiar-word-polysemy",
+      "ok": true,
+      "ms": 82550,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "polysemy-sorting-arts-fund",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 43815,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "social-message-inference-parenting-b",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-01",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 8442,
+      "uncertain": false,
+      "origin": 35,
+      "qid": "directness-engineer-a",
+      "round_id": "mvxtyeel-87vp4cyy",
+      "source_date": "2026-11-01"
     }
   ],
   "issues": [
@@ -2825,6 +2913,7 @@
     31,
     32,
     33,
-    34
+    34,
+    35
   ]
 }

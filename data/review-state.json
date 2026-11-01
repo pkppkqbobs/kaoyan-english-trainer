@@ -34,7 +34,8 @@
     31,
     32,
     33,
-    34
+    34,
+    35
   ],
   "families": {
     "absolute-language": {
@@ -120,11 +121,11 @@
     "causal-role-direction": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-31",
+      "last": "2026-11-01",
       "due": "2026-11-01",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 12,
+      "observed_days": 13,
       "observation_priority": 3
     },
     "cling-climb": {
@@ -170,11 +171,11 @@
     "cloze-comparison-chain": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-15",
-      "due": "2026-10-16",
+      "last": "2026-11-01",
+      "due": "2026-11-01",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "cloze-conditional-contrast": {
@@ -258,13 +259,13 @@
       "observation_priority": 0
     },
     "conceivably": {
-      "streak": 1,
-      "errors": 1,
-      "last": "2026-10-19",
-      "due": "2026-10-21",
+      "streak": 0,
+      "errors": 2,
+      "last": "2026-11-01",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "concession-claim-scope": {
@@ -308,13 +309,13 @@
       "observation_priority": 2
     },
     "directness-modifier": {
-      "streak": 3,
+      "streak": 4,
       "errors": 0,
-      "last": "2026-10-15",
-      "due": "2026-10-22",
+      "last": "2026-11-01",
+      "due": "2026-11-15",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "dnt-actor-boundary": {
@@ -390,11 +391,11 @@
     "familiar-word-polysemy": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-26",
-      "due": "2026-10-27",
+      "last": "2026-11-01",
+      "due": "2026-11-01",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 3
     },
     "feature-verb": {
@@ -508,13 +509,13 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 6,
+      "streak": 7,
       "errors": 1,
-      "last": "2026-10-28",
-      "due": "2026-11-18",
+      "last": "2026-11-01",
+      "due": "2026-11-22",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 12,
+      "observed_days": 13,
       "observation_priority": 0
     },
     "paragraph-order-anaphora": {
@@ -549,12 +550,12 @@
     },
     "parallel-governance": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-10-11",
-      "due": "2026-10-12",
+      "errors": 2,
+      "last": "2026-11-01",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 0
     },
     "partb-boxed-vocab": {
@@ -708,13 +709,13 @@
       "observation_priority": 0.25
     },
     "social-message-inference": {
-      "streak": 3,
+      "streak": 4,
       "errors": 1,
-      "last": "2026-10-24",
-      "due": "2026-10-31",
+      "last": "2026-11-01",
+      "due": "2026-11-15",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "standard": {
