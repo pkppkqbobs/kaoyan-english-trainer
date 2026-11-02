@@ -1,0 +1,37 @@
+{
+  "id": "2026-11-02-2016-text1",
+  "date": "2026-11-02",
+  "learning_date": "2026-11-02",
+  "created_at": "2026-11-02T21:47:00+09:00",
+  "source": "2016 英语一 Reading Text 1 · 2026-11-02纸质复盘（11月2日发布）",
+  "focus_families": [
+    "familiar-word-polysemy",
+    "modal-stage",
+    "process-stage-role",
+    "title-coverage"
+  ],
+  "focus_question_ids": {
+    "familiar-word-polysemy": [
+      "text1-runway-fashion-catwalk-a"
+    ],
+    "modal-stage": [
+      "text1-modal-standards-battery-c"
+    ],
+    "process-stage-role": [
+      "text1-policy-characteristics-design-code-e"
+    ],
+    "title-coverage": [
+      "text1-title-academic-merit-g"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "user_supplied_answer_key": {
+    "21": "A",
+    "22": "D",
+    "23": "B",
+    "24": "C",
+    "25": "A"
+  },
+  "answer_key_provenance": "Answer key supplied in the user's handoff; not independently source-checked. It is reference-only, not evidence of the user's selections."
+}

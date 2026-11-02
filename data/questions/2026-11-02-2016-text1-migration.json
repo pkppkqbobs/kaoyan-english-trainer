@@ -1,0 +1,194 @@
+[
+  {
+    "id": "text1-runway-fashion-catwalk-a",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "runway / 时装秀T台",
+    "skill": "熟词多义与事件语境",
+    "q": "At a fashion show, organizers extended the runway so models could walk farther in front of the audience. What did they change?",
+    "o": [
+      "The catwalk used by models was made longer.",
+      "A strip for aircraft take-offs was added.",
+      "The standards for judging body shape were rewritten.",
+      "The audience seating was rearranged around the stage."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "时装秀主办方延长了runway，让模特能在观众面前走得更远。这里改变的是模特走秀的T台长度。",
+      "structure": "At a fashion show限定场景；organizers是主语，extended是谓语，the runway是宾语；so引导结果状语。",
+      "other": "runway在时装秀语境中是T台；catwalk走秀台；aircraft take-off飞机起飞；body shape体形。",
+      "meaning": "runway有机场跑道义，也有时装秀T台义。词义由fashion show、models和audience共同限定。原题B抓住runways这一局部词形，却把时装展示语境改成机场基础设施。",
+      "rest": "B把T台换成飞机起降设施；C把延长T台改成修改审美标准；D改动观众席，与句中明确延长runway不符。"
+    }
+  },
+  {
+    "id": "text1-arbiters-design-jury-b",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "arbiters / 评判者",
+    "skill": "抽象名词在评价语境中的含义",
+    "q": "At a national design competition, the jury served as the final arbiters of which proposals would receive the award. Here, arbiters are people who:",
+    "o": [
+      "make the final decision about what is accepted",
+      "prepare the proposals for public display",
+      "provide funding to the designers on the shortlist",
+      "record the audience's reactions after the award"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "在全国设计竞赛中，评审团是决定哪些方案获奖的最终裁定者。arbiters指作出最终判断的人。",
+      "structure": "the jury是主语，served as是谓语，the final arbiters是主语补足语；of which proposals说明裁定对象。",
+      "other": "arbiter裁定者、评判者；jury评审团；proposal提案；shortlist入围名单。",
+      "meaning": "arbiter强调有权作出判断或裁定的人，不是负责准备材料、提供资金或记录反馈的人。",
+      "rest": "准备展品、提供资金和记录观众反应都是竞赛中的其他工作，不等于决定哪些方案获奖。"
+    }
+  },
+  {
+    "id": "text1-modal-standards-battery-c",
+    "family": "modal-stage",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 45,
+    "target": "is trying to establish / would be introduced",
+    "skill": "尝试制定与预期结果",
+    "q": "An engineering association is trying to establish voluntary safety standards for battery repairs. Its report says common standards would be introduced if enough workshops joined the pilot. Which interpretation is supported?",
+    "o": [
+      "The standards are being pursued, but are not yet in force.",
+      "The standards are already operating in every workshop.",
+      "The association has stopped pursuing the proposed standards.",
+      "The workshops finished drafting the standards before the pilot."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一个工程协会正在尝试为电池维修制定自愿性安全标准。报告说，如果有足够多的维修点参加试点，就会引入统一标准。",
+      "structure": "is trying to establish是现在进行时，表示当前正在尝试；would be introduced是情态动词加被动语态，if从句给出条件。",
+      "other": "voluntary自愿的；standard标准；pilot试点；in force生效。",
+      "meaning": "is trying to establish说明制定工作正在推进；would be introduced说明预期/条件下将引入，并不表示已经完成。必须区分尝试、预期结果和已经生效。",
+      "rest": "B把预期结果升级成已经在所有维修点生效；C把正在推进改成停止；D把标准完成时间倒置到试点开始之前。"
+    }
+  },
+  {
+    "id": "text1-modal-checklist-hospital-d",
+    "family": "modal-stage",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 45,
+    "target": "would be adopted if / 条件结果",
+    "skill": "条件性将来与完成状态",
+    "q": "After a trial, a hospital report says a shared handover checklist would be adopted if staff approved the plan. Which statement is accurate?",
+    "o": [
+      "The checklist is already used across every hospital ward.",
+      "Adoption depends on staff approval and is not yet complete.",
+      "The hospital cancelled the checklist after the trial.",
+      "Staff approved the checklist before the plan was first proposed."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "试点结束后，医院报告说，如果员工批准方案，就会采用统一的交接清单。是否采用仍取决于员工批准，并非已经完成。",
+      "structure": "would be adopted是情态动词加被动结构；if staff approved the plan是条件从句。",
+      "other": "handover交接；checklist清单；adopt采用；approval批准。",
+      "meaning": "would be adopted if...表示条件满足时预期采用，不能据此说已经在所有病区使用。",
+      "rest": "A把条件性计划说成全面实施；C说医院取消方案；D把员工批准提前到方案提出之前。"
+    }
+  },
+  {
+    "id": "text1-policy-characteristics-design-code-e",
+    "family": "process-stage-role",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "characteristics / 规则内容与制裁",
+    "skill": "标准、违规原因与执行机制",
+    "q": "A fashion-industry code lists models' age, health and other characteristics. It is enforced by denying designers and agencies access to a major show when they breach the code. Which statement separates the standard from the enforcement measure?",
+    "o": [
+      "Age, health and other characteristics are criteria; exclusion is the sanction.",
+      "Models' character and personality are criteria; exclusion is the sanction.",
+      "Age, health and other characteristics are sanctions; exclusion is the criterion.",
+      "Designers' character is assessed; exclusion is a model health criterion."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "时尚行业守则列出模特的年龄、健康状况及其他特征；违反守则时，执行方式是拒绝设计师和经纪公司进入时装秀。",
+      "structure": "lists的宾语是models' age, health and other characteristics；is enforced by说明执行手段；when引导违规条件。",
+      "other": "character性格、品格；characteristics特征、特点；criteria标准；sanction制裁；exclusion拒绝进入。",
+      "meaning": "character与characteristics不同：前者指性格/品格，后者指特征。规则内容、违规原因和执行机制是不同层次。",
+      "rest": "B把性格当作规则标准；C把标准与制裁倒置；D把设计师性格和模特健康标准错配。"
+    }
+  },
+  {
+    "id": "text1-policy-enforcement-lab-f",
+    "family": "process-stage-role",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "rule content / enforcement mechanism",
+    "skill": "要求与执行工具的角色区分",
+    "q": "A laboratory safety code requires eye protection and ventilation checks. After repeated breaches, a manager suspends staff badge access to enforce it. Which pair identifies the rule and the enforcement mechanism?",
+    "o": [
+      "Eye protection and ventilation are rules; badge suspension enforces them.",
+      "Badge suspension is a rule; eye protection is the tool used to enforce it.",
+      "Both are penalties imposed after an inspection and repeated violations.",
+      "Both are personal traits expected of technicians during laboratory work."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "实验室安全守则要求佩戴护目镜并检查通风；多次违规后，经理暂停员工门禁卡权限来执行守则。",
+      "structure": "code是主语，requires是谓语；manager suspends...是后续执行动作，to enforce it表示目的。",
+      "other": "eye protection眼部防护；ventilation通风；breach违规；badge access门禁权限；suspend暂停。",
+      "meaning": "规则说明必须做什么，执行机制说明违反规则后如何处理。",
+      "rest": "B颠倒规则与执行手段；C把要求和处罚都说成处罚；D把制度要求误写成个人性格特征。"
+    }
+  },
+  {
+    "id": "text1-title-academic-merit-g",
+    "family": "title-coverage",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "title coverage / 核心争议对象",
+    "skill": "标题范围与中心论点",
+    "q": "At a university, hiring panels have long treated publication counts and institutional prestige as the main signs of academic merit. A new proposal gives more weight to teaching, mentoring and contributions to local research groups. Critics argue that the old measures overlook important work, especially by early-career scholars. Which title best captures the central issue?",
+    "o": [
+      "A Challenge to Universities' Ideas of Academic Merit",
+      "Another Debate About Competition in Higher Education",
+      "Why Young Scholars Are Leaving University Research",
+      "A New Ranking System for Research Universities"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "大学招聘长期把论文数量和机构声望当作学术价值的主要标志。新方案提高教学、指导学生和本地研究贡献的权重，批评者认为旧标准忽略重要工作。核心是挑战大学对学术价值的既有定义。",
+      "structure": "首句交代既有评价标准；第二句提出新方案；第三句由Critics argue引出中心批评。",
+      "other": "publication count论文数量；institutional prestige机构声望；academic merit学术价值；early-career scholar职业早期学者。",
+      "meaning": "A覆盖被挑战的主体（大学）和争议对象（学术价值标准），而不是只摘取一个局部案例。",
+      "rest": "B只说高等教育竞争，范围过宽；C声称年轻学者正在离开研究岗位，原文没有此事实；D把新评价方案误写成已经建立的新排名系统。"
+    }
+  },
+  {
+    "id": "text1-title-library-success-h",
+    "family": "title-coverage",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "title coverage / 衡量标准",
+    "skill": "标题覆盖与论点概括",
+    "q": "A city library has been judged mainly by the number of books borrowed. A new review argues that this measure misses digital help, language classes, and access for residents who cannot visit during the day. It asks the city to reconsider what a successful library provides. Which title best represents the argument?",
+    "o": [
+      "Rethinking How Cities Measure Library Success",
+      "Why Borrowing Books Has Declined in City Libraries",
+      "A Plan to Replace Libraries with Online Services",
+      "The Growing Cost of Running Public Libraries"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "一座城市图书馆过去主要按借阅量评价。新评估指出，这一指标忽略数字服务、语言课程以及白天无法到馆居民的使用机会，因而要求重新思考什么才算图书馆成功。",
+      "structure": "首句给出旧指标；第二句指出其遗漏；第三句概括中心诉求。",
+      "other": "borrow借阅；digital help数字服务；access使用机会/可及性；measure衡量指标。",
+      "meaning": "核心不是借阅量下降、线上服务取代图书馆或运营成本，而是成功标准需要重新衡量。",
+      "rest": "B说借阅量下降，原文没有报告趋势；C说用线上服务取代图书馆，超出原文；D把成本当成核心问题。"
+    }
+  }
+]

@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 278,
+        "question_count": 286,
         "correct_uniquely_longest": 66,
         "correct_uniquely_shortest": 50,
-        "longest_guess_pct": 29.59,
-        "shortest_guess_pct": 22.27,
+        "longest_guess_pct": 28.93,
+        "shortest_guess_pct": 21.65,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -682,73 +682,73 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-as-well-as-access-policy-q": {
-      "lengths": [
-        42,
-        46,
-        45,
-        52
-      ],
-      "spread": 10,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": true,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 1.0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "relation-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          42,
+          46,
+          45,
+          52
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-as-well-as-those-of-a": {
-      "lengths": [
-        40,
-        58,
-        50,
-        55
-      ],
-      "spread": 18,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": true,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 1.0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "relation-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          40,
+          58,
+          50,
+          55
+        ],
+        "spread": 18,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-by-way-of-port-e": {
-      "lengths": [
-        31,
-        35,
-        35,
-        32
-      ],
-      "spread": 4,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": true,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 1.0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "relation-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          31,
+          35,
+          35,
+          32
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-clinic-likely-site-c": {
-      "lengths": [
-        61,
-        64,
-        56,
-        55
-      ],
-      "spread": 9,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "inference-boundary",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          61,
+          64,
+          56,
+          55
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-condition-inspection-a": {
         "lengths": [
           2,
@@ -801,22 +801,22 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-hiring-likely-candidate-b": {
-      "lengths": [
-        77,
-        70,
-        67,
-        67
-      ],
-      "spread": 10,
-      "correct_uniquely_longest": true,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 1.0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "inference-boundary",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          77,
+          70,
+          67,
+          67
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-judge-school-b": {
         "lengths": [
           63,
@@ -886,22 +886,22 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-marry-into-bakery-family-d": {
-      "lengths": [
-        47,
-        39,
-        39,
-        40
-      ],
-      "spread": 8,
-      "correct_uniquely_longest": true,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 1.0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "relation-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          47,
+          39,
+          39,
+          40
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-meter-readings-b": {
         "lengths": [
           22,
@@ -954,22 +954,22 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-on-his-own-calibration-f": {
-      "lengths": [
-        32,
-        37,
-        35,
-        34
-      ],
-      "spread": 5,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": true,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 1.0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "relation-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          32,
+          37,
+          35,
+          34
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-overview-plant-b": {
         "lengths": [
           44,
@@ -1005,56 +1005,56 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-pass-light-camp-drill-l": {
-      "lengths": [
-        34,
-        34,
-        36,
-        36
-      ],
-      "spread": 2,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0.5,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "action-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          34,
+          34,
+          36,
+          36
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "action-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-piling-crates-h": {
-      "lengths": [
-        32,
-        29,
-        35,
-        28
-      ],
-      "spread": 7,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "familiar-word-polysemy",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          32,
+          29,
+          35,
+          28
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-piling-up-complaints-i": {
-      "lengths": [
-        24,
-        34,
-        34,
-        36
-      ],
-      "spread": 12,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "familiar-word-polysemy",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          24,
+          34,
+          34,
+          36
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-queue-review-a": {
         "lengths": [
           4,
@@ -1073,56 +1073,56 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-sermon-sunday-service-g": {
-      "lengths": [
-        40,
-        42,
-        39,
-        38
-      ],
-      "spread": 4,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "familiar-word-polysemy",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          40,
+          42,
+          39,
+          38
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-that-of-pump-failure-rate-b": {
-      "lengths": [
-        27,
-        36,
-        25,
-        35
-      ],
-      "spread": 11,
-      "correct_uniquely_longest": true,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 1.0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "relation-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          27,
+          36,
+          25,
+          35
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "relation-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-tie-pass-calibration-cord-j": {
-      "lengths": [
-        37,
-        33,
-        33,
-        33
-      ],
-      "spread": 4,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0.3333333333333333,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "action-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          37,
+          33,
+          33,
+          33
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "action-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-undo-coldchain-d": {
         "lengths": [
           4,
@@ -1141,90 +1141,90 @@
         "source": "data/questions/2026-10-14-cloze.json"
       },
       "cloze-until-whereas-archive-m": {
-      "lengths": [
-        15,
-        15,
-        18,
-        18
-      ],
-      "spread": 3,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0.5,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "logic",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          15,
+          15,
+          18,
+          18
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "logic",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-up-to-generator-days-n": {
-      "lengths": [
-        52,
-        49,
-        45,
-        48
-      ],
-      "spread": 7,
-      "correct_uniquely_longest": true,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 1.0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "logic",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          52,
+          49,
+          45,
+          48
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "logic",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-whatever-documents-registrar-p": {
-      "lengths": [
-        64,
-        57,
-        49,
-        60
-      ],
-      "spread": 15,
-      "correct_uniquely_longest": true,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 1.0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "nested",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          64,
+          57,
+          49,
+          60
+        ],
+        "spread": 15,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-whatever-equipment-workshop-o": {
-      "lengths": [
-        63,
-        72,
-        66,
-        65
-      ],
-      "spread": 9,
-      "correct_uniquely_longest": true,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 1.0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "nested",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          63,
+          72,
+          66,
+          65
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "cloze-wrap-protective-cloth-k": {
-      "lengths": [
-        36,
-        38,
-        38,
-        26
-      ],
-      "spread": 12,
-      "correct_uniquely_longest": false,
-      "correct_uniquely_shortest": false,
-      "longest_guess_credit": 0,
-      "shortest_guess_credit": 0,
-      "length_cue_flag": false,
-      "pool": "daily_article",
-      "family": "action-collocation",
-      "source": "data/questions/2026-11-02-2016-cloze-migration.json"
-    },
+        "lengths": [
+          36,
+          38,
+          38,
+          26
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "action-collocation",
+        "source": "data/questions/2026-11-02-2016-cloze-migration.json"
+      },
       "commitment-contract-criticism-b": {
         "lengths": [
           48,
@@ -4675,6 +4675,142 @@
         "pool": "daily_article",
         "family": "take-page-from",
         "source": "data/questions/2026-10-07-text1.json"
+      },
+      "text1-arbiters-design-jury-b": {
+        "lengths": [
+          46,
+          40,
+          49,
+          47
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-modal-checklist-hospital-d": {
+        "lengths": [
+          57,
+          59,
+          53,
+          64
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "modal-stage",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-modal-standards-battery-c": {
+        "lengths": [
+          58,
+          54,
+          60,
+          63
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "modal-stage",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-policy-characteristics-design-code-e": {
+        "lengths": [
+          78,
+          74,
+          80,
+          72
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "process-stage-role",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-policy-enforcement-lab-f": {
+        "lengths": [
+          73,
+          74,
+          71,
+          72
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "process-stage-role",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-runway-fashion-catwalk-a": {
+        "lengths": [
+          43,
+          41,
+          52,
+          53
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-title-academic-merit-g": {
+        "lengths": [
+          52,
+          52,
+          50,
+          46
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
+      },
+      "text1-title-library-success-h": {
+        "lengths": [
+          45,
+          50,
+          48,
+          44
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-02-2016-text1-migration.json"
       },
       "text2-boxed-curators-implement-ideas": {
         "lengths": [

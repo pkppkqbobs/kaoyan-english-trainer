@@ -366,7 +366,15 @@
     "cloze-up-to-generator-days-n": "generator-loan-maximum-duration",
     "cloze-whatever-equipment-workshop-o": "whatever-equipment-as-object",
     "cloze-whatever-documents-registrar-p": "whatever-documents-as-object",
-    "cloze-as-well-as-access-policy-q": "laboratory-access-parallel-classes"
+    "cloze-as-well-as-access-policy-q": "laboratory-access-parallel-classes",
+    "text1-runway-fashion-catwalk-a": "fashion-show-runway-catwalk",
+    "text1-arbiters-design-jury-b": "design-jury-final-arbiters",
+    "text1-modal-standards-battery-c": "battery-repair-standard-proposal",
+    "text1-modal-checklist-hospital-d": "hospital-checklist-conditional-adoption",
+    "text1-policy-characteristics-design-code-e": "fashion-code-characteristics-vs-sanction",
+    "text1-policy-enforcement-lab-f": "laboratory-safety-rule-vs-enforcement",
+    "text1-title-academic-merit-g": "university-academic-merit-criteria",
+    "text1-title-library-success-h": "public-library-success-metrics"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -450,7 +458,15 @@
     "generator-loan-maximum-duration": "发电机借用语境：up to表示最长时长，不表示必须使用完整期限。",
     "whatever-equipment-as-object": "工作坊设备语境：whatever equipment整体作retain宾语，whatever限定equipment，后续从句限定其范围。",
     "whatever-documents-as-object": "登记材料语境：whatever documents整体作accept宾语，区分外层主句和内层submits的主谓宾。",
-    "laboratory-access-parallel-classes": "实验室访问政策语境：as well as把来访人员补充到正式员工的适用范围，不构成排除或替代。"
+    "laboratory-access-parallel-classes": "实验室访问政策语境：as well as把来访人员补充到正式员工的适用范围，不构成排除或替代。",
+    "fashion-show-runway-catwalk": "时装秀语境：runway指模特走秀的T台，不是机场跑道。",
+    "design-jury-final-arbiters": "设计竞赛语境：arbiters是作出最终评判的人。",
+    "battery-repair-standard-proposal": "电池维修标准语境：is trying to establish是正在尝试制定，would be introduced是条件下的预期结果。",
+    "hospital-checklist-conditional-adoption": "医院交接清单语境：would be adopted if...表示条件性采用，不等于已经实施。",
+    "fashion-code-characteristics-vs-sanction": "时尚守则语境：age、health、characteristics是规则标准，deny access是执行手段；character与characteristics分开。",
+    "laboratory-safety-rule-vs-enforcement": "实验室安全语境：护目镜和通风检查是要求，暂停门禁是执行机制。",
+    "university-academic-merit-criteria": "大学招聘语境：标题概括学术价值标准受到挑战。",
+    "public-library-success-metrics": "公共图书馆语境：核心争议是如何衡量图书馆成功。"
   },
   "family_assessments": {
     "reference": {
@@ -521,7 +537,7 @@
     "title-coverage": {
       "coverage_gap": false,
       "previous_gap": null,
-      "reason": "新增时间发展主线与多能源比较框架，不能只选末段显眼案例。"
+      "reason": "新增大学学术价值与公共图书馆成效语境，训练标题覆盖中心争议对象。"
     },
     "text4-federal-state-boundary": {
       "coverage_gap": true,
@@ -557,7 +573,15 @@
     },
     "familiar-word-polysemy": {
       "coverage_gap": false,
-      "reason": "新增sermon的宗教义、piling的实体堆放和投诉数量累积两个不同语境。"
+      "reason": "新增runway和arbiters两个独立语境；五处画框词汇仍单独归档。"
+    },
+    "modal-stage": {
+      "coverage_gap": false,
+      "reason": "新增电池维修标准与医院交接清单语境，区分尝试制定、条件性预期结果及已经生效。"
+    },
+    "process-stage-role": {
+      "coverage_gap": false,
+      "reason": "新增时尚守则和实验室安全语境，区分标准内容、违规原因、制裁手段，并区分character与characteristics。"
     }
   },
   "historical_content_findings": [

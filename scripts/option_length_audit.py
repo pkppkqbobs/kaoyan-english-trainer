@@ -69,7 +69,7 @@ def scan(root=ROOT):
         questions[key] = row
         groups.setdefault(entry['pool'], []).append(row)
     return {'pools': {key: summarize(value) for key, value in sorted(groups.items())},
-            'questions': questions}
+            'questions': dict(sorted(questions.items()))}
 
 
 def report(root=ROOT):

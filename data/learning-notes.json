@@ -2129,5 +2129,136 @@
       "明确画框词汇与表达的翻译",
       "画框、主动提问和教学补充分开归档"
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "session_id": "2026-11-02-2016-text1",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; preserve unresolved identifiers and choices. No web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "user_reported_confusion",
+    "source_question": null,
+    "source_questions": [
+      21
+    ],
+    "candidate_choices": [
+      "B"
+    ],
+    "final_choice_letter_confirmed": false,
+    "question_number_as_reported": 31,
+    "question_number_candidate": 21,
+    "question_number_status": "unconfirmed",
+    "user_quote": "31我选了B，现在看确实不太对。",
+    "user_reported_reasoning": "原话写第31题；结合本篇21—25题范围，可能是第21题输入笔误，但未获确认。只保留B为候选选择，不确认题号、最终选项或错题身份。",
+    "note": "题号歧义必须保留：用户原话是“31我选了B”，本篇范围为21—25，可能指第21题，但不能自行改号。若确认指第21题，则B为New runways would be constructed，标准答案表为A Physical beauty would be redefined。runway在时装秀语境中是模特行走的T台，不是机场跑道；原选项B抓住runways这一局部词形，却把时装展示语境改成机场基础设施。此处仅作条件性教学解释，不能据此确认用户的题号、最终选择或错题身份。",
+    "conditional_reference_answer": "A",
+    "training_targets": [
+      "runway在时装秀与航空语境中的词义区别",
+      "关键词重合不等于事件相同",
+      "保留题号和最终选择的未知状态"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "session_id": "2026-11-02-2016-text1",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; preserve unresolved identifiers and choices. No web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "modal-stage",
+    "kind": "user_reported_wrong",
+    "source_question": 23,
+    "expected": "B",
+    "reported_pick": "A",
+    "final_choice_letter_confirmed": true,
+    "user_quote": "23我选了A没选B，就是因为我看到了trying to，正在尝试，怎么可以说已经建立啊。所以我对23的B还是不服气。",
+    "user_reported_reasoning": "用户明确确认第23题选A，标准答案表为B。用户认为is trying to set表示正在尝试制定，因此would be constructed会错误地表示标准已经建立；用户仍不接受B。",
+    "note": "真实纸质错题，但概念疑问尚未解决。原文is trying to set表示正在努力制定标准；选项B的准确文字是New standards would be constructed，不是are being set。would be constructed是情态动词加被动结构，表达预期、设想或条件下将形成的结果，不表示have been constructed/已经制定完成。B概括正在推动制定新标准这一行动及其预期结果，并没有把标准说成已经建立。原文if fully enforced还提示全面执行效果有条件，不能将尝试、未来结果和已完成事实混为一谈。后续疑问（2026-11-02）：用户仍不服气，认为trying to强调正在尝试，为何可以对应would be constructed；该疑问尚未解决，后续需通过不同语境迁移验证。",
+    "unresolved_question": "为什么正在尝试制定可以由would be constructed概括，而不意味着标准已经建立？",
+    "note_status": "unresolved",
+    "training_targets": [
+      "is trying to do与would be done的语义关系",
+      "would be constructed不等于have been constructed",
+      "尝试、预期、实施、完成四个阶段的区别"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "session_id": "2026-11-02-2016-text1",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; preserve unresolved identifiers and choices. No web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "process-stage-role",
+    "kind": "user_reported_wrong",
+    "source_question": 24,
+    "expected": "C",
+    "reported_pick": "B",
+    "final_choice_letter_confirmed": true,
+    "user_quote": "24我选了B，是因为the charter main那一句，我认为就是说把角色作为主要的实现是拒绝的原因，所以我感觉选B。",
+    "user_reported_reasoning": "用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。",
+    "note": "真实纸质错题。规则内容是模特的年龄、健康状况及其他特征（characteristics）；宪章的执行手段是拒绝设计师和模特经纪公司进入CFW。题目问设计师最可能因为什么受到拒绝，应回到规则所规定的健康等标准，而不是把执行方式当作违规原因。还需区分character（性格、品格）与characteristics（特征、特点）：原文谈的是模特的年龄、健康等特征，不是设计师或模特的性格。",
+    "training_targets": [
+      "规则内容、违规原因与执行机制的区分",
+      "character与characteristics的词义区别",
+      "题干问原因时回到规则标准而非制裁手段"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "session_id": "2026-11-02-2016-text1",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; preserve unresolved identifiers and choices. No web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "title-coverage",
+    "kind": "user_reported_wrong",
+    "source_question": 25,
+    "expected": "A",
+    "reported_pick": "C",
+    "final_choice_letter_confirmed": true,
+    "user_quote": "25我选的C，感觉就是很合适啊。",
+    "user_reported_reasoning": "用户明确确认第25题选C，标准答案表为A。用户认为C与文章话题相关，但C没有准确覆盖全文的核心争议对象。",
+    "note": "真实纸质错题。C Just Another Round of Struggle for Beauty与文章谈论美有关，但概括过宽，没有点明争议针对时尚产业长期确立的身体审美标准。A A Challenge to the Fashion Industry's Body Ideals同时覆盖被挑战的主体（时尚产业）和争议核心（身体理想/审美标准），对全文的覆盖更准确。标题判断不能只看相关词，要看是否准确概括核心对象和中心论点。",
+    "training_targets": [
+      "标题覆盖范围",
+      "话题相关性与主旨准确性的区别",
+      "识别标题中的核心对象与争议焦点"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "session_id": "2026-11-02-2016-text1",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; preserve unresolved identifiers and choices. No web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "uplifting",
+      "faintly",
+      "arbiters",
+      "intangible",
+      "adornment"
+    ],
+    "note": "仅登记原始照片中明确画框的五个词：uplifting motives=令人振奋/积极向上的动机；faintly hint=隐约暗示；arbiters of beauty=美的裁定者、评判者；intangible qualities=无形的内在品质；material adornment=外在的物质装饰/修饰。画框只表示翻译困难；不把画横线内容自动加入生词，也不把教学补充词扩成画框。",
+    "training_targets": [
+      "五处画框词汇及搭配的语境翻译",
+      "区分画框翻译困难与画横线阅读证据"
+    ]
   }
 ]

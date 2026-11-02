@@ -406,7 +406,7 @@
       "slow_or_uncertain": true,
       "reported_confusion": true,
       "observed_days": 3,
-      "observation_priority": 3
+      "observation_priority": 2
     },
     "feature-verb": {
       "streak": 0,
@@ -506,6 +506,16 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2,
+      "observation_priority": 3
+    },
+    "modal-stage": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
       "observation_priority": 3
     },
     "negative-ellipsis-afford": {
@@ -609,14 +619,14 @@
       "observation_priority": 2
     },
     "process-stage-role": {
-      "streak": 2,
+      "streak": 0,
       "errors": 4,
       "last": "2026-10-31",
-      "due": "2026-11-04",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 10,
-      "observation_priority": 0
+      "observation_priority": 3
     },
     "provoke-family": {
       "streak": 0,
@@ -892,7 +902,7 @@
       "streak": 0,
       "errors": 0,
       "last": "2026-10-24",
-      "due": "2026-10-25",
+      "due": "2026-11-02",
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2,
