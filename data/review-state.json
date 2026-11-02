@@ -496,7 +496,7 @@
       "slow_or_uncertain": false,
       "reported_confusion": true,
       "observed_days": 2,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "negative-ellipsis-afford": {
       "streak": 0,
@@ -509,14 +509,14 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 7,
+      "streak": 0,
       "errors": 1,
       "last": "2026-11-01",
-      "due": "2026-11-22",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 13,
-      "observation_priority": 0
+      "observation_priority": 2
     },
     "paragraph-order-anaphora": {
       "streak": 0,
@@ -977,6 +977,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "action-collocation": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     }
   },
   "unmapped_targets": []
