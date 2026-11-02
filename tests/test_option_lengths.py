@@ -53,6 +53,7 @@ class OptionLengthTests(unittest.TestCase):
     def test_report_reproduces_current_data_and_labels_guesses_not_user_scores(self):
         current = audit.report(ROOT)
         self.assertEqual(current, review.load(ROOT / 'data/option-length-audit.json'))
+        self.assertEqual(list(current['after']['questions']), sorted(current['after']['questions']))
         self.assertTrue(current['audit_is_not_scoring_evidence'])
         self.assertIn('not user scores', current['definitions']['guessing'])
         for pool in ('daily_article', 'home_legacy'):
