@@ -271,12 +271,12 @@
     "budget": 45,
     "target": "wrap vs tie",
     "skill": "包裹与打结的动作区别",
-    "q": "Before shipping a glass instrument, a clerk covered it with protective cloth, folding the cloth around the case in several layers. No knot or fastening was used. Which verb best describes the action?",
+    "q": "Before shipping a glass instrument, a clerk covered it with protective cloth, folding the cloth around the case in several layers. No knot or fastening was used. Which paraphrase best describes the action?",
     "o": [
-      "wrapped",
-      "tied",
-      "passed",
-      "lit"
+      "wrapped the case in protective cloth",
+      "tied the cloth tightly around the case",
+      "passed the cloth to a colleague nearby",
+      "lit the cloth with a match"
     ],
     "a": 0,
     "exp": {
@@ -393,10 +393,10 @@
     "skill": "名词性结构与从句内部关系",
     "q": "The registrar will accept whatever documents the applicant submits before Friday. What role does the underlined phrase play?",
     "o": [
-      "It is the object of accept and means any documents the applicant submits.",
+      "It is the object of accept: any documents the applicant submits.",
       "It is the subject of submits and refers to the registrar.",
-      "It is a direct question about which documents are available.",
-      "It modifies Friday and gives the reason for the deadline."
+      "It asks which documents the applicant may submit.",
+      "It modifies Friday and explains the reason for the deadline."
     ],
     "a": 0,
     "exp": {
@@ -417,9 +417,9 @@
     "skill": "并列对象与适用范围",
     "q": "Access to the laboratory is granted to visiting researchers as well as to permanent staff. Which statement follows?",
     "o": [
-      "Both visiting researchers and permanent staff may receive access.",
+      "Both groups may receive laboratory access.",
       "Only permanent staff may enter the laboratory.",
-      "Visiting researchers replace the permanent staff.",
+      "Visiting researchers replace permanent staff.",
       "Only researchers with permanent contracts may apply."
     ],
     "a": 0,
