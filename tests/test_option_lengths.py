@@ -69,7 +69,9 @@ class OptionLengthTests(unittest.TestCase):
             before = {p: p.read_bytes() for p in [*root.glob('*.html'), *(root / 'data').rglob('*.json')]}
             audit.build(root)
             audit.build(root)
-            self.assertEqual({p: p.read_bytes() for p in before}, before)
+            after = {p: p.read_bytes() for p in before}
+            changed = [str(p.relative_to(root)) for p in before if after[p] != before[p]]
+            self.assertEqual(changed, [])
             day = review.load(root / 'data/review-state.json')['as_of']
             rows = review.load(root / 'data/result-evidence.json')['rows']
             notes = review.load(root / 'data/learning-notes.json')
