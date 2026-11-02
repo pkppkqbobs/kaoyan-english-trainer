@@ -177,7 +177,8 @@ class ProgressAuditTests(unittest.TestCase):
             with contextlib.redirect_stdout(io.StringIO()):
                 article_review.build(root)
                 partb_review.build(root)
-            self.assertTrue(all(p.read_bytes() == content for p, content in immutable_before.items()))
+            changed = [str(p.relative_to(root)) for p, content in immutable_before.items() if p.read_bytes() != content]
+            self.assertEqual(changed, [])
 
             # After first-time generation, two further builds must be idempotent
             # including the newly published article and history index.
