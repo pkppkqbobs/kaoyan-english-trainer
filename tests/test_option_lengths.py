@@ -70,8 +70,15 @@ class OptionLengthTests(unittest.TestCase):
             audit.build(root)
             audit.build(root)
             after = {p: p.read_bytes() for p in before}
-            changed = [str(p.relative_to(root)) for p in before if after[p] != before[p]]
-            self.assertEqual(changed, [])
+            changed = [p for p in before if after[p] != before[p]]
+            if changed:
+                path = changed[0]
+                old_text = before[path].decode("utf-8")
+                new_text = after[path].decode("utf-8")
+                offset = next((i for i, (a, b) in enumerate(zip(old_text, new_text)) if a != b), min(len(old_text), len(new_text)))
+                self.fail(f"{path.relative_to(root)} differs after audit rebuild at byte {offset}: "
+                          f"before={old_text[max(0, offset-100):offset+180]!r}; "
+                          f"after={new_text[max(0, offset-100):offset+180]!r}")
             day = review.load(root / 'data/review-state.json')['as_of']
             rows = review.load(root / 'data/result-evidence.json')['rows']
             notes = review.load(root / 'data/learning-notes.json')
