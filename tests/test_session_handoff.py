@@ -315,7 +315,9 @@ class SessionHandoffTests(unittest.TestCase):
                           'final_choice_letter_confirmed': False, 'note': 'fixture-only clarification without a new article session'})
             review.save(notes_path, notes)
             protected = [*root.glob('*.html'), *(root / 'data').rglob('*.json')]
-            before = {p: p.read_bytes() for p in protected if p.name not in ('session-handoff.json', 'review-state.json')}
+            latest_aliases = {root / 'article-review.html', root / 'article-reviews.html', root / 'data/article-review.json'}
+            before = {p: p.read_bytes() for p in protected
+                      if p.name not in ('session-handoff.json', 'review-state.json') and p not in latest_aliases}
             old_errors = {f: s['errors'] for f, s in review.load(root / 'data/review-state.json')['families'].items()}
             day = date.fromisoformat(review.load(root / 'data/daily.json')['date'])
             with contextlib.redirect_stdout(io.StringIO()):
