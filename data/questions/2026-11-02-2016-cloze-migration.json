@@ -1,0 +1,434 @@
+[
+  {
+    "id": "cloze-as-well-as-those-of-a",
+    "family": "relation-collocation",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 45,
+    "target": "as well as / those of",
+    "skill": "并列成分与名词替代",
+    "q": "The audit compared the repair costs of the northern depot as well as those of the southern depot. Which paraphrase preserves both objects of comparison?",
+    "o": [
+      "It compared repair costs at both depots.",
+      "It compared the depots themselves, not their repair costs.",
+      "It considered only costs shared by the two depots.",
+      "It asked the southern depot to repair the northern one."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "审计比较了北部仓库和南部仓库的维修成本。as well as把后一个并列对象补充到前一个对象上；those of the southern depot中的those替代前面的复数名词costs。",
+      "structure": "主干：The audit（主语）+ compared（谓语）+ the repair costs...（宾语）。宾语内部由the repair costs of the northern depot和those of the southern depot并列；those指代repair costs，of短语说明成本属于哪个仓库。",
+      "other": "audit审计；depot仓库/站点；repair cost维修成本；preserve保留。",
+      "meaning": "as well as在句中表示“以及/还有”；those of是名词替代结构，避免重复repair costs。判断并列时要看两个成分在语法和语义上是否对应。",
+      "rest": "把仓库本身当比较对象，忽略了句子明确比较的是维修成本；只比较共同成本加入了only和shared的限制；让南部仓库修理北部仓库则凭空增加了维修动作。"
+    }
+  },
+  {
+    "id": "cloze-that-of-pump-failure-rate-b",
+    "family": "relation-collocation",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 45,
+    "target": "that of / 比较对象替代",
+    "skill": "名词替代与比较对象",
+    "q": "The failure rate of older pumps was higher than that of newer models. In this comparison, that of newer models refers to:",
+    "o": [
+      "the age of the newer models",
+      "the failure rate of the newer models",
+      "the number of older pumps",
+      "the repair cost of the older models"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "旧型号水泵的故障率高于新型号水泵的故障率。that替代前面的单数名词failure rate。",
+      "structure": "比较结构为The failure rate of older pumps（比较对象一）+ was higher than + that of newer models（比较对象二）。that代替failure rate，of newer models限定这一故障率属于新型号。",
+      "other": "failure rate故障率；pump水泵；model型号；comparison比较。",
+      "meaning": "that of可替代前面出现的单数名词，避免重复。先确定被替代的名词，再确定of短语所属的对象。",
+      "rest": "newer models的年龄不是比较的指标；旧水泵的数量没有出现在比较结构中；repair cost是新添的指标，而且对象也不对。"
+    }
+  },
+  {
+    "id": "cloze-hiring-likely-candidate-b",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 50,
+    "target": "likely candidate / decide on / arrange",
+    "skill": "可能人选、选定与安排流程",
+    "q": "A hiring panel decided on a likely candidate for a vacant post and asked HR to arrange interviews. Which account is justified?",
+    "o": [
+      "The panel selected a plausible applicant and asked HR to organize interviews.",
+      "The panel invented an imaginary applicant to delay the hiring process.",
+      "The panel postponed every interview until another vacancy appeared.",
+      "The applicant had accepted the post before the panel made a choice."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "招聘小组选定了一名可能合适的岗位人选，并请人力资源部门安排面试。原文支持“选出可能人选并安排面试”，不支持虚构人物或推迟招聘。",
+      "structure": "A hiring panel是主语，decided on是谓语，a likely candidate是宾语；for a vacant post限定候选人对应的岗位。asked HR to arrange interviews说明后续安排动作。",
+      "other": "vacant post空缺职位；candidate候选人；plausible看起来合适的；HR人力资源部门。",
+      "meaning": "likely candidate指可能合适的人选；decide on表示选定；arrange interviews表示安排面试。三个动作构成正常招聘流程。",
+      "rest": "imaginary applicant把likely误解成虚构并凭空添加拖延动机；postpone表示推迟，与arrange相反；候选人已经接受职位则把面试前的选择流程倒置成已录用。"
+    }
+  },
+  {
+    "id": "cloze-clinic-likely-site-c",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 50,
+    "target": "likely site / arrange talks / 未确认结果",
+    "skill": "可能性与后续流程边界",
+    "q": "After comparing flood maps, planners selected a likely site for a clinic and arranged talks with nearby residents. The talks have not yet occurred. Which conclusion is justified?",
+    "o": [
+      "They chose a possible site and arranged talks with residents.",
+      "They approved a final site after completing public consultation.",
+      "They invented a location to delay the construction work.",
+      "They cancelled the clinic because residents opposed it."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "比较洪水地图后，规划人员选定了一个可能的诊所选址，并安排与附近居民会谈；会谈尚未举行。可以确认的是他们选出了一个可能地点并安排讨论，不能说最终选址已批准。",
+      "structure": "After comparing...交代背景；主句planners selected... and arranged...有两个并列谓语。likely修饰site，说明可能性；The talks have not yet occurred明确后续会谈仍未发生。",
+      "other": "flood map洪水地图；site地点/选址；consultation协商；approve批准。",
+      "meaning": "likely site是可能的选址，不等于已经最终确定；arrange talks表示安排会谈，不等于会谈已经完成。",
+      "rest": "final site和completed consultation把可能性与未发生的会谈升级为已完成事实；invented a location凭空增加虚构动机；cancelled the clinic及居民反对均无文本依据。"
+    }
+  },
+  {
+    "id": "cloze-marry-into-bakery-family-d",
+    "family": "relation-collocation",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "marry into a family",
+    "skill": "marry somebody / marry into",
+    "q": "After marrying into the family that owns the bakery, Mira began helping with its accounts. What does marrying into the family mean?",
+    "o": [
+      "She became part of the family through marriage.",
+      "She married every member of the family.",
+      "She arranged a marriage for the family.",
+      "She rented a room in the family's house."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "嫁入拥有这家面包店的家庭后，Mira开始帮忙处理账目。marry into the family表示通过婚姻成为这个家庭的一员。",
+      "structure": "After marrying into...是时间状语；主句Mira began helping...。that owns the bakery是修饰family的定语从句。",
+      "other": "bakery面包店；account账目；become part of成为……的一部分；through marriage通过婚姻。",
+      "meaning": "marry somebody表示与某人结婚；marry into a family表示通过婚姻进入某个家庭或社会关系。",
+      "rest": "不是与家庭每一位成员分别结婚；不是替家庭安排婚事；也不是仅仅租住在家庭的房子里。"
+    }
+  },
+  {
+    "id": "cloze-by-way-of-port-e",
+    "family": "relation-collocation",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "by way of",
+    "skill": "介词短语与路径表达",
+    "q": "The relief shipment reached the island by way of a smaller port after the main harbor closed. Here, by way of means:",
+    "o": [
+      "through or via the smaller port",
+      "in order to repair the smaller port",
+      "because the smaller port had closed",
+      "instead of using any port at all"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "主要港口关闭后，救援物资经由一个较小的港口抵达岛上。by way of表示经由、通过。",
+      "structure": "The relief shipment是主语，reached是谓语，the island是宾语；by way of a smaller port说明到达路线。",
+      "other": "relief shipment救援物资；harbor港口；via经由；close关闭。",
+      "meaning": "by way of + 地点表示经过某处、经由某处；此处说明路线，不表示目的或原因。",
+      "rest": "in order to表达目的，原句没有修港口的动作；because表示原因，不能解释到达路线；instead of表示替代，且与物资实际经过小港口相反。"
+    }
+  },
+  {
+    "id": "cloze-on-his-own-calibration-f",
+    "family": "relation-collocation",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "on his own",
+    "skill": "固定表达与独立完成",
+    "q": "After the supervisor demonstrated the procedure, the trainee completed the calibration on his own. Here, on his own means:",
+    "o": [
+      "without help from another person",
+      "under the supervisor's direct control",
+      "using equipment that belongs to him",
+      "because he had no other assignment"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "主管演示流程后，实习人员独自完成了校准。on his own表示独自地、没有他人帮助。",
+      "structure": "After引导时间状语；主句the trainee completed the calibration，on his own补充说明完成动作的方式。",
+      "other": "supervisor主管；procedure流程；trainee实习人员；calibration校准。",
+      "meaning": "on one's own常表示独自完成或不依靠他人；这里描述完成校准时的独立状态。",
+      "rest": "under direct control表示受主管控制，与独自完成相反；设备所有权不是句子重点；没有其他任务也不是on his own的含义。"
+    }
+  },
+  {
+    "id": "cloze-sermon-sunday-service-g",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 35,
+    "target": "sermon",
+    "skill": "语境中的宗教词汇",
+    "q": "The minister delivered a sermon on forgiveness during the Sunday service. A sermon is:",
+    "o": [
+      "a religious talk given to a congregation",
+      "a written list of payments due to a church",
+      "a private meeting to arrange a marriage",
+      "a short announcement about the weather"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "牧师在周日礼拜期间发表了一篇关于宽恕的布道。sermon指布道、宗教讲道。",
+      "structure": "The minister是主语，delivered是谓语，a sermon是宾语；on forgiveness说明讲道主题，during the Sunday service说明时间场景。",
+      "other": "minister牧师；forgiveness宽恕；congregation会众；service礼拜。",
+      "meaning": "sermon通常指宗教场合面向会众的讲道，也可引申为带有训诫意味的长篇说教。",
+      "rest": "教会应付款清单、安排婚姻的私人会议和天气公告都不符合minister、Sunday service及forgiveness共同构成的宗教语境。"
+    }
+  },
+  {
+    "id": "cloze-piling-crates-h",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 35,
+    "target": "piling",
+    "skill": "动词动作与堆叠场景",
+    "q": "Workers were piling empty crates beside the loading bay before the delivery arrived. Piling means:",
+    "o": [
+      "stacking them together in a heap",
+      "checking each one for a label",
+      "sending them to a distant warehouse",
+      "taking them apart for repair"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "货物送达前，工人正在装卸区旁把空箱子堆起来。piling在此表示堆放、堆叠。",
+      "structure": "Workers是主语，were piling是过去进行时谓语，empty crates是宾语；beside the loading bay说明堆放地点。",
+      "other": "crate板条箱；loading bay装卸区；stack堆叠；delivery送货。",
+      "meaning": "pile可作动词，表示把物品堆成一堆；具体动作由宾语empty crates和地点beside the loading bay确定。",
+      "rest": "检查标签、运往仓库和拆开维修都是其他操作，不能表达把箱子堆在一起。"
+    }
+  },
+  {
+    "id": "cloze-piling-up-complaints-i",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "pile up / 抽象累积",
+    "skill": "同一动词的具体与抽象语境",
+    "q": "After the booking website failed, complaints began piling up in the customer-service inbox. What does piling up mean here?",
+    "o": [
+      "being deleted one by one",
+      "accumulating in increasing numbers",
+      "being answered before they arrived",
+      "being transferred to another company"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "预约网站故障后，客服收件箱里的投诉开始不断累积。piling up在此表示数量越来越多。",
+      "structure": "complaints是主语，began piling up是谓语结构；in the customer-service inbox说明累积的位置。",
+      "other": "booking website预约网站；complaint投诉；accumulate累积；inbox收件箱。",
+      "meaning": "pile up既可指把实体物品堆叠起来，也可引申为问题、工作或投诉数量不断累积；这里不是把投诉作为实体搬动。",
+      "rest": "删除、提前答复和转交给其他公司都不是数量持续增加的意思。"
+    }
+  },
+  {
+    "id": "cloze-tie-pass-calibration-cord-j",
+    "family": "action-collocation",
+    "introduced": "2026-11-01",
+    "published_on": "2026-11-02",
+    "budget": 50,
+    "target": "tie / pass around",
+    "skill": "完整动作与动作对象",
+    "q": "During a field inspection, a technician fastened a thin cord around the sensor housing by making a knot. The team then handed a calibration weight from one person to the next. Which pair describes the actions?",
+    "o": [
+      "wrapped the cord / carried the weight",
+      "tied the cord / passed the weight",
+      "passed the cord / tied the weight",
+      "lit the cord / wrapped the weight"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "现场检查时，技术员打结把细绳系在传感器外壳上；随后团队成员把校准砝码从一人手中传到下一人手中。对应动作是tie和pass。",
+      "structure": "第一句technician fastened...by making a knot，by短语明确系绳方式是打结；第二句the team handed...from one person to the next，明确物体在人与人之间转交。",
+      "other": "field inspection现场检查；sensor housing传感器外壳；calibration weight校准砝码；knot结。",
+      "meaning": "tie表示系住、打结；pass something from one person to the next表示把东西传递给下一个人。要识别动作的结果和路径。",
+      "rest": "wrap表示包裹或缠绕，未必形成固定的结；carry表示携带而非交到下一人手中；pass the cord / tie the weight把两个动作对象对调；light和wrap都不符合句中动作。"
+    }
+  },
+  {
+    "id": "cloze-wrap-protective-cloth-k",
+    "family": "action-collocation",
+    "introduced": "2026-11-01",
+    "published_on": "2026-11-02",
+    "budget": 45,
+    "target": "wrap vs tie",
+    "skill": "包裹与打结的动作区别",
+    "q": "Before shipping a glass instrument, a clerk covered it with protective cloth, folding the cloth around the case in several layers. No knot or fastening was used. Which verb best describes the action?",
+    "o": [
+      "wrapped",
+      "tied",
+      "passed",
+      "lit"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "发运玻璃仪器前，工作人员用防护布包住仪器，把布一层层折叠在外壳周围；没有打结或固定。动作是包裹。",
+      "structure": "a clerk covered it...是主干；folding the cloth around the case补充包裹方式；No knot or fastening was used排除了打结固定。",
+      "other": "protective cloth防护布；case外壳；layer层；fastening固定件/固定动作。",
+      "meaning": "wrap强调用材料包住或缠绕物体；tie强调用绳带系住，常包含打结或固定。此处布料覆盖并折叠，没有系结。",
+      "rest": "tie要求系住/固定的动作，题干明确说没有knot或fastening；pass表示传递；light表示点燃，均不符合包裹仪器的场景。"
+    }
+  },
+  {
+    "id": "cloze-pass-light-camp-drill-l",
+    "family": "action-collocation",
+    "introduced": "2026-11-01",
+    "published_on": "2026-11-02",
+    "budget": 45,
+    "target": "pass / light",
+    "skill": "完整动作与动作路径",
+    "q": "At a camp safety drill, one camper handed a lantern from the first person to the last; another lit a stove after the group had settled. Which pair describes the actions?",
+    "o": [
+      "lit the lantern / passed the stove",
+      "passed the lantern / lit the stove",
+      "wrapped the lantern / tied the stove",
+      "tied the lantern / wrapped the stove"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "营地安全演练中，一名露营者把灯笼从队伍第一个人传到最后一个人；另一人等大家安顿后点燃了炉子。动作分别是传递灯笼和点燃炉子。",
+      "structure": "one camper handed a lantern...是第一项动作；from the first person to the last给出传递路径。another lit a stove是第二项动作，after从句说明时间。",
+      "other": "camp safety drill营地安全演练；lantern灯笼；stove炉子；settle安顿下来。",
+      "meaning": "pass表示把物品从一个人交给另一个人；light表示点燃。要把动词与其实际宾语及动作路径配对。",
+      "rest": "把lit和passed的对象对调；wrap和tie表示包裹/系绑，不符合手递手传灯笼或点燃炉子的动作。"
+    }
+  },
+  {
+    "id": "cloze-until-whereas-archive-m",
+    "family": "logic",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 50,
+    "target": "until / whereas",
+    "skill": "时间终点与对比关系",
+    "q": "The archivist kept the fragile maps in a sealed cabinet ___ humidity fell below the safe limit, ___ the digitization team continued scanning copies in the next room. Choose the best pair.",
+    "o": [
+      "until / whereas",
+      "whereas / until",
+      "although / because",
+      "because / although"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "湿度降到安全范围以下之前，档案管理员一直把易损地图放在密封柜里；与此同时，数字化团队则在隔壁继续扫描副本。",
+      "structure": "第一空连接kept...与humidity fell，表示保存状态持续到某个时间点；第二空连接两组同时发生但不同的安排，表示对比。",
+      "other": "archivist档案管理员；fragile易损的；sealed密封的；digitization数字化。",
+      "meaning": "until表示直到某个时间点为止；whereas表示而/然而，用于对照两个主体或情况。时间终点不能用对比连词替代。",
+      "rest": "whereas不能表达第一分句持续到湿度下降这一时间终点；until不适合第二空的两种安排对比；although表示让步，because表示原因，都不符合两处关系。"
+    }
+  },
+  {
+    "id": "cloze-up-to-generator-days-n",
+    "family": "logic",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "up to / 最大范围",
+    "skill": "上限与必须达到的时长",
+    "q": "Residents may borrow a portable generator for up to ten days; they can return it earlier. What does up to ten days mean?",
+    "o": [
+      "Ten days is the maximum period, not a required stay.",
+      "Every borrower must keep it for exactly ten days.",
+      "Borrowers may keep it for more than ten days.",
+      "The generator can only be used on the tenth day."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "居民最多可以借用便携式发电机十天，也可以提前归还。up to ten days表示最长十天。",
+      "structure": "may borrow表达许可；for up to ten days限定允许借用的最长时长；they can return it earlier进一步说明不要求用满十天。",
+      "other": "portable便携式；generator发电机；maximum最大值；earlier更早地。",
+      "meaning": "up to + 数量/时长表示上限，不表示必须达到该数量或持续完整时段。",
+      "rest": "exactly ten days把上限改成固定时长；more than ten days超过了明示上限；only on the tenth day把持续时间误解成某一天的使用许可。"
+    }
+  },
+  {
+    "id": "cloze-whatever-equipment-workshop-o",
+    "family": "nested",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 60,
+    "target": "whatever + 名词 / 嵌入式修饰结构",
+    "skill": "名词短语内部结构与主句宾语",
+    "q": "The workshop lets each visiting researcher retain whatever equipment they brought for the project. Which analysis is accurate?",
+    "o": [
+      "The phrase is the subject of lets and refers to the researcher.",
+      "The whole phrase is the object of retain; whatever determines equipment.",
+      "The phrase is a direct question asking what equipment was brought.",
+      "The phrase modifies workshop and explains why the visit occurred."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "工作坊允许每位来访研究人员保留自己为项目带来的任何设备。whatever equipment they brought for the project整体作retain的宾语。",
+      "structure": "主句骨架：The workshop lets each visiting researcher retain something。whatever equipment they brought for the project替换something，整体是retain的宾语；whatever限定equipment，they brought for the project修饰equipment。",
+      "other": "workshop工作坊；visiting researcher来访研究人员；retain保留；equipment设备。",
+      "meaning": "whatever + 名词可表示“任何……/所……的任何东西”。先识别整个名词短语在主句中的位置，再分析短语内部的限定词和修饰从句。",
+      "rest": "主句主语是The workshop，不是whatever短语；这里不是直接疑问句；whatever短语不修饰workshop，也不说明访问原因。"
+    }
+  },
+  {
+    "id": "cloze-whatever-documents-registrar-p",
+    "family": "nested",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 60,
+    "target": "whatever + 名词 / 整体作宾语",
+    "skill": "名词性结构与从句内部关系",
+    "q": "The registrar will accept whatever documents the applicant submits before Friday. What role does the underlined phrase play?",
+    "o": [
+      "It is the object of accept and means any documents the applicant submits.",
+      "It is the subject of submits and refers to the registrar.",
+      "It is a direct question about which documents are available.",
+      "It modifies Friday and gives the reason for the deadline."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "登记员会接受申请人在周五之前提交的任何文件。whatever documents the applicant submits整体作accept的宾语。",
+      "structure": "主句：The registrar will accept something。whatever documents the applicant submits before Friday整体替代something，作accept的宾语；the applicant submits是修饰documents的限定性关系结构，documents是submits的宾语。",
+      "other": "registrar登记员；applicant申请人；submit提交；deadline截止时间。",
+      "meaning": "whatever + 名词表示任何符合后续限定的该类事物；整个短语可以在主句中作宾语。要区分外层动词accept与内层从句谓语submits。",
+      "rest": "underlined phrase不是submits的主语，内层主语是the applicant；这不是直接疑问句；Friday是before的宾语，不是被whatever短语修饰的对象，也没有说明截止原因。"
+    }
+  },
+  {
+    "id": "cloze-as-well-as-access-policy-q",
+    "family": "relation-collocation",
+    "introduced": null,
+    "published_on": "2026-11-02",
+    "budget": 40,
+    "target": "as well as / 附加范围",
+    "skill": "并列对象与适用范围",
+    "q": "Access to the laboratory is granted to visiting researchers as well as to permanent staff. Which statement follows?",
+    "o": [
+      "Both visiting researchers and permanent staff may receive access.",
+      "Only permanent staff may enter the laboratory.",
+      "Visiting researchers replace the permanent staff.",
+      "Only researchers with permanent contracts may apply."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "实验室既向来访研究人员开放，也向正式员工开放。as well as把第二类适用对象补充到第一类对象上。",
+      "structure": "Access is granted to A as well as to B；两个to短语处于并列层级，分别表示获得访问权限的两类人。",
+      "other": "access访问权限；visiting researcher来访研究人员；permanent staff正式员工；grant给予。",
+      "meaning": "as well as表示“以及/也包括”，在这里扩展规则适用对象，并不排除前一个对象。",
+      "rest": "only把规则缩小到正式员工；replace把补充关系改成替代关系；permanent contracts是原文没有提出的额外条件。"
+    }
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-10-31",
+  "reviewed_on": "2026-11-02",
   "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -348,7 +348,25 @@
     "evaluation-help-centre-speed": "help-centre-speed-above-service",
     "evaluation-arts-prize-accounts": "arts-prize-revenue-vs-honest-costs",
     "inference-pending-auditions": "awards-confirmed-vs-pending-auditions",
-    "inference-seed-label-inspections": "seed-labels-known-vs-uninspected"
+    "inference-seed-label-inspections": "seed-labels-known-vs-uninspected",
+    "cloze-as-well-as-those-of-a": "depots-parallel-costs",
+    "cloze-that-of-pump-failure-rate-b": "pump-failure-rate-comparison",
+    "cloze-hiring-likely-candidate-b": "hiring-shortlist-not-fiction",
+    "cloze-clinic-likely-site-c": "clinic-site-pending-talks",
+    "cloze-marry-into-bakery-family-d": "marriage-into-bakery-family",
+    "cloze-by-way-of-port-e": "shipment-route-by-way-of-port",
+    "cloze-on-his-own-calibration-f": "independent-calibration-on-his-own",
+    "cloze-sermon-sunday-service-g": "sermon-sunday-service",
+    "cloze-piling-crates-h": "literal-piling-of-crates",
+    "cloze-piling-up-complaints-i": "figurative-piling-up-complaints",
+    "cloze-tie-pass-calibration-cord-j": "knot-tying-and-object-transfer",
+    "cloze-wrap-protective-cloth-k": "wrapping-without-knot",
+    "cloze-pass-light-camp-drill-l": "lantern-transfer-and-stove-lighting",
+    "cloze-until-whereas-archive-m": "archive-temporal-endpoint-and-contrast",
+    "cloze-up-to-generator-days-n": "generator-loan-maximum-duration",
+    "cloze-whatever-equipment-workshop-o": "whatever-equipment-as-object",
+    "cloze-whatever-documents-registrar-p": "whatever-documents-as-object",
+    "cloze-as-well-as-access-policy-q": "laboratory-access-parallel-classes"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -414,7 +432,25 @@
     "help-centre-speed-above-service": "以复杂来电被挂断的后果判断绩效价值取向，不把批评误当道德要求过严。",
     "arts-prize-revenue-vs-honest-costs": "奖项重票房而轻如实报告的对照，区分价值观批评、严格准则与未经证明的全员造假。",
     "awards-confirmed-vs-pending-auditions": "既有奖项与未完成试演并列，正向结果也不能从等待程序中推出。",
-    "seed-labels-known-vs-uninspected": "已知标签错误与尚未检查对象分开；发现不能外推为全部错误或偏见证据。"
+    "seed-labels-known-vs-uninspected": "已知标签错误与尚未检查对象分开；发现不能外推为全部错误或偏见证据。",
+    "depots-parallel-costs": "审计成本比较语境：as well as连接两类成本，those of回指repair costs；不同于原题婚姻关系，需同时识别并列对象和名词替代。",
+    "pump-failure-rate-comparison": "泵故障率比较语境：that of替代failure rate，检验比较对象和名词替代，不沿用人际关系语境。",
+    "hiring-shortlist-not-fiction": "招聘短名单语境：likely candidate是可能合适的人选，decide on是选定，arrange interviews是安排面试；专门阻断把likely解释成虚构、把arrange解释成推迟的故事推断。",
+    "clinic-site-pending-talks": "诊所选址语境：可能选址与尚未举行的居民会谈分开，检验流程阶段和结论确定性。",
+    "marriage-into-bakery-family": "面包店家族语境：marry into表示通过婚姻进入家庭，区别于直接与某人结婚或替别人安排婚姻。",
+    "shipment-route-by-way-of-port": "救援运输路线语境：by way of表示经由，利用路线而非目的或原因判断。",
+    "independent-calibration-on-his-own": "设备校准语境：on his own表示独立完成，区别于设备所有权或主管控制。",
+    "sermon-sunday-service": "周日礼拜语境：sermon的宗教讲道义由minister、service和forgiveness共同限定。",
+    "literal-piling-of-crates": "装卸区箱子语境：piling为实体堆放，依据宾语和地点判断动作。",
+    "figurative-piling-up-complaints": "客服投诉语境：pile up表示数量累积，不是物品实体堆叠。",
+    "knot-tying-and-object-transfer": "现场检查语境：通过making a knot识别tie，通过from one person to the next识别pass；与婚礼和蜡烛场景不同。",
+    "wrapping-without-knot": "仪器包装语境：布料多层包裹但明确没有打结，区分wrap和tie。",
+    "lantern-transfer-and-stove-lighting": "营地安全演练语境：灯笼在人之间传递，炉子被点燃，分别对应pass和light。",
+    "archive-temporal-endpoint-and-contrast": "档案馆搬迁语境：until标示保存状态的时间终点，whereas对照数字化团队的安排。",
+    "generator-loan-maximum-duration": "发电机借用语境：up to表示最长时长，不表示必须使用完整期限。",
+    "whatever-equipment-as-object": "工作坊设备语境：whatever equipment整体作retain宾语，whatever限定equipment，后续从句限定其范围。",
+    "whatever-documents-as-object": "登记材料语境：whatever documents整体作accept宾语，区分外层主句和内层submits的主谓宾。",
+    "laboratory-access-parallel-classes": "实验室访问政策语境：as well as把来访人员补充到正式员工的适用范围，不构成排除或替代。"
   },
   "family_assessments": {
     "reference": {
@@ -427,8 +463,8 @@
       "reason": "spaced池只测with+名词+现在分词，尚未覆盖被动或其他补足语；近期连续清晰正确2天，暂缓。"
     },
     "nested": {
-      "coverage_gap": true,
-      "reason": "两题几乎是同一who+that嵌套框架与谓语定位；已有3个跨日正确，先观察新篇中的困难。"
+      "coverage_gap": false,
+      "reason": "新增工作坊设备与登记文件两个语境，分别定位whatever + 名词短语的外层宾语和内层限定结构。"
     },
     "paragraph-order-anaphora": {
       "coverage_gap": true,
@@ -502,6 +538,26 @@
     "text4-executive-overreach": {
       "coverage_gap": true,
       "reason": "新迁移题区分行政部门的权力主张与司法制衡结论，并控制选项长度差异。"
+    },
+    "action-collocation": {
+      "coverage_gap": false,
+      "reason": "新增现场打结后传递物品、无打结的布料包裹、营地灯笼传递与炉子点燃三个不同动作场景；不把tie/wrap/pass/light简化成孤立中文词义。"
+    },
+    "relation-collocation": {
+      "coverage_gap": false,
+      "reason": "新增成本并列与those of、that of比较替代、marry into、by way of、on his own及规则适用范围等不同句法/语义路径。"
+    },
+    "inference-boundary": {
+      "coverage_gap": false,
+      "reason": "新增招聘候选人和诊所选址两个独立语境，分别检验likely、decide on、arrange与未完成流程的边界，阻断无证据的虚构动机。"
+    },
+    "logic": {
+      "coverage_gap": false,
+      "reason": "新增until/whereas的时间终点与对比，以及up to的时长上限；不同于原题的婚姻居住场景。"
+    },
+    "familiar-word-polysemy": {
+      "coverage_gap": false,
+      "reason": "新增sermon的宗教义、piling的实体堆放和投诉数量累积两个不同语境。"
     }
   },
   "historical_content_findings": [

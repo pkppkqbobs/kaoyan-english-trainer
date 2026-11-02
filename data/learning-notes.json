@@ -1859,5 +1859,275 @@
       "purpose"
     ],
     "note": "本次结构化交接明确列出的六处画框：unsettling令人不安的；institutions机构、制度性组织；we the people我们人民、普通公民；capitalism资本主义；wounding伤害、损害；purpose目的，moral purpose指道德使命感。只把这六处登记为画框翻译困难。画横线表示认为重要，不能自动变成不认识；sort、center及39题D的主动提问分别保存，不混入画框清单。"
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "relation-collocation",
+    "kind": "user_reported_wrong",
+    "source_question": 1,
+    "expected": "A",
+    "reported_pick": "D",
+    "final_choice_letter_confirmed": true,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "as well as",
+      "those of the young woman",
+      "matchmaker"
+    ],
+    "user_reported_reasoning": "用户明确确认第1题选D，标准答案表为A。由于过去常见连接词位于句首，把句中 as well as 误判为 with regard to。",
+    "note": "真实错题。as well as在句中连接并列成分，不要求位于句首；those of the young woman中的those替代前文复数名词parents and friends，指女方的父母和朋友。matchmaker是媒人。错误不只是连接词词义，而是没有识别句中并列关系和those的指代。",
+    "training_targets": [
+      "as well as在句中连接并列成分",
+      "those替代复数名词及of短语补足",
+      "避免把句首位置当作连接词判断条件"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "inference-boundary",
+    "kind": "user_reported_confusion",
+    "source_question": 2,
+    "expected": "D",
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_reasoning",
+    "source_spans": [
+      "likely spouse",
+      "decide on"
+    ],
+    "chain_id": "2016-cloze-inference-chain-q2-q4",
+    "user_reported_reasoning": "用户把likely spouse理解成虚构的伴侣，并由此构造了避免父母催婚的故事；第2题最终选择字母未确认。",
+    "note": "Q2—Q4连锁语义误解的起点之一。likely spouse是可能合适的配偶人选，不是虚构人物；decide on表示选定。用户的生活经验触发了原文没有提供的动机推断。只记录理解困难，最终选择未知。",
+    "training_targets": [
+      "likely + 名词表示可能合适的人选/对象",
+      "decide on表示选定",
+      "事实证据与自行补充的人物动机分离"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "inference-boundary",
+    "kind": "user_reported_confusion",
+    "source_question": 3,
+    "expected": "C",
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_reasoning",
+    "source_spans": [
+      "arrange negotiations",
+      "postpone"
+    ],
+    "chain_id": "2016-cloze-inference-chain-q2-q4",
+    "user_reported_reasoning": "用户将arrange negotiations理解成推迟婚姻协商，并沿着Q2虚构伴侣的故事继续推断；第3题最终选择字母未确认。",
+    "note": "Q2—Q4连锁语义误解的延续。arrange negotiations表示安排协商，不是推迟协商；postpone才表示推迟。不得从Q4已确认的D反推Q3的选择字母。",
+    "training_targets": [
+      "arrange与postpone的动作方向区别",
+      "固定搭配在完整事件流程中的含义",
+      "不从后续题的选择推测本题答案"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "inference-boundary",
+    "kind": "user_reported_wrong",
+    "source_question": 4,
+    "expected": "A",
+    "reported_pick": "D",
+    "final_choice_letter_confirmed": true,
+    "chain_id": "2016-cloze-inference-chain-q2-q4",
+    "user_reported_reasoning": "用户明确确认第4题选D（For example），正确答案为A（In theory）；用户解释自己想到防止催婚，因此选了D。",
+    "note": "真实错题，并且是Q2—Q4连锁语义误解的下游结果。用户自行构建了原文没有提供的“虚构伴侣以避免催婚”动机，随后用这个故事解释第4题。原文的in theory表示理论上/原则上；For example表示举例，不能仅凭自行补充的情节选择连接词。重要训练目标是先核对原文动作、人物意图和逻辑关系，再判断选项。",
+    "training_targets": [
+      "事实与自行推测的边界",
+      "in theory与for example的逻辑功能",
+      "防止单个误读引发后续题连锁误判"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "relation-collocation",
+    "kind": "user_reported_confusion",
+    "source_question": 6,
+    "expected": "A",
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "marry into a good family"
+    ],
+    "user_reported_reasoning": "用户明确表示不知道该选什么；最终纸质选择未确认。",
+    "note": "固定搭配理解困难。marry into a family表示通过婚姻进入/成为某个家庭的一员；应与marry somebody（与某人结婚）区分。此处不登记为真实错题，也不推断最终选择字母。",
+    "training_targets": [
+      "marry somebody与marry into a family的结构区别",
+      "into表示进入社会关系或群体"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "action-collocation",
+    "kind": "user_reported_wrong",
+    "source_question": 9,
+    "expected": "D",
+    "reported_pick": "C",
+    "final_choice_letter_confirmed": true,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "wrapping",
+      "tying"
+    ],
+    "user_reported_reasoning": "用户明确确认第9题选C（wrapping），标准答案为D（tying）；用户将动作想象为用棉线把新郎新娘捆在一起。",
+    "note": "真实错题。原文描述把浸过圣水的棉线系在新郎和新娘手腕上，核心动作是系住/打结（tie），不是泛指缠绕（wrap）。不能仅凭宾语是线就判断动词；需要结合是否固定、是否打结及整个仪式动作。",
+    "training_targets": [
+      "tie与wrap的动作差异",
+      "动词必须结合完整动作场景判断",
+      "避免仅凭宾语搭配作局部猜测"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "action-collocation",
+    "kind": "user_reported_wrong",
+    "source_question": 10,
+    "expected": "B",
+    "reported_pick": "A",
+    "final_choice_letter_confirmed": true,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "lighting",
+      "passing a candle around a circle"
+    ],
+    "user_reported_reasoning": "用户明确确认第10题选A（lighting），标准答案为B（passing）；用户想到的是点蜡烛。",
+    "note": "真实错题。passing a candle around a circle表示在围成一圈的人之间传递蜡烛；light a candle才是点燃蜡烛。只看candle会把动作误判成点燃，必须读完整动词短语及其路径补语around a circle。",
+    "training_targets": [
+      "light与pass的动作对象和结果",
+      "pass something around表示传递",
+      "用完整动词短语而非单个宾语判断动作"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "logic",
+    "kind": "user_reported_wrong",
+    "source_question": 13,
+    "expected": "B",
+    "reported_pick": "A",
+    "final_choice_letter_confirmed": true,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "whereas",
+      "up to a year",
+      "until"
+    ],
+    "user_reported_reasoning": "用户明确确认第13题选A（whereas），标准答案为B（until）；用户把whereas误解成尽管，并把up to a year理解为必须住满一年。",
+    "note": "真实错题。up to a year表示最长一年，不是必须住满一年；until表示持续到某个时间点为止；whereas表示而/然而，用于对比，不表示尽管。正确逻辑是夫妻可先与女方父母同住，直到能够在附近建造自己的住房。",
+    "training_targets": [
+      "up to表示上限而非必须达到的时长",
+      "until的时间终点关系",
+      "whereas的对比关系及其与although的区别"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "nested",
+    "kind": "user_reported_confusion",
+    "source_question": 16,
+    "expected": "D",
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "whatever property he or she brought into the marriage"
+    ],
+    "user_reported_reasoning": "用户明确表示不确定语法结构，询问whatever修饰什么以及property是否为财产；标准答案表为D，但用户的最终纸质选择未确认。",
+    "note": "语法理解困难，不按标准答案反推用户答对。whatever直接限定property；whatever property he or she brought into the marriage整体作retains的宾语，其中he or she brought into the marriage是修饰property的限定性关系结构。property在此为财产。需要先找主句骨架Each spouse retains...，再识别宾语内部结构。",
+    "training_targets": [
+      "whatever + 名词的限定作用",
+      "整个whatever名词短语作动词宾语",
+      "嵌入式关系结构的修饰范围"
+    ]
+  },
+  {
+    "date": "2026-11-01",
+    "session_id": "2026-11-01-2016-cloze",
+    "source_exam": "2016-english1",
+    "source_part": "Section I (Cloze)",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
+    "received_on": "2026-11-02",
+    "scoring_policy": "Paper observation only; do not fabricate a web Issue, attempt, score, accuracy or mastery streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "on his own",
+      "sermon",
+      "by way of",
+      "piling",
+      "tying"
+    ],
+    "note": "仅登记用户明确标出的五处画框翻译困难：on his own=独自地/自己完成；sermon=布道、宗教讲道；by way of=经由、通过；piling=堆放、堆积（具体是堆叠还是累积须看宾语和语境）；tying=系、绑、打结。此清单只代表画框，不包含画横线内容。likely spouse、arrange negotiations、marry into、whereas/until、whatever property等属于题目中的主动理解问题或教学补充，分别保存在对应题目记录中，不冒充画框。",
+    "training_targets": [
+      "明确画框词汇与表达的翻译",
+      "画框、主动提问和教学补充分开归档"
+    ]
   }
 ]
