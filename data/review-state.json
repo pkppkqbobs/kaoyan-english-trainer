@@ -35,7 +35,8 @@
     32,
     33,
     34,
-    35
+    35,
+    36
   ],
   "families": {
     "absolute-language": {
@@ -100,12 +101,12 @@
     },
     "author-stance": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-10-22",
-      "due": "2026-10-23",
+      "errors": 1,
+      "last": "2026-11-02",
+      "due": "2026-11-02",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 3
     },
     "belief-negation-clause": {
@@ -129,23 +130,23 @@
       "observation_priority": 0
     },
     "causal-role-direction": {
-      "streak": 0,
+      "streak": 2,
       "errors": 1,
-      "last": "2026-11-01",
-      "due": "2026-11-02",
+      "last": "2026-11-02",
+      "due": "2026-11-06",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 13,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 14,
+      "observation_priority": 0
     },
     "cling-climb": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-10-31",
-      "due": "2026-11-01",
+      "last": "2026-11-02",
+      "due": "2026-11-02",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 2
     },
     "cloze-applicant-outcome": {
@@ -219,13 +220,13 @@
       "observation_priority": 2
     },
     "cloze-time-adverbs": {
-      "streak": 2,
+      "streak": 3,
       "errors": 1,
-      "last": "2026-10-21",
-      "due": "2026-10-25",
+      "last": "2026-11-02",
+      "due": "2026-11-09",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 0
     },
     "commitment-semantics": {
@@ -481,11 +482,11 @@
     "inference-boundary": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-27",
-      "due": "2026-10-28",
+      "last": "2026-11-02",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 3
     },
     "lined-up": {
@@ -550,12 +551,12 @@
     },
     "paragraph-order-discourse": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-10-27",
-      "due": "2026-10-28",
+      "errors": 1,
+      "last": "2026-11-02",
+      "due": "2026-11-02",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -769,13 +770,13 @@
       "observation_priority": 1
     },
     "subject": {
-      "streak": 1,
-      "errors": 1,
-      "last": "2026-10-11",
-      "due": "2026-10-13",
+      "streak": 0,
+      "errors": 2,
+      "last": "2026-11-02",
+      "due": "2026-11-03",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "summary-location": {
@@ -989,13 +990,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 6,
+      "streak": 7,
       "errors": 0,
-      "last": "2026-10-29",
-      "due": "2026-11-19",
+      "last": "2026-11-02",
+      "due": "2026-11-23",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 10,
+      "observed_days": 11,
       "observation_priority": 0
     },
     "workout-how-ellipsis": {

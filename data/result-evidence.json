@@ -2877,6 +2877,94 @@
       "qid": "directness-engineer-a",
       "round_id": "mvxtyeel-87vp4cyy",
       "source_date": "2026-11-01"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 30110,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "inference-seed-label-inspections",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "with",
+      "ok": true,
+      "ms": 21231,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "with-archive-loading-c",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "paragraph-order-discourse",
+      "ok": false,
+      "ms": 109291,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "sentence-link-museum-experiment-b",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "cling-climb",
+      "ok": true,
+      "ms": 16815,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "cling-policy-a",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 46861,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "causal-role-deadline-response-c",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "subject",
+      "ok": false,
+      "ms": 34359,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "subject-rule-departure",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "cloze-time-adverbs",
+      "ok": true,
+      "ms": 5914,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "cloze-adverb-research-b",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-02",
+      "family": "author-stance",
+      "ok": false,
+      "ms": 40496,
+      "uncertain": false,
+      "origin": 36,
+      "qid": "author-stance-recall-a",
+      "round_id": "mvz7hp3z-bv8tsy0p",
+      "source_date": "2026-11-02"
     }
   ],
   "issues": [
@@ -2914,6 +3002,7 @@
     32,
     33,
     34,
-    35
+    35,
+    36
   ]
 }
