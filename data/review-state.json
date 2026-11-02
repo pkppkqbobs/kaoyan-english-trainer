@@ -406,7 +406,7 @@
       "slow_or_uncertain": true,
       "reported_confusion": true,
       "observed_days": 3,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "feature-verb": {
       "streak": 0,
@@ -608,6 +608,16 @@
       "observed_days": 9,
       "observation_priority": 0
     },
+    "policy-enforcement-roles": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-02",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "politics-policy": {
       "streak": 0,
       "errors": 0,
@@ -619,14 +629,14 @@
       "observation_priority": 2
     },
     "process-stage-role": {
-      "streak": 0,
+      "streak": 2,
       "errors": 4,
       "last": "2026-10-31",
-      "due": "2026-11-02",
+      "due": "2026-11-04",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
+      "reported_confusion": false,
       "observed_days": 10,
-      "observation_priority": 3
+      "observation_priority": 0
     },
     "provoke-family": {
       "streak": 0,

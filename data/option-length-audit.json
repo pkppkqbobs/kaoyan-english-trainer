@@ -4741,7 +4741,7 @@
         "shortest_guess_credit": 0,
         "length_cue_flag": false,
         "pool": "daily_article",
-        "family": "process-stage-role",
+        "family": "policy-enforcement-roles",
         "source": "data/questions/2026-11-02-2016-text1-migration.json"
       },
       "text1-policy-enforcement-lab-f": {
@@ -4758,7 +4758,7 @@
         "shortest_guess_credit": 0,
         "length_cue_flag": false,
         "pool": "daily_article",
-        "family": "process-stage-role",
+        "family": "policy-enforcement-roles",
         "source": "data/questions/2026-11-02-2016-text1-migration.json"
       },
       "text1-runway-fashion-catwalk-a": {

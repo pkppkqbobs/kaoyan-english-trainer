@@ -2197,7 +2197,7 @@
     "evidence_basis": "用户提供的结构化学习交接文字；本次维护未重新查看原始照片。",
     "received_on": "2026-11-02",
     "scoring_policy": "Paper observation only; preserve unresolved identifiers and choices. No web Issue, attempt, score, accuracy or mastery streak.",
-    "family": "process-stage-role",
+    "family": "policy-enforcement-roles",
     "kind": "user_reported_wrong",
     "source_question": 24,
     "expected": "C",

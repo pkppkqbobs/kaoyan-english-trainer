@@ -579,9 +579,9 @@
       "coverage_gap": false,
       "reason": "新增电池维修标准与医院交接清单语境，区分尝试制定、条件性预期结果及已经生效。"
     },
-    "process-stage-role": {
+    "policy-enforcement-roles": {
       "coverage_gap": false,
-      "reason": "新增时尚守则和实验室安全语境，区分标准内容、违规原因、制裁手段，并区分character与characteristics。"
+      "reason": "新增时尚守则和实验室安全两个独立语境，区分标准内容、违规原因、制裁手段，并显式区分character与characteristics。"
     }
   },
   "historical_content_findings": [
