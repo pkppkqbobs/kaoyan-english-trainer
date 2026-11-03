@@ -36,7 +36,8 @@
     33,
     34,
     35,
-    36
+    36,
+    37
   ],
   "families": {
     "absolute-language": {
@@ -72,11 +73,11 @@
     "action-collocation": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-03",
       "due": "2026-11-03",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "alerts": {
@@ -152,11 +153,11 @@
     "cloze-applicant-outcome": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-28",
-      "due": "2026-10-29",
+      "last": "2026-11-03",
+      "due": "2026-11-03",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 3
     },
     "cloze-baseline-necessary": {
@@ -270,13 +271,13 @@
       "observation_priority": 0
     },
     "conceivably": {
-      "streak": 0,
+      "streak": 1,
       "errors": 2,
-      "last": "2026-11-01",
-      "due": "2026-11-02",
+      "last": "2026-11-03",
+      "due": "2026-11-05",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 0
     },
     "concession-claim-scope": {
@@ -532,11 +533,11 @@
     "nested": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-01",
-      "due": "2026-11-02",
+      "last": "2026-11-03",
+      "due": "2026-11-03",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 13,
+      "observed_days": 14,
       "observation_priority": 2
     },
     "paragraph-order-anaphora": {
@@ -552,11 +553,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-02",
+      "last": "2026-11-03",
       "due": "2026-11-03",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 8,
+      "observed_days": 9,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -571,12 +572,12 @@
     },
     "parallel-governance": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-11-01",
-      "due": "2026-11-02",
+      "errors": 3,
+      "last": "2026-11-03",
+      "due": "2026-11-04",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "partb-boxed-vocab": {
@@ -660,13 +661,13 @@
       "observation_priority": 0
     },
     "reference": {
-      "streak": 2,
+      "streak": 0,
       "errors": 3,
-      "last": "2026-10-25",
-      "due": "2026-10-29",
+      "last": "2026-11-03",
+      "due": "2026-11-04",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 14,
+      "observed_days": 15,
       "observation_priority": 0
     },
     "relation-collocation": {
@@ -680,13 +681,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 7,
+      "streak": 8,
       "errors": 1,
-      "last": "2026-10-31",
-      "due": "2026-11-21",
+      "last": "2026-11-03",
+      "due": "2026-11-24",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 12,
+      "observed_days": 13,
       "observation_priority": 0
     },
     "remote": {

@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-03",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 37,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-02",
-      "issue": 36,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/36",
-      "round_id": "mvz7hp3z-bv8tsy0p",
-      "correct": 5,
+      "date": "2026-11-03",
+      "issue": 37,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/37",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "correct": 7,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-11-02"
+        "2026-11-03"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-02.json",
+      "source": "data/days/2026-11-03.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -862,21 +862,21 @@
           }
         },
         {
-          "family": "relation-collocation",
-          "label": "并列对象与适用范围",
-          "focus": "用户明确确认第1题选D，标准答案表为A。由于过去常见连接词位于句首，把句中 as well as 误判为 with regard to。",
+          "family": "action-collocation",
+          "label": "完整动作与动作路径",
+          "focus": "用户明确确认第9题选C（wrapping），标准答案为D（tying）；用户将动作想象为用棉线把新郎新娘捆在一起。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-01",
           "web_errors": 0,
           "web_streak": 0,
-          "slow_or_uncertain": false,
+          "slow_or_uncertain": true,
           "due": "2026-11-03",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-01",
-            "family": "relation-collocation",
-            "question": 1,
-            "note_fingerprint": "87a92ee138693a5a"
+            "family": "action-collocation",
+            "question": 9,
+            "note_fingerprint": "cce0b6f44305ae25"
           }
         }
       ]
@@ -1178,7 +1178,7 @@
     "data/article-sessions/2026-11-01-2016-cloze.json": "bb45b73088bcead33f60561e3b86ab484594f672f92c8b3ab4f94127d670e931",
     "data/article-sessions/2026-11-02-2016-text1.json": "aeec2982a28e8b8f56ff40b315fb0c3d5924428519e7471e3a4723f201cb7132",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "5ae928491975fa21cddfda170d3e0fd31ad9aa4b5afed615453810fb0566d68c",
+    "data/daily.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1214,7 +1214,7 @@
     "data/days/2026-10-31.json": "ae773cedd9297a5ca057f79a0f0cc5c5ec3fc17a425a24c3292c95014304e370",
     "data/days/2026-11-01.json": "c461dd741c90729e826c35f16828242f9f8542972b1a1b9da0f3d95aa6d96857",
     "data/days/2026-11-02.json": "f10a4ac95d32b5e7f817569e632754eea242ec3f834d882619e2277fd8ee6f26",
-    "data/days/2026-11-03.json": "5ae928491975fa21cddfda170d3e0fd31ad9aa4b5afed615453810fb0566d68c",
+    "data/days/2026-11-03.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
     "data/learning-notes.json": "c9858ec652f0ddb5d9aac12771ab5ac3a7804c5d0b38bf8ebbb0db88e819c6fd",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "3e203b105780b79aeccb4df5dac4148170d2e05fdef68533bf0595279373bfd3",
@@ -1250,14 +1250,14 @@
     "data/questions/2026-11-02-2016-cloze-migration.json": "1b9233b5dd8027765676bec3ebd5b17ec613d504fe2a38b3b71394aaa5720c75",
     "data/questions/2026-11-02-2016-text1-migration.json": "2ece4efb0a47130e230f66440f62dadcf7ac351edaf22027ab18add3130c39d4",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "8e594d045314a83c159f9c66e9b76937711209b22fa7b87ed7d744cde100f65a",
-    "data/review-state.json": "851a7cd27991fae262d1146b5aaa255f8beebbc4e470dfcaace2bd10b04c3a97",
+    "data/result-evidence.json": "cc96e0f9a949038263a7b99abcb676711f39f486ac9114062e65e8a530b00a22",
+    "data/review-state.json": "6f8e06093f86f005ab8206cc212dc7997d307f6462a62f7469d8b31be8b79e19",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75"
   },
-  "source_fingerprint": "06292a7ff2ba310d3f3ebafef841df540726e5b339a7f01090fa39ae4da8fcde",
+  "source_fingerprint": "ba6b5269c66311781f45be47324a63b3d6df0e401df410b8b4b6a55e29520c5d",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

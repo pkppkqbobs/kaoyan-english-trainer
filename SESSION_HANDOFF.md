@@ -12,8 +12,8 @@
 
 ## 已核验网页进度
 
-最近已接受的完整daily：题单日期2026-11-02，[Issue #36](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/36)，5/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-11-03；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
+最近已接受的完整daily：题单日期2026-11-03，[Issue #37](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/37)，7/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
+当前题单日期：2026-11-03；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 当前文章专项：发布日期2026-11-02，对应学习日期2026-11-02；题单已发布不等于已经作答。
@@ -32,7 +32,7 @@
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
 - 选项范围与额外限定（title-coverage、inference-boundary）：用户明确确认第25题选C，标准答案表为A。用户认为C与文章话题相关，但C没有准确覆盖全文的核心争议对象。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（policy-enforcement-roles、logic）：用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。 网页错误数/streak单列于JSON。
-- 修饰关系与熟词搭配（modal-stage、relation-collocation）：用户明确确认第23题选A，标准答案表为B。用户认为is trying to set表示正在尝试制定，因此would be constructed会错误地表示标准已经建立；用户仍不接… 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（modal-stage、action-collocation）：用户明确确认第23题选A，标准答案表为B。用户认为is trying to set表示正在尝试制定，因此would be constructed会错误地表示标准已经建立；用户仍不接… 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（paragraph-scope-attitude、attribution-stance）：用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。 网页错误数/streak单列于JSON。
 - Part B 指代与前后衔接（paragraph-order-discourse、paragraph-order-anaphora）：用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t… 网页错误数/streak单列于JSON。
 

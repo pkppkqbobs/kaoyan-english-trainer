@@ -2965,6 +2965,94 @@
       "qid": "author-stance-recall-a",
       "round_id": "mvz7hp3z-bv8tsy0p",
       "source_date": "2026-11-02"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "nested",
+      "ok": true,
+      "ms": 10496,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "legacy-who-that-main",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "relative",
+      "ok": true,
+      "ms": 2361,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "legacy-which",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "reference",
+      "ok": true,
+      "ms": 40354,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "reference-radio-failures",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 14727,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "conceivably-damaged-page",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "cloze-applicant-outcome",
+      "ok": true,
+      "ms": 23460,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "cloze-applicant-residency-b",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "action-collocation",
+      "ok": true,
+      "ms": 54036,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "cloze-pass-light-camp-drill-l",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "parallel-governance",
+      "ok": false,
+      "ms": 56840,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "parallel-governance-control-panel",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-03",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 121843,
+      "uncertain": false,
+      "origin": 37,
+      "qid": "paragraph-discourse-ticket-deposits",
+      "round_id": "mw0ghpfm-bu7jo92i",
+      "source_date": "2026-11-03"
     }
   ],
   "issues": [
@@ -3003,6 +3091,7 @@
     33,
     34,
     35,
-    36
+    36,
+    37
   ]
 }
