@@ -212,13 +212,13 @@
       "structure": "survey、Party A、Party B、columnist分别是不同意见来源。",
       "other": "survey民调；funding资金；endorse支持。",
       "meaning": "公众态度、政党行动与作者评价不能混为一个立场。",
-      "rest": "沉默不等于支持；作者未否认必要性；A党未附和民意。"
+      "rest": "沉默不等于支持；作者未否认必要性；该政党未附和民意。"
     }
   },
   {
     "id": "text2-author-stance-hospital-building",
     "family": "author-stance",
-    "introduced": null,
+    "introduced": "2026-10-03",
     "published_on": "2026-11-03",
     "budget": 35,
     "target": "oppose process vs oppose all projects",
@@ -242,7 +242,7 @@
   {
     "id": "text2-author-stance-grid-expansion",
     "family": "author-stance",
-    "introduced": null,
+    "introduced": "2026-10-03",
     "published_on": "2026-11-03",
     "budget": 35,
     "target": "planned development vs blanket ban",
@@ -266,7 +266,7 @@
   {
     "id": "text2-author-stance-rail-landuse",
     "family": "author-stance",
-    "introduced": null,
+    "introduced": "2026-10-03",
     "published_on": "2026-11-03",
     "budget": 35,
     "target": "location choice and policy balance",
