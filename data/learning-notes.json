@@ -2260,5 +2260,151 @@
       "五处画框词汇及搭配的语境翻译",
       "区分画框翻译困难与画横线阅读证据"
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "session_id": "2026-11-03-2016-text2",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "received_on": "2026-11-03",
+    "evidence_basis": "用户提供的2026-11-03结构化教学交接；未重新查看纸质照片。",
+    "scoring_policy": "Paper observation only. No web attempt, synthetic score, answer choice for unspecified questions, or streak.",
+    "family": "author-stance",
+    "kind": "user_reported_confusion",
+    "source_question": null,
+    "scope": "passage",
+    "passage_level_comprehension_difficulty": true,
+    "user_quote": "感觉这篇还挺难理解的。",
+    "user_reported_reasoning": "用户明确报告整篇阅读困难。多个政治主体及其立场容易混淆；难以区分过去环保成就和当前开发压力；难以判断作者反对的是开发本身还是未经规划的开发方式；会混淆需要保护、已经保护和正在遭破坏。未确认第28—30题的选择。",
+    "note": "2016英语一Text 2整篇理解困难（passage-level comprehension difficulty），不能因若干选择题正确就视为稳定掌握。段落轨迹：公众重视乡村但政治支持不足 → National Trust过去的保护成就与当前逐年侵占 → 各党态度不同 → 优先使用城市现成土地 → 作者支持有规划的建设而反对失控开发。此条是整篇观察，不是任何题目的错误计次。",
+    "training_targets": [
+      "多主体观点和作者评价分别归属",
+      "历史成就、当前威胁与持续变化",
+      "needs protection不等于is properly protected",
+      "反对不合理开发方式不等于反对全部住房建设"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "session_id": "2026-11-03-2016-text2",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "received_on": "2026-11-03",
+    "evidence_basis": "用户提供的2026-11-03结构化教学交接；未重新查看纸质照片。",
+    "scoring_policy": "Paper observation only. No web attempt, synthetic score, answer choice for unspecified questions, or streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "user_reported_confusion",
+    "source_question": 26,
+    "final_choice_letter_confirmed": false,
+    "mark_type": "user_reported_phrase",
+    "source_spans": [
+      "is fully backed by the royal family",
+      "alongside the royal family"
+    ],
+    "user_quote": "26的B bake翻译困难，后退？",
+    "user_reported_reasoning": "用户主动询问第26题B中的backed，曾联想到bake或后退，但没有明确给出最终选项字母；不能因为谈及B就推定选择B。",
+    "expected": "A",
+    "note": "第26题B项is fully backed by the royal family是“得到王室全力支持”。back作动词可表示支持；be backed by表示得到支持，back away才是退缩，back down是让步。原文Britons rate the countryside alongside the royal family表示公众把乡村与王室并列提及，不表示王室支持乡村。参考答案A is not well reflected in politics，表示公众的重视未在政治中充分体现。这里是词义理解困难，最终纸质选项未知，不能登记为真实错题。",
+    "training_targets": [
+      "backed在被动结构中的支持义",
+      "back away/back down与be backed by区分",
+      "alongside的并列提及不等于政治或王室支持"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "session_id": "2026-11-03-2016-text2",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "received_on": "2026-11-03",
+    "evidence_basis": "用户提供的2026-11-03结构化教学交接；未重新查看纸质照片。",
+    "scoring_policy": "Paper observation only. No web attempt, synthetic score, answer choice for unspecified questions, or streak.",
+    "family": "modal-stage",
+    "kind": "user_reported_wrong",
+    "source_question": 27,
+    "expected": "D",
+    "reported_pick": "B",
+    "first_considered": "A",
+    "final_choice_letter_confirmed": true,
+    "answer_verified_on": "2026-11-03",
+    "post_review_considered": "D",
+    "post_review_is_original_choice": false,
+    "source_spans": [
+      "largely overshadowed",
+      "properly protected",
+      "gradually destroyed",
+      "It needs constant guardianship",
+      "every year concrete consumes more of it"
+    ],
+    "user_quote": "然后27我做错了，我先选了A后选了B，因为我真没看出来这做的到底算好还是不好，虽然看到后面可能感觉是不好，但真看不太懂，它需要持续的保护？所以选D正在被摧毁？",
+    "user_reported_reasoning": "用户明确自述做错，初选A largely overshadowed，后改选B properly protected；原因是不能判断段落对国家信托成就的评价方向，并把It needs constant guardianship（需要持续保护）理解成已经得到妥善保护。D gradually destroyed是答后复盘时重新考虑的选项，不是原始最终作答。",
+    "note": "真实错题：初选A→最终改B，参考D（按用户B=properly protected、D=gradually destroyed这一选项顺序核验）。B错误是把“需要保护”升级成“已经得到妥善保护”。第二段先介绍国家信托创办及国家公园/绿化带的历史成就，随后由every year concrete consumes more of it、It needs constant guardianship说明乡村土地正在逐年侵蚀；因此D表达持续破坏更吻合原文。A largely overshadowed强调成就影响被遮蔽，和土地实际持续被侵占并不等值；但不同解析对其评价有分歧，必须保留备选解释与来源，不要宣称所有参考站点统一。选项在不同转载来源中被重排，按完整文本核对后再记录字母。",
+    "answer_ambiguity_note": "不同解读在largely overshadowed（既有成就的影响被掩盖）与gradually destroyed（乡村土地逐年遭侵蚀）之间侧重点不同。2026-11-03对照新东方及中国教育在线解析，用户这一排列下D=gradually destroyed；其他页面将同一正确选项放在A，不能由标签单独推断。",
+    "training_targets": [
+      "初选和改选分别保存；复盘D不是原始选择",
+      "过去保护成就与目前逐年侵蚀分开",
+      "needs protection与is properly protected区分",
+      "overshadowed的抽象义与destroyed的实体破坏差异",
+      "积极事实不能代替后文整体负面评价"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "session_id": "2026-11-03-2016-text2",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "received_on": "2026-11-03",
+    "evidence_basis": "用户提供的2026-11-03结构化教学交接；未重新查看纸质照片。",
+    "scoring_policy": "Paper observation only. No web attempt, synthetic score, answer choice for unspecified questions, or streak.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "curious",
+      "stylish",
+      "discontinue",
+      "sided with",
+      "pleading",
+      "intrusion",
+      "backed",
+      "overshadowed"
+    ],
+    "note": "仅登记8处明确画框翻译困难，严格区分画横线的重要证据：curious（a curious result）出人意料的；stylish（stylish houses）时尚的；discontinue（discontinue local planning）停止；sided with（side with somebody）支持/站在一边；pleading（pleading for a more considered approach）呼吁/恳求；intrusion（no intrusion on green belt）侵入/侵占；backed（is fully backed by）得到支持；overshadowed（largely overshadowed）使黯然失色/掩盖影响。backed的主动提问另见Q26，overshadowed的理解问题另见Q27，这些不代表额外错题。",
+    "training_targets": [
+      "8处画框词结合搭配和语境理解",
+      "抽象动词overshadowed与实际破坏区分",
+      "不将画横线材料或教学补充冒充画框"
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "session_id": "2026-11-03-2016-text2",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "received_on": "2026-11-03",
+    "evidence_basis": "用户提供的2026-11-03结构化教学交接；未重新查看纸质照片。",
+    "scoring_policy": "Paper observation only. No web attempt, synthetic score, answer choice for unspecified questions, or streak.",
+    "family": "attribution-stance",
+    "kind": "user_reported_confusion",
+    "scope": "passage",
+    "source_question": null,
+    "source_questions": [
+      28,
+      29,
+      30
+    ],
+    "final_choice_letter_confirmed": false,
+    "user_reported_reasoning": "整体理解反馈显示不同政党、公众、开发利益相关方和作者立场容易混淆；目前未收到Q28—30的最终选择字母或逐题推理，不能按原文讲解倒推出这些题的作答。",
+    "note": "多主体立场专项：Britons珍视乡村；主要政党对规划与开发各有政策；Ukip选择支持更审慎使用绿地的呼吁；开发利益方优先城市边缘商业开发；作者赞成在现有城市基础设施附近有规划地满足住房需求，反对让开发无约束地侵占乡村。以上是文本逻辑训练目标，不代表用户在Q28—30作出了任何具体选择。",
+    "training_targets": [
+      "公众/政党/Ukip/开发者/作者的观点逐一标注",
+      "他人观点不得转写为作者立场",
+      "不根据文章讲解补填Q28—30作答"
+    ]
   }
 ]

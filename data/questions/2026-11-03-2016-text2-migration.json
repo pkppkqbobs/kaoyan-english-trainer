@@ -1,0 +1,290 @@
+[
+  {
+    "id": "text2-backing-vs-alongside-heritage",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "backed vs alongside",
+    "skill": "支持关系与并列关系",
+    "q": "The city report listed its heritage museum alongside the public library as a valued institution. It said nothing about funding. What is supported by the report?",
+    "o": [
+      "The library provided full funding for the museum.",
+      "The museum and library appeared in the same list.",
+      "The museum was run directly by library staff.",
+      "The library officially backed every museum plan."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "报告把博物馆和图书馆并列列为重要机构，未提资金来源。",
+      "structure": "listed A alongside B是并列列举；没有提供支持的谓语。",
+      "other": "heritage遗产；funding资金；back支持。",
+      "meaning": "alongside表示并列提及，不自动推出be backed by。",
+      "rest": "资金、管理和全部计划的支持都擅自添加了原文未给出的关系。"
+    }
+  },
+  {
+    "id": "text2-overshadowed-research-prize",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "overshadowed vs destroyed",
+    "skill": "抽象遮蔽与实体损毁",
+    "q": "A laboratory's early research prizes were overshadowed by a later safety scandal, but its published papers remained available. What happened to the prizes?",
+    "o": [
+      "They were destroyed along with every research paper.",
+      "They received new awards for the later safety work.",
+      "Their significance was eclipsed by the scandal.",
+      "They were formally withdrawn by the entire team."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "实验室早年的研究奖项被安全丑闻盖过风头，但论文仍然存在。",
+      "structure": "were overshadowed是被动谓语；but限定论文依然存在。",
+      "other": "eclipsed使黯然失色；scandal丑闻；withdraw撤回。",
+      "meaning": "overshadow侧重重要性或影响被盖过，不等于实体摧毁。",
+      "rest": "销毁、再获奖与正式撤回均是原文未确认的动作。"
+    }
+  },
+  {
+    "id": "text2-sided-with-community-appeal",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "sided with / pleading",
+    "skill": "立场选择与请求内容",
+    "q": "During a school budget dispute, the teachers' union sided with parents pleading for smaller classes, although the board preferred a cheaper plan. Which position did the union take?",
+    "o": [
+      "It supported the parents' request for smaller classes.",
+      "It endorsed the board's preferred cheaper proposal.",
+      "It asked the parents to stop making any requests.",
+      "It stayed neutral between parents and the board."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "工会支持呼吁缩小班级规模的家长，董事会则倾向更廉价的方案。",
+      "structure": "union是sided with主语；pleading for smaller classes修饰parents。",
+      "other": "side with支持某方；plead for呼吁；board董事会。",
+      "meaning": "side with明确支持对象，pleading for交代对方诉求。",
+      "rest": "支持董事会、阻止诉求和保持中立都与支持家长相反。"
+    }
+  },
+  {
+    "id": "text2-intrusion-discontinued-access",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "intrusion / discontinue",
+    "skill": "侵入行为与停止政策",
+    "q": "A research reserve forbade intrusion into nesting areas. The director later discontinued unrestricted vehicle access while keeping marked footpaths open. Which summary is accurate?",
+    "o": [
+      "All visitors were permanently barred from the reserve.",
+      "The reserve stopped all forms of scientific research.",
+      "Vehicles were granted new access to nesting areas.",
+      "Unrestricted driving ended; footpaths stayed open."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "保护区禁止侵入筑巢区，终止无限制车辆通行，但步道继续开放。",
+      "structure": "discontinued宾语是unrestricted vehicle access；while表示另一安排依旧。",
+      "other": "intrusion侵入；discontinue停止；footpath步道。",
+      "meaning": "停止某项政策不意味着全面关闭场所或终止全部活动。",
+      "rest": "其余选项夸大停止范围，或颠倒了车辆通行状态。"
+    }
+  },
+  {
+    "id": "text2-needs-protection-vs-protected-data",
+    "family": "modal-stage",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "needs protection / is protected",
+    "skill": "必要性与已实现状态",
+    "q": "An archive memo says the old photographs need protection from damp air. It gives no account of whether protective equipment has been installed. What can be concluded?",
+    "o": [
+      "The photographs require protection; current safeguards are unknown.",
+      "The photographs are already secured by effective equipment.",
+      "The photographs have all been irreversibly ruined by moisture.",
+      "The archive is planning to stop accepting photographs."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "备忘录提出防潮需求，但没有说明设备是否已安装。",
+      "structure": "need protection表达必要性；has been installed涉及完成状态，未知。",
+      "other": "damp潮湿的；safeguard防护措施；archive档案馆。",
+      "meaning": "需要保护≠已经妥善保护，也不能断言此前完全没有防护。",
+      "rest": "其他选项擅自确认保护成效、彻底毁损或停止接收。"
+    }
+  },
+  {
+    "id": "text2-historic-gains-new-threat-reef",
+    "family": "modal-stage",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "past success / present pressure",
+    "skill": "历史成就与当前威胁",
+    "q": "A marine reserve restored coral beds ten years ago. Now repeated heatwaves damage new sections every summer, and scientists call for continued monitoring. Which description best follows the timeline?",
+    "o": [
+      "The reserve never achieved any restoration in the past.",
+      "The reef is now fully protected and no longer at risk.",
+      "The coral beds were already completely destroyed years ago.",
+      "Past restoration succeeded, but new damage continues."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "十年前恢复珊瑚，如今热浪每年损伤新区域，科学家要求监测。",
+      "structure": "restored与Now...every summer构成过去成果与持续威胁。",
+      "other": "coral珊瑚；heatwave热浪；monitoring监测。",
+      "meaning": "过去成功不等于现在安全，持续损伤不等于全部毁灭。",
+      "rest": "其余选项否认历史成果、夸大保护或虚构彻底毁灭。"
+    }
+  },
+  {
+    "id": "text2-reinforce-versus-need-cyber",
+    "family": "modal-stage",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "needs reinforcement / reinforced",
+    "skill": "要求与完成的证据",
+    "q": "After a cyberattack, a hospital report states that its network needs stronger access controls. A proposal has been drafted, but no installation date is recorded. Which claim is warranted?",
+    "o": [
+      "The new controls have already been fully deployed.",
+      "Stronger controls are recommended, not confirmed in place.",
+      "Every hospital computer has been permanently disabled.",
+      "The attack proved all past network controls were useless."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "医院提出加强网络权限控制，有草案但没有部署日期。",
+      "structure": "needs表达需要；has been drafted只确认方案草案形成。",
+      "other": "deploy部署；access control访问控制。",
+      "meaning": "建议加强不等于完成部署，攻击也不能证明全部过去措施无效。",
+      "rest": "其他选项无依据地声称完成部署、全部瘫痪或旧控制全无用。"
+    }
+  },
+  {
+    "id": "text2-speakers-council-planning",
+    "family": "attribution-stance",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "who supports which policy",
+    "skill": "多主体立场归属",
+    "q": "A town councillor favored a new industrial site. Residents demanded an environmental review. The mayor proposed delaying approval, while a columnist backed the residents' request. Who favored the review?",
+    "o": [
+      "The councillor and the industrial developer.",
+      "The mayor alone, rather than the residents.",
+      "The residents and the newspaper columnist.",
+      "All four parties, without any disagreement."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "议员支持工业用地，居民要求评估，市长建议延迟，作者支持居民。",
+      "structure": "councillor、residents、mayor、columnist对应不同动作。",
+      "other": "councillor议员；columnist专栏作者；review审查。",
+      "meaning": "支持对象要逐一根据动词定位；延迟批准不必然等于支持评估。",
+      "rest": "议员未赞成评估；市长没明确赞成；四方并不一致。"
+    }
+  },
+  {
+    "id": "text2-speakers-transit-tax",
+    "family": "attribution-stance",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "public opinion vs parties vs writer",
+    "skill": "政党与作者观点区分",
+    "q": "A transport survey found strong support for cleaner buses. Party A opposed funding them, Party B stayed silent, and a columnist called the plan sensible but poorly funded. Which interpretation fits?",
+    "o": [
+      "The public favors buses, while party responses differ.",
+      "Party B has publicly endorsed the full funding plan.",
+      "The columnist agrees that the buses are unnecessary.",
+      "Party A shares the survey respondents' enthusiasm."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "公众支持清洁公交，A党反对出资、B党沉默，作者认为方案合理但经费不足。",
+      "structure": "survey、Party A、Party B、columnist分别是不同意见来源。",
+      "other": "survey民调；funding资金；endorse支持。",
+      "meaning": "公众态度、政党行动与作者评价不能混为一个立场。",
+      "rest": "沉默不等于支持；作者未否认必要性；A党未附和民意。"
+    }
+  },
+  {
+    "id": "text2-author-stance-hospital-building",
+    "family": "author-stance",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "oppose process vs oppose all projects",
+    "skill": "反对方式不等于反对建设",
+    "q": "A columnist says the city needs more clinics, but criticizes plans to build them without checking transport links or population needs. What is the columnist's position?",
+    "o": [
+      "Every clinic proposal must be permanently rejected.",
+      "The clinics are needed, but their sites require scrutiny.",
+      "Residents should abandon all plans to expand care.",
+      "Transport capacity should never influence clinic sites."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "作者认可诊所需求，却批评不考虑交通与人口需求的选址。",
+      "structure": "needs more clinics肯定目标；but criticizes限定批评的方式。",
+      "other": "scrutiny审慎评估；transport links交通连接。",
+      "meaning": "反对未经评估的选址不等于反对建设本身。",
+      "rest": "全面否决、放弃扩建和无视交通都不符合作者立场。"
+    }
+  },
+  {
+    "id": "text2-author-stance-grid-expansion",
+    "family": "author-stance",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "planned development vs blanket ban",
+    "skill": "规划建设与放任扩张",
+    "q": "An editorial welcomes new electricity lines where grid demand is high, but warns against allowing contractors to cut through protected habitats without review. Which position is most faithful?",
+    "o": [
+      "Electricity networks should never expand anywhere.",
+      "Protected habitats should be opened to any contractor.",
+      "Expansion is acceptable when routes are carefully reviewed.",
+      "New electricity lines are unnecessary in busy regions."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "社论欢迎在需求高处增设电线，却反对未经审查穿越保护区。",
+      "structure": "welcomes...where...限制支持范围；but warns against说明反对对象。",
+      "other": "grid电网；contractor承包商；habitat栖息地。",
+      "meaning": "可以支持有规划的扩建，同时反对任意侵占。",
+      "rest": "完全禁止扩建、允许随意穿越和否认需求都偏离作者立场。"
+    }
+  },
+  {
+    "id": "text2-author-stance-rail-landuse",
+    "family": "author-stance",
+    "introduced": null,
+    "published_on": "2026-11-03",
+    "budget": 35,
+    "target": "location choice and policy balance",
+    "skill": "明确反对对象与替代方案",
+    "q": "A planner argues that housing is necessary, yet proposes reusing vacant city lots before converting farmland. She criticizes unchecked edge-of-town building. What is her main objection?",
+    "o": [
+      "She objects to every form of new housing.",
+      "She believes vacant city lots should stay unused.",
+      "She opposes protecting farmland near urban areas.",
+      "She objects to poorly sited growth, not all housing."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "规划师承认住房需求，优先用城市空地，反对无控制的郊外扩建。",
+      "structure": "housing is necessary肯定目标；yet提出选址优先顺序。",
+      "other": "vacant lot闲置地；farmland农田；unchecked未经控制的。",
+      "meaning": "反对不合理选址不等于反对住房供给。",
+      "rest": "完全禁止、让城市空地闲置和反对保护农田都与原文相反。"
+    }
+  }
+]

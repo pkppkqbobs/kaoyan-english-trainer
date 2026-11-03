@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-02",
+  "reviewed_on": "2026-11-03",
   "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -374,7 +374,19 @@
     "text1-policy-characteristics-design-code-e": "fashion-code-characteristics-vs-sanction",
     "text1-policy-enforcement-lab-f": "laboratory-safety-rule-vs-enforcement",
     "text1-title-academic-merit-g": "university-academic-merit-criteria",
-    "text1-title-library-success-h": "public-library-success-metrics"
+    "text1-title-library-success-h": "public-library-success-metrics",
+    "text2-backing-vs-alongside-heritage": "heritage-museum-alongside-not-backed",
+    "text2-overshadowed-research-prize": "research-awards-overshadowed-not-destroyed",
+    "text2-sided-with-community-appeal": "teachers-union-sides-with-parents",
+    "text2-intrusion-discontinued-access": "nesting-reserve-vehicle-access-limits",
+    "text2-needs-protection-vs-protected-data": "archive-photographs-need-unknown-safeguards",
+    "text2-historic-gains-new-threat-reef": "coral-restoration-past-heatwaves-now",
+    "text2-reinforce-versus-need-cyber": "hospital-network-controls-proposed-not-installed",
+    "text2-speakers-council-planning": "councillor-residents-mayor-columnist-review",
+    "text2-speakers-transit-tax": "clean-buses-survey-parties-columnist",
+    "text2-author-stance-hospital-building": "clinic-siting-vs-total-opposition",
+    "text2-author-stance-grid-expansion": "electricity-lines-carefully-routed",
+    "text2-author-stance-rail-landuse": "city-vacant-lots-vs-farmland-expansion"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -466,7 +478,19 @@
     "fashion-code-characteristics-vs-sanction": "时尚守则语境：age、health、characteristics是规则标准，deny access是执行手段；character与characteristics分开。",
     "laboratory-safety-rule-vs-enforcement": "实验室安全语境：护目镜和通风检查是要求，暂停门禁是执行机制。",
     "university-academic-merit-criteria": "大学招聘语境：标题概括学术价值标准受到挑战。",
-    "public-library-success-metrics": "公共图书馆语境：核心争议是如何衡量图书馆成功。"
+    "public-library-success-metrics": "公共图书馆语境：核心争议是如何衡量图书馆成功。",
+    "heritage-museum-alongside-not-backed": "市政清单场景：并列列举不证明提供支持，与原题王室和乡村不同。",
+    "research-awards-overshadowed-not-destroyed": "科研荣誉场景：丑闻盖过荣誉不等于实体论文或奖项被销毁。",
+    "teachers-union-sides-with-parents": "学校预算场景：区分工会、家长、董事会的不同立场，并理解pleading for的诉求。",
+    "nesting-reserve-vehicle-access-limits": "科研保护区场景：discontinue作用于车辆通行，不可扩大为封闭全部步道或研究活动。",
+    "archive-photographs-need-unknown-safeguards": "档案防潮场景：保护需求已知，设备是否完成安装未知。",
+    "coral-restoration-past-heatwaves-now": "珊瑚修复场景：过去成就与每年新的损坏并存。",
+    "hospital-network-controls-proposed-not-installed": "医院网络加固场景：草案和必要性不能证明安装完成。",
+    "councillor-residents-mayor-columnist-review": "工业用地争议场景：议员、居民、市长与专栏作者的观点分离。",
+    "clean-buses-survey-parties-columnist": "公共交通场景：调查民意、政党表态及评论者意见分别归属。",
+    "clinic-siting-vs-total-opposition": "诊所选址场景：认可需求但要求评估，不是反对所有建设。",
+    "electricity-lines-carefully-routed": "电网扩展场景：承认扩张必要性与要求保护栖息地可以共存。",
+    "city-vacant-lots-vs-farmland-expansion": "住宅选址场景：反对不合理位置和程序，不等于反对住房。"
   },
   "family_assessments": {
     "reference": {
@@ -493,7 +517,7 @@
     "author-stance": {
       "coverage_gap": false,
       "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
-      "reason": "新增阅览室方案与成本报告的评价对象区分，当前三种语境；新题尚无作答证据，旧成绩及语境分组保留。"
+      "reason": "新增诊所选址、电网线路、住房用地三种作者支持目标但质疑方式的语境。"
     },
     "causal-role-direction": {
       "coverage_gap": false,
@@ -573,15 +597,19 @@
     },
     "familiar-word-polysemy": {
       "coverage_gap": false,
-      "reason": "新增runway和arbiters两个独立语境；五处画框词汇仍单独归档。"
+      "reason": "新增博物馆并列与资助、科研荣誉与丑闻、教师工会立场、保护区intrusion/discontinue四种独立语境。"
     },
     "modal-stage": {
       "coverage_gap": false,
-      "reason": "新增电池维修标准与医院交接清单语境，区分尝试制定、条件性预期结果及已经生效。"
+      "reason": "新增档案保护必要性、珊瑚历史修复与当前威胁、网络安全草案与实际部署三个不同语境。"
     },
     "policy-enforcement-roles": {
       "coverage_gap": false,
       "reason": "新增时尚守则和实验室安全两个独立语境，区分标准内容、违规原因、制裁手段，并显式区分character与characteristics。"
+    },
+    "attribution-stance": {
+      "coverage_gap": false,
+      "reason": "新增工业用地决策和清洁公交政策两种多主体立场归属语境。"
     }
   },
   "historical_content_findings": [

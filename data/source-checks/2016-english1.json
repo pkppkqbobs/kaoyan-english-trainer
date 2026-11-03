@@ -1,0 +1,61 @@
+{
+  "exam": "2016-english1",
+  "checked_on": "2026-11-03",
+  "scope": "Partial source check: Reading Text 2 Q26 and Q27 only, in the user's option ordering.",
+  "purpose": "核对选项的完整文本及对应字母，特别避免不同转载平台重排选项造成Q27 A/D标签冲突。本文件未核验2016整卷、完形或Text1的用户版本，也不说明用户任何未确认的选择。",
+  "sources": [
+    {
+      "id": "xdf-2016-text2",
+      "title": "新东方：2016考研英语一阅读Text2真题解析",
+      "url": "https://mtoutiao.xdf.cn/kaoyan/201512/10397106.html",
+      "covers": "Q26 A is not well reflected in politics与Q27 D gradually destroyed；根据逐年混凝土侵占乡村的情境解释D。"
+    },
+    {
+      "id": "eol-2016-text2",
+      "title": "中国教育在线：2016考研英语一Text2题源及解析",
+      "url": "https://kaoyan.eol.cn/fu_xi/yingyu/201512/t20151231_1353585.shtml",
+      "covers": "Q26 A、Q27 D的选项内容和论证方式；文本强调now和every year。"
+    },
+    {
+      "id": "eol-2016-alternate",
+      "title": "中国教育在线：2016真题另一选项顺序",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201605/t20160512_1397148_3.shtml",
+      "covers": "同一正确选项gradually destroyed在另一排序中标为A、largely overshadowed标为D；字母不同不是词义结论冲突。"
+    }
+  ],
+  "answers": {
+    "26": "A",
+    "27": "D"
+  },
+  "answer_words": {
+    "26": "is not well reflected in politics",
+    "27": "gradually destroyed"
+  },
+  "option_order_reference": {
+    "26": {
+      "A": "is not well reflected in politics",
+      "B": "is fully backed by the royal family"
+    },
+    "27": {
+      "A": "largely overshadowed",
+      "B": "properly protected",
+      "C": "effectively reinforced",
+      "D": "gradually destroyed"
+    }
+  },
+  "performance_coverage": {
+    "Text 2": "用户明确确认Q27初选A→最终改B（真实错题），答后才重新考虑D，不将D登记为作答。Q26只确认B项backed词义困难，实际选项未知。Q28—30无逐题作答证据；整篇理解困难独立归档，不计算本篇纸质得分。"
+  },
+  "observed_difficulties": [
+    "Q26 back作动词支持义，与back away/back down区别；alongside仅是并列。",
+    "Q27过去国家信托成就与目前侵占；need protection不等于already protected；overshadowed与gradually destroyed区别。",
+    "多主体立场与作者态度；有规划开发不等于反对所有建设。"
+  ],
+  "notes": [
+    "资料来源为公开培训机构和考研教育平台的回顾性解析，而非考试主管机构官方答案扫描件。",
+    "不同网站选项字母排列不同，先对比完整选项文本。",
+    "Q27对A/D的解释权重存在分歧，用户初选A→改B与答后考虑D的轨迹保持不变。",
+    "仅核验本篇Q26、Q27；其他2016篇目的学习笔记不因本文件存在而视为已核验。",
+    "答案来源不代表用户作答记录，纸质反思不参与网页成绩和streak。"
+  ]
+}

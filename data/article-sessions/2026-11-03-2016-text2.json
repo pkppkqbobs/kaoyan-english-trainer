@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-03-2016-text2",
+  "date": "2026-11-03",
+  "learning_date": "2026-11-03",
+  "created_at": "2026-11-03T18:52:00+09:00",
+  "source": "2016 英语一 Reading Text 2 · 2026-11-03纸质复盘（11月3日发布）",
+  "focus_families": [
+    "familiar-word-polysemy",
+    "modal-stage",
+    "attribution-stance",
+    "author-stance"
+  ],
+  "focus_question_ids": {
+    "familiar-word-polysemy": [
+      "text2-backing-vs-alongside-heritage"
+    ],
+    "modal-stage": [
+      "text2-needs-protection-vs-protected-data"
+    ],
+    "attribution-stance": [
+      "text2-speakers-council-planning"
+    ],
+    "author-stance": [
+      "text2-author-stance-hospital-building"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "source_check_ref": "data/source-checks/2016-english1.json",
+  "reference_answer_scope": "Text 2 Q26 A and Q27 D only; Q28-30 are not claimed as user answers."
+}

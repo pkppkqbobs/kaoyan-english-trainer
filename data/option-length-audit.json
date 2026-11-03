@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 286,
-        "correct_uniquely_longest": 66,
-        "correct_uniquely_shortest": 50,
-        "longest_guess_pct": 28.93,
-        "shortest_guess_pct": 21.65,
+        "question_count": 298,
+        "correct_uniquely_longest": 73,
+        "correct_uniquely_shortest": 53,
+        "longest_guess_pct": 30.29,
+        "shortest_guess_pct": 21.95,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -4812,6 +4812,74 @@
         "family": "title-coverage",
         "source": "data/questions/2026-11-02-2016-text1-migration.json"
       },
+      "text2-author-stance-grid-expansion": {
+        "lengths": [
+          50,
+          54,
+          59,
+          54
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-author-stance-hospital-building": {
+        "lengths": [
+          51,
+          57,
+          50,
+          55
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-author-stance-rail-landuse": {
+        "lengths": [
+          41,
+          49,
+          49,
+          52
+        ],
+        "spread": 11,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-backing-vs-alongside-heritage": {
+        "lengths": [
+          49,
+          49,
+          45,
+          48
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
       "text2-boxed-curators-implement-ideas": {
         "lengths": [
           63,
@@ -4828,6 +4896,142 @@
         "pool": "daily_article",
         "family": "text2-boxed-vocab",
         "source": "data/questions/2026-10-27-article-followup.json"
+      },
+      "text2-historic-gains-new-threat-reef": {
+        "lengths": [
+          55,
+          54,
+          59,
+          53
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "modal-stage",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-intrusion-discontinued-access": {
+        "lengths": [
+          54,
+          53,
+          50,
+          50
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-needs-protection-vs-protected-data": {
+        "lengths": [
+          67,
+          59,
+          62,
+          54
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "modal-stage",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-overshadowed-research-prize": {
+        "lengths": [
+          52,
+          51,
+          47,
+          48
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-reinforce-versus-need-cyber": {
+        "lengths": [
+          50,
+          58,
+          54,
+          57
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "modal-stage",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-sided-with-community-appeal": {
+        "lengths": [
+          54,
+          51,
+          49,
+          48
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-speakers-council-planning": {
+        "lengths": [
+          44,
+          43,
+          42,
+          43
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
+      },
+      "text2-speakers-transit-tax": {
+        "lengths": [
+          54,
+          52,
+          52,
+          50
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-03-2016-text2-migration.json"
       },
       "text3-boxed-flagship-b": {
         "lengths": [
