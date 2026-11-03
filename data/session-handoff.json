@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-03",
     "daily_quiz": "2026-11-03",
-    "latest_observation": "2026-11-02"
+    "latest_observation": "2026-11-03"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-02",
-      "storageId": "2026-11-02-2016-text1",
-      "learning_date": "2026-11-02"
+      "date": "2026-11-03",
+      "storageId": "2026-11-03-2016-text2",
+      "learning_date": "2026-11-03"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,147 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-03",
+      "exam": "2016-english1",
+      "part": "Text 2",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "modal-stage",
+          "question": 27,
+          "related_questions": [],
+          "updated_on": "2026-11-03",
+          "final_choice": "B",
+          "final_choice_status": "confirmed",
+          "first_considered": "A",
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "D",
+          "reference_status": "source_checked",
+          "summary": "用户明确自述做错，初选A largely overshadowed，后改选B properly protected；原因是不能判断段落对国家信托成就的评价方向，并把It needs…",
+          "followup": null,
+          "spans": [
+            "largely overshadowed",
+            "properly protected",
+            "gradually destroyed",
+            "It needs constant guardianship",
+            "every year concrete consumes more of it"
+          ],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-03",
+            "family": "modal-stage",
+            "question": 27,
+            "note_fingerprint": "23689077b2b393df"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "familiar-word-polysemy",
+          "question": 26,
+          "related_questions": [],
+          "updated_on": "2026-11-03",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "source_checked",
+          "summary": "用户主动询问第26题B中的backed，曾联想到bake或后退，但没有明确给出最终选项字母；不能因为谈及B就推定选择B。",
+          "followup": null,
+          "spans": [
+            "is fully backed by the royal family",
+            "alongside the royal family"
+          ],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-03",
+            "family": "familiar-word-polysemy",
+            "question": 26,
+            "note_fingerprint": "b7424f154044cfc2"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "attribution-stance",
+          "question": null,
+          "related_questions": [
+            28,
+            29,
+            30
+          ],
+          "updated_on": "2026-11-03",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "整体理解反馈显示不同政党、公众、开发利益相关方和作者立场容易混淆；目前未收到Q28—30的最终选择字母或逐题推理，不能按原文讲解倒推出这些题的作答。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-03",
+            "family": "attribution-stance",
+            "question": null,
+            "note_fingerprint": "a26018849ea04f20"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "author-stance",
+          "question": null,
+          "related_questions": [],
+          "updated_on": "2026-11-03",
+          "final_choice": null,
+          "final_choice_status": "not_applicable",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "用户明确报告整篇阅读困难。多个政治主体及其立场容易混淆；难以区分过去环保成就和当前开发压力；难以判断作者反对的是开发本身还是未经规划的开发方式；会混淆需要保护、已经保护和正在遭破坏…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-03",
+            "family": "author-stance",
+            "question": null,
+            "note_fingerprint": "386081dd4c66783b"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "backed",
+        "curious",
+        "discontinue",
+        "intrusion",
+        "overshadowed",
+        "pleading",
+        "sided with",
+        "stylish"
+      ],
+      "translation_note_count": 1,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-03",
+        "family": "familiar-word-polysemy",
+        "question": null,
+        "note_fingerprint": "80f293cfa153ee15"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-03-2016-text2.json"
+      ]
+    },
     {
       "date": "2026-11-02",
       "exam": "2016-english1",
@@ -575,95 +716,22 @@
       "article_session_files": [
         "data/article-sessions/2026-10-29-2015-text3.json"
       ]
-    },
-    {
-      "date": "2026-10-28",
-      "exam": "2015-english1",
-      "part": "Text 2",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "relation-collocation",
-          "question": 26,
-          "related_questions": [],
-          "updated_on": "2026-10-28",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": "C",
-          "candidate_choices": [
-            "B",
-            "C"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "C",
-          "reference_status": "source_checked",
-          "summary": "用户确认初选C正确、最终改B错误；在B/C间犹豫，觉得B更合适。未确认具体误译了哪个词。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-28",
-            "family": "relation-collocation",
-            "question": 26,
-            "note_fingerprint": "12397bb4f4437dad"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "paragraph-scope-attitude",
-          "question": 29,
-          "related_questions": [],
-          "updated_on": "2026-10-28",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": "C",
-          "candidate_choices": [
-            "B",
-            "C"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "C",
-          "reference_status": "source_checked",
-          "summary": "用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-28",
-            "family": "paragraph-scope-attitude",
-            "question": 29,
-            "note_fingerprint": "5df27f39dc070a92"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "discarding",
-        "expect",
-        "lame argument",
-        "line-drawing",
-        "purse",
-        "recklessly",
-        "storehouse",
-        "sweeping"
-      ],
-      "translation_note_count": 1,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-28",
-        "family": "familiar-word-polysemy",
-        "question": null,
-        "note_fingerprint": "d4935033cff820fa"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-10-28-2015-text2.json"
-      ]
     }
   ],
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-03-2016-text2",
+        "learning_date": "2026-11-03",
+        "updated_on": "2026-11-03",
+        "exam": "2016-english1",
+        "part": "Reading Text 2",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-03-2016-text2.json",
+        "round_file": "data/article-reviews/2026-11-03-2016-text2.json",
+        "publication_date": "2026-11-03"
+      },
       {
         "session_id": "2026-11-02-2016-text1",
         "learning_date": "2026-11-02",
@@ -740,21 +808,52 @@
         "session_file": "data/article-sessions/2026-10-26-2015-cloze.json",
         "round_file": "data/article-reviews/2026-10-26-2015-cloze.json",
         "publication_date": "2026-10-27"
-      },
-      {
-        "session_id": "2026-10-25-2014-partb",
-        "learning_date": "2026-10-25",
-        "updated_on": "2026-10-25",
-        "exam": "2014-english1",
-        "part": "Part B (paragraph ordering)",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-10-25-2014-partb.json",
-        "round_file": "data/article-reviews/2026-10-25-2014-partb.json",
-        "publication_date": "2026-10-27"
       }
     ]
   },
   "priorities": [
+    {
+      "mechanism": "language",
+      "label": "修饰关系与熟词搭配",
+      "families": [
+        {
+          "family": "modal-stage",
+          "label": "要求与完成的证据",
+          "focus": "用户明确自述做错，初选A largely overshadowed，后改选B properly protected；原因是不能判断段落对国家信托成就的评价方向，并把It needs…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-03",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-03",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-03",
+            "family": "modal-stage",
+            "question": 27,
+            "note_fingerprint": "23689077b2b393df"
+          }
+        },
+        {
+          "family": "action-collocation",
+          "label": "完整动作与动作路径",
+          "focus": "用户明确确认第9题选C（wrapping），标准答案为D（tying）；用户将动作想象为用棉线把新郎新娘捆在一起。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-01",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-03",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-01",
+            "family": "action-collocation",
+            "question": 9,
+            "note_fingerprint": "cce0b6f44305ae25"
+          }
+        }
+      ]
+    },
     {
       "mechanism": "scope",
       "label": "选项范围与额外限定",
@@ -840,85 +939,43 @@
       ]
     },
     {
-      "mechanism": "language",
-      "label": "修饰关系与熟词搭配",
-      "families": [
-        {
-          "family": "modal-stage",
-          "label": "条件性将来与完成状态",
-          "focus": "用户明确确认第23题选A，标准答案表为B。用户认为is trying to set表示正在尝试制定，因此would be constructed会错误地表示标准已经建立；用户仍不接…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-02",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-03",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-02",
-            "family": "modal-stage",
-            "question": 23,
-            "note_fingerprint": "3d569294b1fd39b3"
-          }
-        },
-        {
-          "family": "action-collocation",
-          "label": "完整动作与动作路径",
-          "focus": "用户明确确认第9题选C（wrapping），标准答案为D（tying）；用户将动作想象为用棉线把新郎新娘捆在一起。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-01",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-03",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "action-collocation",
-            "question": 9,
-            "note_fingerprint": "cce0b6f44305ae25"
-          }
-        }
-      ]
-    },
-    {
       "mechanism": "stance",
       "label": "作者态度、评价对象与转折",
       "families": [
         {
-          "family": "paragraph-scope-attitude",
-          "label": "段落限定与转折作用范围",
-          "focus": "用户确认初选C、最终改B；因读到末段But及后续论述，认为B更合适。标准C，属于真实纸质改选错误。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-28",
-          "web_errors": 0,
+          "family": "author-stance",
+          "label": "明确反对对象与替代方案",
+          "focus": "用户明确报告整篇阅读困难。多个政治主体及其立场容易混淆；难以区分过去环保成就和当前开发压力；难以判断作者反对的是开发本身还是未经规划的开发方式；会混淆需要保护、已经保护和正在遭破坏…",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-03",
+          "web_errors": 1,
           "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-01",
+          "slow_or_uncertain": false,
+          "due": "2026-11-03",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-10-28",
-            "family": "paragraph-scope-attitude",
-            "question": 29,
-            "note_fingerprint": "5df27f39dc070a92"
+            "date": "2026-11-03",
+            "family": "author-stance",
+            "question": null,
+            "note_fingerprint": "386081dd4c66783b"
           }
         },
         {
           "family": "attribution-stance",
-          "label": "具体案例与作者主张",
-          "focus": "用户自述整篇基本没看懂、基本每个选项没把握、主要靠猜；36—40题最终字母、答对数量与具体逐题错因均未知。",
+          "label": "政党与作者观点区分",
+          "focus": "整体理解反馈显示不同政党、公众、开发利益相关方和作者立场容易混淆；目前未收到Q28—30的最终选择字母或逐题推理，不能按原文讲解倒推出这些题的作答。",
           "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-30",
+          "latest_observation": "2026-11-03",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
           "due": "2026-11-03",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-10-30",
+            "date": "2026-11-03",
             "family": "attribution-stance",
             "question": null,
-            "note_fingerprint": "94961e5da5f1dcf6"
+            "note_fingerprint": "a26018849ea04f20"
           }
         }
       ]
@@ -967,6 +1024,20 @@
     }
   ],
   "pending": [
+    {
+      "exam": "2016-english1",
+      "part": "Text 2",
+      "question": 26,
+      "date": "2026-11-03",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-03",
+        "family": "familiar-word-polysemy",
+        "question": 26,
+        "note_fingerprint": "b7424f154044cfc2"
+      }
+    },
     {
       "exam": "2016-english1",
       "part": "Section I (Cloze)",
@@ -1081,8 +1152,7 @@
     }
   ],
   "warnings": [
-    "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对",
-    "2016-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
+    "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
   ],
   "sources": {
     "article-review-2026-10-03-2011-text3.html": "f478af0ddd24f8573cffba3f22a38e8c6dfa42a5d98ba117455fce18154161e1",
@@ -1113,7 +1183,8 @@
     "article-review-2026-10-30-2015-text4.html": "f08d7288ebdea502208e97204603c3a8d79634525e191e5deba6d171faf195ea",
     "article-review-2026-11-01-2016-cloze.html": "2a4df9ca4a249d650874f5158c22c71c895319908f38efc93989fdb005d375f9",
     "article-review-2026-11-02-2016-text1.html": "ecc4129745d1918d23d2ac673d938941e910c8a00a9fd0e2d493e1be1cdcffd6",
-    "data/article-review.json": "922765b4108fca39c47bbd55529da6832e34d00832e769ab0f6fe5ccb8af1687",
+    "article-review-2026-11-03-2016-text2.html": "70c011daefa054f43516494882d807a31dc9a74dacc57a7e998d37d9cae2d0cc",
+    "data/article-review.json": "f0eeffe4c740fab573a6548f1cd2926944fde9f7dff9df9e9a9bd76ed0110bd8",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1148,6 +1219,7 @@
     "data/article-reviews/2026-10-30-2015-text4.json": "e24d89d4465a8889ce6c8a1da57c006e89b2fdbeb19ac4f88fe3f0aa8114c902",
     "data/article-reviews/2026-11-01-2016-cloze.json": "e5d6c6fef87fe3c5151abc0c8e98d530b186a7f7dcc4d44a9c45fc276bcaaf95",
     "data/article-reviews/2026-11-02-2016-text1.json": "922765b4108fca39c47bbd55529da6832e34d00832e769ab0f6fe5ccb8af1687",
+    "data/article-reviews/2026-11-03-2016-text2.json": "f0eeffe4c740fab573a6548f1cd2926944fde9f7dff9df9e9a9bd76ed0110bd8",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1177,6 +1249,7 @@
     "data/article-sessions/2026-10-30-2015-text4.json": "7cd409afdfb82f7cf1cc56a74f7e91017b5288a5f59a1468fea534fb1328628b",
     "data/article-sessions/2026-11-01-2016-cloze.json": "bb45b73088bcead33f60561e3b86ab484594f672f92c8b3ab4f94127d670e931",
     "data/article-sessions/2026-11-02-2016-text1.json": "aeec2982a28e8b8f56ff40b315fb0c3d5924428519e7471e3a4723f201cb7132",
+    "data/article-sessions/2026-11-03-2016-text2.json": "8ea47e37b66f024479bbca70cdab4d15bb146f6997244e6e33bed91eef3386df",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1215,9 +1288,9 @@
     "data/days/2026-11-01.json": "c461dd741c90729e826c35f16828242f9f8542972b1a1b9da0f3d95aa6d96857",
     "data/days/2026-11-02.json": "f10a4ac95d32b5e7f817569e632754eea242ec3f834d882619e2277fd8ee6f26",
     "data/days/2026-11-03.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
-    "data/learning-notes.json": "c9858ec652f0ddb5d9aac12771ab5ac3a7804c5d0b38bf8ebbb0db88e819c6fd",
+    "data/learning-notes.json": "d67be20fac290844261e0242ab386e335f5b004637c36a63f9097ad7cf64238a",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
-    "data/question-contexts.json": "3e203b105780b79aeccb4df5dac4148170d2e05fdef68533bf0595279373bfd3",
+    "data/question-contexts.json": "4e21151232b6f07b2a0bff6f11e8b53ef29e19005513482f9de54160cfb01c62",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1249,15 +1322,17 @@
     "data/questions/2026-10-31-text4.json": "878e078a2c430cda5defa1eeb50f1175ed5191f098a374838848c88e4a1a8d1a",
     "data/questions/2026-11-02-2016-cloze-migration.json": "1b9233b5dd8027765676bec3ebd5b17ec613d504fe2a38b3b71394aaa5720c75",
     "data/questions/2026-11-02-2016-text1-migration.json": "2ece4efb0a47130e230f66440f62dadcf7ac351edaf22027ab18add3130c39d4",
+    "data/questions/2026-11-03-2016-text2-migration.json": "3579c59a382b55501f86e1bb64a9c2bb74978aca751202cb7e79c75cf8731f6b",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "cc96e0f9a949038263a7b99abcb676711f39f486ac9114062e65e8a530b00a22",
     "data/review-state.json": "6f8e06093f86f005ab8206cc212dc7997d307f6462a62f7469d8b31be8b79e19",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
-    "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75"
+    "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
+    "data/source-checks/2016-english1.json": "a1bb8205dbc64402bc238b43e6061050166afb1c04b30e51508fe56b43833345"
   },
-  "source_fingerprint": "ba6b5269c66311781f45be47324a63b3d6df0e401df410b8b4b6a55e29520c5d",
+  "source_fingerprint": "49db9a216d622662f8711b6d60d1ed4b7e0018ae8a599112bfc91ad46f8bde2f",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
