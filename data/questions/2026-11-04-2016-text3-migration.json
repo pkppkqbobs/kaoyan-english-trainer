@@ -1,0 +1,290 @@
+[
+  {
+    "id": "text3-curator-forecast-skepticism",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "skepticism vs uncertainty",
+    "skill": "判断论证性怀疑",
+    "q": "The curator says visitor numbers may rise under a new entry policy, but the projected increase comes from untested assumptions. What is her attitude to the projection?",
+    "o": [
+      "She fully accepts the predicted attendance growth.",
+      "She questions whether the forecast is reliable.",
+      "She has no view on the policy's ticket prices.",
+      "She denies any possible rise in museum visits."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "馆长认为游客可能增加，但增长预测依赖未经验证的假设。",
+      "structure": "but连接对增长可能性的承认与对预测可靠性的保留。",
+      "other": "curator馆长；projection预测；assumption假设。",
+      "meaning": "skepticism是对特定论断的证据提出质疑，不等于全面否认增长可能。",
+      "rest": "完全接受预测、无关的票价态度和完全否认增长都没有保留作者质疑的对象。"
+    }
+  },
+  {
+    "id": "text3-translator-absolute-claim",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "qualified doubt vs outright rejection",
+    "skill": "有方向的质疑与全面否定",
+    "q": "An engineer says automatic translation always preserves humor. A writer notes several failures while acknowledging that many translations are useful. Which response best fits the writer?",
+    "o": [
+      "She treats the guarantee as true in every case.",
+      "She refuses to consider translation technology.",
+      "She cannot identify the engineer's central claim.",
+      "She doubts the guarantee, not every translation."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "工程师声称机器翻译始终保留幽默，作者列出反例但承认不少翻译有用。",
+      "structure": "always是绝对化主张；while acknowledging限定反对范围。",
+      "other": "guarantee保证；preserve保留；acknowledge承认。",
+      "meaning": "作者质疑的是always的无条件保证，不是否认技术一切价值。",
+      "rest": "全面赞同、拒绝讨论技术和无法辨认主张均不符合反例及保留性肯定。"
+    }
+  },
+  {
+    "id": "text3-sensor-evidence-uncertainty",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "uncertainty vs skepticism",
+    "skill": "证据不足与观点反驳",
+    "q": "A technician writes: We cannot yet tell whether the sensor failed or its batteries died; neither explanation has been tested. What attitude does this express?",
+    "o": [
+      "Uncertainty because the cause remains untested.",
+      "Skepticism about the maker's basic honesty.",
+      "Approval of the sensor's current performance.",
+      "Rejection of both possible failure mechanisms."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "技术员尚无法判断传感器失效还是电池耗尽，两种原因都未验证。",
+      "structure": "cannot yet tell表明未有足够证据作出判断；neither...has been tested说明原因。",
+      "other": "sensor传感器；mechanism机理；battery电池。",
+      "meaning": "这里没有批驳某个确定论点，只是对原因尚无定论，属于uncertainty。",
+      "rest": "质疑制造商诚信、赞同表现及排除两种原因都超出文本。"
+    }
+  },
+  {
+    "id": "text3-pilot-service-claim-scope",
+    "family": "tone",
+    "introduced": null,
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "qualification and skepticism",
+    "skill": "限定评价与强断言",
+    "q": "An editor calls a one-day service pilot encouraging, but says its results do not justify a claim that the service will work everywhere. What is the editor's stance?",
+    "o": [
+      "The universal claim is already firmly established.",
+      "The pilot showed that the service has no value.",
+      "The editor questions the reach of the conclusion.",
+      "The editor declines to evaluate the pilot at all."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "编辑肯定一天试点有希望，却认为不能用它证明服务处处有效。",
+      "structure": "encouraging是积极的局部评价；but后限定了结论适用范围。",
+      "other": "pilot试点；universal普遍适用；justify证明合理。",
+      "meaning": "对证据推论范围的质疑不等于否认试点价值，也不等于作者没有态度。",
+      "rest": "完全证实、毫无价值以及拒绝评价都违背了文章的限定性表述。"
+    }
+  },
+  {
+    "id": "text3-restaurant-award-halo",
+    "family": "tone",
+    "introduced": null,
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "halo effect and independent evidence",
+    "skill": "光环效应与独立判断",
+    "q": "A restaurant's award makes visitors assume every dish must be excellent. A reviewer then describes a poorly prepared meal. What problem does the review illustrate?",
+    "o": [
+      "A positive first impression may bias later ratings.",
+      "Awards guarantee the quality of every dish served.",
+      "One bad meal proves that the prize was awarded illegally.",
+      "Reviewers can never be affected by restaurant fame."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "餐馆获奖让顾客假设所有菜都好，但评论者发现一餐质量差。",
+      "structure": "makes visitors assume解释光环判断；then introduces反例。",
+      "other": "halo effect光环效应；bias使产生偏见；rating评价。",
+      "meaning": "单一良好印象可能不当地扩展为对所有其他方面的肯定。",
+      "rest": "奖项无法保证每道菜品质，糟糕的一餐也不能证明奖项违法，更不能推断评论者完全免疫声誉影响。"
+    }
+  },
+  {
+    "id": "text3-remote-work-granted-premise",
+    "family": "tone",
+    "introduced": null,
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "even if premise vs total endorsement",
+    "skill": "承认前提与反驳结论",
+    "q": "A columnist says: Even if working from home saves travel time, it does not follow that every team performs better remotely. What does the opening concession do?",
+    "o": [
+      "It confirms that remote work improves every team.",
+      "It establishes that commuting savings are untrue.",
+      "It changes the discussion to transport policy alone.",
+      "It grants one premise without accepting the conclusion."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "评论者暂且承认远程办公节约通勤时间，却不接受所有团队表现更好的结论。",
+      "structure": "even if引导让步，does not follow拒绝从前提直接推出普遍结论。",
+      "other": "premise前提；concession让步；remotely远程地。",
+      "meaning": "让步从句可以暂时接受某前提，却对扩大化结论保持怀疑。",
+      "rest": "完全支持、否认节约通勤和转移主题都不是让步结构的真实作用。"
+    }
+  },
+  {
+    "id": "text3-referee-penalty-leniency",
+    "family": "evaluation-vocab",
+    "introduced": null,
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "lenient vs severe",
+    "skill": "处罚轻重的同义表达",
+    "q": "After an appeal, a referee reduced a player's suspension from six matches to two, but kept the penalty. The revised sanction is best described as:",
+    "o": [
+      "more lasting because it follows a formal hearing",
+      "more severe because it still includes a penalty",
+      "more lenient, although punishment still remains",
+      "less certain because the referee did not decide"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "申诉后停赛从六场减为两场，但处罚并未取消。",
+      "structure": "reduced...from...to...表达数量下降；but kept the penalty限定处罚仍在。",
+      "other": "lenient宽大的；severe严厉的；suspension停赛。",
+      "meaning": "更宽大等价于处罚程度更轻，不等于完全免罚。",
+      "rest": "延长、加重或裁判尚未决定均与已经明确减轻处罚相反。"
+    }
+  },
+  {
+    "id": "text3-factory-warning-less-severe",
+    "family": "evaluation-vocab",
+    "introduced": null,
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "less severe vs more lenient",
+    "skill": "制度处罚与力度比较",
+    "q": "A factory code replaces automatic closure for a first violation with a written warning. Compared with the old response, the new sanction is:",
+    "o": [
+      "more permanent for every new breach of the code",
+      "less severe for an initial breach of the rule",
+      "more punitive for any first-time safety mistake",
+      "more frequent because all warnings recur weekly"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "工厂新守则把首次违规的自动停业改成书面警告。",
+      "structure": "replaces A with B指替换；for a first violation限定适用情形。",
+      "other": "sanction制裁；punitive惩罚性的；violation违规。",
+      "meaning": "从停业到书面警告体现处罚力度减轻，即less severe / more lenient。",
+      "rest": "不是更持久、更严厉，也没有说明警告每周发生。"
+    }
+  },
+  {
+    "id": "text3-audit-records-malpractices",
+    "family": "evaluation-vocab",
+    "introduced": null,
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "malpractices",
+    "skill": "违法违规词汇语境",
+    "q": "An audit found repeated falsification of equipment logs and called these acts 'malpractices.' In this context, what does the term mean?",
+    "o": [
+      "Improper conduct rather than ordinary work routines.",
+      "Harmless professional habits carried out each day.",
+      "Authorized training sessions for junior technicians.",
+      "Routine storage of the equipment maintenance logs."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "审计发现反复伪造设备记录，并把这些行为称为malpractices。",
+      "structure": "called these acts将伪造行为称作不当行为；falsification是定义线索。",
+      "other": "malpractice不当行为；falsification伪造；audit审计。",
+      "meaning": "词缀mal-表示不当，与单独的practices日常做法不同。",
+      "rest": "无害习惯、获批准培训和普通存档均不是反复伪造记录。"
+    }
+  },
+  {
+    "id": "text3-sickdays-leave-policy-rival",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "competing explanation test",
+    "skill": "检验替代解释的设计",
+    "q": "After exercise classes began, staff took fewer sick days. Researchers wondered whether a simultaneous change in leave policy explained the drop, so they compared units where the policy had not changed. Why?",
+    "o": [
+      "To prove that classes alone caused the drop.",
+      "To measure how much the staff enjoyed exercise.",
+      "To show that every unit changed its leave policy.",
+      "To test a rival explanation for the sick-day decline."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "健身课后员工病假减少，研究者怀疑同期请假制度变化也可能造成下降，于是检查制度未改变的部门。",
+      "structure": "wondered whether提出备选解释；so引出检验该解释的方法。",
+      "other": "rival explanation竞争性解释；leave policy请假制度。",
+      "meaning": "对照政策未变的单位是检验替代原因，不是自动确证健身课的因果效果。",
+      "rest": "不能凭这一比较证明唯一原因，也不是测量满意度或证明各单位都改了政策。"
+    }
+  },
+  {
+    "id": "text3-river-birds-boat-traffic",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "rule out boat traffic",
+    "skill": "排除性证据与因果边界",
+    "q": "Bird counts rose after riverfront lights were dimmed. Some argued that fewer boats explained the increase, but traffic records showed no decline in boats. What does this evidence do?",
+    "o": [
+      "It demonstrates that lighting was the only possible cause.",
+      "It weakens the alternative explanation based on boat traffic.",
+      "It establishes that birds were never affected by boat noise.",
+      "It shows that the original bird counts were fabricated."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "调暗河岸灯光后鸟类增加；有人认为是船只减少所致，但记录显示船只没有减少。",
+      "structure": "some argued提出竞争性解释；but引出相反证据。",
+      "other": "traffic record流量记录；alternative explanation替代解释。",
+      "meaning": "船只未减少削弱了船只减少造成增长的解释，但不能单凭此证明灯光是唯一原因。",
+      "rest": "不能据此排除所有其他因素、证明船噪从无影响，或判定统计造假。"
+    }
+  },
+  {
+    "id": "text3-coding-class-prior-skills",
+    "family": "causal-role-direction",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-04",
+    "budget": 45,
+    "target": "confounding prior ability",
+    "skill": "观察关联与混杂变量",
+    "q": "Students taking optional coding classes scored higher, but they also started with stronger skills. After comparisons among students with equal initial ability, the score gap disappeared. What follows?",
+    "o": [
+      "The classes must have lowered every student's final score.",
+      "Initial skill can be ignored when comparing the groups.",
+      "Prior ability may account for the observed association.",
+      "All students received identical training outside class."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "选修编程课学生成绩更好，但入学技能也更强；在相同起始技能者之间比较后差距消失。",
+      "structure": "but提示潜在混杂变量；after comparisons揭示调整后关联消失。",
+      "other": "confounding混杂；association关联；initial ability起始能力。",
+      "meaning": "起始技能可能解释原本观察到的关联，不能直接把关联等同课程的因果效果。",
+      "rest": "成绩全部下降、起始能力可忽略和接受相同课外训练都没有依据。"
+    }
+  }
+]

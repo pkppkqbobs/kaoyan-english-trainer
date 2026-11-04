@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 298,
-        "correct_uniquely_longest": 73,
-        "correct_uniquely_shortest": 53,
-        "longest_guess_pct": 30.29,
-        "shortest_guess_pct": 21.95,
+        "question_count": 310,
+        "correct_uniquely_longest": 77,
+        "correct_uniquely_shortest": 54,
+        "longest_guess_pct": 30.56,
+        "shortest_guess_pct": 21.64,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5033,6 +5033,23 @@
         "family": "attribution-stance",
         "source": "data/questions/2026-11-03-2016-text2-migration.json"
       },
+      "text3-audit-records-malpractices": {
+        "lengths": [
+          52,
+          50,
+          52,
+          50
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "evaluation-vocab",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
       "text3-boxed-flagship-b": {
         "lengths": [
           48,
@@ -5084,6 +5101,23 @@
         "family": "text3-boxed-vocab",
         "source": "data/questions/2026-10-17-text3.json"
       },
+      "text3-coding-class-prior-skills": {
+        "lengths": [
+          58,
+          55,
+          55,
+          55
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
       "text3-comparison-energy-b": {
         "lengths": [
           63,
@@ -5118,6 +5152,40 @@
         "family": "text3-comparison-inference",
         "source": "data/questions/2026-10-17-text3.json"
       },
+      "text3-curator-forecast-skepticism": {
+        "lengths": [
+          50,
+          47,
+          46,
+          46
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-factory-warning-less-severe": {
+        "lengths": [
+          47,
+          45,
+          47,
+          47
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "evaluation-vocab",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
       "text3-phrases-dedicated-timescale-a": {
         "lengths": [
           99,
@@ -5151,6 +5219,142 @@
         "pool": "daily_article",
         "family": "text3-future-phrases",
         "source": "data/questions/2026-10-17-text3.json"
+      },
+      "text3-pilot-service-claim-scope": {
+        "lengths": [
+          50,
+          47,
+          49,
+          49
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "tone",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-referee-penalty-leniency": {
+        "lengths": [
+          48,
+          47,
+          47,
+          47
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "evaluation-vocab",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-remote-work-granted-premise": {
+        "lengths": [
+          49,
+          49,
+          52,
+          55
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "tone",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-restaurant-award-halo": {
+        "lengths": [
+          51,
+          50,
+          57,
+          51
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "tone",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-river-birds-boat-traffic": {
+        "lengths": [
+          58,
+          61,
+          60,
+          55
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-sensor-evidence-uncertainty": {
+        "lengths": [
+          47,
+          43,
+          45,
+          46
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-sickdays-leave-policy-rival": {
+        "lengths": [
+          44,
+          47,
+          49,
+          53
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "causal-role-direction",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
+      },
+      "text3-translator-absolute-claim": {
+        "lengths": [
+          47,
+          47,
+          49,
+          48
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-04-2016-text3-migration.json"
       },
       "text3-willfully-audit-a": {
         "lengths": [

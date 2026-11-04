@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-03",
+  "reviewed_on": "2026-11-04",
   "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -386,7 +386,19 @@
     "text2-speakers-transit-tax": "clean-buses-survey-parties-columnist",
     "text2-author-stance-hospital-building": "clinic-siting-vs-total-opposition",
     "text2-author-stance-grid-expansion": "electricity-lines-carefully-routed",
-    "text2-author-stance-rail-landuse": "city-vacant-lots-vs-farmland-expansion"
+    "text2-author-stance-rail-landuse": "city-vacant-lots-vs-farmland-expansion",
+    "text3-curator-forecast-skepticism": "museum-curator-policy-forecast-caveat",
+    "text3-translator-absolute-claim": "machine-translation-humor-always-counterexamples",
+    "text3-sensor-evidence-uncertainty": "sensor-technical-cause-undecided",
+    "text3-pilot-service-claim-scope": "one-day-pilot-universal-deployment-claim",
+    "text3-restaurant-award-halo": "restaurant-award-overgeneralization-quality",
+    "text3-remote-work-granted-premise": "remote-work-travel-time-vs-team-performance",
+    "text3-referee-penalty-leniency": "sports-suspension-reduced-after-appeal",
+    "text3-factory-warning-less-severe": "factory-code-first-violation-warning",
+    "text3-audit-records-malpractices": "equipment-log-falsification-audit",
+    "text3-sickdays-leave-policy-rival": "exercise-class-sickdays-leave-policy-rival",
+    "text3-river-birds-boat-traffic": "river-bird-counts-lighting-vs-boats",
+    "text3-coding-class-prior-skills": "coding-classes-prior-ability-comparison"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -490,7 +502,19 @@
     "clean-buses-survey-parties-columnist": "公共交通场景：调查民意、政党表态及评论者意见分别归属。",
     "clinic-siting-vs-total-opposition": "诊所选址场景：认可需求但要求评估，不是反对所有建设。",
     "electricity-lines-carefully-routed": "电网扩展场景：承认扩张必要性与要求保护栖息地可以共存。",
-    "city-vacant-lots-vs-farmland-expansion": "住宅选址场景：反对不合理位置和程序，不等于反对住房。"
+    "city-vacant-lots-vs-farmland-expansion": "住宅选址场景：反对不合理位置和程序，不等于反对住房。",
+    "museum-curator-policy-forecast-caveat": "博物馆访客预测：质疑推断可靠性不等于否定政策效果。",
+    "machine-translation-humor-always-counterexamples": "机器翻译：针对always绝对命题提出反例，仍认可部分实际效用。",
+    "sensor-technical-cause-undecided": "技术故障：证据不足的uncertainty不同于反驳特定论断。",
+    "one-day-pilot-universal-deployment-claim": "试点结论边界：肯定局部价值而怀疑推广到所有场景。",
+    "restaurant-award-overgeneralization-quality": "餐厅奖项光环：某一方面正面印象不能保证全部产品表现。",
+    "remote-work-travel-time-vs-team-performance": "远程办公：暂且承认节约时间的premise，不推出所有团队表现提高。",
+    "sports-suspension-reduced-after-appeal": "体育纪律处罚：从六场停赛到两场意味着more lenient但并非取消处罚。",
+    "factory-code-first-violation-warning": "工厂首犯政策：停工改书面警告，处罚程度less severe。",
+    "equipment-log-falsification-audit": "设备审计：malpractices是不当伪造行为，不是普通实践。",
+    "exercise-class-sickdays-leave-policy-rival": "健身课程与病假：并行请假制度政策是待排除的竞争解释。",
+    "river-bird-counts-lighting-vs-boats": "河岸灯光与鸟类：船流量未减少只削弱另一解释，不证明唯一原因。",
+    "coding-classes-prior-ability-comparison": "选修课程成绩：控制入学基础后差异消失，显示潜在混杂因素。"
   },
   "family_assessments": {
     "reference": {
@@ -517,12 +541,12 @@
     "author-stance": {
       "coverage_gap": false,
       "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
-      "reason": "新增诊所选址、电网线路、住房用地三种作者支持目标但质疑方式的语境。"
+      "reason": "新增访客预测、翻译软件绝对性承诺、传感器证据不足三种不同论证语境，重点辨析skepticism和uncertainty。"
     },
     "causal-role-direction": {
       "coverage_gap": false,
       "previous_gap": "已有归因与As a result两种上下文，但没有介入措施与待解决问题的因果时序边界。",
-      "reason": "新增被动影响链与问题→应对措施→尚未知结果，补因果时序边界。"
+      "reason": "新增健身课与请假制度、鸟类与船流量、编程课与起始能力三个对照证据场景，区分竞争解释和证据强度。"
     },
     "social-message-inference": {
       "coverage_gap": false,
@@ -610,6 +634,14 @@
     "attribution-stance": {
       "coverage_gap": false,
       "reason": "新增工业用地决策和清洁公交政策两种多主体立场归属语境。"
+    },
+    "tone": {
+      "coverage_gap": false,
+      "reason": "新增短期试点结论边界、餐馆奖项光环、远程办公让步前提三种评价场景。"
+    },
+    "evaluation-vocab": {
+      "coverage_gap": false,
+      "reason": "新增体育停赛、工厂安全处罚、设备伪造审计三个场景，区分宽大处罚、处罚严重程度和malpractices。"
     }
   },
   "historical_content_findings": [

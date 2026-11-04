@@ -2406,5 +2406,113 @@
       "他人观点不得转写为作者立场",
       "不根据文章讲解补填Q28—30作答"
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "session_id": "2026-11-04-2016-text3",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "received_on": "2026-11-04",
+    "evidence_basis": "用户提供的教学对话结构化学习交接；本次未重新查看原始纸质照片。",
+    "scoring_policy": "Paper self-report only. Do not create issue attempts, per-question selections, web scores, accuracy counters or streaks.",
+    "passage_self_report": "用户原话：今天的阅读全对，但我感觉还是有点不足的。",
+    "passage_reported_all_correct": true,
+    "passage_verification": "Self-reported whole passage correctness; no independent per-question initial-choice evidence for Q32, Q34, Q35; Q31 key is disputed across public references.",
+    "family": "author-stance",
+    "kind": "correct_but_uncertain",
+    "source_question": 31,
+    "expected": "B",
+    "reported_pick": "B",
+    "final_choice_letter_confirmed": true,
+    "candidate_choices": [
+      "A",
+      "B"
+    ],
+    "first_considered": null,
+    "question_score_source": "self_reported_correct_on_user_supplied_key",
+    "answer_verification_status": "disputed_between_reputable_preparation_sources",
+    "user_quote": "第31我其实感觉AB都勉勉强强的，最后还是选了B，否定意味比较大。",
+    "user_reported_reasoning": "用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。",
+    "note": "明确最终选B，按用户提供答案表记答对但犹豫（correct_but_uncertain），不是纸质真实错题。uncertainty偏证据不足、尚无定论，skepticism针对某个主张提出怀疑。作者以But even if you accept Friedman's premise, things may not be absolutely clear-cut让步后提出反证；应考查作者是否在质疑Friedman的绝对命题，不能仅比较选项的负面程度。来源注意：公开解析有实际A uncertainty与B skepticism之争，而且另有选项重排。用户这一套答案表为B，本记录仅保留用户口径的答对自述；不声称官方无争议。",
+    "unresolved_reference_question": "2016英语一Text3 Q31部分培训机构答案为uncertainty，另一些为skepticism，需保留公开答案分歧；用户真实最终选择始终是B。",
+    "training_targets": [
+      "uncertainty与skepticism的证据和论证差异",
+      "让步加转折定位作者质疑对象",
+      "质疑命题不等于完全否定",
+      "不靠单一否定程度词确定作者态度"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "session_id": "2026-11-04-2016-text3",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "received_on": "2026-11-04",
+    "evidence_basis": "用户提供的教学对话结构化学习交接；本次未重新查看原始纸质照片。",
+    "scoring_policy": "Paper self-report only. Do not create issue attempts, per-question selections, web scores, accuracy counters or streaks.",
+    "passage_self_report": "用户原话：今天的阅读全对，但我感觉还是有点不足的。",
+    "passage_reported_all_correct": true,
+    "passage_verification": "Self-reported whole passage correctness; no independent per-question initial-choice evidence for Q32, Q34, Q35; Q31 key is disputed across public references.",
+    "family": "evaluation-vocab",
+    "kind": "correct_but_uncertain",
+    "source_question": 33,
+    "expected": "D",
+    "reported_pick": "D",
+    "first_considered": "D",
+    "interim_considered": "A",
+    "final_choice_letter_confirmed": true,
+    "changed_final_choice": false,
+    "user_quote": "33的一开始选的D，然后看到第四段最后一句的political campaign又想选A，但继续往下看感觉还是选D。",
+    "user_reported_reasoning": "用户最初选D，读到第四段末尾political campaigns后短暂考虑A，继续阅读又坚持最终D；没有发生实际改错。D less severe是more lenient的正确同义项。",
+    "note": "答对但犹豫（correct_but_uncertain）：先选D less severe→考虑A（因political campaigns）→最终仍选D。more lenient penalties=较轻/更宽大的处罚，对应less severe及lower fines。政治献金的研究结果Companies that contributed more to political campaigns did not receive lower fines是用于检验并削弱另一解释（政治影响力），不是more lenient的同义词，也不能据此改选。需要区分词义句的解释证据、观察到CSR项目与处罚轻重的关系、竞争性解释以及排除性证据。",
+    "training_targets": [
+      "more lenient与less severe语义对应",
+      "political campaigns并不改变more lenient词义",
+      "rule out alternative explanations的研究作用",
+      "后文新信息是否真推翻原结论再决定改选"
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "session_id": "2026-11-04-2016-text3",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "received_on": "2026-11-04",
+    "evidence_basis": "用户提供的教学对话结构化学习交接；本次未重新查看原始纸质照片。",
+    "scoring_policy": "Paper self-report only. Do not create issue attempts, per-question selections, web scores, accuracy counters or streaks.",
+    "passage_self_report": "用户原话：今天的阅读全对，但我感觉还是有点不足的。",
+    "passage_reported_all_correct": true,
+    "passage_verification": "Self-reported whole passage correctness; no independent per-question initial-choice evidence for Q32, Q34, Q35; Q31 key is disputed across public references.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "even if",
+      "clear-cut",
+      "EPG",
+      "halo effect",
+      "bribery",
+      "malpractices",
+      "defamed"
+    ],
+    "note": "照片中明确画框的7项且仅此7项：even if=即使/让步；clear-cut=清楚明确的（not absolutely clear-cut并非绝对清楚）；EPG=文章中的咨询机构名称缩写，属于专有名称，不当作日常词汇死记；halo effect=光环效应（在一方面的好印象影响其他判断，非免罚保证）；bribery=贿赂（bribery prosecutions相关起诉）；malpractices=不当行为/违规行为（不可当作普通实践）；defamed=被诽谤、名誉受损。画横线仅表示重要，不自动登记。用户另明确说penalties是penalty复数、已经自行理解，“可以不算”，因此不把penalties当作仍困难的词汇，也不赋予复习优先级。",
+    "named_entity_spans": [
+      "EPG"
+    ],
+    "resolved_user_spans": [
+      "penalties"
+    ],
+    "excluded_active_difficulty_spans": [
+      "penalties"
+    ],
+    "training_targets": [
+      "even if让步与clear-cut否定结构",
+      "halo effect的影响范围",
+      "bribery/malpractices/defamed法律及商业语境",
+      "EPG按专有名称处理，penalties已自行解决"
+    ]
   }
 ]
