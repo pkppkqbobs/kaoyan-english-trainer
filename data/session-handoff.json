@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-04",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 38,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-03",
-      "issue": 37,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/37",
-      "round_id": "mw0ghpfm-bu7jo92i",
-      "correct": 7,
+      "date": "2026-11-04",
+      "issue": 38,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/38",
+      "round_id": "mw22nqxm-iasehfpi",
+      "correct": 6,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-11-03"
+        "2026-11-04"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-03.json",
+      "source": "data/days/2026-11-04.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -840,7 +840,7 @@
           "focus": "用户明确确认第9题选C（wrapping），标准答案为D（tying）；用户将动作想象为用棉线把新郎新娘捆在一起。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-01",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-11-04",
@@ -985,20 +985,6 @@
       "label": "Part B 指代与前后衔接",
       "families": [
         {
-          "family": "reference",
-          "label": "these / such 回指",
-          "focus": "网页到期且仍有错误或慢答信号，需跨语境复查。",
-          "paper_kind": null,
-          "latest_observation": "2026-11-03",
-          "web_errors": 3,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-04",
-          "source": {
-            "path": "data/review-state.json"
-          }
-        },
-        {
           "family": "paragraph-order-discourse",
           "label": "说明与例证的层级",
           "focus": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…",
@@ -1014,6 +1000,24 @@
             "family": "paragraph-order-discourse",
             "question": 43,
             "note_fingerprint": "08f8c254b5420082"
+          }
+        },
+        {
+          "family": "paragraph-order-anaphora",
+          "label": "比例指代需要数量基线，避免凭本段主题选句",
+          "focus": "2013英语一Part B七选五第44空：用户明确确认最终选D（The solution is to change the mindset...），正确G（社会科学研究经费约占总研…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-10-19",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-01",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-10-19",
+            "family": "paragraph-order-anaphora",
+            "question": 44,
+            "note_fingerprint": "aeee06448e239d22"
           }
         }
       ]
@@ -1247,7 +1251,7 @@
     "data/article-sessions/2026-11-02-2016-text1.json": "aeec2982a28e8b8f56ff40b315fb0c3d5924428519e7471e3a4723f201cb7132",
     "data/article-sessions/2026-11-03-2016-text2.json": "8ea47e37b66f024479bbca70cdab4d15bb146f6997244e6e33bed91eef3386df",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "62d90d9893f489f6a3953e8227464ffe8a2fd0107e1443aac0e453e8ff092809",
+    "data/daily.json": "98d7f21c1c55ec730dc015e8a489b834eff12dc85c113e087b08b0032b933f90",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1284,7 +1288,7 @@
     "data/days/2026-11-01.json": "c461dd741c90729e826c35f16828242f9f8542972b1a1b9da0f3d95aa6d96857",
     "data/days/2026-11-02.json": "f10a4ac95d32b5e7f817569e632754eea242ec3f834d882619e2277fd8ee6f26",
     "data/days/2026-11-03.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
-    "data/days/2026-11-04.json": "62d90d9893f489f6a3953e8227464ffe8a2fd0107e1443aac0e453e8ff092809",
+    "data/days/2026-11-04.json": "98d7f21c1c55ec730dc015e8a489b834eff12dc85c113e087b08b0032b933f90",
     "data/learning-notes.json": "d67be20fac290844261e0242ab386e335f5b004637c36a63f9097ad7cf64238a",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "4e21151232b6f07b2a0bff6f11e8b53ef29e19005513482f9de54160cfb01c62",
@@ -1321,15 +1325,15 @@
     "data/questions/2026-11-02-2016-text1-migration.json": "2ece4efb0a47130e230f66440f62dadcf7ac351edaf22027ab18add3130c39d4",
     "data/questions/2026-11-03-2016-text2-migration.json": "3579c59a382b55501f86e1bb64a9c2bb74978aca751202cb7e79c75cf8731f6b",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "cc96e0f9a949038263a7b99abcb676711f39f486ac9114062e65e8a530b00a22",
-    "data/review-state.json": "3bb4235892aa30401f5967330698bb8da7fac11401d6227828c383da41f39374",
+    "data/result-evidence.json": "d73b001721b20244234fba862c6f38e53821dbed1e86d0e383443ed1647b09da",
+    "data/review-state.json": "d45c060a779b40dcf071bb03e78b2bbe3f816f7b3f1a821eb48482b7fb475c61",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "a1bb8205dbc64402bc238b43e6061050166afb1c04b30e51508fe56b43833345"
   },
-  "source_fingerprint": "8559bb3b30bb77c13816362c4fa9958659ed476cc9be734e5f2c25c51ea5bef1",
+  "source_fingerprint": "10e7da2984f62ae93acee3d6f4a8516e4718308dd81a19282dbe393cfe4b3023",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

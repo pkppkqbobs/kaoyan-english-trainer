@@ -37,7 +37,8 @@
     34,
     35,
     36,
-    37
+    37,
+    38
   ],
   "families": {
     "absolute-language": {
@@ -72,12 +73,12 @@
     },
     "action-collocation": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-11-03",
+      "errors": 1,
+      "last": "2026-11-04",
       "due": "2026-11-04",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "alerts": {
@@ -371,14 +372,14 @@
       "observation_priority": 0
     },
     "example-claim-scope": {
-      "streak": 2,
+      "streak": 0,
       "errors": 3,
-      "last": "2026-10-26",
-      "due": "2026-10-30",
+      "last": "2026-11-04",
+      "due": "2026-11-04",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 15,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 16,
+      "observation_priority": 2
     },
     "expectation-contrast": {
       "streak": 0,
@@ -531,14 +532,14 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 0,
+      "streak": 9,
       "errors": 1,
-      "last": "2026-11-03",
-      "due": "2026-11-04",
+      "last": "2026-11-04",
+      "due": "2026-11-25",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 14,
-      "observation_priority": 2
+      "reported_confusion": false,
+      "observed_days": 15,
+      "observation_priority": 0
     },
     "paragraph-order-anaphora": {
       "streak": 0,
@@ -553,11 +554,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-03",
+      "last": "2026-11-04",
       "due": "2026-11-04",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -573,11 +574,11 @@
     "parallel-governance": {
       "streak": 0,
       "errors": 3,
-      "last": "2026-11-03",
-      "due": "2026-11-04",
+      "last": "2026-11-04",
+      "due": "2026-11-05",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "partb-boxed-vocab": {
@@ -661,13 +662,13 @@
       "observation_priority": 0
     },
     "reference": {
-      "streak": 0,
+      "streak": 1,
       "errors": 3,
-      "last": "2026-11-03",
-      "due": "2026-11-04",
+      "last": "2026-11-04",
+      "due": "2026-11-06",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 15,
+      "observed_days": 16,
       "observation_priority": 0
     },
     "relation-collocation": {
@@ -772,12 +773,12 @@
     },
     "subject": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-11-02",
-      "due": "2026-11-03",
+      "errors": 3,
+      "last": "2026-11-04",
+      "due": "2026-11-05",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "summary-location": {
@@ -893,11 +894,11 @@
     "text4-federal-state-boundary": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-30",
-      "due": "2026-10-31",
+      "last": "2026-11-04",
+      "due": "2026-11-04",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 3
     },
     "text4-historical-inference": {

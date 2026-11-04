@@ -3053,6 +3053,94 @@
       "qid": "paragraph-discourse-ticket-deposits",
       "round_id": "mw0ghpfm-bu7jo92i",
       "source_date": "2026-11-03"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "action-collocation",
+      "ok": false,
+      "ms": 76971,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "cloze-wrap-protective-cloth-k",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 80825,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "example-factory-reporting-measure-d",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "nested",
+      "ok": true,
+      "ms": 9676,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "nested-editor-quote-d",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "subject",
+      "ok": false,
+      "ms": 75112,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "subject-road-closure-risk",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 104266,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "paragraph-discourse-audit-method-before-cases",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "reference",
+      "ok": true,
+      "ms": 22118,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "reference-return-rules",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 58386,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "parallel-governance-repair",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "family": "text4-federal-state-boundary",
+      "ok": true,
+      "ms": 30969,
+      "uncertain": false,
+      "origin": 38,
+      "qid": "text4-field-safety-label-c",
+      "round_id": "mw22nqxm-iasehfpi",
+      "source_date": "2026-11-04"
     }
   ],
   "issues": [
@@ -3092,6 +3180,7 @@
     34,
     35,
     36,
-    37
+    37,
+    38
   ]
 }
