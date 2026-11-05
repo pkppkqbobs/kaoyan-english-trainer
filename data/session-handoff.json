@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-05",
     "daily_quiz": "2026-11-05",
-    "latest_observation": "2026-11-04"
+    "latest_observation": "2026-11-05"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-04",
-      "storageId": "2026-11-04-2016-text3",
-      "learning_date": "2026-11-04"
+      "date": "2026-11-05",
+      "storageId": "2026-11-05-2016-text4",
+      "learning_date": "2026-11-05"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,60 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-05",
+      "exam": "2016-english1",
+      "part": "Text 4",
+      "items": [
+        {
+          "kind": "correct_but_uncertain",
+          "family": "inference-boundary",
+          "question": 39,
+          "related_questions": [],
+          "updated_on": "2026-11-05",
+          "final_choice": "C",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "C",
+            "D"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "C",
+          "reference_status": "note_only",
+          "summary": "用户在C/D之间犹豫，已注意到D可能把部分经营方式需要调整扩大为传统业务整体过时，这是有效的原文证据判断；同时参考了此前D较多、C较少的答案字母分布这一不可靠启发式。最终确认选择C…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-05",
+            "family": "inference-boundary",
+            "question": 39,
+            "note_fingerprint": "44e9571f5746d24e"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "ditch",
+        "dwarf",
+        "get out of",
+        "incentive",
+        "rustle",
+        "tremendous"
+      ],
+      "translation_note_count": 1,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-05",
+        "family": "familiar-word-polysemy",
+        "question": null,
+        "note_fingerprint": "a27c4e0291c72c64"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-05-2016-text4.json"
+      ]
+    },
     {
       "date": "2026-11-04",
       "exam": "2016-english1",
@@ -573,153 +627,22 @@
       "article_session_files": [
         "data/article-sessions/2026-11-01-2016-cloze.json"
       ]
-    },
-    {
-      "date": "2026-10-30",
-      "exam": "2015-english1",
-      "part": "Text 4",
-      "items": [
-        {
-          "kind": "user_reported_confusion",
-          "family": "relation-collocation",
-          "question": 38,
-          "related_questions": [],
-          "updated_on": "2026-10-30",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "C",
-          "reference_status": "source_checked",
-          "summary": "整篇低置信度、主要靠猜；用户明确询问38题B的center含义，没有确认选B或其他最终字母。",
-          "followup": null,
-          "spans": [
-            "centered on trivial issues"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-30",
-            "family": "relation-collocation",
-            "question": 38,
-            "note_fingerprint": "f3564ba34b20c7c5"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "evaluation-vocab",
-          "question": 39,
-          "related_questions": [],
-          "updated_on": "2026-10-30",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "用户问39题D为何不对；需区分僵化的道德准则与扭曲的价值观，未确认最终选D或具体词义误解。",
-          "followup": null,
-          "spans": [
-            "a rigid moral code"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-30",
-            "family": "evaluation-vocab",
-            "question": 39,
-            "note_fingerprint": "ff63f8dfab231aca"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "attribution-stance",
-          "question": null,
-          "related_questions": [
-            36,
-            37,
-            38,
-            39,
-            40
-          ],
-          "updated_on": "2026-10-30",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "用户自述整篇基本没看懂、基本每个选项没把握、主要靠猜；36—40题最终字母、答对数量与具体逐题错因均未知。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-30",
-            "family": "attribution-stance",
-            "question": null,
-            "note_fingerprint": "94961e5da5f1dcf6"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "familiar-word-polysemy",
-          "question": null,
-          "related_questions": [
-            36,
-            39
-          ],
-          "updated_on": "2026-10-30",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "用户熟悉sort作名词的种类义，主动询问其在sorting mechanism中的含义；这是词性与抽象语境理解困难，不是已确认的逐题错误。",
-          "followup": null,
-          "spans": [
-            "sort",
-            "sorting mechanism"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-30",
-            "family": "familiar-word-polysemy",
-            "question": null,
-            "note_fingerprint": "d951f2b38a23ad8a"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "capitalism",
-        "institutions",
-        "purpose",
-        "unsettling",
-        "we the people",
-        "wounding"
-      ],
-      "translation_note_count": 1,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-30",
-        "family": "familiar-word-polysemy",
-        "question": null,
-        "note_fingerprint": "1299e1d4937460ed"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-10-30-2015-text4.json"
-      ]
     }
   ],
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-05-2016-text4",
+        "learning_date": "2026-11-05",
+        "updated_on": "2026-11-05",
+        "exam": "2016-english1",
+        "part": "Reading Text 4",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-05-2016-text4.json",
+        "round_file": "data/article-reviews/2026-11-05-2016-text4.json",
+        "publication_date": "2026-11-05"
+      },
       {
         "session_id": "2026-11-04-2016-text3",
         "learning_date": "2026-11-04",
@@ -796,17 +719,6 @@
         "session_file": "data/article-sessions/2026-10-28-2015-text2.json",
         "round_file": "data/article-reviews/2026-10-28-2015-text2.json",
         "publication_date": "2026-10-28"
-      },
-      {
-        "session_id": "2026-10-27-2015-text1",
-        "learning_date": "2026-10-27",
-        "updated_on": "2026-10-27",
-        "exam": "2015-english1",
-        "part": "Reading Text 1",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-10-27-2015-text1.json",
-        "round_file": "data/article-reviews/2026-10-27-2015-text1.json",
-        "publication_date": "2026-10-27"
       }
     ]
   },
@@ -858,8 +770,26 @@
       "label": "选项范围与额外限定",
       "families": [
         {
+          "family": "inference-boundary",
+          "label": "正确选项字母不具排除力",
+          "focus": "用户在C/D之间犹豫，已注意到D可能把部分经营方式需要调整扩大为传统业务整体过时，这是有效的原文证据判断；同时参考了此前D较多、C较少的答案字母分布这一不可靠启发式。最终确认选择C…",
+          "paper_kind": "correct_but_uncertain",
+          "latest_observation": "2026-11-05",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-03",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-05",
+            "family": "inference-boundary",
+            "question": 39,
+            "note_fingerprint": "44e9571f5746d24e"
+          }
+        },
+        {
           "family": "title-coverage",
-          "label": "标题覆盖与论点概括",
+          "label": "识别转折后的核心议题",
           "focus": "用户明确确认第25题选C，标准答案表为A。用户认为C与文章话题相关，但C没有准确覆盖全文的核心争议对象。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-02",
@@ -873,24 +803,6 @@
             "family": "title-coverage",
             "question": 25,
             "note_fingerprint": "92a717cd195ca902"
-          }
-        },
-        {
-          "family": "inference-boundary",
-          "label": "可能性与后续流程边界",
-          "focus": "用户明确确认第4题选D（For example），正确答案为A（In theory）；用户解释自己想到防止催婚，因此选了D。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-01",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-03",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "inference-boundary",
-            "question": 4,
-            "note_fingerprint": "51fe3d4d7ae074e2"
           }
         }
       ]
@@ -943,7 +855,7 @@
       "families": [
         {
           "family": "author-stance",
-          "label": "证据不足与观点反驳",
+          "label": "有限肯定与绝对结论",
           "focus": "用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。",
           "paper_kind": "correct_but_uncertain",
           "latest_observation": "2026-11-04",
@@ -1092,34 +1004,6 @@
         "question": 2,
         "note_fingerprint": "7b39b7713826a841"
       }
-    },
-    {
-      "exam": "2015-english1",
-      "part": "Text 4",
-      "question": 39,
-      "date": "2026-10-30",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-30",
-        "family": "evaluation-vocab",
-        "question": 39,
-        "note_fingerprint": "ff63f8dfab231aca"
-      }
-    },
-    {
-      "exam": "2015-english1",
-      "part": "Text 4",
-      "question": 38,
-      "date": "2026-10-30",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-10-30",
-        "family": "relation-collocation",
-        "question": 38,
-        "note_fingerprint": "f3564ba34b20c7c5"
-      }
     }
   ],
   "warnings": [
@@ -1156,7 +1040,8 @@
     "article-review-2026-11-02-2016-text1.html": "ecc4129745d1918d23d2ac673d938941e910c8a00a9fd0e2d493e1be1cdcffd6",
     "article-review-2026-11-03-2016-text2.html": "70c011daefa054f43516494882d807a31dc9a74dacc57a7e998d37d9cae2d0cc",
     "article-review-2026-11-04-2016-text3.html": "d2f4dad01754760e2052583873fbea6776f6a8efcbece5ae966cb1f0227dbafa",
-    "data/article-review.json": "bd8433d959a29d1374410e1bdf5c66ccfd50197ef81316bbd5c5fd12a369c0f5",
+    "article-review-2026-11-05-2016-text4.html": "f1a2d2d8b443dc49b5bb9c58f5c6fa2186f0dabcb7f356f354ab7b7bed8414c3",
+    "data/article-review.json": "67d1ecb0a84a7445fa670fcb640eacf53e443fdde338a476e5bc04fc2f9de282",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1193,6 +1078,7 @@
     "data/article-reviews/2026-11-02-2016-text1.json": "922765b4108fca39c47bbd55529da6832e34d00832e769ab0f6fe5ccb8af1687",
     "data/article-reviews/2026-11-03-2016-text2.json": "f0eeffe4c740fab573a6548f1cd2926944fde9f7dff9df9e9a9bd76ed0110bd8",
     "data/article-reviews/2026-11-04-2016-text3.json": "bd8433d959a29d1374410e1bdf5c66ccfd50197ef81316bbd5c5fd12a369c0f5",
+    "data/article-reviews/2026-11-05-2016-text4.json": "67d1ecb0a84a7445fa670fcb640eacf53e443fdde338a476e5bc04fc2f9de282",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1224,6 +1110,7 @@
     "data/article-sessions/2026-11-02-2016-text1.json": "aeec2982a28e8b8f56ff40b315fb0c3d5924428519e7471e3a4723f201cb7132",
     "data/article-sessions/2026-11-03-2016-text2.json": "8ea47e37b66f024479bbca70cdab4d15bb146f6997244e6e33bed91eef3386df",
     "data/article-sessions/2026-11-04-2016-text3.json": "a7a35f7a798945e619cb4c1c2f7a8243711d9b7e73792544851f0d960015eea5",
+    "data/article-sessions/2026-11-05-2016-text4.json": "53163433eb3ab3999e6c0f64163d8c8b5b749126a4525646ab50581b099936c3",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "2e3810b1c7b93484e823e987dee1eb4ed243c2b6e816c55b7dcdced60f939e34",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1264,9 +1151,9 @@
     "data/days/2026-11-03.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
     "data/days/2026-11-04.json": "98d7f21c1c55ec730dc015e8a489b834eff12dc85c113e087b08b0032b933f90",
     "data/days/2026-11-05.json": "2e3810b1c7b93484e823e987dee1eb4ed243c2b6e816c55b7dcdced60f939e34",
-    "data/learning-notes.json": "1160217673323928c08d84a71166b5d11345daf7223026d4c72815e8d942c34d",
+    "data/learning-notes.json": "ba36a07ba6b378e90f1412d4a641ca6be74876154fb83c56bbb24d56567e238c",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
-    "data/question-contexts.json": "99f81e1871bf5414330842014d2f7dec494d18ab808e03186ac3d913f0ad1ccc",
+    "data/question-contexts.json": "59b2568516c0144fcab12f1b27f143a80b7dfdddcfab80bd2b57a8edf57cb261",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1300,6 +1187,7 @@
     "data/questions/2026-11-02-2016-text1-migration.json": "2ece4efb0a47130e230f66440f62dadcf7ac351edaf22027ab18add3130c39d4",
     "data/questions/2026-11-03-2016-text2-migration.json": "3579c59a382b55501f86e1bb64a9c2bb74978aca751202cb7e79c75cf8731f6b",
     "data/questions/2026-11-04-2016-text3-migration.json": "3413a372b533de9a945bcaf3c8d2d67a53b055f98b2eb3f73bc15da5b96e0b72",
+    "data/questions/2026-11-05-2016-text4-migration.json": "69172e5b4826c84aecf8f4949eef82199f3d419ea93979f3b05a06d614bcd098",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "ea42c485b2bd90cf5c2bff05d4df73bc2b69d328dfd8fede5353357c2be989bf",
     "data/review-state.json": "4067b0ab694b56fd7ef89e992e74d05a28f26f3cc54b687964917128c0b3ac34",
@@ -1309,7 +1197,7 @@
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "9c60ee09425d477df9759482d606341fb3af70212432424c17c4833cfd09f5a7"
   },
-  "source_fingerprint": "8ea864a8afd145d3be7280c74a1d1493647aec3c8cb9a712d4827caf77f63317",
+  "source_fingerprint": "8ef34341a820917239de19eff1fce8cbe2b3c8233c7d0ee52e95b01ac6fe41e2",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
