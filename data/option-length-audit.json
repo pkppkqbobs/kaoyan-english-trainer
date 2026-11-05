@@ -42,10 +42,10 @@
     "pools": {
       "daily_article": {
         "question_count": 326,
-        "correct_uniquely_longest": 85,
+        "correct_uniquely_longest": 82,
         "correct_uniquely_shortest": 56,
-        "longest_guess_pct": 31.52,
-        "shortest_guess_pct": 21.19,
+        "longest_guess_pct": 30.7,
+        "shortest_guess_pct": 21.5,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5650,12 +5650,12 @@
           51,
           51,
           50,
-          55
+          51
         ],
-        "spread": 5,
-        "correct_uniquely_longest": true,
+        "spread": 1,
+        "correct_uniquely_longest": false,
         "correct_uniquely_shortest": false,
-        "longest_guess_credit": 1.0,
+        "longest_guess_credit": 0.3333333333333333,
         "shortest_guess_credit": 0,
         "length_cue_flag": false,
         "pool": "daily_article",
@@ -5735,13 +5735,13 @@
           52,
           49,
           51,
-          58
+          49
         ],
-        "spread": 9,
-        "correct_uniquely_longest": true,
+        "spread": 3,
+        "correct_uniquely_longest": false,
         "correct_uniquely_shortest": false,
-        "longest_guess_credit": 1.0,
-        "shortest_guess_credit": 0,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
         "length_cue_flag": false,
         "pool": "daily_article",
         "family": "author-stance",
@@ -5837,13 +5837,13 @@
           53,
           53,
           52,
-          54
+          52
         ],
-        "spread": 2,
-        "correct_uniquely_longest": true,
+        "spread": 1,
+        "correct_uniquely_longest": false,
         "correct_uniquely_shortest": false,
-        "longest_guess_credit": 1.0,
-        "shortest_guess_credit": 0,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
         "length_cue_flag": false,
         "pool": "daily_article",
         "family": "title-coverage",

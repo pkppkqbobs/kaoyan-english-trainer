@@ -84,7 +84,7 @@
       "The filter has restored every stream in the region.",
       "The filter has already failed in all other streams.",
       "Three previous D answers mean D must now be wrong.",
-      "The filter reduced sediment in the tested streams only."
+      "The filter reduced sediment in four tested streams."
     ],
     "a": 3,
     "exp": {
@@ -156,7 +156,7 @@
       "She demands that every controlled burn be cancelled.",
       "She offers no conclusion beyond citing residents.",
       "She says fires can never affect a forest ecosystem.",
-      "She favors supervised burns despite residents' objections."
+      "She favors supervised burns to reduce fire risks."
     ],
     "a": 3,
     "exp": {
@@ -204,7 +204,7 @@
       "How Reflective Roofs Became the City's Only Heat Tool",
       "Why Elderly Residents Have Stopped Using Public Buses",
       "The Falling Price of Roof Materials in Urban Markets",
-      "Beyond Cool Roofs: Building a Wider Heat-Response Plan"
+      "Citywide Heat Planning Beyond Reflective Roofs Alone"
     ],
     "a": 3,
     "exp": {
