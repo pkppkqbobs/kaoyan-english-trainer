@@ -3141,6 +3141,94 @@
       "qid": "text4-field-safety-label-c",
       "round_id": "mw22nqxm-iasehfpi",
       "source_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "action-collocation",
+      "ok": true,
+      "ms": 28752,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "cloze-pass-light-camp-drill-l",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "logic",
+      "ok": true,
+      "ms": 62443,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "cloze-up-to-generator-days-n",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "point",
+      "ok": true,
+      "ms": 30183,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "point-waiting",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "with",
+      "ok": true,
+      "ms": 14757,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "with-lights-dimming",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 12515,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "parallel-governance-inspection-tasks",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 69222,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "summary-trials-next-question",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "subject",
+      "ok": true,
+      "ms": 20135,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "subject-road-closure-risk-balanced-b",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 54471,
+      "uncertain": false,
+      "origin": 39,
+      "qid": "example-council-reform-opposition-a",
+      "round_id": "mw3issg0-uw4ualr2",
+      "source_date": "2026-11-05"
     }
   ],
   "issues": [
@@ -3181,6 +3269,7 @@
     35,
     36,
     37,
-    38
+    38,
+    39
   ]
 }
