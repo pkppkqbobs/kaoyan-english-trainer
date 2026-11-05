@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 310,
-        "correct_uniquely_longest": 77,
-        "correct_uniquely_shortest": 54,
-        "longest_guess_pct": 30.56,
-        "shortest_guess_pct": 21.64,
+        "question_count": 326,
+        "correct_uniquely_longest": 85,
+        "correct_uniquely_shortest": 56,
+        "longest_guess_pct": 31.52,
+        "shortest_guess_pct": 21.19,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5645,6 +5645,142 @@
         "family": "text4-historical-inference",
         "source": "data/questions/2026-10-18-text4-balanced.json"
       },
+      "text4-inference-answer-letter-bias": {
+        "lengths": [
+          51,
+          51,
+          50,
+          55
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-inference-habitat-sample": {
+        "lengths": [
+          53,
+          49,
+          52,
+          54
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-inference-model-parameter": {
+        "lengths": [
+          51,
+          49,
+          54,
+          50
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-inference-short-trial": {
+        "lengths": [
+          57,
+          58,
+          52,
+          59
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-stance-festival-permits": {
+        "lengths": [
+          44,
+          54,
+          50,
+          53
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-stance-forest-burns-attribution": {
+        "lengths": [
+          52,
+          49,
+          51,
+          58
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-stance-geothermal-safety": {
+        "lengths": [
+          51,
+          53,
+          51,
+          50
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-stance-language-tests": {
+        "lengths": [
+          55,
+          54,
+          55,
+          53
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
       "text4-state-privileges-a": {
         "lengths": [
           77,
@@ -5679,6 +5815,108 @@
         "family": "text4-historical-inference",
         "source": "data/questions/2026-10-18-text4.json"
       },
+      "text4-title-food-waste-measurement": {
+        "lengths": [
+          46,
+          50,
+          54,
+          53
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-title-heat-cooling-strategy": {
+        "lengths": [
+          53,
+          53,
+          52,
+          54
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-title-recommendation-choice": {
+        "lengths": [
+          51,
+          55,
+          53,
+          50
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-title-volunteer-retention": {
+        "lengths": [
+          56,
+          47,
+          49,
+          53
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-vocab-ditch-get-out-of": {
+        "lengths": [
+          49,
+          46,
+          52,
+          49
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-vocab-dwarf-costs": {
+        "lengths": [
+          42,
+          41,
+          43,
+          40
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
       "text4-vocab-merit-generous-c": {
         "lengths": [
           14,
@@ -5712,6 +5950,40 @@
         "pool": "daily_article",
         "family": "text4-boxed-vocab",
         "source": "data/questions/2026-10-11-text4.json"
+      },
+      "text4-vocab-rustle-leaves": {
+        "lengths": [
+          39,
+          41,
+          35,
+          40
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
+      },
+      "text4-vocab-tremendous-incentive": {
+        "lengths": [
+          51,
+          54,
+          50,
+          52
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "familiar-word-polysemy",
+        "source": "data/questions/2026-11-05-2016-text4-migration.json"
       },
       "text4-vocab-unionist-prime-a": {
         "lengths": [

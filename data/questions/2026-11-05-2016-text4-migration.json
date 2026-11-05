@@ -1,0 +1,386 @@
+[
+  {
+    "id": "text4-inference-model-parameter",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "local revision vs wholesale abandonment",
+    "skill": "局部修改不代表整套方法失效",
+    "q": "A research team recalibrated one parameter in its climate model after finding a sensor bias. The remaining equations were kept, and the team continues to use the model. What follows?",
+    "o": [
+      "Every principle of the model was declared obsolete.",
+      "All observations made with the model were erased.",
+      "The model remains in use after one limited adjustment.",
+      "The research team permanently abandoned modelling."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "团队因传感器偏差重新校准一个参数，其余方程保留，模型继续使用。",
+      "structure": "one parameter限定改动范围；remaining equations were kept说明其他部分未淘汰。",
+      "other": "recalibrate重新校准；parameter参数；obsolete过时的。",
+      "meaning": "局部调整不等于整套模型失效，不能把一个参数变更扩大为全面废弃。",
+      "rest": "整体报废、清除所有观察和全面放弃建模都超过原文证据。"
+    }
+  },
+  {
+    "id": "text4-inference-habitat-sample",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "partial observations vs entire region",
+    "skill": "局部样本与整体结论",
+    "q": "In a wildlife survey, three valleys showed fewer nesting birds this spring. The researchers had not yet examined the other valleys. What conclusion is justified?",
+    "o": [
+      "Declines were recorded in the three surveyed valleys.",
+      "Every nesting bird in the region has disappeared.",
+      "The entire region is now unable to support birdlife.",
+      "All other valleys must have experienced larger losses."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "调查发现三个山谷筑巢鸟数量下降，但尚未调查其他山谷。",
+      "structure": "three valleys与not yet examined限制了证据范围。",
+      "other": "nesting bird筑巢鸟；survey调查；region区域。",
+      "meaning": "部分样本变化不能推出整个地区或未经调查地点的确定状态。",
+      "rest": "全部消失、生态全面崩溃和其他山谷损失更严重均未经证实。"
+    }
+  },
+  {
+    "id": "text4-inference-short-trial",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "short-term evidence vs permanent outcome",
+    "skill": "观察时长与结论强度",
+    "q": "After six weeks, a pilot sleep programme improved participants' reported rest. No follow-up beyond the pilot was conducted. Which assessment is most defensible?",
+    "o": [
+      "The programme permanently eliminates every sleep problem.",
+      "Short-term improvement is observed; durability is unknown.",
+      "The initial improvement guarantees lasting benefits.",
+      "The reported results show that the programme had no effect."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "六周睡眠试点显示主观休息改善，但没有更长期追踪。",
+      "structure": "After six weeks确定观察时间；No follow-up说明长期结论无证据。",
+      "other": "pilot试点；durability持续性；follow-up追踪。",
+      "meaning": "短期改善是已报告事实，长期效果尚不能确认。",
+      "rest": "永久解决、保证持久效果和完全无效都是错误扩大或否定。"
+    }
+  },
+  {
+    "id": "text4-inference-answer-letter-bias",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "answer distribution vs evidence",
+    "skill": "正确选项字母不具排除力",
+    "q": "A student has answered D on three consecutive questions. In the next passage, records show that a new filter reduced sediment in four tested streams; other sites were not studied. Which statement fits the passage?",
+    "o": [
+      "The filter has restored every stream in the region.",
+      "The filter has already failed in all other streams.",
+      "Three previous D answers mean D must now be wrong.",
+      "The filter reduced sediment in the tested streams only."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "前三题连续选D和本题无关；研究仅证明在四条已测试溪流泥沙减少。",
+      "structure": "records show提供已观察到的证据；four tested streams限定适用范围。",
+      "other": "sediment泥沙；tested经过测试的；consecutive连续的。",
+      "meaning": "同一正确字母可以连续出现；应使用文本证据，不凭此前选项数量猜测。",
+      "rest": "全区改善、其他地区全部失败和通过字母排除选项都没有依据。"
+    }
+  },
+  {
+    "id": "text4-stance-geothermal-safety",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "conditional support and safeguards",
+    "skill": "支持目标与安全前提",
+    "q": "A geologist welcomes geothermal energy projects but warns that drilling should not begin before seismic tests. How does she view the projects?",
+    "o": [
+      "She supports the projects subject to safety checks.",
+      "She believes seismic testing can be skipped entirely.",
+      "She wants geothermal drilling forbidden everywhere.",
+      "She thinks energy projects have no public benefit."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "地质学家支持地热项目，但强调地震测试必须先于钻探。",
+      "structure": "welcomes表示支持，but warns限定实施条件。",
+      "other": "geothermal地热；seismic地震的；drilling钻探。",
+      "meaning": "支持一个目标和反对未经测试的实施可以同时成立。",
+      "rest": "跳过检查、全面禁止和无公共益处均不是她的态度。"
+    }
+  },
+  {
+    "id": "text4-stance-festival-permits",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "conditional approval vs general ban",
+    "skill": "细化规定不等于全面禁止",
+    "q": "A city official accepts the value of street festivals, yet argues that late-night events near hospitals need stricter noise permits. What does the official propose?",
+    "o": [
+      "All public festivals should end immediately.",
+      "Hospitals must be moved away from residential streets.",
+      "More selective controls rather than a general ban.",
+      "Late-night street events should have no noise limits."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "官员肯定节庆价值，但认为医院附近的深夜活动需更严格许可。",
+      "structure": "accepts承认价值；yet后给出特定时间地点的约束。",
+      "other": "permit许可；selective有选择性的；ban禁令。",
+      "meaning": "批评局部实施方式，不等于否定全部活动的合理性。",
+      "rest": "全面停办、搬迁医院和取消噪音限制都没有文本证据。"
+    }
+  },
+  {
+    "id": "text4-stance-forest-burns-attribution",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "quoted criticism vs speaker conclusion",
+    "skill": "他人观点与评论者观点分离",
+    "q": "Some residents demand an end to every controlled burn. The ecologist reports their objections but concludes that carefully supervised burns can reduce larger wildfire risks. What is the ecologist's position?",
+    "o": [
+      "She demands that every controlled burn be cancelled.",
+      "She offers no conclusion beyond citing residents.",
+      "She says fires can never affect a forest ecosystem.",
+      "She favors supervised burns despite residents' objections."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "居民反对全部计划性烧除，生态学家却主张监督下的烧除可减少野火风险。",
+      "structure": "Some residents是他人意见；but concludes引出生态学家自己的结论。",
+      "other": "controlled burn计划性烧除；supervised受监督的。",
+      "meaning": "他人引述不能代替说话人立场，重点看明确结论。",
+      "rest": "全面取消、没有结论和火灾毫无影响都不符合原文。"
+    }
+  },
+  {
+    "id": "text4-stance-language-tests",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "qualified utility vs absolute claim",
+    "skill": "有限肯定与绝对结论",
+    "q": "A teacher says vocabulary tests can reveal useful gaps, but rejects the claim that a single score fully measures language ability. What is the teacher's position?",
+    "o": [
+      "Vocabulary tests measure the whole of language ability.",
+      "Tests have a use, but their interpretation has limits.",
+      "All vocabulary testing should be abolished immediately.",
+      "A single test score is the only fair teaching metric."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "教师认可词汇测试发现不足，但反对用一个分数完整衡量语言能力。",
+      "structure": "can reveal说明局部价值，but rejects指出反对的是绝对化断言。",
+      "other": "reveal揭示；metric指标；interpretation解释。",
+      "meaning": "承认工具价值不代表把工具认定为全面评价尺度。",
+      "rest": "全能量化、全面废止和唯分数论都超出了其立场。"
+    }
+  },
+  {
+    "id": "text4-title-heat-cooling-strategy",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "central strategy vs one example",
+    "skill": "标题覆盖中心方案",
+    "q": "A city tested reflective roofs to reduce summer heat. The report says roofs helped, but shaded bus stops, drinking-water access and support for elderly residents must also be included in a wider plan. Which title best captures the point?",
+    "o": [
+      "How Reflective Roofs Became the City's Only Heat Tool",
+      "Why Elderly Residents Have Stopped Using Public Buses",
+      "The Falling Price of Roof Materials in Urban Markets",
+      "Beyond Cool Roofs: Building a Wider Heat-Response Plan"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "反光屋顶有用，但高温应对还需遮阴、饮水和老人支持。",
+      "structure": "but把主旨从单项措施引向综合方案。",
+      "other": "reflective反光的；shade遮阴；response应对。",
+      "meaning": "标题要涵盖由局部措施向综合应对转变的论点。",
+      "rest": "唯一措施、老人停止公交和材料降价均偏离原文。"
+    }
+  },
+  {
+    "id": "text4-title-recommendation-choice",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "recommendation transparency and choice",
+    "skill": "主旨范围与治理目标",
+    "q": "An online learning platform recommends courses using past clicks. Researchers say this may help discovery, but ask for clearer explanations and a way for students to override the system. Which title fits best?",
+    "o": [
+      "Why Online Courses Should Be Abolished for Everyone",
+      "Making Course Suggestions Clearer and Easier to Control",
+      "The Complete History of University Enrollment Systems",
+      "How Student Click Data Has Become Entirely Useless"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "研究者认可基于点击的推荐有一定用途，但要求透明解释和学生自主改选。",
+      "structure": "may help discovery肯定实用性；but ask for指出核心改进诉求。",
+      "other": "recommend推荐；override人工覆盖；transparent透明的。",
+      "meaning": "标题应强调推荐系统更透明和可控，而非全面放弃线上课程。",
+      "rest": "废除课程、招生历史和点击数据全无用均不是论点。"
+    }
+  },
+  {
+    "id": "text4-title-food-waste-measurement",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "main claim vs single datum",
+    "skill": "方法论中心而非局部例子",
+    "q": "Cafeterias have traditionally counted leftover food only by weight. A study finds that this hides differences between discarded meals, preparation scraps and food safely donated. It recommends separate measures for each. Which title best reflects the study?",
+    "o": [
+      "Why Students Always Leave Food on Their Plates",
+      "The Cost of Replacing All School Kitchen Equipment",
+      "Measuring Food Waste More Precisely Across Its Sources",
+      "A Call to Stop Donating Leftover Food to Local Groups"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "报告认为只按重量统计食物浪费不够，应分别衡量餐食、备菜边角和捐赠。",
+      "structure": "traditionally交代旧法，It recommends呈现主要主张。",
+      "other": "cafeteria食堂；scraps边角料；discard丢弃。",
+      "meaning": "标题需要涵盖衡量方法的改进和分类原则。",
+      "rest": "学生总剩饭、替换所有设备或停止捐赠都无证据。"
+    }
+  },
+  {
+    "id": "text4-title-volunteer-retention",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "recruitment vs retention",
+    "skill": "识别转折后的核心议题",
+    "q": "A charity celebrates a rise in volunteer sign-ups. Its annual review notes, however, that most newcomers leave within a month and argues for mentoring and flexible shifts. Which title best captures its concern?",
+    "o": [
+      "From Volunteer Recruitment to Keeping Volunteers Engaged",
+      "The End of Volunteer Work in Modern Communities",
+      "Why Charities Have Stopped Recruiting New Workers",
+      "An Unprecedented Surge in Long-Term Volunteer Loyalty"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "志愿者招募增多，但新人很快退出；报告要求导师指导与灵活排班。",
+      "structure": "however将主题从招募成绩转移到留存问题。",
+      "other": "sign-up报名；mentoring指导；retention留存。",
+      "meaning": "标题应概括招募和留存之间的落差与解决方向。",
+      "rest": "终结志愿服务、停止招募、长期忠诚度增加均不真实。"
+    }
+  },
+  {
+    "id": "text4-vocab-rustle-leaves",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "rustle of leaves",
+    "skill": "声响词的语境含义",
+    "q": "At dusk, hikers heard the rustle of dry leaves as a small animal crossed the path. What did rustle refer to?",
+    "o": [
+      "A loud whistle made by a passing train.",
+      "A soft scraping sound from moving leaves.",
+      "A heavy splash in the nearby river.",
+      "A sudden flash of light above the trees."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "傍晚小动物穿过小路时，枯叶发出轻微沙沙声。",
+      "structure": "heard的宾语是the rustle of dry leaves；as交代同时发生事件。",
+      "other": "rustle沙沙声；scraping摩擦的；dusk黄昏。",
+      "meaning": "纸张、树叶、布料的轻微摩擦均可用rustle描述。",
+      "rest": "汽笛、水花和闪光不是枯叶轻微摩擦声。"
+    }
+  },
+  {
+    "id": "text4-vocab-dwarf-costs",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "dwarf as a verb",
+    "skill": "规模比较中的熟词生义",
+    "q": "In the mountain station's annual accounts, heating costs dwarf the fees paid for occasional repairs. Here, dwarf means that heating costs:",
+    "o": [
+      "are too small to appear in annual accounts",
+      "are exactly equal to the fees for repairs",
+      "have completely disappeared from the budget",
+      "are much larger than the repair expenses"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "山间站点供暖费用远远超过零星维修费。",
+      "structure": "heating costs主语，dwarf谓语，repair fees是比较对象。",
+      "other": "dwarf作动词是使相形见绌、远超；accounts账目。",
+      "meaning": "dwarf在此表示相对数量显著更大，不是名词的含义。",
+      "rest": "数额太小、完全相等和已消失均与句中比较相反。"
+    }
+  },
+  {
+    "id": "text4-vocab-ditch-get-out-of",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "ditch and get out of a business",
+    "skill": "放弃计划与退出行业",
+    "q": "A college publisher decided to ditch its costly equipment-leasing scheme and get out of the rental service altogether. What was its plan?",
+    "o": [
+      "Abandon the scheme and leave the rental business.",
+      "Increase the number of machines it leases out.",
+      "Dig trenches to install additional rental equipment.",
+      "Open a second leasing office on the college site."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "学院出版机构决定放弃昂贵租赁方案，并退出租赁服务业务。",
+      "structure": "decided to ditch ... and get out of ...是两个并列行动。",
+      "other": "ditch放弃；get out of退出行业；lease租赁。",
+      "meaning": "ditch不是沟渠，get out of不是物理上从房间走出来。",
+      "rest": "扩租、挖沟渠、新开租赁办公室都与退出相反。"
+    }
+  },
+  {
+    "id": "text4-vocab-tremendous-incentive",
+    "family": "familiar-word-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-05",
+    "budget": 45,
+    "target": "tremendous incentive",
+    "skill": "强度与鼓励机制",
+    "q": "A university offered full travel grants to interns who accepted placements in remote clinics. The grants created a tremendous incentive to apply. What does the final phrase mean?",
+    "o": [
+      "An almost invisible change to the application form.",
+      "A minor obstacle that made placements less attractive.",
+      "A very strong reason encouraging interns to apply.",
+      "A written order forcing every intern to participate."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "大学为偏远实习岗位提供全额交通补助，这是很强的报名激励。",
+      "structure": "created a tremendous incentive to apply交代资金对行动的影响。",
+      "other": "tremendous巨大的；incentive激励；placement实习岗位。",
+      "meaning": "巨大激励意味着有吸引力，而非强制命令。",
+      "rest": "微小变化、轻微障碍和强制参与都不符合词义。"
+    }
+  }
+]

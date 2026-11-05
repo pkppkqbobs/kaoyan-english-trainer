@@ -2514,5 +2514,76 @@
       "bribery/malpractices/defamed法律及商业语境",
       "EPG按专有名称处理，penalties已自行解决"
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "session_id": "2026-11-05-2016-text4",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "received_on": "2026-11-05",
+    "evidence_basis": "用户提供的2026-11-05英语教学对话结构化交接，未重新查看原始纸质照片。",
+    "scoring_policy": "Whole-passage paper result is user self-report only. Do not create training Issue, synthetic per-question attempts, scores, streaks or unreported initial choices.",
+    "passage_self_report": "又是全对，难道是这一年的阅读简单吗。第39我是在CD犹豫，然后看那么多D没有C而且感觉D有点过度推断所以最后还是选了C。",
+    "passage_reported_all_correct": true,
+    "passage_verification": "User says 5/5 correct against supplied answer key. Q36/37/38/40 individual choices and reasoning were not separately confirmed. No web-scored result.",
+    "family": "inference-boundary",
+    "kind": "correct_but_uncertain",
+    "scope": "question",
+    "source_question": 39,
+    "expected": "C",
+    "expected_provenance": "user_supplied_answer_key",
+    "reported_pick": "C",
+    "final_choice_letter_confirmed": true,
+    "candidate_choices": [
+      "C",
+      "D"
+    ],
+    "first_considered": null,
+    "changed_final_choice": false,
+    "user_quote": "又是全对，难道是这一年的阅读简单吗。第39我是在CD犹豫，然后看那么多D没有C而且感觉D有点过度推断所以最后还是选了C。",
+    "user_reported_reasoning": "用户在C/D之间犹豫，已注意到D可能把部分经营方式需要调整扩大为传统业务整体过时，这是有效的原文证据判断；同时参考了此前D较多、C较少的答案字母分布这一不可靠启发式。最终确认选择C。没有明确先选D、更没有正式D→C改选。",
+    "positive_reasoning": "识别D legacy businesses are becoming outdated相较原文支持范围存在过度推断；抓住more aggressive than less aggressive与C aggressiveness better meets challenges的概括关联。",
+    "unreliable_heuristic": "在对C/D犹豫时参考了前面D多、C少的答案分布。正确答案字母不要求均匀分布，连续D也不能自动排除D。",
+    "note": "明确的答对但犹豫，不是错题。选项C aggressiveness better meets challenges对应Peretti原话In those situations, it's better to be more aggressive than less aggressive。选项D legacy businesses are becoming outdated过度概括：纸媒读者迁移和成本高是行业背景，不等于他宣称整个传统业务已经失效；他提出把纸媒转向忠实客户、高价高端产品等策略。保留用户自主识别D过度推断这一正向证据，同时记录依靠之前答案字母分布推断C更可能正确这一不可靠的辅助策略。未确认任何首次填涂D，不得写成正式改选。自述五题全对不能等价于全篇能力稳定掌握。",
+    "training_targets": [
+      "选项是否由原文直接支持，避免把局部调整夸大为整体过时",
+      "背景事实、被引述观点与作者/受访者主张分开",
+      "more aggressive与aggressiveness的同义转述",
+      "不依据既往A/B/C/D频次猜下一题的正确字母",
+      "保留答对但犹豫及正确排除证据，不判成真实错题"
+    ]
+  },
+  {
+    "date": "2026-11-05",
+    "session_id": "2026-11-05-2016-text4",
+    "source_exam": "2016-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "received_on": "2026-11-05",
+    "evidence_basis": "用户提供的2026-11-05英语教学对话结构化交接，未重新查看原始纸质照片。",
+    "scoring_policy": "Whole-passage paper result is user self-report only. Do not create training Issue, synthetic per-question attempts, scores, streaks or unreported initial choices.",
+    "passage_self_report": "又是全对，难道是这一年的阅读简单吗。第39我是在CD犹豫，然后看那么多D没有C而且感觉D有点过度推断所以最后还是选了C。",
+    "passage_reported_all_correct": true,
+    "passage_verification": "User says 5/5 correct against supplied answer key. Q36/37/38/40 individual choices and reasoning were not separately confirmed. No web-scored result.",
+    "family": "familiar-word-polysemy",
+    "kind": "translation_difficulty",
+    "mark_type": "box",
+    "source_spans": [
+      "rustle",
+      "incentive",
+      "ditch",
+      "dwarf",
+      "get out of",
+      "tremendous"
+    ],
+    "note": "纸质照片中经教学对话确认的六处画框翻译困难，仅此六处：rustle（rustle of pages）纸张沙沙声/发出沙沙声；incentive（incentive to ditch print）促使放弃纸媒的动机/诱因；ditch（ditch print）作动词为放弃、抛弃，区别名词沟渠；dwarf（print ad sales dwarf online counterparts）作动词为远远超过/使相形见绌，非名词小矮人；get out of（getting out of the print business）退出纸媒业务，非仅从房间里出去；tremendous（tremendous luxury）极大、巨大的。画框代表翻译困难，画横线只表示重要，不因文章讲解把legacy product等补充词冒充画框生词。",
+    "training_targets": [
+      "rustle的声音义及与纸张相关搭配",
+      "incentive作动机和激励，tremendous表达程度",
+      "ditch、dwarf熟词生义",
+      "get out of在业务经营语境表示退出",
+      "明确区分照片画框、横线证据与教学补充"
+    ]
   }
 ]

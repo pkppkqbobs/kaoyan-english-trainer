@@ -1,0 +1,52 @@
+{
+  "id": "2026-11-05-2016-text4",
+  "date": "2026-11-05",
+  "learning_date": "2026-11-05",
+  "created_at": "2026-11-05T22:07:00+09:00",
+  "source": "2016 英语一 Reading Text 4 · 2026-11-05纸质学习反馈",
+  "focus_families": [
+    "inference-boundary",
+    "author-stance",
+    "title-coverage",
+    "familiar-word-polysemy"
+  ],
+  "focus_question_ids": {
+    "inference-boundary": [
+      "text4-inference-answer-letter-bias"
+    ],
+    "author-stance": [
+      "text4-stance-forest-burns-attribution"
+    ],
+    "title-coverage": [
+      "text4-title-heat-cooling-strategy"
+    ],
+    "familiar-word-polysemy": [
+      "text4-vocab-dwarf-costs"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "passage_outcome": {
+    "user_quote": "又是全对，难道是这一年的阅读简单吗。第39我是在CD犹豫，然后看那么多D没有C而且感觉D有点过度推断所以最后还是选了C。",
+    "self_reported_all_correct": true,
+    "self_reported_correct_count": 5,
+    "paper_question_count": 5,
+    "per_question_evidence": "Q39 C/D犹豫→最终C；没有确认先选D、没有正式改选。Q36-38和Q40的原始选项和解题理由未逐题确认。",
+    "not_a_web_score": true,
+    "inference_strength": "Q39正确识别D过度概括，但受此前选项字母分布影响；需跨语境验证。"
+  },
+  "user_supplied_answer_key": {
+    "36": "D",
+    "37": "A",
+    "38": "B",
+    "39": "C",
+    "40": "D"
+  },
+  "answer_key_provenance": "Answer key supplied in user teaching handoff, not independently source-checked, and not proof of individual original selections.",
+  "training_priorities": [
+    "Text evidence over prior option letters",
+    "Avoid broad obsolescence conclusions from partial business changes",
+    "Speaker stance and scoped paraphrase",
+    "Boxed polysemy in fresh situations"
+  ]
+}

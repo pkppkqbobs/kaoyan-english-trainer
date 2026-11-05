@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-04",
+  "reviewed_on": "2026-11-05",
   "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -398,7 +398,23 @@
     "text3-audit-records-malpractices": "equipment-log-falsification-audit",
     "text3-sickdays-leave-policy-rival": "exercise-class-sickdays-leave-policy-rival",
     "text3-river-birds-boat-traffic": "river-bird-counts-lighting-vs-boats",
-    "text3-coding-class-prior-skills": "coding-classes-prior-ability-comparison"
+    "text3-coding-class-prior-skills": "coding-classes-prior-ability-comparison",
+    "text4-inference-model-parameter": "climate-model-one-parameter-vs-whole-theory",
+    "text4-inference-habitat-sample": "bird-survey-three-valleys-unsurveyed-sites",
+    "text4-inference-short-trial": "sleep-pilot-six-week-vs-long-term",
+    "text4-inference-answer-letter-bias": "stream-filter-data-vs-prior-answer-letters",
+    "text4-stance-geothermal-safety": "geothermal-projects-prior-seismic-testing",
+    "text4-stance-festival-permits": "street-festivals-hospital-noise-conditions",
+    "text4-stance-forest-burns-attribution": "ecologist-controlled-burns-vs-residents-ban",
+    "text4-stance-language-tests": "vocabulary-tests-useful-but-score-limited",
+    "text4-title-heat-cooling-strategy": "cool-roofs-plus-urban-heat-response",
+    "text4-title-recommendation-choice": "course-recommendations-user-control",
+    "text4-title-food-waste-measurement": "food-waste-weight-vs-separated-sources",
+    "text4-title-volunteer-retention": "charity-volunteer-signups-vs-retention",
+    "text4-vocab-rustle-leaves": "woodland-leaf-rustle-small-animal",
+    "text4-vocab-dwarf-costs": "mountain-station-heating-vs-repair-cost",
+    "text4-vocab-ditch-get-out-of": "college-publisher-abandons-equipment-rental",
+    "text4-vocab-tremendous-incentive": "remote-internship-travel-grant-motivation"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -514,7 +530,23 @@
     "equipment-log-falsification-audit": "设备审计：malpractices是不当伪造行为，不是普通实践。",
     "exercise-class-sickdays-leave-policy-rival": "健身课程与病假：并行请假制度政策是待排除的竞争解释。",
     "river-bird-counts-lighting-vs-boats": "河岸灯光与鸟类：船流量未减少只削弱另一解释，不证明唯一原因。",
-    "coding-classes-prior-ability-comparison": "选修课程成绩：控制入学基础后差异消失，显示潜在混杂因素。"
+    "coding-classes-prior-ability-comparison": "选修课程成绩：控制入学基础后差异消失，显示潜在混杂因素。",
+    "climate-model-one-parameter-vs-whole-theory": "科研模型：只调整单个参数，不推断整套方法过时。",
+    "bird-survey-three-valleys-unsurveyed-sites": "生态调查：三座山谷证据不可外推为整个地区确定结果。",
+    "sleep-pilot-six-week-vs-long-term": "睡眠试点：短期改善不证明永久有效。",
+    "stream-filter-data-vs-prior-answer-letters": "过滤器调查：直接证据才可判断范围，之前答案字母分布不产生逻辑约束。",
+    "geothermal-projects-prior-seismic-testing": "地热建设：支持发展与要求事先安全评估并不矛盾。",
+    "street-festivals-hospital-noise-conditions": "公共节庆：支持活动但设置特定地点、时段限制，不代表全面禁止。",
+    "ecologist-controlled-burns-vs-residents-ban": "生态学家：他人反对意见与专家在监督下允许烧除的主张相区分。",
+    "vocabulary-tests-useful-but-score-limited": "课堂测试：承认诊断价值但拒绝单一分数衡量全部能力。",
+    "cool-roofs-plus-urban-heat-response": "高温应对：屋顶是措施之一，中心是多管齐下的综合计划。",
+    "course-recommendations-user-control": "课程推荐：研究者强调透明性和学生可控性，非否认线上教育。",
+    "food-waste-weight-vs-separated-sources": "食物浪费：从只计重量到区分废弃、边角和捐赠，标题涵盖方法更新。",
+    "charity-volunteer-signups-vs-retention": "志愿者：招募成绩与长期留存问题的转折。",
+    "woodland-leaf-rustle-small-animal": "林地声响：rustle表示枯叶轻微摩擦的沙沙声。",
+    "mountain-station-heating-vs-repair-cost": "山站财务：dwarf是供暖费用显著大于维修费。",
+    "college-publisher-abandons-equipment-rental": "高校出版社：ditch方案并get out of租赁业务，均非字面物理移动。",
+    "remote-internship-travel-grant-motivation": "偏远实习：tremendous incentive指强烈激励而非强制命令。"
   },
   "family_assessments": {
     "reference": {
@@ -541,7 +573,7 @@
     "author-stance": {
       "coverage_gap": false,
       "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
-      "reason": "新增访客预测、翻译软件绝对性承诺、传感器证据不足三种不同论证语境，重点辨析skepticism和uncertainty。"
+      "reason": "新增地热安全前提、节庆许可、生态学家与居民观点冲突、词汇考试工具局限四种立场边界。"
     },
     "causal-role-direction": {
       "coverage_gap": false,
@@ -585,7 +617,7 @@
     "title-coverage": {
       "coverage_gap": false,
       "previous_gap": null,
-      "reason": "新增大学学术价值与公共图书馆成效语境，训练标题覆盖中心争议对象。"
+      "reason": "新增城市应对高温、在线课程推荐治理、食堂浪费分类衡量、志愿者留存四种主旨标题语境。"
     },
     "text4-federal-state-boundary": {
       "coverage_gap": true,
@@ -613,7 +645,7 @@
     },
     "inference-boundary": {
       "coverage_gap": false,
-      "reason": "新增招聘候选人和诊所选址两个独立语境，分别检验likely、decide on、arrange与未完成流程的边界，阻断无证据的虚构动机。"
+      "reason": "新增气候模型局部参数、野生动物部分样本、睡眠试验长短期、流域研究与答案字母频率四种迁移；检验结论范围及不可靠字母分布策略。"
     },
     "logic": {
       "coverage_gap": false,
@@ -621,7 +653,7 @@
     },
     "familiar-word-polysemy": {
       "coverage_gap": false,
-      "reason": "新增博物馆并列与资助、科研荣誉与丑闻、教师工会立场、保护区intrusion/discontinue四种独立语境。"
+      "reason": "新增树叶rustle、财务dwarf、租赁业务ditch/get out of、实习tremendous incentive四种独立语境，翻译困难与教学补充严格区分。"
     },
     "modal-stage": {
       "coverage_gap": false,
