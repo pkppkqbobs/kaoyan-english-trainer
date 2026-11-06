@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-06",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 40,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-05",
-      "issue": 39,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/39",
-      "round_id": "mw3issg0-uw4ualr2",
-      "correct": 8,
+      "date": "2026-11-06",
+      "issue": 40,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/40",
+      "round_id": "mw4vswu2-lbevatmn",
+      "correct": 6,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-11-05"
+        "2026-11-06"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-05.json",
+      "source": "data/days/2026-11-06.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -793,10 +793,10 @@
           "focus": "用户明确确认第25题选C，标准答案表为A。用户认为C与文章话题相关，但C没有准确覆盖全文的核心争议对象。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-02",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-10-25",
+          "slow_or_uncertain": true,
+          "due": "2026-11-06",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-02",
@@ -896,31 +896,39 @@
       "label": "Part B 指代与前后衔接",
       "families": [
         {
-          "family": "summary-location",
-          "label": "总结词定位",
-          "focus": "网页到期且仍有错误或慢答信号，需跨语境复查。",
-          "paper_kind": null,
-          "latest_observation": "2026-11-05",
-          "web_errors": 3,
+          "family": "paragraph-order-discourse",
+          "label": "说明与例证的层级",
+          "focus": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-10-25",
+          "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-11-06",
           "source": {
-            "path": "data/review-state.json"
+            "path": "data/learning-notes.json",
+            "date": "2026-10-25",
+            "family": "paragraph-order-discourse",
+            "question": 43,
+            "note_fingerprint": "08f8c254b5420082"
           }
         },
         {
-          "family": "reference",
-          "label": "these / such 回指",
-          "focus": "网页到期且仍有错误或慢答信号，需跨语境复查。",
-          "paper_kind": null,
-          "latest_observation": "2026-11-04",
-          "web_errors": 3,
-          "web_streak": 1,
+          "family": "paragraph-order-anaphora",
+          "label": "比例指代需要数量基线，避免凭本段主题选句",
+          "focus": "2013英语一Part B七选五第44空：用户明确确认最终选D（The solution is to change the mindset...），正确G（社会科学研究经费约占总研…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-10-19",
+          "web_errors": 0,
+          "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-06",
+          "due": "2026-11-01",
           "source": {
-            "path": "data/review-state.json"
+            "path": "data/learning-notes.json",
+            "date": "2026-10-19",
+            "family": "paragraph-order-anaphora",
+            "question": 44,
+            "note_fingerprint": "aeee06448e239d22"
           }
         }
       ]
@@ -1104,7 +1112,7 @@
     "data/article-sessions/2026-11-04-2016-text3.json": "a7a35f7a798945e619cb4c1c2f7a8243711d9b7e73792544851f0d960015eea5",
     "data/article-sessions/2026-11-05-2016-text4.json": "53163433eb3ab3999e6c0f64163d8c8b5b749126a4525646ab50581b099936c3",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "d483553dd7d9d5d57080c1efca70e06da67acd8479d99bf8355a0451406d15fd",
+    "data/daily.json": "d853bb95f05c83ebf0f21e5931a35a54e3571a1044e249d7ea84a43a440486bf",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1143,7 +1151,7 @@
     "data/days/2026-11-03.json": "bdcd95d9a76b5c6bb525e54eea702ffe5497db4cb803d55064e530034ec04ae1",
     "data/days/2026-11-04.json": "98d7f21c1c55ec730dc015e8a489b834eff12dc85c113e087b08b0032b933f90",
     "data/days/2026-11-05.json": "2e3810b1c7b93484e823e987dee1eb4ed243c2b6e816c55b7dcdced60f939e34",
-    "data/days/2026-11-06.json": "d483553dd7d9d5d57080c1efca70e06da67acd8479d99bf8355a0451406d15fd",
+    "data/days/2026-11-06.json": "d853bb95f05c83ebf0f21e5931a35a54e3571a1044e249d7ea84a43a440486bf",
     "data/learning-notes.json": "ba36a07ba6b378e90f1412d4a641ca6be74876154fb83c56bbb24d56567e238c",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "59b2568516c0144fcab12f1b27f143a80b7dfdddcfab80bd2b57a8edf57cb261",
@@ -1182,15 +1190,15 @@
     "data/questions/2026-11-04-2016-text3-migration.json": "3413a372b533de9a945bcaf3c8d2d67a53b055f98b2eb3f73bc15da5b96e0b72",
     "data/questions/2026-11-05-2016-text4-migration.json": "69172e5b4826c84aecf8f4949eef82199f3d419ea93979f3b05a06d614bcd098",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "ea42c485b2bd90cf5c2bff05d4df73bc2b69d328dfd8fede5353357c2be989bf",
-    "data/review-state.json": "bc42d93d52723e2cf9b7876d68c5d05f98583818484829b7b179603b19e943be",
+    "data/result-evidence.json": "7e65da0600e593e8b077cdc845eb47ae1c169f3ed525fe6f212e7904dfd37def",
+    "data/review-state.json": "f51b6eb80e734049b2ae4b1228979ab6863c6225206196a0eb68e2438747b4e6",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "9c60ee09425d477df9759482d606341fb3af70212432424c17c4833cfd09f5a7"
   },
-  "source_fingerprint": "be5a4659373739e55d5cc3da24658eedc4793c3921343e264bcd0882eb951325",
+  "source_fingerprint": "81b4fff9e99d45881f77fb13b9b17bb60c80ae9ddd85c747ee5f7f8efa5c1d88",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

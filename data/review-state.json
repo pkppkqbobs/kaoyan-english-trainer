@@ -39,7 +39,8 @@
     36,
     37,
     38,
-    39
+    39,
+    40
   ],
   "families": {
     "absolute-language": {
@@ -373,14 +374,14 @@
       "observation_priority": 0
     },
     "example-claim-scope": {
-      "streak": 0,
+      "streak": 2,
       "errors": 3,
-      "last": "2026-11-05",
-      "due": "2026-11-06",
+      "last": "2026-11-06",
+      "due": "2026-11-10",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 17,
-      "observation_priority": 2
+      "reported_confusion": false,
+      "observed_days": 18,
+      "observation_priority": 0
     },
     "expectation-contrast": {
       "streak": 0,
@@ -555,11 +556,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-04",
-      "due": "2026-11-05",
+      "last": "2026-11-06",
+      "due": "2026-11-06",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 10,
+      "observed_days": 11,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -663,13 +664,13 @@
       "observation_priority": 0
     },
     "reference": {
-      "streak": 1,
+      "streak": 2,
       "errors": 3,
-      "last": "2026-11-04",
-      "due": "2026-11-06",
+      "last": "2026-11-06",
+      "due": "2026-11-10",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 16,
+      "observed_days": 17,
       "observation_priority": 0
     },
     "relation-collocation": {
@@ -683,13 +684,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 8,
+      "streak": 9,
       "errors": 1,
-      "last": "2026-11-03",
-      "due": "2026-11-24",
+      "last": "2026-11-06",
+      "due": "2026-11-27",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 13,
+      "observed_days": 14,
       "observation_priority": 0
     },
     "remote": {
@@ -784,12 +785,12 @@
     },
     "summary-location": {
       "streak": 0,
-      "errors": 3,
-      "last": "2026-11-05",
-      "due": "2026-11-06",
+      "errors": 4,
+      "last": "2026-11-06",
+      "due": "2026-11-07",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 13,
+      "observed_days": 14,
       "observation_priority": 0
     },
     "take-page-from": {
@@ -903,23 +904,23 @@
       "observation_priority": 3
     },
     "text4-historical-inference": {
-      "streak": 2,
+      "streak": 3,
       "errors": 2,
-      "last": "2026-10-27",
-      "due": "2026-10-31",
+      "last": "2026-11-06",
+      "due": "2026-11-13",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 0
     },
     "title-coverage": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-10-24",
-      "due": "2026-10-25",
-      "slow_or_uncertain": false,
+      "errors": 1,
+      "last": "2026-11-06",
+      "due": "2026-11-06",
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 3
     },
     "title-specificity": {
@@ -983,13 +984,13 @@
       "observation_priority": 0
     },
     "viewpoint-fact": {
-      "streak": 2,
+      "streak": 3,
       "errors": 1,
-      "last": "2026-10-28",
-      "due": "2026-11-01",
+      "last": "2026-11-06",
+      "due": "2026-11-13",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "with": {

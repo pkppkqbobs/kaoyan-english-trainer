@@ -12,8 +12,8 @@
 
 ## 已核验网页进度
 
-最近已接受的完整daily：题单日期2026-11-05，[Issue #39](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/39)，8/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-11-06；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
+最近已接受的完整daily：题单日期2026-11-06，[Issue #40](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/40)，6/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
+当前题单日期：2026-11-06；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 当前文章专项：发布日期2026-11-05，对应学习日期2026-11-05；题单已发布不等于已经作答。
@@ -34,7 +34,7 @@
 - 选项范围与额外限定（inference-boundary、title-coverage）：用户在C/D之间犹豫，已注意到D可能把部分经营方式需要调整扩大为传统业务整体过时，这是有效的原文证据判断；同时参考了此前D较多、C较少的答案字母分布这一不可靠启发式。最终确认选择C… 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（policy-enforcement-roles、logic）：用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（author-stance、attribution-stance）：用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。 网页错误数/streak单列于JSON。
-- Part B 指代与前后衔接（summary-location、reference）：网页到期且仍有错误或慢答信号，需跨语境复查。 网页错误数/streak单列于JSON。
+- Part B 指代与前后衔接（paragraph-order-discourse、paragraph-order-anaphora）：用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t… 网页错误数/streak单列于JSON。
 
 ## 待确认
 

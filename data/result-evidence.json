@@ -3229,6 +3229,94 @@
       "qid": "example-council-reform-opposition-a",
       "round_id": "mw3issg0-uw4ualr2",
       "source_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "text4-historical-inference",
+      "ok": true,
+      "ms": 46037,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "text4-historical-inference-c",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 77628,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "pb13-museum-team-proposals-b",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "relative",
+      "ok": true,
+      "ms": 4372,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "legacy-which",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 39174,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "example-factory-reporting-measure-e",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "title-coverage",
+      "ok": false,
+      "ms": 98668,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "text1-title-library-success-h",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "reference",
+      "ok": true,
+      "ms": 30440,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "reference-panels-request-switch",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 17346,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "viewpoint-renting-a",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-06",
+      "family": "summary-location",
+      "ok": false,
+      "ms": 47985,
+      "uncertain": false,
+      "origin": 40,
+      "qid": "summary-overall-midsection",
+      "round_id": "mw4vswu2-lbevatmn",
+      "source_date": "2026-11-06"
     }
   ],
   "issues": [
@@ -3270,6 +3358,7 @@
     36,
     37,
     38,
-    39
+    39,
+    40
   ]
 }
