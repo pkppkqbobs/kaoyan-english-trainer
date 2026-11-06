@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-06",
     "daily_quiz": "2026-11-06",
-    "latest_observation": "2026-11-05"
+    "latest_observation": "2026-11-06"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-05",
-      "storageId": "2026-11-05-2016-text4",
-      "learning_date": "2026-11-05"
+      "date": "2026-11-06",
+      "storageId": "2026-11-06-2016-partb-headings",
+      "learning_date": "2026-11-06"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,108 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-06",
+      "exam": "2016-english1",
+      "part": "Part B 小标题匹配",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "heading-core-function",
+          "question": 41,
+          "related_questions": [],
+          "updated_on": "2026-11-06",
+          "final_choice": "C",
+          "final_choice_status": "confirmed",
+          "first_considered": "B",
+          "candidate_choices": [
+            "B",
+            "C"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "B",
+          "reference_status": "note_only",
+          "summary": "原先考虑第41题B Decide if the time is right，读到第45段出现time时把B重新分配给45，回头认为41的C也可选，最终明确选C Have confi…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-06",
+            "family": "heading-core-function",
+            "question": 41,
+            "note_fingerprint": "c8c25c5c84056231"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_wrong",
+          "family": "heading-global-allocation",
+          "question": 45,
+          "related_questions": [],
+          "updated_on": "2026-11-06",
+          "final_choice": "B",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "F",
+          "reference_status": "note_only",
+          "summary": "用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-06",
+            "family": "heading-global-allocation",
+            "question": 45,
+            "note_fingerprint": "2f263821c134f219"
+          },
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "title-coverage",
+          "question": null,
+          "related_questions": [],
+          "updated_on": "2026-11-06",
+          "final_choice": null,
+          "final_choice_status": "not_applicable",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "用户明确自述文章整体未充分理解；照片及文字确定41 C错误、45 B错误，42 G/43 D/44 E正确，纸质5题中3题正确。42—44能从明显关键句找到对应标题，但没有逐题确认…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-06",
+            "family": "title-coverage",
+            "question": null,
+            "note_fingerprint": "d3a7a5549642838d"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "anthropologist",
+        "characterizations",
+        "in a rut",
+        "pull off"
+      ],
+      "translation_note_count": 1,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-06",
+        "family": "partb-boxed-vocab",
+        "question": null,
+        "note_fingerprint": "9f650c2c3b5275d9"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-06-2016-partb-headings.json"
+      ]
+    },
     {
       "date": "2026-11-05",
       "exam": "2016-english1",
@@ -492,146 +594,22 @@
       "article_session_files": [
         "data/article-sessions/2026-11-02-2016-text1.json"
       ]
-    },
-    {
-      "date": "2026-11-01",
-      "exam": "2016-english1",
-      "part": "Section I (Cloze)",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "relation-collocation",
-          "question": 1,
-          "related_questions": [],
-          "updated_on": "2026-11-01",
-          "final_choice": "D",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "note_only",
-          "summary": "用户明确确认第1题选D，标准答案表为A。由于过去常见连接词位于句首，把句中 as well as 误判为 with regard to。",
-          "followup": null,
-          "spans": [
-            "as well as",
-            "those of the young woman",
-            "matchmaker"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "relation-collocation",
-            "question": 1,
-            "note_fingerprint": "87a92ee138693a5a"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "inference-boundary",
-          "question": 4,
-          "related_questions": [],
-          "updated_on": "2026-11-01",
-          "final_choice": "D",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "note_only",
-          "summary": "用户明确确认第4题选D（For example），正确答案为A（In theory）；用户解释自己想到防止催婚，因此选了D。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "inference-boundary",
-            "question": 4,
-            "note_fingerprint": "51fe3d4d7ae074e2"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "action-collocation",
-          "question": 9,
-          "related_questions": [],
-          "updated_on": "2026-11-01",
-          "final_choice": "C",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "D",
-          "reference_status": "note_only",
-          "summary": "用户明确确认第9题选C（wrapping），标准答案为D（tying）；用户将动作想象为用棉线把新郎新娘捆在一起。",
-          "followup": null,
-          "spans": [
-            "wrapping",
-            "tying"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "action-collocation",
-            "question": 9,
-            "note_fingerprint": "cce0b6f44305ae25"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "action-collocation",
-          "question": 10,
-          "related_questions": [],
-          "updated_on": "2026-11-01",
-          "final_choice": "A",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "B",
-          "reference_status": "note_only",
-          "summary": "用户明确确认第10题选A（lighting），标准答案为B（passing）；用户想到的是点蜡烛。",
-          "followup": null,
-          "spans": [
-            "lighting",
-            "passing a candle around a circle"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "action-collocation",
-            "question": 10,
-            "note_fingerprint": "42ec50a52710f7f3"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "by way of",
-        "on his own",
-        "piling",
-        "sermon",
-        "tying"
-      ],
-      "translation_note_count": 1,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-01",
-        "family": "familiar-word-polysemy",
-        "question": null,
-        "note_fingerprint": "a2cd07bee6307cdc"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-01-2016-cloze.json"
-      ]
     }
   ],
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-06-2016-partb-headings",
+        "learning_date": "2026-11-06",
+        "updated_on": "2026-11-06",
+        "exam": "2016-english1",
+        "part": "Part B 小标题匹配",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-06-2016-partb-headings.json",
+        "round_file": "data/article-reviews/2026-11-06-2016-partb-headings.json",
+        "publication_date": "2026-11-06"
+      },
       {
         "session_id": "2026-11-05-2016-text4",
         "learning_date": "2026-11-05",
@@ -708,17 +686,6 @@
         "session_file": "data/article-sessions/2026-10-29-2015-text3.json",
         "round_file": "data/article-reviews/2026-10-29-2015-text3.json",
         "publication_date": "2026-10-30"
-      },
-      {
-        "session_id": "2026-10-28-2015-text2",
-        "learning_date": "2026-10-28",
-        "updated_on": "2026-10-28",
-        "exam": "2015-english1",
-        "part": "Reading Text 2",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-10-28-2015-text2.json",
-        "round_file": "data/article-reviews/2026-10-28-2015-text2.json",
-        "publication_date": "2026-10-28"
       }
     ]
   },
@@ -728,39 +695,39 @@
       "label": "修饰关系与熟词搭配",
       "families": [
         {
-          "family": "modal-stage",
-          "label": "要求与完成的证据",
-          "focus": "用户明确自述做错，初选A largely overshadowed，后改选B properly protected；原因是不能判断段落对国家信托成就的评价方向，并把It needs…",
+          "family": "heading-global-allocation",
+          "label": "跨段分配：确认条件与降低决策疲劳",
+          "focus": "用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第…",
           "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-03",
+          "latest_observation": "2026-11-06",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
           "due": "2026-11-06",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-03",
-            "family": "modal-stage",
-            "question": 27,
-            "note_fingerprint": "23689077b2b393df"
+            "date": "2026-11-06",
+            "family": "heading-global-allocation",
+            "question": 45,
+            "note_fingerprint": "2f263821c134f219"
           }
         },
         {
-          "family": "evaluation-vocab",
-          "label": "违法违规词汇语境",
-          "focus": "用户最初选D，读到第四段末尾political campaigns后短暂考虑A，继续阅读又坚持最终D；没有发生实际改错。D less severe是more lenient的正确同…",
-          "paper_kind": "correct_but_uncertain",
-          "latest_observation": "2026-11-04",
+          "family": "heading-core-function",
+          "label": "段落功能：先确定更新是否有必要",
+          "focus": "原先考虑第41题B Decide if the time is right，读到第45段出现time时把B重新分配给45，回头认为41的C也可选，最终明确选C Have confi…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-06",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
           "due": "2026-11-06",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-04",
-            "family": "evaluation-vocab",
-            "question": 33,
-            "note_fingerprint": "ba9498326308654c"
+            "date": "2026-11-06",
+            "family": "heading-core-function",
+            "question": 41,
+            "note_fingerprint": "c8c25c5c84056231"
           }
         }
       ]
@@ -769,6 +736,24 @@
       "mechanism": "scope",
       "label": "选项范围与额外限定",
       "families": [
+        {
+          "family": "title-coverage",
+          "label": "主旨判断：整体任务与具体例子",
+          "focus": "用户明确自述文章整体未充分理解；照片及文字确定41 C错误、45 B错误，42 G/43 D/44 E正确，纸质5题中3题正确。42—44能从明显关键句找到对应标题，但没有逐题确认…",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-06",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-06",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-06",
+            "family": "title-coverage",
+            "question": null,
+            "note_fingerprint": "d3a7a5549642838d"
+          }
+        },
         {
           "family": "inference-boundary",
           "label": "正确选项字母不具排除力",
@@ -785,24 +770,6 @@
             "family": "inference-boundary",
             "question": 39,
             "note_fingerprint": "44e9571f5746d24e"
-          }
-        },
-        {
-          "family": "title-coverage",
-          "label": "识别转折后的核心议题",
-          "focus": "用户明确确认第25题选C，标准答案表为A。用户认为C与文章话题相关，但C没有准确覆盖全文的核心争议对象。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-02",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-06",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-02",
-            "family": "title-coverage",
-            "question": 25,
-            "note_fingerprint": "92a717cd195ca902"
           }
         }
       ]
@@ -948,62 +915,6 @@
         "question": 26,
         "note_fingerprint": "b7424f154044cfc2"
       }
-    },
-    {
-      "exam": "2016-english1",
-      "part": "Section I (Cloze)",
-      "question": 16,
-      "date": "2026-11-01",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-01",
-        "family": "nested",
-        "question": 16,
-        "note_fingerprint": "d0a4a1543ad6c210"
-      }
-    },
-    {
-      "exam": "2016-english1",
-      "part": "Section I (Cloze)",
-      "question": 6,
-      "date": "2026-11-01",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-01",
-        "family": "relation-collocation",
-        "question": 6,
-        "note_fingerprint": "b62e8947ec9e32a2"
-      }
-    },
-    {
-      "exam": "2016-english1",
-      "part": "Section I (Cloze)",
-      "question": 3,
-      "date": "2026-11-01",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-01",
-        "family": "inference-boundary",
-        "question": 3,
-        "note_fingerprint": "d2ea734b5b42b17c"
-      }
-    },
-    {
-      "exam": "2016-english1",
-      "part": "Section I (Cloze)",
-      "question": 2,
-      "date": "2026-11-01",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-01",
-        "family": "inference-boundary",
-        "question": 2,
-        "note_fingerprint": "7b39b7713826a841"
-      }
     }
   ],
   "warnings": [
@@ -1041,7 +952,8 @@
     "article-review-2026-11-03-2016-text2.html": "70c011daefa054f43516494882d807a31dc9a74dacc57a7e998d37d9cae2d0cc",
     "article-review-2026-11-04-2016-text3.html": "d2f4dad01754760e2052583873fbea6776f6a8efcbece5ae966cb1f0227dbafa",
     "article-review-2026-11-05-2016-text4.html": "f1a2d2d8b443dc49b5bb9c58f5c6fa2186f0dabcb7f356f354ab7b7bed8414c3",
-    "data/article-review.json": "67d1ecb0a84a7445fa670fcb640eacf53e443fdde338a476e5bc04fc2f9de282",
+    "article-review-2026-11-06-2016-partb-headings.html": "2e4e00cbcb7602c0d8d451afc7dc60d6fbfbd794fb52efc4d8d6a7100f55d173",
+    "data/article-review.json": "085936f9fcba2f4c0d32ad04cc98f5d50188d7dc6491bd1412562543f1f29c5a",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1079,6 +991,7 @@
     "data/article-reviews/2026-11-03-2016-text2.json": "f0eeffe4c740fab573a6548f1cd2926944fde9f7dff9df9e9a9bd76ed0110bd8",
     "data/article-reviews/2026-11-04-2016-text3.json": "bd8433d959a29d1374410e1bdf5c66ccfd50197ef81316bbd5c5fd12a369c0f5",
     "data/article-reviews/2026-11-05-2016-text4.json": "67d1ecb0a84a7445fa670fcb640eacf53e443fdde338a476e5bc04fc2f9de282",
+    "data/article-reviews/2026-11-06-2016-partb-headings.json": "085936f9fcba2f4c0d32ad04cc98f5d50188d7dc6491bd1412562543f1f29c5a",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1111,6 +1024,7 @@
     "data/article-sessions/2026-11-03-2016-text2.json": "8ea47e37b66f024479bbca70cdab4d15bb146f6997244e6e33bed91eef3386df",
     "data/article-sessions/2026-11-04-2016-text3.json": "a7a35f7a798945e619cb4c1c2f7a8243711d9b7e73792544851f0d960015eea5",
     "data/article-sessions/2026-11-05-2016-text4.json": "53163433eb3ab3999e6c0f64163d8c8b5b749126a4525646ab50581b099936c3",
+    "data/article-sessions/2026-11-06-2016-partb-headings.json": "bf061195421065161d53d21cb059beac43ca493ecb085d8b8b56d0c951cd61ae",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "d853bb95f05c83ebf0f21e5931a35a54e3571a1044e249d7ea84a43a440486bf",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1152,9 +1066,9 @@
     "data/days/2026-11-04.json": "98d7f21c1c55ec730dc015e8a489b834eff12dc85c113e087b08b0032b933f90",
     "data/days/2026-11-05.json": "2e3810b1c7b93484e823e987dee1eb4ed243c2b6e816c55b7dcdced60f939e34",
     "data/days/2026-11-06.json": "d853bb95f05c83ebf0f21e5931a35a54e3571a1044e249d7ea84a43a440486bf",
-    "data/learning-notes.json": "ba36a07ba6b378e90f1412d4a641ca6be74876154fb83c56bbb24d56567e238c",
+    "data/learning-notes.json": "61d86bb9eb6d4883a4bfbfd8ba02715da39424719ad4ebf57cc61251d93432fc",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
-    "data/question-contexts.json": "59b2568516c0144fcab12f1b27f143a80b7dfdddcfab80bd2b57a8edf57cb261",
+    "data/question-contexts.json": "a560140beb5f310f598249f16224ad65ed798ffac484b21241d7f0edc9cbaa5c",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1189,16 +1103,17 @@
     "data/questions/2026-11-03-2016-text2-migration.json": "3579c59a382b55501f86e1bb64a9c2bb74978aca751202cb7e79c75cf8731f6b",
     "data/questions/2026-11-04-2016-text3-migration.json": "3413a372b533de9a945bcaf3c8d2d67a53b055f98b2eb3f73bc15da5b96e0b72",
     "data/questions/2026-11-05-2016-text4-migration.json": "69172e5b4826c84aecf8f4949eef82199f3d419ea93979f3b05a06d614bcd098",
+    "data/questions/2026-11-06-2016-partb-headings-migration.json": "4f19cdd25fde1831ae552cd03c8e721951f0fd49943f0bf9906837d108fbd0fa",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "7e65da0600e593e8b077cdc845eb47ae1c169f3ed525fe6f212e7904dfd37def",
-    "data/review-state.json": "f51b6eb80e734049b2ae4b1228979ab6863c6225206196a0eb68e2438747b4e6",
+    "data/review-state.json": "a54256d070489326c9693aea139a96409ee307e21d5209514a0c2a42f88a742e",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "9c60ee09425d477df9759482d606341fb3af70212432424c17c4833cfd09f5a7"
   },
-  "source_fingerprint": "81b4fff9e99d45881f77fb13b9b17bb60c80ae9ddd85c747ee5f7f8efa5c1d88",
+  "source_fingerprint": "9b907dbd58f97ceaaa1ce3d4722e6f96eadfc0f06c0f5affa47dfe0272a88ed3",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
