@@ -453,6 +453,26 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "heading-core-function": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-06",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "heading-global-allocation": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-06",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "hostage-hijack": {
       "streak": 0,
       "errors": 0,
