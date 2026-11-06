@@ -1,0 +1,290 @@
+[
+  {
+    "id": "pb16-heading-bridge-readiness",
+    "family": "heading-core-function",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "readiness decision vs generic encouragement",
+    "skill": "段落功能：先判断是否需要行动",
+    "q": "A regional council has discussed replacing a bridge. Before ordering materials, engineers recommend checking recent traffic counts, the condition of the existing structure and whether repairs could suffice. Several members argue that a new bridge may not be necessary. Which heading best captures this paragraph?",
+    "o": [
+      "Celebrate the benefits of a new bridge",
+      "Increase the bridge construction budget",
+      "Decide whether replacement is justified",
+      "Ask local businesses to donate materials"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "地区议会考虑更换桥梁，但工程师要求先核验交通量、现有桥况及修复可能性，有人认为未必需要重建。",
+      "structure": "Before ordering materials以及may not be necessary共同说明段落中心是判断行动必要性。",
+      "other": "suffice足够；justify证明合理；structure建筑结构。",
+      "meaning": "选择标题需要提取段落承担的功能：是否应该启动工程，而不是泛泛鼓励行动。",
+      "rest": "庆祝新桥、增加预算和募捐都不是这段讨论的主要任务。"
+    }
+  },
+  {
+    "id": "pb16-heading-forest-release-timing",
+    "family": "heading-core-function",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "when to act vs confident publicity",
+    "skill": "段落功能：决策的时点",
+    "q": "A wildlife centre has finished breeding rare frogs, but releasing them immediately could be dangerous. Staff must first check pond temperatures, rainfall and predator activity. If the conditions remain unsuitable, the release will be postponed. Which heading fits best?",
+    "o": [
+      "Choose suitable conditions for the release",
+      "Publicize the centre's achievements widely",
+      "Expand the size of the breeding programme",
+      "Recruit new volunteers to care for the frogs"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "保护中心完成蛙类繁育，但放归前必须检查水温、降雨和捕食者活动；条件不合适便推迟。",
+      "structure": "must first check和If... postponed标明主要动作是决定合适放归时机。",
+      "other": "predator捕食者；release放归；suitable适宜的。",
+      "meaning": "段落不是表现信心或庆祝成果，而是围绕何时执行放归的判断。",
+      "rest": "宣传、扩充育种和招募志愿者没有对应段落的判断功能。"
+    }
+  },
+  {
+    "id": "pb16-heading-library-review-before-upgrade",
+    "family": "heading-core-function",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "necessity assessment vs immediate adoption",
+    "skill": "段落功能：先确定更新是否有必要",
+    "q": "A library is considering buying expensive digital cataloguing software. The librarian advises measuring how often the current system fails and asking readers which problems actually interfere with their searches. If these problems are rare, keeping the existing system may be wiser. Which heading is most suitable?",
+    "o": [
+      "Replace the software without any further review",
+      "Explain the history of digital library systems",
+      "Promote the new software to every local school",
+      "Establish whether a costly change is needed"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "图书馆考虑购入昂贵目录软件，但建议先调查旧系统故障是否真实严重，否则保留现状更合理。",
+      "structure": "considering与If ... rare限定论述为决策前评估，而非立即采购。",
+      "other": "cataloguing编目；interfere with妨碍；wiser更明智。",
+      "meaning": "中心是评价升级必要性，个别数字化词汇不是立即换系统的证据。",
+      "rest": "不审查直接更换、讲历史和向学校推广都与原文目标不符。"
+    }
+  },
+  {
+    "id": "pb16-pair-field-trip-prep",
+    "family": "heading-global-allocation",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "two paragraphs share time but have different jobs",
+    "skill": "跨段分配：时机评估与流程简化",
+    "q": "Read both passages before assigning headings. I: A geology team wants to visit an unstable slope. Before travelling, its leader checks weather warnings and whether the slope has settled enough for safe access. The team will wait if necessary. II: During fieldwork, staff waste time writing the same labels on every sample bag. A printed label sheet and standard kit now remove most of these repeated choices. Which pairing fits?",
+    "o": [
+      "I: Save fieldwork time; II: Assess trip safety",
+      "I: Check departure readiness; II: Simplify labelling",
+      "I: Expand field staff; II: Improve forecasts",
+      "I: Buy better samples; II: Start earlier"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "第一段检查危险坡面是否适合现在出发；第二段通过预印标签与标准工具包减少重复选择。",
+      "structure": "I的Before travelling与wait指向出行决策；II的repeated choices和printed label指向效率。",
+      "other": "unstable不稳定的；slope坡面；fieldwork野外作业。",
+      "meaning": "同一组文章涉及时间，但标题应按每段的目标分配：时机合适与减少操作成本不是一回事。",
+      "rest": "省时不能代替安全判断；扩员、买样品、提前出发都不是两段实际建议。"
+    }
+  },
+  {
+    "id": "pb16-pair-health-clinic",
+    "family": "heading-global-allocation",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "launch timing vs routine workload",
+    "skill": "跨段分配：何时开诊与怎样减负",
+    "q": "Match the two sections. I: A mobile health clinic is ready to serve remote villages, but the doctors will not begin visits until medicines arrive and local referral routes are confirmed. II: Once services begin, nurses use prepacked supply boxes and a short standard form so they spend less time making routine decisions. Which allocation is accurate?",
+    "o": [
+      "I: Cut paperwork; II: Choose the launch date",
+      "I: Set the launch conditions; II: Streamline routine work",
+      "I: Recruit more doctors; II: Expand village roads",
+      "I: Shorten each visit; II: Verify drug deliveries"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "移动诊所第一段讲药物和转诊路线确定后才能启动；第二段讲使用预装箱和表单减轻日常负担。",
+      "structure": "until medicines arrive是开诊前提；Once services begin进入日常工作阶段。",
+      "other": "referral转诊；prepacked预先装好的；routine例行的。",
+      "meaning": "先建立两段独立的功能标签，再分配标题；不能因为第二段出现time就挪用第一段的时机标题。",
+      "rest": "错配标题或加入招募、修路、缩短每次诊疗等未讨论内容都不成立。"
+    }
+  },
+  {
+    "id": "pb16-pair-radio-emergency",
+    "family": "heading-global-allocation",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "go-no-go decision vs simplification",
+    "skill": "跨段分配：启动条件与高效执行",
+    "q": "Two parts describe an emergency radio system. I: The city will activate emergency broadcasting only when official flood measurements pass a defined threshold; a rehearsal alone does not justify activation. II: Operators replace several separate login steps with one verified dashboard, reducing the time needed to send approved alerts. Select the best headings.",
+    "o": [
+      "I: Remove login steps; II: Set flood thresholds",
+      "I: Extend the rehearsal; II: Increase water levels",
+      "I: Send all alerts now; II: Review past floods",
+      "I: Check alert thresholds; II: Speed up dispatch"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "第一段设置水位超过阈值才启动广播；第二段用统一控制台简化已批准警报的发送步骤。",
+      "structure": "only when限定启动条件；replace several steps和reducing time指向执行效率。",
+      "other": "threshold阈值；dashboard控制台；dispatch发送/调度。",
+      "meaning": "触发条件属于when，操作步骤缩短属于how；即使两段都有时间线索也不能互换。",
+      "rest": "换位、延长彩排、提高水位和立即发布都与原文机制不同。"
+    }
+  },
+  {
+    "id": "pb16-pair-vaccine-cold-chain",
+    "family": "heading-global-allocation",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "readiness check vs fewer repeated choices",
+    "skill": "跨段分配：确认条件与降低决策疲劳",
+    "q": "Read both sections. I: A vaccine programme can start in mountain towns only after refrigerators have passed temperature tests and transport routes are confirmed. Until then, managers must delay delivery. II: Warehouse teams reduce repeated packing decisions by using a fixed checklist and ready-made supply sets; each order now takes less time. Choose the right assignment.",
+    "o": [
+      "I: Check start-up conditions; II: Make packing efficient",
+      "I: Cut packing work; II: Check cold-storage readiness",
+      "I: Explain vaccine science; II: Extend delivery routes",
+      "I: Begin delivery immediately; II: Add more approvals"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "第一段讲冷链与运输路线未确认前不得开始；第二段通过固定清单和预配套件减少重复打包决策。",
+      "structure": "only after与Until then是必要条件与等待；fixed checklist说明执行流程优化。",
+      "other": "cold chain冷链；ready-made预配好的；approval批准。",
+      "meaning": "第一段回答何时能启动，第二段回答如何减少重复选择，两者不可因出现time而混淆。",
+      "rest": "互换标题、讲疫苗原理、立即运送和增加审批都偏离两段核心。"
+    }
+  },
+  {
+    "id": "pb16-title-park-volunteers",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "paragraph core goal vs illustrative measure",
+    "skill": "主旨判断：整体任务与具体例子",
+    "q": "A neighbourhood group first surveyed why families rarely used a public park. It found poor lighting, inaccessible entrances and a lack of seating. The group then proposed fixing those barriers and measuring whether more residents return, rather than simply holding one publicity event. What heading captures the main point?",
+    "o": [
+      "A Guide to Advertising One Weekend Event",
+      "Why Park Volunteers Need More Members",
+      "Remove Barriers to Everyday Park Use",
+      "The History of Street Lighting Projects"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "社区调查公园少有人使用的原因，发现照明、入口和座椅问题，建议解决这些障碍并评估使用效果。",
+      "structure": "surveyed why... 和 fixing those barriers指向找原因并改善可用性；宣传活动只是对照。",
+      "other": "inaccessible难进入的；barrier障碍；usable可使用的。",
+      "meaning": "标题应覆盖对使用障碍的调查和改善，而不是抽一个局部措施当作全篇主旨。",
+      "rest": "单次活动广告、招募人数、照明史均不是本段总体论点。"
+    }
+  },
+  {
+    "id": "pb16-vocab-pull-off-repair",
+    "family": "partb-boxed-vocab",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "pull off a difficult task",
+    "skill": "动词短语：成功完成困难任务",
+    "q": "The repair crew managed to pull off a temporary bridge installation despite strong winds and missing equipment. What does pull off mean here?",
+    "o": [
+      "Delay an installation until next month",
+      "Remove a jacket while working outside",
+      "Successfully accomplish a difficult job",
+      "Pull a cable away from the bridge"
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "维修队虽面临强风和设备不足，仍成功完成临时桥梁安装。",
+      "structure": "managed to pull off的宾语是a temporary bridge installation，表示克服困难完成工作。",
+      "other": "accomplish完成；installation安装；despite尽管。",
+      "meaning": "pull off在此是成功做到一件不容易的事，不是实际把某物拉离。",
+      "rest": "推迟、脱衣服和拉离电缆都误解了完成任务的语义。"
+    }
+  },
+  {
+    "id": "pb16-vocab-in-rut-orchestra",
+    "family": "partb-boxed-vocab",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "in a rut / stuck in routine",
+    "skill": "习惯性停滞与改变",
+    "q": "After years of repeating the same concert programme, the orchestra felt it was in a rut. Its director suggested inviting new composers. What does in a rut imply?",
+    "o": [
+      "The musicians were travelling on a rough road",
+      "The group was trapped in an unchanging routine",
+      "The instruments had been damaged during a show",
+      "The audience demanded a longer interval"
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "乐团多年重复同一节目，感觉陷入惯性，指挥建议邀请新作曲家。",
+      "structure": "After years of repeating和inviting new composers构成停滞与改变的对照。",
+      "other": "orchestra管弦乐团；routine惯例；composer作曲家。",
+      "meaning": "in a rut指工作或生活陷入重复、缺乏变化，而不是实物车辙。",
+      "rest": "道路颠簸、乐器损坏和延长中场休息都没有证据。"
+    }
+  },
+  {
+    "id": "pb16-vocab-anthropologist-factory",
+    "family": "partb-boxed-vocab",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "anthropologist / study of culture",
+    "skill": "职业词与观察社会规范",
+    "q": "A factory hired an anthropologist to observe how workers exchange informal advice and follow unwritten rules. What expertise did the factory seek?",
+    "o": [
+      "Experience designing industrial steel machinery",
+      "Training in treating occupational injuries",
+      "Skills for calculating tax on equipment",
+      "Knowledge of group behaviour and shared customs"
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "工厂聘请人类学家观察工人如何交流非正式建议、遵守不成文规则，关注群体文化。",
+      "structure": "observe how...列出研究对象；unwritten rules指非正式社会规范。",
+      "other": "anthropologist人类学家；custom习俗；unwritten不成文的。",
+      "meaning": "anthropologist研究人类及其文化社会行为，不等于技术设备专家。",
+      "rest": "机器设计、工伤治疗和税务计算不对应非正式群体规则研究。"
+    }
+  },
+  {
+    "id": "pb16-vocab-characterizations-historian",
+    "family": "partb-boxed-vocab",
+    "introduced": null,
+    "published_on": "2026-11-06",
+    "budget": 45,
+    "target": "characterizations / descriptions",
+    "skill": "抽象名词：描述与概括",
+    "q": "A historian rejected characterizations of a protest as either entirely peaceful or entirely violent because the records showed several distinct phases. What are characterizations?",
+    "o": [
+      "Descriptions used to portray an event",
+      "Official permissions to enter an archive",
+      "Payments that funded the demonstration",
+      "Rules about how to conduct interviews"
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "历史学家反对将抗议一概描述为完全和平或完全暴力，因为资料显示多个不同阶段。",
+      "structure": "rejected characterizations of... 后接as either...or...说明被拒绝的是某些描述方式。",
+      "other": "characterization描述/概括；phase阶段；portray描绘。",
+      "meaning": "characterizations在此是对事件特征的表述，并非固定不变的本质。",
+      "rest": "档案权限、示威资金和访谈规章均不表示描述或概括。"
+    }
+  }
+]

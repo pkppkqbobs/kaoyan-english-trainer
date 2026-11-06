@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-05",
+  "reviewed_on": "2026-11-06",
   "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -414,7 +414,19 @@
     "text4-vocab-rustle-leaves": "woodland-leaf-rustle-small-animal",
     "text4-vocab-dwarf-costs": "mountain-station-heating-vs-repair-cost",
     "text4-vocab-ditch-get-out-of": "college-publisher-abandons-equipment-rental",
-    "text4-vocab-tremendous-incentive": "remote-internship-travel-grant-motivation"
+    "text4-vocab-tremendous-incentive": "remote-internship-travel-grant-motivation",
+    "pb16-heading-bridge-readiness": "bridge-project-necessity-before-purchase",
+    "pb16-heading-forest-release-timing": "rare-frog-release-conditions",
+    "pb16-heading-library-review-before-upgrade": "library-software-upgrade-necessity",
+    "pb16-pair-field-trip-prep": "geology-field-trip-safety-vs-sample-labelling",
+    "pb16-pair-health-clinic": "mobile-clinic-launch-vs-routine-packing",
+    "pb16-pair-radio-emergency": "flood-alert-thresholds-vs-operator-dispatch",
+    "pb16-pair-vaccine-cold-chain": "vaccine-cold-chain-readiness-vs-packing-workflow",
+    "pb16-title-park-volunteers": "neighborhood-park-barriers-vs-publicity",
+    "pb16-vocab-pull-off-repair": "bridge-repair-succeeded-despite-obstacles",
+    "pb16-vocab-in-rut-orchestra": "orchestra-repetitive-programmes",
+    "pb16-vocab-anthropologist-factory": "factory-worker-informal-norms",
+    "pb16-vocab-characterizations-historian": "historian-protest-description-oversimplification"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -546,7 +558,19 @@
     "woodland-leaf-rustle-small-animal": "林地声响：rustle表示枯叶轻微摩擦的沙沙声。",
     "mountain-station-heating-vs-repair-cost": "山站财务：dwarf是供暖费用显著大于维修费。",
     "college-publisher-abandons-equipment-rental": "高校出版社：ditch方案并get out of租赁业务，均非字面物理移动。",
-    "remote-internship-travel-grant-motivation": "偏远实习：tremendous incentive指强烈激励而非强制命令。"
+    "remote-internship-travel-grant-motivation": "偏远实习：tremendous incentive指强烈激励而非强制命令。",
+    "bridge-project-necessity-before-purchase": "市政桥梁项目：先判断是否确需更换，避免把段落当成一般性鼓励行动。",
+    "rare-frog-release-conditions": "稀有蛙类放归：检查气候与捕食风险判断何时实施。",
+    "library-software-upgrade-necessity": "图书馆目录软件：先测实际问题，判断升级必要性。",
+    "geology-field-trip-safety-vs-sample-labelling": "野外地质研究：先确认能否安全出发，再通过标准标签减少重复劳动，跨段匹配不同功能。",
+    "mobile-clinic-launch-vs-routine-packing": "山区巡诊：药物和转诊路线决定开诊条件，固定物资箱减少日常决策时间。",
+    "flood-alert-thresholds-vs-operator-dispatch": "城市警报：水位阈值决定触发时机，统一控制台提升派发效率。",
+    "vaccine-cold-chain-readiness-vs-packing-workflow": "疫苗冷链：冷藏测试与运输决定是否启动，标准清单提高打包效率。",
+    "neighborhood-park-barriers-vs-publicity": "社区公园：清除照明、入口和座椅等使用障碍是主旨，单次宣传非核心。",
+    "bridge-repair-succeeded-despite-obstacles": "维修队克服风雨完成桥梁安装：pull off指成功实现难事。",
+    "orchestra-repetitive-programmes": "乐团多年重复节目、引进新作曲家：in a rut为停滞与惯性。",
+    "factory-worker-informal-norms": "工厂聘社会文化研究者观察非正式规则：anthropologist词义迁移。",
+    "historian-protest-description-oversimplification": "历史学家质疑两极化抗议描述：characterizations是描述概括。"
   },
   "family_assessments": {
     "reference": {
@@ -617,7 +641,7 @@
     "title-coverage": {
       "coverage_gap": false,
       "previous_gap": null,
-      "reason": "新增城市应对高温、在线课程推荐治理、食堂浪费分类衡量、志愿者留存四种主旨标题语境。"
+      "reason": "新增社区公园障碍诊断标题题，将段落中心功能与单项措施分开。2016 Part B整篇理解不足与第42-44题匹配正确为独立证据。"
     },
     "text4-federal-state-boundary": {
       "coverage_gap": true,
@@ -674,6 +698,18 @@
     "evaluation-vocab": {
       "coverage_gap": false,
       "reason": "新增体育停赛、工厂安全处罚、设备伪造审计三个场景，区分宽大处罚、处罚严重程度和malpractices。"
+    },
+    "heading-core-function": {
+      "coverage_gap": false,
+      "reason": "新增桥梁项目必要性、珍稀动物放归时机、图书馆软件更新评估三种跨语境主题功能训练；重点矫正2016 Part B第41题由时机判断误移成自信鼓励。"
+    },
+    "heading-global-allocation": {
+      "coverage_gap": false,
+      "reason": "新增野外科研、移动医疗、洪水警报、疫苗冷链四组双段分配题；共享时间词但区分启动条件与操作效率，矫正第45题单词撞题导致的标题错配。"
+    },
+    "partb-boxed-vocab": {
+      "coverage_gap": false,
+      "reason": "新增工程执行pull off、乐团停滞in a rut、工厂文化anthropologist、历史写作characterizations四个跨语境词义迁移，与画框证据逐项对应。"
     }
   },
   "historical_content_findings": [

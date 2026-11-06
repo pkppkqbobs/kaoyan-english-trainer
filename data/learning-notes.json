@@ -2585,5 +2585,153 @@
       "get out of在业务经营语境表示退出",
       "明确区分照片画框、横线证据与教学补充"
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "session_id": "2026-11-06-2016-partb-headings",
+    "source_exam": "2016-english1",
+    "source_part": "Part B 小标题匹配",
+    "paper_attempt": true,
+    "received_on": "2026-11-06",
+    "evidence_basis": "用户提供的2026-11-06结构化纸质真题与教学反馈交接；不再次索取照片，未重新核验图片。",
+    "scoring_policy": "Original paper feedback only. Do not create training Issue, scored web attempts, streak, or infer unreported initial picks. This is heading matching, not the independent paragraph-order Part B module.",
+    "kind": "user_reported_confusion",
+    "family": "title-coverage",
+    "scope": "passage",
+    "source_question": null,
+    "passage_level_comprehension_difficulty": true,
+    "passage_self_report": "其实这篇文章我没有看懂，第41我一开始本来想选B，然后根据45出现了那个time我感觉好像B也挺合适45的，所以我就在45选了B，然后41返回去我感觉C也行就给41选了C，其他几个的话感觉关键词关键句都挺明显的。",
+    "paper_outcome": {
+      "question_count": 5,
+      "correct_count": 3,
+      "incorrect_questions": [
+        41,
+        45
+      ],
+      "correct_matches": {
+        "42": "G",
+        "43": "D",
+        "44": "E"
+      },
+      "reported_answers": {
+        "41": "C",
+        "42": "G",
+        "43": "D",
+        "44": "E",
+        "45": "B"
+      },
+      "reference_answers": {
+        "41": "B",
+        "42": "G",
+        "43": "D",
+        "44": "E",
+        "45": "F"
+      },
+      "source": "user_transcribed_paper_photo_and_verbal_feedback",
+      "not_a_web_score": true
+    },
+    "user_quote": "其实这篇文章我没有看懂……其他几个的话感觉关键词关键句都挺明显的。",
+    "user_reported_reasoning": "用户明确自述文章整体未充分理解；照片及文字确定41 C错误、45 B错误，42 G/43 D/44 E正确，纸质5题中3题正确。42—44能从明显关键句找到对应标题，但没有逐题确认犹豫过程，不得虚构。不是由GitHub网页测验产生的3/5成绩。",
+    "note": "2016 英语一 Part B为小标题匹配，不是段落排序。文章主线为职场第一印象与形象升级：先决定是否需要及何时升级→明确目标→理解职场文化背景→必要时求助专业人士→以标准工作服或固定选项减少决策疲劳。第42 G Know your goals锚点Get clear on what impact you're hoping to have；第43 D Understand the context锚点work environment like an anthropologist、norms、audiences；第44 E Work with professionals锚点Enlist the support of professionals及后续职业举例。以上三题按照片确认答对，但不意味着全篇理解稳定。原题41/45错误由标题跨段重新分配与局部time词诱导导致。",
+    "training_targets": [
+      "先理解段落核心动作与功能，再分配小标题",
+      "标题与段落整体功能一致，不能只靠表面关键词",
+      "正确的42—44只保留实际匹配，不制造犹豫或错题",
+      "全篇理解薄弱不能用纸质得分替代网页复习统计"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "session_id": "2026-11-06-2016-partb-headings",
+    "source_exam": "2016-english1",
+    "source_part": "Part B 小标题匹配",
+    "paper_attempt": true,
+    "received_on": "2026-11-06",
+    "evidence_basis": "用户提供的2026-11-06结构化纸质真题与教学反馈交接；不再次索取照片，未重新核验图片。",
+    "scoring_policy": "Original paper feedback only. Do not create training Issue, scored web attempts, streak, or infer unreported initial picks. This is heading matching, not the independent paragraph-order Part B module.",
+    "kind": "user_reported_wrong",
+    "family": "heading-core-function",
+    "scope": "question",
+    "source_question": 41,
+    "expected": "B",
+    "expected_provenance": "user_supplied_answer_key",
+    "reported_pick": "C",
+    "final_choice_letter_confirmed": true,
+    "first_considered": "B",
+    "first_considered_status": "considered_only; no confirmed initial paper marking",
+    "first_choice_committed": false,
+    "interim_considered": "B",
+    "candidate_choices": [
+      "B",
+      "C"
+    ],
+    "changed_after_reallocation": true,
+    "user_quote": "第41我一开始本来想选B，然后根据45出现了那个time我感觉好像B也挺合适45的，所以我就在45选了B，然后41返回去我感觉C也行就给41选了C。",
+    "user_reported_reasoning": "原先考虑第41题B Decide if the time is right，读到第45段出现time时把B重新分配给45，回头认为41的C也可选，最终明确选C Have confidence in yourself。原话只表明最初考虑B，没有证据证明曾把B作为已提交或填涂的初始选择。",
+    "note": "真实纸质错题：第41题最终选C（Have confidence in yourself），参考B（Decide if the time is right）。段落中心是先评价形象升级的必要性与时机，列举新工作、新公众角色、环境转换并出现now may be a good time，也提醒Maybe there's no need for an upgrade。不是鼓励盲目自信。误判机制为跨段重新分配标题时放弃本来与41中心功能一致的B，转用与正文核心不符的C。尊重初始B只是考虑、不伪造正式B→C填涂改选。",
+    "training_targets": [
+      "时机/必要性判断与鼓励自信的语义边界",
+      "结合整段转折与结论确定主题，而非时间词孤立复现",
+      "匹配多段时不能因另一段局部词撞题，就转移本段更强的标题",
+      "确认选择轨迹：考虑B→给45分配B→41最后选C，不把B记为已填涂"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "session_id": "2026-11-06-2016-partb-headings",
+    "source_exam": "2016-english1",
+    "source_part": "Part B 小标题匹配",
+    "paper_attempt": true,
+    "received_on": "2026-11-06",
+    "evidence_basis": "用户提供的2026-11-06结构化纸质真题与教学反馈交接；不再次索取照片，未重新核验图片。",
+    "scoring_policy": "Original paper feedback only. Do not create training Issue, scored web attempts, streak, or infer unreported initial picks. This is heading matching, not the independent paragraph-order Part B module.",
+    "kind": "user_reported_wrong",
+    "family": "heading-global-allocation",
+    "scope": "question",
+    "source_question": 45,
+    "expected": "F",
+    "expected_provenance": "user_supplied_answer_key",
+    "reported_pick": "B",
+    "final_choice_letter_confirmed": true,
+    "first_considered": null,
+    "first_choice_status": "not_reported",
+    "user_quote": "根据45出现了那个time我感觉好像B也挺合适45的，所以我就在45选了B。",
+    "user_reported_reasoning": "用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第45段，最终选B。未确认第45曾考虑F或曾作任何正式改选。",
+    "note": "真实纸质错题：第45题最终选B（Decide if the time is right），标准F（Make it efficient）。本段time表示每天花费时间选择穿着，不是形象升级“时机是否合适”；核心证据是reduce decision fatigue、standard work uniform、a few go-to options、buy all your clothes at once，指向通过减少重复决策提高效率。与第41题构成同一标题被错误移配的因果链。注意一个标题适配另一段的条件要看其整段功能，不能只看局部time。原话未说明第45的最初选择或考虑F，保持未知。",
+    "training_targets": [
+      "the time is right（启动时机）≠spend more time（时间成本）",
+      "效率优化与时机判断分开",
+      "reduce decision fatigue及标准化选择指向Make it efficient",
+      "跨段唯一标题分配需要完整功能证据，不按单个词重新抢标题"
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "session_id": "2026-11-06-2016-partb-headings",
+    "source_exam": "2016-english1",
+    "source_part": "Part B 小标题匹配",
+    "paper_attempt": true,
+    "received_on": "2026-11-06",
+    "evidence_basis": "用户提供的2026-11-06结构化纸质真题与教学反馈交接；不再次索取照片，未重新核验图片。",
+    "scoring_policy": "Original paper feedback only. Do not create training Issue, scored web attempts, streak, or infer unreported initial picks. This is heading matching, not the independent paragraph-order Part B module.",
+    "kind": "translation_difficulty",
+    "family": "partb-boxed-vocab",
+    "mark_type": "box",
+    "scope": "passage",
+    "source_question": null,
+    "source_spans": [
+      "pull off",
+      "in a rut",
+      "anthropologist",
+      "characterizations"
+    ],
+    "note": "仅四处由纸质照片明确识别出的画框词：pull off one that enhances our goals=成功完成一次有助实现目标的升级；feeling stuck and in a rut=停滞不前、陷入惯性；look at your work environment like an anthropologist=像人类学家研究文化一样观察工作环境；characterizations like that=类似的风格描述或特征概括。画横线只表示重要，不计翻译困难；其余教学补充词不冒充画框。",
+    "training_targets": [
+      "pull off在完成困难任务中的成功做到义",
+      "in a rut的停滞惯性义",
+      "anthropologist与社会文化观察",
+      "characterizations与描述、归类",
+      "迁移到与职场穿搭不同的应用语境"
+    ]
   }
 ]
