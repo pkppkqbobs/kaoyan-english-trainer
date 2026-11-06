@@ -63,7 +63,8 @@
       "45"
     ],
     "passage_level_difficulty": true,
-    "not_a_web_score": true
+    "not_a_web_score": true,
+    "confirmed_correct_evidence": "Photo-marked headings: Q42=G (goals), Q43=D (context), Q44=E (professionals). The user supplied no initial choices, revisions, or detailed reasoning for these three; only their final correct matches are recorded."
   },
   "reading_preference": "Read passage before reviewing answer options; do not require changing the student's established reading order.",
   "training_priorities": [
