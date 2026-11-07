@@ -127,6 +127,52 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertEqual(report['web']['current_daily_status'], 'unverified')
         self.assertNotIn('8/8', handoff.markdown(report))
 
+    def test_heading_matching_is_classified_with_part_b_without_adding_web_results(self):
+        bank = review.load(self.root / 'data/base-bank.json')
+        notes = review.load(self.root / 'data/learning-notes.json')
+        families = {'heading-core-function', 'heading-global-allocation'}
+        for family in sorted(families):
+            bank.append({**copy.deepcopy(bank[0]), 'id': family + '-fixture', 'family': family,
+                         'q': 'A distinct fixture paragraph about ' + family + '.'})
+            notes.append({'date': '2026-10-24', 'family': family, 'kind': 'user_reported_wrong',
+                          'source_exam': '2016-english1', 'source_part': 'Part B 小标题匹配',
+                          'source_question': 41 if family == 'heading-core-function' else 45,
+                          'reported_pick': 'C', 'expected': 'B',
+                          'final_choice_letter_confirmed': True, 'note': '标题与段落功能匹配需复查。'})
+        review.save(self.root / 'data/base-bank.json', bank)
+        review.save(self.root / 'data/learning-notes.json', notes)
+        refresh_state(self.root)
+        evidence = (self.root / 'data/result-evidence.json').read_bytes()
+        state = (self.root / 'data/review-state.json').read_bytes()
+        report = handoff.make_report(self.root)
+        part_b = next(group for group in report['priorities'] if group['mechanism'] == 'paragraph')
+        self.assertEqual({member['family'] for member in part_b['families']}, families)
+        self.assertIn('标题匹配', part_b['label'])
+        self.assertFalse(any(member['family'] in families for group in report['priorities']
+                             if group['mechanism'] == 'language' for member in group['families']))
+        self.assertEqual((self.root / 'data/result-evidence.json').read_bytes(), evidence)
+        self.assertEqual((self.root / 'data/review-state.json').read_bytes(), state)
+
+    def test_part_b_accepts_confirmed_e_to_g_without_relaxing_reading_choice_rules(self):
+        for choice in 'EFG':
+            with self.subTest(choice=choice):
+                note = {'date': '2026-10-24', 'family': 'heading-core-function',
+                        'kind': 'user_reported_confusion', 'source_part': 'Part B 小标题匹配',
+                        'source_question': 42, 'reported_pick': choice,
+                        'final_choice_letter_confirmed': True,
+                        'candidate_choices': ['B', choice, 'H'],
+                        'eliminated_choices': ['E', 'F', 'G', 'H']}
+                item = handoff.paper_item(note, {})
+                self.assertEqual((item['final_choice'], item['final_choice_status']), (choice, 'confirmed'))
+                self.assertEqual(item['candidate_choices'], ['B', choice])
+                self.assertEqual(item['eliminated_choices'], ['E', 'F', 'G'])
+                unconfirmed = handoff.paper_item({**note, 'final_choice_letter_confirmed': False}, {})
+                self.assertIsNone(unconfirmed['final_choice'])
+                reading = handoff.paper_item({**note, 'source_part': 'Reading Text 3'}, {})
+                self.assertIsNone(reading['final_choice'])
+                self.assertEqual(reading['candidate_choices'], ['B'])
+                self.assertEqual(reading['eliminated_choices'], [])
+
     def test_unaccepted_issue_and_ambiguous_module_cannot_become_verified(self):
         path = self.root / 'data/result-evidence.json'
         evidence = review.load(path)

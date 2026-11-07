@@ -25,7 +25,7 @@ KINDS = {'user_reported_wrong': '自述错题', 'correct_but_uncertain': '答对
          'user_reported_confusion': '理解困惑', 'translation_difficulty': '翻译困难'}
 FOLLOWUP_HEADER = re.compile(r'后续[^：:\n]{0,16}[（(](\d{4}-\d{2}-\d{2})[）)]\s*[：:]\s*')
 CATEGORIES = (
-    ('paragraph', 'Part B 指代与前后衔接', r'paragraph-order|^reference$|summary-location'),
+    ('paragraph', 'Part B 标题匹配与篇章衔接', r'heading-|paragraph-order|^reference$|summary-location'),
     ('stance', '作者态度、评价对象与转折', r'author-stance|attribution|viewpoint|tone|paragraph-scope-attitude|social-message'),
     ('scope', '选项范围与额外限定', r'inference|scope|title|absolute|concession'),
     ('roles', '主语—动作—对象与政策条件', r'role|causal|process|applicant|condition|logic|policy|result-direction|parallel-governance|belief-negation|agreement-target|federal-state-boundary|executive-overreach'),
@@ -114,8 +114,13 @@ def source_ref(note):
             'note_fingerprint': note.get('_parent_fingerprint', fingerprint(note)[:16])}
 
 
+def paper_choices(note):
+    part_b = re.search(r'\bPart\s*B(?![A-Za-z])', str(note.get('source_part', '')), flags=re.I)
+    return tuple('ABCDEFG' if part_b else 'ABCD')
+
+
 def confirmed(note):
-    return note.get('final_choice_letter_confirmed') is not False and note.get('reported_pick') in ('A', 'B', 'C', 'D')
+    return note.get('final_choice_letter_confirmed') is not False and note.get('reported_pick') in paper_choices(note)
 
 
 def observation_summary(note):
@@ -127,6 +132,7 @@ def observation_summary(note):
 
 def paper_item(note, checks):
     question = note.get('source_question')
+    choices = paper_choices(note)
     check = checks.get(note.get('source_exam'), {})
     key = check.get('answers', {}).get(str(question)) if question is not None else None
     recorded = note.get('expected', note.get('answer_from_verified_key'))
@@ -139,8 +145,8 @@ def paper_item(note, checks):
             'final_choice': note.get('reported_pick') if confirmed(note) else None,
             'final_choice_status': choice_status,
             'first_considered': note.get('first_considered'),
-            'candidate_choices': [c for c in note.get('candidate_choices', []) if c in ('A', 'B', 'C', 'D')],
-            'eliminated_choices': [c for c in note.get('eliminated_choices', note.get('reported_eliminations', [])) if c in ('A', 'B', 'C', 'D')],
+            'candidate_choices': [c for c in note.get('candidate_choices', []) if c in choices],
+            'eliminated_choices': [c for c in note.get('eliminated_choices', note.get('reported_eliminations', [])) if c in choices],
             'reference_answer': key or recorded, 'reference_status': status,
             'summary': observation_summary(note),
             'followup': dated_followup(note),

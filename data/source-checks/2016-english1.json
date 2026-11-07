@@ -1,8 +1,8 @@
 {
   "exam": "2016-english1",
-  "checked_on": "2026-11-04",
-  "scope": "Partial source check: Reading Text 2 Q26/Q27; Reading Text 3 Q33. Text 3 Q31 has conflicting published explanations and no resolved answer here.",
-  "purpose": "核对Text2 Q26/Q27与Text3 Q33，保留Text3 Q31 ambiguity：在相同uncertainty/skepticism词义对照中公开机构答案相互矛盾，不能把用户自述全对作为无争议外部核验；Q32、34、35只记录用户提供的整篇自述，未经逐题核验。",
+  "checked_on": "2026-11-07",
+  "scope": "Partial source check: Reading Text 2 Q26/Q27; Reading Text 3 Q33; Part B heading matching Q41-Q45. Text 3 Q31 remains disputed.",
+  "purpose": "核对Text2 Q26/Q27、Text3 Q33及Part B小标题匹配Q41—45。Text3 Q31仍保留uncertainty/skepticism的公开参考分歧；不能把用户自述全对升级为无争议来源核验。来源答案与用户纸质作答、网页成绩分别保存。",
   "sources": [
     {
       "id": "xdf-2016-text2",
@@ -45,17 +45,33 @@
       "title": "启航考研：2016年英语一真题阅读Text3选项",
       "url": "https://jixun.iqihang.com/kyzt/yingyu/20162458.html",
       "covers": "同用户第31题A uncertainty/B skepticism以及第33题A less controversial/D less severe的完整文字排序；不是用户实际作答来源。"
+    },
+    {
+      "id": "eol-2016-partb-headings",
+      "title": "中国教育在线：2016英语一Part B参考答案与标题文字",
+      "url": "https://kaoyan.eol.cn/fu_xi/yingyu/201512/t20151226_1351929_6.shtml",
+      "covers": "核对41 B、42 G、43 D、44 E、45 F及各标题文字；仅核对参考答案，不把关键词复现当作充分解题依据，也不作为用户作答证据。"
     }
   ],
   "answers": {
     "26": "A",
     "27": "D",
-    "33": "D"
+    "33": "D",
+    "41": "B",
+    "42": "G",
+    "43": "D",
+    "44": "E",
+    "45": "F"
   },
   "answer_words": {
     "26": "is not well reflected in politics",
     "27": "gradually destroyed",
-    "33": "less severe"
+    "33": "less severe",
+    "41": "Decide if the time is right",
+    "42": "Know your goals",
+    "43": "Understand the context",
+    "44": "Work with professionals",
+    "45": "Make it efficient"
   },
   "option_order_reference": {
     "26": {
@@ -83,7 +99,8 @@
   },
   "performance_coverage": {
     "Text 2": "用户明确确认Q27初选A→最终改B（真实错题），答后才重新考虑D，不将D登记为作答。Q26只确认B项backed词义困难，实际选项未知。Q28—30无逐题作答证据；整篇理解困难独立归档，不计算本篇纸质得分。",
-    "Text 3": "用户自述全篇全对，但逐题只有Q31和Q33的完整犹豫与最终选择已确认：Q31 A/B犹豫后最终B（用户提供key为B，参考答案存在分歧）；Q33 D→考虑A→最终D。其他Q32、34、35虽包含在用户自述全对范围内，但未逐题提供初选、改选或犹豫过程。不创造网页计分。penalties用户自行解决，不算画框困难；EPG是专有名称。"
+    "Text 3": "用户自述全篇全对，但逐题只有Q31和Q33的完整犹豫与最终选择已确认：Q31 A/B犹豫后最终B（用户提供key为B，参考答案存在分歧）；Q33 D→考虑A→最终D。其他Q32、34、35虽包含在用户自述全对范围内，但未逐题提供初选、改选或犹豫过程。不创造网页计分。penalties用户自行解决，不算画框困难；EPG是专有名称。",
+    "Part B 小标题匹配": "作答信息沿用11月6日既有结构化记录：41最终C、45最终B；42 G、43 D、44 E只保留已登记的最终匹配，不补造初选、改选或犹豫。本次审查只补核参考答案资料，未重新查看照片，不新增纸质或网页作答、分数、错误数和streak。"
   },
   "observed_difficulties": [
     "Q26 back作动词支持义，与back away/back down区别；alongside仅是并列。",
@@ -97,10 +114,11 @@
     "资料来源为公开培训机构和考研教育平台的回顾性解析，而非考试主管机构官方答案扫描件。",
     "不同网站选项字母排列不同，先对比完整选项文本。",
     "Q27对A/D的解释权重存在分歧，用户初选A→改B与答后考虑D的轨迹保持不变。",
-    "仅核验本篇Q26、Q27；其他2016篇目的学习笔记不因本文件存在而视为已核验。",
+    "仅核验Text2 Q26/Q27、Text3 Q33及Part B Q41—45；2016完形、Text1、Text4等其余参考答案不因本文件存在而视为已核验，Text3 Q31继续保留争议。",
     "答案来源不代表用户作答记录，纸质反思不参与网页成绩和streak。",
     "第31题存在实际参考结论分歧；仅将Q33收入answers表作外部文本核验。Q31字母B仍作为用户提供的参考答案并保留其实际作答。",
-    "Text3纸质自述全对仅作整体反馈，不创建可计分Issue、5个逐题选择或新的streak。"
+    "Text3纸质自述全对仅作整体反馈，不创建可计分Issue、5个逐题选择或新的streak。",
+    "2026-11-07审查补核小标题匹配答案BGDEF；与用户原交接相符。未修改11月6日的原始学习记录或已发布题单。"
   ],
   "disputed_references": {
     "Text 3 Q31": {

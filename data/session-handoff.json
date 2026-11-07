@@ -106,7 +106,7 @@
           ],
           "eliminated_choices": [],
           "reference_answer": "B",
-          "reference_status": "note_only",
+          "reference_status": "source_checked",
           "summary": "原先考虑第41题B Decide if the time is right，读到第45段出现time时把B重新分配给45，回头认为41的C也可选，最终明确选C Have confi…",
           "followup": null,
           "spans": [],
@@ -131,7 +131,7 @@
           "candidate_choices": [],
           "eliminated_choices": [],
           "reference_answer": "F",
-          "reference_status": "note_only",
+          "reference_status": "source_checked",
           "summary": "用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第…",
           "followup": null,
           "spans": [],
@@ -691,8 +691,8 @@
   },
   "priorities": [
     {
-      "mechanism": "language",
-      "label": "修饰关系与熟词搭配",
+      "mechanism": "paragraph",
+      "label": "Part B 标题匹配与篇章衔接",
       "families": [
         {
           "family": "heading-global-allocation",
@@ -770,6 +770,48 @@
             "family": "inference-boundary",
             "question": 39,
             "note_fingerprint": "44e9571f5746d24e"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "language",
+      "label": "修饰关系与熟词搭配",
+      "families": [
+        {
+          "family": "modal-stage",
+          "label": "要求与完成的证据",
+          "focus": "用户明确自述做错，初选A largely overshadowed，后改选B properly protected；原因是不能判断段落对国家信托成就的评价方向，并把It needs…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-03",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-07",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-03",
+            "family": "modal-stage",
+            "question": 27,
+            "note_fingerprint": "23689077b2b393df"
+          }
+        },
+        {
+          "family": "evaluation-vocab",
+          "label": "违法违规词汇语境",
+          "focus": "用户最初选D，读到第四段末尾political campaigns后短暂考虑A，继续阅读又坚持最终D；没有发生实际改错。D less severe是more lenient的正确同…",
+          "paper_kind": "correct_but_uncertain",
+          "latest_observation": "2026-11-04",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-07",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-04",
+            "family": "evaluation-vocab",
+            "question": 33,
+            "note_fingerprint": "ba9498326308654c"
           }
         }
       ]
@@ -854,48 +896,6 @@
             "family": "attribution-stance",
             "question": null,
             "note_fingerprint": "a26018849ea04f20"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "paragraph",
-      "label": "Part B 指代与前后衔接",
-      "families": [
-        {
-          "family": "paragraph-order-discourse",
-          "label": "说明与例证的层级",
-          "focus": "用户表示大体能确定C→A→F→E及D→B，但G的位置并不确定。其最新明确解释：看到E段aerial surveys后，直觉上想先接D、B两个案例；再看到G段末句two- and t…",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-10-25",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-07",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-25",
-            "family": "paragraph-order-discourse",
-            "question": 43,
-            "note_fingerprint": "08f8c254b5420082"
-          }
-        },
-        {
-          "family": "paragraph-order-anaphora",
-          "label": "比例指代需要数量基线，避免凭本段主题选句",
-          "focus": "2013英语一Part B七选五第44空：用户明确确认最终选D（The solution is to change the mindset...），正确G（社会科学研究经费约占总研…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-10-19",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-01",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-10-19",
-            "family": "paragraph-order-anaphora",
-            "question": 44,
-            "note_fingerprint": "aeee06448e239d22"
           }
         }
       ]
@@ -1112,9 +1112,9 @@
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
-    "data/source-checks/2016-english1.json": "9c60ee09425d477df9759482d606341fb3af70212432424c17c4833cfd09f5a7"
+    "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d"
   },
-  "source_fingerprint": "3039acd4d51d22275b22d2e02652a3fd84e1fd75d90a4cdff3d2892136706c71",
+  "source_fingerprint": "3435d11b54cbf505c0f90fbc3454862c8b0b4977ebbff6cdda5b1dae4aabef14",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
