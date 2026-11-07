@@ -488,7 +488,59 @@ def make_stats(items, rows, notes, day):
     return result
 
 
-def choose(items, stats, history, day, *, count=8, seed=None, include_today=False, variant_shown=None):
+def pending_observation_reviews(items, stats, notes, rows, history, day):
+    """Queue first daily opportunities, separately from scores and variant exposure.
+
+    Publishing an article is not evidence that its learning targets were reviewed.
+    A later daily opportunity or a verified later answer in any module satisfies
+    this first-offer queue, without clearing confusion or increasing mastery.
+    """
+    stamp = day.isoformat()
+    available_since, family_for = {}, {}
+    for q in items:
+        if available(q, day):
+            family = q["family"]
+            since = max((q[k] for k in ("introduced", "published_on") if q.get(k)), default=date.min.isoformat())
+            available_since[family] = min(since, available_since.get(family, since))
+            family_for[q["id"]] = family
+    daily_last, answered_last = {}, {}
+    for shown_on, ids in history.items():
+        if shown_on <= stamp:
+            for qid in ids:
+                if qid in family_for:
+                    f = family_for[qid]
+                    daily_last[f] = max(shown_on, daily_last.get(f, ""))
+    for row in rows:
+        if row["date"] <= stamp and not row.get("date_unverified"):
+            f = row["family"]
+            answered_last[f] = max(row["date"], answered_last.get(f, ""))
+    pending = {}
+    for note in notes:
+        f = note["family"]
+        priority = note_priority(note)
+        # Translation-only and low-importance notes retain ordinary weighting.
+        if (priority < 2 or f not in available_since
+                or not stats[f]["reported_confusion"]):
+            continue
+        learned_on = max(note["date"], note.get("clarified_on", note["date"]))
+        observed_on = max(learned_on, note.get("received_on", learned_on))
+        if observed_on > stamp:
+            continue
+        # Same-day ordering is unknown. Do not assume the morning daily came
+        # after an evening handoff, or that an undated old answer reviewed it.
+        if (daily_last.get(f, "") > observed_on
+                or answered_last.get(f, "") > learned_on):
+            continue
+        since = max(observed_on, available_since[f])
+        previous = pending.get(f, {"since": since, "latest": observed_on, "priority": priority})
+        pending[f] = {"since": min(since, previous["since"]),
+                      "latest": max(observed_on, previous["latest"]),
+                      "priority": max(priority, previous["priority"])}
+    return pending
+
+
+def choose(items, stats, history, day, *, count=8, seed=None, include_today=False, variant_shown=None,
+           initial_reviews=None):
     """Select directly from the candidate pool; article reviews request 4--6 slots."""
     if not 1 <= count <= 8:
         raise ValueError("Review count must be between one and eight")
@@ -571,20 +623,35 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         reverse=True,
     )
     chosen = []
+    def partb(f):
+        return f.startswith(("paragraph-order-", "heading-"))
     def allowed(f):
-        # Full ordering belongs in the independent Part B page; at most one mini pair
-        # maintains these two families in an ordinary multiple-choice round.
-        partb_slot = not f.startswith("paragraph-order-") or not any(x.startswith("paragraph-order-") for x in chosen)
+        # Full Part B tasks have their own page; ordering and heading mechanisms
+        # share at most one maintenance slot in this selector.
+        partb_slot = not partb(f) or not any(partb(x) for x in chosen)
         return partb_slot and f not in chosen and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2) and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2)
     def take(count, predicate, order=None):
-        for f in (order or ranked):
+        for f in (ranked if order is None else order):
             if count <= 0 or len(chosen) == requested:
                 return
             if allowed(f) and predicate(f):
                 chosen.append(f)
                 count -= 1
     requested = count
-    take(min(4, max(1, requested - 2)), lambda f: (stats[f]["due"] <= day.isoformat()
+    urgent_budget = min(4, max(1, requested - 2))
+    if initial_reviews:
+        # Use at most two of the existing urgent slots, never extra questions.
+        # One recent target keeps new feedback timely; the oldest pending target
+        # prevents a stream of new notes from permanently hiding the backlog.
+        pending = sorted((f for f in groups if f in initial_reviews),
+                         key=lambda f: (initial_reviews[f]["since"],
+                                        -initial_reviews[f]["priority"], f))
+        recent = sorted(pending, key=lambda f: (-initial_reviews[f]["priority"],
+                                                initial_reviews[f]["since"], f))
+        take(1, lambda f: (stats[f]["due"] <= day.isoformat()
+                          and 0 <= (day - date.fromisoformat(initial_reviews[f]["latest"])).days <= 3), recent)
+        take(min(2, urgent_budget) - len(chosen), lambda f: stats[f]["due"] <= day.isoformat(), pending)
+    take(urgent_budget - len(chosen), lambda f: (stats[f]["due"] <= day.isoformat()
                        and (stats[f]["errors"] > 0 or stats[f]["reported_confusion"] or stats[f]["slow_or_uncertain"])), urgent)
     # Translation-only observations keep their normal rank, but cannot displace
     # a real error/slow answer or explicit uncertainty in this one reserve.
@@ -640,7 +707,9 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
     if locked.get("date") == day.isoformat() or existing.get("date") == day.isoformat():
         payload = locked if locked.get("date") == day.isoformat() else existing
     else:
-        selected = choose(items, stats, history, day, variant_shown=variant_history(root, day, history))
+        initial_reviews = pending_observation_reviews(items, stats, notes, evidence_data["rows"], history, day)
+        selected = choose(items, stats, history, day, variant_shown=variant_history(root, day, history),
+                          initial_reviews=initial_reviews)
         payload = {"date": day.isoformat(), "repo": repo, "questions": selected,
                    "retry": {q["family"]: retry_variants(items, q, day) for q in selected},
                    "issues_used": evidence_data["issues"], "engine": 3}
