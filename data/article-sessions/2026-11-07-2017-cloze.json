@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-07-2017-cloze",
+  "date": "2026-11-07",
+  "learning_date": "2026-11-07",
+  "created_at": "2026-11-07T17:09:14+09:00",
+  "source": "2017 英语一 Section I Use of English · 2026-11-07纸质真题复盘",
+  "focus_families": [
+    "verb-effect-share",
+    "highlight-heighten",
+    "location-vs-change",
+    "effect-source-target"
+  ],
+  "focus_question_ids": {
+    "verb-effect-share": [
+      "cl17-effect-share-model"
+    ],
+    "highlight-heighten": [
+      "cl17-highlight-audit"
+    ],
+    "location-vs-change": [
+      "cl17-remain-drawer"
+    ],
+    "effect-source-target": [
+      "cl17-effects-shifts"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "all_observation_families": [
+    "social-cure-vocab",
+    "effect-source-target",
+    "phrasal-verb-illness",
+    "verb-effect-share",
+    "even",
+    "highlight-heighten",
+    "location-vs-change",
+    "receipt-nominalization",
+    "susceptibility-vocab",
+    "intimacy-vocab"
+  ],
+  "training_priorities": [
+    "Q10用途、角色、贡献与解释比例",
+    "Q13形近词和风险/严重程度",
+    "Q19去向、指代与未获支持的数量过程",
+    "Q6来源与受影响对象",
+    "Q3/Q8固定短语",
+    "Q11递进强调",
+    "3个明确画框词的语境词义"
+  ],
+  "user_supplied_answer_key": {
+    "1": "A",
+    "2": "C",
+    "3": "B",
+    "4": "A",
+    "5": "D",
+    "6": "A",
+    "7": "D",
+    "8": "C",
+    "9": "D",
+    "10": "C",
+    "11": "D",
+    "12": "B",
+    "13": "B",
+    "14": "C",
+    "15": "B",
+    "16": "C",
+    "17": "A",
+    "18": "B",
+    "19": "A",
+    "20": "D"
+  },
+  "answer_key_provenance": "与中国教育在线所载新东方20题答案及研招网所载文都解析交叉核对；不同公开版本选项排序不一，沿用用户版本的已匹配字母。",
+  "source_check": "data/source-checks/2017-english1.json",
+  "paper_outcome": {
+    "reported_wrong_questions": [
+      3,
+      6,
+      8,
+      10,
+      11,
+      13,
+      19
+    ],
+    "initial_choices": "unknown",
+    "final_choice_letters": "unknown",
+    "revision_sequences": "unknown",
+    "other_question_outcomes": "unknown",
+    "not_a_web_score": true
+  },
+  "evidence_basis": "用户提供的完整结构化纸质真题与教学追问文字交接；本次维护未接收或重新查看原始照片。",
+  "review_delivery": "4 highest-priority current mechanisms + 4 historical weaknesses; other targets also enter future daily candidates without replacing the locked current day."
+}

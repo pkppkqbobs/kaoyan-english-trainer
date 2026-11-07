@@ -107,6 +107,28 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertEqual((self.root / 'data/result-evidence.json').read_bytes(), evidence)
         self.assertTrue(report['handoff_is_not_scoring_evidence'])
 
+    def test_bounded_paper_summary_keeps_explicit_training_priorities_and_unknown_choices(self):
+        path = self.root / 'data/learning-notes.json'
+        notes = review.load(path)
+        priorities = {10: 1, 13: 2, 19: 3, 6: 4}
+        for number in (3, 6, 8, 10, 11, 13, 19):
+            note = {'date': '2026-10-24', 'family': 'point', 'kind': 'user_reported_wrong',
+                    'source_exam': '2017-english1', 'source_part': 'Section I (Cloze)',
+                    'source_question': number, 'final_choice_letter_confirmed': False,
+                    'note': 'Confirmed paper difficulty; original letter remains unknown.'}
+            if number in priorities:
+                note['training_priority'] = priorities[number]
+            notes.append(note)
+        review.save(path, notes)
+        before = (self.root / 'data/result-evidence.json').read_bytes()
+        refresh_state(self.root)
+        report = handoff.make_report(self.root)
+        stage = next(s for s in report['recent_paper'] if s['exam'] == '2017-english1')
+        self.assertEqual([q['question'] for q in stage['items']], [10, 13, 19, 6])
+        self.assertTrue(all(q['final_choice_status'] == 'unconfirmed' for q in stage['items']))
+        self.assertIn('Q10', handoff.markdown(report))
+        self.assertEqual((self.root / 'data/result-evidence.json').read_bytes(), before)
+
     def test_duplicate_rows_and_duplicate_issues_cannot_double_count_a_round(self):
         path = self.root / 'data/result-evidence.json'
         evidence = review.load(path)

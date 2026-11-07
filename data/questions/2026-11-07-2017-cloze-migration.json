@@ -1,0 +1,626 @@
+[
+  {
+    "id": "cl17-host-backlog",
+    "family": "social-cure-vocab",
+    "introduced": "2026-10-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "a host of",
+    "skill": "a host of",
+    "q": "The new filing system was advertised as a complete fix. The inspector disagreed: it still left a host of problems unresolved. Which summary matches the inspector's view?",
+    "o": [
+      "Many problems still needed attention.",
+      "The system needed a human presenter.",
+      "Only one minor problem was left over.",
+      "The problems had all been dealt with."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 3,
+    "exp": {
+      "trans": "新归档系统被宣传为彻底解决方案，但检查员认为它仍留下大量未解决的问题。",
+      "structure": "主干it left problems unresolved；a host of修饰复数problems，unresolved说明这些问题仍未解决。",
+      "other": "filing system归档系统；inspector检查员；unresolved未解决的。",
+      "meaning": "a host of整体表示大量，反驳complete fix所宣称的彻底解决。",
+      "rest": "human presenter把数量短语当作主持人；only one与大量相反；all dealt with忽略unresolved。"
+    }
+  },
+  {
+    "id": "cl17-host-two-functions",
+    "family": "social-cure-vocab",
+    "introduced": "2026-10-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "host / a host of",
+    "skill": "host / a host of",
+    "q": "A harbour will host a boat festival. Organizers expect a host of small vessels to arrive. How do the two uses of host differ?",
+    "o": [
+      "Both describe the owner of each vessel.",
+      "Both describe a person presenting a show.",
+      "First: provide the venue; second: many boats.",
+      "First: many venues; second: own the boats."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 3,
+    "exp": {
+      "trans": "港口将举办船艇节，组织者预计大量小船会到来。",
+      "structure": "第一句host是及物动词，宾语a boat festival；第二句a host of是修饰small vessels的数量短语。",
+      "other": "harbour港口；vessel船只；venue举办地点。",
+      "meaning": "同一个拼写在不同句法位置表达举办与大量，不能统一套用主人义。",
+      "rest": "owner和presenter都把两处当人物名词；many venues颠倒第一处的动词结构，own the boats也不符合第二处数量义。"
+    }
+  },
+  {
+    "id": "cl17-effects-shifts",
+    "family": "effect-source-target",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "effects of A on B",
+    "skill": "effects of A on B",
+    "q": "A factory study examined the effects of night shifts and overtime on assembly errors. Which identifies the sources being examined and the outcome being affected?",
+    "o": [
+      "Sources: errors; outcome: shift schedules.",
+      "Sources: shifts and overtime; outcome: errors.",
+      "Sources: overtime only; outcome: shift length.",
+      "Sources: the study; outcome: staff opinions."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 6,
+    "exp": {
+      "trans": "一项工厂研究考察夜班和加班对装配错误的影响。影响来源是夜班与加班，受影响的结果是装配错误。",
+      "structure": "主干A study examined the effects；of后night shifts and overtime是两个并列来源，on后assembly errors是受影响对象。",
+      "other": "night shift夜班；overtime加班；assembly装配。",
+      "meaning": "of A on B并非任意介词组合：A说明何种因素的影响，B说明影响落在哪个对象上。该句不自行给出影响方向或大小。",
+      "rest": "errors作为来源颠倒方向；overtime only漏掉并列夜班；study只是考察者，不是句子指定的影响来源，staff opinions也没有出现。"
+    }
+  },
+  {
+    "id": "cl17-effects-room-echo",
+    "family": "effect-source-target",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "effect of A on B",
+    "skill": "effect of A on B",
+    "q": "An engineer asks how room shape changes echoes. Which phrase names that relationship without reversing the source and the affected outcome?",
+    "o": [
+      "the effect of echoes on room shape",
+      "the effect between echoes and shape",
+      "the effect on shape caused by echoes",
+      "the effect of room shape on echoes"
+    ],
+    "a": 3,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 6,
+    "exp": {
+      "trans": "工程师问房间形状如何改变回声，对应房间形状对回声的影响。",
+      "structure": "还原：room shape changes echoes；将变化来源room shape置于of之后，受影响的echoes置于on之后。",
+      "other": "engineer工程师；echo回声；reverse颠倒。",
+      "meaning": "判断搭配也要核对语义方向，不能因为一组of/on形式正确就忽略谁影响谁。",
+      "rest": "of echoes on room shape与on shape caused by echoes均把方向反过来；between只说两者之间，未构成题目所需的effect of A on B关系。"
+    }
+  },
+  {
+    "id": "cl17-illness-understudy",
+    "family": "phrasal-verb-illness",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "come down with / come up with",
+    "skill": "come down with / come up with",
+    "q": "The lead actor came down with flu on opening night, so an understudy performed the role. What happened to the lead actor?",
+    "o": [
+      "He became ill before the performance.",
+      "He invented a new role for the show.",
+      "He met the understudy unexpectedly.",
+      "He published a review of the play."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 8,
+    "exp": {
+      "trans": "主演首演当晚患上流感，因此由替角出演该角色。",
+      "structure": "主句The lead actor came down with flu；so连接患病与替角出演这一后续事件。",
+      "other": "lead actor主演；opening night首演之夜；understudy替角。",
+      "meaning": "come down with后接疾病，说明患病；需要用事件后果检验短语整体意思。",
+      "rest": "invented混入come up with想出；met unexpectedly对应come across偶遇；published对应come out的部分用法，均非came down with。"
+    }
+  },
+  {
+    "id": "cl17-illness-diary",
+    "family": "phrasal-verb-illness",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "come across / come up with / come down with",
+    "skill": "come across / come up with / come down with",
+    "q": "A diary says: \"I came across an old friend in the port, came up with a new route, and came down with a fever on the way home.\" Which sequence does it report?",
+    "o": [
+      "Arranged a meeting; lost a route; recovered.",
+      "Met by chance; devised a route; became ill.",
+      "Published a story; followed a route; returned.",
+      "Missed a friend; rejected a route; got better."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 8,
+    "exp": {
+      "trans": "日记说作者在港口偶遇老朋友，想出新路线，回程中发烧患病。",
+      "structure": "三个并列谓语came across、came up with、came down with分别支配friend、route、fever；不能单看come或with。",
+      "other": "port港口；route路线；devise想出、设计。",
+      "meaning": "动词短语需要整体与其宾语、事件类型对应，而非只根据一粒介词猜测。",
+      "rest": "arranged把偶遇说成安排；lost、rejected不是想出路线；recovered、got better与患病方向相反；published也不符合这三个短语。"
+    }
+  },
+  {
+    "id": "cl17-effect-share-model",
+    "family": "verb-effect-share",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "explain / account for / serve",
+    "skill": "explain / account for / serve",
+    "q": "In a toy prediction model, departure delays explained 40% of the variation in arrival times. Which pair can replace explained while preserving that statistical meaning? Complete with either expression: delays ___ 40% of the variation.",
+    "o": [
+      "served / contributed to",
+      "accounted / contributed",
+      "explained / accounted for",
+      "served as / resulted from"
+    ],
+    "a": 2,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 10,
+    "exp": {
+      "trans": "在一个示例预测模型中，出发延误解释了到达时间差异的40%。此处可使用explained或accounted for。",
+      "structure": "delays为主语，explained为及物谓语，40% of the variation为宾语；accounted for作为整体连接同一比例。",
+      "other": "departure出发；variation差异/变异；prediction model预测模型。",
+      "meaning": "统计解释份额与用途角色不同；explain与account for在这里可相近改写，不意味着所有语境中都可互换，也不单凭这一句证明因果。",
+      "rest": "served直接接比例不表达解释份额；contributed to只说明有所贡献，不能代替此处报告的精确解释比例；accounted缺for；served as是充当，resulted from则表达结果来自某原因，方向与比例关系不同。"
+    }
+  },
+  {
+    "id": "cl17-serve-warning",
+    "family": "verb-effect-share",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "serve as / explain / contribute to",
+    "skill": "serve as / explain / contribute to",
+    "q": "An orange line on a bridge marks the level reached by an old flood. The town keeps it there to warn future residents. Complete: \"The line ___ a reminder of the flood.\"",
+    "o": [
+      "explained",
+      "contributed to",
+      "accounted for",
+      "served as"
+    ],
+    "a": 3,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 10,
+    "exp": {
+      "trans": "桥上的橙线标出旧洪水曾达到的高度，镇上保留它以提醒后来的居民；这条线起提醒作用。",
+      "structure": "The line是主语；served as接名词短语a reminder，说明它充当何种提醒标志。",
+      "other": "resident居民；mark标示；flood洪水。",
+      "meaning": "serve可以表达发挥作用，但这里需要serve as加角色名词，不能把它笼统替换为所有表示效果的动词。",
+      "rest": "explained a reminder指解释某个提醒，未表达充当提醒；contributed to a reminder是对提醒有所贡献，不是这条线本身充当提醒；accounted for表示解释或构成，也不自然表达这里的用途角色。"
+    }
+  },
+  {
+    "id": "cl17-contribute-evidence",
+    "family": "verb-effect-share",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "contribute to / explain a percentage",
+    "skill": "contribute to / explain a percentage",
+    "q": "A workshop improved output after both staff training and a machine upgrade. The manager says training helped, but has not estimated its share. Which statement preserves the available evidence?",
+    "o": [
+      "Training contributed to the improvement in output.",
+      "Training explained 70% of the improvement in output.",
+      "Training accounted for the entire improvement in output.",
+      "Training served 70% of the improvement in output."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 10,
+    "exp": {
+      "trans": "车间在培训和机器升级后提高了产出。经理只说培训有帮助，没有估算其份额；可说培训对改善有贡献。",
+      "structure": "Training contributed to the improvement：主语Training，谓语contributed，to后接贡献所指向的结果；不是直接支配比例宾语。",
+      "other": "output产出；upgrade升级；estimate估算。",
+      "meaning": "contribute to可以保留有帮助而未量化的关系；explain或account for后带具体份额须有相应证据，不能凭空补出数字。",
+      "rest": "explained 70%加入未经估算的比例；accounted for the entire把部分贡献扩大成全部；served 70%既补造比例，也没有构成自然的用途或解释份额句型。"
+    }
+  },
+  {
+    "id": "cl17-serve-purpose-access",
+    "family": "verb-effect-share",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "serve a purpose / serve to do",
+    "skill": "serve a purpose / serve to do",
+    "q": "A station ramp is useful because it makes the platforms accessible. Complete both gaps: \"It ___ a useful purpose and ___ make access easier.\"",
+    "o": [
+      "explains; serves as",
+      "serves; serves to",
+      "accounts for; contributes",
+      "contributes to; explains"
+    ],
+    "a": 1,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 10,
+    "exp": {
+      "trans": "车站坡道有实际用途，使人更容易到达站台：它发挥有用作用，并起到便利通行的作用。",
+      "structure": "第一空serve直接接a useful purpose；第二空serve to后接动词原形make。两个并列谓语各自要求不同补足结构。",
+      "other": "ramp坡道；platform站台；accessible可到达、可使用的。",
+      "meaning": "知道serve可译为发挥作用，还要掌握serve a purpose、serve as a noun和serve to do三种实际句型。",
+      "rest": "explains a purpose是解释一个目的，不是发挥用途，serves as后也不能直接接make；contributes须用to连接目标；accounts for a useful purpose和contributes to a useful purpose没有准确表达本句的设施用途。"
+    }
+  },
+  {
+    "id": "cl17-even-experts",
+    "family": "even",
+    "introduced": null,
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "Even among / Thus / Still / Rather",
+    "skill": "Even among / Thus / Still / Rather",
+    "q": "A new catalogue helped beginners find books. Even among experienced librarians, search times became shorter. What does Even add?",
+    "o": [
+      "It says experienced staff caused the first result.",
+      "It cancels the reported benefit for beginners.",
+      "It extends the benefit to a less expected group.",
+      "It says the second result happened earlier."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 11,
+    "exp": {
+      "trans": "新目录帮助初学者找书；甚至经验丰富的图书馆员也缩短了检索时间。Even把好处推进到较出乎预期的熟练群体。",
+      "structure": "Even修饰among experienced librarians这一范围短语；search times became shorter是该群体中的陈述，不是前句的原因。",
+      "other": "catalogue目录；librarian图书馆员；experienced有经验的。",
+      "meaning": "Even突出递进和意外包含，不取消原命题，也不自动表达因此或时间先后。",
+      "rest": "caused把递进读成因果；cancels读成否定前文；happened earlier添加时间顺序，均无依据。"
+    }
+  },
+  {
+    "id": "cl17-even-strong-fix",
+    "family": "even",
+    "introduced": null,
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "even / not even",
+    "skill": "even / not even",
+    "q": "A museum report says: \"Not even replacing every bulb solved the lighting problem.\" Which statement is supported?",
+    "o": [
+      "Only replacing every bulb solved the problem.",
+      "No possible change could ever solve the problem.",
+      "The museum never replaced any of its old bulbs.",
+      "Replacing every bulb did not solve the problem."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 11,
+    "exp": {
+      "trans": "博物馆报告说：甚至把每个灯泡都换掉，也没有解决照明问题。",
+      "structure": "Not even将否定和强调作用于replacing every bulb这个本应较有希望的措施；solved的成功结果被否定，不是否定尝试曾发生。",
+      "other": "bulb灯泡；lighting照明；measure措施。",
+      "meaning": "此处Even仍突出超出通常预期；not even不等于never tried，也不能把一个措施失败扩大为所有可能措施永远失败。",
+      "rest": "Only... solved把失败改成唯一成功；No possible change could ever...扩大到一切未来方案；never replaced把措施未奏效误读为根本未实施。"
+    }
+  },
+  {
+    "id": "cl17-highlight-audit",
+    "family": "highlight-heighten",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "highlighted / heightened / increased / severe",
+    "skill": "highlighted / heightened / increased / severe",
+    "q": "The audit highlighted a risk that had existed for years. It did not estimate whether that risk had grown. What does highlighted establish?",
+    "o": [
+      "The audit drew attention to an existing risk.",
+      "The risk necessarily became more likely that year.",
+      "The audit removed the risk from the workplace.",
+      "The risk had already caused severe losses."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 13,
+    "exp": {
+      "trans": "审计指出了一项存在多年的风险，但没有估算它是否上升；highlighted只确认该风险被特别指出。",
+      "structure": "主干The audit highlighted a risk；that had existed...是修饰risk的定语从句，不表示audit使风险增大。",
+      "other": "audit审计；estimate估算；existing已经存在的。",
+      "meaning": "highlight是引人注意或强调；heighten和increase可以表示提高或加剧，不能因拼写相近而混同。",
+      "rest": "became more likely添加风险上升；removed说风险被消除；severe losses添加已经发生的严重后果，都超出highlighted本身。"
+    }
+  },
+  {
+    "id": "cl17-heighten-awareness",
+    "family": "highlight-heighten",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "highlight / heighten",
+    "skill": "highlight / heighten",
+    "q": "An exhibition first draws attention to an overlooked problem, then raises visitors' awareness of it. Which pair matches those two actions?",
+    "o": [
+      "heighten the problem; highlight awareness",
+      "highlight the problem; heighten awareness",
+      "make the problem severe; reduce awareness",
+      "increase the problem; hide public awareness"
+    ],
+    "a": 1,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 13,
+    "exp": {
+      "trans": "展览先使一个被忽略的问题受到注意，再提高参观者对它的认识；分别是highlight the problem和heighten awareness。",
+      "structure": "两个动作分别以the problem和awareness为宾语；highlight改变注意焦点，heighten表示某种程度提高。",
+      "other": "exhibition展览；overlook忽视；awareness认识、意识。",
+      "meaning": "highlighted与heightened不是同一个词；辨认字形也要检查动作与宾语的语义关系。",
+      "rest": "heighten the problem不能表达指出问题；make severe或increase the problem会把提高认识改成使问题加重；reduce或hide awareness又与raises方向相反。"
+    }
+  },
+  {
+    "id": "cl17-risk-versus-loss",
+    "family": "highlight-heighten",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "increased risk / severe damage",
+    "skill": "increased risk / severe damage",
+    "q": "In a toy forecast, the chance of a parcel being damaged rises from 2% to 5%, while the cost per damaged parcel stays unchanged. Which summary keeps the two dimensions separate?",
+    "o": [
+      "Risk was merely highlighted; its probability stayed fixed.",
+      "Damage became more severe; its probability stayed fixed.",
+      "Risk increased; the cost of each damaged parcel stayed fixed.",
+      "Risk decreased; the cost of each damaged parcel grew."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 13,
+    "exp": {
+      "trans": "示例预测中，包裹受损概率由2%增至5%，但每件受损包裹的损失金额不变：概率提高不等于每次损害更严重。",
+      "structure": "the chance rises与the cost stays unchanged是对照的两个主谓结构，分别描述发生概率与单位事件损失。",
+      "other": "parcel包裹；forecast预测；dimension维度。",
+      "meaning": "increased risk表示风险升高，severe描述严重程度；heightened risk也可表达风险加剧，不能仅因与increased近义就判它为错误英语。",
+      "rest": "merely highlighted把实际概率变化说成只被指出；more severe添加单位损失增加；decreased与2%升至5%相反。"
+    }
+  },
+  {
+    "id": "cl17-severe-storms",
+    "family": "highlight-heighten",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "severe / increased / highlighted",
+    "skill": "severe / increased / highlighted",
+    "q": "A coastal town had fewer storms this year, but each caused more damage than storms in the previous year. Which description preserves both facts?",
+    "o": [
+      "More frequent storms with milder damage.",
+      "More frequent storms with unchanged damage.",
+      "Less frequent storms with milder damage.",
+      "Less frequent storms with more severe damage."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 13,
+    "exp": {
+      "trans": "今年风暴次数较少，但每次造成的损害比去年更大：频率下降，后果更严重。",
+      "structure": "had fewer storms说明次数；but each caused more damage转向单次后果，不能合并成所有指标都上升或下降。",
+      "other": "coastal沿海的；frequent频繁的；previous year上一年。",
+      "meaning": "severe对应后果严重程度，不等于highlighted被强调，也不自动表示次数increased。",
+      "rest": "More frequent颠倒次数方向；milder把损害加重说成减轻；unchanged遗漏了more damage。"
+    }
+  },
+  {
+    "id": "cl17-remain-drawer",
+    "family": "location-vs-change",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "remain / decrease / where",
+    "skill": "remain / decrease / where",
+    "q": "A technician sent five of eight sample cards to an outside lab. But three remained in a drawer, where a scanner read their labels. Which summary follows?",
+    "o": [
+      "Three cards stayed in the drawer and were read there.",
+      "The three remaining cards gradually decreased in number.",
+      "All eight cards were moved back after being scanned.",
+      "Only the cards at the outside lab had their labels read."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 19,
+    "exp": {
+      "trans": "八张样本卡中五张送往外部实验室，三张留在抽屉，扫描器在那里读取其标签。",
+      "structure": "three省略three sample cards，remained in a drawer说明去向；where回指a drawer，引入读取标签的地点。",
+      "other": "technician技术员；sample card样本卡；label标签。",
+      "meaning": "对比的是送走与留存，扫描动作本身不说明留下的卡随后减少；保持位置不自动产生新的数量变化或时间流程。",
+      "rest": "gradually decreased添加未报告的数量下降；all moved back补造返回步骤；only outside lab排除了原文明示在抽屉中被读取的三张。"
+    }
+  },
+  {
+    "id": "cl17-remain-members",
+    "family": "location-vs-change",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 50,
+    "target": "remain / decrease / some of them",
+    "skill": "remain / decrease / some of them",
+    "q": "A club's membership decreased from 70 to 50. Of those 50 members, 20 now attend online; the rest remain at the local venue. Which two claims can both be true?",
+    "o": [
+      "Membership stayed at 70; 20 members moved online.",
+      "Membership fell; 30 members still attend in person.",
+      "Everyone online left the club; 50 attend in person.",
+      "Nobody left the club; 30 members stopped attending."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": 19,
+    "exp": {
+      "trans": "会员总数由70降至50；这50人中20人线上参加，其余30人仍在线下场地参加。",
+      "structure": "decreased描述总量变化；those 50的指代范围是现有50人；the rest为50减20，remain at描述地点保持。",
+      "other": "membership会员人数；venue场地；in person亲自到场。",
+      "meaning": "remain与decrease可在同一篇文章描述不同维度，必须分别核对对象和证据，不能机械记成二者绝不同时成立。",
+      "rest": "stayed at70或Nobody left否定了总量下降；Everyone online left把线上参与误作退会；stopped attending把继续线下参加改成停止参加。"
+    }
+  },
+  {
+    "id": "cl17-receipt-plan",
+    "family": "receipt-nominalization",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "receipt / receive",
+    "skill": "receipt / receive",
+    "q": "An architect emailed a revised plan. The town office replied, \"We acknowledge receipt of your plan; the review will begin on Monday.\" What has the office confirmed?",
+    "o": [
+      "The plan has already passed its review.",
+      "The architect has received a purchase slip.",
+      "The office has received the revised plan.",
+      "The review has been cancelled altogether."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": null,
+    "exp": {
+      "trans": "建筑师发去修订图纸，办公室确认收到，并说明周一才开始审查。",
+      "structure": "acknowledge的宾语receipt of your plan是名词化结构：your plan是被收到的内容；will begin仍表示后续步骤。",
+      "other": "architect建筑师；revised修订的；acknowledge确认、承认。",
+      "meaning": "receipt在这里表示接收事实，不是付款收据；收到材料也不等于完成审查。",
+      "rest": "passed its review把接收提前升级为审批通过；purchase slip误套购物凭证义；cancelled与周一将开始审查不符。"
+    }
+  },
+  {
+    "id": "cl17-receipt-goods-proof",
+    "family": "receipt-nominalization",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "receipt of goods / a receipt",
+    "skill": "receipt of goods / a receipt",
+    "q": "A shop notice says: \"Payment is due within ten days of receipt of the goods. Keep the receipt as proof of payment.\" What do the two uses of receipt mean?",
+    "o": [
+      "Both refer to the date the money was transferred.",
+      "First: a sales slip; second: receiving the goods.",
+      "Both refer to a paper listing the purchased items.",
+      "First: receiving goods; second: proof of payment."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": null,
+    "exp": {
+      "trans": "通知要求收到货物后十天内付款，并保存付款收据。第一处是收到货物，第二处是证明付款的凭证。",
+      "structure": "receipt of the goods中of引出接收对象；the receipt as proof of payment中receipt是可保存的凭证名词。",
+      "other": "payment is due应付款；goods货物；proof凭据。",
+      "meaning": "不能因为都拼作receipt，就把名词化接收行为与书面凭证当作同一义项。",
+      "rest": "both date the money was transferred把收货改成收款；sales slip/receiving颠倒两处意思；both paper忽略of the goods中的接收行为。"
+    }
+  },
+  {
+    "id": "cl17-susceptibility-coatings",
+    "family": "susceptibility-vocab",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "susceptibility / susceptible to",
+    "skill": "susceptibility / susceptible to",
+    "q": "Two coatings faced the same scratch test. One was damaged by light brushing; the other resisted repeated rubbing. The first showed greater susceptibility to scratches. What does this describe?",
+    "o": [
+      "It was more easily affected by scratching.",
+      "It was exposed to a greater number of tests.",
+      "It had already repaired every scratch itself.",
+      "It was guaranteed never to suffer damage."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": null,
+    "exp": {
+      "trans": "两种涂层经受同样的刮擦测试，第一种轻刷即受损，第二种经反复摩擦仍有耐受性；第一种更容易受到刮擦影响。",
+      "structure": "showed的宾语greater susceptibility，to scratches说明容易受到何种影响；同样测试排除了仅凭接触次数解释词义。",
+      "other": "coating涂层；scratch刮擦；rubbing摩擦。",
+      "meaning": "susceptibility表示易受影响的倾向，不专限医学易感性，也不等于暴露次数或必定发生。",
+      "rest": "greater number of tests把易受损性改成测试次数；repaired添加自修复；guaranteed never与轻刷受损相反，并加入绝对保证。"
+    }
+  },
+  {
+    "id": "cl17-susceptibility-adverts",
+    "family": "susceptibility-vocab",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "susceptibility / exposure",
+    "skill": "susceptibility / exposure",
+    "q": "In a fictional survey, exposure counts the adverts a viewer sees. Susceptibility measures how readily those adverts change a choice. Which finding concerns susceptibility rather than exposure?",
+    "o": [
+      "The viewer saw many adverts during one evening.",
+      "One advert readily changed the viewer's choice.",
+      "The adverts were shown on several new channels.",
+      "The viewer watched for twice as many minutes."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": null,
+    "exp": {
+      "trans": "在一个假设调查中，exposure统计看到多少广告；susceptibility衡量选择多容易受到广告影响。一则广告就容易改变选择，描述的是易受影响程度。",
+      "structure": "exposure与susceptibility分别作主语，其谓语counts和measures说明两个不同测量对象。",
+      "other": "fictional虚构、假设的；advert广告；readily容易地。",
+      "meaning": "易受影响与接触量可以分开测量，不能把多看广告直接等同于更易受广告影响。",
+      "rest": "saw many、several channels和twice as many minutes均主要涉及接触数量、途径或时长，没有直接交代选择是否容易被改变。"
+    }
+  },
+  {
+    "id": "cl17-intimacy-letters",
+    "family": "intimacy-vocab",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "intimacy",
+    "skill": "intimacy",
+    "q": "Two writers lived on different continents but exchanged private hopes and fears for years. A biographer praises the intimacy of their letters. What is being praised?",
+    "o": [
+      "The short physical distance between their homes.",
+      "The unusually large number of stamps they bought.",
+      "The emotional closeness expressed in the letters.",
+      "The strict official format used in every letter."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": null,
+    "exp": {
+      "trans": "两位作家相隔不同大陆，却长期交换内心希望和担忧；传记作者称赞书信所表达的情感亲近。",
+      "structure": "praises的宾语the intimacy of their letters；of短语说明亲近感体现于书信，不要求两人身体接近。",
+      "other": "continent大陆；biographer传记作者；emotional情感的。",
+      "meaning": "intimacy可指心灵、关系上的亲近，不能只理解成身体接触。",
+      "rest": "short physical distance与不同大陆相反；stamps把关系亲密误作邮寄数量；official format把亲近感改成公文形式。"
+    }
+  },
+  {
+    "id": "cl17-intimacy-theatre",
+    "family": "intimacy-vocab",
+    "introduced": "2026-11-07",
+    "published_on": "2026-11-07",
+    "budget": 45,
+    "target": "intimacy of a setting",
+    "skill": "intimacy of a setting",
+    "q": "Ten listeners sit around a musician, who talks with them between songs. A review praises the intimacy of the setting. Which feature is closest to this meaning?",
+    "o": [
+      "A stage equipped with the latest sound machines.",
+      "A large audience kept far away from the performer.",
+      "A ceremony governed by strict formal etiquette.",
+      "A close atmosphere allowing personal interaction."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-07-2017-cloze",
+    "source_question": null,
+    "exp": {
+      "trans": "十位听众围坐在音乐家身边，歌曲间隙还相互交谈；评论称赞这种能亲近交流的氛围。",
+      "structure": "who talks...修饰musician；intimacy of the setting概括小规模、可直接交流的环境特征，而非设备规格。",
+      "other": "setting环境；performer表演者；interaction互动。",
+      "meaning": "intimacy也能描写场所带来的亲近感，不必指恋爱或狭义亲密接触。",
+      "rest": "latest sound machines讨论设备；large audience far away讨论疏远的大场面；strict formal etiquette讨论礼仪约束，都不对应可直接交流的亲近氛围。"
+    }
+  }
+]

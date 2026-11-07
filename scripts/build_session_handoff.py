@@ -173,6 +173,8 @@ def paper_summary(notes, sessions, checks):
             if n['kind'] == 'translation_difficulty':
                 continue
             item = paper_item(n, checks)
+            if type(n.get('training_priority')) is int and n['training_priority'] > 0:
+                item['training_priority'] = n['training_priority']
             picks = {e['reported_pick'] for e in entries if confirmed(e) and updated(e) == updated(n)
                      and e.get('source_question') == n.get('source_question')}
             item['choice_conflict'] = n.get('source_question') is not None and len(picks) > 1
@@ -180,7 +182,8 @@ def paper_summary(notes, sessions, checks):
                 item.update(final_choice=None, final_choice_status='unconfirmed')
             items.append(item)
         items.sort(key=lambda n: (-review.NOTE_PRIORITIES.get(n['kind'], 0),
-                                  -date.fromisoformat(n['updated_on']).toordinal(), n['question'] is None,
+                                  -date.fromisoformat(n['updated_on']).toordinal(),
+                                  n.get('training_priority', float('inf')), n['question'] is None,
                                   n['question'] or 0, n['family']))
         spans = sorted({short(s, 42) for n in entries if n['kind'] == 'translation_difficulty'
                         for s in n.get('source_spans', [])})

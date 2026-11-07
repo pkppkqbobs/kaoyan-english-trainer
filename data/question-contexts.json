@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-11-06",
-  "source_commit": "8084d76214958f78317b0cc2e6d8f30147fdfce8",
+  "reviewed_on": "2026-11-07",
+  "source_commit": "48c6fabf45a70b35d79d9ff365b8c2194bdcf074",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -426,7 +426,31 @@
     "pb16-vocab-pull-off-repair": "bridge-repair-succeeded-despite-obstacles",
     "pb16-vocab-in-rut-orchestra": "orchestra-repetitive-programmes",
     "pb16-vocab-anthropologist-factory": "factory-worker-informal-norms",
-    "pb16-vocab-characterizations-historian": "historian-protest-description-oversimplification"
+    "pb16-vocab-characterizations-historian": "historian-protest-description-oversimplification",
+    "cl17-host-backlog": "host-quantity-unfinished-obligations",
+    "cl17-host-two-functions": "host-verb-and-quantity-contrast",
+    "cl17-effects-shifts": "effect-parallel-sources-and-recipient",
+    "cl17-effects-room-echo": "effect-reconstruct-direction-from-question",
+    "cl17-illness-understudy": "come-down-with-narrative-consequence",
+    "cl17-illness-diary": "come-particles-three-event-mapping",
+    "cl17-effect-share-model": "statistical-explanation-share-pair",
+    "cl17-serve-warning": "serve-as-communicative-function",
+    "cl17-contribute-evidence": "contribution-without-measured-share",
+    "cl17-serve-purpose-access": "serve-purpose-and-infinitive-complements",
+    "cl17-even-experts": "even-unexpected-experienced-subgroup",
+    "cl17-even-strong-fix": "not-even-strong-measure-negation-scope",
+    "cl17-highlight-audit": "highlight-attention-not-risk-change",
+    "cl17-heighten-awareness": "highlight-versus-heighten-two-actions",
+    "cl17-risk-versus-loss": "probability-increase-versus-severity",
+    "cl17-severe-storms": "frequency-versus-severity-contrast",
+    "cl17-remain-drawer": "retain-physical-location-and-where",
+    "cl17-remain-members": "quantity-change-and-location-can-coexist",
+    "cl17-receipt-plan": "receipt-acknowledgement-information",
+    "cl17-receipt-goods-proof": "receipt-receiving-versus-document",
+    "cl17-susceptibility-coatings": "susceptibility-controlled-comparison",
+    "cl17-susceptibility-adverts": "susceptibility-versus-exposure-operationalization",
+    "cl17-intimacy-letters": "intimacy-emotional-versus-physical-distance",
+    "cl17-intimacy-theatre": "intimacy-setting-and-informal-contact"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -710,6 +734,100 @@
     "partb-boxed-vocab": {
       "coverage_gap": false,
       "reason": "新增工程执行pull off、乐团停滞in a rut、工厂文化anthropologist、历史写作characterizations四个跨语境词义迁移，与画框证据逐项对应。"
+    },
+    "social-cure-vocab": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "host-quantity-unfinished-obligations",
+        "host-verb-and-quantity-contrast"
+      ]
+    },
+    "effect-source-target": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "effect-parallel-sources-and-recipient",
+        "effect-reconstruct-direction-from-question"
+      ]
+    },
+    "phrasal-verb-illness": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "come-down-with-narrative-consequence",
+        "come-particles-three-event-mapping"
+      ]
+    },
+    "verb-effect-share": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增4题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "statistical-explanation-share-pair",
+        "serve-as-communicative-function",
+        "contribution-without-measured-share",
+        "serve-purpose-and-infinitive-complements"
+      ]
+    },
+    "even": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "even-unexpected-experienced-subgroup",
+        "not-even-strong-measure-negation-scope"
+      ]
+    },
+    "highlight-heighten": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增4题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "highlight-attention-not-risk-change",
+        "highlight-versus-heighten-two-actions",
+        "probability-increase-versus-severity",
+        "frequency-versus-severity-contrast"
+      ]
+    },
+    "location-vs-change": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "retain-physical-location-and-where",
+        "quantity-change-and-location-can-coexist"
+      ]
+    },
+    "receipt-nominalization": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "receipt-acknowledgement-information",
+        "receipt-receiving-versus-document"
+      ]
+    },
+    "susceptibility-vocab": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "susceptibility-controlled-comparison",
+        "susceptibility-versus-exposure-operationalization"
+      ]
+    },
+    "intimacy-vocab": {
+      "coverage_gap": false,
+      "reason": "2017完形文字证据新增2题；逐题核对语境、句型和干扰证据，语境标签仅用于变式间隔，不代表新增作答或掌握。",
+      "review_session": "2026-11-07-2017-cloze",
+      "evidence_paths": [
+        "intimacy-emotional-versus-physical-distance",
+        "intimacy-setting-and-informal-contact"
+      ]
     }
   },
   "historical_content_findings": [

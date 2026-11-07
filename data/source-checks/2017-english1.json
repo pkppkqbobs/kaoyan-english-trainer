@@ -1,0 +1,99 @@
+{
+  "exam": "2017-english1",
+  "checked_on": "2026-11-07",
+  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks.",
+  "purpose": "核对参考答案、正确选项文字和搭配；与用户原始错误选项、网页成绩分开。",
+  "sources": [
+    {
+      "id": "eol-xdf-2017-cloze-key",
+      "title": "中国教育在线（新东方）：2017年考研英语一完形填空答案",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201612/t20161224_1478872.shtml",
+      "covers": "20题参考字母与用户交接逐题一致。"
+    },
+    {
+      "id": "chsi-wendu-2017-cloze",
+      "title": "研招网（文都）：2017考研英语一完型填空答案及解析",
+      "url": "https://yz.chsi.com.cn/kyzx/en/201612/20161226/1575650657.html",
+      "covers": "独立机构解析与本次20题字母一致；其serve仅译服务的简化不能代替用户已确认的发挥作用误用机制。"
+    },
+    {
+      "id": "alternate-option-order",
+      "title": "中国考研网：2017英语一文字完整版的另一选项顺序",
+      "url": "https://www.chinakaoyan.com/info/article/id/147614.shtml",
+      "covers": "相同正确词在不同排序中可有不同字母，不覆盖已与用户版本匹配的参考答案。"
+    },
+    {
+      "id": "cambridge-serve",
+      "title": "Cambridge Dictionary: serve",
+      "url": "https://dictionary.cambridge.org/dictionary/english/serve",
+      "covers": "核对用途义及purpose、as、to do等句型；不将serve统一解释成服务。"
+    },
+    {
+      "id": "cambridge-contribute",
+      "title": "Cambridge Dictionary: contribute",
+      "url": "https://dictionary.cambridge.org/dictionary/english/contribute",
+      "covers": "核对贡献、帮助实现的关系与contribute to结构。"
+    },
+    {
+      "id": "cambridge-highlight",
+      "title": "Cambridge Dictionary: highlight",
+      "url": "https://dictionary.cambridge.org/dictionary/english/highlight",
+      "covers": "核对强调、指出，与heighten字形及语义区分。"
+    },
+    {
+      "id": "cambridge-heighten",
+      "title": "Cambridge Dictionary: heighten",
+      "url": "https://dictionary.cambridge.org/dictionary/english/heighten",
+      "covers": "核对增强、提高；heightened与increased在risk等搭配可近义，不制造假对立。"
+    },
+    {
+      "id": "cambridge-receipt",
+      "title": "Cambridge Dictionary: receipt",
+      "url": "https://dictionary.cambridge.org/dictionary/english/receipt",
+      "covers": "核对接收行为与收据凭证两个名词义。"
+    }
+  ],
+  "answers": {
+    "1": "A",
+    "2": "C",
+    "3": "B",
+    "4": "A",
+    "5": "D",
+    "6": "A",
+    "7": "D",
+    "8": "C",
+    "9": "D",
+    "10": "C",
+    "11": "D",
+    "12": "B",
+    "13": "B",
+    "14": "C",
+    "15": "B",
+    "16": "C",
+    "17": "A",
+    "18": "B",
+    "19": "A",
+    "20": "D"
+  },
+  "answer_words": {
+    "3": "host",
+    "6": "on",
+    "8": "down",
+    "10": "explained",
+    "11": "Even",
+    "13": "increased",
+    "19": "remains"
+  },
+  "option_order_reference": {
+    "13": {
+      "A": "highlighted",
+      "B": "increased"
+    }
+  },
+  "option_order_note": "Q13 A highlighted由用户交接明确转述；不从另一版排序补造其余错误选项字母。Q10仅确认served的语义思路，错误字母未知。",
+  "performance_coverage": "仅确认7题为自述错后仍困惑；无完整首次/最终字母或改选轨迹，也不知道其余13题结果，不计算整篇纸质成绩，不增加网页统计。",
+  "evidence_limitations": [
+    "本次只接收结构化文字，未重新查看照片。",
+    "3个框词逐项保存，横线词不自动登记。"
+  ]
+}
