@@ -3317,6 +3317,94 @@
       "qid": "summary-overall-midsection",
       "round_id": "mw4vswu2-lbevatmn",
       "source_date": "2026-11-06"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "text4-agreement-target",
+      "ok": true,
+      "ms": 37823,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "text4-agreement-target-b",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "subject",
+      "ok": true,
+      "ms": 22310,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "subject-curtains-steam",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 88837,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "summary-current-and-follow-up",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "relative",
+      "ok": true,
+      "ms": 3595,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "belief-negation-clause",
+      "ok": true,
+      "ms": 65476,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "belief-negation-software-update-b",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "parallel-governance",
+      "ok": false,
+      "ms": 27996,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "parallel-governance-control-panel",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "action-collocation",
+      "ok": true,
+      "ms": 28216,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "cloze-wrap-protective-cloth-k",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-07",
+      "family": "text4-executive-overreach",
+      "ok": true,
+      "ms": 35079,
+      "uncertain": false,
+      "origin": 41,
+      "qid": "text4-executive-overreach-a",
+      "round_id": "mw616ccc-n75nzm5y",
+      "source_date": "2026-11-07"
     }
   ],
   "issues": [
@@ -3359,6 +3447,7 @@
     37,
     38,
     39,
-    40
+    40,
+    41
   ]
 }
