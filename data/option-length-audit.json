@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 362,
-        "correct_uniquely_longest": 90,
-        "correct_uniquely_shortest": 60,
-        "longest_guess_pct": 30.82,
-        "shortest_guess_pct": 21.06,
+        "question_count": 378,
+        "correct_uniquely_longest": 92,
+        "correct_uniquely_shortest": 62,
+        "longest_guess_pct": 30.42,
+        "shortest_guess_pct": 20.86,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5253,6 +5253,278 @@
         "pool": "daily_article",
         "family": "negative-ellipsis-afford",
         "source": "data/questions/2026-10-15-text1.json"
+      },
+      "t17-advance-reservation": {
+        "lengths": [
+          50,
+          47,
+          52,
+          54
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "advance-time-expression",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-advance-two-dimensions": {
+        "lengths": [
+          50,
+          55,
+          56,
+          57
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "advance-time-expression",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-belated-apology": {
+        "lengths": [
+          66,
+          71,
+          67,
+          70
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "belated-timing",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-belated-recognition": {
+        "lengths": [
+          44,
+          48,
+          48,
+          48
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "belated-timing",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-infuriating-autosave": {
+        "lengths": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "infuriating-vocab",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-infuriating-reaction": {
+        "lengths": [
+          57,
+          57,
+          55,
+          52
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "infuriating-vocab",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-reason-label-gap": {
+        "lengths": [
+          70,
+          71,
+          64,
+          70
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-reason-mechanism-focus": {
+        "lengths": [
+          76,
+          80,
+          75,
+          76
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-remodel-decisions": {
+        "lengths": [
+          47,
+          47,
+          47,
+          48
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "remodel-vocab",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-remodel-theatre": {
+        "lengths": [
+          45,
+          50,
+          49,
+          47
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "remodel-vocab",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-screening-applications": {
+        "lengths": [
+          51,
+          47,
+          48,
+          52
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "screening-polysemy",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-screening-film": {
+        "lengths": [
+          12,
+          11,
+          12,
+          12
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "screening-polysemy",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-title-crop-diversity": {
+        "lengths": [
+          46,
+          44,
+          45,
+          49
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-title-music-counts": {
+        "lengths": [
+          44,
+          44,
+          47,
+          47
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-title-repair-network": {
+        "lengths": [
+          45,
+          48,
+          47,
+          50
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17-title-urban-birds": {
+        "lengths": [
+          43,
+          47,
+          42,
+          43
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-08-2017-text1-migration.json"
       },
       "take-page-clinic-a": {
         "lengths": [

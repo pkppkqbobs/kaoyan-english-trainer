@@ -85,6 +85,16 @@
       "observed_days": 4,
       "observation_priority": 0
     },
+    "advance-time-expression": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "alerts": {
       "streak": 0,
       "errors": 0,
@@ -114,6 +124,16 @@
       "reported_confusion": true,
       "observed_days": 3,
       "observation_priority": 3
+    },
+    "belated-timing": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "belief-negation-clause": {
       "streak": 0,
@@ -535,6 +555,16 @@
       "observed_days": 7,
       "observation_priority": 3
     },
+    "infuriating-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "intimacy-vocab": {
       "streak": 0,
       "errors": 0,
@@ -775,6 +805,16 @@
       "observed_days": 15,
       "observation_priority": 0
     },
+    "remodel-vocab": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "remote": {
       "streak": 0,
       "errors": 0,
@@ -814,6 +854,16 @@
       "reported_confusion": false,
       "observed_days": 6,
       "observation_priority": 0
+    },
+    "screening-polysemy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-08",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "social-cure-vocab": {
       "streak": 0,

@@ -1,0 +1,70 @@
+{
+  "id": "2026-11-08-2017-text1",
+  "date": "2026-11-08",
+  "learning_date": "2026-11-08",
+  "created_at": "2026-11-08T19:14:20+09:00",
+  "source": "2017 英语一 Reading Text 1 · 2026-11-08纸质复盘（Q25参考争议保留）",
+  "focus_families": [
+    "title-coverage",
+    "inference-boundary",
+    "belated-timing",
+    "advance-time-expression"
+  ],
+  "focus_question_ids": {
+    "title-coverage": [
+      "t17-title-urban-birds"
+    ],
+    "inference-boundary": [
+      "t17-reason-label-gap"
+    ],
+    "belated-timing": [
+      "t17-belated-recognition"
+    ],
+    "advance-time-expression": [
+      "t17-advance-reservation"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "all_observation_families": [
+    "title-coverage",
+    "inference-boundary",
+    "advance-time-expression",
+    "infuriating-vocab",
+    "remodel-vocab",
+    "screening-polysemy",
+    "belated-timing"
+  ],
+  "overall_comprehension": "User reports relatively fluent comprehension; not a passage-level difficulty record.",
+  "paper_outcome": {
+    "reported_final_choices": {
+      "25": "B"
+    },
+    "self_reported_wrong_questions": [
+      25
+    ],
+    "confirmed_wrong_questions": [],
+    "unresolved_reference_questions": [
+      25
+    ],
+    "q21_q24_choices_and_reasoning": "unknown",
+    "first_choices_and_revisions": "unknown",
+    "not_a_web_score": true
+  },
+  "reference_dispute": {
+    "question": 25,
+    "status": "unresolved",
+    "candidates": {
+      "B": "PreCheck—a Belated Solution",
+      "C": "Getting Stuck in Security Lines"
+    }
+  },
+  "source_check": "data/source-checks/2017-english1.json",
+  "training_priorities": [
+    "标题核心问题与方案的全文覆盖",
+    "选择结果与文本理由分开，避免答案字母配平",
+    "belated及时间用词辨析",
+    "how far in advance和其余明确画框词"
+  ],
+  "review_delivery": "Four current targets + four historical weaknesses; all original transfer questions, not a replay of disputed Q25."
+}

@@ -1,7 +1,7 @@
 {
   "exam": "2017-english1",
-  "checked_on": "2026-11-07",
-  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks.",
+  "checked_on": "2026-11-08",
+  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25.",
   "purpose": "核对参考答案、正确选项文字和搭配；与用户原始错误选项、网页成绩分开。",
   "sources": [
     {
@@ -51,6 +51,24 @@
       "title": "Cambridge Dictionary: receipt",
       "url": "https://dictionary.cambridge.org/dictionary/english/receipt",
       "covers": "核对接收行为与收据凭证两个名词义。"
+    },
+    {
+      "id": "haiwen-2017-text1-title",
+      "title": "万学教育/万学海文教研中心：2017考研英语一答案解析（搜狐机构账号）",
+      "url": "https://www.sohu.com/a/122528770_103414",
+      "covers": "仅核对Reading Text 1 Q25：主张PreCheck—a Belated Solution，以后半部分方案、项目缺陷和完善主张统摄全文。此来源提醒花卷须按答案内容核对，不据其其他题字母覆盖既有完形key。"
+    },
+    {
+      "id": "xinwendao-2017-text1-title",
+      "title": "新文道官网：2017年考研英语一真题答案解析PDF",
+      "url": "https://oss.hbxinwendao.com/website/upfiles/2021/0820/20210820041332318.pdf",
+      "covers": "Q25主张Getting Stuck in Security Lines：认为前段是排队问题、后段是办法及尚未解决的缺陷。来源将该标题列为A，按用户版本映射为C；不是支持用户版本A Less Screening。"
+    },
+    {
+      "id": "eol-wendu-2017-reading-recollection",
+      "title": "中国教育在线（文都教育何凯文考场回忆版）：2017英语一阅读答案",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201612/t20161224_1478836.shtml",
+      "covers": "题25答案文字为Getting stuck in the security line，与用户C同一标题方向；明确是考场回忆版，仅作分歧佐证，不当作统一官方标准。"
     }
   ],
   "answers": {
@@ -88,6 +106,12 @@
     "13": {
       "A": "highlighted",
       "B": "increased"
+    },
+    "25": {
+      "A": "Less Screening for More Safety",
+      "B": "PreCheck—a Belated Solution",
+      "C": "Getting Stuck in Security Lines",
+      "D": "Underused PreCheck Lanes"
     }
   },
   "option_order_note": "Q13 A highlighted由用户交接明确转述；不从另一版排序补造其余错误选项字母。Q10仅确认served的语义思路，错误字母未知。",
@@ -95,5 +119,36 @@
   "evidence_limitations": [
     "本次只接收结构化文字，未重新查看照片。",
     "3个框词逐项保存，横线词不自动登记。"
-  ]
+  ],
+  "disputed_references": {
+    "Text 1 Q25": {
+      "status": "reference_answer_disagreement",
+      "user_final_choice": "B",
+      "user_described_as_wrong": true,
+      "adjudicated_wrong": false,
+      "canonical_answer": null,
+      "candidates": [
+        {
+          "user_letter": "B",
+          "answer_text": "PreCheck—a Belated Solution",
+          "source_ids": [
+            "haiwen-2017-text1-title"
+          ],
+          "rationale": "方案、缺陷与推动落实的政策评价构成后半部分重心，末句催促项目真正发挥作用。"
+        },
+        {
+          "user_letter": "C",
+          "answer_text": "Getting Stuck in Security Lines",
+          "source_ids": [
+            "xinwendao-2017-text1-title",
+            "eol-wendu-2017-reading-recollection"
+          ],
+          "rationale": "安检排队问题贯穿首尾；介绍方案后仍说明费用、参与不足和问题未解决，问题型标题覆盖更广。"
+        }
+      ],
+      "option_order_warning": "来源的A/B/C不能直接套到用户版；经标题文字核对后仍是两个不同主张，不只是字母换序。",
+      "policy": "保留未决争议，不在answers[25]填单一正确字母，不把B归入确定错题，也不认定其已经答对掌握。"
+    }
+  },
+  "reading_text1_performance_coverage": "整体自述较顺畅；仅确认Q25最终B及其比较理由、5个画框词。21—24具体作答、初选、改选及正确率均未知；不由前四题没有B的自述重建答案。"
 }

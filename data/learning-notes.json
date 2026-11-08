@@ -3058,5 +3058,215 @@
     ],
     "reported_choice_text": "It modifies Friday and explains the reason for the deadline.",
     "expected_answer_text": "It is the object of accept: any documents the applicant submits."
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "title-coverage",
+    "kind": "user_reported_confusion",
+    "scope": "question",
+    "source_question": 25,
+    "reported_pick": "B",
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "user_described_as_wrong": true,
+    "paper_wrong_confirmed": false,
+    "assessment_status": "suspected_error_with_disputed_reference; not an adjudicated wrong answer",
+    "reference_status": "disputed",
+    "reference_candidates": {
+      "B": "PreCheck—a Belated Solution",
+      "C": "Getting Stuck in Security Lines"
+    },
+    "reported_eliminations": [
+      "A",
+      "D"
+    ],
+    "passage_level_comprehension_difficulty": false,
+    "passage_comprehension_self_report": "这篇我感觉算简单了的。",
+    "user_quote": "这篇我感觉算简单了的。但是我25错了我选了B，大概率是因为前面四个选项没有B而且我就只能排除D，全片不仅仅讲了precheck还讲了安全问题，所以我其实也对B不是很想选，但B还有个生词，然后A也可以排除因为全篇其实没有具体讲precheck的运行方式。",
+    "user_reported_reasoning": "参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，对B不完全认可，又不熟悉belated；认为A没有具体体现运行方式而排除。原始选择和改选轨迹未知，不把教学讨论C当作用户曾考虑C。",
+    "positive_reasoning": "能够从全文范围检查D过窄，并意识到话题不只限于PreCheck。",
+    "reasoning_to_refine": "A不能仅凭没有介绍机制而排除：原文已说明背景审查、快速通道和集中资源关注高风险者的基本机制。仍须比较其是否覆盖费用、推广不足与政策建议，不能由此反推A正确或B必错。",
+    "note": "本篇主要问题是标题概括与选项比较，不是整体理解困难。保留B的真实选择及不完全认可；B可从后半部分方案、缺陷和催促落实的政策主张获得依据，C可从排队问题及首尾呼应获得依据。机构解析按标题文字确有分歧，不能将B登记为毫无争议的错误，也不把它认定为已掌握。用户提出前四题没有B的分布启发式仅作为可能干扰，另记策略观察；21—24的逐题选择、过程与结果保持未知。",
+    "training_priority": 1,
+    "training_targets": [
+      "核心问题与解决方案的全文覆盖",
+      "问题型标题与方案型标题须依实际文章重心比较",
+      "话题相关、段落细节与全文主旨分开",
+      "排除理由须与实际文本相符，不强判争议题"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "inference-boundary",
+    "kind": "user_reported_confusion",
+    "scope": "strategy",
+    "source_question": null,
+    "user_reported_reasoning": "用户自述“大概率是因为前面四个选项没有B”而选择B；这是可能受答案字母分布干扰的自我解释，不是经核验的唯一原因。前四题实际选择仍未知。即使B在部分参考解析中正确，字母分布也不构成文本证据。",
+    "answer_distribution_bias": {
+      "status": "user_reported_possible_influence",
+      "user_statement": "大概率是因为前面四个选项没有B",
+      "q21_q24_actual_picks": "unknown"
+    },
+    "note": "沿用已有inference-boundary的证据边界与字母启发式训练，不新造错题或能力错误。训练选项是否得到全文支持与选择理由是否成立；不能因为一次碰巧选对，就认可补齐答案字母的策略，也不能因原题参考争议而放弃审查推理依据。",
+    "training_targets": [
+      "不以答案字母分布代替文本证据",
+      "选项结论与选择理由分别核验",
+      "排除某标题时不能否认正文已经提供的机制信息"
+    ],
+    "related_question_numbers": [
+      25
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "advance-time-expression",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "how far"
+    ],
+    "context_span": "how far in advance",
+    "boxed_evidence_source": "教学对话转述对纸质照片的放大核对结果；本次仅使用用户交接文字。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：how far。",
+    "note": "提前多久；在其他语境也可问距离或程度。how far in advance authorities are recommending people show up询问建议提前多长时间到达，不是机场的物理距离。",
+    "training_targets": [
+      "在不同语境中判断词义或搭配整体含义",
+      "横线词不自动登记为翻译困难"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "infuriating-vocab",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "infuriating"
+    ],
+    "context_span": "not to mention infuriating",
+    "boxed_evidence_source": "教学对话转述对纸质照片的放大核对结果；本次仅使用用户交接文字。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：infuriating。",
+    "note": "令人恼火的、令人愤怒的。来自infuriate，not to mention infuriating表示更不用说令人恼火了。",
+    "training_targets": [
+      "在不同语境中判断词义或搭配整体含义",
+      "横线词不自动登记为翻译困难"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "remodel-vocab",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "remodeling"
+    ],
+    "context_span": "without remodeling airports",
+    "boxed_evidence_source": "教学对话转述对纸质照片的放大核对结果；本次仅使用用户交接文字。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：remodeling。",
+    "note": "改造、翻修。本文指改造机场；须与只建模型或单纯调整统计模型分开，按语境理解remodel。",
+    "training_targets": [
+      "在不同语境中判断词义或搭配整体含义",
+      "横线词不自动登记为翻译困难"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "screening-polysemy",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "screening"
+    ],
+    "context_span": "expedited screening lanes",
+    "boxed_evidence_source": "教学对话转述对纸质照片的放大核对结果；本次仅使用用户交接文字。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：screening。",
+    "note": "筛查、检查；本文为安检。机场安全语境指安检，其他语境可指申请筛选或影片放映；不因复习这个词就追加expedited为用户明确生词。",
+    "training_targets": [
+      "在不同语境中判断词义或搭配整体含义",
+      "横线词不自动登记为翻译困难"
+    ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "session_id": "2026-11-08-2017-text1",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈完整结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. No fabricated web Issue, score, attempt, error, streak, or Q21-Q24 choices. Q25 reference outcome is disputed.",
+    "family": "belated-timing",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "belated"
+    ],
+    "context_span": "a belated solution",
+    "boxed_evidence_source": "教学对话转述对纸质照片的放大核对结果；本次仅使用用户交接文字。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：belated。",
+    "note": "迟来的、来得太晚的。这是第25题B中的明确画框词，不能遗漏。与delayed、postponed比较时区分迟来评价、延迟状态和安排后移；词义理解不自动裁定哪一个原题标题最佳。",
+    "training_targets": [
+      "在不同语境中判断词义或搭配整体含义",
+      "横线词不自动登记为翻译困难"
+    ],
+    "associated_question": 25
   }
 ]

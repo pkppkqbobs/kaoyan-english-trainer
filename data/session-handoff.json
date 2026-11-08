@@ -60,9 +60,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-07",
-      "storageId": "2026-11-07-2017-cloze",
-      "learning_date": "2026-11-07"
+      "date": "2026-11-08",
+      "storageId": "2026-11-08-2017-text1",
+      "learning_date": "2026-11-08"
     },
     "unverified_complete_rounds": [
       {
@@ -94,6 +94,85 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-08",
+      "exam": "2017-english1",
+      "part": "Text 1",
+      "items": [
+        {
+          "kind": "user_reported_confusion",
+          "family": "title-coverage",
+          "question": 25,
+          "related_questions": [],
+          "updated_on": "2026-11-08",
+          "final_choice": "B",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [
+            "A",
+            "D"
+          ],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-08",
+            "family": "title-coverage",
+            "question": 25,
+            "note_fingerprint": "1bf709999e65fe53"
+          },
+          "training_priority": 1,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "inference-boundary",
+          "question": null,
+          "related_questions": [],
+          "updated_on": "2026-11-08",
+          "final_choice": null,
+          "final_choice_status": "not_applicable",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "用户自述“大概率是因为前面四个选项没有B”而选择B；这是可能受答案字母分布干扰的自我解释，不是经核验的唯一原因。前四题实际选择仍未知。即使B在部分参考解析中正确，字母分布也不构成文…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-08",
+            "family": "inference-boundary",
+            "question": null,
+            "note_fingerprint": "8d20f76a0c9717c5"
+          },
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "belated",
+        "how far",
+        "infuriating",
+        "remodeling",
+        "screening"
+      ],
+      "translation_note_count": 5,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-08",
+        "family": "advance-time-expression",
+        "question": null,
+        "note_fingerprint": "edfab5ff56674ec1"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-08-2017-text1.json"
+      ]
+    },
     {
       "date": "2026-11-07",
       "exam": "2017-english1",
@@ -456,147 +535,6 @@
       "article_session_files": [
         "data/article-sessions/2026-11-04-2016-text3.json"
       ]
-    },
-    {
-      "date": "2026-11-03",
-      "exam": "2016-english1",
-      "part": "Text 2",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "modal-stage",
-          "question": 27,
-          "related_questions": [],
-          "updated_on": "2026-11-03",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": "A",
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "D",
-          "reference_status": "source_checked",
-          "summary": "用户明确自述做错，初选A largely overshadowed，后改选B properly protected；原因是不能判断段落对国家信托成就的评价方向，并把It needs…",
-          "followup": null,
-          "spans": [
-            "largely overshadowed",
-            "properly protected",
-            "gradually destroyed",
-            "It needs constant guardianship",
-            "every year concrete consumes more of it"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-03",
-            "family": "modal-stage",
-            "question": 27,
-            "note_fingerprint": "23689077b2b393df"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "familiar-word-polysemy",
-          "question": 26,
-          "related_questions": [],
-          "updated_on": "2026-11-03",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "用户主动询问第26题B中的backed，曾联想到bake或后退，但没有明确给出最终选项字母；不能因为谈及B就推定选择B。",
-          "followup": null,
-          "spans": [
-            "is fully backed by the royal family",
-            "alongside the royal family"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-03",
-            "family": "familiar-word-polysemy",
-            "question": 26,
-            "note_fingerprint": "b7424f154044cfc2"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "attribution-stance",
-          "question": null,
-          "related_questions": [
-            28,
-            29,
-            30
-          ],
-          "updated_on": "2026-11-03",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "整体理解反馈显示不同政党、公众、开发利益相关方和作者立场容易混淆；目前未收到Q28—30的最终选择字母或逐题推理，不能按原文讲解倒推出这些题的作答。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-03",
-            "family": "attribution-stance",
-            "question": null,
-            "note_fingerprint": "a26018849ea04f20"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "author-stance",
-          "question": null,
-          "related_questions": [],
-          "updated_on": "2026-11-03",
-          "final_choice": null,
-          "final_choice_status": "not_applicable",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "用户明确报告整篇阅读困难。多个政治主体及其立场容易混淆；难以区分过去环保成就和当前开发压力；难以判断作者反对的是开发本身还是未经规划的开发方式；会混淆需要保护、已经保护和正在遭破坏…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-03",
-            "family": "author-stance",
-            "question": null,
-            "note_fingerprint": "386081dd4c66783b"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "backed",
-        "curious",
-        "discontinue",
-        "intrusion",
-        "overshadowed",
-        "pleading",
-        "sided with",
-        "stylish"
-      ],
-      "translation_note_count": 1,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-03",
-        "family": "familiar-word-polysemy",
-        "question": null,
-        "note_fingerprint": "80f293cfa153ee15"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-03-2016-text2.json"
-      ]
     }
   ],
   "presentation_quality": [
@@ -623,6 +561,17 @@
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-08-2017-text1",
+        "learning_date": "2026-11-08",
+        "updated_on": "2026-11-08",
+        "exam": "2017-english1",
+        "part": "Reading Text 1",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-08-2017-text1.json",
+        "round_file": "data/article-reviews/2026-11-08-2017-text1.json",
+        "publication_date": "2026-11-08"
+      },
       {
         "session_id": "2026-11-07-2017-cloze",
         "learning_date": "2026-11-07",
@@ -699,17 +648,6 @@
         "session_file": "data/article-sessions/2026-11-01-2016-cloze.json",
         "round_file": "data/article-reviews/2026-11-01-2016-cloze.json",
         "publication_date": "2026-11-02"
-      },
-      {
-        "session_id": "2026-10-30-2015-text4",
-        "learning_date": "2026-10-30",
-        "updated_on": "2026-10-30",
-        "exam": "2015-english1",
-        "part": "Reading Text 4",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-10-30-2015-text4.json",
-        "round_file": "data/article-reviews/2026-10-30-2015-text4.json",
-        "publication_date": "2026-10-31"
       }
     ]
   },
@@ -804,38 +742,38 @@
       "families": [
         {
           "family": "title-coverage",
-          "label": "主旨判断：整体任务与具体例子",
-          "focus": "用户明确自述文章整体未充分理解；照片及文字确定41 C错误、45 B错误，42 G/43 D/44 E正确，纸质5题中3题正确。42—44能从明显关键句找到对应标题，但没有逐题确认…",
+          "label": "topic relevance / central argument",
+          "focus": "参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，…",
           "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-06",
+          "latest_observation": "2026-11-08",
           "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-11-07",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-06",
+            "date": "2026-11-08",
             "family": "title-coverage",
-            "question": null,
-            "note_fingerprint": "d3a7a5549642838d"
+            "question": 25,
+            "note_fingerprint": "1bf709999e65fe53"
           }
         },
         {
           "family": "inference-boundary",
-          "label": "正确选项字母不具排除力",
-          "focus": "用户在C/D之间犹豫，已注意到D可能把部分经营方式需要调整扩大为传统业务整体过时，这是有效的原文证据判断；同时参考了此前D较多、C较少的答案字母分布这一不可靠启发式。最终确认选择C…",
-          "paper_kind": "correct_but_uncertain",
-          "latest_observation": "2026-11-05",
+          "label": "exclusion reason / actual paragraph evidence",
+          "focus": "用户自述“大概率是因为前面四个选项没有B”而选择B；这是可能受答案字母分布干扰的自我解释，不是经核验的唯一原因。前四题实际选择仍未知。即使B在部分参考解析中正确，字母分布也不构成文…",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-08",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-11-03",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-05",
+            "date": "2026-11-08",
             "family": "inference-boundary",
-            "question": 39,
-            "note_fingerprint": "44e9571f5746d24e"
+            "question": null,
+            "note_fingerprint": "8d20f76a0c9717c5"
           }
         }
       ]
@@ -1023,20 +961,6 @@
         "question": 3,
         "note_fingerprint": "46f72e3e7ff8bd22"
       }
-    },
-    {
-      "exam": "2016-english1",
-      "part": "Text 2",
-      "question": 26,
-      "date": "2026-11-03",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-03",
-        "family": "familiar-word-polysemy",
-        "question": 26,
-        "note_fingerprint": "b7424f154044cfc2"
-      }
     }
   ],
   "warnings": [
@@ -1076,7 +1000,8 @@
     "article-review-2026-11-05-2016-text4.html": "f1a2d2d8b443dc49b5bb9c58f5c6fa2186f0dabcb7f356f354ab7b7bed8414c3",
     "article-review-2026-11-06-2016-partb-headings.html": "2e4e00cbcb7602c0d8d451afc7dc60d6fbfbd794fb52efc4d8d6a7100f55d173",
     "article-review-2026-11-07-2017-cloze.html": "9b6d232351b655334022ef30239fa54d7070b0a998d93e72f449488f66aa6c70",
-    "data/article-review.json": "e6e1de3db6962be1ce22434fc4a41570365aa2486be2226535be8b2cb03bf4c0",
+    "article-review-2026-11-08-2017-text1.html": "135dd0c9c56dc96783c809fa5e8dde495825f3f2b69e6c95172f50d3193cf7f7",
+    "data/article-review.json": "44acef596d572c6bdccf7d9349d50431285930b4377da80130158bd692b89d56",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1116,6 +1041,7 @@
     "data/article-reviews/2026-11-05-2016-text4.json": "67d1ecb0a84a7445fa670fcb640eacf53e443fdde338a476e5bc04fc2f9de282",
     "data/article-reviews/2026-11-06-2016-partb-headings.json": "085936f9fcba2f4c0d32ad04cc98f5d50188d7dc6491bd1412562543f1f29c5a",
     "data/article-reviews/2026-11-07-2017-cloze.json": "e6e1de3db6962be1ce22434fc4a41570365aa2486be2226535be8b2cb03bf4c0",
+    "data/article-reviews/2026-11-08-2017-text1.json": "44acef596d572c6bdccf7d9349d50431285930b4377da80130158bd692b89d56",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1150,6 +1076,7 @@
     "data/article-sessions/2026-11-05-2016-text4.json": "53163433eb3ab3999e6c0f64163d8c8b5b749126a4525646ab50581b099936c3",
     "data/article-sessions/2026-11-06-2016-partb-headings.json": "bf061195421065161d53d21cb059beac43ca493ecb085d8b8b56d0c951cd61ae",
     "data/article-sessions/2026-11-07-2017-cloze.json": "4d79b6b459b7a834edd9b6645575f1ae6cfe5e64901d5ca0804394fc1d543f82",
+    "data/article-sessions/2026-11-08-2017-text1.json": "bda0617ab897ef3201a8887154ba62c06d61d4c9beaea1b8de12705623fd3d0f",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1194,9 +1121,9 @@
     "data/days/2026-11-07.json": "08efd1c5f1940d52c8c9f6d221880c9562af45f966cded1b31aee0e4ee4f11dc",
     "data/days/2026-11-08.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
-    "data/learning-notes.json": "a7fe517f758496dc135779847b2873c5806be46adb58bcc570ef0e35fdb34b00",
+    "data/learning-notes.json": "88d56a6460097f6a8eefd0e90222c27a5e31166c9bd6451f5d2247e0cbb8cbd7",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
-    "data/question-contexts.json": "3b82bb6eda69664feb88e55f7b7314368748868b324821e566f4610cd994bc90",
+    "data/question-contexts.json": "f2401c08e268ccc2cba3d01c3b267f0425b5a2de586456f4fa16687fbaefa2dd",
     "data/question-presentations.json": "373c7da16aab2a5271c7ef939ebb98fc6f1880a2c5dce598aca9d6b1e72dc613",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1234,17 +1161,18 @@
     "data/questions/2026-11-05-2016-text4-migration.json": "69172e5b4826c84aecf8f4949eef82199f3d419ea93979f3b05a06d614bcd098",
     "data/questions/2026-11-06-2016-partb-headings-migration.json": "4f19cdd25fde1831ae552cd03c8e721951f0fd49943f0bf9906837d108fbd0fa",
     "data/questions/2026-11-07-2017-cloze-migration.json": "6c56589bed9c3a0e2032afe9edacc3fbe76a8ed92e3f1baf6e966da8b5e4fe5c",
+    "data/questions/2026-11-08-2017-text1-migration.json": "7426df5e21a24e6acff7d0d5548605f24a46b61cd9843244bed9fca21e197fe6",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "fdb60e8432b37b7aad2e92686f23b107173d2e65416e615f0aa0d14ad3dbf893",
-    "data/review-state.json": "e4c0c3cfe30c7c6bc785f935d9c635cd9de002db18c4bb944b15d083e5b4bfd3",
+    "data/review-state.json": "335d2926ee30257e0b6148560bced4ad283d70484385219670451c49acdb1249",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
-    "data/source-checks/2017-english1.json": "74d829dc0d7b1df4470f8e28f138f6dd08da0ab90208dbf031dee175188db8eb"
+    "data/source-checks/2017-english1.json": "c25ba3564b86d6489cbac0597c69caaded21f09feb4feb7a4f77f26f4505c58d"
   },
-  "source_fingerprint": "224c582fec556c09ae6485fe9f9c9de46b661c2ddead6c5e9c6adf82517db5da",
+  "source_fingerprint": "86bfaf5c65127a33c03cf5b62034a9d910d2ab893e7606235c061758adb19028",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

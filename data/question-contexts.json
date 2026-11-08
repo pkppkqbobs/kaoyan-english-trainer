@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-11-07",
-  "source_commit": "48c6fabf45a70b35d79d9ff365b8c2194bdcf074",
+  "reviewed_on": "2026-11-08",
+  "source_commit": "eb1df8bb21f6c281c6edd05626276440c57cfce1",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -450,7 +450,23 @@
     "cl17-susceptibility-coatings": "susceptibility-controlled-comparison",
     "cl17-susceptibility-adverts": "susceptibility-versus-exposure-operationalization",
     "cl17-intimacy-letters": "intimacy-emotional-versus-physical-distance",
-    "cl17-intimacy-theatre": "intimacy-setting-and-informal-contact"
+    "cl17-intimacy-theatre": "intimacy-setting-and-informal-contact",
+    "t17-title-urban-birds": "multiple-causes-single-remedy-title",
+    "t17-title-repair-network": "demonstrated-remedy-central-to-title",
+    "t17-title-crop-diversity": "opening-case-versus-long-term-principle-title",
+    "t17-title-music-counts": "evaluative-criterion-beyond-surface-topic-title",
+    "t17-reason-label-gap": "possibly-correct-conclusion-invalid-letter-rationale",
+    "t17-reason-mechanism-focus": "mechanism-is-present-but-not-main-argument",
+    "t17-belated-recognition": "late-recognition-not-rescheduled-ceremony",
+    "t17-belated-apology": "planned-postponement-versus-overdue-response",
+    "t17-advance-reservation": "lead-time-for-reserving-an-event",
+    "t17-advance-two-dimensions": "spatial-distance-and-temporal-lead-two-questions",
+    "t17-infuriating-autosave": "infuriating-intense-negative-evaluation",
+    "t17-infuriating-reaction": "emotion-cause-versus-experiencer",
+    "t17-remodel-theatre": "physical-remodel-existing-interior",
+    "t17-remodel-decisions": "figurative-remodel-organizational-structure",
+    "t17-screening-film": "screening-film-event-context",
+    "t17-screening-applications": "screening-eligibility-filter-not-final-selection"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -664,8 +680,19 @@
     },
     "title-coverage": {
       "coverage_gap": false,
-      "previous_gap": null,
-      "reason": "新增社区公园障碍诊断标题题，将段落中心功能与单项措施分开。2016 Part B整篇理解不足与第42-44题匹配正确为独立证据。"
+      "reason": "2017 Text1文字证据新增4题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "multiple-causes-single-remedy-title",
+        "demonstrated-remedy-central-to-title",
+        "opening-case-versus-long-term-principle-title",
+        "evaluative-criterion-beyond-surface-topic-title"
+      ],
+      "previous_assessment": {
+        "coverage_gap": false,
+        "previous_gap": null,
+        "reason": "新增社区公园障碍诊断标题题，将段落中心功能与单项措施分开。2016 Part B整篇理解不足与第42-44题匹配正确为独立证据。"
+      }
     },
     "text4-federal-state-boundary": {
       "coverage_gap": true,
@@ -693,7 +720,16 @@
     },
     "inference-boundary": {
       "coverage_gap": false,
-      "reason": "新增气候模型局部参数、野生动物部分样本、睡眠试验长短期、流域研究与答案字母频率四种迁移；检验结论范围及不可靠字母分布策略。"
+      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "possibly-correct-conclusion-invalid-letter-rationale",
+        "mechanism-is-present-but-not-main-argument"
+      ],
+      "previous_assessment": {
+        "coverage_gap": false,
+        "reason": "新增气候模型局部参数、野生动物部分样本、睡眠试验长短期、流域研究与答案字母频率四种迁移；检验结论范围及不可靠字母分布策略。"
+      }
     },
     "logic": {
       "coverage_gap": false,
@@ -827,6 +863,51 @@
       "evidence_paths": [
         "intimacy-emotional-versus-physical-distance",
         "intimacy-setting-and-informal-contact"
+      ]
+    },
+    "advance-time-expression": {
+      "coverage_gap": false,
+      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "lead-time-for-reserving-an-event",
+        "spatial-distance-and-temporal-lead-two-questions"
+      ]
+    },
+    "infuriating-vocab": {
+      "coverage_gap": false,
+      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "infuriating-intense-negative-evaluation",
+        "emotion-cause-versus-experiencer"
+      ]
+    },
+    "remodel-vocab": {
+      "coverage_gap": false,
+      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "physical-remodel-existing-interior",
+        "figurative-remodel-organizational-structure"
+      ]
+    },
+    "screening-polysemy": {
+      "coverage_gap": false,
+      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "screening-film-event-context",
+        "screening-eligibility-filter-not-final-selection"
+      ]
+    },
+    "belated-timing": {
+      "coverage_gap": false,
+      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+      "review_session": "2026-11-08-2017-text1",
+      "evidence_paths": [
+        "late-recognition-not-rescheduled-ceremony",
+        "planned-postponement-versus-overdue-response"
       ]
     }
   },

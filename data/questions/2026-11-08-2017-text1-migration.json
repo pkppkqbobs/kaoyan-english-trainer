@@ -1,0 +1,402 @@
+[
+  {
+    "id": "t17-title-urban-birds",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-08",
+    "budget": 65,
+    "target": "core problem / proposed remedy",
+    "skill": "core problem / proposed remedy",
+    "q": "A city installed hundreds of nest boxes after birds stopped breeding in several parks. Some boxes remained empty. Researchers then found that night lighting disrupted feeding and that insect numbers had fallen. The writer welcomes the boxes but argues that nesting space is only one part of the problem. Which title best captures the argument?",
+    "o": [
+      "Urban Birds Need More Than Extra Nest Boxes",
+      "Nest Boxes Have Ended the Decline of City Birds",
+      "How Carpenters Build the City's Nest Boxes",
+      "Why All Wild Birds Now Leave Cities Forever"
+    ],
+    "a": 0,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "城市增设巢箱后，一些箱子仍空着。后续发现夜间照明和昆虫减少也影响繁殖；作者认可巢箱，但指出单一措施不够。",
+      "structure": "前两句给出措施及局限；then引出另外的原因；welcomes...but argues明确作者最后的限定主张。",
+      "other": "nest box巢箱；breeding繁殖；disrupt扰乱；feeding觅食。",
+      "meaning": "标题要包含单一解决办法不足以覆盖多种原因的论点，不能把受到欢迎的措施直接写成已经解决全部问题。",
+      "rest": "Have Ended夸大为问题已解决；How...Build只写建设方法；All...Forever加入全文不支持的绝对结论。"
+    }
+  },
+  {
+    "id": "t17-title-repair-network",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-08",
+    "budget": 65,
+    "target": "problem title / solution title",
+    "skill": "problem title / solution title",
+    "q": "Residents were throwing away repairable clothes because they lacked sewing skills. A cooperative linked volunteer tailors with neighbourhood workshops, shared spare materials and taught simple repairs. The passage spends most of its space explaining how that network works and ends by recommending similar networks elsewhere. Which title fits best?",
+    "o": [
+      "Why Every Modern Fabric Wears Out Too Quickly",
+      "A Repair Network Gives Old Clothes a Second Life",
+      "The Small Tools Carried by One Volunteer Tailor",
+      "How Clothing Brands Set Prices for New Collections"
+    ],
+    "a": 1,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "居民缺乏缝补技能而丢弃可修衣物。合作社把志愿裁缝、社区工坊和剩余材料联成网络，文章主要介绍网络做法并建议推广。",
+      "structure": "because交代起初的问题；linked、shared、taught展开方案；most of its space和ends by recommending说明全文重心。",
+      "other": "cooperative合作社；tailor裁缝；spare剩余的；repairable可修复的。",
+      "meaning": "此处方案型标题有全文展开和结论支持，不能机械认为问题型标题一定更全面。",
+      "rest": "Every Fabric把技能问题改成所有面料质量问题；One Tailor的工具袋只是可能细节；品牌定价没有被讨论。"
+    }
+  },
+  {
+    "id": "t17-title-crop-diversity",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-08",
+    "budget": 65,
+    "target": "opening example / whole-text focus",
+    "skill": "opening example / whole-text focus",
+    "q": "A report opens with one family losing its beans during a dry summer. It then follows seed banks that preserve many crop varieties, including ones not currently profitable. The final sections argue that these collections keep future farming options open when climates and diseases change. Which title best covers the report?",
+    "o": [
+      "Why One Family Needs a Larger Vegetable Garden",
+      "Growing Every Crop Indoors Without Any Seeds",
+      "Saving Crop Diversity for an Uncertain Future",
+      "New Chemicals Make All Traditional Crops Obsolete"
+    ],
+    "a": 2,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "开头是一家人的豆类歉收，但报告随后讨论种子库保留品种、在未来变化中保存农业选择的长期意义。",
+      "structure": "opens with表示例子入口；then和final sections说明后续主体及论点，不能以开篇人物替代全文。",
+      "other": "seed bank种子库；variety品种；profitable有利可图的；preserve保存。",
+      "meaning": "标题须概括保存作物多样性及其未来价值，而不是只复述开头案例或单一技术。",
+      "rest": "One Family过窄；Indoors Without Seeds添加不存在的技术；All...Obsolete又把保存传统品种的主张改成淘汰。"
+    }
+  },
+  {
+    "id": "t17-title-music-counts",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-08",
+    "budget": 65,
+    "target": "topic relevance / central argument",
+    "skill": "topic relevance / central argument",
+    "q": "An essay begins with a song that attracted millions of brief plays. It contrasts that success with a small community choir whose listeners attend repeatedly and form lasting friendships. Rather than dismiss streaming, the author asks whether listening totals alone capture music's social value. Which title best expresses the point?",
+    "o": [
+      "Why Streaming Platforms Need Many More Users",
+      "One Singer's Guaranteed Route to a Viral Hit",
+      "How Streaming Apps Compress Digital Audio Files",
+      "Beyond Listener Counts: What Makes Music Matter"
+    ],
+    "a": 3,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "文章从高播放量歌曲写起，对比社区合唱团带来的持续参与和友谊，质疑单靠播放量能否衡量音乐的社会价值。",
+      "structure": "contrasts构成案例对比；Rather than dismiss排除全面否定平台的读法；whether引出作者质疑的评价标准。",
+      "other": "choir合唱团；brief短暂的；lasting持久的；social value社会价值。",
+      "meaning": "流媒体只是话题之一，核心论点是评价标准是否过于单一，标题要体现这一层。",
+      "rest": "More Users仍只追求数量；Guaranteed Route把引例误作操作教程；Compress Audio讨论技术细节而非社会价值。"
+    }
+  },
+  {
+    "id": "t17-reason-label-gap",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-08",
+    "budget": 55,
+    "target": "textual evidence / answer-label pattern",
+    "skill": "textual evidence / answer-label pattern",
+    "q": "On a paper with no stated rule requiring balanced answer labels, an editor chooses a title that fits every paragraph, but explains: \"I chose it because its answer label had not appeared in the previous questions.\" What is the soundest assessment?",
+    "o": [
+      "The title may fit, but that label pattern supplies no textual support.",
+      "The unused label independently confirms the passage's central argument.",
+      "An unused label can decide between two equally plausible titles.",
+      "A title must be rejected if its label appeared in two earlier answers."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "编辑可能选中了符合全文的标题，但“这个字母此前没出现”不能为标题提供文本依据。结论与理由要分别核验。",
+      "structure": "主句chooses描述选择；but转向其解释理由；because后给出的只是标签分布，未引用任何内容证据。",
+      "other": "assessment评价；label标签；scope覆盖范围；textual support文本支持。",
+      "meaning": "碰巧选到合适选项，并不使错误的字母配平策略成立；争议题更应保留文本依据。",
+      "rest": "“独立证实主旨”和“用未出现字母决定标题”都把标签分布当作语义证据；看到重复字母就拒绝也是无依据的配平规则。"
+    }
+  },
+  {
+    "id": "t17-reason-mechanism-focus",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-08",
+    "budget": 55,
+    "target": "exclusion reason / actual paragraph evidence",
+    "skill": "exclusion reason / actual paragraph evidence",
+    "q": "A teaching article explains how software marks stress patterns in students' recorded speech. It then describes students becoming afraid to speak and recommends low-stakes rehearsal. A proposed title is \"How the Software Calculates Every Score.\" What is the strongest reason to reject it?",
+    "o": [
+      "The article gives no account of how the software identifies stress patterns.",
+      "Its procedural focus misses the article's concern about willingness to practise.",
+      "An unfamiliar word automatically makes a title unsuitable for this passage.",
+      "The same option label appeared too often in earlier questions on this sheet."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "文章确实解释了软件识别重音的机制，但后半部分主要讨论学习者不敢开口及低压力练习。程序教程型标题不能体现这一关切。",
+      "structure": "explains给出机制；then转向对学习行为的影响；recommends说明作者主张，须综合后两者确定中心。",
+      "other": "stress pattern重音模式；low-stakes低压力、非高风险的；rehearsal练习。",
+      "meaning": "排除理由必须准确：局部机制已被介绍，正确的比较点是它是否构成全文主要论点。",
+      "rest": "no account否认了首句已提供的信息；unfamiliar word不能单独证明标题错误；earlier labels也不构成本文的内容证据。"
+    }
+  },
+  {
+    "id": "t17-belated-recognition",
+    "family": "belated-timing",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "belated / delayed / postponed",
+    "skill": "belated / delayed / postponed",
+    "q": "An award ceremony started exactly on schedule, but honoured a discovery that had been ignored for forty years. A journalist called it belated recognition. What does belated describe?",
+    "o": [
+      "The ceremony had been moved to a later date.",
+      "The discovery was made only during the ceremony.",
+      "Recognition came much later than it should have.",
+      "Recognition had preceded the original discovery."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "仪式准时举行，却在发现被忽略四十年后才给予承认；belated说的是承认来得太晚，不是仪式延期。",
+      "structure": "started on schedule与honoured...ignored for forty years形成时间层次对比；belated修饰recognition。",
+      "other": "honour表彰；recognition认可；on schedule按计划时间。",
+      "meaning": "belated强调迟来、晚于适当时点；delayed描述延迟，postponed着重安排改到更晚。不能把来得太晚一概理解为活动主动改期。",
+      "rest": "moved to a later date说仪式改期，与准时不符；made during the ceremony否定了四十年前的发现；preceded则把先后关系颠倒。"
+    }
+  },
+  {
+    "id": "t17-belated-apology",
+    "family": "belated-timing",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "postponed / belated",
+    "skill": "postponed / belated",
+    "q": "A publisher postponed a conference from June to September. Its belated apology reached customers only after the refund deadline had passed. Which interpretation preserves both timing relations?",
+    "o": [
+      "The conference ended late; the apology came ahead of its deadline.",
+      "Both statements say that the conference itself began ahead of schedule.",
+      "The apology moved the conference; no other date had been announced.",
+      "The event was rescheduled; the apology came later than it should have."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "出版社把会议从六月推至九月；道歉又在退款截止后才到。前者是安排后移，后者是反应来迟。",
+      "structure": "postponed支配conference，from...to...明确改期；belated修饰apology，不把道歉当作造成改期的动作。",
+      "other": "publisher出版社；refund退款；deadline截止时间；reschedule重新安排时间。",
+      "meaning": "比较词义时要看修饰对象及时间事实，delayed也可泛指延迟，不能只凭一个中文释义机械排斥相近词。",
+      "rest": "ended late把改期误作结束晚，ahead of deadline又颠倒道歉时点；ahead of schedule与延期相反；apology moved把道歉错误地当作改期原因。"
+    }
+  },
+  {
+    "id": "t17-advance-reservation",
+    "family": "advance-time-expression",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "how far in advance",
+    "skill": "how far in advance",
+    "q": "A craftworker has to reserve a kiln before a ceramics fair. She asks how far in advance the reservation must be made. The reply is \"Six weeks before the fair.\" What information was requested?",
+    "o": [
+      "How long before the event a reservation is needed.",
+      "How far the kiln is from the nearest main road.",
+      "How long the finished object will take to transport.",
+      "How many customers have already reserved the same day."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "陶艺师问展会前需要提前多久预约窑炉，回答是六周；问的是提前时长，而非道路距离。",
+      "structure": "asks后为间接疑问句how far in advance the reservation must be made；in advance把far放入时间先后关系中。",
+      "other": "kiln窑炉；ceramics陶艺；reservation预约；fair展会。",
+      "meaning": "how far in advance询问相对某个事件提前多长时间，要整体理解，不能把far只当空间距离。",
+      "rest": "nearest road询问空间距离；transport time询问运输耗时，不是提前多久；how many customers询问人数。"
+    }
+  },
+  {
+    "id": "t17-advance-two-dimensions",
+    "family": "advance-time-expression",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "how far / how far in advance",
+    "skill": "how far / how far in advance",
+    "q": "An engineer asks how far a probe has travelled and how far in advance the team reserved observation time. Which pair of answers fits those questions in order?",
+    "o": [
+      "A time interval; the number of people in the team.",
+      "A travelled distance; a time interval before the event.",
+      "A travelled distance; another distance from the station.",
+      "A degree of success; the total length of the observation."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "第一问探测器行进多远，第二问团队提前多久预订观测时段；依次回答距离和提前时长。",
+      "structure": "两个how引导并列问题；第一处由travelled确定空间距离，第二处由in advance和reserved确定时间提前量。",
+      "other": "probe探测器；observation观测；interval间隔。",
+      "meaning": "同一个far在不同结构中对应不同维度；必须检查其搭配与所问关系。",
+      "rest": "time interval放在第一问不对应行程距离；another distance忽略in advance；total length是观测持续多久，不是预订提前多久。"
+    }
+  },
+  {
+    "id": "t17-infuriating-autosave",
+    "family": "infuriating-vocab",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "infuriating",
+    "skill": "infuriating",
+    "q": "An app repeatedly announced that a draft had been saved, then erased it. The reviewer called this infuriating. Which description is closest?",
+    "o": [
+      "使人略感欣慰的情况",
+      "使人深感羞愧的情况",
+      "使人非常恼火的情况",
+      "使人难以置信的情况"
+    ],
+    "a": 2,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "软件反复说草稿已保存，却又删掉草稿，评论者认为这令人十分恼火。",
+      "structure": "called this infuriating中this是宾语，infuriating是对软件行为的评价性宾补。",
+      "other": "draft草稿；erase删除；reviewer评论者。",
+      "meaning": "infuriating来自infuriate，表示使人愤怒、恼火，不仅是难以理解，也不是感到羞愧。",
+      "rest": "欣慰是正面感受；羞愧通常涉及对自身行为的负面评价；难以置信偏向不相信，未准确表达恼火。"
+    }
+  },
+  {
+    "id": "t17-infuriating-reaction",
+    "family": "infuriating-vocab",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "infuriating / infuriated",
+    "skill": "infuriating / infuriated",
+    "q": "The editor described repeated billing errors as infuriating, and the affected writers were infuriated. Which relation do the adjectives express?",
+    "o": [
+      "Both adjectives say the errors felt anger at the writers.",
+      "Both adjectives say the writers deliberately made errors.",
+      "The writers caused the errors to become deeply ashamed.",
+      "The errors caused anger; the writers experienced it."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "反复账单错误令人恼火，受影响的作者感到愤怒。错误是情绪诱因，作者是感受者。",
+      "structure": "errors as infuriating评价事情具有令人愤怒的性质；writers were infuriated说明人的反应。",
+      "other": "billing账单结算；affected受影响的；experience经历、感受。",
+      "meaning": "infuriating强调令人产生情绪的性质，infuriated强调处于愤怒中的状态；要同时核对修饰对象。",
+      "rest": "errors felt anger把无生命错误当情绪感受者；deliberately made errors补造故意行为；ashamed又把愤怒错换成羞愧。"
+    }
+  },
+  {
+    "id": "t17-remodel-theatre",
+    "family": "remodel-vocab",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "remodeling",
+    "skill": "remodeling",
+    "q": "The town kept its old theatre, but moved interior walls and changed the dressing-room layout. The building closed for remodeling. What was happening?",
+    "o": [
+      "Its existing interior was being reconfigured.",
+      "Its actors were training for newly assigned roles.",
+      "Its history was being turned into a stage script.",
+      "Its builders were making a small display model."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "城镇保留旧剧院，但移动内墙、调整化妆间布局，建筑因此关闭翻修；是改造现有内部空间。",
+      "structure": "kept...but moved/changed对照保留建筑与改变内部；for remodeling说明关闭的用途原因。",
+      "other": "interior内部的；dressing room化妆间；layout布局；reconfigure重新配置。",
+      "meaning": "remodeling在建筑语境是改造、翻修，不能只从model联想到制作模型。",
+      "rest": "actors training是演员排练；stage script是剧本改写；small display model是制作模型，均不对应移动内墙和改布局。"
+    }
+  },
+  {
+    "id": "t17-remodel-decisions",
+    "family": "remodel-vocab",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "remodel / context meaning",
+    "skill": "remodel / context meaning",
+    "q": "A merger was remodeling decision-making in a firm: teams that had once worked alone now shared budgets and plans. What does remodeling mean here?",
+    "o": [
+      "Repairing the walls around the company offices.",
+      "Reshaping how the organization makes decisions.",
+      "Measuring how many models the company has sold.",
+      "Replacing budget figures with an unchanged copy."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "合并正在重塑公司的决策方式：原先各自工作的团队开始共享预算和计划。这里是组织方式的变化。",
+      "structure": "was remodeling是过去进行时谓语，宾语decision-making限定语义范围；冒号后的新做法给出具体解释。",
+      "other": "merger合并；decision-making决策；firm公司。",
+      "meaning": "remodel也可比喻重塑既有结构，具体义取决于宾语；不能看到改造就一律解释为修房屋。",
+      "rest": "repairing walls强加建筑对象；models sold误套模型/商品义；unchanged copy否认了团队协作方式已经变化。"
+    }
+  },
+  {
+    "id": "t17-screening-film",
+    "family": "screening-polysemy",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "screening",
+    "skill": "screening",
+    "q": "The film society arranged a screening of a restored silent movie, followed by a discussion with the archivist. What event was arranged?",
+    "o": [
+      "一次按资格筛选申请的活动",
+      "一次检查随身行李的活动",
+      "一次向观众放映电影的活动",
+      "一次为影院改造座位的活动"
+    ],
+    "a": 2,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "电影社安排放映一部修复的默片，随后与档案员讨论；screening在这里是放映活动。",
+      "structure": "arranged的宾语a screening of a restored silent movie；of后的电影和后续讨论限定事件类型。",
+      "other": "film society电影社；restored修复的；silent movie默片；archivist档案员。",
+      "meaning": "screening在机场可指安检，但电影语境是放映，需随语境改变解释。",
+      "rest": "资格筛选属于申请流程；行李检查属于安检；改座位属于建筑改造，均不符合电影放映加讨论的安排。"
+    }
+  },
+  {
+    "id": "t17-screening-applications",
+    "family": "screening-polysemy",
+    "introduced": "2026-11-08",
+    "published_on": "2026-11-08",
+    "budget": 45,
+    "target": "screening / context meaning",
+    "skill": "screening / context meaning",
+    "q": "Before interviews, a charity screened applications to check whether candidates held the required licence. Only eligible applications moved forward. What was this screening?",
+    "o": [
+      "Checking visitors' bags before they entered a hall.",
+      "Showing a documentary about the charity's work.",
+      "Offering every applicant the same permanent job.",
+      "Filtering applications against an entry requirement."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-08-2017-text1",
+    "exp": {
+      "trans": "慈善机构在面试前检查申请者是否持有所需执照，只有合格申请进入下一步；这是按门槛做初筛。",
+      "structure": "screened的宾语applications；to check说明筛选标准；moved forward表示进入后续流程，不是最终录用。",
+      "other": "charity慈善机构；licence执照；eligible符合资格的。",
+      "meaning": "screening的具体含义由检查对象与目的决定；筛查、安检、放映不能只背成同一个中文词。",
+      "rest": "bags是人身/安检场景；documentary是放映场景；permanent job把面试前筛选升级为全部正式录用。"
+    }
+  }
+]
