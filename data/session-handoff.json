@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-08",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 42,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-07",
-      "issue": 41,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/41",
-      "round_id": "mw616ccc-n75nzm5y",
-      "correct": 7,
+      "date": "2026-11-08",
+      "issue": 42,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/42",
+      "round_id": "mw7lyhay-2z9mouox",
+      "correct": 5,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-11-07"
+        "2026-11-08"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-07.json",
+      "source": "data/days/2026-11-08.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -690,39 +690,39 @@
       "label": "修饰关系与熟词搭配",
       "families": [
         {
-          "family": "verb-effect-share",
-          "label": "serve a purpose / serve to do",
-          "focus": "用户后续明确解释：“serve我翻译成发挥整体效果的32。”知道serve可表示发挥作用，因而将这一中文释义直接套入发挥整体效果的32%的表达；不是把serve理解为服务，也不是简…",
+          "family": "phrasal-verb-illness",
+          "label": "come across / come up with / come down with",
+          "focus": "用户明确将第8题列为做错后仍不理解的题；come down with这一固定动词短语未识别。原始错误选项及改选过程未知。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-07",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
-          "slow_or_uncertain": false,
+          "slow_or_uncertain": true,
           "due": "2026-11-08",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-07",
-            "family": "verb-effect-share",
-            "question": 10,
-            "note_fingerprint": "b7268c466e1cef65"
+            "family": "phrasal-verb-illness",
+            "question": 8,
+            "note_fingerprint": "5a49bc122037f32b"
           }
         },
         {
-          "family": "social-cure-vocab",
-          "label": "host / a host of",
-          "focus": "用户明确将第3题列为做错后仍不理解的题；不熟悉a host of，容易只想到host的主人、主持人义。未确认错误字母、首次选择或改选。",
+          "family": "effect-source-target",
+          "label": "effect of A on B",
+          "focus": "用户明确将第6题列为错后仍不理解的题；需要理解effects of A on B中来源A与受影响对象B的关系。原来选了哪个介词未知。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-07",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": false,
           "due": "2026-11-08",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-07",
-            "family": "social-cure-vocab",
-            "question": 3,
-            "note_fingerprint": "46f72e3e7ff8bd22"
+            "family": "effect-source-target",
+            "question": 6,
+            "note_fingerprint": "110ac5709a678861"
           }
         }
       ]
@@ -1122,7 +1122,7 @@
     "data/article-sessions/2026-11-06-2016-partb-headings.json": "bf061195421065161d53d21cb059beac43ca493ecb085d8b8b56d0c951cd61ae",
     "data/article-sessions/2026-11-07-2017-cloze.json": "4d79b6b459b7a834edd9b6645575f1ae6cfe5e64901d5ca0804394fc1d543f82",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "7ac0f118e2aaa4d5477c07164e95e061c31b92daa36e5b185f08398ecf1fc3dd",
+    "data/daily.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1163,7 +1163,7 @@
     "data/days/2026-11-05.json": "2e3810b1c7b93484e823e987dee1eb4ed243c2b6e816c55b7dcdced60f939e34",
     "data/days/2026-11-06.json": "d853bb95f05c83ebf0f21e5931a35a54e3571a1044e249d7ea84a43a440486bf",
     "data/days/2026-11-07.json": "08efd1c5f1940d52c8c9f6d221880c9562af45f966cded1b31aee0e4ee4f11dc",
-    "data/days/2026-11-08.json": "7ac0f118e2aaa4d5477c07164e95e061c31b92daa36e5b185f08398ecf1fc3dd",
+    "data/days/2026-11-08.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
     "data/learning-notes.json": "18431e3a799bca1050b0a44154cad7d9c845b4ad7808cbe85c7fcbca667c502f",
     "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
     "data/question-contexts.json": "3b82bb6eda69664feb88e55f7b7314368748868b324821e566f4610cd994bc90",
@@ -1204,8 +1204,8 @@
     "data/questions/2026-11-06-2016-partb-headings-migration.json": "4f19cdd25fde1831ae552cd03c8e721951f0fd49943f0bf9906837d108fbd0fa",
     "data/questions/2026-11-07-2017-cloze-migration.json": "6c56589bed9c3a0e2032afe9edacc3fbe76a8ed92e3f1baf6e966da8b5e4fe5c",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "50ebd61b2d3791ed919a866a84ebec5ee311a98cd4b8d24849db16f8c3f99221",
-    "data/review-state.json": "d42988a4850c877fc6c5e4adb79c53868e4d6c8487fa5ebfb1c453b79feda425",
+    "data/result-evidence.json": "7beea9c4ab51ced28f92ec49d88901a05a77090099507ae5d41b42ec9097352a",
+    "data/review-state.json": "9d9258cfef11808267073af2bcec4e55e7a9da76804a8522feb4bd2c8b1e2824",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1213,7 +1213,7 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "74d829dc0d7b1df4470f8e28f138f6dd08da0ab90208dbf031dee175188db8eb"
   },
-  "source_fingerprint": "0ec628fb10081115cecd4963d455ce9d60cd03039cd8a2546e4e137b6ba70dc0",
+  "source_fingerprint": "c42581672640782b95a382400ac1b60b4d113d298dd516e0f06273b27028e7d8",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

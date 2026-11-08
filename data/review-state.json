@@ -41,7 +41,8 @@
     38,
     39,
     40,
-    41
+    41,
+    42
   ],
   "families": {
     "absolute-language": {
@@ -346,12 +347,12 @@
     },
     "effect-source-target": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-08",
       "due": "2026-11-08",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "end-up": {
@@ -397,11 +398,11 @@
     "expectation-contrast": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-08",
       "due": "2026-11-08",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "faint": {
@@ -467,11 +468,11 @@
     "heading-core-function": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-08",
       "due": "2026-11-08",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "heading-global-allocation": {
@@ -595,14 +596,14 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 9,
-      "errors": 1,
-      "last": "2026-11-04",
-      "due": "2026-11-25",
+      "streak": 0,
+      "errors": 2,
+      "last": "2026-11-08",
+      "due": "2026-11-08",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 15,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 16,
+      "observation_priority": 2
     },
     "paragraph-order-anaphora": {
       "streak": 0,
@@ -627,21 +628,21 @@
     "paragraph-scope-attitude": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-31",
-      "due": "2026-11-01",
+      "last": "2026-11-08",
+      "due": "2026-11-08",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "parallel-governance": {
-      "streak": 0,
+      "streak": 1,
       "errors": 4,
-      "last": "2026-11-07",
-      "due": "2026-11-08",
+      "last": "2026-11-08",
+      "due": "2026-11-10",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 9,
+      "observed_days": 10,
       "observation_priority": 0
     },
     "partb-boxed-vocab": {
@@ -666,12 +667,12 @@
     },
     "phrasal-verb-illness": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-08",
       "due": "2026-11-08",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "point": {
@@ -867,11 +868,11 @@
     "summary-location": {
       "streak": 0,
       "errors": 4,
-      "last": "2026-11-07",
-      "due": "2026-11-08",
+      "last": "2026-11-08",
+      "due": "2026-11-09",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 15,
+      "observed_days": 16,
       "observation_priority": 0
     },
     "susceptibility-vocab": {

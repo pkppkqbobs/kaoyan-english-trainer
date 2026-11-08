@@ -3405,6 +3405,94 @@
       "qid": "text4-executive-overreach-a",
       "round_id": "mw616ccc-n75nzm5y",
       "source_date": "2026-11-07"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "heading-core-function",
+      "ok": true,
+      "ms": 37838,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "pb16-heading-forest-release-timing",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "nested",
+      "ok": false,
+      "ms": 45680,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "cloze-whatever-documents-registrar-p",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "expectation-contrast",
+      "ok": true,
+      "ms": 53662,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "yet-warning-reality-a",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "effect-source-target",
+      "ok": false,
+      "ms": 34277,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "cl17-effects-room-echo",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "phrasal-verb-illness",
+      "ok": false,
+      "ms": 46733,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "cl17-illness-diary",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 96811,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "summary-trials-next-question",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 17420,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "parallel-governance-repair",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-08",
+      "family": "paragraph-scope-attitude",
+      "ok": true,
+      "ms": 101976,
+      "uncertain": false,
+      "origin": 42,
+      "qid": "paragraph-scope-delivery-fees",
+      "round_id": "mw7lyhay-2z9mouox",
+      "source_date": "2026-11-08"
     }
   ],
   "issues": [
@@ -3448,6 +3536,7 @@
     38,
     39,
     40,
-    41
+    41,
+    42
   ]
 }
