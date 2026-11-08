@@ -15,6 +15,9 @@
   let storageError = '', memoryOnly = false;
   let questionVisible = false;
   let retryLoading = false, contextMap = null;
+  const underlineReference = /\bunderlined\s+(?:word|phrase|clause)\b/i;
+  let presentations = null, presentationRequest = null;
+  const promptViews = new Set();
   const sources = new Map([...DATA.questions, ...Object.values(DATA.retry || {}).flat()].map(q => [q.id, q]));
   // Least-privilege GitHub access is opt-in and strictly local to the browser.
   // Never put an access token in GitHub Pages source, a report, an issue URL,
@@ -374,6 +377,104 @@
     p.textContent = text; p.className = className; parent.appendChild(p);
     return p;
   }
+  function presentationFor(q) {
+    const entry = presentations?.questions?.[q.id];
+    return entry?.prompt === q.q && entry.family === q.family ? entry : null;
+  }
+  function promptRanges(q) {
+    const marks = q.prompt_marks === undefined ? (presentationFor(q)?.prompt_marks || []) : q.prompt_marks;
+    if (!Array.isArray(marks)) return null;
+    const ranges = [];
+    for (const mark of marks) {
+      if (!mark || mark.type !== 'underline' || typeof mark.text !== 'string' || !mark.text) return null;
+      const occurrence = mark.occurrence === undefined ? 0 : mark.occurrence;
+      if (!Number.isInteger(occurrence) || occurrence < 0) return null;
+      const starts = [];
+      let offset = 0, start;
+      while ((start = q.q.indexOf(mark.text, offset)) !== -1) {
+        starts.push(start); offset = start + mark.text.length;
+      }
+      if (occurrence >= starts.length || (mark.occurrence === undefined && starts.length !== 1)) return null;
+      ranges.push([starts[occurrence], starts[occurrence] + mark.text.length]);
+    }
+    ranges.sort((a, b) => a[0] - b[0]);
+    if (ranges.some((range, i) => i && ranges[i - 1][1] > range[0])) return null;
+    return underlineReference.test(q.q) && !ranges.length ? null : ranges;
+  }
+  function invalidPresentation(q) {
+    const entry = presentationFor(q), root = rootRun();
+    const module = PREFIX === 'kaoyan.article.v1.' ? 'article' : PREFIX === 'kaoyan.passage.v1.' ? 'passage' : 'daily';
+    return entry?.invalid_rounds?.some(scope => scope.module === module && scope.date === root.date &&
+      scope.storageId === storageKey.slice(PREFIX.length)) ? entry : null;
+  }
+  function updateQualityNotice() {
+    const node = byId('qualityNotice');
+    if (!node) return;
+    const count = rootRun().queue.filter(q => invalidPresentation(q)).length;
+    node.textContent = count ? '本轮有' + count + '题的原版存在呈现缺陷。原始选择与判分保留；这些题不计正式复习统计，也不作为能力错误或掌握证据。' : '';
+    if (count) node.classList.remove('hidden');
+    else node.classList.add('hidden');
+  }
+  function paintPrompt(view) {
+    const ranges = promptRanges(view.q);
+    view.valid = ranges !== null;
+    view.node.textContent = '';
+    if (!view.valid) view.node.textContent = view.q.q;
+    else {
+      let offset = 0;
+      for (const [start, end] of ranges) {
+        view.node.appendChild(document.createTextNode(view.q.q.slice(offset, start)));
+        const mark = document.createElement('u');
+        mark.className = 'question-underline';
+        mark.textContent = view.q.q.slice(start, end);
+        mark.style.textDecorationLine = 'underline';
+        mark.style.textDecorationThickness = '2px';
+        mark.style.textUnderlineOffset = '0.16em';
+        mark.style.textDecorationSkipInk = 'none';
+        view.node.appendChild(mark); offset = end;
+      }
+      view.node.appendChild(document.createTextNode(view.q.q.slice(offset)));
+    }
+    const invalid = invalidPresentation(view.q);
+    view.status.textContent = !view.valid ? (presentations ? '题目未提供可核验的划线范围，暂不可作答；请刷新或反馈此题。' : '正在读取题干标记，标记显示后才可作答。') :
+      invalid ? '此划线是维护时补充的明确范围，原版未显示目标。' + invalid.invalid_reason : '';
+    if (view.status.textContent) view.status.classList.remove('hidden');
+    else view.status.classList.add('hidden');
+    for (const control of view.controls) control.disabled = view.answered || !view.valid;
+  }
+  function loadPresentations() {
+    if (presentationRequest) return;
+    presentationRequest = (async () => {
+      const controller = new AbortController();
+      let timer;
+      try {
+        const deadline = new Promise((_, reject) => {
+          timer = setTimeout(() => { controller.abort(); reject(Error('Presentation metadata timed out')); }, 5000);
+        });
+        const request = (async () => {
+          const response = await fetch('./data/question-presentations.json', {cache: 'no-store', signal: controller.signal});
+          if (!response.ok) throw Error('Presentation metadata unavailable');
+          return response.json();
+        })();
+        const metadata = await Promise.race([request, deadline]);
+        if (metadata?.schema_version !== 1 || !metadata.questions || Array.isArray(metadata.questions)) throw Error('Invalid presentation metadata');
+        presentations = metadata;
+      } catch (_) {
+        presentations = {schema_version: 1, questions: {}};
+      } finally {
+        clearTimeout(timer);
+        for (const view of promptViews) paintPrompt(view);
+        updateQualityNotice();
+      }
+    })();
+  }
+  function questionPrompt(parent, q, answered) {
+    const view = {q, answered, controls: [], node: paragraph(parent, '', 'sentence'),
+      status: paragraph(parent, '', 'notice hidden'), valid: false};
+    promptViews.add(view); paintPrompt(view);
+    if (!view.valid) loadPresentations();
+    return view;
+  }
   function explanation(parent, q) {
     const box = document.createElement('section'); box.className = 'explanation';
     const fields = [['trans', '1.【整句翻译】'], ['structure', '2.【句子主干】'], ['other', '3.【其他词汇】'], ['meaning', '4.【本题词义】'], ['rest', '5.【其余选项】']];
@@ -401,13 +502,16 @@
   });
   window.addEventListener('pagehide', checkpoint);
   function shell() {
-    app.innerHTML = '<header><h1>' + (DATA.title || '今日定制 · 8题') + '</h1><div id="meta" class="muted"></div><div class="actions"><a class="button" href="./">返回总训练站</a><button id="historyBtn">本地历史记录</button><button id="todayBtn">' + (DATA.progressLabel || '返回本轮进度') + '</button><button id="githubAuthBtn">GitHub 自动同步设置</button></div></header><p id="notice" class="notice hidden" role="status"></p><section id="body" class="card" aria-live="polite"></section>';
+    promptViews.clear();
+    app.innerHTML = '<header><h1>' + (DATA.title || '今日定制 · 8题') + '</h1><div id="meta" class="muted"></div><div class="actions"><a class="button" href="./">返回总训练站</a><button id="historyBtn">本地历史记录</button><button id="todayBtn">' + (DATA.progressLabel || '返回本轮进度') + '</button><button id="githubAuthBtn">GitHub 自动同步设置</button></div></header><p id="notice" class="notice hidden" role="status"></p><p id="qualityNotice" class="notice hidden" role="status"></p><section id="body" class="card" aria-live="polite"></section>';
     byId('meta').textContent = state.meta || (state.date + (storageKey === PREFIX + (DATA.storageId || DATA.date) ? '' : ' · 历史题单') + ' · 约5–10分钟 · 答题后显示解析 · 刷新保留进度');
     byId('historyBtn').onclick = () => { checkpoint(); historyView(); };
     byId('todayBtn').onclick = () => { checkpoint(); restore(PREFIX + (DATA.storageId || DATA.date)); render(); };
     byId('githubAuthBtn').onclick = () => { checkpoint(); showIssueSettings(); };
     if (!DATA.ignoreStale && DATA.date < today()) notice('服务器当前题单日期为 ' + DATA.date + '。若今日任务尚未发布，可先保留进度，稍后刷新；不要清空本地记录。');
     if (storageError) notice(storageError);
+    updateQualityNotice();
+    if (rootRun().queue.some(q => underlineReference.test(q.q) && !q.prompt_marks)) loadPresentations();
   }
   function render() {
     shell();
@@ -420,10 +524,12 @@
     paragraph(body, '【本题目标：' + q.target + '】', 'target');
     paragraph(body, (run.kind === 'retry' ? '错题重做' : '主测') + ' · ' + (run.index + 1) + ' / ' + run.queue.length, 'muted');
     if (q.retryOriginal) paragraph(body, q.retryNotice || '此目标暂时没有另一道新语境题，当前重做原题；首次错误仍保留。', 'notice');
-    paragraph(body, q.q, 'sentence');
+    const prompt = questionPrompt(body, q, !!record);
     const choices = document.createElement('div'); choices.className = 'choices';
     q.o.forEach((text, i) => {
       const b = button(LETTERS[i] + '. ' + text, () => answer(i), 'choice');
+      b.disabled = !!record || !prompt.valid;
+      prompt.controls.push(b);
       if (record) {
         b.disabled = true;
         if (i === q.a) b.classList.add('good');
@@ -450,6 +556,7 @@
     const run = current();
     if (run.answers[run.index]) return;
     const q = run.queue[run.index];
+    if (promptRanges(q) === null) { notice('题干缺少明确标记，本次未记录作答。'); return; }
     run.answers[run.index] = {qid: q.id, family: q.family, pick, expected: q.a, ok: pick === q.a, ms: milliseconds(), uncertain: false,
       answeredOn: today()};
     delete run.timing;
@@ -526,7 +633,7 @@
       q = displayQuestion(q);
       const item = document.createElement('article'); item.className = 'review';
       paragraph(item, '【本题目标：' + q.target + '】', 'target');
-      paragraph(item, q.q, 'sentence');
+      questionPrompt(item, q, true);
       q.o.forEach((text, i) => paragraph(item, LETTERS[i] + '. ' + text));
       paragraph(item, '你选 ' + LETTERS[record.pick] + '；正确答案 ' + LETTERS[q.a] + '。');
       explanation(item, q); body.appendChild(item);

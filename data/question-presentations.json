@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-08",
+  "scope": "Presentation-only corrections for exact historical prompts; never change choices, keys, reports, localStorage, or published snapshots.",
+  "questions": {
+    "cloze-whatever-documents-registrar-p": {
+      "family": "nested",
+      "prompt": "The registrar will accept whatever documents the applicant submits before Friday. What role does the underlined phrase play?",
+      "prompt_marks": [
+        {
+          "type": "underline",
+          "text": "whatever documents the applicant submits before Friday",
+          "occurrence": 0
+        }
+      ],
+      "original_marking_status": "No range or markup was stored in the original source or immutable publications.",
+      "editorial_target_basis": "Target added by maintenance from the source explanation and answer content, not recovered from an original underline.",
+      "invalid_reason": "原版没有标出分析范围；原始作答与判分保留，但该题不作为能力错误或掌握证据。",
+      "invalid_rounds": [
+        {
+          "module": "daily",
+          "date": "2026-11-08",
+          "storageId": "2026-11-08"
+        },
+        {
+          "module": "article",
+          "date": "2026-11-02",
+          "storageId": "2026-11-02-2016-text1"
+        }
+      ]
+    }
+  }
+}

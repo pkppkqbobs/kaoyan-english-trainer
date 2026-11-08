@@ -11,5 +11,21 @@
     "family": "cling-climb",
     "reason": "2026-10-03锁定题干中climbed to the railing / did not try to climb it可以解释为爬到栏杆附近而没有攀爬栏杆，不能仅依据该选择认定cling/climb混淆。今天题单与原始报告保留；此题不计入错误次数、uncertain或连续掌握证据。题库源版本已增加明确抓紧手臂和翻越护栏的语境。",
     "reviewed_on": "2026-10-03"
+  },
+  {
+    "date": "2026-11-02",
+    "qid": "cloze-whatever-documents-registrar-p",
+    "family": "nested",
+    "reason": "原发布题干要求分析the underlined phrase，却没有保存或显示目标范围。维护补充的划线不能倒推原版范围已明确；该原版作答保留，不计错误、猜答、掌握天数或复习状态。",
+    "reviewed_on": "2026-11-08",
+    "quality_status": "invalid_presentation"
+  },
+  {
+    "date": "2026-11-08",
+    "qid": "cloze-whatever-documents-registrar-p",
+    "family": "nested",
+    "reason": "原发布题干要求分析the underlined phrase，却没有保存或显示目标范围。维护补充的划线不能倒推原版范围已明确；该原版作答保留，不计错误、猜答、掌握天数或复习状态。",
+    "reviewed_on": "2026-11-08",
+    "quality_status": "invalid_presentation"
   }
 ]

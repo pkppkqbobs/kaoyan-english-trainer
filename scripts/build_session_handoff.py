@@ -228,7 +228,7 @@ def pending_items(notes, rejected, recent):
     return pending[:10]
 
 
-def web_results(inputs, evidence, current_day=None):
+def web_results(inputs, evidence, current_day=None, *, excluded_rows=()):
     snapshots = []
     for module, directory in (('daily', 'data/days'), ('article', 'data/article-reviews')):
         for path in sorted((inputs.root / directory).glob('*.json')):
@@ -236,10 +236,14 @@ def web_results(inputs, evidence, current_day=None):
             payload = inputs.read(rel, {})
             snapshots.append((module, rel, payload))
     accepted = set(evidence.get('issues', []))
+    excluded_keys = {(r.get('origin'), r.get('source_date'), r.get('round_id'), r.get('qid'))
+                     for r in excluded_rows if r.get('origin') in accepted}
     groups = defaultdict(list)
-    for row in evidence.get('rows', []):
+    # Archived excluded originals can prove that a submitted round contained
+    # all eight questions. They never re-enter its effective score or mastery.
+    for row in [*evidence.get('rows', []), *excluded_rows]:
         if row.get('origin') in accepted and not row.get('partb_result'):
-            groups[row['origin']].append(row)
+            groups[row['origin']].append({k: v for k, v in row.items() if k != 'exclusion_reason'})
     verified, unverified, seen = [], [], set()
     for issue, rows in sorted(groups.items()):
         try:
@@ -268,13 +272,22 @@ def web_results(inputs, evidence, current_day=None):
             if identity in seen:
                 continue
             seen.add(identity)
-            known_dates = sorted({r['date'] for r in unique.values() if not r.get('date_unverified')})
-            verified.append({'status': 'verified', 'module': module, 'date': stamp(payload['date']),
+            usable = [r for r in unique.values() if (issue, r.get('source_date'), r.get('round_id'), r['qid']) not in excluded_keys]
+            if not usable:
+                raise ValueError('本轮没有可参与统计的有效首次作答')
+            known_dates = sorted({r['date'] for r in usable if not r.get('date_unverified')})
+            result = {'status': 'verified', 'module': module, 'date': stamp(payload['date']),
                              'issue': issue, 'issue_url': GITHUB + '/issues/' + str(issue),
-                             'round_id': short(next(iter(rounds)), 80), 'correct': sum(r['ok'] for r in unique.values()),
-                             'total': 8, 'uncertain': sum(bool(r.get('uncertain')) for r in unique.values()),
-                             'answer_dates': known_dates, 'answer_date_status': 'verified' if all(not r.get('date_unverified') for r in unique.values()) else '未完全确认',
-                             'source': path, 'evidence_source': 'data/result-evidence.json'})
+                             'round_id': short(next(iter(rounds)), 80), 'correct': sum(r['ok'] for r in usable),
+                             'total': len(usable), 'uncertain': sum(bool(r.get('uncertain')) for r in usable),
+                             'answer_dates': known_dates, 'answer_date_status': 'verified' if all(not r.get('date_unverified') for r in usable) else '未完全确认',
+                             'source': path, 'evidence_source': 'data/result-evidence.json'}
+            if len(usable) != 8:
+                result.update(quality_status='verified_with_exclusions', raw_correct=sum(r['ok'] for r in unique.values()),
+                              raw_total=8, excluded_count=8-len(usable),
+                              excluded_qids=sorted(set(unique) - {r['qid'] for r in usable}),
+                              excluded_evidence_source='data/excluded-evidence.json')
+            verified.append(result)
         except (KeyError, TypeError, ValueError) as error:
             unverified.append({'issue': issue, 'status': 'complete_round_unverified', 'reason': str(error)})
     # Accepted Issue number records submission order; an old sheet may be
@@ -380,6 +393,8 @@ def make_report(root=ROOT):
     rejected = source.read('data/rejected-results.json', {})
     article = source.read('data/article-review.json', {})
     exclusions = source.read('data/quality-exclusions.json', [])
+    presentation_metadata = source.read('data/question-presentations.json', {})
+    archived_excluded = source.read('data/excluded-evidence.json', [])
     if not isinstance(evidence.get('issues', []), list) or not isinstance(evidence.get('rows', []), list):
         raise ValueError('Malformed accepted evidence')
     if any(not isinstance(r, dict) for r in evidence.get('rows', [])):
@@ -415,7 +430,10 @@ def make_report(root=ROOT):
                  and not any(r['issue'] in accepted_ids and not r.get('retained_previous') for r in rejected.get('issues', [])))
     if not valid:
         source.warnings.add('review-state 与当前证据未完成一致性核验；网页掌握度未验证')
-    latest, unknown = web_results(source, evidence, daily.get('date'))
+    # Only rows still covered by an active quality rule can supply excluded
+    # originals. A stale archive or an unaccepted Issue cannot fill a gap.
+    _, current_excluded = apply_exclusions(archived_excluded, exclusions)
+    latest, unknown = web_results(source, evidence, daily.get('date'), excluded_rows=current_excluded)
     for rejected_issue in rejected.get('issues', []):
         for module, result in list(latest.items()):
             if result and result['issue'] == rejected_issue['issue']:
@@ -445,6 +463,12 @@ def make_report(root=ROOT):
                                           'learning_date': article.get('article_session', {}).get('learning_date', article.get('date'))},
                     'unverified_complete_rounds': unknown, 'review_state_status': 'verified' if valid else 'unverified'},
             'recent_paper': recent,
+            'presentation_quality': [{'qid': qid, 'family': entry['family'],
+                                      'invalid_rounds': entry.get('invalid_rounds', []),
+                                      'original_marking_status': entry.get('original_marking_status'),
+                                      'editorial_target_basis': entry.get('editorial_target_basis'),
+                                      'source': 'data/question-presentations.json'}
+                                     for qid, entry in sorted(presentation_metadata.get('questions', {}).items())],
             'article_review_coverage': coverage,
             'priorities': priorities(items, [n for n in notes if paper_item(n, checks)['reference_status'] != 'conflict'], state, valid, as_of or ''),
             'pending': pending_items(notes, rejected, recent), 'warnings': sorted(source.warnings),
@@ -470,7 +494,9 @@ def markdown(report):
     latest = web['latest_daily']
     if latest:
         suffix = '沿用上一版已核验成绩；当前Issue未验证，需复核' if latest['status'] == 'retained_previous' else '来自已接受成绩与唯一已发布题单'
-        lines.append(f"最近已接受的完整daily：题单日期{latest['date']}，[Issue #{latest['issue']}]({latest['issue_url']})，{latest['correct']}/{latest['total']}，犹豫标记{latest['uncertain']}题；{suffix}。")
+        score = (f"原始{latest['raw_correct']}/{latest['raw_total']}；质量排除{latest['excluded_count']}题，有效{latest['correct']}/{latest['total']}"
+                 if latest.get('excluded_count') else f"{latest['correct']}/{latest['total']}")
+        lines.append(f"最近已接受的完整daily：题单日期{latest['date']}，[Issue #{latest['issue']}]({latest['issue_url']})，{score}，犹豫标记{latest['uncertain']}题；{suffix}。")
         if latest['answer_date_status'] != 'verified':
             lines.append('实际作答日期未完全确认，不能据此补造跨日掌握日。')
     else:
@@ -482,6 +508,11 @@ def markdown(report):
     lines.append(f"当前文章专项：发布日期{available['date'] or '未知'}，对应学习日期{available['learning_date'] or '未知'}；题单已发布不等于已经作答。")
     missing = len(report['article_review_coverage']['pending'])
     lines.append(f'已登记篇目复盘缺口：{missing}个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。')
+    if report.get('presentation_quality'):
+        lines.extend(['', '## 题目呈现质量', ''])
+        for entry in report['presentation_quality']:
+            dates = '、'.join(sorted({scope['date'] for scope in entry['invalid_rounds']}))
+            lines.append(f"- {safe(entry['qid'])}（{dates}）：原版缺少划线范围，现以独立呈现数据补充明确标记；原始作答与快照保留，受影响条目不计复习统计。补出的范围不代表原始标记已确认。")
     lines.extend(['', '## 最近纸质学习阶段', ''])
     for stage in report['recent_paper']:
         details = []

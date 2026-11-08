@@ -3018,5 +3018,45 @@
       "语境词义与名词/搭配整体理解",
       "不将画横线项目自动登记为翻译困难"
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "received_on": "2026-11-08",
+    "family": "nested",
+    "kind": "user_reported_confusion",
+    "scope": "web_question",
+    "source_module": "daily",
+    "source_storage_id": "2026-11-08",
+    "training_question_id": "cloze-whatever-documents-registrar-p",
+    "paper_attempt": false,
+    "evidence_basis": "用户转交的教学反馈文字与GitHub实际Issue #42结构化首次报告交叉核验；未重新查看截图，也未读取用户浏览器localStorage。",
+    "user_quote": "我没看到哪里有划线啊，神了。",
+    "reported_display_choice": "B",
+    "reported_display_correct": "D",
+    "canonical_choice_index": 3,
+    "option_order_confirmed": true,
+    "accepted_issue_at_review": 42,
+    "attempt_status": "Verified against the original accepted Issue #42; preserve the first result, exclude this affected row from review statistics.",
+    "quality_status": "invalid_presentation",
+    "quality_exclusion_dates": [
+      "2026-11-02",
+      "2026-11-08"
+    ],
+    "user_reported_reasoning": "用户网页实际选B、正确项显示D，询问role在此是否询问划线段落的作用，并指出页面没有划线。后收到的Issue #42确认pick=1、expected=3、optionOrder=[2,3,1,0]；显示B对应原始“修饰Friday并解释截止原因”的选项，显示D对应accept宾语。原版未给目标范围，因此不能根据这一选项文字倒推为可靠语法错因。",
+    "note": "确认呈现缺陷：原题只有the underlined phrase文字，没有指定或显示任何划线范围。该作答不能作为可靠语法错因，按日期和qid排除；不把用户没有目标范围可看说成没有仔细阅读。另保留待巩固知识：role在此问句法成分；外层whatever documents the applicant submits before Friday整体作accept的宾语；内层the applicant是submits主语、documents是其宾语。补出的范围是维护时明确指定，不声称原始标记已确认；不认定用户已掌握。",
+    "training_targets": [
+      "语法题role所问的句法成分与分析范围",
+      "外层整体宾语与内层主语/宾语分开核对"
+    ],
+    "scoring_policy": "Do not fabricate a submitted Issue or overwrite browser choices. Invalid presentation is not a reliable error, uncertain answer, mastery day, or paper score.",
+    "source_issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/42",
+    "verified_option_order": [
+      2,
+      3,
+      1,
+      0
+    ],
+    "reported_choice_text": "It modifies Friday and explains the reason for the deadline.",
+    "expected_answer_text": "It is the object of accept: any documents the applicant submits."
   }
 ]

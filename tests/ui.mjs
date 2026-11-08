@@ -31,6 +31,7 @@ originalFirst.diag = {1: 'diagnostic for choice two; 段B位于段C之前', 2: '
 const source = fs.readFileSync('web/review.js', 'utf8');
 let nodes, opened, clock, pageEvents, documentEvents, simulatedDay, clipboardImpl = null, copiedBeforeOpen = false;
 const mockPayloads = new Map(), fetchRequests = [];
+let presentationFetchOverride = null;
 const githubIssues = [];
 let githubIssueCreates = 0, githubPostedBody = '';
 let githubApiOverride = null, apiTimers = null;
@@ -85,6 +86,7 @@ function boot() {
     clearTimeout: id => apiTimers ? apiTimers.clear(id) : clearTimeout(id),
     fetch: async (path, options={}) => {
       fetchRequests.push(path);
+      if (path === './data/question-presentations.json' && presentationFetchOverride) return presentationFetchOverride(path, options);
       if (path.startsWith('https://api.github.com') && githubApiOverride) {
         const overridden = await githubApiOverride(path, options);
         if (overridden !== undefined) return overridden;
@@ -467,4 +469,117 @@ clickText('移除此浏览器中的 GitHub 授权');
 assert.equal(storage['kaoyan.github.issue-credential.v1.pkppkqbobs/kaoyan-english-trainer'],undefined,
   'revocation must remove the local credential');
 
-console.log('UI tests passed: shuffle, paragraph references, refresh/timing, actual answer dates, retry, first errors, verified reports, daily/passage/article isolation, Text 3 -> Text 4, history, damaged-record protection, immutable historical retry recovery, fetch failure, wrong-source rejection, duplicate-click prevention, same-context exclusion, owner/packet dedup, changed annotations, API deadlines and lost POST recovery.');
+// Grammar targets must become actual DOM underlines, including on frozen pages
+// and cached, already-shuffled runs. Public metadata never rewrites saved answers.
+const markerMetadata = JSON.parse(fs.readFileSync('data/question-presentations.json', 'utf8'));
+const originalMarkerDaily = JSON.parse(fs.readFileSync('data/days/2026-11-08.json', 'utf8'));
+const legacyMarkedQuestion = originalMarkerDaily.questions.find(q => q.id === 'cloze-whatever-documents-registrar-p');
+const markerStorageKey = 'kaoyan.daily.v3.2026-11-08';
+const markerText = 'whatever documents the applicant submits before Friday';
+function markerFixture(questions) {
+  for (const key of Object.keys(storage)) delete storage[key];
+  sessionStore.items = {}; mockPayloads.clear(); presentationFetchOverride = null;
+  apiTimers = null; githubApiOverride = null;
+  Object.assign(data, {date: '2026-11-08', questions: structuredClone(questions), retry: {},
+    storagePrefix: 'kaoyan.daily.v3.', ignoreStale: true});
+  delete data.storageId; simulatedDay = '2026-11-08';
+}
+const descendants = element => [element, ...element.children.flatMap(descendants)];
+const underlines = () => descendants(nodes.body).filter(node => node.tag === 'u');
+const choiceNodes = () => allButtons().filter(node => node.className === 'choice');
+const settlePresentation = () => new Promise(resolve => setTimeout(resolve, 0));
+for (const kind of ['word', 'phrase', 'clause']) {
+  const q = question('explicit-' + kind, 'nested');
+  q.q = 'The clerk accepts whatever papers arrive. What role does the underlined ' + kind + ' play?';
+  q.prompt_marks = [{type: 'underline', text: 'whatever papers arrive', occurrence: 0}];
+  markerFixture([q, ...dailyQuestionsForAuto.slice(1)]); boot();
+  assert.equal(underlines().length, 1);
+  assert.equal(underlines()[0].textContent, 'whatever papers arrive');
+  assert.equal(underlines()[0].style.textDecorationLine, 'underline');
+  assert.equal(underlines()[0].style.textDecorationThickness, '2px');
+  assert.ok(choiceNodes().every(button => !button.disabled));
+  const saved = storage[markerStorageKey]; boot();
+  assert.equal(underlines()[0].textContent, 'whatever papers arrive');
+  assert.equal(storage[markerStorageKey], saved, 'refresh must not reshuffle choices or rewrite a marked run');
+}
+
+const literalMarkup = question('literal-markup', 'nested');
+literalMarkup.q = 'A label says <img src=x onerror=alert(1)>. What is the underlined phrase?';
+literalMarkup.prompt_marks = [{type: 'underline', text: '<img src=x onerror=alert(1)>'}];
+markerFixture([literalMarkup]); boot();
+assert.equal(underlines()[0].textContent, '<img src=x onerror=alert(1)>');
+assert.ok(!descendants(nodes.body).some(node => ['img', 'script'].includes(node.tag)));
+const repeated = question('unicode-occurrence', 'nested');
+repeated.q = '😀 time and time. What does the underlined word mean?';
+repeated.prompt_marks = [{type: 'underline', text: 'time', occurrence: 1}];
+markerFixture([repeated]); boot();
+assert.equal(underlines()[0].textContent, 'time');
+const sentenceNode = descendants(nodes.body).find(node => node.className === 'sentence');
+assert.equal(sentenceNode.children[0].textContent, '😀 time and ');
+
+markerFixture(originalMarkerDaily.questions);
+mockPayloads.set('./data/question-presentations.json', markerMetadata);
+const cachedQueue = structuredClone(originalMarkerDaily.questions);
+// Synthetic test permutation only: display B remains the saved wrong choice,
+// display D remains the saved correct choice. This is not a learner report.
+cachedQueue[1].o = [legacyMarkedQuestion.o[2], legacyMarkedQuestion.o[3], legacyMarkedQuestion.o[1], legacyMarkedQuestion.o[0]];
+cachedQueue[1].a = 3;
+const cachedAnswers = cachedQueue.slice(0, 2).map((q, i) => ({qid: q.id, family: q.family,
+  pick: i ? 1 : q.a, expected: q.a, ok: !i, ms: 12000, uncertain: false, answeredOn: '2026-11-08'}));
+storage[markerStorageKey] = JSON.stringify({version: 3, date: '2026-11-08', retry: {}, current: 0,
+  runs: [{id: 'cached-presentation-fixture', date: '2026-11-08', kind: 'main', queue: cachedQueue,
+    answers: cachedAnswers, index: 1, createdAt: '2026-11-08T09:00:00+08:00'}]});
+const originalCachedBytes = storage[markerStorageKey]; boot(); await settlePresentation();
+assert.equal(underlines()[0].textContent, markerText);
+assert.ok(choiceNodes()[1].classList.contains('bad'));
+assert.ok(choiceNodes()[3].classList.contains('good'));
+assert.ok(nodes.qualityNotice.textContent.includes('不计正式复习统计'));
+assert.equal(storage[markerStorageKey], originalCachedBytes);
+assert.deepEqual(choiceNodes().map(node => node.textContent), cachedQueue[1].o.map((text, i) => 'ABCD'[i] + '. ' + text));
+boot(); await settlePresentation();
+assert.equal(underlines()[0].textContent, markerText);
+assert.equal(storage[markerStorageKey], originalCachedBytes, 'repairing a historical display must not rewrite raw answers');
+
+// Failure, a stale prompt, ambiguous occurrences and overlaps must never invite
+// the learner to guess the missing target or create a new scored answer.
+const invalidMarkerCases = [structuredClone(legacyMarkedQuestion), structuredClone(repeated), structuredClone(repeated)];
+delete invalidMarkerCases[1].prompt_marks[0].occurrence;
+invalidMarkerCases[2].prompt_marks = [{type: 'underline', text: 'time and'}, {type: 'underline', text: 'and time'}];
+for (const q of invalidMarkerCases) {
+  markerFixture([q]); boot(); await settlePresentation();
+  assert.equal(underlines().length, 0);
+  assert.ok(choiceNodes().every(button => button.disabled));
+  assert.equal(JSON.parse(storage[markerStorageKey]).runs[0].answers.length, 0);
+}
+markerFixture([legacyMarkedQuestion]);
+const staleMetadata = structuredClone(markerMetadata);
+staleMetadata.questions[legacyMarkedQuestion.id].prompt += ' A changed prompt.';
+mockPayloads.set('./data/question-presentations.json', staleMetadata); boot(); await settlePresentation();
+assert.equal(underlines().length, 0);
+assert.ok(choiceNodes().every(button => button.disabled));
+
+// A delayed correction paints only the current prompt; it cannot navigate out
+// of history/settings, reset timing, or re-permute an already saved question.
+markerFixture([legacyMarkedQuestion]);
+let releasePresentation;
+presentationFetchOverride = () => new Promise(resolve => { releasePresentation = resolve; });
+boot();
+assert.ok(choiceNodes().every(button => button.disabled));
+const beforeCorrection = storage[markerStorageKey];
+nodes.historyBtn.onclick();
+releasePresentation({ok: true, json: async () => structuredClone(markerMetadata)});
+await settlePresentation();
+assert.ok(nodes.body.textContent.includes('本地历史'));
+assert.deepEqual(JSON.parse(storage[markerStorageKey]).runs[0].queue, JSON.parse(beforeCorrection).runs[0].queue);
+
+markerFixture([legacyMarkedQuestion]);
+const markerDeadlines = [];
+apiTimers = {set(callback) { markerDeadlines.push(callback); return markerDeadlines.length; }, clear() {}};
+presentationFetchOverride = () => new Promise(() => {});
+boot(); markerDeadlines[0](); await settlePresentation();
+assert.equal(underlines().length, 0);
+assert.ok(choiceNodes().every(button => button.disabled));
+assert.ok(nodes.body.textContent.includes('暂不可作答'));
+apiTimers = null; presentationFetchOverride = null;
+
+console.log('UI tests passed: prior submission/storage/timing checks; explicit word/phrase/clause underlines, Unicode occurrences, text-only HTML safety, refresh, cached B/D choices, scoped quality notices, unavailable/stale/ambiguous marks, async history isolation and metadata deadlines.');

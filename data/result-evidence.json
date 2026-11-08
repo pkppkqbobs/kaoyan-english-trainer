@@ -3419,17 +3419,6 @@
     },
     {
       "date": "2026-11-08",
-      "family": "nested",
-      "ok": false,
-      "ms": 45680,
-      "uncertain": false,
-      "origin": 42,
-      "qid": "cloze-whatever-documents-registrar-p",
-      "round_id": "mw7lyhay-2z9mouox",
-      "source_date": "2026-11-08"
-    },
-    {
-      "date": "2026-11-08",
       "family": "expectation-contrast",
       "ok": true,
       "ms": 53662,

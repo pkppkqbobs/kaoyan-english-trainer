@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-08",
     "daily_quiz": "2026-11-08",
-    "latest_observation": "2026-11-07"
+    "latest_observation": "2026-11-08"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -25,14 +25,22 @@
       "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/42",
       "round_id": "mw7lyhay-2z9mouox",
       "correct": 5,
-      "total": 8,
+      "total": 7,
       "uncertain": 0,
       "answer_dates": [
         "2026-11-08"
       ],
       "answer_date_status": "verified",
       "source": "data/days/2026-11-08.json",
-      "evidence_source": "data/result-evidence.json"
+      "evidence_source": "data/result-evidence.json",
+      "quality_status": "verified_with_exclusions",
+      "raw_correct": 5,
+      "raw_total": 8,
+      "excluded_count": 1,
+      "excluded_qids": [
+        "cloze-whatever-documents-registrar-p"
+      ],
+      "excluded_evidence_source": "data/excluded-evidence.json"
     },
     "latest_article": {
       "status": "verified",
@@ -589,6 +597,27 @@
       "article_session_files": [
         "data/article-sessions/2026-11-03-2016-text2.json"
       ]
+    }
+  ],
+  "presentation_quality": [
+    {
+      "qid": "cloze-whatever-documents-registrar-p",
+      "family": "nested",
+      "invalid_rounds": [
+        {
+          "module": "daily",
+          "date": "2026-11-08",
+          "storageId": "2026-11-08"
+        },
+        {
+          "module": "article",
+          "date": "2026-11-02",
+          "storageId": "2026-11-02-2016-text1"
+        }
+      ],
+      "original_marking_status": "No range or markup was stored in the original source or immutable publications.",
+      "editorial_target_basis": "Target added by maintenance from the source explanation and answer content, not recovered from an original underline.",
+      "source": "data/question-presentations.json"
     }
   ],
   "article_review_coverage": {
@@ -1164,9 +1193,11 @@
     "data/days/2026-11-06.json": "d853bb95f05c83ebf0f21e5931a35a54e3571a1044e249d7ea84a43a440486bf",
     "data/days/2026-11-07.json": "08efd1c5f1940d52c8c9f6d221880c9562af45f966cded1b31aee0e4ee4f11dc",
     "data/days/2026-11-08.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
-    "data/learning-notes.json": "18431e3a799bca1050b0a44154cad7d9c845b4ad7808cbe85c7fcbca667c502f",
-    "data/quality-exclusions.json": "1452019e31c541037c602495b1d5d00cd31e6df434a6cf9e6ffb7b74449161c4",
+    "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
+    "data/learning-notes.json": "a7fe517f758496dc135779847b2873c5806be46adb58bcc570ef0e35fdb34b00",
+    "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
     "data/question-contexts.json": "3b82bb6eda69664feb88e55f7b7314368748868b324821e566f4610cd994bc90",
+    "data/question-presentations.json": "373c7da16aab2a5271c7ef939ebb98fc6f1880a2c5dce598aca9d6b1e72dc613",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1196,7 +1227,7 @@
     "data/questions/2026-10-28-text2.json": "a4db01211b23b5a08c0895c85aa51df746c09aa28d863105142fbe3fc827e01c",
     "data/questions/2026-10-30-text3.json": "7a1d98144fb2a70b5260ea3edb2d0fe4e6e60b1ffeaa2e02c7cf569706273c76",
     "data/questions/2026-10-31-text4.json": "878e078a2c430cda5defa1eeb50f1175ed5191f098a374838848c88e4a1a8d1a",
-    "data/questions/2026-11-02-2016-cloze-migration.json": "1b9233b5dd8027765676bec3ebd5b17ec613d504fe2a38b3b71394aaa5720c75",
+    "data/questions/2026-11-02-2016-cloze-migration.json": "63053149568ae3896d51be754095b9aea0f3f9ebbf2439c879141922d4eab4e4",
     "data/questions/2026-11-02-2016-text1-migration.json": "2ece4efb0a47130e230f66440f62dadcf7ac351edaf22027ab18add3130c39d4",
     "data/questions/2026-11-03-2016-text2-migration.json": "3579c59a382b55501f86e1bb64a9c2bb74978aca751202cb7e79c75cf8731f6b",
     "data/questions/2026-11-04-2016-text3-migration.json": "3413a372b533de9a945bcaf3c8d2d67a53b055f98b2eb3f73bc15da5b96e0b72",
@@ -1204,8 +1235,8 @@
     "data/questions/2026-11-06-2016-partb-headings-migration.json": "4f19cdd25fde1831ae552cd03c8e721951f0fd49943f0bf9906837d108fbd0fa",
     "data/questions/2026-11-07-2017-cloze-migration.json": "6c56589bed9c3a0e2032afe9edacc3fbe76a8ed92e3f1baf6e966da8b5e4fe5c",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "7beea9c4ab51ced28f92ec49d88901a05a77090099507ae5d41b42ec9097352a",
-    "data/review-state.json": "9d9258cfef11808267073af2bcec4e55e7a9da76804a8522feb4bd2c8b1e2824",
+    "data/result-evidence.json": "fdb60e8432b37b7aad2e92686f23b107173d2e65416e615f0aa0d14ad3dbf893",
+    "data/review-state.json": "e4c0c3cfe30c7c6bc785f935d9c635cd9de002db18c4bb944b15d083e5b4bfd3",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1213,7 +1244,7 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "74d829dc0d7b1df4470f8e28f138f6dd08da0ab90208dbf031dee175188db8eb"
   },
-  "source_fingerprint": "c42581672640782b95a382400ac1b60b4d113d298dd516e0f06273b27028e7d8",
+  "source_fingerprint": "224c582fec556c09ae6485fe9f9c9de46b661c2ddead6c5e9c6adf82517db5da",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

@@ -107,6 +107,27 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertEqual((self.root / 'data/result-evidence.json').read_bytes(), evidence)
         self.assertTrue(report['handoff_is_not_scoring_evidence'])
 
+    def test_presentation_notices_remain_separate_from_scored_answers(self):
+        qid = 'fixture-missing-mark'
+        prompt = 'The clerk accepts any papers. What does the underlined word mean?'
+        review.save(self.root / 'data/question-presentations.json', {
+            'schema_version': 1, 'questions': {qid: {
+                'family': 'point', 'prompt': prompt,
+                'prompt_marks': [{'type': 'underline', 'text': 'clerk'}],
+                'original_marking_status': 'Missing in the original publication.',
+                'editorial_target_basis': 'An explicit maintenance correction.',
+                'invalid_rounds': [{'module': 'daily', 'date': '2026-10-24', 'storageId': '2026-10-24'}]}}})
+        rules = review.load(self.root / 'data/quality-exclusions.json', [])
+        rules.append({'date': '2026-10-24', 'qid': qid, 'family': 'point', 'reason': 'fixture presentation defect'})
+        review.save(self.root / 'data/quality-exclusions.json', rules)
+        raw = (self.root / 'data/result-evidence.json').read_bytes()
+        report = handoff.make_report(self.root)
+        self.assertEqual(report['presentation_quality'][0]['qid'], qid)
+        self.assertIn('题目呈现质量', handoff.markdown(report))
+        self.assertIn('不计复习统计', handoff.markdown(report))
+        self.assertIn('data/question-presentations.json', report['sources'])
+        self.assertEqual((self.root / 'data/result-evidence.json').read_bytes(), raw)
+
     def test_bounded_paper_summary_keeps_explicit_training_priorities_and_unknown_choices(self):
         path = self.root / 'data/learning-notes.json'
         notes = review.load(path)
@@ -211,6 +232,41 @@ class SessionHandoffTests(unittest.TestCase):
         report = handoff.make_report(self.root)
         self.assertIsNone(report['web']['latest_daily'])
         self.assertEqual(report['web']['review_state_status'], 'unverified')
+
+    def test_archived_original_proves_completion_but_never_reenters_effective_score(self):
+        path = self.root / 'data/result-evidence.json'
+        evidence = review.load(path)
+        original = evidence['rows'].pop(0)
+        review.save(path, evidence)
+        review.save(self.root / 'data/excluded-evidence.json', [{**original, 'exclusion_reason': 'missing target'}])
+        review.save(self.root / 'data/quality-exclusions.json', [
+            {'origin': original['origin'], 'qid': original['qid'], 'family': original['family'], 'reason': 'missing target'}])
+        refresh_state(self.root)
+        before = {p: p.read_bytes() for p in (path, self.root / 'data/excluded-evidence.json')}
+        report = handoff.make_report(self.root)
+        result = report['web']['latest_daily']
+        self.assertEqual((result['correct'], result['total']), (7, 7))
+        self.assertEqual((result['raw_correct'], result['raw_total'], result['excluded_count']), (8, 8, 1))
+        self.assertEqual(result['quality_status'], 'verified_with_exclusions')
+        self.assertEqual(report['web']['current_daily_status'], 'verified')
+        self.assertIn('原始8/8；质量排除1题，有效7/7', handoff.markdown(report))
+        self.assertEqual({p: p.read_bytes() for p in before}, before)
+
+    def test_stale_or_unaccepted_excluded_archive_cannot_fill_a_missing_answer(self):
+        for unaccepted in (False, True):
+            with self.subTest(unaccepted=unaccepted):
+                fixture(self.root)
+                path = self.root / 'data/result-evidence.json'; evidence = review.load(path)
+                original = evidence['rows'].pop(0)
+                review.save(path, evidence)
+                archived = {**original, 'exclusion_reason': 'stale fixture'}
+                if unaccepted:
+                    archived['origin'] = 999
+                review.save(self.root / 'data/excluded-evidence.json', [archived])
+                review.save(self.root / 'data/quality-exclusions.json', [
+                    {'origin': 999, 'family': original['family'], 'reason': 'fixture'}] if unaccepted else [])
+                refresh_state(self.root)
+                self.assertIsNone(handoff.make_report(self.root)['web']['latest_daily'])
 
     def test_late_submission_of_old_sheet_keeps_current_daily_completion(self):
         payload = review.load(self.root / 'data/daily.json')

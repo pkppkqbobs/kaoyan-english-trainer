@@ -405,7 +405,14 @@
       "other": "registrar登记员；applicant申请人；submit提交；deadline截止时间。",
       "meaning": "whatever + 名词表示任何符合后续限定的该类事物；整个短语可以在主句中作宾语。要区分外层动词accept与内层从句谓语submits。",
       "rest": "underlined phrase不是submits的主语，内层主语是the applicant；这不是直接疑问句；Friday是before的宾语，不是被whatever短语修饰的对象，也没有说明截止原因。"
-    }
+    },
+    "prompt_marks": [
+      {
+        "type": "underline",
+        "text": "whatever documents the applicant submits before Friday",
+        "occurrence": 0
+      }
+    ]
   },
   {
     "id": "cloze-as-well-as-access-policy-q",

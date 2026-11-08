@@ -20,6 +20,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 TZ = ZoneInfo("Asia/Shanghai")
 EXP_KEYS = ("trans", "structure", "other", "meaning", "rest")
+UNDERLINE_REFERENCE = re.compile(r"\bunderlined\s+(?:word|phrase|clause)\b", re.I)
 STRUCTURE = {"nested", "relative", "with"}
 ALIASES = {
     "subject": ("subject",), "reference": ("these", "such", "回指", "原词复现"),
@@ -56,6 +57,51 @@ def canonical(label):
     return label
 
 
+def prompt_mark_ranges(q, *, required=True):
+    """Resolve literal text occurrences, never HTML or inferred grammar targets.
+
+    Occurrences avoid sharing Unicode offsets between Python and JavaScript.
+    Historical snapshots may omit marks; new source-bank questions may not.
+    """
+    marks = q.get("prompt_marks", [])
+    assert isinstance(marks, list), f"Invalid prompt_marks: {q.get('id')}"
+    ranges = []
+    for mark in marks:
+        assert isinstance(mark, dict) and mark.get("type") == "underline", f"Invalid prompt mark: {q.get('id')}"
+        text = mark.get("text")
+        assert isinstance(text, str) and text, f"Empty prompt mark: {q.get('id')}"
+        occurrence = mark.get("occurrence", 0)
+        assert type(occurrence) is int and occurrence >= 0, f"Invalid occurrence: {q.get('id')}"
+        starts, offset = [], 0
+        while (start := q["q"].find(text, offset)) >= 0:
+            starts.append(start)
+            offset = start + len(text)
+        assert starts and occurrence < len(starts), f"Prompt mark not found: {q.get('id')}"
+        assert "occurrence" in mark or len(starts) == 1, f"Ambiguous prompt mark: {q.get('id')}"
+        ranges.append((starts[occurrence], starts[occurrence] + len(text)))
+    ranges.sort()
+    assert all(a[1] <= b[0] for a, b in zip(ranges, ranges[1:])), f"Overlapping prompt marks: {q.get('id')}"
+    assert not (required and UNDERLINE_REFERENCE.search(q["q"]) and not ranges), f"Missing underline target: {q.get('id')}"
+    return ranges
+
+
+def validate_presentations(root):
+    metadata = load(root / "data/question-presentations.json", {})
+    if not metadata:
+        return
+    assert metadata.get("schema_version") == 1 and isinstance(metadata.get("questions"), dict), "Invalid presentation metadata"
+    rules = load(root / "data/quality-exclusions.json", [])
+    for qid, entry in metadata["questions"].items():
+        assert re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,100}", qid), "Invalid presentation qid"
+        prompt_mark_ranges({"id": qid, "q": entry["prompt"], "prompt_marks": entry["prompt_marks"]})
+        for scope in entry.get("invalid_rounds", []):
+            date.fromisoformat(scope["date"])
+            assert scope["module"] in {"daily", "article", "passage"}, "Invalid presentation module"
+            assert re.fullmatch(r"[a-zA-Z0-9_-]{1,160}", scope["storageId"]), "Invalid presentation storageId"
+            assert any(rule.get("date") == scope["date"] and rule.get("qid") == qid
+                       and rule["family"] == entry["family"] for rule in rules), "Presentation notice lacks a quality exclusion"
+
+
 def validate(q):
     assert isinstance(q, dict), "Question must be an object"
     assert re.fullmatch(r"[a-z0-9][a-z0-9_-]{1,100}", q["id"]), q.get("id")
@@ -66,6 +112,9 @@ def validate(q):
     assert all(isinstance(x, str) and x for x in q["o"]), q["id"]
     assert type(q["a"]) is int and 0 <= q["a"] < 4, q["id"]
     assert all(isinstance(q["exp"].get(k), str) and q["exp"][k].strip() for k in EXP_KEYS), q["id"]
+    # Keep legacy immutable snapshots readable. The source bank below requires
+    # every underlined reference to carry its own explicit target.
+    prompt_mark_ranges(q, required=False)
     if q.get("introduced"):
         date.fromisoformat(q["introduced"])
     if q.get("published_on"):
@@ -112,12 +161,14 @@ def bank(root):
     ids, stems = set(), set()
     for q in items:
         validate(q)
+        prompt_mark_ranges(q)
         if q["id"] in ids or q["q"] in stems:
             raise ValueError("Duplicate question id or exact stem: " + q["id"])
         ids.add(q["id"])
         stems.add(q["q"])
     if len({q["family"] for q in items}) < 8:
         raise ValueError("At least eight target families are required")
+    validate_presentations(root)
     # Maintenance metadata affects variant spacing only, never scoring or learning dates.
     contexts = load(root / "data/question-contexts.json", {}).get("contexts", {})
     for q in items:

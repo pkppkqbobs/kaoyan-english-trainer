@@ -597,12 +597,12 @@
     },
     "nested": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-11-08",
-      "due": "2026-11-08",
+      "errors": 1,
+      "last": "2026-11-04",
+      "due": "2026-11-05",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 16,
+      "observed_days": 15,
       "observation_priority": 2
     },
     "paragraph-order-anaphora": {
