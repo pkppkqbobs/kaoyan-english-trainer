@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-09-2017-text2",
+  "date": "2026-11-09",
+  "learning_date": "2026-11-09",
+  "created_at": "2026-11-09T23:02:10+09:00",
+  "source": "2017 英语一 Reading Text 2 · 2026-11-09纸质复盘（最终作答未知）",
+  "focus_families": [
+    "inference-boundary",
+    "historical-reminder-evidence",
+    "astronomy-word-family",
+    "dormant-state"
+  ],
+  "focus_question_ids": {
+    "inference-boundary": [
+      "t17t2-cause-cellar"
+    ],
+    "historical-reminder-evidence": [
+      "t17t2-history-emblem"
+    ],
+    "astronomy-word-family": [
+      "t17t2-astronomy-grant"
+    ],
+    "dormant-state": [
+      "t17t2-dormant-account"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "all_observation_families": [
+    "inference-boundary",
+    "historical-reminder-evidence",
+    "astronomy-word-family",
+    "dormant-state",
+    "polynesian-identity"
+  ],
+  "paper_outcome": {
+    "reported_final_choices": {},
+    "confirmed_wrong_questions": [],
+    "tentative_preferences": {
+      "28": "A"
+    },
+    "unconfirmed_final_questions": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "first_choices_and_revisions": "unknown",
+    "paper_score": null,
+    "not_a_web_score": true
+  },
+  "positive_reasoning": "Q27：稀薄大气、较少干扰属于环境优势，这一质疑合理，不登记为错误知识。",
+  "overall_comprehension": "No passage-wide difficulty or mastery claim confirmed; focus is Q27/Q28 and the explicit vocabulary evidence.",
+  "boxed_words": [
+    "astronomers",
+    "astronomy",
+    "dormant",
+    "Polynesians"
+  ],
+  "supplementary_teaching": [
+    {
+      "term": "disassemble",
+      "meaning": "拆卸、拆解；与assemble组装相对",
+      "evidence_status": "mark_near_word_unconfirmed_as_box",
+      "confirmed_translation_difficulty": false,
+      "policy": "教学补充；不进入明确画框词、用户生词或独立困难观察。"
+    },
+    {
+      "topic": "author stance",
+      "evidence_status": "requested_training_goal_only_not_confirmed_error",
+      "note": "作者支持尊重文化、降低影响并逐步移除旧设备的具体选址方案；并非反对所有天文学，也不等于无条件支持任何建设方式。"
+    }
+  ],
+  "passage_outline": [
+    "古代天文传统与现代建设争议",
+    "地理特征形成观测优势，同时是文化圣地",
+    "圣地冒犯与历史占领的痛苦记忆",
+    "天文学家对文化与生态的责任",
+    "天文学与当地文化共同探究起源",
+    "减低影响、移除旧设备并恢复场地的折中方案"
+  ],
+  "source_check": "data/source-checks/2017-english1.json",
+  "training_priorities": [
+    "完整限定语与原因/条件/结果",
+    "历史记忆与当前担忧的具体证据",
+    "astronomy/astronomer/astronaut",
+    "dormant与永久消失",
+    "作者与引述人物的立场"
+  ],
+  "review_delivery": "Four current targets plus four historical targets; original transfer contexts, no replay of the exam."
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "t17t2-cause-cellar",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-09",
+    "budget": 55,
+    "target": "cause / condition / added protection",
+    "skill": "cause / condition / added protection",
+    "q": "An archive stores paper in rooms cut into rock. Because the rock warms and cools slowly, room temperatures fluctuate less and the paper deteriorates more slowly. A visitor calls this an environmental advantage. Which assessment preserves the evidence?",
+    "o": [
+      "The description wrongly rules out any effect of the local rock.",
+      "The local rock creates the stable conditions the visitor means.",
+      "Nearby buildings protect the archive from heavy road traffic.",
+      "The stable indoor climate has altered the shape of the local rock."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "档案馆把纸张存放在凿入岩石的房间里。岩石升温和降温都慢，因此室温波动较小，纸张劣化也较慢。访客称之为环境优势。怎样评价才保留了证据？",
+      "structure": "Because引出岩石热变化缓慢这一原因；室温稳定是形成的条件；纸张较慢劣化是结果。三层可以同时成立。",
+      "other": "archive档案馆；fluctuate波动；deteriorate劣化；thermal与热有关的。",
+      "meaning": "称室内条件有利是合理的，不会否定岩石造成这些条件的原因。需判断完整表达，而不是强迫地理/物理原因与环境结果互斥。",
+      "rest": "wrongly rules out误判访客否定岩石作用；Nearby buildings及traffic添加未述的保护机制；“室内气候改变岩石形状”倒置了岩石特性与气候的因果方向。"
+    }
+  },
+  {
+    "id": "t17t2-cause-rain-garden",
+    "family": "inference-boundary",
+    "introduced": null,
+    "published_on": "2026-11-09",
+    "budget": 55,
+    "target": "favourable condition / protective surroundings",
+    "skill": "favourable condition / protective surroundings",
+    "q": "After paving was replaced with porous soil, more rain entered the ground and less flowed into street drains. The report records no change to walls, fences or nearby buildings. Which explanation follows?",
+    "o": [
+      "New barriers around the site kept river water out of the street.",
+      "Reduced surface runoff created the pores now found in the soil.",
+      "Porous ground reduced runoff by allowing more rain to soak in.",
+      "The change proves that nearby buildings now act as flood walls."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "铺装被多孔土壤替换后，更多雨水进入地下，流入街道排水口的水减少。报告没有记录围墙、栅栏或周边建筑的改变。能得到哪一种解释？",
+      "structure": "After交代材料改变；more...and less...呈现水流去向的对比；no change限制可以增加的解释。",
+      "other": "porous多孔的；runoff地表径流；drain排水口；soak in渗入。",
+      "meaning": "材料特征使渗透条件改善，再减少地表径流；有利环境不等于周边存在保护性屏障。",
+      "rest": "barriers和flood walls都添加未有证据的保护结构；created the pores把结果当成材料特征的起因。"
+    }
+  },
+  {
+    "id": "t17t2-history-emblem",
+    "family": "historical-reminder-evidence",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 50,
+    "target": "painful reminder / present threat",
+    "skill": "painful reminder / present threat",
+    "q": "A theatre plans to restore a factory emblem above its entrance. Former workers object: the emblem recalls public punishments imposed by that factory decades ago. They raise no objection to the theatre's rent or ownership. What grounds their objection?",
+    "o": [
+      "The emblem recalls humiliating treatment experienced in the past.",
+      "The theatre will give another company control over current rents.",
+      "The restoration will end local access to adult education courses.",
+      "The workers expect the old factory to reopen under new ownership."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "剧院计划恢复入口上方的工厂徽记。旧工人反对，因为徽记让他们想起几十年前工厂施加的公开惩罚。他们没有反对剧院租金或所有权。反对基于什么？",
+      "structure": "object后用冒号解释理由；recalls将现在的符号与过去的屈辱经历相连；raise no objection进一步排除当前租金或产权作为已述理由。",
+      "other": "emblem徽记；impose施加；humiliating令人屈辱的；ownership所有权。",
+      "meaning": "当前物件可以唤起过去的伤痛；不能把这条历史记忆证据自动改写成现实租金、教育机会或控制权变化。",
+      "rest": "current rents与原文否定的对象冲突；结束成人教育和工厂重开均未被陈述。不能仅因这些担忧现实中可能发生就当成本文理由。"
+    }
+  },
+  {
+    "id": "t17t2-history-lease",
+    "family": "historical-reminder-evidence",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 50,
+    "target": "historical background / current evidence",
+    "skill": "historical background / current evidence",
+    "q": "A cooperative chair mentions an eviction thirty years ago. The present petition, however, objects specifically to a new clause letting an outside firm terminate members' leases next year. Which reason does the petition actually give?",
+    "o": [
+      "It seeks official recognition of the hardship caused decades ago.",
+      "It asks the outside firm to restore a historical community emblem.",
+      "It claims that renewed leases would prevent all cultural activity.",
+      "It challenges the firm's proposed power over members' future leases."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "合作社主席提到三十年前的一次驱逐。但当前请愿书明确反对一项新条款：外部公司可在明年终止成员租约。请愿书实际给出的理由是什么？",
+      "structure": "mentions只说明历史背景出现；however把焦点转向present petition；objects specifically及letting明确现在反对的条款内容。",
+      "other": "eviction驱逐；petition请愿书；clause条款；terminate a lease终止租约。",
+      "meaning": "必须按本篇直接证据判断。历史出现不表示所有反对都只源于历史伤痛；这里明确写了将来的租约控制权。",
+      "rest": "official recognition把背景升级为请愿目标；restoring an emblem没有证据；文化活动全部受阻也不是租约条款的已述效果。"
+    }
+  },
+  {
+    "id": "t17t2-astronomy-grant",
+    "family": "astronomy-word-family",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "astronomy / astronaut",
+    "skill": "astronomy / astronaut",
+    "q": "A grant pays a university team to measure changes in distant stars' brightness. All observations are made from Earth. A note says the grant trains astronauts. Which correction best matches the work described?",
+    "o": [
+      "It funds astronaut training rather than research about distant stars.",
+      "It funds astronomy; this research does not require a journey into space.",
+      "It funds space travel because observing stars means leaving the Earth.",
+      "It funds crew navigation rather than any study of the objects observed."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "一笔资助用于大学团队测量遥远恒星亮度的变化，所有观测都在地球完成。有说明称资金用来培养宇航员。如何纠正才符合所述工作？",
+      "structure": "pays...to measure说明研究任务；All observations...from Earth限制是否实际执行太空飞行；trains astronauts误把学科研究替成航天任务训练。",
+      "other": "grant研究资助；brightness亮度；observation观测；crew航天乘组。",
+      "meaning": "astronomy是天文学这一学科；astronaut是进入太空执行任务的人。研究遥远天体不要求研究者本人离开地球。",
+      "rest": "astronaut training把研究经费误成乘组训练；means leaving the Earth是无依据规则；crew navigation与测量恒星亮度这一研究任务不同。"
+    }
+  },
+  {
+    "id": "t17t2-astronomer-roles",
+    "family": "astronomy-word-family",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "astronomer / astronaut roles",
+    "skill": "astronomer / astronaut roles",
+    "q": "One person analyses galaxy data to test a scientific model. Another pilots a crewed spacecraft during an orbital mission. Which pair names the roles described, in that order?",
+    "o": [
+      "Astronaut; astronomer studying data for a ground-based project.",
+      "Astronomy; astronaut flying a crewed spacecraft while in orbit.",
+      "Astronomer; astronaut flying a crewed spacecraft while in orbit.",
+      "Astronomical; astronomer taking part in an orbital crew mission."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "一个人分析星系数据以检验科学模型，另一个人在轨道任务中驾驶载人飞船。按这个顺序，应如何称呼两人的工作身份？",
+      "structure": "One...Another...划分两个动作主体；analyses...to test是研究任务；pilots...during an orbital mission是实际航天任务。",
+      "other": "galaxy星系；dock对接；crewed载人的；orbital在轨的。",
+      "meaning": "astronomer是天文学研究者，astronaut是航天任务人员；astronomy是学科名，astronomical是形容词，不能直接替代人的职业名词。",
+      "rest": "Astronaut; astronomer交换了两个工作；Astronomy把学科名用于人；Astronomical把形容词用于人，并把驾驶飞船的航天任务误称天文研究角色。"
+    }
+  },
+  {
+    "id": "t17t2-astronomical-price",
+    "family": "astronomy-word-family",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "astronomical in a figurative context",
+    "skill": "astronomical in a figurative context",
+    "q": "A concert hall receives a repair quote far above its entire annual income. The chair calls the price astronomical. What does astronomical mean here?",
+    "o": [
+      "Based on the recorded movements of distant planets.",
+      "Paid as part of a trained astronaut's mission costs.",
+      "Calculated by scientists working in an observatory.",
+      "Extremely large compared with the hall's resources."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "音乐厅收到的维修报价远超其全年收入，负责人称价格astronomical。这里是什么意思？",
+      "structure": "far above its entire annual income给出数量尺度；astronomical作表语，评价price而非学科、人物或测量方式。",
+      "other": "repair quote维修报价；annual income年收入；resources可用资源。",
+      "meaning": "astronomical可以表示极其巨大的、天文数字般的；这里由价格与年收入的比较支持比喻义。此形容词是教学延伸，不新增为用户已确认框词。",
+      "rest": "行星运动、宇航员任务开支和天文台计算都套入天文字面话题，忽略了句中唯一给出的金额比较。"
+    }
+  },
+  {
+    "id": "t17t2-astronomy-overlap",
+    "family": "astronomy-word-family",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "field / researcher / space traveller",
+    "skill": "field / researcher / space traveller",
+    "q": "An orbital crew member publishes scientific research on pulsating stars. A profile calls her both an astronaut and an astronomer. Is that description inconsistent?",
+    "o": [
+      "No; the two labels describe roles that one person may combine.",
+      "Yes; an astronomer can never take part in a mission in space.",
+      "Yes; astronomy names a kind of traveller rather than a science.",
+      "No; both labels always mean exactly the same kind of occupation."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "一名在轨乘组成员发表了研究脉动恒星的科学论文。人物介绍同时称她为宇航员和天文学家。这是否自相矛盾？",
+      "structure": "crew member与publishes scientific research提供两个独立角色依据；both...and...可以同时成立，不要求身份互斥。",
+      "other": "profile人物介绍；pulsating周期性脉动的；inconsistent不一致的。",
+      "meaning": "两词含义不同，但一个人可兼具两种身份。区分词义不是制定天文学家绝不能去太空的错误规则。",
+      "rest": "can never加入职业互斥；a kind of traveller误解astronomy；always mean exactly the same则把两个可能重合的身份变成完全同义。"
+    }
+  },
+  {
+    "id": "t17t2-dormant-account",
+    "family": "dormant-state",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "dormant / inactive / gone permanently",
+    "skill": "dormant / inactive / gone permanently",
+    "q": "A club marks a member's unused online profile as dormant. Its rules say the profile can be reactivated without a new registration. Which reading fits?",
+    "o": [
+      "The profile is currently used for the club's daily activities.",
+      "The profile has been erased and must be created from scratch.",
+      "The profile is inactive but remains available for use again.",
+      "The profile has become a separate account with a new owner."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "俱乐部将会员未使用的在线资料标记为dormant。规则说明无需重新注册就能恢复使用。怎样理解正确？",
+      "structure": "unused说明当前状态；can be reactivated与without a new registration说明仍然保留、可恢复。",
+      "other": "profile账户资料；reactivate重新启用；registration注册。",
+      "meaning": "dormant表示暂时不活跃，不能等同于永久删除；当前不使用与以后可重新使用可以同时成立。",
+      "rest": "currently used与unused相反；erased...from scratch否定无需重新注册；新账户或新所有者均没有证据。"
+    }
+  },
+  {
+    "id": "t17t2-dormant-seeds",
+    "family": "dormant-state",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "dormant / extinct / active",
+    "skill": "dormant / extinct / active",
+    "q": "The stored seeds show no visible growth, yet tests confirm that they remain alive and can sprout when conditions change. Why does the report call them dormant rather than dead?",
+    "o": [
+      "They are growing rapidly despite what the visible tests show.",
+      "Their inactivity does not mean that future growth is impossible.",
+      "Their species has disappeared permanently from every location.",
+      "Their present condition proves that every seed will sprout soon."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "储存的种子没有可见生长，但检测确认它们仍活着，并可在条件变化后萌发。为何报告称其休眠，而不是死亡？",
+      "structure": "no visible growth与yet...remain alive构成表面活动和存活状态的对比；can sprout保留可能性而非必然马上生长。",
+      "other": "sprout萌发；visible可见的；species物种；inactivity不活跃。",
+      "meaning": "dormant是有恢复活动可能的休眠状态；extinct涉及灭绝，dead表示死亡；没有当前活动不等于永久不存在。",
+      "rest": "growing rapidly与未见生长冲突；整个物种在所有地点消失未被说明；every...soon把有可能夸大为所有个体马上必然萌发。"
+    }
+  },
+  {
+    "id": "t17t2-polynesian-museum",
+    "family": "polynesian-identity",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "Polynesians as a people label",
+    "skill": "Polynesians as a people label",
+    "q": "A museum display is headed \"Polynesians in Pacific voyaging networks.\" What does Polynesians name in this heading?",
+    "o": [
+      "People from Polynesia or with roots in that region.",
+      "People hired only to chart routes for cargo ships.",
+      "Everyone living anywhere along the Pacific coast.",
+      "People studying the motion of planets and stars."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "博物馆展览以“太平洋航行网络中的波利尼西亚人”为题。Polynesians在这个标题中指什么？",
+      "structure": "Polynesians是复数人物名词；in...networks限定展览讨论的背景，不会把人群名称改成某个职业。",
+      "other": "voyaging远航；roots祖籍、渊源；cargo货运；heading标题。",
+      "meaning": "指来自波利尼西亚或具有该地区渊源的人群；地区名称不是统一职业标签，也不是全部太平洋海岸人口。",
+      "rest": "航路规划者和研究行星者是职业；everyone...Pacific coast把相关文化区域无限扩大到全部太平洋沿岸。"
+    }
+  },
+  {
+    "id": "t17t2-polynesian-ancestry",
+    "family": "polynesian-identity",
+    "introduced": "2026-11-09",
+    "published_on": "2026-11-09",
+    "budget": 45,
+    "target": "Polynesian identity / other unsupported attributes",
+    "skill": "Polynesian identity / other unsupported attributes",
+    "q": "A historian describes a sailor of Polynesian ancestry who lived for years in Europe. Which conclusion is justified?",
+    "o": [
+      "His present home must be somewhere inside the Polynesian region.",
+      "His ancestry determines the precise language he currently speaks.",
+      "His occupation must be navigation rather than any other kind of work.",
+      "His ancestry links him to Polynesia, wherever he later made his home."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "历史学家描述一名具有波利尼西亚血缘、在欧洲生活多年的人。可以得到什么结论？",
+      "structure": "of Polynesian ancestry限定血缘渊源；who lived...Europe交代后来的居住经历；两者处于不同信息层次。",
+      "other": "ancestry血缘、祖先渊源；historian历史学家；residence居住地。",
+      "meaning": "地区渊源不决定现在住址、精确语言或职业。这里训练地区与人群称谓的语境用法，不新增其它文化词为用户明确困难。",
+      "rest": "present home把血缘当成当前地址；precise language由人群名推断过细；occupation must也错误地把血缘标签变成职业限制。"
+    }
+  },
+  {
+    "id": "t17t2-stance-library",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-09",
+    "budget": 50,
+    "target": "support for an arrangement / unrestricted support",
+    "skill": "support for an arrangement / unrestricted support",
+    "q": "A columnist criticises a library's plan for unpaid late shifts. A revised plan pays staff and guarantees rest days. She calls that revision a welcome way to extend opening hours. What is her position?",
+    "o": [
+      "She rejects longer opening hours even under the revised staffing plan.",
+      "She approves the original unpaid shifts as a benefit to library staff.",
+      "She welcomes longer hours under the revised protections for staff.",
+      "She gives no judgment about whether the revised plan should proceed."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "专栏作者批评图书馆安排无薪晚班的计划。修订计划支付工资并保证休息日，她称这项修订是延长开放时间的可喜办法。她的立场是什么？",
+      "structure": "criticises的对象是original unpaid shifts；revised plan改变条件；calls...welcome明确评价修改后的具体安排。",
+      "other": "columnist专栏作者；shift班次；revision修订；guarantee保证。",
+      "meaning": "对有保障的具体安排可以明确支持，同时继续反对原方案。支持折中后的安排不等于态度犹豫，也不等于赞成所有实施方式。",
+      "rest": "rejects...even under revised与welcome矛盾；approves original错置评价对象；no judgment忽略作者已作出的正面评价。"
+    }
+  },
+  {
+    "id": "t17t2-stance-workshop",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-09",
+    "budget": 50,
+    "target": "quoted positions / writer's proposal",
+    "skill": "quoted positions / writer's proposal",
+    "q": "An owner proposes automating every workshop task. A union representative demands removal of all machines. The writer instead recommends machines for dangerous tasks, with paid retraining for affected workers. Which view belongs to the writer?",
+    "o": [
+      "Support selective automation combined with protections for workers.",
+      "Require removal of every machine before production can restart.",
+      "Endorse replacing workers in every task regardless of its risks.",
+      "Leave the owner's original proposal unchanged without retraining."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-09-2017-text2",
+    "exp": {
+      "trans": "老板提议所有工序都自动化，工会代表要求移走全部机器。作者则建议让机器承担危险任务，并给受影响工人提供带薪再培训。哪种观点属于作者？",
+      "structure": "三个主体分别对应proposes、demands、recommends；instead标记作者不同于前两方的方案；with列出配套条件。",
+      "other": "workshop车间；selective有选择的；retraining再培训；affected受影响的。",
+      "meaning": "不能把文中被转述的任一极端立场当作作者意见；作者支持特定范围的措施及保障，而非含糊中立。",
+      "rest": "removal of every machine是工会代表的观点；every task是老板的提案；unchanged...without retraining同时抹去作者对范围和保障的调整。"
+    }
+  }
+]

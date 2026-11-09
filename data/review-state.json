@@ -106,6 +106,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "astronomy-word-family": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-09",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "attribution-stance": {
       "streak": 0,
       "errors": 0,
@@ -366,6 +376,16 @@
       "observed_days": 0,
       "observation_priority": 2
     },
+    "dormant-state": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-09",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "effect-source-target": {
       "streak": 0,
       "errors": 1,
@@ -515,6 +535,16 @@
       "reported_confusion": true,
       "observed_days": 1,
       "observation_priority": 3
+    },
+    "historical-reminder-evidence": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-09",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "hostage-hijack": {
       "streak": 0,
@@ -735,6 +765,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 2
+    },
+    "polynesian-identity": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-09",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
     },
     "process-stage-role": {
       "streak": 2,

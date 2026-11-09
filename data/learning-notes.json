@@ -3268,5 +3268,200 @@
       "横线词不自动登记为翻译困难"
     ],
     "associated_question": 25
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "inference-boundary",
+    "kind": "user_reported_confusion",
+    "scope": "question",
+    "source_question": 27,
+    "expected": "A",
+    "reported_pick": null,
+    "final_choice_letter_confirmed": false,
+    "paper_wrong_confirmed": false,
+    "assessment_status": "reasonable_question_with_valid_causal_understanding; option wording needs comparison",
+    "user_quote": "这种大气稀薄的地方干扰少不就是环境因素吗？",
+    "user_reported_reasoning": "用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终选项未知，不能由提问推断选B。",
+    "positive_reasoning": "稀薄大气和较少干扰确实属于环境条件，用户这一理解正确；地理原因与环境结果可以同时成立。",
+    "not_a_misconception": "不得将本条登记成用户错误认为稀薄大气属于环境因素，或地理因素与环境条件互斥。",
+    "note": "本题需要比较完整选项：海拔、地形和位置等地理特征形成较有利的大气观测条件，再带来清晰图像。protective额外要求周边具有保护作用，原文未提供这种保护机制；不能把protective surroundings等同于一般的favorable atmospheric conditions。若改成后者，它能概括原文中的观测优势，但这是假设改写，不是原题B。",
+    "training_priority": 2,
+    "training_targets": [
+      "同时保留地理原因、环境条件与结果的因果链",
+      "核查选项形容词额外加入的意义",
+      "合理质疑不当作已确认的知识错误"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "historical-reminder-evidence",
+    "kind": "user_reported_confusion",
+    "scope": "question",
+    "source_question": 28,
+    "expected": "B",
+    "reported_pick": null,
+    "reported_leaning": "A",
+    "final_choice_letter_confirmed": false,
+    "paper_wrong_confirmed": false,
+    "assessment_status": "tentative_preference_only; final answer unknown",
+    "user_quote": "28我确实没找到合适的，但我感觉是A。",
+    "user_reported_reasoning": "用户没有找到特别合适的选项，倾向A，但未确认答题卡最终选择；不能登记为已经选A的真实错题。",
+    "text_evidence": "a painful reminder of the occupation of what was once a sovereign nation",
+    "note": "B对应曾经主权国家遭占领的痛苦历史记忆；圣地受冒犯与历史伤痛是原文给出的反对理由。A的ruining their intellectual life并无直接文本支持；后文共同探索身份、起源和未来反而强调天文学与当地文化的共同点。文化复兴、历史占领和当下控制权不能互相替代，不能仅凭话题相关就增加当前失去控制或精神生活被破坏的结论。",
+    "training_priority": 1,
+    "training_targets": [
+      "历史背景如何成为当下情绪与反对理由的证据",
+      "区分历史记忆、当前权利变化和文化复兴",
+      "选项须对应具体谓词与关系，而不只对应文化话题"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "astronomy-word-family",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "astronomers"
+    ],
+    "context_span": "The ancient Hawaiians were astronomers",
+    "boxed_evidence_source": "英语教学对话对纸质照片的核对结果，由用户本次文字交接提供；维护者未重新查看照片。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：astronomers。",
+    "note": "天文学家、天文观测者。指从事天文研究或观测的人，并不等于进入太空执行任务的宇航员。 画横线仅表示重要，不由此增加其他生词。",
+    "training_targets": [
+      "在不同语境中核验词义、词性与指代对象"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "astronomy-word-family",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "astronomy"
+    ],
+    "context_span": "astronomy in Hawaii",
+    "boxed_evidence_source": "英语教学对话对纸质照片的核对结果，由用户本次文字交接提供；维护者未重新查看照片。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：astronomy。",
+    "note": "天文学。是一门研究天体的学科；不是宇航员。明确的词义记忆混淆另存一条主动反馈。 画横线仅表示重要，不由此增加其他生词。",
+    "training_targets": [
+      "在不同语境中核验词义、词性与指代对象"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "dormant-state",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "dormant"
+    ],
+    "context_span": "a dormant volcano",
+    "boxed_evidence_source": "英语教学对话对纸质照片的核对结果，由用户本次文字交接提供；维护者未重新查看照片。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：dormant。",
+    "note": "休眠的、暂时不活跃的；不能据此推断永远不再活动。与active和extinct按状态及是否可能重新活动区分。 画横线仅表示重要，不由此增加其他生词。",
+    "training_targets": [
+      "在不同语境中核验词义、词性与指代对象"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "polynesian-identity",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "Polynesians"
+    ],
+    "context_span": "early Polynesians to Hawaii's shores",
+    "boxed_evidence_source": "英语教学对话对纸质照片的核对结果，由用户本次文字交接提供；维护者未重新查看照片。",
+    "user_reported_reasoning": "交接明确确认画框翻译困难：Polynesians。",
+    "note": "波利尼西亚人。Polynesia是太平洋中的岛屿文化区域；此词指相关人群，不是职业，也不泛指全部太平洋沿岸居民。 画横线仅表示重要，不由此增加其他生词。",
+    "training_targets": [
+      "在不同语境中核验词义、词性与指代对象"
+    ],
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-09",
+    "received_on": "2026-11-09",
+    "session_id": "2026-11-09-2017-text2",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题与教学反馈结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "scoring_policy": "Paper observations only. Final choices, first choices and revisions are unknown. No web Issue, score, error count, attempt or streak is inferred.",
+    "family": "astronomy-word-family",
+    "kind": "user_reported_confusion",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "active_question",
+    "source_spans": [
+      "astronomy"
+    ],
+    "user_quote": "astronomy回忆起来是宇航员了。",
+    "user_reported_reasoning": "用户明确将学科名astronomy回忆为宇航员；这是主动确认的词义记忆混淆，独立于两处画框保存。",
+    "note": "astronomy=天文学（学科）；astronomer=天文学家（研究/观测者）；astronaut=宇航员（进入太空执行任务者）。astronomical作形容词，表示天文学的，也可形容数量极大。三者通过人物工作与学科语境检验，不能只背中文；一个人也可能兼具天文学家和宇航员两种身份，不制造职业绝不重叠的规则。未据此认定任何原题最终选择或整篇理解困难。",
+    "training_priority": 3,
+    "training_targets": [
+      "学科、研究者与航天任务人员的区别",
+      "astronomical的学科义与极大数量义",
+      "按实际工作判断身份，而不是只匹配共同字母"
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 {
   "exam": "2017-english1",
-  "checked_on": "2026-11-08",
-  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25.",
+  "checked_on": "2026-11-09",
+  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25. Extended on 2026-11-09: Reading Text 2 Q26-Q30; Q27/Q28 evidence and four boxed terms. Q29 user key A is corroborated by Xinwendao; an early C explanation is retained as a source difference.",
   "purpose": "核对参考答案、正确选项文字和搭配；与用户原始错误选项、网页成绩分开。",
   "sources": [
     {
@@ -69,6 +69,36 @@
       "title": "中国教育在线（文都教育何凯文考场回忆版）：2017英语一阅读答案",
       "url": "https://kaoyan.eol.cn/shiti/yingyu/201612/t20161224_1478836.shtml",
       "covers": "题25答案文字为Getting stuck in the security line，与用户C同一标题方向；明确是考场回忆版，仅作分歧佐证，不当作统一官方标准。"
+    },
+    {
+      "id": "xinwendao-2017-text2-key",
+      "title": "新文道官网：2017英语一真题解析PDF，Text 2逐题解析",
+      "url": "https://oss.hbxinwendao.com/website/upfiles/2021/0820/20210820041332318.pdf",
+      "covers": "第12—14页按选项文字核对26B、27A、28B、29A、30D，与本次用户参考表一致；29强调延续古人对起源的追问。"
+    },
+    {
+      "id": "eol-wendu-2017-text2-analysis",
+      "title": "中国教育在线（文都教育）：2017英语一阅读第二篇答案解析",
+      "url": "https://kaoyan.eol.cn/shiti/yingyu/201612/t20161225_1478911.shtml",
+      "covers": "27地理特征和28占领历史与本次参考一致；早期29解释偏向文化起源C，与新文道和用户A不同，不覆盖本次采用的参考，也不用于判定用户成绩。"
+    },
+    {
+      "id": "cambridge-astro-word-family",
+      "title": "Cambridge School Dictionary：astronomy / astronomer / astronaut / astronomical",
+      "url": "https://api.pageplace.de/preview/DT0400.9780511451270_A25081870/preview-9780511451270_A25081870.pdf",
+      "covers": "第43页词条核对学科、研究者、进入太空者及astronomical的数量比喻义。"
+    },
+    {
+      "id": "american-heritage-dormant",
+      "title": "American Heritage Dictionary: dormant",
+      "url": "https://ahdictionary.com/word/search.html?q=dormant",
+      "covers": "暂时不活跃以及存在但未显现、可能重新活动的含义；不等同永久灭绝。"
+    },
+    {
+      "id": "cambridge-polynesian",
+      "title": "Cambridge Dictionary: Polynesian",
+      "url": "https://dictionary.cambridge.org/dictionary/english/polynesian",
+      "covers": "名词指来自波利尼西亚的人；形容词指与该地区或人群有关，不指定单一职业或当前住址。"
     }
   ],
   "answers": {
@@ -91,7 +121,12 @@
     "17": "A",
     "18": "B",
     "19": "A",
-    "20": "D"
+    "20": "D",
+    "26": "B",
+    "27": "A",
+    "28": "B",
+    "29": "A",
+    "30": "D"
   },
   "answer_words": {
     "3": "host",
@@ -100,7 +135,11 @@
     "10": "explained",
     "11": "Even",
     "13": "increased",
-    "19": "remains"
+    "19": "remains",
+    "27": "its geographical features",
+    "28": "it reminds them of a humiliating history",
+    "29": "is fulfilling the dreams of ancient Hawaiians",
+    "30": "full approval"
   },
   "option_order_reference": {
     "13": {
@@ -112,6 +151,18 @@
       "B": "PreCheck—a Belated Solution",
       "C": "Getting Stuck in Security Lines",
       "D": "Underused PreCheck Lanes"
+    },
+    "27": {
+      "A": "its geographical features",
+      "B": "its protective surroundings",
+      "C": "its religious implications",
+      "D": "its existing infrastructure"
+    },
+    "28": {
+      "A": "it may risk ruining their intellectual life",
+      "B": "it reminds them of a humiliating history",
+      "C": "their culture will lose a chance of revival",
+      "D": "they fear losing control of Mauna Kea"
     }
   },
   "option_order_note": "Q13 A highlighted由用户交接明确转述；不从另一版排序补造其余错误选项字母。Q10仅确认served的语义思路，错误字母未知。",
@@ -150,5 +201,39 @@
       "policy": "保留未决争议，不在answers[25]填单一正确字母，不把B归入确定错题，也不认定其已经答对掌握。"
     }
   },
-  "reading_text1_performance_coverage": "整体自述较顺畅；仅确认Q25最终B及其比较理由、5个画框词。21—24具体作答、初选、改选及正确率均未知；不由前四题没有B的自述重建答案。"
+  "reading_text1_performance_coverage": "整体自述较顺畅；仅确认Q25最终B及其比较理由、5个画框词。21—24具体作答、初选、改选及正确率均未知；不由前四题没有B的自述重建答案。",
+  "reading_text2_reference": {
+    "user_supplied_key": {
+      "26": "B",
+      "27": "A",
+      "28": "B",
+      "29": "A",
+      "30": "D"
+    },
+    "adopted_source_ids": [
+      "xinwendao-2017-text2-key"
+    ],
+    "q27_q28_corroboration_source_ids": [
+      "eol-wendu-2017-text2-analysis"
+    ],
+    "q29_source_difference": {
+      "adopted_answer": "A",
+      "adopted_text": "is fulfilling the dreams of ancient Hawaiians",
+      "alternate_answer": "C",
+      "alternate_text": "may uncover the origin of Hawaiian culture",
+      "alternate_source_ids": [
+        "eol-wendu-2017-text2-analysis",
+        "haiwen-2017-text1-title"
+      ],
+      "status": "different_published_explanations_not_assumed_to_be_option_reordering",
+      "policy": "采用与用户参考一致且由新文道逐项文字支持的A，保留早期C来源差异；不声称统一官方结论，不推断用户29选择或对错。"
+    },
+    "q30_scope": "full approval指作者认可末段列出的具体选址与减轻影响方案；不是无条件赞成任何建设方式。"
+  },
+  "reading_text2_performance_coverage": "26—30最终选择、首次选择和改选均未知；28仅倾向A，27提出合理的环境优势质疑。仅登记两题理解观察、四个明确框词和主动词义混淆；无纸质分数或网页错误。",
+  "reading_text2_evidence_limits": [
+    "维护仅使用本次结构化文字，未重新查看照片。",
+    "disassemble的标记未确认为画框，只作教学补充。",
+    "不从询问某选项、参考答案或照片笔迹重建最终作答。"
+  ]
 }

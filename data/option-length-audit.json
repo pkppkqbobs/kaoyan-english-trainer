@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 378,
-        "correct_uniquely_longest": 92,
-        "correct_uniquely_shortest": 62,
-        "longest_guess_pct": 30.42,
-        "shortest_guess_pct": 20.86,
+        "question_count": 392,
+        "correct_uniquely_longest": 96,
+        "correct_uniquely_shortest": 64,
+        "longest_guess_pct": 30.8,
+        "shortest_guess_pct": 20.77,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5525,6 +5525,244 @@
         "pool": "daily_article",
         "family": "title-coverage",
         "source": "data/questions/2026-11-08-2017-text1-migration.json"
+      },
+      "t17t2-astronomer-roles": {
+        "lengths": [
+          63,
+          63,
+          64,
+          64
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "astronomy-word-family",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-astronomical-price": {
+        "lengths": [
+          51,
+          52,
+          51,
+          51
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "astronomy-word-family",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-astronomy-grant": {
+        "lengths": [
+          69,
+          72,
+          70,
+          71
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "astronomy-word-family",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-astronomy-overlap": {
+        "lengths": [
+          62,
+          61,
+          63,
+          64
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "astronomy-word-family",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-cause-cellar": {
+        "lengths": [
+          63,
+          63,
+          61,
+          66
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-cause-rain-garden": {
+        "lengths": [
+          64,
+          63,
+          62,
+          63
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-dormant-account": {
+        "lengths": [
+          62,
+          61,
+          60,
+          59
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "dormant-state",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-dormant-seeds": {
+        "lengths": [
+          61,
+          64,
+          62,
+          64
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "dormant-state",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-history-emblem": {
+        "lengths": [
+          65,
+          65,
+          65,
+          65
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "historical-reminder-evidence",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-history-lease": {
+        "lengths": [
+          65,
+          66,
+          66,
+          68
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "historical-reminder-evidence",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-polynesian-ancestry": {
+        "lengths": [
+          64,
+          65,
+          69,
+          69
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "polynesian-identity",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-polynesian-museum": {
+        "lengths": [
+          51,
+          50,
+          49,
+          48
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "polynesian-identity",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-stance-library": {
+        "lengths": [
+          70,
+          70,
+          66,
+          68
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
+      },
+      "t17t2-stance-workshop": {
+        "lengths": [
+          67,
+          63,
+          64,
+          65
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-09-2017-text2-migration.json"
       },
       "take-page-clinic-a": {
         "lengths": [

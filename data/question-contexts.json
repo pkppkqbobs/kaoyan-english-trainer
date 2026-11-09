@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-11-08",
-  "source_commit": "eb1df8bb21f6c281c6edd05626276440c57cfce1",
+  "reviewed_on": "2026-11-09",
+  "source_commit": "4c3c43e231dbf4f63f03524f6340e4042baebc08",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -466,7 +466,21 @@
     "t17-remodel-theatre": "physical-remodel-existing-interior",
     "t17-remodel-decisions": "figurative-remodel-organizational-structure",
     "t17-screening-film": "screening-film-event-context",
-    "t17-screening-applications": "screening-eligibility-filter-not-final-selection"
+    "t17-screening-applications": "screening-eligibility-filter-not-final-selection",
+    "t17t2-cause-cellar": "rock-thermal-property-indoor-climate-result",
+    "t17t2-cause-rain-garden": "permeable-soil-absorption-runoff-versus-barrier",
+    "t17t2-history-emblem": "factory-emblem-memory-not-current-rent-or-control",
+    "t17t2-history-lease": "past-eviction-background-versus-explicit-future-lease-objection",
+    "t17t2-astronomy-grant": "ground-based-research-grant-field-not-space-crew",
+    "t17t2-astronomer-roles": "galaxy-data-analyst-versus-crewed-docking-trainee",
+    "t17t2-astronomical-price": "concert-hall-repair-quote-figurative-astronomical",
+    "t17t2-astronomy-overlap": "orbital-crew-member-also-publishes-star-research",
+    "t17t2-dormant-account": "inactive-online-profile-reactivation-versus-deletion",
+    "t17t2-dormant-seeds": "viable-seeds-resume-growth-after-inactivity",
+    "t17t2-polynesian-museum": "museum-peoples-label-versus-profession-or-whole-ocean",
+    "t17t2-polynesian-ancestry": "ancestry-distinct-from-present-address-language-job",
+    "t17t2-stance-library": "revised-library-opening-plan-positive-with-safeguards",
+    "t17t2-stance-workshop": "two-quoted-extremes-versus-writer-selective-automation"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -636,8 +650,17 @@
     },
     "author-stance": {
       "coverage_gap": false,
-      "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
-      "reason": "新增地热安全前提、节庆许可、生态学家与居民观点冲突、词汇考试工具局限四种立场边界。"
+      "reason": "2017 Text2交接新增2个原创迁移语境；合理质疑、倾向选择、画框困难和教学延伸分开保存。",
+      "review_session": "2026-11-09-2017-text2",
+      "evidence_paths": [
+        "revised-library-opening-plan-positive-with-safeguards",
+        "two-quoted-extremes-versus-writer-selective-automation"
+      ],
+      "previous_assessment": {
+        "coverage_gap": false,
+        "previous_gap": "只测deserve/all等强立场词，缺少引述观点与作者自身限定评价的区分。",
+        "reason": "新增地热安全前提、节庆许可、生态学家与居民观点冲突、词汇考试工具局限四种立场边界。"
+      }
     },
     "causal-role-direction": {
       "coverage_gap": false,
@@ -720,15 +743,24 @@
     },
     "inference-boundary": {
       "coverage_gap": false,
-      "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
-      "review_session": "2026-11-08-2017-text1",
+      "reason": "2017 Text2交接新增2个原创迁移语境；合理质疑、倾向选择、画框困难和教学延伸分开保存。",
+      "review_session": "2026-11-09-2017-text2",
       "evidence_paths": [
-        "possibly-correct-conclusion-invalid-letter-rationale",
-        "mechanism-is-present-but-not-main-argument"
+        "rock-thermal-property-indoor-climate-result",
+        "permeable-soil-absorption-runoff-versus-barrier"
       ],
       "previous_assessment": {
         "coverage_gap": false,
-        "reason": "新增气候模型局部参数、野生动物部分样本、睡眠试验长短期、流域研究与答案字母频率四种迁移；检验结论范围及不可靠字母分布策略。"
+        "reason": "2017 Text1文字证据新增2题；题目按全文证据或语境确定唯一答案，不把原题争议简化成B必错。",
+        "review_session": "2026-11-08-2017-text1",
+        "evidence_paths": [
+          "possibly-correct-conclusion-invalid-letter-rationale",
+          "mechanism-is-present-but-not-main-argument"
+        ],
+        "previous_assessment": {
+          "coverage_gap": false,
+          "reason": "新增气候模型局部参数、野生动物部分样本、睡眠试验长短期、流域研究与答案字母频率四种迁移；检验结论范围及不可靠字母分布策略。"
+        }
       }
     },
     "logic": {
@@ -908,6 +940,44 @@
       "evidence_paths": [
         "late-recognition-not-rescheduled-ceremony",
         "planned-postponement-versus-overdue-response"
+      ]
+    },
+    "historical-reminder-evidence": {
+      "coverage_gap": false,
+      "reason": "2017 Text2交接新增2个原创迁移语境；合理质疑、倾向选择、画框困难和教学延伸分开保存。",
+      "review_session": "2026-11-09-2017-text2",
+      "evidence_paths": [
+        "factory-emblem-memory-not-current-rent-or-control",
+        "past-eviction-background-versus-explicit-future-lease-objection"
+      ]
+    },
+    "astronomy-word-family": {
+      "coverage_gap": false,
+      "reason": "2017 Text2交接新增4个原创迁移语境；合理质疑、倾向选择、画框困难和教学延伸分开保存。",
+      "review_session": "2026-11-09-2017-text2",
+      "evidence_paths": [
+        "ground-based-research-grant-field-not-space-crew",
+        "galaxy-data-analyst-versus-crewed-docking-trainee",
+        "concert-hall-repair-quote-figurative-astronomical",
+        "orbital-crew-member-also-publishes-star-research"
+      ]
+    },
+    "dormant-state": {
+      "coverage_gap": false,
+      "reason": "2017 Text2交接新增2个原创迁移语境；合理质疑、倾向选择、画框困难和教学延伸分开保存。",
+      "review_session": "2026-11-09-2017-text2",
+      "evidence_paths": [
+        "inactive-online-profile-reactivation-versus-deletion",
+        "viable-seeds-resume-growth-after-inactivity"
+      ]
+    },
+    "polynesian-identity": {
+      "coverage_gap": false,
+      "reason": "2017 Text2交接新增2个原创迁移语境；合理质疑、倾向选择、画框困难和教学延伸分开保存。",
+      "review_session": "2026-11-09-2017-text2",
+      "evidence_paths": [
+        "museum-peoples-label-versus-profession-or-whole-ocean",
+        "ancestry-distinct-from-present-address-language-job"
       ]
     }
   },
