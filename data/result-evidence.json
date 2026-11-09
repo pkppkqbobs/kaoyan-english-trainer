@@ -3482,6 +3482,94 @@
       "qid": "paragraph-scope-delivery-fees",
       "round_id": "mw7lyhay-2z9mouox",
       "source_date": "2026-11-08"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "compensation-components",
+      "ok": true,
+      "ms": 26452,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "compensation-port-delayed-benefits-b",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "nested",
+      "ok": false,
+      "ms": 9523,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "nested-valve-leak-c",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 49624,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "summary-overall-midsection",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "location-vs-change",
+      "ok": true,
+      "ms": 41076,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "cl17-remain-members",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "heading-global-allocation",
+      "ok": true,
+      "ms": 109630,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "pb16-pair-vaccine-cold-chain",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 105695,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "t17-title-music-counts",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "highlight-heighten",
+      "ok": true,
+      "ms": 45940,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "cl17-heighten-awareness",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-09",
+      "family": "attribution-stance",
+      "ok": true,
+      "ms": 98789,
+      "uncertain": false,
+      "origin": 43,
+      "qid": "text2-speakers-transit-tax",
+      "round_id": "mw997mx6-8ksrn7w4",
+      "source_date": "2026-11-09"
     }
   ],
   "issues": [
@@ -3526,6 +3614,7 @@
     39,
     40,
     41,
-    42
+    42,
+    43
   ]
 }

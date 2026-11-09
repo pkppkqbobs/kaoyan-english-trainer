@@ -42,7 +42,8 @@
     39,
     40,
     41,
-    42
+    42,
+    43
   ],
   "families": {
     "absolute-language": {
@@ -108,11 +109,11 @@
     "attribution-stance": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-09",
       "due": "2026-11-09",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "author-stance": {
@@ -266,13 +267,13 @@
       "observation_priority": 2
     },
     "compensation-components": {
-      "streak": 2,
+      "streak": 3,
       "errors": 1,
-      "last": "2026-10-31",
-      "due": "2026-11-04",
+      "last": "2026-11-09",
+      "due": "2026-11-16",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 0
     },
     "complementary": {
@@ -498,21 +499,21 @@
     "heading-global-allocation": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-09",
       "due": "2026-11-09",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "highlight-heighten": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-09",
       "due": "2026-11-09",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "hostage-hijack": {
@@ -588,11 +589,11 @@
     "location-vs-change": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-09",
       "due": "2026-11-09",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "logic": {
@@ -627,12 +628,12 @@
     },
     "nested": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-04",
-      "due": "2026-11-05",
+      "errors": 2,
+      "last": "2026-11-09",
+      "due": "2026-11-09",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 15,
+      "observed_days": 16,
       "observation_priority": 2
     },
     "paragraph-order-anaphora": {
@@ -918,11 +919,11 @@
     "summary-location": {
       "streak": 0,
       "errors": 4,
-      "last": "2026-11-08",
-      "due": "2026-11-09",
+      "last": "2026-11-09",
+      "due": "2026-11-10",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 16,
+      "observed_days": 17,
       "observation_priority": 0
     },
     "susceptibility-vocab": {
@@ -1058,11 +1059,11 @@
     "title-coverage": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-06",
-      "due": "2026-11-07",
+      "last": "2026-11-09",
+      "due": "2026-11-09",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "title-specificity": {
