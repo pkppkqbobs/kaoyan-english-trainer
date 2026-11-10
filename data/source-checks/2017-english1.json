@@ -1,7 +1,7 @@
 {
   "exam": "2017-english1",
-  "checked_on": "2026-11-09",
-  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25. Extended on 2026-11-09: Reading Text 2 Q26-Q30; Q27/Q28 evidence and four boxed terms. Q29 user key A is corroborated by Xinwendao; an early C explanation is retained as a source difference.",
+  "checked_on": "2026-11-10",
+  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25. Extended on 2026-11-09: Reading Text 2 Q26-Q30; Q27/Q28 evidence and four boxed terms. Q29 user key A is corroborated by Xinwendao; an early C explanation is retained as a source difference. Extended on 2026-11-10: Text 3 vocabulary and positive paper self-report; no Q31-Q35 answer letters or individual choices reconstructed.",
   "purpose": "核对参考答案、正确选项文字和搭配；与用户原始错误选项、网页成绩分开。",
   "sources": [
     {
@@ -99,6 +99,60 @@
       "title": "Cambridge Dictionary: Polynesian",
       "url": "https://dictionary.cambridge.org/dictionary/english/polynesian",
       "covers": "名词指来自波利尼西亚的人；形容词指与该地区或人群有关，不指定单一职业或当前住址。"
+    },
+    {
+      "id": "cambridge-shed-light",
+      "title": "Cambridge Dictionary: shed light on",
+      "url": "https://dictionary.cambridge.org/dictionary/english/shed-light-on",
+      "covers": "提供信息、帮助解释，方向与hide/conceal相反；不保证所有细节已确定。"
+    },
+    {
+      "id": "cambridge-shed",
+      "title": "Cambridge Dictionary: shed",
+      "url": "https://dictionary.cambridge.org/dictionary/english/shed",
+      "covers": "确认用户记得的棚屋名词义正确；按具体宾语区分动词义，不能因固定短语误解否认已有正确记忆。"
+    },
+    {
+      "id": "cambridge-shelter",
+      "title": "Cambridge Dictionary: shelter",
+      "url": "https://dictionary.cambridge.org/dictionary/english/shelter",
+      "covers": "免受坏天气或危险的庇护、庇护处；take shelter的搭配。"
+    },
+    {
+      "id": "cambridge-shade",
+      "title": "Cambridge Dictionary: shade",
+      "url": "https://dictionary.cambridge.org/dictionary/english/shade",
+      "covers": "遮挡直射阳光所形成的阴凉；不自动保证防雨，与shelter的现实功能可重叠。"
+    },
+    {
+      "id": "cambridge-budding",
+      "title": "Cambridge Dictionary: budding",
+      "url": "https://dictionary.cambridge.org/dictionary/english/budding",
+      "covers": "开始发展或初显潜力，不等于已经完全成熟或保证成功。"
+    },
+    {
+      "id": "cambridge-criterion",
+      "title": "Cambridge Dictionary: criterion / criteria",
+      "url": "https://dictionary.cambridge.org/dictionary/english/criterion",
+      "covers": "单数criterion，复数criteria；表示判断、选择时使用的标准。"
+    },
+    {
+      "id": "cambridge-remould",
+      "title": "Cambridge Dictionary: remould / remold",
+      "url": "https://dictionary.cambridge.org/dictionary/english/remould",
+      "covers": "remold为对应美式拼写；可改变软物形状，也可重塑性质或模式；本次框词原样保存为remold。"
+    },
+    {
+      "id": "cambridge-brexit",
+      "title": "Cambridge Dictionary: Brexit",
+      "url": "https://dictionary.cambridge.org/dictionary/english/brexit",
+      "covers": "英国退出欧盟这一专名；不额外测试用户未报告困难的具体历史日期。"
+    },
+    {
+      "id": "cambridge-envy",
+      "title": "Cambridge Dictionary: envy",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/envy",
+      "covers": "羡慕他人拥有的优势；可带两个宾语，区分感受者与被羡慕的对象，不能自动推出恶意。"
     }
   ],
   "answers": {
@@ -235,5 +289,53 @@
     "维护仅使用本次结构化文字，未重新查看照片。",
     "disassemble的标记未确认为画框，只作教学补充。",
     "不从询问某选项、参考答案或照片笔迹重建最终作答。"
-  ]
+  ],
+  "reading_text3_performance_coverage": {
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "evidence": "User explicitly reports all five correct and understanding the main idea while answering; not independently observed item choices.",
+    "policy": "不把本篇词汇困难写成整体阅读困难或答对但犹豫；不由正确参考答案反推用户最终字母，不新增网页成绩。"
+  },
+  "reading_text3_vocabulary_scope": {
+    "boxed_words": [
+      "envy",
+      "Brexit",
+      "criteria",
+      "sharp hit",
+      "remold"
+    ],
+    "active_questions": [
+      "shed some light on",
+      "budding"
+    ],
+    "clarification": "shed / shelter / shade",
+    "correct_memory": "shed as a noun meaning a small building",
+    "marking_policy": "横线不是框词；shelter/shade是主动辨析对象，不额外声称它们在照片中画框。",
+    "context_source": "本次交接文字给出的片段；维护者未重新查看照片，拼写和标记不作新的照片鉴定。"
+  }
 }

@@ -1,0 +1,452 @@
+[
+  {
+    "id": "r17t3-light-race-timing",
+    "family": "shed-light-direction",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "shed light on / conceal",
+    "skill": "shed light on / conceal",
+    "q": "A coach compares video with runners' split times. The comparison sheds light on why a handover failed, although one camera angle is missing. What does the expression say the comparison achieves?",
+    "o": [
+      "It keeps the cause of the failed handover hidden from view.",
+      "It helps explain the failure despite a gap in the evidence.",
+      "It physically brightens the track where the runners compete.",
+      "It proves the cause even without any supporting information."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "教练将视频与运动员的分段用时比较。尽管缺少一个拍摄角度，这种比较仍帮助解释交接为什么失败。该表达说明比较起到什么作用？",
+      "structure": "The comparison是主语；sheds light on后接why引导的解释对象；although保留信息仍不完整这一限定。",
+      "other": "split time分段用时；handover交接；camera angle拍摄角度；settle确定解决。",
+      "meaning": "shed light on是帮助说明、使更清楚，方向与隐藏相反；部分解释可以成立，不等于所有细节已经证实。",
+      "rest": "keeps...hidden把阐明反转为遮蔽；physically brightens把固定短语硬译为照明；proves...without information把帮助理解夸大成无证据也能证明。"
+    }
+  },
+  {
+    "id": "r17t3-light-audit-process",
+    "family": "shed-light-direction",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "bring to light / shed light on",
+    "skill": "bring to light / shed light on",
+    "q": "An audit brings an unrecorded payment to light. A later analysis sheds light on how it bypassed checks. Which reading preserves the different emphases?",
+    "o": [
+      "The audit hides the payment; the analysis also conceals the process.",
+      "The audit explains the process; the analysis denies any payment existed.",
+      "The audit illuminates a room; the analysis changes its lighting system.",
+      "The audit reveals the payment; the analysis helps explain the process."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "审计揭露了一笔未入账的款项；后续分析帮助说明它如何绕过检查。怎样理解才能保留两种表达的侧重点？",
+      "structure": "brings...to light的宾语是先前未知的payment；sheds light on的对象是how引导的运作过程。",
+      "other": "audit审计；unrecorded未记录的；bypass绕过；emphasis侧重点。",
+      "meaning": "bring to light偏使隐情为人所知；shed light on偏提供理解所需的信息。这里可以前者揭露事实、后者解释机制，不必强行互斥。",
+      "rest": "hides和conceals均反转方向；denies payment没有依据且否认已揭露事实；room/lighting system把两个比喻都误作物理照明。"
+    }
+  },
+  {
+    "id": "r17t3-shed-noun-verb",
+    "family": "shed-shelter-shade",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "shed noun / shed verb",
+    "skill": "shed noun / shed verb",
+    "q": "Every autumn this tree sheds its leaves beside the shed. Which reading preserves the two uses of shed?",
+    "o": [
+      "The tree loses leaves; the noun names a small storage building.",
+      "The tree hides leaves; the noun names shade from direct sunlight.",
+      "The tree guards leaves; the noun means protection from bad weather.",
+      "The tree emits light; the noun names a clearing exposed to sunlight."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "每年秋天，这棵树在棚屋旁落叶。如何理解才保留了shed的两种用法？",
+      "structure": "tree是主语，sheds是谓语，leaves是宾语；介词beside后的the shed是名词短语。词性由句法位置区分。",
+      "other": "autumn秋天；beside在旁边；storage储存；clearing空地。",
+      "meaning": "名词shed指小型储物棚屋，用户这一记忆本来正确；动词shed在leaves语境指脱落，不能把名词义套进谓语。",
+      "rest": "hides反转落叶动作且把名词当成shade；guards既非落叶又把shed当shelter；emits light虽可能是shed的另一动词搭配，却不适用于宾语leaves。"
+    }
+  },
+  {
+    "id": "r17t3-shelter-station",
+    "family": "shed-shelter-shade",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "shelter / shade / shed",
+    "skill": "shelter / shade / shed",
+    "q": "During a storm, walkers take shelter in a railway waiting room. Which meaning of shelter is relevant?",
+    "o": [
+      "A small building intended primarily for keeping garden tools.",
+      "An area made darker only by blocking direct rays of sunlight.",
+      "Protection from bad weather, here provided by a waiting room.",
+      "The release of leaves from a tree during a seasonal change."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "暴风雨中，行人在铁路候车室避雨。shelter在这里对应什么含义？",
+      "structure": "take shelter表示寻求庇护；in a railway waiting room指出提供庇护的场所；during a storm给出需要保护的背景。",
+      "other": "walker步行者；waiting room候车室；primarily主要地；seasonal季节性的。",
+      "meaning": "shelter强调免受风雨或危险的庇护，既可说功能也可指场所；这里不要求该场所是专用避难建筑。",
+      "rest": "keeping tools描述shed常见名词义，却不是此处的保护功能；blocking sunlight只说明shade的遮阳方向；release of leaves是动词shed的另一语境。"
+    }
+  },
+  {
+    "id": "r17t3-shade-slats",
+    "family": "shed-shelter-shade",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "shade does not guarantee rain protection",
+    "skill": "shade does not guarantee rain protection",
+    "q": "A slatted cover shades a reading area at noon, but rain still passes through its gaps. What does shades indicate here?",
+    "o": [
+      "Seals every gap so rain can no longer reach people underneath.",
+      "Blocks direct sunlight without necessarily keeping the rain out.",
+      "Turns the reading area into an enclosed building for tool storage.",
+      "Releases enough light to make the whole reading area much brighter."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "条板顶棚在中午为阅读区遮阳，但雨仍能从缝隙穿过。shades在这里表明什么？",
+      "structure": "shades是cover所做的动作；but把遮阳与不能完全挡雨并列对照，不能只保留有保护作用的宽泛印象。",
+      "other": "slatted由条板构成的；gap缝隙；underneath在下方；enclosed封闭的。",
+      "meaning": "shade在这里遮挡直射阳光。某些东西同时遮阳避雨是可能的，但此处遮阳不保证挡雨，须保留后半句限制。",
+      "rest": "Seals every gap与雨能穿过直接冲突；tool storage无依据地把功能改成shed；Releases light是散发光线，方向与遮挡相反。"
+    }
+  },
+  {
+    "id": "r17t3-shed-glow",
+    "family": "shed-shelter-shade",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "shed light literally / shade",
+    "skill": "shed light literally / shade",
+    "q": "A desk lamp sheds a warm glow while a screen shades the window. Which reading fits both verbs?",
+    "o": [
+      "The lamp stores tools; the screen emits sunlight into the room.",
+      "The lamp hides its light; the screen creates a new storage shed.",
+      "The lamp loses its leaves; the screen provides a storm forecast.",
+      "The lamp gives off light; the screen blocks some incoming sunlight."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "台灯散发柔和光线，窗屏则遮挡窗外的光。哪种理解符合两个动词？",
+      "structure": "lamp与screen分别是两个动作主体；shed的宾语glow指实际光线，此处是散发义；shade的宾语window表明遮光。",
+      "other": "desk lamp台灯；glow柔和光线；give off散发；incoming进入的。",
+      "meaning": "shed可按宾语表示散发光等，shade在这里是遮光；字形相近不等于方向相同。此处也不要将字面发光一概替换为shed light on的阐明义。",
+      "rest": "stores tools把名词棚屋硬套进动词；hides反转发光；loses leaves忽略实际宾语glow；窗屏发光、建棚或预报天气也不符合原句。"
+    }
+  },
+  {
+    "id": "r17t3-budding-project",
+    "family": "budding-stage",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "budding / fully developed",
+    "skill": "budding / fully developed",
+    "q": "A translation collective has completed its first small commission and is still learning how to work together. A reviewer calls it a budding enterprise. Which expectation fits?",
+    "o": [
+      "It has already reached a stable and fully developed operating scale.",
+      "Its first commission proves that every future project must succeed.",
+      "It is showing early promise while its organisation is still developing.",
+      "It has permanently stopped operating before completing any project."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "一个翻译合作团队刚完成首个小委托，成员仍在学习协作。评论者称它为budding enterprise。怎样理解适当？",
+      "structure": "first small commission与still learning共同限定发展阶段；budding修饰enterprise，评价的是事业的初期发展。",
+      "other": "collective合作团队；commission委托；enterprise事业、企业；promise潜力。",
+      "meaning": "budding表示萌芽、开始显现潜力，不等于充分成熟；积极预期也不能推出每个项目必定成功。",
+      "rest": "fully developed把初期推成成熟；every future...must夸大确定性；permanently stopped与已完成委托并继续学习不符。"
+    }
+  },
+  {
+    "id": "r17t3-budding-friendship",
+    "family": "budding-stage",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "early development / established relationship",
+    "skill": "early development / established relationship",
+    "q": "Two neighbours have begun sharing meals after years of merely exchanging greetings. The narrator describes a budding friendship. What is established?",
+    "o": [
+      "A closer relationship is beginning, though its future remains open.",
+      "A lifelong friendship is already certain to survive every difficulty.",
+      "Their earlier greetings prove that they have always been close friends.",
+      "The relationship has ended because the neighbours avoid one another."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "两位邻居多年只是打招呼，最近开始一起吃饭，叙述者称之为budding friendship。能确认什么？",
+      "structure": "have begun标记变化开始；after years of merely...对比原先较疏远的状态；budding概括关系正萌芽。",
+      "other": "merely仅仅；greeting问候；narrator叙述者；lifelong终生的。",
+      "meaning": "是更亲密关系的开端，而非已经充分确立的终生承诺。发展初期、已有发展和最终稳定要区分。",
+      "rest": "lifelong...certain是无依据保证；always close抹去先前只打招呼的限定；has ended与开始一起吃饭的动作相反。"
+    }
+  },
+  {
+    "id": "r17t3-criteria-selection",
+    "family": "criteria-number",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "criteria / criterion",
+    "skill": "criteria / criterion",
+    "q": "A photography jury judges each entry for originality and clarity. Its notice calls these the selection criteria. What are the criteria?",
+    "o": [
+      "The two photographers chosen to sit on the selection panel.",
+      "The standards used to judge the submitted photographs.",
+      "The photographs that have already won the final prizes.",
+      "The ceremonies at which prizes are given to photographers."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "摄影评委按原创性和清晰度评判作品，通知称二者为selection criteria。criteria指什么？",
+      "structure": "for originality and clarity列出评价维度；these回指这两种标准；criteria是criterion的复数。",
+      "other": "jury评审团；entry参评作品；originality原创性；clarity清晰度。",
+      "meaning": "criteria是判断所用的多项标准，不是参加评价的人或评价产生的结果。",
+      "rest": "photographers把标准当成人；photographs...won把标准当成获奖对象；ceremonies把标准当成颁奖活动。"
+    }
+  },
+  {
+    "id": "r17t3-criterion-single-rule",
+    "family": "criteria-number",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "one criterion / several criteria",
+    "skill": "one criterion / several criteria",
+    "q": "A panel has removed every rule except one. Which revision is standard formal English?",
+    "o": [
+      "Only one criteria remain.",
+      "Only one criteria remains.",
+      "Only one criterion remain.",
+      "Only one criterion remains."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "评审组已删去其余规则，只剩一条。哪种改写符合规范的正式英语？",
+      "structure": "one要求单数名词criterion；名词作主语时，单数主语对应remains；criteria是复数形式。",
+      "other": "panel评审组；except除外；formal English正式英语；agreement主谓一致。",
+      "meaning": "单数criterion与复数criteria同时影响名词选择和谓语一致，不能只记中文标准而忽略数量。",
+      "rest": "criteria remain用于复数情形，不能跟one；criteria remains混用复数名词与单数谓语；criterion remain则缺少单数谓语形式。"
+    }
+  },
+  {
+    "id": "r17t3-envy-library",
+    "family": "envy-object",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "be the envy of / envy direction",
+    "skill": "be the envy of / envy direction",
+    "q": "A town library has a free recording studio that neighbouring libraries wish they had. A magazine calls it the envy of the district. Who envies whom?",
+    "o": [
+      "Other libraries wish they had the town library's recording facility.",
+      "The town library wishes it could copy the district's existing studio.",
+      "The magazine proves that every library dislikes recording facilities.",
+      "The town library must remove its studio to satisfy the other libraries."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "一家镇图书馆有免费录音室，周边图书馆也想拥有。杂志称它为the envy of the district。羡慕的方向是什么？",
+      "structure": "that...wish they had说明他人希望也有该设施；be the envy of中主语是被羡慕的对象。",
+      "other": "recording studio录音室；neighbouring邻近的；district地区；facility设施。",
+      "meaning": "the envy of不是主语去羡慕别人，而是别人羡慕主语所拥有的东西。",
+      "rest": "town library wishes倒置羡慕方向；every...dislikes把羡慕改成厌恶并过度概括；must remove添加不受支持的义务或行动。"
+    }
+  },
+  {
+    "id": "r17t3-envy-studio",
+    "family": "envy-object",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "envy someone / desired advantage",
+    "skill": "envy someone / desired advantage",
+    "q": "After months of working beside noisy machinery, a painter says, \"I envy Nora her quiet studio.\" Which paraphrase fits?",
+    "o": [
+      "Nora wishes she could work beside the same noisy machinery.",
+      "The painter wants Nora to lose every advantage of her studio.",
+      "The painter wishes for the quiet working conditions Nora has.",
+      "Nora has asked the painter to find a quiet studio for a friend."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "在嘈杂机器旁工作数月后，画家说：“我羡慕Nora拥有安静的画室。”哪种改写合适？",
+      "structure": "I是感受羡慕者；Nora是被羡慕的人，her quiet studio说明被羡慕的优势。",
+      "other": "machinery机器设备；painter画家；working conditions工作条件。",
+      "meaning": "envy可表示希望自己也拥有他人的某种有利条件；仅有羡慕不必推出恶意或要求对方失去优势。",
+      "rest": "Nora wishes交换感受者；wants Nora to lose添加恶意行动；has asked...没有原文依据。"
+    }
+  },
+  {
+    "id": "r17t3-brexit-archive",
+    "family": "brexit-term",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "Brexit as a political term",
+    "skill": "Brexit as a political term",
+    "q": "An archivist is sorting reports under the heading Brexit negotiations. Which subject belongs under that heading?",
+    "o": [
+      "Changes in the route taken by storms crossing the British coast.",
+      "Plans to move British residents between two neighbouring counties.",
+      "Britain's decision to leave an international military alliance.",
+      "Terms of the United Kingdom's withdrawal from the European Union."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "档案员按“Brexit谈判”分类报告。什么主题应归入这一标题？",
+      "structure": "Brexit作名词修饰negotiations，限定谈判围绕英国退出欧盟；不能只见British就把任何英国话题归进来。",
+      "other": "archivist档案员；withdrawal退出；alliance联盟；county郡。",
+      "meaning": "Brexit专指英国脱欧，不泛指所有英国政治议题或退出任何国际组织。这里检验背景专名，不要求额外历史日期。",
+      "rest": "storms是天气；between counties是国内搬迁；military alliance虽也涉及国际关系，却不是European Union这一指定组织。"
+    }
+  },
+  {
+    "id": "r17t3-brexit-translator",
+    "family": "brexit-term",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "Brexit / geographical Europe",
+    "skill": "Brexit / geographical Europe",
+    "q": "A translator renders Brexit as \"all European countries leaving Europe.\" Which correction keeps the term's actual reference?",
+    "o": [
+      "It concerns every European country ending its national elections.",
+      "It concerns the United Kingdom's withdrawal from the European Union.",
+      "It concerns all members leaving an international military alliance.",
+      "It concerns Britain becoming geographically detached from Europe."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "译者把Brexit译成“所有欧洲国家离开欧洲”。怎样纠正才能保留其实际指向？",
+      "structure": "须分别核对动作主体United Kingdom和退出对象European Union；Europe的地理范围不等于欧盟这一组织。",
+      "other": "render翻译为；reference指向；institution机构、制度；geographically在地理上。",
+      "meaning": "指英国退出欧盟，而非欧洲各国搬离欧洲大陆。无需凭这个词补造对用户政治背景知识的其他诊断。",
+      "rest": "every country扩大主体；military alliance替换组织；geographically detached把政治退出误成地理移动。"
+    }
+  },
+  {
+    "id": "r17t3-sharp-hit-choir",
+    "family": "sharp-hit-impact",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "a sharp hit / abstract impact",
+    "skill": "a sharp hit / abstract impact",
+    "q": "Losing its only rehearsal room dealt a sharp hit to the choir's preparations, though rehearsals continued elsewhere. What does sharp hit describe?",
+    "o": [
+      "A literal blow delivered with a tool that had a sharpened edge.",
+      "A slight improvement in the quality of the choir's preparations.",
+      "A serious disruption without implying that all activity stopped.",
+      "A final cancellation of every rehearsal and every public performance."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "失去唯一排练室给合唱团的准备工作造成严重冲击，但排练仍在别处继续。sharp hit表示什么？",
+      "structure": "dealt...to...建立事件对准备工作的不利影响；though限制严重冲击不等于所有活动都终止。",
+      "other": "rehearsal排练；choir合唱团；disruption扰乱；deliver a blow造成打击。",
+      "meaning": "这里hit是不利冲击，sharp加重程度；抽象语境不能套成锋利工具的击打，也不能擅自扩大为完全停摆。",
+      "rest": "literal blow把比喻硬译为物理动作；improvement反转影响方向；final cancellation忽略排练继续这一明确限定。"
+    }
+  },
+  {
+    "id": "r17t3-sharp-hit-bookings",
+    "family": "sharp-hit-impact",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "sharp / hit in service context",
+    "skill": "sharp / hit in service context",
+    "q": "When a venue lost its accessible entrance, advance bookings took a sharp hit. The writer is describing the effect on reservations, not an injury. Which reading fits?",
+    "o": [
+      "Bookings suffered a substantial setback after access was reduced.",
+      "A sharp object damaged the paper used to record the reservations.",
+      "Reservations rose suddenly because the new entrance was easier to use.",
+      "All bookings became permanently impossible at every venue in the city."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "场馆失去无障碍入口后，预订受到严重冲击。作者描述的是对预约的影响，并非身体受伤。如何理解？",
+      "structure": "When给出背景改变；bookings是受到影响的对象；took a hit表示遭受不利影响，sharp描述冲击程度。",
+      "other": "venue场馆；accessible entrance无障碍入口；advance booking提前预订；setback挫折。",
+      "meaning": "把完整搭配与受影响对象结合，理解为预订遭受明显挫折，而非逐词拼成尖锐物体击打。",
+      "rest": "sharp object与reservations的抽象对象不符；rose和easier同时反转原文方向；all/every/permanently从单一场馆的严重影响扩大为全城永久不可能。"
+    }
+  },
+  {
+    "id": "r17t3-remold-clay",
+    "family": "remold-reshape",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "remold / make a new shape",
+    "skill": "remold / make a new shape",
+    "q": "A student crushes an unfinished clay cup and uses the same soft material to remold it into a flat tile. What changes?",
+    "o": [
+      "The original cup is restored without changing its previous form.",
+      "The material is given a different shape rather than kept as a cup.",
+      "The student replaces clay with a completely different raw material.",
+      "The tile is only renamed while retaining the old cup's exact shape."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "学生把未完成的陶杯压碎，用同样的软泥将其重新塑成平板。发生了什么变化？",
+      "structure": "same soft material保留材料；remold...into...改变其形态；from cup to flat tile说明不是修回原来的杯形。",
+      "other": "clay黏土；unfinished未完成的；tile平板、瓷砖；retain保留。",
+      "meaning": "remold可指把软材料重新塑形；re-表示再次，mold表示塑造。材料相同与形状改变可以同时成立。",
+      "rest": "restored...previous form把重塑当成原样恢复；different raw material否认same；only renamed则抹去形状变化。"
+    }
+  },
+  {
+    "id": "r17t3-remold-orchestra",
+    "family": "remold-reshape",
+    "introduced": "2026-11-10",
+    "published_on": "2026-11-10",
+    "budget": 45,
+    "target": "remold in an abstract context",
+    "skill": "remold in an abstract context",
+    "q": "A youth orchestra remolds its training: individual competitions give way to shared rehearsals and peer feedback. What does remolds mean?",
+    "o": [
+      "It keeps the old training unchanged but announces a new name.",
+      "It records the old methods without changing any training practice.",
+      "It repairs the building but leaves training methods unchanged.",
+      "It reshapes training methods through collaboration and peer feedback."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-10-2017-text3",
+    "exp": {
+      "trans": "青年乐团重塑训练方式：个人竞赛让位于共同排练和同伴反馈。remolds是什么意思？",
+      "structure": "冒号后列出训练机制的改变；give way to说明旧方式让位给新方式；动词宾语training是抽象对象。",
+      "other": "orchestra管弦乐团；peer feedback同伴反馈；give way to让位于；organise组织。",
+      "meaning": "remold在抽象语境指重新塑造模式，不要求真的使用模具，也不只是改名或修理建筑。",
+      "rest": "unchanged...new name和records...without changing都否定了实际方法调整；repairs the building把训练模式偷换成物理建筑。"
+    }
+  }
+]

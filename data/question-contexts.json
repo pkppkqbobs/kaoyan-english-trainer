@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-11-09",
-  "source_commit": "4c3c43e231dbf4f63f03524f6340e4042baebc08",
+  "reviewed_on": "2026-11-10",
+  "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
     "legacy-unpretentious": "plain-room-unpretentious",
@@ -480,7 +480,25 @@
     "t17t2-polynesian-museum": "museum-peoples-label-versus-profession-or-whole-ocean",
     "t17t2-polynesian-ancestry": "ancestry-distinct-from-present-address-language-job",
     "t17t2-stance-library": "revised-library-opening-plan-positive-with-safeguards",
-    "t17t2-stance-workshop": "two-quoted-extremes-versus-writer-selective-automation"
+    "t17t2-stance-workshop": "two-quoted-extremes-versus-writer-selective-automation",
+    "r17t3-light-race-timing": "relay-video-comparison-explains-without-complete-certainty",
+    "r17t3-light-audit-process": "payment-disclosure-versus-explanation-of-check-bypass",
+    "r17t3-shed-noun-verb": "tree-leaf-loss-beside-storage-building",
+    "r17t3-shelter-station": "railway-waiting-room-weather-protection-not-storage",
+    "r17t3-shade-slats": "slatted-cover-blocks-sun-but-rain-passes",
+    "r17t3-shed-glow": "desk-lamp-emission-versus-window-screen-shading",
+    "r17t3-budding-project": "new-translation-collective-first-commissions-not-established",
+    "r17t3-budding-friendship": "new-neighbour-friendship-begins-without-guaranteed-future",
+    "r17t3-criteria-selection": "photo-jury-originality-clarity-as-plural-standards",
+    "r17t3-criterion-single-rule": "one-remaining-rule-singular-noun-and-agreement",
+    "r17t3-envy-library": "town-library-studio-admired-by-neighbouring-libraries",
+    "r17t3-envy-studio": "speaker-wishes-for-friends-quiet-workspace",
+    "r17t3-brexit-archive": "library-catalogue-political-withdrawal-not-weather-or-defence",
+    "r17t3-brexit-translator": "political-name-translation-preserves-agent-and-institution",
+    "r17t3-sharp-hit-choir": "lost-rehearsal-room-disrupts-preparation-not-physical-strike",
+    "r17t3-sharp-hit-bookings": "access-loss-depresses-bookings-not-sharp-object",
+    "r17t3-remold-clay": "reuse-soft-clay-new-shape-versus-repair-original-form",
+    "r17t3-remold-orchestra": "orchestra-training-redesign-changes-practice-not-name"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -978,6 +996,80 @@
       "evidence_paths": [
         "museum-peoples-label-versus-profession-or-whole-ocean",
         "ancestry-distinct-from-present-address-language-job"
+      ]
+    },
+    "envy-object": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "town-library-studio-admired-by-neighbouring-libraries",
+        "speaker-wishes-for-friends-quiet-workspace"
+      ]
+    },
+    "brexit-term": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "library-catalogue-political-withdrawal-not-weather-or-defence",
+        "political-name-translation-preserves-agent-and-institution"
+      ]
+    },
+    "criteria-number": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "photo-jury-originality-clarity-as-plural-standards",
+        "one-remaining-rule-singular-noun-and-agreement"
+      ]
+    },
+    "sharp-hit-impact": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "lost-rehearsal-room-disrupts-preparation-not-physical-strike",
+        "access-loss-depresses-bookings-not-sharp-object"
+      ]
+    },
+    "remold-reshape": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "reuse-soft-clay-new-shape-versus-repair-original-form",
+        "orchestra-training-redesign-changes-practice-not-name"
+      ]
+    },
+    "shed-light-direction": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "relay-video-comparison-explains-without-complete-certainty",
+        "payment-disclosure-versus-explanation-of-check-bypass"
+      ]
+    },
+    "budding-stage": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "new-translation-collective-first-commissions-not-established",
+        "new-neighbour-friendship-begins-without-guaranteed-future"
+      ]
+    },
+    "shed-shelter-shade": {
+      "coverage_gap": false,
+      "review_session": "2026-11-10-2017-text3",
+      "reason": "本篇自述5题全对且当时已理解主旨；仅补充词汇/搭配机制迁移，不另设全文主旨弱项。",
+      "evidence_paths": [
+        "tree-leaf-loss-beside-storage-building",
+        "railway-waiting-room-weather-protection-not-storage",
+        "slatted-cover-blocks-sun-but-rain-passes",
+        "desk-lamp-emission-versus-window-screen-shading"
       ]
     }
   },

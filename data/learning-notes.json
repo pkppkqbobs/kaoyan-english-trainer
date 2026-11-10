@@ -3463,5 +3463,475 @@
       "astronomical的学科义与极大数量义",
       "按实际工作判断身份，而不是只匹配共同字母"
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "envy-object",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "envy"
+    ],
+    "context_span": "the envy of the Western world",
+    "context_attribution": "用户本次教学交接给出的语境，不声称维护者重新核对过照片上的拼写或标记。",
+    "user_reported_reasoning": "本篇5题全对且做题时已理解主旨；交接确认画框翻译困难：envy。",
+    "note": "羡慕；令人羡慕的对象。be the envy of表示成为他人羡慕的对象，不能倒置为主语羡慕别人。 画横线不自动登记为翻译困难；该词汇观察不否定本篇已经理解的中心论点。",
+    "training_targets": [
+      "按新语境判断词义或搭配",
+      "词汇掌握与本篇主旨理解分开记录"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "brexit-term",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "Brexit"
+    ],
+    "context_span": "vote for Brexit",
+    "context_attribution": "用户本次教学交接给出的语境，不声称维护者重新核对过照片上的拼写或标记。",
+    "user_reported_reasoning": "本篇5题全对且做题时已理解主旨；交接确认画框翻译困难：Brexit。",
+    "note": "英国脱欧，即英国退出欧盟；不泛指退出欧洲地理区域或退出任意国际组织。属于篇章背景专名，低频维护。 画横线不自动登记为翻译困难；该词汇观察不否定本篇已经理解的中心论点。",
+    "training_targets": [
+      "按新语境判断词义或搭配",
+      "词汇掌握与本篇主旨理解分开记录"
+    ],
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "criteria-number",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "criteria"
+    ],
+    "context_span": "different sets of criteria",
+    "context_attribution": "用户本次教学交接给出的语境，不声称维护者重新核对过照片上的拼写或标记。",
+    "user_reported_reasoning": "本篇5题全对且做题时已理解主旨；交接确认画框翻译困难：criteria。",
+    "note": "标准、准则的复数；单数criterion。over 40 different sets of criteria指40多组标准，不保证每组只有一条标准。 画横线不自动登记为翻译困难；该词汇观察不否定本篇已经理解的中心论点。",
+    "training_targets": [
+      "按新语境判断词义或搭配",
+      "词汇掌握与本篇主旨理解分开记录"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "sharp-hit-impact",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "sharp hit"
+    ],
+    "context_span": "a sharp hit to growth",
+    "context_attribution": "用户本次教学交接给出的语境，不声称维护者重新核对过照片上的拼写或标记。",
+    "user_reported_reasoning": "本篇5题全对且做题时已理解主旨；交接确认画框翻译困难：sharp hit。",
+    "note": "严重冲击、沉重打击；sharp表示急剧或严重，hit是抽象的不利影响，不按锋利的击打逐词硬译。 画横线不自动登记为翻译困难；该词汇观察不否定本篇已经理解的中心论点。",
+    "training_targets": [
+      "按新语境判断词义或搭配",
+      "词汇掌握与本篇主旨理解分开记录"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "remold-reshape",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "remold"
+    ],
+    "context_span": "remold its economic pattern",
+    "context_attribution": "用户本次教学交接给出的语境，不声称维护者重新核对过照片上的拼写或标记。",
+    "user_reported_reasoning": "本篇5题全对且做题时已理解主旨；交接确认画框翻译困难：remold。",
+    "note": "重塑、重新塑造。可改造柔软物体的形状，也可改变模式或组织方式；remould是对应英式拼写。 画横线不自动登记为翻译困难；该词汇观察不否定本篇已经理解的中心论点。",
+    "training_targets": [
+      "按新语境判断词义或搭配",
+      "词汇掌握与本篇主旨理解分开记录"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "shed-light-direction",
+    "kind": "user_reported_confusion",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "active_question",
+    "source_spans": [
+      "shed some light on"
+    ],
+    "context_span": "sheds some light on that question",
+    "user_quote": "shed some light on 我还以为是隐藏一些问题的意思。",
+    "user_reported_reasoning": "本篇31—35自述全对，做题时已理解GDP增长不等于福祉提高，主观觉得简单；词汇上把shed some light on误解为隐藏问题（实际为阐明），另主动询问budding。",
+    "note": "固定短语shed light on表示提供信息、帮助解释或使问题更清楚，不是hide/conceal。bring something to light强调揭露、使其为人所知；二者可同时成立但侧重点不同，不制造完全互斥规则。能帮助理解不保证每一细节或全部因果已被证实。本条只记录固定短语的方向困难，不登记任何阅读题错因。",
+    "training_priority": 1,
+    "training_targets": [
+      "阐明与隐藏的语义方向",
+      "shed light on与bring to light的侧重点",
+      "帮助理解不夸大为完全证明"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "budding-stage",
+    "kind": "user_reported_confusion",
+    "scope": "vocabulary",
+    "source_question": null,
+    "mark_type": "active_question",
+    "source_spans": [
+      "budding"
+    ],
+    "context_span": "a budding economic recovery",
+    "user_quote": "budding 好像也不太懂。",
+    "user_reported_reasoning": "用户主动确认budding的语境义不熟悉；这是画框之外的明确词义疑问，不冒充照片画框。",
+    "note": "萌芽中的、刚开始发展的、初露头角的；表示早期发展或显现潜力，不等于fully developed，也不保证一定成功。bud的花蕾/嫩芽义有助理解比喻，但不把所有抽象搭配硬译成植物发芽。本篇中心已经理解，训练集中于发展阶段。",
+    "training_priority": 3,
+    "training_targets": [
+      "发展初期与充分成熟",
+      "有潜力与必然成功分开"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "received_on": "2026-11-10",
+    "session_id": "2026-11-10-2017-text3",
+    "source_exam": "2017-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字；本次维护未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "passage_feedback_quotes": [
+      "这个是我今天做的，全对，但还是挺多生词的。",
+      "当然理解了，感觉这篇是不是有点简单。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {},
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "core_claim": "GDP增长不等于民众生活质量必然提高。",
+      "user_confirmed_original_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "future_long_term_mastery": "not_inferred",
+      "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+    },
+    "scoring_policy": "Aggregate paper self-report only, kept separate from web results. Do not derive answer letters, first picks, revisions, uncertainty, web errors, attempts or streaks from the all-correct report.",
+    "family": "shed-shelter-shade",
+    "kind": "user_reported_confusion",
+    "scope": "vocabulary_clarification",
+    "source_question": null,
+    "mark_type": "active_question",
+    "source_spans": [
+      "shed / shelter / shade"
+    ],
+    "user_quote": "我记得有个和shed很相似的词语，表示棚屋的，庇护的意思。",
+    "user_reported_reasoning": "用户记得shed作名词是棚屋，这一记忆正确；需按词性和语境区分shed的名词/动词与shelter、shade，不能笼统记为完全记错。",
+    "positive_reasoning": "shed作棚屋、简易小屋的名词义记忆正确。",
+    "note": "shed作名词可指棚屋，作动词可指脱落、散发、流出；shed light on作为固定短语另有阐明义。shelter指庇护或庇护处，take shelter from强调避风雨或危险；shade指阴凉或遮挡直射光。实际事物可能既提供shade又提供shelter，棚屋也可能提供庇护，不能把用途重叠误说成词义完全相同或事物绝不重叠。只记录已确认的辨析需求，不追加陌生词名单。",
+    "training_priority": 2,
+    "training_targets": [
+      "保留正确名词记忆，按句法切换动词义",
+      "形近词与固定搭配分开核验",
+      "遮阳与庇护可重叠但并不保证防雨"
+    ]
   }
 ]

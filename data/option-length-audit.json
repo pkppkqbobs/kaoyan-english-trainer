@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 392,
-        "correct_uniquely_longest": 96,
-        "correct_uniquely_shortest": 64,
-        "longest_guess_pct": 30.8,
-        "shortest_guess_pct": 20.77,
+        "question_count": 410,
+        "correct_uniquely_longest": 101,
+        "correct_uniquely_shortest": 68,
+        "longest_guess_pct": 30.75,
+        "shortest_guess_pct": 21.08,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -4522,6 +4522,312 @@
         "pool": "daily_article",
         "family": "finegrain-quarrel",
         "source": "data/questions/2026-10-16-text2.json"
+      },
+      "r17t3-brexit-archive": {
+        "lengths": [
+          64,
+          66,
+          63,
+          65
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "brexit-term",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-brexit-translator": {
+        "lengths": [
+          65,
+          68,
+          67,
+          65
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "brexit-term",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-budding-friendship": {
+        "lengths": [
+          67,
+          69,
+          71,
+          68
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "budding-stage",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-budding-project": {
+        "lengths": [
+          68,
+          67,
+          71,
+          67
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "budding-stage",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-criteria-selection": {
+        "lengths": [
+          59,
+          54,
+          55,
+          58
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "criteria-number",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-criterion-single-rule": {
+        "lengths": [
+          25,
+          26,
+          26,
+          27
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "criteria-number",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-envy-library": {
+        "lengths": [
+          68,
+          69,
+          69,
+          71
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "envy-object",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-envy-studio": {
+        "lengths": [
+          59,
+          61,
+          61,
+          63
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "envy-object",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-light-audit-process": {
+        "lengths": [
+          68,
+          72,
+          71,
+          70
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "shed-light-direction",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-light-race-timing": {
+        "lengths": [
+          59,
+          59,
+          60,
+          60
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "shed-light-direction",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-remold-clay": {
+        "lengths": [
+          64,
+          66,
+          67,
+          67
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "remold-reshape",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-remold-orchestra": {
+        "lengths": [
+          61,
+          66,
+          62,
+          69
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "remold-reshape",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-shade-slats": {
+        "lengths": [
+          62,
+          64,
+          66,
+          67
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "shed-shelter-shade",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-sharp-hit-bookings": {
+        "lengths": [
+          65,
+          65,
+          70,
+          70
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "sharp-hit-impact",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-sharp-hit-choir": {
+        "lengths": [
+          63,
+          64,
+          64,
+          69
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "sharp-hit-impact",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-shed-glow": {
+        "lengths": [
+          63,
+          64,
+          64,
+          67
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "shed-shelter-shade",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-shed-noun-verb": {
+        "lengths": [
+          63,
+          65,
+          67,
+          68
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "shed-shelter-shade",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
+      },
+      "r17t3-shelter-station": {
+        "lengths": [
+          61,
+          61,
+          61,
+          59
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "shed-shelter-shade",
+        "source": "data/questions/2026-11-10-2017-text3-migration.json"
       },
       "recruitment-hunt-b": {
         "lengths": [

@@ -1,0 +1,115 @@
+{
+  "id": "2026-11-10-2017-text3",
+  "date": "2026-11-10",
+  "learning_date": "2026-11-10",
+  "created_at": "2026-11-10T21:52:08+09:00",
+  "source": "2017 英语一 Reading Text 3 · 2026-11-10词汇复盘（自述5题全对，主旨已理解）",
+  "focus_families": [
+    "shed-light-direction",
+    "shed-shelter-shade",
+    "budding-stage",
+    "criteria-number"
+  ],
+  "focus_question_ids": {
+    "shed-light-direction": [
+      "r17t3-light-race-timing"
+    ],
+    "shed-shelter-shade": [
+      "r17t3-shed-noun-verb"
+    ],
+    "budding-stage": [
+      "r17t3-budding-project"
+    ],
+    "criteria-number": [
+      "r17t3-criteria-selection"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "all_observation_families": [
+    "envy-object",
+    "brexit-term",
+    "criteria-number",
+    "sharp-hit-impact",
+    "remold-reshape",
+    "shed-light-direction",
+    "budding-stage",
+    "shed-shelter-shade"
+  ],
+  "paper_outcome": {
+    "evidence_status": "user_self_report",
+    "question_range": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "reported_correct_count": 5,
+    "reported_total": 5,
+    "reported_all_correct": true,
+    "reported_final_choice_letters": {},
+    "first_choices": "unknown",
+    "revisions": "unknown",
+    "uncertainty": "not_reported",
+    "not_a_web_score": true
+  },
+  "passage_comprehension": {
+    "status": "understood_during_original_attempt",
+    "core_claim": "GDP增长不等于民众生活质量必然提高。",
+    "user_confirmed_original_understanding": true,
+    "passage_level_difficulty": false,
+    "subjective_difficulty": "relatively_easy",
+    "future_long_term_mastery": "not_inferred",
+    "positive_evidence": "用户在做题时已理解中心论点，不由生词反推整篇未看懂，也不把本篇正向证据扩大为所有文章均已稳定掌握。"
+  },
+  "original_user_feedback": [
+    "这个是我今天做的，全对，但还是挺多生词的。",
+    "当然理解了，感觉这篇是不是有点简单。"
+  ],
+  "boxed_words": [
+    "envy",
+    "Brexit",
+    "criteria",
+    "sharp hit",
+    "remold"
+  ],
+  "active_vocabulary_questions": [
+    "shed some light on",
+    "budding"
+  ],
+  "positive_lexical_evidence": {
+    "shed_noun_as_building": "correctly_remembered"
+  },
+  "training_scope": "Vocabulary and collocations only; do not reassign this already-understood GDP/well-being main argument as a new weakness.",
+  "supplementary_teaching": [
+    {
+      "terms": [
+        "bring to light",
+        "hide",
+        "conceal"
+      ],
+      "role": "contrast_for_confirmed_shed_light_difficulty",
+      "individually_confirmed_unknown": false
+    },
+    {
+      "terms": [
+        "developing",
+        "fully developed"
+      ],
+      "role": "developmental_stage_contrast",
+      "individually_confirmed_unknown": false
+    },
+    {
+      "terms": [
+        "GDP",
+        "economic growth",
+        "well-being"
+      ],
+      "role": "understood_passage_core_not_a_new_deficit",
+      "individually_confirmed_unknown": false
+    }
+  ],
+  "source_check": "data/source-checks/2017-english1.json",
+  "review_delivery": "Four current vocabulary targets plus four historical targets; no replay of Text 3 main-idea questions."
+}

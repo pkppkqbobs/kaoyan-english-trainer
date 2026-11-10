@@ -157,6 +157,26 @@
       "observed_days": 4,
       "observation_priority": 3
     },
+    "brexit-term": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
+    },
+    "budding-stage": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "career-evidence": {
       "streak": 4,
       "errors": 0,
@@ -357,6 +377,16 @@
       "observed_days": 0,
       "observation_priority": 2
     },
+    "criteria-number": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "directness-modifier": {
       "streak": 4,
       "errors": 0,
@@ -406,6 +436,16 @@
       "reported_confusion": false,
       "observed_days": 0,
       "observation_priority": 0
+    },
+    "envy-object": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "evaluation-vocab": {
       "streak": 0,
@@ -857,6 +897,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "remold-reshape": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "remote": {
       "streak": 0,
       "errors": 0,
@@ -906,6 +956,36 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "sharp-hit-impact": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
+    "shed-light-direction": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
+    "shed-shelter-shade": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-10",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "social-cure-vocab": {
       "streak": 0,

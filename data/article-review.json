@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "title": "文章复盘 · 8题",
-  "meta": "2017 英语一 Reading Text 2 · 2026-11-09纸质复盘（最终作答未知） · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
+  "meta": "2017 英语一 Reading Text 3 · 2026-11-10词汇复盘（自述5题全对，主旨已理解） · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-11-09-2017-text2",
+  "storageId": "2026-11-10-2017-text3",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,208 +13,358 @@
   "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
   "questions": [
     {
-      "id": "sentence-link-museum-experiment-b",
+      "id": "r17t3-criteria-selection",
+      "family": "criteria-number",
+      "introduced": "2026-11-10",
+      "published_on": "2026-11-10",
+      "budget": 45,
+      "target": "criteria / criterion",
+      "skill": "criteria / criterion",
+      "q": "A photography jury judges each entry for originality and clarity. Its notice calls these the selection criteria. What are the criteria?",
+      "o": [
+        "The two photographers chosen to sit on the selection panel.",
+        "The standards used to judge the submitted photographs.",
+        "The photographs that have already won the final prizes.",
+        "The ceremonies at which prizes are given to photographers."
+      ],
+      "a": 1,
+      "origin_session": "2026-11-10-2017-text3",
+      "exp": {
+        "trans": "摄影评委按原创性和清晰度评判作品，通知称二者为selection criteria。criteria指什么？",
+        "structure": "for originality and clarity列出评价维度；these回指这两种标准；criteria是criterion的复数。",
+        "other": "jury评审团；entry参评作品；originality原创性；clarity清晰度。",
+        "meaning": "criteria是判断所用的多项标准，不是参加评价的人或评价产生的结果。",
+        "rest": "photographers把标准当成人；photographs...won把标准当成获奖对象；ceremonies把标准当成颁奖活动。"
+      },
+      "context_id": "photo-jury-originality-clarity-as-plural-standards"
+    },
+    {
+      "id": "r17t3-shed-noun-verb",
+      "family": "shed-shelter-shade",
+      "introduced": "2026-11-10",
+      "published_on": "2026-11-10",
+      "budget": 45,
+      "target": "shed noun / shed verb",
+      "skill": "shed noun / shed verb",
+      "q": "Every autumn this tree sheds its leaves beside the shed. Which reading preserves the two uses of shed?",
+      "o": [
+        "The tree loses leaves; the noun names a small storage building.",
+        "The tree hides leaves; the noun names shade from direct sunlight.",
+        "The tree guards leaves; the noun means protection from bad weather.",
+        "The tree emits light; the noun names a clearing exposed to sunlight."
+      ],
+      "a": 0,
+      "origin_session": "2026-11-10-2017-text3",
+      "exp": {
+        "trans": "每年秋天，这棵树在棚屋旁落叶。如何理解才保留了shed的两种用法？",
+        "structure": "tree是主语，sheds是谓语，leaves是宾语；介词beside后的the shed是名词短语。词性由句法位置区分。",
+        "other": "autumn秋天；beside在旁边；storage储存；clearing空地。",
+        "meaning": "名词shed指小型储物棚屋，用户这一记忆本来正确；动词shed在leaves语境指脱落，不能把名词义套进谓语。",
+        "rest": "hides反转落叶动作且把名词当成shade；guards既非落叶又把shed当shelter；emits light虽可能是shed的另一动词搭配，却不适用于宾语leaves。"
+      },
+      "context_id": "tree-leaf-loss-beside-storage-building"
+    },
+    {
+      "id": "legacy-which",
+      "source": "old",
+      "skill": "介词 + which",
+      "target": "preposition + which",
+      "q": "The archive contains several letters. The historian based her argument on those letters.\n最自然的合并是：",
+      "o": [
+        "The archive contains several letters on which the historian based her argument.",
+        "The archive contains several letters which on the historian based her argument.",
+        "The archive contains several letters on that the historian based her argument.",
+        "The archive contains several letters which the historian based her argument on them."
+      ],
+      "a": 0,
+      "diag": {
+        "1": "介词 on 应放在关系代词 which 前，不能写 which on the historian...",
+        "2": "介词后不能用关系代词 that；应使用 which。",
+        "3": "which 已经代替 those letters，后面再用 them 造成重复。"
+      },
+      "exp": {
+        "trans": "这个档案馆收藏着几封信，历史学家正是依据这些信件提出了她的论证。",
+        "structure": "原始简单句：The historian based her argument on those letters. → those letters 变成先行词 several letters，并用 which 代替：the letters which the historian based her argument on → 正式写法把介词前置：the letters on which the historian based her argument。",
+        "other": "archive 档案馆；historian 历史学家；base A on B 以B为依据建立A；argument 论证/观点。",
+        "meaning": "介词 + which 用于物；介词来自原简单句中的搭配 base A on B。",
+        "rest": "介词前置的正确句是 “letters on which ...”；把 which 放在 on 前、把 that 放在介词后，或在 which 后再保留 them，都会造成词序或关系词重复问题。"
+      },
+      "family": "relative",
+      "introduced": null,
+      "budget": 60,
+      "context_id": "on-which-argument"
+    },
+    {
+      "id": "paragraph-order-discourse-conclusion-b",
       "family": "paragraph-order-discourse",
-      "introduced": "2026-10-12",
-      "published_on": "2026-10-12",
-      "budget": 65,
-      "target": "单向展示→反向参与→后文设问",
-      "skill": "双向篇章钩子",
-      "q": "前文：At the old science museum, visitors watched a machine demonstrate each experiment. The most demanding thing they could do was press the Start button.\n【空缺】\n后文：What counts as taking part in an experiment? Visitors must be able to change a variable and compare the results.\n哪一句最适合？",
-      "o": [
-        "Repairs to the building could give the passive displays a more attractive setting.",
-        "Simpler controls could help more visitors watch the same machine demonstrations.",
-        "More detailed labels could explain the inventors behind the museum's machines.",
-        "A redesign could replace watching demonstrations with carrying out one's own tests."
-      ],
-      "a": 3,
-      "exp": {
-        "trans": "旧科技馆由机器单向演示，观众几乎只能按开始按钮。正确句引出新展览如何扭转这种被动观看，让观众亲自试验；后文再问什么才是真正参与实验。",
-        "structure": "前文visitors watched与could do ... press Start显示参与程度低；正确句replace watching demonstrations with carrying out one’s own tests对比观看与亲自实验，后文change a variable和compare the results说明这种参与如何实现。",
-        "other": "demanding 费力的；demonstration 演示；variable 变量；carry out a test 进行试验。",
-        "meaning": "最有力的证据是双向：反转被动的安排承接前文，主动测试又引出后文讨论。‘最难任务只是按按钮’在语境中揭示参与不足，不是对设备的夸赞。",
-        "rest": "场馆外观、观看操作和发明者标签仍把参观者放在观看或接收信息的位置；只有亲自测试自然引出后文改变变量、比较结果的参与标准。"
-      },
-      "context_id": "context:sentence-link-museum-experiment-b"
-    },
-    {
-      "id": "t17t2-cause-cellar",
-      "family": "inference-boundary",
-      "introduced": null,
-      "published_on": "2026-11-09",
-      "budget": 55,
-      "target": "cause / condition / added protection",
-      "skill": "cause / condition / added protection",
-      "q": "An archive stores paper in rooms cut into rock. Because the rock warms and cools slowly, room temperatures fluctuate less and the paper deteriorates more slowly. A visitor calls this an environmental advantage. Which assessment preserves the evidence?",
-      "o": [
-        "The description wrongly rules out any effect of the local rock.",
-        "The local rock creates the stable conditions the visitor means.",
-        "Nearby buildings protect the archive from heavy road traffic.",
-        "The stable indoor climate has altered the shape of the local rock."
-      ],
-      "a": 1,
-      "origin_session": "2026-11-09-2017-text2",
-      "exp": {
-        "trans": "档案馆把纸张存放在凿入岩石的房间里。岩石升温和降温都慢，因此室温波动较小，纸张劣化也较慢。访客称之为环境优势。怎样评价才保留了证据？",
-        "structure": "Because引出岩石热变化缓慢这一原因；室温稳定是形成的条件；纸张较慢劣化是结果。三层可以同时成立。",
-        "other": "archive档案馆；fluctuate波动；deteriorate劣化；thermal与热有关的。",
-        "meaning": "称室内条件有利是合理的，不会否定岩石造成这些条件的原因。需判断完整表达，而不是强迫地理/物理原因与环境结果互斥。",
-        "rest": "wrongly rules out误判访客否定岩石作用；Nearby buildings及traffic添加未述的保护机制；“室内气候改变岩石形状”倒置了岩石特性与气候的因果方向。"
-      },
-      "context_id": "rock-thermal-property-indoor-climate-result"
-    },
-    {
-      "id": "unpretentious-volunteer",
-      "family": "unpretentious",
-      "introduced": "2026-09-29",
-      "target": "unpretentious / unpredictable",
-      "skill": "unpretentious / unpredictable",
-      "q": "Despite her fame, the author washed dishes with the volunteers and asked for no special treatment. Her manner was ___.",
-      "o": [
-        "unpredictable",
-        "hostile",
-        "unpretentious",
-        "perplexing"
-      ],
-      "a": 2,
-      "exp": {
-        "trans": "尽管很有名，这位作家还是和志愿者一起洗碗，没有要求任何特殊待遇。她为人不摆架子。",
-        "structure": "第一句主干：the author（主语）+ washed / asked（并列谓语）；dishes是washed的宾语，for no special treatment是asked后的介词短语。Despite her fame是让步状语。第二句：Her manner + was + unpretentious。",
-        "other": "despite 尽管；fame 名气；volunteer 志愿者；special treatment 特殊待遇。",
-        "meaning": "unpretentious表示朴实、不自命不凡，描述作风而非能否预测。",
-        "rest": "unpredictable：无法预测的，常搭配weather或behaviour；这里没有反复无常的线索。hostile：敌对的，常用be hostile to；与合作洗碗不符。perplexing：令人困惑的，常修饰question或situation；这里强调不摆架子。"
-      },
-      "context_id": "context:unpretentious-volunteer"
-    },
-    {
-      "id": "nested-editor-quote-d",
-      "family": "nested",
-      "introduced": "2026-10-18",
-      "published_on": "2026-10-18",
-      "budget": 60,
-      "target": "who-clause / that-clause / main-clause predicate",
-      "skill": "区分定语从句、宾语从句和主句谓语",
-      "q": "Editors who learned that the quote was inaccurate removed it from the draft. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
-      "o": [
-        "Editors / learned / removed",
-        "the quote / learned / was",
-        "Editors / was / learned",
-        "the draft / removed / learned"
-      ],
-      "a": 0,
-      "exp": {
-        "trans": "得知引文不准确的编辑把它从草稿中删掉了。主句主语中心词是Editors，who从句谓语是learned，主句谓语是removed。",
-        "structure": "主句骨架是Editors removed it from the draft；who learned...修饰Editors；that the quote was inaccurate是learned的宾语从句。三个谓语属于不同层级。",
-        "other": "editor 编辑；quote 引文；inaccurate 不准确的；draft 草稿。",
-        "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
-        "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
-      },
-      "context_id": "context:nested-editor-quote-d"
-    },
-    {
-      "id": "with-bread-cooling",
-      "family": "with",
-      "introduced": null,
-      "budget": 60,
-      "target": "with + 名词 + 分词",
-      "skill": "with + 名词 + 后置成分",
-      "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
-      "o": [
-        "补充开门时伴随的状态",
-        "引出老板的直接引语",
-        "说明开门的唯一目的",
-        "充当opened的直接宾语"
-      ],
-      "a": 0,
-      "exp": {
-        "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
-        "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
-        "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
-        "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
-        "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
-      },
-      "context_id": "with-simultaneous-ing"
-    },
-    {
-      "id": "t17t2-astronomy-grant",
-      "family": "astronomy-word-family",
-      "introduced": "2026-11-09",
-      "published_on": "2026-11-09",
-      "budget": 45,
-      "target": "astronomy / astronaut",
-      "skill": "astronomy / astronaut",
-      "q": "A grant pays a university team to measure changes in distant stars' brightness. All observations are made from Earth. A note says the grant trains astronauts. Which correction best matches the work described?",
-      "o": [
-        "It funds astronaut training rather than research about distant stars.",
-        "It funds astronomy; this research does not require a journey into space.",
-        "It funds space travel because observing stars means leaving the Earth.",
-        "It funds crew navigation rather than any study of the objects observed."
-      ],
-      "a": 1,
-      "origin_session": "2026-11-09-2017-text2",
-      "exp": {
-        "trans": "一笔资助用于大学团队测量遥远恒星亮度的变化，所有观测都在地球完成。有说明称资金用来培养宇航员。如何纠正才符合所述工作？",
-        "structure": "pays...to measure说明研究任务；All observations...from Earth限制是否实际执行太空飞行；trains astronauts误把学科研究替成航天任务训练。",
-        "other": "grant研究资助；brightness亮度；observation观测；crew航天乘组。",
-        "meaning": "astronomy是天文学这一学科；astronaut是进入太空执行任务的人。研究遥远天体不要求研究者本人离开地球。",
-        "rest": "astronaut training把研究经费误成乘组训练；means leaving the Earth是无依据规则；crew navigation与测量恒星亮度这一研究任务不同。"
-      },
-      "context_id": "ground-based-research-grant-field-not-space-crew"
-    },
-    {
-      "id": "t17t2-dormant-account",
-      "family": "dormant-state",
-      "introduced": "2026-11-09",
-      "published_on": "2026-11-09",
-      "budget": 45,
-      "target": "dormant / inactive / gone permanently",
-      "skill": "dormant / inactive / gone permanently",
-      "q": "A club marks a member's unused online profile as dormant. Its rules say the profile can be reactivated without a new registration. Which reading fits?",
-      "o": [
-        "The profile is currently used for the club's daily activities.",
-        "The profile has been erased and must be created from scratch.",
-        "The profile is inactive but remains available for use again.",
-        "The profile has become a separate account with a new owner."
-      ],
-      "a": 2,
-      "origin_session": "2026-11-09-2017-text2",
-      "exp": {
-        "trans": "俱乐部将会员未使用的在线资料标记为dormant。规则说明无需重新注册就能恢复使用。怎样理解正确？",
-        "structure": "unused说明当前状态；can be reactivated与without a new registration说明仍然保留、可恢复。",
-        "other": "profile账户资料；reactivate重新启用；registration注册。",
-        "meaning": "dormant表示暂时不活跃，不能等同于永久删除；当前不使用与以后可重新使用可以同时成立。",
-        "rest": "currently used与unused相反；erased...from scratch否定无需重新注册；新账户或新所有者均没有证据。"
-      },
-      "context_id": "inactive-online-profile-reactivation-versus-deletion"
-    },
-    {
-      "id": "t17t2-history-emblem",
-      "family": "historical-reminder-evidence",
-      "introduced": "2026-11-09",
-      "published_on": "2026-11-09",
+      "introduced": "2026-10-04",
+      "target": "concludes / 收束段识别",
+      "skill": "排序题结论信号",
       "budget": 50,
-      "target": "painful reminder / present threat",
-      "skill": "painful reminder / present threat",
-      "q": "A theatre plans to restore a factory emblem above its entrance. Former workers object: the emblem recalls public punishments imposed by that factory decades ago. They raise no objection to the theatre's rent or ownership. What grounds their objection?",
+      "q": "一篇先分析家电过早报废、后提出改进办法的文章，有一候选段写道：After examining the figures, Dr Patel sums up her proposal: shared repair services could help residents keep appliances longer. 段末又说：Whether enough households will join, however, remains an open question.\n这一段最适合放在哪里？",
       "o": [
-        "The emblem recalls humiliating treatment experienced in the past.",
-        "The theatre will give another company control over current rents.",
-        "The restoration will end local access to adult education courses.",
-        "The workers expect the old factory to reopen under new ownership."
+        "全文开头，用来首次介绍Dr Patel",
+        "问题分析展开之前",
+        "全文结尾附近，作为总结和改革建议",
+        "只能放在具体数据段之前"
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "考察数据后，Patel博士总结自己的建议：共享维修服务或许能让居民更长久地使用电器。但是否有足够多家庭参与，仍是未决问题。这段最适合放在结尾附近。",
+        "structure": "After examining the figures回看前文数据；Dr Patel + sums up + her proposal明确给出总结动作。末句Whether...will join作主语，remains...为谓语部分，以未决问题收束。",
+        "other": "sum up 总结；shared repair service 共享维修服务；appliance 家电；household 家庭；open question 未决问题。",
+        "meaning": "总结建议与回顾数据、开放结尾合起来支持尾段位置；单独出现concludes或sum up并不能证明必为全文最后一段。",
+        "rest": "首次介绍人物不能解释已分析过数据；在问题分析前放总结建议与给定结构不合；“只能放在数据段之前”更与After examining the figures相反。"
+      },
+      "source_exam": "2011-english1",
+      "source_part": "Part B",
+      "context_id": "context:paragraph-order-discourse-conclusion-b"
+    },
+    {
+      "id": "cl17-effects-shifts",
+      "family": "effect-source-target",
+      "introduced": "2026-11-07",
+      "published_on": "2026-11-07",
+      "budget": 50,
+      "target": "effects of A on B",
+      "skill": "effects of A on B",
+      "q": "A factory study examined the effects of night shifts and overtime on assembly errors. Which identifies the sources being examined and the outcome being affected?",
+      "o": [
+        "Sources: errors; outcome: shift schedules.",
+        "Sources: shifts and overtime; outcome: errors.",
+        "Sources: overtime only; outcome: shift length.",
+        "Sources: the study; outcome: staff opinions."
+      ],
+      "a": 1,
+      "origin_session": "2026-11-07-2017-cloze",
+      "source_question": 6,
+      "exp": {
+        "trans": "一项工厂研究考察夜班和加班对装配错误的影响。影响来源是夜班与加班，受影响的结果是装配错误。",
+        "structure": "主干A study examined the effects；of后night shifts and overtime是两个并列来源，on后assembly errors是受影响对象。",
+        "other": "night shift夜班；overtime加班；assembly装配。",
+        "meaning": "of A on B并非任意介词组合：A说明何种因素的影响，B说明影响落在哪个对象上。该句不自行给出影响方向或大小。",
+        "rest": "errors作为来源颠倒方向；overtime only漏掉并列夜班；study只是考察者，不是句子指定的影响来源，staff opinions也没有出现。"
+      },
+      "context_id": "effect-parallel-sources-and-recipient"
+    },
+    {
+      "id": "r17t3-light-race-timing",
+      "family": "shed-light-direction",
+      "introduced": "2026-11-10",
+      "published_on": "2026-11-10",
+      "budget": 45,
+      "target": "shed light on / conceal",
+      "skill": "shed light on / conceal",
+      "q": "A coach compares video with runners' split times. The comparison sheds light on why a handover failed, although one camera angle is missing. What does the expression say the comparison achieves?",
+      "o": [
+        "It keeps the cause of the failed handover hidden from view.",
+        "It helps explain the failure despite a gap in the evidence.",
+        "It physically brightens the track where the runners compete.",
+        "It proves the cause even without any supporting information."
+      ],
+      "a": 1,
+      "origin_session": "2026-11-10-2017-text3",
+      "exp": {
+        "trans": "教练将视频与运动员的分段用时比较。尽管缺少一个拍摄角度，这种比较仍帮助解释交接为什么失败。该表达说明比较起到什么作用？",
+        "structure": "The comparison是主语；sheds light on后接why引导的解释对象；although保留信息仍不完整这一限定。",
+        "other": "split time分段用时；handover交接；camera angle拍摄角度；settle确定解决。",
+        "meaning": "shed light on是帮助说明、使更清楚，方向与隐藏相反；部分解释可以成立，不等于所有细节已经证实。",
+        "rest": "keeps...hidden把阐明反转为遮蔽；physically brightens把固定短语硬译为照明；proves...without information把帮助理解夸大成无证据也能证明。"
+      },
+      "context_id": "relay-video-comparison-explains-without-complete-certainty"
+    },
+    {
+      "id": "legacy-who-that-main",
+      "source": "today",
+      "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+      "target": "who 定语从句 / that 宾语从句",
+      "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+      "o": [
+        "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+        "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+        "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+        "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
       ],
       "a": 0,
-      "origin_session": "2026-11-09-2017-text2",
-      "exp": {
-        "trans": "剧院计划恢复入口上方的工厂徽记。旧工人反对，因为徽记让他们想起几十年前工厂施加的公开惩罚。他们没有反对剧院租金或所有权。反对基于什么？",
-        "structure": "object后用冒号解释理由；recalls将现在的符号与过去的屈辱经历相连；raise no objection进一步排除当前租金或产权作为已述理由。",
-        "other": "emblem徽记；impose施加；humiliating令人屈辱的；ownership所有权。",
-        "meaning": "当前物件可以唤起过去的伤痛；不能把这条历史记忆证据自动改写成现实租金、教育机会或控制权变化。",
-        "rest": "current rents与原文否定的对象冲突；结束成人教育和工厂重开均未被陈述。不能仅因这些担忧现实中可能发生就当成本文理由。"
+      "diag": {
+        "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
+        "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
+        "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
       },
-      "context_id": "factory-emblem-memory-not-current-rent-or-control"
+      "exp": {
+        "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
+        "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
+        "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
+        "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
+        "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
+      },
+      "family": "nested",
+      "introduced": "2026-09-29",
+      "budget": 60,
+      "context_id": "nested-who-that-predicate"
+    },
+    {
+      "id": "r17t3-budding-project",
+      "family": "budding-stage",
+      "introduced": "2026-11-10",
+      "published_on": "2026-11-10",
+      "budget": 45,
+      "target": "budding / fully developed",
+      "skill": "budding / fully developed",
+      "q": "A translation collective has completed its first small commission and is still learning how to work together. A reviewer calls it a budding enterprise. Which expectation fits?",
+      "o": [
+        "It has already reached a stable and fully developed operating scale.",
+        "Its first commission proves that every future project must succeed.",
+        "It is showing early promise while its organisation is still developing.",
+        "It has permanently stopped operating before completing any project."
+      ],
+      "a": 2,
+      "origin_session": "2026-11-10-2017-text3",
+      "exp": {
+        "trans": "一个翻译合作团队刚完成首个小委托，成员仍在学习协作。评论者称它为budding enterprise。怎样理解适当？",
+        "structure": "first small commission与still learning共同限定发展阶段；budding修饰enterprise，评价的是事业的初期发展。",
+        "other": "collective合作团队；commission委托；enterprise事业、企业；promise潜力。",
+        "meaning": "budding表示萌芽、开始显现潜力，不等于充分成熟；积极预期也不能推出每个项目必定成功。",
+        "rest": "fully developed把初期推成成熟；every future...must夸大确定性；permanently stopped与已完成委托并继续学习不符。"
+      },
+      "context_id": "new-translation-collective-first-commissions-not-established"
     }
   ],
   "retry": {
+    "criteria-number": [
+      {
+        "id": "r17t3-criterion-single-rule",
+        "family": "criteria-number",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
+        "budget": 45,
+        "target": "one criterion / several criteria",
+        "skill": "one criterion / several criteria",
+        "q": "A panel has removed every rule except one. Which revision is standard formal English?",
+        "o": [
+          "Only one criteria remain.",
+          "Only one criteria remains.",
+          "Only one criterion remain.",
+          "Only one criterion remains."
+        ],
+        "a": 3,
+        "origin_session": "2026-11-10-2017-text3",
+        "exp": {
+          "trans": "评审组已删去其余规则，只剩一条。哪种改写符合规范的正式英语？",
+          "structure": "one要求单数名词criterion；名词作主语时，单数主语对应remains；criteria是复数形式。",
+          "other": "panel评审组；except除外；formal English正式英语；agreement主谓一致。",
+          "meaning": "单数criterion与复数criteria同时影响名词选择和谓语一致，不能只记中文标准而忽略数量。",
+          "rest": "criteria remain用于复数情形，不能跟one；criteria remains混用复数名词与单数谓语；criterion remain则缺少单数谓语形式。"
+        },
+        "context_id": "one-remaining-rule-singular-noun-and-agreement"
+      }
+    ],
+    "shed-shelter-shade": [
+      {
+        "id": "r17t3-shelter-station",
+        "family": "shed-shelter-shade",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
+        "budget": 45,
+        "target": "shelter / shade / shed",
+        "skill": "shelter / shade / shed",
+        "q": "During a storm, walkers take shelter in a railway waiting room. Which meaning of shelter is relevant?",
+        "o": [
+          "A small building intended primarily for keeping garden tools.",
+          "An area made darker only by blocking direct rays of sunlight.",
+          "Protection from bad weather, here provided by a waiting room.",
+          "The release of leaves from a tree during a seasonal change."
+        ],
+        "a": 2,
+        "origin_session": "2026-11-10-2017-text3",
+        "exp": {
+          "trans": "暴风雨中，行人在铁路候车室避雨。shelter在这里对应什么含义？",
+          "structure": "take shelter表示寻求庇护；in a railway waiting room指出提供庇护的场所；during a storm给出需要保护的背景。",
+          "other": "walker步行者；waiting room候车室；primarily主要地；seasonal季节性的。",
+          "meaning": "shelter强调免受风雨或危险的庇护，既可说功能也可指场所；这里不要求该场所是专用避难建筑。",
+          "rest": "keeping tools描述shed常见名词义，却不是此处的保护功能；blocking sunlight只说明shade的遮阳方向；release of leaves是动词shed的另一语境。"
+        },
+        "context_id": "railway-waiting-room-weather-protection-not-storage"
+      },
+      {
+        "id": "r17t3-shade-slats",
+        "family": "shed-shelter-shade",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
+        "budget": 45,
+        "target": "shade does not guarantee rain protection",
+        "skill": "shade does not guarantee rain protection",
+        "q": "A slatted cover shades a reading area at noon, but rain still passes through its gaps. What does shades indicate here?",
+        "o": [
+          "Seals every gap so rain can no longer reach people underneath.",
+          "Blocks direct sunlight without necessarily keeping the rain out.",
+          "Turns the reading area into an enclosed building for tool storage.",
+          "Releases enough light to make the whole reading area much brighter."
+        ],
+        "a": 1,
+        "origin_session": "2026-11-10-2017-text3",
+        "exp": {
+          "trans": "条板顶棚在中午为阅读区遮阳，但雨仍能从缝隙穿过。shades在这里表明什么？",
+          "structure": "shades是cover所做的动作；but把遮阳与不能完全挡雨并列对照，不能只保留有保护作用的宽泛印象。",
+          "other": "slatted由条板构成的；gap缝隙；underneath在下方；enclosed封闭的。",
+          "meaning": "shade在这里遮挡直射阳光。某些东西同时遮阳避雨是可能的，但此处遮阳不保证挡雨，须保留后半句限制。",
+          "rest": "Seals every gap与雨能穿过直接冲突；tool storage无依据地把功能改成shed；Releases light是散发光线，方向与遮挡相反。"
+        },
+        "context_id": "slatted-cover-blocks-sun-but-rain-passes"
+      },
+      {
+        "id": "r17t3-shed-glow",
+        "family": "shed-shelter-shade",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
+        "budget": 45,
+        "target": "shed light literally / shade",
+        "skill": "shed light literally / shade",
+        "q": "A desk lamp sheds a warm glow while a screen shades the window. Which reading fits both verbs?",
+        "o": [
+          "The lamp stores tools; the screen emits sunlight into the room.",
+          "The lamp hides its light; the screen creates a new storage shed.",
+          "The lamp loses its leaves; the screen provides a storm forecast.",
+          "The lamp gives off light; the screen blocks some incoming sunlight."
+        ],
+        "a": 3,
+        "origin_session": "2026-11-10-2017-text3",
+        "exp": {
+          "trans": "台灯散发柔和光线，窗屏则遮挡窗外的光。哪种理解符合两个动词？",
+          "structure": "lamp与screen分别是两个动作主体；shed的宾语glow指实际光线，此处是散发义；shade的宾语window表明遮光。",
+          "other": "desk lamp台灯；glow柔和光线；give off散发；incoming进入的。",
+          "meaning": "shed可按宾语表示散发光等，shade在这里是遮光；字形相近不等于方向相同。此处也不要将字面发光一概替换为shed light on的阐明义。",
+          "rest": "stores tools把名词棚屋硬套进动词；hides反转发光；loses leaves忽略实际宾语glow；窗屏发光、建棚或预报天气也不符合原句。"
+        },
+        "context_id": "desk-lamp-emission-versus-window-screen-shading"
+      }
+    ],
+    "relative": [
+      {
+        "id": "relative-borrowed-ladder",
+        "family": "relative",
+        "introduced": null,
+        "budget": 60,
+        "target": "preposition + whom",
+        "skill": "介词 + whom",
+        "q": "The plumber thanked the neighbour. He had borrowed a ladder from the neighbour.\n哪句合并正确？",
+        "o": [
+          "The plumber thanked the neighbour from that he had borrowed a ladder.",
+          "The plumber thanked the neighbour whom from he had borrowed a ladder.",
+          "The plumber thanked the neighbour from whom he had borrowed a ladder.",
+          "The plumber thanked the neighbour whom he had borrowed a ladder from him."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "水管工感谢了那位借梯子给他的邻居。",
+          "structure": "原始简单句：He had borrowed a ladder from the neighbour. → 用whom替代重复的the neighbour：the neighbour whom he had borrowed a ladder from → 把from前置：the neighbour from whom he had borrowed a ladder。外层主干是The plumber + thanked + the neighbour，后接修饰neighbour的定语从句。",
+          "other": "plumber 水管工；neighbour 邻居；ladder 梯子；borrow A from B 从B那里借来A。",
+          "meaning": "from不是临时猜出来的，来自原句borrow...from...；先行词是人，介词后用whom。",
+          "rest": "from that：关系代词that不能直接置于介词后。whom from he：介词前置时必须是from whom，不是whom from。from him：关系代词whom已经代替该人，再保留him造成重复。"
+        },
+        "context_id": "context:relative-borrowed-ladder"
+      }
+    ],
     "paragraph-order-discourse": [
       {
         "id": "paragraph-order-discourse-parallel-a",
@@ -241,32 +391,6 @@
         "source_exam": "2011-english1",
         "source_part": "Part B",
         "context_id": "context:paragraph-order-discourse-parallel-a"
-      },
-      {
-        "id": "paragraph-order-discourse-conclusion-b",
-        "family": "paragraph-order-discourse",
-        "introduced": "2026-10-04",
-        "target": "concludes / 收束段识别",
-        "skill": "排序题结论信号",
-        "budget": 50,
-        "q": "一篇先分析家电过早报废、后提出改进办法的文章，有一候选段写道：After examining the figures, Dr Patel sums up her proposal: shared repair services could help residents keep appliances longer. 段末又说：Whether enough households will join, however, remains an open question.\n这一段最适合放在哪里？",
-        "o": [
-          "全文开头，用来首次介绍Dr Patel",
-          "问题分析展开之前",
-          "全文结尾附近，作为总结和改革建议",
-          "只能放在具体数据段之前"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "考察数据后，Patel博士总结自己的建议：共享维修服务或许能让居民更长久地使用电器。但是否有足够多家庭参与，仍是未决问题。这段最适合放在结尾附近。",
-          "structure": "After examining the figures回看前文数据；Dr Patel + sums up + her proposal明确给出总结动作。末句Whether...will join作主语，remains...为谓语部分，以未决问题收束。",
-          "other": "sum up 总结；shared repair service 共享维修服务；appliance 家电；household 家庭；open question 未决问题。",
-          "meaning": "总结建议与回顾数据、开放结尾合起来支持尾段位置；单独出现concludes或sum up并不能证明必为全文最后一段。",
-          "rest": "首次介绍人物不能解释已分析过数据；在问题分析前放总结建议与给定结构不合；“只能放在数据段之前”更与After examining the figures相反。"
-        },
-        "source_exam": "2011-english1",
-        "source_part": "Part B",
-        "context_id": "context:paragraph-order-discourse-conclusion-b"
       },
       {
         "id": "paragraph-discourse-ticket-deposits",
@@ -317,6 +441,31 @@
           "rest": "操作简单不等于能参与建构讨论；自选观看时间和字幕提升观看便利，却没有补上后文要求的质疑论点、互评修改等主动参与。"
         },
         "context_id": "context:sentence-link-course-participation-a"
+      },
+      {
+        "id": "sentence-link-museum-experiment-b",
+        "family": "paragraph-order-discourse",
+        "introduced": "2026-10-12",
+        "published_on": "2026-10-12",
+        "budget": 65,
+        "target": "单向展示→反向参与→后文设问",
+        "skill": "双向篇章钩子",
+        "q": "前文：At the old science museum, visitors watched a machine demonstrate each experiment. The most demanding thing they could do was press the Start button.\n【空缺】\n后文：What counts as taking part in an experiment? Visitors must be able to change a variable and compare the results.\n哪一句最适合？",
+        "o": [
+          "Repairs to the building could give the passive displays a more attractive setting.",
+          "Simpler controls could help more visitors watch the same machine demonstrations.",
+          "More detailed labels could explain the inventors behind the museum's machines.",
+          "A redesign could replace watching demonstrations with carrying out one's own tests."
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "旧科技馆由机器单向演示，观众几乎只能按开始按钮。正确句引出新展览如何扭转这种被动观看，让观众亲自试验；后文再问什么才是真正参与实验。",
+          "structure": "前文visitors watched与could do ... press Start显示参与程度低；正确句replace watching demonstrations with carrying out one’s own tests对比观看与亲自实验，后文change a variable和compare the results说明这种参与如何实现。",
+          "other": "demanding 费力的；demonstration 演示；variable 变量；carry out a test 进行试验。",
+          "meaning": "最有力的证据是双向：反转被动的安排承接前文，主动测试又引出后文讨论。‘最难任务只是按按钮’在语境中揭示参与不足，不是对设备的夸赞。",
+          "rest": "场馆外观、观看操作和发明者标签仍把参观者放在观看或接收信息的位置；只有亲自测试自然引出后文改变变量、比较结果的参与标准。"
+        },
+        "context_id": "context:sentence-link-museum-experiment-b"
       },
       {
         "id": "pb13-library-joint-grants-a",
@@ -394,571 +543,64 @@
         "context_id": "context:paragraph-discourse-audit-method-before-cases"
       }
     ],
-    "inference-boundary": [
+    "effect-source-target": [
       {
-        "id": "inference-boundary-architect-layout-a",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-10",
-        "budget": 55,
-        "target": "重新审视惯例 vs 无依据的未来结果",
-        "skill": "推断必须有直接语义支撑",
-        "q": "An architect argues: 'When an old street layout fails its users, we should question the layout instead of assuming that pedestrians are the problem.' Later the article mentions plans to renovate the district. Which view is most directly supported by the architect's remark?",
-        "o": [
-          "Old designs should be reconsidered when experience reveals their limits.",
-          "Every renovation will inspire a generation of future architects.",
-          "Pedestrian choices have no effect on city traffic.",
-          "New designs should always replace old ones, even when they work."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "建筑师认为，旧道路布局若不能服务使用者，就应质疑布局本身，而不是预设行人有问题。引文支持反思既有设计，而非预言未来创新的效果。",
-          "structure": "When从句给出条件；we should question A instead of assuming B是核心主张。Later句子另行交代翻修计划，但没有为引文添加未来代际因果关系。",
-          "other": "layout 布局；pedestrian 行人；renovate 翻修；reconsider 重新考虑。",
-          "meaning": "引用某人的一句话，优先提炼这句话本身可支持的思考方式。与文章主题有关的后续结果可能合理，但若引文没谈到，就不能据此归给说话人。",
-          "rest": "鼓舞未来建筑师引入未提及的影响链；完全否认行人作用和一律淘汰旧设计，都比原话更绝对。"
-        },
-        "context_id": "context:inference-boundary-architect-layout-a"
-      },
-      {
-        "id": "inference-boundary-archive-questions-b",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-10",
-        "budget": 55,
-        "target": "思考方式 vs 后代研究因果",
-        "skill": "引述证据与外推限制",
-        "q": "A historian says of a newly revised account: 'The documents did not change; the questions I asked of them did.' The article later notes that her book was reprinted thirty years later. What does her statement most strongly suggest?",
-        "o": [
-          "An influential book must be reprinted before its argument becomes valid.",
-          "Repeatedly publishing the same documents automatically produces new discoveries.",
-          "Revisiting familiar evidence with different questions can yield new interpretations.",
-          "The historian's method necessarily shaped every later generation of researchers."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "历史学家说：文献没有改变，改变的是我向它们提出的问题。这表明熟悉的证据也能因为新的提问方式产生新解释。",
-          "structure": "The documents did not change与the questions ... did形成对照；did代替did change，省略重复的动词原形change。后句reprinted thirty years later说的是再版事实，不包含对后代研究的必然影响。",
-          "other": "historian 历史学家；document 文献；reprint 再版；interpretation 解释。",
-          "meaning": "‘旧材料+新问题→新解释’是引文直接支持的内容。后面提及多年后再版，并不能证明她影响了所有后来研究，更不能把时间先后直接改成因果。",
-          "rest": "把再版当成论证有效性的必要条件属于添加规则；自动产生发现与提问改变的机制不符；对所有后代研究产生必然影响远超引文证据。"
-        },
-        "context_id": "context:inference-boundary-archive-questions-b"
-      },
-      {
-        "id": "inference-boundary-tenant-supporters-a",
-        "family": "inference-boundary",
-        "introduced": "2026-10-11",
-        "published_on": "2026-10-11",
+        "id": "cl17-effects-room-echo",
+        "family": "effect-source-target",
+        "introduced": "2026-11-07",
+        "published_on": "2026-11-07",
         "budget": 50,
-        "target": "动员支持者≠改变看法",
-        "skill": "行动证据与态度变化证据",
-        "q": "A tenants' group rallied 800 long-time supporters at a public hearing against a proposed rent increase. No survey of participants' earlier opinions was conducted. Which statement is warranted?",
+        "target": "effect of A on B",
+        "skill": "effect of A on B",
+        "q": "An engineer asks how room shape changes echoes. Which phrase names that relationship without reversing the source and the affected outcome?",
         "o": [
-          "It converted former opponents into supporters of the group.",
-          "It mobilized supporters; a change of views is unproved.",
-          "It persuaded the city to cancel the proposed rent increase.",
-          "Most residents have shifted from support to opposition."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "租户组织动员了800名长期支持者，在公开听证会上反对拟议涨租。没有调查这些参与者以前的观点。只能确认组织动员了支持者，不能确认他们是被说服后改变立场。",
-          "structure": "A tenants' group + rallied + long-time supporters；No survey ... was conducted明确缺失了对以前态度的测量。Which statement is warranted要求只说证据足以支持的内容。",
-          "other": "tenant 租户；rally 动员；hearing 听证会；prior attitude 先前态度。",
-          "meaning": "rally supporters是组织已有支持者采取行动；change someone's political attitude要有前后立场变化的证据。动员和说服是不同关系。",
-          "rest": "原文称参加者为长期支持者，没有原先反对的证据；未报告提案撤销；800名参与者也不能代表多数居民的态度转变。"
-        },
-        "context_id": "context:inference-boundary-tenant-supporters-a"
-      },
-      {
-        "id": "inference-boundary-survey-shift-b",
-        "family": "inference-boundary",
-        "introduced": "2026-10-11",
-        "published_on": "2026-10-11",
-        "budget": 55,
-        "target": "态度确有变化 vs 是否由活动造成",
-        "skill": "观察变化与归因分开",
-        "q": "After a public campaign, a survey of the same 500 residents found support for the new bus plan had risen from 30% to 55%. During the same period, a fare cut was also announced. What is the most defensible conclusion?",
-        "o": [
-          "The campaign explains the full rise in support for the plan.",
-          "Support rose; the campaign's separate effect remains unclear.",
-          "Residents' attitudes stayed the same despite the campaign.",
-          "The fare cut explains the full rise in support for the plan."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "一场宣传活动之后，对同一批500名居民的调查发现，新公交方案支持率从30%升至55%；与此同时还宣布降低车费。能确定支持率发生变化，但不能断定全由宣传活动造成。",
-          "structure": "a survey ... found + that支持率变化；During the same period引入另一同时发生的因素，阻止将全部变化归因于campaign。",
-          "other": "fare cut 降低票价；resident 居民；causal effect 因果效应；establish 证实。",
-          "meaning": "这次确有前后态度数据，因此不能机械否认变化；但‘变化发生了’与‘某活动单独导致变化’仍是两回事。推断题要守住证据提供的层级。",
-          "rest": "同群体前后调查证明支持率上升，但同期还有票价变化，不能把全部变化单独归给宣传或降价；态度未变则与调查结果冲突。"
-        },
-        "context_id": "context:inference-boundary-survey-shift-b"
-      },
-      {
-        "id": "inference-troupe-travel-payments",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-27",
-        "target": "数量限制的修饰对象",
-        "skill": "数量限制的修饰对象",
-        "budget": 55,
-        "q": "An arts fund pays travel expenses for at most three performers in each selected troupe. The rest of the troupe may still take part at its own expense. Which inference is warranted?",
-        "o": [
-          "Every funded troupe must contain at most three performers.",
-          "A troupe with four performers cannot enter the festival.",
-          "Only three performers from a troupe are allowed onstage.",
-          "The payment limit does not cap the size of a troupe."
+          "the effect of echoes on room shape",
+          "the effect between echoes and shape",
+          "the effect on shape caused by echoes",
+          "the effect of room shape on echoes"
         ],
         "a": 3,
+        "origin_session": "2026-11-07-2017-cloze",
+        "source_question": 6,
         "exp": {
-          "trans": "艺术基金为每个入选剧团最多三名演员支付差旅费，其余演员仍可自费参与。因此获资助人数的限制不等于剧团人数的上限。",
-          "structure": "at most three performers限定基金付费覆盖的人；第二句The rest仍可参与，明确区分资助范围与参与范围。",
-          "other": "troupe 剧团；travel expense 差旅费；at its own expense 自费；cap 限制上限。",
-          "meaning": "数字出现后应先问“限制的是谁的什么权利”。对报销人数的限制不能移成对团队人数、报名资格或上台人数的限制。",
-          "rest": "“每团最多三人”“四人剧团不能参加”“仅三人可上台”都把差旅资助范围扩大成团队规模或参与资格限制，且忽略其余演员可自费参与。"
+          "trans": "工程师问房间形状如何改变回声，对应房间形状对回声的影响。",
+          "structure": "还原：room shape changes echoes；将变化来源room shape置于of之后，受影响的echoes置于on之后。",
+          "other": "engineer工程师；echo回声；reverse颠倒。",
+          "meaning": "判断搭配也要核对语义方向，不能因为一组of/on形式正确就忽略谁影响谁。",
+          "rest": "of echoes on room shape与on shape caused by echoes均把方向反过来；between只说两者之间，未构成题目所需的effect of A on B关系。"
         },
-        "context_id": "context:inference-troupe-travel-payments"
-      },
-      {
-        "id": "inference-director-hierarchical-profile",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-27",
-        "budget": 55,
-        "target": "行为描述与立场推断",
-        "skill": "行为描述与立场推断",
-        "q": "The director insists on formal titles and a clear chain of command. This explains why her staff describe her as hierarchical. Which conclusion is supported?",
-        "o": [
-          "She values distinctions of rank within the workplace.",
-          "She takes a tough line in every wage negotiation.",
-          "She prevents junior staff from expressing any opinion.",
-          "She supports the same political party as her managers."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "主管要求使用正式职衔并保持明确的指挥层级，因此员工说她等级观念强。能确定的是她重视工作场所的等级区分。",
-          "structure": "The director是主语，insists on连接她强调的组织安排；This回指前句行为；describe her as hierarchical是员工对这种行为特征的概括。",
-          "other": "hierarchical 等级分明的、等级观念强的；chain of command 指挥链；take a tough line on 对某事采取强硬立场。",
-          "meaning": "组织等级观念与具体议题上的立场强硬是不同判断。要把评价落实到原文给出的行为维度，不能因为某个形容词听起来强势就添加其他政治或谈判结论。",
-          "rest": "谈判一概强硬、禁止下属发表任何意见、与经理支持同一政党都增加了原文没有提供的具体立场或限制。"
-        },
-        "context_id": "context:inference-director-hierarchical-profile"
-      },
-      {
-        "id": "inference-musician-slots-revision",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-28",
-        "target": "情态强度 / 改选证据",
-        "skill": "比较初选与改选的证据支持",
-        "budget": 55,
-        "q": "A memo says, \"The council may consider giving street musicians a few extra evening slots.\" A reader first chooses \"Extra slots are a possibility\", then changes to \"The council is now cutting performance time\". No other evidence is given. Which judgment is warranted?",
-        "o": [
-          "The revision fits because all new policies cut time.",
-          "The initial reading fits the proposal's uncertainty.",
-          "The revision fits because consider means implement.",
-          "The initial reading proves extra slots are certain."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "备忘录说，市议会可能考虑多给街头音乐家一些晚间时段。读者先理解为可能增加时段，后改为议会现在正削减演出时间。在没有其他证据时，初选与原句相符。",
-          "structure": "The council是主语，may consider是谓语，giving...是consider的宾语；giving结构中street musicians是接受者，a few extra evening slots是给予的内容。may同时保留考虑及执行上的不确定性；is now cutting则声称削减正在发生。",
-          "other": "memo备忘录；council市议会；slot时段；warranted有依据的。",
-          "meaning": "改选必须有更强且相关的文本证据。这里extra表示增加，may consider不等于已经执行；改选同时改变了方向与确定性。结论来自证据匹配，不能归纳为一律坚持初选。",
-          "rest": "“新政策都削减时间”是无依据概括；“consider等于implement”混淆考虑与实施；“必定增加”也把可能性夸大成确定性。只有承认初选符合提议的不确定性才保留了原句边界。"
-        },
-        "context_id": "musician-slots-proposal-vs-asserted-cut"
-      },
-      {
-        "id": "inference-pending-auditions",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-31",
-        "target": "待处理 / 可能结果",
-        "skill": "流程状态与确定性",
-        "budget": 55,
-        "q": "A music academy has confirmed two scholarship awards. Three other applicants still await an audition, and no decisions on them have been announced. Which inference is warranted?",
-        "o": [
-          "All five applicants have already been given awards.",
-          "Every pending applicant will be refused an award.",
-          "Further awards are possible, but not yet confirmed.",
-          "The two confirmed awards have now been withdrawn."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "音乐学院已确认两份奖学金，另外三名申请者仍在等试演，尚无决定公布。因此，可能还有人获奖，但目前不能确认结果。",
-          "structure": "has confirmed表明已有结果；other applicants与still await把另一组人放在尚待处理阶段；no decisions...进一步排除对他们已有定论的说法。",
-          "other": "academy学院；scholarship奖学金；audition试演；pending待处理的。",
-          "meaning": "等待某程序只说明状态，既不等于已获肯定结果，也不等于将获否定结果。可以保留可能性，不能把它升级为确定事实。",
-          "rest": "“五人全已获奖”把待试演者混入已确认者；“待处理者全会被拒”把未知变成必然；“原两份已撤回”增加了不存在的逆转。"
-        },
-        "context_id": "awards-confirmed-vs-pending-auditions"
-      },
-      {
-        "id": "inference-seed-label-inspections",
-        "family": "inference-boundary",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-31",
-        "target": "已发现 / 待检查",
-        "skill": "可能性与证据范围",
-        "budget": 55,
-        "q": "A seed bank has found incorrect labels in two boxes. Four more boxes are awaiting inspection; no results for them are available. What can be concluded now?",
-        "o": [
-          "The other boxes may contain errors, but this is unconfirmed.",
-          "All six boxes have already been shown to carry wrong labels.",
-          "Every uninspected box must be free from labelling mistakes.",
-          "The first two findings prove that the inspectors were biased."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "种子库已发现两个盒子的标签有误，另外四个仍在等检查，尚无结果。其他盒子可能有误，但不能说已确认。",
-          "structure": "has found限定已知发现的范围为two boxes；Four more boxes是are awaiting的主语，待检查状态与no results共同标出证据边界。",
-          "other": "seed bank种子库；label标签；inspection检查；biased有偏见的。",
-          "meaning": "已检查对象的结果不能自动外推给未检查对象。may保留可能性；already shown、must及prove都需要更强证据。",
-          "rest": "“六个都已证实标签错误”扩大已知范围；“未检查者必定无误”把未知反向说成确定；“发现错误证明检查者偏见”凭空增加了因果和动机判断。"
-        },
-        "context_id": "seed-labels-known-vs-uninspected"
-      },
-      {
-        "id": "cloze-hiring-likely-candidate-b",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-02",
-        "budget": 50,
-        "target": "likely candidate / decide on / arrange",
-        "skill": "可能人选、选定与安排流程",
-        "q": "A hiring panel decided on a likely candidate for a vacant post and asked HR to arrange interviews. Which account is justified?",
-        "o": [
-          "The panel selected a plausible applicant and asked HR to organize interviews.",
-          "The panel invented an imaginary applicant to delay the hiring process.",
-          "The panel postponed every interview until another vacancy appeared.",
-          "The applicant had accepted the post before the panel made a choice."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "招聘小组选定了一名可能合适的岗位人选，并请人力资源部门安排面试。原文支持“选出可能人选并安排面试”，不支持虚构人物或推迟招聘。",
-          "structure": "A hiring panel是主语，decided on是谓语，a likely candidate是宾语；for a vacant post限定候选人对应的岗位。asked HR to arrange interviews说明后续安排动作。",
-          "other": "vacant post空缺职位；candidate候选人；plausible看起来合适的；HR人力资源部门。",
-          "meaning": "likely candidate指可能合适的人选；decide on表示选定；arrange interviews表示安排面试。三个动作构成正常招聘流程。",
-          "rest": "imaginary applicant把likely误解成虚构并凭空添加拖延动机；postpone表示推迟，与arrange相反；候选人已经接受职位则把面试前的选择流程倒置成已录用。"
-        },
-        "context_id": "hiring-shortlist-not-fiction"
-      },
-      {
-        "id": "cloze-clinic-likely-site-c",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-02",
-        "budget": 50,
-        "target": "likely site / arrange talks / 未确认结果",
-        "skill": "可能性与后续流程边界",
-        "q": "After comparing flood maps, planners selected a likely site for a clinic and arranged talks with nearby residents. The talks have not yet occurred. Which conclusion is justified?",
-        "o": [
-          "They chose a possible site and arranged talks with residents.",
-          "They approved a final site after completing public consultation.",
-          "They invented a location to delay the construction work.",
-          "They cancelled the clinic because residents opposed it."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "比较洪水地图后，规划人员选定了一个可能的诊所选址，并安排与附近居民会谈；会谈尚未举行。可以确认的是他们选出了一个可能地点并安排讨论，不能说最终选址已批准。",
-          "structure": "After comparing...交代背景；主句planners selected... and arranged...有两个并列谓语。likely修饰site，说明可能性；The talks have not yet occurred明确后续会谈仍未发生。",
-          "other": "flood map洪水地图；site地点/选址；consultation协商；approve批准。",
-          "meaning": "likely site是可能的选址，不等于已经最终确定；arrange talks表示安排会谈，不等于会谈已经完成。",
-          "rest": "final site和completed consultation把可能性与未发生的会谈升级为已完成事实；invented a location凭空增加虚构动机；cancelled the clinic及居民反对均无文本依据。"
-        },
-        "context_id": "clinic-site-pending-talks"
-      },
-      {
-        "id": "text4-inference-model-parameter",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "local revision vs wholesale abandonment",
-        "skill": "局部修改不代表整套方法失效",
-        "q": "A research team recalibrated one parameter in its climate model after finding a sensor bias. The remaining equations were kept, and the team continues to use the model. What follows?",
-        "o": [
-          "Every principle of the model was declared obsolete.",
-          "All observations made with the model were erased.",
-          "The model remains in use after one limited adjustment.",
-          "The research team permanently abandoned modelling."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "团队因传感器偏差重新校准一个参数，其余方程保留，模型继续使用。",
-          "structure": "one parameter限定改动范围；remaining equations were kept说明其他部分未淘汰。",
-          "other": "recalibrate重新校准；parameter参数；obsolete过时的。",
-          "meaning": "局部调整不等于整套模型失效，不能把一个参数变更扩大为全面废弃。",
-          "rest": "整体报废、清除所有观察和全面放弃建模都超过原文证据。"
-        },
-        "context_id": "climate-model-one-parameter-vs-whole-theory"
-      },
-      {
-        "id": "text4-inference-habitat-sample",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "partial observations vs entire region",
-        "skill": "局部样本与整体结论",
-        "q": "In a wildlife survey, three valleys showed fewer nesting birds this spring. The researchers had not yet examined the other valleys. What conclusion is justified?",
-        "o": [
-          "Declines were recorded in the three surveyed valleys.",
-          "Every nesting bird in the region has disappeared.",
-          "The entire region is now unable to support birdlife.",
-          "All other valleys must have experienced larger losses."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "调查发现三个山谷筑巢鸟数量下降，但尚未调查其他山谷。",
-          "structure": "three valleys与not yet examined限制了证据范围。",
-          "other": "nesting bird筑巢鸟；survey调查；region区域。",
-          "meaning": "部分样本变化不能推出整个地区或未经调查地点的确定状态。",
-          "rest": "全部消失、生态全面崩溃和其他山谷损失更严重均未经证实。"
-        },
-        "context_id": "bird-survey-three-valleys-unsurveyed-sites"
-      },
-      {
-        "id": "text4-inference-short-trial",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "short-term evidence vs permanent outcome",
-        "skill": "观察时长与结论强度",
-        "q": "After six weeks, a pilot sleep programme improved participants' reported rest. No follow-up beyond the pilot was conducted. Which assessment is most defensible?",
-        "o": [
-          "The programme permanently eliminates every sleep problem.",
-          "Short-term improvement is observed; durability is unknown.",
-          "The initial improvement guarantees lasting benefits.",
-          "The reported results show that the programme had no effect."
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "六周睡眠试点显示主观休息改善，但没有更长期追踪。",
-          "structure": "After six weeks确定观察时间；No follow-up说明长期结论无证据。",
-          "other": "pilot试点；durability持续性；follow-up追踪。",
-          "meaning": "短期改善是已报告事实，长期效果尚不能确认。",
-          "rest": "永久解决、保证持久效果和完全无效都是错误扩大或否定。"
-        },
-        "context_id": "sleep-pilot-six-week-vs-long-term"
-      },
-      {
-        "id": "text4-inference-answer-letter-bias",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "answer distribution vs evidence",
-        "skill": "正确选项字母不具排除力",
-        "q": "A student has answered D on three consecutive questions. In the next passage, records show that a new filter reduced sediment in four tested streams; other sites were not studied. Which statement fits the passage?",
-        "o": [
-          "The filter has restored every stream in the region.",
-          "The filter has already failed in all other streams.",
-          "Three previous D answers mean D must now be wrong.",
-          "The filter reduced sediment in four tested streams."
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "前三题连续选D和本题无关；研究仅证明在四条已测试溪流泥沙减少。",
-          "structure": "records show提供已观察到的证据；four tested streams限定适用范围。",
-          "other": "sediment泥沙；tested经过测试的；consecutive连续的。",
-          "meaning": "同一正确字母可以连续出现；应使用文本证据，不凭此前选项数量猜测。",
-          "rest": "全区改善、其他地区全部失败和通过字母排除选项都没有依据。"
-        },
-        "context_id": "stream-filter-data-vs-prior-answer-letters"
-      },
-      {
-        "id": "t17-reason-label-gap",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-08",
-        "budget": 55,
-        "target": "textual evidence / answer-label pattern",
-        "skill": "textual evidence / answer-label pattern",
-        "q": "On a paper with no stated rule requiring balanced answer labels, an editor chooses a title that fits every paragraph, but explains: \"I chose it because its answer label had not appeared in the previous questions.\" What is the soundest assessment?",
-        "o": [
-          "The title may fit, but that label pattern supplies no textual support.",
-          "The unused label independently confirms the passage's central argument.",
-          "An unused label can decide between two equally plausible titles.",
-          "A title must be rejected if its label appeared in two earlier answers."
-        ],
-        "a": 0,
-        "origin_session": "2026-11-08-2017-text1",
-        "exp": {
-          "trans": "编辑可能选中了符合全文的标题，但“这个字母此前没出现”不能为标题提供文本依据。结论与理由要分别核验。",
-          "structure": "主句chooses描述选择；but转向其解释理由；because后给出的只是标签分布，未引用任何内容证据。",
-          "other": "assessment评价；label标签；scope覆盖范围；textual support文本支持。",
-          "meaning": "碰巧选到合适选项，并不使错误的字母配平策略成立；争议题更应保留文本依据。",
-          "rest": "“独立证实主旨”和“用未出现字母决定标题”都把标签分布当作语义证据；看到重复字母就拒绝也是无依据的配平规则。"
-        },
-        "context_id": "possibly-correct-conclusion-invalid-letter-rationale"
-      },
-      {
-        "id": "t17-reason-mechanism-focus",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-08",
-        "budget": 55,
-        "target": "exclusion reason / actual paragraph evidence",
-        "skill": "exclusion reason / actual paragraph evidence",
-        "q": "A teaching article explains how software marks stress patterns in students' recorded speech. It then describes students becoming afraid to speak and recommends low-stakes rehearsal. A proposed title is \"How the Software Calculates Every Score.\" What is the strongest reason to reject it?",
-        "o": [
-          "The article gives no account of how the software identifies stress patterns.",
-          "Its procedural focus misses the article's concern about willingness to practise.",
-          "An unfamiliar word automatically makes a title unsuitable for this passage.",
-          "The same option label appeared too often in earlier questions on this sheet."
-        ],
-        "a": 1,
-        "origin_session": "2026-11-08-2017-text1",
-        "exp": {
-          "trans": "文章确实解释了软件识别重音的机制，但后半部分主要讨论学习者不敢开口及低压力练习。程序教程型标题不能体现这一关切。",
-          "structure": "explains给出机制；then转向对学习行为的影响；recommends说明作者主张，须综合后两者确定中心。",
-          "other": "stress pattern重音模式；low-stakes低压力、非高风险的；rehearsal练习。",
-          "meaning": "排除理由必须准确：局部机制已被介绍，正确的比较点是它是否构成全文主要论点。",
-          "rest": "no account否认了首句已提供的信息；unfamiliar word不能单独证明标题错误；earlier labels也不构成本文的内容证据。"
-        },
-        "context_id": "mechanism-is-present-but-not-main-argument"
-      },
-      {
-        "id": "t17t2-cause-rain-garden",
-        "family": "inference-boundary",
-        "introduced": null,
-        "published_on": "2026-11-09",
-        "budget": 55,
-        "target": "favourable condition / protective surroundings",
-        "skill": "favourable condition / protective surroundings",
-        "q": "After paving was replaced with porous soil, more rain entered the ground and less flowed into street drains. The report records no change to walls, fences or nearby buildings. Which explanation follows?",
-        "o": [
-          "New barriers around the site kept river water out of the street.",
-          "Reduced surface runoff created the pores now found in the soil.",
-          "Porous ground reduced runoff by allowing more rain to soak in.",
-          "The change proves that nearby buildings now act as flood walls."
-        ],
-        "a": 2,
-        "origin_session": "2026-11-09-2017-text2",
-        "exp": {
-          "trans": "铺装被多孔土壤替换后，更多雨水进入地下，流入街道排水口的水减少。报告没有记录围墙、栅栏或周边建筑的改变。能得到哪一种解释？",
-          "structure": "After交代材料改变；more...and less...呈现水流去向的对比；no change限制可以增加的解释。",
-          "other": "porous多孔的；runoff地表径流；drain排水口；soak in渗入。",
-          "meaning": "材料特征使渗透条件改善，再减少地表径流；有利环境不等于周边存在保护性屏障。",
-          "rest": "barriers和flood walls都添加未有证据的保护结构；created the pores把结果当成材料特征的起因。"
-        },
-        "context_id": "permeable-soil-absorption-runoff-versus-barrier"
+        "context_id": "effect-reconstruct-direction-from-question"
       }
     ],
-    "unpretentious": [
+    "shed-light-direction": [
       {
-        "id": "legacy-unpretentious",
-        "source": "today",
-        "skill": "unpretentious / unpredictable",
-        "target": "unpretentious / unpredictable",
-        "q": "The scientist's office was surprisingly ___: plain shelves, an old desk, and no awards on display.",
+        "id": "r17t3-light-audit-process",
+        "family": "shed-light-direction",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
+        "budget": 45,
+        "target": "bring to light / shed light on",
+        "skill": "bring to light / shed light on",
+        "q": "An audit brings an unrecorded payment to light. A later analysis sheds light on how it bypassed checks. Which reading preserves the different emphases?",
         "o": [
-          "unpretentious",
-          "unpredictable",
-          "formidable",
-          "perplexing"
+          "The audit hides the payment; the analysis also conceals the process.",
+          "The audit explains the process; the analysis denies any payment existed.",
+          "The audit illuminates a room; the analysis changes its lighting system.",
+          "The audit reveals the payment; the analysis helps explain the process."
         ],
-        "a": 0,
-        "diag": {
-          "1": "把 unpretentious 和 unpredictable 混淆了：这里描述的是朴素、不摆架子的风格，不是“无法预测”。",
-          "2": "formidable 表示“令人敬畏的、难对付的”，与 plain / no awards 的语义方向相反。",
-          "3": "perplexing 表示“令人困惑的”，这里没有“难以理解”的线索。"
-        },
+        "a": 3,
+        "origin_session": "2026-11-10-2017-text3",
         "exp": {
-          "trans": "这位科学家的办公室出人意料地朴素：普通的书架、一张旧书桌，而且没有陈列任何奖项。",
-          "structure": "主干：The scientist's office（主语）+ was（系动词）+ unpretentious（表语）。冒号后 plain shelves, an old desk, and no awards on display 是对“朴素”的具体说明。",
-          "other": "plain 普通的/朴素的；shelf 书架；on display 陈列着；award 奖项。",
-          "meaning": "unpretentious = 不装腔作势的、朴实低调的。注意：unpredictable 才是“无法预测的”。",
-          "rest": "unpredictable = 无法预测的；formidable = 令人敬畏的/难对付的；perplexing = 令人困惑的。这道题只有 unpretentious（朴素、不摆架子）与后面的普通书架、旧桌子、不展示奖项一致。"
+          "trans": "审计揭露了一笔未入账的款项；后续分析帮助说明它如何绕过检查。怎样理解才能保留两种表达的侧重点？",
+          "structure": "brings...to light的宾语是先前未知的payment；sheds light on的对象是how引导的运作过程。",
+          "other": "audit审计；unrecorded未记录的；bypass绕过；emphasis侧重点。",
+          "meaning": "bring to light偏使隐情为人所知；shed light on偏提供理解所需的信息。这里可以前者揭露事实、后者解释机制，不必强行互斥。",
+          "rest": "hides和conceals均反转方向；denies payment没有依据且否认已揭露事实；room/lighting system把两个比喻都误作物理照明。"
         },
-        "family": "unpretentious",
-        "introduced": "2026-09-29",
-        "budget": 35,
-        "context_id": "plain-room-unpretentious"
-      },
-      {
-        "id": "unpredictable-response-time",
-        "family": "unpretentious",
-        "introduced": "2026-09-29",
-        "target": "unpretentious / unpredictable",
-        "skill": "unpretentious / unpredictable",
-        "q": "On the same phone, the app sometimes opens instantly and sometimes takes a full minute. Its response time is ___.",
-        "o": [
-          "unpretentious",
-          "unpredictable",
-          "constant",
-          "reliable"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "在同一部手机上，这个应用有时马上打开，有时却要整整一分钟。它的响应时间难以预测。",
-          "structure": "the app是主语；opens和takes是并列谓语，sometimes...and sometimes...形成对比。第二句：Its response time（主语）+ is（系动词）+ unpredictable（表语）。",
-          "other": "instantly 立刻；a full minute 整整一分钟；response time 响应时间；constant 恒定的。",
-          "meaning": "unpredictable来自predict，表示难以预测；这里说性能表现忽快忽慢。",
-          "rest": "unpretentious：朴实、不摆架子的，常修饰person/style，不表示快慢无法预测。constant：恒定的，与忽快忽慢相反。reliable：可靠的，常用reliable information/service，不能概括这里不稳定的时间表现。"
-        },
-        "context_id": "context:unpredictable-response-time"
+        "context_id": "payment-disclosure-versus-explanation-of-check-bypass"
       }
     ],
     "nested": [
-      {
-        "id": "legacy-who-that-main",
-        "source": "today",
-        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-        "target": "who 定语从句 / that 宾语从句",
-        "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
-        "o": [
-          "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
-          "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
-          "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
-          "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
-        ],
-        "a": 0,
-        "diag": {
-          "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
-          "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
-          "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
-        },
-        "exp": {
-          "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
-          "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
-          "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
-          "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
-          "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
-        },
-        "family": "nested",
-        "introduced": "2026-09-29",
-        "budget": 60,
-        "context_id": "nested-who-that-predicate"
-      },
-      {
-        "id": "nested-shared-gate",
-        "family": "nested",
-        "introduced": "2026-09-29",
-        "budget": 60,
-        "target": "who 定语从句 / that 宾语从句",
-        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
-        "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
-        "o": [
-          "Residents / discovered / called",
-          "the shared gate / discovered / was",
-          "Residents / was unlocked / discovered",
-          "the caretaker / called / discovered"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
-          "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
-          "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
-          "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
-          "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
-        },
-        "context_id": "nested-who-that-predicate"
-      },
       {
         "id": "nested-valve-leak-c",
         "family": "nested",
@@ -983,6 +625,31 @@
           "rest": "the valve只在that从句中作主语；was leaking属于that宾语从句，不是who从句谓语；the line是shut down的宾语，不是主句主语。"
         },
         "context_id": "context:nested-valve-leak-c"
+      },
+      {
+        "id": "nested-editor-quote-d",
+        "family": "nested",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 60,
+        "target": "who-clause / that-clause / main-clause predicate",
+        "skill": "区分定语从句、宾语从句和主句谓语",
+        "q": "Editors who learned that the quote was inaccurate removed it from the draft. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+        "o": [
+          "Editors / learned / removed",
+          "the quote / learned / was",
+          "Editors / was / learned",
+          "the draft / removed / learned"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "得知引文不准确的编辑把它从草稿中删掉了。主句主语中心词是Editors，who从句谓语是learned，主句谓语是removed。",
+          "structure": "主句骨架是Editors removed it from the draft；who learned...修饰Editors；that the quote was inaccurate是learned的宾语从句。三个谓语属于不同层级。",
+          "other": "editor 编辑；quote 引文；inaccurate 不准确的；draft 草稿。",
+          "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
+          "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
+        },
+        "context_id": "context:nested-editor-quote-d"
       },
       {
         "id": "cloze-whatever-equipment-workshop-o",
@@ -1042,189 +709,54 @@
         "context_id": "whatever-documents-as-object"
       }
     ],
-    "with": [
+    "budding-stage": [
       {
-        "id": "with-archive-loading-c",
-        "family": "with",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "with + noun + participial phrase",
-        "skill": "识别with复合结构的伴随状态",
-        "q": "The archive reopened at noon, with several boxes waiting in the loading area. What does the with-clause do?",
+        "id": "r17t3-budding-friendship",
+        "family": "budding-stage",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
+        "budget": 45,
+        "target": "early development / established relationship",
+        "skill": "early development / established relationship",
+        "q": "Two neighbours have begun sharing meals after years of merely exchanging greetings. The narrator describes a budding friendship. What is established?",
         "o": [
-          "It describes a state accompanying the archive's reopening.",
-          "It gives the sole reason the archive reopened at noon.",
-          "It reports an action that archive staff carried out.",
-          "It is the direct object of reopened in the main clause."
+          "A closer relationship is beginning, though its future remains open.",
+          "A lifelong friendship is already certain to survive every difficulty.",
+          "Their earlier greetings prove that they have always been close friends.",
+          "The relationship has ended because the neighbours avoid one another."
         ],
         "a": 0,
+        "origin_session": "2026-11-10-2017-text3",
         "exp": {
-          "trans": "档案馆中午重新开放，当时有几个箱子正等在装卸区。with结构补充了重新开放时伴随的状态。",
-          "structure": "主干是The archive reopened at noon；with several boxes waiting in the loading area是with + 名词 + 现在分词结构，several boxes是waiting的逻辑主语。",
-          "other": "archive 档案馆；reopen 重新开放；loading area 装卸区；accompany 伴随。",
-          "meaning": "with复合结构常补充主句发生时的伴随状态。它不是reopened的直接宾语，也不自动表达原因或目的。",
-          "rest": "句子没有说明这是档案馆重新开放的唯一原因；with短语描述箱子所处的状态，并未说工作人员另做了一项动作；reopened在这里是不及物动词，不需要直接宾语。"
+          "trans": "两位邻居多年只是打招呼，最近开始一起吃饭，叙述者称之为budding friendship。能确认什么？",
+          "structure": "have begun标记变化开始；after years of merely...对比原先较疏远的状态；budding概括关系正萌芽。",
+          "other": "merely仅仅；greeting问候；narrator叙述者；lifelong终生的。",
+          "meaning": "是更亲密关系的开端，而非已经充分确立的终生承诺。发展初期、已有发展和最终稳定要区分。",
+          "rest": "lifelong...certain是无依据保证；always close抹去先前只打招呼的限定；has ended与开始一起吃饭的动作相反。"
         },
-        "context_id": "context:with-archive-loading-c"
-      }
-    ],
-    "astronomy-word-family": [
-      {
-        "id": "t17t2-astronomer-roles",
-        "family": "astronomy-word-family",
-        "introduced": "2026-11-09",
-        "published_on": "2026-11-09",
-        "budget": 45,
-        "target": "astronomer / astronaut roles",
-        "skill": "astronomer / astronaut roles",
-        "q": "One person analyses galaxy data to test a scientific model. Another pilots a crewed spacecraft during an orbital mission. Which pair names the roles described, in that order?",
-        "o": [
-          "Astronaut; astronomer studying data for a ground-based project.",
-          "Astronomy; astronaut flying a crewed spacecraft while in orbit.",
-          "Astronomer; astronaut flying a crewed spacecraft while in orbit.",
-          "Astronomical; astronomer taking part in an orbital crew mission."
-        ],
-        "a": 2,
-        "origin_session": "2026-11-09-2017-text2",
-        "exp": {
-          "trans": "一个人分析星系数据以检验科学模型，另一个人在轨道任务中驾驶载人飞船。按这个顺序，应如何称呼两人的工作身份？",
-          "structure": "One...Another...划分两个动作主体；analyses...to test是研究任务；pilots...during an orbital mission是实际航天任务。",
-          "other": "galaxy星系；dock对接；crewed载人的；orbital在轨的。",
-          "meaning": "astronomer是天文学研究者，astronaut是航天任务人员；astronomy是学科名，astronomical是形容词，不能直接替代人的职业名词。",
-          "rest": "Astronaut; astronomer交换了两个工作；Astronomy把学科名用于人；Astronomical把形容词用于人，并把驾驶飞船的航天任务误称天文研究角色。"
-        },
-        "context_id": "galaxy-data-analyst-versus-crewed-docking-trainee"
-      },
-      {
-        "id": "t17t2-astronomical-price",
-        "family": "astronomy-word-family",
-        "introduced": "2026-11-09",
-        "published_on": "2026-11-09",
-        "budget": 45,
-        "target": "astronomical in a figurative context",
-        "skill": "astronomical in a figurative context",
-        "q": "A concert hall receives a repair quote far above its entire annual income. The chair calls the price astronomical. What does astronomical mean here?",
-        "o": [
-          "Based on the recorded movements of distant planets.",
-          "Paid as part of a trained astronaut's mission costs.",
-          "Calculated by scientists working in an observatory.",
-          "Extremely large compared with the hall's resources."
-        ],
-        "a": 3,
-        "origin_session": "2026-11-09-2017-text2",
-        "exp": {
-          "trans": "音乐厅收到的维修报价远超其全年收入，负责人称价格astronomical。这里是什么意思？",
-          "structure": "far above its entire annual income给出数量尺度；astronomical作表语，评价price而非学科、人物或测量方式。",
-          "other": "repair quote维修报价；annual income年收入；resources可用资源。",
-          "meaning": "astronomical可以表示极其巨大的、天文数字般的；这里由价格与年收入的比较支持比喻义。此形容词是教学延伸，不新增为用户已确认框词。",
-          "rest": "行星运动、宇航员任务开支和天文台计算都套入天文字面话题，忽略了句中唯一给出的金额比较。"
-        },
-        "context_id": "concert-hall-repair-quote-figurative-astronomical"
-      },
-      {
-        "id": "t17t2-astronomy-overlap",
-        "family": "astronomy-word-family",
-        "introduced": "2026-11-09",
-        "published_on": "2026-11-09",
-        "budget": 45,
-        "target": "field / researcher / space traveller",
-        "skill": "field / researcher / space traveller",
-        "q": "An orbital crew member publishes scientific research on pulsating stars. A profile calls her both an astronaut and an astronomer. Is that description inconsistent?",
-        "o": [
-          "No; the two labels describe roles that one person may combine.",
-          "Yes; an astronomer can never take part in a mission in space.",
-          "Yes; astronomy names a kind of traveller rather than a science.",
-          "No; both labels always mean exactly the same kind of occupation."
-        ],
-        "a": 0,
-        "origin_session": "2026-11-09-2017-text2",
-        "exp": {
-          "trans": "一名在轨乘组成员发表了研究脉动恒星的科学论文。人物介绍同时称她为宇航员和天文学家。这是否自相矛盾？",
-          "structure": "crew member与publishes scientific research提供两个独立角色依据；both...and...可以同时成立，不要求身份互斥。",
-          "other": "profile人物介绍；pulsating周期性脉动的；inconsistent不一致的。",
-          "meaning": "两词含义不同，但一个人可兼具两种身份。区分词义不是制定天文学家绝不能去太空的错误规则。",
-          "rest": "can never加入职业互斥；a kind of traveller误解astronomy；always mean exactly the same则把两个可能重合的身份变成完全同义。"
-        },
-        "context_id": "orbital-crew-member-also-publishes-star-research"
-      }
-    ],
-    "dormant-state": [
-      {
-        "id": "t17t2-dormant-seeds",
-        "family": "dormant-state",
-        "introduced": "2026-11-09",
-        "published_on": "2026-11-09",
-        "budget": 45,
-        "target": "dormant / extinct / active",
-        "skill": "dormant / extinct / active",
-        "q": "The stored seeds show no visible growth, yet tests confirm that they remain alive and can sprout when conditions change. Why does the report call them dormant rather than dead?",
-        "o": [
-          "They are growing rapidly despite what the visible tests show.",
-          "Their inactivity does not mean that future growth is impossible.",
-          "Their species has disappeared permanently from every location.",
-          "Their present condition proves that every seed will sprout soon."
-        ],
-        "a": 1,
-        "origin_session": "2026-11-09-2017-text2",
-        "exp": {
-          "trans": "储存的种子没有可见生长，但检测确认它们仍活着，并可在条件变化后萌发。为何报告称其休眠，而不是死亡？",
-          "structure": "no visible growth与yet...remain alive构成表面活动和存活状态的对比；can sprout保留可能性而非必然马上生长。",
-          "other": "sprout萌发；visible可见的；species物种；inactivity不活跃。",
-          "meaning": "dormant是有恢复活动可能的休眠状态；extinct涉及灭绝，dead表示死亡；没有当前活动不等于永久不存在。",
-          "rest": "growing rapidly与未见生长冲突；整个物种在所有地点消失未被说明；every...soon把有可能夸大为所有个体马上必然萌发。"
-        },
-        "context_id": "viable-seeds-resume-growth-after-inactivity"
-      }
-    ],
-    "historical-reminder-evidence": [
-      {
-        "id": "t17t2-history-lease",
-        "family": "historical-reminder-evidence",
-        "introduced": "2026-11-09",
-        "published_on": "2026-11-09",
-        "budget": 50,
-        "target": "historical background / current evidence",
-        "skill": "historical background / current evidence",
-        "q": "A cooperative chair mentions an eviction thirty years ago. The present petition, however, objects specifically to a new clause letting an outside firm terminate members' leases next year. Which reason does the petition actually give?",
-        "o": [
-          "It seeks official recognition of the hardship caused decades ago.",
-          "It asks the outside firm to restore a historical community emblem.",
-          "It claims that renewed leases would prevent all cultural activity.",
-          "It challenges the firm's proposed power over members' future leases."
-        ],
-        "a": 3,
-        "origin_session": "2026-11-09-2017-text2",
-        "exp": {
-          "trans": "合作社主席提到三十年前的一次驱逐。但当前请愿书明确反对一项新条款：外部公司可在明年终止成员租约。请愿书实际给出的理由是什么？",
-          "structure": "mentions只说明历史背景出现；however把焦点转向present petition；objects specifically及letting明确现在反对的条款内容。",
-          "other": "eviction驱逐；petition请愿书；clause条款；terminate a lease终止租约。",
-          "meaning": "必须按本篇直接证据判断。历史出现不表示所有反对都只源于历史伤痛；这里明确写了将来的租约控制权。",
-          "rest": "official recognition把背景升级为请愿目标；restoring an emblem没有证据；文化活动全部受阻也不是租约条款的已述效果。"
-        },
-        "context_id": "past-eviction-background-versus-explicit-future-lease-objection"
+        "context_id": "new-neighbour-friendship-begins-without-guaranteed-future"
       }
     ]
   },
   "article_session": {
-    "id": "2026-11-09-2017-text2",
-    "source": "2017 英语一 Reading Text 2 · 2026-11-09纸质复盘（最终作答未知）",
-    "created_at": "2026-11-09T23:02:10+09:00",
+    "id": "2026-11-10-2017-text3",
+    "source": "2017 英语一 Reading Text 3 · 2026-11-10词汇复盘（自述5题全对，主旨已理解）",
+    "created_at": "2026-11-10T21:52:08+09:00",
     "revision": 1,
-    "learning_date": "2026-11-09",
-    "session_file": "data/article-sessions/2026-11-09-2017-text2.json",
+    "learning_date": "2026-11-10",
+    "session_file": "data/article-sessions/2026-11-10-2017-text3.json",
     "current_families": [
-      "astronomy-word-family",
-      "historical-reminder-evidence",
-      "inference-boundary",
-      "dormant-state"
+      "budding-stage",
+      "shed-light-direction",
+      "shed-shelter-shade",
+      "criteria-number"
     ],
     "deferred_families": [],
     "historical_families": [
-      "unpretentious",
+      "relative",
       "nested",
-      "with",
-      "paragraph-order-discourse"
+      "paragraph-order-discourse",
+      "effect-source-target"
     ]
   },
   "issues_used": [
@@ -1270,7 +802,8 @@
     40,
     41,
     42,
-    43
+    43,
+    44
   ],
   "engine": 4
 }
