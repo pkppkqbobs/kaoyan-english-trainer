@@ -1,6 +1,6 @@
 # 考研英语一跨对话交接
 
-数据截至 2026-11-09；仅索引已同步到仓库的证据。
+数据截至 2026-11-10；仅索引已同步到仓库的证据。
 [仓库](https://github.com/pkppkqbobs/kaoyan-english-trainer) · [每日8题](https://pkppkqbobs.github.io/kaoyan-english-trainer/today.html) · [文章复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-review.html) · [历史复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html)
 
 ## 接续规则
@@ -13,7 +13,7 @@
 ## 已核验网页进度
 
 最近已接受的完整daily：题单日期2026-11-09，[Issue #43](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/43)，7/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-11-09；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
+当前题单日期：2026-11-10；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 当前文章专项：发布日期2026-11-09，对应学习日期2026-11-09；题单已发布不等于已经作答。
@@ -37,7 +37,7 @@
 - 修饰关系与熟词搭配（phrasal-verb-illness、effect-source-target）：用户明确将第8题列为做错后仍不理解的题；come down with这一固定动词短语未识别。原始错误选项及改选过程未知。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（inference-boundary、title-coverage）：用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终… 网页错误数/streak单列于JSON。
 - Part B 标题匹配与篇章衔接（heading-global-allocation、heading-core-function）：用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第… 网页错误数/streak单列于JSON。
-- 主语—动作—对象与政策条件（policy-enforcement-roles、logic）：用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。 网页错误数/streak单列于JSON。
+- 主语—动作—对象与政策条件（policy-enforcement-roles、parallel-governance）：用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（author-stance、attribution-stance）：用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。 网页错误数/streak单列于JSON。
 
 ## 待确认

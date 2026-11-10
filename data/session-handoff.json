@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "source_dates": {
-    "review_state": "2026-11-09",
-    "daily_quiz": "2026-11-09",
+    "review_state": "2026-11-10",
+    "daily_quiz": "2026-11-10",
     "latest_observation": "2026-11-09"
   },
   "project": {
@@ -14,9 +14,9 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-11-09",
-    "current_daily_issue": 43,
-    "current_daily_status": "verified",
+    "current_daily_date": "2026-11-10",
+    "current_daily_issue": null,
+    "current_daily_status": "unverified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
@@ -741,7 +741,7 @@
           "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-09",
+          "due": "2026-11-10",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-08",
@@ -765,7 +765,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-09",
+          "due": "2026-11-10",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-06",
@@ -807,7 +807,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-09",
+          "due": "2026-11-10",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-02",
@@ -817,21 +817,17 @@
           }
         },
         {
-          "family": "logic",
-          "label": "上限与必须达到的时长",
-          "focus": "用户明确确认第13题选A（whereas），标准答案为B（until）；用户把whereas误解成尽管，并把up to a year理解为必须住满一年。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-01",
-          "web_errors": 0,
-          "web_streak": 0,
+          "family": "parallel-governance",
+          "label": "共同动词支配",
+          "focus": "网页到期且仍有错误或慢答信号，需跨语境复查。",
+          "paper_kind": null,
+          "latest_observation": "2026-11-08",
+          "web_errors": 4,
+          "web_streak": 1,
           "slow_or_uncertain": true,
-          "due": "2026-11-06",
+          "due": "2026-11-10",
           "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "logic",
-            "question": 13,
-            "note_fingerprint": "7182df62d67df36e"
+            "path": "data/review-state.json"
           }
         }
       ]
@@ -867,7 +863,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-09",
+          "due": "2026-11-10",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-03",
@@ -1125,7 +1121,7 @@
     "data/article-sessions/2026-11-08-2017-text1.json": "bda0617ab897ef3201a8887154ba62c06d61d4c9beaea1b8de12705623fd3d0f",
     "data/article-sessions/2026-11-09-2017-text2.json": "a90932aadfe567908f358ab8c5a817ddaf1752dfffe812905c0753a915bf99e3",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "90424a0063a881a50ca87e3c24eadd31f0fc9e74ac2f839b1df72b94b0d62e19",
+    "data/daily.json": "2009be9df11b9a72ddc5c1f05c07344cd018448c49a43fa1b606c63a38804b29",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1168,6 +1164,7 @@
     "data/days/2026-11-07.json": "08efd1c5f1940d52c8c9f6d221880c9562af45f966cded1b31aee0e4ee4f11dc",
     "data/days/2026-11-08.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
     "data/days/2026-11-09.json": "90424a0063a881a50ca87e3c24eadd31f0fc9e74ac2f839b1df72b94b0d62e19",
+    "data/days/2026-11-10.json": "2009be9df11b9a72ddc5c1f05c07344cd018448c49a43fa1b606c63a38804b29",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
     "data/learning-notes.json": "31d740f5ea2e864068abc494a9a8ad1934b3b90b0ca94359c3aac5ed92e70a2e",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
@@ -1213,7 +1210,7 @@
     "data/questions/2026-11-09-2017-text2-migration.json": "296b3c2cd10c6cfe1830c3bf8e4256cdf18fd3603aa3f3648d68f9e4e2776618",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "269a9580e1887be482af9ec1a81de6ffbedc5c8d162fd80431b0c905cd15ca34",
-    "data/review-state.json": "50d42b8275bdd2688decd3fee87e5b8149569ba19e64e661b1dcc6520bab6094",
+    "data/review-state.json": "6e32d5e98dd229fd121afd6bc771d188198d3b4f7506e9e76d4251265f55e6d9",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1221,7 +1218,7 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "5a2c07398d22cb77775235b7b0adcc1e33785df3d4c18c0fc7b58e015e1788e1"
   },
-  "source_fingerprint": "536d9aa4d91416ae49e5ecb24077daaf2425b7a48656075c3a510e93df171a20",
+  "source_fingerprint": "71c485a69620867f1731b5d93eccd222a10a58e5cb4b0d872a7c6b8e8cbc33cb",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
