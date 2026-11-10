@@ -3570,6 +3570,94 @@
       "qid": "text2-speakers-transit-tax",
       "round_id": "mw997mx6-8ksrn7w4",
       "source_date": "2026-11-09"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "verb-effect-share",
+      "ok": false,
+      "ms": 21600,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "cl17-serve-warning",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 11950,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "parallel-governance-inspection-tasks",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "even",
+      "ok": true,
+      "ms": 10069,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "ever-tent-question",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "cloze-big-picture",
+      "ok": false,
+      "ms": 91206,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "cloze-overview-rainfall-a",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "belief-negation-clause",
+      "ok": true,
+      "ms": 23753,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "belief-negation-software-update-b",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "nested",
+      "ok": true,
+      "ms": 128089,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "cloze-whatever-equipment-workshop-o",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "summary-location",
+      "ok": false,
+      "ms": 58730,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "summary-current-and-follow-up",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-10",
+      "family": "phrasal-verb-illness",
+      "ok": true,
+      "ms": 26451,
+      "uncertain": false,
+      "origin": 44,
+      "qid": "cl17-illness-understudy",
+      "round_id": "mwaetueo-jncvtucx",
+      "source_date": "2026-11-10"
     }
   ],
   "issues": [
@@ -3615,6 +3703,7 @@
     40,
     41,
     42,
-    43
+    43,
+    44
   ]
 }
