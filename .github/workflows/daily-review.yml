@@ -2,8 +2,11 @@ name: Daily review state
 
 on:
   schedule:
-    # UTC 00:17 = Asia/Shanghai 08:17. GitHub schedules are best-effort.
+    # UTC 00:17 main; 01:43 and 03:27 provide recovery opportunities.
+    # All runs use the same locked daily quiz. GitHub schedules are best-effort.
     - cron: '17 0 * * *'
+    - cron: '43 1 * * *'
+    - cron: '27 3 * * *'
   workflow_dispatch:
   push:
     branches: [main]

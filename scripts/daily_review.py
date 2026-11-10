@@ -485,6 +485,16 @@ def note_priority(note):
     return NOTE_PRIORITIES.get(note.get("kind"), 2)
 
 
+def observation_dates(note, day):
+    """Keep the learning event separate from when its evidence became available."""
+    stamp = day.isoformat()
+    clarified = note.get("clarified_on", note["date"])
+    # A later clarification cannot change an earlier as-of calculation.
+    learned = max(note["date"], clarified if clarified <= stamp else note["date"])
+    received = max(learned, note.get("received_on", learned))
+    return learned, received
+
+
 def make_stats(items, rows, notes, day):
     result = {}
     for family in sorted({q["family"] for q in items}):
@@ -510,8 +520,9 @@ def make_stats(items, rows, notes, day):
             if known_day or not ok or day_slow:
                 last = stamp
         # Chat observations are evidence of confusion, not fictitious scored attempts.
-        family_notes = [n for n in notes if n["family"] == family and n["date"] <= day.isoformat()]
-        latest_note = max((n["date"] for n in family_notes), default=None)
+        family_notes = [n for n in notes if n["family"] == family
+                        and observation_dates(n, day)[1] <= day.isoformat()]
+        latest_note = max((observation_dates(n, day)[0] for n in family_notes), default=None)
         clear_days = 0
         if latest_note:
             for stamp in sorted(per_day):
@@ -528,6 +539,10 @@ def make_stats(items, rows, notes, day):
         active_notes = bool(family_notes and clear_days < 2)
         if active_notes:
             streak = 0
+        elif family_notes:
+            # Once the new difficulty clears, old successes from before it must
+            # not immediately restore an obsolete long maintenance interval.
+            streak = min(streak, clear_days)
         interval = [1, 2, 4, 7, 14, 21][min(streak, 5)]
         due = (date.fromisoformat(last) + timedelta(days=interval)).isoformat() if last else day.isoformat()
         if active_notes:
@@ -573,8 +588,7 @@ def pending_observation_reviews(items, stats, notes, rows, history, day):
         if (priority < 2 or f not in available_since
                 or not stats[f]["reported_confusion"]):
             continue
-        learned_on = max(note["date"], note.get("clarified_on", note["date"]))
-        observed_on = max(learned_on, note.get("received_on", learned_on))
+        learned_on, observed_on = observation_dates(note, day)
         if observed_on > stamp:
             continue
         # Same-day ordering is unknown. Do not assume the morning daily came

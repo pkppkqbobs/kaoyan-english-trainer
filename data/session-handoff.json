@@ -1273,7 +1273,7 @@
     "data/questions/2026-11-10-2017-text3-migration.json": "18702d6254a2c7a6ed82721b985217f1f4474118855492656332fbfb2b44d001",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "55b722ea011b122fb1cbd8777f093fc129265517d6706bc66fe9c67dffa68df6",
-    "data/review-state.json": "7b88417e258edaeee14e1b26577f0da95556903d83ce7a5b07478cc961d944a9",
+    "data/review-state.json": "4342ac60be46f3785b27317809bad010486cd70251ca1c22790f34ced8513b72",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1281,7 +1281,7 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "0e75a4a6c6f2d8362646861f19d6995c7fc5e85e978c5c4f130f34467c45f709"
   },
-  "source_fingerprint": "e0732c3009719d8a56afdf5292c09bfa9cf49e31a4c98112865f7ba917fdf887",
+  "source_fingerprint": "1baf63f836de16d273334e2ff4b8d89783667e1082bcd97011f1844b07552372",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

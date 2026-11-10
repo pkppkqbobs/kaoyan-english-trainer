@@ -1,5 +1,7 @@
 # 题库覆盖与重复曝光维护
 
+最新机器快照已于2026-11-10重跑：当前daily/article池410题、124个可调度family，完整Part B 6套。详见[本轮系统核验](SYSTEM_AUDIT_2026-11-10.md)和[data/question-bank-audit.json](data/question-bank-audit.json)。下文2026-10-05、10-15是对应日期的维护历史，不代表当前题库规模。
+
 2026-10-05审计覆盖：daily/article源BANK、首页53题、旧独立词汇页11题、
 自动化前归档8主测/8retry，以及六套完整Part B。生成HTML、latest别名和retry候选池
 不重复算成独立变体。原始Issues只读取，旧成绩与题单不改写。

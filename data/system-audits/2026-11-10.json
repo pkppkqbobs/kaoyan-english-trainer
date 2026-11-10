@@ -1,0 +1,351 @@
+{
+  "audit_date": "2026-11-10",
+  "source_baseline_commit": "3c1ab3f17725a437b594c166a7a0e549fc8bf58b",
+  "is_scoring_evidence": false,
+  "python_tests": 206,
+  "new_regression_tests": 7,
+  "node_ui_passed": true,
+  "partb_permutations_tested": 720,
+  "source_questions": 410,
+  "scheduled_families": 124,
+  "learning_notes": 200,
+  "exact_duplicate_notes": 0,
+  "accepted_issues": 44,
+  "active_evidence_rows": 347,
+  "excluded_original_rows": 3,
+  "partb_real_submissions": 0,
+  "daily_snapshots": 43,
+  "article_snapshots": 42,
+  "full_partb_sets": 6,
+  "local_links_checked": 145,
+  "broken_local_links": 0,
+  "protected_existing_files_identical": 273,
+  "real_issue_replays": 2,
+  "article_review_gaps": 0,
+  "latest_article": "2026-11-10-2017-text3",
+  "daily_date": "2026-11-10",
+  "recent_paper_evidence_checks": [
+    "2017 Text 1 reference dispute preserved",
+    "2017 Text 2 final picks unknown; Q27 valid reasoning preserved",
+    "2017 Text 3 self-reported 5/5 and understood main idea; 5 boxes separate from active questions"
+  ],
+  "derived_review_corrections": {
+    "career-evidence": {
+      "streak_before": 4,
+      "streak_after": 3,
+      "due_before": "2026-11-11",
+      "due_after": "2026-11-04"
+    },
+    "recruitment-vocab": {
+      "streak_before": 4,
+      "streak_after": 3,
+      "due_before": "2026-11-09",
+      "due_after": "2026-11-02"
+    },
+    "title-specificity": {
+      "streak_before": 4,
+      "streak_after": 3,
+      "due_before": "2026-11-12",
+      "due_after": "2026-11-05"
+    }
+  },
+  "snapshot_grades_changed": false,
+  "future_selection_check": {
+    "frozen_results_as_of": "2026-11-10",
+    "simulated_offer_days": 14,
+    "pending_first_review_targets": 22,
+    "unserved_after_14_days": [],
+    "future_scores_created": 0,
+    "future_snapshot_files_created": 0,
+    "opportunities": [
+      {
+        "date": "2026-11-11",
+        "families": [
+          "cloze-conditional-contrast",
+          "historical-reminder-evidence",
+          "inference-boundary",
+          "nested",
+          "paragraph-order-discourse",
+          "shed-shelter-shade",
+          "summary-location",
+          "title-coverage"
+        ],
+        "first_offers": [
+          "cloze-conditional-contrast",
+          "historical-reminder-evidence",
+          "inference-boundary",
+          "shed-shelter-shade"
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "families": [
+          "astronomy-word-family",
+          "budding-stage",
+          "cloze-baseline-necessary",
+          "nested",
+          "paragraph-order-discourse",
+          "phrasal-verb-illness",
+          "shed-light-direction",
+          "summary-location"
+        ],
+        "first_offers": [
+          "astronomy-word-family",
+          "budding-stage",
+          "cloze-baseline-necessary",
+          "shed-light-direction"
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "families": [
+          "cloze-big-picture",
+          "cloze-score-marked",
+          "criteria-number",
+          "figurative-descent-relative",
+          "nested",
+          "paragraph-order-discourse",
+          "sharp-hit-impact",
+          "summary-location"
+        ],
+        "first_offers": [
+          "cloze-score-marked",
+          "figurative-descent-relative"
+        ]
+      },
+      {
+        "date": "2026-11-14",
+        "families": [
+          "author-stance",
+          "crack-polysemy",
+          "dnt-actor-boundary",
+          "faint",
+          "nested",
+          "paragraph-order-discourse",
+          "process-stage-role",
+          "summary-location"
+        ],
+        "first_offers": [
+          "author-stance",
+          "crack-polysemy",
+          "dnt-actor-boundary"
+        ]
+      },
+      {
+        "date": "2026-11-15",
+        "families": [
+          "causal-role-direction",
+          "conditions",
+          "familiar-word-polysemy",
+          "nested",
+          "paragraph-order-discourse",
+          "social-message-inference",
+          "summary-location",
+          "text3-willfully"
+        ],
+        "first_offers": [
+          "conditions",
+          "familiar-word-polysemy",
+          "text3-willfully"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "families": [
+          "directness-modifier",
+          "inference-boundary",
+          "nested",
+          "paragraph-order-discourse",
+          "relation-collocation",
+          "summary-location",
+          "test-object-scope",
+          "unpretentious"
+        ],
+        "first_offers": [
+          "relation-collocation",
+          "test-object-scope"
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "families": [
+          "evaluation-vocab",
+          "logic",
+          "modal-stage",
+          "nested",
+          "paragraph-order-anaphora",
+          "reference",
+          "summary-location",
+          "with"
+        ],
+        "first_offers": [
+          "evaluation-vocab",
+          "modal-stage"
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "families": [
+          "cloze-time-adverbs",
+          "nested",
+          "paragraph-order-discourse",
+          "policy-enforcement-roles",
+          "process-stage-role",
+          "social-cure-vocab",
+          "summary-location",
+          "title-coverage"
+        ],
+        "first_offers": [
+          "policy-enforcement-roles",
+          "social-cure-vocab"
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "families": [
+          "belief-negation-clause",
+          "conceivably",
+          "example-claim-scope",
+          "nested",
+          "paragraph-order-discourse",
+          "relative",
+          "summary-location",
+          "title-coverage"
+        ],
+        "first_offers": []
+      },
+      {
+        "date": "2026-11-20",
+        "families": [
+          "author-stance",
+          "cloze-applicant-outcome",
+          "cloze-big-picture",
+          "nested",
+          "phrasal-verb-illness",
+          "relative",
+          "subject",
+          "summary-location"
+        ],
+        "first_offers": []
+      },
+      {
+        "date": "2026-11-21",
+        "families": [
+          "belief-negation-clause",
+          "nested",
+          "phrasal-verb-illness",
+          "reference",
+          "summary-location",
+          "text4-federal-state-boundary",
+          "verb-effect-share",
+          "with"
+        ],
+        "first_offers": []
+      },
+      {
+        "date": "2026-11-22",
+        "families": [
+          "cling-climb",
+          "cloze-big-picture",
+          "effect-source-target",
+          "nested",
+          "paragraph-order-discourse",
+          "process-stage-role",
+          "summary-location",
+          "with"
+        ],
+        "first_offers": []
+      },
+      {
+        "date": "2026-11-23",
+        "families": [
+          "example-claim-scope",
+          "familiar-word-polysemy",
+          "nested",
+          "paragraph-order-discourse",
+          "point",
+          "relative",
+          "summary-location",
+          "title-coverage"
+        ],
+        "first_offers": []
+      },
+      {
+        "date": "2026-11-24",
+        "families": [
+          "author-stance",
+          "nested",
+          "parallel-governance",
+          "phrasal-verb-illness",
+          "relative",
+          "summary-location",
+          "text4-historical-inference",
+          "title-coverage"
+        ],
+        "first_offers": []
+      }
+    ]
+  },
+  "browser_checks": {
+    "viewports": [
+      {
+        "label": "desktop",
+        "viewport": {
+          "width": 1280,
+          "height": 1000
+        },
+        "dailyRefreshPreservesFirstAnswer": true,
+        "articleRefreshPreservesFirstAnswer": true,
+        "partbPartialRefresh": true,
+        "storagePrefixesIsolated": true,
+        "archivedUnderline": {
+          "text": "whatever documents the applicant submits before Friday",
+          "decoration": "underline",
+          "thickness": "2px",
+          "visible": true
+        },
+        "cachedBDOrderPreserved": true,
+        "noHorizontalOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "label": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "dailyRefreshPreservesFirstAnswer": true,
+        "articleRefreshPreservesFirstAnswer": true,
+        "partbPartialRefresh": true,
+        "storagePrefixesIsolated": true,
+        "archivedUnderline": {
+          "text": "whatever documents the applicant submits before Friday",
+          "decoration": "underline",
+          "thickness": "2px",
+          "visible": true
+        },
+        "cachedBDOrderPreserved": true,
+        "noHorizontalOverflow": true,
+        "pageErrors": []
+      }
+    ],
+    "externalWrites": 0,
+    "browser": "138.0.7204.0"
+  },
+  "current_length_cue_flags": 0,
+  "legacy_fixed_length_cue_flags": 3,
+  "unmapped_low_priority_observations": [
+    "kitten-killing"
+  ],
+  "scheduled_cron_utc": [
+    "17 0 * * *",
+    "43 1 * * *",
+    "27 3 * * *"
+  ],
+  "limitations": [
+    "2014 paper references still lack independent source-check; existing warning retained",
+    "No real complete Part B submission is present; grading and storage validated with isolated fixtures",
+    "Historical fixed vocabulary pages retain three known length cues and are outside the current daily/article pool",
+    "Scheduled GitHub events remain best-effort; extra opportunities do not guarantee on-time execution"
+  ]
+}
