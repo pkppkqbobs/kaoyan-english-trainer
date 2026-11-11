@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "source_dates": {
-    "review_state": "2026-11-10",
-    "daily_quiz": "2026-11-10",
+    "review_state": "2026-11-11",
+    "daily_quiz": "2026-11-11",
     "latest_observation": "2026-11-10"
   },
   "project": {
@@ -14,9 +14,9 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-11-10",
-    "current_daily_issue": 44,
-    "current_daily_status": "verified",
+    "current_daily_date": "2026-11-11",
+    "current_daily_issue": null,
+    "current_daily_status": "unverified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
@@ -736,7 +736,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-10",
+          "due": "2026-11-11",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-10",
@@ -754,7 +754,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-10",
+          "due": "2026-11-11",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-10",
@@ -862,7 +862,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-10",
+          "due": "2026-11-11",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-02",
@@ -1183,7 +1183,7 @@
     "data/article-sessions/2026-11-09-2017-text2.json": "a90932aadfe567908f358ab8c5a817ddaf1752dfffe812905c0753a915bf99e3",
     "data/article-sessions/2026-11-10-2017-text3.json": "602f8f634c8e2fdb06f003e427a23370aa27c0b82b45834ea7219a0ee2711528",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "6ea63a6e2edf00076158494e2a0b346807956c53da7d1366bd8d24463f3caf2c",
+    "data/daily.json": "74755c9ec051e0929d782846a0f9a827d0e519e373c459890ca980055fcaa40e",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1227,6 +1227,7 @@
     "data/days/2026-11-08.json": "933e057d33b27753173afdcf4bc0de6a104a6416b03442f449bcc707704ff52f",
     "data/days/2026-11-09.json": "90424a0063a881a50ca87e3c24eadd31f0fc9e74ac2f839b1df72b94b0d62e19",
     "data/days/2026-11-10.json": "6ea63a6e2edf00076158494e2a0b346807956c53da7d1366bd8d24463f3caf2c",
+    "data/days/2026-11-11.json": "74755c9ec051e0929d782846a0f9a827d0e519e373c459890ca980055fcaa40e",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
     "data/learning-notes.json": "1265353add1fe1d48f5068782c8968f1ee5abd9d2782641274fefc4edeb08761",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
@@ -1273,7 +1274,7 @@
     "data/questions/2026-11-10-2017-text3-migration.json": "18702d6254a2c7a6ed82721b985217f1f4474118855492656332fbfb2b44d001",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "55b722ea011b122fb1cbd8777f093fc129265517d6706bc66fe9c67dffa68df6",
-    "data/review-state.json": "4342ac60be46f3785b27317809bad010486cd70251ca1c22790f34ced8513b72",
+    "data/review-state.json": "51924f2d8a3bfd7023e4deaa4bae055e06d476c5f5cb494cdcd486c99249531b",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1281,7 +1282,7 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "0e75a4a6c6f2d8362646861f19d6995c7fc5e85e978c5c4f130f34467c45f709"
   },
-  "source_fingerprint": "1baf63f836de16d273334e2ff4b8d89783667e1082bcd97011f1844b07552372",
+  "source_fingerprint": "30f4594d4faf4eb8568123da8e692c2d4206c67f345fdce480a71d2a6f04ddfa",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
