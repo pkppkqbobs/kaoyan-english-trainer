@@ -3658,6 +3658,94 @@
       "qid": "cl17-illness-understudy",
       "round_id": "mwaetueo-jncvtucx",
       "source_date": "2026-11-10"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "cloze-conditional-contrast",
+      "ok": true,
+      "ms": 39176,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "cloze-contrast-review-b",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 47022,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "t17t2-cause-rain-garden",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 41485,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "paragraph-discourse-ticket-deposits",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 30832,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "summary-trials-next-question",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "shed-shelter-shade",
+      "ok": true,
+      "ms": 76948,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "r17t3-shelter-station",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 131784,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "t17-title-crop-diversity",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "nested",
+      "ok": false,
+      "ms": 47234,
+      "uncertain": false,
+      "origin": 45,
+      "qid": "cloze-whatever-documents-registrar-p",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-11",
+      "family": "historical-reminder-evidence",
+      "ok": true,
+      "ms": 121248,
+      "uncertain": true,
+      "origin": 45,
+      "qid": "t17t2-history-lease",
+      "round_id": "mwc3us6v-fefagaij",
+      "source_date": "2026-11-11"
     }
   ],
   "issues": [
@@ -3704,6 +3792,7 @@
     41,
     42,
     43,
-    44
+    44,
+    45
   ]
 }

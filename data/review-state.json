@@ -44,7 +44,8 @@
     41,
     42,
     43,
-    44
+    44,
+    45
   ],
   "families": {
     "absolute-language": {
@@ -250,11 +251,11 @@
     "cloze-conditional-contrast": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-11",
       "due": "2026-11-11",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "cloze-legal-stance": {
@@ -580,11 +581,11 @@
     "historical-reminder-evidence": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-11",
       "due": "2026-11-11",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "hostage-hijack": {
@@ -620,11 +621,11 @@
     "inference-boundary": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-11-02",
-      "due": "2026-11-03",
+      "last": "2026-11-11",
+      "due": "2026-11-11",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 3
     },
     "infuriating-vocab": {
@@ -699,12 +700,12 @@
     },
     "nested": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-11-10",
+      "errors": 3,
+      "last": "2026-11-11",
       "due": "2026-11-11",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 17,
+      "observed_days": 18,
       "observation_priority": 2
     },
     "paragraph-order-anaphora": {
@@ -720,11 +721,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-06",
-      "due": "2026-11-07",
+      "last": "2026-11-11",
+      "due": "2026-11-11",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 11,
+      "observed_days": 12,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -980,11 +981,11 @@
     "shed-shelter-shade": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-11",
       "due": "2026-11-11",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "social-cure-vocab": {
@@ -1038,13 +1039,13 @@
       "observation_priority": 0
     },
     "summary-location": {
-      "streak": 0,
+      "streak": 1,
       "errors": 5,
-      "last": "2026-11-10",
-      "due": "2026-11-11",
+      "last": "2026-11-11",
+      "due": "2026-11-13",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 18,
+      "observed_days": 19,
       "observation_priority": 0
     },
     "susceptibility-vocab": {
@@ -1180,11 +1181,11 @@
     "title-coverage": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-09",
-      "due": "2026-11-10",
+      "last": "2026-11-11",
+      "due": "2026-11-11",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 3
     },
     "title-specificity": {
