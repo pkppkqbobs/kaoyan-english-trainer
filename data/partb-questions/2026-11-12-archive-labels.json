@@ -1,0 +1,183 @@
+[
+  {
+    "id": "pb-archive-labels-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-11-12",
+    "title": "旧照片的地点标签：谁说的，凭什么确认？",
+    "topic": "文化档案、公众记忆与证据边界",
+    "overview": "原创七段排序；注意重复主题词不能替代指代对象、论证关系和全局位置。提交前不展示标准顺序。",
+    "budget": 420,
+    "paragraphs": [
+      {
+        "id": "A",
+        "text": "Counting supporters could not distinguish those two squares: a popular name might simply have been repeated by people who had never seen the site. The archive needed to separate preserving a recollection from accepting its conclusion. Staff designed different requirements for keeping a contribution and presenting a place name as established information."
+      },
+      {
+        "id": "B",
+        "text": "Permission to publish a name as established information required more than a complete entry record. Editors looked for details that could be checked against independent maps or dated photographs, not merely additional votes. When that evidence was missing, the public catalogue displayed the name as a proposal and retained the alternatives."
+      },
+      {
+        "id": "C",
+        "text": "A retired shopkeeper supplied the first convincing identification, locating a bakery by a drain visible beside its doorway. A street plan confirmed that the drain occupied exactly that position. Such a small detail seemed to show how personal recollection could fill a gap in the official record."
+      },
+      {
+        "id": "D",
+        "text": "For a contribution to enter the working file, staff recorded its author, the image it referred to and the reason offered for the identification. Competing accounts remained attached to the same image rather than replacing one another. A record could meet all these requirements while its central claim was still unsupported."
+      },
+      {
+        "id": "E",
+        "text": "An online archive invited residents to identify places in photographs whose original captions had been lost. Staff hoped that memories held outside the institution would make the collection easier to search. Opening the catalogue to contributions looked like a practical way to recover information that no official register had preserved."
+      },
+      {
+        "id": "F",
+        "text": "Residents could therefore enrich the collection without being treated as final authorities on every disputed place. Keeping testimony and checking claims served different purposes, and neither made the other unnecessary. An accessible archive depended on allowing contributions to accumulate while making clear how much confidence each identification deserved."
+      },
+      {
+        "id": "G",
+        "text": "The same kind of detail could also mislead. Two contributors confidently described the market steps in another photograph, but an editor discovered that each meant a different square, both locally known by that name. Agreement on the wording concealed disagreement about the place it was supposed to identify."
+      }
+    ],
+    "expectedOrder": [
+      "E",
+      "C",
+      "G",
+      "A",
+      "D",
+      "B",
+      "F"
+    ],
+    "links": [
+      {
+        "from": "E",
+        "to": "C",
+        "signals": [
+          "example",
+          "general-to-specific"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "E提出开放征集以补信息缺口；C给出首个可核验的贡献实例。不是见archive或record重复就能相接，C须承担所提方法的例证角色。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "C的first convincing identification落实E的邀请辨认地点，并以地图确认说明为什么令人信服。"
+          }
+        ]
+      },
+      {
+        "from": "C",
+        "to": "G",
+        "signals": [
+          "contrast",
+          "anaphora"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "C的排水沟细节得到独立确认；G回收same kind of detail，却揭示细节和同名不能排除地点冲突。先有可信实例，后反转其可泛化程度。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "same kind of detail回指C以具体街景佐证认定，could also mislead转向相反结果。"
+          }
+        ]
+      },
+      {
+        "from": "G",
+        "to": "A",
+        "signals": [
+          "anaphora",
+          "problem-to-reason"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "G明确存在两个同名广场；A的those two squares指它们，并解释为什么多数票不能解决这种歧义。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "those two squares依赖G刚区分的两个地点，不回指两个贡献者或一张照片。"
+          }
+        ]
+      },
+      {
+        "from": "A",
+        "to": "D",
+        "signals": [
+          "general-to-specific",
+          "paragraph-end-hook"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "A提出记录贡献与公开确认的两套要求，D先具体定义收录要求。D结尾承认记录完整仍可能缺证，为下一步更严格的公开确认留下问题。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "A的keeping a contribution先由D的enter the working file及作者、图像、理由三项落实。"
+          },
+          {
+            "level": "support",
+            "text": "不能只凭requirements重复锁顺序，还须核对先收录、再审查公开结论的阶段。"
+          }
+        ]
+      },
+      {
+        "from": "D",
+        "to": "B",
+        "signals": [
+          "contrast",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "D末尾指出完整记录仍不保证主张成立；B在此基础上增加独立证据这一公开确认门槛。二者是不同阶段的推进，不能因都讲记录就判为可任意交换的并列。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "B的more than a complete entry record承接D刚定义的完整记录及其仍可能unsupported的限制。"
+          }
+        ]
+      },
+      {
+        "from": "B",
+        "to": "F",
+        "signals": [
+          "conclusion",
+          "synonym-chain"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "B给出未证实主张仍可作为提议展示的办法；F统合参与价值和证据边界，说明保留证词与核查主张各有作用，完成全篇而非另起个案。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "F同时概括E/C的参与价值、G/A的争议和D/B的分层处理，结尾回应开放目录如何保持可信。"
+          }
+        ]
+      }
+    ],
+    "globalLogic": "E独立引入开放辨认项目；C用可核实细节证明价值；G反转细节与同名的一致性；A由两个地点的冲突提出记录/确认分离；D先定义收录要求并点明完整不等于成立；B再规定公开确认所需证据并保留未决提议；F整合参与和核验。G→A与D→B先锁锚点，再用前例/反例及总分关系确定全局，不能把C的成功例证放在分层制度之后倒叙。",
+    "themeTrap": "每段都可能出现image、record、name或identification；这些词的复现不证明相邻。尤其C/G同谈具体细节但功能相反；D/B分别是收录与确认而非两套可任意交换的方法。F虽谈collection，仍是多层关系已展开后的收束，不宜开头。",
+    "mechanism_source": {
+      "exam": "2017-english1",
+      "source_check": "data/source-checks/2017-english1.json",
+      "pairs": [
+        "D>F",
+        "F>E",
+        "E>A",
+        "A>C",
+        "C>B",
+        "B>G"
+      ]
+    },
+    "training_rationale": {
+      "paper_session": "2026-11-12-2017-partb",
+      "positive_evidence": "2017显性首尾连接和时间线排序5/5；本题不是其错题复刻。",
+      "historical_weakness_sources": [
+        "2011-english1 Part B",
+        "2012-english1 Part B",
+        "2013-english1 Part B",
+        "2014-english1 Part B"
+      ],
+      "new_challenge": "从生平时间线迁移到例证/反例、指代、记录/确认阶段和总结的位置；不以答对本篇声称这些能力已掌握。"
+    }
+  }
+]

@@ -187,12 +187,27 @@ def paper_summary(notes, sessions, checks):
                                   n['question'] or 0, n['family']))
         spans = sorted({short(s, 42) for n in entries if n['kind'] == 'translation_difficulty'
                         for s in n.get('source_spans', [])})
-        stages.append({'date': max(updated(n) for n in entries), 'exam': exam, 'part': part,
+        stage = {'date': max(updated(n) for n in entries), 'exam': exam, 'part': part,
                        'items': items[:4], 'boxed_spans': spans[:10],
                        'translation_note_count': len([n for n in entries if n['kind'] == 'translation_difficulty']),
                        'translation_source': next((source_ref(n) for n in ordered if n['kind'] == 'translation_difficulty'), None),
                        'article_session_files': sorted({sessions[n['session_id']] for n in entries
-                                                        if n.get('session_id') in sessions})})
+                                                        if n.get('session_id') in sessions})}
+        # Positive paper feedback may accompany only vocabulary notes. Preserve
+        # the explicit report without inventing a difficulty kind or web score.
+        outcomes = {fingerprint(n['paper_outcome']): n for n in entries
+                    if isinstance(n.get('paper_outcome'), dict)}
+        if len(outcomes) == 1:
+            note = next(iter(outcomes.values()))
+            outcome = note['paper_outcome']
+            correct, total = outcome.get('reported_correct_count'), outcome.get('reported_total')
+            if (outcome.get('not_a_web_score') is True and type(correct) is int and
+                    type(total) is int and 0 <= correct <= total and total > 0):
+                stage['reported_paper_outcome'] = outcome
+                stage['performance_source'] = source_ref(note)
+                if isinstance(note.get('ordering_strategy'), dict):
+                    stage['ordering_strategy'] = note['ordering_strategy']
+        stages.append(stage)
     return sorted(stages, key=lambda s: (s['date'], s['exam'], s['part']), reverse=True)[:5]
 
 
@@ -516,6 +531,16 @@ def markdown(report):
     lines.extend(['', '## 最近纸质学习阶段', ''])
     for stage in report['recent_paper']:
         details = []
+        outcome = stage.get('reported_paper_outcome')
+        if outcome:
+            details.append(f"纸质自述{outcome['reported_correct_count']}/{outcome['reported_total']}（不计网页成绩）。")
+            order = outcome.get('reported_full_order')
+            if isinstance(order, list) and order and all(p in tuple('ABCDEFG') for p in order):
+                details.append('完整顺序：' + '→'.join(order) + '。')
+            strategy = stage.get('ordering_strategy', {})
+            for key in ('summary', 'generalization_limit'):
+                if strategy.get(key):
+                    details.append(safe(short(strategy[key], 180)))
         for item in stage['items'][:2]:
             question = f"Q{item['question']}" if item['question'] is not None else '/'.join('Q' + str(n) for n in item['related_questions']) or item['family']
             choice = item['final_choice'] or ('最终选项未确认' if item['final_choice_status'] != 'not_applicable' else '词句观察')

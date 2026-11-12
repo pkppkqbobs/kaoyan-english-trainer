@@ -1,0 +1,302 @@
+[
+  {
+    "id": "pb17-moralist-public-duty",
+    "family": "moralist-role",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "moralist：道德倡导者的角色",
+    "skill": "moralist：道德倡导者的角色",
+    "q": "During a debate about lost property, Leena keeps asking what people owe to strangers. A colleague calls her a moralist. Which activity best fits that description?",
+    "o": [
+      "Measuring how often residents misplace their own belongings.",
+      "Urging residents to judge their conduct by ethical duties.",
+      "Identifying which strangers legally own the lost objects.",
+      "Describing how surprise changes a stranger's emotions."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "讨论失物时，莉娜不断追问人们对陌生人负有什么责任；同事称她为moralist。哪种活动符合这一描述？",
+      "structure": "what people owe to strangers是asking的宾语；moralist指人，核心是对正确行为的评价或倡导。",
+      "other": "owe负有义务；conduct行为；ethical伦理的。",
+      "meaning": "根据责任与行为是非识别道德倡导者，不能只把moralist看成泛指善良的人。",
+      "rest": "Measuring只统计失物；Identifying...legally确定财产权属；Describing...emotions描写情绪，都未体现倡导伦理行为。"
+    }
+  },
+  {
+    "id": "pb17-moralist-inference",
+    "family": "moralist-role",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "moralist：描述言论不认证人格",
+    "skill": "moralist：描述言论不认证人格",
+    "q": "A review calls the speakers moralists because they urge businesses to put fairness before convenience. What does that description establish?",
+    "o": [
+      "Their private conduct always meets the highest standards.",
+      "Their professional duties include enforcing criminal law.",
+      "Their discussion avoids judging whether conduct is right.",
+      "Their arguments promote a standard of right behaviour."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "评论称这些演讲者是道德倡导者，因为他们要求企业先考虑公平、再考虑方便。这个称呼能确定什么？",
+      "structure": "because从句给出被如此称呼的依据：urge...to...是在倡导价值标准；不是对全部私人行为作认证。",
+      "other": "fairness公平；convenience便利；establish确定。",
+      "meaning": "词义能够支持其言论的伦理关注，不能自动证明其个人完美或法定身份。",
+      "rest": "private conduct...always把言论立场扩大为所有行为；enforcing criminal law添加执法身份；avoids judging与要求fairness相反。"
+    }
+  },
+  {
+    "id": "pb17-panorama-work",
+    "family": "panorama-scope",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "panorama：整体覆盖",
+    "skill": "panorama：整体覆盖",
+    "q": "A radio series offers a panorama of working life, including night cleaners, home carers and business owners. Which editorial choice best supports that description?",
+    "o": [
+      "Connecting varied accounts to present a broad social view.",
+      "Repeating one owner's account as the sole relevant example.",
+      "Explaining one cleaner's route in ever smaller details.",
+      "Removing every contrast between different types of work."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "广播系列通过清洁工、照护者和企业主等提供劳动生活的全貌。哪种编辑方式符合panorama？",
+      "structure": "including列出多个社会位置，为panorama的广泛覆盖提供语境；best supports问编辑方式，不要求字面风景照片。",
+      "other": "carer照护者；editorial编辑方面的；account叙述。",
+      "meaning": "panorama可比喻多方面的整体呈现，多个不同个案要服务于广阔视野。",
+      "rest": "only relevant case和one cleaner都缩为单一个案；Removing every contrast抹掉不同工作之间的差异，不能支撑全面展示。"
+    }
+  },
+  {
+    "id": "pb17-panorama-hill",
+    "family": "panorama-scope",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "panorama：字面全景",
+    "skill": "panorama：字面全景",
+    "q": "At the hilltop, one window frames a single tower; the open terrace offers a panorama of the valley. What does panorama refer to here?",
+    "o": [
+      "A detailed drawing of the tower seen through the window.",
+      "A prediction of how the valley will develop in the future.",
+      "A wide view taking in many parts of the landscape below.",
+      "A private memory of one event that occurred in the valley."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "山顶上一扇窗只框出一座塔，露台则提供整个山谷的panorama。这里指什么？",
+      "structure": "one window...single与open terrace形成视野范围对比；of the valley指定被观看的区域。",
+      "other": "terrace露台；frame框住；landscape景观。",
+      "meaning": "字面panorama是广阔景观，和社会全貌的比喻义共享范围广这一核心。",
+      "rest": "drawing添加绘画且仍局限于单塔；prediction误成预测；private memory误成私人回忆，均不是眼前广阔视野。"
+    }
+  },
+  {
+    "id": "pb17-backdrop-negotiation",
+    "family": "backdrop-context",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "backdrop：背景条件与原因",
+    "skill": "backdrop：背景条件与原因",
+    "q": "Pay talks begin against a backdrop of rising rents. The report does not identify why the talks started. What can the backdrop phrase safely tell us?",
+    "o": [
+      "Higher rents are the only proven cause of the talks.",
+      "Rising rents form part of the setting for the talks.",
+      "The talks have already caused rents to rise faster.",
+      "A painted rent chart stands behind the negotiators."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "薪酬谈判在租金上涨背景下开始，但报道未说明谈判为何开始。这个背景短语能稳妥说明什么？",
+      "structure": "against a backdrop of引出既有一般情境；不提供only cause，也不把时间背景反转为谈判造成的后果。",
+      "other": "pay talks薪酬谈判；rent租金；setting情境。",
+      "meaning": "抽象backdrop提供理解事件的背景条件，不自动等于已经证明的唯一因果。",
+      "rest": "only proven cause夸大证据；talks...caused反转因果；painted rent chart强行采用舞台布景的字面义。"
+    }
+  },
+  {
+    "id": "pb17-backdrop-stage",
+    "family": "backdrop-context",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "backdrop：舞台背景",
+    "skill": "backdrop：舞台背景",
+    "q": "For an indoor play, a painted cloth showing snowy hills hangs behind the actors. The director changes the backdrop but keeps the costumes. What is changed?",
+    "o": [
+      "The clothing worn by the actors during the performance.",
+      "The spoken lines that explain the characters' motives.",
+      "The scenery placed behind the actors on the stage.",
+      "The audience seats nearest to the front of the stage."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "室内戏剧中，绘着雪山的布挂在演员后方。导演更换backdrop但保留服装。换了什么？",
+      "structure": "showing snowy hills修饰cloth；behind the actors确定空间位置；but keeps costumes排除服装。",
+      "other": "costume戏服；scenery布景；motive动机。",
+      "meaning": "backdrop在此是舞台背景布景；不同于事件发生的抽象背景，但二者都有承托主事件的意义。",
+      "rest": "clothing对应保留的costumes；spoken lines是台词；audience seats是观众座位，都不是演员后面的绘景布。"
+    }
+  },
+  {
+    "id": "pb17-woodcut-workshop",
+    "family": "woodcut-medium",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "woodcut：制作媒介",
+    "skill": "woodcut：制作媒介",
+    "q": "In a workshop, an artist removes parts of a wooden block, inks the raised surface and presses paper onto it. The resulting image is a woodcut. What is it?",
+    "o": [
+      "A three-dimensional figure shaped from a solid wooden log.",
+      "A coloured picture painted directly onto a wooden board.",
+      "A pencil drawing copied from the grain of a wooden plank.",
+      "A printed image made from the raised parts of carved wood."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "艺术家刻去木版的部分，在凸起表面上墨，再压上纸，得到woodcut。它是什么？",
+      "structure": "removes→inks→presses是制作过程；The resulting image指纸上印出的图像，而非原始木块。",
+      "other": "raised凸起的；ink着墨；grain木纹。",
+      "meaning": "woodcut是木刻版画；制作媒介和画面内容分开，不是所有雕木制品或木面图像都属于版画。",
+      "rest": "three-dimensional figure是立体木雕；painted directly是直接绘画；pencil drawing是铅笔画，均缺少木版着墨压印。"
+    }
+  },
+  {
+    "id": "pb17-woodcuts-catalogue",
+    "family": "woodcut-medium",
+    "introduced": "2026-11-12",
+    "published_on": "2026-11-12",
+    "budget": 50,
+    "target": "woodcuts：媒介与内容",
+    "skill": "woodcuts：媒介与内容",
+    "q": "A catalogue lists woodcuts of birds beside photographs of birds. The pictures show similar species. What distinction does the catalogue make?",
+    "o": [
+      "The two groups use different methods of making images.",
+      "Only the woodcuts can show more than one kind of bird.",
+      "The photographs must show birds made out of wood.",
+      "Only the photographs can be printed on sheets of paper."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "目录将鸟类木刻版画与鸟类照片并列，画面物种类似。目录区分的是什么？",
+      "structure": "of birds在两类图像里都表示主题；woodcuts和photographs区分媒介，不区分是否能出现鸟类或纸张。",
+      "other": "catalogue目录；species物种；method方法。",
+      "meaning": "woodcuts是woodcut的复数；同一主题能用不同媒介呈现。",
+      "rest": "more than one kind添加单一物种限制；birds made out of wood把主题误成材质；Only photographs...paper忽略木刻版画也能印在纸上。"
+    }
+  },
+  {
+    "id": "pb17-seed-label-link",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-12",
+    "budget": 60,
+    "target": "同关键词不等于篇章连接",
+    "skill": "同关键词不等于篇章连接",
+    "q": "Paragraph P: The seed collection has two packets called \"winter bean\". Records show that they came from different valleys and need different storage temperatures. Which paragraph should follow to address the problem just identified?",
+    "o": [
+      "Winter beans also appear in recipes collected from cooks.",
+      "Each packet will keep its local name plus a unique code.",
+      "The collection began when a gardener donated bean seeds.",
+      "Beans become tender when heated for a sufficient period."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "两个同名种子包来自不同山谷、需不同储温。哪段最适合接着解决刚提出的问题？",
+      "structure": "two packets called同名与different来源/条件共同制造识别风险；后段需同时保留本地名和区分身份。",
+      "other": "packet小包；storage储存；unique code唯一编码。",
+      "meaning": "主题词bean重复不足以证明相邻；唯一编码回应同名异物的具体关系。",
+      "rest": "recipes转到烹饪；collection began倒退背景；tender讨论烹煮，都没有处理同名种子识别问题。"
+    }
+  },
+  {
+    "id": "pb17-chorus-relations",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-12",
+    "budget": 60,
+    "target": "并列与递进的段落功能",
+    "skill": "并列与递进的段落功能",
+    "q": "P: Singers can practise difficult rhythms by clapping. Q: They can also hum the melody without words to check pitch. R: A rehearsal combines both exercises before restoring the lyrics. Which account of the paragraph roles is accurate?",
+    "o": [
+      "P and Q are rival results; R rejects both as unsuccessful.",
+      "P explains a failure; Q supplies its cause; R changes topic.",
+      "P and Q offer parallel methods; R combines their use.",
+      "P is a conclusion; Q gives its premise; R introduces P."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "P拍手练节奏，Q哼唱检查音高，R把两项合并排练再恢复歌词。段落作用是什么？",
+      "structure": "also标出另一方法；both回收前两种练习；combines才是从方法列举转向组合应用的推进。",
+      "other": "hum哼唱；pitch音高；lyrics歌词。",
+      "meaning": "P/Q并列而非彼此因果；R在并列方法之上推进到综合应用。",
+      "rest": "rival results...rejects虚构竞争和失败；failure...cause虚构因果；P is a conclusion颠倒介绍与总结的位置。"
+    }
+  },
+  {
+    "id": "pb17-report-dependence",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-12",
+    "budget": 60,
+    "target": "跨段指代与对象限定",
+    "skill": "跨段指代与对象限定",
+    "q": "P: The repair team compared two reviews. One tested every component afresh; the other copied an old estimate without checking it. Q begins: \"This dependence made the second review unsuitable for the safety decision.\" What must This dependence refer to?",
+    "o": [
+      "The first review's reliance on its own new component tests.",
+      "The repair team's choice to compare two separate reviews.",
+      "The safety decision's requirement for any review at all.",
+      "The second review's reliance on an unchecked old estimate."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "两份评估，一份重新测试，另一份照搬未核验旧估计。后文This dependence指什么？",
+      "structure": "One...the other先区分两报告；second review把this dependence锁定到后者照搬旧估计这一依赖。",
+      "other": "component零部件；afresh重新；estimate估计。",
+      "meaning": "回指要同时满足内容和评价对象，不能看见review重复就任取同主题名词。",
+      "rest": "first review对象错位；team's choice把比较行为当依赖；requirement...review补加文中没有的安全规定。"
+    }
+  },
+  {
+    "id": "pb17-music-ending",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-12",
+    "budget": 60,
+    "target": "结尾与全局论证相容",
+    "skill": "结尾与全局论证相容",
+    "q": "An essay introduces software that restores damaged musical scores, shows one rhythm error it produced, and explains how musicians can check its output. Which closing paragraph best fits that argument?",
+    "o": [
+      "Human checks help; useful output can still contain errors.",
+      "The history of ticket prices now needs a detailed account.",
+      "All restored notes must be right whenever software is used.",
+      "One rhythm error proves that every digital tool is useless."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-12-2017-partb",
+    "exp": {
+      "trans": "文章介绍修复乐谱的软件，展示一处节奏错误，再解释音乐家如何核验。哪段适合结尾？",
+      "structure": "开头对象、错误例证、核验措施共同约束末段；结尾应合并优势与限制，不另起无关话题或扩大为全称断言。",
+      "other": "score乐谱；restore修复；output输出结果。",
+      "meaning": "全局位置要检查论证链是否闭合；技术有用与仍需人类核验可以同时成立。",
+      "rest": "ticket prices另起无关话题；All restored notes把能力夸成保证；every digital tool把单例扩大为全体无用。"
+    }
+  }
+]

@@ -218,7 +218,7 @@
   function nextContext() {
     const attempted=completedQuestions();
     const next=DATA.questions.find(q=>q.id!==question().id&&!attempted.has(q.id));
-    if(!next) {warn('目前6套新语境都已练过，可选择原题回顾；回顾不计新的掌握证据。');return;}
+    if(!next) {warn('目前'+DATA.questions.length+'套新语境都已练过，可选择原题回顾；回顾不计新的掌握证据。');return;}
     load(next.id);render();
   }
   function resultView(parent,q,r,readOnly=false) {

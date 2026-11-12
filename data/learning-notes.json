@@ -3933,5 +3933,565 @@
       "形近词与固定搭配分开核验",
       "遮阳与庇护可重叠但并不保证防雨"
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "received_on": "2026-11-12",
+    "session_id": "2026-11-12-2017-partb",
+    "source_exam": "2017-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字，含明确纸质最终排序及画框词；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "41": "F",
+        "42": "E",
+        "43": "A",
+        "44": "C",
+        "45": "G"
+      },
+      "reported_full_order": [
+        "D",
+        "F",
+        "E",
+        "A",
+        "C",
+        "B",
+        "G"
+      ],
+      "fixed_paragraphs": [
+        "D",
+        "B"
+      ],
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "ordering_strategy": {
+      "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+      "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+      "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+      "full_passage_comprehension": "not_confirmed",
+      "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+      "passage_level_difficulty": false,
+      "guessing": "not_inferred",
+      "adjacent_links": [
+        {
+          "from": "D",
+          "to": "F",
+          "relation": "人物总介绍→出生与童年"
+        },
+        {
+          "from": "F",
+          "to": "E",
+          "relation": "父亲入狱→父亲出狱",
+          "signals": [
+            "imprisonment",
+            "release from prison"
+          ]
+        },
+        {
+          "from": "E",
+          "to": "A",
+          "relation": "投稿→首次发表",
+          "signals": [
+            "submitted short sketches",
+            "first published sketch"
+          ]
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "relation": "笔名及早期作品→作品集出版后发展",
+          "signals": [
+            "Boz",
+            "Sketches by Boz"
+          ]
+        },
+        {
+          "from": "C",
+          "to": "B",
+          "relation": "作品出版→作品成功",
+          "signals": [
+            "Pickwick Club",
+            "Pickwick Papers"
+          ]
+        },
+        {
+          "from": "B",
+          "to": "G",
+          "relation": "凭作品成名→后续创作",
+          "signals": [
+            "Pickwick Papers",
+            "After Pickwick"
+          ]
+        }
+      ],
+      "not_yet_verified": [
+        "隐含因果与转折",
+        "重复关键词的竞争连接",
+        "并列与递进",
+        "跨段指代",
+        "首尾段和全局位置"
+      ],
+      "historical_observations_preserved": [
+        "2011-english1 Part B",
+        "2012-english1 Part B",
+        "2013-english1 Part B",
+        "2014-english1 Part B",
+        "2016-english1 Part B"
+      ]
+    },
+    "passage_feedback_quotes": [
+      "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。"
+    ],
+    "scoring_policy": "Paper feedback only. No web attempt, error, Issue, Part B module score or streak is created. Preserve every earlier learning observation.",
+    "family": "moralist-role",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "moralist"
+    ],
+    "note": "道德家、道德思想倡导者；在原文人物定位中指关注、宣扬道德问题的人，不据词形保证其所有行为都高尚。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
+    "training_priority": 1,
+    "training_targets": [
+      "moral / morality / moralist的词性与指人义",
+      "评论伦理行为与证明自身道德完美的区别"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "received_on": "2026-11-12",
+    "session_id": "2026-11-12-2017-partb",
+    "source_exam": "2017-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字，含明确纸质最终排序及画框词；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "41": "F",
+        "42": "E",
+        "43": "A",
+        "44": "C",
+        "45": "G"
+      },
+      "reported_full_order": [
+        "D",
+        "F",
+        "E",
+        "A",
+        "C",
+        "B",
+        "G"
+      ],
+      "fixed_paragraphs": [
+        "D",
+        "B"
+      ],
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "ordering_strategy": {
+      "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+      "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+      "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+      "full_passage_comprehension": "not_confirmed",
+      "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+      "passage_level_difficulty": false,
+      "guessing": "not_inferred",
+      "adjacent_links": [
+        {
+          "from": "D",
+          "to": "F",
+          "relation": "人物总介绍→出生与童年"
+        },
+        {
+          "from": "F",
+          "to": "E",
+          "relation": "父亲入狱→父亲出狱",
+          "signals": [
+            "imprisonment",
+            "release from prison"
+          ]
+        },
+        {
+          "from": "E",
+          "to": "A",
+          "relation": "投稿→首次发表",
+          "signals": [
+            "submitted short sketches",
+            "first published sketch"
+          ]
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "relation": "笔名及早期作品→作品集出版后发展",
+          "signals": [
+            "Boz",
+            "Sketches by Boz"
+          ]
+        },
+        {
+          "from": "C",
+          "to": "B",
+          "relation": "作品出版→作品成功",
+          "signals": [
+            "Pickwick Club",
+            "Pickwick Papers"
+          ]
+        },
+        {
+          "from": "B",
+          "to": "G",
+          "relation": "凭作品成名→后续创作",
+          "signals": [
+            "Pickwick Papers",
+            "After Pickwick"
+          ]
+        }
+      ],
+      "not_yet_verified": [
+        "隐含因果与转折",
+        "重复关键词的竞争连接",
+        "并列与递进",
+        "跨段指代",
+        "首尾段和全局位置"
+      ],
+      "historical_observations_preserved": [
+        "2011-english1 Part B",
+        "2012-english1 Part B",
+        "2013-english1 Part B",
+        "2014-english1 Part B",
+        "2016-english1 Part B"
+      ]
+    },
+    "passage_feedback_quotes": [
+      "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。"
+    ],
+    "scoring_policy": "Paper feedback only. No web attempt, error, Issue, Part B module score or streak is created. Preserve every earlier learning observation.",
+    "family": "panorama-scope",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "panorama"
+    ],
+    "note": "全景、全貌；既能指宽广的可视景观，也能比喻全面展现某个社会或领域，不能缩为一个孤立细节。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
+    "training_priority": 2,
+    "training_targets": [
+      "空间全景与社会全貌的迁移",
+      "整体覆盖与局部个案的区别"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "received_on": "2026-11-12",
+    "session_id": "2026-11-12-2017-partb",
+    "source_exam": "2017-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字，含明确纸质最终排序及画框词；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "41": "F",
+        "42": "E",
+        "43": "A",
+        "44": "C",
+        "45": "G"
+      },
+      "reported_full_order": [
+        "D",
+        "F",
+        "E",
+        "A",
+        "C",
+        "B",
+        "G"
+      ],
+      "fixed_paragraphs": [
+        "D",
+        "B"
+      ],
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "ordering_strategy": {
+      "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+      "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+      "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+      "full_passage_comprehension": "not_confirmed",
+      "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+      "passage_level_difficulty": false,
+      "guessing": "not_inferred",
+      "adjacent_links": [
+        {
+          "from": "D",
+          "to": "F",
+          "relation": "人物总介绍→出生与童年"
+        },
+        {
+          "from": "F",
+          "to": "E",
+          "relation": "父亲入狱→父亲出狱",
+          "signals": [
+            "imprisonment",
+            "release from prison"
+          ]
+        },
+        {
+          "from": "E",
+          "to": "A",
+          "relation": "投稿→首次发表",
+          "signals": [
+            "submitted short sketches",
+            "first published sketch"
+          ]
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "relation": "笔名及早期作品→作品集出版后发展",
+          "signals": [
+            "Boz",
+            "Sketches by Boz"
+          ]
+        },
+        {
+          "from": "C",
+          "to": "B",
+          "relation": "作品出版→作品成功",
+          "signals": [
+            "Pickwick Club",
+            "Pickwick Papers"
+          ]
+        },
+        {
+          "from": "B",
+          "to": "G",
+          "relation": "凭作品成名→后续创作",
+          "signals": [
+            "Pickwick Papers",
+            "After Pickwick"
+          ]
+        }
+      ],
+      "not_yet_verified": [
+        "隐含因果与转折",
+        "重复关键词的竞争连接",
+        "并列与递进",
+        "跨段指代",
+        "首尾段和全局位置"
+      ],
+      "historical_observations_preserved": [
+        "2011-english1 Part B",
+        "2012-english1 Part B",
+        "2013-english1 Part B",
+        "2014-english1 Part B",
+        "2016-english1 Part B"
+      ]
+    },
+    "passage_feedback_quotes": [
+      "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。"
+    ],
+    "scoring_policy": "Paper feedback only. No web attempt, error, Issue, Part B module score or streak is created. Preserve every earlier learning observation.",
+    "family": "backdrop-context",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "backdrop"
+    ],
+    "note": "背景、背景布景；可指舞台后方景物，也可指事件发生的一般条件。原文为木刻画配背景故事，抽象背景不自动等于唯一原因。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
+    "training_priority": 3,
+    "training_targets": [
+      "实物背景与抽象情境",
+      "背景条件与直接原因、主事件的区别"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "received_on": "2026-11-12",
+    "session_id": "2026-11-12-2017-partb",
+    "source_exam": "2017-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字，含明确纸质最终排序及画框词；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2017-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "41": "F",
+        "42": "E",
+        "43": "A",
+        "44": "C",
+        "45": "G"
+      },
+      "reported_full_order": [
+        "D",
+        "F",
+        "E",
+        "A",
+        "C",
+        "B",
+        "G"
+      ],
+      "fixed_paragraphs": [
+        "D",
+        "B"
+      ],
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "ordering_strategy": {
+      "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+      "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+      "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+      "full_passage_comprehension": "not_confirmed",
+      "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+      "passage_level_difficulty": false,
+      "guessing": "not_inferred",
+      "adjacent_links": [
+        {
+          "from": "D",
+          "to": "F",
+          "relation": "人物总介绍→出生与童年"
+        },
+        {
+          "from": "F",
+          "to": "E",
+          "relation": "父亲入狱→父亲出狱",
+          "signals": [
+            "imprisonment",
+            "release from prison"
+          ]
+        },
+        {
+          "from": "E",
+          "to": "A",
+          "relation": "投稿→首次发表",
+          "signals": [
+            "submitted short sketches",
+            "first published sketch"
+          ]
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "relation": "笔名及早期作品→作品集出版后发展",
+          "signals": [
+            "Boz",
+            "Sketches by Boz"
+          ]
+        },
+        {
+          "from": "C",
+          "to": "B",
+          "relation": "作品出版→作品成功",
+          "signals": [
+            "Pickwick Club",
+            "Pickwick Papers"
+          ]
+        },
+        {
+          "from": "B",
+          "to": "G",
+          "relation": "凭作品成名→后续创作",
+          "signals": [
+            "Pickwick Papers",
+            "After Pickwick"
+          ]
+        }
+      ],
+      "not_yet_verified": [
+        "隐含因果与转折",
+        "重复关键词的竞争连接",
+        "并列与递进",
+        "跨段指代",
+        "首尾段和全局位置"
+      ],
+      "historical_observations_preserved": [
+        "2011-english1 Part B",
+        "2012-english1 Part B",
+        "2013-english1 Part B",
+        "2014-english1 Part B",
+        "2016-english1 Part B"
+      ]
+    },
+    "passage_feedback_quotes": [
+      "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。"
+    ],
+    "scoring_policy": "Paper feedback only. No web attempt, error, Issue, Part B module score or streak is created. Preserve every earlier learning observation.",
+    "family": "woodcut-medium",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "woodcuts"
+    ],
+    "note": "木刻画、木版画，woodcut的复数。指以木版凸起部分着墨印出的版画；画面主题与制作媒介分开，不能把一切木制品都叫木刻版画。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
+    "training_priority": 4,
+    "training_targets": [
+      "复数形式与印刷媒介",
+      "图像内容、木版与印出的版画分开"
+    ]
   }
 ]

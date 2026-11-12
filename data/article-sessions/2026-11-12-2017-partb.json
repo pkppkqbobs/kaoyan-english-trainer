@@ -1,0 +1,154 @@
+{
+  "id": "2026-11-12-2017-partb",
+  "date": "2026-11-12",
+  "learning_date": "2026-11-12",
+  "created_at": "2026-11-12T22:22:39+09:00",
+  "source": "2017 英语一 Part B · 纸质5/5；显性时间线排序成功与框词复盘",
+  "focus_families": [
+    "moralist-role",
+    "panorama-scope",
+    "backdrop-context",
+    "woodcut-medium"
+  ],
+  "focus_question_ids": {
+    "moralist-role": [
+      "pb17-moralist-public-duty"
+    ],
+    "panorama-scope": [
+      "pb17-panorama-work"
+    ],
+    "backdrop-context": [
+      "pb17-backdrop-negotiation"
+    ],
+    "woodcut-medium": [
+      "pb17-woodcut-workshop"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "paper_outcome": {
+    "evidence_status": "user_reported_paper_answers",
+    "question_range": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "reported_correct_count": 5,
+    "reported_total": 5,
+    "reported_all_correct": true,
+    "reported_final_choice_letters": {
+      "41": "F",
+      "42": "E",
+      "43": "A",
+      "44": "C",
+      "45": "G"
+    },
+    "reported_full_order": [
+      "D",
+      "F",
+      "E",
+      "A",
+      "C",
+      "B",
+      "G"
+    ],
+    "fixed_paragraphs": [
+      "D",
+      "B"
+    ],
+    "first_choices": "unknown",
+    "revisions": "unknown",
+    "uncertainty": "not_reported",
+    "not_a_web_score": true
+  },
+  "ordering_strategy": {
+    "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+    "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+    "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+    "full_passage_comprehension": "not_confirmed",
+    "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+    "passage_level_difficulty": false,
+    "guessing": "not_inferred",
+    "adjacent_links": [
+      {
+        "from": "D",
+        "to": "F",
+        "relation": "人物总介绍→出生与童年"
+      },
+      {
+        "from": "F",
+        "to": "E",
+        "relation": "父亲入狱→父亲出狱",
+        "signals": [
+          "imprisonment",
+          "release from prison"
+        ]
+      },
+      {
+        "from": "E",
+        "to": "A",
+        "relation": "投稿→首次发表",
+        "signals": [
+          "submitted short sketches",
+          "first published sketch"
+        ]
+      },
+      {
+        "from": "A",
+        "to": "C",
+        "relation": "笔名及早期作品→作品集出版后发展",
+        "signals": [
+          "Boz",
+          "Sketches by Boz"
+        ]
+      },
+      {
+        "from": "C",
+        "to": "B",
+        "relation": "作品出版→作品成功",
+        "signals": [
+          "Pickwick Club",
+          "Pickwick Papers"
+        ]
+      },
+      {
+        "from": "B",
+        "to": "G",
+        "relation": "凭作品成名→后续创作",
+        "signals": [
+          "Pickwick Papers",
+          "After Pickwick"
+        ]
+      }
+    ],
+    "not_yet_verified": [
+      "隐含因果与转折",
+      "重复关键词的竞争连接",
+      "并列与递进",
+      "跨段指代",
+      "首尾段和全局位置"
+    ],
+    "historical_observations_preserved": [
+      "2011-english1 Part B",
+      "2012-english1 Part B",
+      "2013-english1 Part B",
+      "2014-english1 Part B",
+      "2016-english1 Part B"
+    ]
+  },
+  "original_user_feedback": [
+    "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。"
+  ],
+  "boxed_words": [
+    "moralist",
+    "panorama",
+    "backdrop",
+    "woodcuts"
+  ],
+  "source_check": "data/source-checks/2017-english1.json",
+  "independent_partb_question": "pb-archive-labels-v1",
+  "training_scope": "四个词汇目标进入本篇4题；另4题沿用历史间隔复习。完整新材料排序检验隐含衔接、指代、关键词陷阱、全局位置；不是把2017纸质全对改判为能力错误。",
+  "result_summary": "纸质41F、42E、43A、44C、45G，完整D→F→E→A→C→B→G。首尾关键词与时间关系排序有效，全文逐句理解未知；不判猜测、不清除旧困难、不产生网页成绩。"
+}

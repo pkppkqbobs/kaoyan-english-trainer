@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-10",
+  "reviewed_on": "2026-11-12",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -498,7 +498,20 @@
     "r17t3-sharp-hit-choir": "lost-rehearsal-room-disrupts-preparation-not-physical-strike",
     "r17t3-sharp-hit-bookings": "access-loss-depresses-bookings-not-sharp-object",
     "r17t3-remold-clay": "reuse-soft-clay-new-shape-versus-repair-original-form",
-    "r17t3-remold-orchestra": "orchestra-training-redesign-changes-practice-not-name"
+    "r17t3-remold-orchestra": "orchestra-training-redesign-changes-practice-not-name",
+    "pb17-moralist-public-duty": "lost-property-debate-normative-duty-versus-counting-law-emotion",
+    "pb17-moralist-inference": "business-speakers-ethical-advocacy-not-personal-perfection",
+    "pb17-panorama-work": "radio-working-life-multiple-social-perspectives",
+    "pb17-panorama-hill": "hilltop-terrace-wide-visual-field-versus-single-tower",
+    "pb17-backdrop-negotiation": "wage-negotiation-rising-rent-context-without-causal-proof",
+    "pb17-backdrop-stage": "indoor-play-painted-cloth-versus-costume-dialogue-seating",
+    "pb17-woodcut-workshop": "workshop-relief-printing-process-versus-sculpture-paint-drawing",
+    "pb17-woodcuts-catalogue": "bird-image-catalogue-medium-versus-subject-and-paper",
+    "pb17-seed-label-link": "seed-vault-homonymous-labels-require-identity-not-shared-theme",
+    "pb17-chorus-relations": "choir-rhythm-pitch-parallel-methods-to-combined-application",
+    "pb17-report-dependence": "equipment-reviews-new-tests-versus-unchecked-estimate-anaphora",
+    "pb17-music-ending": "music-score-restoration-global-conclusion-with-qualified-claim",
+    "pb-archive-labels-v1": "public-photo-archive-recollection-versus-evidence-and-publication"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -642,7 +655,20 @@
     "bridge-repair-succeeded-despite-obstacles": "维修队克服风雨完成桥梁安装：pull off指成功实现难事。",
     "orchestra-repetitive-programmes": "乐团多年重复节目、引进新作曲家：in a rut为停滞与惯性。",
     "factory-worker-informal-norms": "工厂聘社会文化研究者观察非正式规则：anthropologist词义迁移。",
-    "historian-protest-description-oversimplification": "历史学家质疑两极化抗议描述：characterizations是描述概括。"
+    "historian-protest-description-oversimplification": "历史学家质疑两极化抗议描述：characterizations是描述概括。",
+    "lost-property-debate-normative-duty-versus-counting-law-emotion": "2017 Part B词汇或历史衔接机制的独立迁移场景；moralist：道德倡导者的角色。未复用狄更斯生平句架。",
+    "business-speakers-ethical-advocacy-not-personal-perfection": "2017 Part B词汇或历史衔接机制的独立迁移场景；moralist：描述言论不认证人格。未复用狄更斯生平句架。",
+    "radio-working-life-multiple-social-perspectives": "2017 Part B词汇或历史衔接机制的独立迁移场景；panorama：整体覆盖。未复用狄更斯生平句架。",
+    "hilltop-terrace-wide-visual-field-versus-single-tower": "2017 Part B词汇或历史衔接机制的独立迁移场景；panorama：字面全景。未复用狄更斯生平句架。",
+    "wage-negotiation-rising-rent-context-without-causal-proof": "2017 Part B词汇或历史衔接机制的独立迁移场景；backdrop：背景条件与原因。未复用狄更斯生平句架。",
+    "indoor-play-painted-cloth-versus-costume-dialogue-seating": "2017 Part B词汇或历史衔接机制的独立迁移场景；backdrop：舞台背景。未复用狄更斯生平句架。",
+    "workshop-relief-printing-process-versus-sculpture-paint-drawing": "2017 Part B词汇或历史衔接机制的独立迁移场景；woodcut：制作媒介。未复用狄更斯生平句架。",
+    "bird-image-catalogue-medium-versus-subject-and-paper": "2017 Part B词汇或历史衔接机制的独立迁移场景；woodcuts：媒介与内容。未复用狄更斯生平句架。",
+    "seed-vault-homonymous-labels-require-identity-not-shared-theme": "2017 Part B词汇或历史衔接机制的独立迁移场景；同关键词不等于篇章连接。未复用狄更斯生平句架。",
+    "choir-rhythm-pitch-parallel-methods-to-combined-application": "2017 Part B词汇或历史衔接机制的独立迁移场景；并列与递进的段落功能。未复用狄更斯生平句架。",
+    "equipment-reviews-new-tests-versus-unchecked-estimate-anaphora": "2017 Part B词汇或历史衔接机制的独立迁移场景；跨段指代与对象限定。未复用狄更斯生平句架。",
+    "music-score-restoration-global-conclusion-with-qualified-claim": "2017 Part B词汇或历史衔接机制的独立迁移场景；结尾与全局论证相容。未复用狄更斯生平句架。",
+    "public-photo-archive-recollection-versus-evidence-and-publication": "公众记忆与档案标签核验：例证转反例、同名异地、记录与确认两阶段、全局收束；七段约350词的新论证结构。"
   },
   "family_assessments": {
     "reference": {
@@ -1070,6 +1096,42 @@
         "railway-waiting-room-weather-protection-not-storage",
         "slatted-cover-blocks-sun-but-rain-passes",
         "desk-lamp-emission-versus-window-screen-shading"
+      ]
+    },
+    "moralist-role": {
+      "coverage_gap": false,
+      "review_session": "2026-11-12-2017-partb",
+      "reason": "两种不同场景检验明确框词的词义范围、对象或媒介；纸质排序5/5不是本机制的错误证据。",
+      "evidence_paths": [
+        "lost-property-debate-normative-duty-versus-counting-law-emotion",
+        "business-speakers-ethical-advocacy-not-personal-perfection"
+      ]
+    },
+    "panorama-scope": {
+      "coverage_gap": false,
+      "review_session": "2026-11-12-2017-partb",
+      "reason": "两种不同场景检验明确框词的词义范围、对象或媒介；纸质排序5/5不是本机制的错误证据。",
+      "evidence_paths": [
+        "radio-working-life-multiple-social-perspectives",
+        "hilltop-terrace-wide-visual-field-versus-single-tower"
+      ]
+    },
+    "backdrop-context": {
+      "coverage_gap": false,
+      "review_session": "2026-11-12-2017-partb",
+      "reason": "两种不同场景检验明确框词的词义范围、对象或媒介；纸质排序5/5不是本机制的错误证据。",
+      "evidence_paths": [
+        "wage-negotiation-rising-rent-context-without-causal-proof",
+        "indoor-play-painted-cloth-versus-costume-dialogue-seating"
+      ]
+    },
+    "woodcut-medium": {
+      "coverage_gap": false,
+      "review_session": "2026-11-12-2017-partb",
+      "reason": "两种不同场景检验明确框词的词义范围、对象或媒介；纸质排序5/5不是本机制的错误证据。",
+      "evidence_paths": [
+        "workshop-relief-printing-process-versus-sculpture-paint-drawing",
+        "bird-image-catalogue-medium-versus-subject-and-paper"
       ]
     }
   },

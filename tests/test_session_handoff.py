@@ -107,6 +107,50 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertEqual((self.root / 'data/result-evidence.json').read_bytes(), evidence)
         self.assertTrue(report['handoff_is_not_scoring_evidence'])
 
+    def test_positive_paper_order_survives_vocabulary_only_notes_without_web_results(self):
+        outcome = {'reported_correct_count': 5, 'reported_total': 5,
+                   'reported_full_order': list('DFEACBG'),
+                   'reported_final_choice_letters': {'41': 'F', '42': 'E', '43': 'A', '44': 'C', '45': 'G'},
+                   'first_choices': 'unknown', 'revisions': 'unknown', 'not_a_web_score': True}
+        notes = review.load(self.root / 'data/learning-notes.json')
+        for word in ('moralist', 'panorama', 'backdrop', 'woodcuts'):
+            notes.append({'date': '2026-10-24', 'family': 'familiar-word-polysemy',
+                          'kind': 'translation_difficulty', 'source_exam': '2017-english1',
+                          'source_part': 'Part B 段落排序', 'source_spans': [word],
+                          'paper_outcome': copy.deepcopy(outcome),
+                          'ordering_strategy': {'summary': '首尾关键词与时间关系是有效策略，不判猜测。',
+                                                'generalization_limit': '全文理解未知；复杂衔接待验证，保留历史困难。'}})
+        review.save(self.root / 'data/learning-notes.json', notes)
+        protected = [self.root / 'data/result-evidence.json', self.root / 'data/review-state.json']
+        before = [p.read_bytes() for p in protected]
+        report = handoff.build(self.root)
+        stage = next(s for s in report['recent_paper'] if s['exam'] == '2017-english1')
+        self.assertEqual(stage['reported_paper_outcome'], outcome)
+        self.assertEqual(stage['items'], [])
+        self.assertEqual(stage['boxed_spans'], ['backdrop', 'moralist', 'panorama', 'woodcuts'])
+        text = handoff.markdown(report)
+        for expected in ('纸质自述5/5（不计网页成绩）', 'D→F→E→A→C→B→G', '有效策略', '全文理解未知'):
+            self.assertIn(expected, text)
+        self.assertEqual([p.read_bytes() for p in protected], before)
+        self.assertEqual(report['web']['latest_daily']['correct'], 8)
+
+    def test_paper_success_is_never_reconstructed_from_key_or_conflicting_counts(self):
+        notes = review.load(self.root / 'data/learning-notes.json')
+        note = {'date': '2026-10-24', 'family': 'familiar-word-polysemy',
+                'kind': 'translation_difficulty', 'source_exam': '2017-english1',
+                'source_part': 'Part B', 'source_spans': ['moralist']}
+        review.save(self.root / 'data/source-checks/2017-english1.json',
+                    {'exam': '2017-english1', 'answers': {'41': 'F', '42': 'E', '43': 'A', '44': 'C', '45': 'G'}})
+        review.save(self.root / 'data/learning-notes.json', notes + [note])
+        stage = next(s for s in handoff.make_report(self.root)['recent_paper'] if s['exam'] == '2017-english1')
+        self.assertNotIn('reported_paper_outcome', stage)
+        for count in (4, 5):
+            notes.append({**note, 'paper_outcome': {'reported_correct_count': count,
+                         'reported_total': 5, 'not_a_web_score': True}})
+        review.save(self.root / 'data/learning-notes.json', notes)
+        stage = next(s for s in handoff.make_report(self.root)['recent_paper'] if s['exam'] == '2017-english1')
+        self.assertNotIn('reported_paper_outcome', stage)
+
     def test_presentation_notices_remain_separate_from_scored_answers(self):
         qid = 'fixture-missing-mark'
         prompt = 'The clerk accepts any papers. What does the underlined word mean?'

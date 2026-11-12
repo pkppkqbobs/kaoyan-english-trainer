@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-12",
     "daily_quiz": "2026-11-12",
-    "latest_observation": "2026-11-10"
+    "latest_observation": "2026-11-12"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-10",
-      "storageId": "2026-11-10-2017-text3",
-      "learning_date": "2026-11-10"
+      "date": "2026-11-12",
+      "storageId": "2026-11-12-2017-partb",
+      "learning_date": "2026-11-12"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,148 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-12",
+      "exam": "2017-english1",
+      "part": "Part B 段落排序",
+      "items": [],
+      "boxed_spans": [
+        "backdrop",
+        "moralist",
+        "panorama",
+        "woodcuts"
+      ],
+      "translation_note_count": 4,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-12",
+        "family": "panorama-scope",
+        "question": null,
+        "note_fingerprint": "95690c091f2a403a"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-12-2017-partb.json"
+      ],
+      "reported_paper_outcome": {
+        "evidence_status": "user_reported_paper_answers",
+        "question_range": [
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "reported_correct_count": 5,
+        "reported_total": 5,
+        "reported_all_correct": true,
+        "reported_final_choice_letters": {
+          "41": "F",
+          "42": "E",
+          "43": "A",
+          "44": "C",
+          "45": "G"
+        },
+        "reported_full_order": [
+          "D",
+          "F",
+          "E",
+          "A",
+          "C",
+          "B",
+          "G"
+        ],
+        "fixed_paragraphs": [
+          "D",
+          "B"
+        ],
+        "first_choices": "unknown",
+        "revisions": "unknown",
+        "uncertainty": "not_reported",
+        "not_a_web_score": true
+      },
+      "performance_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-12",
+        "family": "panorama-scope",
+        "question": null,
+        "note_fingerprint": "95690c091f2a403a"
+      },
+      "ordering_strategy": {
+        "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+        "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+        "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+        "full_passage_comprehension": "not_confirmed",
+        "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+        "passage_level_difficulty": false,
+        "guessing": "not_inferred",
+        "adjacent_links": [
+          {
+            "from": "D",
+            "to": "F",
+            "relation": "人物总介绍→出生与童年"
+          },
+          {
+            "from": "F",
+            "to": "E",
+            "relation": "父亲入狱→父亲出狱",
+            "signals": [
+              "imprisonment",
+              "release from prison"
+            ]
+          },
+          {
+            "from": "E",
+            "to": "A",
+            "relation": "投稿→首次发表",
+            "signals": [
+              "submitted short sketches",
+              "first published sketch"
+            ]
+          },
+          {
+            "from": "A",
+            "to": "C",
+            "relation": "笔名及早期作品→作品集出版后发展",
+            "signals": [
+              "Boz",
+              "Sketches by Boz"
+            ]
+          },
+          {
+            "from": "C",
+            "to": "B",
+            "relation": "作品出版→作品成功",
+            "signals": [
+              "Pickwick Club",
+              "Pickwick Papers"
+            ]
+          },
+          {
+            "from": "B",
+            "to": "G",
+            "relation": "凭作品成名→后续创作",
+            "signals": [
+              "Pickwick Papers",
+              "After Pickwick"
+            ]
+          }
+        ],
+        "not_yet_verified": [
+          "隐含因果与转折",
+          "重复关键词的竞争连接",
+          "并列与递进",
+          "跨段指代",
+          "首尾段和全局位置"
+        ],
+        "historical_observations_preserved": [
+          "2011-english1 Part B",
+          "2012-english1 Part B",
+          "2013-english1 Part B",
+          "2014-english1 Part B",
+          "2016-english1 Part B"
+        ]
+      }
+    },
     {
       "date": "2026-11-10",
       "exam": "2017-english1",
@@ -193,7 +335,32 @@
       },
       "article_session_files": [
         "data/article-sessions/2026-11-10-2017-text3.json"
-      ]
+      ],
+      "reported_paper_outcome": {
+        "evidence_status": "user_self_report",
+        "question_range": [
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "reported_correct_count": 5,
+        "reported_total": 5,
+        "reported_all_correct": true,
+        "reported_final_choice_letters": {},
+        "first_choices": "unknown",
+        "revisions": "unknown",
+        "uncertainty": "not_reported",
+        "not_a_web_score": true
+      },
+      "performance_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-10",
+        "family": "sharp-hit-impact",
+        "question": null,
+        "note_fingerprint": "ecbae9f8288b5dbc"
+      }
     },
     {
       "date": "2026-11-09",
@@ -504,108 +671,6 @@
       "article_session_files": [
         "data/article-sessions/2026-11-07-2017-cloze.json"
       ]
-    },
-    {
-      "date": "2026-11-06",
-      "exam": "2016-english1",
-      "part": "Part B 小标题匹配",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "heading-core-function",
-          "question": 41,
-          "related_questions": [],
-          "updated_on": "2026-11-06",
-          "final_choice": "C",
-          "final_choice_status": "confirmed",
-          "first_considered": "B",
-          "candidate_choices": [
-            "B",
-            "C"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "B",
-          "reference_status": "source_checked",
-          "summary": "原先考虑第41题B Decide if the time is right，读到第45段出现time时把B重新分配给45，回头认为41的C也可选，最终明确选C Have confi…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-06",
-            "family": "heading-core-function",
-            "question": 41,
-            "note_fingerprint": "c8c25c5c84056231"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "heading-global-allocation",
-          "question": 45,
-          "related_questions": [],
-          "updated_on": "2026-11-06",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "F",
-          "reference_status": "source_checked",
-          "summary": "用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-06",
-            "family": "heading-global-allocation",
-            "question": 45,
-            "note_fingerprint": "2f263821c134f219"
-          },
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "title-coverage",
-          "question": null,
-          "related_questions": [],
-          "updated_on": "2026-11-06",
-          "final_choice": null,
-          "final_choice_status": "not_applicable",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "用户明确自述文章整体未充分理解；照片及文字确定41 C错误、45 B错误，42 G/43 D/44 E正确，纸质5题中3题正确。42—44能从明显关键句找到对应标题，但没有逐题确认…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-06",
-            "family": "title-coverage",
-            "question": null,
-            "note_fingerprint": "d3a7a5549642838d"
-          },
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "anthropologist",
-        "characterizations",
-        "in a rut",
-        "pull off"
-      ],
-      "translation_note_count": 1,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-06",
-        "family": "partb-boxed-vocab",
-        "question": null,
-        "note_fingerprint": "9f650c2c3b5275d9"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-06-2016-partb-headings.json"
-      ]
     }
   ],
   "presentation_quality": [
@@ -632,6 +697,17 @@
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-12-2017-partb",
+        "learning_date": "2026-11-12",
+        "updated_on": "2026-11-12",
+        "exam": "2017-english1",
+        "part": "Part B 段落排序",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-12-2017-partb.json",
+        "round_file": "data/article-reviews/2026-11-12-2017-partb.json",
+        "publication_date": "2026-11-12"
+      },
       {
         "session_id": "2026-11-10-2017-text3",
         "learning_date": "2026-11-10",
@@ -708,17 +784,6 @@
         "session_file": "data/article-sessions/2026-11-04-2016-text3.json",
         "round_file": "data/article-reviews/2026-11-04-2016-text3.json",
         "publication_date": "2026-11-04"
-      },
-      {
-        "session_id": "2026-11-03-2016-text2",
-        "learning_date": "2026-11-03",
-        "updated_on": "2026-11-03",
-        "exam": "2016-english1",
-        "part": "Reading Text 2",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-03-2016-text2.json",
-        "round_file": "data/article-reviews/2026-11-03-2016-text2.json",
-        "publication_date": "2026-11-03"
       }
     ]
   },
@@ -770,6 +835,24 @@
       "label": "选项范围与额外限定",
       "families": [
         {
+          "family": "panorama-scope",
+          "label": "panorama：字面全景",
+          "focus": "全景、全貌；既能指宽广的可视景观，也能比喻全面展现某个社会或领域，不能缩为一个孤立细节。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
+          "paper_kind": "translation_difficulty",
+          "latest_observation": "2026-11-12",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-12",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-12",
+            "family": "panorama-scope",
+            "question": null,
+            "note_fingerprint": "95690c091f2a403a"
+          }
+        },
+        {
           "family": "inference-boundary",
           "label": "favourable condition / protective surroundings",
           "focus": "用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终…",
@@ -786,23 +869,47 @@
             "question": 27,
             "note_fingerprint": "36ee183b046e2ee7"
           }
-        },
+        }
+      ]
+    },
+    {
+      "mechanism": "roles",
+      "label": "主语—动作—对象与政策条件",
+      "families": [
         {
-          "family": "title-coverage",
-          "label": "topic relevance / central argument",
-          "focus": "参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，…",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-08",
-          "web_errors": 1,
+          "family": "moralist-role",
+          "label": "moralist：描述言论不认证人格",
+          "focus": "道德家、道德思想倡导者；在原文人物定位中指关注、宣扬道德问题的人，不据词形保证其所有行为都高尚。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
+          "paper_kind": "translation_difficulty",
+          "latest_observation": "2026-11-12",
+          "web_errors": 0,
           "web_streak": 0,
-          "slow_or_uncertain": true,
+          "slow_or_uncertain": false,
           "due": "2026-11-12",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-08",
-            "family": "title-coverage",
-            "question": 25,
-            "note_fingerprint": "1bf709999e65fe53"
+            "date": "2026-11-12",
+            "family": "moralist-role",
+            "question": null,
+            "note_fingerprint": "52a004b3fa609539"
+          }
+        },
+        {
+          "family": "policy-enforcement-roles",
+          "label": "要求与执行工具的角色区分",
+          "focus": "用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-02",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-12",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-02",
+            "family": "policy-enforcement-roles",
+            "question": 24,
+            "note_fingerprint": "6c279cc1833c6d29"
           }
         }
       ]
@@ -845,48 +952,6 @@
             "family": "heading-core-function",
             "question": 41,
             "note_fingerprint": "c8c25c5c84056231"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "roles",
-      "label": "主语—动作—对象与政策条件",
-      "families": [
-        {
-          "family": "policy-enforcement-roles",
-          "label": "要求与执行工具的角色区分",
-          "focus": "用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-02",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-12",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-02",
-            "family": "policy-enforcement-roles",
-            "question": 24,
-            "note_fingerprint": "6c279cc1833c6d29"
-          }
-        },
-        {
-          "family": "logic",
-          "label": "上限与必须达到的时长",
-          "focus": "用户明确确认第13题选A（whereas），标准答案为B（until）；用户把whereas误解成尽管，并把up to a year理解为必须住满一年。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-01",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-06",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-01",
-            "family": "logic",
-            "question": 13,
-            "note_fingerprint": "7182df62d67df36e"
           }
         }
       ]
@@ -1102,7 +1167,8 @@
     "article-review-2026-11-08-2017-text1.html": "135dd0c9c56dc96783c809fa5e8dde495825f3f2b69e6c95172f50d3193cf7f7",
     "article-review-2026-11-09-2017-text2.html": "51683ed229561ec2e907d777789f7ea98dacddd53d785445a9093b63a3e97579",
     "article-review-2026-11-10-2017-text3.html": "88f5f439aa6f078985afbdb3f51c88049411a955c12b7674cd4f25d01e6d54dc",
-    "data/article-review.json": "62e20f212ee9829cf231b47dd647cd4c5ccc558751972ba42f7a5fc8cabe502b",
+    "article-review-2026-11-12-2017-partb.html": "b7090eb425b771525fd5339e49575a47cb8e52bdf0e5f1ff23ae88b8f4970317",
+    "data/article-review.json": "0eeb7f72ef1aaed7cda86eda543afd6de569e1811594af47271f51356b97cd7d",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1145,6 +1211,7 @@
     "data/article-reviews/2026-11-08-2017-text1.json": "44acef596d572c6bdccf7d9349d50431285930b4377da80130158bd692b89d56",
     "data/article-reviews/2026-11-09-2017-text2.json": "e1b0e276beaeb2c23d9b8a1c2dbc65f1e15b79ac0e9ef593cf956a957dd86b5b",
     "data/article-reviews/2026-11-10-2017-text3.json": "62e20f212ee9829cf231b47dd647cd4c5ccc558751972ba42f7a5fc8cabe502b",
+    "data/article-reviews/2026-11-12-2017-partb.json": "0eeb7f72ef1aaed7cda86eda543afd6de569e1811594af47271f51356b97cd7d",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1182,6 +1249,7 @@
     "data/article-sessions/2026-11-08-2017-text1.json": "bda0617ab897ef3201a8887154ba62c06d61d4c9beaea1b8de12705623fd3d0f",
     "data/article-sessions/2026-11-09-2017-text2.json": "a90932aadfe567908f358ab8c5a817ddaf1752dfffe812905c0753a915bf99e3",
     "data/article-sessions/2026-11-10-2017-text3.json": "602f8f634c8e2fdb06f003e427a23370aa27c0b82b45834ea7219a0ee2711528",
+    "data/article-sessions/2026-11-12-2017-partb.json": "8a495b6b461008a516a0728da1b94bbbc5cffc9a5fbfcabba7625cea79adc0b2",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "9ee8af81fc11030548ab24acdbdc4ed7cee58b5746bed1045c9abf8d62cd20af",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1230,9 +1298,9 @@
     "data/days/2026-11-11.json": "5e25781f69e4cd759701caa3d2fb86e634d0e1e7d61bf3ad0dfab34393a9f3ec",
     "data/days/2026-11-12.json": "9ee8af81fc11030548ab24acdbdc4ed7cee58b5746bed1045c9abf8d62cd20af",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
-    "data/learning-notes.json": "1265353add1fe1d48f5068782c8968f1ee5abd9d2782641274fefc4edeb08761",
+    "data/learning-notes.json": "e34a9feaf2417d05663eadacd314b7cafef84d8393b2177b4c762c43ca01ec36",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
-    "data/question-contexts.json": "9244861cbe1f73c079c7ce7cc77cd34ab4eb40c89661c708ae491918a95a9fc9",
+    "data/question-contexts.json": "5b696c7aae0bb8557490984a13a7a660f46ebb2e732238afa26836e499de7be3",
     "data/question-presentations.json": "373c7da16aab2a5271c7ef939ebb98fc6f1880a2c5dce598aca9d6b1e72dc613",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1273,17 +1341,18 @@
     "data/questions/2026-11-08-2017-text1-migration.json": "7426df5e21a24e6acff7d0d5548605f24a46b61cd9843244bed9fca21e197fe6",
     "data/questions/2026-11-09-2017-text2-migration.json": "296b3c2cd10c6cfe1830c3bf8e4256cdf18fd3603aa3f3648d68f9e4e2776618",
     "data/questions/2026-11-10-2017-text3-migration.json": "18702d6254a2c7a6ed82721b985217f1f4474118855492656332fbfb2b44d001",
+    "data/questions/2026-11-12-2017-partb-migration.json": "29a75c48ef88bb942fffd882252a066ef5a7acc2f07da285d9751ff2e6be4cea",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "fc421298ac3eaac679f12fdb267a9dd0870741236d9dde3068e108e26d21cac9",
-    "data/review-state.json": "1320a4e1d85d43443e09159fce68a9cdff595a61a2c72965ecb326c0d63fe3e2",
+    "data/review-state.json": "41063a7b9a4d8dd9dbcb4ee05288321ef80cbe2556b96e46f93257282cdf84dd",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
-    "data/source-checks/2017-english1.json": "0e75a4a6c6f2d8362646861f19d6995c7fc5e85e978c5c4f130f34467c45f709"
+    "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a"
   },
-  "source_fingerprint": "1f55a027240ab0383660540e217ed1fbe1757e272913642b0abbbf62d6329ce0",
+  "source_fingerprint": "b1514e6be1e8ba46c85caf80e0a9c849529df02f986b17f45ab8f65ae3832ca4",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

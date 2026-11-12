@@ -209,5 +209,26 @@ assert.equal(nodes.partbKit.children.find(o=>o.selected).value,questions[2].id,'
 data.results=[];
 boot('history');
 assert.equal(storage[damagedKey],healthy,'Remote restoration cannot modify existing local first results');
+// New kits use the same storage/scoring path, and the exhausted count is dynamic.
+const addedQuestions=fs.readdirSync('data/partb-questions').filter(f=>f.endsWith('.json')&&f!=='2026-10-04-transfer.json')
+  .flatMap(f=>JSON.parse(fs.readFileSync('data/partb-questions/'+f,'utf8')));
+for(const added of addedQuestions){
+  data.questions=[...questions,added];data.results=[];
+  const store=isolatedStore();boot('review','?qid='+added.id,store);
+  choose(added.expectedOrder[0]);windowEvents.pagehide();
+  boot('review','?qid='+added.id,store);
+  assert.deepEqual(run(added.id).pickOrder,added.expectedOrder.slice(0,1));
+  finish(added.expectedOrder.slice(1));
+  const result=run(added.id).result;
+  assert.equal(result.fullOrderOk,true);
+  assert.equal(result.pairScore.correct,added.links.length);
+  assert.equal(result.anchorScore.correct,added.links.filter(l=>l.anchor).length);
+  assert.equal(result.positionScore.correct,added.paragraphs.length);
+  assert.equal(result.startOk,true);assert.equal(result.endOk,true);
+  data.results=data.questions.map(remote);
+  click('下一篇新语境');
+  assert.ok(nodes['partb-app'].textContent.includes('目前'+data.questions.length+'套新语境都已练过'));
+}
+data.questions=questions;data.results=[];
 if(process.argv.includes('--report'))process.stdout.write(JSON.stringify(obj));
 else console.log('Part B UI passed: shuffle, partial refresh, first result/retry, verified remote recovery, local/remote fresh context spacing, damaged-history isolation, blocked-read protection, keyboard focus, isolated storage, 720 permutations.');

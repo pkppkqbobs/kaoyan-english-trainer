@@ -139,6 +139,16 @@
       "observed_days": 3,
       "observation_priority": 3
     },
+    "backdrop-context": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-12",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "belated-timing": {
       "streak": 0,
       "errors": 0,
@@ -689,6 +699,16 @@
       "observed_days": 0,
       "observation_priority": 3
     },
+    "moralist-role": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-12",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "negative-ellipsis-afford": {
       "streak": 0,
       "errors": 0,
@@ -708,6 +728,16 @@
       "reported_confusion": true,
       "observed_days": 19,
       "observation_priority": 2
+    },
+    "panorama-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-12",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "paragraph-order-anaphora": {
       "streak": 0,
@@ -1278,6 +1308,16 @@
       "reported_confusion": false,
       "observed_days": 13,
       "observation_priority": 0
+    },
+    "woodcut-medium": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-12",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "workout-how-ellipsis": {
       "streak": 0,

@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 410,
+        "question_count": 422,
         "correct_uniquely_longest": 101,
-        "correct_uniquely_shortest": 68,
-        "longest_guess_pct": 30.75,
-        "shortest_guess_pct": 21.08,
+        "correct_uniquely_shortest": 71,
+        "longest_guess_pct": 30.11,
+        "shortest_guess_pct": 21.5,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -4199,6 +4199,210 @@
         "pool": "daily_article",
         "family": "partb-boxed-vocab",
         "source": "data/questions/2026-11-06-2016-partb-headings-migration.json"
+      },
+      "pb17-backdrop-negotiation": {
+        "lengths": [
+          52,
+          52,
+          51,
+          51
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "backdrop-context",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-backdrop-stage": {
+        "lengths": [
+          55,
+          54,
+          50,
+          53
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "backdrop-context",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-chorus-relations": {
+        "lengths": [
+          58,
+          60,
+          53,
+          55
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-moralist-inference": {
+        "lengths": [
+          57,
+          57,
+          57,
+          54
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "moralist-role",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-moralist-public-duty": {
+        "lengths": [
+          60,
+          58,
+          57,
+          54
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "moralist-role",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-music-ending": {
+        "lengths": [
+          58,
+          58,
+          59,
+          59
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-panorama-hill": {
+        "lengths": [
+          56,
+          58,
+          56,
+          58
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "panorama-scope",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-panorama-work": {
+        "lengths": [
+          58,
+          59,
+          55,
+          56
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "panorama-scope",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-report-dependence": {
+        "lengths": [
+          59,
+          57,
+          56,
+          58
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-seed-label-link": {
+        "lengths": [
+          57,
+          56,
+          56,
+          56
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-woodcut-workshop": {
+        "lengths": [
+          58,
+          56,
+          57,
+          58
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "woodcut-medium",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb17-woodcuts-catalogue": {
+        "lengths": [
+          54,
+          54,
+          49,
+          55
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "woodcut-medium",
+        "source": "data/questions/2026-11-12-2017-partb-migration.json"
       },
       "point-joke": {
         "lengths": [

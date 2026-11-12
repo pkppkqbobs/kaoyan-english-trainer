@@ -1,7 +1,7 @@
 {
   "exam": "2017-english1",
-  "checked_on": "2026-11-10",
-  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25. Extended on 2026-11-09: Reading Text 2 Q26-Q30; Q27/Q28 evidence and four boxed terms. Q29 user key A is corroborated by Xinwendao; an early C explanation is retained as a source difference. Extended on 2026-11-10: Text 3 vocabulary and positive paper self-report; no Q31-Q35 answer letters or individual choices reconstructed.",
+  "checked_on": "2026-11-12",
+  "scope": "Section I Use of English Q1-Q20 reference key; Q3/6/8/10/11/13/19 learning mechanisms and selected dictionary checks. Extended on 2026-11-08: Reading Text 1 Q25 reference-title disagreement; no adjudicated answer added for Q25. Extended on 2026-11-09: Reading Text 2 Q26-Q30; Q27/Q28 evidence and four boxed terms. Q29 user key A is corroborated by Xinwendao; an early C explanation is retained as a source difference. Extended on 2026-11-10: Text 3 vocabulary and positive paper self-report; no Q31-Q35 answer letters or individual choices reconstructed. Extended on 2026-11-12: Part B Q41-Q45 and full paragraph order, independently corroborated by Xinwendao and Xinhangdao; paper outcome and strategy remain separate from web results.",
   "purpose": "核对参考答案、正确选项文字和搭配；与用户原始错误选项、网页成绩分开。",
   "sources": [
     {
@@ -153,6 +153,42 @@
       "title": "Cambridge Dictionary: envy",
       "url": "https://dictionary.cambridge.org/us/dictionary/english/envy",
       "covers": "羡慕他人拥有的优势；可带两个宾语，区分感受者与被羡慕的对象，不能自动推出恶意。"
+    },
+    {
+      "id": "xinwendao-2017-partb",
+      "title": "新文道官网：2017年英语一真题解析PDF Part B",
+      "url": "https://oss.hbxinwendao.com/website/upfiles/2021/0820/20210820041332318.pdf",
+      "covers": "第24页逐项核对41F、42E、43A、44C、45G；第24—25页按出生、父亲出狱、投稿发表、作品成功恢复D→F→E→A→C→B→G。仅作参考内容核验，不作用户网页成绩。"
+    },
+    {
+      "id": "xinhangdao-2017-partb",
+      "title": "新航道官网：2017年考研英语一新题型真题及答案解析",
+      "url": "https://www.xhd.cn/news/91001195.html",
+      "covers": "按段落首句与内容交叉核对FEACG及六处衔接，与用户版本D/B固定段相符。"
+    },
+    {
+      "id": "cambridge-moralist",
+      "title": "Cambridge Dictionary: moralist",
+      "url": "https://dictionary.cambridge.org/dictionary/english/moralist",
+      "covers": "关注、倡导正确行为；用词不证明其私人行为完美。词典部分用法带贬义，原文人物介绍按语境处理，不擅加道德指控。"
+    },
+    {
+      "id": "cambridge-panorama",
+      "title": "Cambridge Dictionary: panorama",
+      "url": "https://dictionary.cambridge.org/dictionary/english/panorama",
+      "covers": "空间广阔景观及对活动、事件的整体呈现。"
+    },
+    {
+      "id": "cambridge-backdrop",
+      "title": "Cambridge Dictionary: backdrop",
+      "url": "https://dictionary.cambridge.org/dictionary/english/backdrop",
+      "covers": "舞台布景、可见背景及事件发生的一般情境；不自动证明唯一因果。"
+    },
+    {
+      "id": "npg-woodcut",
+      "title": "National Portrait Gallery: Woodcut",
+      "url": "https://www.npg.org.uk/collections/explore/glossary-of-art-terms/woodcut",
+      "covers": "凸起木版着墨、压纸形成版画；区分媒介、木块和印出的图像。"
     }
   ],
   "answers": {
@@ -180,7 +216,12 @@
     "27": "A",
     "28": "B",
     "29": "A",
-    "30": "D"
+    "30": "D",
+    "41": "F",
+    "42": "E",
+    "43": "A",
+    "44": "C",
+    "45": "G"
   },
   "answer_words": {
     "3": "host",
@@ -337,5 +378,195 @@
     "correct_memory": "shed as a noun meaning a small building",
     "marking_policy": "横线不是框词；shelter/shade是主动辨析对象，不额外声称它们在照片中画框。",
     "context_source": "本次交接文字给出的片段；维护者未重新查看照片，拼写和标记不作新的照片鉴定。"
+  },
+  "part_b_order": [
+    "D",
+    "F",
+    "E",
+    "A",
+    "C",
+    "B",
+    "G"
+  ],
+  "part_b_fixed_paragraphs": [
+    "D",
+    "B"
+  ],
+  "part_b_verified_links": [
+    {
+      "from": "D",
+      "to": "F",
+      "relation": "人物总介绍→出生与童年"
+    },
+    {
+      "from": "F",
+      "to": "E",
+      "relation": "父亲入狱→父亲出狱",
+      "signals": [
+        "imprisonment",
+        "release from prison"
+      ]
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "relation": "投稿→首次发表",
+      "signals": [
+        "submitted short sketches",
+        "first published sketch"
+      ]
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "relation": "笔名及早期作品→作品集出版后发展",
+      "signals": [
+        "Boz",
+        "Sketches by Boz"
+      ]
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "relation": "作品出版→作品成功",
+      "signals": [
+        "Pickwick Club",
+        "Pickwick Papers"
+      ]
+    },
+    {
+      "from": "B",
+      "to": "G",
+      "relation": "凭作品成名→后续创作",
+      "signals": [
+        "Pickwick Papers",
+        "After Pickwick"
+      ]
+    }
+  ],
+  "part_b_performance_coverage": {
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "41": "F",
+        "42": "E",
+        "43": "A",
+        "44": "C",
+        "45": "G"
+      },
+      "reported_full_order": [
+        "D",
+        "F",
+        "E",
+        "A",
+        "C",
+        "B",
+        "G"
+      ],
+      "fixed_paragraphs": [
+        "D",
+        "B"
+      ],
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true
+    },
+    "ordering_strategy": {
+      "user_quote": "这篇感觉太简单了，都不咋用看懂，看些关键词都基本出现在句首句尾。",
+      "summary": "主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。",
+      "evidence_scope": "explicit_chronology_and_paragraph_boundary_links",
+      "full_passage_comprehension": "not_confirmed",
+      "generalization_limit": "本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。",
+      "passage_level_difficulty": false,
+      "guessing": "not_inferred",
+      "adjacent_links": [
+        {
+          "from": "D",
+          "to": "F",
+          "relation": "人物总介绍→出生与童年"
+        },
+        {
+          "from": "F",
+          "to": "E",
+          "relation": "父亲入狱→父亲出狱",
+          "signals": [
+            "imprisonment",
+            "release from prison"
+          ]
+        },
+        {
+          "from": "E",
+          "to": "A",
+          "relation": "投稿→首次发表",
+          "signals": [
+            "submitted short sketches",
+            "first published sketch"
+          ]
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "relation": "笔名及早期作品→作品集出版后发展",
+          "signals": [
+            "Boz",
+            "Sketches by Boz"
+          ]
+        },
+        {
+          "from": "C",
+          "to": "B",
+          "relation": "作品出版→作品成功",
+          "signals": [
+            "Pickwick Club",
+            "Pickwick Papers"
+          ]
+        },
+        {
+          "from": "B",
+          "to": "G",
+          "relation": "凭作品成名→后续创作",
+          "signals": [
+            "Pickwick Papers",
+            "After Pickwick"
+          ]
+        }
+      ],
+      "not_yet_verified": [
+        "隐含因果与转折",
+        "重复关键词的竞争连接",
+        "并列与递进",
+        "跨段指代",
+        "首尾段和全局位置"
+      ],
+      "historical_observations_preserved": [
+        "2011-english1 Part B",
+        "2012-english1 Part B",
+        "2013-english1 Part B",
+        "2014-english1 Part B",
+        "2016-english1 Part B"
+      ]
+    },
+    "evidence_limits": [
+      "仅使用本次结构化文字，未重新查看照片。",
+      "最终排序由用户明确提供；初选、犹豫和改选过程未提供。",
+      "不新增网页Issue、模块成绩、错误数或streak；不抹去以前年份的真实困难。"
+    ],
+    "boxed_words": [
+      "moralist",
+      "panorama",
+      "backdrop",
+      "woodcuts"
+    ]
   }
 }
