@@ -8,6 +8,7 @@ import shutil
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
@@ -42,48 +43,83 @@ def fixture():
 
 class ProgressAuditTests(unittest.TestCase):
     def test_real_old_error_and_slow_target_receive_review_without_fabricating_future_answers(self):
-        items = review.bank(ROOT)
-        rows = review.load(ROOT / 'data/result-evidence.json')['rows']
-        notes = review.load(ROOT / 'data/learning-notes.json')
-        before = copy.deepcopy(rows)
-        history = review.load(ROOT / 'data/daily-history.json')
-        start = date.fromisoformat(review.load(ROOT / 'data/review-state.json')['as_of']) + timedelta(days=1)
+        # Reproduce the original unresolved Oct 11 case. Live grades can later
+        # resolve that weakness, so neither its inputs nor its start date may
+        # advance when an ordinary daily generation commits fresh state.
+        case = review.load(ROOT / 'tests/fixtures/2026-10-11-review-reserve.json')
+        self.assertEqual(case['as_of'], '2026-10-11')
+        items, rows, notes = case['questions'], case['rows'], case['notes']
+        before = copy.deepcopy(case)
+        history = copy.deepcopy(case['daily_history'])
+        variants = copy.deepcopy(case['variant_history'])
+        start = date.fromisoformat(case['as_of']) + timedelta(days=1)
         shown = {family: [] for family in ('viewpoint-fact', 'summary-location')}
-        # A recent article/passage publication is already a scheduled review
-        # opportunity. It is not a scored attempt or a mastery day, but it should
-        # count when measuring whether the scheduler offered an old weakness
-        # within the seven-day window. Otherwise an article shown yesterday
-        # can make this daily-only starvation assertion fail spuriously.
+        # Published opportunities are frozen at the same cutoff as the scores;
+        # later real article uploads must not enter this historical replay.
         family_by_qid = {q['id']: q['family'] for q in items}
-        for stamp, qids in review.variant_history(ROOT, start, history).items():
+        self.assertTrue(all(stamp <= case['as_of'] for stamp in variants))
+        self.assertTrue(all(row['date'] <= case['as_of'] for row in rows))
+        for stamp, qids in variants.items():
             offset = (date.fromisoformat(stamp) - start).days
             if -6 <= offset < 0:
                 for family in shown:
                     if any(family_by_qid.get(qid) == family for qid in qids):
                         shown[family].append(offset)
         initial = review.make_stats(items, rows, notes, start)
-        for offset in range(21):
-            day = start + timedelta(days=offset)
-            stats = review.make_stats(items, rows, notes, day)
-            selected = review.choose(items, stats, history, day,
-                                    variant_shown=review.variant_history(ROOT, day, history))
-            self.assertEqual(len(selected), 8)
-            self.assertEqual(len({q['family'] for q in selected}), 8)
-            self.assertLessEqual(sum(q['family'].startswith('paragraph-order-') for q in selected), 1)
-            history[day.isoformat()] = [q['id'] for q in selected]
-            for q in selected:
-                if q['family'] in shown:
-                    shown[q['family']].append(offset)
-            for family in shown:
-                for key in ('streak', 'errors', 'last', 'observed_days', 'slow_or_uncertain'):
-                    self.assertEqual(stats[family][key], initial[family][key])
-        self.assertEqual(rows, before)
+        self.assertEqual(initial['viewpoint-fact']['streak'], 0)
+        self.assertGreater(initial['viewpoint-fact']['errors'], 0)
+        self.assertEqual(initial['summary-location']['streak'], 0)
+        self.assertTrue(initial['summary-location']['slow_or_uncertain'])
+        # No repository reads are needed after loading the frozen case. Guard
+        # against accidentally reintroducing live dates, grades or publications.
+        with mock.patch.object(review, 'load', side_effect=AssertionError('Historical replay read live data')), \
+                mock.patch.object(review, 'variant_history', side_effect=AssertionError('Historical replay read live publications')):
+            for offset in range(21):
+                day = start + timedelta(days=offset)
+                stats = review.make_stats(items, rows, notes, day)
+                selected = review.choose(items, stats, history, day, variant_shown=variants)
+                self.assertEqual(len(selected), 8)
+                self.assertEqual(len({q['family'] for q in selected}), 8)
+                self.assertLessEqual(sum(q['family'].startswith(('paragraph-order-', 'heading-')) for q in selected), 1)
+                ids = [q['id'] for q in selected]
+                history[day.isoformat()] = ids
+                variants[day.isoformat()] = ids[:]
+                for q in selected:
+                    if q['family'] in shown:
+                        shown[q['family']].append(offset)
+                for family in shown:
+                    for key in ('streak', 'errors', 'last', 'observed_days', 'slow_or_uncertain'):
+                        self.assertEqual(stats[family][key], initial[family][key])
+        self.assertEqual(case, before)
         for family, offsets in shown.items():
             with self.subTest(family=family):
                 self.assertTrue(offsets, 'known old weakness cannot be starved for three weeks')
                 self.assertLess(offsets[0], 7, 'the existing old weakness needs a near-term opportunity')
                 self.assertTrue(any(offset >= 0 for offset in offsets),
                                 'a recent past article cannot satisfy every future review opportunity')
+
+    def test_live_replay_keeps_eight_distinct_targets_without_relabelling_resolved_errors(self):
+        items = review.bank(ROOT)
+        evidence = review.load(ROOT / 'data/result-evidence.json')
+        notes = review.load(ROOT / 'data/learning-notes.json')
+        history = review.load(ROOT / 'data/daily-history.json')
+        cutoff = date.fromisoformat(review.load(ROOT / 'data/review-state.json')['as_of'])
+        variants = review.variant_history(ROOT, cutoff, history)
+        before = copy.deepcopy((evidence, notes))
+        for offset in range(1, 8):
+            day = cutoff + timedelta(days=offset)
+            stats = review.make_stats(items, evidence['rows'], notes, day)
+            queue = review.pending_observation_reviews(items, stats, notes, evidence['rows'], history, day)
+            selected = review.choose(items, stats, history, day, variant_shown=variants,
+                                     initial_reviews=queue)
+            self.assertEqual(len(selected), 8)
+            self.assertEqual(len({q['family'] for q in selected}), 8)
+            self.assertTrue(all(review.available(q, day) for q in selected))
+            self.assertLessEqual(sum(q['family'].startswith(('paragraph-order-', 'heading-')) for q in selected), 1)
+            ids = [q['id'] for q in selected]
+            history[day.isoformat()] = ids
+            variants[day.isoformat()] = ids[:]
+        self.assertEqual((evidence, notes), before)
 
     def test_one_reserve_uses_waiting_time_while_four_urgent_slots_keep_their_priority(self):
         items, stats, history = fixture()

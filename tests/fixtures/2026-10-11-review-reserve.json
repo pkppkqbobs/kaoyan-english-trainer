@@ -1,0 +1,3617 @@
+{
+  "schema_version": 1,
+  "purpose": "Frozen scheduling metadata and real evidence for the original overdue-reserve regression; not a live bank or learner score.",
+  "source_commit": "507c069a95f64f4a4082a8fbdc2d992ff5fb27f8",
+  "as_of": "2026-10-11",
+  "questions": [
+    {
+      "id": "legacy-unpretentious",
+      "o": [
+        "unpretentious",
+        "unpredictable",
+        "formidable",
+        "perplexing"
+      ],
+      "a": 0,
+      "family": "unpretentious",
+      "introduced": "2026-09-29",
+      "budget": 35,
+      "context_id": "plain-room-unpretentious"
+    },
+    {
+      "id": "legacy-faint-praise",
+      "o": [
+        "faint praise",
+        "earnest approval",
+        "open hostility",
+        "sufficient evidence"
+      ],
+      "a": 0,
+      "family": "faint",
+      "introduced": "2026-09-29",
+      "budget": 35,
+      "context_id": "at-least-faint-praise"
+    },
+    {
+      "id": "legacy-miss-point",
+      "o": [
+        "missing the point",
+        "making a point",
+        "reaching the point",
+        "pointing out"
+      ],
+      "a": 0,
+      "family": "point",
+      "introduced": "2026-09-29",
+      "budget": 35,
+      "context_id": "surface-detail-miss-point"
+    },
+    {
+      "id": "legacy-who-that-main",
+      "o": [
+        "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+        "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+        "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+        "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+      ],
+      "a": 0,
+      "family": "nested",
+      "introduced": "2026-09-29",
+      "budget": 60,
+      "context_id": "nested-who-that-predicate"
+    },
+    {
+      "id": "legacy-even",
+      "o": [
+        "Even / over / ever",
+        "Over / ever / even",
+        "Ever / even / over",
+        "Over / even / ever"
+      ],
+      "a": 1,
+      "family": "even",
+      "introduced": null,
+      "budget": 35,
+      "context_id": "over-ever-even-position"
+    },
+    {
+      "id": "legacy-which",
+      "o": [
+        "The archive contains several letters on which the historian based her argument.",
+        "The archive contains several letters which on the historian based her argument.",
+        "The archive contains several letters on that the historian based her argument.",
+        "The archive contains several letters which the historian based her argument on them."
+      ],
+      "a": 0,
+      "family": "relative",
+      "introduced": null,
+      "budget": 60,
+      "context_id": "on-which-argument"
+    },
+    {
+      "id": "legacy-such",
+      "o": [
+        "段A中的降价和延长晚间开放时间",
+        "段C中另一家博物馆的涨价",
+        "所有博物馆过去一年的变化",
+        "local families 本身"
+      ],
+      "a": 0,
+      "family": "reference",
+      "introduced": null,
+      "budget": 35,
+      "context_id": "such-two-improvements"
+    },
+    {
+      "id": "unpretentious-volunteer",
+      "family": "unpretentious",
+      "introduced": "2026-09-29",
+      "o": [
+        "unpredictable",
+        "hostile",
+        "unpretentious",
+        "perplexing"
+      ],
+      "a": 2,
+      "context_id": "context:unpretentious-volunteer"
+    },
+    {
+      "id": "unpredictable-response-time",
+      "family": "unpretentious",
+      "introduced": "2026-09-29",
+      "o": [
+        "unpretentious",
+        "unpredictable",
+        "constant",
+        "reliable"
+      ],
+      "a": 1,
+      "context_id": "context:unpredictable-response-time"
+    },
+    {
+      "id": "faint-map-line",
+      "family": "faint",
+      "introduced": "2026-09-29",
+      "o": [
+        "神圣的",
+        "突然出现的",
+        "隐约的、不清晰的",
+        "故意伪造的"
+      ],
+      "a": 2,
+      "context_id": "context:faint-map-line"
+    },
+    {
+      "id": "faint-praise-restoration",
+      "family": "faint",
+      "introduced": "2026-09-29",
+      "o": [
+        "The team heard an enthusiastic celebration of the project.",
+        "The comment offered only a very weak form of approval.",
+        "The comment proved that the project had failed completely.",
+        "The team was told that the project had won an award."
+      ],
+      "a": 1,
+      "context_id": "context:faint-praise-restoration"
+    },
+    {
+      "id": "point-joke",
+      "family": "point",
+      "introduced": "2026-09-29",
+      "o": [
+        "仍然怀念以前的笑话",
+        "仍然没明白笑话的关键",
+        "忘记了一个标点符号",
+        "没赶上兄弟聚会"
+      ],
+      "a": 1,
+      "context_id": "context:point-joke"
+    },
+    {
+      "id": "point-waiting",
+      "family": "point",
+      "introduced": "2026-09-29",
+      "o": [
+        "联合会",
+        "尖端",
+        "分数",
+        "意义、用处"
+      ],
+      "a": 3,
+      "context_id": "context:point-waiting"
+    },
+    {
+      "id": "nested-shared-gate",
+      "family": "nested",
+      "introduced": "2026-09-29",
+      "budget": 60,
+      "o": [
+        "Residents / discovered / called",
+        "the shared gate / discovered / was",
+        "Residents / was unlocked / discovered",
+        "the caretaker / called / discovered"
+      ],
+      "a": 0,
+      "context_id": "nested-who-that-predicate"
+    },
+    {
+      "id": "relative-borrowed-ladder",
+      "family": "relative",
+      "introduced": null,
+      "budget": 60,
+      "o": [
+        "The plumber thanked the neighbour from that he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom from he had borrowed a ladder.",
+        "The plumber thanked the neighbour from whom he had borrowed a ladder.",
+        "The plumber thanked the neighbour whom he had borrowed a ladder from him."
+      ],
+      "a": 2,
+      "context_id": "context:relative-borrowed-ladder"
+    },
+    {
+      "id": "reference-radio-failures",
+      "family": "reference",
+      "introduced": null,
+      "o": [
+        "A → C",
+        "B → C",
+        "C → A",
+        "A → B"
+      ],
+      "a": 3,
+      "context_id": "context:reference-radio-failures"
+    },
+    {
+      "id": "reference-return-rules",
+      "family": "reference",
+      "introduced": null,
+      "o": [
+        "网上订单本身",
+        "所有商店的规定",
+        "三十天以内退货且出示收据这两个条件",
+        "退款已经完成这一结果"
+      ],
+      "a": 2,
+      "context_id": "context:reference-return-rules"
+    },
+    {
+      "id": "subject-rule-departure",
+      "family": "subject",
+      "introduced": null,
+      "budget": 40,
+      "o": [
+        "Departure times were subjected to repeated adjustments yesterday.",
+        "Departure times are subject to change.",
+        "Departure times are subjected to a detailed inspection every morning.",
+        "Departure times are immune to change."
+      ],
+      "a": 1,
+      "context_id": "context:subject-rule-departure"
+    },
+    {
+      "id": "subject-curtains-steam",
+      "family": "subject",
+      "introduced": null,
+      "budget": 45,
+      "o": [
+        "The curtains are subject to changes in fashion.",
+        "The curtains were exempt from treatment yesterday.",
+        "The curtains were subjected to a steam treatment by the cleaner yesterday.",
+        "The curtains are suitable for steam treatment."
+      ],
+      "a": 2,
+      "context_id": "context:subject-curtains-steam"
+    },
+    {
+      "id": "ever-tent-question",
+      "family": "even",
+      "introduced": null,
+      "o": [
+        "Have you even put up a tent by yourself?",
+        "Have you over put up a tent by yourself?",
+        "Have you never put up a tent by yourself?",
+        "Have you ever put up a tent by yourself?"
+      ],
+      "a": 3,
+      "context_id": "context:ever-tent-question"
+    },
+    {
+      "id": "account-night-train",
+      "family": "account",
+      "introduced": null,
+      "o": [
+        "银行账户",
+        "记述、叙述",
+        "待付账单",
+        "利润总额"
+      ],
+      "a": 1,
+      "context_id": "account-of-narrative-definition"
+    },
+    {
+      "id": "with-bread-cooling",
+      "family": "with",
+      "introduced": null,
+      "budget": 60,
+      "o": [
+        "补充开门时伴随的状态",
+        "引出老板的直接引语",
+        "说明开门的唯一目的",
+        "充当opened的直接宾语"
+      ],
+      "a": 0,
+      "context_id": "with-simultaneous-ing"
+    },
+    {
+      "id": "remote-lottery-chance",
+      "family": "remote",
+      "introduced": null,
+      "o": [
+        "奖品在偏远地区",
+        "机会需要远程控制",
+        "获奖希望渺茫",
+        "获奖已成定局"
+      ],
+      "a": 2,
+      "context_id": "context:remote-lottery-chance"
+    },
+    {
+      "id": "compromise-coffee",
+      "family": "compromise",
+      "introduced": null,
+      "o": [
+        "损害了",
+        "与之协商折中",
+        "保证了",
+        "精确测量了"
+      ],
+      "a": 0,
+      "context_id": "context:compromise-coffee"
+    },
+    {
+      "id": "standard-repair-tickets",
+      "family": "standard",
+      "introduced": null,
+      "o": [
+        "最高档的",
+        "通行的、常规的",
+        "尺寸统一的",
+        "道德上无可指责的"
+      ],
+      "a": 1,
+      "context_id": "standard-practice-definition"
+    },
+    {
+      "id": "end-up-lamps",
+      "family": "end-up",
+      "introduced": null,
+      "o": [
+        "to repair",
+        "repaired",
+        "repair",
+        "repairing"
+      ],
+      "a": 3,
+      "context_id": "context:end-up-lamps"
+    },
+    {
+      "id": "conditions-telescope",
+      "family": "conditions",
+      "introduced": null,
+      "o": [
+        "in case",
+        "as far as",
+        "so long as",
+        "even though"
+      ],
+      "a": 2,
+      "context_id": "permission-so-long-as"
+    },
+    {
+      "id": "logic-unless-freezer",
+      "family": "logic",
+      "introduced": null,
+      "o": [
+        "because",
+        "unless",
+        "although",
+        "so that"
+      ],
+      "a": 1,
+      "budget": 40,
+      "context_id": "context:logic-unless-freezer"
+    },
+    {
+      "id": "transition-river-levels",
+      "family": "transition",
+      "introduced": null,
+      "o": [
+        "Similarly",
+        "Conversely",
+        "Therefore",
+        "For example"
+      ],
+      "a": 1,
+      "budget": 35,
+      "context_id": "context:transition-river-levels"
+    },
+    {
+      "id": "parallel-governance-repair",
+      "family": "parallel-governance",
+      "introduced": null,
+      "o": [
+        "The technician can either replace the sensor or recalibrate the device.",
+        "The technician either can replace the sensor or recalibration of the device.",
+        "The technician can either replacing the sensor or recalibrate the device.",
+        "The technician can either replace the sensor or the device is recalibrated."
+      ],
+      "a": 0,
+      "budget": 45,
+      "context_id": "context:parallel-governance-repair"
+    },
+    {
+      "id": "summary-overall-midsection",
+      "family": "summary-location",
+      "introduced": null,
+      "o": [
+        "It proves the article has reached its final sentence.",
+        "It summarizes the first phase before the article moves to further analysis.",
+        "It introduces a completely unrelated example.",
+        "It means the following claim is uncertain."
+      ],
+      "a": 1,
+      "budget": 45,
+      "context_id": "context:summary-overall-midsection"
+    },
+    {
+      "id": "tone-recovery-physio",
+      "family": "tone",
+      "introduced": null,
+      "o": [
+        "说话语气",
+        "肌肉张力",
+        "肤色",
+        "音高"
+      ],
+      "a": 1,
+      "budget": 35,
+      "context_id": "context:tone-recovery-physio"
+    },
+    {
+      "id": "conceivably-ferry",
+      "family": "conceivably",
+      "introduced": null,
+      "o": [
+        "必然地",
+        "有这种可能，但不能确定",
+        "故意地",
+        "表面上地"
+      ],
+      "a": 1,
+      "budget": 35,
+      "context_id": "context:conceivably-ferry"
+    },
+    {
+      "id": "compromise-seal-sterility",
+      "family": "compromise",
+      "introduced": null,
+      "o": [
+        "通过谈判达成折中",
+        "损害、危及",
+        "精确测量",
+        "公开赞扬"
+      ],
+      "a": 1,
+      "budget": 35,
+      "context_id": "context:compromise-seal-sterility"
+    },
+    {
+      "id": "with-lights-dimming",
+      "family": "with",
+      "introduced": null,
+      "o": [
+        "adds a simultaneous background state",
+        "states the purpose of waiting",
+        "introduces an independent main clause",
+        "means the audience waited together with the lights"
+      ],
+      "a": 0,
+      "budget": 55,
+      "context_id": "with-simultaneous-ing"
+    },
+    {
+      "id": "result-direction-condensation",
+      "family": "result-direction",
+      "introduced": null,
+      "o": [
+        "resulted in / resulted from",
+        "resulted from / resulted in",
+        "resulted from / resulted from",
+        "resulted in / resulted in"
+      ],
+      "a": 1,
+      "budget": 40,
+      "context_id": "context:result-direction-condensation"
+    },
+    {
+      "id": "little-use-for-titles",
+      "family": "have-little-use-for",
+      "introduced": null,
+      "o": [
+        "几乎没有机会使用",
+        "不看重、对……没什么兴趣",
+        "正在寻找替代品",
+        "必须谨慎使用"
+      ],
+      "a": 1,
+      "budget": 35,
+      "context_id": "context:little-use-for-titles"
+    },
+    {
+      "id": "directness-engineer-a",
+      "family": "directness-modifier",
+      "introduced": "2026-09-30",
+      "budget": 45,
+      "o": [
+        "frank",
+        "impulsive",
+        "ceremonial",
+        "hostile"
+      ],
+      "a": 0,
+      "context_id": "directness-bad-news"
+    },
+    {
+      "id": "directness-curator-b",
+      "family": "directness-modifier",
+      "introduced": "2026-09-30",
+      "budget": 45,
+      "o": [
+        "evasive",
+        "frank",
+        "impulsive",
+        "indifferent"
+      ],
+      "a": 1,
+      "context_id": "directness-bad-news"
+    },
+    {
+      "id": "career-chef-a",
+      "family": "career-evidence",
+      "introduced": "2026-09-30",
+      "budget": 50,
+      "o": [
+        "She expected a higher salary.",
+        "She was pursuing a new career goal.",
+        "She disliked everyone in her current kitchen.",
+        "She had already been offered a head-chef job."
+      ],
+      "a": 1,
+      "context_id": "career-seeking-responsibility"
+    },
+    {
+      "id": "career-editor-b",
+      "family": "career-evidence",
+      "introduced": "2026-09-30",
+      "budget": 50,
+      "o": [
+        "He mainly wanted better financial status.",
+        "He wanted a different level of professional responsibility.",
+        "He had been dismissed from his current job.",
+        "He was trying to avoid all management work."
+      ],
+      "a": 1,
+      "context_id": "career-seeking-responsibility"
+    },
+    {
+      "id": "recruitment-poach-a",
+      "family": "recruitment-vocab",
+      "introduced": "2026-09-30",
+      "budget": 40,
+      "o": [
+        "attend to",
+        "poach",
+        "guard against",
+        "approve of"
+      ],
+      "a": 1,
+      "context_id": "context:recruitment-poach-a"
+    },
+    {
+      "id": "recruitment-hunt-b",
+      "family": "recruitment-vocab",
+      "introduced": "2026-09-30",
+      "budget": 40,
+      "o": [
+        "hunt for",
+        "attend to",
+        "guard against",
+        "approve of"
+      ],
+      "a": 0,
+      "context_id": "context:recruitment-hunt-b"
+    },
+    {
+      "id": "cling-policy-a",
+      "family": "cling-climb",
+      "introduced": "2026-09-30",
+      "budget": 35,
+      "o": [
+        "向上攀爬",
+        "紧抓着不愿放弃",
+        "公开批评",
+        "快速修改"
+      ],
+      "a": 1,
+      "context_id": "context:cling-policy-a"
+    },
+    {
+      "id": "cling-rail-b",
+      "family": "cling-climb",
+      "introduced": "2026-09-30",
+      "budget": 35,
+      "o": [
+        "climbed / cling",
+        "clung / climb",
+        "clung / climbed",
+        "climbed / climb"
+      ],
+      "a": 1,
+      "context_id": "context:cling-rail-b"
+    },
+    {
+      "id": "viewpoint-renting-a",
+      "family": "viewpoint-fact",
+      "introduced": "2026-09-30",
+      "budget": 50,
+      "o": [
+        "Every small business rented its office for years.",
+        "There was a widespread belief that renting was safer.",
+        "Buying an office was legally forbidden.",
+        "Businesses that bought offices always failed."
+      ],
+      "a": 1,
+      "context_id": "context:viewpoint-renting-a"
+    },
+    {
+      "id": "viewpoint-diet-b",
+      "family": "viewpoint-fact",
+      "introduced": "2026-09-30",
+      "budget": 50,
+      "o": [
+        "No athlete ever lifted weights during the season.",
+        "There was once a general recommendation against in-season strength training.",
+        "Strength training was banned by every sports federation.",
+        "Athletes who trained during the season were always injured."
+      ],
+      "a": 1,
+      "context_id": "context:viewpoint-diet-b"
+    },
+    {
+      "id": "title-preprint-a",
+      "family": "title-specificity",
+      "introduced": "2026-09-30",
+      "budget": 55,
+      "o": [
+        "Science Is Changing",
+        "The Only Future for Researchers",
+        "Publishing Before Peer Review",
+        "Why Research Is Difficult"
+      ],
+      "a": 2,
+      "context_id": "before-approval-title"
+    },
+    {
+      "id": "title-booking-b",
+      "family": "title-specificity",
+      "introduced": "2026-09-30",
+      "budget": 55,
+      "o": [
+        "Travel in the Modern World",
+        "Booking Before Approval",
+        "The Only Smart Way to Travel",
+        "Why Visas Should Disappear"
+      ],
+      "a": 1,
+      "context_id": "before-approval-title"
+    },
+    {
+      "id": "lined-up-flat-a",
+      "family": "lined-up",
+      "introduced": "2026-09-30",
+      "budget": 35,
+      "o": [
+        "把另一个地方排成一条线",
+        "已经事先安排好了另一个住处",
+        "正在地图上寻找另一个地方",
+        "把另一个住处取消了"
+      ],
+      "a": 1,
+      "context_id": "context:lined-up-flat-a"
+    },
+    {
+      "id": "lined-up-internship-b",
+      "family": "lined-up",
+      "introduced": "2026-09-30",
+      "budget": 35,
+      "o": [
+        "She had already secured the internship in advance.",
+        "She was still casually browsing internship ads.",
+        "The studio had rejected her application.",
+        "She planned to arrange desks in a line."
+      ],
+      "a": 0,
+      "context_id": "context:lined-up-internship-b"
+    },
+    {
+      "id": "absolute-cafes-a",
+      "family": "absolute-language",
+      "introduced": "2026-09-30",
+      "budget": 45,
+      "o": [
+        "More neighborhood cafés are staying open late.",
+        "Some cafés are extending their hours.",
+        "Late-night opening is becoming more common among neighborhood cafés.",
+        "Keeping late-night hours is the only way neighborhood cafés can survive."
+      ],
+      "a": 3,
+      "context_id": "context:absolute-cafes-a"
+    },
+    {
+      "id": "absolute-app-b",
+      "family": "absolute-language",
+      "introduced": "2026-09-30",
+      "budget": 45,
+      "o": [
+        "The simpler layout appeals to many users.",
+        "Some users may prefer the new layout.",
+        "The survey provides evidence of a preference trend.",
+        "Every user prefers the simpler layout."
+      ],
+      "a": 3,
+      "context_id": "context:absolute-app-b"
+    },
+    {
+      "id": "author-stance-recall-a",
+      "family": "author-stance",
+      "introduced": "2026-10-03",
+      "budget": 50,
+      "o": [
+        "The plan deserved every angry comment it received.",
+        "Residents posted a large number of angry comments following the announcement.",
+        "The council knowingly designed a harmful plan.",
+        "All residents opposed the plan."
+      ],
+      "a": 1,
+      "context_id": "context:author-stance-recall-a"
+    },
+    {
+      "id": "title-coverage-library-a",
+      "family": "title-coverage",
+      "introduced": "2026-10-03",
+      "budget": 55,
+      "o": [
+        "Copyright Problems in Online Courses",
+        "Beyond Printed Books: New Library Services",
+        "Why E-books Will Replace Libraries",
+        "The Only Safe Way to Teach Online"
+      ],
+      "a": 1,
+      "context_id": "context:title-coverage-library-a"
+    },
+    {
+      "id": "infancy-payment-a",
+      "family": "infancy",
+      "introduced": "2026-10-03",
+      "budget": 35,
+      "o": [
+        "处于衰退阶段",
+        "仍处于起步阶段",
+        "已经完全成熟",
+        "只适合儿童使用"
+      ],
+      "a": 1,
+      "context_id": "context:infancy-payment-a"
+    },
+    {
+      "id": "hostage-hijack-hashtag-a",
+      "family": "hostage-hijack",
+      "introduced": "2026-10-03",
+      "budget": 45,
+      "o": [
+        "The supplier has physically detained the factory's workers.",
+        "The factory cannot operate independently of the supplier's decisions.",
+        "The factory has paid a ransom to regain legal ownership.",
+        "The supplier manufactures every product sold by the factory."
+      ],
+      "a": 1,
+      "context_id": "context:hostage-hijack-hashtag-a"
+    },
+    {
+      "id": "alerts-dashboard-a",
+      "family": "alerts",
+      "introduced": "2026-10-03",
+      "budget": 35,
+      "o": [
+        "电子邮件提醒或通知",
+        "付款凭证",
+        "广告屏蔽工具",
+        "投诉记录"
+      ],
+      "a": 0,
+      "context_id": "context:alerts-dashboard-a"
+    },
+    {
+      "id": "travel-provider-booking-a",
+      "family": "travel-provider",
+      "introduced": "2026-10-03",
+      "budget": 35,
+      "o": [
+        "the providers are physically moving while working",
+        "the field or service category the providers belong to",
+        "the providers only sell travel books",
+        "travel is the main verb of the sentence"
+      ],
+      "a": 1,
+      "context_id": "context:travel-provider-booking-a"
+    },
+    {
+      "id": "complementary-printer-a",
+      "family": "complementary",
+      "introduced": "2026-10-03",
+      "budget": 40,
+      "o": [
+        "complimentary",
+        "complementary",
+        "competitive",
+        "temporary"
+      ],
+      "a": 1,
+      "context_id": "context:complementary-printer-a"
+    },
+    {
+      "id": "provoke-family-debate-a",
+      "family": "provoke-family",
+      "introduced": "2026-10-03",
+      "budget": 40,
+      "o": [
+        "provocative means sexually attractive here",
+        "provocative means thought-provoking or controversial, and provoke viewers to question means prompt them to question",
+        "provoke always means make someone angry",
+        "provocative means completely objective"
+      ],
+      "a": 1,
+      "context_id": "context:provoke-family-debate-a"
+    },
+    {
+      "id": "past-tense-happiness-trip-a",
+      "family": "past-tense-happiness",
+      "introduced": "2026-10-03",
+      "budget": 45,
+      "o": [
+        "happiness can only exist in childhood",
+        "happiness is judged retrospectively rather than only by moment-to-moment pleasure",
+        "people should ignore all present emotions",
+        "past events are always happier than present ones"
+      ],
+      "a": 1,
+      "context_id": "context:past-tense-happiness-trip-a"
+    },
+    {
+      "id": "feature-verb-magazine-a",
+      "family": "feature-verb",
+      "introduced": "2026-10-03",
+      "budget": 35,
+      "o": [
+        "includes the workshop as a prominent part of the course",
+        "lists the volunteers' physical characteristics",
+        "cancels the bicycle workshop",
+        "requires every volunteer to buy a new bicycle"
+      ],
+      "a": 0,
+      "context_id": "context:feature-verb-magazine-a"
+    },
+    {
+      "id": "subconscious-way-advertising-a",
+      "family": "subconscious-way",
+      "introduced": "2026-10-03",
+      "budget": 40,
+      "o": [
+        "Lina deliberately planned to learn the melody.",
+        "Lina is not fully aware of how the repeated melody affects her.",
+        "The restaurant is legally required to play music.",
+        "The melody has no effect on Lina at all."
+      ],
+      "a": 1,
+      "context_id": "context:subconscious-way-advertising-a"
+    },
+    {
+      "id": "social-message-inference-career-a",
+      "family": "social-message-inference",
+      "introduced": "2026-10-03",
+      "budget": 50,
+      "o": [
+        "Workers who leave on time are formally punished every day.",
+        "The culture may make some workers question whether they are committed enough.",
+        "Employees who stay late are always more productive.",
+        "Managers ignore workers who leave on time."
+      ],
+      "a": 1,
+      "context_id": "social-norm-self-doubt"
+    },
+    {
+      "id": "social-message-inference-parenting-b",
+      "family": "social-message-inference",
+      "introduced": "2026-10-03",
+      "budget": 50,
+      "o": [
+        "The pupil has been personally insulted by every teacher.",
+        "The display may lead the pupil to doubt the value of improvement without perfection.",
+        "The school has failed to display any test scores.",
+        "Every pupil with a perfect score has made greater progress."
+      ],
+      "a": 1,
+      "context_id": "social-norm-self-doubt"
+    },
+    {
+      "id": "causal-role-direction-fitness-a",
+      "family": "causal-role-direction",
+      "introduced": "2026-10-03",
+      "budget": 50,
+      "o": [
+        "The decrease in dust made the workshop install a new filter.",
+        "Installing the filter helped reduce the amount of dust in the workshop.",
+        "Dust in the workshop improved the filter's performance.",
+        "The trial proved that every type of pollution had disappeared."
+      ],
+      "a": 1,
+      "context_id": "context:causal-role-direction-fitness-a"
+    },
+    {
+      "id": "causal-role-direction-travel-b",
+      "family": "causal-role-direction",
+      "introduced": "2026-10-03",
+      "budget": 50,
+      "o": [
+        "The healthier seedlings caused the gardeners to provide shade.",
+        "Shade provided by the gardeners reduced the seedlings' exposure to heat.",
+        "The seedlings protected the gardeners from the heat.",
+        "The heat was reduced because the seedlings dried out."
+      ],
+      "a": 1,
+      "context_id": "context:causal-role-direction-travel-b"
+    },
+    {
+      "id": "social-message-criticism-membership-c",
+      "family": "social-message-inference",
+      "introduced": "2026-10-04",
+      "budget": 50,
+      "o": [
+        "Every resident wants the newsletter to close.",
+        "Non-volunteers are repeatedly exposed to disapproving social judgments.",
+        "The newsletter never mentions non-volunteers.",
+        "Non-volunteers are generally less happy than volunteers."
+      ],
+      "a": 1,
+      "context_id": "context:social-message-criticism-membership-c"
+    },
+    {
+      "id": "paragraph-order-anaphora-course-a",
+      "family": "paragraph-order-anaphora",
+      "introduced": "2026-10-04",
+      "budget": 55,
+      "o": [
+        "One reason such a course is hard to design is that each department defines research differently.",
+        "Professor Li published her first article in 2008 and later moved abroad.",
+        "Meanwhile, graduate salaries have risen in several unrelated industries.",
+        "The university library was renovated before the new president arrived."
+      ],
+      "a": 0,
+      "context_id": "context:paragraph-order-anaphora-course-a"
+    },
+    {
+      "id": "paragraph-order-anaphora-separation-b",
+      "family": "paragraph-order-anaphora",
+      "introduced": "2026-10-04",
+      "budget": 55,
+      "o": [
+        "This separation also helps staff choose the right storage conditions.",
+        "These teachers were born in several different countries.",
+        "Such salaries are difficult to compare across cities.",
+        "That book was translated into three languages."
+      ],
+      "a": 0,
+      "context_id": "context:paragraph-order-anaphora-separation-b"
+    },
+    {
+      "id": "paragraph-order-discourse-parallel-a",
+      "family": "paragraph-order-discourse",
+      "introduced": "2026-10-04",
+      "budget": 50,
+      "o": [
+        "Equally unsurprisingly, only a small share of those who remain receive an offer.",
+        "By contrast, the building was completed twenty years earlier.",
+        "For example, the company sells products in four countries.",
+        "In conclusion, this proves that all interviews are unnecessary."
+      ],
+      "a": 0,
+      "context_id": "context:paragraph-order-discourse-parallel-a"
+    },
+    {
+      "id": "paragraph-order-discourse-conclusion-b",
+      "family": "paragraph-order-discourse",
+      "introduced": "2026-10-04",
+      "budget": 50,
+      "o": [
+        "全文开头，用来首次介绍Dr Patel",
+        "问题分析展开之前",
+        "全文结尾附近，作为总结和改革建议",
+        "只能放在具体数据段之前"
+      ],
+      "a": 2,
+      "context_id": "context:paragraph-order-discourse-conclusion-b"
+    },
+    {
+      "id": "politics-policy-council-a",
+      "family": "politics-policy",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 40,
+      "o": [
+        "politics / policies",
+        "policy / politicians",
+        "politician / politics",
+        "policies / political"
+      ],
+      "a": 1,
+      "context_id": "context:politics-policy-council-a"
+    },
+    {
+      "id": "politics-policy-report-b",
+      "family": "politics-policy",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "政党政策会影响环境政治，而且所有政策制定者支持同一措施。",
+        "政党政治可能影响环境政策，但这不等于每位政治人物都支持同一措施。",
+        "环境政治决定所有政客必须执行同一项政策。",
+        "politics、policy 和 politician 在这里都可以统一译为“政策”。"
+      ],
+      "a": 1,
+      "context_id": "context:politics-policy-report-b"
+    },
+    {
+      "id": "yet-warning-reality-a",
+      "family": "expectation-contrast",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "前句是负面，因此后句必须表达一个正面结果。",
+        "后句给出一个与前文警告所形成的合理预期相违的现实行为。",
+        "后句解释了为什么低温不会影响电池。",
+        "yet表示两件事按时间先后自然发生，没有对比。"
+      ],
+      "a": 1,
+      "context_id": "context:yet-warning-reality-a"
+    },
+    {
+      "id": "yet-goal-outcome-b",
+      "family": "expectation-contrast",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "第二句说明第一句的目标已经实现。",
+        "第二句与第一句毫无逻辑关系，只是补充新数据。",
+        "实际结果违背了设计目标所产生的预期。",
+        "yet表示因为等待时间增加，所以才设计新时刻表。"
+      ],
+      "a": 2,
+      "context_id": "context:yet-goal-outcome-b"
+    },
+    {
+      "id": "polysemy-rest-unjust-a",
+      "family": "familiar-word-polysemy",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "休息 / 仅仅的",
+        "其余申请 / 不公正的",
+        "其余评委 / 刚刚发生的",
+        "暂停审批 / 合法的"
+      ],
+      "a": 1,
+      "context_id": "context:polysemy-rest-unjust-a"
+    },
+    {
+      "id": "polysemy-dismiss-address-b",
+      "family": "familiar-word-polysemy",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "他们先解雇了投诉人，后来查找证据的地址。",
+        "他们起初把投诉斥为无足轻重，后来不得不处理其中的证据。",
+        "他们先证明投诉正确，后来决定忽视证据。",
+        "他们先将投诉寄出，后来改变了通信地址。"
+      ],
+      "a": 1,
+      "context_id": "context:polysemy-dismiss-address-b"
+    },
+    {
+      "id": "constraint-code-chain-a",
+      "family": "constraint-language",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "只有研究人员可以选择是否遵守该准则，承包商不受影响。",
+        "该准则约束研究人员，也适用于承包商；承包商同样受其报告规则约束。",
+        "研究人员负责制定准则，而准则被承包商约束。",
+        "apply to在这里表示“向承包商提出申请”。"
+      ],
+      "a": 1,
+      "context_id": "context:constraint-code-chain-a"
+    },
+    {
+      "id": "constraint-accountable-b",
+      "family": "constraint-language",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "能够接近这些规则",
+        "对这些规则承担责任并接受问责",
+        "与这些规则相处友好",
+        "同意这些规则写得很好"
+      ],
+      "a": 1,
+      "context_id": "context:constraint-accountable-b"
+    },
+    {
+      "id": "relation-tied-apart-a",
+      "family": "relation-collocation",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "两个团队彼此没有关系，所以没有必要区分决策。",
+        "两个团队现实利益联系紧密，因此制度上反而需要刻意把两类决策分开。",
+        "shared bonuses证明销售团队已经接管审批团队。",
+        "closely tied表示两个团队被绳子绑在一起。"
+      ],
+      "a": 1,
+      "context_id": "context:relation-tied-apart-a"
+    },
+    {
+      "id": "relation-independence-b",
+      "family": "relation-collocation",
+      "introduced": "2026-10-05",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "工作联系越紧密，两个机构在制度上越不需要独立。",
+        "由于审计事项与被审部门的决定紧密相关，制度上保持独立可减少自己审自己的问题。",
+        "closely tied说明审计办公室必须归部长直接管理。",
+        "because在这里表示转折，所以前后没有因果。"
+      ],
+      "a": 1,
+      "context_id": "context:relation-independence-b"
+    },
+    {
+      "id": "point-timetable-argument",
+      "family": "point",
+      "introduced": "2026-09-29",
+      "published_on": "2026-10-05",
+      "budget": 35,
+      "o": [
+        "居民的意见有道理，时刻表提供了理由。",
+        "居民已经同意公交运营方的安排。",
+        "公交晚到导致火车晚点。",
+        "居民指出了一个新的候车地点。"
+      ],
+      "a": 0,
+      "context_id": "context:point-timetable-argument"
+    },
+    {
+      "id": "social-message-repair-framing",
+      "family": "social-message-inference",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "The guide judges repairs from owners’ reported dissatisfaction.",
+        "The guide compares replacements by how long they last.",
+        "The guide frames repair negatively without establishing that it fails to meet users’ needs.",
+        "The guide identifies a technical obstacle that prevents battery replacement."
+      ],
+      "a": 2,
+      "context_id": "context:social-message-repair-framing"
+    },
+    {
+      "id": "causal-role-trust-delays",
+      "family": "causal-role-direction",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "Lower use caused the earlier delays, which then improved trust.",
+        "Delays weakened trust; reduced use followed that loss of trust.",
+        "Residents’ increased trust made acknowledgement take longer.",
+        "Fewer reports showed that complaints had been resolved more quickly."
+      ],
+      "a": 1,
+      "context_id": "context:causal-role-trust-delays"
+    },
+    {
+      "id": "causal-role-deadline-response",
+      "family": "causal-role-direction",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "The extension made firms miss the earlier deadline.",
+        "The later participation figures caused the council to extend the round.",
+        "The missed deadline prompted an extension; its effect on later participation is still unknown.",
+        "The earlier deadline was introduced in response to the extension."
+      ],
+      "a": 2,
+      "context_id": "context:causal-role-deadline-response"
+    },
+    {
+      "id": "subject-road-closure-risk",
+      "family": "subject",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "The road has already been closed after a snowstorm.",
+        "Heavy snow can lead to closure, but these lines do not report a closure today.",
+        "The road has been subjected to a closure test today.",
+        "The road is open because heavy snow cannot affect its status."
+      ],
+      "a": 1,
+      "context_id": "context:subject-road-closure-risk"
+    },
+    {
+      "id": "conceivably-damaged-page",
+      "family": "conceivably",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 35,
+      "o": [
+        "页面上已经确认写有需要的日期。",
+        "需要的日期很可能就在这一页，比其他页更有可能。",
+        "这页或许写有需要的日期，目前仍未证实。",
+        "这页故意省略了日期。"
+      ],
+      "a": 2,
+      "context_id": "context:conceivably-damaged-page"
+    },
+    {
+      "id": "conceivably-competing-explanations",
+      "family": "conceivably",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 35,
+      "o": [
+        "A new process is a possible explanation, alongside an instrument fault.",
+        "The readings establish a new process and rule out an instrument fault.",
+        "The instrument fault has been confirmed by a separate test.",
+        "The new process is less likely than an instrument fault according to measured probabilities."
+      ],
+      "a": 0,
+      "context_id": "context:conceivably-competing-explanations"
+    },
+    {
+      "id": "parallel-governance-control-panel",
+      "family": "parallel-governance",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "The faster motor owes its success to the control panel.",
+        "The redesign’s success is attributed to the simpler panel rather than the faster motor.",
+        "The simpler panel was made possible by the redesign’s earlier success.",
+        "The sentence credits the motor and the panel equally."
+      ],
+      "a": 1,
+      "context_id": "context:parallel-governance-control-panel"
+    },
+    {
+      "id": "parallel-governance-inspection-tasks",
+      "family": "parallel-governance",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "The inspector reported that both jobs had already been completed.",
+        "Replacing the belt was expected to check the tension automatically.",
+        "The inspector recommended two tasks: belt replacement and a tension check.",
+        "The machine should be restarted before either task is attempted."
+      ],
+      "a": 2,
+      "context_id": "context:parallel-governance-inspection-tasks"
+    },
+    {
+      "id": "summary-trials-next-question",
+      "family": "summary-location",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "A report of a month-long run and its power use.",
+        "A repetition of the first trial’s one-hour detection rate.",
+        "A history of the material used in the first sensor.",
+        "A claim that accurate detection already proves long battery life."
+      ],
+      "a": 0,
+      "context_id": "context:summary-trials-next-question"
+    },
+    {
+      "id": "summary-current-and-follow-up",
+      "family": "summary-location",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 45,
+      "o": [
+        "The winter review has already overturned the survey findings.",
+        "The council has changed the discussion to the cost of new buses.",
+        "The paragraph summarises current findings and identifies a later check.",
+        "The survey has measured how school journeys changed during the coming winter."
+      ],
+      "a": 2,
+      "context_id": "context:summary-current-and-follow-up"
+    },
+    {
+      "id": "reference-panels-request-switch",
+      "family": "reference",
+      "introduced": null,
+      "published_on": "2026-10-05",
+      "budget": 35,
+      "o": [
+        "it = the report; This request = publishing the report in full",
+        "it = the finance panel’s recommendation; This request = more time",
+        "it = the report; This request = more time for the technical panel",
+        "it = the decision to publish; This request = the finance panel’s recommendation"
+      ],
+      "a": 2,
+      "context_id": "context:reference-panels-request-switch"
+    },
+    {
+      "id": "paragraph-anaphora-map-representatives",
+      "family": "paragraph-order-anaphora",
+      "introduced": "2026-10-04",
+      "published_on": "2026-10-05",
+      "budget": 55,
+      "o": [
+        "The representatives: they received the draft map, and the coordinators were absent.",
+        "The other residents: they are the latest group mentioned before the coordinators.",
+        "The coordinators: they had sent the map, so they must have presented it.",
+        "The representatives and coordinators together: both groups worked on the plan."
+      ],
+      "a": 0,
+      "context_id": "context:paragraph-anaphora-map-representatives"
+    },
+    {
+      "id": "paragraph-discourse-ticket-deposits",
+      "family": "paragraph-order-discourse",
+      "introduced": "2026-10-04",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "Audience surveys ranked music above scenery when asking about favourite parts of the performance.",
+        "The booking agency deducted its service fees before forwarding the remaining money to the theatre.",
+        "The theatre had used the same stage for years, although its audience changed with each production.",
+        "Rehearsals ended later than planned, so actors sometimes travelled home together."
+      ],
+      "a": 1,
+      "context_id": "context:paragraph-discourse-ticket-deposits"
+    },
+    {
+      "id": "title-coverage-kitchen-evolution",
+      "family": "title-coverage",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 55,
+      "o": [
+        "Who Uses Community Kitchens Today",
+        "From Emergency Meals to Shared Cooking",
+        "Rules for Running a Disaster Kitchen",
+        "Why Shared Kitchens Need New Buildings"
+      ],
+      "a": 1,
+      "context_id": "context:title-coverage-kitchen-evolution"
+    },
+    {
+      "id": "title-coverage-local-energy-choices",
+      "family": "title-coverage",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 55,
+      "o": [
+        "Maintaining Urban Heating Pipes",
+        "The Limits of Tidal Generation",
+        "Replacing Solar Panels with Recovered Heat",
+        "Energy Choices Shaped by Local Conditions"
+      ],
+      "a": 3,
+      "context_id": "context:title-coverage-local-energy-choices"
+    },
+    {
+      "id": "title-specificity-bus-lane-tradeoff",
+      "family": "title-specificity",
+      "introduced": "2026-09-30",
+      "published_on": "2026-10-05",
+      "budget": 55,
+      "o": [
+        "Funding the City’s New Bus Fleet",
+        "How Smaller Buses Save Road Space",
+        "Faster Bus Trips, Harder Local Deliveries",
+        "More Frequent Services for Busy Routes"
+      ],
+      "a": 2,
+      "context_id": "context:title-specificity-bus-lane-tradeoff"
+    },
+    {
+      "id": "title-specificity-bookshop-workload",
+      "family": "title-specificity",
+      "introduced": "2026-09-30",
+      "published_on": "2026-10-05",
+      "budget": 55,
+      "o": [
+        "Customer Ratings and Their Disputed Value",
+        "The Hidden Work Behind Shorter Opening Hours",
+        "The Search for Cheaper Storage Space",
+        "How Longer Hours Raised Book Sales"
+      ],
+      "a": 1,
+      "context_id": "context:title-specificity-bookshop-workload"
+    },
+    {
+      "id": "author-stance-volunteer-coordination",
+      "family": "author-stance",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "o": [
+        "She accepts the association’s description as an explanation for the missed visits.",
+        "She regards missed visits as evidence that volunteers want to leave.",
+        "She favours improving coordination over simply blaming commitment.",
+        "She considers punctuality irrelevant to the association’s work."
+      ],
+      "a": 2,
+      "context_id": "context:author-stance-volunteer-coordination"
+    },
+    {
+      "id": "take-page-clinic-a",
+      "family": "take-page-from",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 40,
+      "o": [
+        "雇用航空公司的员工来管理诊所",
+        "借鉴航空公司的做法",
+        "把预约记录交给航空公司保存",
+        "要求病人乘飞机前来就诊"
+      ],
+      "a": 1,
+      "context_id": "context:take-page-clinic-a"
+    },
+    {
+      "id": "take-page-museum-b",
+      "family": "take-page-from",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 40,
+      "o": [
+        "The museum plans to learn from game designers' methods.",
+        "The museum wants game designers to replace its curators.",
+        "The museum will copy a page from a design manual word for word.",
+        "The museum intends to turn the exhibition into a commercial video game."
+      ],
+      "a": 0,
+      "context_id": "context:take-page-museum-b"
+    },
+    {
+      "id": "scope-role-report-subsidy-a",
+      "family": "scope-role-match",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 55,
+      "o": [
+        "explain adequately why small firms avoid the subsidy",
+        "produce participation that lasts after bonuses end",
+        "remove all anecdotes from the discussion",
+        "prove that temporary bonuses never increase participation"
+      ],
+      "a": 0,
+      "context_id": "context:scope-role-report-subsidy-a"
+    },
+    {
+      "id": "scope-role-device-study-b",
+      "family": "scope-role-match",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 55,
+      "o": [
+        "provide any historical background",
+        "investigate the cold-weather failures sufficiently",
+        "prevent the battery from losing capacity",
+        "make the device work indefinitely in freezing conditions"
+      ],
+      "a": 1,
+      "context_id": "context:scope-role-device-study-b"
+    },
+    {
+      "id": "paragraph-scope-algorithm-a",
+      "family": "paragraph-scope-attitude",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 55,
+      "o": [
+        "profound",
+        "questionable",
+        "desirable",
+        "harmless"
+      ],
+      "a": 1,
+      "context_id": "context:paragraph-scope-algorithm-a"
+    },
+    {
+      "id": "paragraph-scope-health-campaign-b",
+      "family": "paragraph-scope-attitude",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 55,
+      "o": [
+        "Its effect is uncertain or doubtful.",
+        "Its influence on behavior is necessarily profound.",
+        "It is clearly harmful to friendship networks.",
+        "It succeeds because peer influence is strong."
+      ],
+      "a": 0,
+      "context_id": "context:paragraph-scope-health-campaign-b"
+    },
+    {
+      "id": "social-cure-vocab-host-a",
+      "family": "social-cure-vocab",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 40,
+      "o": [
+        "The report offers a single medical treatment prescribed by doctors.",
+        "The report gives many examples of a social intervention using group influence.",
+        "The report hosts a meeting where examples are displayed.",
+        "The report argues that peer support is a disease."
+      ],
+      "a": 1,
+      "context_id": "context:social-cure-vocab-host-a"
+    },
+    {
+      "id": "social-cure-vocab-anti-b",
+      "family": "social-cure-vocab",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 40,
+      "o": [
+        "反对吸烟的 / 邀请",
+        "促进吸烟的 / 强迫",
+        "反对广告的 / 请帖纸张",
+        "治疗吸烟的 / 命令"
+      ],
+      "a": 0,
+      "context_id": "context:social-cure-vocab-anti-b"
+    },
+    {
+      "id": "evaluation-vocab-spoton-a",
+      "family": "evaluation-vocab",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 45,
+      "o": [
+        "她对宣传乏力之处的批评非常准确。",
+        "她因为腿脚不便而无法批评这个宣传。",
+        "她只是随意夸奖了这个宣传。",
+        "她认为宣传证据充分，只是口号太短。"
+      ],
+      "a": 0,
+      "context_id": "context:evaluation-vocab-spoton-a"
+    },
+    {
+      "id": "evaluation-vocab-flaw-b",
+      "family": "evaluation-vocab",
+      "introduced": "2026-10-07",
+      "published_on": "2026-10-07",
+      "budget": 45,
+      "o": [
+        "宣传册恳求读者捐款，但无关细节很多，最明显的缺陷是没有说明资金去向。",
+        "宣传册命令读者捐款，而最大的优点是细节丰富。",
+        "宣传册只是平静陈述事实，没有表达请求。",
+        "irrelevant detail指最关键、最相关的证据。"
+      ],
+      "a": 0,
+      "context_id": "context:evaluation-vocab-flaw-b"
+    },
+    {
+      "id": "commitment-heaters-promise-a",
+      "family": "commitment-semantics",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 45,
+      "o": [
+        "It reaffirmed its replacement pledge.",
+        "It condemned the pledge but continued honoring it.",
+        "It reneged on its pledge.",
+        "It secured stronger protection for customers."
+      ],
+      "a": 2,
+      "context_id": "context:commitment-heaters-promise-a"
+    },
+    {
+      "id": "commitment-contract-criticism-b",
+      "family": "commitment-semantics",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 50,
+      "o": [
+        "It criticized the agreement without breaking it.",
+        "It dishonored the contract by refusing every delivery.",
+        "It withdrew its criticism and praised the agreement.",
+        "It had never agreed to the original contract."
+      ],
+      "a": 0,
+      "context_id": "context:commitment-contract-criticism-b"
+    },
+    {
+      "id": "transaction-station-approval-a",
+      "family": "transaction-purpose",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "o": [
+        "To obtain permission to acquire the station.",
+        "To guarantee that the city would operate the museum for ten years.",
+        "To persuade a federal agency to buy the station.",
+        "To extend a business license it had already been granted."
+      ],
+      "a": 0,
+      "context_id": "context:transaction-station-approval-a"
+    },
+    {
+      "id": "transaction-grant-reports-b",
+      "family": "transaction-purpose",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "o": [
+        "Employment as a reporting contractor.",
+        "An exemption from future water testing.",
+        "Funding for its water-quality project.",
+        "The right to approve other universities' grants."
+      ],
+      "a": 2,
+      "context_id": "context:transaction-grant-reports-b"
+    },
+    {
+      "id": "evidence-flood-sensor-trial-a",
+      "family": "test-object-scope",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "o": [
+        "Why districts disagree about warning policies.",
+        "The cost of replacing all warning signs.",
+        "Whether differing regulations should be abolished.",
+        "How early the sensor identifies approaching flooding."
+      ],
+      "a": 3,
+      "context_id": "context:evidence-flood-sensor-trial-a"
+    },
+    {
+      "id": "evidence-concrete-freeze-b",
+      "family": "test-object-scope",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "o": [
+        "The durability of the material under freezing conditions.",
+        "The political motives behind local building codes.",
+        "Whether every city will adopt identical construction rules.",
+        "The cost of enforcing municipal regulations."
+      ],
+      "a": 0,
+      "context_id": "context:evidence-concrete-freeze-b"
+    },
+    {
+      "id": "attribution-fish-survey-a",
+      "family": "attribution-stance",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "o": [
+        "To determine whether young fish can travel past the dam.",
+        "To calculate the operator's annual advertising spending.",
+        "To prove the journalist agrees with every biologist's opinion.",
+        "To establish that delaying site access was legal."
+      ],
+      "a": 0,
+      "context_id": "context:attribution-fish-survey-a"
+    },
+    {
+      "id": "attribution-closing-budget-b",
+      "family": "attribution-stance",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 55,
+      "o": [
+        "The columnist reports the claim but questions whether evidence supports it.",
+        "The columnist has independently verified large savings.",
+        "The columnist proves Sunday closure cannot save any money.",
+        "The columnist discusses only the consultant's personal character."
+      ],
+      "a": 0,
+      "context_id": "context:attribution-closing-budget-b"
+    },
+    {
+      "id": "boxed-vocab-surfacing-dispute-a",
+      "family": "text2-boxed-vocab",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 40,
+      "o": [
+        "being resolved completely",
+        "becoming known little by little",
+        "being hidden under water",
+        "being deliberately withdrawn"
+      ],
+      "a": 1,
+      "context_id": "context:boxed-vocab-surfacing-dispute-a"
+    },
+    {
+      "id": "boxed-vocab-patchwork-rules-b",
+      "family": "text2-boxed-vocab",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 45,
+      "o": [
+        "长期分歧使登记规则零散、不统一。",
+        "长期分歧已被一套完全统一的规则解决。",
+        "patchwork表示这些规则是用布料制作的。",
+        "longstanding说明分歧刚刚才出现。"
+      ],
+      "a": 0,
+      "context_id": "context:boxed-vocab-patchwork-rules-b"
+    },
+    {
+      "id": "polysemy-justified-complaint-a",
+      "family": "familiar-word-polysemy",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 45,
+      "o": [
+        "happening only a moment ago",
+        "expressed by an entirely impartial person",
+        "supported by adequate reasons",
+        "merely mentioned without emotion"
+      ],
+      "a": 2,
+      "context_id": "context:polysemy-justified-complaint-a"
+    },
+    {
+      "id": "polysemy-just-justified-b",
+      "family": "familiar-word-polysemy",
+      "introduced": "2026-10-08",
+      "published_on": "2026-10-08",
+      "budget": 50,
+      "o": [
+        "just means recent; justified means only",
+        "The decision was fair, while the bribery suspicion lacked sufficient support.",
+        "The panel proved bribery, but acted unfairly.",
+        "Both just and justified mean the panel was proud of itself."
+      ],
+      "a": 1,
+      "context_id": "context:polysemy-just-justified-b"
+    },
+    {
+      "id": "process-stage-shelter-approval-a",
+      "family": "process-stage-role",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 55,
+      "o": [
+        "The analyst's personal familiarity with the shelters.",
+        "Verification and agreement across independent teams.",
+        "The public release of a large numerical estimate.",
+        "The analyst's decision to avoid revising the original number."
+      ],
+      "a": 1,
+      "context_id": "context:process-stage-shelter-approval-a"
+    },
+    {
+      "id": "process-stage-bridge-warning-b",
+      "family": "process-stage-role",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 55,
+      "o": [
+        "A more vivid description from the first driver.",
+        "Agreement that the first driver deserves public credit.",
+        "Public enthusiasm for an alarming photograph.",
+        "Independent assessment and confirmation of the reported danger."
+      ],
+      "a": 3,
+      "context_id": "context:process-stage-bridge-warning-b"
+    },
+    {
+      "id": "inference-boundary-architect-layout-a",
+      "family": "inference-boundary",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 55,
+      "o": [
+        "Old designs should be reconsidered when experience reveals their limits.",
+        "Every renovation will inspire a generation of future architects.",
+        "Pedestrian choices have no effect on city traffic.",
+        "New designs should always replace old ones, even when they work."
+      ],
+      "a": 0,
+      "context_id": "context:inference-boundary-architect-layout-a"
+    },
+    {
+      "id": "inference-boundary-archive-questions-b",
+      "family": "inference-boundary",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 55,
+      "o": [
+        "An influential book must be reprinted before its argument becomes valid.",
+        "Repeatedly publishing the same documents automatically produces new discoveries.",
+        "Revisiting familiar evidence with different questions can yield new interpretations.",
+        "The historian's method necessarily shaped every later generation of researchers."
+      ],
+      "a": 2,
+      "context_id": "context:inference-boundary-archive-questions-b"
+    },
+    {
+      "id": "title-coverage-public-alerts-a",
+      "family": "title-coverage",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 65,
+      "o": [
+        "Why Local Volunteers Sometimes Make Mistakes",
+        "The Threat of False Reports at the Start of Every Journey",
+        "How Road-Hazard Reports Become Trusted Public Advice",
+        "A Debate over Whether Engineers Should Be Replaced"
+      ],
+      "a": 2,
+      "context_id": "context:title-coverage-public-alerts-a"
+    },
+    {
+      "id": "title-coverage-school-meals-b",
+      "family": "title-coverage",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 65,
+      "o": [
+        "The Hidden Cost of Hiring School Kitchen Workers",
+        "From Lunch Complaints to an Evolving Food Program",
+        "Why Students Reject Every Healthy Menu",
+        "A Final Recipe That Ended School Food Debates"
+      ],
+      "a": 1,
+      "context_id": "context:title-coverage-school-meals-b"
+    },
+    {
+      "id": "science-claim-vocab-proto-a",
+      "family": "science-claim-vocab",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 45,
+      "o": [
+        "Scientifically established knowledge that can no longer be questioned.",
+        "An early, not-yet-fully-validated stage of scientific inquiry.",
+        "A deliberate effort to deceive the public with fake data.",
+        "An area of research unrelated to evidence or testing."
+      ],
+      "a": 1,
+      "context_id": "context:science-claim-vocab-proto-a"
+    },
+    {
+      "id": "science-claim-vocab-archive-b",
+      "family": "science-claim-vocab",
+      "introduced": "2026-10-10",
+      "published_on": "2026-10-10",
+      "budget": 50,
+      "o": [
+        "They completed a final sale of the archive.",
+        "They physically built fences around all the records.",
+        "They asserted a right to the archive, though ownership remained unverified.",
+        "They agreed to give up every possible legal interest."
+      ],
+      "a": 2,
+      "context_id": "context:science-claim-vocab-archive-b"
+    },
+    {
+      "id": "compensation-hospital-benefits-a",
+      "family": "compensation-components",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 55,
+      "o": [
+        "Every nurse's cash salary doubled.",
+        "The hospital eliminated all non-wage benefits.",
+        "The overall reward package improved partly through benefits beyond basic pay.",
+        "The hospital cut pension support to finance the salary increase."
+      ],
+      "a": 2,
+      "context_id": "context:compensation-hospital-benefits-a"
+    },
+    {
+      "id": "compensation-port-delayed-benefits-b",
+      "family": "compensation-components",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 60,
+      "o": [
+        "Because future benefits add compensation not visible in current wage increases.",
+        "Because the wage table proves that workers lost all holiday entitlement.",
+        "Because capped wages show that pensions must have been reduced.",
+        "Because only the highest-paid managers can receive retirement benefits."
+      ],
+      "a": 0,
+      "context_id": "context:compensation-port-delayed-benefits-b"
+    },
+    {
+      "id": "example-council-reform-opposition-a",
+      "family": "example-claim-scope",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 60,
+      "o": [
+        "Organized groups can impede administrative reforms.",
+        "The association persuaded every resident to change political allegiance.",
+        "Most builders oppose the current political system in all circumstances.",
+        "Digital permits always cost more than paper applications."
+      ],
+      "a": 0,
+      "context_id": "context:example-council-reform-opposition-a"
+    },
+    {
+      "id": "example-farmers-support-trial-b",
+      "family": "example-claim-scope",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 60,
+      "o": [
+        "It proves every member had opposed water conservation before joining.",
+        "It shows cooperatives necessarily control the national government.",
+        "It establishes that all unpopular policies eventually succeed.",
+        "It supports the claim that organized groups can facilitate policy implementation."
+      ],
+      "a": 3,
+      "context_id": "context:example-farmers-support-trial-b"
+    },
+    {
+      "id": "inference-boundary-tenant-supporters-a",
+      "family": "inference-boundary",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 50,
+      "o": [
+        "The campaign converted 800 opponents into supporters.",
+        "The gathering shows mobilization of supporters, not necessarily a change in their prior attitudes.",
+        "The group persuaded the city to cancel the proposal.",
+        "All residents now oppose rent increases."
+      ],
+      "a": 1,
+      "context_id": "context:inference-boundary-tenant-supporters-a"
+    },
+    {
+      "id": "inference-boundary-survey-shift-b",
+      "family": "inference-boundary",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 55,
+      "o": [
+        "The campaign alone caused every changed opinion.",
+        "Support was measured to have risen, but the campaign's independent causal effect is not established.",
+        "There is no evidence anyone's opinion changed.",
+        "The fare cut certainly had no influence on residents."
+      ],
+      "a": 1,
+      "context_id": "context:inference-boundary-survey-shift-b"
+    },
+    {
+      "id": "text4-vocab-unionist-prime-a",
+      "family": "text4-boxed-vocab",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 40,
+      "o": [
+        "政府公务员 / 刚开始工作的时候",
+        "行业雇主 / 在退休之后",
+        "工会人士 / 处于事业或能力的鼎盛时期",
+        "独立记者 / 工作经验尚浅时"
+      ],
+      "a": 2,
+      "context_id": "context:text4-vocab-unionist-prime-a"
+    },
+    {
+      "id": "text4-vocab-way-fearsome-b",
+      "family": "text4-boxed-vocab",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 50,
+      "o": [
+        "小团队的法律资源不多，而对手长期诉讼的名声令人畏惧。",
+        "小团队在通往法庭的道路上迷路了，而对手声誉良好。",
+        "小团队有充足法律资源，对手从不打官司。",
+        "小团队为了避免诉讼故意封锁道路。"
+      ],
+      "a": 0,
+      "context_id": "context:text4-vocab-way-fearsome-b"
+    },
+    {
+      "id": "text4-vocab-merit-generous-c",
+      "family": "text4-boxed-vocab",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 50,
+      "o": [
+        "根据研究员家庭财产发放的基本工资",
+        "所有人的基本工资被削减到同一标准",
+        "只奖励研究员在岗年限的津贴",
+        "对达到绩效标准的研究者提供优厚的绩效奖金或工资"
+      ],
+      "a": 3,
+      "context_id": "context:text4-vocab-merit-generous-c"
+    },
+    {
+      "id": "text4-vocab-rally-drawnout-d",
+      "family": "text4-boxed-vocab",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-11",
+      "budget": 55,
+      "o": [
+        "听证会异常简短，因此活动人士解散了居民。",
+        "经过众所周知旷日持久的听证会，活动人士动员当地居民反对计划。",
+        "听证会从未进行，居民被要求保持中立。",
+        "活动人士隐瞒了整个听证会，因此居民改变了政治立场。"
+      ],
+      "a": 1,
+      "context_id": "context:text4-vocab-rally-drawnout-d"
+    }
+  ],
+  "rows": [
+    {
+      "date": "2026-09-27",
+      "family": "reference",
+      "ok": false,
+      "ms": 18100.0,
+      "uncertain": false,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 6000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "attempts": 2,
+      "errors": 0,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "subject",
+      "ok": true,
+      "ms": 128000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "even",
+      "ok": true,
+      "ms": 15000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "standard",
+      "ok": true,
+      "ms": 29000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-27",
+      "family": "compromise",
+      "ok": true,
+      "ms": 12000.0,
+      "uncertain": false,
+      "aggregate": true,
+      "attempts": 1,
+      "errors": 0,
+      "origin": 1
+    },
+    {
+      "date": "2026-09-28",
+      "family": "subject",
+      "ok": true,
+      "ms": 48500.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "reference",
+      "ok": false,
+      "ms": 28700.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "logic",
+      "ok": true,
+      "ms": 35600.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 34900.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "transition",
+      "ok": true,
+      "ms": 26500.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "tone",
+      "ok": true,
+      "ms": 6000.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 11800.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-28",
+      "family": "relative",
+      "ok": true,
+      "ms": 45400.0,
+      "uncertain": false,
+      "origin": 2
+    },
+    {
+      "date": "2026-09-29",
+      "family": "even",
+      "ok": true,
+      "ms": 31900.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "nested",
+      "ok": true,
+      "ms": 11200.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "point",
+      "ok": true,
+      "ms": 16200.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "reference",
+      "ok": true,
+      "ms": 49800.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "faint",
+      "ok": true,
+      "ms": 21500.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "relative",
+      "ok": true,
+      "ms": 21600.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-29",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 13400.0,
+      "uncertain": false,
+      "origin": 3
+    },
+    {
+      "date": "2026-09-30",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 18872,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "directness-engineer-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 26565,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "career-chef-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 25901,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "recruitment-poach-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "cling-climb",
+      "ok": true,
+      "ms": 16696,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "cling-policy-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 32327,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "viewpoint-renting-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 12828,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "title-preprint-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "lined-up",
+      "ok": true,
+      "ms": 14902,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "lined-up-flat-a"
+    },
+    {
+      "date": "2026-09-30",
+      "family": "absolute-language",
+      "ok": true,
+      "ms": 36797,
+      "uncertain": false,
+      "origin": 4,
+      "qid": "absolute-cafes-a"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 137101,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "directness-curator-b"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "logic",
+      "ok": true,
+      "ms": 16240,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "logic-unless-freezer"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 71908,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "summary-overall-midsection"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "nested",
+      "ok": true,
+      "ms": 26836,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "nested-shared-gate"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "reference",
+      "ok": true,
+      "ms": 30328,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "reference-radio-failures"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 9997,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "recruitment-hunt-b"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "viewpoint-fact",
+      "ok": true,
+      "ms": 36535,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "viewpoint-renting-a"
+    },
+    {
+      "date": "2026-10-01",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 13048,
+      "uncertain": false,
+      "origin": 5,
+      "qid": "career-chef-a"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "tone",
+      "ok": true,
+      "ms": 13143,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "tone-recovery-physio"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 16030,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "legacy-unpretentious"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 17444,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "title-preprint-a"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "faint",
+      "ok": false,
+      "ms": 59232,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "faint-praise-restoration"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "parallel-governance",
+      "ok": false,
+      "ms": 46739,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "parallel-governance-repair"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "with",
+      "ok": true,
+      "ms": 50771,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "with-lights-dimming"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "conceivably",
+      "ok": false,
+      "ms": 50870,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "conceivably-ferry"
+    },
+    {
+      "date": "2026-10-02",
+      "family": "cling-climb",
+      "ok": true,
+      "ms": 5592,
+      "uncertain": false,
+      "origin": 6,
+      "qid": "cling-policy-a"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 11904,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "directness-engineer-a"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "faint",
+      "ok": true,
+      "ms": 11259,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "faint-map-line"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 30884,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "parallel-governance-repair"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "relative",
+      "ok": true,
+      "ms": 29065,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "relative-borrowed-ladder"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "subject",
+      "ok": false,
+      "ms": 24851,
+      "uncertain": true,
+      "origin": 7,
+      "qid": "subject-rule-departure"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "viewpoint-fact",
+      "ok": false,
+      "ms": 47834,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "viewpoint-diet-b"
+    },
+    {
+      "date": "2026-10-03",
+      "family": "reference",
+      "ok": true,
+      "ms": 25251,
+      "uncertain": false,
+      "origin": 7,
+      "qid": "reference-return-rules"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 52250,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "summary-overall-midsection"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 36264,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "conceivably-ferry"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "subject",
+      "ok": true,
+      "ms": 50263,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "subject-curtains-steam"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 61015,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "social-message-inference-career-a"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 7984,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "directness-curator-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "nested",
+      "ok": true,
+      "ms": 29510,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "legacy-who-that-main"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "causal-role-direction",
+      "ok": false,
+      "ms": 35953,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "causal-role-direction-fitness-a"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "faint",
+      "ok": true,
+      "ms": 20152,
+      "uncertain": false,
+      "origin": 8,
+      "qid": "legacy-faint-praise"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 151239,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "paragraph-order-discourse-conclusion-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "career-evidence",
+      "ok": true,
+      "ms": 45115,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "career-editor-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "paragraph-order-anaphora",
+      "ok": true,
+      "ms": 16682,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "paragraph-order-anaphora-separation-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 94288,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "causal-role-direction-travel-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "point",
+      "ok": false,
+      "ms": 36086,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "legacy-miss-point"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "social-message-inference",
+      "ok": false,
+      "ms": 49134,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "social-message-inference-parenting-b"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "with",
+      "ok": true,
+      "ms": 7159,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "with-bread-cooling"
+    },
+    {
+      "date": "2026-10-04",
+      "family": "recruitment-vocab",
+      "ok": true,
+      "ms": 14182,
+      "uncertain": false,
+      "origin": 9,
+      "qid": "recruitment-poach-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 119640,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "unpredictable-response-time"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 5776,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "paragraph-order-discourse-parallel-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 37210,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "social-message-inference-parenting-b"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 19553,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "title-coverage-library-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "relative",
+      "ok": true,
+      "ms": 29026,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "legacy-which"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "author-stance",
+      "ok": true,
+      "ms": 43683,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "author-stance-recall-a"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "point",
+      "ok": true,
+      "ms": 10632,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "point-waiting"
+    },
+    {
+      "date": "2026-10-05",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 47228,
+      "uncertain": false,
+      "origin": 10,
+      "qid": "causal-role-direction-travel-b"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 33966,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "causal-role-direction-travel-b",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "paragraph-scope-attitude",
+      "ok": true,
+      "ms": 51053,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "paragraph-scope-algorithm-a",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "with",
+      "ok": true,
+      "ms": 17856,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "with-bread-cooling",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 9539,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "legacy-unpretentious",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "point",
+      "ok": true,
+      "ms": 273213,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "legacy-miss-point",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 114556,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "scope-role-device-study-b",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 130461,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "social-message-criticism-membership-c",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-08",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 30568,
+      "uncertain": false,
+      "origin": 11,
+      "qid": "paragraph-order-discourse-conclusion-b",
+      "round_id": "muzin61z-vshbhpr8",
+      "source_date": "2026-10-08"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "point",
+      "ok": true,
+      "ms": 31730,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "point-joke",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 49583,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "scope-role-device-study-b",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "commitment-semantics",
+      "ok": true,
+      "ms": 33212,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "commitment-heaters-promise-a",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "nested",
+      "ok": true,
+      "ms": 15929,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "nested-shared-gate",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 31741,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "unpredictable-response-time",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "conceivably",
+      "ok": true,
+      "ms": 50289,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "conceivably-ferry",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 41907,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "social-message-inference-career-a",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-10",
+      "family": "test-object-scope",
+      "ok": true,
+      "ms": 48550,
+      "uncertain": false,
+      "origin": 12,
+      "qid": "evidence-concrete-freeze-b",
+      "round_id": "mv2ews14-44ts0fp9",
+      "source_date": "2026-10-10"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "title-specificity",
+      "ok": true,
+      "ms": 14806,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "title-preprint-a",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "point",
+      "ok": true,
+      "ms": 388654,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "legacy-miss-point",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "process-stage-role",
+      "ok": false,
+      "ms": 57536,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "process-stage-shelter-approval-a",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 123492,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "parallel-governance-repair",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "relative",
+      "ok": false,
+      "ms": 16867,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "social-message-inference",
+      "ok": true,
+      "ms": 16783,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "social-message-repair-framing",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "inference-boundary",
+      "ok": true,
+      "ms": 83108,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "inference-boundary-archive-questions-b",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    },
+    {
+      "date": "2026-10-11",
+      "family": "subject",
+      "ok": true,
+      "ms": 19649,
+      "uncertain": false,
+      "origin": 13,
+      "qid": "subject-curtains-steam",
+      "round_id": "mv3t3scl-l603g6es",
+      "source_date": "2026-10-11"
+    }
+  ],
+  "notes": [
+    {
+      "family": "unpretentious",
+      "date": "2026-09-29",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "faint",
+      "date": "2026-09-29",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "point",
+      "date": "2026-09-29",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "nested",
+      "date": "2026-09-29",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "directness-modifier",
+      "date": "2026-09-30",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "career-evidence",
+      "date": "2026-09-30",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "recruitment-vocab",
+      "date": "2026-09-30",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "cling-climb",
+      "date": "2026-09-30",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "title-specificity",
+      "date": "2026-09-30",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "author-stance",
+      "date": "2026-10-03",
+      "kind": "correct_but_uncertain"
+    },
+    {
+      "family": "title-coverage",
+      "date": "2026-10-03",
+      "kind": "correct_but_uncertain"
+    },
+    {
+      "family": "infancy",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "hostage-hijack",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "alerts",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "travel-provider",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "complementary",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "social-message-inference",
+      "date": "2026-10-03",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "causal-role-direction",
+      "date": "2026-10-03",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "provoke-family",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "past-tense-happiness",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "feature-verb",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "kitten-killing",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty",
+      "review_importance": "low"
+    },
+    {
+      "family": "subconscious-way",
+      "date": "2026-10-03",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "paragraph-order-anaphora",
+      "date": "2026-10-04",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "paragraph-order-discourse",
+      "date": "2026-10-04",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "paragraph-order-discourse",
+      "date": "2026-10-04",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "paragraph-order-anaphora",
+      "date": "2026-10-04",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "politics-policy",
+      "date": "2026-10-05",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "expectation-contrast",
+      "date": "2026-10-05",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "familiar-word-polysemy",
+      "date": "2026-10-05",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "constraint-language",
+      "date": "2026-10-05",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "relation-collocation",
+      "date": "2026-10-05",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "familiar-word-polysemy",
+      "date": "2026-10-05",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "take-page-from",
+      "date": "2026-10-07",
+      "kind": "correct_but_uncertain"
+    },
+    {
+      "family": "scope-role-match",
+      "date": "2026-10-07",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "paragraph-scope-attitude",
+      "date": "2026-10-07",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "social-cure-vocab",
+      "date": "2026-10-07",
+      "kind": "translation_difficulty",
+      "review_importance": "low"
+    },
+    {
+      "family": "evaluation-vocab",
+      "date": "2026-10-07",
+      "kind": "translation_difficulty",
+      "review_importance": "low"
+    },
+    {
+      "family": "commitment-semantics",
+      "date": "2026-10-08",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "transaction-purpose",
+      "date": "2026-10-08",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "test-object-scope",
+      "date": "2026-10-08",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "attribution-stance",
+      "date": "2026-10-08",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "familiar-word-polysemy",
+      "date": "2026-10-08",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "text2-boxed-vocab",
+      "date": "2026-10-08",
+      "kind": "translation_difficulty",
+      "review_importance": "low"
+    },
+    {
+      "family": "process-stage-role",
+      "date": "2026-10-10",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "inference-boundary",
+      "date": "2026-10-10",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "title-coverage",
+      "date": "2026-10-10",
+      "kind": "user_reported_wrong"
+    },
+    {
+      "family": "science-claim-vocab",
+      "date": "2026-10-10",
+      "kind": "translation_difficulty",
+      "review_importance": "low"
+    },
+    {
+      "family": "compensation-components",
+      "date": "2026-10-11",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "example-claim-scope",
+      "date": "2026-10-11",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "inference-boundary",
+      "date": "2026-10-11",
+      "kind": "user_reported_confusion"
+    },
+    {
+      "family": "text4-boxed-vocab",
+      "date": "2026-10-11",
+      "kind": "translation_difficulty"
+    },
+    {
+      "family": "text4-boxed-vocab",
+      "date": "2026-10-11",
+      "kind": "translation_difficulty",
+      "review_importance": "low"
+    }
+  ],
+  "daily_history": {
+    "2026-09-29": [
+      "remote-lottery-chance",
+      "compromise-coffee",
+      "nested-shared-gate",
+      "with-bread-cooling",
+      "conditions-telescope",
+      "legacy-miss-point",
+      "account-night-train",
+      "standard-repair-tickets"
+    ],
+    "2026-09-30": [
+      "unpretentious-volunteer",
+      "legacy-such",
+      "end-up-lamps",
+      "subject-curtains-steam",
+      "legacy-faint-praise",
+      "point-joke",
+      "remote-lottery-chance",
+      "legacy-who-that-main"
+    ],
+    "2026-10-01": [
+      "directness-curator-b",
+      "logic-unless-freezer",
+      "summary-overall-midsection",
+      "nested-shared-gate",
+      "reference-radio-failures",
+      "recruitment-hunt-b",
+      "viewpoint-renting-a",
+      "career-chef-a"
+    ],
+    "2026-10-02": [
+      "tone-recovery-physio",
+      "legacy-unpretentious",
+      "title-preprint-a",
+      "faint-praise-restoration",
+      "parallel-governance-repair",
+      "with-lights-dimming",
+      "conceivably-ferry",
+      "cling-policy-a"
+    ],
+    "2026-10-03": [
+      "directness-engineer-a",
+      "faint-map-line",
+      "parallel-governance-repair",
+      "relative-borrowed-ladder",
+      "cling-rail-b",
+      "subject-rule-departure",
+      "viewpoint-diet-b",
+      "reference-return-rules"
+    ],
+    "2026-10-04": [
+      "summary-overall-midsection",
+      "conceivably-ferry",
+      "subject-curtains-steam",
+      "social-message-inference-career-a",
+      "directness-curator-b",
+      "legacy-who-that-main",
+      "causal-role-direction-fitness-a",
+      "legacy-faint-praise"
+    ],
+    "2026-10-05": [
+      "unpredictable-response-time",
+      "paragraph-order-discourse-parallel-a",
+      "social-message-inference-parenting-b",
+      "title-coverage-library-a",
+      "legacy-which",
+      "author-stance-recall-a",
+      "point-waiting",
+      "causal-role-direction-travel-b"
+    ],
+    "2026-10-06": [
+      "unpretentious-volunteer",
+      "title-specificity-bus-lane-tradeoff",
+      "social-message-criticism-membership-c",
+      "causal-role-deadline-response",
+      "point-timetable-argument",
+      "with-bread-cooling",
+      "paragraph-anaphora-map-representatives",
+      "polysemy-dismiss-address-b"
+    ],
+    "2026-10-07": [
+      "with-lights-dimming",
+      "relation-independence-b",
+      "politics-policy-council-a",
+      "parallel-governance-inspection-tasks",
+      "causal-role-direction-fitness-a",
+      "paragraph-discourse-ticket-deposits",
+      "social-message-inference-career-a",
+      "point-joke"
+    ],
+    "2026-10-08": [
+      "causal-role-direction-travel-b",
+      "paragraph-scope-algorithm-a",
+      "with-bread-cooling",
+      "legacy-unpretentious",
+      "legacy-miss-point",
+      "scope-role-device-study-b",
+      "social-message-criticism-membership-c",
+      "paragraph-order-discourse-conclusion-b"
+    ],
+    "2026-10-09": [
+      "social-message-repair-framing",
+      "transaction-grant-reports-b",
+      "relative-borrowed-ladder",
+      "conceivably-damaged-page",
+      "scope-role-report-subsidy-a",
+      "point-timetable-argument",
+      "subject-rule-departure",
+      "take-page-museum-b"
+    ],
+    "2026-10-10": [
+      "point-joke",
+      "scope-role-device-study-b",
+      "commitment-heaters-promise-a",
+      "nested-shared-gate",
+      "unpredictable-response-time",
+      "conceivably-ferry",
+      "social-message-inference-career-a",
+      "evidence-concrete-freeze-b"
+    ],
+    "2026-10-11": [
+      "title-preprint-a",
+      "legacy-miss-point",
+      "process-stage-shelter-approval-a",
+      "parallel-governance-repair",
+      "relative-borrowed-ladder",
+      "social-message-repair-framing",
+      "inference-boundary-archive-questions-b",
+      "subject-curtains-steam"
+    ]
+  },
+  "variant_history": {
+    "2026-09-29": [
+      "account-night-train",
+      "compromise-coffee",
+      "conditions-telescope",
+      "legacy-miss-point",
+      "nested-shared-gate",
+      "remote-lottery-chance",
+      "standard-repair-tickets",
+      "with-bread-cooling"
+    ],
+    "2026-09-30": [
+      "absolute-cafes-a",
+      "career-chef-a",
+      "cling-policy-a",
+      "directness-engineer-a",
+      "end-up-lamps",
+      "legacy-faint-praise",
+      "legacy-such",
+      "legacy-who-that-main",
+      "lined-up-flat-a",
+      "point-joke",
+      "recruitment-poach-a",
+      "remote-lottery-chance",
+      "subject-curtains-steam",
+      "title-preprint-a",
+      "unpretentious-volunteer",
+      "viewpoint-renting-a"
+    ],
+    "2026-10-01": [
+      "career-chef-a",
+      "directness-curator-b",
+      "logic-unless-freezer",
+      "nested-shared-gate",
+      "recruitment-hunt-b",
+      "reference-radio-failures",
+      "summary-overall-midsection",
+      "viewpoint-renting-a"
+    ],
+    "2026-10-02": [
+      "cling-policy-a",
+      "conceivably-ferry",
+      "faint-praise-restoration",
+      "legacy-unpretentious",
+      "parallel-governance-repair",
+      "title-preprint-a",
+      "tone-recovery-physio",
+      "with-lights-dimming"
+    ],
+    "2026-10-03": [
+      "author-stance-recall-a",
+      "causal-role-direction-fitness-a",
+      "causal-role-direction-travel-b",
+      "cling-policy-a",
+      "cling-rail-b",
+      "conceivably-ferry",
+      "directness-curator-b",
+      "directness-engineer-a",
+      "faint-map-line",
+      "faint-praise-restoration",
+      "feature-verb-magazine-a",
+      "hostage-hijack-hashtag-a",
+      "infancy-payment-a",
+      "legacy-faint-praise",
+      "legacy-miss-point",
+      "legacy-who-that-main",
+      "nested-shared-gate",
+      "parallel-governance-repair",
+      "past-tense-happiness-trip-a",
+      "point-joke",
+      "point-waiting",
+      "provoke-family-debate-a",
+      "reference-return-rules",
+      "relative-borrowed-ladder",
+      "social-message-inference-career-a",
+      "social-message-inference-parenting-b",
+      "subconscious-way-advertising-a",
+      "subject-rule-departure",
+      "title-coverage-library-a",
+      "viewpoint-diet-b",
+      "viewpoint-renting-a"
+    ],
+    "2026-10-04": [
+      "career-editor-b",
+      "causal-role-direction-fitness-a",
+      "causal-role-direction-travel-b",
+      "complementary-printer-a",
+      "conceivably-ferry",
+      "directness-curator-b",
+      "legacy-faint-praise",
+      "legacy-miss-point",
+      "legacy-which",
+      "legacy-who-that-main",
+      "paragraph-order-anaphora-course-a",
+      "paragraph-order-anaphora-separation-b",
+      "paragraph-order-discourse-conclusion-b",
+      "paragraph-order-discourse-parallel-a",
+      "point-waiting",
+      "recruitment-poach-a",
+      "social-message-criticism-membership-c",
+      "social-message-inference-career-a",
+      "social-message-inference-parenting-b",
+      "subject-curtains-steam",
+      "summary-overall-midsection",
+      "title-booking-b",
+      "with-bread-cooling"
+    ],
+    "2026-10-05": [
+      "author-stance-recall-a",
+      "causal-role-direction-travel-b",
+      "causal-role-trust-delays",
+      "legacy-which",
+      "paragraph-order-discourse-parallel-a",
+      "point-waiting",
+      "politics-policy-report-b",
+      "polysemy-rest-unjust-a",
+      "relation-tied-apart-a",
+      "social-message-inference-parenting-b",
+      "social-message-repair-framing",
+      "title-coverage-library-a",
+      "title-specificity-bookshop-workload",
+      "unpredictable-response-time",
+      "with-lights-dimming",
+      "yet-warning-reality-a"
+    ],
+    "2026-10-06": [
+      "causal-role-deadline-response",
+      "paragraph-anaphora-map-representatives",
+      "point-timetable-argument",
+      "polysemy-dismiss-address-b",
+      "social-message-criticism-membership-c",
+      "title-specificity-bus-lane-tradeoff",
+      "unpretentious-volunteer",
+      "with-bread-cooling"
+    ],
+    "2026-10-07": [
+      "causal-role-direction-fitness-a",
+      "causal-role-trust-delays",
+      "conceivably-competing-explanations",
+      "nested-shared-gate",
+      "paragraph-discourse-ticket-deposits",
+      "paragraph-scope-health-campaign-b",
+      "parallel-governance-inspection-tasks",
+      "point-joke",
+      "politics-policy-council-a",
+      "relation-independence-b",
+      "scope-role-report-subsidy-a",
+      "social-cure-vocab-host-a",
+      "social-message-inference-career-a",
+      "social-message-repair-framing",
+      "take-page-clinic-a",
+      "with-lights-dimming"
+    ],
+    "2026-10-08": [
+      "attribution-fish-survey-a",
+      "causal-role-direction-travel-b",
+      "commitment-contract-criticism-b",
+      "evidence-flood-sensor-trial-a",
+      "legacy-miss-point",
+      "legacy-unpretentious",
+      "legacy-who-that-main",
+      "paragraph-order-discourse-conclusion-b",
+      "paragraph-scope-algorithm-a",
+      "point-waiting",
+      "scope-role-device-study-b",
+      "social-message-criticism-membership-c",
+      "social-message-inference-parenting-b",
+      "subject-road-closure-risk",
+      "transaction-station-approval-a",
+      "with-bread-cooling"
+    ],
+    "2026-10-09": [
+      "conceivably-damaged-page",
+      "point-timetable-argument",
+      "relative-borrowed-ladder",
+      "scope-role-report-subsidy-a",
+      "social-message-repair-framing",
+      "subject-rule-departure",
+      "take-page-museum-b",
+      "transaction-grant-reports-b"
+    ],
+    "2026-10-10": [
+      "commitment-heaters-promise-a",
+      "conceivably-ferry",
+      "evidence-concrete-freeze-b",
+      "inference-boundary-architect-layout-a",
+      "legacy-which",
+      "nested-shared-gate",
+      "parallel-governance-control-panel",
+      "point-joke",
+      "point-waiting",
+      "process-stage-bridge-warning-b",
+      "science-claim-vocab-archive-b",
+      "scope-role-device-study-b",
+      "social-message-criticism-membership-c",
+      "social-message-inference-career-a",
+      "title-coverage-school-meals-b",
+      "unpredictable-response-time"
+    ],
+    "2026-10-11": [
+      "compensation-port-delayed-benefits-b",
+      "example-farmers-support-trial-b",
+      "inference-boundary-archive-questions-b",
+      "inference-boundary-tenant-supporters-a",
+      "legacy-miss-point",
+      "paragraph-order-anaphora-separation-b",
+      "parallel-governance-repair",
+      "point-timetable-argument",
+      "process-stage-bridge-warning-b",
+      "process-stage-shelter-approval-a",
+      "relative-borrowed-ladder",
+      "social-message-repair-framing",
+      "subject-curtains-steam",
+      "text4-vocab-merit-generous-c",
+      "title-preprint-a",
+      "with-lights-dimming"
+    ]
+  }
+}
