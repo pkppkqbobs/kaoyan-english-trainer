@@ -3746,6 +3746,94 @@
       "qid": "t17t2-history-lease",
       "round_id": "mwc3us6v-fefagaij",
       "source_date": "2026-11-11"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "shed-light-direction",
+      "ok": true,
+      "ms": 39376,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "r17t3-light-audit-process",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "budding-stage",
+      "ok": false,
+      "ms": 30901,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "r17t3-budding-friendship",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "familiar-word-polysemy",
+      "ok": true,
+      "ms": 126347,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "text4-vocab-tremendous-incentive",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "nested",
+      "ok": true,
+      "ms": 7724,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "nested-editor-quote-d",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "with",
+      "ok": true,
+      "ms": 15085,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "with-archive-loading-c",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "phrasal-verb-illness",
+      "ok": true,
+      "ms": 27334,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "cl17-illness-diary",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "astronomy-word-family",
+      "ok": false,
+      "ms": 70799,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "t17t2-astronomer-roles",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "family": "cloze-baseline-necessary",
+      "ok": false,
+      "ms": 32083,
+      "uncertain": false,
+      "origin": 46,
+      "qid": "cloze-necessary-transport-a",
+      "round_id": "mwdjapie-oqz8jpg2",
+      "source_date": "2026-11-12"
     }
   ],
   "issues": [
@@ -3793,6 +3881,7 @@
     42,
     43,
     44,
-    45
+    45,
+    46
   ]
 }
