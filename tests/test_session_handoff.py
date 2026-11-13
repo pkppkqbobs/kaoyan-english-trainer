@@ -214,6 +214,22 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertEqual(report['web']['current_daily_status'], 'unverified')
         self.assertNotIn('8/8', handoff.markdown(report))
 
+    def test_boxed_word_scope_overrides_family_name_without_reclassifying_reading_evidence(self):
+        notes = [{'date': '2026-10-24', 'kind': 'translation_difficulty',
+                  'scope': 'boxed_vocabulary', 'family': family, 'note': 'Confirmed boxed word.'}
+                 for family in ('moralist-role', 'panorama-scope')]
+        notes.append({'date': '2026-10-24', 'kind': 'user_reported_confusion',
+                      'scope': 'question_reasoning', 'family': 'inference-boundary',
+                      'note': 'A reading option adds an unsupported limitation.'})
+        items = [{'family': n['family'], 'target': n['family']} for n in notes]
+        before = copy.deepcopy((items, notes))
+        result = handoff.priorities(items, notes, {'families': {}}, True, '2026-10-24')
+        groups = {g['mechanism']: {n['family'] for n in g['families']} for g in result}
+        self.assertEqual(groups['language'], {'moralist-role', 'panorama-scope'})
+        self.assertEqual(groups['scope'], {'inference-boundary'})
+        self.assertNotIn('roles', groups)
+        self.assertEqual((items, notes), before)
+
     def test_heading_matching_is_classified_with_part_b_without_adding_web_results(self):
         bank = review.load(self.root / 'data/base-bank.json')
         notes = review.load(self.root / 'data/learning-notes.json')

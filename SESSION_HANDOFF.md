@@ -1,6 +1,6 @@
 # 考研英语一跨对话交接
 
-数据截至 2026-11-12；仅索引已同步到仓库的证据。
+数据截至 2026-11-13；仅索引已同步到仓库的证据。
 [仓库](https://github.com/pkppkqbobs/kaoyan-english-trainer) · [每日8题](https://pkppkqbobs.github.io/kaoyan-english-trainer/today.html) · [文章复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-review.html) · [历史复盘](https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html)
 
 ## 接续规则
@@ -13,7 +13,7 @@
 ## 已核验网页进度
 
 最近已接受的完整daily：题单日期2026-11-12，[Issue #46](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/46)，5/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-11-12；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
+当前题单日期：2026-11-13；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 当前文章专项：发布日期2026-11-12，对应学习日期2026-11-12；题单已发布不等于已经作答。
@@ -35,9 +35,9 @@
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
 - 修饰关系与熟词搭配（budding-stage、shed-shelter-shade）：用户主动确认budding的语境义不熟悉；这是画框之外的明确词义疑问，不冒充照片画框。 网页错误数/streak单列于JSON。
-- 选项范围与额外限定（panorama-scope、inference-boundary）：全景、全貌；既能指宽广的可视景观，也能比喻全面展现某个社会或领域，不能缩为一个孤立细节。 仅记录明确画框困难；横线和教学补充词不自动纳入。 网页错误数/streak单列于JSON。
-- 主语—动作—对象与政策条件（moralist-role、policy-enforcement-roles）：道德家、道德思想倡导者；在原文人物定位中指关注、宣扬道德问题的人，不据词形保证其所有行为都高尚。 仅记录明确画框困难；横线和教学补充词不自动纳入。 网页错误数/streak单列于JSON。
+- 选项范围与额外限定（inference-boundary、title-coverage）：用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终… 网页错误数/streak单列于JSON。
 - Part B 标题匹配与篇章衔接（heading-global-allocation、heading-core-function）：用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第… 网页错误数/streak单列于JSON。
+- 主语—动作—对象与政策条件（policy-enforcement-roles、logic）：用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（author-stance、attribution-stance）：用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。 网页错误数/streak单列于JSON。
 
 ## 待确认

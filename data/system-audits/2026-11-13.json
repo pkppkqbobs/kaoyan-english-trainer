@@ -1,0 +1,325 @@
+{
+  "audit_date": "2026-11-13",
+  "source_baseline_commit": "240ffc54e2b5313453e6722ad086f7aa98f5b9bf",
+  "is_scoring_evidence": false,
+  "python_tests": 210,
+  "new_regression_tests": 1,
+  "node_ui_passed": true,
+  "client_server_partb_permutations_compared": 9360,
+  "source_questions": 422,
+  "scheduled_families": 128,
+  "learning_notes": 204,
+  "exact_duplicate_notes": 0,
+  "accepted_issues": 46,
+  "active_evidence_rows": 363,
+  "excluded_original_rows": 3,
+  "paper_or_test_results_added_to_evidence": 0,
+  "partb_real_submissions": 0,
+  "daily_snapshots": 46,
+  "article_snapshots": 43,
+  "full_partb_sets": 7,
+  "local_links_checked": 148,
+  "broken_local_links": 0,
+  "protected_existing_files_identical": 281,
+  "real_issue_replays": 2,
+  "article_review_gaps": 0,
+  "latest_article": "2026-11-12-2017-partb",
+  "daily_date": "2026-11-13",
+  "today_question_count": 8,
+  "observed_schedule_status": {
+    "checked_at_tokyo": "2026-11-13T11:07:34+09:00",
+    "latest_visible_schedule_date": "2026-11-12",
+    "workflow_state": "active",
+    "workflow_metadata_source": "https://api.github.com/repos/pkppkqbobs/kaoyan-english-trainer/actions/workflows",
+    "nov13_scheduled_run_visible": false,
+    "generator_failure_observed": false,
+    "online_daily_before_recovery": "2026-11-12",
+    "recovery": "Generate and publish the actual Nov 13 round once, preserving all old snapshots and grades.",
+    "cause_limit": "No Nov 13 run was visible at the check; this cannot distinguish delayed, dropped or undispatched schedule events.",
+    "cron_utc_unchanged": [
+      "17 0 * * *",
+      "43 1 * * *",
+      "27 3 * * *"
+    ],
+    "documentation": "https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule"
+  },
+  "handoff_category_correction": {
+    "scope": "Explicit translation_difficulty with scope boxed_vocabulary",
+    "affected_examples": [
+      "moralist-role",
+      "panorama-scope"
+    ],
+    "effect": "Display as vocabulary instead of matching role/scope in the family name; no scoring or scheduling effect."
+  },
+  "future_selection_check": {
+    "frozen_results_as_of": "2026-11-13",
+    "simulated_offer_days": 14,
+    "pending_first_review_targets": 11,
+    "unserved_after_14_days": [],
+    "first_offers": {
+      "dnt-actor-boundary": "2026-11-14",
+      "crack-polysemy": "2026-11-14",
+      "conditions": "2026-11-15",
+      "text3-willfully": "2026-11-15",
+      "relation-collocation": "2026-11-16",
+      "author-stance": "2026-11-16",
+      "test-object-scope": "2026-11-16",
+      "evaluation-vocab": "2026-11-17",
+      "modal-stage": "2026-11-17",
+      "social-cure-vocab": "2026-11-18",
+      "policy-enforcement-roles": "2026-11-18"
+    },
+    "nov12_boxed_families_first_daily_offers": {
+      "woodcut-medium": "2026-11-13",
+      "moralist-role": "2026-11-14",
+      "backdrop-context": "2026-11-14",
+      "panorama-scope": "2026-11-15"
+    },
+    "future_scores_created": 0,
+    "future_snapshot_files_created": 0,
+    "opportunities": [
+      {
+        "date": "2026-11-14",
+        "families": [
+          "backdrop-context",
+          "crack-polysemy",
+          "dnt-actor-boundary",
+          "moralist-role",
+          "nested",
+          "paragraph-order-discourse",
+          "summary-location",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-15",
+        "families": [
+          "astronomy-word-family",
+          "conditions",
+          "moralist-role",
+          "nested",
+          "panorama-scope",
+          "relative",
+          "summary-location",
+          "text3-willfully"
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "families": [
+          "author-stance",
+          "faint",
+          "nested",
+          "process-stage-role",
+          "relation-collocation",
+          "summary-location",
+          "test-object-scope",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-17",
+        "families": [
+          "causal-role-direction",
+          "evaluation-vocab",
+          "modal-stage",
+          "nested",
+          "paragraph-order-anaphora",
+          "relative",
+          "social-message-inference",
+          "summary-location"
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "families": [
+          "directness-modifier",
+          "example-claim-scope",
+          "nested",
+          "policy-enforcement-roles",
+          "social-cure-vocab",
+          "summary-location",
+          "text4-federal-state-boundary",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-19",
+        "families": [
+          "belief-negation-clause",
+          "cloze-big-picture",
+          "cloze-time-adverbs",
+          "effect-source-target",
+          "nested",
+          "reference",
+          "relative",
+          "summary-location"
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "families": [
+          "author-stance",
+          "belief-negation-clause",
+          "cloze-big-picture",
+          "conceivably",
+          "nested",
+          "process-stage-role",
+          "summary-location",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-21",
+        "families": [
+          "cloze-applicant-outcome",
+          "cloze-big-picture",
+          "nested",
+          "paragraph-order-discourse",
+          "relative",
+          "subject",
+          "summary-location",
+          "title-coverage"
+        ]
+      },
+      {
+        "date": "2026-11-22",
+        "families": [
+          "cling-climb",
+          "example-claim-scope",
+          "nested",
+          "paragraph-order-discourse",
+          "summary-location",
+          "title-coverage",
+          "verb-effect-share",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-23",
+        "families": [
+          "belief-negation-clause",
+          "cloze-big-picture",
+          "effect-source-target",
+          "logic",
+          "nested",
+          "reference",
+          "relative",
+          "summary-location"
+        ]
+      },
+      {
+        "date": "2026-11-24",
+        "families": [
+          "author-stance",
+          "belief-negation-clause",
+          "nested",
+          "paragraph-order-discourse",
+          "parallel-governance",
+          "point",
+          "summary-location",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-25",
+        "families": [
+          "astronomy-word-family",
+          "belief-negation-clause",
+          "nested",
+          "process-stage-role",
+          "summary-location",
+          "text4-historical-inference",
+          "title-coverage",
+          "with"
+        ]
+      },
+      {
+        "date": "2026-11-26",
+        "families": [
+          "cloze-big-picture",
+          "nested",
+          "paragraph-order-discourse",
+          "relative",
+          "subject",
+          "summary-location",
+          "verb-effect-share",
+          "viewpoint-fact"
+        ]
+      },
+      {
+        "date": "2026-11-27",
+        "families": [
+          "cloze-big-picture",
+          "effect-source-target",
+          "nested",
+          "reference",
+          "summary-location",
+          "text4-executive-overreach",
+          "title-coverage",
+          "with"
+        ]
+      }
+    ]
+  },
+  "browser_checks": {
+    "viewports": [
+      {
+        "label": "desktop",
+        "viewport": {
+          "width": 1280,
+          "height": 1000
+        },
+        "dailyRefreshPreservesFirstAnswer": true,
+        "articleRefreshPreservesFirstAnswer": true,
+        "partbPartialRefresh": true,
+        "storagePrefixesIsolated": true,
+        "archivedUnderline": {
+          "text": "whatever documents the applicant submits before Friday",
+          "decoration": "underline",
+          "thickness": "2px",
+          "visible": true
+        },
+        "cachedBDOrderPreserved": true,
+        "noHorizontalOverflow": true,
+        "pageErrors": []
+      },
+      {
+        "label": "mobile",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "dailyRefreshPreservesFirstAnswer": true,
+        "articleRefreshPreservesFirstAnswer": true,
+        "partbPartialRefresh": true,
+        "storagePrefixesIsolated": true,
+        "archivedUnderline": {
+          "text": "whatever documents the applicant submits before Friday",
+          "decoration": "underline",
+          "thickness": "2px",
+          "visible": true
+        },
+        "cachedBDOrderPreserved": true,
+        "noHorizontalOverflow": true,
+        "pageErrors": []
+      }
+    ],
+    "externalWrites": 0,
+    "browser": "138.0.7204.0"
+  },
+  "current_length_cue_flags": 0,
+  "legacy_fixed_length_cue_flags": 3,
+  "old_missing_underline_qids_resolved_by_explicit_overlay": [
+    "cloze-whatever-documents-registrar-p"
+  ],
+  "unmapped_low_priority_observations": [
+    "kitten-killing"
+  ],
+  "limitations": [
+    "GitHub schedules can be delayed or dropped; this recovery does not prove future punctuality.",
+    "2014 paper reference key still lacks an independent source-check; the existing warning remains.",
+    "No real complete Part B web submission is present; isolated test orders are not learner scores.",
+    "Three known length cues remain on immutable legacy fixed vocabulary pages outside the active pool."
+  ]
+}

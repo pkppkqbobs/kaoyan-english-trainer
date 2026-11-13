@@ -333,6 +333,8 @@ def priorities(items, notes, state, state_valid, as_of):
             continue
         latest = max((updated(n) for n in active), default=s.get('last') or '')
         category, label, _ = next(c for c in CATEGORIES if re.search(c[2], family))
+        if best and best['kind'] == 'translation_difficulty' and best.get('scope') == 'boxed_vocabulary':
+            category, label, _ = next(c for c in CATEGORIES if c[0] == 'language')
         focus = observation_summary(best) if best else '网页到期且仍有错误或慢答信号，需跨语境复查。'
         groups[(category, label)].append({'family': family, 'label': short(labels.get(family, family), 48),
                                          'focus': focus,

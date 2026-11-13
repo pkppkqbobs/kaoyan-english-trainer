@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "source_dates": {
-    "review_state": "2026-11-12",
-    "daily_quiz": "2026-11-12",
+    "review_state": "2026-11-13",
+    "daily_quiz": "2026-11-13",
     "latest_observation": "2026-11-12"
   },
   "project": {
@@ -14,9 +14,9 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-11-12",
-    "current_daily_issue": 46,
-    "current_daily_status": "verified",
+    "current_daily_date": "2026-11-13",
+    "current_daily_issue": null,
+    "current_daily_status": "unverified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
@@ -801,7 +801,7 @@
           "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-12",
+          "due": "2026-11-13",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-10",
@@ -835,24 +835,6 @@
       "label": "选项范围与额外限定",
       "families": [
         {
-          "family": "panorama-scope",
-          "label": "panorama：字面全景",
-          "focus": "全景、全貌；既能指宽广的可视景观，也能比喻全面展现某个社会或领域，不能缩为一个孤立细节。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
-          "paper_kind": "translation_difficulty",
-          "latest_observation": "2026-11-12",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-12",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-12",
-            "family": "panorama-scope",
-            "question": null,
-            "note_fingerprint": "95690c091f2a403a"
-          }
-        },
-        {
           "family": "inference-boundary",
           "label": "favourable condition / protective surroundings",
           "focus": "用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终…",
@@ -869,47 +851,23 @@
             "question": 27,
             "note_fingerprint": "36ee183b046e2ee7"
           }
-        }
-      ]
-    },
-    {
-      "mechanism": "roles",
-      "label": "主语—动作—对象与政策条件",
-      "families": [
-        {
-          "family": "moralist-role",
-          "label": "moralist：描述言论不认证人格",
-          "focus": "道德家、道德思想倡导者；在原文人物定位中指关注、宣扬道德问题的人，不据词形保证其所有行为都高尚。 仅记录明确画框困难；横线和教学补充词不自动纳入。",
-          "paper_kind": "translation_difficulty",
-          "latest_observation": "2026-11-12",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-12",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-12",
-            "family": "moralist-role",
-            "question": null,
-            "note_fingerprint": "52a004b3fa609539"
-          }
         },
         {
-          "family": "policy-enforcement-roles",
-          "label": "要求与执行工具的角色区分",
-          "focus": "用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-02",
-          "web_errors": 0,
+          "family": "title-coverage",
+          "label": "topic relevance / central argument",
+          "focus": "参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，…",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-08",
+          "web_errors": 1,
           "web_streak": 0,
-          "slow_or_uncertain": false,
+          "slow_or_uncertain": true,
           "due": "2026-11-12",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-02",
-            "family": "policy-enforcement-roles",
-            "question": 24,
-            "note_fingerprint": "6c279cc1833c6d29"
+            "date": "2026-11-08",
+            "family": "title-coverage",
+            "question": 25,
+            "note_fingerprint": "1bf709999e65fe53"
           }
         }
       ]
@@ -952,6 +910,48 @@
             "family": "heading-core-function",
             "question": 41,
             "note_fingerprint": "c8c25c5c84056231"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "roles",
+      "label": "主语—动作—对象与政策条件",
+      "families": [
+        {
+          "family": "policy-enforcement-roles",
+          "label": "要求与执行工具的角色区分",
+          "focus": "用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-02",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-13",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-02",
+            "family": "policy-enforcement-roles",
+            "question": 24,
+            "note_fingerprint": "6c279cc1833c6d29"
+          }
+        },
+        {
+          "family": "logic",
+          "label": "上限与必须达到的时长",
+          "focus": "用户明确确认第13题选A（whereas），标准答案为B（until）；用户把whereas误解成尽管，并把up to a year理解为必须住满一年。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-01",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-06",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-01",
+            "family": "logic",
+            "question": 13,
+            "note_fingerprint": "7182df62d67df36e"
           }
         }
       ]
@@ -1251,7 +1251,7 @@
     "data/article-sessions/2026-11-10-2017-text3.json": "602f8f634c8e2fdb06f003e427a23370aa27c0b82b45834ea7219a0ee2711528",
     "data/article-sessions/2026-11-12-2017-partb.json": "8a495b6b461008a516a0728da1b94bbbc5cffc9a5fbfcabba7625cea79adc0b2",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "9ee8af81fc11030548ab24acdbdc4ed7cee58b5746bed1045c9abf8d62cd20af",
+    "data/daily.json": "2668f06725115964f6ba1388072e3d920657e3c93c2403396dbecc08a193da7e",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1297,6 +1297,7 @@
     "data/days/2026-11-10.json": "6ea63a6e2edf00076158494e2a0b346807956c53da7d1366bd8d24463f3caf2c",
     "data/days/2026-11-11.json": "5e25781f69e4cd759701caa3d2fb86e634d0e1e7d61bf3ad0dfab34393a9f3ec",
     "data/days/2026-11-12.json": "9ee8af81fc11030548ab24acdbdc4ed7cee58b5746bed1045c9abf8d62cd20af",
+    "data/days/2026-11-13.json": "2668f06725115964f6ba1388072e3d920657e3c93c2403396dbecc08a193da7e",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
     "data/learning-notes.json": "e34a9feaf2417d05663eadacd314b7cafef84d8393b2177b4c762c43ca01ec36",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
@@ -1344,7 +1345,7 @@
     "data/questions/2026-11-12-2017-partb-migration.json": "29a75c48ef88bb942fffd882252a066ef5a7acc2f07da285d9751ff2e6be4cea",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "fc421298ac3eaac679f12fdb267a9dd0870741236d9dde3068e108e26d21cac9",
-    "data/review-state.json": "41063a7b9a4d8dd9dbcb4ee05288321ef80cbe2556b96e46f93257282cdf84dd",
+    "data/review-state.json": "4f46d9b381858c8f8a95aa512b1375d9ae5f2e6756b9fb3659a7711b1348eed0",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1352,7 +1353,7 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a"
   },
-  "source_fingerprint": "b1514e6be1e8ba46c85caf80e0a9c849529df02f986b17f45ab8f65ae3832ca4",
+  "source_fingerprint": "b5e4b1ce2c48a23f18cc7e700cc66506516800e7f2e60cb9629ffbf1b7f21c0f",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
