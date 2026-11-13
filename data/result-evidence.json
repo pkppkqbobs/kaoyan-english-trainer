@@ -3834,6 +3834,94 @@
       "qid": "cloze-necessary-transport-a",
       "round_id": "mwdjapie-oqz8jpg2",
       "source_date": "2026-11-12"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "figurative-descent-relative",
+      "ok": true,
+      "ms": 38065,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "relative-workshop-filters-b",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "belief-negation-clause",
+      "ok": false,
+      "ms": 93944,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "belief-negation-online-bookings-a",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "nested",
+      "ok": true,
+      "ms": 3905,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "nested-shared-gate",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "cloze-score-marked",
+      "ok": true,
+      "ms": 67814,
+      "uncertain": true,
+      "origin": 47,
+      "qid": "cloze-marked-project-b",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 11691,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "summary-overall-midsection",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "woodcut-medium",
+      "ok": false,
+      "ms": 66894,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "pb17-woodcuts-catalogue",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "sharp-hit-impact",
+      "ok": true,
+      "ms": 62055,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "r17t3-sharp-hit-bookings",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-13",
+      "family": "relative",
+      "ok": true,
+      "ms": 3412,
+      "uncertain": false,
+      "origin": 47,
+      "qid": "legacy-which",
+      "round_id": "mwezcknz-568b49hv",
+      "source_date": "2026-11-13"
     }
   ],
   "issues": [
@@ -3882,6 +3970,7 @@
     43,
     44,
     45,
-    46
+    46,
+    47
   ]
 }
