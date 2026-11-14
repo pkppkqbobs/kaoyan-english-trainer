@@ -4493,5 +4493,150 @@
       "复数形式与印刷媒介",
       "图像内容、木版与印出的版画分开"
     ]
+  },
+  {
+    "date": "2026-11-14",
+    "received_on": "2026-11-14",
+    "session_id": "2026-11-14-2018-text1",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 1",
+    "source_question": null,
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与明确纠正；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "family": "dynamism-vitality",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "source_spans": [
+      "dynamism"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "21": "D",
+        "22": "C",
+        "23": "A",
+        "24": "D",
+        "25": "B"
+      },
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true,
+      "user_confirmed_full_understanding": true,
+      "understanding_timing": "during_original_attempt",
+      "reported_ease_reasons": [
+        {
+          "factor": "few_unfamiliar_words",
+          "user_description": "陌生词少"
+        },
+        {
+          "factor": "repeated_key_concepts",
+          "user_description": "重点词反复出现"
+        },
+        {
+          "factor": "familiar_ai_automation_topic",
+          "user_description": "熟悉AI与自动化影响，能利用已有背景认识理解本文"
+        }
+      ],
+      "passage_feedback_quote": "感觉这个还算简单，因为首先陌生词少，其次重点词反复出现，然后就是现在AI和这篇文章的automation一样，所以完全理解。"
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "scope": "whole_passage",
+      "user_confirmed_original_understanding": true,
+      "user_confirmed_full_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "core_claim": "自动化可能提高生产效率，也会冲击就业结构和收入分配；需通过教育、创业及税收与保障措施帮助劳动者适应。",
+      "argument_structure": [
+        "提出中产阶级岗位受自动化冲击的问题",
+        "分析长期收益与转型期间的冲击",
+        "教育与职业培训对策",
+        "创业与商业活力对策",
+        "税收、补贴与社会保障对策",
+        "总结技术收益及帮助劳动者适应的责任"
+      ],
+      "reported_ease_reasons": [
+        {
+          "factor": "few_unfamiliar_words",
+          "user_description": "陌生词少"
+        },
+        {
+          "factor": "repeated_key_concepts",
+          "user_description": "重点词反复出现"
+        },
+        {
+          "factor": "familiar_ai_automation_topic",
+          "user_description": "熟悉AI与自动化影响，能利用已有背景认识理解本文"
+        }
+      ],
+      "user_quote": "感觉这个还算简单，因为首先陌生词少，其次重点词反复出现，然后就是现在AI和这篇文章的automation一样，所以完全理解。",
+      "evidence_basis": "用户直接确认做题时已理解全文，不仅由五题正确倒推理解。",
+      "generalization_limit": "保留本篇正向证据，不推断所有陌生法律、历史或多主体议论文都已掌握，也不清除过去的真实困难。"
+    },
+    "passage_feedback_quotes": [
+      "感觉这个还算简单，因为首先陌生词少，其次重点词反复出现，然后就是现在AI和这篇文章的automation一样，所以完全理解。"
+    ],
+    "marking_corrections": [
+      {
+        "term": "hard",
+        "user_quote": "hard我没画。",
+        "reported_boxed": false,
+        "reported_unknown": false,
+        "repository_difficulty_entry_found": false,
+        "action": "exclude_from_confirmed_translation_difficulties",
+        "basis": "此前教学对话的画框识别有误，用户明确否认；仓库没有此篇旧记录，无需撤销其他篇目或历史成绩。",
+        "teaching_context_only": "free workers from hard, boring work：使工人摆脱繁重、枯燥的工作。"
+      }
+    ],
+    "review_policy": {
+      "passage_review_priority": "reduced",
+      "new_passage_comprehension_deficit": false,
+      "confirmed_vocabulary_targets": [
+        "dynamism"
+      ],
+      "article_current_questions": 1,
+      "article_historical_questions": 7,
+      "repeat_understood_main_idea": false,
+      "preserve_historical_weaknesses": true,
+      "priority_basis": "本篇只增加一个translation_difficulty词汇观察，沿用低于真实错题的既有权重；不新增主旨或逐题错误目标。"
+    },
+    "source_context": "revive its fading business dynamism",
+    "note": "唯一明确画框困难为dynamism：活力、发展动力；business dynamism指创新、创业和经济活动的活力。dynamic是相关形容词，按语境表示有活力的、不断发展变化的。用户明确否认给hard画框，也没有主动报告不认识hard；fading、revive和dynamic只作相关教学搭配，不新增为已确认生词。纸质21—25全对且做题时已理解全文，本篇不是整体阅读困难。",
+    "training_targets": [
+      "跨语境理解组织或商业活动的活力",
+      "dynamic形容词与dynamism名词的联系",
+      "结合fading和revive理解活力减弱与恢复"
+    ],
+    "supplementary_teaching": [
+      {
+        "term": "dynamic",
+        "meaning": "有活力的；动态的",
+        "individually_confirmed_unknown": false
+      },
+      {
+        "term": "fading",
+        "meaning": "逐渐减弱的",
+        "individually_confirmed_unknown": false
+      },
+      {
+        "term": "revive",
+        "meaning": "恢复、重新振兴",
+        "individually_confirmed_unknown": false
+      }
+    ],
+    "scoring_policy": "Paper answers and positive comprehension evidence only. No web attempts, scores, errors, Issues or streaks are added; original per-question first picks and revisions remain unknown."
   }
 ]

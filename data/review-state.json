@@ -431,6 +431,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "dynamism-vitality": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-14",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "effect-source-target": {
       "streak": 0,
       "errors": 1,

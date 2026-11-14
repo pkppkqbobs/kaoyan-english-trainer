@@ -1,0 +1,164 @@
+{
+  "exam": "2018-english1",
+  "checked_on": "2026-11-14",
+  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification.",
+  "purpose": "参考内容与用户纸质文字反馈分开核验，不作为网页成绩。",
+  "sources": [
+    {
+      "id": "xdf-2018-text1-key",
+      "title": "新东方网：2018年英语一试题及参考答案PDF",
+      "url": "https://file.xdf.cn/uploads/171224/708_171224135209AZniAwdgBs2Qt41U.pdf",
+      "covers": "第2页按选项文字核对21D、22C、23A、24D、25B，与用户交接版本一致；不导入其他未学习篇目的答案或作答。"
+    },
+    {
+      "id": "koolearn-2018-text1-key",
+      "title": "新东方在线：2018考研英语一阅读Text 1答案",
+      "url": "https://kaoyan.koolearn.com/20171226/1003916.html",
+      "covers": "同一机构另一公开载体核对五题答案文字；不是五份独立用户作答证据。"
+    },
+    {
+      "id": "cambridge-dynamic-dynamism",
+      "title": "Cambridge Dictionary: dynamic / dynamism",
+      "url": "https://dictionary.cambridge.org/dictionary/english/dynamic",
+      "covers": "有想法、活力、热情，以及变化发展；dynamism为相关名词。"
+    },
+    {
+      "id": "collins-dynamism",
+      "title": "Collins Dictionary: dynamism",
+      "url": "https://www.collinsdictionary.com/dictionary/english/dynamism",
+      "covers": "活力、新想法及发展变化的活跃程度；不等于每家企业都成功或活动总量必然增加。"
+    }
+  ],
+  "answers": {
+    "21": "D",
+    "22": "C",
+    "23": "A",
+    "24": "D",
+    "25": "B"
+  },
+  "answer_words": {
+    "21": "Middle-class workers",
+    "22": "Issues arising from automation need to be tackled",
+    "23": "creative potential",
+    "24": "preventing the income gap from widening",
+    "25": "possible solutions to it"
+  },
+  "performance_coverage": {
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_answers",
+      "question_range": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_final_choice_letters": {
+        "21": "D",
+        "22": "C",
+        "23": "A",
+        "24": "D",
+        "25": "B"
+      },
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "uncertainty": "not_reported",
+      "not_a_web_score": true,
+      "user_confirmed_full_understanding": true,
+      "understanding_timing": "during_original_attempt",
+      "reported_ease_reasons": [
+        {
+          "factor": "few_unfamiliar_words",
+          "user_description": "陌生词少"
+        },
+        {
+          "factor": "repeated_key_concepts",
+          "user_description": "重点词反复出现"
+        },
+        {
+          "factor": "familiar_ai_automation_topic",
+          "user_description": "熟悉AI与自动化影响，能利用已有背景认识理解本文"
+        }
+      ],
+      "passage_feedback_quote": "感觉这个还算简单，因为首先陌生词少，其次重点词反复出现，然后就是现在AI和这篇文章的automation一样，所以完全理解。"
+    },
+    "passage_comprehension": {
+      "status": "understood_during_original_attempt",
+      "scope": "whole_passage",
+      "user_confirmed_original_understanding": true,
+      "user_confirmed_full_understanding": true,
+      "passage_level_difficulty": false,
+      "subjective_difficulty": "relatively_easy",
+      "core_claim": "自动化可能提高生产效率，也会冲击就业结构和收入分配；需通过教育、创业及税收与保障措施帮助劳动者适应。",
+      "argument_structure": [
+        "提出中产阶级岗位受自动化冲击的问题",
+        "分析长期收益与转型期间的冲击",
+        "教育与职业培训对策",
+        "创业与商业活力对策",
+        "税收、补贴与社会保障对策",
+        "总结技术收益及帮助劳动者适应的责任"
+      ],
+      "reported_ease_reasons": [
+        {
+          "factor": "few_unfamiliar_words",
+          "user_description": "陌生词少"
+        },
+        {
+          "factor": "repeated_key_concepts",
+          "user_description": "重点词反复出现"
+        },
+        {
+          "factor": "familiar_ai_automation_topic",
+          "user_description": "熟悉AI与自动化影响，能利用已有背景认识理解本文"
+        }
+      ],
+      "user_quote": "感觉这个还算简单，因为首先陌生词少，其次重点词反复出现，然后就是现在AI和这篇文章的automation一样，所以完全理解。",
+      "evidence_basis": "用户直接确认做题时已理解全文，不仅由五题正确倒推理解。",
+      "generalization_limit": "保留本篇正向证据，不推断所有陌生法律、历史或多主体议论文都已掌握，也不清除过去的真实困难。"
+    },
+    "policy": "仅登记用户明确提供的最终纸质字母和全对结果；理解全文由独立的用户原话支持，不推断初选、犹豫或改选，也不加入网页主测。"
+  },
+  "vocabulary_scope": {
+    "confirmed_boxed_words": [
+      "dynamism"
+    ],
+    "marking_corrections": [
+      {
+        "term": "hard",
+        "user_quote": "hard我没画。",
+        "reported_boxed": false,
+        "reported_unknown": false,
+        "repository_difficulty_entry_found": false,
+        "action": "exclude_from_confirmed_translation_difficulties",
+        "basis": "此前教学对话的画框识别有误，用户明确否认；仓库没有此篇旧记录，无需撤销其他篇目或历史成绩。",
+        "teaching_context_only": "free workers from hard, boring work：使工人摆脱繁重、枯燥的工作。"
+      }
+    ],
+    "teaching_support_only": [
+      "dynamic",
+      "business dynamism",
+      "fading",
+      "revive"
+    ],
+    "policy": "横线、含糊圈画与教学补充不是用户确认的生词；hard明确不纳入translation_difficulty。"
+  },
+  "review_policy": {
+    "passage_review_priority": "reduced",
+    "new_passage_comprehension_deficit": false,
+    "confirmed_vocabulary_targets": [
+      "dynamism"
+    ],
+    "article_current_questions": 1,
+    "article_historical_questions": 7,
+    "repeat_understood_main_idea": false,
+    "preserve_historical_weaknesses": true,
+    "priority_basis": "本篇只增加一个translation_difficulty词汇观察，沿用低于真实错题的既有权重；不新增主旨或逐题错误目标。"
+  },
+  "evidence_limitations": [
+    "只使用本次结构化文字，维护者未接收或重新查看照片。",
+    "用户明确确认本篇全文理解与五题全对；不能因此清除其他年份尚未解决的困难。"
+  ]
+}

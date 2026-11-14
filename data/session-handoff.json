@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-14",
     "daily_quiz": "2026-11-14",
-    "latest_observation": "2026-11-12"
+    "latest_observation": "2026-11-14"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-12",
-      "storageId": "2026-11-12-2017-partb",
-      "learning_date": "2026-11-12"
+      "date": "2026-11-14",
+      "storageId": "2026-11-14-2018-text1",
+      "learning_date": "2026-11-14"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,74 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-14",
+      "exam": "2018-english1",
+      "part": "Text 1",
+      "items": [],
+      "boxed_spans": [
+        "dynamism"
+      ],
+      "translation_note_count": 1,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-14",
+        "family": "dynamism-vitality",
+        "question": null,
+        "note_fingerprint": "f03ec991bf708677"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-14-2018-text1.json"
+      ],
+      "reported_paper_outcome": {
+        "evidence_status": "user_reported_paper_answers",
+        "question_range": [
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "reported_correct_count": 5,
+        "reported_total": 5,
+        "reported_all_correct": true,
+        "reported_final_choice_letters": {
+          "21": "D",
+          "22": "C",
+          "23": "A",
+          "24": "D",
+          "25": "B"
+        },
+        "first_choices": "unknown",
+        "revisions": "unknown",
+        "uncertainty": "not_reported",
+        "not_a_web_score": true,
+        "user_confirmed_full_understanding": true,
+        "understanding_timing": "during_original_attempt",
+        "reported_ease_reasons": [
+          {
+            "factor": "few_unfamiliar_words",
+            "user_description": "陌生词少"
+          },
+          {
+            "factor": "repeated_key_concepts",
+            "user_description": "重点词反复出现"
+          },
+          {
+            "factor": "familiar_ai_automation_topic",
+            "user_description": "熟悉AI与自动化影响，能利用已有背景认识理解本文"
+          }
+        ],
+        "passage_feedback_quote": "感觉这个还算简单，因为首先陌生词少，其次重点词反复出现，然后就是现在AI和这篇文章的automation一样，所以完全理解。"
+      },
+      "performance_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-14",
+        "family": "dynamism-vitality",
+        "question": null,
+        "note_fingerprint": "f03ec991bf708677"
+      }
+    },
     {
       "date": "2026-11-12",
       "exam": "2017-english1",
@@ -544,133 +612,6 @@
       "article_session_files": [
         "data/article-sessions/2026-11-08-2017-text1.json"
       ]
-    },
-    {
-      "date": "2026-11-07",
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "verb-effect-share",
-          "question": 10,
-          "related_questions": [],
-          "updated_on": "2026-11-07",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "C",
-          "reference_status": "source_checked",
-          "summary": "用户后续明确解释：“serve我翻译成发挥整体效果的32。”知道serve可表示发挥作用，因而将这一中文释义直接套入发挥整体效果的32%的表达；不是把serve理解为服务，也不是简…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-07",
-            "family": "verb-effect-share",
-            "question": 10,
-            "note_fingerprint": "b7268c466e1cef65"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "highlight-heighten",
-          "question": 13,
-          "related_questions": [],
-          "updated_on": "2026-11-07",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "B",
-          "reference_status": "source_checked",
-          "summary": "用户明确追问：“13我以为A能表示严重的意思。”交接确认A的文字是highlighted，不是heightened。暴露出形近词/词义与搭配判断困难；没有完整确认最终填涂A，保持原…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-07",
-            "family": "highlight-heighten",
-            "question": 13,
-            "note_fingerprint": "0e9b8218d53361aa"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "location-vs-change",
-          "question": 19,
-          "related_questions": [],
-          "updated_on": "2026-11-07",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "用户后续解释：认为催产素先在大脑产生，一部分进入血液，另一部分在大脑某个区域发挥作用，然后可能下降。原文没有支持随后数量下降的证据；未确认最终选decreases。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-07",
-            "family": "location-vs-change",
-            "question": 19,
-            "note_fingerprint": "503167ae7c1cf64d"
-          },
-          "training_priority": 3,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "effect-source-target",
-          "question": 6,
-          "related_questions": [],
-          "updated_on": "2026-11-07",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "用户明确将第6题列为错后仍不理解的题；需要理解effects of A on B中来源A与受影响对象B的关系。原来选了哪个介词未知。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-07",
-            "family": "effect-source-target",
-            "question": 6,
-            "note_fingerprint": "110ac5709a678861"
-          },
-          "training_priority": 4,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "intimacy",
-        "receipt",
-        "susceptibility"
-      ],
-      "translation_note_count": 3,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "receipt-nominalization",
-        "question": null,
-        "note_fingerprint": "be8530ab99826365"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-07-2017-cloze.json"
-      ]
     }
   ],
   "presentation_quality": [
@@ -697,6 +638,17 @@
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-14-2018-text1",
+        "learning_date": "2026-11-14",
+        "updated_on": "2026-11-14",
+        "exam": "2018-english1",
+        "part": "Reading Text 1",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-14-2018-text1.json",
+        "round_file": "data/article-reviews/2026-11-14-2018-text1.json",
+        "publication_date": "2026-11-14"
+      },
       {
         "session_id": "2026-11-12-2017-partb",
         "learning_date": "2026-11-12",
@@ -773,17 +725,6 @@
         "session_file": "data/article-sessions/2026-11-05-2016-text4.json",
         "round_file": "data/article-reviews/2026-11-05-2016-text4.json",
         "publication_date": "2026-11-05"
-      },
-      {
-        "session_id": "2026-11-04-2016-text3",
-        "learning_date": "2026-11-04",
-        "updated_on": "2026-11-04",
-        "exam": "2016-english1",
-        "part": "Reading Text 3",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-04-2016-text3.json",
-        "round_file": "data/article-reviews/2026-11-04-2016-text3.json",
-        "publication_date": "2026-11-04"
       }
     ]
   },
@@ -792,6 +733,24 @@
       "mechanism": "language",
       "label": "修饰关系与熟词搭配",
       "families": [
+        {
+          "family": "dynamism-vitality",
+          "label": "dynamic / dynamism：持续更新而非保证成功",
+          "focus": "唯一明确画框困难为dynamism：活力、发展动力；business dynamism指创新、创业和经济活动的活力。dynamic是相关形容词，按语境表示有活力的、不断发展变化的。…",
+          "paper_kind": "translation_difficulty",
+          "latest_observation": "2026-11-14",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-14",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-14",
+            "family": "dynamism-vitality",
+            "question": null,
+            "note_fingerprint": "f03ec991bf708677"
+          }
+        },
         {
           "family": "budding-stage",
           "label": "early development / established relationship",
@@ -808,24 +767,6 @@
             "family": "budding-stage",
             "question": null,
             "note_fingerprint": "470aff4f132f906a"
-          }
-        },
-        {
-          "family": "shed-shelter-shade",
-          "label": "shed light literally / shade",
-          "focus": "用户记得shed作名词是棚屋，这一记忆正确；需按词性和语境区分shed的名词/动词与shelter、shade，不能笼统记为完全记错。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-10",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-12",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-10",
-            "family": "shed-shelter-shade",
-            "question": null,
-            "note_fingerprint": "25c3a01b277f3e5a"
           }
         }
       ]
@@ -1027,104 +968,6 @@
         "question": 27,
         "note_fingerprint": "36ee183b046e2ee7"
       }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 19,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "location-vs-change",
-        "question": 19,
-        "note_fingerprint": "503167ae7c1cf64d"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 13,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "highlight-heighten",
-        "question": 13,
-        "note_fingerprint": "0e9b8218d53361aa"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 11,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "even",
-        "question": 11,
-        "note_fingerprint": "3b4931783f9a513c"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 10,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "verb-effect-share",
-        "question": 10,
-        "note_fingerprint": "b7268c466e1cef65"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 8,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "phrasal-verb-illness",
-        "question": 8,
-        "note_fingerprint": "5a49bc122037f32b"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 6,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "effect-source-target",
-        "question": 6,
-        "note_fingerprint": "110ac5709a678861"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Section I (Cloze)",
-      "question": 3,
-      "date": "2026-11-07",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-07",
-        "family": "social-cure-vocab",
-        "question": 3,
-        "note_fingerprint": "46f72e3e7ff8bd22"
-      }
     }
   ],
   "warnings": [
@@ -1168,7 +1011,8 @@
     "article-review-2026-11-09-2017-text2.html": "51683ed229561ec2e907d777789f7ea98dacddd53d785445a9093b63a3e97579",
     "article-review-2026-11-10-2017-text3.html": "88f5f439aa6f078985afbdb3f51c88049411a955c12b7674cd4f25d01e6d54dc",
     "article-review-2026-11-12-2017-partb.html": "b7090eb425b771525fd5339e49575a47cb8e52bdf0e5f1ff23ae88b8f4970317",
-    "data/article-review.json": "0eeb7f72ef1aaed7cda86eda543afd6de569e1811594af47271f51356b97cd7d",
+    "article-review-2026-11-14-2018-text1.html": "55497bef45e9b9feaaa009f229e2dd38aa5addc98757d5bbe4e6d25e9ff9fe78",
+    "data/article-review.json": "55e61704e1e8b72ab1141ffd83d4ab22351dafc7c01c10896337b0f1f6c95184",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1212,6 +1056,7 @@
     "data/article-reviews/2026-11-09-2017-text2.json": "e1b0e276beaeb2c23d9b8a1c2dbc65f1e15b79ac0e9ef593cf956a957dd86b5b",
     "data/article-reviews/2026-11-10-2017-text3.json": "62e20f212ee9829cf231b47dd647cd4c5ccc558751972ba42f7a5fc8cabe502b",
     "data/article-reviews/2026-11-12-2017-partb.json": "0eeb7f72ef1aaed7cda86eda543afd6de569e1811594af47271f51356b97cd7d",
+    "data/article-reviews/2026-11-14-2018-text1.json": "55e61704e1e8b72ab1141ffd83d4ab22351dafc7c01c10896337b0f1f6c95184",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1250,6 +1095,7 @@
     "data/article-sessions/2026-11-09-2017-text2.json": "a90932aadfe567908f358ab8c5a817ddaf1752dfffe812905c0753a915bf99e3",
     "data/article-sessions/2026-11-10-2017-text3.json": "602f8f634c8e2fdb06f003e427a23370aa27c0b82b45834ea7219a0ee2711528",
     "data/article-sessions/2026-11-12-2017-partb.json": "8a495b6b461008a516a0728da1b94bbbc5cffc9a5fbfcabba7625cea79adc0b2",
+    "data/article-sessions/2026-11-14-2018-text1.json": "f2dc779cef644d1ba5745f74c4e616a5c6668c9c52a0d90a8e1ac87c40b5dfc6",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "94aa20e73a3058ed105bcd6e113553cbc60bbcbcc07a5a31a33f953cc30c764f",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1300,9 +1146,9 @@
     "data/days/2026-11-13.json": "338ba2aa7def6343a415a9e3e8ab3a3ae5c1fb91c18b150a10aef56d19c71f9e",
     "data/days/2026-11-14.json": "94aa20e73a3058ed105bcd6e113553cbc60bbcbcc07a5a31a33f953cc30c764f",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
-    "data/learning-notes.json": "e34a9feaf2417d05663eadacd314b7cafef84d8393b2177b4c762c43ca01ec36",
+    "data/learning-notes.json": "7ad0bfc97d3a42d85d4bd7aa1648d23014102bebd2be2649f0969e70d9f4f02c",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
-    "data/question-contexts.json": "5b696c7aae0bb8557490984a13a7a660f46ebb2e732238afa26836e499de7be3",
+    "data/question-contexts.json": "67889f93ec68f52b02e0278ce798ff84bb7ef3308adf307de463b596db91db58",
     "data/question-presentations.json": "373c7da16aab2a5271c7ef939ebb98fc6f1880a2c5dce598aca9d6b1e72dc613",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1344,17 +1190,19 @@
     "data/questions/2026-11-09-2017-text2-migration.json": "296b3c2cd10c6cfe1830c3bf8e4256cdf18fd3603aa3f3648d68f9e4e2776618",
     "data/questions/2026-11-10-2017-text3-migration.json": "18702d6254a2c7a6ed82721b985217f1f4474118855492656332fbfb2b44d001",
     "data/questions/2026-11-12-2017-partb-migration.json": "29a75c48ef88bb942fffd882252a066ef5a7acc2f07da285d9751ff2e6be4cea",
+    "data/questions/2026-11-14-2018-text1-migration.json": "a5de87a586f3f350c8bd9341f01632869f5fe52faa8091308d29a64d6094d8d4",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "a66b450c9eddccca2647a1f0de622f5e39cfd68c242b53463565b5208f6e5abc",
-    "data/review-state.json": "4ceac9a63e88bfa1f2941f45aebe964fde21b6491623d76a4ed19ecc8bfb03a0",
+    "data/review-state.json": "3fc8ade0de87f7b05ed6ec33c273f26594db5d61dea12d0e310a39e2aa6b9124",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
-    "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a"
+    "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
+    "data/source-checks/2018-english1.json": "eb2d51aa68403cf61f77eabdb26939fdbbedf0ee7a5836dc160d2d6fd52899bc"
   },
-  "source_fingerprint": "e2f3f35c18b792f2b08d30a26c34e5869743bf6740027e10e536753d927ee7e9",
+  "source_fingerprint": "008dcba4685beacd893974e92d0c3820011d64af8f7b78926c0f36ac185e0f84",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

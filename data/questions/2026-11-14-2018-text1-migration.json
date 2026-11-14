@@ -1,0 +1,52 @@
+[
+  {
+    "id": "r18t1-dynamism-radio",
+    "family": "dynamism-vitality",
+    "introduced": "2026-11-14",
+    "published_on": "2026-11-14",
+    "budget": 45,
+    "target": "dynamism：组织活力与创新动力",
+    "skill": "dynamism：组织活力与创新动力",
+    "q": "A community radio station has lost its dynamism: volunteers rarely suggest new programmes or test fresh formats. A grant aims to revive that dynamism without adding broadcast hours. What is it meant to restore?",
+    "o": [
+      "The amount of airtime sold to commercial advertisers.",
+      "The reach of signals sent to distant rural listeners.",
+      "The team's energy and readiness to develop new ideas.",
+      "The continuity of an unchanged weekly programme list."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-14-2018-text1",
+    "exp": {
+      "trans": "社区电台活力下降：志愿者很少再提新节目或尝试新形式。一笔资助要在不增加播出时数的情况下恢复这种活力。它要恢复什么？",
+      "structure": "冒号后的行为具体解释lost its dynamism；that dynamism回指同一活力；without adding hours限定恢复目标并非延长播出。",
+      "other": "grant资助；format节目形式；airtime播出时间；readiness意愿、准备程度。",
+      "meaning": "dynamism在组织语境指活力与提出、尝试新想法的动力。revive是恢复；活力减弱与恢复不等于单纯缩减或增加活动数量。",
+      "rest": "amount of airtime转向商业播出时数；reach of signals讨论技术覆盖范围；unchanged programme list强调一成不变，均未恢复创新尝试的活力。"
+    }
+  },
+  {
+    "id": "r18t1-dynamism-design",
+    "family": "dynamism-vitality",
+    "introduced": "2026-11-14",
+    "published_on": "2026-11-14",
+    "budget": 45,
+    "target": "dynamic / dynamism：持续更新而非保证成功",
+    "skill": "dynamic / dynamism：持续更新而非保证成功",
+    "q": "New design studios open, teams experiment with materials, and experienced makers share skills. A report calls this a dynamic sector and praises its dynamism, although some firms close. What do the two expressions convey?",
+    "o": [
+      "Active renewal and experimentation within the local sector.",
+      "A guarantee that every local business will remain successful.",
+      "Predictable routines that prevent changes to existing designs.",
+      "Physical movement of heavy machinery inside each workshop."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-14-2018-text1",
+    "exp": {
+      "trans": "新的设计工作室开业，团队试验材料，老手分享技能。尽管部分企业关闭，报告仍称这个行业充满活力并赞赏其dynamism。这两个表达传达什么？",
+      "structure": "dynamic作定语修饰sector；dynamism是其相关名词；although说明活动有活力与某些企业退出可以并存。",
+      "other": "sector行业；studio工作室；renewal更新；experimentation试验、探索。",
+      "meaning": "dynamic在此是有活力、不断发展的；dynamism指相应的活力。新创办、试验和技能交流支持这一描述，但不保证每家企业成功。",
+      "rest": "guarantee...every把行业活力夸成每家成功的保证；prevent changes与尝试材料相反；physical movement误将语境中的组织活力缩为机器运动。"
+    }
+  }
+]

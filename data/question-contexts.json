@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-12",
+  "reviewed_on": "2026-11-14",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -511,7 +511,9 @@
     "pb17-chorus-relations": "choir-rhythm-pitch-parallel-methods-to-combined-application",
     "pb17-report-dependence": "equipment-reviews-new-tests-versus-unchecked-estimate-anaphora",
     "pb17-music-ending": "music-score-restoration-global-conclusion-with-qualified-claim",
-    "pb-archive-labels-v1": "public-photo-archive-recollection-versus-evidence-and-publication"
+    "pb-archive-labels-v1": "public-photo-archive-recollection-versus-evidence-and-publication",
+    "r18t1-dynamism-radio": "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal",
+    "r18t1-dynamism-design": "design-studio-entry-and-experimentation-with-some-firm-exits"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -668,7 +670,9 @@
     "choir-rhythm-pitch-parallel-methods-to-combined-application": "2017 Part B词汇或历史衔接机制的独立迁移场景；并列与递进的段落功能。未复用狄更斯生平句架。",
     "equipment-reviews-new-tests-versus-unchecked-estimate-anaphora": "2017 Part B词汇或历史衔接机制的独立迁移场景；跨段指代与对象限定。未复用狄更斯生平句架。",
     "music-score-restoration-global-conclusion-with-qualified-claim": "2017 Part B词汇或历史衔接机制的独立迁移场景；结尾与全局论证相容。未复用狄更斯生平句架。",
-    "public-photo-archive-recollection-versus-evidence-and-publication": "公众记忆与档案标签核验：例证转反例、同名异地、记录与确认两阶段、全局收束；七段约350词的新论证结构。"
+    "public-photo-archive-recollection-versus-evidence-and-publication": "公众记忆与档案标签核验：例证转反例、同名异地、记录与确认两阶段、全局收束；七段约350词的新论证结构。",
+    "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal": "dynamism活力义的独立迁移：社区广播恢复创新意愿，区别于技术覆盖及播出量。",
+    "design-studio-entry-and-experimentation-with-some-firm-exits": "dynamism活力义的独立迁移：设计行业的进入、试验与技能流动，区别于每家企业都成功。"
   },
   "family_assessments": {
     "reference": {
@@ -1132,6 +1136,15 @@
       "evidence_paths": [
         "workshop-relief-printing-process-versus-sculpture-paint-drawing",
         "bird-image-catalogue-medium-versus-subject-and-paper"
+      ]
+    },
+    "dynamism-vitality": {
+      "coverage_gap": false,
+      "review_session": "2026-11-14-2018-text1",
+      "reason": "一处明确框词，两个不同的组织/设计行业语境；不重复已理解的自动化主旨，也不新增未确认生词。",
+      "evidence_paths": [
+        "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal",
+        "design-studio-entry-and-experimentation-with-some-firm-exits"
       ]
     }
   },

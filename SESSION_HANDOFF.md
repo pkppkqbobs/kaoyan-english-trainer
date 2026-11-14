@@ -16,7 +16,7 @@
 当前题单日期：2026-11-14；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
-当前文章专项：发布日期2026-11-12，对应学习日期2026-11-12；题单已发布不等于已经作答。
+当前文章专项：发布日期2026-11-14，对应学习日期2026-11-14；题单已发布不等于已经作答。
 已登记篇目复盘缺口：0个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。
 
 ## 题目呈现质量
@@ -25,16 +25,16 @@
 
 ## 最近纸质学习阶段
 
+- 2026-11-14｜2018 英语一 Text 1：纸质自述5/5（不计网页成绩）。 画框翻译：dynamism。
 - 2026-11-12｜2017 英语一 Part B 段落排序：纸质自述5/5（不计网页成绩）。 完整顺序：D→F→E→A→C→B→G。 主要依据段首段尾关键词和明确时间关系完成排序，是有效策略，不直接判为猜测。 本篇全对只支持显性衔接能力；隐含逻辑、同词干扰和全局位置仍待不同材料验证，不清除历史Part B困难。 画框翻译：backdrop、moralist、panorama、woodcuts。
 - 2026-11-10｜2017 英语一 Text 3：纸质自述5/5（不计网页成绩）。 shed-light-direction 理解困惑：词句观察。本篇31—35自述全对，做题时已理解GDP增长不等于福祉提高，主观觉得简单；词汇上把shed some light on误解为隐藏问题（实际为阐明），另主动询问budding。 shed-shelter-shade 理解困惑：词句观察。用户记得shed作名词是棚屋，这一记忆正确；需按词性和语境区分shed的名词/动词与shelter、shade，不能笼统记为完全记错。 画框翻译：Brexit、criteria、envy、remold、sharp hit。
 - 2026-11-09｜2017 英语一 Text 2：Q28 理解困惑：最终选项未确认；参考B。用户没有找到特别合适的选项，倾向A，但未确认答题卡最终选择；不能登记为已经选A的真实错题。 Q27 理解困惑：最终选项未确认；参考A。用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终… 画框翻译：Polynesians、astronomers、astronomy、dormant。
 - 2026-11-08｜2017 英语一 Text 1：Q25 理解困惑：B。参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，… inference-boundary 理解困惑：词句观察。用户自述“大概率是因为前面四个选项没有B”而选择B；这是可能受答案字母分布干扰的自我解释，不是经核验的唯一原因。前四题实际选择仍未知。即使B在部分参考解析中正确，字母分布也不构成文… 画框翻译：belated、how far、infuriating、remodeling、screening。
-- 2026-11-07｜2017 英语一 Section I (Cloze)：Q10 自述错题：最终选项未确认；参考C。用户后续明确解释：“serve我翻译成发挥整体效果的32。”知道serve可表示发挥作用，因而将这一中文释义直接套入发挥整体效果的32%的表达；不是把serve理解为服务，也不是简… Q13 自述错题：最终选项未确认；参考B。用户明确追问：“13我以为A能表示严重的意思。”交接确认A的文字是highlighted，不是heightened。暴露出形近词/词义与搭配判断困难；没有完整确认最终填涂A，保持原… 画框翻译：intimacy、receipt、susceptibility。
 
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
-- 修饰关系与熟词搭配（budding-stage、shed-shelter-shade）：用户主动确认budding的语境义不熟悉；这是画框之外的明确词义疑问，不冒充照片画框。 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（dynamism-vitality、budding-stage）：唯一明确画框困难为dynamism：活力、发展动力；business dynamism指创新、创业和经济活动的活力。dynamic是相关形容词，按语境表示有活力的、不断发展变化的。… 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（inference-boundary、title-coverage）：用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终… 网页错误数/streak单列于JSON。
 - Part B 标题匹配与篇章衔接（heading-global-allocation、heading-core-function）：用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第… 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（policy-enforcement-roles、logic）：用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。 网页错误数/streak单列于JSON。
@@ -44,13 +44,6 @@
 
 - 2017 英语一 Text 2 Q28：最终选项未确认。
 - 2017 英语一 Text 2 Q27：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q19：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q13：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q11：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q10：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q8：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q6：最终选项未确认。
-- 2017 英语一 Section I (Cloze) Q3：最终选项未确认。
 - 2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对。
 
 ## 下一对话怎么继续
