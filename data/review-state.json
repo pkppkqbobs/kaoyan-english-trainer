@@ -47,7 +47,8 @@
     44,
     45,
     46,
-    47
+    47,
+    48
   ],
   "families": {
     "absolute-language": {
@@ -142,12 +143,12 @@
     },
     "backdrop-context": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-14",
       "due": "2026-11-14",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "belated-timing": {
@@ -163,11 +164,11 @@
     "belief-negation-clause": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-13",
+      "last": "2026-11-14",
       "due": "2026-11-14",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 5,
+      "observed_days": 6,
       "observation_priority": 3
     },
     "brexit-term": {
@@ -243,11 +244,11 @@
     "cloze-big-picture": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-10",
-      "due": "2026-11-11",
+      "last": "2026-11-14",
+      "due": "2026-11-14",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "cloze-comparison-chain": {
@@ -383,11 +384,11 @@
     "crack-polysemy": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-14",
       "due": "2026-11-14",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "criteria-number": {
@@ -412,12 +413,12 @@
     },
     "dnt-actor-boundary": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-14",
       "due": "2026-11-14",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "dormant-state": {
@@ -702,12 +703,12 @@
     },
     "moralist-role": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-14",
       "due": "2026-11-14",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "negative-ellipsis-afford": {
@@ -721,13 +722,13 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 2,
+      "streak": 3,
       "errors": 3,
-      "last": "2026-11-13",
-      "due": "2026-11-17",
+      "last": "2026-11-14",
+      "due": "2026-11-21",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 20,
+      "observed_days": 21,
       "observation_priority": 0
     },
     "panorama-scope": {
@@ -752,12 +753,12 @@
     },
     "paragraph-order-discourse": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-11",
-      "due": "2026-11-12",
+      "errors": 2,
+      "last": "2026-11-14",
+      "due": "2026-11-14",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 12,
+      "observed_days": 13,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {

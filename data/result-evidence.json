@@ -3922,6 +3922,94 @@
       "qid": "legacy-which",
       "round_id": "mwezcknz-568b49hv",
       "source_date": "2026-11-13"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "cloze-big-picture",
+      "ok": true,
+      "ms": 19963,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "cloze-overview-rainfall-a",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "moralist-role",
+      "ok": false,
+      "ms": 58554,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "pb17-moralist-inference",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "paragraph-order-discourse",
+      "ok": false,
+      "ms": 79269,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "pb17-seed-label-link",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "dnt-actor-boundary",
+      "ok": false,
+      "ms": 87194,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "dnt-consent-partners-a",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "nested",
+      "ok": true,
+      "ms": 50448,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "cloze-whatever-equipment-workshop-o",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "crack-polysemy",
+      "ok": true,
+      "ms": 53382,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "get-cracking-reviews-a",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "backdrop-context",
+      "ok": false,
+      "ms": 95845,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "pb17-backdrop-stage",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-14",
+      "family": "belief-negation-clause",
+      "ok": true,
+      "ms": 23151,
+      "uncertain": false,
+      "origin": 48,
+      "qid": "belief-negation-software-update-b",
+      "round_id": "mwgbtv8g-u3yqxpak",
+      "source_date": "2026-11-14"
     }
   ],
   "issues": [
@@ -3971,6 +4059,7 @@
     44,
     45,
     46,
-    47
+    47,
+    48
   ]
 }
