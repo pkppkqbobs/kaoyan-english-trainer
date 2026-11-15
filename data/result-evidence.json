@@ -4010,6 +4010,94 @@
       "qid": "belief-negation-software-update-b",
       "round_id": "mwgbtv8g-u3yqxpak",
       "source_date": "2026-11-14"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 34831,
+      "uncertain": false,
+      "origin": 49,
+      "qid": "pb17-chorus-relations",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "text3-willfully",
+      "ok": false,
+      "ms": 100419,
+      "uncertain": true,
+      "origin": 49,
+      "qid": "text3-willfully-committee-b",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "nested",
+      "ok": true,
+      "ms": 17614,
+      "uncertain": false,
+      "origin": 49,
+      "qid": "cloze-whatever-documents-registrar-p",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "panorama-scope",
+      "ok": false,
+      "ms": 34436,
+      "uncertain": false,
+      "origin": 49,
+      "qid": "pb17-panorama-hill",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "astronomy-word-family",
+      "ok": false,
+      "ms": 45733,
+      "uncertain": false,
+      "origin": 49,
+      "qid": "t17t2-astronomical-price",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "conditions",
+      "ok": false,
+      "ms": 15090,
+      "uncertain": false,
+      "origin": 49,
+      "qid": "conditions-telescope",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "dynamism-vitality",
+      "ok": false,
+      "ms": 136254,
+      "uncertain": true,
+      "origin": 49,
+      "qid": "r18t1-dynamism-design",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
+    },
+    {
+      "date": "2026-11-15",
+      "family": "belief-negation-clause",
+      "ok": false,
+      "ms": 47475,
+      "uncertain": false,
+      "origin": 49,
+      "qid": "belief-negation-online-bookings-a",
+      "round_id": "mwhriyl6-qen9yejt",
+      "source_date": "2026-11-15"
     }
   ],
   "issues": [
@@ -4060,6 +4148,7 @@
     45,
     46,
     47,
-    48
+    48,
+    49
   ]
 }

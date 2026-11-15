@@ -48,7 +48,8 @@
     45,
     46,
     47,
-    48
+    48,
+    49
   ],
   "families": {
     "absolute-language": {
@@ -113,12 +114,12 @@
     },
     "astronomy-word-family": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-12",
-      "due": "2026-11-13",
+      "errors": 2,
+      "last": "2026-11-15",
+      "due": "2026-11-15",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 2
     },
     "attribution-stance": {
@@ -163,12 +164,12 @@
     },
     "belief-negation-clause": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-11-14",
+      "errors": 3,
+      "last": "2026-11-15",
       "due": "2026-11-15",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 3
     },
     "brexit-term": {
@@ -363,12 +364,12 @@
     },
     "conditions": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-15",
       "due": "2026-11-15",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "constraint-language": {
@@ -433,12 +434,12 @@
     },
     "dynamism-vitality": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-15",
       "due": "2026-11-15",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "effect-source-target": {
@@ -732,23 +733,23 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 3,
+      "streak": 4,
       "errors": 3,
-      "last": "2026-11-14",
-      "due": "2026-11-21",
+      "last": "2026-11-15",
+      "due": "2026-11-29",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 21,
+      "observed_days": 22,
       "observation_priority": 0
     },
     "panorama-scope": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-15",
       "due": "2026-11-15",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "paragraph-order-anaphora": {
@@ -764,11 +765,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-14",
+      "last": "2026-11-15",
       "due": "2026-11-15",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 13,
+      "observed_days": 14,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -1163,12 +1164,12 @@
     },
     "text3-willfully": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-15",
       "due": "2026-11-15",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "text4-agreement-target": {
