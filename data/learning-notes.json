@@ -4638,5 +4638,432 @@
       }
     ],
     "scoring_policy": "Paper answers and positive comprehension evidence only. No web attempts, scores, errors, Issues or streaks are added; original per-question first picks and revisions remain unknown."
+  },
+  {
+    "date": "2026-11-15",
+    "received_on": "2026-11-15",
+    "session_id": "2026-11-15-2018-text2",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与主动追问；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "not_reported",
+      "whole_passage_understanding": "unknown",
+      "passage_level_difficulty": null
+    },
+    "scoring_policy": "Paper learning observations only. Do not create web Issues, errors, attempts, scores or streaks; Q26/27/29/30 final choices and overall paper performance remain unknown.",
+    "family": "semantic-action-roles",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 28,
+    "initial_pick": "B",
+    "first_considered": "B",
+    "reported_pick": "D",
+    "expected": "B",
+    "initial_choice_letter_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "choice_change_confirmed": true,
+    "candidate_choices": [
+      "B",
+      "D"
+    ],
+    "initial_choice_correct": true,
+    "final_choice_correct": false,
+    "user_quote": "28我在BD犹豫，先选了B然后根据好像D那个exchange view和distributed和文章的different perspective更对的上选了D。",
+    "user_reported_reasoning": "初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。",
+    "answer_change": {
+      "sequence": [
+        "B",
+        "D"
+      ],
+      "reason": "D中的exchange views与distributed trust看起来更对应原文different perspectives和distributed trust。",
+      "evidence_status": "explicit_user_report"
+    },
+    "source_evidence": [
+      "They use \"distributed trust\" to verify stories.",
+      "They cross-check sources and prefer news from different perspectives."
+    ],
+    "semantic_comparison": {
+      "source_action": "use a method to verify news by cross-checking sources",
+      "correct_paraphrase": "verify news by referring to diverse sources",
+      "distractor_action": "exchange views on distributed trust",
+      "changed_relation": "method/instrument becomes the topic of discussion",
+      "perspectives_vs_exchange": "参考不同视角不等于人与人交换意见。"
+    },
+    "note": "已确认的纸质错误改选：B→D，标准B。必须保留真正初选B，不能改写成首次就选D。核对主体、谓语动作、对象及工具/目的/讨论话题的角色；语义保真比关键词重合更重要。改选应由足以推翻原判断的语义证据支持，不能教成一律相信初选。",
+    "training_priority": 1,
+    "training_targets": [
+      "同义改写与保留关键词但改变动作的干扰项",
+      "主体—动作—对象核对",
+      "工具/目的/讨论话题区分",
+      "比较初选与改选的语义证据",
+      "选择正确但理由错误仍须识别"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "received_on": "2026-11-15",
+    "session_id": "2026-11-15-2018-text2",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与主动追问；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "not_reported",
+      "whole_passage_understanding": "unknown",
+      "passage_level_difficulty": null
+    },
+    "scoring_policy": "Paper learning observations only. Do not create web Issues, errors, attempts, scores or streaks; Q26/27/29/30 final choices and overall paper performance remain unknown.",
+    "family": "boast-boost-distinction",
+    "kind": "user_reported_confusion",
+    "scope": "vocabulary_clarification",
+    "source_question": 27,
+    "expected": "A",
+    "reported_pick": null,
+    "final_choice_letter_confirmed": false,
+    "candidate_choices": [
+      "C"
+    ],
+    "option_under_discussion": {
+      "letter": "C",
+      "word": "boast",
+      "is_final_choice": false
+    },
+    "mark_type": "active_question",
+    "source_spans": [
+      "boast / boost"
+    ],
+    "user_quote": "27我觉得boast增加不是很合适吗？",
+    "positive_reasoning": "用户已理解beef up在这里需要增强、提高，不记录为完全不认识这个短语。",
+    "user_reported_reasoning": "知道这里需要增强，但把boast当作增加，混淆了boost；不是完全不认识beef up。只讨论C，最终选择未确认。",
+    "followup_word_association": {
+      "user_quote": "我记得还有个烧烤的词也和这个挺像的。",
+      "remembered_word": null,
+      "candidate_terms": [
+        "roast",
+        "toast"
+      ],
+      "candidate_source": "教学对话推测与补充",
+      "specific_word_confirmed": false,
+      "individually_confirmed_unknown": false,
+      "not_boxed_vocabulary": true
+    },
+    "note": "重点为boast与boost的形近词混淆：boost可提高、促进；boast about是夸耀，boast+值得自豪之物也可表示拥有，不能泛译为增加。beef up是加强，sharpen skills是磨炼技能。roast/toast仅是主动联想的候选词，用户并未确认记得哪一个；不把它们登记成明确画框或确定误译，也不把讨论C当作最终选C。",
+    "training_priority": 2,
+    "training_targets": [
+      "boast / boost的语义与支配结构",
+      "beef up / sharpen skills搭配",
+      "roast / toast作为未确认联想的辅助辨析"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "received_on": "2026-11-15",
+    "session_id": "2026-11-15-2018-text2",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与主动追问；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "not_reported",
+      "whole_passage_understanding": "unknown",
+      "passage_level_difficulty": null
+    },
+    "scoring_policy": "Paper learning observations only. Do not create web Issues, errors, attempts, scores or streaks; Q26/27/29/30 final choices and overall paper performance remain unknown.",
+    "family": "distrust-meaning",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "distrust"
+    ],
+    "specific_mistranslation": "unknown",
+    "note": "不信任、怀疑；与trust方向相反，distrust/mistrust都可表示不信任。缺乏信任不自动证明对方已经撒谎。 画框是翻译困难；原文下划线及第28题证据词不自动加入生词。",
+    "training_targets": [
+      "跨语境词义与搭配",
+      "不把相关表达或推测当作用户已确认的误译"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "received_on": "2026-11-15",
+    "session_id": "2026-11-15-2018-text2",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与主动追问；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "not_reported",
+      "whole_passage_understanding": "unknown",
+      "passage_level_difficulty": null
+    },
+    "scoring_policy": "Paper learning observations only. Do not create web Issues, errors, attempts, scores or streaks; Q26/27/29/30 final choices and overall paper performance remain unknown.",
+    "family": "intimately-familiarity",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "intimately"
+    ],
+    "specific_mistranslation": "unknown",
+    "note": "可表示亲密地，也可表示深入、贴近或详细熟悉。体验新闻事件的语境强调贴近程度，不必是人际亲密。用户具体逐词误译未报告。 画框是翻译困难；原文下划线及第28题证据词不自动加入生词。",
+    "training_targets": [
+      "跨语境词义与搭配",
+      "不把相关表达或推测当作用户已确认的误译"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "received_on": "2026-11-15",
+    "session_id": "2026-11-15-2018-text2",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与主动追问；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "not_reported",
+      "whole_passage_understanding": "unknown",
+      "passage_level_difficulty": null
+    },
+    "scoring_policy": "Paper learning observations only. Do not create web Issues, errors, attempts, scores or streaks; Q26/27/29/30 final choices and overall paper performance remain unknown.",
+    "family": "conscious-awareness",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "conscious"
+    ],
+    "specific_mistranslation": "unknown",
+    "note": "be conscious of表示意识到、察觉到，近于be aware of；conscious还有清醒、有意等义。原文指意识到自身传播信息的角色，不能只机械译成清醒。 画框是翻译困难；原文下划线及第28题证据词不自动加入生词。",
+    "training_targets": [
+      "跨语境词义与搭配",
+      "不把相关表达或推测当作用户已确认的误译"
+    ]
+  },
+  {
+    "date": "2026-11-15",
+    "received_on": "2026-11-15",
+    "session_id": "2026-11-15-2018-text2",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学对话结构化文字与主动追问；维护者未接收或重新查看纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "not_reported",
+      "whole_passage_understanding": "unknown",
+      "passage_level_difficulty": null
+    },
+    "scoring_policy": "Paper learning observations only. Do not create web Issues, errors, attempts, scores or streaks; Q26/27/29/30 final choices and overall paper performance remain unknown.",
+    "family": "over-prefix-frequency",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "source_spans": [
+      "over-tweeting"
+    ],
+    "specific_mistranslation": "unknown",
+    "note": "over-表示过度；over-tweeting描述发推文过于频繁，不意味着每条内容均为虚假，也不是已经停止发推文。 画框是翻译困难；原文下划线及第28题证据词不自动加入生词。",
+    "training_targets": [
+      "跨语境词义与搭配",
+      "不把相关表达或推测当作用户已确认的误译"
+    ],
+    "review_importance": "low"
   }
 ]

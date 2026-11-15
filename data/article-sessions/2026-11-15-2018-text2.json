@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-15-2018-text2",
+  "date": "2026-11-15",
+  "learning_date": "2026-11-15",
+  "created_at": "2026-11-15T21:37:31+09:00",
+  "source": "2018 英语一 Text 2 · B→D改选证据、boast/boost与框词复盘",
+  "focus_families": [
+    "semantic-action-roles",
+    "boast-boost-distinction",
+    "intimately-familiarity",
+    "conscious-awareness"
+  ],
+  "focus_question_ids": {
+    "semantic-action-roles": [
+      "r18t2-role-bridge-kit"
+    ],
+    "boast-boost-distinction": [
+      "r18t2-boost-confidence"
+    ],
+    "intimately-familiarity": [
+      "r18t2-intimately-restoration"
+    ],
+    "conscious-awareness": [
+      "r18t2-conscious-noise"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "paper_outcome": {
+    "evidence_status": "partial_user_reported_paper_answers",
+    "question_range": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "reported_correct_count": null,
+    "reported_total": null,
+    "reported_all_correct": null,
+    "reported_final_choice_letters": {
+      "28": "D"
+    },
+    "reported_initial_choice_letters": {
+      "28": "B"
+    },
+    "final_choices_unknown": [
+      26,
+      27,
+      29,
+      30
+    ],
+    "confirmed_paper_wrong_questions": [
+      28
+    ],
+    "overall_score": "unknown",
+    "other_initial_choices_and_revisions": "unknown",
+    "not_a_web_score": true
+  },
+  "all_observation_families": [
+    "semantic-action-roles",
+    "boast-boost-distinction",
+    "distrust-meaning",
+    "intimately-familiarity",
+    "conscious-awareness",
+    "over-prefix-frequency"
+  ],
+  "source_check": "data/source-checks/2018-english1.json",
+  "boxed_words": [
+    "distrust",
+    "intimately",
+    "conscious",
+    "over-tweeting"
+  ],
+  "unconfirmed_word_association": {
+    "user_quote": "我记得还有个烧烤的词也和这个挺像的。",
+    "remembered_word": null,
+    "candidate_terms": [
+      "roast",
+      "toast"
+    ],
+    "candidate_source": "教学对话推测与补充",
+    "specific_word_confirmed": false,
+    "individually_confirmed_unknown": false,
+    "not_boxed_vocabulary": true
+  },
+  "vocabulary_deferred_to_spaced_review": [
+    "distrust",
+    "over-tweeting"
+  ],
+  "training_scope": "优先动作/对象/工具与讨论话题，以及改选证据；再做形近词与语境词义。本轮四个当前目标加四个历史目标，其他框词已有候选题，不重复或替换当天daily。",
+  "result_summary": "Q28明确初选正确B→最终错误D，因D词面更像原文；Q27只确认boast/boost混淆，最终字母未知。四框词单列，roast/toast均未确认是哪一词。26/29/30选择、全文理解及整篇成绩未知。"
+}

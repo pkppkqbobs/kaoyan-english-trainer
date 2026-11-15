@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "title": "文章复盘 · 8题",
-  "meta": "2018 英语一 Text 1 · 纸质5/5、做题时全文已理解；dynamism轻量复盘 · 本篇问题 1 题 + 历史弱项 7 题 · 全部使用迁移语境",
+  "meta": "2018 英语一 Text 2 · B→D改选证据、boast/boost与框词复盘 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-11-14-2018-text1",
+  "storageId": "2026-11-15-2018-text2",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,746 +13,531 @@
   "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
   "questions": [
     {
-      "id": "belief-negation-online-bookings-a",
+      "id": "r18t2-boost-confidence",
+      "family": "boast-boost-distinction",
+      "introduced": "2026-11-15",
+      "published_on": "2026-11-15",
+      "budget": 40,
+      "target": "boast / boost：支配关系与语义",
+      "skill": "boast / boost：支配关系与语义",
+      "q": "An apprentice knows how to repair clocks but doubts her ability. The instructor wants the next task to ___ her confidence; she is not being asked to brag about past work. Which verb fits?",
+      "o": [
+        "boast",
+        "roast",
+        "boost",
+        "toast"
+      ],
+      "a": 2,
+      "origin_session": "2026-11-15-2018-text2",
+      "exp": {
+        "trans": "学徒会修钟表，却缺乏信心。老师希望下个任务提高她的信心，并非让她夸耀旧成绩。哪个动词合适？",
+        "structure": "空格动词直接支配her confidence，要求表达提高；boast about才通常引出夸耀的对象。",
+        "other": "apprentice学徒；brag夸耀。",
+        "meaning": "boost confidence表示提高信心；boast与boost字形相近但不能互换。",
+        "rest": "boast表示夸耀或拥有值得自豪之物，不表示提高信心；roast是烘烤，toast可烤面包或祝酒，都不符合此宾语关系。"
+      },
+      "context_id": "clock-repair-apprentice-confidence-improvement-not-bragging"
+    },
+    {
+      "id": "with-archive-loading-c",
+      "family": "with",
+      "introduced": "2026-10-18",
+      "published_on": "2026-10-18",
+      "budget": 50,
+      "target": "with + noun + participial phrase",
+      "skill": "识别with复合结构的伴随状态",
+      "q": "The archive reopened at noon, with several boxes waiting in the loading area. What does the with-clause do?",
+      "o": [
+        "It describes a state accompanying the archive's reopening.",
+        "It gives the sole reason the archive reopened at noon.",
+        "It reports an action that archive staff carried out.",
+        "It is the direct object of reopened in the main clause."
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "档案馆中午重新开放，当时有几个箱子正等在装卸区。with结构补充了重新开放时伴随的状态。",
+        "structure": "主干是The archive reopened at noon；with several boxes waiting in the loading area是with + 名词 + 现在分词结构，several boxes是waiting的逻辑主语。",
+        "other": "archive 档案馆；reopen 重新开放；loading area 装卸区；accompany 伴随。",
+        "meaning": "with复合结构常补充主句发生时的伴随状态。它不是reopened的直接宾语，也不自动表达原因或目的。",
+        "rest": "句子没有说明这是档案馆重新开放的唯一原因；with短语描述箱子所处的状态，并未说工作人员另做了一项动作；reopened在这里是不及物动词，不需要直接宾语。"
+      },
+      "context_id": "context:with-archive-loading-c"
+    },
+    {
+      "id": "r17t3-budding-project",
+      "family": "budding-stage",
+      "introduced": "2026-11-10",
+      "published_on": "2026-11-10",
+      "budget": 45,
+      "target": "budding / fully developed",
+      "skill": "budding / fully developed",
+      "q": "A translation collective has completed its first small commission and is still learning how to work together. A reviewer calls it a budding enterprise. Which expectation fits?",
+      "o": [
+        "It has already reached a stable and fully developed operating scale.",
+        "Its first commission proves that every future project must succeed.",
+        "It is showing early promise while its organisation is still developing.",
+        "It has permanently stopped operating before completing any project."
+      ],
+      "a": 2,
+      "origin_session": "2026-11-10-2017-text3",
+      "exp": {
+        "trans": "一个翻译合作团队刚完成首个小委托，成员仍在学习协作。评论者称它为budding enterprise。怎样理解适当？",
+        "structure": "first small commission与still learning共同限定发展阶段；budding修饰enterprise，评价的是事业的初期发展。",
+        "other": "collective合作团队；commission委托；enterprise事业、企业；promise潜力。",
+        "meaning": "budding表示萌芽、开始显现潜力，不等于充分成熟；积极预期也不能推出每个项目必定成功。",
+        "rest": "fully developed把初期推成成熟；every future...must夸大确定性；permanently stopped与已完成委托并继续学习不符。"
+      },
+      "context_id": "new-translation-collective-first-commissions-not-established"
+    },
+    {
+      "id": "r18t2-role-bridge-kit",
+      "family": "semantic-action-roles",
+      "introduced": "2026-11-15",
+      "published_on": "2026-11-15",
+      "budget": 60,
+      "target": "工具用途与讨论话题：动作、对象和主体",
+      "skill": "工具用途与讨论话题：动作、对象和主体",
+      "q": "A repair cooperative lends a \"bridge kit\", a spare wheel that riders return when their damaged wheel is ready. Skills clinics also let members exchange repair methods. What does the evidence establish about the bridge kit?",
+      "o": [
+        "It gives members a place to exchange methods of wheel repair.",
+        "Temporary equipment keeps riders moving during wheel repairs.",
+        "It records views on the methods taught at the repair clinics.",
+        "A bridge-kit forum lets members debate which repairs are best."
+      ],
+      "a": 1,
+      "origin_session": "2026-11-15-2018-text2",
+      "exp": {
+        "trans": "维修合作社把备用车轮称为bridge kit，借给顾客直到原车轮修好；技能课另外提供交流维修方法的机会。关于备用车轮能确定什么？",
+        "structure": "lends与return构成临时借用关系；when从句限定归还时间。Skills clinics是另一个承担交流功能的主体，不能把它的动作转给bridge kit。",
+        "other": "cooperative合作社；spare备用的；clinic在此指技能指导课。",
+        "meaning": "正确概括可用temporary equipment同义改写spare wheel；保留repair、methods等词却把借用设备换成讨论工具，是动作和角色偷换。",
+        "rest": "place to exchange与forum把实体备用轮当成讨论场所；records views把交流或记录功能添加给车轮。提到维修这一共同话题不够。"
+      },
+      "context_id": "repair-cooperative-temporary-wheel-versus-skills-discussion"
+    },
+    {
+      "id": "belief-negation-software-update-b",
       "family": "belief-negation-clause",
       "introduced": "2026-10-15",
       "published_on": "2026-10-15",
       "budget": 55,
-      "target": "assume that ... did not / 被批评的信念",
-      "skill": "宾语从句与否定范围",
-      "q": "A restaurant owner rebuked an apprentice for assuming that the online booking page did not influence walk-in customers. Surveys showed that many visitors discovered the restaurant through the page. What did the apprentice mistakenly believe?",
+      "target": "imagined that ... had not / 提取完整观点",
+      "skill": "信念内容不能由后续结果倒推",
+      "q": "Noor imagined that a software update had not changed her machine's output. Later measurements showed a substantial change. Which statement describes Noor's initial belief?",
       "o": [
-        "The owner had avoided creating an online booking page.",
-        "Walk-in customers were unaffected by the booking page.",
-        "Customers preferred online orders to meals at the restaurant.",
-        "The owner placed excessive importance on online advertising."
-      ],
-      "a": 1,
-      "exp": {
-        "trans": "老板批评学徒，因为学徒以为网上订位页面不影响未经预约直接到店的人；调查却显示不少访客就是经此页面了解餐厅。",
-        "structure": "rebuked an apprentice为主干，for assuming that...说明批评原因，that后的did not influence是学徒持有的错误判断。",
-        "other": "rebuke 责备；apprentice 学徒；walk-in customer 无预约上门顾客；reservation 预约。",
-        "meaning": "assume/imagine that表示以为、认为；否定词位于从句中，决定被批评的是低估作用而非对网络的痴迷。",
-        "rest": "老板未建网页和顾客点餐偏好均无证据；把老板说成过分重视广告，也没有回答学徒错误地否认网页对临时到店顾客的影响。"
-      },
-      "context_id": "context:belief-negation-online-bookings-a"
-    },
-    {
-      "id": "t17-title-repair-network",
-      "family": "title-coverage",
-      "introduced": "2026-10-03",
-      "published_on": "2026-11-08",
-      "budget": 65,
-      "target": "problem title / solution title",
-      "skill": "problem title / solution title",
-      "q": "Residents were throwing away repairable clothes because they lacked sewing skills. A cooperative linked volunteer tailors with neighbourhood workshops, shared spare materials and taught simple repairs. The passage spends most of its space explaining how that network works and ends by recommending similar networks elsewhere. Which title fits best?",
-      "o": [
-        "Why Every Modern Fabric Wears Out Too Quickly",
-        "A Repair Network Gives Old Clothes a Second Life",
-        "The Small Tools Carried by One Volunteer Tailor",
-        "How Clothing Brands Set Prices for New Collections"
-      ],
-      "a": 1,
-      "origin_session": "2026-11-08-2017-text1",
-      "exp": {
-        "trans": "居民缺乏缝补技能而丢弃可修衣物。合作社把志愿裁缝、社区工坊和剩余材料联成网络，文章主要介绍网络做法并建议推广。",
-        "structure": "because交代起初的问题；linked、shared、taught展开方案；most of its space和ends by recommending说明全文重心。",
-        "other": "cooperative合作社；tailor裁缝；spare剩余的；repairable可修复的。",
-        "meaning": "此处方案型标题有全文展开和结论支持，不能机械认为问题型标题一定更全面。",
-        "rest": "Every Fabric把技能问题改成所有面料质量问题；One Tailor的工具袋只是可能细节；品牌定价没有被讨论。"
-      },
-      "context_id": "demonstrated-remedy-central-to-title"
-    },
-    {
-      "id": "pb17-woodcut-workshop",
-      "family": "woodcut-medium",
-      "introduced": "2026-11-12",
-      "published_on": "2026-11-12",
-      "budget": 50,
-      "target": "woodcut：制作媒介",
-      "skill": "woodcut：制作媒介",
-      "q": "In a workshop, an artist removes parts of a wooden block, inks the raised surface and presses paper onto it. The resulting image is a woodcut. What is it?",
-      "o": [
-        "A three-dimensional figure shaped from a solid wooden log.",
-        "A coloured picture painted directly onto a wooden board.",
-        "A pencil drawing copied from the grain of a wooden plank.",
-        "A printed image made from the raised parts of carved wood."
-      ],
-      "a": 3,
-      "origin_session": "2026-11-12-2017-partb",
-      "exp": {
-        "trans": "艺术家刻去木版的部分，在凸起表面上墨，再压上纸，得到woodcut。它是什么？",
-        "structure": "removes→inks→presses是制作过程；The resulting image指纸上印出的图像，而非原始木块。",
-        "other": "raised凸起的；ink着墨；grain木纹。",
-        "meaning": "woodcut是木刻版画；制作媒介和画面内容分开，不是所有雕木制品或木面图像都属于版画。",
-        "rest": "three-dimensional figure是立体木雕；painted directly是直接绘画；pencil drawing是铅笔画，均缺少木版着墨压印。"
-      },
-      "context_id": "workshop-relief-printing-process-versus-sculpture-paint-drawing"
-    },
-    {
-      "id": "with-bread-cooling",
-      "family": "with",
-      "introduced": null,
-      "budget": 60,
-      "target": "with + 名词 + 分词",
-      "skill": "with + 名词 + 后置成分",
-      "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
-      "o": [
-        "补充开门时伴随的状态",
-        "引出老板的直接引语",
-        "说明开门的唯一目的",
-        "充当opened的直接宾语"
+        "She initially thought the update made no difference.",
+        "She had decided to replace the machine entirely.",
+        "She knew from the beginning that output had changed greatly.",
+        "She was excessively enthusiastic about software updates."
       ],
       "a": 0,
       "exp": {
-        "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
-        "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
-        "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
-        "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
-        "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
+        "trans": "Noor起初认为更新没有改变机器产出，后来的测量才发现变化明显。",
+        "structure": "Noor imagined that...中that从句作宾语；had not changed是其核心否定谓语；Later measurements引出相反事实。",
+        "other": "output 产出；substantial 显著的；measurement 测量；initial 初始的。",
+        "meaning": "必须区分人物当时相信什么与后来实际发现了什么；不能只因出现update就推定其对软件痴迷。",
+        "rest": "更换机器无依据；把后来证据当成最初已知事实颠倒时间；过分热衷更新是附加心理描述。"
       },
-      "context_id": "with-simultaneous-ing"
+      "context_id": "context:belief-negation-software-update-b"
     },
     {
-      "id": "r18t1-dynamism-radio",
-      "family": "dynamism-vitality",
-      "introduced": "2026-11-14",
-      "published_on": "2026-11-14",
+      "id": "r18t2-intimately-restoration",
+      "family": "intimately-familiarity",
+      "introduced": "2026-11-15",
+      "published_on": "2026-11-15",
       "budget": 45,
-      "target": "dynamism：组织活力与创新动力",
-      "skill": "dynamism：组织活力与创新动力",
-      "q": "A community radio station has lost its dynamism: volunteers rarely suggest new programmes or test fresh formats. A grant aims to revive that dynamism without adding broadcast hours. What is it meant to restore?",
+      "target": "intimately：深入熟悉与人际亲密",
+      "skill": "intimately：深入熟悉与人际亲密",
+      "q": "A conservator has studied one tapestry for years and knows its repairs intimately. She has never met the people who made it. What does intimately describe?",
       "o": [
-        "The amount of airtime sold to commercial advertisers.",
-        "The reach of signals sent to distant rural listeners.",
-        "The team's energy and readiness to develop new ideas.",
-        "The continuity of an unchanged weekly programme list."
+        "Detailed familiarity with the object and its repairs.",
+        "A close personal friendship with the original makers.",
+        "A very quick look that reveals almost no information.",
+        "An immediate discovery made without earlier experience."
+      ],
+      "a": 0,
+      "origin_session": "2026-11-15-2018-text2",
+      "exp": {
+        "trans": "修复人员研究一幅挂毯多年，深入熟悉其修补情况，却从未见过制作它的人。intimately描述什么？",
+        "structure": "knows...intimately的宾语是its repairs；后句排除把这里的熟悉理解为与制作者有亲密人际关系。",
+        "other": "conservator文物修复人员；tapestry挂毯。",
+        "meaning": "intimately可表示深入、详细地熟悉事物；具体语境决定词义，不限定为亲密关系，也不等于immediately的即时。",
+        "rest": "personal friendship换成人际关系；quick look反转深入程度；immediate discovery误把intimately当成immediately并忽略多年研究。"
+      },
+      "context_id": "tapestry-conservator-detailed-object-knowledge-not-personal-intimacy"
+    },
+    {
+      "id": "r18t2-conscious-noise",
+      "family": "conscious-awareness",
+      "introduced": "2026-11-15",
+      "published_on": "2026-11-15",
+      "budget": 45,
+      "target": "be conscious of / be aware of",
+      "skill": "be conscious of / be aware of",
+      "q": "The editor is conscious of the noise from the next room and moves the recording session. Which paraphrase preserves conscious of?",
+      "o": [
+        "The editor deliberately creates all the noise in the next room.",
+        "The editor is unconscious while the recording takes place.",
+        "The editor is aware of the noise and adjusts the arrangement.",
+        "The editor knows nothing about the noise during recording."
       ],
       "a": 2,
-      "origin_session": "2026-11-14-2018-text1",
+      "origin_session": "2026-11-15-2018-text2",
       "exp": {
-        "trans": "社区电台活力下降：志愿者很少再提新节目或尝试新形式。一笔资助要在不增加播出时数的情况下恢复这种活力。它要恢复什么？",
-        "structure": "冒号后的行为具体解释lost its dynamism；that dynamism回指同一活力；without adding hours限定恢复目标并非延长播出。",
-        "other": "grant资助；format节目形式；airtime播出时间；readiness意愿、准备程度。",
-        "meaning": "dynamism在组织语境指活力与提出、尝试新想法的动力。revive是恢复；活力减弱与恢复不等于单纯缩减或增加活动数量。",
-        "rest": "amount of airtime转向商业播出时数；reach of signals讨论技术覆盖范围；unchanged programme list强调一成不变，均未恢复创新尝试的活力。"
+        "trans": "编辑意识到隔壁噪声，便调整录音安排。conscious of如何改写？",
+        "structure": "be conscious of后接所察觉的对象；moves the session说明意识到噪声之后的调整，不说明他制造了噪声。",
+        "other": "recording session录音场次；arrangement安排。",
+        "meaning": "conscious of是意识到、察觉到，不只是生理清醒；aware of保留这一关系。",
+        "rest": "creates偷换为制造噪声；unconscious方向相反；knows nothing也否定了已经意识到。"
       },
-      "context_id": "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal"
+      "context_id": "recording-editor-awareness-of-noise-not-source-of-noise"
     },
     {
-      "id": "pb17-music-ending",
+      "id": "paragraph-discourse-audit-method-before-cases",
       "family": "paragraph-order-discourse",
       "introduced": "2026-10-04",
-      "published_on": "2026-11-12",
-      "budget": 60,
-      "target": "结尾与全局论证相容",
-      "skill": "结尾与全局论证相容",
-      "q": "An essay introduces software that restores damaged musical scores, shows one rhythm error it produced, and explains how musicians can check its output. Which closing paragraph best fits that argument?",
+      "published_on": "2026-10-27",
+      "target": "说明与例证的层级",
+      "skill": "说明与例证的层级",
+      "budget": 65,
+      "q": "An energy guide first explains that meter logs locate periods of high demand. A paragraph about equipment inspections follows. The next two paragraphs describe a bakery and a warehouse that combined logs with inspections. What is the role of the inspections paragraph?",
       "o": [
-        "Human checks help; useful output can still contain errors.",
-        "The history of ticket prices now needs a detailed account.",
-        "All restored notes must be right whenever software is used.",
-        "One rhythm error proves that every digital tool is useless."
-      ],
-      "a": 0,
-      "origin_session": "2026-11-12-2017-partb",
-      "exp": {
-        "trans": "文章介绍修复乐谱的软件，展示一处节奏错误，再解释音乐家如何核验。哪段适合结尾？",
-        "structure": "开头对象、错误例证、核验措施共同约束末段；结尾应合并优势与限制，不另起无关话题或扩大为全称断言。",
-        "other": "score乐谱；restore修复；output输出结果。",
-        "meaning": "全局位置要检查论证链是否闭合；技术有用与仍需人类核验可以同时成立。",
-        "rest": "ticket prices另起无关话题；All restored notes把能力夸成保证；every digital tool把单例扩大为全体无用。"
-      },
-      "context_id": "music-score-restoration-global-conclusion-with-qualified-claim"
-    },
-    {
-      "id": "cloze-applicant-scholarship-a",
-      "family": "cloze-applicant-outcome",
-      "introduced": "2026-10-14",
-      "published_on": "2026-10-14",
-      "budget": 50,
-      "target": "applicant success / selection outcome",
-      "skill": "区分申请者结果与其本人决定",
-      "q": "A scholarship committee, not the students, decides who receives funding. In theory, an applicant's ______ should not depend on which other candidate happened to be interviewed immediately before her.",
-      "o": [
-        "success",
-        "decision",
-        "vision",
-        "complaint"
+        "It completes the methods that the later cases apply.",
+        "It summarizes the outcomes reported in the later cases.",
+        "It gives a third case after the bakery and warehouse.",
+        "It withdraws the claim that meter logs can be useful."
       ],
       "a": 0,
       "exp": {
-        "trans": "奖学金由评审委员会决定授予谁。理论上，申请者能否成功获得资助，不应取决于刚在她之前接受面试的其他候选人。",
-        "structure": "A scholarship committee ... decides是前句主干；后句an applicant's success是名词中心，should not depend on...交代不该受谁影响。",
-        "other": "funding 资助；candidate 候选人；committee 委员会；depend on 取决于。",
-        "meaning": "success of an applicant在录取或资助语境中可指申请成功；decision of an applicant通常是申请者自己做的决定，而此处决策权属于委员会。",
-        "rest": "decision会将委员会作出的录取决定错写成申请者自身的决定；vision和complaint与资助是否获批的结果都不相称。"
+        "trans": "能源指南先解释用电表日志定位高需求时段，再介绍设备检查；后面两个案例同时使用日志和检查。检查段是在补齐随后案例会应用的方法。",
+        "structure": "first、follows、next交代段落顺序；combined logs with inspections说明两个案例同时依赖前面两种方法，不是只应用第一段的方法。",
+        "other": "meter log 电表记录；equipment inspection 设备检查；high demand 高需求；apply 应用。",
+        "meaning": "一个方法段结束，不代表下一段必须马上举例。要检查后面案例需要哪些方法说明，再分清并列方法与两则应用案例的层级。",
+        "rest": "总结后文结果需要结果性内容，检查方法本身不能当作结果总结；它位于两案例前也不是第三案例；案例同时使用日志，并未撤回日志有用的判断。"
       },
-      "context_id": "context:cloze-applicant-scholarship-a"
-    },
-    {
-      "id": "conceivably-ferry",
-      "family": "conceivably",
-      "introduced": null,
-      "target": "conceivably",
-      "skill": "conceivably",
-      "q": "If the wind weakens before noon, the ferry could conceivably resume service this afternoon, but the operator has made no promise. Conceivably most nearly means:",
-      "o": [
-        "必定",
-        "或许",
-        "故意",
-        "表面"
-      ],
-      "a": 1,
-      "budget": 35,
-      "exp": {
-        "trans": "如果中午前风势减弱，渡轮今天下午有可能恢复运营，但运营方没有作出任何保证。",
-        "structure": "if从句给出条件：the wind weakens before noon。主句：the ferry + could resume + service；conceivably修饰could resume，降低确定性。but后面的no promise进一步说明并不确定。",
-        "other": "weaken 减弱；ferry 渡轮；resume service 恢复运营；operator 运营方。",
-        "meaning": "conceivably = 可以设想地、有可能地，强调可能存在但远未确定。",
-        "rest": "必定对应确定性，强于could且与未作承诺冲突；故意描述意图；表面描述外观，都不是这里的可能性。"
-      },
-      "context_id": "context:conceivably-ferry"
+      "context_id": "context:paragraph-discourse-audit-method-before-cases"
     }
   ],
   "retry": {
-    "belief-negation-clause": [
+    "boast-boost-distinction": [
       {
-        "id": "belief-negation-software-update-b",
-        "family": "belief-negation-clause",
-        "introduced": "2026-10-15",
-        "published_on": "2026-10-15",
-        "budget": 55,
-        "target": "imagined that ... had not / 提取完整观点",
-        "skill": "信念内容不能由后续结果倒推",
-        "q": "Noor imagined that a software update had not changed her machine's output. Later measurements showed a substantial change. Which statement describes Noor's initial belief?",
-        "o": [
-          "She initially thought the update made no difference.",
-          "She had decided to replace the machine entirely.",
-          "She knew from the beginning that output had changed greatly.",
-          "She was excessively enthusiastic about software updates."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "Noor起初认为更新没有改变机器产出，后来的测量才发现变化明显。",
-          "structure": "Noor imagined that...中that从句作宾语；had not changed是其核心否定谓语；Later measurements引出相反事实。",
-          "other": "output 产出；substantial 显著的；measurement 测量；initial 初始的。",
-          "meaning": "必须区分人物当时相信什么与后来实际发现了什么；不能只因出现update就推定其对软件痴迷。",
-          "rest": "更换机器无依据；把后来证据当成最初已知事实颠倒时间；过分热衷更新是附加心理描述。"
-        },
-        "context_id": "context:belief-negation-software-update-b"
-      }
-    ],
-    "title-coverage": [
-      {
-        "id": "title-coverage-library-a",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "target": "标题覆盖全文 / 局部主题",
-        "skill": "主旨标题覆盖范围",
-        "budget": 55,
-        "q": "短文先介绍图书馆除纸质借阅外的电子书、设备借用和线上课程，随后重点讨论线上课程的版权风险。哪个标题最能覆盖全文？",
-        "o": [
-          "Copyright Problems in Online Courses",
-          "Beyond Printed Books: New Library Services",
-          "Why E-books Will Replace Libraries",
-          "The Only Safe Way to Teach Online"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "文章先介绍图书馆在纸质书借阅之外提供的多种新服务，后文再重点讨论其中线上课程的版权风险。最合适的标题应覆盖多种新服务这一全文框架，而不是只概括后半部分。",
-          "structure": "题干给出总框架到其中一项风险的篇章结构。标题需要同时解释前半部分为什么介绍多个服务，也能容纳后半部分的版权讨论。",
-          "other": "printed book 纸质书；device lending 设备借用；copyright 版权；cover 覆盖。",
-          "meaning": "标题题要找能统摄全文的上位概念。局部篇幅很长，也不能因此把局部主题当成全文主题。",
-          "rest": "Copyright Problems in Online Courses只覆盖后半篇；Why E-books Will Replace Libraries加入取代主张；The Only Safe Way含Only且主题过窄。"
-        },
-        "context_id": "context:title-coverage-library-a"
-      },
-      {
-        "id": "title-coverage-kitchen-evolution",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-10-05",
-        "budget": 55,
-        "target": "标题 / 全文发展主线",
-        "skill": "主旨标题覆盖范围",
-        "q": "短文追踪社区公共厨房如何从临时救灾供餐点转为日常共享备餐场所；中段介绍管理规则的变化，末段采访新加入的常住居民。哪个标题覆盖全文主线？",
-        "o": [
-          "Who Uses Community Kitchens Today",
-          "From Emergency Meals to Shared Cooking",
-          "Rules for Running a Disaster Kitchen",
-          "Why Shared Kitchens Need New Buildings"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "全文追踪公共厨房从灾时供餐到日常共享备餐的转变。From Emergency Meals to Shared Cooking意为“从应急供餐到共享烹饪”；其他标题分别聚焦当下使用者、灾时管理、未提到的新建筑需求。",
-          "structure": "叙述按功能转变组织；规则变化和居民采访都是这一演变的证据。标题中的from...to...覆盖起点、终点及中间变化，而不仅是末段人物。",
-          "other": "emergency meal 应急供餐；shared cooking 共享烹饪；resident 常住居民；disaster 灾害。",
-          "meaning": "全文覆盖可以体现时间或功能发展的主线，不必总列出多个并行服务。结尾采访显眼，但不应代替文章的发展轴。",
-          "rest": "Who Uses...只覆盖末段使用者；Rules for Running...只覆盖原有救灾角色的管理部分，漏掉转变；New Buildings引入未论述的建设需求。"
-        },
-        "context_id": "context:title-coverage-kitchen-evolution"
-      },
-      {
-        "id": "title-coverage-local-energy-choices",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-10-05",
-        "budget": 55,
-        "target": "标题 / 比较框架与局部例证",
-        "skill": "主旨标题覆盖范围",
-        "q": "短文比较潮汐发电、屋顶太阳能、废热回收在沿海城市中的成本、时间限制与扩展条件。末段详细讨论废热管网维护，作为能源方案受当地条件影响的例子。哪个标题最好？",
-        "o": [
-          "Maintaining Urban Heating Pipes",
-          "The Limits of Tidal Generation",
-          "Replacing Solar Panels with Recovered Heat",
-          "Energy Choices Shaped by Local Conditions"
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "文章比较三类能源方案的成本、可用时段与扩展条件，并用废热管网维护作例证。Energy Choices Shaped by Local Conditions是“由当地条件塑造的能源选择”。",
-          "structure": "全文是多方案比较框架；末段维护细节从属于共同约束。标题中shaped by local conditions是修饰Energy Choices的过去分词短语，突出共同决定因素。",
-          "other": "tidal generation 潮汐发电；solar panel 太阳能板；recovered heat 回收热量；local condition 当地条件。",
-          "meaning": "标题要覆盖比较对象及比较所得的共同轴线。篇幅较长的末段案例不等于全文唯一对象。",
-          "rest": "Maintaining...缩成末段管网维护；Limits of Tidal...只剩一种发电方式；Replacing Solar...虚构“以废热替代太阳能”的取舍结论，原文只说比较与条件约束。"
-        },
-        "context_id": "context:title-coverage-local-energy-choices"
-      },
-      {
-        "id": "title-coverage-public-alerts-a",
-        "family": "title-coverage",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-10",
-        "budget": 65,
-        "target": "多阶段主题覆盖 / 防止只抓矛盾",
-        "skill": "全文标题覆盖检验",
-        "q": "A town once treated residents' road-hazard reports as isolated messages. It later built a system in which local volunteers gather reports, engineers check them, and officials publish verified travel advice. Advice is corrected when new evidence arrives. The town says repeated checking and revision—not merely the first report—has made the system dependable. Which title best covers the passage?",
-        "o": [
-          "Why Local Volunteers Sometimes Make Mistakes",
-          "The Threat of False Reports at the Start of Every Journey",
-          "How Road-Hazard Reports Become Trusted Public Advice",
-          "A Debate over Whether Engineers Should Be Replaced"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "小镇从最初零散的道路危险报告，发展到志愿者收集、工程师核查、官方发布，并根据新证据修订建议的流程。全文重点是信息如何逐步成为可靠的公共建议。",
-          "structure": "once ... later ... when ... 的时间和条件连接展开过程；最后一句not merely the first report强调可信度来自持续核查与修订。",
-          "other": "hazard 危险；isolated 零散的；verified 核实过的；dependable 可靠的。",
-          "meaning": "标题需要覆盖‘初始信息→验证→公开→更新→可信’整条主线。仅强调最初的错误或一次争论，都只覆盖局部或无证据。",
-          "rest": "志愿者犯错只是潜在局部问题；旅途中的虚假报告不是全文核心；替换工程师与原文分工核查相反。"
-        },
-        "context_id": "context:title-coverage-public-alerts-a"
-      },
-      {
-        "id": "title-coverage-school-meals-b",
-        "family": "title-coverage",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-10",
-        "budget": 65,
-        "target": "标题跨段覆盖 / 不凭字母分布",
-        "skill": "选择覆盖发展主线的标题",
-        "q": "A school district began by collecting students' complaints about lunch menus. Nutrition staff then tested alternative recipes, while parents and kitchen workers assessed cost and acceptance. Several proposals were changed after trials. The district now repeats the evaluation each year rather than treating its first reform as final. Which is the best title?",
-        "o": [
-          "The Hidden Cost of Hiring School Kitchen Workers",
-          "From Lunch Complaints to an Evolving Food Program",
-          "Why Students Reject Every Healthy Menu",
-          "A Final Recipe That Ended School Food Debates"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "学区从收集学生对午餐菜单的意见出发，经过营养人员测试、家长和食堂人员评估、试行后修改，并每年继续复评。主线是餐食方案逐步形成并不断演进。",
-          "structure": "began by ... then ... after trials ... now ... each year组成完整发展顺序；rather than treating ... as final明确不是一次定案。",
-          "other": "nutrition staff 营养工作人员；alternative recipe 替代食谱；assess 评估；trial 试行。",
-          "meaning": "最佳标题应包含问题提出、集体检验和持续改进。不能因为某个字母此前少出现，就放弃更能覆盖全文的选项。",
-          "rest": "雇员成本只是局部评估维度；every healthy menu属于无依据的绝对化；final recipe与每年重新评估矛盾。"
-        },
-        "context_id": "context:title-coverage-school-meals-b"
-      },
-      {
-        "id": "title-coverage-depot-cycle-parking",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-10-30",
-        "target": "标题覆盖 / 核心事件",
-        "skill": "核心行动与话题相关性辨析",
-        "budget": 65,
-        "q": "A city bus operator is testing overnight bicycle parking at three depots. The article explains how the trial works, cyclists' responses, and staffing limits. Nearby repair shops appear only as background. Which title best captures the article's central event?",
-        "o": [
-          "Cyclists Turn to Bus Drivers for Help with Bike Repairs",
-          "City Bus Depots Host an Overnight Cycle-Parking Trial",
-          "Bicycles Become Part of the City's Transport Mix",
-          "Every Bus Depot Opens Permanently for Cycle Storage"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "城市公交运营方正在三个车场试行夜间自行车停车服务。文章介绍试行办法、骑车者反应和人员限制，附近修车店只是背景。标题应概括公交车场试行夜间自行车停车这一事件。",
-          "structure": "首句主语A city bus operator，谓语is testing，宾语overnight bicycle parking；at three depots限定试点范围。后两句区分围绕试行的主体内容与仅作背景的修车店。",
-          "other": "operator运营方；depot车场；overnight过夜的；staffing人员配备。",
-          "meaning": "标题要保留核心主体、行动及试行性质，并能统领实施、反应和限制。仅与自行车或交通话题相关，不足以概括文章。",
-          "rest": "“公交司机帮忙修车”把背景改成主要行动；“自行车进入城市交通组合”虽话题相关，却遗漏夜间停车试行；“所有车场永久开放”同时扩大three和testing的范围、确定性。"
-        },
-        "context_id": "depot-cycle-service-pilot-vs-transport-topic"
-      },
-      {
-        "id": "title-coverage-bookshop-pooled-delivery",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-10-30",
-        "target": "主旨标题 / 行动与原因",
-        "skill": "概括全文发展而非抓相关词",
-        "budget": 65,
-        "q": "Local bookshops are replacing separate next-day deliveries with a slower shared service. The article explains rising van costs, pooled routes, and customers accepting longer waits for lower delivery charges. A brief section about authors' visits supplies background. Which title best captures the main development?",
-        "o": [
-          "Online Shopping Reshapes Relations with Local Shops",
-          "Local Bookshops Abandon Online Orders and Deliveries",
-          "Book Launches Become the Main Job of Delivery Teams",
-          "Bookshops Pool Deliveries to Lower Transport Costs"
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "当地书店正用速度稍慢的共享配送取代各店分别进行的次日配送。文章分析货车成本上涨、合并线路以及顾客接受较长等待来换取较低配送费；作家来访只是背景。主线是书店通过合并配送降低运输成本。",
-          "structure": "首句主语Local bookshops，谓语are replacing，宾语separate next-day deliveries，with引出替代方案。第二句explains后列举改革原因、运作方式及顾客反应；最后一句明示作家活动只是背景。",
-          "other": "pooled routes合并安排的线路；van厢式货车；delivery charge配送费；background背景。",
-          "meaning": "一个标题若能同时统领成本原因、共享做法和顾客取舍，比只罗列相关话题更准确。概括不能把改用另一种配送扩大为停止线上业务。",
-          "rest": "“网购改变与商店的关系”相关但过于宽泛，遗漏合并配送降成本的核心变化；“放弃网购订单和配送”与仍有shared service矛盾；“送货团队主要举办新书活动”把背景细节升级成主旨，并加入无依据的团队职责。"
-        },
-        "context_id": "pooled-delivery-cost-response-vs-online-topic"
-      },
-      {
-        "id": "text1-title-academic-merit-g",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-02",
-        "budget": 40,
-        "target": "title coverage / 核心争议对象",
-        "skill": "标题范围与中心论点",
-        "q": "At a university, hiring panels have long treated publication counts and institutional prestige as the main signs of academic merit. A new proposal gives more weight to teaching, mentoring and contributions to local research groups. Critics argue that the old measures overlook important work, especially by early-career scholars. Which title best captures the central issue?",
-        "o": [
-          "A Challenge to Universities' Ideas of Academic Merit",
-          "Another Debate About Competition in Higher Education",
-          "Why Young Scholars Are Leaving University Research",
-          "A New Ranking System for Research Universities"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "大学招聘长期把论文数量和机构声望当作学术价值的主要标志。新方案提高教学、指导学生和本地研究贡献的权重，批评者认为旧标准忽略重要工作。核心是挑战大学对学术价值的既有定义。",
-          "structure": "首句交代既有评价标准；第二句提出新方案；第三句由Critics argue引出中心批评。",
-          "other": "publication count论文数量；institutional prestige机构声望；academic merit学术价值；early-career scholar职业早期学者。",
-          "meaning": "正确标题同时覆盖被挑战的主体（大学）和争议对象（学术价值标准），而不是只摘取一个局部案例。",
-          "rest": "有的选项只说高等教育竞争，范围过宽；有的声称年轻学者正在离开研究岗位，原文没有此事实；还有的把新评价方案误写成已经建立的新排名系统。"
-        },
-        "context_id": "university-academic-merit-criteria"
-      },
-      {
-        "id": "text1-title-library-success-h",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-02",
-        "budget": 40,
-        "target": "title coverage / 衡量标准",
-        "skill": "标题覆盖与论点概括",
-        "q": "A city library has been judged mainly by the number of books borrowed. A new review argues that this measure misses digital help, language classes, and access for residents who cannot visit during the day. It asks the city to reconsider what a successful library provides. Which title best represents the argument?",
-        "o": [
-          "Rethinking How Cities Measure Library Success",
-          "Why Borrowing Books Has Declined in City Libraries",
-          "A Plan to Replace Libraries with Online Services",
-          "The Growing Cost of Running Public Libraries"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "一座城市图书馆过去主要按借阅量评价。新评估指出，这一指标忽略数字服务、语言课程以及白天无法到馆居民的使用机会，因而要求重新思考什么才算图书馆成功。",
-          "structure": "首句给出旧指标；第二句指出其遗漏；第三句概括中心诉求。",
-          "other": "borrow借阅；digital help数字服务；access使用机会/可及性；measure衡量指标。",
-          "meaning": "核心不是借阅量下降、线上服务取代图书馆或运营成本，而是成功标准需要重新衡量。",
-          "rest": "借阅量下降并未被报告；用线上服务取代图书馆超出原文；把成本当成核心问题也偏离文章。"
-        },
-        "context_id": "public-library-success-metrics"
-      },
-      {
-        "id": "text4-title-heat-cooling-strategy",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "central strategy vs one example",
-        "skill": "标题覆盖中心方案",
-        "q": "A city tested reflective roofs to reduce summer heat. The report says roofs helped, but shaded bus stops, drinking-water access and support for elderly residents must also be included in a wider plan. Which title best captures the point?",
-        "o": [
-          "How Reflective Roofs Became the City's Only Heat Tool",
-          "Why Elderly Residents Have Stopped Using Public Buses",
-          "The Falling Price of Roof Materials in Urban Markets",
-          "Citywide Heat Planning Beyond Reflective Roofs Alone"
-        ],
-        "a": 3,
-        "exp": {
-          "trans": "反光屋顶有用，但高温应对还需遮阴、饮水和老人支持。",
-          "structure": "but把主旨从单项措施引向综合方案。",
-          "other": "reflective反光的；shade遮阴；response应对。",
-          "meaning": "标题要涵盖由局部措施向综合应对转变的论点。",
-          "rest": "唯一措施、老人停止公交和材料降价均偏离原文。"
-        },
-        "context_id": "cool-roofs-plus-urban-heat-response"
-      },
-      {
-        "id": "text4-title-recommendation-choice",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "recommendation transparency and choice",
-        "skill": "主旨范围与治理目标",
-        "q": "An online learning platform recommends courses using past clicks. Researchers say this may help discovery, but ask for clearer explanations and a way for students to override the system. Which title fits best?",
-        "o": [
-          "Why Online Courses Should Be Abolished for Everyone",
-          "Making Course Suggestions Clearer and Easier to Control",
-          "The Complete History of University Enrollment Systems",
-          "How Student Click Data Has Become Entirely Useless"
-        ],
-        "a": 1,
-        "exp": {
-          "trans": "研究者认可基于点击的推荐有一定用途，但要求透明解释和学生自主改选。",
-          "structure": "may help discovery肯定实用性；but ask for指出核心改进诉求。",
-          "other": "recommend推荐；override人工覆盖；transparent透明的。",
-          "meaning": "标题应强调推荐系统更透明和可控，而非全面放弃线上课程。",
-          "rest": "废除课程、招生历史和点击数据全无用均不是论点。"
-        },
-        "context_id": "course-recommendations-user-control"
-      },
-      {
-        "id": "text4-title-food-waste-measurement",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "main claim vs single datum",
-        "skill": "方法论中心而非局部例子",
-        "q": "Cafeterias have traditionally counted leftover food only by weight. A study finds that this hides differences between discarded meals, preparation scraps and food safely donated. It recommends separate measures for each. Which title best reflects the study?",
-        "o": [
-          "Why Students Always Leave Food on Their Plates",
-          "The Cost of Replacing All School Kitchen Equipment",
-          "Measuring Food Waste More Precisely Across Its Sources",
-          "A Call to Stop Donating Leftover Food to Local Groups"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "报告认为只按重量统计食物浪费不够，应分别衡量餐食、备菜边角和捐赠。",
-          "structure": "traditionally交代旧法，It recommends呈现主要主张。",
-          "other": "cafeteria食堂；scraps边角料；discard丢弃。",
-          "meaning": "标题需要涵盖衡量方法的改进和分类原则。",
-          "rest": "学生总剩饭、替换所有设备或停止捐赠都无证据。"
-        },
-        "context_id": "food-waste-weight-vs-separated-sources"
-      },
-      {
-        "id": "text4-title-volunteer-retention",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-05",
-        "budget": 45,
-        "target": "recruitment vs retention",
-        "skill": "识别转折后的核心议题",
-        "q": "A charity celebrates a rise in volunteer sign-ups. Its annual review notes, however, that most newcomers leave within a month and argues for mentoring and flexible shifts. Which title best captures its concern?",
-        "o": [
-          "From Volunteer Recruitment to Keeping Volunteers Engaged",
-          "The End of Volunteer Work in Modern Communities",
-          "Why Charities Have Stopped Recruiting New Workers",
-          "An Unprecedented Surge in Long-Term Volunteer Loyalty"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "志愿者招募增多，但新人很快退出；报告要求导师指导与灵活排班。",
-          "structure": "however将主题从招募成绩转移到留存问题。",
-          "other": "sign-up报名；mentoring指导；retention留存。",
-          "meaning": "标题应概括招募和留存之间的落差与解决方向。",
-          "rest": "终结志愿服务、停止招募、长期忠诚度增加均不真实。"
-        },
-        "context_id": "charity-volunteer-signups-vs-retention"
-      },
-      {
-        "id": "pb16-title-park-volunteers",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-06",
-        "budget": 45,
-        "target": "paragraph core goal vs illustrative measure",
-        "skill": "主旨判断：整体任务与具体例子",
-        "q": "A neighbourhood group first surveyed why families rarely used a public park. It found poor lighting, inaccessible entrances and a lack of seating. The group then proposed fixing those barriers and measuring whether more residents return, rather than simply holding one publicity event. What heading captures the main point?",
-        "o": [
-          "A Guide to Advertising One Weekend Event",
-          "Why Park Volunteers Need More Members",
-          "Remove Barriers to Everyday Park Use",
-          "The History of Street Lighting Projects"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "社区调查公园少有人使用的原因，发现照明、入口和座椅问题，建议解决这些障碍并评估使用效果。",
-          "structure": "surveyed why... 和 fixing those barriers指向找原因并改善可用性；宣传活动只是对照。",
-          "other": "inaccessible难进入的；barrier障碍；usable可使用的。",
-          "meaning": "标题应覆盖对使用障碍的调查和改善，而不是抽一个局部措施当作全篇主旨。",
-          "rest": "单次活动广告、招募人数、照明史均不是本段总体论点。"
-        },
-        "context_id": "neighborhood-park-barriers-vs-publicity"
-      },
-      {
-        "id": "t17-title-urban-birds",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-08",
-        "budget": 65,
-        "target": "core problem / proposed remedy",
-        "skill": "core problem / proposed remedy",
-        "q": "A city installed hundreds of nest boxes after birds stopped breeding in several parks. Some boxes remained empty. Researchers then found that night lighting disrupted feeding and that insect numbers had fallen. The writer welcomes the boxes but argues that nesting space is only one part of the problem. Which title best captures the argument?",
-        "o": [
-          "Urban Birds Need More Than Extra Nest Boxes",
-          "Nest Boxes Have Ended the Decline of City Birds",
-          "How Carpenters Build the City's Nest Boxes",
-          "Why All Wild Birds Now Leave Cities Forever"
-        ],
-        "a": 0,
-        "origin_session": "2026-11-08-2017-text1",
-        "exp": {
-          "trans": "城市增设巢箱后，一些箱子仍空着。后续发现夜间照明和昆虫减少也影响繁殖；作者认可巢箱，但指出单一措施不够。",
-          "structure": "前两句给出措施及局限；then引出另外的原因；welcomes...but argues明确作者最后的限定主张。",
-          "other": "nest box巢箱；breeding繁殖；disrupt扰乱；feeding觅食。",
-          "meaning": "标题要包含单一解决办法不足以覆盖多种原因的论点，不能把受到欢迎的措施直接写成已经解决全部问题。",
-          "rest": "Have Ended夸大为问题已解决；How...Build只写建设方法；All...Forever加入全文不支持的绝对结论。"
-        },
-        "context_id": "multiple-causes-single-remedy-title"
-      },
-      {
-        "id": "t17-title-crop-diversity",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-08",
-        "budget": 65,
-        "target": "opening example / whole-text focus",
-        "skill": "opening example / whole-text focus",
-        "q": "A report opens with one family losing its beans during a dry summer. It then follows seed banks that preserve many crop varieties, including ones not currently profitable. The final sections argue that these collections keep future farming options open when climates and diseases change. Which title best covers the report?",
-        "o": [
-          "Why One Family Needs a Larger Vegetable Garden",
-          "Growing Every Crop Indoors Without Any Seeds",
-          "Saving Crop Diversity for an Uncertain Future",
-          "New Chemicals Make All Traditional Crops Obsolete"
-        ],
-        "a": 2,
-        "origin_session": "2026-11-08-2017-text1",
-        "exp": {
-          "trans": "开头是一家人的豆类歉收，但报告随后讨论种子库保留品种、在未来变化中保存农业选择的长期意义。",
-          "structure": "opens with表示例子入口；then和final sections说明后续主体及论点，不能以开篇人物替代全文。",
-          "other": "seed bank种子库；variety品种；profitable有利可图的；preserve保存。",
-          "meaning": "标题须概括保存作物多样性及其未来价值，而不是只复述开头案例或单一技术。",
-          "rest": "One Family过窄；Indoors Without Seeds添加不存在的技术；All...Obsolete又把保存传统品种的主张改成淘汰。"
-        },
-        "context_id": "opening-case-versus-long-term-principle-title"
-      },
-      {
-        "id": "t17-title-music-counts",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-08",
-        "budget": 65,
-        "target": "topic relevance / central argument",
-        "skill": "topic relevance / central argument",
-        "q": "An essay begins with a song that attracted millions of brief plays. It contrasts that success with a small community choir whose listeners attend repeatedly and form lasting friendships. Rather than dismiss streaming, the author asks whether listening totals alone capture music's social value. Which title best expresses the point?",
-        "o": [
-          "Why Streaming Platforms Need Many More Users",
-          "One Singer's Guaranteed Route to a Viral Hit",
-          "How Streaming Apps Compress Digital Audio Files",
-          "Beyond Listener Counts: What Makes Music Matter"
-        ],
-        "a": 3,
-        "origin_session": "2026-11-08-2017-text1",
-        "exp": {
-          "trans": "文章从高播放量歌曲写起，对比社区合唱团带来的持续参与和友谊，质疑单靠播放量能否衡量音乐的社会价值。",
-          "structure": "contrasts构成案例对比；Rather than dismiss排除全面否定平台的读法；whether引出作者质疑的评价标准。",
-          "other": "choir合唱团；brief短暂的；lasting持久的；social value社会价值。",
-          "meaning": "流媒体只是话题之一，核心论点是评价标准是否过于单一，标题要体现这一层。",
-          "rest": "More Users仍只追求数量；Guaranteed Route把引例误作操作教程；Compress Audio讨论技术细节而非社会价值。"
-        },
-        "context_id": "evaluative-criterion-beyond-surface-topic-title"
-      }
-    ],
-    "woodcut-medium": [
-      {
-        "id": "pb17-woodcuts-catalogue",
-        "family": "woodcut-medium",
-        "introduced": "2026-11-12",
-        "published_on": "2026-11-12",
+        "id": "r18t2-boast-possession",
+        "family": "boast-boost-distinction",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
         "budget": 50,
-        "target": "woodcuts：媒介与内容",
-        "skill": "woodcuts：媒介与内容",
-        "q": "A catalogue lists woodcuts of birds beside photographs of birds. The pictures show similar species. What distinction does the catalogue make?",
+        "target": "boast的拥有义与boost的提升义",
+        "skill": "boast的拥有义与boost的提升义",
+        "q": "A brochure says the museum \"boasts a rare textile archive\". A new grant will \"boost access\" by paying for longer opening hours. What is the distinction?",
         "o": [
-          "The two groups use different methods of making images.",
-          "Only the woodcuts can show more than one kind of bird.",
-          "The photographs must show birds made out of wood.",
-          "Only the photographs can be printed on sheets of paper."
+          "The museum has a valued collection; the grant improves access.",
+          "The museum increases the collection; the grant praises access.",
+          "The museum brags about visitors; the grant stores their records.",
+          "The museum sells its old textiles; the grant cuts their price."
         ],
         "a": 0,
-        "origin_session": "2026-11-12-2017-partb",
+        "origin_session": "2026-11-15-2018-text2",
         "exp": {
-          "trans": "目录将鸟类木刻版画与鸟类照片并列，画面物种类似。目录区分的是什么？",
-          "structure": "of birds在两类图像里都表示主题；woodcuts和photographs区分媒介，不区分是否能出现鸟类或纸张。",
-          "other": "catalogue目录；species物种；method方法。",
-          "meaning": "woodcuts是woodcut的复数；同一主题能用不同媒介呈现。",
-          "rest": "more than one kind添加单一物种限制；birds made out of wood把主题误成材质；Only photographs...paper忽略木刻版画也能印在纸上。"
+          "trans": "手册说博物馆boasts珍贵纺织档案；新资助通过延长开放时间boost access。两词有什么区别？",
+          "structure": "boasts后直接接具有吸引力的收藏，采用拥有义；boost支配access，表示提高可接近程度。",
+          "other": "textile纺织品；archive档案；grant资助。",
+          "meaning": "boast不仅有夸耀义，还可表示拥有值得自豪之物；它仍不能泛译为增加。boost表示改善或提升。",
+          "rest": "increases...praises把拥有与提升两种语义互换；brags about visitors改了原宾语；sells...cuts their price添加文中没有的出售和降价。"
         },
-        "context_id": "bird-image-catalogue-medium-versus-subject-and-paper"
+        "context_id": "museum-prized-collection-possession-versus-expanded-access"
+      },
+      {
+        "id": "r18t2-associated-toast",
+        "family": "boast-boost-distinction",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 45,
+        "target": "未确认形近词联想：按语境区分",
+        "skill": "未确认形近词联想：按语境区分",
+        "q": "At a café, a faster oven is expected to ___ service. At dinner, the owner raises a glass for a ___ to the kitchen team. Which pair fits both sentences?",
+        "o": [
+          "boast / roast",
+          "toast / boast",
+          "roast / boost",
+          "boost / toast"
+        ],
+        "a": 3,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "咖啡馆的新烤箱预计能改善服务；晚餐时店主举杯向厨房团队祝酒。哪组词分别合适？",
+          "structure": "第一个空格是支配service的动词，要求提升；a后接名词，raises a glass提供祝酒语境。",
+          "other": "oven烤箱；raise a glass举杯。",
+          "meaning": "boost可改善服务，a toast是祝酒。roast/toast在此作为教学辨析候选，不能据本题反推用户当时回忆的究竟是哪一个。",
+          "rest": "boast不能表达提高服务；roast表示烤制，不等于提高；toast放在service前也不能表达改善。形近不代表能共享句法宾语。"
+        },
+        "context_id": "cafe-service-improvement-and-dinner-glass-toast"
+      },
+      {
+        "id": "r18t2-beefup-sharpen",
+        "family": "boast-boost-distinction",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 45,
+        "target": "beef up / sharpen skills搭配",
+        "skill": "beef up / sharpen skills搭配",
+        "q": "A museum adds guards to beef up security. Its guides practise listening exercises to sharpen their skills. Which pair preserves the two meanings?",
+        "o": [
+          "Praise protection / announce new skills",
+          "Strengthen protection / improve skills",
+          "Define protection / share past skills",
+          "Remove protection / limit new skills"
+        ],
+        "a": 1,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "博物馆增加安保人员以加强保卫；讲解员做听力练习以磨炼技能。哪组含义正确？",
+          "structure": "adds guards为beef up的增强义提供动作证据；practise...to sharpen说明练习用于提高技能。",
+          "other": "guard安保人员；security保卫；listening exercise听力练习。",
+          "meaning": "beef up与sharpen skills可在增强能力这一语境近义；不把beef或sharpen一律按食物或磨刀直译。",
+          "rest": "Praise/announce只是称赞或宣布；Define/share只是定义或分享；Remove/limit反转了增强方向。"
+        },
+        "context_id": "museum-security-strengthening-and-guide-skill-practice"
       }
     ],
     "with": [
       {
-        "id": "with-archive-loading-c",
+        "id": "with-bread-cooling",
         "family": "with",
-        "introduced": "2026-10-18",
-        "published_on": "2026-10-18",
-        "budget": 50,
-        "target": "with + noun + participial phrase",
-        "skill": "识别with复合结构的伴随状态",
-        "q": "The archive reopened at noon, with several boxes waiting in the loading area. What does the with-clause do?",
+        "introduced": null,
+        "budget": 60,
+        "target": "with + 名词 + 分词",
+        "skill": "with + 名词 + 后置成分",
+        "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
         "o": [
-          "It describes a state accompanying the archive's reopening.",
-          "It gives the sole reason the archive reopened at noon.",
-          "It reports an action that archive staff carried out.",
-          "It is the direct object of reopened in the main clause."
+          "补充开门时伴随的状态",
+          "引出老板的直接引语",
+          "说明开门的唯一目的",
+          "充当opened的直接宾语"
         ],
         "a": 0,
         "exp": {
-          "trans": "档案馆中午重新开放，当时有几个箱子正等在装卸区。with结构补充了重新开放时伴随的状态。",
-          "structure": "主干是The archive reopened at noon；with several boxes waiting in the loading area是with + 名词 + 现在分词结构，several boxes是waiting的逻辑主语。",
-          "other": "archive 档案馆；reopen 重新开放；loading area 装卸区；accompany 伴随。",
-          "meaning": "with复合结构常补充主句发生时的伴随状态。它不是reopened的直接宾语，也不自动表达原因或目的。",
-          "rest": "句子没有说明这是档案馆重新开放的唯一原因；with短语描述箱子所处的状态，并未说工作人员另做了一项动作；reopened在这里是不及物动词，不需要直接宾语。"
+          "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
+          "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
+          "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
+          "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
+          "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
         },
-        "context_id": "context:with-archive-loading-c"
+        "context_id": "with-simultaneous-ing"
+      },
+      {
+        "id": "with-lights-dimming",
+        "family": "with",
+        "introduced": null,
+        "target": "with + 名词 + 后置成分",
+        "skill": "with + 名词 + 后置修饰",
+        "q": "The audience waited quietly, with the lights gradually dimming before the film began. The with-structure mainly:",
+        "o": [
+          "adds a simultaneous background state",
+          "states the purpose of waiting",
+          "introduces an independent main clause",
+          "means the audience waited together with the lights"
+        ],
+        "a": 0,
+        "budget": 55,
+        "exp": {
+          "trans": "观众安静地等待着，电影开始前，灯光正逐渐变暗。",
+          "structure": "主干：The audience（主语）+ waited（谓语）+ quietly（状语）。原始简单句：The lights were gradually dimming before the film began. → 去掉were，用with引出：with the lights gradually dimming...。the lights是with结构的逻辑主语，dimming与lights构成主动关系。",
+          "other": "audience 观众；gradually 逐渐地；dim 变暗；before the film began 电影开始前。",
+          "meaning": "with + 名词 + 后置成分可补充主句发生时的伴随状态或背景。",
+          "rest": "目的通常用to do/in order to；with结构不是新的独立主句；这里with不是“和灯光一起”等普通介词伴随对象，而是带逻辑主语和分词的复合结构。"
+        },
+        "context_id": "with-simultaneous-ing"
       }
     ],
-    "dynamism-vitality": [
+    "budding-stage": [
       {
-        "id": "r18t1-dynamism-design",
-        "family": "dynamism-vitality",
-        "introduced": "2026-11-14",
-        "published_on": "2026-11-14",
+        "id": "r17t3-budding-friendship",
+        "family": "budding-stage",
+        "introduced": "2026-11-10",
+        "published_on": "2026-11-10",
         "budget": 45,
-        "target": "dynamic / dynamism：持续更新而非保证成功",
-        "skill": "dynamic / dynamism：持续更新而非保证成功",
-        "q": "New design studios open, teams experiment with materials, and experienced makers share skills. A report calls this a dynamic sector and praises its dynamism, although some firms close. What do the two expressions convey?",
+        "target": "early development / established relationship",
+        "skill": "early development / established relationship",
+        "q": "Two neighbours have begun sharing meals after years of merely exchanging greetings. The narrator describes a budding friendship. What is established?",
         "o": [
-          "Active renewal and experimentation within the local sector.",
-          "A guarantee that every local business will remain successful.",
-          "Predictable routines that prevent changes to existing designs.",
-          "Physical movement of heavy machinery inside each workshop."
+          "A closer relationship is beginning, though its future remains open.",
+          "A lifelong friendship is already certain to survive every difficulty.",
+          "Their earlier greetings prove that they have always been close friends.",
+          "The relationship has ended because the neighbours avoid one another."
         ],
         "a": 0,
-        "origin_session": "2026-11-14-2018-text1",
+        "origin_session": "2026-11-10-2017-text3",
         "exp": {
-          "trans": "新的设计工作室开业，团队试验材料，老手分享技能。尽管部分企业关闭，报告仍称这个行业充满活力并赞赏其dynamism。这两个表达传达什么？",
-          "structure": "dynamic作定语修饰sector；dynamism是其相关名词；although说明活动有活力与某些企业退出可以并存。",
-          "other": "sector行业；studio工作室；renewal更新；experimentation试验、探索。",
-          "meaning": "dynamic在此是有活力、不断发展的；dynamism指相应的活力。新创办、试验和技能交流支持这一描述，但不保证每家企业成功。",
-          "rest": "guarantee...every把行业活力夸成每家成功的保证；prevent changes与尝试材料相反；physical movement误将语境中的组织活力缩为机器运动。"
+          "trans": "两位邻居多年只是打招呼，最近开始一起吃饭，叙述者称之为budding friendship。能确认什么？",
+          "structure": "have begun标记变化开始；after years of merely...对比原先较疏远的状态；budding概括关系正萌芽。",
+          "other": "merely仅仅；greeting问候；narrator叙述者；lifelong终生的。",
+          "meaning": "是更亲密关系的开端，而非已经充分确立的终生承诺。发展初期、已有发展和最终稳定要区分。",
+          "rest": "lifelong...certain是无依据保证；always close抹去先前只打招呼的限定；has ended与开始一起吃饭的动作相反。"
         },
-        "context_id": "design-studio-entry-and-experimentation-with-some-firm-exits"
+        "context_id": "new-neighbour-friendship-begins-without-guaranteed-future"
+      }
+    ],
+    "semantic-action-roles": [
+      {
+        "id": "r18t2-role-rehearsal-grid",
+        "family": "semantic-action-roles",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 60,
+        "target": "比较动作对象和工具所支持的任务",
+        "skill": "比较动作对象和工具所支持的任务",
+        "q": "A conductor marks player availability on \"section cards\" and places them in a room-and-time grid to prevent rehearsal clashes. Players suggest new repertoire at a separate meeting. What is the role of the cards?",
+        "o": [
+          "They provide a topic for sharing opinions about new music.",
+          "They record which new pieces players most want to perform.",
+          "They invite players to debate the meaning of section cards.",
+          "They organize which players rehearse in each room and slot."
+        ],
+        "a": 3,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "指挥把乐手可到场的时间写在卡片上，放入房间与时间表以避免排练冲突；乐手在另一个会议上建议新曲目。卡片发挥什么作用？",
+          "structure": "marks...places...to prevent给出动作与目的链；at a separate meeting把提出曲目的行为放在另一个活动中。",
+          "other": "availability可到场情况；clash冲突；repertoire曲目。",
+          "meaning": "卡片用于人员、地点与时间的安排；讨论曲目不因文中同时出现音乐相关词就成为卡片的功能。",
+          "rest": "sharing opinions与debate改成讨论行为；record which new pieces误把时间可用性换成曲目偏好，均改变了动作对象。"
+        },
+        "context_id": "rehearsal-availability-grid-versus-repertoire-meeting"
+      },
+      {
+        "id": "r18t2-role-route-evidence",
+        "family": "semantic-action-roles",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 60,
+        "target": "改选证据强度：语义证据优于词面重合",
+        "skill": "改选证据强度：语义证据优于词面重合",
+        "q": "An orienteering club gives walkers a \"route card\" on which they mark completed checkpoints. At meetings, members exchange views about route difficulty. A reader first selects \"recording progress\", then prefers \"exchanging views on route cards\" for its repeated words. Which detail should control the choice?",
+        "o": [
+          "Walkers put checkpoint marks on their cards during the walk.",
+          "The meetings discuss routes using a closely related noun.",
+          "The two answer choices contain similar numbers of words.",
+          "The later answer came to mind after reading the text again."
+        ],
+        "a": 0,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "定向活动给行走者卡片，用来标记已通过的检查点；会议另讨论路线难度。读者因重复词而想把记录进度改成交流路线卡观点。应以哪条细节判断？",
+          "structure": "on which引出卡片上的具体动作；at meetings转入另一场合。要核对谁在何处对什么做了什么，而非只看route重复。",
+          "other": "orienteering定向活动；checkpoint检查点；progress进度。",
+          "meaning": "检查点标记直接支持记录完成进度；会议存在并不证明卡片是交换观点的讨论对象。初选受支持，是因为具体证据，不是因为它更早出现。",
+          "rest": "closely related noun只证明词汇相关；numbers of words是形式线索；later...again只是判断发生得晚，都没有推翻卡片用于记录这一语义证据。"
+        },
+        "context_id": "route-card-checkpoint-recording-versus-route-discussion-and-revision"
+      },
+      {
+        "id": "r18t2-role-justified-revision",
+        "family": "semantic-action-roles",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 60,
+        "target": "正确改选也要有正确理由",
+        "skill": "正确改选也要有正确理由",
+        "q": "A notice says a library is launching a \"lending circle\". A reader initially expects book loans. The full definition says the circle meets to debate borrowing rules and issues no books itself. Which response and reason are warranted?",
+        "o": [
+          "Revise, since later sentences always replace earlier ones.",
+          "Keep, since a familiar word fixes the purpose on its own.",
+          "Revise, since the full definition identifies rule discussion.",
+          "Keep, since initial answers are generally more reliable."
+        ],
+        "a": 2,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "图书馆推出lending circle，读者起初以为是借书活动；完整定义说明这是讨论借阅规则的小组，本身不发书。哪种处理及理由成立？",
+          "structure": "The full definition明确限定名称指什么；issues no books排除把它理解为放贷或发书服务。",
+          "other": "notice通知；issue在此为发出、提供；warranted有依据的。",
+          "meaning": "新语义证据可推翻基于名称的初步理解。本题确实应改选；不能把此前一次正确改错总结成永远相信初选。",
+          "rest": "later sentences always虽选了修改，却用了错误的普遍规则；familiar word与initial answers都让词面或时间顺序压过清楚定义。"
+        },
+        "context_id": "library-discussion-circle-definition-legitimately-revises-name-based-guess"
+      }
+    ],
+    "belief-negation-clause": [
+      {
+        "id": "belief-negation-online-bookings-a",
+        "family": "belief-negation-clause",
+        "introduced": "2026-10-15",
+        "published_on": "2026-10-15",
+        "budget": 55,
+        "target": "assume that ... did not / 被批评的信念",
+        "skill": "宾语从句与否定范围",
+        "q": "A restaurant owner rebuked an apprentice for assuming that the online booking page did not influence walk-in customers. Surveys showed that many visitors discovered the restaurant through the page. What did the apprentice mistakenly believe?",
+        "o": [
+          "The owner had avoided creating an online booking page.",
+          "Walk-in customers were unaffected by the booking page.",
+          "Customers preferred online orders to meals at the restaurant.",
+          "The owner placed excessive importance on online advertising."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "老板批评学徒，因为学徒以为网上订位页面不影响未经预约直接到店的人；调查却显示不少访客就是经此页面了解餐厅。",
+          "structure": "rebuked an apprentice为主干，for assuming that...说明批评原因，that后的did not influence是学徒持有的错误判断。",
+          "other": "rebuke 责备；apprentice 学徒；walk-in customer 无预约上门顾客；reservation 预约。",
+          "meaning": "assume/imagine that表示以为、认为；否定词位于从句中，决定被批评的是低估作用而非对网络的痴迷。",
+          "rest": "老板未建网页和顾客点餐偏好均无证据；把老板说成过分重视广告，也没有回答学徒错误地否认网页对临时到店顾客的影响。"
+        },
+        "context_id": "context:belief-negation-online-bookings-a"
+      }
+    ],
+    "intimately-familiarity": [
+      {
+        "id": "r18t2-intimately-factory",
+        "family": "intimately-familiarity",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 45,
+        "target": "intimately familiar with：贴近与细节",
+        "skill": "intimately familiar with：贴近与细节",
+        "q": "Rather than relying on annual summaries, a designer spends weeks beside the workers and becomes intimately familiar with each production stage. What is emphasized?",
+        "o": [
+          "The designer has developed private friendships with everyone.",
+          "The designer has learned every stage without spending time.",
+          "The designer has gained close and detailed process knowledge.",
+          "The designer has stayed remote from the work being described."
+        ],
+        "a": 2,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "设计师不只依赖年度总结，而是在工人身边观察数周，深入熟悉各个生产阶段。强调什么？",
+          "structure": "Rather than构成间接概要与贴近观察的对比；familiar with后是生产阶段，不是私人交往。",
+          "other": "production stage生产阶段；remote疏远的、远离的。",
+          "meaning": "intimately familiar强调近距离、深入的了解；经历与细节是重点，不是保证所有人都成了朋友。",
+          "rest": "private friendships偷换为人际关系；without spending time忽略数周投入；stayed remote与在工人身边相反。"
+        },
+        "context_id": "designer-on-site-production-familiarity-versus-remote-summaries"
+      }
+    ],
+    "conscious-awareness": [
+      {
+        "id": "r18t2-conscious-choice",
+        "family": "conscious-awareness",
+        "introduced": "2026-11-15",
+        "published_on": "2026-11-15",
+        "budget": 45,
+        "target": "conscious choice与conscious of的搭配区别",
+        "skill": "conscious choice与conscious of的搭配区别",
+        "q": "A shopper makes a conscious choice to repair a bag after comparing costs and waste. The choice was considered in advance. What does conscious mean here?",
+        "o": [
+          "Deliberate and made with awareness of the alternatives.",
+          "Accidental and made without noticing any alternatives.",
+          "Made instantly, with no comparison of possible options.",
+          "Evidence that the bag was selected by another person."
+        ],
+        "a": 0,
+        "origin_session": "2026-11-15-2018-text2",
+        "exp": {
+          "trans": "购物者比较费用与废弃物后，有意识地选择修包，而且事先考虑过。这里conscious是什么意思？",
+          "structure": "conscious修饰choice；considered in advance解释这是经过意识与考虑的选择。",
+          "other": "alternative可选方案；deliberate有意的、经过考虑的。",
+          "meaning": "conscious随搭配可指意识到或有意识、刻意的；conscious choice不同于be conscious of，但都不应机械译为清醒着。",
+          "rest": "accidental与有意识的考虑相反；instantly...no comparison忽略事先比较；another person把选择主体换成他人，均未保留经过考虑的选择。"
+        },
+        "context_id": "shopper-deliberate-repair-choice-versus-accident-and-wakefulness"
       }
     ],
     "paragraph-order-discourse": [
@@ -934,31 +719,6 @@
         }
       },
       {
-        "id": "paragraph-discourse-audit-method-before-cases",
-        "family": "paragraph-order-discourse",
-        "introduced": "2026-10-04",
-        "published_on": "2026-10-27",
-        "target": "说明与例证的层级",
-        "skill": "说明与例证的层级",
-        "budget": 65,
-        "q": "An energy guide first explains that meter logs locate periods of high demand. A paragraph about equipment inspections follows. The next two paragraphs describe a bakery and a warehouse that combined logs with inspections. What is the role of the inspections paragraph?",
-        "o": [
-          "It completes the methods that the later cases apply.",
-          "It summarizes the outcomes reported in the later cases.",
-          "It gives a third case after the bakery and warehouse.",
-          "It withdraws the claim that meter logs can be useful."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "能源指南先解释用电表日志定位高需求时段，再介绍设备检查；后面两个案例同时使用日志和检查。检查段是在补齐随后案例会应用的方法。",
-          "structure": "first、follows、next交代段落顺序；combined logs with inspections说明两个案例同时依赖前面两种方法，不是只应用第一段的方法。",
-          "other": "meter log 电表记录；equipment inspection 设备检查；high demand 高需求；apply 应用。",
-          "meaning": "一个方法段结束，不代表下一段必须马上举例。要检查后面案例需要哪些方法说明，再分清并列方法与两则应用案例的层级。",
-          "rest": "总结后文结果需要结果性内容，检查方法本身不能当作结果总结；它位于两案例前也不是第三案例；案例同时使用日志，并未撤回日志有用的判断。"
-        },
-        "context_id": "context:paragraph-discourse-audit-method-before-cases"
-      },
-      {
         "id": "pb17-seed-label-link",
         "family": "paragraph-order-discourse",
         "introduced": "2026-10-04",
@@ -1009,107 +769,54 @@
           "rest": "rival results...rejects虚构竞争和失败；failure...cause虚构因果；P is a conclusion颠倒介绍与总结的位置。"
         },
         "context_id": "choir-rhythm-pitch-parallel-methods-to-combined-application"
-      }
-    ],
-    "cloze-applicant-outcome": [
-      {
-        "id": "cloze-applicant-residency-b",
-        "family": "cloze-applicant-outcome",
-        "introduced": "2026-10-14",
-        "published_on": "2026-10-14",
-        "budget": 50,
-        "target": "who makes the decision / 谁决定录取",
-        "skill": "动作主体与申请结果",
-        "q": "The applicant chose which research group to approach, but an external panel decided whether to admit her. Which distinction is supported?",
-        "o": [
-          "The panel chose the group; she decided on her admission.",
-          "She controlled both her group choice and her admission.",
-          "She chose a group; the panel decided on her admission.",
-          "The panel controlled both her group choice and her admission."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "申请者自行决定联系哪个研究组，但是否录取由外部评审委员会决定。她的选择与最终申请成功不是同一个主体作出的决定。",
-          "structure": "The applicant chose...与an external panel decided...构成两个并列且主语不同的分句；whether to admit her为委员会决定的内容。",
-          "other": "research group 研究组；external panel 外部评审委员会；admit 录取；approach 联系。",
-          "meaning": "必须区分applicant's decision（申请者自己的选择）与applicant's success（由他人评估后能否成功获准），不能仅凭同一个applicant归为同一行为。",
-          "rest": "申请者选择研究组，委员会决定是否录取。交换两者主语、把两个决定都交给她或都交给委员会，都不符合原句的角色分工。"
-        },
-        "context_id": "context:cloze-applicant-residency-b"
-      }
-    ],
-    "conceivably": [
-      {
-        "id": "conceivably-damaged-page",
-        "family": "conceivably",
-        "introduced": null,
-        "published_on": "2026-10-05",
-        "budget": 35,
-        "target": "conceivably / 可能性强度",
-        "skill": "conceivably",
-        "q": "The damaged page could conceivably contain the date we need, but the faded ink cannot yet be read. Which claim keeps the writer’s certainty level?",
-        "o": [
-          "页面上已经确认写有需要的日期。",
-          "需要的日期很可能就在这一页，比其他页更有可能。",
-          "这页或许写有需要的日期，目前仍未证实。",
-          "这页故意省略了日期。"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "那张受损的页面或许写有我们需要的日期，但褪色的墨迹目前还无法辨认。准确改写保留可能性，并说明尚未证实。",
-          "structure": "The damaged page是主语，could contain是谓语，the date是宾语；we need是省略关系代词的定语从句。conceivably修饰可能性；but之后the faded ink + cannot yet be read是被动谓语。",
-          "other": "damaged 受损的；faded 褪色的；ink 墨迹；certainty 确定程度。",
-          "meaning": "conceivably表示可以设想有这种可能。它既不是已经确认，也不自动表示比其他方案更可能。",
-          "rest": "“已经确认”抹掉could与无法辨认的限制；“很可能、比其他页更可能”加入原文没有的概率比较；“故意省略”把可能存在日期误写成有意不写，既换内容又补动机。"
-        },
-        "context_id": "context:conceivably-damaged-page"
       },
       {
-        "id": "conceivably-competing-explanations",
-        "family": "conceivably",
-        "introduced": null,
-        "published_on": "2026-10-05",
-        "budget": 35,
-        "target": "conceivably / 多种解释",
-        "skill": "conceivably",
-        "q": "No existing model explains the readings. They could conceivably point to a new process, although a faulty instrument remains another explanation. Which interpretation is justified?",
+        "id": "pb17-music-ending",
+        "family": "paragraph-order-discourse",
+        "introduced": "2026-10-04",
+        "published_on": "2026-11-12",
+        "budget": 60,
+        "target": "结尾与全局论证相容",
+        "skill": "结尾与全局论证相容",
+        "q": "An essay introduces software that restores damaged musical scores, shows one rhythm error it produced, and explains how musicians can check its output. Which closing paragraph best fits that argument?",
         "o": [
-          "A new process is a possible explanation, alongside an instrument fault.",
-          "The readings establish a new process and rule out an instrument fault.",
-          "The instrument fault has been confirmed by a separate test.",
-          "The new process is less likely than an instrument fault according to measured probabilities."
+          "Human checks help; useful output can still contain errors.",
+          "The history of ticket prices now needs a detailed account.",
+          "All restored notes must be right whenever software is used.",
+          "One rhythm error proves that every digital tool is useless."
         ],
         "a": 0,
+        "origin_session": "2026-11-12-2017-partb",
         "exp": {
-          "trans": "现有模型都解释不了这些读数。它们或许指向一个新过程，但仪器故障仍是另一种解释。有依据的是两种解释仍可并存，新的过程只是可能性之一。",
-          "structure": "No existing model + explains + the readings。They指readings；could point to是谓语。although从句中a faulty instrument是主语，remains是系动词，another explanation是表语。",
-          "other": "reading 仪器读数；process 过程；faulty 出故障的；rule out 排除。",
-          "meaning": "conceivably没有把一种可设想的解释升级为发现。another explanation尤其限制了唯一性；也没有给两种解释排名。",
-          "rest": "establish ... rule out将可能性改成证实和排除；confirmed by a separate test虚构检验；less likely ... measured probabilities补出概率比较，原文没有量化数据。"
+          "trans": "文章介绍修复乐谱的软件，展示一处节奏错误，再解释音乐家如何核验。哪段适合结尾？",
+          "structure": "开头对象、错误例证、核验措施共同约束末段；结尾应合并优势与限制，不另起无关话题或扩大为全称断言。",
+          "other": "score乐谱；restore修复；output输出结果。",
+          "meaning": "全局位置要检查论证链是否闭合；技术有用与仍需人类核验可以同时成立。",
+          "rest": "ticket prices另起无关话题；All restored notes把能力夸成保证；every digital tool把单例扩大为全体无用。"
         },
-        "context_id": "context:conceivably-competing-explanations"
+        "context_id": "music-score-restoration-global-conclusion-with-qualified-claim"
       }
     ]
   },
   "article_session": {
-    "id": "2026-11-14-2018-text1",
-    "source": "2018 英语一 Text 1 · 纸质5/5、做题时全文已理解；dynamism轻量复盘",
-    "created_at": "2026-11-14T21:23:36+09:00",
+    "id": "2026-11-15-2018-text2",
+    "source": "2018 英语一 Text 2 · B→D改选证据、boast/boost与框词复盘",
+    "created_at": "2026-11-15T21:37:31+09:00",
     "revision": 1,
-    "learning_date": "2026-11-14",
-    "session_file": "data/article-sessions/2026-11-14-2018-text1.json",
+    "learning_date": "2026-11-15",
+    "session_file": "data/article-sessions/2026-11-15-2018-text2.json",
     "current_families": [
-      "dynamism-vitality"
+      "semantic-action-roles",
+      "boast-boost-distinction",
+      "conscious-awareness",
+      "intimately-familiarity"
     ],
     "deferred_families": [],
     "historical_families": [
-      "woodcut-medium",
-      "cloze-applicant-outcome",
-      "conceivably",
+      "with",
       "paragraph-order-discourse",
       "belief-negation-clause",
-      "title-coverage",
-      "with"
+      "budding-stage"
     ]
   },
   "issues_used": [
@@ -1160,7 +867,8 @@
     45,
     46,
     47,
-    48
+    48,
+    49
   ],
   "engine": 4
 }

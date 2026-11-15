@@ -172,6 +172,16 @@
       "observed_days": 7,
       "observation_priority": 3
     },
+    "boast-boost-distinction": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "brexit-term": {
       "streak": 0,
       "errors": 0,
@@ -372,6 +382,16 @@
       "observed_days": 1,
       "observation_priority": 3
     },
+    "conscious-awareness": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "constraint-language": {
       "streak": 0,
       "errors": 0,
@@ -411,6 +431,16 @@
       "reported_confusion": false,
       "observed_days": 6,
       "observation_priority": 0
+    },
+    "distrust-meaning": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "dnt-actor-boundary": {
       "streak": 0,
@@ -672,6 +702,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "intimately-familiarity": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "lined-up": {
       "streak": 1,
       "errors": 0,
@@ -741,6 +781,16 @@
       "reported_confusion": false,
       "observed_days": 22,
       "observation_priority": 0
+    },
+    "over-prefix-frequency": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
     },
     "panorama-scope": {
       "streak": 0,
@@ -1001,6 +1051,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "semantic-action-roles": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-15",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "sharp-hit-impact": {
       "streak": 0,

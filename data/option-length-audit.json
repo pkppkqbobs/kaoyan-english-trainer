@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 424,
-        "correct_uniquely_longest": 101,
-        "correct_uniquely_shortest": 71,
-        "longest_guess_pct": 30.03,
-        "shortest_guess_pct": 21.46,
+        "question_count": 440,
+        "correct_uniquely_longest": 103,
+        "correct_uniquely_shortest": 73,
+        "longest_guess_pct": 29.81,
+        "shortest_guess_pct": 21.48,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5066,6 +5066,278 @@
         "pool": "daily_article",
         "family": "dynamism-vitality",
         "source": "data/questions/2026-11-14-2018-text1-migration.json"
+      },
+      "r18t2-associated-toast": {
+        "lengths": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-beefup-sharpen": {
+        "lengths": [
+          39,
+          38,
+          37,
+          36
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-boast-possession": {
+        "lengths": [
+          62,
+          62,
+          64,
+          62
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-boost-confidence": {
+        "lengths": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "spread": 0,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.25,
+        "shortest_guess_credit": 0.25,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-conscious-choice": {
+        "lengths": [
+          55,
+          54,
+          55,
+          53
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conscious-awareness",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-conscious-noise": {
+        "lengths": [
+          63,
+          58,
+          61,
+          58
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "conscious-awareness",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-distrust-invoices": {
+        "lengths": [
+          53,
+          52,
+          56,
+          56
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "distrust-meaning",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-distrust-map": {
+        "lengths": [
+          53,
+          57,
+          54,
+          55
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "distrust-meaning",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-intimately-factory": {
+        "lengths": [
+          61,
+          59,
+          61,
+          61
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "intimately-familiarity",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-intimately-restoration": {
+        "lengths": [
+          53,
+          53,
+          53,
+          55
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "intimately-familiarity",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-overprefix-comparison": {
+        "lengths": [
+          54,
+          56,
+          57,
+          55
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "over-prefix-frequency",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-overtweeting-chair": {
+        "lengths": [
+          58,
+          58,
+          57,
+          54
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "over-prefix-frequency",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-role-bridge-kit": {
+        "lengths": [
+          61,
+          61,
+          61,
+          62
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-role-justified-revision": {
+        "lengths": [
+          58,
+          57,
+          61,
+          56
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-role-rehearsal-grid": {
+        "lengths": [
+          58,
+          58,
+          59,
+          59
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t2-role-route-evidence": {
+        "lengths": [
+          60,
+          57,
+          56,
+          59
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-15-2018-text2-migration.json"
       },
       "recruitment-hunt-b": {
         "lengths": [

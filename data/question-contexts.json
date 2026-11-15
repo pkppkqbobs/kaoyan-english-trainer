@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-14",
+  "reviewed_on": "2026-11-15",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -513,7 +513,23 @@
     "pb17-music-ending": "music-score-restoration-global-conclusion-with-qualified-claim",
     "pb-archive-labels-v1": "public-photo-archive-recollection-versus-evidence-and-publication",
     "r18t1-dynamism-radio": "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal",
-    "r18t1-dynamism-design": "design-studio-entry-and-experimentation-with-some-firm-exits"
+    "r18t1-dynamism-design": "design-studio-entry-and-experimentation-with-some-firm-exits",
+    "r18t2-role-bridge-kit": "repair-cooperative-temporary-wheel-versus-skills-discussion",
+    "r18t2-role-rehearsal-grid": "rehearsal-availability-grid-versus-repertoire-meeting",
+    "r18t2-role-route-evidence": "route-card-checkpoint-recording-versus-route-discussion-and-revision",
+    "r18t2-role-justified-revision": "library-discussion-circle-definition-legitimately-revises-name-based-guess",
+    "r18t2-boost-confidence": "clock-repair-apprentice-confidence-improvement-not-bragging",
+    "r18t2-boast-possession": "museum-prized-collection-possession-versus-expanded-access",
+    "r18t2-associated-toast": "cafe-service-improvement-and-dinner-glass-toast",
+    "r18t2-beefup-sharpen": "museum-security-strengthening-and-guide-skill-practice",
+    "r18t2-distrust-invoices": "invoice-errors-customer-lack-of-trust-not-proven-deception",
+    "r18t2-distrust-map": "hiking-map-corrections-reduce-mistrust-gradually",
+    "r18t2-intimately-restoration": "tapestry-conservator-detailed-object-knowledge-not-personal-intimacy",
+    "r18t2-intimately-factory": "designer-on-site-production-familiarity-versus-remote-summaries",
+    "r18t2-conscious-noise": "recording-editor-awareness-of-noise-not-source-of-noise",
+    "r18t2-conscious-choice": "shopper-deliberate-repair-choice-versus-accident-and-wakefulness",
+    "r18t2-overtweeting-chair": "music-club-chair-excessive-posting-frequency",
+    "r18t2-overprefix-comparison": "over-detailed-versus-over-tweeting-excess-prefix"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -672,7 +688,23 @@
     "music-score-restoration-global-conclusion-with-qualified-claim": "2017 Part B词汇或历史衔接机制的独立迁移场景；结尾与全局论证相容。未复用狄更斯生平句架。",
     "public-photo-archive-recollection-versus-evidence-and-publication": "公众记忆与档案标签核验：例证转反例、同名异地、记录与确认两阶段、全局收束；七段约350词的新论证结构。",
     "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal": "dynamism活力义的独立迁移：社区广播恢复创新意愿，区别于技术覆盖及播出量。",
-    "design-studio-entry-and-experimentation-with-some-firm-exits": "dynamism活力义的独立迁移：设计行业的进入、试验与技能流动，区别于每家企业都成功。"
+    "design-studio-entry-and-experimentation-with-some-firm-exits": "dynamism活力义的独立迁移：设计行业的进入、试验与技能流动，区别于每家企业都成功。",
+    "repair-cooperative-temporary-wheel-versus-skills-discussion": "2018 Text 2迁移：工具用途与讨论话题：动作、对象和主体；不复读社交媒体新闻原句。",
+    "rehearsal-availability-grid-versus-repertoire-meeting": "2018 Text 2迁移：比较动作对象和工具所支持的任务；不复读社交媒体新闻原句。",
+    "route-card-checkpoint-recording-versus-route-discussion-and-revision": "2018 Text 2迁移：改选证据强度：语义证据优于词面重合；不复读社交媒体新闻原句。",
+    "library-discussion-circle-definition-legitimately-revises-name-based-guess": "2018 Text 2迁移：正确改选也要有正确理由；不复读社交媒体新闻原句。",
+    "clock-repair-apprentice-confidence-improvement-not-bragging": "2018 Text 2迁移：boast / boost：支配关系与语义；不复读社交媒体新闻原句。",
+    "museum-prized-collection-possession-versus-expanded-access": "2018 Text 2迁移：boast的拥有义与boost的提升义；不复读社交媒体新闻原句。",
+    "cafe-service-improvement-and-dinner-glass-toast": "2018 Text 2迁移：未确认形近词联想：按语境区分；不复读社交媒体新闻原句。",
+    "museum-security-strengthening-and-guide-skill-practice": "2018 Text 2迁移：beef up / sharpen skills搭配；不复读社交媒体新闻原句。",
+    "invoice-errors-customer-lack-of-trust-not-proven-deception": "2018 Text 2迁移：distrust：不信任与已证实欺骗分开；不复读社交媒体新闻原句。",
+    "hiking-map-corrections-reduce-mistrust-gradually": "2018 Text 2迁移：distrust / mistrust与方向变化；不复读社交媒体新闻原句。",
+    "tapestry-conservator-detailed-object-knowledge-not-personal-intimacy": "2018 Text 2迁移：intimately：深入熟悉与人际亲密；不复读社交媒体新闻原句。",
+    "designer-on-site-production-familiarity-versus-remote-summaries": "2018 Text 2迁移：intimately familiar with：贴近与细节；不复读社交媒体新闻原句。",
+    "recording-editor-awareness-of-noise-not-source-of-noise": "2018 Text 2迁移：be conscious of / be aware of；不复读社交媒体新闻原句。",
+    "shopper-deliberate-repair-choice-versus-accident-and-wakefulness": "2018 Text 2迁移：conscious choice与conscious of的搭配区别；不复读社交媒体新闻原句。",
+    "music-club-chair-excessive-posting-frequency": "2018 Text 2迁移：over-：过度频率与内容真假；不复读社交媒体新闻原句。",
+    "over-detailed-versus-over-tweeting-excess-prefix": "2018 Text 2迁移：over-前缀跨语境迁移；不复读社交媒体新闻原句。"
   },
   "family_assessments": {
     "reference": {
@@ -1145,6 +1177,64 @@
       "evidence_paths": [
         "community-radio-renewal-of-volunteer-initiative-not-airtime-or-signal",
         "design-studio-entry-and-experimentation-with-some-firm-exits"
+      ]
+    },
+    "conscious-awareness": {
+      "coverage_gap": false,
+      "review_session": "2026-11-15-2018-text2",
+      "reason": "围绕已确认的动作角色误配、形近词混淆或框词困难，使用独立新情境；roast/toast不当作已确认的源词。",
+      "evidence_paths": [
+        "recording-editor-awareness-of-noise-not-source-of-noise",
+        "shopper-deliberate-repair-choice-versus-accident-and-wakefulness"
+      ]
+    },
+    "semantic-action-roles": {
+      "coverage_gap": false,
+      "review_session": "2026-11-15-2018-text2",
+      "reason": "围绕已确认的动作角色误配、形近词混淆或框词困难，使用独立新情境；roast/toast不当作已确认的源词。",
+      "evidence_paths": [
+        "repair-cooperative-temporary-wheel-versus-skills-discussion",
+        "rehearsal-availability-grid-versus-repertoire-meeting",
+        "route-card-checkpoint-recording-versus-route-discussion-and-revision",
+        "library-discussion-circle-definition-legitimately-revises-name-based-guess"
+      ]
+    },
+    "over-prefix-frequency": {
+      "coverage_gap": false,
+      "review_session": "2026-11-15-2018-text2",
+      "reason": "围绕已确认的动作角色误配、形近词混淆或框词困难，使用独立新情境；roast/toast不当作已确认的源词。",
+      "evidence_paths": [
+        "music-club-chair-excessive-posting-frequency",
+        "over-detailed-versus-over-tweeting-excess-prefix"
+      ]
+    },
+    "distrust-meaning": {
+      "coverage_gap": false,
+      "review_session": "2026-11-15-2018-text2",
+      "reason": "围绕已确认的动作角色误配、形近词混淆或框词困难，使用独立新情境；roast/toast不当作已确认的源词。",
+      "evidence_paths": [
+        "invoice-errors-customer-lack-of-trust-not-proven-deception",
+        "hiking-map-corrections-reduce-mistrust-gradually"
+      ]
+    },
+    "intimately-familiarity": {
+      "coverage_gap": false,
+      "review_session": "2026-11-15-2018-text2",
+      "reason": "围绕已确认的动作角色误配、形近词混淆或框词困难，使用独立新情境；roast/toast不当作已确认的源词。",
+      "evidence_paths": [
+        "tapestry-conservator-detailed-object-knowledge-not-personal-intimacy",
+        "designer-on-site-production-familiarity-versus-remote-summaries"
+      ]
+    },
+    "boast-boost-distinction": {
+      "coverage_gap": false,
+      "review_session": "2026-11-15-2018-text2",
+      "reason": "围绕已确认的动作角色误配、形近词混淆或框词困难，使用独立新情境；roast/toast不当作已确认的源词。",
+      "evidence_paths": [
+        "clock-repair-apprentice-confidence-improvement-not-bragging",
+        "museum-prized-collection-possession-versus-expanded-access",
+        "cafe-service-improvement-and-dinner-glass-toast",
+        "museum-security-strengthening-and-guide-skill-practice"
       ]
     }
   },

@@ -1,7 +1,7 @@
 {
   "exam": "2018-english1",
-  "checked_on": "2026-11-14",
-  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification.",
+  "checked_on": "2026-11-15",
+  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification. Extended on 2026-11-15: Text 2 reference Q26-Q30, Q27 semantic confusion, Q28 explicit B-to-D revision and four boxed items; no overall paper score reconstructed.",
   "purpose": "参考内容与用户纸质文字反馈分开核验，不作为网页成绩。",
   "sources": [
     {
@@ -27,6 +27,36 @@
       "title": "Collins Dictionary: dynamism",
       "url": "https://www.collinsdictionary.com/dictionary/english/dynamism",
       "covers": "活力、新想法及发展变化的活跃程度；不等于每家企业都成功或活动总量必然增加。"
+    },
+    {
+      "id": "xdf-2018-text2-key",
+      "title": "新东方网：2018年英语一参考答案PDF，Text 2",
+      "url": "https://file.xdf.cn/uploads/171224/708_171224135209AZniAwdgBs2Qt41U.pdf",
+      "covers": "第2页核对参考26D、27A、28B、29C、30A；只有28最终D由用户确认，参考答案不用于重建其余个人选择。"
+    },
+    {
+      "id": "xdf-2018-text2-analysis",
+      "title": "南昌新东方：2018考研英语第一套答案解析，Text 2",
+      "url": "https://kaoyan.xdf.cn/201801/10747466.html",
+      "covers": "27为加强/技能提高；28核实新闻与交叉来源支持B，不能把关键词对应替代动作和关系核对。"
+    },
+    {
+      "id": "cambridge-boast",
+      "title": "Cambridge Dictionary: boast",
+      "url": "https://dictionary.cambridge.org/dictionary/english/boast",
+      "covers": "夸耀及拥有值得自豪之物两种结构；均不能泛译为提升技能。"
+    },
+    {
+      "id": "cambridge-boost",
+      "title": "Cambridge Dictionary: boost",
+      "url": "https://dictionary.cambridge.org/dictionary/english/boost",
+      "covers": "提高、改善、增加，含boost confidence等搭配。"
+    },
+    {
+      "id": "cambridge-intimately",
+      "title": "Cambridge Dictionary: intimately",
+      "url": "https://dictionary.cambridge.org/dictionary/english/intimately",
+      "covers": "亲密与深入、详细熟悉两类语境，不能一律套人际关系义。"
     }
   ],
   "answers": {
@@ -34,14 +64,21 @@
     "22": "C",
     "23": "A",
     "24": "D",
-    "25": "B"
+    "25": "B",
+    "26": "D",
+    "27": "A",
+    "28": "B",
+    "29": "C",
+    "30": "A"
   },
   "answer_words": {
     "21": "Middle-class workers",
     "22": "Issues arising from automation need to be tackled",
     "23": "creative potential",
     "24": "preventing the income gap from widening",
-    "25": "possible solutions to it"
+    "25": "possible solutions to it",
+    "27": "sharpen",
+    "28": "verify news by referring to diverse sources"
   },
   "performance_coverage": {
     "paper_outcome": {
@@ -160,5 +197,103 @@
   "evidence_limitations": [
     "只使用本次结构化文字，维护者未接收或重新查看照片。",
     "用户明确确认本篇全文理解与五题全对；不能因此清除其他年份尚未解决的困难。"
-  ]
+  ],
+  "reading_text2_performance_coverage": {
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {
+        "28": "D"
+      },
+      "reported_initial_choice_letters": {
+        "28": "B"
+      },
+      "final_choices_unknown": [
+        26,
+        27,
+        29,
+        30
+      ],
+      "confirmed_paper_wrong_questions": [
+        28
+      ],
+      "overall_score": "unknown",
+      "other_initial_choices_and_revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "q27": {
+      "reported_final_choice": null,
+      "reference": "A",
+      "option_discussed": "C boast",
+      "kind": "user_reported_confusion"
+    },
+    "q28": {
+      "reported_initial_choice": "B",
+      "reported_final_choice": "D",
+      "reference": "B",
+      "kind": "user_reported_wrong",
+      "user_quote": "28我在BD犹豫，先选了B然后根据好像D那个exchange view和distributed和文章的different perspective更对的上选了D。",
+      "semantic_comparison": {
+        "source_action": "use a method to verify news by cross-checking sources",
+        "correct_paraphrase": "verify news by referring to diverse sources",
+        "distractor_action": "exchange views on distributed trust",
+        "changed_relation": "method/instrument becomes the topic of discussion",
+        "perspectives_vs_exchange": "参考不同视角不等于人与人交换意见。"
+      }
+    },
+    "whole_passage_understanding": "unknown",
+    "overall_paper_score": "unknown",
+    "policy": "不由提问、笔迹、参考答案或首选正确推断未确认选择；不制造网页主测成绩。"
+  },
+  "reading_text2_vocabulary_scope": {
+    "confirmed_boxed_words": [
+      "distrust",
+      "intimately",
+      "conscious",
+      "over-tweeting"
+    ],
+    "active_confusion": [
+      "boast / boost"
+    ],
+    "unconfirmed_association": {
+      "user_quote": "我记得还有个烧烤的词也和这个挺像的。",
+      "remembered_word": null,
+      "candidate_terms": [
+        "roast",
+        "toast"
+      ],
+      "candidate_source": "教学对话推测与补充",
+      "specific_word_confirmed": false,
+      "individually_confirmed_unknown": false,
+      "not_boxed_vocabulary": true
+    },
+    "option_evidence_not_boxed": [
+      "distributed trust",
+      "different perspectives",
+      "exchange views"
+    ],
+    "policy": "四个画框与主动混淆、教学联想、选项证据分别保存；未报告具体误译时不补写。"
+  },
+  "reading_text2_review_policy": {
+    "priority_order": [
+      "Q28 semantic action roles and evidence for revision",
+      "Q27 boast/boost and collocations",
+      "confirmed boxed vocabulary"
+    ],
+    "passage_level_difficulty": "not_inferred",
+    "known_paper_wrong_questions": [
+      28
+    ],
+    "do_not_teach_always_keep_first_choice": true,
+    "unconfirmed_cooking_word": "roast or toast, not adjudicated"
+  }
 }
