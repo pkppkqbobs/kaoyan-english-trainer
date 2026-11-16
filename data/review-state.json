@@ -49,7 +49,8 @@
     46,
     47,
     48,
-    49
+    49,
+    50
   ],
   "families": {
     "absolute-language": {
@@ -165,21 +166,21 @@
     "belief-negation-clause": {
       "streak": 0,
       "errors": 3,
-      "last": "2026-11-15",
+      "last": "2026-11-16",
       "due": "2026-11-16",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 3
     },
     "boast-boost-distinction": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-16",
       "due": "2026-11-16",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "brexit-term": {
@@ -255,11 +256,11 @@
     "cloze-big-picture": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-14",
-      "due": "2026-11-15",
+      "last": "2026-11-16",
+      "due": "2026-11-16",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 3
     },
     "cloze-comparison-chain": {
@@ -385,11 +386,11 @@
     "conscious-awareness": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-16",
       "due": "2026-11-16",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "constraint-language": {
@@ -815,11 +816,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-15",
+      "last": "2026-11-16",
       "due": "2026-11-16",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 14,
+      "observed_days": 15,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -965,11 +966,11 @@
     "relation-collocation": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-16",
       "due": "2026-11-16",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "relative": {
@@ -1055,11 +1056,11 @@
     "semantic-action-roles": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-16",
       "due": "2026-11-16",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "sharp-hit-impact": {
@@ -1373,13 +1374,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 9,
+      "streak": 10,
       "errors": 0,
-      "last": "2026-11-12",
-      "due": "2026-12-03",
+      "last": "2026-11-16",
+      "due": "2026-12-07",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 13,
+      "observed_days": 14,
       "observation_priority": 0
     },
     "woodcut-medium": {
