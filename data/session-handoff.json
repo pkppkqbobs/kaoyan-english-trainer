@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-17",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 51,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-16",
-      "issue": 50,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/50",
-      "round_id": "mwja24um-h83cwgr0",
-      "correct": 7,
+      "date": "2026-11-17",
+      "issue": 51,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/51",
+      "round_id": "mwkhuysc-bclucgjq",
+      "correct": 6,
       "total": 8,
       "uncertain": 2,
       "answer_dates": [
-        "2026-11-16"
+        "2026-11-17"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-16.json",
+      "source": "data/days/2026-11-17.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -767,9 +767,9 @@
           "focus": "最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-16",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
-          "slow_or_uncertain": false,
+          "slow_or_uncertain": true,
           "due": "2026-11-17",
           "source": {
             "path": "data/learning-notes.json",
@@ -809,7 +809,7 @@
           "focus": "初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-15",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-11-17",
@@ -1117,7 +1117,7 @@
     "data/article-sessions/2026-11-15-2018-text2.json": "8151fb8d68e40118a416ab873d42ad21f956bbafb850b8908b4df4df3c21543c",
     "data/article-sessions/2026-11-16-2018-text3.json": "33f6077df20e4e16fbc9daaa4d45ad3a766f2bf0c78af3da993938bb585db0b8",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "a329f40306eb3cd1d6b928369c320e0b24b94ea42f0c11dc95935d74d068f46a",
+    "data/daily.json": "e1521d9f93e818e747cc1eae7f6348905f3e91ce95452ec7dc3fec9ce26bb3e4",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1167,7 +1167,7 @@
     "data/days/2026-11-14.json": "94aa20e73a3058ed105bcd6e113553cbc60bbcbcc07a5a31a33f953cc30c764f",
     "data/days/2026-11-15.json": "6d0b6daf464dd5acb900d3a43004b36791c00f25f8f2050a90baf3b4102982b6",
     "data/days/2026-11-16.json": "5334312ca1af680f78fed335f857d394f0c67528092c5ed21f1b73aed586837c",
-    "data/days/2026-11-17.json": "a329f40306eb3cd1d6b928369c320e0b24b94ea42f0c11dc95935d74d068f46a",
+    "data/days/2026-11-17.json": "e1521d9f93e818e747cc1eae7f6348905f3e91ce95452ec7dc3fec9ce26bb3e4",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
     "data/learning-notes.json": "f83615978281b9bebdde41f17a279a2b9a452b00e90aaba776cb04ba4a2904e9",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
@@ -1217,8 +1217,8 @@
     "data/questions/2026-11-15-2018-text2-migration.json": "dcbe9435f6e475199c60444287c8ea7271e5855395a29e14a904d8d8d91d638c",
     "data/questions/2026-11-16-2018-text3-migration.json": "989fd03ec323656e3dc2f3ddbd10adae36aa1c6c45c0e9bc0b5cd1d0a0bb9b09",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "b619e91271d41e8e73deb49b2108fb3888ada350b5dd6be6821212ae1569952d",
-    "data/review-state.json": "d206cb2672f968bbc90c6c477c68062a4000b4712ee59f09f42b0d31811d9e45",
+    "data/result-evidence.json": "335f8b7523e9e1002101a793979a1f9faf1ec6dbbefc70e42505f95361f667ca",
+    "data/review-state.json": "cdfb1eb8fde45d43ee67d4a4c5d39e6f65a7aac0a74cf9f1039628aafd932790",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1227,7 +1227,7 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "37558db66dff88e4bda93c38d60019fac9adf17221844764232ee515e68f829a"
   },
-  "source_fingerprint": "4be3a417a24e98154cfda89a20a975044848d92f406e6f0166e8ff5b24edfec0",
+  "source_fingerprint": "721b27962f3d9ed01104947174b869fb6bb392453f039a8a8b05a9c1b4fbce02",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

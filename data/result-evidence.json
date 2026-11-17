@@ -4186,6 +4186,94 @@
       "qid": "r18t2-associated-toast",
       "round_id": "mwja24um-h83cwgr0",
       "source_date": "2026-11-16"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "costs-effort-intensity",
+      "ok": false,
+      "ms": 82552,
+      "uncertain": false,
+      "origin": 51,
+      "qid": "r18t3-high-cost-boundary",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 82983,
+      "uncertain": false,
+      "origin": 51,
+      "qid": "sentence-link-course-participation-a",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "belief-negation-clause",
+      "ok": true,
+      "ms": 17425,
+      "uncertain": false,
+      "origin": 51,
+      "qid": "belief-negation-online-bookings-a",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "relative",
+      "ok": true,
+      "ms": 4662,
+      "uncertain": false,
+      "origin": 51,
+      "qid": "relative-borrowed-ladder",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "only-when-necessary",
+      "ok": true,
+      "ms": 78211,
+      "uncertain": false,
+      "origin": 51,
+      "qid": "r18t3-onlywhen-room",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "test-object-scope",
+      "ok": true,
+      "ms": 112163,
+      "uncertain": true,
+      "origin": 51,
+      "qid": "evidence-concrete-freeze-b",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "dnt-actor-boundary",
+      "ok": true,
+      "ms": 50473,
+      "uncertain": false,
+      "origin": 51,
+      "qid": "dnt-vendors-messages-b",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-17",
+      "family": "semantic-action-roles",
+      "ok": false,
+      "ms": 92962,
+      "uncertain": true,
+      "origin": 51,
+      "qid": "r18t2-role-route-evidence",
+      "round_id": "mwkhuysc-bclucgjq",
+      "source_date": "2026-11-17"
     }
   ],
   "issues": [
@@ -4238,6 +4326,7 @@
     47,
     48,
     49,
-    50
+    50,
+    51
   ]
 }

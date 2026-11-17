@@ -50,7 +50,8 @@
     47,
     48,
     49,
-    50
+    50,
+    51
   ],
   "families": {
     "absolute-language": {
@@ -164,14 +165,14 @@
       "observation_priority": 1
     },
     "belief-negation-clause": {
-      "streak": 0,
+      "streak": 2,
       "errors": 3,
-      "last": "2026-11-16",
-      "due": "2026-11-17",
+      "last": "2026-11-17",
+      "due": "2026-11-21",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 8,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 9,
+      "observation_priority": 0
     },
     "boast-boost-distinction": {
       "streak": 0,
@@ -415,12 +416,12 @@
     },
     "costs-effort-intensity": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-17",
       "due": "2026-11-17",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "crack-polysemy": {
@@ -466,11 +467,11 @@
     "dnt-actor-boundary": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-14",
-      "due": "2026-11-15",
+      "last": "2026-11-17",
+      "due": "2026-11-17",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 2
     },
     "dormant-state": {
@@ -826,11 +827,11 @@
     "only-when-necessary": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-17",
       "due": "2026-11-17",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "over-prefix-frequency": {
@@ -866,11 +867,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-16",
+      "last": "2026-11-17",
       "due": "2026-11-17",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 15,
+      "observed_days": 16,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -1024,13 +1025,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 11,
+      "streak": 12,
       "errors": 1,
-      "last": "2026-11-13",
-      "due": "2026-12-04",
+      "last": "2026-11-17",
+      "due": "2026-12-08",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 16,
+      "observed_days": 17,
       "observation_priority": 0
     },
     "remodel-vocab": {
@@ -1105,12 +1106,12 @@
     },
     "semantic-action-roles": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-11-16",
+      "errors": 1,
+      "last": "2026-11-17",
       "due": "2026-11-17",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 3
     },
     "sharp-hit-impact": {
@@ -1236,11 +1237,11 @@
     "test-object-scope": {
       "streak": 0,
       "errors": 0,
-      "last": "2026-10-10",
-      "due": "2026-10-11",
-      "slow_or_uncertain": false,
+      "last": "2026-11-17",
+      "due": "2026-11-17",
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 2
     },
     "text2-boxed-vocab": {
