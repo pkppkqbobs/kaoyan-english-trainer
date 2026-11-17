@@ -5695,5 +5695,891 @@
       "在新语境中判断真实词义、强度或限制",
       "不把横线或未区分的标记冒充确定画框"
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "title-coverage",
+    "kind": "user_reported_confusion",
+    "scope": "passage_comprehension",
+    "source_question": null,
+    "source_questions": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+    "followup_user_quote": "画框的是我翻译困难的，其实我觉得40c还是比较有道理的。",
+    "training_priority": 4,
+    "user_reported_reasoning": "整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。",
+    "note": "保留整体理解较弱的自述，不夸大为所有内容都不懂。对长期财政困境的主题识别是正向证据；背景不熟悉是教学交接分析，不是逐词错误或网页错题。",
+    "unconfirmed_vocabulary_markings": [
+      {
+        "text": "status quo",
+        "marking_status": "uncertain_boundary",
+        "translation_difficulty_confirmed": false,
+        "schedule_as_confirmed_vocabulary": false
+      }
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "interference-capacity",
+    "kind": "correct_but_uncertain",
+    "scope": "question_reasoning",
+    "source_question": 37,
+    "expected": "A",
+    "reported_pick": null,
+    "leaning_pick": "A",
+    "final_choice_letter_confirmed": false,
+    "initial_pick": null,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "not_reported",
+    "candidate_choices": [
+      "A",
+      "D"
+    ],
+    "training_priority": 3,
+    "classification_limit": "正确方向的犹豫：倾向A与参考相符，正式提交、实际正确结果和整篇得分均未确认。",
+    "user_quote": "37在AD犹豫感觉A更对",
+    "user_reported_reasoning": "A/D犹豫，倾向A；正式最终字母未确认。需区分利益集团主动干预与工会能力不足，也要核对多个主体的范围。",
+    "note": "原文支持来自多类利益集团的施压与改革受阻。D的incompetence是无能，不是interference；不推断用户已经将两词误译，也不把倾向A登记成真实错误。",
+    "specific_mistranslation": "not_reported",
+    "training_targets": [
+      "主动阻挠与能力不足",
+      "多个利益集团与单个工会的范围",
+      "incompetence与interference"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "former-latter-goal",
+    "kind": "correct_but_uncertain",
+    "scope": "question_reasoning",
+    "source_question": 38,
+    "expected": "A",
+    "reported_pick": null,
+    "leaning_pick": "A",
+    "final_choice_letter_confirmed": false,
+    "initial_pick": null,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "not_reported",
+    "candidate_choices": [
+      "A",
+      "C"
+    ],
+    "training_priority": 2,
+    "classification_limit": "正确方向的犹豫：倾向A与参考相符，正式提交、实际正确结果和整篇得分均未确认。",
+    "user_quote": "38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？",
+    "user_reported_reasoning": "A/C犹豫，倾向A；正式最终字母未确认。C确实对应涨价，但题干的长期抱怨由latter所指的医保调整回应。",
+    "note": "要检验两项措施、指代和目的的对应，不能把“文中出现”当作已回答题干。没有证据确认用户具体把latter读成former，故不记录这种误译。",
+    "tentative_option_gloss": {
+      "C": "似乎与涨价有关"
+    },
+    "teaching_mapping": {
+      "first_measure": "提高每封信的邮资",
+      "latter_measure": "退休人员医保安排调整",
+      "target_complaint": "退休人员医保预先拨款负担"
+    },
+    "training_targets": [
+      "former/latter指代",
+      "多项措施与特定目的对应",
+      "题干限定与文章提及的区别"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "title-coverage",
+    "kind": "user_reported_confusion",
+    "scope": "question_reasoning",
+    "source_question": 40,
+    "expected": "D",
+    "reported_pick": null,
+    "final_choice_letter_confirmed": false,
+    "initial_pick": null,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "not_reported",
+    "candidate_choices": [
+      "C",
+      "D"
+    ],
+    "user_quote": "40我感觉C还挺对的，D我其实没看到bank aid。",
+    "followup_user_quote": "画框的是我翻译困难的，其实我觉得40c还是比较有道理的。",
+    "training_priority": 1,
+    "user_reported_reasoning": "本篇整体理解困难；认可C对长期积弊和改革需求的概括；正式最终字母未知。C强调快速解决，D强调现有补救不足与全面改革，更符合作者最后评价。",
+    "note": "C与文章主题有依据，不是完全无关；quick cure不必然表示临时或治标，其不足是没有抓住作者对方案不充分的批评。不能将认可C登记为最终选C的确定错题。",
+    "title_comparison": {
+      "C": {
+        "topic_relevant": true,
+        "focus": "解决速度和长期问题",
+        "necessarily_temporary": false
+      },
+      "D": {
+        "focus": "现有补救不足，需要更全面改革",
+        "reference_answer": "D"
+      }
+    },
+    "unconfirmed_claims": [
+      "正式最终选C",
+      "完全不会标题题",
+      "快速治疗必然治标不治本"
+    ]
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "band-aid-remedy",
+    "kind": "user_reported_confusion",
+    "scope": "lexical_recognition",
+    "source_question": null,
+    "source_questions": [
+      40
+    ],
+    "user_quote": "D我其实没看到bank aid。",
+    "training_priority": 5,
+    "user_reported_reasoning": "Band-Aid词形未准确识别，需巩固创可贴及临时补救的引申义；不能从bank aid的回忆擅自推断具体译成了银行援助。",
+    "note": "主动报告的明确词义与词形困难，和标题覆盖问题分别保存，不增加任何真实错题。",
+    "user_visual_recall": "bank aid",
+    "specific_mistranslation": "not_reported"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "postal-meaning",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "source_spans": [
+      "postal"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "specific_mistranslation": "not_reported",
+    "note": "邮政的；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。",
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "first-class-mail-meaning",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "source_spans": [
+      "first-class mail"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "specific_mistranslation": "not_reported",
+    "note": "一类邮件；此处为邮政服务类别名称；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。",
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "regulatory-framework",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "source_spans": [
+      "regulatory structure"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "specific_mistranslation": "not_reported",
+    "note": "监管制度、法规框架；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "overseer-role",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "source_spans": [
+      "overseer"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "specific_mistranslation": "not_reported",
+    "note": "监督者、监管者；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "interference-capacity",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": 37,
+    "source_spans": [
+      "incompetence"
+    ],
+    "mark_type": "box_or_active_unconfirmed",
+    "marking_evidence": "confirmed_option_translation_difficulty; exact marking form unspecified",
+    "specific_mistranslation": "not_reported",
+    "note": "无能、不能胜任；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "amount-to-meaning",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "source_spans": [
+      "amount to"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "specific_mistranslation": "not_reported",
+    "note": "相当于；总计达到；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "bare-minimum-meaning",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "source_spans": [
+      "bare"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "specific_mistranslation": "not_reported",
+    "note": "在bare minimum中表示最低限度、仅有的；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。"
+  },
+  {
+    "date": "2026-11-17",
+    "received_on": "2026-11-17",
+    "session_id": "2026-11-17-2018-text4",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的结构化教学交接；包含教学对话的纸质标记识别和主动反馈，维护者未接收或查看本篇纸质照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "scoring_policy": "Observations only: never create web attempts, errors, streaks or scores. A tendency matching the key is not a confirmed submitted letter.",
+    "family": "band-aid-remedy",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": 40,
+    "source_spans": [
+      "Band-Aid"
+    ],
+    "mark_type": "active_question",
+    "marking_evidence": "direct_user_question",
+    "specific_mistranslation": "not_reported",
+    "note": "创可贴；比喻临时、未解决根因的补救；仅记录交接确认的困难，不把普通横线或其他教学补充词登记成生词。",
+    "user_quote": "D我其实没看到bank aid。",
+    "user_visual_recall": "bank aid"
   }
 ]

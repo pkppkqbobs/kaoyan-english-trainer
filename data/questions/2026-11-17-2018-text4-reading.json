@@ -1,0 +1,582 @@
+[
+  {
+    "id": "r18t4-title-timetable",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-17",
+    "budget": 65,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A school district has responded to falling reading scores by buying extra tutoring hours. The help is welcome, particularly for pupils who have missed lessons. Yet the district's own review found that frequent timetable changes were repeatedly interrupting the normal reading classes. Paying for more teaching after school leaves that problem untouched.\n\nThe tutoring contract may prevent some pupils from falling further behind. It should not become a reason to postpone a more awkward discussion about how the school day is organised. A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones. The extra help is useful; a dependable timetable is still essential.",
+    "q": "Which of the following would be the best title for the text?",
+    "o": [
+      "Why Reading Scores Call for Rapid Action",
+      "Extra Lessons Cannot Repair a Broken Timetable",
+      "After-School Tutors Deserve Greater Recognition",
+      "How Families Can Help Children Read at Home"
+    ],
+    "a": 1,
+    "target": "标题须包含作者对现有措施不充分的评价",
+    "skill": "标题须包含作者对现有措施不充分的评价",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones.",
+    "exp": {
+      "trans": "额外辅导有用，但正常阅读课不断被打断，作者主张处理课程安排本身的问题。",
+      "structure": "先认可补救，再指出根因仍在，末段要求把改善基本安排纳入对策。",
+      "other": "dependable：可靠的；put matters right：纠正问题。",
+      "meaning": "正确标题抓住额外辅导无法代替稳定课程安排的论点。快速行动与阅读下降相关，但不是作者最强调的区别。",
+      "rest": "紧急行动只概括背景需求；肯定辅导教师、家庭阅读均非文章论证中心。"
+    }
+  },
+  {
+    "id": "r18t4-title-swift-reform",
+    "family": "title-coverage",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-17",
+    "budget": 65,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "Applicants for a training grant used to submit the same address details to three offices. A mismatch between the forms could delay an otherwise complete application for weeks. After staff traced the problem, the offices agreed to use one shared form. The change was introduced within days, and most applications could then move through the system without repeated checks of identical information.\n\nThere is a temptation to judge a reform's seriousness by how long it takes. This case points the other way. The change was quick because the obstacle was specific and the people involved had authority to remove it. Speed did not make the improvement superficial; it spared applicants another season of unnecessary delay.",
+    "q": "Which of the following would be the best title for the text?",
+    "o": [
+      "A Grant Scheme in Need of More Patient Applicants",
+      "The Risks of Sharing Information Between Offices",
+      "A Swift Reform with Lasting Practical Benefits",
+      "Why Major Reforms Must Begin with Longer Forms"
+    ],
+    "a": 2,
+    "target": "不把快速解决一律误判成临时补救",
+    "skill": "不把快速解决一律误判成临时补救",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "Speed did not make the improvement superficial",
+    "exp": {
+      "trans": "重复填表造成等待，统一表格迅速移除了具体障碍。作者强调迅速并不等于表面应付。",
+      "structure": "第一段呈现原因、行动与结果，第二段明确评价速度与改革价值的关系。",
+      "other": "superficial：表面的；trace：查明；obstacle：障碍。",
+      "meaning": "本文恰好支持快速且有效的改革。标题判断必须跟随材料，不能学成见到quick就排除。",
+      "rest": "要求申请人更耐心、警惕信息共享或延长表格，均不符合作者对这次改革的肯定。"
+    }
+  },
+  {
+    "id": "r18t4-measures-fieldstation",
+    "family": "former-latter-goal",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A field station has been struggling with two different costs. Electricity bills have risen, and floods have repeatedly damaged equipment stored on the ground floor. Its new plan combines rooftop solar panels with raised storage rooms. The former measure should reduce the cost of running instruments during ordinary working days; the latter protects equipment when the river rises.\n\nStaff have long complained that routine electricity costs leave too little money for field visits. The new storage rooms are welcome, but they answer a different concern. The raised rooms should prevent another expensive loss, but they will not lower the regular electricity bill. Managers plan to use the savings from the panels to restore trips that had been cancelled.",
+    "q": "The staff's complaint about routine operating costs would be addressed mainly by",
+    "o": [
+      "installing the rooftop solar panels.",
+      "raising the equipment storage rooms.",
+      "replacing instruments after another flood.",
+      "reducing the number of planned field visits."
+    ],
+    "a": 0,
+    "target": "former指第一项；核对措施与题干目的",
+    "skill": "former指第一项；核对措施与题干目的",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "The former measure should reduce the cost of running instruments during ordinary working days",
+    "exp": {
+      "trans": "太阳能板降低日常用电成本，抬高储藏室防止水灾。员工长期抱怨的是常规电费挤占外出经费。",
+      "structure": "两项措施并列后分别给出作用；第二段进一步限定题目所问的成本。",
+      "other": "former：前者；latter：后者；routine：日常的。",
+      "meaning": "题干问日常运营开支，应对应前者太阳能板；不能因防洪也出现在计划中就选它。",
+      "rest": "抬高储藏室应对水灾；更换灾后仪器增加另一类开支；取消考察不是文中解决电费问题的措施。"
+    }
+  },
+  {
+    "id": "r18t4-measures-tour",
+    "family": "former-latter-goal",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "Small touring companies often struggle with expensive costumes and duplicated office work. A regional theatre network proposes a shared costume store and a single booking service. The store would let companies borrow items they otherwise had to buy. The latter service would take bookings for every participating company, so that each troupe would no longer need to maintain a separate ticket office.\n\nAdministrators have complained for years about answering the same enquiries through several offices. Sharing costumes may save money, but it would not remove that repeated work. The booking proposal is directed at that particular problem. The network hopes the joint office will leave staff more time to arrange school visits and local performances.",
+    "q": "The complaint about repeated administrative work is most directly answered by",
+    "o": [
+      "buying fewer costumes for each production.",
+      "giving every troupe its own ticket office.",
+      "asking performers to handle audience enquiries.",
+      "providing a common booking service."
+    ],
+    "a": 3,
+    "target": "latter指第二项；相同主题不等于相同作用",
+    "skill": "latter指第二项；相同主题不等于相同作用",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "The booking proposal is directed at that particular problem.",
+    "exp": {
+      "trans": "服装共享减少购置费用，统一订票减少各团重复接待咨询；长期抱怨针对后者所解决的重复工作。",
+      "structure": "先列措施并说明作用，再以长期抱怨限定需要对应的目标。",
+      "other": "troupe：剧团；enquiry：咨询；duplicated：重复的。",
+      "meaning": "正确项对应第二项共同订票服务，保留latter的指向及其解决的问题。",
+      "rest": "少买服装处理的是另一项成本；各设票房会继续重复；让演员接咨询没有被提出。"
+    }
+  },
+  {
+    "id": "r18t4-groups-venue",
+    "family": "interference-capacity",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A university has drawn up a workable plan to share teaching rooms between departments. The rooms are suitable and the scheduling software has been tested. Approval has nevertheless stalled. Several departments want to retain their customary rooms, while a commercial conference organiser fears losing access during the holidays. Both have pressed the governing committee to leave the arrangements unchanged.\n\nCalling this a failure of the scheduling staff misses the source of the delay. The staff have shown that a different timetable is possible. What they cannot decide is whose claims the committee should give up protecting. The difficulty lies in competing interests being defended through the approval process.",
+    "q": "The delay in approving the plan results mainly from",
+    "o": [
+      "the staff's inability to operate the scheduling software.",
+      "pressure from groups defending existing arrangements.",
+      "a shortage of rooms suitable for ordinary teaching.",
+      "the organiser's failure to attract holiday conferences."
+    ],
+    "a": 1,
+    "target": "区分主动施压与能力不足，并保留多个主体",
+    "skill": "区分主动施压与能力不足，并保留多个主体",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "The difficulty lies in competing interests being defended through the approval process.",
+    "exp": {
+      "trans": "方案技术可行，但院系和商业会议方都为保留现有权益施压审批委员会。",
+      "structure": "可行性事实排除技术无能，再定位实际阻碍是多方利益要求。",
+      "other": "press：施压；governing committee：管理委员会。",
+      "meaning": "pressure对应利益干预，不是工作人员不会操作。正确项也保留了不止一个群体的范围。",
+      "rest": "软件已经测试，教室也适用；文中未说会议方招不到客户。"
+    }
+  },
+  {
+    "id": "r18t4-capacity-records",
+    "family": "interference-capacity",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "An audit of a scholarship office found the same calculation error in dozens of applications. The staff had misunderstood a simple scoring rule and had received no training before using it. There was no evidence that applicants had pressured the office to change their marks. The review described the failures as incompetence rather than favouritism.\n\nThat distinction matters for the response. A clearer rule and supervised training could address the problem identified by the audit. Investigating influence from outside groups would answer a different question. An institution can make serious mistakes because its staff cannot perform a task properly, even when nobody is trying to interfere with their decisions.",
+    "q": "The word \"incompetence\" in Paragraph 1 most nearly means",
+    "o": [
+      "deliberate pressure from outsiders.",
+      "unfair preference for certain applicants.",
+      "lack of ability to perform a task properly.",
+      "refusal to disclose a successful procedure."
+    ],
+    "a": 2,
+    "target": "在确有能力不足证据时正确识别incompetence",
+    "skill": "在确有能力不足证据时正确识别incompetence",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "its staff cannot perform a task properly",
+    "exp": {
+      "trans": "审计发现工作人员误解计算规则且未受培训，没有外部施压证据，因此判断为能力不足而非偏袒。",
+      "structure": "先给事实并区分原因，第二段说明不同原因需要不同的应对。",
+      "other": "incompetence：不能胜任；favouritism：偏袒；interfere：干预。",
+      "meaning": "正确项对应不能适当完成工作。本题不是教成凡遇制度问题都选利益干预，而是按材料判断。",
+      "rest": "外部施压和偏袒均被文中排除；拒绝公开成功做法没有事实支持。"
+    }
+  },
+  {
+    "id": "r18t4-postal-address",
+    "family": "postal-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "An online shop has discovered that some customers never see its order confirmations. They share an email account or live where internet access is unreliable. The shop now asks customers whether they also want important notices sent to a postal address. A printed letter takes longer to arrive, but it can reach people who do not regularly open an inbox.\n\nThe change is not an attempt to abandon digital sales. It recognises that a convenient channel for one customer may be a poor one for another. Offering a choice of how to receive essential information can matter more than sending every message through the newest available system.",
+    "q": "The word \"postal\" in Paragraph 1 refers to",
+    "o": [
+      "delivery through the mail.",
+      "payment for an online purchase.",
+      "access to an email account.",
+      "the status of a customer's order."
+    ],
+    "a": 0,
+    "target": "postal在语境中表示与实体邮件有关",
+    "skill": "postal在语境中表示与实体邮件有关",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "A printed letter takes longer to arrive",
+    "exp": {
+      "trans": "商家除电子邮件外，也让顾客选择接收寄往实体地址的书面通知。",
+      "structure": "先说明电子通知覆盖不足，再解释增加实体邮寄渠道的理由。",
+      "other": "postal address：邮寄地址；inbox：电子邮箱收件箱。",
+      "meaning": "postal与打印并寄送的信件相连，表示邮政投递，而非网上订单状态。",
+      "rest": "付款、电子邮箱访问和订单状态都与交易相关，但不是postal的词义。"
+    }
+  },
+  {
+    "id": "r18t4-postal-workers",
+    "family": "postal-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "When a village shop closed, residents lost more than a place to buy groceries. The building had also housed a small counter where postal workers accepted parcels and sorted letters. The delivery route continued, but posting a large package now required a trip to the next town.\n\nFor residents with a car, that change was an inconvenience. For others, it meant depending on a neighbour whenever a parcel had to be sent. The case shows why counting the number of daily deliveries tells only part of the story. A community's access to the mail also depends on where people can hand items over to the service.",
+    "q": "The postal workers mentioned in the text were responsible for",
+    "o": [
+      "providing transport to neighbouring shops.",
+      "managing the village's grocery supplies.",
+      "deciding which residents could use a car.",
+      "handling letters and parcels for delivery."
+    ],
+    "a": 3,
+    "target": "postal工作围绕邮件收寄与投递",
+    "skill": "postal工作围绕邮件收寄与投递",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "postal workers accepted parcels and sorted letters",
+    "exp": {
+      "trans": "村中店铺曾兼有邮件包裹收寄柜台，关闭后寄大包裹更困难，投递线路仍继续。",
+      "structure": "从具体服务变化说明邮政可达性不只看每天是否送信。",
+      "other": "parcel：包裹；counter：服务柜台。",
+      "meaning": "收包裹、分拣信件说明这些工作人员从事邮政收寄工作。",
+      "rest": "邻镇交通、食品供应和居民购车资格都不是该柜台的工作。"
+    }
+  },
+  {
+    "id": "r18t4-mail-archive",
+    "family": "first-class-mail-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A historian studying business letters keeps the envelopes as well as their contents. Names and dates help identify the writers, while stamps and service labels show how the letters travelled. An envelope marked First-Class Mail records the postal service used to send it. It does not establish that the writer held an important position or that the letter travelled in a premium aircraft cabin.\n\nSuch details can help reconstruct an ordinary transaction that left few other records. They need to be read for what they actually describe. A familiar expression on an envelope may identify a mailing category rather than make a judgment about the social standing of the people who used it.",
+    "q": "In the text, \"First-Class Mail\" identifies",
+    "o": [
+      "the professional rank of the letter's writer.",
+      "the postal category used to send the letter.",
+      "the importance of the business described inside.",
+      "the class of seat occupied by its sender."
+    ],
+    "a": 1,
+    "target": "first-class mail是邮件服务类别，不是人的等级或机舱等级",
+    "skill": "first-class mail是邮件服务类别，不是人的等级或机舱等级",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "An envelope marked First-Class Mail records the postal service used to send it.",
+    "exp": {
+      "trans": "研究者利用信封上的邮寄类别理解信件流转，标签不是对寄信人地位的评价。",
+      "structure": "先介绍资料线索，再限定一个常见标签的含义和推断范围。",
+      "other": "mailing category：邮件服务类别；social standing：社会地位。",
+      "meaning": "正确项保留整个固定表达的邮政语境；不能把first-class拆出后，按人的社会地位或机舱等级解释。",
+      "rest": "职业等级、信内事务的重要性和座位舱等都被文中区别开。"
+    }
+  },
+  {
+    "id": "r18t4-mail-publisher",
+    "family": "first-class-mail-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A small publisher reviews its communication costs under separate headings. Parcels sent to bookshops appear in one column, electronic subscriptions in another. Business letters sent by First-Class Mail are listed under postal expenses. The office wants to reduce avoidable costs without making it harder for customers to ask questions about an order.\n\nThe review therefore begins by asking what each channel is used for. A receipt, a damaged book and a change of address do not all need to be handled in the same way. Savings depend on matching the service to the task, not simply treating every item that moves out of the office as an identical delivery.",
+    "q": "First-Class Mail is mentioned as a way of",
+    "o": [
+      "providing customers with electronic subscriptions.",
+      "carrying passengers to the publisher's office.",
+      "sending the publisher's business letters.",
+      "ranking the quality of newly published books."
+    ],
+    "a": 2,
+    "target": "在具体通信场景识别first-class mail",
+    "skill": "在具体通信场景识别first-class mail",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "Business letters sent by First-Class Mail are listed under postal expenses.",
+    "exp": {
+      "trans": "出版社区分包裹、电子订阅与商务信件等成本，First-Class Mail在这里用于寄信。",
+      "structure": "分类账交代服务用途，后段说明节约开支须匹配具体任务。",
+      "other": "postal expenses：邮寄费用；channel：沟通渠道。",
+      "meaning": "此处服务对象是商务信件，不是把first-class单独按商品质量或旅客等级解释。",
+      "rest": "电子订阅另列一栏；文中未谈客运或新书质量排名。"
+    }
+  },
+  {
+    "id": "r18t4-regulation-energy",
+    "family": "regulatory-framework",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A group of residents wants to sell electricity from shared rooftop panels to nearby homes. The equipment is available, but the project has become difficult to organise. One authority approves installation, another sets connection rules, and a third determines who may sell power. The residents describe this regulatory structure as hard for a small cooperative to navigate.\n\nBuying better panels would not by itself remove those difficulties. The obstacles concern the rules under which the project may operate and the bodies that apply them. Simplifying the process requires deciding how those responsibilities fit together, rather than merely drawing a clearer diagram of the wires on the roof.",
+    "q": "The phrase \"regulatory structure\" refers to the",
+    "o": [
+      "framework of rules and authorities governing the project.",
+      "physical arrangement of panels and electrical wires.",
+      "membership list used by the residents' cooperative.",
+      "pattern of electricity use in neighbouring homes."
+    ],
+    "a": 0,
+    "target": "regulatory structure是监管制度框架",
+    "skill": "regulatory structure是监管制度框架",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "The obstacles concern the rules under which the project may operate and the bodies that apply them.",
+    "exp": {
+      "trans": "居民共享发电项目涉及多家机构的批准、接入和销售规则，障碍不只是设备。",
+      "structure": "前段列出规则和机构，后段将制度问题与物理线路区别。",
+      "other": "regulatory：监管的；cooperative：合作组织。",
+      "meaning": "正确项概括实施规则及适用这些规则的机构，不能将structure仅按实体结构理解。",
+      "rest": "面板接线属于设备；成员名单和用电模式也不能概括监管关系。"
+    }
+  },
+  {
+    "id": "r18t4-regulation-market",
+    "family": "regulatory-framework",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A weekend craft market has a sound budget and plenty of interested sellers. Its expansion is held up by a regulatory structure in which trading permits and permission to use the square are considered separately. A trader can satisfy one set of conditions and still be unable to open a stall because another application remains undecided.\n\nThe organiser is not asking the council to abandon standards. She wants the two decisions coordinated so that traders know which requirements apply and when an answer will arrive. The complaint concerns the way public rules are organised, rather than the quality of the goods that the market hopes to sell.",
+    "q": "The organiser's criticism of the regulatory structure concerns",
+    "o": [
+      "the sellers' failure to attract enough customers.",
+      "the low quality of goods offered at the market.",
+      "the market's lack of money to pay for expansion.",
+      "the separation of related approval procedures."
+    ],
+    "a": 3,
+    "target": "区分制度流程与经营能力或商品品质",
+    "skill": "区分制度流程与经营能力或商品品质",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "She wants the two decisions coordinated",
+    "exp": {
+      "trans": "摆摊经营许可与广场使用许可分头审批，组织者要求协调，而不是取消标准。",
+      "structure": "材料先说明两套程序造成的困难，再交代希望如何改善。",
+      "other": "coordinate：协调；permit：许可。",
+      "meaning": "正确项对应相互关联的审批被分开处理这一制度问题。",
+      "rest": "材料说明预算和卖家意愿充足；商品质量不是批评对象。"
+    }
+  },
+  {
+    "id": "r18t4-overseer-meals",
+    "family": "overseer-role",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A school has contracted a local company to prepare lunches. Kitchen staff order ingredients and cook the food, while the school board acts as overseer. It checks whether the meals meet the agreed standards, reads complaints and asks the provider to explain any repeated failures.\n\nThe distinction becomes important when a problem appears. The board cannot reasonably claim that signing a contract ended its responsibility. It need not run the kitchen itself, but it must examine whether the service it has commissioned is working. Oversight loses its value if it is reduced to receiving a report that nobody bothers to question.",
+    "q": "The school board acts as an \"overseer\" by",
+    "o": [
+      "preparing ingredients for the kitchen staff.",
+      "checking the provider's performance against standards.",
+      "taking over the company's daily cooking tasks.",
+      "encouraging pupils to ignore the lunch arrangements."
+    ],
+    "a": 1,
+    "target": "overseer负责监督，不等于直接执行服务",
+    "skill": "overseer负责监督，不等于直接执行服务",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "It checks whether the meals meet the agreed standards",
+    "exp": {
+      "trans": "厨房公司提供餐食，校董会监督服务是否达到标准，并审查投诉。",
+      "structure": "先明确分工，再说明把工作外包不代表监督责任已经终结。",
+      "other": "overseer：监督者；commission：委托提供。",
+      "meaning": "监督者检查标准和表现，不必自己承担每天备餐的具体工作。",
+      "rest": "备料和日常烹饪属于厨房；鼓励忽视服务安排无依据。"
+    }
+  },
+  {
+    "id": "r18t4-overseer-collection",
+    "family": "overseer-role",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A trust owns a collection of historical instruments, but a specialist workshop maintains them. The trustees have appointed an independent overseer to inspect the work and report on whether the agreed conservation methods are followed. The overseer does not choose which instruments should be played at concerts or carry out the repairs herself.\n\nThis arrangement gives the owners information they cannot obtain merely by looking at a finished instrument. It also keeps supervision separate from the workshop's commercial interest in completing more repairs. The value of the post lies in an informed check on the work, rather than another person joining the repair team.",
+    "q": "The overseer's role is mainly to",
+    "o": [
+      "select instruments for public performances.",
+      "increase the workshop's commercial income.",
+      "provide an independent check on conservation work.",
+      "perform the repairs requested by the trustees."
+    ],
+    "a": 2,
+    "target": "在新机构关系中识别监督者的职能",
+    "skill": "在新机构关系中识别监督者的职能",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "The value of the post lies in an informed check on the work",
+    "exp": {
+      "trans": "独立监督者检查工作坊修复是否遵守约定方法，不亲自修复或挑演出乐器。",
+      "structure": "第一段说明职责边界，第二段解释独立监督的价值。",
+      "other": "trustee：受托管理人；conservation：保护、修复。",
+      "meaning": "正确项概括独立检查的监督职责，不与被监督方的日常业务混淆。",
+      "rest": "选演奏乐器和亲自修复被明确排除；增加工作坊收入也不是监督岗位的目标。"
+    }
+  },
+  {
+    "id": "r18t4-amount-formality",
+    "family": "amount-to-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A transport authority has invited residents to comment on a station plan after the main contracts have been signed. Officials promise to listen, but they cannot change the entrance, the route of the access road or the hours of construction. Only the colour of a boundary fence remains open for discussion.\n\nUnder those conditions, the consultation amounts to a formality. An opportunity to speak is of limited value when the decisions that matter have already been made. Public participation should occur while alternatives remain possible, not merely provide a final stage in a process whose outcome is no longer in doubt.",
+    "q": "The phrase \"amounts to\" in Paragraph 2 is closest in meaning to",
+    "o": [
+      "is effectively.",
+      "is caused by.",
+      "depends upon.",
+      "argues against."
+    ],
+    "a": 0,
+    "target": "amount to在评价语境表示实际上相当于",
+    "skill": "amount to在评价语境表示实际上相当于",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "the consultation amounts to a formality",
+    "exp": {
+      "trans": "主要决定已定，居民仅能讨论围栏颜色，因此所谓咨询实际只剩形式。",
+      "structure": "前段提供受限范围，后段以amounts to对咨询的实质作评价。",
+      "other": "formality：形式性程序；consultation：征求意见。",
+      "meaning": "is effectively表达实际上等于、实质上是；本句不是数字总计，也不表示因果或反对。",
+      "rest": "is caused by改成因果；depends upon改成依赖条件；argues against改成持反对观点。"
+    }
+  },
+  {
+    "id": "r18t4-amount-total",
+    "family": "amount-to-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A local newspaper wants subscribers to understand what their payments support. Its annual accounts separate printing, delivery and reporting costs. Payments to freelance reporters amount to a substantial share of the total, although each individual assignment may appear inexpensive when considered on its own.\n\nThe distinction between a single payment and the combined cost matters to the newspaper's plans. Reducing one small fee would do little if the same work then had to be purchased elsewhere. The accounts are intended to show where spending accumulates across a year, rather than suggest that the most visible invoice must be the most important one.",
+    "q": "The phrase \"amount to\" in Paragraph 1 is closest in meaning to",
+    "o": [
+      "make room for.",
+      "fall short of.",
+      "depend upon.",
+      "add up to."
+    ],
+    "a": 3,
+    "target": "amount to也可表示总计达到，不固定只记一种义",
+    "skill": "amount to也可表示总计达到，不固定只记一种义",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "Payments to freelance reporters amount to a substantial share of the total",
+    "exp": {
+      "trans": "报社说明零散稿费合计占全年开支的重要部分，单项小不代表合计不重要。",
+      "structure": "第一段呈现单项与总量差别，第二段解释核算全年支出的意义。",
+      "other": "freelance：自由职业的；invoice：账单；accumulate：累积。",
+      "meaning": "add up to对应总计达到。本题与“相当于形式”语境不同，要按宾语和上下文判断义项。",
+      "rest": "留出空间、低于和依赖都没有表达累计占比的关系。"
+    }
+  },
+  {
+    "id": "r18t4-bare-disclosure",
+    "family": "bare-minimum-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "An organisation has promised greater openness about executive pay. Its first report lists a broad salary range and the date when the pay committee met. It gives no explanation of the criteria used or whether benefits beyond salary were included. The information is accurate, but readers cannot tell why one executive receives more than another.\n\nThe report meets the bare minimum of the organisation's publishing policy. That is different from giving staff enough information to understand a decision. Openness requires attention to the questions people need answered, not just confirmation that the smallest required set of figures has appeared on a website.",
+    "q": "Calling the report \"the bare minimum\" suggests that it",
+    "o": [
+      "provides unreliable figures about executive salaries.",
+      "offers only the least information required by the policy.",
+      "explains the pay committee's decisions in useful detail.",
+      "exceeds what employees need to understand the policy."
+    ],
+    "a": 1,
+    "target": "bare minimum强调最低限度，不等于充分透明",
+    "skill": "bare minimum强调最低限度，不等于充分透明",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "the smallest required set of figures",
+    "exp": {
+      "trans": "报告数字准确，却只满足公布规则的最低要求，仍不足以解释薪酬决定。",
+      "structure": "先指出已有信息和遗漏，再区分最低合规与充分解释。",
+      "other": "bare minimum：最低限度；criteria：标准。",
+      "meaning": "正确项保留仅达到最低要求的程度，不能扩成信息虚假或已充分披露。",
+      "rest": "原文说数字准确；也明确说读者仍不能理解决定，所以充分解释和超过需要都不成立。"
+    }
+  },
+  {
+    "id": "r18t4-bare-grant",
+    "family": "bare-minimum-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A grant allows a youth orchestra to hire a rehearsal room and pay the conductor. There is no money left for instrument repairs or travel to performances. The committee describes the grant as the bare minimum needed to keep rehearsals going, rather than a complete plan for developing the orchestra.\n\nThat description recognises a real benefit without exaggerating it. Rehearsals can continue, which matters to the players. But keeping one activity alive does not meet every requirement of a group that also hopes to perform and train new members. Further support would need to be judged against those wider aims.",
+    "q": "The phrase \"bare minimum\" refers to support that is",
+    "o": [
+      "too unreliable to permit any rehearsal.",
+      "greater than the orchestra can reasonably use.",
+      "just enough to maintain the essential activity.",
+      "intended solely for repairing old instruments."
+    ],
+    "a": 2,
+    "target": "最低限度有实际作用，但不等于全面满足需求",
+    "skill": "最低限度有实际作用，但不等于全面满足需求",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "the bare minimum needed to keep rehearsals going",
+    "exp": {
+      "trans": "资助能维持排练，但覆盖不了维修、演出交通和进一步发展，因此只是最低限度支持。",
+      "structure": "先列支出与缺口，再承认基本支持的好处并限定其覆盖范围。",
+      "other": "rehearsal：排练；exaggerate：夸大。",
+      "meaning": "正确项是刚够维持核心活动。最低限度并非完全无效，也不是资源已经充裕。",
+      "rest": "排练确能继续；维修尚无经费；超过所需与列出的缺口矛盾。"
+    }
+  },
+  {
+    "id": "r18t4-bandaid-software",
+    "family": "band-aid-remedy",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A booking website crashes whenever too many customers arrive at once. Staff have learned to restart the server, and the service usually returns within minutes. Customers are understandably relieved when it comes back, but the same failure reappears the next busy evening.\n\nAn engineer calls the restart a Band-Aid. It restores access without changing the weakness that causes the site to fail under heavy demand. The company still needs to examine how requests are handled and where capacity is lost. A response that ends today's interruption can be useful while remaining inadequate as an answer to the recurring problem.",
+    "q": "The engineer uses \"Band-Aid\" to describe a",
+    "o": [
+      "useful but temporary response to the failure.",
+      "complete redesign of the booking website.",
+      "financial guarantee offered to disappointed customers.",
+      "method of preventing every increase in demand."
+    ],
+    "a": 0,
+    "target": "Band-Aid比喻临时补救，不把bank aid回忆补造成既定误译",
+    "skill": "Band-Aid比喻临时补救，不把bank aid回忆补造成既定误译",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "It restores access without changing the weakness that causes the site to fail",
+    "exp": {
+      "trans": "重启能暂时恢复网站，但高峰时故障反复出现，工程师称它为临时补救。",
+      "structure": "第一段给出反复现象，第二段区分恢复当下使用和解决反复成因。",
+      "other": "Band-Aid：创可贴，引申为临时补救；recurring：反复出现的。",
+      "meaning": "正确项保留暂时有用与未解决成因两点。这不是银行援助的表达，也不是说该应急行动毫无作用。",
+      "rest": "全面重设计尚未发生；客户财务担保无依据；避免一切需求增长不是重启的作用。"
+    }
+  },
+  {
+    "id": "r18t4-bandaid-fundraising",
+    "family": "band-aid-remedy",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A community arts programme is about to cancel its next season when a sponsor offers a single donation. The gift pays the venue bill and allows the advertised workshops to go ahead. The organisers are grateful, but the programme has lost several regular supporters and has no dependable income for the following year.\n\nOne trustee calls the donation a Band-Aid rather than a funding strategy. The point is not to dismiss the sponsor's generosity. It is to recognise that a payment which prevents an immediate cancellation does not establish a reliable way to finance future work. The programme needs both relief now and a plan for what follows.",
+    "q": "The trustee's description of the donation as a \"Band-Aid\" stresses its",
+    "o": [
+      "dependence on the venue's willingness to cancel events.",
+      "ability to replace the programme's regular supporters.",
+      "failure to help with any of the current expenses.",
+      "limited role in addressing a continuing funding problem."
+    ],
+    "a": 3,
+    "target": "区分一次应急支持和可持续解决方案",
+    "skill": "区分一次应急支持和可持续解决方案",
+    "origin_session": "2026-11-17-2018-text4",
+    "answer_support": "a payment which prevents an immediate cancellation does not establish a reliable way to finance future work",
+    "exp": {
+      "trans": "一次捐款救下本季活动，但并未建立往后的稳定收入来源；作者承认好处并限定其作用。",
+      "structure": "先交代危机和缓解，再区分即时救助与持续资助。",
+      "other": "trustee：受托管理者；dependable：可靠的；relief：缓解、救济。",
+      "meaning": "正确项是对持续问题的作用有限，不是把捐赠说成无效或已有完整财务方案。",
+      "rest": "场地方取消意愿不是比喻重点；常规支持者流失未被解决；当期场地费确实已获帮助。"
+    }
+  }
+]

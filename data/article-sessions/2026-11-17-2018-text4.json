@@ -1,0 +1,116 @@
+{
+  "id": "2026-11-17-2018-text4",
+  "date": "2026-11-17",
+  "learning_date": "2026-11-17",
+  "created_at": "2026-11-17T19:52:37+09:00",
+  "source": "2018 英语一 Text 4 · 原创短篇阅读复盘",
+  "question_format": "english1_reading",
+  "focus_families": [
+    "title-coverage",
+    "former-latter-goal",
+    "interference-capacity",
+    "band-aid-remedy",
+    "postal-meaning",
+    "first-class-mail-meaning",
+    "regulatory-framework",
+    "overseer-role",
+    "amount-to-meaning",
+    "bare-minimum-meaning"
+  ],
+  "max_current": 4,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "title-coverage": [
+      "r18t4-title-timetable"
+    ],
+    "former-latter-goal": [
+      "r18t4-measures-fieldstation"
+    ],
+    "interference-capacity": [
+      "r18t4-groups-venue"
+    ],
+    "band-aid-remedy": [
+      "r18t4-bandaid-software"
+    ],
+    "postal-meaning": [
+      "r18t4-postal-address"
+    ],
+    "first-class-mail-meaning": [
+      "r18t4-mail-archive"
+    ],
+    "regulatory-framework": [
+      "r18t4-regulation-energy"
+    ],
+    "overseer-role": [
+      "r18t4-overseer-meals"
+    ],
+    "amount-to-meaning": [
+      "r18t4-amount-formality"
+    ],
+    "bare-minimum-meaning": [
+      "r18t4-bare-disclosure"
+    ]
+  },
+  "paper_outcome": {
+    "evidence_status": "paper_tendencies_only",
+    "question_range": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "reported_correct_count": null,
+    "reported_total": null,
+    "reported_all_correct": null,
+    "reported_final_choice_letters": {},
+    "reported_question_correctness": {},
+    "leaning_choices": {
+      "37": "A",
+      "38": "A"
+    },
+    "final_choice_letters_unknown": [
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "first_choices": "unknown",
+    "revisions": "not_reported",
+    "not_a_web_score": true
+  },
+  "passage_comprehension": {
+    "status": "substantial_difficulty_reported",
+    "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+    "fully_understood": false,
+    "all_content_unintelligible": "not_claimed",
+    "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+    "positive_evidence": [
+      "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+      "认可40C与长期财政问题相关，并主动质疑C/D差别"
+    ]
+  },
+  "vocabulary_scope": {
+    "reported_photo_box_identifications": [
+      "postal",
+      "first-class mail",
+      "regulatory structure",
+      "overseer",
+      "amount to",
+      "bare"
+    ],
+    "confirmed_option_translation": [
+      "incompetence"
+    ],
+    "active_question": [
+      "Band-Aid"
+    ],
+    "unconfirmed_marking": [
+      "status quo"
+    ],
+    "unconfirmed_items_scheduled_as_translation": false
+  },
+  "source_check": "data/source-checks/2018-english1.json",
+  "result_summary": "整体理解困难；37 A/D、38 A/C犹豫且倾向A，与参考吻合，但无正式字母或总成绩。40认可C的主题依据，最终选择未知；D强调全面改革，不把quick cure解释为必然治标。"
+}

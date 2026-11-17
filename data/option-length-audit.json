@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 475,
-        "correct_uniquely_longest": 111,
-        "correct_uniquely_shortest": 77,
-        "longest_guess_pct": 29.68,
-        "shortest_guess_pct": 21.4,
+        "question_count": 495,
+        "correct_uniquely_longest": 117,
+        "correct_uniquely_shortest": 82,
+        "longest_guess_pct": 30.0,
+        "shortest_guess_pct": 21.75,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5933,6 +5933,346 @@
         "pool": "daily_article",
         "family": "costs-effort-intensity",
         "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t4-amount-formality": {
+        "lengths": [
+          15,
+          13,
+          13,
+          15
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "amount-to-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-amount-total": {
+        "lengths": [
+          14,
+          14,
+          12,
+          10
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "amount-to-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-bandaid-fundraising": {
+        "lengths": [
+          55,
+          54,
+          49,
+          56
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "band-aid-remedy",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-bandaid-software": {
+        "lengths": [
+          45,
+          41,
+          54,
+          46
+        ],
+        "spread": 13,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "band-aid-remedy",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-bare-disclosure": {
+        "lengths": [
+          53,
+          57,
+          56,
+          53
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "bare-minimum-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-bare-grant": {
+        "lengths": [
+          39,
+          46,
+          47,
+          46
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "bare-minimum-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-capacity-records": {
+        "lengths": [
+          35,
+          41,
+          43,
+          43
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "interference-capacity",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-groups-venue": {
+        "lengths": [
+          57,
+          53,
+          51,
+          55
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "interference-capacity",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-mail-archive": {
+        "lengths": [
+          45,
+          44,
+          48,
+          41
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "first-class-mail-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-mail-publisher": {
+        "lengths": [
+          50,
+          46,
+          41,
+          45
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "first-class-mail-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-measures-fieldstation": {
+        "lengths": [
+          36,
+          36,
+          42,
+          44
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "former-latter-goal",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-measures-tour": {
+        "lengths": [
+          42,
+          42,
+          47,
+          35
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "former-latter-goal",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-overseer-collection": {
+        "lengths": [
+          43,
+          42,
+          50,
+          46
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "overseer-role",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-overseer-meals": {
+        "lengths": [
+          44,
+          54,
+          46,
+          52
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "overseer-role",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-postal-address": {
+        "lengths": [
+          26,
+          31,
+          27,
+          33
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "postal-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-postal-workers": {
+        "lengths": [
+          42,
+          40,
+          41,
+          42
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "postal-meaning",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-regulation-energy": {
+        "lengths": [
+          57,
+          52,
+          51,
+          49
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "regulatory-framework",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-regulation-market": {
+        "lengths": [
+          49,
+          47,
+          48,
+          46
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "regulatory-framework",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-title-swift-reform": {
+        "lengths": [
+          49,
+          48,
+          46,
+          46
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r18t4-title-timetable": {
+        "lengths": [
+          40,
+          46,
+          47,
+          43
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-17-2018-text4-reading.json"
       },
       "recruitment-hunt-b": {
         "lengths": [

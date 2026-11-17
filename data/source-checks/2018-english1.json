@@ -1,7 +1,7 @@
 {
   "exam": "2018-english1",
-  "checked_on": "2026-11-16",
-  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification. Extended on 2026-11-15: Text 2 reference Q26-Q30, Q27 semantic confusion, Q28 explicit B-to-D revision and four boxed items; no overall paper score reconstructed. Extended on 2026-11-16: Text 3 key Q31-Q35, user-reported 4/5 and Q33 final A, explicit phrase clarification and separate doubt about D; no missing answer letters inferred.",
+  "checked_on": "2026-11-17",
+  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification. Extended on 2026-11-15: Text 2 reference Q26-Q30, Q27 semantic confusion, Q28 explicit B-to-D revision and four boxed items; no overall paper score reconstructed. Extended on 2026-11-16: Text 3 key Q31-Q35, user-reported 4/5 and Q33 final A, explicit phrase clarification and separate doubt about D; no missing answer letters inferred. Extended on 2026-11-17: Text 4 Q36-Q40; reported global difficulty, unconfirmed formal choices, C/D title scope and distinct vocabulary marking provenance.",
   "purpose": "参考内容与用户纸质文字反馈分开核验，不作为网页成绩。",
   "sources": [
     {
@@ -81,6 +81,30 @@
       "title": "Cambridge Dictionary: spare no effort",
       "url": "https://dictionary.cambridge.org/dictionary/english/spare-no-effort",
       "covers": "尽最大努力；与原文另给的条件限制可并存，不自动授权删除任何限制。"
+    },
+    {
+      "id": "xdf-2018-text4-key",
+      "title": "新东方整理：2018英语一Text 4参考答案",
+      "url": "https://file.xdf.cn/uploads/171224/708_171224135209AZniAwdgBs2Qt41U.pdf",
+      "covers": "参考36B、37A、38A、39C、40D；不由此推断用户正式字母或成绩。"
+    },
+    {
+      "id": "xdf-2018-text4-original",
+      "title": "云南新东方：2018英语一Text 4原文及选项",
+      "url": "https://kaoyan.xdf.cn/201712/10746551.html",
+      "covers": "核对利益集团施压、两项措施及latter所指、末段最低限度与全面改革对照。仅将原文用作历史阅读证据，不导入解析中的关键词或词序选项捷径。"
+    },
+    {
+      "id": "cambridge-band-aid",
+      "title": "Cambridge Dictionary: Band-Aid",
+      "url": "https://dictionary.cambridge.org/dictionary/english/band-aid",
+      "covers": "创可贴的字面义与只在短期或有限范围起作用的引申义。"
+    },
+    {
+      "id": "cambridge-band-aid-solution",
+      "title": "Cambridge Dictionary: band-aid solution",
+      "url": "https://dictionary.cambridge.org/dictionary/english/band-aid-solution",
+      "covers": "临时缓解而未处理成因；不推出quick cure在所有语境都表示临时补救。"
     }
   ],
   "answers": {
@@ -98,7 +122,12 @@
     "32": "C",
     "33": "D",
     "34": "D",
-    "35": "B"
+    "35": "B",
+    "36": "B",
+    "37": "A",
+    "38": "A",
+    "39": "C",
+    "40": "D"
   },
   "answer_words": {
     "21": "Middle-class workers",
@@ -108,7 +137,12 @@
     "25": "possible solutions to it",
     "27": "sharpen",
     "28": "verify news by referring to diverse sources",
-    "33": "the value of data comes from the processing of it"
+    "33": "the value of data comes from the processing of it",
+    "36": "its rigid management",
+    "37": "the interference from interest groups",
+    "38": "removing its burden of retiree health care",
+    "39": "discontent",
+    "40": "The Postal Service Needs More than a Band-Aid"
   },
   "performance_coverage": {
     "paper_outcome": {
@@ -426,5 +460,114 @@
       "regardless of the consequences"
     ],
     "policy": "六处均是交接确认的翻译困难；at all costs为主动报告，其余逐项标记类型未知，不把下划线或混合类别补造成确定画框。"
+  },
+  "reading_text4_performance_coverage": {
+    "paper_outcome": {
+      "evidence_status": "paper_tendencies_only",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_all_correct": null,
+      "reported_final_choice_letters": {},
+      "reported_question_correctness": {},
+      "leaning_choices": {
+        "37": "A",
+        "38": "A"
+      },
+      "final_choice_letters_unknown": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "substantial_difficulty_reported",
+      "user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+      "fully_understood": false,
+      "all_content_unintelligible": "not_claimed",
+      "background_familiarity": "Teaching handoff reports unfamiliarity with postal finance, Congress, unions and institutional constraints.",
+      "positive_evidence": [
+        "37和38倾向与参考一致的A，但不据此确认答题卡或掌握程度",
+        "认可40C与长期财政问题相关，并主动质疑C/D差别"
+      ]
+    },
+    "original_user_quote": "其实我这篇是没咋看懂的，37在AD犹豫感觉A更对，38在AC犹豫感觉A更明显，C感觉是涨价还是啥？对应文章？然后40我感觉C还挺对的，D我其实没看到bank aid。",
+    "followup_user_quote": "画框的是我翻译困难的，其实我觉得40c还是比较有道理的。",
+    "q37": {
+      "candidate_choices": [
+        "A",
+        "D"
+      ],
+      "leaning_pick": "A",
+      "formal_final_pick": null,
+      "category": "correct_direction_but_uncertain"
+    },
+    "q38": {
+      "candidate_choices": [
+        "A",
+        "C"
+      ],
+      "leaning_pick": "A",
+      "formal_final_pick": null,
+      "category": "correct_direction_but_uncertain",
+      "measure_mapping": {
+        "first": "永久提高每封信邮资",
+        "latter": "退休人员医保安排调整",
+        "specific_target": "医保预先拨款负担"
+      }
+    },
+    "q40": {
+      "formal_final_pick": null,
+      "C_topic_relevant": true,
+      "C_focus": "解决速度",
+      "D_focus": "现有补救不足、需要全面改革",
+      "quick_cure_necessarily_temporary": false
+    },
+    "unreported_questions": [
+      36,
+      39
+    ],
+    "historical_article_time_frame": "2018 exam text; no assertions about current USPS finances or present law."
+  },
+  "reading_text4_vocabulary_scope": {
+    "reported_photo_box_identifications": [
+      "postal",
+      "first-class mail",
+      "regulatory structure",
+      "overseer",
+      "amount to",
+      "bare"
+    ],
+    "confirmed_option_translation": [
+      "incompetence"
+    ],
+    "active_question": [
+      "Band-Aid"
+    ],
+    "unconfirmed_marking": [
+      "status quo"
+    ],
+    "unconfirmed_items_scheduled_as_translation": false,
+    "confirmed_translation_items": [
+      "postal",
+      "first-class mail",
+      "regulatory structure",
+      "overseer",
+      "incompetence",
+      "amount to",
+      "bare",
+      "Band-Aid"
+    ]
   }
 }
