@@ -1106,12 +1106,12 @@
     },
     "semantic-action-roles": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-17",
+      "errors": 0,
+      "last": "2026-11-16",
       "due": "2026-11-17",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "sharp-hit-impact": {

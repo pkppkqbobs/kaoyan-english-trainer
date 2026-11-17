@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 458,
-        "correct_uniquely_longest": 107,
-        "correct_uniquely_shortest": 73,
-        "longest_guess_pct": 29.69,
-        "shortest_guess_pct": 21.14,
+        "question_count": 475,
+        "correct_uniquely_longest": 111,
+        "correct_uniquely_shortest": 77,
+        "longest_guess_pct": 29.68,
+        "shortest_guess_pct": 21.4,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -2023,6 +2023,295 @@
         "pool": "daily_article",
         "family": "dnt-actor-boundary",
         "source": "data/questions/2026-10-16-text2.json"
+      },
+      "e1r-archive-labour": {
+        "lengths": [
+          62,
+          59,
+          63,
+          64
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-bus-information": {
+        "lengths": [
+          62,
+          55,
+          57,
+          59
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "belief-negation-clause",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-careers-centre": {
+        "lengths": [
+          4,
+          10,
+          11,
+          9
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-digital-library": {
+        "lengths": [
+          37,
+          39,
+          37,
+          38
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-empty-shops": {
+        "lengths": [
+          37,
+          41,
+          34,
+          40
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "title-coverage",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-evening-buses": {
+        "lengths": [
+          55,
+          54,
+          53,
+          58
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-flood-park": {
+        "lengths": [
+          23,
+          21,
+          21,
+          21
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-flood-planning": {
+        "lengths": [
+          44,
+          45,
+          45,
+          44
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "costs-effort-intensity",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-historic-library": {
+        "lengths": [
+          53,
+          50,
+          56,
+          51
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "costs-effort-intensity",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-housing-permission": {
+        "lengths": [
+          57,
+          56,
+          56,
+          63
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-repair-records": {
+        "lengths": [
+          39,
+          45,
+          45,
+          41
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-school-walking": {
+        "lengths": [
+          50,
+          52,
+          54,
+          56
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-skills-grant": {
+        "lengths": [
+          7,
+          7,
+          8,
+          9
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-tutoring-forecast": {
+        "lengths": [
+          7,
+          11,
+          11,
+          13
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "author-stance",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-volunteer-toast": {
+        "lengths": [
+          26,
+          36,
+          40,
+          38
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "boast-boost-distinction",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-workweek-trial": {
+        "lengths": [
+          55,
+          57,
+          61,
+          56
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "inference-boundary",
+        "source": "data/questions/2026-11-17-english1-reading.json"
+      },
+      "e1r-writing-feedback": {
+        "lengths": [
+          49,
+          54,
+          52,
+          55
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "belief-negation-clause",
+        "source": "data/questions/2026-11-17-english1-reading.json"
       },
       "end-up-lamps": {
         "lengths": [

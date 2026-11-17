@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "user_request": "题目需自然可读，参考英语一真题的材料、设问和干扰项，按已确认错因出题。",
+  "inspected_source_bank_count": 458,
+  "retired_for_future_style_count": 76,
+  "new_reading_questions": 17,
+  "mechanisms": [
+    "semantic-action-roles",
+    "costs-effort-intensity",
+    "attribution-stance",
+    "inference-boundary",
+    "title-coverage",
+    "author-stance",
+    "belief-negation-clause",
+    "boast-boost-distinction"
+  ],
+  "source_benchmarks": [
+    {
+      "url": "https://file.xdf.cn/uploads/171224/708_171224135209AZniAwdgBs2Qt41U.pdf",
+      "use": "Reference 2018 English I question functions: detail, inference, vocabulary, attitude and title; not copied question text."
+    },
+    {
+      "url": "https://kaoyan.xdf.cn/201712/10746550.html",
+      "use": "Study complete argument and attribution structure in 2018 Text 3, rather than replace it with a coaching dialogue."
+    }
+  ],
+  "original_material": true,
+  "not_official_exam_questions": true,
+  "confirmed_affected_answer": {
+    "issue": 51,
+    "date": "2026-11-17",
+    "qid": "r18t2-role-route-evidence",
+    "displayed_pick": "B",
+    "displayed_key": "C",
+    "uncertain": true,
+    "original_ms": 92962,
+    "raw_score_preserved": "6/8",
+    "excluded_from_mastery_only": true
+  },
+  "not_new_ability_diagnosis": true,
+  "review_checks": [
+    "Each paragraph has an intelligible point and logical links.",
+    "Stem asks about the passage, not a fictional test taker.",
+    "Distractors use plausible topic, speaker, scope or action changes.",
+    "Correct answer has a locatable text basis and paraphrases its meaning.",
+    "Natural phrasing precedes character-length balancing.",
+    "Training targets stay hidden until after an answer.",
+    "Reading time allowance is question-specific; prior thresholds remain unchanged."
+  ],
+  "answer_position_policy": {
+    "previous": "A/B/C/D fixed at two each in every 8-question run; earlier explanations could reveal the remaining key.",
+    "current": "Independent option permutations for newly created runs; saved prior permutations and results remain intact.",
+    "no_old_results_revoked_for_possible_position_use": true
+  }
+}

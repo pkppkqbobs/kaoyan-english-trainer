@@ -4263,17 +4263,6 @@
       "qid": "dnt-vendors-messages-b",
       "round_id": "mwkhuysc-bclucgjq",
       "source_date": "2026-11-17"
-    },
-    {
-      "date": "2026-11-17",
-      "family": "semantic-action-roles",
-      "ok": false,
-      "ms": 92962,
-      "uncertain": true,
-      "origin": 51,
-      "qid": "r18t2-role-route-evidence",
-      "round_id": "mwkhuysc-bclucgjq",
-      "source_date": "2026-11-17"
     }
   ],
   "issues": [

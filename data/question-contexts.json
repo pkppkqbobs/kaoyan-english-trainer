@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-16",
+  "reviewed_on": "2026-11-17",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -547,7 +547,24 @@
     "r18t3-maladapted-checklist": "permanent-museum-checklist-versus-one-day-street-show",
     "r18t3-maladapted-workshop": "solo-race-ranking-mismatched-to-collaborative-workshop",
     "r18t3-techgiant-scale": "technology-startup-versus-large-multimarket-company",
-    "r18t3-techgiant-inference": "tech-company-scale-description-without-conduct-verdict"
+    "r18t3-techgiant-inference": "tech-company-scale-description-without-conduct-verdict",
+    "e1r-repair-records": "english1-reading:repair-records",
+    "e1r-school-walking": "english1-reading:school-walking",
+    "e1r-historic-library": "english1-reading:historic-library",
+    "e1r-flood-planning": "english1-reading:flood-planning",
+    "e1r-housing-permission": "english1-reading:housing-permission",
+    "e1r-archive-labour": "english1-reading:archive-labour",
+    "e1r-evening-buses": "english1-reading:evening-buses",
+    "e1r-workweek-trial": "english1-reading:workweek-trial",
+    "e1r-digital-library": "english1-reading:digital-library",
+    "e1r-empty-shops": "english1-reading:empty-shops",
+    "e1r-flood-park": "english1-reading:flood-park",
+    "e1r-tutoring-forecast": "english1-reading:tutoring-forecast",
+    "e1r-bus-information": "english1-reading:bus-information",
+    "e1r-writing-feedback": "english1-reading:writing-feedback",
+    "e1r-skills-grant": "english1-reading:skills-grant",
+    "e1r-careers-centre": "english1-reading:careers-centre",
+    "e1r-volunteer-toast": "english1-reading:volunteer-toast"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

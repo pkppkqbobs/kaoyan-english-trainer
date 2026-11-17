@@ -39,7 +39,13 @@ def catalogue(root):
         for q in review.load(path):
             locations[q["id"]] = str(path.relative_to(root))
     for q in review.bank(root):
-        add(q["id"], q, "daily_article", locations[q["id"]], qid=q["id"])
+        # Runtime eligibility is operational metadata, not an edit to the
+        # original definition or its previously reviewed option fingerprint.
+        retired_on = q.get("retired_on")
+        definition = {k: v for k, v in q.items() if k != "retired_on"}
+        add(q["id"], definition, "daily_article", locations[q["id"]], qid=q["id"])
+        if retired_on:
+            records[q["id"]]["retired_on"] = retired_on
     helper = Path(__file__).with_suffix(".mjs")
     legacy = json.loads(subprocess.run(["node", str(helper), str(root)], check=True,
                                      capture_output=True, text=True, timeout=10).stdout)

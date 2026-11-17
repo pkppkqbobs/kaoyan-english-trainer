@@ -29,5 +29,17 @@
     "round_id": "mw7lyhay-2z9mouox",
     "source_date": "2026-11-08",
     "exclusion_reason": "原发布题干要求分析the underlined phrase，却没有保存或显示目标范围。维护补充的划线不能倒推原版范围已明确；该原版作答保留，不计错误、猜答、掌握天数或复习状态。"
+  },
+  {
+    "date": "2026-11-17",
+    "family": "semantic-action-roles",
+    "ok": false,
+    "ms": 92962,
+    "uncertain": true,
+    "origin": 51,
+    "qid": "r18t2-role-route-evidence",
+    "round_id": "mwkhuysc-bclucgjq",
+    "source_date": "2026-11-17",
+    "exclusion_reason": "原版把假想读者的改选过程混入材料，却未明确说明正在回答的具体问题；选项同时混用内容事实、做题过程和词面特征。该作答不能可靠检验文章阅读能力。保留原始选择、页面判分、Issue和快照；仅该受影响题不计复习统计，不能据此新增用户错因。"
   }
 ]

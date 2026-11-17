@@ -33,6 +33,8 @@ def sessions(root):
             raise ValueError("Invalid article source")
         if not isinstance(obj["focus_families"], list) or not all(isinstance(x, str) and x for x in obj["focus_families"]):
             raise ValueError("Invalid focus_families")
+        if obj.get("question_format") not in (None, "english1_reading"):
+            raise ValueError("Invalid question_format")
         preferred = obj.get("focus_question_ids", {})
         if not isinstance(preferred, dict) or any(
                 family not in obj["focus_families"] or not isinstance(qids, list) or not qids
@@ -75,8 +77,10 @@ def choose_variant(groups, family, rng, avoid_ids, prefer_date=None, history=Non
 
 def make_payload(root, session, items, archives, repo):
     day = date.fromisoformat(session["date"])
+    candidates = [q for q in items if not session.get("question_format")
+                  or q.get("format") == session["question_format"]]
     groups = {}
-    for q in items:
+    for q in candidates:
         if review.available(q, day):
             groups.setdefault(q["family"], []).append(q)
     evidence = review.load(root / "data/result-evidence.json", {"rows": [], "issues": []})
@@ -128,7 +132,7 @@ def make_payload(root, session, items, archives, repo):
     focus.sort(key=lambda f: (-priority[f], shown_current.get(f, 0), jitter[f]))
     max_current = max(1, min(4, int(session.get("max_current", 4)), len(focus)))
     current_families = focus[:max_current]
-    historical_items = [q for q in items if q["family"] in groups and q["family"] not in focus]
+    historical_items = [q for q in candidates if q["family"] in groups and q["family"] not in focus]
     if session.get("balanced_options"):
         # Quality gating applies only to this new round. Published snapshots are
         # immutable; do not distort the scoring or suppress old mistake evidence.
@@ -170,10 +174,11 @@ def make_payload(root, session, items, archives, repo):
         "reportLabel": "考研英语文章复盘", "reportTitle": "文章复盘", "exportStem": "article-review",
         "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
         "questions": selected,
-        "retry": {q["family"]: review.retry_variants(items, q, day) for q in selected},
+        "retry": {q["family"]: review.retry_variants(candidates, q, day) for q in selected},
         "article_session": {"id": session["id"], "source": session["source"],
                             "created_at": session["_created_at"].isoformat(), "revision": session.get("revision", 1),
                             **({"learning_date": session["learning_date"]} if "learning_date" in session else {}),
+                            **({"question_format": session["question_format"]} if session.get("question_format") else {}),
                             "session_file": session["_path"], "current_families": current_families,
                             "deferred_families": focus[max_current:], "historical_families": historical_families},
         "issues_used": evidence.get("issues", []), "engine": 4,

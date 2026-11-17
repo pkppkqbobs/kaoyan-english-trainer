@@ -130,7 +130,10 @@ function answer(correct) {
 boot();
 assert.ok(!nodes.body.textContent.includes('1.【整句翻译】'), 'Answers must initially be hidden');
 assert.equal(run().queue.length, 8);
-assert.deepEqual([0,1,2,3].map(i => run().queue.filter(q => q.a === i).length), [2,2,2,2]);
+run().queue.forEach((q, i) => {
+  assert.deepEqual([...q.o].sort(), [...data.questions[i].o].sort());
+  assert.equal(q.o[q.a], data.questions[i].o[data.questions[i].a]);
+});
 clock += 20000; pageEvents.pagehide();
 const checkpointTime = run().timing.ms;
 assert.ok(checkpointTime >= 20000);
@@ -582,4 +585,54 @@ assert.ok(choiceNodes().every(button => button.disabled));
 assert.ok(nodes.body.textContent.includes('暂不可作答'));
 apiTimers = null; presentationFetchOverride = null;
 
-console.log('UI tests passed: prior submission/storage/timing checks; explicit word/phrase/clause underlines, Unicode occurrences, text-only HTML safety, refresh, cached B/D choices, scoped quality notices, unavailable/stale/ambiguous marks, async history isolation and metadata deadlines.');
+// Reading is presented before the question. The mechanism belongs only in the
+// post-answer explanation, and refresh keeps the actual material and first pick.
+const readingQuestion = question('reading-style-visible', 'reading-style');
+Object.assign(readingQuestion, {format: 'english1_reading', target: 'hidden diagnostic mechanism',
+  passage: 'A complete paragraph comes first. <em>This remains literal text.</em>\n\nA second paragraph develops its argument.',
+  q: 'The author suggests that'});
+markerFixture([readingQuestion, ...dailyQuestionsForAuto.slice(1)]); boot();
+await settlePresentation();
+let readingBody = nodes.body.textContent;
+assert.ok(readingBody.indexOf(readingQuestion.passage) < readingBody.indexOf(readingQuestion.q));
+assert.ok(readingBody.includes('<em>This remains literal text.</em>'));
+assert.equal(descendants(nodes.body).filter(n => n.tag === 'em').length, 0);
+assert.ok(!readingBody.includes(readingQuestion.target));
+const readingState = JSON.parse(storage[markerStorageKey]);
+choiceNodes()[0].click();
+assert.ok(nodes.body.textContent.includes(readingQuestion.target));
+assert.ok(nodes.body.textContent.includes('短文大意') && nodes.body.textContent.includes('答案依据'));
+const firstReadingResult = JSON.parse(storage[markerStorageKey]);
+boot(); await settlePresentation();
+const refreshedReading = JSON.parse(storage[markerStorageKey]);
+assert.deepEqual(refreshedReading.runs[0].queue, readingState.runs[0].queue);
+assert.deepEqual(refreshedReading.runs[0].answers, firstReadingResult.runs[0].answers);
+
+// A design issue must not acquire a fabricated missing-underline explanation.
+const affectedSource = JSON.parse(fs.readFileSync('data/days/2026-11-17.json', 'utf8'));
+const affectedQuestion = affectedSource.questions.find(q => q.id === 'r18t2-role-route-evidence');
+markerFixture([affectedQuestion]);
+data.date = '2026-11-17'; simulatedDay = data.date;
+presentationFetchOverride = async () => ({ok: true, json: async () => structuredClone(markerMetadata)});
+boot(); await settlePresentation();
+assert.ok(nodes.qualityNotice.textContent.includes('题目质量影响'));
+assert.ok(nodes.body.textContent.includes('原版把假想读者'));
+assert.ok(!nodes.body.textContent.includes('此划线是维护时补充'));
+assert.equal(underlines().length, 0);
+
+// A fixed per-sheet answer quota reveals the last key after seven explanations.
+// Force the same independent permutation for each item: it must be permitted
+// to put every key in the same slot, while all option/key mappings remain valid.
+const realRandom = Math.random;
+try {
+  Math.random = () => 0;
+  const independentQuestions = Array.from({length:8}, (_,i) => question('independent-' + i, 'independent-' + i));
+  markerFixture(independentQuestions); boot(); await settlePresentation();
+  const independentRun = JSON.parse(storage[markerStorageKey]).runs[0];
+  assert.equal(new Set(independentRun.queue.map(q=>q.a)).size, 1);
+  independentRun.queue.forEach((q,i)=>assert.equal(q.o[q.a],independentQuestions[i].o[independentQuestions[i].a]));
+} finally {
+  Math.random = realRandom;
+}
+
+console.log('UI tests passed: prior submission/storage/timing and underline checks; reading material before stems, hidden pre-answer targets, text-only passage rendering, refresh and scoped design-quality notices.');

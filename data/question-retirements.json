@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-17",
+  "policy": "Only future selection and retries use retirement. Keep original source questions and every published snapshot. Only separately listed quality exclusions change mastery evidence.",
+  "questions": {
+    "author-stance-recall-a": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "title-coverage-library-a": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "title-coverage-kitchen-evolution": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "title-coverage-local-energy-choices": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "author-stance-volunteer-coordination": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "attribution-fish-survey-a": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "attribution-closing-budget-b": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "inference-boundary-architect-layout-a": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "inference-boundary-archive-questions-b": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "title-coverage-public-alerts-a": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "title-coverage-school-meals-b": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "inference-boundary-tenant-supporters-a": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "inference-boundary-survey-shift-b": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "belief-negation-online-bookings-a": {
+      "family": "belief-negation-clause",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-bus-information",
+        "e1r-writing-feedback"
+      ]
+    },
+    "belief-negation-software-update-b": {
+      "family": "belief-negation-clause",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-bus-information",
+        "e1r-writing-feedback"
+      ]
+    },
+    "stance-reading-room-cost-report": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "inference-troupe-travel-payments": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "inference-director-hierarchical-profile": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "inference-musician-slots-revision": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "title-coverage-depot-cycle-parking": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "title-coverage-bookshop-pooled-delivery": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "attribution-race-panel-account": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "attribution-garden-responsibility": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "inference-pending-auditions": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "inference-seed-label-inspections": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "cloze-hiring-likely-candidate-b": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "cloze-clinic-likely-site-c": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "text1-title-academic-merit-g": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "text1-title-library-success-h": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "text2-speakers-council-planning": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "text2-speakers-transit-tax": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "text2-author-stance-hospital-building": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text2-author-stance-grid-expansion": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text2-author-stance-rail-landuse": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text3-curator-forecast-skepticism": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text3-translator-absolute-claim": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text3-sensor-evidence-uncertainty": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text4-inference-model-parameter": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "text4-inference-habitat-sample": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "text4-inference-short-trial": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "text4-inference-answer-letter-bias": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "text4-stance-geothermal-safety": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text4-stance-festival-permits": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text4-stance-forest-burns-attribution": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text4-stance-language-tests": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "text4-title-heat-cooling-strategy": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "text4-title-recommendation-choice": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "text4-title-food-waste-measurement": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "text4-title-volunteer-retention": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "pb16-title-park-volunteers": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "t17-title-urban-birds": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "t17-title-repair-network": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "t17-title-crop-diversity": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "t17-title-music-counts": {
+      "family": "title-coverage",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-digital-library",
+        "e1r-empty-shops"
+      ]
+    },
+    "t17-reason-label-gap": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "t17-reason-mechanism-focus": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "t17t2-cause-cellar": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "t17t2-cause-rain-garden": {
+      "family": "inference-boundary",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-evening-buses",
+        "e1r-workweek-trial"
+      ]
+    },
+    "t17t2-stance-library": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "t17t2-stance-workshop": {
+      "family": "author-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-flood-park",
+        "e1r-tutoring-forecast"
+      ]
+    },
+    "r18t2-role-bridge-kit": {
+      "family": "semantic-action-roles",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-repair-records",
+        "e1r-school-walking"
+      ]
+    },
+    "r18t2-role-rehearsal-grid": {
+      "family": "semantic-action-roles",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-repair-records",
+        "e1r-school-walking"
+      ]
+    },
+    "r18t2-role-route-evidence": {
+      "family": "semantic-action-roles",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-repair-records",
+        "e1r-school-walking"
+      ]
+    },
+    "r18t2-role-justified-revision": {
+      "family": "semantic-action-roles",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-repair-records",
+        "e1r-school-walking"
+      ]
+    },
+    "r18t2-boost-confidence": {
+      "family": "boast-boost-distinction",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-skills-grant",
+        "e1r-careers-centre",
+        "e1r-volunteer-toast"
+      ]
+    },
+    "r18t2-boast-possession": {
+      "family": "boast-boost-distinction",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-skills-grant",
+        "e1r-careers-centre",
+        "e1r-volunteer-toast"
+      ]
+    },
+    "r18t2-associated-toast": {
+      "family": "boast-boost-distinction",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-skills-grant",
+        "e1r-careers-centre",
+        "e1r-volunteer-toast"
+      ]
+    },
+    "r18t2-beefup-sharpen": {
+      "family": "boast-boost-distinction",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-skills-grant",
+        "e1r-careers-centre",
+        "e1r-volunteer-toast"
+      ]
+    },
+    "r18t3-effort-theatre": {
+      "family": "costs-effort-intensity",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-historic-library",
+        "e1r-flood-planning"
+      ]
+    },
+    "r18t3-costs-competition": {
+      "family": "costs-effort-intensity",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-historic-library",
+        "e1r-flood-planning"
+      ]
+    },
+    "r18t3-under-no-circumstances": {
+      "family": "costs-effort-intensity",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-historic-library",
+        "e1r-flood-planning"
+      ]
+    },
+    "r18t3-high-cost-boundary": {
+      "family": "costs-effort-intensity",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-historic-library",
+        "e1r-flood-planning"
+      ]
+    },
+    "r18t3-stance-costumes": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "r18t3-stance-awards": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "r18t3-stance-recording": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    },
+    "r18t3-stance-delivery": {
+      "family": "attribution-stance",
+      "retired_on": "2026-11-17",
+      "reason": "Superseded by coherent English-I-style passages; style retirement does not revoke valid historical results.",
+      "replacement_ids": [
+        "e1r-housing-permission",
+        "e1r-archive-labour"
+      ]
+    }
+  }
+}

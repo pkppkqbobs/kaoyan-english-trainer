@@ -489,6 +489,8 @@ def make_report(root=ROOT):
                     'unverified_complete_rounds': unknown, 'review_state_status': 'verified' if valid else 'unverified'},
             'recent_paper': recent,
             'presentation_quality': [{'qid': qid, 'family': entry['family'],
+                                      **({'kind': entry['kind'], 'invalid_reason': entry['invalid_reason']}
+                                         if entry.get('kind') == 'question_design' else {}),
                                       'invalid_rounds': entry.get('invalid_rounds', []),
                                       'original_marking_status': entry.get('original_marking_status'),
                                       'editorial_target_basis': entry.get('editorial_target_basis'),
@@ -537,7 +539,11 @@ def markdown(report):
         lines.extend(['', '## 题目呈现质量', ''])
         for entry in report['presentation_quality']:
             dates = '、'.join(sorted({scope['date'] for scope in entry['invalid_rounds']}))
+            if entry.get('kind') == 'question_design':
+                lines.append(f"- {safe(entry['qid'])}（{dates}）：原版设问范围不明确，混入假想改选过程；原始作答、判分与快照保留，该题不计能力错误或掌握证据。后续使用独立的新材料题，不覆盖原版。")
+                continue
             lines.append(f"- {safe(entry['qid'])}（{dates}）：原版缺少划线范围，现以独立呈现数据补充明确标记；原始作答与快照保留，受影响条目不计复习统计。补出的范围不代表原始标记已确认。")
+    lines.append('命题与改写遵守[英语一命题规范](QUESTION_WRITING.md)：先呈现完整短文与正常设问，考点及错因仅在作答后解释。旧题退役只影响后续选题，不撤销有效历史成绩。')
     lines.extend(['', '## 最近纸质学习阶段', ''])
     for stage in report['recent_paper']:
         details = []

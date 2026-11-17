@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-08",
-  "scope": "Presentation-only corrections for exact historical prompts; never change choices, keys, reports, localStorage, or published snapshots.",
+  "reviewed_on": "2026-11-17",
+  "scope": "Read-only quality notices and explicit marking corrections for exact historical prompts; never rewrite options, keys, reports, localStorage or published snapshots.",
   "questions": {
     "cloze-whatever-documents-registrar-p": {
       "family": "nested",
@@ -26,6 +26,22 @@
           "module": "article",
           "date": "2026-11-02",
           "storageId": "2026-11-02-2016-text1"
+        }
+      ]
+    },
+    "r18t2-role-route-evidence": {
+      "kind": "question_design",
+      "family": "semantic-action-roles",
+      "prompt": "An orienteering club gives walkers a \"route card\" on which they mark completed checkpoints. At meetings, members exchange views about route difficulty. A reader first selects \"recording progress\", then prefers \"exchanging views on route cards\" for its repeated words. Which detail should control the choice?",
+      "prompt_marks": [],
+      "original_marking_status": "This is an unclear-question design, not a missing underline.",
+      "editorial_target_basis": "User screenshot and published 2026-11-17 snapshot; no wording, option or answer overlay.",
+      "invalid_reason": "原版把假想读者的改选过程混入材料，却未明确说明正在回答的具体问题；选项同时混用内容事实、做题过程和词面特征。该作答不能可靠检验文章阅读能力。保留原始选择、页面判分、Issue和快照；仅该受影响题不计复习统计，不能据此新增用户错因。",
+      "invalid_rounds": [
+        {
+          "module": "daily",
+          "date": "2026-11-17",
+          "storageId": "2026-11-17"
         }
       ]
     }

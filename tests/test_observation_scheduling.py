@@ -134,7 +134,13 @@ class ObservationSchedulingTests(unittest.TestCase):
         # Freeze the Nov 7 evidence; later legitimate uploads must not change
         # this counterexample or require hypothetical future answers to pass.
         cutoff = '2026-11-07'
-        items = [q for q in review.bank(ROOT) if review.available(q, cutoff)]
+        items = [copy.deepcopy(q) for q in review.bank(ROOT) if review.available(q, cutoff)]
+        # Freeze later selection-policy metadata too: this replay deliberately
+        # excludes future replacement questions, so it must not apply future
+        # retirements to its otherwise-frozen Nov 7 catalogue.
+        for q in items:
+            if q.get('retired_on', cutoff) > cutoff:
+                q.pop('retired_on')
         rows = [r for r in review.load(ROOT / 'data/result-evidence.json')['rows']
                 if r['origin'] <= 41 and r['date'] <= cutoff]
         notes = [n for n in review.load(ROOT / 'data/learning-notes.json')

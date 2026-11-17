@@ -25,14 +25,22 @@
       "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/51",
       "round_id": "mwkhuysc-bclucgjq",
       "correct": 6,
-      "total": 8,
-      "uncertain": 2,
+      "total": 7,
+      "uncertain": 1,
       "answer_dates": [
         "2026-11-17"
       ],
       "answer_date_status": "verified",
       "source": "data/days/2026-11-17.json",
-      "evidence_source": "data/result-evidence.json"
+      "evidence_source": "data/result-evidence.json",
+      "quality_status": "verified_with_exclusions",
+      "raw_correct": 6,
+      "raw_total": 8,
+      "excluded_count": 1,
+      "excluded_qids": [
+        "r18t2-role-route-evidence"
+      ],
+      "excluded_evidence_source": "data/excluded-evidence.json"
     },
     "latest_article": {
       "status": "verified",
@@ -53,7 +61,7 @@
     },
     "available_article": {
       "date": "2026-11-17",
-      "storageId": "2026-11-16-2018-text3",
+      "storageId": "2026-11-17-reading-style",
       "learning_date": "2026-11-16"
     },
     "unverified_complete_rounds": [
@@ -661,6 +669,22 @@
       "original_marking_status": "No range or markup was stored in the original source or immutable publications.",
       "editorial_target_basis": "Target added by maintenance from the source explanation and answer content, not recovered from an original underline.",
       "source": "data/question-presentations.json"
+    },
+    {
+      "qid": "r18t2-role-route-evidence",
+      "family": "semantic-action-roles",
+      "kind": "question_design",
+      "invalid_reason": "原版把假想读者的改选过程混入材料，却未明确说明正在回答的具体问题；选项同时混用内容事实、做题过程和词面特征。该作答不能可靠检验文章阅读能力。保留原始选择、页面判分、Issue和快照；仅该受影响题不计复习统计，不能据此新增用户错因。",
+      "invalid_rounds": [
+        {
+          "module": "daily",
+          "date": "2026-11-17",
+          "storageId": "2026-11-17"
+        }
+      ],
+      "original_marking_status": "This is an unclear-question design, not a missing underline.",
+      "editorial_target_basis": "User screenshot and published 2026-11-17 snapshot; no wording, option or answer overlay.",
+      "source": "data/question-presentations.json"
     }
   ],
   "article_review_coverage": {
@@ -763,7 +787,7 @@
       "families": [
         {
           "family": "costs-effort-intensity",
-          "label": "at a high cost与regardless of consequences分开",
+          "label": "spare no effort强调尽力，不自动等于接受任何后果",
           "focus": "最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-16",
@@ -781,7 +805,7 @@
         },
         {
           "family": "boast-boost-distinction",
-          "label": "beef up / sharpen skills搭配",
+          "label": "通过raise a glass与致谢语境辨析toast、roast及boost",
           "focus": "知道这里需要增强，但把boast当作增加，混淆了boost；不是完全不认识beef up。只讨论C，最终选择未确认。",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-11-15",
@@ -805,11 +829,11 @@
       "families": [
         {
           "family": "semantic-action-roles",
-          "label": "正确改选也要有正确理由",
+          "label": "区分搜集证据、交换意见与替代专业工作",
           "focus": "初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-15",
-          "web_errors": 1,
+          "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
           "due": "2026-11-17",
@@ -847,7 +871,7 @@
       "families": [
         {
           "family": "attribution-stance",
-          "label": "作者补充条件与被引者单一指标",
+          "label": "区分提供资源与通过整理分析创造用途，保留作者的论点",
           "focus": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-11-16",
@@ -865,7 +889,7 @@
         },
         {
           "family": "author-stance",
-          "label": "quoted positions / writer's proposal",
+          "label": "从证据不足和评价措辞判断怀疑，而非仅凭情绪强弱猜态度",
           "focus": "用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。",
           "paper_kind": "correct_but_uncertain",
           "latest_observation": "2026-11-04",
@@ -889,7 +913,7 @@
       "families": [
         {
           "family": "inference-boundary",
-          "label": "favourable condition / protective surroundings",
+          "label": "局部结果可以支持谨慎推进，不能替代普遍适用性的证据",
           "focus": "用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终…",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-11-09",
@@ -907,7 +931,7 @@
         },
         {
           "family": "title-coverage",
-          "label": "topic relevance / central argument",
+          "label": "从整篇主线概括复兴途径，而非选择背景细节作标题",
           "focus": "参考解析对B/C的标题文字存在分歧；最终选B已确认，暂不作确定错题。用户整体理解较顺畅，能识别D只覆盖PreCheck通道细节、范围过窄；认为文章同时谈PreCheck和安全排队，…",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-11-08",
@@ -1028,7 +1052,7 @@
     "article-review-2026-11-14-2018-text1.html": "55497bef45e9b9feaaa009f229e2dd38aa5addc98757d5bbe4e6d25e9ff9fe78",
     "article-review-2026-11-15-2018-text2.html": "08b7d227aa29ec4d4474be8b06c228eea20b1fee28bb2a232de170718d1f9d51",
     "article-review-2026-11-16-2018-text3.html": "0eb80966b59a9c0c65608b453e2c72bb778ff33d1d2a17d547b9a69b0a87b238",
-    "data/article-review.json": "39371813e1c712299a8b676dc229124306a3b73339f30f6683261fedd8bc8f84",
+    "data/article-review.json": "e239427c4e57ea5dc5ee31630f65c82c030b4add536ac639b4ca2a68c9b9162c",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1075,6 +1099,7 @@
     "data/article-reviews/2026-11-14-2018-text1.json": "55e61704e1e8b72ab1141ffd83d4ab22351dafc7c01c10896337b0f1f6c95184",
     "data/article-reviews/2026-11-15-2018-text2.json": "3f05544bbfc97fa6b113c42e7ab89a350ab3913b6e8e81d4db7dfbaf7f973f51",
     "data/article-reviews/2026-11-16-2018-text3.json": "39371813e1c712299a8b676dc229124306a3b73339f30f6683261fedd8bc8f84",
+    "data/article-reviews/2026-11-17-reading-style.json": "e239427c4e57ea5dc5ee31630f65c82c030b4add536ac639b4ca2a68c9b9162c",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1116,6 +1141,7 @@
     "data/article-sessions/2026-11-14-2018-text1.json": "f2dc779cef644d1ba5745f74c4e616a5c6668c9c52a0d90a8e1ac87c40b5dfc6",
     "data/article-sessions/2026-11-15-2018-text2.json": "8151fb8d68e40118a416ab873d42ad21f956bbafb850b8908b4df4df3c21543c",
     "data/article-sessions/2026-11-16-2018-text3.json": "33f6077df20e4e16fbc9daaa4d45ad3a766f2bf0c78af3da993938bb585db0b8",
+    "data/article-sessions/2026-11-17-reading-style.json": "06d0e8cd4b185ae3adbc4369a8b315c0e4274ed909de946a84f76835205866ec",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "e1521d9f93e818e747cc1eae7f6348905f3e91ce95452ec7dc3fec9ce26bb3e4",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1168,11 +1194,11 @@
     "data/days/2026-11-15.json": "6d0b6daf464dd5acb900d3a43004b36791c00f25f8f2050a90baf3b4102982b6",
     "data/days/2026-11-16.json": "5334312ca1af680f78fed335f857d394f0c67528092c5ed21f1b73aed586837c",
     "data/days/2026-11-17.json": "e1521d9f93e818e747cc1eae7f6348905f3e91ce95452ec7dc3fec9ce26bb3e4",
-    "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
+    "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "f83615978281b9bebdde41f17a279a2b9a452b00e90aaba776cb04ba4a2904e9",
-    "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
-    "data/question-contexts.json": "5184688bf07f4f69be151b093a74e7df098b5a54b9b15bd5f1a31530253168d4",
-    "data/question-presentations.json": "373c7da16aab2a5271c7ef939ebb98fc6f1880a2c5dce598aca9d6b1e72dc613",
+    "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
+    "data/question-contexts.json": "2cd780e030989cf448ccf99697c367a5452b8453fdd384896e900efa11bf30a8",
+    "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
     "data/questions/2026-09-30-passage-review.json": "14f04121e63d903648054ffae4619d8500b69566127beceb146fcc5a3485fcfd",
@@ -1216,9 +1242,10 @@
     "data/questions/2026-11-14-2018-text1-migration.json": "a5de87a586f3f350c8bd9341f01632869f5fe52faa8091308d29a64d6094d8d4",
     "data/questions/2026-11-15-2018-text2-migration.json": "dcbe9435f6e475199c60444287c8ea7271e5855395a29e14a904d8d8d91d638c",
     "data/questions/2026-11-16-2018-text3-migration.json": "989fd03ec323656e3dc2f3ddbd10adae36aa1c6c45c0e9bc0b5cd1d0a0bb9b09",
+    "data/questions/2026-11-17-english1-reading.json": "984224ae3ffa9c58b6dec682c5558dd4d998e870dce61ef7c9d6560355f8a8d7",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "335f8b7523e9e1002101a793979a1f9faf1ec6dbbefc70e42505f95361f667ca",
-    "data/review-state.json": "cdfb1eb8fde45d43ee67d4a4c5d39e6f65a7aac0a74cf9f1039628aafd932790",
+    "data/result-evidence.json": "3c28b0c648bbf2524fee89584a028837d72683e60e4facf145bd205c93d2caca",
+    "data/review-state.json": "7733d3f40a3055b5f9c62497f1fefff1bc7ceaa3f1b4f57097d9412c11fe50d2",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1227,7 +1254,7 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "37558db66dff88e4bda93c38d60019fac9adf17221844764232ee515e68f829a"
   },
-  "source_fingerprint": "721b27962f3d9ed01104947174b869fb6bb392453f039a8a8b05a9c1b4fbce02",
+  "source_fingerprint": "c283bdc1833734827019b8d7a427e3c1f28684462e326d0dbae876aa7104199e",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

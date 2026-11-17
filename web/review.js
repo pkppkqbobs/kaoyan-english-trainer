@@ -271,13 +271,9 @@
     }
     return out;
   };
-  function permuteQuestion(question, answerSlot) {
+  function permuteQuestion(question) {
     const q = copy(question);
-    let permutation = shuffle([0, 1, 2, 3]);
-    if (answerSlot !== undefined) {
-      const old = permutation.indexOf(q.a);
-      [permutation[answerSlot], permutation[old]] = [permutation[old], permutation[answerSlot]];
-    }
+    const permutation = shuffle([0, 1, 2, 3]);
     const remapLetters = text => remapOptionLabels(text, permutation.map(i => LETTERS[i]));
     q.o = permutation.map(i => question.o[i]);
     q.a = permutation.indexOf(question.a);
@@ -296,7 +292,7 @@
   }
   function sourceFor(q) {
     const source = sources.get(q.id);
-    return source && source.q === q.q && q.o.length === 4 && q.o.every(x => source.o.includes(x)) ? source : null;
+    return source && source.q === q.q && source.passage === q.passage && q.o.length === 4 && q.o.every(x => source.o.includes(x)) ? source : null;
   }
   function displayQuestion(question) {
     const source = sourceFor(question);
@@ -329,6 +325,7 @@
           a.pick >= 0 && a.pick < 4 && Number.isInteger(a.expected) && a.expected >= 0 && a.expected < 4 &&
           a.expected===r.queue[i].a && a.ok===(a.pick===a.expected) && Number.isFinite(a.ms) && a.ms >= 0) &&
         r.queue.every(q => q && typeof q.id === 'string' && typeof q.family === 'string' && typeof q.q === 'string' &&
+          (q.passage === undefined || typeof q.passage === 'string') &&
           Array.isArray(q.o) && q.o.length === 4 && q.o.every(x=>typeof x==='string') &&
           Number.isInteger(q.a) && q.a >= 0 && q.a < 4 &&
           q.exp && ['trans','structure','other','meaning','rest'].every(k=>typeof q.exp[k]==='string')));
@@ -357,8 +354,10 @@
     return run.parentId ? state.runs.find(x => x.id === run.parentId) : run;
   }
   function createRun(kind, questions, parentId) {
-    const slots = shuffle(questions.map((_, i) => i % 4));
-    const queue = questions.map((q, i) => permuteQuestion(q, slots[i]));
+    // Independent permutations avoid a public 2/2/2/2 quota that would reveal
+    // the last answer after the earlier seven explanations. Cached runs keep
+    // their original saved order; only a newly created run is shuffled.
+    const queue = questions.map(q => permuteQuestion(q));
     const run = {id: Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10), date: state.date,
       kind, parentId, queue, answers: [], index: 0, createdAt: new Date().toISOString()};
     state.runs.push(run);
@@ -411,7 +410,7 @@
     const node = byId('qualityNotice');
     if (!node) return;
     const count = rootRun().queue.filter(q => invalidPresentation(q)).length;
-    node.textContent = count ? '本轮有' + count + '题的原版存在呈现缺陷。原始选择与判分保留；这些题不计正式复习统计，也不作为能力错误或掌握证据。' : '';
+    node.textContent = count ? '本轮有' + count + '题受题目质量影响（含呈现缺陷）。原始选择与判分保留；这些题不计正式复习统计，也不作为能力错误或掌握证据。' : '';
     if (count) node.classList.remove('hidden');
     else node.classList.add('hidden');
   }
@@ -437,7 +436,7 @@
     }
     const invalid = invalidPresentation(view.q);
     view.status.textContent = !view.valid ? (presentations ? '题目未提供可核验的划线范围，暂不可作答；请刷新或反馈此题。' : '正在读取题干标记，标记显示后才可作答。') :
-      invalid ? '此划线是维护时补充的明确范围，原版未显示目标。' + invalid.invalid_reason : '';
+      invalid ? (invalid.kind === 'question_design' ? '' : '此划线是维护时补充的明确范围，原版未显示目标。') + invalid.invalid_reason : '';
     if (view.status.textContent) view.status.classList.remove('hidden');
     else view.status.classList.add('hidden');
     for (const control of view.controls) control.disabled = view.answered || !view.valid;
@@ -469,6 +468,7 @@
     })();
   }
   function questionPrompt(parent, q, answered) {
+    if (q.passage) paragraph(parent, q.passage, 'sentence reading-passage');
     const view = {q, answered, controls: [], node: paragraph(parent, '', 'sentence'),
       status: paragraph(parent, '', 'notice hidden'), valid: false};
     promptViews.add(view); paintPrompt(view);
@@ -477,7 +477,9 @@
   }
   function explanation(parent, q) {
     const box = document.createElement('section'); box.className = 'explanation';
-    const fields = [['trans', '1.【整句翻译】'], ['structure', '2.【句子主干】'], ['other', '3.【其他词汇】'], ['meaning', '4.【本题词义】'], ['rest', '5.【其余选项】']];
+    const fields = q.format === 'english1_reading'
+      ? [['trans', '1.【短文大意】'], ['structure', '2.【行文逻辑】'], ['other', '3.【词句提示】'], ['meaning', '4.【答案依据】'], ['rest', '5.【干扰项分析】']]
+      : [['trans', '1.【整句翻译】'], ['structure', '2.【句子主干】'], ['other', '3.【其他词汇】'], ['meaning', '4.【本题词义】'], ['rest', '5.【其余选项】']];
     fields.forEach(([key, title]) => {
       const h = document.createElement('h3'); h.textContent = title; box.appendChild(h);
       paragraph(box, q.exp[key]);
@@ -511,7 +513,7 @@
     if (!DATA.ignoreStale && DATA.date < today()) notice('服务器当前题单日期为 ' + DATA.date + '。若今日任务尚未发布，可先保留进度，稍后刷新；不要清空本地记录。');
     if (storageError) notice(storageError);
     updateQualityNotice();
-    if (rootRun().queue.some(q => underlineReference.test(q.q) && !q.prompt_marks)) loadPresentations();
+    loadPresentations();
   }
   function render() {
     shell();
@@ -521,7 +523,6 @@
     const record = run.answers[run.index];
     if (record) { questionVisible = false; active = false; }
     const body = byId('body');
-    paragraph(body, '【本题目标：' + q.target + '】', 'target');
     paragraph(body, (run.kind === 'retry' ? '错题重做' : '主测') + ' · ' + (run.index + 1) + ' / ' + run.queue.length, 'muted');
     if (q.retryOriginal) paragraph(body, q.retryNotice || '此目标暂时没有另一道新语境题，当前重做原题；首次错误仍保留。', 'notice');
     const prompt = questionPrompt(body, q, !!record);
@@ -539,6 +540,7 @@
     });
     body.appendChild(choices);
     if (!record) { resetClock(); return; }
+    paragraph(body, '【本题考点：' + q.target + '】', 'target');
     paragraph(body, record.ok ? '回答正确。' : '本题选了 ' + LETTERS[record.pick] + '，正确答案为 ' + LETTERS[q.a] + '。' + (q.diag?.[record.pick] || ''), record.ok ? 'good' : 'bad');
     paragraph(body, '有效答题时间 ' + (record.ms / 1000).toFixed(1) + ' 秒。用时只是辅助信号，不直接等于不会。', 'muted');
     const actions = document.createElement('div'); actions.className = 'actions';

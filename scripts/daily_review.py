@@ -112,6 +112,11 @@ def validate(q):
     assert all(isinstance(x, str) and x for x in q["o"]), q["id"]
     assert type(q["a"]) is int and 0 <= q["a"] < 4, q["id"]
     assert all(isinstance(q["exp"].get(k), str) and q["exp"][k].strip() for k in EXP_KEYS), q["id"]
+    if q.get("format") == "english1_reading":
+        assert isinstance(q.get("passage"), str) and len(q["passage"].split()) >= 70, "Reading material is missing or too short"
+        assert len(q["q"].split()) <= 40 and not re.search(r"[\u4e00-\u9fff]", q["q"]), "Reading stem must be a concise English question"
+        assert isinstance(q.get("answer_support"), str) and q["answer_support"] in q["passage"], "Answer needs a locatable passage basis"
+        assert type(q.get("reading_budget")) is int and 60 <= q["reading_budget"] <= 600, "Reading time allowance must be explicit"
     # Keep legacy immutable snapshots readable. The source bank below requires
     # every underlined reference to carry its own explicit target.
     prompt_mark_ranges(q, required=False)
@@ -162,10 +167,11 @@ def bank(root):
     for q in items:
         validate(q)
         prompt_mark_ranges(q)
-        if q["id"] in ids or q["q"] in stems:
+        stem = (q.get("passage"), q["q"])
+        if q["id"] in ids or stem in stems:
             raise ValueError("Duplicate question id or exact stem: " + q["id"])
         ids.add(q["id"])
-        stems.add(q["q"])
+        stems.add(stem)
     if len({q["family"] for q in items}) < 8:
         raise ValueError("At least eight target families are required")
     validate_presentations(root)
@@ -174,12 +180,19 @@ def bank(root):
     for q in items:
         if q["id"] in contexts:
             q["context_id"] = contexts[q["id"]]
+    retirements = load(root / "data/question-retirements.json", {}).get("questions", {})
+    by_id = {q["id"]: q for q in items}
+    for qid, entry in retirements.items():
+        assert qid in by_id and entry["family"] == by_id[qid]["family"], "Retirement must identify an existing question"
+        date.fromisoformat(entry["retired_on"])
+        by_id[qid]["retired_on"] = entry["retired_on"]
     return items
 
 
 def available(q, day):
     stamp = day.isoformat() if isinstance(day, date) else day
-    return all(not q.get(field) or q[field] <= stamp for field in ("introduced", "published_on"))
+    return (all(not q.get(field) or q[field] <= stamp for field in ("introduced", "published_on"))
+            and (not q.get("retired_on") or stamp < q["retired_on"]))
 
 
 def variant_history(root, day, daily=None):
@@ -411,6 +424,8 @@ def parse_issue(issue, root=ROOT):
             if verified:
                 parsed["round_id"] = obj["roundId"]
                 parsed["source_date"] = obj["date"]
+                if q.get("format") == "english1_reading":
+                    parsed["slow_threshold_ms"] = q["reading_budget"] * 1000
                 if unknown_day:
                     # Submission is a known date; the original answer day is not.
                     # This can inform review, but never adds a mastery day.
