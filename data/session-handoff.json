@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "source_dates": {
-    "review_state": "2026-11-16",
-    "daily_quiz": "2026-11-16",
-    "latest_observation": "2026-11-15"
+    "review_state": "2026-11-17",
+    "daily_quiz": "2026-11-17",
+    "latest_observation": "2026-11-16"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -14,9 +14,9 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-11-16",
-    "current_daily_issue": 50,
-    "current_daily_status": "verified",
+    "current_daily_date": "2026-11-17",
+    "current_daily_issue": null,
+    "current_daily_status": "unverified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-15",
-      "storageId": "2026-11-15-2018-text2",
-      "learning_date": "2026-11-15"
+      "date": "2026-11-17",
+      "storageId": "2026-11-16-2018-text3",
+      "learning_date": "2026-11-16"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,134 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-16",
+      "exam": "2018-english1",
+      "part": "Text 3",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "costs-effort-intensity",
+          "question": 33,
+          "related_questions": [],
+          "updated_on": "2026-11-16",
+          "final_choice": "A",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "A",
+            "D"
+          ],
+          "eliminated_choices": [
+            "B",
+            "C"
+          ],
+          "reference_answer": "D",
+          "reference_status": "source_checked",
+          "summary": "最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-16",
+            "family": "costs-effort-intensity",
+            "question": 33,
+            "note_fingerprint": "e34be8624f4da30f"
+          },
+          "training_priority": 1,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "attribution-stance",
+          "question": null,
+          "related_questions": [
+            33
+          ],
+          "updated_on": "2026-11-16",
+          "final_choice": "A",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-16",
+            "family": "attribution-stance",
+            "question": null,
+            "note_fingerprint": "5b75fffd652378e0"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [],
+      "translation_note_count": 6,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-16",
+        "family": "control-process-roles",
+        "question": null,
+        "note_fingerprint": "cfa179ad255de95c"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-16-2018-text3.json"
+      ],
+      "active_translation_spans": [
+        "at all costs"
+      ],
+      "unresolved_marking_translation_spans": [
+        "controlled",
+        "handed over",
+        "maladapted",
+        "only when",
+        "tech giant"
+      ],
+      "reported_paper_outcome": {
+        "evidence_status": "user_reported_paper_outcome",
+        "question_range": [
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "reported_correct_count": 4,
+        "reported_total": 5,
+        "reported_all_correct": false,
+        "reported_question_correctness": {
+          "31": true,
+          "32": true,
+          "33": false,
+          "34": true,
+          "35": true
+        },
+        "reported_final_choice_letters": {
+          "33": "A"
+        },
+        "final_choice_letters_not_provided": [
+          31,
+          32,
+          34,
+          35
+        ],
+        "first_choices": "unknown",
+        "revisions": "not_reported",
+        "not_a_web_score": true
+      },
+      "performance_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-16",
+        "family": "costs-effort-intensity",
+        "question": 33,
+        "note_fingerprint": "e34be8624f4da30f"
+      }
+    },
     {
       "date": "2026-11-15",
       "exam": "2018-english1",
@@ -512,110 +640,6 @@
         "question": null,
         "note_fingerprint": "ecbae9f8288b5dbc"
       }
-    },
-    {
-      "date": "2026-11-09",
-      "exam": "2017-english1",
-      "part": "Text 2",
-      "items": [
-        {
-          "kind": "user_reported_confusion",
-          "family": "historical-reminder-evidence",
-          "question": 28,
-          "related_questions": [],
-          "updated_on": "2026-11-09",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "B",
-          "reference_status": "source_checked",
-          "summary": "用户没有找到特别合适的选项，倾向A，但未确认答题卡最终选择；不能登记为已经选A的真实错题。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-09",
-            "family": "historical-reminder-evidence",
-            "question": 28,
-            "note_fingerprint": "1c98cead737d072f"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "inference-boundary",
-          "question": 27,
-          "related_questions": [],
-          "updated_on": "2026-11-09",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终…",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-09",
-            "family": "inference-boundary",
-            "question": 27,
-            "note_fingerprint": "36ee183b046e2ee7"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "astronomy-word-family",
-          "question": null,
-          "related_questions": [],
-          "updated_on": "2026-11-09",
-          "final_choice": null,
-          "final_choice_status": "not_applicable",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "用户明确将学科名astronomy回忆为宇航员；这是主动确认的词义记忆混淆，独立于两处画框保存。",
-          "followup": null,
-          "spans": [
-            "astronomy"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-09",
-            "family": "astronomy-word-family",
-            "question": null,
-            "note_fingerprint": "5f341de03fe0bcce"
-          },
-          "training_priority": 3,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "Polynesians",
-        "astronomers",
-        "astronomy",
-        "dormant"
-      ],
-      "translation_note_count": 4,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-09",
-        "family": "astronomy-word-family",
-        "question": null,
-        "note_fingerprint": "d2e973ef825ff152"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-09-2017-text2.json"
-      ]
     }
   ],
   "presentation_quality": [
@@ -642,6 +666,17 @@
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-16-2018-text3",
+        "learning_date": "2026-11-16",
+        "updated_on": "2026-11-16",
+        "exam": "2018-english1",
+        "part": "Reading Text 3",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-16-2018-text3.json",
+        "round_file": "data/article-reviews/2026-11-16-2018-text3.json",
+        "publication_date": "2026-11-17"
+      },
       {
         "session_id": "2026-11-15-2018-text2",
         "learning_date": "2026-11-15",
@@ -718,21 +753,52 @@
         "session_file": "data/article-sessions/2026-11-07-2017-cloze.json",
         "round_file": "data/article-reviews/2026-11-07-2017-cloze.json",
         "publication_date": "2026-11-07"
-      },
-      {
-        "session_id": "2026-11-06-2016-partb-headings",
-        "learning_date": "2026-11-06",
-        "updated_on": "2026-11-06",
-        "exam": "2016-english1",
-        "part": "Part B 小标题匹配",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-06-2016-partb-headings.json",
-        "round_file": "data/article-reviews/2026-11-06-2016-partb-headings.json",
-        "publication_date": "2026-11-06"
       }
     ]
   },
   "priorities": [
+    {
+      "mechanism": "language",
+      "label": "修饰关系与熟词搭配",
+      "families": [
+        {
+          "family": "costs-effort-intensity",
+          "label": "at a high cost与regardless of consequences分开",
+          "focus": "最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-16",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-17",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-16",
+            "family": "costs-effort-intensity",
+            "question": 33,
+            "note_fingerprint": "e34be8624f4da30f"
+          }
+        },
+        {
+          "family": "boast-boost-distinction",
+          "label": "beef up / sharpen skills搭配",
+          "focus": "知道这里需要增强，但把boast当作增加，混淆了boost；不是完全不认识beef up。只讨论C，最终选择未确认。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-15",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-17",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-15",
+            "family": "boast-boost-distinction",
+            "question": 27,
+            "note_fingerprint": "364263d70ab61be0"
+          }
+        }
+      ]
+    },
     {
       "mechanism": "roles",
       "label": "主语—动作—对象与政策条件",
@@ -746,7 +812,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-16",
+          "due": "2026-11-17",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-15",
@@ -756,63 +822,63 @@
           }
         },
         {
-          "family": "policy-enforcement-roles",
-          "label": "要求与执行工具的角色区分",
-          "focus": "用户明确确认第24题选B，标准答案表为C。用户把宪章的主要执行手段误当成设计师被拒绝的原因，没有区分规则内容与执行机制。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-02",
+          "family": "control-process-roles",
+          "label": "持有与处理创造的额外用途",
+          "focus": "在本文法律责任区分中指控制、掌握或管理数据；与处理、汇总不是同一动作。不能把本文概括成处理方在所有法律下都没有责任。",
+          "paper_kind": "translation_difficulty",
+          "latest_observation": "2026-11-16",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-16",
+          "due": "2026-11-17",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-02",
-            "family": "policy-enforcement-roles",
-            "question": 24,
-            "note_fingerprint": "6c279cc1833c6d29"
+            "date": "2026-11-16",
+            "family": "control-process-roles",
+            "question": null,
+            "note_fingerprint": "cfa179ad255de95c"
           }
         }
       ]
     },
     {
-      "mechanism": "language",
-      "label": "修饰关系与熟词搭配",
+      "mechanism": "stance",
+      "label": "作者态度、评价对象与转折",
       "families": [
         {
-          "family": "boast-boost-distinction",
-          "label": "beef up / sharpen skills搭配",
-          "focus": "知道这里需要增强，但把boast当作增加，混淆了boost；不是完全不认识beef up。只讨论C，最终选择未确认。",
+          "family": "attribution-stance",
+          "label": "作者补充条件与被引者单一指标",
+          "focus": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
           "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-15",
-          "web_errors": 1,
+          "latest_observation": "2026-11-16",
+          "web_errors": 0,
           "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-16",
+          "slow_or_uncertain": true,
+          "due": "2026-11-10",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-15",
-            "family": "boast-boost-distinction",
-            "question": 27,
-            "note_fingerprint": "364263d70ab61be0"
+            "date": "2026-11-16",
+            "family": "attribution-stance",
+            "question": null,
+            "note_fingerprint": "5b75fffd652378e0"
           }
         },
         {
-          "family": "intimately-familiarity",
-          "label": "intimately familiar with：贴近与细节",
-          "focus": "可表示亲密地，也可表示深入、贴近或详细熟悉。体验新闻事件的语境强调贴近程度，不必是人际亲密。用户具体逐词误译未报告。 画框是翻译困难；原文下划线及第28题证据词不自动加入生词。",
-          "paper_kind": "translation_difficulty",
-          "latest_observation": "2026-11-15",
-          "web_errors": 0,
+          "family": "author-stance",
+          "label": "quoted positions / writer's proposal",
+          "focus": "用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。",
+          "paper_kind": "correct_but_uncertain",
+          "latest_observation": "2026-11-04",
+          "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-16",
+          "due": "2026-11-03",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-15",
-            "family": "intimately-familiarity",
-            "question": null,
-            "note_fingerprint": "7851edc4685cac39"
+            "date": "2026-11-04",
+            "family": "author-stance",
+            "question": 31,
+            "note_fingerprint": "7e06b5f31d47b68a"
           }
         }
       ]
@@ -900,48 +966,6 @@
           }
         }
       ]
-    },
-    {
-      "mechanism": "stance",
-      "label": "作者态度、评价对象与转折",
-      "families": [
-        {
-          "family": "author-stance",
-          "label": "quoted positions / writer's proposal",
-          "focus": "用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。",
-          "paper_kind": "correct_but_uncertain",
-          "latest_observation": "2026-11-04",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-03",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-04",
-            "family": "author-stance",
-            "question": 31,
-            "note_fingerprint": "7e06b5f31d47b68a"
-          }
-        },
-        {
-          "family": "attribution-stance",
-          "label": "政党与作者观点区分",
-          "focus": "整体理解反馈显示不同政党、公众、开发利益相关方和作者立场容易混淆；目前未收到Q28—30的最终选择字母或逐题推理，不能按原文讲解倒推出这些题的作答。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-03",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-10",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-03",
-            "family": "attribution-stance",
-            "question": null,
-            "note_fingerprint": "a26018849ea04f20"
-          }
-        }
-      ]
     }
   ],
   "pending": [
@@ -957,34 +981,6 @@
         "family": "boast-boost-distinction",
         "question": 27,
         "note_fingerprint": "364263d70ab61be0"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Text 2",
-      "question": 28,
-      "date": "2026-11-09",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-09",
-        "family": "historical-reminder-evidence",
-        "question": 28,
-        "note_fingerprint": "1c98cead737d072f"
-      }
-    },
-    {
-      "exam": "2017-english1",
-      "part": "Text 2",
-      "question": 27,
-      "date": "2026-11-09",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-09",
-        "family": "inference-boundary",
-        "question": 27,
-        "note_fingerprint": "36ee183b046e2ee7"
       }
     }
   ],
@@ -1031,7 +1027,8 @@
     "article-review-2026-11-12-2017-partb.html": "b7090eb425b771525fd5339e49575a47cb8e52bdf0e5f1ff23ae88b8f4970317",
     "article-review-2026-11-14-2018-text1.html": "55497bef45e9b9feaaa009f229e2dd38aa5addc98757d5bbe4e6d25e9ff9fe78",
     "article-review-2026-11-15-2018-text2.html": "08b7d227aa29ec4d4474be8b06c228eea20b1fee28bb2a232de170718d1f9d51",
-    "data/article-review.json": "3f05544bbfc97fa6b113c42e7ab89a350ab3913b6e8e81d4db7dfbaf7f973f51",
+    "article-review-2026-11-16-2018-text3.html": "0eb80966b59a9c0c65608b453e2c72bb778ff33d1d2a17d547b9a69b0a87b238",
+    "data/article-review.json": "39371813e1c712299a8b676dc229124306a3b73339f30f6683261fedd8bc8f84",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1077,6 +1074,7 @@
     "data/article-reviews/2026-11-12-2017-partb.json": "0eeb7f72ef1aaed7cda86eda543afd6de569e1811594af47271f51356b97cd7d",
     "data/article-reviews/2026-11-14-2018-text1.json": "55e61704e1e8b72ab1141ffd83d4ab22351dafc7c01c10896337b0f1f6c95184",
     "data/article-reviews/2026-11-15-2018-text2.json": "3f05544bbfc97fa6b113c42e7ab89a350ab3913b6e8e81d4db7dfbaf7f973f51",
+    "data/article-reviews/2026-11-16-2018-text3.json": "39371813e1c712299a8b676dc229124306a3b73339f30f6683261fedd8bc8f84",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1117,8 +1115,9 @@
     "data/article-sessions/2026-11-12-2017-partb.json": "8a495b6b461008a516a0728da1b94bbbc5cffc9a5fbfcabba7625cea79adc0b2",
     "data/article-sessions/2026-11-14-2018-text1.json": "f2dc779cef644d1ba5745f74c4e616a5c6668c9c52a0d90a8e1ac87c40b5dfc6",
     "data/article-sessions/2026-11-15-2018-text2.json": "8151fb8d68e40118a416ab873d42ad21f956bbafb850b8908b4df4df3c21543c",
+    "data/article-sessions/2026-11-16-2018-text3.json": "33f6077df20e4e16fbc9daaa4d45ad3a766f2bf0c78af3da993938bb585db0b8",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "5334312ca1af680f78fed335f857d394f0c67528092c5ed21f1b73aed586837c",
+    "data/daily.json": "a329f40306eb3cd1d6b928369c320e0b24b94ea42f0c11dc95935d74d068f46a",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1168,10 +1167,11 @@
     "data/days/2026-11-14.json": "94aa20e73a3058ed105bcd6e113553cbc60bbcbcc07a5a31a33f953cc30c764f",
     "data/days/2026-11-15.json": "6d0b6daf464dd5acb900d3a43004b36791c00f25f8f2050a90baf3b4102982b6",
     "data/days/2026-11-16.json": "5334312ca1af680f78fed335f857d394f0c67528092c5ed21f1b73aed586837c",
+    "data/days/2026-11-17.json": "a329f40306eb3cd1d6b928369c320e0b24b94ea42f0c11dc95935d74d068f46a",
     "data/excluded-evidence.json": "4897e0d8320fa554636c079c76d8abb9b0c37ddbc95996eadf3c858cf5638943",
-    "data/learning-notes.json": "c7c66fe644f0604034a50d5c2e418a4709c9a7d82c8987c72cbca9ed992e9c2e",
+    "data/learning-notes.json": "f83615978281b9bebdde41f17a279a2b9a452b00e90aaba776cb04ba4a2904e9",
     "data/quality-exclusions.json": "91460a0d993808f6bf94ff28098c157c0fcb25e1c79fc8424a0415bd17f2315a",
-    "data/question-contexts.json": "09f13d624e4e04e63b14a86542a090277d875ee6e02ca3736fc76b96a44ba147",
+    "data/question-contexts.json": "5184688bf07f4f69be151b093a74e7df098b5a54b9b15bd5f1a31530253168d4",
     "data/question-presentations.json": "373c7da16aab2a5271c7ef939ebb98fc6f1880a2c5dce598aca9d6b1e72dc613",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1215,18 +1215,19 @@
     "data/questions/2026-11-12-2017-partb-migration.json": "29a75c48ef88bb942fffd882252a066ef5a7acc2f07da285d9751ff2e6be4cea",
     "data/questions/2026-11-14-2018-text1-migration.json": "a5de87a586f3f350c8bd9341f01632869f5fe52faa8091308d29a64d6094d8d4",
     "data/questions/2026-11-15-2018-text2-migration.json": "dcbe9435f6e475199c60444287c8ea7271e5855395a29e14a904d8d8d91d638c",
+    "data/questions/2026-11-16-2018-text3-migration.json": "989fd03ec323656e3dc2f3ddbd10adae36aa1c6c45c0e9bc0b5cd1d0a0bb9b09",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "b619e91271d41e8e73deb49b2108fb3888ada350b5dd6be6821212ae1569952d",
-    "data/review-state.json": "442c3cf1e0144c772df72d635a09fc9582e3de671655b2638195e5b2cce62d10",
+    "data/review-state.json": "d206cb2672f968bbc90c6c477c68062a4000b4712ee59f09f42b0d31811d9e45",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
     "data/source-checks/2015-english1.json": "49bde5197f51988e33fda46fa37c99dd4b6412ebff2a2e628cf540977f71cf75",
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
-    "data/source-checks/2018-english1.json": "7a552605a247a8f6feff0ba479c122e5ed3c4f9a5d52ea2d624fb71f12181ae3"
+    "data/source-checks/2018-english1.json": "37558db66dff88e4bda93c38d60019fac9adf17221844764232ee515e68f829a"
   },
-  "source_fingerprint": "27d33cda3d56bc9973c61acc42f60a51a85c4b828e48eef05bcce01a3b529333",
+  "source_fingerprint": "4be3a417a24e98154cfda89a20a975044848d92f406e6f0166e8ff5b24edfec0",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

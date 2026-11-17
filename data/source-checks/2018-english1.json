@@ -1,7 +1,7 @@
 {
   "exam": "2018-english1",
-  "checked_on": "2026-11-15",
-  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification. Extended on 2026-11-15: Text 2 reference Q26-Q30, Q27 semantic confusion, Q28 explicit B-to-D revision and four boxed items; no overall paper score reconstructed.",
+  "checked_on": "2026-11-16",
+  "scope": "Reading Text 1 Q21-Q25 reference key and answer text; one confirmed boxed vocabulary item, full-comprehension positive feedback and a rejected marking identification. Extended on 2026-11-15: Text 2 reference Q26-Q30, Q27 semantic confusion, Q28 explicit B-to-D revision and four boxed items; no overall paper score reconstructed. Extended on 2026-11-16: Text 3 key Q31-Q35, user-reported 4/5 and Q33 final A, explicit phrase clarification and separate doubt about D; no missing answer letters inferred.",
   "purpose": "参考内容与用户纸质文字反馈分开核验，不作为网页成绩。",
   "sources": [
     {
@@ -57,6 +57,30 @@
       "title": "Cambridge Dictionary: intimately",
       "url": "https://dictionary.cambridge.org/dictionary/english/intimately",
       "covers": "亲密与深入、详细熟悉两类语境，不能一律套人际关系义。"
+    },
+    {
+      "id": "xdf-2018-text3-key",
+      "title": "新东方网：2018年英语一参考答案PDF Text 3",
+      "url": "https://file.xdf.cn/uploads/171224/708_171224135209AZniAwdgBs2Qt41U.pdf",
+      "covers": "第2—3页参考31B、32C、33D、34D、35B；用户只提供33最终A，其余仅自述正确，不由参考表补造个人字母。"
+    },
+    {
+      "id": "xdf-2018-text3-analysis",
+      "title": "云南新东方：2018英语一阅读Text 3解析",
+      "url": "https://kaoyan.xdf.cn/201712/10746550.html",
+      "covers": "核对第二段两层But：隐私非唯一/最重要角度；控制与处理之分遗漏处理、汇总创造价值。原文末段slightly maladapted保留程度。"
+    },
+    {
+      "id": "cambridge-at-all-costs",
+      "title": "Cambridge Dictionary: at all costs / at any cost",
+      "url": "https://dictionary.cambridge.org/dictionary/english/at-all-costs",
+      "covers": "即使困难或带来问题也要实现/避免；核心为不计代价的强度，不保证成功。"
+    },
+    {
+      "id": "cambridge-spare-no-effort",
+      "title": "Cambridge Dictionary: spare no effort",
+      "url": "https://dictionary.cambridge.org/dictionary/english/spare-no-effort",
+      "covers": "尽最大努力；与原文另给的条件限制可并存，不自动授权删除任何限制。"
     }
   ],
   "answers": {
@@ -69,7 +93,12 @@
     "27": "A",
     "28": "B",
     "29": "C",
-    "30": "A"
+    "30": "A",
+    "31": "B",
+    "32": "C",
+    "33": "D",
+    "34": "D",
+    "35": "B"
   },
   "answer_words": {
     "21": "Middle-class workers",
@@ -78,7 +107,8 @@
     "24": "preventing the income gap from widening",
     "25": "possible solutions to it",
     "27": "sharpen",
-    "28": "verify news by referring to diverse sources"
+    "28": "verify news by referring to diverse sources",
+    "33": "the value of data comes from the processing of it"
   },
   "performance_coverage": {
     "paper_outcome": {
@@ -295,5 +325,106 @@
     ],
     "do_not_teach_always_keep_first_choice": true,
     "unconfirmed_cooking_word": "roast or toast, not adjudicated"
+  },
+  "reading_text3_performance_coverage": {
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "q33_final": "A",
+    "reference": "D",
+    "elimination_order": [
+      "B",
+      "C"
+    ],
+    "first_formal_choice": "unknown",
+    "actual_answer_change": "not_reported",
+    "original_user_quote": "33我是首先排除了B，然后C好像不是很对也排除，然后A at all cost没懂，是不留余力的意思？最后选了A，重点应该是第二段的But后面，我感觉不应该还是谴责这两家公司吗？主要谴责NHS，感觉D也不太准确吧。",
+    "critical_followup_quote": "如果知道at all costs的准确意思我肯定不选A。",
+    "primary_cause": "固定短语词义影响A的排除",
+    "independent_open_issue": "对D及作者/监管者分析层次仍有疑问",
+    "forbidden_inferences": [
+      "完全没看懂文章",
+      "没有注意But",
+      "完全不懂转折",
+      "排除A必然会选D",
+      "其他四题的具体字母或改选轨迹"
+    ]
+  },
+  "reading_text3_vocabulary_scope": {
+    "translation_items": [
+      "at all costs",
+      "tech giant",
+      "handed over",
+      "controlled",
+      "only when",
+      "maladapted"
+    ],
+    "marking_status": {
+      "active_question_confirmed": [
+        "at all costs"
+      ],
+      "box_or_active_not_individually_disambiguated": [
+        "tech giant",
+        "handed over",
+        "controlled",
+        "only when",
+        "maladapted"
+      ]
+    },
+    "user_tentative_gloss": {
+      "at all costs": "不留余力"
+    },
+    "teaching_contrasts_only": [
+      "at any cost",
+      "spare no effort",
+      "at a high cost",
+      "under no circumstances",
+      "regardless of the consequences"
+    ],
+    "policy": "六处均是交接确认的翻译困难；at all costs为主动报告，其余逐项标记类型未知，不把下划线或混合类别补造成确定画框。"
   }
 }

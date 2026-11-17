@@ -5065,5 +5065,635 @@
       "不把相关表达或推测当作用户已确认的误译"
     ],
     "review_importance": "low"
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "costs-effort-intensity",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 33,
+    "reported_pick": "A",
+    "expected": "D",
+    "final_choice_letter_confirmed": true,
+    "initial_pick": null,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "not_reported",
+    "eliminated_choices": [
+      "B",
+      "C"
+    ],
+    "elimination_order": [
+      "B",
+      "C"
+    ],
+    "candidate_choices": [
+      "A",
+      "D"
+    ],
+    "reported_reasoning_sequence": [
+      "先排除B",
+      "觉得C没有充分依据，排除C",
+      "不清楚at all costs，想到不留余力",
+      "注意到But，认为重点仍是谴责NHS/DeepMind",
+      "对D概括数据价值有疑问",
+      "最终选A"
+    ],
+    "user_quote": "33我是首先排除了B，然后C好像不是很对也排除，然后A at all cost没懂，是不留余力的意思？最后选了A，重点应该是第二段的But后面，我感觉不应该还是谴责这两家公司吗？主要谴责NHS，感觉D也不太准确吧。",
+    "followup_user_quote": "如果知道at all costs的准确意思我肯定不选A。",
+    "critical_lexical_cause": {
+      "phrase": "at all costs",
+      "user_tentative_gloss": "不留余力",
+      "accurate_gloss": "不惜一切代价",
+      "contrast": "spare no effort侧重尽力；at all costs侧重无论付出何种代价",
+      "user_says_accurate_meaning_would_exclude_A": true,
+      "exclusion_of_A_implies_correct_D": false
+    },
+    "user_reported_reasoning": "最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。",
+    "note": "真实纸质错误：最终A，标准D；没有正式首次选择或改选信息，不能把A→正确D伪造成真实改选。关键实际因素是把at all costs初步理解为不留余力，漏掉不惜一切代价的强度。用户已看到But并基本理解大意，不能诊断为完全不懂转折。其明确反事实反馈只能支持知道短语后会排除A，不能据此推断必然选D。",
+    "training_priority": 1,
+    "training_targets": [
+      "at all costs / at any cost与spare no effort的侧重点",
+      "绝对化选项是否超出原文",
+      "将排除干扰项与确认正确项分开"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "attribution-stance",
+    "kind": "user_reported_confusion",
+    "scope": "independent_reasoning_clarification",
+    "source_question": null,
+    "source_questions": [
+      33
+    ],
+    "reported_pick": "A",
+    "final_choice_letter_confirmed": true,
+    "user_quote": "主要谴责NHS，感觉D也不太准确吧。",
+    "user_reported_reasoning": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
+    "source_roles": {
+      "regulator": "Denham按文中现行法律框架区分NHS控制数据与DeepMind处理数据",
+      "author": "进一步批评这种区分遗漏处理和汇总如何赋予数据价值"
+    },
+    "reasoning_limit": "不因知道at all costs就认定D已理解；也不把监管者的观点一律当作作者赞同或一律当作作者反对。",
+    "note": "第33题D的同义概括需要单独巩固。作者的But this distinction针对法律框架中的控制/处理区分，强调处理与汇总创造价值；不是继续只在隐私责任层面谴责NHS。保留用户已注意But这一正向证据，训练发言主体与评价层次，不概括成完全不懂转折。",
+    "training_priority": 2,
+    "training_targets": [
+      "监管者与作者的观点归属",
+      "进一步批评的对象与范围",
+      "it is A, not B, that...的强调关系",
+      "处理/汇总与单纯持有的区别"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "costs-effort-intensity",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": 33,
+    "mark_type": "active_question",
+    "source_spans": [
+      "at all costs"
+    ],
+    "marking_evidence": "at all costs有明确主动询问；其余五项仅被交接合称画框或明确报告，未逐项区分。",
+    "note": "不惜一切代价；本题A选项中的绝对化承诺，比仅强调努力程度更强。",
+    "specific_user_mistranslation": "不留余力",
+    "training_targets": [
+      "在新语境中判断真实词义、强度或限制",
+      "不把横线或未区分的标记冒充确定画框"
+    ],
+    "user_quote": "如果知道at all costs的准确意思我肯定不选A。",
+    "reported_initial_gloss": "不留余力",
+    "related_paper_error": 33
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "tech-giant-meaning",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "mark_type": "box_or_active_unconfirmed",
+    "source_spans": [
+      "tech giant"
+    ],
+    "marking_evidence": "at all costs有明确主动询问；其余五项仅被交接合称画框或明确报告，未逐项区分。",
+    "note": "科技巨头、大型科技企业；不是体型巨大的机器，也不自动表示所有行为都违法。",
+    "specific_user_mistranslation": "not_reported",
+    "training_targets": [
+      "在新语境中判断真实词义、强度或限制",
+      "不把横线或未区分的标记冒充确定画框"
+    ],
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "hand-over-transfer",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "mark_type": "box_or_active_unconfirmed",
+    "source_spans": [
+      "handed over"
+    ],
+    "marking_evidence": "at all costs有明确主动询问；其余五项仅被交接合称画框或明确报告，未逐项区分。",
+    "note": "hand over sth. to sb.表示移交；移交保管、使用或工作不自动等于赠与所有权。",
+    "specific_user_mistranslation": "not_reported",
+    "training_targets": [
+      "在新语境中判断真实词义、强度或限制",
+      "不把横线或未区分的标记冒充确定画框"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "control-process-roles",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "mark_type": "box_or_active_unconfirmed",
+    "source_spans": [
+      "controlled"
+    ],
+    "marking_evidence": "at all costs有明确主动询问；其余五项仅被交接合称画框或明确报告，未逐项区分。",
+    "note": "在本文法律责任区分中指控制、掌握或管理数据；与处理、汇总不是同一动作。不能把本文概括成处理方在所有法律下都没有责任。",
+    "specific_user_mistranslation": "not_reported",
+    "training_targets": [
+      "在新语境中判断真实词义、强度或限制",
+      "不把横线或未区分的标记冒充确定画框"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "only-when-necessary",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "mark_type": "box_or_active_unconfirmed",
+    "source_spans": [
+      "only when"
+    ],
+    "marking_evidence": "at all costs有明确主动询问；其余五项仅被交接合称画框或明确报告，未逐项区分。",
+    "note": "只有当……才……，限制必要条件；不能直接当作普通when，也不能自动推出条件一满足就必然发生结果。",
+    "specific_user_mistranslation": "not_reported",
+    "training_targets": [
+      "在新语境中判断真实词义、强度或限制",
+      "不把横线或未区分的标记冒充确定画框"
+    ]
+  },
+  {
+    "date": "2026-11-16",
+    "received_on": "2026-11-16",
+    "session_id": "2026-11-16-2018-text3",
+    "source_exam": "2018-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的修正版教学交接与后续明确纠正；维护者未接收或重新查看照片。",
+    "source_check": "data/source-checks/2018-english1.json",
+    "paper_outcome": {
+      "evidence_status": "user_reported_paper_outcome",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": 4,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_question_correctness": {
+        "31": true,
+        "32": true,
+        "33": false,
+        "34": true,
+        "35": true
+      },
+      "reported_final_choice_letters": {
+        "33": "A"
+      },
+      "final_choice_letters_not_provided": [
+        31,
+        32,
+        34,
+        35
+      ],
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "gist_understood_during_original_attempt",
+      "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+      "gist_understood": true,
+      "whole_passage_fully_understood": "not_confirmed",
+      "noticed_paragraph2_but": true,
+      "completely_missed_contrast": false,
+      "passage_level_comprehension_failure": false,
+      "positive_evidence": [
+        "基本理解文章大意",
+        "已注意第二段But及其重要性",
+        "明确排除了B和C"
+      ],
+      "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+    },
+    "scoring_policy": "Paper self-report only. Do not create web scores, Issues, attempts, errors or streaks. Do not reconstruct missing answer letters, first picks or changes from the key.",
+    "family": "maladapted-fit-degree",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_translation",
+    "source_question": null,
+    "mark_type": "box_or_active_unconfirmed",
+    "source_spans": [
+      "maladapted"
+    ],
+    "marking_evidence": "at all costs有明确主动询问；其余五项仅被交接合称画框或明确报告，未逐项区分。",
+    "note": "适配不良、不太适合；slightly maladapted保留程度限定，不是完全无效或所有情境都不可用。",
+    "specific_user_mistranslation": "not_reported",
+    "training_targets": [
+      "在新语境中判断真实词义、强度或限制",
+      "不把横线或未区分的标记冒充确定画框"
+    ]
   }
 ]

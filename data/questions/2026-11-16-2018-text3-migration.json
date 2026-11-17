@@ -1,0 +1,452 @@
+[
+  {
+    "id": "r18t3-effort-theatre",
+    "family": "costs-effort-intensity",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "尽力与不惜代价：保留原文限制",
+    "skill": "尽力与不惜代价：保留原文限制",
+    "q": "A theatre team promises to spare no effort in rebuilding a damaged set, but will abandon the plan if the hall cannot be made safe. Which summary preserves the commitment?",
+    "o": [
+      "The team must rebuild the set regardless of every consequence.",
+      "The team will make every effort within the stated safety limit.",
+      "The team will attempt repairs only if no serious work is needed.",
+      "The team treats its rebuilding goal as more important than safety."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "剧团承诺尽全力重建布景，但若礼堂不能达到安全条件就放弃。哪种概括保留了这一承诺？",
+      "structure": "spare no effort强调努力程度；but后的条件限制同样有效，不能被前半句抹去。",
+      "other": "set布景；abandon放弃；commitment承诺。",
+      "meaning": "尽全力不自动等于不计后果。这里有明确安全限制，改写成at all costs或regardless of every consequence会超出原文。",
+      "rest": "regardless与more important than safety删除安全限制；no serious work把尽力反成只在不费力时才做。"
+    }
+  },
+  {
+    "id": "r18t3-costs-competition",
+    "family": "costs-effort-intensity",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "at any cost / at all costs的强度",
+    "skill": "at any cost / at all costs的强度",
+    "q": "In a fictional competition, a captain says, \"We must win at any cost.\" What strength does the phrase add to the statement?",
+    "o": [
+      "Winning is desirable only while no extra expense is required.",
+      "Winning has already required a large but fixed payment.",
+      "Winning should be pursued whatever the price or difficulty.",
+      "Winning is guaranteed whenever the team makes a serious effort."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "在一个虚构比赛中，队长说必须不惜任何代价取胜。这个短语增加了什么强度？",
+      "structure": "at any cost与at all costs为惯用近义表达，限定追求目标时接受代价的态度，而不是宣布结果已经发生。",
+      "other": "pursue追求；desirable值得追求的。",
+      "meaning": "短语突出无论代价或困难的强烈取向，不只是努力程度；这类表达也可能有修辞色彩，不能因此保证一定成功。",
+      "rest": "no extra expense反向增加省钱限制；already...fixed payment混成已付高价；guaranteed把强烈意愿误成结果必然实现。"
+    }
+  },
+  {
+    "id": "r18t3-under-no-circumstances",
+    "family": "costs-effort-intensity",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "under no circumstances：强度与适用对象",
+    "skill": "under no circumstances：强度与适用对象",
+    "q": "A display rule states, \"Under no circumstances may the original letter leave its case; staff may handle copies.\" Which statement preserves the rule?",
+    "o": [
+      "Staff may never touch any copy or original item on display.",
+      "The original may leave its case when a visitor pays extra.",
+      "Copies must remain locked away just like the original letter.",
+      "The original must stay in its case, while copies may be handled."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "展陈规则说原信件在任何情况下都不得离开盒子，工作人员可拿取副本。哪句保留规则？",
+      "structure": "Under no circumstances的绝对限制指向original letter；分号后明确给copies不同权限。",
+      "other": "case陈列盒；original原件；copy副本。",
+      "meaning": "强措辞并非一律错误：原文明确如此规定且对象范围一致时，应保留强度；不能扩大到所有副本。",
+      "rest": "never...any copy与copies locked扩大限制对象；pays extra增加原文没有的例外。"
+    }
+  },
+  {
+    "id": "r18t3-high-cost-boundary",
+    "family": "costs-effort-intensity",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "at a high cost与regardless of consequences分开",
+    "skill": "at a high cost与regardless of consequences分开",
+    "q": "A restoration was completed at a high cost. The report gives the final expense but says nothing about what losses the organizers would have accepted. What can be concluded?",
+    "o": [
+      "The expense was substantial; unlimited acceptance is not stated.",
+      "The organizers promised to accept every possible harmful result.",
+      "The organizers were unwilling to make any serious financial effort.",
+      "The restoration would have continued regardless of the consequences."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "修复以高昂代价完成。报告给出最终费用，却没说组织者愿意接受哪些损失。能得出什么？",
+      "structure": "at a high cost描述已发生的代价大小；would have accepted是报告未提供的条件性态度。",
+      "other": "substantial相当大的；expense费用。",
+      "meaning": "高昂代价不等于无论什么代价都接受；不能把描述性成本事实改成at all costs式的无条件承诺。",
+      "rest": "every possible harmful result和regardless都补加无限接受的承诺；unwilling...any effort既无依据又与高额支出不符。"
+    }
+  },
+  {
+    "id": "r18t3-stance-costumes",
+    "family": "attribution-stance",
+    "introduced": null,
+    "published_on": "2026-11-17",
+    "budget": 55,
+    "target": "作者论点与被引者归属理由",
+    "skill": "作者论点与被引者归属理由",
+    "q": "A school official gives a cloth donor all the credit for new stage costumes because the donor owned the material. The reviewer writes: \"But the fabric became useful costumes through the pupils' design and stitching.\" What is the reviewer emphasizing?",
+    "o": [
+      "Ownership alone should determine who deserves all creative credit.",
+      "The pupils' work transformed the supplied cloth into useful items.",
+      "The donor must be blamed for every problem with the performance.",
+      "The official has already denied that any cloth was supplied."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "学校官员因布料属于捐赠者而把服装功劳全归给对方；评论者强调学生设计、缝制使布料成为可用服装。评论者强调什么？",
+      "structure": "official的理由是拥有材料；reviewer在But后另提出转化过程。需要归属主张，也要读出主张内容。",
+      "other": "credit功劳；stitching缝制；fabric布料。",
+      "meaning": "作者关注加工与设计贡献，而非只重述正式归属；这可迁移“持有资源”和“使之产生用途”的区别，不涉及原医疗协议。",
+      "rest": "Ownership alone重述官员观点；blamed...every problem换成无依据谴责；denied...supplied否认文中已承认的供给。"
+    }
+  },
+  {
+    "id": "r18t3-stance-awards",
+    "family": "attribution-stance",
+    "introduced": null,
+    "published_on": "2026-11-17",
+    "budget": 55,
+    "target": "资格认定与作者评价层次",
+    "skill": "资格认定与作者评价层次",
+    "q": "An awards clerk says a novel is eligible because every form arrived on time. A critic replies, \"However, timely paperwork tells us little about the imagination in the novel.\" Which view belongs to the critic?",
+    "o": [
+      "The forms arrived too late for the novel to enter the award.",
+      "Administrative eligibility guarantees the novel's artistic merit.",
+      "Meeting an entry rule does not establish imaginative quality.",
+      "Every application rule should immediately be treated as invalid."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "奖项职员说小说按时交齐表格所以合资格；评论者说按时交表不能说明作品想象力。评论者观点是什么？",
+      "structure": "clerk处理资格，critic评论艺术质量；does not establish是对tells us little的限度相容改写。",
+      "other": "eligible合资格；paperwork文书；merit价值、优点。",
+      "meaning": "进一步批评评价层次不足不等于否定所有程序规则；不能把被引用者的合规判断当作作者对质量的判断。",
+      "rest": "too late与按时到达相反；guarantees把资格升格成品质保证；every...invalid把局部不足扩成全面作废。"
+    }
+  },
+  {
+    "id": "r18t3-stance-recording",
+    "family": "attribution-stance",
+    "introduced": null,
+    "published_on": "2026-11-17",
+    "budget": 55,
+    "target": "认可合规同时提出进一步批评",
+    "skill": "认可合规同时提出进一步批评",
+    "q": "An inspector certifies that a concert recording followed the licensing rules. A reviewer agrees that the licence matters but adds, \"Yet musical clarity comes from the careful balance of instruments, not the certificate on the wall.\" What is the reviewer's further claim?",
+    "o": [
+      "Legal permission proves that the recording must sound clear.",
+      "The inspector has rejected every part of the licensing scheme.",
+      "No legal permission is needed whenever the music sounds good.",
+      "Careful musical work explains clarity beyond formal permission."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "检查员确认录音符合许可规则；评论者认可许可的重要性，但强调声音清晰来自乐器平衡。进一步论点是什么？",
+      "structure": "agrees保留对许可的认可；but adds/Yet推进到声音质量的来源。not the certificate限制的是质量归因，不是许可合法性。",
+      "other": "certificate证书；clarity清晰度；balance平衡。",
+      "meaning": "转折可增加分析层次，而非一概谴责或否定前文；区分法律许可和产生实际质量的工作。",
+      "rest": "proves...sound clear混淆合规与品质；inspector rejected错归观点；No legal permission把质量归因不当扩大为免除法律要求。"
+    }
+  },
+  {
+    "id": "r18t3-stance-delivery",
+    "family": "attribution-stance",
+    "introduced": null,
+    "published_on": "2026-11-17",
+    "budget": 55,
+    "target": "作者补充条件与被引者单一指标",
+    "skill": "作者补充条件与被引者单一指标",
+    "q": "A manager judges a delivery service by average speed. The columnist notes that parcels also need to arrive at the correct homes: \"But an impressive time figure is of little use if the address is wrong.\" What is the columnist arguing?",
+    "o": [
+      "Speed alone is insufficient; correct delivery also matters.",
+      "The manager has proved that no parcel can arrive quickly.",
+      "Any fast service must be worse than every slow service.",
+      "The company has formally abolished its speed measurements."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "经理用平均速度评估快递；专栏作者说地址错误时，漂亮的时间数字用处不大。作者主张什么？",
+      "structure": "manager的单一指标与columnist追加的准确性要求分开；if限定缺点出现的条件。",
+      "other": "columnist专栏作者；average平均的；parcel包裹。",
+      "meaning": "作者指出只看一个指标不足，未断言速度没价值，也未声称任何快服务都差。",
+      "rest": "manager...proved错归并添加绝对结论；any...every无依据比较所有服务；formally abolished虚构公司政策变化。"
+    }
+  },
+  {
+    "id": "r18t3-control-catalogue",
+    "family": "control-process-roles",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "control / process：决定用途与执行处理",
+    "skill": "control / process：决定用途与执行处理",
+    "q": "A collection coordinator decides why recordings may be used and who may receive them. An assistant converts the files into searchable transcripts under those instructions. Which distinction fits the stated roles?",
+    "o": [
+      "The coordinator sets the uses; the assistant performs conversion.",
+      "The assistant decides every purpose because conversion uses a computer.",
+      "The coordinator converts the files while the assistant sets the uses.",
+      "Neither person has any role until ownership of the files is sold."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "负责人决定录音用途与接收者；助理按指令把文件转成可搜索文本。怎样区分两者？",
+      "structure": "decides why/who给出用途与接收权限的决定；converts...under instructions给出实际处理步骤。",
+      "other": "transcript文字记录；conversion转换。",
+      "meaning": "控制用途与执行处理不是同一个行为。这只是题干明确分工，不泛断法律责任全部归一方或处理方绝无责任。",
+      "rest": "assistant decides误由技术处理推出决定权；coordinator converts颠倒主体；until ownership sold添加交易前提。"
+    }
+  },
+  {
+    "id": "r18t3-process-soil",
+    "family": "control-process-roles",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "持有与处理创造的额外用途",
+    "skill": "持有与处理创造的额外用途",
+    "q": "A gardening club stores labelled soil samples. Volunteers compare the samples' measurements and produce a map that helps members select suitable plants. What creates the map's additional usefulness in this account?",
+    "o": [
+      "The samples remain inside boxes without being examined.",
+      "The labels prove that the club may ignore every measurement.",
+      "Combining and analysing measurements reveals useful patterns.",
+      "Owning a storage cupboard automatically supplies planting advice."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "园艺社团存放土样；志愿者比较测量结果并制作选植物用的地图。地图增加的用途来自什么？",
+      "structure": "compare...produce构成处理与成果的关系；stores只说明持有或保管材料，未独自形成地图信息。",
+      "other": "measurement测量结果；pattern规律；soil土壤。",
+      "meaning": "此例中比较与分析创造额外用途；不由此推断原始材料在任何情况下毫无价值，或持有者没有任何权利。",
+      "rest": "without being examined否认处理步骤；ignore every measurement与制作地图的证据相反；automatically...advice把保管工具当成分析成果。"
+    }
+  },
+  {
+    "id": "r18t3-onlywhen-room",
+    "family": "only-when-necessary",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "only when：必要条件不是充分保证",
+    "skill": "only when：必要条件不是充分保证",
+    "q": "A rehearsal room is unlocked only when a supervisor is present. Even then it may remain locked for maintenance. Which inference follows?",
+    "o": [
+      "A supervisor's arrival always guarantees that the room is unlocked.",
+      "Without a supervisor, the room is not unlocked under this rule.",
+      "Maintenance requires the supervisor to leave before unlocking.",
+      "An unlocked room proves that maintenance has never occurred."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "排练室只有在主管在场时才开锁；即便主管在场，维修也可能使房间继续锁住。能推出什么？",
+      "structure": "only when P才Q：Q意味着P是必要条件；P不自动足以推出Q。题干另给维修限制确认这一点。",
+      "other": "supervisor主管；maintenance维修。",
+      "meaning": "没有主管不能按该规则开锁；主管到场并不保证开锁。区分必要条件与充分条件，不能把only删掉。",
+      "rest": "always guarantees反转蕴含方向；requires...leave虚构维修规则；never occurred从当前开锁推断全部过去。"
+    }
+  },
+  {
+    "id": "r18t3-onlywhen-exhibition",
+    "family": "only-when-necessary",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 50,
+    "target": "only when与额外条件",
+    "skill": "only when与额外条件",
+    "q": "An exhibition issues a reproduction permit only when the owner has consented. A fee must also be paid. What does the consent clause establish?",
+    "o": [
+      "Consent removes every other requirement for receiving a permit.",
+      "Any owner who consents must receive a permit without payment.",
+      "The fee replaces consent whenever the applicant can pay it.",
+      "A permit requires consent, while consent alone need not suffice."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "展览只有在所有者同意后才发复制许可，而且还需付费。同意这一条件说明什么？",
+      "structure": "permit only when consent表示有许可就须有同意；also列出另一个条件，不能由同意推出自动发证。",
+      "other": "permit许可；consent同意；suffice足够。",
+      "meaning": "必要条件限制与“只要”不同；这里单独同意未必足够。同意和付费是并需条件，不能把两者当作可互相替代。",
+      "rest": "removes every other、without payment都删除费用条件；fee replaces consent把并需条件错当替代关系。"
+    }
+  },
+  {
+    "id": "r18t3-handover-keys",
+    "family": "hand-over-transfer",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "target": "hand over：移交及权利范围",
+    "skill": "hand over：移交及权利范围",
+    "q": "At noon the caretaker handed the studio keys over to a visiting stage crew, which must return them that evening. What happened?",
+    "o": [
+      "The keys were given into the crew's temporary custody.",
+      "Ownership of the whole studio was permanently donated.",
+      "The keys were destroyed before the visiting crew arrived.",
+      "The crew was forbidden to receive or hold any studio key."
+    ],
+    "a": 0,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "中午管理员把钥匙交给客座剧组，约定当晚归还。发生了什么？",
+      "structure": "handed...over to给出移交对象；must return限定是临时交付，不是永久赠与整个场所。",
+      "other": "caretaker管理员；custody保管。",
+      "meaning": "hand over是移交；具体转移的是保管、使用还是所有权需由语境确认，不能只看动词就断言永久出售。",
+      "rest": "whole studio...donated扩大对象和权利；destroyed捏造销毁；forbidden与已经移交相反。"
+    }
+  },
+  {
+    "id": "r18t3-handover-draft",
+    "family": "hand-over-transfer",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "target": "hand over：方向与后续工作",
+    "skill": "hand over：方向与后续工作",
+    "q": "An editor handed over the unfinished festival guide to a colleague who would complete the fact checks. Which paraphrase fits handed over?",
+    "o": [
+      "Discarded the guide so that nobody could continue the work.",
+      "Declared the guide finished without asking anyone to check it.",
+      "Passed the guide to a colleague for the next stage of work.",
+      "Took every copy back from the colleague to stop the checking."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "编辑把未完成的节庆指南交给同事，由同事继续核实信息。handed over怎样改写？",
+      "structure": "to a colleague说明接收者；who would complete...说明后续任务；unfinished排除宣布完成。",
+      "other": "draft草稿；fact check核实信息。",
+      "meaning": "这里是工作材料与后续处理的移交，不是丢弃、强行取回或宣布已经完成。",
+      "rest": "Discarded否认继续工作；Declared...finished与unfinished相反；Took...back颠倒移交方向。"
+    }
+  },
+  {
+    "id": "r18t3-maladapted-checklist",
+    "family": "maladapted-fit-degree",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "target": "slightly maladapted：程度与情境限制",
+    "skill": "slightly maladapted：程度与情境限制",
+    "q": "A checklist designed for permanent museums is described as slightly maladapted to a one-day street exhibition. Several items still help, but its storage questions miss the event's main needs. What does slightly maladapted suggest?",
+    "o": [
+      "The checklist is illegal in every kind of public exhibition.",
+      "The checklist is an imperfect fit for this particular setting.",
+      "Every item in the checklist is entirely useless for any event.",
+      "The checklist already addresses all needs of the street event."
+    ],
+    "a": 1,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "固定博物馆的清单用于一天的街头展览时略显不合适；部分项目仍有用，但储藏问题偏离主要需要。slightly maladapted说明什么？",
+      "structure": "slightly限制程度；to...限定适用环境；Several...still help保留局部价值。",
+      "other": "checklist清单；permanent长期固定的。",
+      "meaning": "不太适配此情境不等于完全无效、违法或所有场景不适用；必须保留程度和对象。",
+      "rest": "illegal无依据；Every...entirely useless抹去部分有用与slightly；all needs反转了不适配评价。"
+    }
+  },
+  {
+    "id": "r18t3-maladapted-workshop",
+    "family": "maladapted-fit-degree",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 45,
+    "target": "maladapted：评价标准与用途错配",
+    "skill": "maladapted：评价标准与用途错配",
+    "q": "A workshop uses a ranking system built for solo races. The tutor calls it maladapted because it rewards speed while the workshop requires patient collaboration. What is the criticism?",
+    "o": [
+      "The tutor has proved that no participant can work quickly.",
+      "The system was designed to measure illegal behaviour.",
+      "Every form of ranking is rejected for every possible purpose.",
+      "The system's criterion does not suit the workshop's purpose."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "工作坊沿用个人竞速排名，但活动需要耐心合作，导师说它不适配。批评是什么？",
+      "structure": "because引出评价与活动目标的错配；not suit对应maladapted，不是质疑排名在所有领域都没用。",
+      "other": "ranking排名；criterion标准；collaboration合作。",
+      "meaning": "从评价体系适合何种目标判断fit，不能把针对用途的批评扩大为全面废除。",
+      "rest": "no participant添加能力结论；illegal改变评价对象；Every form...every purpose把特定错配泛化。"
+    }
+  },
+  {
+    "id": "r18t3-techgiant-scale",
+    "family": "tech-giant-meaning",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 40,
+    "target": "tech giant：企业规模的比喻义",
+    "skill": "tech giant：企业规模的比喻义",
+    "q": "A report contrasts a two-person software start-up with a tech giant serving millions of customers across many markets. What does tech giant identify?",
+    "o": [
+      "An unusually tall individual who repairs computers.",
+      "A machine whose physical height exceeds nearby buildings.",
+      "A large and influential business in the technology sector.",
+      "Any new company that has written its first computer program."
+    ],
+    "a": 2,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "报道把两人创业公司与服务数百万客户、跨多个市场的科技巨头比较。tech giant指什么？",
+      "structure": "tech限定行业；giant采用规模与影响力的比喻义，题干以客户和市场范围提供线索。",
+      "other": "start-up初创企业；sector行业。",
+      "meaning": "科技巨头指大型、有影响力的科技企业，不能字面解为高大的人或机器，也不等于任何初创企业。",
+      "rest": "tall individual与machine按体型直译；Any new company抹去规模与影响力限定。"
+    }
+  },
+  {
+    "id": "r18t3-techgiant-inference",
+    "family": "tech-giant-meaning",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-17",
+    "budget": 40,
+    "target": "tech giant：描述与评价分开",
+    "skill": "tech giant：描述与评价分开",
+    "q": "A company is called a tech giant because of its scale and influence. The sentence makes no claim about its conduct. Which inference stays within that description?",
+    "o": [
+      "The company has been proved to violate every relevant rule.",
+      "The company must control every smaller technology business.",
+      "The company is guaranteed to invent every important product.",
+      "The company is large; no verdict on its conduct is implied."
+    ],
+    "a": 3,
+    "origin_session": "2026-11-16-2018-text3",
+    "exp": {
+      "trans": "一句话因规模与影响力称某公司为科技巨头，未评价行为。哪种推断不过界？",
+      "structure": "because仅给出规模和影响力的命名依据；no claim about conduct阻止从名称推出违法或道德评价。",
+      "other": "conduct行为；influence影响力。",
+      "meaning": "tech giant是企业类别与规模描述，本身不证明每种行为的好坏或普遍支配力。",
+      "rest": "every relevant rule、every smaller business、every important product都从规模添加了绝对化事实。"
+    }
+  }
+]

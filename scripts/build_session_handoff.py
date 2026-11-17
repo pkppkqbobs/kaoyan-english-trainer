@@ -185,7 +185,9 @@ def paper_summary(notes, sessions, checks):
                                   -date.fromisoformat(n['updated_on']).toordinal(),
                                   n.get('training_priority', float('inf')), n['question'] is None,
                                   n['question'] or 0, n['family']))
+        non_box_marks = {'active_question', 'box_or_active_unconfirmed'}
         spans = sorted({short(s, 42) for n in entries if n['kind'] == 'translation_difficulty'
+                        and n.get('mark_type') not in non_box_marks
                         for s in n.get('source_spans', [])})
         stage = {'date': max(updated(n) for n in entries), 'exam': exam, 'part': part,
                        'items': items[:4], 'boxed_spans': spans[:10],
@@ -193,6 +195,12 @@ def paper_summary(notes, sessions, checks):
                        'translation_source': next((source_ref(n) for n in ordered if n['kind'] == 'translation_difficulty'), None),
                        'article_session_files': sorted({sessions[n['session_id']] for n in entries
                                                         if n.get('session_id') in sessions})}
+        for mark_type, field in (('active_question', 'active_translation_spans'),
+                                 ('box_or_active_unconfirmed', 'unresolved_marking_translation_spans')):
+            reported = sorted({short(s, 42) for n in entries if n['kind'] == 'translation_difficulty'
+                               and n.get('mark_type') == mark_type for s in n.get('source_spans', [])})
+            if reported:
+                stage[field] = reported[:10]
         # Positive paper feedback may accompany only vocabulary notes. Preserve
         # the explicit report without inventing a difficulty kind or web score.
         outcomes = {fingerprint(n['paper_outcome']): n for n in entries
@@ -555,7 +563,13 @@ def markdown(report):
                 details.append('后续补充（不倒推首次原因）：' + safe(item['followup']['summary']))
         if stage['boxed_spans']:
             details.append('画框翻译：' + '、'.join(safe(s) for s in stage['boxed_spans'][:6]) + ('等。' if len(stage['boxed_spans']) > 6 else '。'))
-        elif stage['translation_note_count']:
+        if stage.get('active_translation_spans'):
+            details.append('主动翻译疑问：' + '、'.join(safe(s) for s in stage['active_translation_spans']) + '。')
+        if stage.get('unresolved_marking_translation_spans'):
+            details.append('翻译困难（画框或主动报告未逐项区分）：' +
+                           '、'.join(safe(s) for s in stage['unresolved_marking_translation_spans']) + '。')
+        if (stage['translation_note_count'] and not stage['boxed_spans'] and
+                not stage.get('active_translation_spans') and not stage.get('unresolved_marking_translation_spans')):
             details.append('另有翻译困难，详见该篇learning-notes。')
         if not stage['article_session_files']:
             details.append('尚无对应article session；不因此遗漏观察。')

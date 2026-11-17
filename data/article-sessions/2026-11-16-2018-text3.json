@@ -1,0 +1,108 @@
+{
+  "id": "2026-11-16-2018-text3",
+  "date": "2026-11-17",
+  "learning_date": "2026-11-16",
+  "created_at": "2026-11-17T12:27:18+09:00",
+  "source": "2018 英语一 Text 3 · 纸质4/5；at all costs与作者论点复盘（已注意But）",
+  "focus_families": [
+    "costs-effort-intensity",
+    "attribution-stance",
+    "control-process-roles",
+    "only-when-necessary"
+  ],
+  "focus_question_ids": {
+    "costs-effort-intensity": [
+      "r18t3-effort-theatre"
+    ],
+    "attribution-stance": [
+      "r18t3-stance-costumes"
+    ],
+    "control-process-roles": [
+      "r18t3-process-soil"
+    ],
+    "only-when-necessary": [
+      "r18t3-onlywhen-exhibition"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "paper_outcome": {
+    "evidence_status": "user_reported_paper_outcome",
+    "question_range": [
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "reported_correct_count": 4,
+    "reported_total": 5,
+    "reported_all_correct": false,
+    "reported_question_correctness": {
+      "31": true,
+      "32": true,
+      "33": false,
+      "34": true,
+      "35": true
+    },
+    "reported_final_choice_letters": {
+      "33": "A"
+    },
+    "final_choice_letters_not_provided": [
+      31,
+      32,
+      34,
+      35
+    ],
+    "first_choices": "unknown",
+    "revisions": "not_reported",
+    "not_a_web_score": true
+  },
+  "passage_comprehension": {
+    "status": "gist_understood_during_original_attempt",
+    "user_quote": "这一篇我错了33，文章大致意思是了解了。",
+    "gist_understood": true,
+    "whole_passage_fully_understood": "not_confirmed",
+    "noticed_paragraph2_but": true,
+    "completely_missed_contrast": false,
+    "passage_level_comprehension_failure": false,
+    "positive_evidence": [
+      "基本理解文章大意",
+      "已注意第二段But及其重要性",
+      "明确排除了B和C"
+    ],
+    "independent_open_issue": "对D的数据价值概括仍有疑问，不能把排除A当作必然选出D。"
+  },
+  "all_observation_families": [
+    "attribution-stance",
+    "control-process-roles",
+    "costs-effort-intensity",
+    "hand-over-transfer",
+    "maladapted-fit-degree",
+    "only-when-necessary",
+    "tech-giant-meaning"
+  ],
+  "translation_difficulties": [
+    "at all costs",
+    "tech giant",
+    "handed over",
+    "controlled",
+    "only when",
+    "maladapted"
+  ],
+  "translation_marking_status": {
+    "active_question_confirmed": [
+      "at all costs"
+    ],
+    "box_or_active_not_individually_disambiguated": [
+      "tech giant",
+      "handed over",
+      "controlled",
+      "only when",
+      "maladapted"
+    ]
+  },
+  "critical_user_correction": "如果知道at all costs的准确意思我肯定不选A。",
+  "source_check": "data/source-checks/2018-english1.json",
+  "result_summary": "自述4/5，仅33错误；最终A，参考D，无正式首次选择或改选过程。先排除B/C，已注意But且大意基本理解。at all costs词义直接影响A的排除；即使排除A，对D仍有独立疑问。六处翻译困难保留原始混合标记来源。"
+}

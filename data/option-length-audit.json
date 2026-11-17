@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 440,
-        "correct_uniquely_longest": 103,
+        "question_count": 458,
+        "correct_uniquely_longest": 107,
         "correct_uniquely_shortest": 73,
-        "longest_guess_pct": 29.81,
-        "shortest_guess_pct": 21.48,
+        "longest_guess_pct": 29.69,
+        "shortest_guess_pct": 21.14,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -5338,6 +5338,312 @@
         "pool": "daily_article",
         "family": "semantic-action-roles",
         "source": "data/questions/2026-11-15-2018-text2-migration.json"
+      },
+      "r18t3-control-catalogue": {
+        "lengths": [
+          65,
+          71,
+          69,
+          65
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "control-process-roles",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-costs-competition": {
+        "lengths": [
+          61,
+          55,
+          59,
+          63
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "costs-effort-intensity",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-effort-theatre": {
+        "lengths": [
+          62,
+          63,
+          64,
+          66
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "costs-effort-intensity",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-handover-draft": {
+        "lengths": [
+          59,
+          62,
+          59,
+          61
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "hand-over-transfer",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-handover-keys": {
+        "lengths": [
+          54,
+          54,
+          57,
+          57
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "hand-over-transfer",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-high-cost-boundary": {
+        "lengths": [
+          64,
+          64,
+          67,
+          68
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "costs-effort-intensity",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-maladapted-checklist": {
+        "lengths": [
+          60,
+          62,
+          62,
+          62
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "maladapted-fit-degree",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-maladapted-workshop": {
+        "lengths": [
+          58,
+          53,
+          61,
+          60
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "maladapted-fit-degree",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-onlywhen-exhibition": {
+        "lengths": [
+          63,
+          61,
+          59,
+          64
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "only-when-necessary",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-onlywhen-room": {
+        "lengths": [
+          67,
+          63,
+          62,
+          60
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "only-when-necessary",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-process-soil": {
+        "lengths": [
+          55,
+          60,
+          61,
+          65
+        ],
+        "spread": 10,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "control-process-roles",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-stance-awards": {
+        "lengths": [
+          60,
+          65,
+          61,
+          64
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-stance-costumes": {
+        "lengths": [
+          66,
+          66,
+          64,
+          60
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-stance-delivery": {
+        "lengths": [
+          59,
+          57,
+          55,
+          58
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-stance-recording": {
+        "lengths": [
+          60,
+          62,
+          61,
+          63
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "attribution-stance",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-techgiant-inference": {
+        "lengths": [
+          59,
+          59,
+          60,
+          59
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.3333333333333333,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "tech-giant-meaning",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-techgiant-scale": {
+        "lengths": [
+          51,
+          57,
+          58,
+          60
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "tech-giant-meaning",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
+      },
+      "r18t3-under-no-circumstances": {
+        "lengths": [
+          59,
+          58,
+          61,
+          64
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "costs-effort-intensity",
+        "source": "data/questions/2026-11-16-2018-text3-migration.json"
       },
       "recruitment-hunt-b": {
         "lengths": [

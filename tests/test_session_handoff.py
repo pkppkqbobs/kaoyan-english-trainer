@@ -230,6 +230,29 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertNotIn('roles', groups)
         self.assertEqual((items, notes), before)
 
+    def test_translation_sources_keep_active_and_mixed_reports_separate_from_boxes(self):
+        notes = review.load(self.root / 'data/learning-notes.json')
+        for word, mark in [('boxed-word', 'boxed'), ('at all costs', 'active_question'),
+                           ('controlled', 'box_or_active_unconfirmed')]:
+            notes.append({'date': '2026-10-24', 'family': 'familiar-word-polysemy',
+                          'kind': 'translation_difficulty', 'source_exam': '2018-english1',
+                          'source_part': 'Reading Text 3', 'mark_type': mark, 'source_spans': [word]})
+        review.save(self.root / 'data/learning-notes.json', notes)
+        protected = [self.root / 'data/result-evidence.json', self.root / 'data/review-state.json']
+        before = [p.read_bytes() for p in protected]
+        report = handoff.build(self.root)
+        stage = next(s for s in report['recent_paper'] if s['exam'] == '2018-english1')
+        self.assertEqual(stage['boxed_spans'], ['boxed-word'])
+        self.assertEqual(stage['active_translation_spans'], ['at all costs'])
+        self.assertEqual(stage['unresolved_marking_translation_spans'], ['controlled'])
+        self.assertEqual(stage['translation_note_count'], 3)
+        text = handoff.markdown(report)
+        for expected in ('画框翻译：boxed-word。', '主动翻译疑问：at all costs。',
+                         '翻译困难（画框或主动报告未逐项区分）：controlled。'):
+            self.assertIn(expected, text)
+        self.assertEqual([p.read_bytes() for p in protected], before)
+        self.assertEqual(report['web']['latest_daily']['correct'], 8)
+
     def test_heading_matching_is_classified_with_part_b_without_adding_web_results(self):
         bank = review.load(self.root / 'data/base-bank.json')
         notes = review.load(self.root / 'data/learning-notes.json')

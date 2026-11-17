@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-15",
+  "reviewed_on": "2026-11-16",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -529,7 +529,25 @@
     "r18t2-conscious-noise": "recording-editor-awareness-of-noise-not-source-of-noise",
     "r18t2-conscious-choice": "shopper-deliberate-repair-choice-versus-accident-and-wakefulness",
     "r18t2-overtweeting-chair": "music-club-chair-excessive-posting-frequency",
-    "r18t2-overprefix-comparison": "over-detailed-versus-over-tweeting-excess-prefix"
+    "r18t2-overprefix-comparison": "over-detailed-versus-over-tweeting-excess-prefix",
+    "r18t3-effort-theatre": "theatre-set-restoration-effort-with-explicit-safety-limit",
+    "r18t3-costs-competition": "competition-captain-unconditional-price-versus-effort-and-guarantee",
+    "r18t3-under-no-circumstances": "display-original-letter-absolute-rule-with-copy-exception",
+    "r18t3-high-cost-boundary": "completed-restoration-large-expense-not-unlimited-commitment",
+    "r18t3-stance-costumes": "school-costume-donor-ownership-versus-pupils-transformative-work",
+    "r18t3-stance-awards": "literary-award-entry-compliance-versus-imaginative-merit",
+    "r18t3-stance-recording": "concert-recording-licence-versus-instrument-balance-quality",
+    "r18t3-stance-delivery": "delivery-speed-metric-versus-correct-destination",
+    "r18t3-control-catalogue": "recording-project-decisions-versus-transcription-work",
+    "r18t3-process-soil": "garden-soil-sample-storage-versus-aggregated-measurement-map",
+    "r18t3-onlywhen-room": "rehearsal-room-supervisor-necessary-not-sufficient",
+    "r18t3-onlywhen-exhibition": "exhibition-reproduction-consent-and-fee-conditions",
+    "r18t3-handover-keys": "studio-key-transfer-with-same-evening-return",
+    "r18t3-handover-draft": "festival-guide-editor-to-colleague-work-handoff",
+    "r18t3-maladapted-checklist": "permanent-museum-checklist-versus-one-day-street-show",
+    "r18t3-maladapted-workshop": "solo-race-ranking-mismatched-to-collaborative-workshop",
+    "r18t3-techgiant-scale": "technology-startup-versus-large-multimarket-company",
+    "r18t3-techgiant-inference": "tech-company-scale-description-without-conduct-verdict"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -704,7 +722,25 @@
     "recording-editor-awareness-of-noise-not-source-of-noise": "2018 Text 2迁移：be conscious of / be aware of；不复读社交媒体新闻原句。",
     "shopper-deliberate-repair-choice-versus-accident-and-wakefulness": "2018 Text 2迁移：conscious choice与conscious of的搭配区别；不复读社交媒体新闻原句。",
     "music-club-chair-excessive-posting-frequency": "2018 Text 2迁移：over-：过度频率与内容真假；不复读社交媒体新闻原句。",
-    "over-detailed-versus-over-tweeting-excess-prefix": "2018 Text 2迁移：over-前缀跨语境迁移；不复读社交媒体新闻原句。"
+    "over-detailed-versus-over-tweeting-excess-prefix": "2018 Text 2迁移：over-前缀跨语境迁移；不复读社交媒体新闻原句。",
+    "theatre-set-restoration-effort-with-explicit-safety-limit": "2018 Text 3迁移：尽力与不惜代价：保留原文限制；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "competition-captain-unconditional-price-versus-effort-and-guarantee": "2018 Text 3迁移：at any cost / at all costs的强度；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "display-original-letter-absolute-rule-with-copy-exception": "2018 Text 3迁移：under no circumstances：强度与适用对象；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "completed-restoration-large-expense-not-unlimited-commitment": "2018 Text 3迁移：at a high cost与regardless of consequences分开；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "school-costume-donor-ownership-versus-pupils-transformative-work": "2018 Text 3迁移：作者论点与被引者归属理由；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "literary-award-entry-compliance-versus-imaginative-merit": "2018 Text 3迁移：资格认定与作者评价层次；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "concert-recording-licence-versus-instrument-balance-quality": "2018 Text 3迁移：认可合规同时提出进一步批评；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "delivery-speed-metric-versus-correct-destination": "2018 Text 3迁移：作者补充条件与被引者单一指标；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "recording-project-decisions-versus-transcription-work": "2018 Text 3迁移：control / process：决定用途与执行处理；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "garden-soil-sample-storage-versus-aggregated-measurement-map": "2018 Text 3迁移：持有与处理创造的额外用途；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "rehearsal-room-supervisor-necessary-not-sufficient": "2018 Text 3迁移：only when：必要条件不是充分保证；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "exhibition-reproduction-consent-and-fee-conditions": "2018 Text 3迁移：only when与额外条件；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "studio-key-transfer-with-same-evening-return": "2018 Text 3迁移：hand over：移交及权利范围；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "festival-guide-editor-to-colleague-work-handoff": "2018 Text 3迁移：hand over：方向与后续工作；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "permanent-museum-checklist-versus-one-day-street-show": "2018 Text 3迁移：slightly maladapted：程度与情境限制；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "solo-race-ranking-mismatched-to-collaborative-workshop": "2018 Text 3迁移：maladapted：评价标准与用途错配；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "technology-startup-versus-large-multimarket-company": "2018 Text 3迁移：tech giant：企业规模的比喻义；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。",
+    "tech-company-scale-description-without-conduct-verdict": "2018 Text 3迁移：tech giant：描述与评价分开；使用舞台、奖项、展览、园艺等材料，不复读医疗数据协议。"
   },
   "family_assessments": {
     "reference": {
@@ -861,7 +897,18 @@
     },
     "attribution-stance": {
       "coverage_gap": false,
-      "reason": "新增工业用地决策和清洁公交政策两种多主体立场归属语境。"
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "school-costume-donor-ownership-versus-pupils-transformative-work",
+        "literary-award-entry-compliance-versus-imaginative-merit",
+        "concert-recording-licence-versus-instrument-balance-quality",
+        "delivery-speed-metric-versus-correct-destination"
+      ],
+      "previous_assessment": {
+        "coverage_gap": false,
+        "reason": "新增工业用地决策和清洁公交政策两种多主体立场归属语境。"
+      }
     },
     "tone": {
       "coverage_gap": false,
@@ -1235,6 +1282,62 @@
         "museum-prized-collection-possession-versus-expanded-access",
         "cafe-service-improvement-and-dinner-glass-toast",
         "museum-security-strengthening-and-guide-skill-practice"
+      ]
+    },
+    "costs-effort-intensity": {
+      "coverage_gap": false,
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "theatre-set-restoration-effort-with-explicit-safety-limit",
+        "competition-captain-unconditional-price-versus-effort-and-guarantee",
+        "display-original-letter-absolute-rule-with-copy-exception",
+        "completed-restoration-large-expense-not-unlimited-commitment"
+      ]
+    },
+    "only-when-necessary": {
+      "coverage_gap": false,
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "rehearsal-room-supervisor-necessary-not-sufficient",
+        "exhibition-reproduction-consent-and-fee-conditions"
+      ]
+    },
+    "control-process-roles": {
+      "coverage_gap": false,
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "recording-project-decisions-versus-transcription-work",
+        "garden-soil-sample-storage-versus-aggregated-measurement-map"
+      ]
+    },
+    "tech-giant-meaning": {
+      "coverage_gap": false,
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "technology-startup-versus-large-multimarket-company",
+        "tech-company-scale-description-without-conduct-verdict"
+      ]
+    },
+    "maladapted-fit-degree": {
+      "coverage_gap": false,
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "permanent-museum-checklist-versus-one-day-street-show",
+        "solo-race-ranking-mismatched-to-collaborative-workshop"
+      ]
+    },
+    "hand-over-transfer": {
+      "coverage_gap": false,
+      "review_session": "2026-11-16-2018-text3",
+      "reason": "优先固定短语强度与被引者/作者论点；其余为明确报告词句困难的独立迁移。",
+      "evidence_paths": [
+        "studio-key-transfer-with-same-evening-return",
+        "festival-guide-editor-to-colleague-work-handoff"
       ]
     }
   },

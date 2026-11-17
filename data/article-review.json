@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-17",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "title": "文章复盘 · 8题",
-  "meta": "2018 英语一 Text 2 · B→D改选证据、boast/boost与框词复盘 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
+  "meta": "2018 英语一 Text 3 · 纸质4/5；at all costs与作者论点复盘（已注意But） · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-11-15-2018-text2",
+  "storageId": "2026-11-16-2018-text3",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,107 +13,107 @@
   "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
   "questions": [
     {
-      "id": "r18t2-boost-confidence",
-      "family": "boast-boost-distinction",
-      "introduced": "2026-11-15",
-      "published_on": "2026-11-15",
-      "budget": 40,
-      "target": "boast / boost：支配关系与语义",
-      "skill": "boast / boost：支配关系与语义",
-      "q": "An apprentice knows how to repair clocks but doubts her ability. The instructor wants the next task to ___ her confidence; she is not being asked to brag about past work. Which verb fits?",
+      "id": "pb17-moralist-public-duty",
+      "family": "moralist-role",
+      "introduced": "2026-11-12",
+      "published_on": "2026-11-12",
+      "budget": 50,
+      "target": "moralist：道德倡导者的角色",
+      "skill": "moralist：道德倡导者的角色",
+      "q": "During a debate about lost property, Leena keeps asking what people owe to strangers. A colleague calls her a moralist. Which activity best fits that description?",
       "o": [
-        "boast",
-        "roast",
-        "boost",
-        "toast"
+        "Measuring how often residents misplace their own belongings.",
+        "Urging residents to judge their conduct by ethical duties.",
+        "Identifying which strangers legally own the lost objects.",
+        "Describing how surprise changes a stranger's emotions."
       ],
-      "a": 2,
-      "origin_session": "2026-11-15-2018-text2",
+      "a": 1,
+      "origin_session": "2026-11-12-2017-partb",
       "exp": {
-        "trans": "学徒会修钟表，却缺乏信心。老师希望下个任务提高她的信心，并非让她夸耀旧成绩。哪个动词合适？",
-        "structure": "空格动词直接支配her confidence，要求表达提高；boast about才通常引出夸耀的对象。",
-        "other": "apprentice学徒；brag夸耀。",
-        "meaning": "boost confidence表示提高信心；boast与boost字形相近但不能互换。",
-        "rest": "boast表示夸耀或拥有值得自豪之物，不表示提高信心；roast是烘烤，toast可烤面包或祝酒，都不符合此宾语关系。"
+        "trans": "讨论失物时，莉娜不断追问人们对陌生人负有什么责任；同事称她为moralist。哪种活动符合这一描述？",
+        "structure": "what people owe to strangers是asking的宾语；moralist指人，核心是对正确行为的评价或倡导。",
+        "other": "owe负有义务；conduct行为；ethical伦理的。",
+        "meaning": "根据责任与行为是非识别道德倡导者，不能只把moralist看成泛指善良的人。",
+        "rest": "Measuring只统计失物；Identifying...legally确定财产权属；Describing...emotions描写情绪，都未体现倡导伦理行为。"
       },
-      "context_id": "clock-repair-apprentice-confidence-improvement-not-bragging"
+      "context_id": "lost-property-debate-normative-duty-versus-counting-law-emotion"
     },
     {
-      "id": "with-archive-loading-c",
-      "family": "with",
+      "id": "r18t3-effort-theatre",
+      "family": "costs-effort-intensity",
+      "introduced": "2026-11-16",
+      "published_on": "2026-11-17",
+      "budget": 50,
+      "target": "尽力与不惜代价：保留原文限制",
+      "skill": "尽力与不惜代价：保留原文限制",
+      "q": "A theatre team promises to spare no effort in rebuilding a damaged set, but will abandon the plan if the hall cannot be made safe. Which summary preserves the commitment?",
+      "o": [
+        "The team must rebuild the set regardless of every consequence.",
+        "The team will make every effort within the stated safety limit.",
+        "The team will attempt repairs only if no serious work is needed.",
+        "The team treats its rebuilding goal as more important than safety."
+      ],
+      "a": 1,
+      "origin_session": "2026-11-16-2018-text3",
+      "exp": {
+        "trans": "剧团承诺尽全力重建布景，但若礼堂不能达到安全条件就放弃。哪种概括保留了这一承诺？",
+        "structure": "spare no effort强调努力程度；but后的条件限制同样有效，不能被前半句抹去。",
+        "other": "set布景；abandon放弃；commitment承诺。",
+        "meaning": "尽全力不自动等于不计后果。这里有明确安全限制，改写成at all costs或regardless of every consequence会超出原文。",
+        "rest": "regardless与more important than safety删除安全限制；no serious work把尽力反成只在不费力时才做。"
+      },
+      "context_id": "theatre-set-restoration-effort-with-explicit-safety-limit"
+    },
+    {
+      "id": "r18t3-process-soil",
+      "family": "control-process-roles",
+      "introduced": "2026-11-16",
+      "published_on": "2026-11-17",
+      "budget": 50,
+      "target": "持有与处理创造的额外用途",
+      "skill": "持有与处理创造的额外用途",
+      "q": "A gardening club stores labelled soil samples. Volunteers compare the samples' measurements and produce a map that helps members select suitable plants. What creates the map's additional usefulness in this account?",
+      "o": [
+        "The samples remain inside boxes without being examined.",
+        "The labels prove that the club may ignore every measurement.",
+        "Combining and analysing measurements reveals useful patterns.",
+        "Owning a storage cupboard automatically supplies planting advice."
+      ],
+      "a": 2,
+      "origin_session": "2026-11-16-2018-text3",
+      "exp": {
+        "trans": "园艺社团存放土样；志愿者比较测量结果并制作选植物用的地图。地图增加的用途来自什么？",
+        "structure": "compare...produce构成处理与成果的关系；stores只说明持有或保管材料，未独自形成地图信息。",
+        "other": "measurement测量结果；pattern规律；soil土壤。",
+        "meaning": "此例中比较与分析创造额外用途；不由此推断原始材料在任何情况下毫无价值，或持有者没有任何权利。",
+        "rest": "without being examined否认处理步骤；ignore every measurement与制作地图的证据相反；automatically...advice把保管工具当成分析成果。"
+      },
+      "context_id": "garden-soil-sample-storage-versus-aggregated-measurement-map"
+    },
+    {
+      "id": "nested-valve-leak-c",
+      "family": "nested",
       "introduced": "2026-10-18",
       "published_on": "2026-10-18",
-      "budget": 50,
-      "target": "with + noun + participial phrase",
-      "skill": "识别with复合结构的伴随状态",
-      "q": "The archive reopened at noon, with several boxes waiting in the loading area. What does the with-clause do?",
+      "budget": 60,
+      "target": "who-clause / that-clause / main-clause predicate",
+      "skill": "区分定语从句、宾语从句和主句谓语",
+      "q": "Engineers who noticed that the valve was leaking shut down the line. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
       "o": [
-        "It describes a state accompanying the archive's reopening.",
-        "It gives the sole reason the archive reopened at noon.",
-        "It reports an action that archive staff carried out.",
-        "It is the direct object of reopened in the main clause."
+        "Engineers / noticed / shut down",
+        "the valve / noticed / was leaking",
+        "Engineers / was leaking / noticed",
+        "the line / shut down / noticed"
       ],
       "a": 0,
       "exp": {
-        "trans": "档案馆中午重新开放，当时有几个箱子正等在装卸区。with结构补充了重新开放时伴随的状态。",
-        "structure": "主干是The archive reopened at noon；with several boxes waiting in the loading area是with + 名词 + 现在分词结构，several boxes是waiting的逻辑主语。",
-        "other": "archive 档案馆；reopen 重新开放；loading area 装卸区；accompany 伴随。",
-        "meaning": "with复合结构常补充主句发生时的伴随状态。它不是reopened的直接宾语，也不自动表达原因或目的。",
-        "rest": "句子没有说明这是档案馆重新开放的唯一原因；with短语描述箱子所处的状态，并未说工作人员另做了一项动作；reopened在这里是不及物动词，不需要直接宾语。"
+        "trans": "注意到阀门漏液的工程师关闭了生产线。按题目要求的顺序，主句主语中心词是Engineers，who从句谓语是noticed，主句谓语是shut down。",
+        "structure": "主句骨架是Engineers shut down the line；who noticed...修饰Engineers；that the valve was leaking是noticed的宾语从句。三个谓语分别属于不同层级。",
+        "other": "engineer 工程师；valve 阀门；leak 漏液；shut down 关闭、停运；subject head 主语中心词。",
+        "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。阀门是that从句的主语，工程师才是主句主语。",
+        "rest": "the valve只在that从句中作主语；was leaking属于that宾语从句，不是who从句谓语；the line是shut down的宾语，不是主句主语。"
       },
-      "context_id": "context:with-archive-loading-c"
-    },
-    {
-      "id": "r17t3-budding-project",
-      "family": "budding-stage",
-      "introduced": "2026-11-10",
-      "published_on": "2026-11-10",
-      "budget": 45,
-      "target": "budding / fully developed",
-      "skill": "budding / fully developed",
-      "q": "A translation collective has completed its first small commission and is still learning how to work together. A reviewer calls it a budding enterprise. Which expectation fits?",
-      "o": [
-        "It has already reached a stable and fully developed operating scale.",
-        "Its first commission proves that every future project must succeed.",
-        "It is showing early promise while its organisation is still developing.",
-        "It has permanently stopped operating before completing any project."
-      ],
-      "a": 2,
-      "origin_session": "2026-11-10-2017-text3",
-      "exp": {
-        "trans": "一个翻译合作团队刚完成首个小委托，成员仍在学习协作。评论者称它为budding enterprise。怎样理解适当？",
-        "structure": "first small commission与still learning共同限定发展阶段；budding修饰enterprise，评价的是事业的初期发展。",
-        "other": "collective合作团队；commission委托；enterprise事业、企业；promise潜力。",
-        "meaning": "budding表示萌芽、开始显现潜力，不等于充分成熟；积极预期也不能推出每个项目必定成功。",
-        "rest": "fully developed把初期推成成熟；every future...must夸大确定性；permanently stopped与已完成委托并继续学习不符。"
-      },
-      "context_id": "new-translation-collective-first-commissions-not-established"
-    },
-    {
-      "id": "r18t2-role-bridge-kit",
-      "family": "semantic-action-roles",
-      "introduced": "2026-11-15",
-      "published_on": "2026-11-15",
-      "budget": 60,
-      "target": "工具用途与讨论话题：动作、对象和主体",
-      "skill": "工具用途与讨论话题：动作、对象和主体",
-      "q": "A repair cooperative lends a \"bridge kit\", a spare wheel that riders return when their damaged wheel is ready. Skills clinics also let members exchange repair methods. What does the evidence establish about the bridge kit?",
-      "o": [
-        "It gives members a place to exchange methods of wheel repair.",
-        "Temporary equipment keeps riders moving during wheel repairs.",
-        "It records views on the methods taught at the repair clinics.",
-        "A bridge-kit forum lets members debate which repairs are best."
-      ],
-      "a": 1,
-      "origin_session": "2026-11-15-2018-text2",
-      "exp": {
-        "trans": "维修合作社把备用车轮称为bridge kit，借给顾客直到原车轮修好；技能课另外提供交流维修方法的机会。关于备用车轮能确定什么？",
-        "structure": "lends与return构成临时借用关系；when从句限定归还时间。Skills clinics是另一个承担交流功能的主体，不能把它的动作转给bridge kit。",
-        "other": "cooperative合作社；spare备用的；clinic在此指技能指导课。",
-        "meaning": "正确概括可用temporary equipment同义改写spare wheel；保留repair、methods等词却把借用设备换成讨论工具，是动作和角色偷换。",
-        "rest": "place to exchange与forum把实体备用轮当成讨论场所；records views把交流或记录功能添加给车轮。提到维修这一共同话题不够。"
-      },
-      "context_id": "repair-cooperative-temporary-wheel-versus-skills-discussion"
+      "context_id": "context:nested-valve-leak-c"
     },
     {
       "id": "belief-negation-software-update-b",
@@ -141,320 +141,356 @@
       "context_id": "context:belief-negation-software-update-b"
     },
     {
-      "id": "r18t2-intimately-restoration",
-      "family": "intimately-familiarity",
-      "introduced": "2026-11-15",
-      "published_on": "2026-11-15",
-      "budget": 45,
-      "target": "intimately：深入熟悉与人际亲密",
-      "skill": "intimately：深入熟悉与人际亲密",
-      "q": "A conservator has studied one tapestry for years and knows its repairs intimately. She has never met the people who made it. What does intimately describe?",
+      "id": "r18t3-onlywhen-exhibition",
+      "family": "only-when-necessary",
+      "introduced": "2026-11-16",
+      "published_on": "2026-11-17",
+      "budget": 50,
+      "target": "only when与额外条件",
+      "skill": "only when与额外条件",
+      "q": "An exhibition issues a reproduction permit only when the owner has consented. A fee must also be paid. What does the consent clause establish?",
       "o": [
-        "Detailed familiarity with the object and its repairs.",
-        "A close personal friendship with the original makers.",
-        "A very quick look that reveals almost no information.",
-        "An immediate discovery made without earlier experience."
+        "Consent removes every other requirement for receiving a permit.",
+        "Any owner who consents must receive a permit without payment.",
+        "The fee replaces consent whenever the applicant can pay it.",
+        "A permit requires consent, while consent alone need not suffice."
       ],
-      "a": 0,
-      "origin_session": "2026-11-15-2018-text2",
+      "a": 3,
+      "origin_session": "2026-11-16-2018-text3",
       "exp": {
-        "trans": "修复人员研究一幅挂毯多年，深入熟悉其修补情况，却从未见过制作它的人。intimately描述什么？",
-        "structure": "knows...intimately的宾语是its repairs；后句排除把这里的熟悉理解为与制作者有亲密人际关系。",
-        "other": "conservator文物修复人员；tapestry挂毯。",
-        "meaning": "intimately可表示深入、详细地熟悉事物；具体语境决定词义，不限定为亲密关系，也不等于immediately的即时。",
-        "rest": "personal friendship换成人际关系；quick look反转深入程度；immediate discovery误把intimately当成immediately并忽略多年研究。"
+        "trans": "展览只有在所有者同意后才发复制许可，而且还需付费。同意这一条件说明什么？",
+        "structure": "permit only when consent表示有许可就须有同意；also列出另一个条件，不能由同意推出自动发证。",
+        "other": "permit许可；consent同意；suffice足够。",
+        "meaning": "必要条件限制与“只要”不同；这里单独同意未必足够。同意和付费是并需条件，不能把两者当作可互相替代。",
+        "rest": "removes every other、without payment都删除费用条件；fee replaces consent把并需条件错当替代关系。"
       },
-      "context_id": "tapestry-conservator-detailed-object-knowledge-not-personal-intimacy"
+      "context_id": "exhibition-reproduction-consent-and-fee-conditions"
     },
     {
-      "id": "r18t2-conscious-noise",
-      "family": "conscious-awareness",
-      "introduced": "2026-11-15",
-      "published_on": "2026-11-15",
-      "budget": 45,
-      "target": "be conscious of / be aware of",
-      "skill": "be conscious of / be aware of",
-      "q": "The editor is conscious of the noise from the next room and moves the recording session. Which paraphrase preserves conscious of?",
-      "o": [
-        "The editor deliberately creates all the noise in the next room.",
-        "The editor is unconscious while the recording takes place.",
-        "The editor is aware of the noise and adjusts the arrangement.",
-        "The editor knows nothing about the noise during recording."
-      ],
-      "a": 2,
-      "origin_session": "2026-11-15-2018-text2",
-      "exp": {
-        "trans": "编辑意识到隔壁噪声，便调整录音安排。conscious of如何改写？",
-        "structure": "be conscious of后接所察觉的对象；moves the session说明意识到噪声之后的调整，不说明他制造了噪声。",
-        "other": "recording session录音场次；arrangement安排。",
-        "meaning": "conscious of是意识到、察觉到，不只是生理清醒；aware of保留这一关系。",
-        "rest": "creates偷换为制造噪声；unconscious方向相反；knows nothing也否定了已经意识到。"
-      },
-      "context_id": "recording-editor-awareness-of-noise-not-source-of-noise"
-    },
-    {
-      "id": "paragraph-discourse-audit-method-before-cases",
+      "id": "pb13-museum-team-proposals-b",
       "family": "paragraph-order-discourse",
-      "introduced": "2026-10-04",
-      "published_on": "2026-10-27",
-      "target": "说明与例证的层级",
-      "skill": "说明与例证的层级",
-      "budget": 65,
-      "q": "An energy guide first explains that meter logs locate periods of high demand. A paragraph about equipment inspections follows. The next two paragraphs describe a bakery and a warehouse that combined logs with inspections. What is the role of the inspections paragraph?",
+      "introduced": "2026-10-19",
+      "published_on": "2026-10-19",
+      "budget": 60,
+      "context_id": "context:pb13-museum-team-proposals-b",
+      "target": "policy integration / mechanism / This change consequence",
+      "skill": "空前改革目标与空后合作效果需要中间实施步骤",
+      "q": "A museum plans to replace isolated conservation and education grants with a shared application process. Its directors say neither department will lose support. [BLANK] This change could generate exhibitions linking research and visitor experience. Which fits?",
       "o": [
-        "It completes the methods that the later cases apply.",
-        "It summarizes the outcomes reported in the later cases.",
-        "It gives a third case after the bakery and warehouse.",
-        "It withdraws the claim that meter logs can be useful."
+        "The museum has recently seen a sharp increase in visitor attendance.",
+        "Staff will evaluate proposals jointly and choose teams to collaborate.",
+        "The departments have long published very different research reports.",
+        "The museum will divide each grant into two fixed independent parts."
       ],
-      "a": 0,
+      "a": 1,
       "exp": {
-        "trans": "能源指南先解释用电表日志定位高需求时段，再介绍设备检查；后面两个案例同时使用日志和检查。检查段是在补齐随后案例会应用的方法。",
-        "structure": "first、follows、next交代段落顺序；combined logs with inspections说明两个案例同时依赖前面两种方法，不是只应用第一段的方法。",
-        "other": "meter log 电表记录；equipment inspection 设备检查；high demand 高需求；apply 应用。",
-        "meaning": "一个方法段结束，不代表下一段必须马上举例。要检查后面案例需要哪些方法说明，再分清并列方法与两则应用案例的层级。",
-        "rest": "总结后文结果需要结果性内容，检查方法本身不能当作结果总结；它位于两案例前也不是第三案例；案例同时使用日志，并未撤回日志有用的判断。"
+        "trans": "博物馆将把保护和教育研究的独立资助改成联合申请。管理层说两部门都不会失去支持。空格要解释联合评审并选择合作团队，才能顺接‘这一变化会产生连接研究与观众体验的展览’。",
+        "structure": "空格前提供改革背景和意图；This change could generate...给出预期效果。中间需要能产生该效果的具体协作措施，而非笼统主题描述。",
+        "other": "conservation 保护、文物修复；grant 资助；jointly 联合地；exhibition 展览。",
+        "meaning": "要核实桥接是否构成‘政策→机制→结果’链条，不能因选项也谈博物馆或部门就草率接受。",
+        "rest": "游客增加和以往报告差异只是主题信息；再把资金硬分成两部分反而违背联合申请改革。"
+      }
+    },
+    {
+      "id": "r18t3-stance-costumes",
+      "family": "attribution-stance",
+      "introduced": null,
+      "published_on": "2026-11-17",
+      "budget": 55,
+      "target": "作者论点与被引者归属理由",
+      "skill": "作者论点与被引者归属理由",
+      "q": "A school official gives a cloth donor all the credit for new stage costumes because the donor owned the material. The reviewer writes: \"But the fabric became useful costumes through the pupils' design and stitching.\" What is the reviewer emphasizing?",
+      "o": [
+        "Ownership alone should determine who deserves all creative credit.",
+        "The pupils' work transformed the supplied cloth into useful items.",
+        "The donor must be blamed for every problem with the performance.",
+        "The official has already denied that any cloth was supplied."
+      ],
+      "a": 1,
+      "origin_session": "2026-11-16-2018-text3",
+      "exp": {
+        "trans": "学校官员因布料属于捐赠者而把服装功劳全归给对方；评论者强调学生设计、缝制使布料成为可用服装。评论者强调什么？",
+        "structure": "official的理由是拥有材料；reviewer在But后另提出转化过程。需要归属主张，也要读出主张内容。",
+        "other": "credit功劳；stitching缝制；fabric布料。",
+        "meaning": "作者关注加工与设计贡献，而非只重述正式归属；这可迁移“持有资源”和“使之产生用途”的区别，不涉及原医疗协议。",
+        "rest": "Ownership alone重述官员观点；blamed...every problem换成无依据谴责；denied...supplied否认文中已承认的供给。"
       },
-      "context_id": "context:paragraph-discourse-audit-method-before-cases"
+      "context_id": "school-costume-donor-ownership-versus-pupils-transformative-work"
     }
   ],
   "retry": {
-    "boast-boost-distinction": [
+    "moralist-role": [
       {
-        "id": "r18t2-boast-possession",
-        "family": "boast-boost-distinction",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
+        "id": "pb17-moralist-inference",
+        "family": "moralist-role",
+        "introduced": "2026-11-12",
+        "published_on": "2026-11-12",
         "budget": 50,
-        "target": "boast的拥有义与boost的提升义",
-        "skill": "boast的拥有义与boost的提升义",
-        "q": "A brochure says the museum \"boasts a rare textile archive\". A new grant will \"boost access\" by paying for longer opening hours. What is the distinction?",
+        "target": "moralist：描述言论不认证人格",
+        "skill": "moralist：描述言论不认证人格",
+        "q": "A review calls the speakers moralists because they urge businesses to put fairness before convenience. What does that description establish?",
         "o": [
-          "The museum has a valued collection; the grant improves access.",
-          "The museum increases the collection; the grant praises access.",
-          "The museum brags about visitors; the grant stores their records.",
-          "The museum sells its old textiles; the grant cuts their price."
-        ],
-        "a": 0,
-        "origin_session": "2026-11-15-2018-text2",
-        "exp": {
-          "trans": "手册说博物馆boasts珍贵纺织档案；新资助通过延长开放时间boost access。两词有什么区别？",
-          "structure": "boasts后直接接具有吸引力的收藏，采用拥有义；boost支配access，表示提高可接近程度。",
-          "other": "textile纺织品；archive档案；grant资助。",
-          "meaning": "boast不仅有夸耀义，还可表示拥有值得自豪之物；它仍不能泛译为增加。boost表示改善或提升。",
-          "rest": "increases...praises把拥有与提升两种语义互换；brags about visitors改了原宾语；sells...cuts their price添加文中没有的出售和降价。"
-        },
-        "context_id": "museum-prized-collection-possession-versus-expanded-access"
-      },
-      {
-        "id": "r18t2-associated-toast",
-        "family": "boast-boost-distinction",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 45,
-        "target": "未确认形近词联想：按语境区分",
-        "skill": "未确认形近词联想：按语境区分",
-        "q": "At a café, a faster oven is expected to ___ service. At dinner, the owner raises a glass for a ___ to the kitchen team. Which pair fits both sentences?",
-        "o": [
-          "boast / roast",
-          "toast / boast",
-          "roast / boost",
-          "boost / toast"
+          "Their private conduct always meets the highest standards.",
+          "Their professional duties include enforcing criminal law.",
+          "Their discussion avoids judging whether conduct is right.",
+          "Their arguments promote a standard of right behaviour."
         ],
         "a": 3,
-        "origin_session": "2026-11-15-2018-text2",
+        "origin_session": "2026-11-12-2017-partb",
         "exp": {
-          "trans": "咖啡馆的新烤箱预计能改善服务；晚餐时店主举杯向厨房团队祝酒。哪组词分别合适？",
-          "structure": "第一个空格是支配service的动词，要求提升；a后接名词，raises a glass提供祝酒语境。",
-          "other": "oven烤箱；raise a glass举杯。",
-          "meaning": "boost可改善服务，a toast是祝酒。roast/toast在此作为教学辨析候选，不能据本题反推用户当时回忆的究竟是哪一个。",
-          "rest": "boast不能表达提高服务；roast表示烤制，不等于提高；toast放在service前也不能表达改善。形近不代表能共享句法宾语。"
+          "trans": "评论称这些演讲者是道德倡导者，因为他们要求企业先考虑公平、再考虑方便。这个称呼能确定什么？",
+          "structure": "because从句给出被如此称呼的依据：urge...to...是在倡导价值标准；不是对全部私人行为作认证。",
+          "other": "fairness公平；convenience便利；establish确定。",
+          "meaning": "词义能够支持其言论的伦理关注，不能自动证明其个人完美或法定身份。",
+          "rest": "private conduct...always把言论立场扩大为所有行为；enforcing criminal law添加执法身份；avoids judging与要求fairness相反。"
         },
-        "context_id": "cafe-service-improvement-and-dinner-glass-toast"
-      },
-      {
-        "id": "r18t2-beefup-sharpen",
-        "family": "boast-boost-distinction",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 45,
-        "target": "beef up / sharpen skills搭配",
-        "skill": "beef up / sharpen skills搭配",
-        "q": "A museum adds guards to beef up security. Its guides practise listening exercises to sharpen their skills. Which pair preserves the two meanings?",
-        "o": [
-          "Praise protection / announce new skills",
-          "Strengthen protection / improve skills",
-          "Define protection / share past skills",
-          "Remove protection / limit new skills"
-        ],
-        "a": 1,
-        "origin_session": "2026-11-15-2018-text2",
-        "exp": {
-          "trans": "博物馆增加安保人员以加强保卫；讲解员做听力练习以磨炼技能。哪组含义正确？",
-          "structure": "adds guards为beef up的增强义提供动作证据；practise...to sharpen说明练习用于提高技能。",
-          "other": "guard安保人员；security保卫；listening exercise听力练习。",
-          "meaning": "beef up与sharpen skills可在增强能力这一语境近义；不把beef或sharpen一律按食物或磨刀直译。",
-          "rest": "Praise/announce只是称赞或宣布；Define/share只是定义或分享；Remove/limit反转了增强方向。"
-        },
-        "context_id": "museum-security-strengthening-and-guide-skill-practice"
+        "context_id": "business-speakers-ethical-advocacy-not-personal-perfection"
       }
     ],
-    "with": [
+    "costs-effort-intensity": [
       {
-        "id": "with-bread-cooling",
-        "family": "with",
-        "introduced": null,
-        "budget": 60,
-        "target": "with + 名词 + 分词",
-        "skill": "with + 名词 + 后置成分",
-        "q": "The bakery opened at six, with warm bread cooling on the counter.\nwith 后面的结构主要起什么作用？",
+        "id": "r18t3-costs-competition",
+        "family": "costs-effort-intensity",
+        "introduced": "2026-11-16",
+        "published_on": "2026-11-17",
+        "budget": 50,
+        "target": "at any cost / at all costs的强度",
+        "skill": "at any cost / at all costs的强度",
+        "q": "In a fictional competition, a captain says, \"We must win at any cost.\" What strength does the phrase add to the statement?",
         "o": [
-          "补充开门时伴随的状态",
-          "引出老板的直接引语",
-          "说明开门的唯一目的",
-          "充当opened的直接宾语"
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "面包店六点开门，当时温热的面包正在柜台上晾凉。",
-          "structure": "主干：The bakery（主语）+ opened（不及物谓语）+ at six（时间状语）。原始简单句Warm bread was cooling on the counter → 去掉was，用with引出：with warm bread cooling on the counter。warm bread是with结构的逻辑主语，cooling是与之构成主动关系的现在分词。",
-          "other": "bakery 面包店；cool 晾凉、变凉；counter 柜台；warm 温热的。",
-          "meaning": "with复合结构可以补充主句发生时的伴随状态；它不是新的独立主句。",
-          "rest": "直接引语通常由say等动词引出，此处没有任何说话行为。目的常用to do或in order to，原句只描写伴随状态。opened在本句是不及物用法，with短语不是其直接宾语。"
-        },
-        "context_id": "with-simultaneous-ing"
-      },
-      {
-        "id": "with-lights-dimming",
-        "family": "with",
-        "introduced": null,
-        "target": "with + 名词 + 后置成分",
-        "skill": "with + 名词 + 后置修饰",
-        "q": "The audience waited quietly, with the lights gradually dimming before the film began. The with-structure mainly:",
-        "o": [
-          "adds a simultaneous background state",
-          "states the purpose of waiting",
-          "introduces an independent main clause",
-          "means the audience waited together with the lights"
-        ],
-        "a": 0,
-        "budget": 55,
-        "exp": {
-          "trans": "观众安静地等待着，电影开始前，灯光正逐渐变暗。",
-          "structure": "主干：The audience（主语）+ waited（谓语）+ quietly（状语）。原始简单句：The lights were gradually dimming before the film began. → 去掉were，用with引出：with the lights gradually dimming...。the lights是with结构的逻辑主语，dimming与lights构成主动关系。",
-          "other": "audience 观众；gradually 逐渐地；dim 变暗；before the film began 电影开始前。",
-          "meaning": "with + 名词 + 后置成分可补充主句发生时的伴随状态或背景。",
-          "rest": "目的通常用to do/in order to；with结构不是新的独立主句；这里with不是“和灯光一起”等普通介词伴随对象，而是带逻辑主语和分词的复合结构。"
-        },
-        "context_id": "with-simultaneous-ing"
-      }
-    ],
-    "budding-stage": [
-      {
-        "id": "r17t3-budding-friendship",
-        "family": "budding-stage",
-        "introduced": "2026-11-10",
-        "published_on": "2026-11-10",
-        "budget": 45,
-        "target": "early development / established relationship",
-        "skill": "early development / established relationship",
-        "q": "Two neighbours have begun sharing meals after years of merely exchanging greetings. The narrator describes a budding friendship. What is established?",
-        "o": [
-          "A closer relationship is beginning, though its future remains open.",
-          "A lifelong friendship is already certain to survive every difficulty.",
-          "Their earlier greetings prove that they have always been close friends.",
-          "The relationship has ended because the neighbours avoid one another."
-        ],
-        "a": 0,
-        "origin_session": "2026-11-10-2017-text3",
-        "exp": {
-          "trans": "两位邻居多年只是打招呼，最近开始一起吃饭，叙述者称之为budding friendship。能确认什么？",
-          "structure": "have begun标记变化开始；after years of merely...对比原先较疏远的状态；budding概括关系正萌芽。",
-          "other": "merely仅仅；greeting问候；narrator叙述者；lifelong终生的。",
-          "meaning": "是更亲密关系的开端，而非已经充分确立的终生承诺。发展初期、已有发展和最终稳定要区分。",
-          "rest": "lifelong...certain是无依据保证；always close抹去先前只打招呼的限定；has ended与开始一起吃饭的动作相反。"
-        },
-        "context_id": "new-neighbour-friendship-begins-without-guaranteed-future"
-      }
-    ],
-    "semantic-action-roles": [
-      {
-        "id": "r18t2-role-rehearsal-grid",
-        "family": "semantic-action-roles",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 60,
-        "target": "比较动作对象和工具所支持的任务",
-        "skill": "比较动作对象和工具所支持的任务",
-        "q": "A conductor marks player availability on \"section cards\" and places them in a room-and-time grid to prevent rehearsal clashes. Players suggest new repertoire at a separate meeting. What is the role of the cards?",
-        "o": [
-          "They provide a topic for sharing opinions about new music.",
-          "They record which new pieces players most want to perform.",
-          "They invite players to debate the meaning of section cards.",
-          "They organize which players rehearse in each room and slot."
-        ],
-        "a": 3,
-        "origin_session": "2026-11-15-2018-text2",
-        "exp": {
-          "trans": "指挥把乐手可到场的时间写在卡片上，放入房间与时间表以避免排练冲突；乐手在另一个会议上建议新曲目。卡片发挥什么作用？",
-          "structure": "marks...places...to prevent给出动作与目的链；at a separate meeting把提出曲目的行为放在另一个活动中。",
-          "other": "availability可到场情况；clash冲突；repertoire曲目。",
-          "meaning": "卡片用于人员、地点与时间的安排；讨论曲目不因文中同时出现音乐相关词就成为卡片的功能。",
-          "rest": "sharing opinions与debate改成讨论行为；record which new pieces误把时间可用性换成曲目偏好，均改变了动作对象。"
-        },
-        "context_id": "rehearsal-availability-grid-versus-repertoire-meeting"
-      },
-      {
-        "id": "r18t2-role-route-evidence",
-        "family": "semantic-action-roles",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 60,
-        "target": "改选证据强度：语义证据优于词面重合",
-        "skill": "改选证据强度：语义证据优于词面重合",
-        "q": "An orienteering club gives walkers a \"route card\" on which they mark completed checkpoints. At meetings, members exchange views about route difficulty. A reader first selects \"recording progress\", then prefers \"exchanging views on route cards\" for its repeated words. Which detail should control the choice?",
-        "o": [
-          "Walkers put checkpoint marks on their cards during the walk.",
-          "The meetings discuss routes using a closely related noun.",
-          "The two answer choices contain similar numbers of words.",
-          "The later answer came to mind after reading the text again."
-        ],
-        "a": 0,
-        "origin_session": "2026-11-15-2018-text2",
-        "exp": {
-          "trans": "定向活动给行走者卡片，用来标记已通过的检查点；会议另讨论路线难度。读者因重复词而想把记录进度改成交流路线卡观点。应以哪条细节判断？",
-          "structure": "on which引出卡片上的具体动作；at meetings转入另一场合。要核对谁在何处对什么做了什么，而非只看route重复。",
-          "other": "orienteering定向活动；checkpoint检查点；progress进度。",
-          "meaning": "检查点标记直接支持记录完成进度；会议存在并不证明卡片是交换观点的讨论对象。初选受支持，是因为具体证据，不是因为它更早出现。",
-          "rest": "closely related noun只证明词汇相关；numbers of words是形式线索；later...again只是判断发生得晚，都没有推翻卡片用于记录这一语义证据。"
-        },
-        "context_id": "route-card-checkpoint-recording-versus-route-discussion-and-revision"
-      },
-      {
-        "id": "r18t2-role-justified-revision",
-        "family": "semantic-action-roles",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 60,
-        "target": "正确改选也要有正确理由",
-        "skill": "正确改选也要有正确理由",
-        "q": "A notice says a library is launching a \"lending circle\". A reader initially expects book loans. The full definition says the circle meets to debate borrowing rules and issues no books itself. Which response and reason are warranted?",
-        "o": [
-          "Revise, since later sentences always replace earlier ones.",
-          "Keep, since a familiar word fixes the purpose on its own.",
-          "Revise, since the full definition identifies rule discussion.",
-          "Keep, since initial answers are generally more reliable."
+          "Winning is desirable only while no extra expense is required.",
+          "Winning has already required a large but fixed payment.",
+          "Winning should be pursued whatever the price or difficulty.",
+          "Winning is guaranteed whenever the team makes a serious effort."
         ],
         "a": 2,
-        "origin_session": "2026-11-15-2018-text2",
+        "origin_session": "2026-11-16-2018-text3",
         "exp": {
-          "trans": "图书馆推出lending circle，读者起初以为是借书活动；完整定义说明这是讨论借阅规则的小组，本身不发书。哪种处理及理由成立？",
-          "structure": "The full definition明确限定名称指什么；issues no books排除把它理解为放贷或发书服务。",
-          "other": "notice通知；issue在此为发出、提供；warranted有依据的。",
-          "meaning": "新语义证据可推翻基于名称的初步理解。本题确实应改选；不能把此前一次正确改错总结成永远相信初选。",
-          "rest": "later sentences always虽选了修改，却用了错误的普遍规则；familiar word与initial answers都让词面或时间顺序压过清楚定义。"
+          "trans": "在一个虚构比赛中，队长说必须不惜任何代价取胜。这个短语增加了什么强度？",
+          "structure": "at any cost与at all costs为惯用近义表达，限定追求目标时接受代价的态度，而不是宣布结果已经发生。",
+          "other": "pursue追求；desirable值得追求的。",
+          "meaning": "短语突出无论代价或困难的强烈取向，不只是努力程度；这类表达也可能有修辞色彩，不能因此保证一定成功。",
+          "rest": "no extra expense反向增加省钱限制；already...fixed payment混成已付高价；guaranteed把强烈意愿误成结果必然实现。"
         },
-        "context_id": "library-discussion-circle-definition-legitimately-revises-name-based-guess"
+        "context_id": "competition-captain-unconditional-price-versus-effort-and-guarantee"
+      },
+      {
+        "id": "r18t3-under-no-circumstances",
+        "family": "costs-effort-intensity",
+        "introduced": "2026-11-16",
+        "published_on": "2026-11-17",
+        "budget": 50,
+        "target": "under no circumstances：强度与适用对象",
+        "skill": "under no circumstances：强度与适用对象",
+        "q": "A display rule states, \"Under no circumstances may the original letter leave its case; staff may handle copies.\" Which statement preserves the rule?",
+        "o": [
+          "Staff may never touch any copy or original item on display.",
+          "The original may leave its case when a visitor pays extra.",
+          "Copies must remain locked away just like the original letter.",
+          "The original must stay in its case, while copies may be handled."
+        ],
+        "a": 3,
+        "origin_session": "2026-11-16-2018-text3",
+        "exp": {
+          "trans": "展陈规则说原信件在任何情况下都不得离开盒子，工作人员可拿取副本。哪句保留规则？",
+          "structure": "Under no circumstances的绝对限制指向original letter；分号后明确给copies不同权限。",
+          "other": "case陈列盒；original原件；copy副本。",
+          "meaning": "强措辞并非一律错误：原文明确如此规定且对象范围一致时，应保留强度；不能扩大到所有副本。",
+          "rest": "never...any copy与copies locked扩大限制对象；pays extra增加原文没有的例外。"
+        },
+        "context_id": "display-original-letter-absolute-rule-with-copy-exception"
+      },
+      {
+        "id": "r18t3-high-cost-boundary",
+        "family": "costs-effort-intensity",
+        "introduced": "2026-11-16",
+        "published_on": "2026-11-17",
+        "budget": 50,
+        "target": "at a high cost与regardless of consequences分开",
+        "skill": "at a high cost与regardless of consequences分开",
+        "q": "A restoration was completed at a high cost. The report gives the final expense but says nothing about what losses the organizers would have accepted. What can be concluded?",
+        "o": [
+          "The expense was substantial; unlimited acceptance is not stated.",
+          "The organizers promised to accept every possible harmful result.",
+          "The organizers were unwilling to make any serious financial effort.",
+          "The restoration would have continued regardless of the consequences."
+        ],
+        "a": 0,
+        "origin_session": "2026-11-16-2018-text3",
+        "exp": {
+          "trans": "修复以高昂代价完成。报告给出最终费用，却没说组织者愿意接受哪些损失。能得出什么？",
+          "structure": "at a high cost描述已发生的代价大小；would have accepted是报告未提供的条件性态度。",
+          "other": "substantial相当大的；expense费用。",
+          "meaning": "高昂代价不等于无论什么代价都接受；不能把描述性成本事实改成at all costs式的无条件承诺。",
+          "rest": "every possible harmful result和regardless都补加无限接受的承诺；unwilling...any effort既无依据又与高额支出不符。"
+        },
+        "context_id": "completed-restoration-large-expense-not-unlimited-commitment"
+      }
+    ],
+    "control-process-roles": [
+      {
+        "id": "r18t3-control-catalogue",
+        "family": "control-process-roles",
+        "introduced": "2026-11-16",
+        "published_on": "2026-11-17",
+        "budget": 50,
+        "target": "control / process：决定用途与执行处理",
+        "skill": "control / process：决定用途与执行处理",
+        "q": "A collection coordinator decides why recordings may be used and who may receive them. An assistant converts the files into searchable transcripts under those instructions. Which distinction fits the stated roles?",
+        "o": [
+          "The coordinator sets the uses; the assistant performs conversion.",
+          "The assistant decides every purpose because conversion uses a computer.",
+          "The coordinator converts the files while the assistant sets the uses.",
+          "Neither person has any role until ownership of the files is sold."
+        ],
+        "a": 0,
+        "origin_session": "2026-11-16-2018-text3",
+        "exp": {
+          "trans": "负责人决定录音用途与接收者；助理按指令把文件转成可搜索文本。怎样区分两者？",
+          "structure": "decides why/who给出用途与接收权限的决定；converts...under instructions给出实际处理步骤。",
+          "other": "transcript文字记录；conversion转换。",
+          "meaning": "控制用途与执行处理不是同一个行为。这只是题干明确分工，不泛断法律责任全部归一方或处理方绝无责任。",
+          "rest": "assistant decides误由技术处理推出决定权；coordinator converts颠倒主体；until ownership sold添加交易前提。"
+        },
+        "context_id": "recording-project-decisions-versus-transcription-work"
+      }
+    ],
+    "nested": [
+      {
+        "id": "legacy-who-that-main",
+        "source": "today",
+        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+        "target": "who 定语从句 / that 宾语从句",
+        "q": "Applicants who believe that a longer résumé automatically proves greater ability often overlook the value of relevance.\n哪组句法判断正确？",
+        "o": [
+          "主句主语 Applicants；who 从句谓语 believe；主句谓语 overlook",
+          "主句主语 Applicants；who 从句谓语 proves；主句谓语 believe",
+          "主句主语 a longer résumé；who 从句谓语 believe；主句谓语 overlook",
+          "主句主语 Applicants；who 从句谓语 believe；主句谓语 proves"
+        ],
+        "a": 0,
+        "diag": {
+          "1": "proves 属于 that 宾语从句，不是 who 从句的核心谓语；believe 也不是主句谓语。",
+          "2": "a longer résumé 是 that 从句内部的主语，不是整句主语。",
+          "3": "proves 是 that 从句谓语；整句主句谓语是 overlook。"
+        },
+        "exp": {
+          "trans": "那些认为简历越长就自然能证明能力越强的申请者，往往忽视了“相关性”的价值。",
+          "structure": "原始简单句① Applicants often overlook the value of relevance. ② Applicants believe something. ③ A longer résumé automatically proves greater ability. → ②把 something 换成 that 从句：Applicants believe that... → 再把②变成修饰 Applicants 的 who 定语从句：Applicants who believe that... often overlook...。所以整句主语 Applicants，who 从句谓语 believe，that 从句谓语 proves，主句谓语 overlook。",
+          "other": "applicant 申请者；résumé 简历；automatically 自然而然地/自动地；relevance 相关性。",
+          "meaning": "看到 who 后先划到从句结束，再找主句谓语；who 从句里又可嵌套 that 宾语从句。",
+          "rest": "把 that 从句的谓语 proves 误当成外层谓语，或把其中的 a longer résumé 误当成整句主语，都会错过：Applicants 是主句主语，believe 是 who 从句谓语，overlook 是主句谓语。"
+        },
+        "family": "nested",
+        "introduced": "2026-09-29",
+        "budget": 60,
+        "context_id": "nested-who-that-predicate"
+      },
+      {
+        "id": "nested-shared-gate",
+        "family": "nested",
+        "introduced": "2026-09-29",
+        "budget": 60,
+        "target": "who 定语从句 / that 宾语从句",
+        "skill": "who 定语从句 + that 宾语从句 + 主句谓语",
+        "q": "Residents who discovered that the shared gate was unlocked called the caretaker.\n按“主句主语中心词 / who从句谓语 / 主句谓语”的顺序，哪组正确？",
+        "o": [
+          "Residents / discovered / called",
+          "the shared gate / discovered / was",
+          "Residents / was unlocked / discovered",
+          "the caretaker / called / discovered"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "发现公共大门没有锁上的住户给管理员打了电话。",
+          "structure": "简单句①Residents called the caretaker. ②Residents discovered something. ③The shared gate was unlocked. → 把③接在discovered后：Residents discovered that the shared gate was unlocked. → 把重复的Residents换成who并嵌入①：Residents [who discovered [that the shared gate was unlocked]] called the caretaker。主句完整主语包含who从句，中心词是Residents。",
+          "other": "resident 住户；shared 共用的；unlocked 没锁上的；caretaker 管理员。",
+          "meaning": "发现这件事的是住户；没有锁上的是大门；打电话给管理员的还是住户。三个小句的主语和谓语不能串层。",
+          "rest": "the shared gate只在that从句中作主语，不能升为主句主语。was unlocked属于that从句，discovered属于who从句；两者都不是主句谓语。the caretaker是called的宾语，不是发现大门未锁的人。"
+        },
+        "context_id": "nested-who-that-predicate"
+      },
+      {
+        "id": "nested-editor-quote-d",
+        "family": "nested",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 60,
+        "target": "who-clause / that-clause / main-clause predicate",
+        "skill": "区分定语从句、宾语从句和主句谓语",
+        "q": "Editors who learned that the quote was inaccurate removed it from the draft. Which sequence gives the main-clause subject head / who-clause verb / main-clause verb?",
+        "o": [
+          "Editors / learned / removed",
+          "the quote / learned / was",
+          "Editors / was / learned",
+          "the draft / removed / learned"
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "得知引文不准确的编辑把它从草稿中删掉了。主句主语中心词是Editors，who从句谓语是learned，主句谓语是removed。",
+          "structure": "主句骨架是Editors removed it from the draft；who learned...修饰Editors；that the quote was inaccurate是learned的宾语从句。三个谓语属于不同层级。",
+          "other": "editor 编辑；quote 引文；inaccurate 不准确的；draft 草稿。",
+          "meaning": "先找主句骨架，再把who定语从句和that宾语从句分别嵌入。quote是that从句的主语，Editors才是主句主语。",
+          "rest": "the quote只在that从句中作主语；was属于that宾语从句，不是who从句谓语；the draft是介词from的宾语，不是主句主语。"
+        },
+        "context_id": "context:nested-editor-quote-d"
+      },
+      {
+        "id": "cloze-whatever-equipment-workshop-o",
+        "family": "nested",
+        "introduced": null,
+        "published_on": "2026-11-02",
+        "budget": 60,
+        "target": "whatever + 名词 / 嵌入式修饰结构",
+        "skill": "名词短语内部结构与主句宾语",
+        "q": "The workshop lets each visiting researcher retain whatever equipment they brought for the project. Which analysis is accurate?",
+        "o": [
+          "The phrase is the subject of lets and refers to the researcher.",
+          "The whole phrase is the object of retain; whatever determines equipment.",
+          "The phrase is a direct question asking what equipment was brought.",
+          "The phrase modifies workshop and explains why the visit occurred."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "工作坊允许每位来访研究人员保留自己为项目带来的任何设备。whatever equipment they brought for the project整体作retain的宾语。",
+          "structure": "主句骨架：The workshop lets each visiting researcher retain something。whatever equipment they brought for the project替换something，整体是retain的宾语；whatever限定equipment，they brought for the project修饰equipment。",
+          "other": "workshop工作坊；visiting researcher来访研究人员；retain保留；equipment设备。",
+          "meaning": "whatever + 名词可表示“任何……/所……的任何东西”。先识别整个名词短语在主句中的位置，再分析短语内部的限定词和修饰从句。",
+          "rest": "主句主语是The workshop，不是whatever短语；这里不是直接疑问句；whatever短语不修饰workshop，也不说明访问原因。"
+        },
+        "context_id": "whatever-equipment-as-object"
+      },
+      {
+        "id": "cloze-whatever-documents-registrar-p",
+        "family": "nested",
+        "introduced": null,
+        "published_on": "2026-11-02",
+        "budget": 60,
+        "target": "whatever + 名词 / 整体作宾语",
+        "skill": "名词性结构与从句内部关系",
+        "q": "The registrar will accept whatever documents the applicant submits before Friday. What role does the underlined phrase play?",
+        "o": [
+          "It is the object of accept: any documents the applicant submits.",
+          "It is the subject of submits and refers to the registrar.",
+          "It asks which documents the applicant may submit.",
+          "It modifies Friday and explains the reason for the deadline."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "登记员会接受申请人在周五之前提交的任何文件。whatever documents the applicant submits整体作accept的宾语。",
+          "structure": "主句：The registrar will accept something。whatever documents the applicant submits before Friday整体替代something，作accept的宾语；the applicant submits是修饰documents的限定性关系结构，documents是submits的宾语。",
+          "other": "registrar登记员；applicant申请人；submit提交；deadline截止时间。",
+          "meaning": "whatever + 名词表示任何符合后续限定的该类事物；整个短语可以在主句中作宾语。要区分外层动词accept与内层从句谓语submits。",
+          "rest": "underlined phrase不是submits的主语，内层主语是the applicant；这不是直接疑问句；Friday是before的宾语，不是被whatever短语修饰的对象，也没有说明截止原因。"
+        },
+        "prompt_marks": [
+          {
+            "type": "underline",
+            "text": "whatever documents the applicant submits before Friday",
+            "occurrence": 0
+          }
+        ],
+        "context_id": "whatever-documents-as-object"
       }
     ],
     "belief-negation-clause": [
@@ -484,60 +520,32 @@
         "context_id": "context:belief-negation-online-bookings-a"
       }
     ],
-    "intimately-familiarity": [
+    "only-when-necessary": [
       {
-        "id": "r18t2-intimately-factory",
-        "family": "intimately-familiarity",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 45,
-        "target": "intimately familiar with：贴近与细节",
-        "skill": "intimately familiar with：贴近与细节",
-        "q": "Rather than relying on annual summaries, a designer spends weeks beside the workers and becomes intimately familiar with each production stage. What is emphasized?",
+        "id": "r18t3-onlywhen-room",
+        "family": "only-when-necessary",
+        "introduced": "2026-11-16",
+        "published_on": "2026-11-17",
+        "budget": 50,
+        "target": "only when：必要条件不是充分保证",
+        "skill": "only when：必要条件不是充分保证",
+        "q": "A rehearsal room is unlocked only when a supervisor is present. Even then it may remain locked for maintenance. Which inference follows?",
         "o": [
-          "The designer has developed private friendships with everyone.",
-          "The designer has learned every stage without spending time.",
-          "The designer has gained close and detailed process knowledge.",
-          "The designer has stayed remote from the work being described."
+          "A supervisor's arrival always guarantees that the room is unlocked.",
+          "Without a supervisor, the room is not unlocked under this rule.",
+          "Maintenance requires the supervisor to leave before unlocking.",
+          "An unlocked room proves that maintenance has never occurred."
         ],
-        "a": 2,
-        "origin_session": "2026-11-15-2018-text2",
+        "a": 1,
+        "origin_session": "2026-11-16-2018-text3",
         "exp": {
-          "trans": "设计师不只依赖年度总结，而是在工人身边观察数周，深入熟悉各个生产阶段。强调什么？",
-          "structure": "Rather than构成间接概要与贴近观察的对比；familiar with后是生产阶段，不是私人交往。",
-          "other": "production stage生产阶段；remote疏远的、远离的。",
-          "meaning": "intimately familiar强调近距离、深入的了解；经历与细节是重点，不是保证所有人都成了朋友。",
-          "rest": "private friendships偷换为人际关系；without spending time忽略数周投入；stayed remote与在工人身边相反。"
+          "trans": "排练室只有在主管在场时才开锁；即便主管在场，维修也可能使房间继续锁住。能推出什么？",
+          "structure": "only when P才Q：Q意味着P是必要条件；P不自动足以推出Q。题干另给维修限制确认这一点。",
+          "other": "supervisor主管；maintenance维修。",
+          "meaning": "没有主管不能按该规则开锁；主管到场并不保证开锁。区分必要条件与充分条件，不能把only删掉。",
+          "rest": "always guarantees反转蕴含方向；requires...leave虚构维修规则；never occurred从当前开锁推断全部过去。"
         },
-        "context_id": "designer-on-site-production-familiarity-versus-remote-summaries"
-      }
-    ],
-    "conscious-awareness": [
-      {
-        "id": "r18t2-conscious-choice",
-        "family": "conscious-awareness",
-        "introduced": "2026-11-15",
-        "published_on": "2026-11-15",
-        "budget": 45,
-        "target": "conscious choice与conscious of的搭配区别",
-        "skill": "conscious choice与conscious of的搭配区别",
-        "q": "A shopper makes a conscious choice to repair a bag after comparing costs and waste. The choice was considered in advance. What does conscious mean here?",
-        "o": [
-          "Deliberate and made with awareness of the alternatives.",
-          "Accidental and made without noticing any alternatives.",
-          "Made instantly, with no comparison of possible options.",
-          "Evidence that the bag was selected by another person."
-        ],
-        "a": 0,
-        "origin_session": "2026-11-15-2018-text2",
-        "exp": {
-          "trans": "购物者比较费用与废弃物后，有意识地选择修包，而且事先考虑过。这里conscious是什么意思？",
-          "structure": "conscious修饰choice；considered in advance解释这是经过意识与考虑的选择。",
-          "other": "alternative可选方案；deliberate有意的、经过考虑的。",
-          "meaning": "conscious随搭配可指意识到或有意识、刻意的；conscious choice不同于be conscious of，但都不应机械译为清醒着。",
-          "rest": "accidental与有意识的考虑相反；instantly...no comparison忽略事先比较；another person把选择主体换成他人，均未保留经过考虑的选择。"
-        },
-        "context_id": "shopper-deliberate-repair-choice-versus-accident-and-wakefulness"
+        "context_id": "rehearsal-room-supervisor-necessary-not-sufficient"
       }
     ],
     "paragraph-order-discourse": [
@@ -694,29 +702,29 @@
         }
       },
       {
-        "id": "pb13-museum-team-proposals-b",
+        "id": "paragraph-discourse-audit-method-before-cases",
         "family": "paragraph-order-discourse",
-        "introduced": "2026-10-19",
-        "published_on": "2026-10-19",
-        "budget": 60,
-        "context_id": "context:pb13-museum-team-proposals-b",
-        "target": "policy integration / mechanism / This change consequence",
-        "skill": "空前改革目标与空后合作效果需要中间实施步骤",
-        "q": "A museum plans to replace isolated conservation and education grants with a shared application process. Its directors say neither department will lose support. [BLANK] This change could generate exhibitions linking research and visitor experience. Which fits?",
+        "introduced": "2026-10-04",
+        "published_on": "2026-10-27",
+        "target": "说明与例证的层级",
+        "skill": "说明与例证的层级",
+        "budget": 65,
+        "q": "An energy guide first explains that meter logs locate periods of high demand. A paragraph about equipment inspections follows. The next two paragraphs describe a bakery and a warehouse that combined logs with inspections. What is the role of the inspections paragraph?",
         "o": [
-          "The museum has recently seen a sharp increase in visitor attendance.",
-          "Staff will evaluate proposals jointly and choose teams to collaborate.",
-          "The departments have long published very different research reports.",
-          "The museum will divide each grant into two fixed independent parts."
+          "It completes the methods that the later cases apply.",
+          "It summarizes the outcomes reported in the later cases.",
+          "It gives a third case after the bakery and warehouse.",
+          "It withdraws the claim that meter logs can be useful."
         ],
-        "a": 1,
+        "a": 0,
         "exp": {
-          "trans": "博物馆将把保护和教育研究的独立资助改成联合申请。管理层说两部门都不会失去支持。空格要解释联合评审并选择合作团队，才能顺接‘这一变化会产生连接研究与观众体验的展览’。",
-          "structure": "空格前提供改革背景和意图；This change could generate...给出预期效果。中间需要能产生该效果的具体协作措施，而非笼统主题描述。",
-          "other": "conservation 保护、文物修复；grant 资助；jointly 联合地；exhibition 展览。",
-          "meaning": "要核实桥接是否构成‘政策→机制→结果’链条，不能因选项也谈博物馆或部门就草率接受。",
-          "rest": "游客增加和以往报告差异只是主题信息；再把资金硬分成两部分反而违背联合申请改革。"
-        }
+          "trans": "能源指南先解释用电表日志定位高需求时段，再介绍设备检查；后面两个案例同时使用日志和检查。检查段是在补齐随后案例会应用的方法。",
+          "structure": "first、follows、next交代段落顺序；combined logs with inspections说明两个案例同时依赖前面两种方法，不是只应用第一段的方法。",
+          "other": "meter log 电表记录；equipment inspection 设备检查；high demand 高需求；apply 应用。",
+          "meaning": "一个方法段结束，不代表下一段必须马上举例。要检查后面案例需要哪些方法说明，再分清并列方法与两则应用案例的层级。",
+          "rest": "总结后文结果需要结果性内容，检查方法本身不能当作结果总结；它位于两案例前也不是第三案例；案例同时使用日志，并未撤回日志有用的判断。"
+        },
+        "context_id": "context:paragraph-discourse-audit-method-before-cases"
       },
       {
         "id": "pb17-seed-label-link",
@@ -796,27 +804,257 @@
         },
         "context_id": "music-score-restoration-global-conclusion-with-qualified-claim"
       }
+    ],
+    "attribution-stance": [
+      {
+        "id": "attribution-fish-survey-a",
+        "family": "attribution-stance",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-08",
+        "budget": 55,
+        "target": "作者引用专家 / 报道对象",
+        "skill": "引述主张与作者的使用",
+        "q": "A journalist reports marine biologists' view that a river survey will reveal whether young fish can pass an old dam. She then criticizes the operator for delaying access to sampling sites but does not dispute the biologists' description of the survey. What does the article present as the survey's purpose?",
+        "o": [
+          "To determine whether young fish can travel past the dam.",
+          "To calculate the operator's annual advertising spending.",
+          "To prove the journalist agrees with every biologist's opinion.",
+          "To establish that delaying site access was legal."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "记者转述海洋生物学家观点：河流调查将查明幼鱼能否通过旧水坝；随后她批评运营方拖延提供取样点通行，但没有否认调查目的。因此文章呈现的调查目标仍是鱼类通行情况。",
+          "structure": "A journalist reports [biologists' view that...]；that从句的whether内容指明survey要查明什么。then后作者对运营方的批评是另一个命题。",
+          "other": "marine biologist 海洋生物学家；dam 水坝；sampling site 取样点；dispute 质疑、反驳。",
+          "meaning": "in the author's account可以包括作者引用并作为论述背景的专家描述，但这不等于作者无条件赞同专家所有观点。要分辨所引述的事件内容与作者额外的评价。",
+          "rest": "广告开支和访问是否合法不是调查问题；‘同意每一项观点’超出文本证据，不能从引用且未反驳推出。"
+        },
+        "context_id": "context:attribution-fish-survey-a"
+      },
+      {
+        "id": "attribution-closing-budget-b",
+        "family": "attribution-stance",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-08",
+        "budget": 55,
+        "target": "转述观点 / 作者保留态度",
+        "skill": "没有反驳不等于完全赞同",
+        "q": "A columnist quotes a consultant who claims that closing the library on Sundays will save substantial money. The columnist adds that no cost figures have been released to support this prediction. Which description of the columnist's position is best?",
+        "o": [
+          "The columnist finds the savings claim insufficiently supported.",
+          "The columnist has independently verified large savings.",
+          "The columnist proves Sunday closure cannot save any money.",
+          "The columnist discusses only the consultant's personal character."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "专栏作者引用顾问的说法：图书馆周日闭馆能省下不少钱；但作者指出没有公开成本数据支持这一预测。作者报道了这个说法，同时保留对其依据的质疑。",
+          "structure": "A columnist + quotes + a consultant who claims...；后句The columnist + adds + that从句，说明作者自己的保留意见。that no cost figures...不是顾问的立场。",
+          "other": "consultant 顾问；substantial 大量的；prediction 预测；verify 核实。",
+          "meaning": "分清‘别人说了什么’和‘作者如何评价别人说法’。引用不是自动背书；提出证据不足，也不是凭空证明相反结论必然成立。",
+          "rest": "独立验证节省金额与no cost figures矛盾；绝不省钱是相反的过强断言；作者讨论了预测和证据，并非只评价个人品格。"
+        },
+        "context_id": "context:attribution-closing-budget-b"
+      },
+      {
+        "id": "attribution-race-panel-account",
+        "family": "attribution-stance",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-31",
+        "target": "正式结论 / 作者评价",
+        "skill": "观点归属与评价对象",
+        "budget": 55,
+        "q": "A race panel restored a runner's result because no rule allowed exclusion on a single faulty sensor reading. A columnist accepts that decision but notes that the runner's account of his route clashes with two camera records. Which view belongs to the columnist?",
+        "o": [
+          "The official result must be cancelled immediately.",
+          "The runner's account is not entirely persuasive.",
+          "The panel has proved the runner told the truth.",
+          "The camera records are too trivial to consider."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "比赛裁判组恢复了一名选手的成绩，因为规则不允许只凭一次有问题的传感器读数取消资格。评论者接受这一决定，但指出选手对路线的叙述与两处影像记录不符。因此，评论者对叙述的可信度有保留。",
+          "structure": "首句race panel是决定的主体，because从句说明规则依据；第二句columnist是accepts和notes的共同主语，but把接受正式结果与质疑叙述分开。which view要求匹配后者的评价。",
+          "other": "panel裁判组；exclusion取消资格；faulty有问题的；clash with与……冲突。",
+          "meaning": "正式处理结果与叙述是否可信是两个判断。作者可以接受前者，同时质疑后者；不能因此替作者增加撤销成绩或已经证明说谎等结论。",
+          "rest": "“必须立即取消成绩”与accepts that decision不符；“裁判组证明选手说真话”将证据不足以取消资格扩大为事实证明；“影像记录太琐碎”颠倒了评论者用它提出疑问的作用。"
+        },
+        "context_id": "race-formal-result-vs-story-credibility"
+      },
+      {
+        "id": "attribution-garden-responsibility",
+        "family": "attribution-stance",
+        "introduced": "2026-10-08",
+        "published_on": "2026-10-31",
+        "target": "人物观点 / 道德评价",
+        "skill": "具体案例与作者主张",
+        "budget": 55,
+        "q": "A school committee says a garden project met its minimum reporting rules. In an editorial, a teacher writes that the organiser never asked why some children were left out: 'A completed form is no substitute for taking responsibility.' Which view is the teacher expressing?",
+        "o": [
+          "The school needs a new national inspection agency.",
+          "Every excluded child must have broken school rules.",
+          "Formal compliance does not settle the ethical concern.",
+          "The committee found that no children were excluded."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "校方委员会说花园项目达到了最低报告要求。教师在社论中指出，组织者从没追问某些孩子为何被排除，并说填完表格不能代替承担责任。教师强调，形式合规尚未解决道德责任问题。",
+          "structure": "首句school committee转述形式规则方面的判断；第二句a teacher writes引出教师评价，that从句记录组织者遗漏的追问。引语中A completed form是主语，is no substitute for...是否定性的表语结构。",
+          "other": "committee委员会；leave out排除；compliance合规；ethical道德上的。",
+          "meaning": "通过具体的未追问案例，作者把关注点从完成手续转向组织者责任。提到规则，并不等于作者一定主张另设监管机构。",
+          "rest": "“需要新国家级检查机构”是额外政策推断；“每个被排除的孩子都违规”没有证据；“无人被排除”与some children were left out直接矛盾。"
+        },
+        "context_id": "school-garden-compliance-vs-responsibility"
+      },
+      {
+        "id": "text2-speakers-council-planning",
+        "family": "attribution-stance",
+        "introduced": null,
+        "published_on": "2026-11-03",
+        "budget": 35,
+        "target": "who supports which policy",
+        "skill": "多主体立场归属",
+        "q": "A town councillor favored a new industrial site. Residents demanded an environmental review. The mayor proposed delaying approval, while a columnist backed the residents' request. Who favored the review?",
+        "o": [
+          "The councillor and the industrial developer.",
+          "The mayor alone, rather than the residents.",
+          "The residents and the newspaper columnist.",
+          "All four parties, without any disagreement."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "议员支持工业用地，居民要求评估，市长建议延迟，作者支持居民。",
+          "structure": "councillor、residents、mayor、columnist对应不同动作。",
+          "other": "councillor议员；columnist专栏作者；review审查。",
+          "meaning": "支持对象要逐一根据动词定位；延迟批准不必然等于支持评估。",
+          "rest": "议员未赞成评估；市长没明确赞成；四方并不一致。"
+        },
+        "context_id": "councillor-residents-mayor-columnist-review"
+      },
+      {
+        "id": "text2-speakers-transit-tax",
+        "family": "attribution-stance",
+        "introduced": null,
+        "published_on": "2026-11-03",
+        "budget": 35,
+        "target": "public opinion vs parties vs writer",
+        "skill": "政党与作者观点区分",
+        "q": "A transport survey found strong support for cleaner buses. Party A opposed funding them, Party B stayed silent, and a columnist called the plan sensible but poorly funded. Which interpretation fits?",
+        "o": [
+          "The public favors buses, while party responses differ.",
+          "Party B has publicly endorsed the full funding plan.",
+          "The columnist agrees that the buses are unnecessary.",
+          "Party A shares the survey respondents' enthusiasm."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "公众支持清洁公交，A党反对出资、B党沉默，作者认为方案合理但经费不足。",
+          "structure": "survey、Party A、Party B、columnist分别是不同意见来源。",
+          "other": "survey民调；funding资金；endorse支持。",
+          "meaning": "公众态度、政党行动与作者评价不能混为一个立场。",
+          "rest": "沉默不等于支持；作者未否认必要性；该政党未附和民意。"
+        },
+        "context_id": "clean-buses-survey-parties-columnist"
+      },
+      {
+        "id": "r18t3-stance-awards",
+        "family": "attribution-stance",
+        "introduced": null,
+        "published_on": "2026-11-17",
+        "budget": 55,
+        "target": "资格认定与作者评价层次",
+        "skill": "资格认定与作者评价层次",
+        "q": "An awards clerk says a novel is eligible because every form arrived on time. A critic replies, \"However, timely paperwork tells us little about the imagination in the novel.\" Which view belongs to the critic?",
+        "o": [
+          "The forms arrived too late for the novel to enter the award.",
+          "Administrative eligibility guarantees the novel's artistic merit.",
+          "Meeting an entry rule does not establish imaginative quality.",
+          "Every application rule should immediately be treated as invalid."
+        ],
+        "a": 2,
+        "origin_session": "2026-11-16-2018-text3",
+        "exp": {
+          "trans": "奖项职员说小说按时交齐表格所以合资格；评论者说按时交表不能说明作品想象力。评论者观点是什么？",
+          "structure": "clerk处理资格，critic评论艺术质量；does not establish是对tells us little的限度相容改写。",
+          "other": "eligible合资格；paperwork文书；merit价值、优点。",
+          "meaning": "进一步批评评价层次不足不等于否定所有程序规则；不能把被引用者的合规判断当作作者对质量的判断。",
+          "rest": "too late与按时到达相反；guarantees把资格升格成品质保证；every...invalid把局部不足扩成全面作废。"
+        },
+        "context_id": "literary-award-entry-compliance-versus-imaginative-merit"
+      },
+      {
+        "id": "r18t3-stance-recording",
+        "family": "attribution-stance",
+        "introduced": null,
+        "published_on": "2026-11-17",
+        "budget": 55,
+        "target": "认可合规同时提出进一步批评",
+        "skill": "认可合规同时提出进一步批评",
+        "q": "An inspector certifies that a concert recording followed the licensing rules. A reviewer agrees that the licence matters but adds, \"Yet musical clarity comes from the careful balance of instruments, not the certificate on the wall.\" What is the reviewer's further claim?",
+        "o": [
+          "Legal permission proves that the recording must sound clear.",
+          "The inspector has rejected every part of the licensing scheme.",
+          "No legal permission is needed whenever the music sounds good.",
+          "Careful musical work explains clarity beyond formal permission."
+        ],
+        "a": 3,
+        "origin_session": "2026-11-16-2018-text3",
+        "exp": {
+          "trans": "检查员确认录音符合许可规则；评论者认可许可的重要性，但强调声音清晰来自乐器平衡。进一步论点是什么？",
+          "structure": "agrees保留对许可的认可；but adds/Yet推进到声音质量的来源。not the certificate限制的是质量归因，不是许可合法性。",
+          "other": "certificate证书；clarity清晰度；balance平衡。",
+          "meaning": "转折可增加分析层次，而非一概谴责或否定前文；区分法律许可和产生实际质量的工作。",
+          "rest": "proves...sound clear混淆合规与品质；inspector rejected错归观点；No legal permission把质量归因不当扩大为免除法律要求。"
+        },
+        "context_id": "concert-recording-licence-versus-instrument-balance-quality"
+      },
+      {
+        "id": "r18t3-stance-delivery",
+        "family": "attribution-stance",
+        "introduced": null,
+        "published_on": "2026-11-17",
+        "budget": 55,
+        "target": "作者补充条件与被引者单一指标",
+        "skill": "作者补充条件与被引者单一指标",
+        "q": "A manager judges a delivery service by average speed. The columnist notes that parcels also need to arrive at the correct homes: \"But an impressive time figure is of little use if the address is wrong.\" What is the columnist arguing?",
+        "o": [
+          "Speed alone is insufficient; correct delivery also matters.",
+          "The manager has proved that no parcel can arrive quickly.",
+          "Any fast service must be worse than every slow service.",
+          "The company has formally abolished its speed measurements."
+        ],
+        "a": 0,
+        "origin_session": "2026-11-16-2018-text3",
+        "exp": {
+          "trans": "经理用平均速度评估快递；专栏作者说地址错误时，漂亮的时间数字用处不大。作者主张什么？",
+          "structure": "manager的单一指标与columnist追加的准确性要求分开；if限定缺点出现的条件。",
+          "other": "columnist专栏作者；average平均的；parcel包裹。",
+          "meaning": "作者指出只看一个指标不足，未断言速度没价值，也未声称任何快服务都差。",
+          "rest": "manager...proved错归并添加绝对结论；any...every无依据比较所有服务；formally abolished虚构公司政策变化。"
+        },
+        "context_id": "delivery-speed-metric-versus-correct-destination"
+      }
     ]
   },
   "article_session": {
-    "id": "2026-11-15-2018-text2",
-    "source": "2018 英语一 Text 2 · B→D改选证据、boast/boost与框词复盘",
-    "created_at": "2026-11-15T21:37:31+09:00",
+    "id": "2026-11-16-2018-text3",
+    "source": "2018 英语一 Text 3 · 纸质4/5；at all costs与作者论点复盘（已注意But）",
+    "created_at": "2026-11-17T12:27:18+09:00",
     "revision": 1,
-    "learning_date": "2026-11-15",
-    "session_file": "data/article-sessions/2026-11-15-2018-text2.json",
+    "learning_date": "2026-11-16",
+    "session_file": "data/article-sessions/2026-11-16-2018-text3.json",
     "current_families": [
-      "semantic-action-roles",
-      "boast-boost-distinction",
-      "conscious-awareness",
-      "intimately-familiarity"
+      "costs-effort-intensity",
+      "attribution-stance",
+      "only-when-necessary",
+      "control-process-roles"
     ],
     "deferred_families": [],
     "historical_families": [
-      "with",
+      "nested",
       "paragraph-order-discourse",
-      "belief-negation-clause",
-      "budding-stage"
+      "moralist-role",
+      "belief-negation-clause"
     ]
   },
   "issues_used": [
@@ -868,7 +1106,8 @@
     46,
     47,
     48,
-    49
+    49,
+    50
   ],
   "engine": 4
 }
