@@ -4263,6 +4263,98 @@
       "qid": "dnt-vendors-messages-b",
       "round_id": "mwkhuysc-bclucgjq",
       "source_date": "2026-11-17"
+    },
+    {
+      "date": "2026-11-18",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 17416,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "paragraph-order-discourse-parallel-a",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "family": "title-coverage",
+      "ok": false,
+      "ms": 118720,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "r18t4-title-swift-reform",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "astronomy-word-family",
+      "ok": true,
+      "ms": 73620,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "t17t2-astronomy-overlap",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "family": "costs-effort-intensity",
+      "ok": true,
+      "ms": 73645,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "e1r-flood-planning",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "semantic-action-roles",
+      "ok": true,
+      "ms": 99491,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "e1r-school-walking",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "nested",
+      "ok": true,
+      "ms": 5763,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "nested-editor-quote-d",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "family": "evaluation-vocab",
+      "ok": false,
+      "ms": 36507,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "text3-audit-records-malpractices",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18"
+    },
+    {
+      "date": "2026-11-18",
+      "family": "attribution-stance",
+      "ok": true,
+      "ms": 158732,
+      "uncertain": false,
+      "origin": 52,
+      "qid": "e1r-archive-labour",
+      "round_id": "mwlsuvm9-bnymm0g8",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
     }
   ],
   "issues": [
@@ -4316,6 +4408,7 @@
     48,
     49,
     50,
-    51
+    51,
+    52
   ]
 }

@@ -15,32 +15,24 @@
   },
   "web": {
     "current_daily_date": "2026-11-18",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 52,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-17",
-      "issue": 51,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/51",
-      "round_id": "mwkhuysc-bclucgjq",
+      "date": "2026-11-18",
+      "issue": 52,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/52",
+      "round_id": "mwlsuvm9-bnymm0g8",
       "correct": 6,
-      "total": 7,
-      "uncertain": 1,
+      "total": 8,
+      "uncertain": 0,
       "answer_dates": [
-        "2026-11-17"
+        "2026-11-18"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-17.json",
-      "evidence_source": "data/result-evidence.json",
-      "quality_status": "verified_with_exclusions",
-      "raw_correct": 6,
-      "raw_total": 8,
-      "excluded_count": 1,
-      "excluded_qids": [
-        "r18t2-role-route-evidence"
-      ],
-      "excluded_evidence_source": "data/excluded-evidence.json"
+      "source": "data/days/2026-11-18.json",
+      "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
       "status": "verified",
@@ -853,7 +845,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-17",
+          "due": "2026-11-18",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-15",
@@ -892,10 +884,10 @@
           "focus": "整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。",
           "paper_kind": "user_reported_confusion",
           "latest_observation": "2026-11-17",
-          "web_errors": 1,
+          "web_errors": 2,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-12",
+          "due": "2026-11-18",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-17",
@@ -937,7 +929,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-10",
+          "due": "2026-11-18",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-16",
@@ -1205,7 +1197,7 @@
     "data/article-sessions/2026-11-17-2018-text4.json": "f848fec9fb99943f7d74e43c7be0e2e94f6868b506b538c53792b8144d783c01",
     "data/article-sessions/2026-11-17-reading-style.json": "06d0e8cd4b185ae3adbc4369a8b315c0e4274ed909de946a84f76835205866ec",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "924f23e8edd19909a6cedbfe7235a1d109573683e17b19c74d90372f53f01618",
+    "data/daily.json": "32ea80c6dde582dec57dde0715a302a523114d8f2f6846d2ba4111ddfe5b9244",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1256,7 +1248,7 @@
     "data/days/2026-11-15.json": "6d0b6daf464dd5acb900d3a43004b36791c00f25f8f2050a90baf3b4102982b6",
     "data/days/2026-11-16.json": "5334312ca1af680f78fed335f857d394f0c67528092c5ed21f1b73aed586837c",
     "data/days/2026-11-17.json": "e1521d9f93e818e747cc1eae7f6348905f3e91ce95452ec7dc3fec9ce26bb3e4",
-    "data/days/2026-11-18.json": "924f23e8edd19909a6cedbfe7235a1d109573683e17b19c74d90372f53f01618",
+    "data/days/2026-11-18.json": "32ea80c6dde582dec57dde0715a302a523114d8f2f6846d2ba4111ddfe5b9244",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "cb6d3397c775c7ae4d616d1bb4c73c702d30757fe273d3a3452eddc3ffc90b6e",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
@@ -1308,8 +1300,8 @@
     "data/questions/2026-11-17-2018-text4-reading.json": "fbc27cd187c47ab3d1b7c057c8a64d1802d4eb1e7fddf9f1b86803944c493e61",
     "data/questions/2026-11-17-english1-reading.json": "984224ae3ffa9c58b6dec682c5558dd4d998e870dce61ef7c9d6560355f8a8d7",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "3c28b0c648bbf2524fee89584a028837d72683e60e4facf145bd205c93d2caca",
-    "data/review-state.json": "00e492c7be75f145f8bceca69bfb5f8604b657ec08c51b0422b7a5cebfe350a5",
+    "data/result-evidence.json": "d810825442316c8ca43932abc434ae588eb84e2f5385b041a627a4c0f90573dc",
+    "data/review-state.json": "ea02999a98acc48c86be389539316b67901175be11a378d9839ec3ce3abe91cf",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1318,7 +1310,7 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "fb1e3ed0dad2a74e533d8b8917290ff4c2418489b2c943e5fbce2c376bf8cf93"
   },
-  "source_fingerprint": "b5a3c9f41a7a0457f6e13352c5d4fcc5b7db0dd7b58ee6e39383c06c1d7ec91a",
+  "source_fingerprint": "164c89f403bd7c486c216ef3cdddf153813c0ec29c9a809b8c05395afd0b40ab",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
