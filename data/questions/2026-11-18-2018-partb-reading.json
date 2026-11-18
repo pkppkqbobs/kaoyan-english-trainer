@@ -1,0 +1,350 @@
+[
+  {
+    "id": "pb18-crowded-print-fair",
+    "family": "overcrowded-context",
+    "introduced": "2026-11-18",
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "On the first afternoon of a print fair, the smallest gallery held the most popular stalls. Visitors could enter freely, but once inside they found it hard to move between the tables. Some left without seeing the prints on the far wall, even though they had waited outside for half an hour.\n\nThe organiser described the gallery as overcrowded. For the second day, she moved several stalls to a hall that had been set aside for talks. The same number of people could still visit the fair; the difference was that they had enough space to stop and look.",
+    "q": "The word “overcrowded” in Paragraph 2 suggests that the gallery was",
+    "o": [
+      "too full for visitors to move easily.",
+      "too remote for most visitors to reach.",
+      "too small to host any popular stalls.",
+      "too costly to keep open for another day."
+    ],
+    "a": 0,
+    "target": "overcrowded 在实际空间中的程度",
+    "skill": "overcrowded 在实际空间中的程度",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "they found it hard to move between the tables",
+    "exp": {
+      "trans": "版画展人流集中在小展厅，访客在展台间移动困难。分散展台后，同样多的来客有了观看空间。",
+      "structure": "第一段交代拥挤的实际表现。第二段对比重新分布展台后的效果。",
+      "other": "stall 展位，set aside 留作某种用途，over- 在这里表示过度。",
+      "meaning": "人多到妨碍移动和观看，说明空间内人数超过适宜程度。",
+      "rest": "原文没有交通或场地费问题。小展厅实际容纳了最受欢迎的展台，问题发生在观展时的拥挤。"
+    }
+  },
+  {
+    "id": "pb18-crowded-seed-trays",
+    "family": "overcrowded-context",
+    "introduced": "2026-11-18",
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A class planted basil in trays and kept them on the same windowsill. Where the children had used only a few seeds, the plants grew steadily. In other trays, dozens of shoots came up together and their leaves soon covered one another. The teacher described those trays as overcrowded.\n\nMoving some of the shoots into separate pots helped, although the original trays had received just as much water and sunlight. The class had expected more seeds to produce more mature plants. It found instead that the number a tray could support depended on the space each plant needed as it grew.",
+    "q": "What made some of the trays “overcrowded”?",
+    "o": [
+      "Their leaves received too little water.",
+      "Too many shoots shared the same space.",
+      "The seeds were planted in shallow soil.",
+      "The plants grew at different speeds."
+    ],
+    "a": 1,
+    "target": "按容纳量理解 overcrowded",
+    "skill": "按容纳量理解 overcrowded",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "dozens of shoots came up together and their leaves soon covered one another",
+    "exp": {
+      "trans": "同一窗台上的育苗盘，苗太多时叶片相互遮盖，分盆后改善。需要考虑每株生长所需空间。",
+      "structure": "先对比播种数量和长势，再利用分盆的效果区分空间条件与浇水、光照。",
+      "other": "shoot 幼芽，windowsill 窗台，mature 成熟的。",
+      "meaning": "同一育苗盘容纳了太多幼苗。overcrowded 也可形容空间中事物过度密集。",
+      "rest": "浇水和光照条件一致，播种深度未交代。生长速度不同也没有表达同一空间内数量过多。"
+    }
+  },
+  {
+    "id": "pb18-necessitate-journal",
+    "family": "necessitate-causal-need",
+    "introduced": "2026-11-18",
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A research journal used to publish four issues a year. Each article had a page number that made sense only once the whole issue was assembled. The editors decided to release articles as soon as they were ready, so readers would no longer have to wait for other papers to be finished.\n\nThat change necessitated a new way of identifying individual articles. A paper could now appear well before anyone knew its position in a printed issue. The editors assigned it a permanent number at publication, which other researchers could cite even if the eventual page numbers changed.",
+    "q": "The move to publishing articles individually made it necessary to",
+    "o": [
+      "delay citations until the issue was complete.",
+      "print each paper in several different issues.",
+      "give each article a stable identifier.",
+      "reduce the number of papers accepted."
+    ],
+    "a": 2,
+    "target": "necessitate 的因果方向",
+    "skill": "necessitate 的因果方向",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "The editors assigned it a permanent number at publication",
+    "exp": {
+      "trans": "期刊改为论文一成熟便独立发布，旧页码尚未确定。为便于引用，编辑给每篇论文分配永久编号。",
+      "structure": "旧编号依赖成刊，新发布方式让该依赖失效，因而需要稳定的替代标识。",
+      "other": "assemble 编成，cite 引用，identifier 标识。",
+      "meaning": "新发布方式是原因，分配独立稳定的编号是由此产生的需要。",
+      "rest": "等整期出来才引用违背新做法的目的。多期重复印刷和减少收稿没有依据。"
+    }
+  },
+  {
+    "id": "pb18-necessitate-caption-check",
+    "family": "necessitate-causal-need",
+    "introduced": "2026-11-18",
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "An exhibition team invited several neighbouring towns to lend objects for a display of local crafts. Borrowing widened the range of objects, but every lender used a different form to record ownership. A single surname could refer to a maker, a former owner or the person lending an object.\n\nPutting all the forms into one catalogue necessitated a careful check of those roles. Without it, a visitor might read the name of a lender as the name of the person who made a pot. The team hired a researcher to compare the forms with the objects and write captions that described the right relationship.",
+    "q": "What did combining the records make necessary?",
+    "o": [
+      "Bringing the lenders together for a display.",
+      "Deciding which objects should leave the towns.",
+      "Choosing a common surname for catalogue entries.",
+      "Checking what each name represented in the forms."
+    ],
+    "a": 3,
+    "target": "necessitate 引出的必要行动",
+    "skill": "necessitate 引出的必要行动",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "Putting all the forms into one catalogue necessitated a careful check of those roles",
+    "exp": {
+      "trans": "联展借入展品时，表格中的人名可能指不同身份。合并目录前需要核对名字代表的是谁。",
+      "structure": "材料先说明身份标签的歧义，再交代合并目录带来核验的必要性。",
+      "other": "lender 出借人，caption 说明文字，former owner 前任所有者。",
+      "meaning": "使核验成为必要的是合并目录。核验目标是名字的身份所指。",
+      "rest": "邀请出借人和决定展品体现其他阶段的工作。使用统一姓氏会扩大混淆。"
+    }
+  },
+  {
+    "id": "pb18-demolition-stadium",
+    "family": "demolition-meaning",
+    "introduced": "2026-11-18",
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "Construction of the town’s new sports ground continued through two winters. After the local clubs occupied its changing rooms and began playing on the new pitches, the council approved the demolition of the old stadium. A contractor took down the stands and removed the concrete terraces. Local clubs were given a chance to collect turnstiles and signs before the last structures came down.\n\nSome residents had hoped that the old ground could be adapted for school sport. The council opted to keep only a small garden at the site, using bricks from the stadium to mark its boundary. That garden will preserve part of the place's history even though the venue itself will be gone.",
+    "q": "The council approved the “demolition” of the old stadium, which involved",
+    "o": [
+      "converting the venue for use by schools.",
+      "building new stands for the local teams.",
+      "moving the stadium to a nearby site.",
+      "taking down the structures on the site."
+    ],
+    "a": 3,
+    "target": "demolition 的事件含义",
+    "skill": "demolition 的事件含义",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "A contractor took down the stands and removed the concrete terraces.",
+    "exp": {
+      "trans": "新体育场历经两个冬天建成，球队入驻后，旧体育场的看台和结构被拆除。新花园将用旧砖保留一点场地记忆。",
+      "structure": "先写新场地建造与入驻，再写旧场地拆除。结尾说明如何保留场地记忆。",
+      "other": "construction 建造，occupy 在这里指入驻并使用，terrace 阶梯看台，turnstile 旋转闸门。",
+      "meaning": "承包商拆看台和移除混凝土结构，体现 demolition 是拆除。",
+      "rest": "供学校使用只是部分居民的设想。新场地已建成，旧体育场并没有整体迁移或为球队加建看台。"
+    }
+  },
+  {
+    "id": "pb18-demolition-canal-wall",
+    "family": "demolition-meaning",
+    "introduced": "2026-11-18",
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A flood channel has been out of use for years, but a low wall still divides it from the nearby park. Engineers propose removing the wall so that a footpath can reach the water. Before the demolition begins, a group of volunteers will photograph the stonework and record how the blocks were fitted together.\n\nThe photographs will help the park explain why the wall was built in the first place. A few marked stones can be kept for display, though that will leave no continuous wall at the site. The plan makes room for a new use while giving visitors some means of understanding the old one.",
+    "q": "What will happen during the planned demolition?",
+    "o": [
+      "The existing wall will be taken down.",
+      "The stone blocks will be fitted afresh.",
+      "The old channel will be put back to use.",
+      "The route will be closed to all visitors."
+    ],
+    "a": 0,
+    "target": "区分拆除、复建和后续利用",
+    "skill": "区分拆除、复建和后续利用",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "A few marked stones can be kept for display, though that will leave no continuous wall at the site",
+    "exp": {
+      "trans": "工程师计划拆除隔开公园与旧水道的矮墙，志愿者先拍照，部分石块留作展示。",
+      "structure": "先列拆除前记录，再解释局部保存石块并不意味着墙体仍在。",
+      "other": "stonework 石砌结构，continuous 连续的，footpath 步道。",
+      "meaning": "拆除事件本身是矮墙被拆下。保留少数石块不改变动作性质。",
+      "rest": "重砌墙、恢复水道原来功能、长期禁止通行都没有依据。"
+    }
+  },
+  {
+    "id": "pb18-elaborate-album",
+    "family": "elaborate-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A recording studio brought a school choir in to sing a tune the pupils already knew. The producer had prepared an elaborate arrangement for the session, with separate parts for several instruments and changes of rhythm between verses. The children could follow the melody, but many lost their place when the accompaniment changed.\n\nThe arranger made a simpler version for the next session. It kept the melody and the most distinctive rhythm while dropping many of the extra parts. The change made it possible for the choir to give a confident performance without treating the original arrangement as a failure on its own terms.",
+    "q": "The word “elaborate” in Paragraph 1 is closest in meaning to",
+    "o": [
+      "disputed and unfamiliar.",
+      "complex and detailed.",
+      "repetitive and predictable.",
+      "simple but striking."
+    ],
+    "a": 1,
+    "target": "elaborate 作形容词",
+    "skill": "elaborate 作形容词",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "with separate parts for several instruments and changes of rhythm between verses",
+    "exp": {
+      "trans": "学校合唱团熟悉曲调，却难以跟上复杂编曲。简化配器与变化后，他们更容易掌握节奏。",
+      "structure": "多声部与节奏变化支持复杂详尽这一含义。次段的简化版本提供对照。",
+      "other": "arrangement 编曲，accompaniment 伴奏，verse 歌曲的节。",
+      "meaning": "这里 elaborate 修饰 arrangement，形容配器与节奏安排复杂细致。",
+      "rest": "曲调其实熟悉，文中没有争议。节奏变化使编曲并不简单好唱，也不能说单调可预测。"
+    }
+  },
+  {
+    "id": "pb18-elaborate-condition",
+    "family": "elaborate-polysemy",
+    "introduced": null,
+    "published_on": "2026-11-18",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "An independent report says a new ticket scheme could help occasional visitors, but its author includes a qualification about opening hours. At a meeting, a trustee asks her to elaborate on that point. The author explains that the reduced fee is useful only if visitors who work during the day can come in the evening.\n\nThe discussion changes what the trustees ask staff to monitor. Ticket sales will still matter, but the next review will also record when people were able to visit. A brief qualification in a written report has led to a more precise question about who can benefit from the scheme.",
+    "q": "What did the trustee ask the author to do?",
+    "o": [
+      "Estimate how much the lower fee would cost.",
+      "Set a later date for publishing the report.",
+      "Explain the qualification in greater detail.",
+      "Remove the restriction from the ticket scheme."
+    ],
+    "a": 2,
+    "target": "elaborate on 作动词短语",
+    "skill": "elaborate on 作动词短语",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "The author explains that the reduced fee is useful only if visitors who work during the day can come in the evening.",
+    "exp": {
+      "trans": "受托人在会上请报告作者详述开放时段与低价票的关系。作者解释白天上班的人需要晚间到访机会。",
+      "structure": "elaborate on 之后紧接对那项限制的展开，新的监测指标又落实了这一解释。",
+      "other": "qualification 限定条件，trustee 受托管理者，occasional 偶尔的。",
+      "meaning": "请求的是把已有观点说明得更详细。这个结构里的 elaborate 是动词。",
+      "rest": "估算票价成本、推迟报告和取消限制都不是详细说明已有条件。"
+    }
+  },
+  {
+    "id": "pb18-overview-stockroom",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-18",
+    "budget": 65,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A theatre began lending its old stage equipment to local groups in the spring. The storekeeper expected to spend most of her time showing borrowers what was available. The scheme grew quickly, and she soon discovered that keeping items in use required work that had been easy to overlook.\n\n[Missing paragraph]\n\nOne of the first loans that spring shows why the return checks mattered. A group brought back a lighting stand with a cracked fitting. Because the storekeeper inspected it before putting it away, the fault was repaired before the next borrower arrived.",
+    "q": "Which paragraph best fits the gap?",
+    "o": [
+      "The service set up a spring display so visitors could see which lights and costumes were available to borrow.",
+      "At first the theatre kept the store open late. The additional hours made it easier for groups to collect equipment.",
+      "The staff organised the work around booking, collection and inspection on return. Each task had its own checklist.",
+      "Demand was especially high for racks and tables. Several groups asked whether they could keep these all summer."
+    ],
+    "a": 2,
+    "target": "概述环节后再写较早的具体实例",
+    "skill": "概述环节后再写较早的具体实例",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "One of the first loans that spring shows why the return checks mattered",
+    "exp": {
+      "trans": "剧院春季开始借出设备，材料空缺后用早期归还的一件器材说明为何要检查。",
+      "structure": "前段留下维护流程的问题，后段以还件检查的实例展开。中间需先介绍借出及归还流程。",
+      "other": "fitting 配件，inspection on return 归还时检查，cracked 有裂缝的。",
+      "meaning": "正确段把预约、领取和归还检查放进同一流程，提供后文 return checks 的依据。初期案例放在流程概述之后仍自然。",
+      "rest": "展示、延长开放时段和热门设备都有同一借用主题，也符合春季时间，却不能引出归还时对器材的检查。"
+    }
+  },
+  {
+    "id": "pb18-cause-watering",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-18",
+    "budget": 65,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "The allotment association noticed that several plots stayed dry even when others were watered often. Members first suspected that a pipe leaked. A survey showed instead that the early watering slot was the only one available to both ends of the site, and gardeners living farther away could seldom arrive in time.\n\n[Missing paragraph]\n\nUnder the new timetable, the outer plots could draw water in the evening, when more holders were able to come. The association later checked whether the former dry patches were still concentrated in the same part of the site.",
+    "q": "Which paragraph best fits the gap?",
+    "o": [
+      "The committee asked each household to pay towards repairs, even if its plot had never suffered from a leak.",
+      "The committee set out different watering hours, with a later slot for gardeners on the outer plots.",
+      "The committee encouraged gardeners to choose plants that need less water during a dry season.",
+      "The committee found that plots near the gate had been divided recently and began to review their sizes."
+    ],
+    "a": 1,
+    "target": "困难、调整方案与结果的因果链",
+    "skill": "困难、调整方案与结果的因果链",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "Under the new timetable, the outer plots could draw water in the evening",
+    "exp": {
+      "trans": "外侧地块缺水，调查发现时段不合适而非管道漏水。空缺后写时段调整的作用。",
+      "structure": "先排除漏水并找到排班原因，再应有建立新时段的措施，最后检查效果。",
+      "other": "allotment 分租的小块菜地，holder 使用者，draw water 取水。",
+      "meaning": "正确段直接处理外侧地块的时段困难，也为后文的 new timetable 建立所指。",
+      "rest": "筹修理费仍归因于漏水，耐旱植物与地块大小都没有解释后文为何出现新取水时段。"
+    }
+  },
+  {
+    "id": "pb18-given-anchor-returns",
+    "family": "paragraph-order-anaphora",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-18",
+    "budget": 60,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "In a book donation programme, volunteers accepted two kinds of material: books that the lending library could use and copies that needed to be offered elsewhere. A return slip was designed for books that the library lent out, but its name soon caused confusion at the collection desk.\n\n[Missing paragraph]\n\nThis distinction reduced misplaced books. Volunteers no longer filed items waiting to be offered elsewhere alongside copies readers were bringing back. The slip could now play its original role without deciding the fate of unrelated donations.",
+    "q": "Which paragraph provides the basis for “This distinction” and fits the gap?",
+    "o": [
+      "The library issued one slip for books coming back from readers and a separate card for donations awaiting a new home.",
+      "The library printed its return slips and collection notices on the same paper so both supplies could be ordered together.",
+      "The coordinator assigned a single person to the donation table and asked another volunteer to check the opening hours.",
+      "The organisers encouraged readers to bring back borrowed books early so that popular titles would be easier to lend out."
+    ],
+    "a": 0,
+    "target": "核对固定段的双向衔接与 this distinction",
+    "skill": "核对固定段的双向衔接与 this distinction",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "Volunteers no longer filed items waiting to be offered elsewhere alongside copies readers were bringing back.",
+    "exp": {
+      "trans": "捐书与归还借来的书混在一起。右侧给定段说明重新区分两类对象后，误放减少。",
+      "structure": "左边给出表单混淆。右侧 This distinction 要回指解决该混淆的两分法。",
+      "other": "return slip 归还单，await 等待，file 整理归类。",
+      "meaning": "归还和待安排的捐赠分别用单据，正好对应右段指出的两类材料。",
+      "rest": "纸张相同、人员分工和提前归还都可能发生，却没有在归还和捐赠两类业务间建立新的区分。"
+    }
+  },
+  {
+    "id": "pb18-workshop-close",
+    "family": "paragraph-order-discourse",
+    "introduced": "2026-10-04",
+    "published_on": "2026-11-18",
+    "budget": 65,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "A cooperative opened a shared workshop where small furniture businesses could hire machines by the hour. One group of owners thought the main benefit would be lower costs. After a year, the coordinator found that many members were also borrowing measuring tools, sharing suppliers and giving advice about how to train new staff.\n\nThe cooperative has therefore started measuring more than the number of bookings. It asks businesses to record when sharing equipment has led to an exchange of skills or a joint order. The coordinator wants those accounts to inform future decisions about which resources the workshop should provide.",
+    "q": "Which of the following would make the most appropriate final paragraph?",
+    "o": [
+      "The new figures can show both how often firms hire the machines and how their work together has changed.",
+      "The new figures should help explain why workshop owners can now take on extra orders without speaking to other businesses.",
+      "The next step is to choose a single method of training so that every business can offer its workers the same instruction.",
+      "The chief task for the cooperative is now to decide whether the hourly rate can be used to estimate future building costs."
+    ],
+    "a": 0,
+    "target": "结尾须回收共同资源与长期协作",
+    "skill": "结尾须回收共同资源与长期协作",
+    "origin_session": "2026-11-18-2018-partb",
+    "answer_support": "It asks businesses to record when sharing equipment has led to an exchange of skills or a joint order.",
+    "exp": {
+      "trans": "共享车间的价值既有机器使用成本，也有人际协作。运营方开始记录设备共享带来的互助。",
+      "structure": "从创办目标到观察到的新作用，再转入如何核算两类收益。",
+      "other": "cooperative 合作组织，joint order 联合订单，inform 为决策提供依据。",
+      "meaning": "合适结尾同时回收机器使用与企业互助，也解释为何增加记录。",
+      "rest": "不沟通就增加订单反转互助，统一培训方案添加政策，建造成本把主题转到原文没有展开的预算。"
+    }
+  }
+]

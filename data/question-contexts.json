@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-17",
+  "reviewed_on": "2026-11-18",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -584,7 +584,20 @@
     "r18t4-bare-disclosure": "r18t4-reading:bare-disclosure",
     "r18t4-bare-grant": "r18t4-reading:bare-grant",
     "r18t4-bandaid-software": "r18t4-reading:bandaid-software",
-    "r18t4-bandaid-fundraising": "r18t4-reading:bandaid-fundraising"
+    "r18t4-bandaid-fundraising": "r18t4-reading:bandaid-fundraising",
+    "pb18-crowded-print-fair": "pb18:print-fair-density",
+    "pb18-crowded-seed-trays": "pb18:seedling-space",
+    "pb18-necessitate-journal": "pb18:journal-citation",
+    "pb18-necessitate-caption-check": "pb18:exhibition-owner-labels",
+    "pb18-demolition-stadium": "pb18:stadium-reuse",
+    "pb18-demolition-canal-wall": "pb18:canal-footpath",
+    "pb18-elaborate-album": "pb18:choir-arrangement",
+    "pb18-elaborate-condition": "pb18:ticket-scheme-detail",
+    "pb18-overview-stockroom": "pb18:theatre-equipment-inspection",
+    "pb18-cause-watering": "pb18:allotment-watering",
+    "pb18-given-anchor-returns": "pb18:library-return-versus-donation",
+    "pb18-workshop-close": "pb18:furniture-workshop-measures",
+    "pb-radio-transcripts-v1": "pb18:radio-transcript-checks"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

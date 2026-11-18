@@ -475,6 +475,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "demolition-meaning": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "directness-modifier": {
       "streak": 4,
       "errors": 0,
@@ -534,6 +544,16 @@
       "reported_confusion": true,
       "observed_days": 1,
       "observation_priority": 3
+    },
+    "elaborate-polysemy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "end-up": {
       "streak": 0,
@@ -865,6 +885,16 @@
       "observed_days": 1,
       "observation_priority": 1
     },
+    "necessitate-causal-need": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "negative-ellipsis-afford": {
       "streak": 0,
       "errors": 0,
@@ -904,6 +934,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 0.25
+    },
+    "overcrowded-context": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-18",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "overseer-role": {
       "streak": 0,

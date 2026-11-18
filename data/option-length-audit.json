@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 495,
-        "correct_uniquely_longest": 117,
-        "correct_uniquely_shortest": 82,
-        "longest_guess_pct": 30.0,
-        "shortest_guess_pct": 21.75,
+        "question_count": 507,
+        "correct_uniquely_longest": 118,
+        "correct_uniquely_shortest": 85,
+        "longest_guess_pct": 29.49,
+        "shortest_guess_pct": 21.93,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -4692,6 +4692,210 @@
         "pool": "daily_article",
         "family": "woodcut-medium",
         "source": "data/questions/2026-11-12-2017-partb-migration.json"
+      },
+      "pb18-cause-watering": {
+        "lengths": [
+          107,
+          99,
+          93,
+          103
+        ],
+        "spread": 14,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-crowded-print-fair": {
+        "lengths": [
+          37,
+          38,
+          37,
+          40
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "overcrowded-context",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-crowded-seed-trays": {
+        "lengths": [
+          39,
+          38,
+          39,
+          36
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "overcrowded-context",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-demolition-canal-wall": {
+        "lengths": [
+          37,
+          39,
+          40,
+          41
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "demolition-meaning",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-demolition-stadium": {
+        "lengths": [
+          40,
+          40,
+          36,
+          39
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "demolition-meaning",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-elaborate-album": {
+        "lengths": [
+          24,
+          21,
+          27,
+          20
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "elaborate-polysemy",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-elaborate-condition": {
+        "lengths": [
+          43,
+          43,
+          44,
+          46
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "elaborate-polysemy",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-given-anchor-returns": {
+        "lengths": [
+          117,
+          121,
+          118,
+          120
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-anaphora",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-necessitate-caption-check": {
+        "lengths": [
+          44,
+          46,
+          48,
+          49
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "necessitate-causal-need",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-necessitate-journal": {
+        "lengths": [
+          45,
+          45,
+          38,
+          37
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "necessitate-causal-need",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-overview-stockroom": {
+        "lengths": [
+          109,
+          115,
+          114,
+          111
+        ],
+        "spread": 6,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
+      },
+      "pb18-workshop-close": {
+        "lengths": [
+          104,
+          122,
+          121,
+          122
+        ],
+        "spread": 18,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "paragraph-order-discourse",
+        "source": "data/questions/2026-11-18-2018-partb-reading.json"
       },
       "point-joke": {
         "lengths": [

@@ -1,0 +1,205 @@
+{
+  "id": "2026-11-18-2018-partb",
+  "date": "2026-11-18",
+  "learning_date": "2026-11-18",
+  "created_at": "2026-11-18T17:51:37+09:00",
+  "source": "2018 英语一 Part B · 词汇与衔接复盘",
+  "question_format": "english1_reading",
+  "focus_families": [
+    "overcrowded-context",
+    "necessitate-causal-need",
+    "demolition-meaning",
+    "elaborate-polysemy"
+  ],
+  "max_current": 4,
+  "balanced_options": true,
+  "focus_question_ids": {
+    "overcrowded-context": [
+      "pb18-crowded-print-fair"
+    ],
+    "necessitate-causal-need": [
+      "pb18-necessitate-journal"
+    ],
+    "demolition-meaning": [
+      "pb18-demolition-stadium"
+    ],
+    "elaborate-polysemy": [
+      "pb18-elaborate-album"
+    ]
+  },
+  "paper_outcome": {
+    "evidence_status": "user_confirmed_paper_answers",
+    "question_range": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "reported_correct_count": 1,
+    "reported_total": 5,
+    "reported_all_correct": false,
+    "reported_points": {
+      "earned": 2,
+      "total": 10,
+      "points_per_scored_position": 2
+    },
+    "reported_final_choice_letters": {
+      "41": "E",
+      "42": "A",
+      "43": "B",
+      "44": "D",
+      "45": "G"
+    },
+    "reference_choice_letters": {
+      "41": "E",
+      "42": "G",
+      "43": "A",
+      "44": "B",
+      "45": "D"
+    },
+    "reported_question_correctness": {
+      "41": true,
+      "42": false,
+      "43": false,
+      "44": false,
+      "45": false
+    },
+    "reported_full_order": [
+      "E",
+      "C",
+      "A",
+      "B",
+      "F",
+      "D",
+      "G"
+    ],
+    "reference_full_order": [
+      "E",
+      "C",
+      "G",
+      "A",
+      "F",
+      "B",
+      "D"
+    ],
+    "fixed_paragraphs": [
+      "C",
+      "F"
+    ],
+    "fixed_positions": {
+      "2": "C",
+      "5": "F"
+    },
+    "first_choices": "unknown",
+    "revisions": "unknown",
+    "not_a_web_score": true
+  },
+  "ordering_strategy": {
+    "user_quote": "惨败，完全看不懂，首先我看那个时间就认为AB一定是连的紧密的先后，然后这篇确实看不太懂。",
+    "summary": "自述全文几乎看不懂。看到A段1871年开工、B段1875年部分建成便认为两段应紧邻。参考ECGAFBD，纸质2/10分。应核对G→A的因果、A→F→B的概括与细节及固定C、F两侧。",
+    "evidence_scope": "confirmed_adjacency_reasoning_and_reported_passage_difficulty",
+    "full_passage_comprehension": "reported_substantial_difficulty",
+    "passage_level_difficulty": true,
+    "generalization_limit": "2017年的5/5仍是显性时间线与段落首尾衔接的正向证据。2018年进一步暴露了回溯、概括与细节、因果及固定段位置的困难，逐题首次选择和改选未知。",
+    "confirmed_reasoning": {
+      "proposed_link": [
+        "A",
+        "B"
+      ],
+      "basis": "A段1871年开工在先，B段1875年南翼建成在后。用户认为这两个日期足以确定直接相邻。"
+    },
+    "teaching_correction": "感知到正确的事件前后关系仍有价值。段落组织从开工进入整体施工，再回到某翼较早建成和投入使用的实例，年份不用逐段递增。",
+    "adjacent_links": [
+      {
+        "from": "E",
+        "to": "C",
+        "relation": "总体介绍到历史作用",
+        "basis": "建筑名称、价值与用途引出其承载的政府部门及历史活动。"
+      },
+      {
+        "from": "C",
+        "to": "G",
+        "relation": "历史作用到历史回顾",
+        "basis": "G把时间拉回到奠基之前，交代旧机构与场所。C与D都提到人物和历史事件，但直接相接会跳过起源、建造和入驻。"
+      },
+      {
+        "from": "G",
+        "to": "A",
+        "relation": "旧楼拆除导致新楼规划",
+        "basis": "旧国务院办公楼因财政部北翼建设而须拆除，由此承接新办公楼选址、规划及开工。"
+      },
+      {
+        "from": "A",
+        "to": "F",
+        "relation": "开工到整体施工过程",
+        "basis": "A引入施工，F概括跨度、分翼兴建和整体建筑特点。"
+      },
+      {
+        "from": "F",
+        "to": "B",
+        "relation": "整体施工到具体楼翼和入驻",
+        "basis": "F建立分翼建造的框架，B展开南翼先完工、各部门陆续迁入等阶段性细节。整体回顾后可以回到较早的具体阶段。"
+      },
+      {
+        "from": "B",
+        "to": "D",
+        "relation": "入驻到建筑承载的人物与事件",
+        "basis": "部门入驻建立了建筑实际使用的背景，D转至曾在此办公或活动的人物作为收束。"
+      }
+    ],
+    "observed_adjacent_matches": [
+      "E>C"
+    ],
+    "other_position_reasoning": "unknown",
+    "recommended_priority": "high"
+  },
+  "vocabulary_scope": {
+    "reported_photo_boxes": [
+      "emissaries",
+      "granite",
+      "balusters",
+      "rotundas",
+      "necessitated",
+      "demolition",
+      "Bush"
+    ],
+    "active_reports": [
+      "overcrowded",
+      "elaborate"
+    ],
+    "glossary_only": [
+      "emissaries",
+      "granite",
+      "balusters",
+      "rotundas",
+      "Bush"
+    ],
+    "supplementary_terms_only": [
+      "construction",
+      "house (verb)",
+      "wing",
+      "occupied",
+      "commission",
+      "architectural",
+      "foundations",
+      "heritage"
+    ],
+    "unmarked_underlines": "阅读定位提示",
+    "elaborate_evidence": {
+      "user_quote": "elaborate也忘了。",
+      "status": "forgotten_previously_encountered",
+      "adjective": "精心设计的、复杂详尽的",
+      "verb_phrase": "elaborate on，进一步详细说明"
+    }
+  },
+  "source_check": "data/source-checks/2018-english1.json",
+  "independent_partb_question": "pb-radio-transcripts-v1",
+  "practice_order": [
+    "先读短文复查影响理解的词汇",
+    "用小题核对段落承接",
+    "在独立排序做一篇新材料"
+  ],
+  "review_priority": "high",
+  "result_summary": "最终ECABFDG，参考ECGAFBD，纸质1/5、2/10。整体理解困难。已确认的判断是用年份把A、B连在一起，其余逐题过程未知。"
+}

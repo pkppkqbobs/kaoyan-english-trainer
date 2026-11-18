@@ -1,0 +1,168 @@
+[
+  {
+    "id": "pb-radio-transcripts-v1",
+    "kind": "paragraph_order",
+    "published_on": "2026-11-18",
+    "title": "给广播节目做文字稿",
+    "topic": "公共传播与话语归属",
+    "overview": "第2位给定 D，第5位给定 F。按完整顺序点击七个段落，包括这两个给定段。",
+    "budget": 420,
+    "paragraphs": [
+      {
+        "id": "A",
+        "text": "In one of the first programmes in the trial, for instance, a caller gave an estimate that the presenter later questioned. Both remarks had been transcribed accurately. The second check showed that the printed labels made the presenter appear to endorse the caller’s estimate."
+      },
+      {
+        "id": "B",
+        "text": "A transcript can make a radio programme usable well beyond the moment it goes on air. A station serving several rural towns discovered this when it began publishing text versions of a weekly discussion programme. Readers who could not listen live could check a detail, quote a speaker or return to an explanation at their own pace."
+      },
+      {
+        "id": "C",
+        "text": "In response, the station began testing a separate check for who was speaking. The editor first reviewed the wording, taking care to preserve distinctions between a caller’s claim and the presenter’s reply. Another member of staff then checked the names against the recording and the running order."
+      },
+      {
+        "id": "D",
+        "text": "Moving the discussion onto the page also exposed a problem that regular listeners seldom noticed. A listener might recognise the presenter or a familiar guest by voice, but a reader depended on the speaker labels. Even an accurate sentence could mislead when it appeared under the wrong name."
+      },
+      {
+        "id": "E",
+        "text": "The station kept the extra check because the distinction mattered to readers who had never heard the broadcast. They often relied on the transcript in place of listening. To serve those readers, the published version has to preserve both what was said and who said it."
+      },
+      {
+        "id": "F",
+        "text": "Across the trial, the two checks caught different sorts of mistakes. A transcript might have the right wording but attach it to the wrong guest, or correctly identify a person while leaving out a qualification. Reviewing those problems separately made it easier to say where a correction belonged."
+      },
+      {
+        "id": "G",
+        "text": "The labels had originally been added to help producers locate passages in the recording, when shorthand such as “second caller” was enough. Once the files went online, those working notes were treated as part of the published text. The station found that correcting individual names would leave the underlying routine intact."
+      }
+    ],
+    "expectedOrder": [
+      "B",
+      "D",
+      "G",
+      "C",
+      "F",
+      "A",
+      "E"
+    ],
+    "globalLogic": "给定D第2，先找能引出文字稿及读者用途的B。D提出署名问题，G回溯标签原来只供制作人员检索的原因，C回应这个流程问题。给定F第5，之前需要有C的两道检查，之后应以A的实例落实它们如何互补，最后由E回到读者需求。",
+    "themeTrap": "C写开始试行，A写试行很早的一期，时间接近，容易把两段直接相连。F先概述两道检查分别能发现什么，A再回到早期节目举例。只重复speaker或labels的段落也未必承担所需的解释功能。",
+    "mechanism_source": {
+      "exam": "2018-english1",
+      "source_check": "data/source-checks/2018-english1.json",
+      "pairs": [
+        "E>C",
+        "C>G",
+        "G>A",
+        "A>F",
+        "F>B",
+        "B>D"
+      ]
+    },
+    "links": [
+      {
+        "from": "B",
+        "to": "D",
+        "signals": [
+          "topic-introduction",
+          "contrast"
+        ],
+        "strength": "medium",
+        "anchor": true,
+        "explanation": "B交代为什么发文字稿。D继续讨论这种媒介转换，转入读者无法靠辨认声音确认身份的问题。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "D的Moving the discussion onto the page依赖B已介绍的发布文字稿。"
+          }
+        ]
+      },
+      {
+        "from": "D",
+        "to": "G",
+        "signals": [
+          "anaphora",
+          "problem-to-reason"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "D提出标签错配。G的The labels承接这一对象，讲清内部工作标签为何进入公开文字稿。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "had originally been added建立回溯，不能把G当成发生在公开发现问题之后的新措施。"
+          }
+        ]
+      },
+      {
+        "from": "G",
+        "to": "C",
+        "signals": [
+          "cause-effect",
+          "paragraph-end-hook"
+        ],
+        "strength": "strong",
+        "anchor": false,
+        "explanation": "G指出逐个改名留住了根本流程问题。C试行独立身份检查，给出流程层面的回应。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "C的In response回应G所揭示的问题，不只回应D的读者体验。"
+          }
+        ]
+      },
+      {
+        "from": "C",
+        "to": "F",
+        "signals": [
+          "anaphora",
+          "lexical-chain"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "C先交代试行以及措辞、署名两道检查，F概述各自抓到的错误类型。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "F的the two checks只在C中被完整引入。"
+          }
+        ]
+      },
+      {
+        "from": "F",
+        "to": "A",
+        "signals": [
+          "example",
+          "general-to-specific"
+        ],
+        "strength": "strong",
+        "anchor": true,
+        "explanation": "F概述措辞正确仍可能张冠李戴。A用试行早期的一期具体说明这一类错误。",
+        "evidence": [
+          {
+            "level": "strong",
+            "text": "for instance连接诊断类型与实例，the second check落实节目中的显著错误。"
+          }
+        ]
+      },
+      {
+        "from": "A",
+        "to": "E",
+        "signals": [
+          "conclusion",
+          "synonym-chain"
+        ],
+        "strength": "medium",
+        "anchor": false,
+        "explanation": "A展示错归发言会改变读者对主持人立场的理解。E据此概括保留身份检查的价值，回收开头的读者用途。",
+        "evidence": [
+          {
+            "level": "medium",
+            "text": "E的保留措施及读者收益需要前面已有试行结果。A只讲一个节目，无法收束对全体读者的说明。"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "title": "文章复盘 · 8题",
-  "meta": "2018 英语一 Text 4 · 原创短篇阅读复盘 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
+  "meta": "2018 英语一 Part B · 词汇与衔接复盘 · 本篇问题 4 题 + 历史弱项 4 题 · 全部使用迁移语境",
   "progressLabel": "返回本篇进度",
   "storagePrefix": "kaoyan.article.v1.",
-  "storageId": "2026-11-17-2018-text4",
+  "storageId": "2026-11-18-2018-partb",
   "ignoreStale": true,
   "reportLabel": "考研英语文章复盘",
   "reportTitle": "文章复盘",
@@ -13,344 +13,500 @@
   "footer": "本轮结果被GitHub接收并经Actions核验后，才会进入后续间隔复习；未提交的浏览器作答只保存在本地。",
   "questions": [
     {
-      "id": "e1r-workweek-trial",
-      "family": "inference-boundary",
+      "id": "pb18-elaborate-album",
+      "family": "elaborate-polysemy",
       "introduced": null,
-      "published_on": "2026-11-17",
-      "budget": 55,
-      "reading_budget": 120,
-      "format": "english1_reading",
-      "passage": "Two small firms have reported lower staff turnover after testing a shorter working week. Employees welcomed the extra free day, and managers say deadlines were still met. The results offer a reason to take the idea seriously, especially in businesses struggling to retain experienced staff.\n\nThey do not, however, settle the question for every employer. Both firms could rearrange tasks within small teams. A railway operator cannot simply close its stations for an extra day. The useful next step is to examine what made the trials work and where those conditions exist, rather than treat either enthusiasm or doubt as a substitute for further evidence.",
-      "q": "The author regards the two trials as",
-      "o": [
-        "a promising result whose wider application needs study.",
-        "proof that staff turnover is mainly caused by long hours.",
-        "evidence that transport services should adopt the same hours.",
-        "an unsuccessful attempt to meet employees' expectations."
-      ],
-      "a": 0,
-      "target": "局部结果可以支持谨慎推进，不能替代普遍适用性的证据",
-      "skill": "局部结果可以支持谨慎推进，不能替代普遍适用性的证据",
-      "origin_session": "2026-11-17-reading-style",
-      "answer_support": "The useful next step is to examine what made the trials work and where those conditions exist",
-      "exp": {
-        "trans": "两家小企业缩短工作周后离职减少，结果值得重视，但其他行业未必具备同样的任务组织条件。",
-        "structure": "第一段认可初步成果；第二段说明推广条件，并提出进一步调查的方向。",
-        "other": "staff turnover：员工流动、离职更替；retain：留住；substitute for：替代。",
-        "meaning": "作者既没有否定结果，也没有把小范围成果普遍化；正确项保留“有希望但仍需研究推广条件”的完整评价。",
-        "rest": "文中未证明工时是离职的主要原因；铁路例子恰恰说明不能直接照搬；员工欢迎新安排，不能说未达到其期待。"
-      },
-      "context_id": "english1-reading:workweek-trial"
-    },
-    {
-      "id": "r18t4-bandaid-software",
-      "family": "band-aid-remedy",
-      "introduced": "2026-11-17",
-      "published_on": "2026-11-17",
+      "published_on": "2026-11-18",
       "budget": 45,
       "reading_budget": 120,
       "format": "english1_reading",
-      "passage": "A booking website crashes whenever too many customers arrive at once. Staff have learned to restart the server, and the service usually returns within minutes. Customers are understandably relieved when it comes back, but the same failure reappears the next busy evening.\n\nAn engineer calls the restart a Band-Aid. It restores access without changing the weakness that causes the site to fail under heavy demand. The company still needs to examine how requests are handled and where capacity is lost. A response that ends today's interruption can be useful while remaining inadequate as an answer to the recurring problem.",
-      "q": "The engineer uses \"Band-Aid\" to describe a",
+      "passage": "A recording studio brought a school choir in to sing a tune the pupils already knew. The producer had prepared an elaborate arrangement for the session, with separate parts for several instruments and changes of rhythm between verses. The children could follow the melody, but many lost their place when the accompaniment changed.\n\nThe arranger made a simpler version for the next session. It kept the melody and the most distinctive rhythm while dropping many of the extra parts. The change made it possible for the choir to give a confident performance without treating the original arrangement as a failure on its own terms.",
+      "q": "The word “elaborate” in Paragraph 1 is closest in meaning to",
       "o": [
-        "useful but temporary response to the failure.",
-        "complete redesign of the booking website.",
-        "financial guarantee offered to disappointed customers.",
-        "method of preventing every increase in demand."
-      ],
-      "a": 0,
-      "target": "Band-Aid比喻临时补救，不把bank aid回忆补造成既定误译",
-      "skill": "Band-Aid比喻临时补救，不把bank aid回忆补造成既定误译",
-      "origin_session": "2026-11-17-2018-text4",
-      "answer_support": "It restores access without changing the weakness that causes the site to fail",
-      "exp": {
-        "trans": "重启能暂时恢复网站，但高峰时故障反复出现，工程师称它为临时补救。",
-        "structure": "第一段给出反复现象，第二段区分恢复当下使用和解决反复成因。",
-        "other": "Band-Aid：创可贴，引申为临时补救；recurring：反复出现的。",
-        "meaning": "正确项保留暂时有用与未解决成因两点。这不是银行援助的表达，也不是说该应急行动毫无作用。",
-        "rest": "全面重设计尚未发生；客户财务担保无依据；避免一切需求增长不是重启的作用。"
-      },
-      "context_id": "r18t4-reading:bandaid-software"
-    },
-    {
-      "id": "r18t4-measures-fieldstation",
-      "family": "former-latter-goal",
-      "introduced": "2026-11-17",
-      "published_on": "2026-11-17",
-      "budget": 45,
-      "reading_budget": 120,
-      "format": "english1_reading",
-      "passage": "A field station has been struggling with two different costs. Electricity bills have risen, and floods have repeatedly damaged equipment stored on the ground floor. Its new plan combines rooftop solar panels with raised storage rooms. The former measure should reduce the cost of running instruments during ordinary working days; the latter protects equipment when the river rises.\n\nStaff have long complained that routine electricity costs leave too little money for field visits. The new storage rooms are welcome, but they answer a different concern. The raised rooms should prevent another expensive loss, but they will not lower the regular electricity bill. Managers plan to use the savings from the panels to restore trips that had been cancelled.",
-      "q": "The staff's complaint about routine operating costs would be addressed mainly by",
-      "o": [
-        "installing the rooftop solar panels.",
-        "raising the equipment storage rooms.",
-        "replacing instruments after another flood.",
-        "reducing the number of planned field visits."
-      ],
-      "a": 0,
-      "target": "former指第一项；核对措施与题干目的",
-      "skill": "former指第一项；核对措施与题干目的",
-      "origin_session": "2026-11-17-2018-text4",
-      "answer_support": "The former measure should reduce the cost of running instruments during ordinary working days",
-      "exp": {
-        "trans": "太阳能板降低日常用电成本，抬高储藏室防止水灾。员工长期抱怨的是常规电费挤占外出经费。",
-        "structure": "两项措施并列后分别给出作用；第二段进一步限定题目所问的成本。",
-        "other": "former：前者；latter：后者；routine：日常的。",
-        "meaning": "题干问日常运营开支，应对应前者太阳能板；不能因防洪也出现在计划中就选它。",
-        "rest": "抬高储藏室应对水灾；更换灾后仪器增加另一类开支；取消考察不是文中解决电费问题的措施。"
-      },
-      "context_id": "r18t4-reading:measures-fieldstation"
-    },
-    {
-      "id": "r18t4-title-timetable",
-      "family": "title-coverage",
-      "introduced": "2026-10-03",
-      "published_on": "2026-11-17",
-      "budget": 65,
-      "reading_budget": 120,
-      "format": "english1_reading",
-      "passage": "A school district has responded to falling reading scores by buying extra tutoring hours. The help is welcome, particularly for pupils who have missed lessons. Yet the district's own review found that frequent timetable changes were repeatedly interrupting the normal reading classes. Paying for more teaching after school leaves that problem untouched.\n\nThe tutoring contract may prevent some pupils from falling further behind. It should not become a reason to postpone a more awkward discussion about how the school day is organised. A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones. The extra help is useful; a dependable timetable is still essential.",
-      "q": "Which of the following would be the best title for the text?",
-      "o": [
-        "Why Reading Scores Call for Rapid Action",
-        "Extra Lessons Cannot Repair a Broken Timetable",
-        "After-School Tutors Deserve Greater Recognition",
-        "How Families Can Help Children Read at Home"
+        "disputed and unfamiliar.",
+        "complex and detailed.",
+        "repetitive and predictable.",
+        "simple but striking."
       ],
       "a": 1,
-      "target": "标题须包含作者对现有措施不充分的评价",
-      "skill": "标题须包含作者对现有措施不充分的评价",
-      "origin_session": "2026-11-17-2018-text4",
-      "answer_support": "A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones.",
+      "target": "elaborate 作形容词",
+      "skill": "elaborate 作形容词",
+      "origin_session": "2026-11-18-2018-partb",
+      "answer_support": "with separate parts for several instruments and changes of rhythm between verses",
       "exp": {
-        "trans": "额外辅导有用，但正常阅读课不断被打断，作者主张处理课程安排本身的问题。",
-        "structure": "先认可补救，再指出根因仍在，末段要求把改善基本安排纳入对策。",
-        "other": "dependable：可靠的；put matters right：纠正问题。",
-        "meaning": "正确标题抓住额外辅导无法代替稳定课程安排的论点。快速行动与阅读下降相关，但不是作者最强调的区别。",
-        "rest": "紧急行动只概括背景需求；肯定辅导教师、家庭阅读均非文章论证中心。"
+        "trans": "学校合唱团熟悉曲调，却难以跟上复杂编曲。简化配器与变化后，他们更容易掌握节奏。",
+        "structure": "多声部与节奏变化支持复杂详尽这一含义。次段的简化版本提供对照。",
+        "other": "arrangement 编曲，accompaniment 伴奏，verse 歌曲的节。",
+        "meaning": "这里 elaborate 修饰 arrangement，形容配器与节奏安排复杂细致。",
+        "rest": "曲调其实熟悉，文中没有争议。节奏变化使编曲并不简单好唱，也不能说单调可预测。"
       },
-      "context_id": "r18t4-reading:title-timetable"
+      "context_id": "pb18:choir-arrangement"
     },
     {
-      "id": "e1r-tutoring-forecast",
+      "id": "e1r-flood-park",
       "family": "author-stance",
       "introduced": "2026-10-03",
       "published_on": "2026-11-17",
       "budget": 50,
       "reading_budget": 120,
       "format": "english1_reading",
-      "passage": "A company selling automated tutoring software predicts that its product will soon make private lessons unnecessary. It points to students who completed practice exercises more quickly after a week of use. The finding may interest teachers looking for ways to provide extra practice. It tells us much less about the company's larger promise.\n\nSpeed on a familiar exercise is not the same as understanding a difficult idea. Nor does a week's use show whether students will retain what they have learned. Before accepting a forecast about the disappearance of private lessons, schools need evidence that addresses those questions. The sales pitch has moved rather further than the research behind it.",
-      "q": "The author views the company's prediction with",
+      "passage": "A city proposes turning a disused sports ground into a park that can hold floodwater during heavy rain. Residents would gain an open space for most of the year, while nearby streets would face a lower risk of flooding. Some critics object that the park would occasionally have to close just when families wanted to use it.\n\nThat inconvenience should be acknowledged. It is not, by itself, a convincing reason to abandon a space that serves two useful purposes. The more important questions concern safe access, reliable maintenance and clear warnings before the water rises. With those arrangements in place, the proposal deserves to move beyond the drawing board.",
+      "q": "The author's attitude towards the proposed park is one of",
       "o": [
-        "relief.",
-        "skepticism.",
-        "admiration.",
-        "indifference."
+        "unqualified enthusiasm.",
+        "general indifference.",
+        "persistent hostility.",
+        "conditional approval."
       ],
-      "a": 1,
-      "target": "从证据不足和评价措辞判断怀疑，而非仅凭情绪强弱猜态度",
-      "skill": "从证据不足和评价措辞判断怀疑，而非仅凭情绪强弱猜态度",
+      "a": 3,
+      "target": "判断作者的条件性支持，不把承认缺点读成全面反对",
+      "skill": "判断作者的条件性支持，不把承认缺点读成全面反对",
       "origin_session": "2026-11-17-reading-style",
-      "answer_support": "The sales pitch has moved rather further than the research behind it.",
+      "answer_support": "With those arrangements in place, the proposal deserves to move beyond the drawing board.",
       "exp": {
-        "trans": "软件提高了短期熟练练习的速度，但公司据此预言私人辅导会消失。作者认为研究不足以支持这一大幅扩展的预测。",
-        "structure": "先介绍公司预测及其有限证据，再逐项指出证据与预测之间的缺口。",
-        "other": "retain：保持、记住；sales pitch：推销说辞；skepticism：怀疑。",
-        "meaning": "作者不是单纯说不知道结果，而是指出预测超出了现有研究的支持范围，体现skepticism。",
-        "rest": "relief和admiration没有评价依据；末句已经明确批评推销承诺走得过远，因此不是indifference。"
+        "trans": "公园兼具日常开放空间和蓄洪用途，作者承认临时关闭不便，但认为落实安全和维护安排后应推进。",
+        "structure": "先列出方案利弊，再明确主要条件，结尾给出有条件的支持。",
+        "other": "drawing board：设计阶段；maintenance：维护；acknowledge：承认。",
+        "meaning": "结尾明确说条件落实后值得推进，因此是conditional approval；既非对所有问题无保留赞美，也非仅仅态度不明。",
+        "rest": "unqualified抹去了条件；indifference与明确建议推进不符；hostility把承认不便扩大成敌意。"
       },
-      "context_id": "english1-reading:tutoring-forecast"
+      "context_id": "english1-reading:flood-park"
     },
     {
-      "id": "e1r-flood-planning",
-      "family": "costs-effort-intensity",
-      "introduced": "2026-11-16",
-      "published_on": "2026-11-17",
-      "budget": 50,
+      "id": "pb18-overview-stockroom",
+      "family": "paragraph-order-discourse",
+      "introduced": "2026-10-04",
+      "published_on": "2026-11-18",
+      "budget": 65,
       "reading_budget": 120,
       "format": "english1_reading",
-      "passage": "After severe flooding, a council promised to spare no effort in protecting local homes. The promise was popular, but deciding what it meant proved harder. A concrete wall would protect the town centre while pushing water towards farms downstream. Restoring wetlands would take longer, although it could reduce the pressure on both areas.\n\nOfficials eventually proposed a mixture of smaller barriers and wetland restoration. Some residents called this a retreat from the original promise. That criticism confuses determination with a willingness to accept any consequence. A serious effort to protect one community must still take account of the people who live beyond its boundary.",
-      "q": "In this passage, \"spare no effort\" is closest in meaning to",
+      "passage": "A theatre began lending its old stage equipment to local groups in the spring. The storekeeper expected to spend most of her time showing borrowers what was available. The scheme grew quickly, and she soon discovered that keeping items in use required work that had been easy to overlook.\n\n[Missing paragraph]\n\nOne of the first loans that spring shows why the return checks mattered. A group brought back a lighting stand with a cracked fitting. Because the storekeeper inspected it before putting it away, the fault was repaired before the next borrower arrived.",
+      "q": "Which paragraph best fits the gap?",
       "o": [
-        "complete the work without consulting others.",
-        "make every effort to achieve the stated goal.",
-        "accept whatever damage the project may cause.",
-        "give the most expensive proposal preference."
+        "The service set up a spring display so visitors could see which lights and costumes were available to borrow.",
+        "At first the theatre kept the store open late. The additional hours made it easier for groups to collect equipment.",
+        "The staff organised the work around booking, collection and inspection on return. Each task had its own checklist.",
+        "Demand was especially high for racks and tables. Several groups asked whether they could keep these all summer."
       ],
-      "a": 1,
-      "target": "spare no effort强调尽力，不自动等于接受任何后果",
-      "skill": "spare no effort强调尽力，不自动等于接受任何后果",
-      "origin_session": "2026-11-17-reading-style",
-      "answer_support": "That criticism confuses determination with a willingness to accept any consequence.",
+      "a": 2,
+      "target": "概述环节后再写较早的具体实例",
+      "skill": "概述环节后再写较早的具体实例",
+      "origin_session": "2026-11-18-2018-partb",
+      "answer_support": "One of the first loans that spring shows why the return checks mattered",
       "exp": {
-        "trans": "市政承诺全力防洪，随后选择兼顾上下游的组合方案。作者认为顾及其他社区不等于没有尽力。",
-        "structure": "先给出承诺，接着展示不同方案的利弊，再反驳“考虑后果就是退缩”的批评。",
-        "other": "determination：决心；downstream：下游；take account of：考虑。",
-        "meaning": "make every effort对应尽全力的承诺。文中明确区分这种努力和接受任何后果的态度。",
-        "rest": "不咨询别人、偏好最贵方案都不是短语含义；接受项目造成的任何损害，恰好混淆了努力与不惜代价。"
+        "trans": "剧院春季开始借出设备，材料空缺后用早期归还的一件器材说明为何要检查。",
+        "structure": "前段留下维护流程的问题，后段以还件检查的实例展开。中间需先介绍借出及归还流程。",
+        "other": "fitting 配件，inspection on return 归还时检查，cracked 有裂缝的。",
+        "meaning": "正确段把预约、领取和归还检查放进同一流程，提供后文 return checks 的依据。初期案例放在流程概述之后仍自然。",
+        "rest": "展示、延长开放时段和热门设备都有同一借用主题，也符合春季时间，却不能引出归还时对器材的检查。"
       },
-      "context_id": "english1-reading:flood-planning"
+      "context_id": "pb18:theatre-equipment-inspection"
     },
     {
-      "id": "r18t4-groups-venue",
-      "family": "interference-capacity",
+      "id": "r18t4-amount-formality",
+      "family": "amount-to-meaning",
       "introduced": "2026-11-17",
       "published_on": "2026-11-17",
       "budget": 45,
       "reading_budget": 120,
       "format": "english1_reading",
-      "passage": "A university has drawn up a workable plan to share teaching rooms between departments. The rooms are suitable and the scheduling software has been tested. Approval has nevertheless stalled. Several departments want to retain their customary rooms, while a commercial conference organiser fears losing access during the holidays. Both have pressed the governing committee to leave the arrangements unchanged.\n\nCalling this a failure of the scheduling staff misses the source of the delay. The staff have shown that a different timetable is possible. What they cannot decide is whose claims the committee should give up protecting. The difficulty lies in competing interests being defended through the approval process.",
-      "q": "The delay in approving the plan results mainly from",
+      "passage": "A transport authority has invited residents to comment on a station plan after the main contracts have been signed. Officials promise to listen, but they cannot change the entrance, the route of the access road or the hours of construction. Only the colour of a boundary fence remains open for discussion.\n\nUnder those conditions, the consultation amounts to a formality. An opportunity to speak is of limited value when the decisions that matter have already been made. Public participation should occur while alternatives remain possible, not merely provide a final stage in a process whose outcome is no longer in doubt.",
+      "q": "The phrase \"amounts to\" in Paragraph 2 is closest in meaning to",
       "o": [
-        "the staff's inability to operate the scheduling software.",
-        "pressure from groups defending existing arrangements.",
-        "a shortage of rooms suitable for ordinary teaching.",
-        "the organiser's failure to attract holiday conferences."
-      ],
-      "a": 1,
-      "target": "区分主动施压与能力不足，并保留多个主体",
-      "skill": "区分主动施压与能力不足，并保留多个主体",
-      "origin_session": "2026-11-17-2018-text4",
-      "answer_support": "The difficulty lies in competing interests being defended through the approval process.",
-      "exp": {
-        "trans": "方案技术可行，但院系和商业会议方都为保留现有权益施压审批委员会。",
-        "structure": "可行性事实排除技术无能，再定位实际阻碍是多方利益要求。",
-        "other": "press：施压；governing committee：管理委员会。",
-        "meaning": "pressure对应利益干预，不是工作人员不会操作。正确项也保留了不止一个群体的范围。",
-        "rest": "软件已经测试，教室也适用；文中未说会议方招不到客户。"
-      },
-      "context_id": "r18t4-reading:groups-venue"
-    },
-    {
-      "id": "e1r-archive-labour",
-      "family": "attribution-stance",
-      "introduced": null,
-      "published_on": "2026-11-17",
-      "budget": 55,
-      "reading_budget": 120,
-      "format": "english1_reading",
-      "passage": "A country house has donated several boxes of letters to a public archive. The announcement gives most of the credit to the family that owned them. Its willingness to make the letters available certainly deserves thanks. Without access, historians could have learned little from the collection.\n\nBut access alone does not explain why the letters are now attracting scholarly interest. Archivists spent months identifying the writers, putting undated pages in order and connecting scattered references. Their work turned a collection of private papers into a source through which a wider social history can be studied. Celebrating a generous gift should not make the labour that gives it public value disappear from view.",
-      "q": "The author mentions the archivists' work to show that",
-      "o": [
-        "professional work helped make the collection useful to others.",
-        "private ownership had made historical research unnecessary.",
-        "the family donated the letters mainly to receive public praise.",
-        "historians were mistaken about who originally owned the letters."
+        "is effectively.",
+        "is caused by.",
+        "depends upon.",
+        "argues against."
       ],
       "a": 0,
-      "target": "区分提供资源与通过整理分析创造用途，保留作者的论点",
-      "skill": "区分提供资源与通过整理分析创造用途，保留作者的论点",
-      "origin_session": "2026-11-17-reading-style",
-      "answer_support": "Their work turned a collection of private papers into a source through which a wider social history can be studied.",
+      "target": "amount to在评价语境表示实际上相当于",
+      "skill": "amount to在评价语境表示实际上相当于",
+      "origin_session": "2026-11-17-2018-text4",
+      "answer_support": "the consultation amounts to a formality",
       "exp": {
-        "trans": "家族捐信值得感谢，但档案工作者识别作者、排列材料和关联信息的工作，才让这些材料产生更广泛的研究用途。",
-        "structure": "第一段认可开放材料的贡献，第二段补充加工整理的贡献，作者没有简单否定捐赠者。",
-        "other": "archivist：档案工作者；scattered references：分散的相关线索；credit：功劳。",
-        "meaning": "整理和关联资料使私人信件可用于更广泛的历史研究。这支持专业工作创造公共用途的概括，而非单纯持有材料就完成全部贡献。",
-        "rest": "私人持有不意味着研究多余；作者没有推断家族动机只是求表扬；也没有讨论历史学家认错所有者。"
+        "trans": "主要决定已定，居民仅能讨论围栏颜色，因此所谓咨询实际只剩形式。",
+        "structure": "前段提供受限范围，后段以amounts to对咨询的实质作评价。",
+        "other": "formality：形式性程序；consultation：征求意见。",
+        "meaning": "is effectively表达实际上等于、实质上是；本句不是数字总计，也不表示因果或反对。",
+        "rest": "is caused by改成因果；depends upon改成依赖条件；argues against改成持反对观点。"
       },
-      "context_id": "english1-reading:archive-labour"
+      "context_id": "r18t4-reading:amount-formality"
+    },
+    {
+      "id": "pb18-necessitate-journal",
+      "family": "necessitate-causal-need",
+      "introduced": "2026-11-18",
+      "published_on": "2026-11-18",
+      "budget": 45,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "A research journal used to publish four issues a year. Each article had a page number that made sense only once the whole issue was assembled. The editors decided to release articles as soon as they were ready, so readers would no longer have to wait for other papers to be finished.\n\nThat change necessitated a new way of identifying individual articles. A paper could now appear well before anyone knew its position in a printed issue. The editors assigned it a permanent number at publication, which other researchers could cite even if the eventual page numbers changed.",
+      "q": "The move to publishing articles individually made it necessary to",
+      "o": [
+        "delay citations until the issue was complete.",
+        "print each paper in several different issues.",
+        "give each article a stable identifier.",
+        "reduce the number of papers accepted."
+      ],
+      "a": 2,
+      "target": "necessitate 的因果方向",
+      "skill": "necessitate 的因果方向",
+      "origin_session": "2026-11-18-2018-partb",
+      "answer_support": "The editors assigned it a permanent number at publication",
+      "exp": {
+        "trans": "期刊改为论文一成熟便独立发布，旧页码尚未确定。为便于引用，编辑给每篇论文分配永久编号。",
+        "structure": "旧编号依赖成刊，新发布方式让该依赖失效，因而需要稳定的替代标识。",
+        "other": "assemble 编成，cite 引用，identifier 标识。",
+        "meaning": "新发布方式是原因，分配独立稳定的编号是由此产生的需要。",
+        "rest": "等整期出来才引用违背新做法的目的。多期重复印刷和减少收稿没有依据。"
+      },
+      "context_id": "pb18:journal-citation"
+    },
+    {
+      "id": "pb18-crowded-print-fair",
+      "family": "overcrowded-context",
+      "introduced": "2026-11-18",
+      "published_on": "2026-11-18",
+      "budget": 45,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "On the first afternoon of a print fair, the smallest gallery held the most popular stalls. Visitors could enter freely, but once inside they found it hard to move between the tables. Some left without seeing the prints on the far wall, even though they had waited outside for half an hour.\n\nThe organiser described the gallery as overcrowded. For the second day, she moved several stalls to a hall that had been set aside for talks. The same number of people could still visit the fair; the difference was that they had enough space to stop and look.",
+      "q": "The word “overcrowded” in Paragraph 2 suggests that the gallery was",
+      "o": [
+        "too full for visitors to move easily.",
+        "too remote for most visitors to reach.",
+        "too small to host any popular stalls.",
+        "too costly to keep open for another day."
+      ],
+      "a": 0,
+      "target": "overcrowded 在实际空间中的程度",
+      "skill": "overcrowded 在实际空间中的程度",
+      "origin_session": "2026-11-18-2018-partb",
+      "answer_support": "they found it hard to move between the tables",
+      "exp": {
+        "trans": "版画展人流集中在小展厅，访客在展台间移动困难。分散展台后，同样多的来客有了观看空间。",
+        "structure": "第一段交代拥挤的实际表现。第二段对比重新分布展台后的效果。",
+        "other": "stall 展位，set aside 留作某种用途，over- 在这里表示过度。",
+        "meaning": "人多到妨碍移动和观看，说明空间内人数超过适宜程度。",
+        "rest": "原文没有交通或场地费问题。小展厅实际容纳了最受欢迎的展台，问题发生在观展时的拥挤。"
+      },
+      "context_id": "pb18:print-fair-density"
+    },
+    {
+      "id": "e1r-digital-library",
+      "family": "title-coverage",
+      "introduced": "2026-10-03",
+      "published_on": "2026-11-17",
+      "budget": 65,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "Public libraries have spent heavily on faster internet connections and new computers. For residents without reliable access at home, those investments matter. Yet librarians report that some visitors still leave without completing the task that brought them in. A working computer is little help to someone unsure how to fill in an online form or judge whether a message is genuine.\n\nSeveral libraries are now assigning staff to offer short, practical sessions alongside the equipment. The service costs money and takes time away from other duties. But if public access is to mean more than a row of available screens, helping people use the connection deserves a place in the budget too.",
+      "q": "Which of the following would be the best title for the text?",
+      "o": [
+        "Bringing Every Library Service Online",
+        "A Better Connection Is Only a Beginning",
+        "Making Public Computers Pay Their Way",
+        "Why Libraries Are Losing Their Readers"
+      ],
+      "a": 1,
+      "target": "标题概括问题与解决方向，不只复现一个话题词",
+      "skill": "标题概括问题与解决方向，不只复现一个话题词",
+      "origin_session": "2026-11-17-reading-style",
+      "answer_support": "helping people use the connection deserves a place in the budget too",
+      "exp": {
+        "trans": "图书馆配置网络和电脑后，部分读者仍缺少使用技能；作者主张把人员指导也纳入公共数字服务。",
+        "structure": "从硬件投入的成效和不足，推进到实用指导的需求与经费，形成“连接只是起点”的论点。",
+        "other": "genuine：真实的；assign：安排；alongside：与……同时。",
+        "meaning": "正确标题同时覆盖硬件有用和仅有硬件不够这两层观点，包含文章后半部分提出的支持措施。",
+        "rest": "把所有服务搬到线上不是文章主张；让电脑挣钱误读了公共预算讨论；文章也没有说图书馆正在失去读者。"
+      },
+      "context_id": "english1-reading:digital-library"
+    },
+    {
+      "id": "pb18-demolition-stadium",
+      "family": "demolition-meaning",
+      "introduced": "2026-11-18",
+      "published_on": "2026-11-18",
+      "budget": 45,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "Construction of the town’s new sports ground continued through two winters. After the local clubs occupied its changing rooms and began playing on the new pitches, the council approved the demolition of the old stadium. A contractor took down the stands and removed the concrete terraces. Local clubs were given a chance to collect turnstiles and signs before the last structures came down.\n\nSome residents had hoped that the old ground could be adapted for school sport. The council opted to keep only a small garden at the site, using bricks from the stadium to mark its boundary. That garden will preserve part of the place's history even though the venue itself will be gone.",
+      "q": "The council approved the “demolition” of the old stadium, which involved",
+      "o": [
+        "converting the venue for use by schools.",
+        "building new stands for the local teams.",
+        "moving the stadium to a nearby site.",
+        "taking down the structures on the site."
+      ],
+      "a": 3,
+      "target": "demolition 的事件含义",
+      "skill": "demolition 的事件含义",
+      "origin_session": "2026-11-18-2018-partb",
+      "answer_support": "A contractor took down the stands and removed the concrete terraces.",
+      "exp": {
+        "trans": "新体育场历经两个冬天建成，球队入驻后，旧体育场的看台和结构被拆除。新花园将用旧砖保留一点场地记忆。",
+        "structure": "先写新场地建造与入驻，再写旧场地拆除。结尾说明如何保留场地记忆。",
+        "other": "construction 建造，occupy 在这里指入驻并使用，terrace 阶梯看台，turnstile 旋转闸门。",
+        "meaning": "承包商拆看台和移除混凝土结构，体现 demolition 是拆除。",
+        "rest": "供学校使用只是部分居民的设想。新场地已建成，旧体育场并没有整体迁移或为球队加建看台。"
+      },
+      "context_id": "pb18:stadium-reuse"
     }
   ],
   "retry": {
-    "inference-boundary": [
+    "elaborate-polysemy": [
       {
-        "id": "e1r-evening-buses",
-        "family": "inference-boundary",
+        "id": "pb18-elaborate-condition",
+        "family": "elaborate-polysemy",
         "introduced": null,
-        "published_on": "2026-11-17",
-        "budget": 55,
+        "published_on": "2026-11-18",
+        "budget": 45,
         "reading_budget": 120,
         "format": "english1_reading",
-        "passage": "For people leaving work late, the last bus can determine whether a job is worth taking. A transport committee is therefore considering running buses for an extra hour on two routes. The proposal has won support from employers, but the council has not yet agreed to fund it. Existing services will continue while the costs are examined.\n\nSupporters describe the plan as a chance to widen access to work. That may be true, but it is not yet a benefit anyone can use. The difference between a useful proposal and an available service is easily lost when an announcement receives more attention than the decision still needed to carry it out.",
-        "q": "What can be learned about the proposed bus service?",
+        "passage": "An independent report says a new ticket scheme could help occasional visitors, but its author includes a qualification about opening hours. At a meeting, a trustee asks her to elaborate on that point. The author explains that the reduced fee is useful only if visitors who work during the day can come in the evening.\n\nThe discussion changes what the trustees ask staff to monitor. Ticket sales will still matter, but the next review will also record when people were able to visit. A brief qualification in a written report has led to a more precise question about who can benefit from the scheme.",
+        "q": "What did the trustee ask the author to do?",
         "o": [
-          "It has already replaced the existing evening timetable.",
-          "It is being reduced because employers oppose the cost.",
-          "It will be available as soon as employers request it.",
-          "Its extension depends on a funding decision still to come."
+          "Estimate how much the lower fee would cost.",
+          "Set a later date for publishing the report.",
+          "Explain the qualification in greater detail.",
+          "Remove the restriction from the ticket scheme."
         ],
-        "a": 3,
-        "target": "保留提议、可能性与实施事实的区别",
-        "skill": "保留提议、可能性与实施事实的区别",
+        "a": 2,
+        "target": "elaborate on 作动词短语",
+        "skill": "elaborate on 作动词短语",
+        "origin_session": "2026-11-18-2018-partb",
+        "answer_support": "The author explains that the reduced fee is useful only if visitors who work during the day can come in the evening.",
+        "exp": {
+          "trans": "受托人在会上请报告作者详述开放时段与低价票的关系。作者解释白天上班的人需要晚间到访机会。",
+          "structure": "elaborate on 之后紧接对那项限制的展开，新的监测指标又落实了这一解释。",
+          "other": "qualification 限定条件，trustee 受托管理者，occasional 偶尔的。",
+          "meaning": "请求的是把已有观点说明得更详细。这个结构里的 elaborate 是动词。",
+          "rest": "估算票价成本、推迟报告和取消限制都不是详细说明已有条件。"
+        },
+        "context_id": "pb18:ticket-scheme-detail"
+      }
+    ],
+    "author-stance": [
+      {
+        "id": "e1r-tutoring-forecast",
+        "family": "author-stance",
+        "introduced": "2026-10-03",
+        "published_on": "2026-11-17",
+        "budget": 50,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A company selling automated tutoring software predicts that its product will soon make private lessons unnecessary. It points to students who completed practice exercises more quickly after a week of use. The finding may interest teachers looking for ways to provide extra practice. It tells us much less about the company's larger promise.\n\nSpeed on a familiar exercise is not the same as understanding a difficult idea. Nor does a week's use show whether students will retain what they have learned. Before accepting a forecast about the disappearance of private lessons, schools need evidence that addresses those questions. The sales pitch has moved rather further than the research behind it.",
+        "q": "The author views the company's prediction with",
+        "o": [
+          "relief.",
+          "skepticism.",
+          "admiration.",
+          "indifference."
+        ],
+        "a": 1,
+        "target": "从证据不足和评价措辞判断怀疑，而非仅凭情绪强弱猜态度",
+        "skill": "从证据不足和评价措辞判断怀疑，而非仅凭情绪强弱猜态度",
         "origin_session": "2026-11-17-reading-style",
-        "answer_support": "the council has not yet agreed to fund it",
+        "answer_support": "The sales pitch has moved rather further than the research behind it.",
         "exp": {
-          "trans": "委员会考虑两条线路延长一小时，雇主支持，但拨款尚未批准；现有服务照常运行。",
-          "structure": "先交代需求和提议，再指出公众容易把得到关注的方案误当成已经可使用的服务。",
-          "other": "consider：考虑；fund：提供资金；carry out：实施。",
-          "meaning": "未批准资金的事实支持“延长仍取决于后续拨款决定”。considering不能被改写成已经延长，更不能反向改成正在削减。",
-          "rest": "现有时刻表未被取代；雇主实际支持方案；雇主提出请求也不等于市政已经批准资金。"
+          "trans": "软件提高了短期熟练练习的速度，但公司据此预言私人辅导会消失。作者认为研究不足以支持这一大幅扩展的预测。",
+          "structure": "先介绍公司预测及其有限证据，再逐项指出证据与预测之间的缺口。",
+          "other": "retain：保持、记住；sales pitch：推销说辞；skepticism：怀疑。",
+          "meaning": "作者不是单纯说不知道结果，而是指出预测超出了现有研究的支持范围，体现skepticism。",
+          "rest": "relief和admiration没有评价依据；末句已经明确批评推销承诺走得过远，因此不是indifference。"
         },
-        "context_id": "english1-reading:evening-buses"
+        "context_id": "english1-reading:tutoring-forecast"
       }
     ],
-    "band-aid-remedy": [
+    "paragraph-order-discourse": [
       {
-        "id": "r18t4-bandaid-fundraising",
-        "family": "band-aid-remedy",
+        "id": "pb18-cause-watering",
+        "family": "paragraph-order-discourse",
+        "introduced": "2026-10-04",
+        "published_on": "2026-11-18",
+        "budget": 65,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "The allotment association noticed that several plots stayed dry even when others were watered often. Members first suspected that a pipe leaked. A survey showed instead that the early watering slot was the only one available to both ends of the site, and gardeners living farther away could seldom arrive in time.\n\n[Missing paragraph]\n\nUnder the new timetable, the outer plots could draw water in the evening, when more holders were able to come. The association later checked whether the former dry patches were still concentrated in the same part of the site.",
+        "q": "Which paragraph best fits the gap?",
+        "o": [
+          "The committee asked each household to pay towards repairs, even if its plot had never suffered from a leak.",
+          "The committee set out different watering hours, with a later slot for gardeners on the outer plots.",
+          "The committee encouraged gardeners to choose plants that need less water during a dry season.",
+          "The committee found that plots near the gate had been divided recently and began to review their sizes."
+        ],
+        "a": 1,
+        "target": "困难、调整方案与结果的因果链",
+        "skill": "困难、调整方案与结果的因果链",
+        "origin_session": "2026-11-18-2018-partb",
+        "answer_support": "Under the new timetable, the outer plots could draw water in the evening",
+        "exp": {
+          "trans": "外侧地块缺水，调查发现时段不合适而非管道漏水。空缺后写时段调整的作用。",
+          "structure": "先排除漏水并找到排班原因，再应有建立新时段的措施，最后检查效果。",
+          "other": "allotment 分租的小块菜地，holder 使用者，draw water 取水。",
+          "meaning": "正确段直接处理外侧地块的时段困难，也为后文的 new timetable 建立所指。",
+          "rest": "筹修理费仍归因于漏水，耐旱植物与地块大小都没有解释后文为何出现新取水时段。"
+        },
+        "context_id": "pb18:allotment-watering"
+      },
+      {
+        "id": "pb18-workshop-close",
+        "family": "paragraph-order-discourse",
+        "introduced": "2026-10-04",
+        "published_on": "2026-11-18",
+        "budget": 65,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A cooperative opened a shared workshop where small furniture businesses could hire machines by the hour. One group of owners thought the main benefit would be lower costs. After a year, the coordinator found that many members were also borrowing measuring tools, sharing suppliers and giving advice about how to train new staff.\n\nThe cooperative has therefore started measuring more than the number of bookings. It asks businesses to record when sharing equipment has led to an exchange of skills or a joint order. The coordinator wants those accounts to inform future decisions about which resources the workshop should provide.",
+        "q": "Which of the following would make the most appropriate final paragraph?",
+        "o": [
+          "The new figures can show both how often firms hire the machines and how their work together has changed.",
+          "The new figures should help explain why workshop owners can now take on extra orders without speaking to other businesses.",
+          "The next step is to choose a single method of training so that every business can offer its workers the same instruction.",
+          "The chief task for the cooperative is now to decide whether the hourly rate can be used to estimate future building costs."
+        ],
+        "a": 0,
+        "target": "结尾须回收共同资源与长期协作",
+        "skill": "结尾须回收共同资源与长期协作",
+        "origin_session": "2026-11-18-2018-partb",
+        "answer_support": "It asks businesses to record when sharing equipment has led to an exchange of skills or a joint order.",
+        "exp": {
+          "trans": "共享车间的价值既有机器使用成本，也有人际协作。运营方开始记录设备共享带来的互助。",
+          "structure": "从创办目标到观察到的新作用，再转入如何核算两类收益。",
+          "other": "cooperative 合作组织，joint order 联合订单，inform 为决策提供依据。",
+          "meaning": "合适结尾同时回收机器使用与企业互助，也解释为何增加记录。",
+          "rest": "不沟通就增加订单反转互助，统一培训方案添加政策，建造成本把主题转到原文没有展开的预算。"
+        },
+        "context_id": "pb18:furniture-workshop-measures"
+      }
+    ],
+    "amount-to-meaning": [
+      {
+        "id": "r18t4-amount-total",
+        "family": "amount-to-meaning",
         "introduced": "2026-11-17",
         "published_on": "2026-11-17",
         "budget": 45,
         "reading_budget": 120,
         "format": "english1_reading",
-        "passage": "A community arts programme is about to cancel its next season when a sponsor offers a single donation. The gift pays the venue bill and allows the advertised workshops to go ahead. The organisers are grateful, but the programme has lost several regular supporters and has no dependable income for the following year.\n\nOne trustee calls the donation a Band-Aid rather than a funding strategy. The point is not to dismiss the sponsor's generosity. It is to recognise that a payment which prevents an immediate cancellation does not establish a reliable way to finance future work. The programme needs both relief now and a plan for what follows.",
-        "q": "The trustee's description of the donation as a \"Band-Aid\" stresses its",
+        "passage": "A local newspaper wants subscribers to understand what their payments support. Its annual accounts separate printing, delivery and reporting costs. Payments to freelance reporters amount to a substantial share of the total, although each individual assignment may appear inexpensive when considered on its own.\n\nThe distinction between a single payment and the combined cost matters to the newspaper's plans. Reducing one small fee would do little if the same work then had to be purchased elsewhere. The accounts are intended to show where spending accumulates across a year, rather than suggest that the most visible invoice must be the most important one.",
+        "q": "The phrase \"amount to\" in Paragraph 1 is closest in meaning to",
         "o": [
-          "dependence on the venue's willingness to cancel events.",
-          "ability to replace the programme's regular supporters.",
-          "failure to help with any of the current expenses.",
-          "limited role in addressing a continuing funding problem."
+          "make room for.",
+          "fall short of.",
+          "depend upon.",
+          "add up to."
         ],
         "a": 3,
-        "target": "区分一次应急支持和可持续解决方案",
-        "skill": "区分一次应急支持和可持续解决方案",
+        "target": "amount to也可表示总计达到，不固定只记一种义",
+        "skill": "amount to也可表示总计达到，不固定只记一种义",
         "origin_session": "2026-11-17-2018-text4",
-        "answer_support": "a payment which prevents an immediate cancellation does not establish a reliable way to finance future work",
+        "answer_support": "Payments to freelance reporters amount to a substantial share of the total",
         "exp": {
-          "trans": "一次捐款救下本季活动，但并未建立往后的稳定收入来源；作者承认好处并限定其作用。",
-          "structure": "先交代危机和缓解，再区分即时救助与持续资助。",
-          "other": "trustee：受托管理者；dependable：可靠的；relief：缓解、救济。",
-          "meaning": "正确项是对持续问题的作用有限，不是把捐赠说成无效或已有完整财务方案。",
-          "rest": "场地方取消意愿不是比喻重点；常规支持者流失未被解决；当期场地费确实已获帮助。"
+          "trans": "报社说明零散稿费合计占全年开支的重要部分，单项小不代表合计不重要。",
+          "structure": "第一段呈现单项与总量差别，第二段解释核算全年支出的意义。",
+          "other": "freelance：自由职业的；invoice：账单；accumulate：累积。",
+          "meaning": "add up to对应总计达到。本题与“相当于形式”语境不同，要按宾语和上下文判断义项。",
+          "rest": "留出空间、低于和依赖都没有表达累计占比的关系。"
         },
-        "context_id": "r18t4-reading:bandaid-fundraising"
+        "context_id": "r18t4-reading:amount-total"
       }
     ],
-    "former-latter-goal": [
+    "necessitate-causal-need": [
       {
-        "id": "r18t4-measures-tour",
-        "family": "former-latter-goal",
-        "introduced": "2026-11-17",
-        "published_on": "2026-11-17",
+        "id": "pb18-necessitate-caption-check",
+        "family": "necessitate-causal-need",
+        "introduced": "2026-11-18",
+        "published_on": "2026-11-18",
         "budget": 45,
         "reading_budget": 120,
         "format": "english1_reading",
-        "passage": "Small touring companies often struggle with expensive costumes and duplicated office work. A regional theatre network proposes a shared costume store and a single booking service. The store would let companies borrow items they otherwise had to buy. The latter service would take bookings for every participating company, so that each troupe would no longer need to maintain a separate ticket office.\n\nAdministrators have complained for years about answering the same enquiries through several offices. Sharing costumes may save money, but it would not remove that repeated work. The booking proposal is directed at that particular problem. The network hopes the joint office will leave staff more time to arrange school visits and local performances.",
-        "q": "The complaint about repeated administrative work is most directly answered by",
+        "passage": "An exhibition team invited several neighbouring towns to lend objects for a display of local crafts. Borrowing widened the range of objects, but every lender used a different form to record ownership. A single surname could refer to a maker, a former owner or the person lending an object.\n\nPutting all the forms into one catalogue necessitated a careful check of those roles. Without it, a visitor might read the name of a lender as the name of the person who made a pot. The team hired a researcher to compare the forms with the objects and write captions that described the right relationship.",
+        "q": "What did combining the records make necessary?",
         "o": [
-          "buying fewer costumes for each production.",
-          "giving every troupe its own ticket office.",
-          "asking performers to handle audience enquiries.",
-          "providing a common booking service."
+          "Bringing the lenders together for a display.",
+          "Deciding which objects should leave the towns.",
+          "Choosing a common surname for catalogue entries.",
+          "Checking what each name represented in the forms."
         ],
         "a": 3,
-        "target": "latter指第二项；相同主题不等于相同作用",
-        "skill": "latter指第二项；相同主题不等于相同作用",
-        "origin_session": "2026-11-17-2018-text4",
-        "answer_support": "The booking proposal is directed at that particular problem.",
+        "target": "necessitate 引出的必要行动",
+        "skill": "necessitate 引出的必要行动",
+        "origin_session": "2026-11-18-2018-partb",
+        "answer_support": "Putting all the forms into one catalogue necessitated a careful check of those roles",
         "exp": {
-          "trans": "服装共享减少购置费用，统一订票减少各团重复接待咨询；长期抱怨针对后者所解决的重复工作。",
-          "structure": "先列措施并说明作用，再以长期抱怨限定需要对应的目标。",
-          "other": "troupe：剧团；enquiry：咨询；duplicated：重复的。",
-          "meaning": "正确项对应第二项共同订票服务，保留latter的指向及其解决的问题。",
-          "rest": "少买服装处理的是另一项成本；各设票房会继续重复；让演员接咨询没有被提出。"
+          "trans": "联展借入展品时，表格中的人名可能指不同身份。合并目录前需要核对名字代表的是谁。",
+          "structure": "材料先说明身份标签的歧义，再交代合并目录带来核验的必要性。",
+          "other": "lender 出借人，caption 说明文字，former owner 前任所有者。",
+          "meaning": "使核验成为必要的是合并目录。核验目标是名字的身份所指。",
+          "rest": "邀请出借人和决定展品体现其他阶段的工作。使用统一姓氏会扩大混淆。"
         },
-        "context_id": "r18t4-reading:measures-tour"
+        "context_id": "pb18:exhibition-owner-labels"
+      }
+    ],
+    "overcrowded-context": [
+      {
+        "id": "pb18-crowded-seed-trays",
+        "family": "overcrowded-context",
+        "introduced": "2026-11-18",
+        "published_on": "2026-11-18",
+        "budget": 45,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A class planted basil in trays and kept them on the same windowsill. Where the children had used only a few seeds, the plants grew steadily. In other trays, dozens of shoots came up together and their leaves soon covered one another. The teacher described those trays as overcrowded.\n\nMoving some of the shoots into separate pots helped, although the original trays had received just as much water and sunlight. The class had expected more seeds to produce more mature plants. It found instead that the number a tray could support depended on the space each plant needed as it grew.",
+        "q": "What made some of the trays “overcrowded”?",
+        "o": [
+          "Their leaves received too little water.",
+          "Too many shoots shared the same space.",
+          "The seeds were planted in shallow soil.",
+          "The plants grew at different speeds."
+        ],
+        "a": 1,
+        "target": "按容纳量理解 overcrowded",
+        "skill": "按容纳量理解 overcrowded",
+        "origin_session": "2026-11-18-2018-partb",
+        "answer_support": "dozens of shoots came up together and their leaves soon covered one another",
+        "exp": {
+          "trans": "同一窗台上的育苗盘，苗太多时叶片相互遮盖，分盆后改善。需要考虑每株生长所需空间。",
+          "structure": "先对比播种数量和长势，再利用分盆的效果区分空间条件与浇水、光照。",
+          "other": "shoot 幼芽，windowsill 窗台，mature 成熟的。",
+          "meaning": "同一育苗盘容纳了太多幼苗。overcrowded 也可形容空间中事物过度密集。",
+          "rest": "浇水和光照条件一致，播种深度未交代。生长速度不同也没有表达同一空间内数量过多。"
+        },
+        "context_id": "pb18:seedling-space"
       }
     ],
     "title-coverage": [
+      {
+        "id": "r18t4-title-timetable",
+        "family": "title-coverage",
+        "introduced": "2026-10-03",
+        "published_on": "2026-11-17",
+        "budget": 65,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A school district has responded to falling reading scores by buying extra tutoring hours. The help is welcome, particularly for pupils who have missed lessons. Yet the district's own review found that frequent timetable changes were repeatedly interrupting the normal reading classes. Paying for more teaching after school leaves that problem untouched.\n\nThe tutoring contract may prevent some pupils from falling further behind. It should not become a reason to postpone a more awkward discussion about how the school day is organised. A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones. The extra help is useful; a dependable timetable is still essential.",
+        "q": "Which of the following would be the best title for the text?",
+        "o": [
+          "Why Reading Scores Call for Rapid Action",
+          "Extra Lessons Cannot Repair a Broken Timetable",
+          "After-School Tutors Deserve Greater Recognition",
+          "How Families Can Help Children Read at Home"
+        ],
+        "a": 1,
+        "target": "标题须包含作者对现有措施不充分的评价",
+        "skill": "标题须包含作者对现有措施不充分的评价",
+        "origin_session": "2026-11-17-2018-text4",
+        "answer_support": "A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones.",
+        "exp": {
+          "trans": "额外辅导有用，但正常阅读课不断被打断，作者主张处理课程安排本身的问题。",
+          "structure": "先认可补救，再指出根因仍在，末段要求把改善基本安排纳入对策。",
+          "other": "dependable：可靠的；put matters right：纠正问题。",
+          "meaning": "正确标题抓住额外辅导无法代替稳定课程安排的论点。快速行动与阅读下降相关，但不是作者最强调的区别。",
+          "rest": "紧急行动只概括背景需求；肯定辅导教师、家庭阅读均非文章论证中心。"
+        },
+        "context_id": "r18t4-reading:title-timetable"
+      },
       {
         "id": "r18t4-title-swift-reform",
         "family": "title-coverage",
@@ -380,36 +536,6 @@
           "rest": "要求申请人更耐心、警惕信息共享或延长表格，均不符合作者对这次改革的肯定。"
         },
         "context_id": "r18t4-reading:title-swift-reform"
-      },
-      {
-        "id": "e1r-digital-library",
-        "family": "title-coverage",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-17",
-        "budget": 65,
-        "reading_budget": 120,
-        "format": "english1_reading",
-        "passage": "Public libraries have spent heavily on faster internet connections and new computers. For residents without reliable access at home, those investments matter. Yet librarians report that some visitors still leave without completing the task that brought them in. A working computer is little help to someone unsure how to fill in an online form or judge whether a message is genuine.\n\nSeveral libraries are now assigning staff to offer short, practical sessions alongside the equipment. The service costs money and takes time away from other duties. But if public access is to mean more than a row of available screens, helping people use the connection deserves a place in the budget too.",
-        "q": "Which of the following would be the best title for the text?",
-        "o": [
-          "Bringing Every Library Service Online",
-          "A Better Connection Is Only a Beginning",
-          "Making Public Computers Pay Their Way",
-          "Why Libraries Are Losing Their Readers"
-        ],
-        "a": 1,
-        "target": "标题概括问题与解决方向，不只复现一个话题词",
-        "skill": "标题概括问题与解决方向，不只复现一个话题词",
-        "origin_session": "2026-11-17-reading-style",
-        "answer_support": "helping people use the connection deserves a place in the budget too",
-        "exp": {
-          "trans": "图书馆配置网络和电脑后，部分读者仍缺少使用技能；作者主张把人员指导也纳入公共数字服务。",
-          "structure": "从硬件投入的成效和不足，推进到实用指导的需求与经费，形成“连接只是起点”的论点。",
-          "other": "genuine：真实的；assign：安排；alongside：与……同时。",
-          "meaning": "正确标题同时覆盖硬件有用和仅有硬件不够这两层观点，包含文章后半部分提出的支持措施。",
-          "rest": "把所有服务搬到线上不是文章主张；让电脑挣钱误读了公共预算讨论；文章也没有说图书馆正在失去读者。"
-        },
-        "context_id": "english1-reading:digital-library"
       },
       {
         "id": "e1r-empty-shops",
@@ -442,162 +568,59 @@
         "context_id": "english1-reading:empty-shops"
       }
     ],
-    "author-stance": [
+    "demolition-meaning": [
       {
-        "id": "e1r-flood-park",
-        "family": "author-stance",
-        "introduced": "2026-10-03",
-        "published_on": "2026-11-17",
-        "budget": 50,
-        "reading_budget": 120,
-        "format": "english1_reading",
-        "passage": "A city proposes turning a disused sports ground into a park that can hold floodwater during heavy rain. Residents would gain an open space for most of the year, while nearby streets would face a lower risk of flooding. Some critics object that the park would occasionally have to close just when families wanted to use it.\n\nThat inconvenience should be acknowledged. It is not, by itself, a convincing reason to abandon a space that serves two useful purposes. The more important questions concern safe access, reliable maintenance and clear warnings before the water rises. With those arrangements in place, the proposal deserves to move beyond the drawing board.",
-        "q": "The author's attitude towards the proposed park is one of",
-        "o": [
-          "unqualified enthusiasm.",
-          "general indifference.",
-          "persistent hostility.",
-          "conditional approval."
-        ],
-        "a": 3,
-        "target": "判断作者的条件性支持，不把承认缺点读成全面反对",
-        "skill": "判断作者的条件性支持，不把承认缺点读成全面反对",
-        "origin_session": "2026-11-17-reading-style",
-        "answer_support": "With those arrangements in place, the proposal deserves to move beyond the drawing board.",
-        "exp": {
-          "trans": "公园兼具日常开放空间和蓄洪用途，作者承认临时关闭不便，但认为落实安全和维护安排后应推进。",
-          "structure": "先列出方案利弊，再明确主要条件，结尾给出有条件的支持。",
-          "other": "drawing board：设计阶段；maintenance：维护；acknowledge：承认。",
-          "meaning": "结尾明确说条件落实后值得推进，因此是conditional approval；既非对所有问题无保留赞美，也非仅仅态度不明。",
-          "rest": "unqualified抹去了条件；indifference与明确建议推进不符；hostility把承认不便扩大成敌意。"
-        },
-        "context_id": "english1-reading:flood-park"
-      }
-    ],
-    "costs-effort-intensity": [
-      {
-        "id": "e1r-historic-library",
-        "family": "costs-effort-intensity",
-        "introduced": "2026-11-16",
-        "published_on": "2026-11-17",
-        "budget": 50,
-        "reading_budget": 120,
-        "format": "english1_reading",
-        "passage": "When a town announced that its old library might close, campaigners demanded that the building be saved at all costs. Their anger was understandable. Generations had studied there, and a public building carries memories that cannot be priced like office space. But the phrase concealed a difficult question: what other services would have to be reduced to pay for it?\n\nA smaller library in a shared building would lose something valuable. It could nevertheless preserve the service while releasing money for home visits to elderly readers. Recognising that possibility does not mean treating history as worthless. It means accepting that a worthy cause still has to be considered alongside other public needs.",
-        "q": "The author suggests that the town should",
-        "o": [
-          "preserve the building whatever other services suffer.",
-          "judge the library mainly by the value of its site.",
-          "delay any decision until its historical value is priced.",
-          "weigh preservation against its other public duties."
-        ],
-        "a": 3,
-        "target": "识别at all costs的强度，避免把支持某目标读成不计代价",
-        "skill": "识别at all costs的强度，避免把支持某目标读成不计代价",
-        "origin_session": "2026-11-17-reading-style",
-        "answer_support": "a worthy cause still has to be considered alongside other public needs",
-        "exp": {
-          "trans": "作者理解居民保护老图书馆的愿望，但指出无论代价地保存建筑会挤占其他服务；替代方案可兼顾借阅与上门服务。",
-          "structure": "先承认保护历史的价值，再追问代价，最后说明考虑其他需求并不等于否定历史。",
-          "other": "at all costs：不惜一切代价；alongside：与……一并考虑；worthy：值得支持的。",
-          "meaning": "作者支持把保存建筑与其他公共职责一起衡量。这里要读出at all costs的强度，不能把它只当成努力程度高。",
-          "rest": "不顾其他服务的损失延续了作者正在质疑的绝对立场；按地价评价建筑是作者反对的简化；原文没有要求先给历史标价。"
-        },
-        "context_id": "english1-reading:historic-library"
-      }
-    ],
-    "interference-capacity": [
-      {
-        "id": "r18t4-capacity-records",
-        "family": "interference-capacity",
-        "introduced": "2026-11-17",
-        "published_on": "2026-11-17",
+        "id": "pb18-demolition-canal-wall",
+        "family": "demolition-meaning",
+        "introduced": "2026-11-18",
+        "published_on": "2026-11-18",
         "budget": 45,
         "reading_budget": 120,
         "format": "english1_reading",
-        "passage": "An audit of a scholarship office found the same calculation error in dozens of applications. The staff had misunderstood a simple scoring rule and had received no training before using it. There was no evidence that applicants had pressured the office to change their marks. The review described the failures as incompetence rather than favouritism.\n\nThat distinction matters for the response. A clearer rule and supervised training could address the problem identified by the audit. Investigating influence from outside groups would answer a different question. An institution can make serious mistakes because its staff cannot perform a task properly, even when nobody is trying to interfere with their decisions.",
-        "q": "The word \"incompetence\" in Paragraph 1 most nearly means",
+        "passage": "A flood channel has been out of use for years, but a low wall still divides it from the nearby park. Engineers propose removing the wall so that a footpath can reach the water. Before the demolition begins, a group of volunteers will photograph the stonework and record how the blocks were fitted together.\n\nThe photographs will help the park explain why the wall was built in the first place. A few marked stones can be kept for display, though that will leave no continuous wall at the site. The plan makes room for a new use while giving visitors some means of understanding the old one.",
+        "q": "What will happen during the planned demolition?",
         "o": [
-          "deliberate pressure from outsiders.",
-          "unfair preference for certain applicants.",
-          "lack of ability to perform a task properly.",
-          "refusal to disclose a successful procedure."
+          "The existing wall will be taken down.",
+          "The stone blocks will be fitted afresh.",
+          "The old channel will be put back to use.",
+          "The route will be closed to all visitors."
         ],
-        "a": 2,
-        "target": "在确有能力不足证据时正确识别incompetence",
-        "skill": "在确有能力不足证据时正确识别incompetence",
-        "origin_session": "2026-11-17-2018-text4",
-        "answer_support": "its staff cannot perform a task properly",
+        "a": 0,
+        "target": "区分拆除、复建和后续利用",
+        "skill": "区分拆除、复建和后续利用",
+        "origin_session": "2026-11-18-2018-partb",
+        "answer_support": "A few marked stones can be kept for display, though that will leave no continuous wall at the site",
         "exp": {
-          "trans": "审计发现工作人员误解计算规则且未受培训，没有外部施压证据，因此判断为能力不足而非偏袒。",
-          "structure": "先给事实并区分原因，第二段说明不同原因需要不同的应对。",
-          "other": "incompetence：不能胜任；favouritism：偏袒；interfere：干预。",
-          "meaning": "正确项对应不能适当完成工作。本题不是教成凡遇制度问题都选利益干预，而是按材料判断。",
-          "rest": "外部施压和偏袒均被文中排除；拒绝公开成功做法没有事实支持。"
+          "trans": "工程师计划拆除隔开公园与旧水道的矮墙，志愿者先拍照，部分石块留作展示。",
+          "structure": "先列拆除前记录，再解释局部保存石块并不意味着墙体仍在。",
+          "other": "stonework 石砌结构，continuous 连续的，footpath 步道。",
+          "meaning": "拆除事件本身是矮墙被拆下。保留少数石块不改变动作性质。",
+          "rest": "重砌墙、恢复水道原来功能、长期禁止通行都没有依据。"
         },
-        "context_id": "r18t4-reading:capacity-records"
-      }
-    ],
-    "attribution-stance": [
-      {
-        "id": "e1r-housing-permission",
-        "family": "attribution-stance",
-        "introduced": null,
-        "published_on": "2026-11-17",
-        "budget": 55,
-        "reading_budget": 120,
-        "format": "english1_reading",
-        "passage": "A developer has received permission to turn a disused office block into flats. The planning officer says the proposal meets the rules on floor space and access. On those grounds, she regards the assessment as complete. A local columnist is less satisfied. The small flats may be legal, he notes, yet many have windows facing a busy delivery yard.\n\nThe officer is right to apply the existing rules. But compliance is a starting point for judging a home, not a complete account of its quality. A system that records the width of a doorway but scarcely asks what living behind it would be like risks mistaking an approved building for a good place to live.",
-        "q": "The author argues that the planning assessment",
-        "o": [
-          "should focus on the developer's ability to make a profit.",
-          "has prevented residents from moving into suitable homes.",
-          "gives too little attention to the quality of daily life.",
-          "has applied stricter standards than the existing rules require."
-        ],
-        "a": 2,
-        "target": "区分监管人员的合规判断与作者进一步提出的评价",
-        "skill": "区分监管人员的合规判断与作者进一步提出的评价",
-        "origin_session": "2026-11-17-reading-style",
-        "answer_support": "compliance is a starting point for judging a home, not a complete account of its quality",
-        "exp": {
-          "trans": "规划人员依据面积和出入规定批准住宅改造，作者承认依法评估的必要性，但认为居住体验没有得到充分考虑。",
-          "structure": "先呈现官员的判断及专栏作者的疑问，末段提出“合规不等于宜居”的进一步论点。",
-          "other": "compliance：遵守规定；delivery yard：装卸院；assessment：评估。",
-          "meaning": "正确项属于作者的批评：评估遗漏实际生活质量。不能把官员认为审查已完成的结论当作作者也认可。",
-          "rest": "盈利不是作者提出的评估重点；文中没有阻止居民入住的事实；官员按现行规则评估，并没有采用更严格的标准。"
-        },
-        "context_id": "english1-reading:housing-permission"
+        "context_id": "pb18:canal-footpath"
       }
     ]
   },
   "article_session": {
-    "id": "2026-11-17-2018-text4",
-    "source": "2018 英语一 Text 4 · 原创短篇阅读复盘",
-    "created_at": "2026-11-17T19:52:37+09:00",
+    "id": "2026-11-18-2018-partb",
+    "source": "2018 英语一 Part B · 词汇与衔接复盘",
+    "created_at": "2026-11-18T17:51:37+09:00",
     "revision": 1,
-    "learning_date": "2026-11-17",
+    "learning_date": "2026-11-18",
     "question_format": "english1_reading",
-    "session_file": "data/article-sessions/2026-11-17-2018-text4.json",
+    "session_file": "data/article-sessions/2026-11-18-2018-partb.json",
     "current_families": [
-      "title-coverage",
-      "former-latter-goal",
-      "interference-capacity",
-      "band-aid-remedy"
+      "necessitate-causal-need",
+      "demolition-meaning",
+      "elaborate-polysemy",
+      "overcrowded-context"
     ],
-    "deferred_families": [
-      "regulatory-framework",
-      "bare-minimum-meaning",
-      "overseer-role",
-      "amount-to-meaning",
-      "postal-meaning",
-      "first-class-mail-meaning"
-    ],
+    "deferred_families": [],
     "historical_families": [
-      "attribution-stance",
+      "title-coverage",
+      "paragraph-order-discourse",
       "author-stance",
-      "inference-boundary",
-      "costs-effort-intensity"
+      "amount-to-meaning"
     ]
   },
   "issues_used": [
@@ -651,7 +674,8 @@
     48,
     49,
     50,
-    51
+    51,
+    52
   ],
   "engine": 4
 }
