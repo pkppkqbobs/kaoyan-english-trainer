@@ -4355,6 +4355,102 @@
       "round_id": "mwlsuvm9-bnymm0g8",
       "source_date": "2026-11-18",
       "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "elaborate-polysemy",
+      "ok": true,
+      "ms": 18304,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "pb18-elaborate-album",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "author-stance",
+      "ok": true,
+      "ms": 83845,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "e1r-flood-park",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "paragraph-order-discourse",
+      "ok": false,
+      "ms": 130682,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "pb18-overview-stockroom",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "amount-to-meaning",
+      "ok": false,
+      "ms": 23148,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "r18t4-amount-formality",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "necessitate-causal-need",
+      "ok": true,
+      "ms": 96399,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "pb18-necessitate-journal",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "overcrowded-context",
+      "ok": true,
+      "ms": 6435,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "pb18-crowded-print-fair",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 79356,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "e1r-digital-library",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-18",
+      "family": "demolition-meaning",
+      "ok": true,
+      "ms": 10576,
+      "uncertain": false,
+      "origin": 53,
+      "qid": "pb18-demolition-stadium",
+      "round_id": "mwlw6ajh-h2v4fpxx",
+      "source_date": "2026-11-18",
+      "slow_threshold_ms": 120000
     }
   ],
   "issues": [
@@ -4409,6 +4505,7 @@
     49,
     50,
     51,
-    52
+    52,
+    53
   ]
 }

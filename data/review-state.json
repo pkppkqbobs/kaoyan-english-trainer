@@ -52,7 +52,8 @@
     49,
     50,
     51,
-    52
+    52,
+    53
   ],
   "families": {
     "absolute-language": {
@@ -117,12 +118,12 @@
     },
     "amount-to-meaning": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-18",
       "due": "2026-11-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "astronomy-word-family": {
@@ -148,11 +149,11 @@
     "author-stance": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-02",
-      "due": "2026-11-03",
+      "last": "2026-11-18",
+      "due": "2026-11-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "backdrop-context": {
@@ -478,11 +479,11 @@
     "demolition-meaning": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-18",
       "due": "2026-11-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "directness-modifier": {
@@ -548,11 +549,11 @@
     "elaborate-polysemy": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-18",
       "due": "2026-11-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "end-up": {
@@ -888,11 +889,11 @@
     "necessitate-causal-need": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-18",
       "due": "2026-11-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "negative-ellipsis-afford": {
@@ -938,11 +939,11 @@
     "overcrowded-context": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-18",
       "due": "2026-11-18",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "overseer-role": {
@@ -977,7 +978,7 @@
     },
     "paragraph-order-discourse": {
       "streak": 0,
-      "errors": 2,
+      "errors": 3,
       "last": "2026-11-18",
       "due": "2026-11-18",
       "slow_or_uncertain": true,
