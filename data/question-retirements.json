@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-17",
+  "reviewed_on": "2026-11-19",
   "policy": "Only future selection and retries use retirement. Keep original source questions and every published snapshot. Only separately listed quality exclusions change mastery evidence.",
   "questions": {
     "author-stance-recall-a": {
@@ -690,6 +690,30 @@
         "e1r-housing-permission",
         "e1r-archive-labour"
       ]
+    },
+    "legacy-who-that-main": {
+      "family": "nested",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the grammatical-label checklist with a meaning question about a clause set off by commas.",
+      "replacement_ids": ["nested-inset-morning-traffic"]
+    },
+    "nested-shared-gate": {
+      "family": "nested",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the grammatical-label checklist with a meaning question about a clause set off by commas.",
+      "replacement_ids": ["nested-inset-riverbank-survey"]
+    },
+    "nested-valve-leak-c": {
+      "family": "nested",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the grammatical-label checklist with a meaning question about a clause set off by commas.",
+      "replacement_ids": ["nested-inset-museum-damp"]
+    },
+    "nested-editor-quote-d": {
+      "family": "nested",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the grammatical-label checklist with a meaning question about a clause set off by commas.",
+      "replacement_ids": ["nested-inset-newspaper-index"]
     }
   }
 }

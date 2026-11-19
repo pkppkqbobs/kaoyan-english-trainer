@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-19",
     "daily_quiz": "2026-11-19",
-    "latest_observation": "2026-11-18"
+    "latest_observation": "2026-11-19"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -964,6 +964,24 @@
       "label": "修饰关系与熟词搭配",
       "families": [
         {
+          "family": "nested",
+          "label": "条件小句与句意理解",
+          "focus": "用户希望练习两个逗号夹住的小句，先接起主句，再理解小句补充了什么。用英文句意题替代标签选择，完成作答后拆句。截图中的原题是嵌套从句标签题，用户未报告其具体错因。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-19",
+          "web_errors": 4,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-19",
+            "family": "nested",
+            "question": null,
+            "note_fingerprint": "e94369e5dd5ab533"
+          }
+        },
+        {
           "family": "costs-effort-intensity",
           "label": "spare no effort强调尽力，不自动等于接受任何后果",
           "focus": "最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。",
@@ -979,24 +997,6 @@
             "family": "costs-effort-intensity",
             "question": 33,
             "note_fingerprint": "e34be8624f4da30f"
-          }
-        },
-        {
-          "family": "former-latter-goal",
-          "label": "latter指第二项；相同主题不等于相同作用",
-          "focus": "A/C犹豫，倾向A；正式最终字母未确认。C确实对应涨价，但题干的长期抱怨由latter所指的医保调整回应。",
-          "paper_kind": "correct_but_uncertain",
-          "latest_observation": "2026-11-17",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "former-latter-goal",
-            "question": 38,
-            "note_fingerprint": "67a43f1ca7725768"
           }
         }
       ]
@@ -1381,9 +1381,9 @@
     "data/days/2026-11-18.json": "9993641520e69bc3cb7c9104684218fa1eb05dbe2eb70f400492fb18843cf990",
     "data/days/2026-11-19.json": "0b7187e64f32bcf6cbd725ae763804d7afa6b4466a2b6cb3f7b83cc5668a919a",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
-    "data/learning-notes.json": "8bee1aefaa4350a9d66e4aa79c9f4f612570fd5d1e1febc6a879f5cc6c745d2a",
+    "data/learning-notes.json": "a9df06ae3497cb304be82ec7601dea2e063af7d59d9b76f88c5472b214a8866b",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "28834f11c659f1d068f832446b21c4e27e38c3e58100af2ae22117a209b4f132",
+    "data/question-contexts.json": "bc2e550bfde40b9de15f9471dceefe5a7d195fc8523274360f2261bd90b1965d",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1431,6 +1431,7 @@
     "data/questions/2026-11-17-2018-text4-reading.json": "fbc27cd187c47ab3d1b7c057c8a64d1802d4eb1e7fddf9f1b86803944c493e61",
     "data/questions/2026-11-17-english1-reading.json": "984224ae3ffa9c58b6dec682c5558dd4d998e870dce61ef7c9d6560355f8a8d7",
     "data/questions/2026-11-18-2018-partb-reading.json": "376001ffa1ab3c4ad3beb370f9827e2d446842176416195cdcf05f8fffdabb31",
+    "data/questions/2026-11-19-inset-clauses.json": "f9444e78da96ffc02453fd5c915ee6101e77bda4d4cad574a3167578bb87838e",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "2e20abe979bb1d178abbfd6984fcbe72cc7fd8001a3b4db64e12f2f6dac297e8",
     "data/review-state.json": "d2bd3be201edc77ffa438d55bc89ef3e092141160470dc12575d61365edfcc89",
@@ -1442,7 +1443,7 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1"
   },
-  "source_fingerprint": "1b38ed13e09757b21a90f0db9b5c682995f5c186352450c6f2e2df78ac9989db",
+  "source_fingerprint": "f0a2d28db881b0444e2e40abb08c80763f9ee35ed28cc408e28ef0d70fbf65de",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

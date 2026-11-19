@@ -37,7 +37,7 @@
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
 - Part B 标题匹配与篇章衔接（paragraph-order-discourse、heading-global-allocation）：由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。 网页错误数/streak单列于JSON。
-- 修饰关系与熟词搭配（costs-effort-intensity、former-latter-goal）：最终A，标准D。已注意But；明确说若懂at all costs就不选A。该词义影响排除A，但对D仍有独立疑问。 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（nested、costs-effort-intensity）：用户希望练习两个逗号夹住的小句，先接起主句，再理解小句补充了什么。用英文句意题替代标签选择，完成作答后拆句。截图中的原题是嵌套从句标签题，用户未报告其具体错因。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（semantic-action-roles、necessitate-causal-need）：初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（title-coverage、inference-boundary）：整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（attribution-stance、author-stance）：对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。 网页错误数/streak单列于JSON。

@@ -7038,5 +7038,21 @@
       "adjective": "elaborate design / decorations",
       "verb": "elaborate on a point"
     }
+  },
+  {
+    "date": "2026-11-19",
+    "family": "nested",
+    "kind": "user_reported_confusion",
+    "scope": "sentence_interpretation",
+    "source_module": "daily",
+    "source_storage_id": "2026-11-19",
+    "training_question_id": "legacy-who-that-main",
+    "paper_attempt": false,
+    "evidence_basis": "用户看到每日第8题的句法标签题后，主动表示不太清楚句中两个逗号夹住的小句，并希望练习这种长句。",
+    "note": "用户希望练习两个逗号夹住的小句，先接起主句，再理解小句补充了什么。用英文句意题替代标签选择，完成作答后拆句。截图中的原题是嵌套从句标签题，用户未报告其具体错因。",
+    "training_targets": [
+      "接起逗号两侧的主句，定位主要断言",
+      "判断句中小句的转述、补充、让步或条件如何影响句意"
+    ]
   }
 ]

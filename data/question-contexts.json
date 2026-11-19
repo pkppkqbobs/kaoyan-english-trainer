@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-18",
+  "reviewed_on": "2026-11-19",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -597,7 +597,11 @@
     "pb18-cause-watering": "pb18:allotment-watering",
     "pb18-given-anchor-returns": "pb18:library-return-versus-donation",
     "pb18-workshop-close": "pb18:furniture-workshop-measures",
-    "pb-radio-transcripts-v1": "pb18:radio-transcript-checks"
+    "pb-radio-transcripts-v1": "pb18:radio-transcript-checks",
+    "nested-inset-morning-traffic": "nested-inset:commuting-explanation",
+    "nested-inset-riverbank-survey": "nested-inset:flood-survey",
+    "nested-inset-museum-damp": "nested-inset:gallery-access-versus-preservation",
+    "nested-inset-newspaper-index": "nested-inset:surviving-newspaper-copies"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -804,7 +808,7 @@
     },
     "nested": {
       "coverage_gap": false,
-      "reason": "新增工作坊设备与登记文件两个语境，分别定位whatever + 名词短语的外层宾语和内层限定结构。"
+      "reason": "保留工作坊设备和登记文件两个 whatever 限定结构语境。新增转述、补充说明、让步和条件四种句中小句，接起两边的主干后判断句意；待真实作答检验。"
     },
     "paragraph-order-anaphora": {
       "coverage_gap": true,

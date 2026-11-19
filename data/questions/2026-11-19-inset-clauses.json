@@ -1,0 +1,98 @@
+[
+  {
+    "id": "nested-inset-morning-traffic",
+    "family": "nested",
+    "introduced": "2026-11-19",
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "逗号间的转述与主句判断",
+    "skill": "插入式转述与句意理解",
+    "q": "The drop in morning traffic, transport planners caution, may reflect a shift towards working from home rather than a lasting preference for public transport.\n\nHow do the planners interpret the drop in traffic?",
+    "o": [
+      "Commuters may simply be travelling later in the day.",
+      "More commuters may be taking the bus instead of driving.",
+      "Fewer workers may need to make the usual trip to work.",
+      "The fall may be due to a general decline in employment."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "交通规划人员提醒，早晨车流减少，可能是因为越来越多人在家办公，而非人们开始长期偏爱公共交通。",
+      "structure": "先跳过两个逗号之间的 transport planners caution，接起 The drop in morning traffic → may reflect a shift towards working from home。逗号中间的小句说明是谁提出这个判断。展开可以读作 Transport planners caution that the drop in morning traffic may reflect a shift towards working from home.",
+      "other": "reflect（反映）、a shift towards（转向）、lasting preference（持久的偏好）。",
+      "meaning": "may reflect 表示一种可能的解释。在家办公的人增加，意味着一部分人可能无需像原来那样通勤。",
+      "rest": "原句没有提到推迟出发或就业人数下降。公共交通偏好是 rather than 引出的另一种解释，并非规划人员此处提出的原因。"
+    }
+  },
+  {
+    "id": "nested-inset-riverbank-survey",
+    "family": "nested",
+    "introduced": "2026-11-19",
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "逗号间的补充说明与主句事实",
+    "skill": "补充性关系从句与句意理解",
+    "q": "The survey of the riverbank, which local officials had hoped would identify a site for new homes, showed only how far floodwater had reached in previous winters.\n\nWhich finding did the survey provide?",
+    "o": [
+      "The safest place to build new homes by the river.",
+      "The areas affected by flooding in previous winters.",
+      "The risk of flooding along the river in the coming winter.",
+      "The causes of repeated flooding along the river."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "当地官员原希望这项河岸调查能找出一处建造新住宅的地点，但调查只显示了往年冬季洪水曾漫到哪里。",
+      "structure": "主句沿着 The survey of the riverbank → showed only how far floodwater had reached in previous winters 往下读。which 指代 the survey，可把补充说明还原为 Local officials had hoped the survey would identify a site for new homes.",
+      "other": "riverbank（河岸）、identify a site（确定地点）、floodwater（洪水）。",
+      "meaning": "题干问调查实际查明了什么。showed 后面说的是洪水以往漫到的范围。had hoped 交代官员原先的期待。",
+      "rest": "住宅选址是预期目标。原句的调查结果关乎过去的洪水范围，没有预测下个冬季的洪水，也没有解释洪水成因。"
+    }
+  },
+  {
+    "id": "nested-inset-museum-damp",
+    "family": "nested",
+    "introduced": "2026-11-19",
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "逗号间的让步小句与主句评价",
+    "skill": "让步小句与句意理解",
+    "q": "The extra funding, although it would enable the museum to reopen two galleries, would do little to stop damp from damaging the collection.\n\nWhat does the sentence suggest about the extra funding?",
+    "o": [
+      "Visitors could see more, but the collection would remain at risk.",
+      "Fewer visitors could enter, but the collection would be safer.",
+      "The galleries would stay closed until the building could be repaired.",
+      "The collection could be protected once the galleries had reopened."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "尽管额外经费能让博物馆重新开放两个展厅，但对于防止潮气损坏藏品，这笔钱起不了多大作用。",
+      "structure": "主句是 The extra funding → would do little to stop damp from damaging the collection。两个逗号之间 although 引导让步小句，it 指这笔额外经费。移到句首可读成 Although the funding would enable the museum to reopen two galleries, it would do little to protect the collection from damp.",
+      "other": "enable sb. to do（使某人能够做某事）、damp（潮气）、collection（藏品）、do little to（对……作用甚微）。",
+      "meaning": "展厅重新开放有助于观众参观。主句说这笔钱对防潮作用有限，藏品仍可能受损。",
+      "rest": "藏品更安全而参观受限把两层意思颠倒了。原句也没说必须修缮后才开门，或开门后就能保护藏品。"
+    }
+  },
+  {
+    "id": "nested-inset-newspaper-index",
+    "family": "nested",
+    "introduced": "2026-11-19",
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "逗号间的条件小句与主句推断",
+    "skill": "条件小句与句意理解",
+    "q": "An index of local newspapers, if it is compiled only from copies that happened to survive, can make a town's early press appear less varied than it actually was.\n\nWhat bias can such an index introduce?",
+    "o": [
+      "It may make early local newspapers seem more widely read.",
+      "It may give undue prominence to newspapers that ran only briefly.",
+      "It may exaggerate how long individual newspapers lasted.",
+      "It may understate the variety of newspapers once published."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "一份地方报纸索引，如果只根据碰巧留存下来的报纸编制，可能会让一个城镇早期的报刊显得没有实际那么多样。",
+      "structure": "主句为 An index of local newspapers → can make a town's early press appear less varied than it actually was。逗号中间的 if 小句说明这种偏差发生的条件，it 指索引。小句里的 that happened to survive 修饰 copies，可拆成 Some copies happened to survive.",
+      "other": "index（索引）、compile（编制）、press（报刊）、understate（把程度说低、低估）。",
+      "meaning": "只看留存的报纸，容易遗漏没能保存下来的刊物，所以索引呈现的报刊多样性可能低于当年的情况。",
+      "rest": "原句指出的是刊物种类的偏差。它没有说明读者数量，也没有说明短命刊物会被突出或单份刊物的存续时间会被夸大。"
+    }
+  }
+]
