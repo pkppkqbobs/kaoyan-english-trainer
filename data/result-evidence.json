@@ -4451,6 +4451,98 @@
       "round_id": "mwlw6ajh-h2v4fpxx",
       "source_date": "2026-11-18",
       "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-19",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 159987,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "e1r-empty-shops",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-19",
+      "family": "modal-stage",
+      "ok": true,
+      "ms": 71534,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "text2-historic-gains-new-threat-reef",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19"
+    },
+    {
+      "date": "2026-11-19",
+      "family": "cloze-big-picture",
+      "ok": true,
+      "ms": 15473,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "cloze-overview-rainfall-a",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19"
+    },
+    {
+      "date": "2026-11-19",
+      "family": "former-latter-goal",
+      "ok": false,
+      "ms": 111090,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "r18t4-measures-tour",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-19",
+      "family": "amount-to-meaning",
+      "ok": false,
+      "ms": 112093,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "r18t4-amount-total",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-19",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 91397,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "pb18-cause-watering",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-19",
+      "family": "conceivably",
+      "ok": false,
+      "ms": 99468,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "conceivably-competing-explanations",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19"
+    },
+    {
+      "date": "2026-11-19",
+      "family": "nested",
+      "ok": false,
+      "ms": 6588,
+      "uncertain": false,
+      "origin": 54,
+      "qid": "legacy-who-that-main",
+      "round_id": "mwngaee9-5q5xvobt",
+      "source_date": "2026-11-19"
     }
   ],
   "issues": [
@@ -4506,6 +4598,7 @@
     50,
     51,
     52,
-    53
+    53,
+    54
   ]
 }

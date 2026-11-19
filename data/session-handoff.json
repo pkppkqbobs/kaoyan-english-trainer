@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-19",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 54,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-18",
-      "issue": 52,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/52",
-      "round_id": "mwlsuvm9-bnymm0g8",
-      "correct": 6,
+      "date": "2026-11-19",
+      "issue": 54,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/54",
+      "round_id": "mwngaee9-5q5xvobt",
+      "correct": 4,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-11-18"
+        "2026-11-19"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-18.json",
+      "source": "data/days/2026-11-19.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -982,21 +982,21 @@
           }
         },
         {
-          "family": "interference-capacity",
-          "label": "在确有能力不足证据时正确识别incompetence",
-          "focus": "A/D犹豫，倾向A；正式最终字母未确认。需区分利益集团主动干预与工会能力不足，也要核对多个主体的范围。",
+          "family": "former-latter-goal",
+          "label": "latter指第二项；相同主题不等于相同作用",
+          "focus": "A/C犹豫，倾向A；正式最终字母未确认。C确实对应涨价，但题干的长期抱怨由latter所指的医保调整回应。",
           "paper_kind": "correct_but_uncertain",
           "latest_observation": "2026-11-17",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": false,
           "due": "2026-11-19",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-17",
-            "family": "interference-capacity",
-            "question": 37,
-            "note_fingerprint": "4bf36063c482e6df"
+            "family": "former-latter-goal",
+            "question": 38,
+            "note_fingerprint": "67a43f1ca7725768"
           }
         }
       ]
@@ -1327,7 +1327,7 @@
     "data/article-sessions/2026-11-17-reading-style.json": "06d0e8cd4b185ae3adbc4369a8b315c0e4274ed909de946a84f76835205866ec",
     "data/article-sessions/2026-11-18-2018-partb.json": "4174af8a54e1db11299f9e5ce3ff9b67973c3b0d8eec25fc97776a281722db18",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "ee8a73a5f83c0b1bdccaf693deaa77fb87224935f994b62be52f23e43e50f547",
+    "data/daily.json": "0b7187e64f32bcf6cbd725ae763804d7afa6b4466a2b6cb3f7b83cc5668a919a",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1379,7 +1379,7 @@
     "data/days/2026-11-16.json": "5334312ca1af680f78fed335f857d394f0c67528092c5ed21f1b73aed586837c",
     "data/days/2026-11-17.json": "e1521d9f93e818e747cc1eae7f6348905f3e91ce95452ec7dc3fec9ce26bb3e4",
     "data/days/2026-11-18.json": "9993641520e69bc3cb7c9104684218fa1eb05dbe2eb70f400492fb18843cf990",
-    "data/days/2026-11-19.json": "ee8a73a5f83c0b1bdccaf693deaa77fb87224935f994b62be52f23e43e50f547",
+    "data/days/2026-11-19.json": "0b7187e64f32bcf6cbd725ae763804d7afa6b4466a2b6cb3f7b83cc5668a919a",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "8bee1aefaa4350a9d66e4aa79c9f4f612570fd5d1e1febc6a879f5cc6c745d2a",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
@@ -1432,8 +1432,8 @@
     "data/questions/2026-11-17-english1-reading.json": "984224ae3ffa9c58b6dec682c5558dd4d998e870dce61ef7c9d6560355f8a8d7",
     "data/questions/2026-11-18-2018-partb-reading.json": "376001ffa1ab3c4ad3beb370f9827e2d446842176416195cdcf05f8fffdabb31",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "c3f521881affdff7357478a13abab0b21559f3beca0fc08c43110302c9b84fb4",
-    "data/review-state.json": "635d422099ca27727e3a1dab474b50a1d1e94b3bcfe0fbe556a9f3c667ce9130",
+    "data/result-evidence.json": "2e20abe979bb1d178abbfd6984fcbe72cc7fd8001a3b4db64e12f2f6dac297e8",
+    "data/review-state.json": "d2bd3be201edc77ffa438d55bc89ef3e092141160470dc12575d61365edfcc89",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1442,7 +1442,7 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1"
   },
-  "source_fingerprint": "a2df66ecc195b8457c92418ca33a0f5a66d693d2226ee208db5259a0d90f2044",
+  "source_fingerprint": "1b38ed13e09757b21a90f0db9b5c682995f5c186352450c6f2e2df78ac9989db",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

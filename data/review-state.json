@@ -53,7 +53,8 @@
     50,
     51,
     52,
-    53
+    53,
+    54
   ],
   "families": {
     "absolute-language": {
@@ -118,12 +119,12 @@
     },
     "amount-to-meaning": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-18",
+      "errors": 2,
+      "last": "2026-11-19",
       "due": "2026-11-19",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 1
     },
     "astronomy-word-family": {
@@ -289,11 +290,11 @@
     "cloze-big-picture": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-16",
-      "due": "2026-11-17",
+      "last": "2026-11-19",
+      "due": "2026-11-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 3
     },
     "cloze-comparison-chain": {
@@ -387,13 +388,13 @@
       "observation_priority": 0
     },
     "conceivably": {
-      "streak": 1,
-      "errors": 2,
-      "last": "2026-11-03",
-      "due": "2026-11-05",
+      "streak": 0,
+      "errors": 3,
+      "last": "2026-11-19",
+      "due": "2026-11-20",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 8,
+      "observed_days": 9,
       "observation_priority": 0
     },
     "concession-claim-scope": {
@@ -678,12 +679,12 @@
     },
     "former-latter-goal": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-19",
       "due": "2026-11-19",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "hand-over-transfer": {
@@ -869,11 +870,11 @@
     "modal-stage": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-19",
       "due": "2026-11-19",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "moralist-role": {
@@ -907,14 +908,14 @@
       "observation_priority": 2
     },
     "nested": {
-      "streak": 5,
-      "errors": 3,
-      "last": "2026-11-18",
-      "due": "2026-12-09",
+      "streak": 0,
+      "errors": 4,
+      "last": "2026-11-19",
+      "due": "2026-11-19",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 23,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 24,
+      "observation_priority": 2
     },
     "only-when-necessary": {
       "streak": 0,
@@ -979,11 +980,11 @@
     "paragraph-order-discourse": {
       "streak": 0,
       "errors": 3,
-      "last": "2026-11-18",
+      "last": "2026-11-19",
       "due": "2026-11-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 17,
+      "observed_days": 18,
       "observation_priority": 3
     },
     "paragraph-scope-attitude": {
@@ -1479,11 +1480,11 @@
     "title-coverage": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-18",
+      "last": "2026-11-19",
       "due": "2026-11-19",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 3
     },
     "title-specificity": {
