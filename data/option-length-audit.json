@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 511,
-        "correct_uniquely_longest": 118,
-        "correct_uniquely_shortest": 85,
-        "longest_guess_pct": 29.26,
-        "shortest_guess_pct": 21.75,
+        "question_count": 523,
+        "correct_uniquely_longest": 119,
+        "correct_uniquely_shortest": 86,
+        "longest_guess_pct": 29.03,
+        "shortest_guess_pct": 21.54,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -986,6 +986,210 @@
         "pool": "daily_article",
         "family": "susceptibility-vocab",
         "source": "data/questions/2026-11-07-2017-cloze-migration.json"
+      },
+      "cl19-gradually-choir": {
+        "lengths": [
+          47,
+          55,
+          51,
+          50
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "literal-emphasis",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-literal-window": {
+        "lengths": [
+          54,
+          56,
+          55,
+          57
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "literal-emphasis",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-reference-tutoring-slots": {
+        "lengths": [
+          44,
+          47,
+          46,
+          47
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "synonym-reference",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-reference-wage-chart": {
+        "lengths": [
+          43,
+          43,
+          41,
+          43
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.3333333333333333,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "synonym-reference",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-scene-recording-hum": {
+        "lengths": [
+          61,
+          65,
+          62,
+          58
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": true,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 1.0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "scene-evidence-chain",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-scene-side-labels": {
+        "lengths": [
+          69,
+          68,
+          66,
+          65
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "scene-evidence-chain",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-space-buoy-boundary": {
+        "lengths": [
+          45,
+          44,
+          46,
+          43
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "spatial-preposition",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-space-light-through-cloth": {
+        "lengths": [
+          46,
+          50,
+          51,
+          48
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "spatial-preposition",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-spot-bulletin": {
+        "lengths": [
+          6,
+          6,
+          7,
+          7
+        ],
+        "spread": 1,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "spot-verb-meaning",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-spot-photo-bands": {
+        "lengths": [
+          34,
+          31,
+          34,
+          30
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "spot-verb-meaning",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-tracks-station-reopening": {
+        "lengths": [
+          68,
+          66,
+          65,
+          68
+        ],
+        "spread": 3,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "train-track-polysemy",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
+      },
+      "cl19-train-model-place-names": {
+        "lengths": [
+          66,
+          65,
+          64,
+          64
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "train-track-polysemy",
+        "source": "data/questions/2026-11-19-2019-cloze-migration.json"
       },
       "cling-policy-a": {
         "lengths": [

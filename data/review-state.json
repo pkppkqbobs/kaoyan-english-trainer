@@ -837,6 +837,16 @@
       "observed_days": 1,
       "observation_priority": 0
     },
+    "literal-emphasis": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-19",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "location-vs-change": {
       "streak": 0,
       "errors": 0,
@@ -1207,6 +1217,16 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "scene-evidence-chain": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-19",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "science-claim-vocab": {
       "streak": 0,
       "errors": 0,
@@ -1297,6 +1317,26 @@
       "observed_days": 7,
       "observation_priority": 0
     },
+    "spatial-preposition": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-19",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "spot-verb-meaning": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-19",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "standard": {
       "streak": 1,
       "errors": 0,
@@ -1346,6 +1386,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "synonym-reference": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-19",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "take-page-from": {
       "streak": 0,
@@ -1506,6 +1556,16 @@
       "reported_confusion": false,
       "observed_days": 3,
       "observation_priority": 0
+    },
+    "train-track-polysemy": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-19",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "transaction-purpose": {
       "streak": 0,

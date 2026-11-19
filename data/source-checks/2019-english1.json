@@ -1,0 +1,33 @@
+{
+  "exam": "2019-english1",
+  "checked_on": "2026-11-19",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16",
+  "sources": [
+    {
+      "id": "eol-wendu-2019-cloze",
+      "title": "中国教育在线转载文都教育的2019年考研英语一参考答案",
+      "url": "https://kaoyan.eol.cn/nnews/201812/t20181223_1638284.shtml",
+      "covers": "逐题核对本次涉及的四题参考字母及答案词。"
+    },
+    {
+      "id": "koolearn-2019-cloze",
+      "title": "新东方在线2019年考研英语一完形真题、参考答案及解析",
+      "url": "https://kaoyan.koolearn.com/20190509/1045555.html",
+      "covers": "核对四题选项顺序、题干及相邻语境。"
+    }
+  ],
+  "answers": {
+    "4": "D",
+    "14": "C",
+    "15": "B",
+    "16": "D"
+  },
+  "answer_words": {
+    "4": "literally",
+    "14": "spot",
+    "15": "through",
+    "16": "breaks"
+  },
+  "option_order_note": "两份公开参考所列答案与用户交接一致。用户的实际选择来自纸质作答反馈。",
+  "evidence_limitations": "核对覆盖四道已报告错题。其他十六题的选择字母、首选与改选过程均未知。"
+}

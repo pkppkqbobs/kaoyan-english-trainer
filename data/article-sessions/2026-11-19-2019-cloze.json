@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-19-2019-cloze",
+  "date": "2026-11-19",
+  "learning_date": "2026-11-19",
+  "created_at": "2026-11-19T21:29:07+09:00",
+  "source": "2019 英语一 Section I (Cloze) · 2026-11-19 纸质真题复盘",
+  "focus_families": [
+    "scene-evidence-chain",
+    "spot-verb-meaning",
+    "spatial-preposition",
+    "synonym-reference"
+  ],
+  "focus_question_ids": {
+    "scene-evidence-chain": [
+      "cl19-scene-side-labels"
+    ],
+    "spot-verb-meaning": [
+      "cl19-spot-bulletin"
+    ],
+    "spatial-preposition": [
+      "cl19-space-light-through-cloth"
+    ],
+    "synonym-reference": [
+      "cl19-reference-wage-chart"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "question_format": "english1_reading",
+  "all_observation_families": [
+    "scene-evidence-chain",
+    "spot-verb-meaning",
+    "spatial-preposition",
+    "synonym-reference",
+    "train-track-polysemy",
+    "literal-emphasis"
+  ],
+  "training_priorities": [
+    "Q14—16 连读，先识别现象、再确认原因、最后核对后续行动",
+    "spot 的发现义、break 的缺口义，以及 train 和 track 的词性和搭配",
+    "through、beyond、across、along 的空间关系",
+    "due to 的原因修饰范围与 these 加同义词的回指",
+    "literally 的实指和强调义，与 gradually 等副词的区别"
+  ],
+  "source_check": "data/source-checks/2019-english1.json",
+  "evidence_basis": "纸质成绩及所选项来自用户提供的文字反馈，四道错题的参考答案和选项顺序另行核对。"
+}

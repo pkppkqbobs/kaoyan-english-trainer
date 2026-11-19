@@ -601,7 +601,19 @@
     "nested-inset-morning-traffic": "nested-inset:commuting-explanation",
     "nested-inset-riverbank-survey": "nested-inset:flood-survey",
     "nested-inset-museum-damp": "nested-inset:gallery-access-versus-preservation",
-    "nested-inset-newspaper-index": "nested-inset:surviving-newspaper-copies"
+    "nested-inset-newspaper-index": "nested-inset:surviving-newspaper-copies",
+    "cl19-scene-side-labels": "cl19:stockroom-side-labels",
+    "cl19-scene-recording-hum": "cl19:oral-history-background-noise",
+    "cl19-spot-bulletin": "cl19:proofreading-missing-words",
+    "cl19-spot-photo-bands": "cl19:photo-inspection-before-measuring",
+    "cl19-space-light-through-cloth": "cl19:daylight-through-a-shade",
+    "cl19-space-buoy-boundary": "cl19:eelgrass-survey-boundary",
+    "cl19-reference-wage-chart": "cl19:missing-years-in-wage-data",
+    "cl19-reference-tutoring-slots": "cl19:unused-classroom-time",
+    "cl19-literal-window": "cl19:gallery-view-into-repair-studio",
+    "cl19-gradually-choir": "cl19:choir-lesson-progression",
+    "cl19-tracks-station-reopening": "cl19:following-station-renewal",
+    "cl19-train-model-place-names": "cl19:handwriting-model-evaluation"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
