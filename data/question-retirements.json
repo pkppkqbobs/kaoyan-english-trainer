@@ -714,6 +714,66 @@
       "retired_on": "2026-11-19",
       "reason": "Replace the grammatical-label checklist with a meaning question about a clause set off by commas.",
       "replacement_ids": ["nested-inset-newspaper-index"]
+    },
+    "title-preprint-a": {
+      "family": "title-specificity",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the Chinese synopsis with an English passage whose title depends on the policy's scope.",
+      "replacement_ids": ["refresh-title-translation-workshops"]
+    },
+    "title-booking-b": {
+      "family": "title-specificity",
+      "retired_on": "2026-11-19",
+      "reason": "Consolidate the repeated before-approval theme and replace it with a full English argument.",
+      "replacement_ids": ["refresh-title-used-guarantee"]
+    },
+    "title-specificity-bus-lane-tradeoff": {
+      "family": "title-specificity",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the Chinese synopsis with an English passage that develops the intended and actual consequences.",
+      "replacement_ids": ["refresh-title-digital-plans"]
+    },
+    "title-specificity-bookshop-workload": {
+      "family": "title-specificity",
+      "retired_on": "2026-11-19",
+      "reason": "Use a complete argument to assess title coverage of a change in workload.",
+      "replacement_ids": ["refresh-title-digital-plans"]
+    },
+    "cloze-whatever-equipment-workshop-o": {
+      "family": "nested",
+      "retired_on": "2026-11-19",
+      "reason": "Replace syntactic labels with a reading question about which items are covered by the embedded clause.",
+      "replacement_ids": ["refresh-nested-festival-programme"]
+    },
+    "cloze-whatever-documents-registrar-p": {
+      "family": "nested",
+      "retired_on": "2026-11-19",
+      "reason": "Replace the role-label question with a natural sentence interpretation. Keep the original snapshot and presentation correction.",
+      "replacement_ids": ["refresh-nested-artists-sketches"]
+    },
+    "conceivably-ferry": {
+      "family": "conceivably",
+      "retired_on": "2026-11-19",
+      "reason": "Use the conditional proposal in a complete passage to test possibility and commitment.",
+      "replacement_ids": ["refresh-conceivably-carpentry-course"]
+    },
+    "with-bread-cooling": {
+      "family": "with",
+      "retired_on": "2026-11-19",
+      "reason": "Test the meaning of a simultaneous action in context.",
+      "replacement_ids": ["refresh-with-conference-arrivals"]
+    },
+    "with-lights-dimming": {
+      "family": "with",
+      "retired_on": "2026-11-19",
+      "reason": "Consolidate equivalent simultaneous-action questions and replace the grammar-label choices.",
+      "replacement_ids": ["refresh-with-conference-arrivals"]
+    },
+    "with-archive-loading-c": {
+      "family": "with",
+      "retired_on": "2026-11-19",
+      "reason": "Broaden the context to a pending state and ask what is unfinished.",
+      "replacement_ids": ["refresh-with-unsigned-loans"]
     }
   }
 }

@@ -104,6 +104,11 @@ def in_window(stamp, day, days):
 
 def report(root, day):
     records = catalogue(root)
+    spaced_sources = {key: item for key, item in records.items() if item["pool"] == "daily_article"}
+    spaced_available = {
+        key for key, item in spaced_sources.items()
+        if review.available({**item["question"], "retired_on": item.get("retired_on")}, day)
+    }
     manifest = review.load(root / "data/question-contexts.json", {"contexts": {}, "family_assessments": {}})
     contexts = manifest["contexts"]
     missing = set(records) - set(contexts)
@@ -146,19 +151,25 @@ def report(root, day):
             "recent_exposure_7d": sum(in_window(e["date"], day, 7) for e in exposures),
             "published_rounds": exposures,
             "visibility": "reported_answered" if answered else "published_unconfirmed" if exposures else "no_repository_exposure_record"}
+        if key in spaced_sources:
+            per_question[key]["available_for_spaced_review"] = key in spaced_available
+            if item.get("retired_on"):
+                per_question[key]["retired_on"] = item["retired_on"]
     families = {}
     for family in sorted(set(f for x in records.values() for f in x["families"]) | set(state)):
         members = [x for x in per_question.values() if family in x["families"] and not x["pool"].startswith("archive")]
-        spaced = [x for x in members if x["pool"] == "daily_article"]
+        source_spaced = [x for x in members if x["qid"] in spaced_sources]
+        spaced = [x for x in source_spaced if x["qid"] in spaced_available]
         family_rows = [r for r in rows if r["family"] == family]
         shown = [e for e in events if e["qid"] in qids and family in qids[e["qid"]]["families"]]
         stamps = [x["date"] for x in shown + family_rows]
         assessment = manifest.get("family_assessments", {}).get(family, {})
-        n = len({x["context_id"] for x in spaced or members})
+        coverage_members = spaced if source_spaced or family in state else members
+        n = len({x["context_id"] for x in coverage_members})
         risk = "structural_gap" if assessment.get("coverage_gap") else "severe" if n < 2 else "limited" if n < 3 else "sufficient"
         exposure_risk = len([e for e in shown if in_window(e["date"], day, 7)]) > 2 * max(1, n)
         s = state.get(family, {})
-        budget = max((records[x["qid"]]["question"].get("budget", 35) for x in spaced), default=35) * 1000
+        budget = max((records[x["qid"]]["question"].get("budget", 35) for x in source_spaced), default=35) * 1000
         recent_rows = [r for r in family_rows if in_window(r["date"], day, 7)]
         priority = (100 * sum(r.get("errors", int(not r["ok"])) for r in recent_rows)
                     + 30 * sum(r.get("uncertain", False) or r["ms"] > r.get("slow_threshold_ms", budget) for r in recent_rows)
@@ -168,6 +179,7 @@ def report(root, day):
             priority /= 1 + s["streak"]
         families[family] = {"question_count": len(members),
             "effective_context_count": len({x["context_id"] for x in members}),
+            "spaced_source_question_count": len(source_spaced),
             "spaced_question_count": len(spaced), "spaced_effective_context_count": len({x["context_id"] for x in spaced}),
             "full_partb_variants": sum(x["pool"] == "partb_full" for x in members),
             "main_variants": [x["qid"] for x in spaced], "retry_variants": [x["qid"] for x in spaced],
@@ -192,27 +204,33 @@ def report(root, day):
             "times_shown": len(shown), "recent_exposure_3d": sum(in_window(e["date"], day, 3) for e in shown),
             "recent_exposure_7d": sum(in_window(e["date"], day, 7) for e in shown),
             "rationale": manifest.get("cluster_rationales", {}).get(context, "Manually reviewed distinct situation and evidence path.")})
-    active = [x for x in per_question.values() if not x["pool"].startswith("archive")]
+    sources = [x for x in per_question.values() if not x["pool"].startswith("archive")]
+    scheduled_families = {records[key]["family"] for key in spaced_available}
     return {"schema_version": 1, "generated_at": day.isoformat(), "as_of": day.isoformat(),
         "source_commit": manifest.get("source_commit"),
         "definitions": {"effective_context_count": "Conservative manual context/evidence-path clusters, not qid counts or automatic semantic proof.",
             "times_shown": "Main slots in unique published daily/article/passage rounds; not confirmed reading.",
             "windows": "3d includes today and two previous dates; 7d includes today and six previous dates (Asia/Shanghai).",
             "unknown": "No repository exposure record cannot prove never seen. Browser-only attempts and retrySummary qids are unavailable.",
-            "legacy": "Existing compact/array schemas are grandfathered inventory items; archive-only questions are excluded from live totals.",
+            "legacy": "Live inventory excludes archive-only questions and retains source definitions of retired questions for traceability.",
+            "spaced_eligibility": "Spaced candidate counts, context counts and variant lists reflect publication and retirement dates at as_of. Historical exposures and scores remain under their original question IDs.",
             "families": "Part B passages contribute to both existing families; global passage/context counts count each passage once."},
-        "summary": {"live_qid_count": sum(x["qid"] is not None for x in active), "live_item_count": len(active),
-            "legacy_items_without_qid": sum(x["qid"] is None for x in active),
-            "live_family_count": len(families), "spaced_family_count": len(state),
-            "spaced_qid_count": sum(x["pool"] == "daily_article" for x in active),
-            "home_legacy_qid_count": sum(x["pool"] == "home_legacy" for x in active),
-            "full_partb_count": sum(x["pool"] == "partb_full" for x in active),
+        "summary": {"live_qid_count": sum(x["qid"] is not None for x in sources), "live_item_count": len(sources),
+            "legacy_items_without_qid": sum(x["qid"] is None for x in sources),
+            "live_family_count": len(families), "spaced_family_count": len(scheduled_families),
+            "spaced_source_qid_count": len(spaced_sources),
+            "spaced_qid_count": len(spaced_available),
+            "spaced_retired_qid_count": sum(bool(item.get("retired_on") and item["retired_on"] <= day.isoformat())
+                                           for item in spaced_sources.values()),
+            "home_legacy_qid_count": sum(x["pool"] == "home_legacy" for x in sources),
+            "full_partb_count": sum(x["pool"] == "partb_full" for x in sources),
             "effective_context_count": len(groups),
-            "spaced_effective_context_count": len({x["context_id"] for x in active if x["pool"] == "daily_article"}),
-            "archive_only_items": len(per_question) - len(active),
+            "spaced_effective_context_count": len({contexts[key] for key in spaced_available}),
+            "archive_only_items": len(per_question) - len(sources),
             "published_rounds": len(rounds), "published_main_slots": len(events), "issues_used": evidence["issues"]},
         "families": families, "questions": per_question, "contexts": context_report,
-        "observations_without_scheduled_family": [n["family"] for n in notes if n["family"] not in state],
+        "observations_without_scheduled_family": [n["family"] for n in notes
+            if n["family"] not in scheduled_families and review.observation_dates(n, day)[1] <= day.isoformat()],
         "historical_content_findings": manifest.get("historical_content_findings", []),
         "before_additions": manifest.get("before_additions", {}),
         "source_checks_are_not_question_sources": True, "audit_is_not_scoring_evidence": True}
@@ -225,8 +243,41 @@ def build(root=ROOT, day=None):
     return result
 
 
+def coverage(root, day):
+    """Candidate counts derived from question definitions for public sharing."""
+    questions = review.bank(root)
+    available = [q for q in questions if review.available(q, day)]
+    counts = Counter(q["family"] for q in available)
+    contexts = defaultdict(set)
+    for q in available:
+        contexts[q["family"]].add(q.get("context_id", q["id"]))
+    return {
+        "schema_version": 1,
+        "as_of": day.isoformat(),
+        "scope": "Question definitions and candidate availability on the report date.",
+        "summary": {
+            "source_questions": len(questions),
+            "available_candidates": len(available),
+            "available_contexts": len(set().union(*contexts.values())),
+            "available_families": len(counts),
+            "retired_questions": sum(bool(q.get("retired_on") and q["retired_on"] <= day.isoformat())
+                                     for q in questions),
+            "available_reading_passages": sum(q.get("format") == "english1_reading" for q in available),
+        },
+        "families": {family: {"candidates": counts[family], "contexts": len(contexts[family])}
+                     for family in sorted(counts)},
+    }
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", type=date.fromisoformat)
+    parser.add_argument("--coverage-only", action="store_true", help="Generate the source-only coverage snapshot")
     args = parser.parse_args()
-    print(json.dumps(build(day=args.date)["summary"], ensure_ascii=False))
+    if args.coverage_only:
+        day = args.date or date.fromisoformat(review.load(ROOT / "data/daily.json")["date"])
+        result = coverage(ROOT, day)
+        review.save(ROOT / "data/question-bank-coverage.json", result)
+    else:
+        result = build(day=args.date)
+    print(json.dumps(result["summary"], ensure_ascii=False))

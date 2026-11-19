@@ -613,7 +613,22 @@
     "cl19-literal-window": "cl19:gallery-view-into-repair-studio",
     "cl19-gradually-choir": "cl19:choir-lesson-progression",
     "cl19-tracks-station-reopening": "cl19:following-station-renewal",
-    "cl19-train-model-place-names": "cl19:handwriting-model-evaluation"
+    "cl19-train-model-place-names": "cl19:handwriting-model-evaluation",
+    "refresh-amount-journal-fee": "refresh:journal-file-fee",
+    "refresh-amount-crew-meetings": "refresh:cumulative-production-meetings",
+    "refresh-measures-orchestra-rides": "refresh:orchestra-return-transport",
+    "refresh-measures-backup-pump": "refresh:scheduled-pump-outage",
+    "refresh-conceivably-course-fees": "refresh:lost-enrolment-reimbursement",
+    "refresh-conceivably-carpentry-course": "refresh:remote-workshop-pilot",
+    "refresh-costs-port-rates": "refresh:accepting-costs-of-low-port-rates",
+    "refresh-belief-delayed-wages": "refresh:insufficiency-of-payroll-dates",
+    "refresh-title-used-guarantee": "refresh:used-appliance-guarantee",
+    "refresh-title-translation-workshops": "refresh:translation-aids-assessment-scope",
+    "refresh-title-digital-plans": "refresh:design-revision-conversation",
+    "refresh-nested-artists-sketches": "refresh:family-retained-sketches",
+    "refresh-nested-festival-programme": "refresh:outdoor-performances-equipment",
+    "refresh-with-conference-arrivals": "refresh:arrivals-during-opening",
+    "refresh-with-unsigned-loans": "refresh:unsigned-exhibition-agreements"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
@@ -815,12 +830,13 @@
       "reason": "新增it对象跟踪与对比小组的request切换，补代词和动作所形成的先行项。"
     },
     "with": {
-      "coverage_gap": true,
-      "reason": "spaced池只测with+名词+现在分词，尚未覆盖被动或其他补足语；近期连续清晰正确2天，暂缓。"
+      "coverage_gap": false,
+      "previous_gap": "旧题均要求选择 with 结构的功能，主要覆盖现在分词。",
+      "reason": "用会议开始时仍有人入场和借展协议尚未签署两个语境，分别练伴随动作与未完成状态。"
     },
     "nested": {
       "coverage_gap": false,
-      "reason": "保留工作坊设备和登记文件两个 whatever 限定结构语境。新增转述、补充说明、让步和条件四种句中小句，接起两边的主干后判断句意；待真实作答检验。"
+      "reason": "配合四种句中小句，另以画稿再版和节庆资助练 whatever 的范围。合并句意线索后作答，解析再定位从句和宾语。"
     },
     "paragraph-order-anaphora": {
       "coverage_gap": true,
@@ -875,13 +891,27 @@
     },
     "conceivably": {
       "coverage_gap": false,
-      "previous_gap": null,
-      "reason": "新增不可辨读旧证据及多种竞争解释，两种不同的不确定性来源。"
+      "previous_gap": "已有短句判断可能性及竞争解释，缺少完整材料中的调查和实施条件。",
+      "reason": "新增夜课报名的备选原因与木工培训的有条件设想，分别练可能原因和拟议方案的确定性。"
     },
     "title-specificity": {
       "coverage_gap": false,
-      "previous_gap": null,
-      "reason": "新增车道改造的具体取舍与订单增加却缩短营业的解释，摆脱Before/Only模板。"
+      "previous_gap": "旧题用中文梗概代替材料，部分题共享先行动后获批的语境。",
+      "reason": "用保修与二手交易、翻译工具的使用范围、数字图纸与沟通三篇英文材料练标题覆盖。"
+    },
+    "amount-to-meaning": {
+      "coverage_gap": false,
+      "previous_gap": "原有候选只覆盖两种语境。",
+      "reason": "期刊收费练实际效果，制作会议练累计工时，分别核对 amount to 的两种句意。"
+    },
+    "former-latter-goal": {
+      "coverage_gap": false,
+      "reason": "乐团回程交通对应第一项，主泵检修期间供水对应第二项，先定位投诉再对应两项措施。"
+    },
+    "belief-negation-clause": {
+      "coverage_gap": false,
+      "previous_gap": "原有阅读题主要呈现先有预期、后被事实修正的结构。",
+      "reason": "补充公开工资支付信息的争议，练对事件本身的认可和对事件所能证明结论的否定。"
     },
     "title-coverage": {
       "coverage_gap": false,

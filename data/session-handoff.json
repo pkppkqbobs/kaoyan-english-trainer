@@ -1475,7 +1475,7 @@
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "02d41457244b8ffaed3cd1d810a7019969be572d4402e14e6898bea49f80463d",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "b97cfdc874cd7b4c15f5294e87946b2f2fee3d08d9b4dc5461558ca22fb304d8",
+    "data/question-contexts.json": "d32369d8188be024f3fd3ca70aa241e9d8712ad9f0eee36febfbbfe4f58f8bdf",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1524,6 +1524,7 @@
     "data/questions/2026-11-17-english1-reading.json": "984224ae3ffa9c58b6dec682c5558dd4d998e870dce61ef7c9d6560355f8a8d7",
     "data/questions/2026-11-18-2018-partb-reading.json": "376001ffa1ab3c4ad3beb370f9827e2d446842176416195cdcf05f8fffdabb31",
     "data/questions/2026-11-19-2019-cloze-migration.json": "a4b691798e8b9f0553a5cc130adef90dff6734fc4359a91f53be27ff7564e0c7",
+    "data/questions/2026-11-19-bank-refresh.json": "0d5a8639f2efec8120979b3682110a33be7e8ad58b0020013554098122ee0d95",
     "data/questions/2026-11-19-inset-clauses.json": "f9444e78da96ffc02453fd5c915ee6101e77bda4d4cad574a3167578bb87838e",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "2e20abe979bb1d178abbfd6984fcbe72cc7fd8001a3b4db64e12f2f6dac297e8",
@@ -1537,7 +1538,7 @@
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
     "data/source-checks/2019-english1.json": "3d51b059ff8430e03e9bf362e7289b14ab3fdcd7fac4f443a27961e4a6f5856e"
   },
-  "source_fingerprint": "334073a421f655263658f4d935473d295987cc7866da0deeef30c272c0cb103f",
+  "source_fingerprint": "8b4b62dd3a014e5301d64e7497d500f4a3ae1a3899e403d8098283bb5cfef68a",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

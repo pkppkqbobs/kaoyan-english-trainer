@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-19",
+  "scope": "Question definitions and candidate availability on the report date.",
+  "summary": {
+    "source_questions": 538,
+    "available_candidates": 448,
+    "available_contexts": 444,
+    "available_families": 160,
+    "retired_questions": 90,
+    "available_reading_passages": 68
+  },
+  "families": {
+    "absolute-language": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "account": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "accusation-context-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "action-collocation": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "advance-time-expression": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "alerts": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "amount-to-meaning": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "astronomy-word-family": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "attribution-stance": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "author-stance": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "backdrop-context": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "band-aid-remedy": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "bare-minimum-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "belated-timing": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "belief-negation-clause": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "boast-boost-distinction": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "brexit-term": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "budding-stage": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "career-evidence": {
+      "candidates": 2,
+      "contexts": 1
+    },
+    "causal-role-direction": {
+      "candidates": 9,
+      "contexts": 9
+    },
+    "cling-climb": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-applicant-outcome": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-baseline-necessary": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-big-picture": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-comparison-chain": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "cloze-conditional-contrast": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-legal-stance": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-score-marked": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "cloze-time-adverbs": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "commitment-semantics": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "compensation-components": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "complementary": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "compromise": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "conceivably": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "concession-claim-scope": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "conditions": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "conscious-awareness": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "constraint-language": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "control-process-roles": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "costs-effort-intensity": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "crack-polysemy": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "criteria-number": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "demolition-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "directness-modifier": {
+      "candidates": 2,
+      "contexts": 1
+    },
+    "distrust-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "dnt-actor-boundary": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "dormant-state": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "dynamism-vitality": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "effect-source-target": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "elaborate-polysemy": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "end-up": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "envy-object": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "evaluation-vocab": {
+      "candidates": 7,
+      "contexts": 7
+    },
+    "even": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "example-claim-scope": {
+      "candidates": 6,
+      "contexts": 6
+    },
+    "expectation-contrast": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "faint": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "familiar-word-polysemy": {
+      "candidates": 21,
+      "contexts": 21
+    },
+    "feature-verb": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "figurative-descent-relative": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "finegrain-quarrel": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "first-class-mail-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "former-latter-goal": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "hand-over-transfer": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "have-little-use-for": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "heading-core-function": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "heading-global-allocation": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "highlight-heighten": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "historical-reminder-evidence": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "hostage-hijack": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "indulgence-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "infancy": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "inference-boundary": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "infuriating-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "interference-capacity": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "intimacy-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "intimately-familiarity": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "lined-up": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "literal-emphasis": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "location-vs-change": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "logic": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "maladapted-fit-degree": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "modal-stage": {
+      "candidates": 5,
+      "contexts": 5
+    },
+    "moralist-role": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "necessitate-causal-need": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "negative-ellipsis-afford": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "nested": {
+      "candidates": 6,
+      "contexts": 6
+    },
+    "only-when-necessary": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "over-prefix-frequency": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "overcrowded-context": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "overseer-role": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "panorama-scope": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "paragraph-order-anaphora": {
+      "candidates": 9,
+      "contexts": 9
+    },
+    "paragraph-order-discourse": {
+      "candidates": 14,
+      "contexts": 14
+    },
+    "paragraph-scope-attitude": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "parallel-governance": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "partb-boxed-vocab": {
+      "candidates": 8,
+      "contexts": 8
+    },
+    "past-tense-happiness": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "phrasal-verb-illness": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "point": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "policy-enforcement-roles": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "politics-policy": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "polynesian-identity": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "postal-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "process-stage-role": {
+      "candidates": 4,
+      "contexts": 3
+    },
+    "provoke-family": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "receipt-nominalization": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "recruitment-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "reference": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "regulatory-framework": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "relation-collocation": {
+      "candidates": 15,
+      "contexts": 15
+    },
+    "relative": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "remodel-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "remold-reshape": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "remote": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "result-direction": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "scene-evidence-chain": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "science-claim-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "scope-role-match": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "screening-polysemy": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "semantic-action-roles": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "sharp-hit-impact": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "shed-light-direction": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "shed-shelter-shade": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "social-cure-vocab": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "social-message-inference": {
+      "candidates": 4,
+      "contexts": 3
+    },
+    "spatial-preposition": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "spot-verb-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "standard": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "subconscious-way": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "subject": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "summary-location": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "susceptibility-vocab": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "synonym-reference": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "take-page-from": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "tech-giant-meaning": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "test-object-scope": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "text2-boxed-vocab": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "text3-boxed-vocab": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "text3-comparison-inference": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "text3-future-phrases": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "text3-willfully": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "text4-agreement-target": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "text4-boxed-vocab": {
+      "candidates": 5,
+      "contexts": 5
+    },
+    "text4-executive-overreach": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "text4-federal-state-boundary": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "text4-historical-inference": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "title-coverage": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "title-specificity": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "tone": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "train-track-polysemy": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "transaction-purpose": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "transition": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "travel-provider": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "unpretentious": {
+      "candidates": 3,
+      "contexts": 3
+    },
+    "verb-effect-share": {
+      "candidates": 4,
+      "contexts": 4
+    },
+    "viewpoint-fact": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "with": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "woodcut-medium": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "workout-how-ellipsis": {
+      "candidates": 2,
+      "contexts": 2
+    }
+  }
+}

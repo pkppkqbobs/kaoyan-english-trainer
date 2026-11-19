@@ -180,6 +180,28 @@ class BankCoverageTests(unittest.TestCase):
                 self.assertEqual(row["errors"], 0)
                 self.assertEqual(row["visibility"], "no_repository_exposure_record")
 
+    def test_audit_distinguishes_available_candidates_from_preserved_definitions(self):
+        bank = review.bank(ROOT)
+        for day in (date(2026, 11, 18), date(2026, 11, 19)):
+            with self.subTest(day=day):
+                result = audit.report(ROOT, day)
+                expected = {q["id"] for q in bank if review.available(q, day)}
+                candidates = {qid for row in result["families"].values() for qid in row["main_variants"]}
+                retries = {qid for row in result["families"].values() for qid in row["retry_variants"]}
+                self.assertEqual(expected, candidates)
+                self.assertEqual(expected, retries)
+                self.assertEqual(result["summary"]["spaced_source_qid_count"], len(bank))
+                self.assertEqual(result["summary"]["spaced_qid_count"], len(expected))
+                coverage = audit.coverage(ROOT, day)
+                self.assertEqual(set(coverage), {"schema_version", "as_of", "scope", "summary", "families"})
+                self.assertEqual(coverage["summary"]["available_candidates"], len(expected))
+                self.assertEqual(coverage["summary"]["available_contexts"], result["summary"]["spaced_effective_context_count"])
+                self.assertTrue(all(set(row) == {"candidates", "contexts"} for row in coverage["families"].values()))
+                row = result["questions"]["legacy-who-that-main"]
+                self.assertEqual(row["available_for_spaced_review"], day.day == 18)
+                self.assertTrue(row["published_rounds"])
+                self.assertEqual(row["retired_on"], "2026-11-19")
+
     def test_unknown_legacy_question_identity_is_not_fabricated(self):
         result = audit.report(ROOT, date(2026, 10, 5))
         self.assertGreater(result["families"]["reference"]["unknown_qid_attempts"], 0)

@@ -1,0 +1,406 @@
+[
+  {
+    "id": "refresh-amount-journal-fee",
+    "family": "amount-to-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 105,
+    "target": "amount to 表示实际造成的效果",
+    "skill": "区分实际后果、正式规定与原因",
+    "passage": "A journal invited researchers to make their data public alongside their papers. Yet it charged a fee for each file, which made the service expensive for teams with large collections of data. For groups whose grants had ended, the fee amounted to a ban on sharing their full records. They could afford to post a few examples, and some did, but readers could not examine the complete material. Formally, every author had the same opportunity. In practice, the fee limited who could make use of it.",
+    "q": "What does \"amounted to a ban\" imply about the fee?",
+    "o": [
+      "It was introduced after the journal formally banned files.",
+      "It allowed full access only to readers who had already paid.",
+      "It effectively kept some teams from sharing all their data.",
+      "It was charged mainly on the files from successful studies."
+    ],
+    "a": 2,
+    "answer_support": "For groups whose grants had ended, the fee amounted to a ban on sharing their full records.",
+    "exp": {
+      "trans": "期刊邀请研究人员随文章公开数据，却逐文件收费。经费已用完的团队只发得起少量样例。制度上所有作者都可以发，费用在实际中使部分团队无法分享完整记录。",
+      "structure": "首句交代准入规则，中间解释费用如何限制不同团队。最后两句对照书面机会与实际结果。",
+      "other": "alongside（与……一起）、grant（科研经费）、make use of（利用）。",
+      "meaning": "amounted to a ban 指收费对部分团队产生了与禁令相似的效果。这些团队仍在书面规则允许公开数据的范围内。",
+      "rest": "题中收费对象是上传者，限制发生在分享之前。读者付费、按研究成败收费和正式禁令都没有文本依据。"
+    }
+  },
+  {
+    "id": "refresh-amount-crew-meetings",
+    "family": "amount-to-meaning",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 100,
+    "target": "amount to 表示累计达到的量",
+    "skill": "从多个小量识别累计结果",
+    "passage": "The budget for a play counts the hours spent building the set and rehearsing on stage. It gives little attention to the short meetings in which the director and technical crew agree on changes. Individually, those meetings rarely last more than twenty minutes. Over the life of a production, however, they amount to almost a full working day. A revised budget now includes this time, so that the theatre has a more accurate estimate of how much work a new play requires.",
+    "q": "What does the passage say about the duration of the meetings?",
+    "o": [
+      "Their time adds up to nearly a full working day.",
+      "Each is scheduled to last at least twenty minutes.",
+      "They are held together on one separate working day.",
+      "Their length depends on the time spent building sets."
+    ],
+    "a": 0,
+    "answer_support": "Over the life of a production, however, they amount to almost a full working day.",
+    "exp": {
+      "trans": "剧院原预算算了搭景和排练的时长，往往忽略商量改动的短会。单场通常不到二十分钟，但一部剧的会议时间加起来接近一整天，因此新版预算也算入这段工时。",
+      "structure": "Individually 说一场会，over the life of a production 说整个制作周期。however 转到累加后的结果。",
+      "other": "set（舞台布景）、rehearse（排练）、technical crew（技术人员）、estimate（估算）。",
+      "meaning": "amount to 后接一段工时，表示多次开会累计接近一天。",
+      "rest": "二十分钟是单场会议较少超过的时长。会议分散在制作期间，也没有被说成由搭景时间决定。"
+    }
+  },
+  {
+    "id": "refresh-measures-orchestra-rides",
+    "family": "former-latter-goal",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 105,
+    "target": "former、latter 与具体困难",
+    "skill": "按原文顺序对应两项措施及对象",
+    "passage": "A regional orchestra took two steps to make evening rehearsals easier. It arranged shared rides to and from rehearsals and sent out annotated copies of the music. The former helped players travel at times when buses were scarce. The latter gave them a chance to prepare difficult passages at home, saving time in the rehearsal room.\n\nSeveral players told the conductor that they had enough time to learn the music but might have to give up playing because no bus ran back to their villages at the end of the evening.",
+    "q": "Which step addressed the difficulty raised by those players?",
+    "o": [
+      "Making marked scores available before rehearsals.",
+      "Assigning the hardest passages to fewer players.",
+      "Reducing the number of rehearsals for new works.",
+      "Arranging shared journeys after evening rehearsals."
+    ],
+    "a": 3,
+    "answer_support": "The former helped players travel at times when buses were scarce.",
+    "exp": {
+      "trans": "乐团安排来回拼车，也提前发有注释的乐谱。前一项帮助排练来回，后一项方便在家准备。部分乐手不缺练习时间，真正的困难是晚上排完没有回村的车。",
+      "structure": "两项措施按拼车、发谱的顺序出现，former 回指拼车，latter 回指发谱。第二段用 but 从准备曲目转入回程困难。",
+      "other": "annotated（有注释的）、rehearsal（排练）、scarce（稀少的）、passage（一段音乐）。",
+      "meaning": "回程交通对应第一项措施。提前拿到乐谱改变的是准备方式，与有没有回程交通分开看。",
+      "rest": "发谱确实出现，但旨在节省排练中的讲解时间。重新分配曲目难段及减少排练次数都未提出。"
+    }
+  },
+  {
+    "id": "refresh-measures-backup-pump",
+    "family": "former-latter-goal",
+    "introduced": "2026-11-17",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 105,
+    "target": "在相近措施中核对 latter 对应的作用",
+    "skill": "区分监测问题与维持服务",
+    "passage": "A small water company plans to add pressure monitors at several points in its network and to install a backup pump. The former should help engineers locate a leak before it affects more streets. The latter will keep water moving when the main pump is taken out of service.\n\nResidents in an uphill neighbourhood have complained that even routine maintenance leaves their taps dry. They welcome the prospect of earlier leak detection, but engineers have traced the interruptions in that area to scheduled work on the only pump.",
+    "q": "Which measure would address the uphill residents' concern?",
+    "o": [
+      "Running a second pump during work on the main one.",
+      "Checking water pressures more often in uphill streets.",
+      "Replacing pipes when a leak affects several streets.",
+      "Moving the pump inspections to a quieter time of day."
+    ],
+    "a": 0,
+    "answer_support": "The latter will keep water moving when the main pump is taken out of service.",
+    "exp": {
+      "trans": "水务公司拟增加压力监测点和备用泵。前者帮助早发现漏水，后者可在主泵检修时继续供水。坡上居民欢迎更快检测漏水，但他们经常停水的具体原因是唯一一台泵要检修。",
+      "structure": "首段列两项并分别解释功能，次段用 but 定位投诉相关的原因。the latter 指第二项备用泵。",
+      "other": "backup pump（备用泵）、routine maintenance（例行检修）、trace A to B（追溯A的原因到B）。",
+      "meaning": "居民想解决的是主泵停用时的供水中断。备用泵正好在这个时段补上。",
+      "rest": "加监测点和换漏水管关注漏水。改检修时间也没有提供检修期间的替代供水。"
+    }
+  },
+  {
+    "id": "refresh-conceivably-course-fees",
+    "family": "conceivably",
+    "introduced": null,
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 35,
+    "reading_budget": 100,
+    "target": "conceivably 作为待检验的解释",
+    "skill": "识别作者保留的不确定性与证据边界",
+    "passage": "Enrolment in evening classes at two training centres fell after the timetable changed. One possibility is that people who work late switched to another time. Some employers, however, also stopped paying course fees for their staff that autumn. The decline could conceivably reflect the loss of that assistance, even if the new hours suited most learners. Before altering next term's hours, the director wants to find out how many former students were still eligible for help with fees.",
+    "q": "What does the passage suggest about the loss of assistance?",
+    "o": [
+      "It affected evening learners more than daytime learners.",
+      "It may explain why fewer people took evening classes.",
+      "It was confirmed as the chief cause of lower enrolment.",
+      "It had little effect after the new timetable took hold."
+    ],
+    "a": 1,
+    "answer_support": "The decline could conceivably reflect the loss of that assistance, even if the new hours suited most learners.",
+    "exp": {
+      "trans": "培训中心换时间表后夜课报名减少。同一时期有雇主停止代员工出学费。主任想先查资助资格，判断报名下降是否可能受费用影响，再决定是否改时间。",
+      "structure": "先提到时间调整，however 增加另一条可能原因。末句说明需进一步调查，才能判断哪种解释更有力。",
+      "other": "enrolment（报名）、assistance（援助）、eligible（符合条件）。",
+      "meaning": "conceivably 提出一种可以考虑的解释，语气保留，不能从文中读出原因的相对概率。",
+      "rest": "原文没有比较日课和夜课受影响的程度，也没有确认主要原因或证明影响很小。主任的调查正要填补这些信息。"
+    }
+  },
+  {
+    "id": "refresh-conceivably-carpentry-course",
+    "family": "conceivably",
+    "introduced": null,
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 35,
+    "reading_budget": 100,
+    "target": "conceivably 加条件时的可能性",
+    "skill": "区分设想、实施决定与结果",
+    "passage": "A winter course was designed for apprentice carpenters who could attend in person. One instructor suggested that it could conceivably be offered online if technicians filmed close-up demonstrations. Such recordings would help learners see how to use the tools, but they would still need access to equipment and someone to check the work they produced. For the coming term the training centre will keep the classroom course while it tests what students can learn from recorded demonstrations on their own.",
+    "q": "What is suggested about an online version of the course?",
+    "o": [
+      "It was ruled out when learners failed to obtain tools.",
+      "It will replace the classroom course in the coming term.",
+      "It remains possible if the practical needs can be met.",
+      "It would remove the need to check students' progress."
+    ],
+    "a": 2,
+    "answer_support": "it could conceivably be offered online if technicians filmed close-up demonstrations",
+    "exp": {
+      "trans": "培训班原本要到场。有讲师提出，若能录下近距离示范，或许可开网课。但学员仍需要器材和能检查实操作品的人。中心下学期保留面授，同时试验录制示范的学习效果。",
+      "structure": "if 引出设想可行的一项条件，but 补上录制还无法解决的实际要求。末句说明试验阶段仍保留面授。",
+      "other": "apprentice（学徒）、close-up（近距离的）、demonstration（示范）、equipment（器材）。",
+      "meaning": "could conceivably be offered 提的是一种有条件的可能，文章得出了试验的决定，尚未决定推出线上版。",
+      "rest": "器材需求犹在，未说方案被排除。下学期保留面授，学员依然需要反馈。"
+    }
+  },
+  {
+    "id": "refresh-costs-port-rates",
+    "family": "costs-effort-intensity",
+    "introduced": "2026-11-16",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 105,
+    "target": "at all costs 在上下文中得到支持的强度",
+    "skill": "识别说话者对牺牲和条件的态度",
+    "passage": "For years a port operator kept its handling rates below those of neighbouring ports. The strategy at first attracted new business. As costs rose, managers postponed repairs and cut staff rather than reconsider the prices. One manager later recalled that the company had become determined to protect its market share at all costs. By the time the board changed course, some equipment could no longer be used. In his account, the biggest mistake was refusing to reconsider the policy once its effects became clear.",
+    "q": "By saying \"at all costs\", the manager suggests that the company",
+    "o": [
+      "kept the policy even when it meant serious sacrifices.",
+      "priced its services mainly to bring in money for repairs.",
+      "made every effort within the limits of its maintenance budget.",
+      "planned to adjust rates if demand for its services weakened."
+    ],
+    "a": 0,
+    "answer_support": "managers postponed repairs and cut staff rather than reconsider the prices",
+    "exp": {
+      "trans": "码头公司靠低费率吸引业务，随后运营成本上涨，管理层推迟维修、裁员来维持旧价格。一位经理事后认为，为了保住市场份额，公司连明显的损失也接受，直到部分设备无法使用才改弦更张。",
+      "structure": "先交代策略的合理起点，再描述实际牺牲。at all costs 出现在经理的回顾里，随后给出设备损坏的后果。",
+      "other": "handling rates（装卸费率）、postpone（推迟）、market share（市场份额）、change course（转变方针）。",
+      "meaning": "经理批评的是公司愿意承担很大损失来守住一个目标。spare no effort 侧重尽力，不能单靠这个短语推出其他代价也可以接受。",
+      "rest": "公司推迟维修，费率也没以支付维修为首要目的。管理层不愿根据已出现的问题重新考虑策略，这与有限度的努力及及时调价都不一致。"
+    }
+  },
+  {
+    "id": "refresh-belief-delayed-wages",
+    "family": "belief-negation-clause",
+    "introduced": "2026-10-15",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 55,
+    "reading_budget": 105,
+    "target": "被否定的推断与当事人认可的事实",
+    "skill": "同时定位观点归属、否定范围和限定词",
+    "passage": "A workers' association asked for a public list of factories that had paid wages late. The employers agreed to publish the dates, but they did not believe that a delay by itself showed a firm could not pay. Some late payments followed a change of payroll contractor even though the firms had money on hand. The two sides eventually agreed to include an explanation of when and how the payments were made. Readers would then have more than a single date on which to judge each case.",
+    "q": "What did the employers dispute?",
+    "o": [
+      "The existence of delays in some factories' wage payments.",
+      "The proposal to publish the dates of the wage payments.",
+      "The need to explain how factories arranged their payroll.",
+      "The claim that a delay alone proved a firm lacked funds."
+    ],
+    "a": 3,
+    "answer_support": "they did not believe that a delay by itself showed a firm could not pay",
+    "exp": {
+      "trans": "工人协会要求公开拖延发薪的企业名单。雇主同意公开日期，却认为只凭拖延就断定企业拿不出钱，证据不足。双方最终同意加上具体的支付情况，让读者有更多依据。",
+      "structure": "did not believe 否定的是后面由延迟推出缺钱的判断。by itself 限定证据，主语 they 是赞成公开日期的雇主。",
+      "other": "wage（工资）、payroll contractor（工资发放承包商）、on hand（现有、在手）。",
+      "meaning": "文章区分了延迟已经发生和仅凭延迟足以断定企业无力支付。例子说明变更发薪服务商也能造成延迟。",
+      "rest": "雇主承认有延迟，同意公布日期并附解释。三个干扰项把他们反对的结论换成了他们实际接受的事实或做法。"
+    }
+  },
+  {
+    "id": "refresh-title-used-guarantee",
+    "family": "title-specificity",
+    "introduced": "2026-09-30",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 55,
+    "reading_budget": 105,
+    "target": "标题兼顾适用条件与文中结论",
+    "skill": "用全文论点排除标题范围偏差",
+    "passage": "A repair shop started selling restored washing machines with a three-month guarantee. Its customers had little trouble judging visible scratches, yet many worried about paying for an early breakdown. The guarantee shifted part of that risk to the seller. Sales rose although the prices stayed much the same.\n\nA guarantee cannot make every old appliance a good purchase. But where buyers cannot check what they most want to know, a modest promise of repair can do more to reassure them than another reduction in price.",
+    "q": "Which of the following would be the best title for the text?",
+    "o": [
+      "The Hidden Cost of Repairing Used Appliances",
+      "How a Guarantee Helps Sell Used Appliances",
+      "Why Used Appliances Should Cost Much Less",
+      "What Shoppers Inspect in Second-hand Machines"
+    ],
+    "a": 1,
+    "answer_support": "a modest promise of repair can do more to reassure them than another reduction in price",
+    "exp": {
+      "trans": "翻新洗衣机加了保修，价钱大体没动，销量却增加了。消费者能看见划痕，但预判不了故障。店家分担一部分故障风险，就能打消他们的一项主要顾虑。",
+      "structure": "先给销量变化，再解释保修改变风险分担。第二段说明这项做法有效的条件及它的限度。",
+      "other": "restore（修复、翻新）、breakdown（故障）、shift（转移）、reassure（让……放心）。",
+      "meaning": "标题应把二手家电和保修的销售作用放在一起。划痕是用来说明买家可以检查什么的细节。",
+      "rest": "维修成本的数额没有展开。降低价格是拿来对照的办法。只谈购物时检查什么遗漏了保修这一关键变化。"
+    }
+  },
+  {
+    "id": "refresh-title-translation-workshops",
+    "family": "title-specificity",
+    "introduced": "2026-09-30",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 55,
+    "reading_budget": 105,
+    "target": "标题中的适用范围和例外",
+    "skill": "区分一般做法与限定情境下的规则",
+    "passage": "A group of vocational colleges lets students use translation aids during workshops. Tutors want everyone to understand instructions before starting a task, and the aids can help. The colleges reached a different decision about final assessments, which are designed to show that students can read instructions when no assistance is available.\n\nA ban in assessments was reported as a rejection of translation tools. Yet tutors continue to use them where they help students learn. The colleges are trying to distinguish the help students may need while learning from the abilities a qualification is supposed to certify.",
+    "q": "Which of the following would be the best title for the text?",
+    "o": [
+      "Helping Apprentices Read Faster in Workshops",
+      "A Case for Translation Aids in Practical Exams",
+      "Why Vocational Colleges Are Giving Up Translation",
+      "Translation Aids in Training, Limits in Testing"
+    ],
+    "a": 3,
+    "answer_support": "The colleges are trying to distinguish the help students may need while learning from the abilities a qualification is supposed to certify.",
+    "exp": {
+      "trans": "职业学校允许学生在实训里用翻译工具帮助看懂指令，但最终考核想验证没有辅助时能不能独立读懂。考核限制一度被报道成全面拒绝，实际课堂仍在用。",
+      "structure": "第一段并列学习和考核。第二段先说明外界误读，再用 Yet 重申用途差异。末句概括学校要区分的两件事。",
+      "other": "vocational（职业的）、assessment（考核）、qualification（资格证书）、certify（证明）。",
+      "meaning": "最佳标题要覆盖工具在学习中能用、在考核中受限这两个范围。",
+      "rest": "实训里的阅读速度只是偏窄的切入点。倡导考核中使用工具与原文规则相反。说学校放弃翻译也超出了限用范围。"
+    }
+  },
+  {
+    "id": "refresh-title-digital-plans",
+    "family": "title-specificity",
+    "introduced": "2026-09-30",
+    "published_on": "2026-11-19",
+    "format": "english1_reading",
+    "budget": 55,
+    "reading_budget": 105,
+    "target": "标题覆盖主要变化和代价",
+    "skill": "从初衷与实际结果判断主题",
+    "passage": "An architectural practice introduced shared digital drawings to reduce the time spent producing each set of plans. Clients could see changes as soon as they were made, which reduced the need for printing and delivery. But it also meant that questions arrived throughout the day. Clients who had once given a single response to a set of drawings could now comment on each revision.\n\nThe architects did not regret the change. The new tools improved consultation while shifting part of their work from producing drawings to managing a continuing conversation.",
+    "q": "Which of the following would be the best title for the text?",
+    "o": [
+      "How Digital Plans Have Changed Architects' Work",
+      "Why Architects Should Share Fewer Revisions",
+      "The Continuing Case for Printed Building Plans",
+      "What Clients Want from Their First Set of Plans"
+    ],
+    "a": 0,
+    "answer_support": "The new tools improved consultation while shifting part of their work from producing drawings to managing a continuing conversation.",
+    "exp": {
+      "trans": "建筑事务所共享数字图纸，本来想减少出图的时间。沟通确实更方便了，客户却也能对每次改动即时提问。建筑师的一部分工作从出图转为保持持续沟通。",
+      "structure": "先写预期节省，but 转入反复回应的问题，末段同时评价咨询改善和工作重心改变。",
+      "other": "architectural practice（建筑事务所）、revision（修改版）、consultation（协商沟通）。",
+      "meaning": "标题需涵盖数字图纸改变工作方式这件事。打印减少和提问增加都是具体变化。",
+      "rest": "文中没有建议少共享修改版或重新采用纸质图纸。客户初次看图的需求也不等于全文讨论的连续沟通。"
+    }
+  },
+  {
+    "id": "refresh-nested-artists-sketches",
+    "family": "nested",
+    "introduced": null,
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "插入小句与 whatever 结构中的对象",
+    "skill": "找出主句实际涉及的事物",
+    "q": "The publisher, which has lost several of the original illustrations, will reproduce whatever sketches the artist's family has kept.\n\nWhich sketches will the publisher reproduce?",
+    "o": [
+      "Those that the publisher kept from the first edition.",
+      "Those that another artist has redrawn for the publisher.",
+      "Those that have remained in the artist's family.",
+      "Those that were lost after the first edition appeared."
+    ],
+    "a": 2,
+    "exp": {
+      "trans": "出版商丢失了几幅原插图，将把艺术家家里保留下来的草图复制出来。",
+      "structure": "先接起 The publisher → will reproduce whatever sketches the artist's family has kept。两个逗号间说明出版商的情况。whatever... 是 reproduce 的宾语，has kept 的主语是 the artist's family。",
+      "other": "illustration（插图）、reproduce（复制）、sketch（草图）、keep（保留）。",
+      "meaning": "所选范围是艺术家家里仍保存的任何草图。起作用的限定是家人保存过它们。",
+      "rest": "出版商缺失原插图属于背景。原句没有安排他人重画，也没有说它会复制丢失的插图或出版商自己收藏的画稿。"
+    }
+  },
+  {
+    "id": "refresh-nested-festival-programme",
+    "family": "nested",
+    "introduced": null,
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "插入的让步小句与限定范围",
+    "skill": "识别承诺覆盖的条件及主句结果",
+    "q": "The festival, although it has lost its main sponsor, will fund whatever performances can take place outdoors using existing equipment.\n\nWhich performances will the festival fund?",
+    "o": [
+      "Outdoor shows that can use the equipment already available.",
+      "Indoor shows that can go ahead without the main sponsor.",
+      "Outdoor shows for which it can afford to buy new equipment.",
+      "Shows using equipment that the former sponsor promised to buy."
+    ],
+    "a": 0,
+    "exp": {
+      "trans": "尽管失去了主要赞助商，节庆仍会资助那些能用现有设备在室外演出的节目。",
+      "structure": "先跳过 although 小句接起 The festival → will fund whatever performances...。整个 whatever 结构是受资助的对象。结构内部 performances 是 can take place 的主语。",
+      "other": "festival（节庆）、sponsor（赞助商）、fund（资助）、existing（现有的）。",
+      "meaning": "受资助的演出要同时满足室外举行和用现有设备。although 交代让步背景，资助范围要到主句里找。",
+      "rest": "室内节目缺少一个条件，另买设备缺少另一个条件。赞助商承诺购置什么设备没有交代。"
+    }
+  },
+  {
+    "id": "refresh-with-conference-arrivals",
+    "family": "with",
+    "introduced": null,
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "with 结构表示与主句同时发生的情形",
+    "skill": "从插入内容判断动作发生时的状态",
+    "q": "The conference, with late arrivals still streaming through the doors, began at the announced hour.\n\nWhat was happening when the conference began?",
+    "o": [
+      "The organisers were announcing a new starting time.",
+      "Some people were still coming into the hall.",
+      "The main group was leaving for a different hall.",
+      "Everyone in the audience had already found a seat."
+    ],
+    "a": 1,
+    "exp": {
+      "trans": "还有迟到者陆续进门时，会议已在公布的时间开始。",
+      "structure": "主句是 The conference began at the announced hour。逗号间的 with late arrivals still streaming through the doors 写的是当时仍在发生的事。",
+      "other": "late arrivals（迟到者）、stream（不断涌入）、announced（已公布的）。",
+      "meaning": "会议开始时还有人在往里走。streaming 的动作主体是 late arrivals。",
+      "rest": "公布时间已经确定，原句没有更改时间。进门的动作也与离开会场或所有人已就座不同。"
+    }
+  },
+  {
+    "id": "refresh-with-unsigned-loans",
+    "family": "with",
+    "introduced": null,
+    "published_on": "2026-11-19",
+    "budget": 60,
+    "target": "with 加名词和未完成的状态",
+    "skill": "分清主句动作与插入内容所示的状态",
+    "q": "The museum, with two loan agreements still unsigned, postponed publication of its exhibition catalogue.\n\nWhat was still outstanding when publication was postponed?",
+    "o": [
+      "The catalogue needed photographs of two objects.",
+      "The museum had yet to arrange transport for the loans.",
+      "The date of the exhibition still had to be announced.",
+      "Two agreements still needed to be signed."
+    ],
+    "a": 3,
+    "exp": {
+      "trans": "还有两份借展协议没签，馆方推迟出版展览图录。",
+      "structure": "主句是 The museum postponed publication。with 后的主项是 two loan agreements，still unsigned 描述它们当时尚未签署的状态。",
+      "other": "loan agreement（借展协议）、postpone（推迟）、catalogue（图录）、outstanding（尚未处理完的）。",
+      "meaning": "两份文件尚待签署。unsigned 陈述完成状态，句中没有指明是哪一方尚未签字。",
+      "rest": "书面协议和运输、照片、展览日期是不同事项。原文只点明尚未处理完的协议。"
+    }
+  }
+]
