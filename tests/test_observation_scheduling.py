@@ -50,6 +50,12 @@ class ObservationSchedulingTests(unittest.TestCase):
         self.assertTrue(stats['reported_confusion'])
         self.assertEqual((items, notes, {'2026-10-19': history['2026-10-19']}), before)
 
+    def test_a_retired_question_still_counts_as_a_past_daily_opportunity(self):
+        old = {**question('paper'), 'retired_on': '2026-10-19'}
+        replacement = {**question('paper'), 'id': 'new-paper', 'published_on': '2026-10-19'}
+        notes = [{'family': 'paper', 'date': '2026-10-17', 'kind': 'user_reported_wrong'}]
+        self.assertEqual(self.pending([old, replacement], notes, history={'2026-10-18': [old['id']]}), {})
+
     def test_new_strong_feedback_on_an_old_family_is_recent_but_translation_is_not(self):
         items = [question('paper')]
         history = {'2026-10-10': ['fixture-paper']}
@@ -107,6 +113,53 @@ class ObservationSchedulingTests(unittest.TestCase):
             selected = review.choose(items, stats, history, self.day, seed=str(seed), initial_reviews=queue)
             self.assertEqual(len(selected), 8)
             self.assertEqual(sum(q['family'] in families for q in selected), 1)
+
+    def test_daily_round_spaces_recent_families_and_prefers_due_questions(self):
+        items, stats, history = fixture()
+        for i in range(8):
+            family = 'older-' + str(i)
+            items.append(question(family))
+            stats[family] = {**stats['with']}
+        stats['with']['due'] = '2026-11-20'
+        history['2026-10-18'] = [question('older-0')['id']]
+        chosen = review.choose(items, stats, history, self.day, scored_rows=[])
+        families = {q['family'] for q in chosen}
+        self.assertEqual(len(families), 8)
+        self.assertNotIn('older-0', families)
+        self.assertNotIn('with', families)
+        self.assertTrue(all(f.startswith(('older-', 'recent-')) for f in families))
+
+    def test_recent_verified_miss_gets_a_slot_without_opening_an_article(self):
+        items, stats, _ = fixture()
+        q = question('recent-miss')
+        items.append(q)
+        stats['recent-miss'] = {**stats['with'], 'last': '2026-10-17', 'errors': 1}
+        history = {'2026-10-17': [q['id']]}
+        optional = {'2026-10-19': [q['id']]}
+        row = {'family': q['family'], 'date': '2026-10-17', 'qid': q['id'], 'ok': False, 'ms': 1000}
+        chosen = review.choose(items, stats, history, self.day, scored_rows=[row], variant_shown=optional)
+        self.assertIn('recent-miss', {q['family'] for q in chosen})
+        answered_optional = {**row, 'date': '2026-10-19', 'ok': True}
+        chosen = review.choose(items, stats, history, self.day, scored_rows=[row, answered_optional],
+                               variant_shown=optional)
+        self.assertNotIn('recent-miss', {q['family'] for q in chosen})
+
+    def test_daily_round_relaxes_spacing_if_due_pool_is_too_small(self):
+        items = [question('only-' + str(i)) for i in range(8)]
+        stats = review.make_stats(items, [], [], self.day)
+        history = {'2026-10-19': [q['id'] for q in items]}
+        chosen = review.choose(items, stats, history, self.day, scored_rows=[])
+        self.assertEqual({q['id'] for q in chosen}, {q['id'] for q in items})
+
+    def test_daily_variant_spacing_uses_the_context_of_retired_questions(self):
+        old = {**question('vocab'), 'retired_on': '2026-10-19', 'context_id': 'used'}
+        similar = {**question('vocab'), 'id': 'similar', 'context_id': 'used'}
+        different = {**question('vocab'), 'id': 'new-context', 'context_id': 'different'}
+        items = [old, similar, different]
+        history = {'2026-10-16': [old['id']]}
+        stats = review.make_stats(items, [], [], self.day)
+        picked = review.choose(items, stats, history, self.day, count=1, scored_rows=[])
+        self.assertEqual(picked[0]['id'], different['id'])
 
     def test_a_stream_of_new_feedback_cannot_starve_the_old_first_review_backlog(self):
         items, stats, history = fixture()

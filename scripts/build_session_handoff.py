@@ -396,8 +396,9 @@ def article_coverage(source, notes, sessions):
                          'publication_date': payload.get('date') if published else None})
     coverage.sort(key=lambda item: (item['learning_date'], item['session_id']), reverse=True)
     pending = [item for item in coverage if item['status'] != 'published']
-    if pending:
-        source.warnings.add(f'有{len(pending)}个已登记学习阶段尚无可用文章专项复盘；任务运行成功不代表篇目覆盖完整')
+    missing = sum(item['status'] == 'missing_round' for item in pending)
+    if missing:
+        source.warnings.add(f'有{missing}个已登记的文章专项缺少题单或页面')
     return {'pending': pending, 'recent': coverage[:8]}
 
 
@@ -514,7 +515,7 @@ def markdown(report):
              f"[仓库]({p['repo']}) · [每日8题]({p['daily_url']}) · [文章复盘]({p['article_url']}) · [历史复盘]({p['history_url']})", '',
              '## 接续规则', '',
              '英语教学对话负责解题、确认反馈并整理交接；GitHub维护助手统一维护学习数据、题库与迁移训练、每日/文章/Part B复盘，完成必要的页面开发、算法及跨模块修复，负责测试、提交与发布验收。Actions只处理已入库数据。',
-             '新篇不能只存观察就算维护完成：还须核对对应复盘可做、交接已更新。先读本摘要，必要时回查原记录；它不替代证据。',
+             '日常以每日8题为主。新篇入库后核对每日候选和交接摘要，题库有明确缺口时少量补题。独立文章及Part B复盘按需使用。',
              '画框只表示翻译困难，横线只表示认为重要；未确认的最终选项保持未知。纸质错题、答对犹豫和理解困惑只影响观察与后续训练，不是网页主测。',
              '原始Issue、首次选择、当天锁定8题、历史快照、localStorage与storageId均须保留。不从未同步的聊天、照片或本地未提交作答补造成绩。', '',
              '## 已核验网页进度', '']
@@ -532,9 +533,10 @@ def markdown(report):
     lines.append('网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。')
     lines.append('旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。')
     available = web['available_article']
-    lines.append(f"当前文章专项：发布日期{available['date'] or '未知'}，对应学习日期{available['learning_date'] or '未知'}；题单已发布不等于已经作答。")
-    missing = len(report['article_review_coverage']['pending'])
-    lines.append(f'已登记篇目复盘缺口：{missing}个，详见JSON中的article_review_coverage；不能只凭Actions成功判断学习闭环完整。')
+    lines.append(f"可选文章专项发布日期为{available['date'] or '未知'}，对应学习日期{available['learning_date'] or '未知'}。")
+    pending = report['article_review_coverage']['pending']
+    missing = sum(item['status'] == 'missing_round' for item in pending)
+    lines.append(f'有{missing}个已登记的文章专项待发布，有{len(pending) - missing}篇仅登记了学习观察。')
     if report.get('presentation_quality'):
         lines.extend(['', '## 题目呈现质量', ''])
         for entry in report['presentation_quality']:
@@ -578,7 +580,7 @@ def markdown(report):
                 not stage.get('active_translation_spans') and not stage.get('unresolved_marking_translation_spans')):
             details.append('另有翻译困难，详见该篇learning-notes。')
         if not stage['article_session_files']:
-            details.append('尚无对应article session；不因此遗漏观察。')
+            details.append('本篇已登记学习观察，独立复盘按需开放。')
         lines.append(f"- {stage['date']}｜{paper_label(stage)}：" + ' '.join(details))
     if not report['recent_paper']:
         lines.append('尚无可定位到年/篇的已同步纸质观察，最近纸质进度未知。')
@@ -596,7 +598,7 @@ def markdown(report):
         lines.append('- ' + safe(warning) + '。')
     lines.extend(['', '## 下一对话怎么继续', '',
                   '先围绕最近一篇的真实误读，核对主语、动作、评价对象、转折和选项新增限定；再用少量不同语境题检验，避免复读原文或凭选项长度猜答案。',
-                  '若用户补充结构化学习反馈或最终选项，由GitHub维护助手核验来源并更新观察、题库与复盘配置；已有文字证据无需重复照片。需要新文章轮次时另建session，不能覆盖旧轮或当天daily。未同步材料不会自动出现在本摘要中。',
+                  '若用户补充结构化学习反馈或最终选项，由 GitHub 维护助手核验来源并更新观察和每日候选。需要独立复盘时另建 session。已发布的旧轮与当天题单可继续使用。',
                   '追溯：`data/learning-notes.json`（按日期/篇目/题号及JSON中的note指纹定位）；`data/result-evidence.json`与对应Issue（网页成绩）；`data/review-state.json`（掌握度）；`data/days/`、`data/article-reviews/`（题单）；`data/source-checks/`（答案核验）。',
                   '机器索引：[`data/session-handoff.json`](data/session-handoff.json)。同输入重复生成无差异；摘要本身不参与评分、选题或曝光统计。', ''])
     return '\n'.join(lines)
@@ -635,9 +637,9 @@ def build(root=ROOT):
 
 if __name__ == '__main__':
     output = build()
-    missing = len(output['article_review_coverage']['pending'])
+    missing = sum(item['status'] == 'missing_round' for item in output['article_review_coverage']['pending'])
     if missing:
-        print(f'::warning title=Article review coverage::{missing} synchronized paper stages have no published article round.')
+        print(f'::warning title=Article review coverage::{missing} registered article reviews have no published round.')
     print(json.dumps({'as_of': output['as_of'], 'source_fingerprint': output['source_fingerprint'],
                       'latest_daily_issue': (output['web']['latest_daily'] or {}).get('issue'),
                       'pending_article_reviews': missing}, ensure_ascii=False))

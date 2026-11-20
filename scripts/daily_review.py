@@ -211,9 +211,10 @@ def variant_history(root, day, daily=None):
     return {stamp: sorted(set(ids)) for stamp, ids in history.items()}
 
 
-def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None, primary_history=None):
+def choose_variant(variants, history, rng, *, avoid_ids=(), prefer_date=None, primary_history=None, context_by_qid=None):
     variants = list(variants)
-    all_contexts = {q["id"]: q.get("context_id", q["id"]) for q in variants}
+    all_contexts = dict(context_by_qid or {})
+    all_contexts.update((q["id"], q.get("context_id", q["id"])) for q in variants)
     rng.shuffle(variants)
     unseen = [q for q in variants if q["id"] not in avoid_ids]
     variants = unseen or variants
@@ -577,13 +578,13 @@ def pending_observation_reviews(items, stats, notes, rows, history, day):
     this first-offer queue, without clearing confusion or increasing mastery.
     """
     stamp = day.isoformat()
-    available_since, family_for = {}, {}
+    available_since = {}
+    family_for = {q["id"]: q["family"] for q in items}
     for q in items:
         if available(q, day):
             family = q["family"]
             since = max((q[k] for k in ("introduced", "published_on") if q.get(k)), default=date.min.isoformat())
             available_since[family] = min(since, available_since.get(family, since))
-            family_for[q["id"]] = family
     daily_last, answered_last = {}, {}
     for shown_on, ids in history.items():
         if shown_on <= stamp:
@@ -619,29 +620,55 @@ def pending_observation_reviews(items, stats, notes, rows, history, day):
     return pending
 
 
+def recent_result_followups(verified_rows, last_offer, day):
+    """Prioritize a first opportunity after a verified recent miss or uncertainty."""
+    first = (day - timedelta(days=7)).isoformat()
+    latest = {}
+    for row in verified_rows:
+        stamp = row["date"]
+        if stamp < first:
+            continue
+        family = row["family"]
+        priority = 2 if row.get("errors", int(not row["ok"])) else int(bool(row.get("uncertain")))
+        latest[family] = max(latest.get(family, ("", 0)), (stamp, priority))
+    waiting = [f for f, (stamp, priority) in latest.items() if priority and last_offer.get(f, "") <= stamp]
+    recent = (day - timedelta(days=3)).isoformat()
+    return sorted(waiting, key=lambda f: (-latest[f][1], latest[f][0] < recent, latest[f][0], f))
+
+
 def choose(items, stats, history, day, *, count=8, seed=None, include_today=False, variant_shown=None,
-           initial_reviews=None):
-    """Select directly from the candidate pool; article reviews request 4--6 slots."""
+           initial_reviews=None, scored_rows=None):
+    """Select variants. Daily rounds use accepted results for spacing and follow-up."""
     if not 1 <= count <= 8:
         raise ValueError("Review count must be between one and eight")
-    rng = random.Random(seed or "kaoyan-review:" + day.isoformat())
+    stamp = day.isoformat()
+    rng = random.Random(seed or "kaoyan-review:" + stamp)
+    daily = scored_rows is not None
+    verified = [row for row in scored_rows or () if row["date"] < stamp and not row.get("date_unverified")]
     groups = {}
     for q in items:
         if available(q, day):
             groups.setdefault(q["family"], []).append(q)
+    family_for = {q["id"]: q["family"] for q in items}
+    primary = {date_: ids for date_, ids in history.items()
+               if date_ < stamp or (include_today and date_ == stamp)}
+    last_daily, exposure = {}, {}
+    recent = (day - timedelta(days=3)).isoformat()
+    for date_, ids in primary.items():
+        for qid in ids:
+            family = family_for.get(qid)
+            if family in groups:
+                last_daily[family] = max(date_, last_daily.get(family, ""))
+                if date_ >= recent:
+                    exposure[family] = exposure.get(family, 0) + 1
+
     def age(f):
         dates = [q.get("introduced") for q in groups[f]]
         return 9999 if None in dates else (day - date.fromisoformat(min(dates))).days
-    last_shown, exposure = {}, {}
-    for stamp, ids in history.items():
-        if stamp > day.isoformat() or (stamp == day.isoformat() and not include_today):
-            continue
-        for qid in ids:
-            last_shown[qid] = max(stamp, last_shown.get(qid, ""))
-            if (day - date.fromisoformat(stamp)).days <= 3:
-                for f, variants in groups.items():
-                    if any(q["id"] == qid for q in variants):
-                        exposure[f] = exposure.get(f, 0) + 1
+
+    def due(f):
+        return stats[f]["due"] <= stamp
+
     def rank(f):
         s = stats[f]
         overdue = max(0, (day - date.fromisoformat(s["due"])).days)
@@ -649,7 +676,7 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         stable = 1 + s["streak"] if s["streak"] >= 2 and not s["reported_confusion"] else 1
         weight = (3 + (min(s["errors"], 4) * 3 + 2 * s["slow_or_uncertain"]) / stable
                   + 5 * note_weight + min(overdue, 10)) / (1 + exposure.get(f, 0))
-        return (s["due"] <= day.isoformat(), weight + rng.random())
+        return (due(f), weight + rng.random())
     def urgent_rank(f):
         s = stats[f]
         overdue = max(0, (day - date.fromisoformat(s["due"])).days)
@@ -666,15 +693,27 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
     # The single anti-starvation slot must not reuse the urgency ranking: a
     # persistent cluster of slow/error targets can otherwise take it forever.
     # A published opportunity is not an attempt; it only resets this queue age.
-    family_for = {q['id']: f for f, variants in groups.items() for q in variants}
-    family_shown = {}
-    for stamp, ids in (variant_shown if variant_shown is not None else history).items():
-        if stamp > day.isoformat() or (stamp == day.isoformat() and not include_today):
-            continue
-        for qid in ids:
-            if qid in family_for:
-                f = family_for[qid]
-                family_shown[f] = max(stamp, family_shown.get(f, ''))
+    family_shown = last_daily.copy()
+    shown = {date_: list(ids) for date_, ids in primary.items()}
+    context_by_qid = None
+    if daily:
+        # An optional page can be published without ever being opened. Only
+        # daily offers and verified practice count toward daily spacing.
+        context_by_qid = {q["id"]: q.get("context_id", q["id"]) for q in items}
+        for row in verified:
+            f, date_ = row["family"], row["date"]
+            family_shown[f] = max(date_, family_shown.get(f, ""))
+            if row.get("qid"):
+                shown.setdefault(date_, []).append(row["qid"])
+    elif variant_shown is not None:
+        shown = {date_: ids for date_, ids in variant_shown.items()
+                 if date_ < stamp or (include_today and date_ == stamp)}
+        for date_, ids in shown.items():
+            for qid in ids:
+                if qid in family_for:
+                    f = family_for[qid]
+                    family_shown[f] = max(date_, family_shown.get(f, ""))
+
     def waiting(f):
         activity = [stamp for stamp in (family_shown.get(f), stats[f].get('last')) if stamp]
         available_dates = [max(stamps) for q in groups[f]
@@ -690,26 +729,33 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         return (s['errors'] > 0 and s['streak'] == 0 and s.get('last') is not None
                 and 2 <= (day - date.fromisoformat(s['last'])).days <= 3
                 and waiting(f) >= 2)
-    # Preserve prompt follow-up for recent scored errors, but do not let
+    # Preserve the legacy shared reserve for optional reviews, but do not let
     # untested observations outrank a confirmed old error indefinitely. Within
     # each priority tier, the longest wait for any published opportunity wins.
     neglected = sorted(
         urgent,
         key=lambda f: (
-            recent_followup(f),
+            not daily and recent_followup(f),
             bool(stats[f]["errors"] or stats[f]["slow_or_uncertain"]),
             waiting(f),
         ),
         reverse=True,
     )
     chosen = []
+    enforce_spacing = daily
+    spacing_since = (day - timedelta(days=2)).isoformat()
+
     def partb(f):
         return f.startswith(("paragraph-order-", "heading-"))
     def allowed(f):
         # Full Part B tasks have their own page; ordering and heading mechanisms
         # share at most one maintenance slot in this selector.
         partb_slot = not partb(f) or not any(partb(x) for x in chosen)
-        return partb_slot and f not in chosen and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2) and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2)
+        spaced = not enforce_spacing or family_shown.get(f, "") < spacing_since
+        return (partb_slot and spaced and f not in chosen
+                and (f not in STRUCTURE or sum(x in STRUCTURE for x in chosen) < 2)
+                and (age(f) != 0 or sum(age(x) == 0 for x in chosen) < 2))
+
     def take(count, predicate, order=None):
         for f in (ranked if order is None else order):
             if count <= 0 or len(chosen) == requested:
@@ -726,23 +772,28 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         pending = sorted((f for f in groups if f in initial_reviews),
                          key=lambda f: (initial_reviews[f]["since"],
                                         -initial_reviews[f]["priority"], f))
-        recent = sorted(pending, key=lambda f: (-initial_reviews[f]["priority"],
-                                                initial_reviews[f]["since"], f))
-        take(1, lambda f: (stats[f]["due"] <= day.isoformat()
-                          and 0 <= (day - date.fromisoformat(initial_reviews[f]["latest"])).days <= 3), recent)
-        take(min(2, urgent_budget) - len(chosen), lambda f: stats[f]["due"] <= day.isoformat(), pending)
-    take(urgent_budget - len(chosen), lambda f: (stats[f]["due"] <= day.isoformat()
+        recent_notes = sorted(pending, key=lambda f: (-initial_reviews[f]["priority"],
+                                                       initial_reviews[f]["since"], f))
+        take(1, lambda f: due(f) and recent <= initial_reviews[f]["latest"] <= stamp, recent_notes)
+        take(min(2, urgent_budget) - len(chosen), due, pending)
+    if daily:
+        followups = [f for f in recent_result_followups(verified, last_daily, day) if f in groups]
+        take(min(1, urgent_budget - len(chosen)), due, followups)
+    take(urgent_budget - len(chosen), lambda f: (due(f)
                        and (stats[f]["errors"] > 0 or stats[f]["reported_confusion"] or stats[f]["slow_or_uncertain"])), urgent)
     # Translation-only observations keep their normal rank, but cannot displace
     # a real error/slow answer or explicit uncertainty in this one reserve.
-    take(1, lambda f: (stats[f]['due'] <= day.isoformat() and (waiting(f) >= 3 or recent_followup(f))
+    take(1, lambda f: (due(f) and (waiting(f) >= 3 or (not daily and recent_followup(f)))
                        and (stats[f]['errors'] > 0 or stats[f]['slow_or_uncertain']
                             or (stats[f]['reported_confusion'] and stats[f].get('observation_priority', 2) >= 2))), neglected)
-    take(1, lambda f: f in STRUCTURE)
-    take(max(0, 3 - sum(age(f) > 3 for f in chosen)), lambda f: age(f) > 3)
-    take(2, lambda f: 1 <= age(f) <= 3)
-    take(1, lambda f: stats[f]["streak"] >= 2 and stats[f]["due"] <= day.isoformat())
-    take(requested - len(chosen), lambda f: stats[f]["due"] <= day.isoformat())
+    take(1, lambda f: f in STRUCTURE and (not daily or due(f)))
+    take(max(0, 3 - sum(age(f) > 3 for f in chosen)), lambda f: age(f) > 3 and (not daily or due(f)))
+    take(2, lambda f: 1 <= age(f) <= 3 and (not daily or due(f)))
+    take(1, lambda f: stats[f]["streak"] >= 2 and due(f))
+    take(requested - len(chosen), due)
+    if daily and len(chosen) < requested:
+        enforce_spacing = False
+        take(requested - len(chosen), due)
     take(requested - len(chosen), lambda f: True)
     if len(chosen) != requested:
         raise ValueError("Insufficient diverse questions; old page retained instead of publishing an invalid quiz")
@@ -751,12 +802,8 @@ def choose(items, stats, history, day, *, count=8, seed=None, include_today=Fals
         if all(not (age(a) == 0 and age(b) == 0) for a, b in zip(chosen, chosen[1:])):
             break
     selected = []
-    shown = {stamp: ids for stamp, ids in (variant_shown if variant_shown is not None else history).items()
-             if stamp < day.isoformat() or (stamp == day.isoformat() and include_today)}
-    primary = {stamp: ids for stamp, ids in history.items()
-               if stamp < day.isoformat() or (stamp == day.isoformat() and include_today)}
     for f in chosen:
-        selected.append(choose_variant(groups[f], shown, rng, primary_history=primary))
+        selected.append(choose_variant(groups[f], shown, rng, primary_history=primary, context_by_qid=context_by_qid))
     return selected
 
 
@@ -788,8 +835,7 @@ def build(root, day, sync=False, repo="pkppkqbobs/kaoyan-english-trainer"):
         payload = locked if locked.get("date") == day.isoformat() else existing
     else:
         initial_reviews = pending_observation_reviews(items, stats, notes, evidence_data["rows"], history, day)
-        selected = choose(items, stats, history, day, variant_shown=variant_history(root, day, history),
-                          initial_reviews=initial_reviews)
+        selected = choose(items, stats, history, day, initial_reviews=initial_reviews, scored_rows=evidence_data["rows"])
         payload = {"date": day.isoformat(), "repo": repo, "questions": selected,
                    "retry": {q["family"]: retry_variants(items, q, day) for q in selected},
                    "issues_used": evidence_data["issues"], "engine": 3}
