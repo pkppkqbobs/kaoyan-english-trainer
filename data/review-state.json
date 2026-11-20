@@ -54,7 +54,8 @@
     51,
     52,
     53,
-    54
+    54,
+    55
   ],
   "families": {
     "absolute-language": {
@@ -509,12 +510,12 @@
     },
     "dnt-actor-boundary": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-17",
-      "due": "2026-11-18",
+      "errors": 2,
+      "last": "2026-11-20",
+      "due": "2026-11-20",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 2
     },
     "dormant-state": {
@@ -840,11 +841,11 @@
     "literal-emphasis": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-20",
       "due": "2026-11-20",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "location-vs-change": {
@@ -920,11 +921,11 @@
     "nested": {
       "streak": 0,
       "errors": 4,
-      "last": "2026-11-19",
+      "last": "2026-11-20",
       "due": "2026-11-20",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 24,
+      "observed_days": 25,
       "observation_priority": 2
     },
     "only-when-necessary": {
@@ -988,14 +989,14 @@
       "observation_priority": 3
     },
     "paragraph-order-discourse": {
-      "streak": 0,
+      "streak": 2,
       "errors": 3,
-      "last": "2026-11-19",
-      "due": "2026-11-20",
+      "last": "2026-11-20",
+      "due": "2026-11-24",
       "slow_or_uncertain": true,
-      "reported_confusion": true,
-      "observed_days": 18,
-      "observation_priority": 3
+      "reported_confusion": false,
+      "observed_days": 19,
+      "observation_priority": 0
     },
     "paragraph-scope-attitude": {
       "streak": 0,
@@ -1060,11 +1061,11 @@
     "policy-enforcement-roles": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-20",
       "due": "2026-11-20",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "politics-policy": {
@@ -1330,11 +1331,11 @@
     "spot-verb-meaning": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-20",
       "due": "2026-11-20",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "standard": {
@@ -1389,12 +1390,12 @@
     },
     "synonym-reference": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-20",
       "due": "2026-11-20",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "take-page-from": {
@@ -1628,13 +1629,13 @@
       "observation_priority": 0
     },
     "with": {
-      "streak": 10,
+      "streak": 0,
       "errors": 0,
-      "last": "2026-11-16",
-      "due": "2026-12-07",
+      "last": "2026-11-20",
+      "due": "2026-11-21",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 14,
+      "observed_days": 15,
       "observation_priority": 0
     },
     "woodcut-medium": {

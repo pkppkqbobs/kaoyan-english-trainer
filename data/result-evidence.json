@@ -4543,6 +4543,96 @@
       "qid": "legacy-who-that-main",
       "round_id": "mwngaee9-5q5xvobt",
       "source_date": "2026-11-19"
+    },
+    {
+      "date": "2026-11-20",
+      "family": "paragraph-order-discourse",
+      "ok": true,
+      "ms": 46343,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "sentence-link-museum-experiment-b",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "family": "spot-verb-meaning",
+      "ok": true,
+      "ms": 61560,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "cl19-spot-photo-bands",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20",
+      "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-20",
+      "family": "literal-emphasis",
+      "ok": true,
+      "ms": 13792,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "cl19-literal-window",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "family": "policy-enforcement-roles",
+      "ok": true,
+      "ms": 48598,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "text1-policy-enforcement-lab-f",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "family": "synonym-reference",
+      "ok": false,
+      "ms": 84520,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "cl19-reference-tutoring-slots",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20",
+      "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-20",
+      "family": "with",
+      "ok": true,
+      "ms": 77828,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "refresh-with-conference-arrivals",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "family": "dnt-actor-boundary",
+      "ok": false,
+      "ms": 66851,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "dnt-consent-partners-a",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20"
+    },
+    {
+      "date": "2026-11-20",
+      "family": "nested",
+      "ok": true,
+      "ms": 64496,
+      "uncertain": false,
+      "origin": 55,
+      "qid": "nested-inset-morning-traffic",
+      "round_id": "mworjnr4-99ircdso",
+      "source_date": "2026-11-20"
     }
   ],
   "issues": [
@@ -4599,6 +4689,7 @@
     51,
     52,
     53,
-    54
+    54,
+    55
   ]
 }

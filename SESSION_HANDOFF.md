@@ -12,8 +12,8 @@
 
 ## 已核验网页进度
 
-最近已接受的完整daily：题单日期2026-11-19，[Issue #54](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/54)，4/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-11-20；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
+最近已接受的完整daily：题单日期2026-11-20，[Issue #55](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/55)，6/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
+当前题单日期：2026-11-20；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 当前文章专项：发布日期2026-11-19，对应学习日期2026-11-19；题单已发布不等于已经作答。
@@ -37,10 +37,10 @@
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
 - 修饰关系与熟词搭配（synonym-reference、spot-verb-meaning）：觉得迷路时寻找标杆或指示物在现实中合理，因此选择 posts。 网页错误数/streak单列于JSON。
-- Part B 标题匹配与篇章衔接（paragraph-order-discourse、heading-global-allocation）：由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（semantic-action-roles、necessitate-causal-need）：初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（title-coverage、inference-boundary）：整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（attribution-stance、author-stance）：对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。 网页错误数/streak单列于JSON。
+- Part B 标题匹配与篇章衔接（heading-global-allocation、heading-core-function）：用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第… 网页错误数/streak单列于JSON。
 
 ## 待确认
 
