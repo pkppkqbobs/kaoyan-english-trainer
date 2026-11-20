@@ -1,0 +1,234 @@
+[
+  {
+    "id": "r19t1-transient-site-members",
+    "family": "transient-investor-roles",
+    "introduced": "2026-11-20",
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 110,
+    "target": "transient 的短暂义",
+    "skill": "根据持续时间理解形近词",
+    "passage": "The coordinators of a language-exchange site measure its popularity by the number of people who sign in each week. A reviewer applied a different test. Some members used the site only to find someone for a class assignment. They rarely returned once their assignments had been submitted. The reviewer describes these visitors as transient and leaves them out when estimating how many lasting partnerships the site supports. The site's designers, who make their figures public, agree that a busy week may tell little about how often people meet again.",
+    "q": "Why does the reviewer describe these visitors as \"transient\"?",
+    "o": [
+      "They change partners whenever their classes change.",
+      "They use the site for a short time and rarely return.",
+      "They expect the site to make their exchanges public.",
+      "They do their assignments with a regular partner."
+    ],
+    "a": 1,
+    "answer_support": "They rarely returned once their assignments had been submitted.",
+    "exp": {
+      "trans": "语言交换网站以每周登录人数衡量受欢迎程度。有些人只为完成作业上站，交作业后很少回来。评估者把他们视为短期访客，在统计持久的学习伙伴关系时扣除这部分人。网站公开数据，也承认登录热度说明不了后续见面的频率。",
+      "structure": "先看谁被称为 transient，再向前找这些访客的行为。作业提交是他们很少回来之前的时间节点。末句中 who make their figures public 补充设计者如何处理数据。",
+      "other": "sign in（登录）、submit（提交）、leave out（排除）、lasting（持久的）。",
+      "meaning": "transient 写访客停留得短。transparent 写透明、公开，可用来描述数据披露的做法。这里公开数据的是网站设计者。",
+      "rest": "文中没有描述访客反复换搭档或已拥有固定搭档。公开数据也没有说明访客希望公开自己的交流内容。"
+    }
+  },
+  {
+    "id": "r19t1-investment-market-cabinets",
+    "family": "transient-investor-roles",
+    "introduced": "2026-11-20",
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 105,
+    "target": "investor 与 investigator 的角色",
+    "skill": "辨别投入资金与核查信息的动作",
+    "passage": "A town tested an insulated cabinet at a food market. A group of investors put money into the project after reading estimates of how much traders could save on ice. The council hired investigators to check the figures before expanding the trial. They found that a colder month explained part of the fall in costs. The investment paid for two additional cabinets. The investigation helped the council decide where to place them, so that it could compare the results under different conditions.",
+    "q": "According to the text, how was the investment used?",
+    "o": [
+      "Checking why traders had been spending less on ice.",
+      "Choosing which market stalls would test the cabinets.",
+      "Establishing how the temperature affected sales.",
+      "Buying more cabinets to extend the market trial."
+    ],
+    "a": 3,
+    "answer_support": "The investment paid for two additional cabinets.",
+    "exp": {
+      "trans": "市场试用了隔热柜。投资者看到预计能节省冰块开支后投入资金。议会另请调查人员核对数字，发现较冷的天气也有影响。投资支付了两台新增柜子的费用。调查帮助决定柜子放在哪儿，以比较不同条件下的结果。",
+      "structure": "两组人分别由 put money into 和 hired ... to check 引出。末两句用 investment 和 investigation 分别承接各自的行动及成果。",
+      "other": "insulated（隔热的）、trader（商贩）、estimate（估算）、expand（扩大）。",
+      "meaning": "investment 在这里是投入的资金，investor 是投资者。investigation 是查证过程，investigator 为负责调查的人。",
+      "rest": "核查开支及确定新试验地点来自调查。文中也没有断定温度怎样影响销量。购买柜子由所投入的资金承担。"
+    }
+  },
+  {
+    "id": "r19t1-adverse-boardwalk",
+    "family": "adverse-impact-dimension",
+    "introduced": "2026-11-20",
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 110,
+    "target": "根据 hinder 判断影响性质",
+    "skill": "区分影响的利弊、程度和时长",
+    "passage": "A nature reserve built a boardwalk to keep visitors off soft ground. The boards did protect the plants nearest the entrance. But one section crossed a channel through which rainwater had previously flowed into a shallow pool. Its supports hindered the flow of water. The pool dried earlier than usual and fewer birds nested nearby. Although the path remained popular, the reserve manager said its success should also be judged by whether wildlife could continue to use the pool.",
+    "q": "What problem does the passage identify in the pool area?",
+    "o": [
+      "Conditions became less suitable for some of the wildlife.",
+      "The boardwalk brought additional visitors to the pool.",
+      "Changes in water flow had little effect on wildlife.",
+      "The effect on nesting faded once the water level settled."
+    ],
+    "a": 0,
+    "answer_support": "Its supports hindered the flow of water. The pool dried earlier than usual and fewer birds nested nearby.",
+    "exp": {
+      "trans": "保护区修步道来避免游人踩入软地，入口附近的植物确实得到了保护。不过步道的支撑妨碍雨水流入浅池，池水比平时更早干涸，附近筑巢的鸟变少了。管理者认为还应按野生动物能否继续使用这个浅池来评价步道。",
+      "structure": "But 后面把关注点移到浅池。支撑挡住部分水流，紧接着的干涸和少鸟筑巢说明这个变化有什么影响。Although 所说的受欢迎是补充背景。",
+      "other": "boardwalk（木板步道）、channel（水渠）、support（支撑）、nest（筑巢）。",
+      "meaning": "hinder 表示妨碍。通过池水较早干涸及筑巢变少，可以概括出对局部野生动物的 adverse 影响。动词 impeded、obstructed 也可表示妨碍，要结合它们支配的事物判断后果。",
+      "rest": "受欢迎没有交代浅池附近是否增加访客。文中给出了筑巢变化，未说作用微不足道，也未说明筑巢后来恢复。"
+    }
+  },
+  {
+    "id": "r19t1-duration-fitting-calendar",
+    "family": "adverse-impact-dimension",
+    "introduced": "2026-11-20",
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 105,
+    "target": "把影响性质和持续时间分开",
+    "skill": "根据时间节点判断问题何时终止",
+    "passage": "Actors at a theatre sometimes missed costume fittings when they changed rehearsal rooms without telling the wardrobe team. A shared calendar was introduced to solve this problem. In its first week, access settings prevented some costume staff from entering appointments. That impeded their efforts to arrange fittings. After the settings were corrected, all departments could use the calendar and the disruption did not recur. The director said the experience could help the theatre prepare for its next change in software.",
+    "q": "What does the passage establish about the initial disruption?",
+    "o": [
+      "It continued after more staff could use the calendar.",
+      "It ended once an early access problem was resolved.",
+      "It was too slight to affect the fitting schedule.",
+      "It began when the theatre expanded access to the calendar."
+    ],
+    "a": 1,
+    "answer_support": "After the settings were corrected, all departments could use the calendar and the disruption did not recur.",
+    "exp": {
+      "trans": "剧院用共享日历解决换排练室后漏掉服装试穿的问题。第一周的权限设置使部分服装人员无法录入预约，影响了排期。修正设置后，各部门均可使用，问题未再发生。剧院可用这段经历改进下一次软件变更。",
+      "structure": "in its first week 交代新问题开始，after the settings were corrected 交代问题终止。",
+      "other": "fitting（服装试穿）、wardrobe team（服装团队）、impede（妨碍）、recur（再次发生）。",
+      "meaning": "impeded 表明当时有不利影响。此题还给了明确的结束节点，因此可以概括为 temporary。判断持续时间要找时间证据。",
+      "rest": "困扰来自初期权限限制，并确实影响了排期。扩展权限之后问题没有再出现。"
+    }
+  },
+  {
+    "id": "r19t1-inset-garden-benches",
+    "family": "nested",
+    "introduced": null,
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 60,
+    "reading_budget": 105,
+    "target": "who 插入定语从句与主句动作",
+    "skill": "跳过补充信息找到主句再还原句意",
+    "passage": "On estates with shared gardens, councils often replace worn benches before the start of summer. Last year one council asked gardeners what else the work might achieve. The gardeners, who already knew which seats received shade, asked that pairs of benches be turned to face each other. Several people said they wanted to sit together without turning at uncomfortable angles to talk. The council had already considered planting more trees, but that remained a separate proposal even after the gardeners gave their advice.",
+    "q": "What change did the gardeners request?",
+    "o": [
+      "Replacing every bench before the start of summer.",
+      "Moving benches away from sunny areas in the garden.",
+      "Turning seats towards one another to help people talk.",
+      "Planting more trees near the seats that visitors use most."
+    ],
+    "a": 2,
+    "answer_support": "asked that pairs of benches be turned to face each other",
+    "exp": {
+      "trans": "议会常在夏前换掉公共花园的旧长椅。园艺居民知道哪些位子有树荫，提出让长椅两两相对，好坐着聊天而不用费劲扭身。多种树则是另一项提案。",
+      "structure": "先将逗号两侧接起来读 The gardeners asked that pairs of benches be turned。who 从句补充他们知道哪些位置有荫，which seats received shade 是 knew 的内容。",
+      "other": "estate（住宅区）、worn（磨损的）、face each other（相对）、at an angle（成角度）。",
+      "meaning": "居民的请求由 asked 引出，重点是椅子朝向和方便交谈。",
+      "rest": "换旧椅是议会的常规做法。知道荫凉位置并没有变成要求搬走长椅。种树仍属另一提案。"
+    }
+  },
+  {
+    "id": "r19t1-inset-harbour-staff",
+    "family": "nested",
+    "introduced": null,
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 60,
+    "reading_budget": 105,
+    "target": "插入从句里的旧预期与主句发现",
+    "skill": "定位说话者当前真正报告的变化",
+    "passage": "A regional ferry company is testing a way to sell tickets at several shops instead of only at the harbour. The staff at the harbour, who had expected the shops to add to their work, report that the trial has reduced the number of telephone enquiries. Passengers who buy at the shops already have the timetable on their receipts, so harbour staff spend less time repeating it. The company still processes refunds at the harbour and has yet to decide whether to run the scheme through winter.",
+    "q": "What have harbour staff found during the trial?",
+    "o": [
+      "They receive fewer calls about ferry services.",
+      "They have more ticket enquiries to deal with.",
+      "The shops now deal with all requests for refunds.",
+      "Passengers want the harbour to change its timetable."
+    ],
+    "a": 0,
+    "answer_support": "report that the trial has reduced the number of telephone enquiries",
+    "exp": {
+      "trans": "渡轮公司试让几家店分售船票。港口员工原以为会增加工作，试行后却报告问询电话减少。商店小票上已有时刻表，员工不用一再重复。退款仍在港口办，冬季是否延续还未决定。",
+      "structure": "主句接成 The staff at the harbour report that ...。who 从句中的 had expected 说明以前的预期，report 后才是现在验证的结果。",
+      "other": "trial（试行）、enquiry（问询）、receipt（收据）、refund（退款）。",
+      "meaning": "他们现在发现电话咨询减少，原因是小票直接给了时刻表信息。",
+      "rest": "工作变多只是之前的预期。退款职能没有改，乘客要求改时刻表也未出现。"
+    }
+  },
+  {
+    "id": "r19t1-evidence-market-orders",
+    "family": "semantic-action-roles",
+    "introduced": "2026-11-15",
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 60,
+    "reading_budget": 110,
+    "target": "新证据何时改变原结论",
+    "skill": "用证据区分销售渠道与到场购物",
+    "passage": "A market switched its trading day from Saturday to Friday. Sales rose in the first month, and managers credited the change. In the same month the market began taking advance orders on its website. When receipts were examined, purchases made at the stalls had not risen. The difference came from orders placed online and collected later, mostly by regular customers. Managers still think Friday trading suits some shoppers, but they have stopped using the growth in sales as evidence that the change attracted more people to the stalls.",
+    "q": "Why did managers reconsider what the rise in sales showed?",
+    "o": [
+      "It was recorded before Friday trading was introduced.",
+      "It came from stalls that continued to trade on Saturdays.",
+      "It was matched by a fall in the number of online orders.",
+      "Online orders accounted for the rise in overall sales."
+    ],
+    "a": 3,
+    "answer_support": "When receipts were examined, purchases made at the stalls had not risen. The difference came from orders placed online and collected later",
+    "exp": {
+      "trans": "市场交易日改为周五后销售额上涨，管理者起初归功于改日。同月也开通了网络预订。查收据发现现场销售未涨，增加部分源于网上预订，多来自老顾客，因此管理者不再用这组销量证明摊位吸引了更多人。",
+      "structure": "前段有总销量变化与原判断，中段分开现场和线上，末句修正这一判断。",
+      "other": "credit A（把结果归功于 A）、advance order（预订）、stall（摊位）、collect（取货）。",
+      "meaning": "新证据是分开两种交易渠道后的收据。它推翻的是销量证明摊位吸引更多人的说法。复读时可以核对新证据具体改变了哪个动作及其对象。",
+      "rest": "销售增长发生在改日后，与线上预订增长相符。没有保留周六交易的摊位贡献增量这一说法。"
+    }
+  },
+  {
+    "id": "r19t1-evidence-commuter-study-room",
+    "family": "semantic-action-roles",
+    "introduced": "2026-11-15",
+    "published_on": "2026-11-20",
+    "origin_session": "2026-11-20-2019-text1",
+    "format": "english1_reading",
+    "budget": 60,
+    "reading_budget": 110,
+    "target": "区分附带用途与行动目的",
+    "skill": "用可定位的证据核对原因和对象",
+    "passage": "A university opened a study room beside a bus stop so that commuting students could wait for their first class indoors. The room also had a free printer. A survey found that many students made use of it, but others came in regularly on days when they had nothing to print. The room was busiest in the hour between the arrival of the first bus and the start of lectures. The university kept the room where it was when a better-equipped space farther away became available.",
+    "q": "What best explains keeping the room near the bus stop?",
+    "o": [
+      "Most visitors made a special trip there to print.",
+      "Students could wait there before their classes began.",
+      "The nearby entrance could take delivery of more equipment.",
+      "The room was used for additional morning lectures."
+    ],
+    "a": 1,
+    "answer_support": "The room was busiest in the hour between the arrival of the first bus and the start of lectures.",
+    "exp": {
+      "trans": "学校在公交站边开自习室，便于通勤生到校后在室内等第一节课。打印机有人用，即使没打印需求也有人来。第一趟车到校至早课开始前最忙，学校保留了原位置。",
+      "structure": "so that 表明设置房间的目的。调查承认打印有需求，but 补充独立于打印的使用证据，再由高峰时段解释地点价值。",
+      "other": "commuting（通勤的）、make use of（利用）、lecture（讲课、授课）、farther away（更远）。",
+      "meaning": "等课的便利性解释为何保留站边位置。重读看到 printer 出现多次时，可核对那是附带用途，真正解释选址的证据有没有变化。",
+      "rest": "有打印需求仍不足以说明多数人专门来打印。文中也未把设备收货或增设早课说成留下它的理由。"
+    }
+  }
+]

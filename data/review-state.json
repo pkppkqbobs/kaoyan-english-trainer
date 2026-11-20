@@ -108,6 +108,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "adverse-impact-dimension": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-20",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "alerts": {
       "streak": 0,
       "errors": 0,
@@ -1577,6 +1587,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 3
+    },
+    "transient-investor-roles": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-20",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "transition": {
       "streak": 1,

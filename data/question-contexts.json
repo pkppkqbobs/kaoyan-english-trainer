@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-19",
+  "reviewed_on": "2026-11-20",
   "source_commit": "683c03010f7c520d2798030514b7c5b7d7ad1f1c",
   "method": "人工逐题核对语境、句架、错项与证据路径；保守聚类仅用于题库维护和变体间隔，不是掌握判断。",
   "contexts": {
@@ -628,7 +628,15 @@
     "refresh-nested-artists-sketches": "refresh:family-retained-sketches",
     "refresh-nested-festival-programme": "refresh:outdoor-performances-equipment",
     "refresh-with-conference-arrivals": "refresh:arrivals-during-opening",
-    "refresh-with-unsigned-loans": "refresh:unsigned-exhibition-agreements"
+    "refresh-with-unsigned-loans": "refresh:unsigned-exhibition-agreements",
+    "r19t1-transient-site-members": "r19t1:short-lived-online-participation",
+    "r19t1-investment-market-cabinets": "r19t1:funding-versus-review-of-market-equipment",
+    "r19t1-adverse-boardwalk": "r19t1:boardwalk-and-pool-wildlife",
+    "r19t1-duration-fitting-calendar": "r19t1:limited-duration-of-calendar-disruption",
+    "r19t1-inset-garden-benches": "r19t1:bench-orientation-versus-shade",
+    "r19t1-inset-harbour-staff": "r19t1:harbour-staff-expectation-and-observation",
+    "r19t1-evidence-market-orders": "r19t1:website-versus-stall-purchases",
+    "r19t1-evidence-commuter-study-room": "r19t1:study-room-location-versus-printing"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

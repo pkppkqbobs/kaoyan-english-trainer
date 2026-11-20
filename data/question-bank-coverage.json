@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-20",
   "scope": "Question definitions and candidate availability on the report date.",
   "summary": {
-    "source_questions": 538,
-    "available_candidates": 448,
-    "available_contexts": 444,
-    "available_families": 160,
+    "source_questions": 546,
+    "available_candidates": 456,
+    "available_contexts": 452,
+    "available_families": 162,
     "retired_questions": 90,
-    "available_reading_passages": 68
+    "available_reading_passages": 76
   },
   "families": {
     "absolute-language": {
@@ -28,6 +28,10 @@
       "contexts": 3
     },
     "advance-time-expression": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "adverse-impact-dimension": {
       "candidates": 2,
       "contexts": 2
     },
@@ -356,8 +360,8 @@
       "contexts": 3
     },
     "nested": {
-      "candidates": 6,
-      "contexts": 6
+      "candidates": 8,
+      "contexts": 8
     },
     "only-when-necessary": {
       "candidates": 2,
@@ -492,8 +496,8 @@
       "contexts": 2
     },
     "semantic-action-roles": {
-      "candidates": 2,
-      "contexts": 2
+      "candidates": 4,
+      "contexts": 4
     },
     "sharp-hit-impact": {
       "candidates": 2,
@@ -616,6 +620,10 @@
       "contexts": 2
     },
     "transaction-purpose": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "transient-investor-roles": {
       "candidates": 2,
       "contexts": 2
     },

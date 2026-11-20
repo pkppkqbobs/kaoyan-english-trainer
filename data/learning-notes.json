@@ -7065,11 +7065,20 @@
     "family": "scene-evidence-chain",
     "kind": "user_reported_confusion",
     "scope": "linked_cloze_comprehension",
-    "source_questions": [14, 15, 16],
+    "source_questions": [
+      14,
+      15,
+      16
+    ],
     "paper_outcome": {
       "reported_correct_count": 16,
       "reported_total": 20,
-      "reported_wrong_questions": [4, 14, 15, 16],
+      "reported_wrong_questions": [
+        4,
+        14,
+        15,
+        16
+      ],
       "evidence_status": "aggregate_from_user_reported_four_errors",
       "first_choices": "unknown",
       "revisions": "unknown",
@@ -7079,7 +7088,11 @@
     "evidence_basis": "用户提供纸质真题作答和教学复盘的结构化文字，明确给出四道错题及所选选项。",
     "user_reported_reasoning": "对连续三空提出具体疑问。把发现缺口理解成分辨，把林中开路理解成在木头上刻道路，最后觉得可以朝标杆走。",
     "note": "合读14—16空。先找出树木轮廓里的缺口，再用道路、铁轨和小路穿过树林解释缺口从何而来，最后朝这些缺口走去以寻找出路。these breaks 承接 gaps。三空共同检验能否用因果、空间和回指把场景连起来。",
-    "training_targets": ["观察到的现象", "形成现象的原因", "下一步如何利用这条线索"]
+    "training_targets": [
+      "观察到的现象",
+      "形成现象的原因",
+      "下一步如何利用这条线索"
+    ]
   },
   {
     "date": "2026-11-19",
@@ -7100,10 +7113,15 @@
     "initial_choice_letter_confirmed": false,
     "choice_change_status": "unknown",
     "training_priority": 5,
-    "source_spans": ["literally can't find north"],
+    "source_spans": [
+      "literally can't find north"
+    ],
     "user_reported_reasoning": "认为“逐渐找不到北方”也合适，并询问 D 是否表示“字面上”。已记得 gradually 的渐进义和 literally 的字面义。",
     "note": "此处讲确实辨不出北方。literally 强调这是实际发生的辨向困难。gradually 所需的变化过程在这个假设情境中没有展开。",
-    "training_targets": ["按字面解释或强调真实情况", "渐变过程、最终结果和出乎意料"]
+    "training_targets": [
+      "按字面解释或强调真实情况",
+      "渐变过程、最终结果和出乎意料"
+    ]
   },
   {
     "date": "2026-11-19",
@@ -7124,10 +7142,15 @@
     "initial_choice_letter_confirmed": false,
     "choice_change_status": "unknown",
     "training_priority": 2,
-    "source_spans": ["spot gaps in the tree line"],
+    "source_spans": [
+      "spot gaps in the tree line"
+    ],
     "user_reported_reasoning": "记得 spot 表示斑点。把 separate 的“分开”联想到“分辨出”，觉得可用于发现林际线的缺口。",
     "note": "spot 名词可指斑点或地点，此处作动词，指观察到已有的缺口。separate 表示把事物分开，也可在 separate X from Y 中指区分。先核对原句要求的动作和对象，再判断选项。",
-    "training_targets": ["spot 的名词和动词义", "发现已有事物、将事物分开及区分两者"]
+    "training_targets": [
+      "spot 的名词和动词义",
+      "发现已有事物、将事物分开及区分两者"
+    ]
   },
   {
     "date": "2026-11-19",
@@ -7148,11 +7171,17 @@
     "initial_choice_letter_confirmed": false,
     "choice_change_status": "unknown",
     "training_priority": 3,
-    "source_spans": ["carve through the woods"],
+    "source_spans": [
+      "carve through the woods"
+    ],
     "user_quote": "刻在木头上的道路？",
     "user_reported_reasoning": "把 woods 按木头理解，把 carve 按雕刻理解，形成了在木头上刻出道路的画面，最终选 beyond。",
     "note": "the woods 指树林，carve a path 指开辟道路。路径经过树林的内部，所以用 through。beyond 标的是越过边界后的位置，无法解释树林内部为何出现缺口。",
-    "training_targets": ["wood 与 the woods", "carve a path 的开辟义", "through、beyond、across、along 的空间关系"]
+    "training_targets": [
+      "wood 与 the woods",
+      "carve a path 的开辟义",
+      "through、beyond、across、along 的空间关系"
+    ]
   },
   {
     "date": "2026-11-19",
@@ -7173,10 +7202,17 @@
     "initial_choice_letter_confirmed": false,
     "choice_change_status": "unknown",
     "training_priority": 1,
-    "source_spans": ["these breaks", "gaps in the tree line"],
+    "source_spans": [
+      "these breaks",
+      "gaps in the tree line"
+    ],
     "user_reported_reasoning": "觉得迷路时寻找标杆或指示物在现实中合理，因此选择 posts。",
     "note": "break 作名词可指连续事物中断开的地方。these breaks 回指前一句观察到的 gaps，所说的仍是道路等造成的林中空隙。posts 符合一种生活经验，但文中没有引入可供 these 指代的标杆。",
-    "training_targets": ["break 的缺口义", "these 加同义词的跨句回指", "区分文本有据与生活中可能"]
+    "training_targets": [
+      "break 的缺口义",
+      "these 加同义词的跨句回指",
+      "区分文本有据与生活中可能"
+    ]
   },
   {
     "date": "2026-11-19",
@@ -7189,7 +7225,9 @@
     "scope": "phrase_translation",
     "mark_type": "active_question",
     "marking_evidence": "direct_user_report",
-    "source_spans": ["due to roads, train tracks"],
+    "source_spans": [
+      "due to roads, train tracks"
+    ],
     "user_quote": "due to roads, train tracks其实这个我也翻译不太清楚，因为道路？轨迹？",
     "note": "due to 在这里说明 gaps 形成的原因，train tracks 指实际铺设的铁轨。公路、铁轨和小路穿过树林，形成林际线中肉眼能看到的缺口。"
   },
@@ -7204,10 +7242,264 @@
     "scope": "polysemy_question",
     "mark_type": "active_question",
     "marking_evidence": "direct_user_report",
-    "source_spans": ["train tracks"],
+    "source_spans": [
+      "train tracks"
+    ],
     "user_quote": "train是不是也是多义词来着，我记得有训练的意思。",
     "retained_knowledge": "明确记得 train 作动词表示训练。",
     "note": "train tracks 中 train 是修饰 tracks 的名词，整组意为铁路轨道。train an AI model 中 train 是及物动词。track 可作名词指轨道、跑道或踪迹，也可作动词表示追踪。用户在本句提到“轨迹”，所需补充是辨认这里的实体铁轨和组合关系。",
-    "training_targets": ["train 修饰 tracks 与 train 支配 an AI model", "track 的实体名词义和监测动词义"]
+    "training_targets": [
+      "train 修饰 tracks 与 train 支配 an AI model",
+      "track 的实体名词义和监测动词义"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "adverse-impact-dimension",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 23,
+    "initial_pick": "B",
+    "first_considered": "B",
+    "reported_pick": "A",
+    "expected": "B",
+    "initial_choice_letter_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "choice_change_confirmed": true,
+    "candidate_choices": [
+      "B",
+      "A"
+    ],
+    "initial_choice_correct": true,
+    "final_choice_correct": false,
+    "evidence_basis": "纸质真题作答和后续教学反馈由用户文字交接。首次B、复读后最终A为明确报告。",
+    "user_reported_reasoning": "首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。",
+    "answer_change": {
+      "sequence": [
+        "B",
+        "A"
+      ],
+      "reason": "用户复读对应段落后觉得A更合适，并质疑按几个词的褒贬判断为何会选B。",
+      "reported_wording": "其他词都是负面的，正确答案咋会是B",
+      "evidence_status": "explicit_user_report"
+    },
+    "source_spans": [
+      "Transient investors",
+      "can hinder a firm's efforts"
+    ],
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "reported_correct_count": null,
+      "reported_initial_choice_letters": {
+        "23": "B"
+      },
+      "reported_final_choice_letters": {
+        "23": "A"
+      },
+      "confirmed_paper_wrong_questions": [
+        23
+      ],
+      "final_choices_unknown": [
+        21,
+        22,
+        24,
+        25
+      ],
+      "other_initial_choices_and_revisions": "unknown",
+      "overall_score": "unknown",
+      "not_a_web_score": true
+    },
+    "semantic_comparison": {
+      "indirect": "间接的，描述影响通过什么途径发生",
+      "adverse": "不利的、有害的，描述影响的性质",
+      "minimal": "很小的，描述影响程度",
+      "temporary": "暂时的，描述影响持续时间",
+      "evidence": "主句的 can hinder 说明可能阻碍公司的长期研究与客户忠诚度建设。股东持股短说明投资者的属性，无法由此推出后果也短。影响可同时具备多种属性，此处的明确证据支持不利这一维度。"
+    },
+    "note": "把两个逗号之间对投资者要求季度利润的补充先放一边，主语是短期投资者，关键动词是 can hinder。然后读回从句及 efforts 后的两项目标。改选前先核实读到的新证据是否真正改变了主体、谓语或题目所问的维度。",
+    "training_priority": 1,
+    "training_targets": [
+      "识别短期投资者并提取关键动词",
+      "把妨碍的动作概括为可能产生不利影响",
+      "区分影响性质、途径、程度和持续时间",
+      "在答后解析还原逗号两侧主干，比较改选前后的文本证据"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "transient-investor-roles",
+    "kind": "user_reported_confusion",
+    "scope": "phrase_misreading",
+    "evidence_basis": "用户主动确认第23题中的短语误读。",
+    "mark_type": "active_question",
+    "source_spans": [
+      "transient investors"
+    ],
+    "user_reported_reasoning": "用户确认把整组 transient investors 误读成“透明的调查”。",
+    "confirmed_phrase_reading": "透明的调查",
+    "possible_word_confusions": [
+      {
+        "text_word": "transient",
+        "comparison_word": "transparent",
+        "status": "teaching_hypothesis"
+      },
+      {
+        "text_word": "investors",
+        "comparison_word": "investigators",
+        "status": "teaching_hypothesis"
+      }
+    ],
+    "note": "前句谈持股时间缩短，短期投资者接续这一线索。transient 表示短暂，transparent 表示透明或公开。investor 进行投资，investigator 进行调查。逐词混淆来自教学推测，整组短语的误读来自用户确认。",
+    "training_priority": 2,
+    "training_targets": [
+      "transient / transparent",
+      "investor / investigator",
+      "investment / investigation"
+    ]
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "evidence_basis": "用户转交的教学对话将此识别为画框翻译困难。用户另行确认词义遗忘。",
+    "family": "adverse-impact-dimension",
+    "source_question": 23,
+    "source_spans": [
+      "hinder"
+    ],
+    "word_memory_status": "forgotten",
+    "user_reported_reasoning": "用户主动说没看懂 hinder，忘了它的意思。",
+    "note": "hinder 表示阻碍、妨碍某项行动或努力。结合本文要保护的长期目标，能概括为 adverse。该词同时有画框识别和用户独立确认。"
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "evidence_basis": "用户转交的教学对话将此识别为画框翻译困难。",
+    "family": "executive-context-vocabulary",
+    "source_spans": [
+      "bosses"
+    ],
+    "note": "bosses of big banks 指大型银行的负责人或高管。",
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "evidence_basis": "用户转交的教学对话将此识别为画框翻译困难。",
+    "family": "pudding-metaphor-vocabulary",
+    "source_spans": [
+      "plums",
+      "pudding"
+    ],
+    "glosses": {
+      "plums": "李子",
+      "pudding": "布丁、甜点"
+    },
+    "note": "先挑出甜点中喜欢的部分立即吃，借此比喻先享受眼前利益的倾向。",
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "evidence_basis": "用户转交的教学对话将此识别为画框翻译困难。",
+    "family": "dubbed-context-vocabulary",
+    "source_spans": [
+      "dubbed"
+    ],
+    "note": "has been dubbed 表示被称作某个名称，dub A B 即把 A 称作 B。",
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "evidence_basis": "用户转交的教学对话将此识别为画框翻译困难。",
+    "family": "familiar-word-polysemy",
+    "source_spans": [
+      "incentives"
+    ],
+    "note": "provide incentives 表示提供激励措施，促使相关人员采取某种行动。"
+  },
+  {
+    "date": "2026-11-20",
+    "received_on": "2026-11-20",
+    "session_id": "2026-11-20-2019-text1",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "evidence_basis": "用户转交的教学对话将此识别为画框翻译困难。",
+    "family": "frustration-context-vocabulary",
+    "source_question": 25,
+    "source_spans": [
+      "frustration"
+    ],
+    "option_under_discussion": {
+      "letter": "D",
+      "word": "Frustration",
+      "scope": "vocabulary_only"
+    },
+    "note": "frustration 在标题选项中指挫败、沮丧或不满。这条证据只涉及该选项中的词义。",
+    "review_importance": "low"
   }
 ]

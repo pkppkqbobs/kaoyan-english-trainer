@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-20-2019-text1",
+  "date": "2026-11-20",
+  "learning_date": "2026-11-20",
+  "created_at": "2026-11-20T19:15:38+09:00",
+  "source": "2019 英语一 Reading Text 1 · 2026-11-20 纸质真题复盘",
+  "focus_families": [
+    "transient-investor-roles",
+    "adverse-impact-dimension",
+    "nested",
+    "semantic-action-roles"
+  ],
+  "focus_question_ids": {
+    "transient-investor-roles": [
+      "r19t1-transient-site-members"
+    ],
+    "adverse-impact-dimension": [
+      "r19t1-adverse-boardwalk"
+    ],
+    "nested": [
+      "r19t1-inset-garden-benches"
+    ],
+    "semantic-action-roles": [
+      "r19t1-evidence-market-orders"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "question_format": "english1_reading",
+  "training_priorities": [
+    "先核对形近词及实际主体，辨别行为与其对象",
+    "找出表示阻碍的关键谓语，再和影响的性质、途径、程度及时间分别比较",
+    "用意思完整的长句练逗号间插入式定语从句",
+    "依据新证据是否改变结论校验改选"
+  ],
+  "source_check": "data/source-checks/2019-english1.json",
+  "evidence_basis": "采用用户交接的纸质反馈。独立核验第23题答案，保留其他题作答与整体得分未知。"
+}

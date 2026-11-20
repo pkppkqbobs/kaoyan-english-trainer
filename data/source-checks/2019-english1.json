@@ -1,33 +1,57 @@
 {
   "exam": "2019-english1",
-  "checked_on": "2026-11-19",
-  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16",
+  "checked_on": "2026-11-20",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇",
   "sources": [
     {
       "id": "eol-wendu-2019-cloze",
       "title": "中国教育在线转载文都教育的2019年考研英语一参考答案",
       "url": "https://kaoyan.eol.cn/nnews/201812/t20181223_1638284.shtml",
-      "covers": "逐题核对本次涉及的四题参考字母及答案词。"
+      "covers": "核对所涉及的四道完形题及阅读 Text 1 第23题的参考字母和答案词。"
     },
     {
       "id": "koolearn-2019-cloze",
       "title": "新东方在线2019年考研英语一完形真题、参考答案及解析",
       "url": "https://kaoyan.koolearn.com/20190509/1045555.html",
       "covers": "核对四题选项顺序、题干及相邻语境。"
+    },
+    {
+      "id": "xdf-2019-text1-q23",
+      "title": "新东方网2019考研英语一阅读第一篇参考答案及解析",
+      "url": "https://kaoyan.xdf.cn/201906/10927523_2.html",
+      "covers": "复核第23题的答案及第三段 hinder 所表达的不利影响。"
+    },
+    {
+      "id": "yingyuzhenti-2019-text1-options",
+      "title": "英语真题 2019英语一阅读 Text 1",
+      "url": "https://www.yingyuzhenti.com/papers/2019-english-one/reading-text-1",
+      "covers": "核对第23题四项顺序和第25题D项的 Frustration 词形。"
     }
   ],
   "answers": {
     "4": "D",
     "14": "C",
     "15": "B",
-    "16": "D"
+    "16": "D",
+    "23": "B"
   },
   "answer_words": {
     "4": "literally",
     "14": "spot",
     "15": "through",
-    "16": "breaks"
+    "16": "breaks",
+    "23": "adverse"
   },
-  "option_order_note": "两份公开参考所列答案与用户交接一致。用户的实际选择来自纸质作答反馈。",
-  "evidence_limitations": "核对覆盖四道已报告错题。其他十六题的选择字母、首选与改选过程均未知。"
+  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。",
+  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。",
+  "reading_text_1": {
+    "question_23_option_order": [
+      "indirect",
+      "adverse",
+      "minimal",
+      "temporary"
+    ],
+    "question_25_option_D_vocabulary": "Frustration",
+    "coverage": "第23题是唯一得到确证的个人作答。第25题D项只核对词汇位置。"
+  }
 }

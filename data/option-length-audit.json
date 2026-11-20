@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 538,
-        "correct_uniquely_longest": 120,
+        "question_count": 546,
+        "correct_uniquely_longest": 121,
         "correct_uniquely_shortest": 93,
-        "longest_guess_pct": 28.5,
-        "shortest_guess_pct": 22.24,
+        "longest_guess_pct": 28.36,
+        "shortest_guess_pct": 22.01,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -6749,6 +6749,142 @@
         "pool": "daily_article",
         "family": "title-coverage",
         "source": "data/questions/2026-11-17-2018-text4-reading.json"
+      },
+      "r19t1-adverse-boardwalk": {
+        "lengths": [
+          57,
+          54,
+          52,
+          57
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0.5,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "adverse-impact-dimension",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-duration-fitting-calendar": {
+        "lengths": [
+          53,
+          51,
+          49,
+          58
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "adverse-impact-dimension",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-evidence-commuter-study-room": {
+        "lengths": [
+          49,
+          53,
+          58,
+          50
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-evidence-market-orders": {
+        "lengths": [
+          53,
+          57,
+          56,
+          54
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "semantic-action-roles",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-inset-garden-benches": {
+        "lengths": [
+          49,
+          51,
+          54,
+          58
+        ],
+        "spread": 9,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-inset-harbour-staff": {
+        "lengths": [
+          46,
+          45,
+          49,
+          52
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "nested",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-investment-market-cabinets": {
+        "lengths": [
+          51,
+          53,
+          48,
+          48
+        ],
+        "spread": 5,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0.5,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "transient-investor-roles",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t1-transient-site-members": {
+        "lengths": [
+          51,
+          53,
+          52,
+          49
+        ],
+        "spread": 4,
+        "correct_uniquely_longest": true,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 1.0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "transient-investor-roles",
+        "source": "data/questions/2026-11-20-2019-text1-migration.json"
       },
       "recruitment-hunt-b": {
         "lengths": [

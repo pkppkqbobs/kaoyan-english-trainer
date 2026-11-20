@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-20",
     "daily_quiz": "2026-11-20",
-    "latest_observation": "2026-11-19"
+    "latest_observation": "2026-11-20"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-19",
-      "storageId": "2026-11-19-2019-cloze",
-      "learning_date": "2026-11-19"
+      "date": "2026-11-20",
+      "storageId": "2026-11-20-2019-text1",
+      "learning_date": "2026-11-20"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,93 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-20",
+      "exam": "2019-english1",
+      "part": "Text 1",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "adverse-impact-dimension",
+          "question": 23,
+          "related_questions": [],
+          "updated_on": "2026-11-20",
+          "final_choice": "A",
+          "final_choice_status": "confirmed",
+          "first_considered": "B",
+          "candidate_choices": [
+            "B",
+            "A"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "B",
+          "reference_status": "source_checked",
+          "summary": "首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。",
+          "followup": null,
+          "spans": [
+            "Transient investors",
+            "can hinder a firm's efforts"
+          ],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-20",
+            "family": "adverse-impact-dimension",
+            "question": 23,
+            "note_fingerprint": "0b335a89947ecc4b"
+          },
+          "training_priority": 1,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "transient-investor-roles",
+          "question": null,
+          "related_questions": [],
+          "updated_on": "2026-11-20",
+          "final_choice": null,
+          "final_choice_status": "not_applicable",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "用户确认把整组 transient investors 误读成“透明的调查”。",
+          "followup": null,
+          "spans": [
+            "transient investors"
+          ],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-20",
+            "family": "transient-investor-roles",
+            "question": null,
+            "note_fingerprint": "31ae741552e94cb4"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "bosses",
+        "dubbed",
+        "frustration",
+        "hinder",
+        "incentives",
+        "plums",
+        "pudding"
+      ],
+      "translation_note_count": 6,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-20",
+        "family": "familiar-word-polysemy",
+        "question": null,
+        "note_fingerprint": "f09b2e4905ecb36e"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-20-2019-text1.json"
+      ]
+    },
     {
       "date": "2026-11-19",
       "exam": "2019-english1",
@@ -790,89 +877,6 @@
         "question": 33,
         "note_fingerprint": "e34be8624f4da30f"
       }
-    },
-    {
-      "date": "2026-11-15",
-      "exam": "2018-english1",
-      "part": "Text 2",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "semantic-action-roles",
-          "question": 28,
-          "related_questions": [],
-          "updated_on": "2026-11-15",
-          "final_choice": "D",
-          "final_choice_status": "confirmed",
-          "first_considered": "B",
-          "candidate_choices": [
-            "B",
-            "D"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "B",
-          "reference_status": "source_checked",
-          "summary": "初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-15",
-            "family": "semantic-action-roles",
-            "question": 28,
-            "note_fingerprint": "dc0f8fa97f1d5256"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "boast-boost-distinction",
-          "question": 27,
-          "related_questions": [],
-          "updated_on": "2026-11-15",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "C"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "知道这里需要增强，但把boast当作增加，混淆了boost；不是完全不认识beef up。只讨论C，最终选择未确认。",
-          "followup": null,
-          "spans": [
-            "boast / boost"
-          ],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-15",
-            "family": "boast-boost-distinction",
-            "question": 27,
-            "note_fingerprint": "364263d70ab61be0"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "conscious",
-        "distrust",
-        "intimately",
-        "over-tweeting"
-      ],
-      "translation_note_count": 4,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-15",
-        "family": "over-prefix-frequency",
-        "question": null,
-        "note_fingerprint": "b106b48b4d921ca8"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-15-2018-text2.json"
-      ]
     }
   ],
   "presentation_quality": [
@@ -915,6 +919,17 @@
   "article_review_coverage": {
     "pending": [],
     "recent": [
+      {
+        "session_id": "2026-11-20-2019-text1",
+        "learning_date": "2026-11-20",
+        "updated_on": "2026-11-20",
+        "exam": "2019-english1",
+        "part": "Reading Text 1",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-20-2019-text1.json",
+        "round_file": "data/article-reviews/2026-11-20-2019-text1.json",
+        "publication_date": "2026-11-20"
+      },
       {
         "session_id": "2026-11-19-2019-cloze",
         "learning_date": "2026-11-19",
@@ -991,17 +1006,6 @@
         "session_file": "data/article-sessions/2026-11-12-2017-partb.json",
         "round_file": "data/article-reviews/2026-11-12-2017-partb.json",
         "publication_date": "2026-11-12"
-      },
-      {
-        "session_id": "2026-11-10-2017-text3",
-        "learning_date": "2026-11-10",
-        "updated_on": "2026-11-10",
-        "exam": "2017-english1",
-        "part": "Reading Text 3",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-10-2017-text3.json",
-        "round_file": "data/article-reviews/2026-11-10-2017-text3.json",
-        "publication_date": "2026-11-10"
       }
     ]
   },
@@ -1010,6 +1014,24 @@
       "mechanism": "language",
       "label": "修饰关系与熟词搭配",
       "families": [
+        {
+          "family": "adverse-impact-dimension",
+          "label": "根据时间节点判断问题何时终止",
+          "focus": "首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-20",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-20",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-20",
+            "family": "adverse-impact-dimension",
+            "question": 23,
+            "note_fingerprint": "0b335a89947ecc4b"
+          }
+        },
         {
           "family": "synonym-reference",
           "label": "核对回指对象及其在后续动作中的作用",
@@ -1027,24 +1049,6 @@
             "question": 16,
             "note_fingerprint": "f150f980b99f3e13"
           }
-        },
-        {
-          "family": "spot-verb-meaning",
-          "label": "区分发现、测量和记录这些相邻动作",
-          "focus": "记得 spot 表示斑点。把 separate 的“分开”联想到“分辨出”，觉得可用于发现林际线的缺口。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-19",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-20",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-19",
-            "family": "spot-verb-meaning",
-            "question": 14,
-            "note_fingerprint": "d895b2e793f73790"
-          }
         }
       ]
     },
@@ -1053,8 +1057,26 @@
       "label": "主语—动作—对象与政策条件",
       "families": [
         {
+          "family": "transient-investor-roles",
+          "label": "辨别投入资金与核查信息的动作",
+          "focus": "用户确认把整组 transient investors 误读成“透明的调查”。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-20",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-20",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-20",
+            "family": "transient-investor-roles",
+            "question": null,
+            "note_fingerprint": "31ae741552e94cb4"
+          }
+        },
+        {
           "family": "semantic-action-roles",
-          "label": "区分搜集证据、交换意见与替代专业工作",
+          "label": "用可定位的证据核对原因和对象",
           "focus": "初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-15",
@@ -1068,24 +1090,6 @@
             "family": "semantic-action-roles",
             "question": 28,
             "note_fingerprint": "dc0f8fa97f1d5256"
-          }
-        },
-        {
-          "family": "necessitate-causal-need",
-          "label": "necessitate 引出的必要行动",
-          "focus": "使……成为必要。先找促成变化的条件，再找因此须发生的动作。",
-          "paper_kind": "translation_difficulty",
-          "latest_observation": "2026-11-18",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-18",
-            "family": "necessitate-causal-need",
-            "question": null,
-            "note_fingerprint": "ee8a2cda61bb4de2"
           }
         }
       ]
@@ -1259,20 +1263,6 @@
         "question": 37,
         "note_fingerprint": "0103de0977e20d46"
       }
-    },
-    {
-      "exam": "2018-english1",
-      "part": "Text 2",
-      "question": 27,
-      "date": "2026-11-15",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-15",
-        "family": "boast-boost-distinction",
-        "question": 27,
-        "note_fingerprint": "364263d70ab61be0"
-      }
     }
   ],
   "warnings": [
@@ -1322,7 +1312,8 @@
     "article-review-2026-11-17-2018-text4.html": "7dc51caa8882bf05af27c45f53c2a9f08542a32537ce0b3f254156ee9ee93b32",
     "article-review-2026-11-18-2018-partb.html": "47aef78b98e9da8f1ef1899e97e2aa773172c62a6f628ae8bdb0aca4e1b31b23",
     "article-review-2026-11-19-2019-cloze.html": "7495d461f923e960ebe9a5d2bd34fb16a1b99548b3ae0ca7142d0e3551d3bcbd",
-    "data/article-review.json": "addc06d44bd64449de55276f2c371b393642dc2edf1282f2de5b7f54b1162076",
+    "article-review-2026-11-20-2019-text1.html": "1b27c6fa97e9e2509619b9dbacbd93594d0874f148ba5393d363543e0cdcfb9c",
+    "data/article-review.json": "b489457306e3b41fc2d0eecad24e641983e6cab75dc1ff6b1c91ab1e2e9f833f",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1373,6 +1364,7 @@
     "data/article-reviews/2026-11-17-reading-style.json": "e239427c4e57ea5dc5ee31630f65c82c030b4add536ac639b4ca2a68c9b9162c",
     "data/article-reviews/2026-11-18-2018-partb.json": "2488c09e0d59b5dc86b83daea0afcf1c189055ff5a33061ff7a505e7e484ffc6",
     "data/article-reviews/2026-11-19-2019-cloze.json": "addc06d44bd64449de55276f2c371b393642dc2edf1282f2de5b7f54b1162076",
+    "data/article-reviews/2026-11-20-2019-text1.json": "b489457306e3b41fc2d0eecad24e641983e6cab75dc1ff6b1c91ab1e2e9f833f",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1418,6 +1410,7 @@
     "data/article-sessions/2026-11-17-reading-style.json": "06d0e8cd4b185ae3adbc4369a8b315c0e4274ed909de946a84f76835205866ec",
     "data/article-sessions/2026-11-18-2018-partb.json": "4174af8a54e1db11299f9e5ce3ff9b67973c3b0d8eec25fc97776a281722db18",
     "data/article-sessions/2026-11-19-2019-cloze.json": "a4c9ec07783aca6d2c3f8d44896918f8a5f7f029f5fc39106422a2c2f4924c0b",
+    "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "fe81918296f01118a76eb2f192f98422241342be85e75fc7ef98b9ccca4a1269",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1474,9 +1467,9 @@
     "data/days/2026-11-19.json": "0b7187e64f32bcf6cbd725ae763804d7afa6b4466a2b6cb3f7b83cc5668a919a",
     "data/days/2026-11-20.json": "fe81918296f01118a76eb2f192f98422241342be85e75fc7ef98b9ccca4a1269",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
-    "data/learning-notes.json": "02d41457244b8ffaed3cd1d810a7019969be572d4402e14e6898bea49f80463d",
+    "data/learning-notes.json": "3fce0186e1d34389ba61b92be315394963769630d26cdc6dc87a2dae104b6344",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "d32369d8188be024f3fd3ca70aa241e9d8712ad9f0eee36febfbbfe4f58f8bdf",
+    "data/question-contexts.json": "ab28139dceda6d733acd6c2a7fcd9d2595be7fe2465cb4c764fceb8b70a550d4",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1527,9 +1520,10 @@
     "data/questions/2026-11-19-2019-cloze-migration.json": "a4b691798e8b9f0553a5cc130adef90dff6734fc4359a91f53be27ff7564e0c7",
     "data/questions/2026-11-19-bank-refresh.json": "0d5a8639f2efec8120979b3682110a33be7e8ad58b0020013554098122ee0d95",
     "data/questions/2026-11-19-inset-clauses.json": "f9444e78da96ffc02453fd5c915ee6101e77bda4d4cad574a3167578bb87838e",
+    "data/questions/2026-11-20-2019-text1-migration.json": "b5df8a4a253a0623abef726a5075f0dcc0b9f9eaa1d7e0d334a0aa51d917c309",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "a2314c140ff65f07a006524d54bb7cdaa7071e9e76ffe9869f3cda06243d9359",
-    "data/review-state.json": "fce43a111fbb8965969609cedb012f152bf8e34facbfd062870eec9016c9a8ce",
+    "data/review-state.json": "02f66d9b36ed81956ac83b8a766aba248303dd6f0a88c837e62676e13f36c1a6",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1537,9 +1531,9 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
-    "data/source-checks/2019-english1.json": "3d51b059ff8430e03e9bf362e7289b14ab3fdcd7fac4f443a27961e4a6f5856e"
+    "data/source-checks/2019-english1.json": "0971c392f682d3c9fea2bdf3ec00c2e92484caece4eb9f2f34227076655cb078"
   },
-  "source_fingerprint": "4d0eaba6843224fcdcc1bb7bda5063063bdbfc0fea42d92495073e3c6c695b9f",
+  "source_fingerprint": "ae57180723eb9f0fa3d58abbebae653b81b149ae33c5e208df0f0d55f089a9dd",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
