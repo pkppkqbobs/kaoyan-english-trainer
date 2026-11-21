@@ -41,11 +41,11 @@
   "after": {
     "pools": {
       "daily_article": {
-        "question_count": 546,
+        "question_count": 550,
         "correct_uniquely_longest": 121,
         "correct_uniquely_shortest": 93,
-        "longest_guess_pct": 28.36,
-        "shortest_guess_pct": 22.01,
+        "longest_guess_pct": 28.15,
+        "shortest_guess_pct": 21.85,
         "length_cue_flags": 0,
         "max_spread": 46
       },
@@ -6885,6 +6885,74 @@
         "pool": "daily_article",
         "family": "transient-investor-roles",
         "source": "data/questions/2026-11-20-2019-text1-migration.json"
+      },
+      "r19t2-crate-standards": {
+        "lengths": [
+          44,
+          51,
+          43,
+          49
+        ],
+        "spread": 8,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "alignment-counterbalance",
+        "source": "data/questions/2026-11-21-2019-text2-migration.json"
+      },
+      "r19t2-editors-play": {
+        "lengths": [
+          44,
+          44,
+          56,
+          47
+        ],
+        "spread": 12,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "complement-compliment",
+        "source": "data/questions/2026-11-21-2019-text2-migration.json"
+      },
+      "r19t2-estuary-recordings": {
+        "lengths": [
+          48,
+          49,
+          48,
+          55
+        ],
+        "spread": 7,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "purpose-time-scope",
+        "source": "data/questions/2026-11-21-2019-text2-migration.json"
+      },
+      "r19t2-research-samples": {
+        "lengths": [
+          45,
+          47,
+          46,
+          47
+        ],
+        "spread": 2,
+        "correct_uniquely_longest": false,
+        "correct_uniquely_shortest": false,
+        "longest_guess_credit": 0,
+        "shortest_guess_credit": 0,
+        "length_cue_flag": false,
+        "pool": "daily_article",
+        "family": "utmost-effort",
+        "source": "data/questions/2026-11-21-2019-text2-migration.json"
       },
       "recruitment-hunt-b": {
         "lengths": [

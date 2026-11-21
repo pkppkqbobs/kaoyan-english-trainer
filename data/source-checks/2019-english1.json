@@ -1,7 +1,7 @@
 {
   "exam": "2019-english1",
-  "checked_on": "2026-11-20",
-  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇",
+  "checked_on": "2026-11-21",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30",
   "sources": [
     {
       "id": "eol-wendu-2019-cloze",
@@ -26,6 +26,24 @@
       "title": "英语真题 2019英语一阅读 Text 1",
       "url": "https://www.yingyuzhenti.com/papers/2019-english-one/reading-text-1",
       "covers": "核对第23题四项顺序和第25题D项的 Frustration 词形。"
+    },
+    {
+      "id": "eol-2019-text2",
+      "title": "中国教育在线2019年考研英语（一）试题解析",
+      "url": "https://kaoyan.eol.cn/nnews/201812/t20181223_1638274_1.shtml",
+      "covers": "核对阅读Text 2第26–30题参考序列，第27题的最初目的及第29题的共同利益方向。"
+    },
+    {
+      "id": "xdf-2019-text2",
+      "title": "新东方网2019考研英语一阅读第二篇参考答案及解析",
+      "url": "https://kaoyan.xdf.cn/201906/10927524_2.html",
+      "covers": "复核第26–30题参考答案及第29题的语境义。"
+    },
+    {
+      "id": "chinakaoyan-2019-text2-options",
+      "title": "中国考研网2019考研英语一真题（文字完整版）",
+      "url": "https://www.chinakaoyan.com/info/article/id/263635.shtml",
+      "covers": "核对第27、29题选项顺序以及第29题选项词形。"
     }
   ],
   "answers": {
@@ -33,17 +51,23 @@
     "14": "C",
     "15": "B",
     "16": "D",
-    "23": "B"
+    "23": "B",
+    "26": "D",
+    "27": "A",
+    "28": "A",
+    "29": "C",
+    "30": "B"
   },
   "answer_words": {
     "4": "literally",
     "14": "spot",
     "15": "through",
     "16": "breaks",
-    "23": "adverse"
+    "23": "adverse",
+    "29": "identical"
   },
-  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。",
-  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。",
+  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。",
+  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。",
   "reading_text_1": {
     "question_23_option_order": [
       "indirect",
@@ -53,5 +77,23 @@
     ],
     "question_25_option_D_vocabulary": "Frustration",
     "coverage": "第23题是唯一得到确证的个人作答。第25题D项只核对词汇位置。"
+  },
+  "reading_text_2": {
+    "question_27": {
+      "reference_answer": "A",
+      "choice_b_word": "maintain",
+      "time_scope": "最初政策帮助大一新生适应大学课程。提高毕业率是后来推广的目的之一。维持与提高也有差别。"
+    },
+    "question_29": {
+      "reference_answer": "C",
+      "option_order_terms": [
+        "counterbalance",
+        "complement",
+        "identical",
+        "contradictory"
+      ],
+      "context_meaning": "学生与大学在这一问题上的利益方向吻合。",
+      "correction": "此前教学把B的互补给作答案有误。C是四项中最贴切的语境义。aligned 可指同向，双方原因或细节可以不同。"
+    }
   }
 }

@@ -129,6 +129,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "alignment-counterbalance": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-21",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "amount-to-meaning": {
       "streak": 0,
       "errors": 2,
@@ -378,6 +388,16 @@
       "reported_confusion": false,
       "observed_days": 6,
       "observation_priority": 0
+    },
+    "complement-compliment": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-21",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "complementary": {
       "streak": 0,
@@ -1129,6 +1149,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "purpose-time-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-21",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 0.25
+    },
     "receipt-nominalization": {
       "streak": 0,
       "errors": 0,
@@ -1628,6 +1658,16 @@
       "reported_confusion": false,
       "observed_days": 7,
       "observation_priority": 0
+    },
+    "utmost-effort": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-21",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
     },
     "verb-effect-share": {
       "streak": 0,

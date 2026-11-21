@@ -636,7 +636,11 @@
     "r19t1-inset-garden-benches": "r19t1:bench-orientation-versus-shade",
     "r19t1-inset-harbour-staff": "r19t1:harbour-staff-expectation-and-observation",
     "r19t1-evidence-market-orders": "r19t1:website-versus-stall-purchases",
-    "r19t1-evidence-commuter-study-room": "r19t1:study-room-location-versus-printing"
+    "r19t1-evidence-commuter-study-room": "r19t1:study-room-location-versus-printing",
+    "r19t2-crate-standards": "r19t2-reusable-crate-specification-common-goal",
+    "r19t2-editors-play": "r19t2-stage-directions-editorial-expertise",
+    "r19t2-estuary-recordings": "r19t2-estuary-acoustic-monitoring-changed-use",
+    "r19t2-research-samples": "r19t2-cold-storage-failure-preservation-effort"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

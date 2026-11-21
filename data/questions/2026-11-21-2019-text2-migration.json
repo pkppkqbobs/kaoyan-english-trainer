@@ -1,0 +1,122 @@
+[
+  {
+    "id": "r19t2-editors-play",
+    "family": "complement-compliment",
+    "introduced": "2026-11-21",
+    "published_on": "2026-11-21",
+    "origin_session": "2026-11-21-2019-text2",
+    "context_id": "r19t2-stage-directions-editorial-expertise",
+    "format": "english1_reading",
+    "budget": 35,
+    "reading_budget": 100,
+    "target": "complement 和 compliment 的语境辨析",
+    "skill": "从两人的实际贡献判断彼此关系",
+    "passage": "A publisher asked two editors to prepare an edition of a seventeenth-century play. One could read the author's cramped handwriting, but many of the stage directions referred to equipment whose use was no longer familiar. The other had worked with replicas in a theatre museum and recognised those references. On some pages the museum editor could not begin until the text had been transcribed. The publisher praised the edition for making the author's staging clear, something neither editor could have achieved alone.",
+    "q": "How did the two editors contribute to the new edition?",
+    "o": [
+      "They complimented one another on their work.",
+      "They repeated each other's work on the play.",
+      "They counterbalanced each other's influence on the text.",
+      "Their editorial skills complemented each other."
+    ],
+    "a": 3,
+    "answer_support": "something neither editor could have achieved alone",
+    "exp": {
+      "trans": "一家出版社请两位编辑整理一部十七世纪戏剧。一位能辨认作者密而潦草的手写体。另一位曾在戏剧博物馆接触道具复制品，能理解舞台说明里提到的旧设备。有些页得先誊写才能解释，最终的舞台说明清晰度是两人各自无法独立做到的。",
+      "structure": "One 和 The other 分别交代两人的强项。until 所在句表明辨读手稿为解释旧设备提供了前提，末句说清楚这一成果需要两人的贡献。",
+      "other": "cramped handwriting（密而潦草的字迹）、stage directions（舞台说明）、replica（复制品）、transcribe（誊写）。",
+      "meaning": "二人的专长分别补上了对方缺的一环，符合 complement each other's expertise。compliment 表示称赞，例如 compliment an editor on a new edition。",
+      "rest": "称赞者是出版社，材料未说两名编辑互相称赞。一个辨字，一个解读设备，两人的任务有区别。他们也没有以相反的作用相互制衡。"
+    }
+  },
+  {
+    "id": "r19t2-crate-standards",
+    "family": "alignment-counterbalance",
+    "introduced": "2026-11-21",
+    "published_on": "2026-11-21",
+    "origin_session": "2026-11-21-2019-text2",
+    "context_id": "r19t2-reusable-crate-specification-common-goal",
+    "format": "english1_reading",
+    "budget": 35,
+    "reading_budget": 100,
+    "target": "aligned、counterbalance 与完全相同",
+    "skill": "从目标、动机和相互作用判断词义",
+    "passage": "A company that delivers groceries wants suppliers to use standard crate sizes so that workers can stack the crates more quickly. A recycling cooperative supports the proposal because uniform crates are easier to collect and reuse. The two groups disagree about who should pay to replace the old crates. The cooperative would rather wait until crates wear out before replacing them, while the delivery company wants a faster change. Even so, their interests are aligned on the proposed standard.",
+    "q": "What does \"aligned\" imply about the two groups' interests?",
+    "o": [
+      "They favour the same outcome on crate sizes.",
+      "They prefer the same schedule for replacing crates.",
+      "Their competing aims cancel each other out.",
+      "They have identical reasons for backing the plan."
+    ],
+    "a": 0,
+    "answer_support": "A recycling cooperative supports the proposal because uniform crates are easier to collect and reuse.",
+    "exp": {
+      "trans": "一家食品配送企业支持使用统一规格的周转箱，方便堆放。一家回收合作社也支持，理由是方便回收和再用。两方对谁付更换费用、换得多快各有想法，但都希望有统一规格。",
+      "structure": "开头两句交代同一个提议以及各自支持的理由。Even so 从分歧转回双方在哪个具体问题上有共识，on the proposed standard 限定共识的范围。",
+      "other": "crate（周转箱）、stack（堆放）、cooperative（合作社）、wear out（用坏、磨损）。",
+      "meaning": "aligned 在此指利益方向吻合。identical reasons 会要求两方的理由完全一样。counterbalance 讲相反的效果相互抵消，例如额外的维修费抵消了节省下来的费用。complement 则强调各自补上另一方欠缺的功能。",
+      "rest": "材料明说双方更换节奏不同。两者支持相同规格，作用方向一致，各自希望实现的堆放效率与回收便利也有区别。"
+    }
+  },
+  {
+    "id": "r19t2-research-samples",
+    "family": "utmost-effort",
+    "introduced": "2026-11-21",
+    "published_on": "2026-11-21",
+    "origin_session": "2026-11-21-2019-text2",
+    "context_id": "r19t2-cold-storage-failure-preservation-effort",
+    "format": "english1_reading",
+    "budget": 35,
+    "reading_budget": 100,
+    "target": "do one's utmost 的语境用法",
+    "skill": "根据行动与结果理解努力程度",
+    "passage": "When the cooling system failed at a research station, the manager moved the most sensitive samples to a nearby laboratory. It had room for only half the collection. A staff member telephoned other sites, and two colleagues repacked the remaining samples in insulated boxes until transport could be arranged. Some material was still lost. The station's report said that the team had done its utmost to preserve the collection, although it could not make up for the shortage of suitable storage space.",
+    "q": "What does the report say about the team's response?",
+    "o": [
+      "They saved the whole collection by moving it.",
+      "They had enough space before transport arrived.",
+      "They made every effort to protect the samples.",
+      "They waited for transport before taking action."
+    ],
+    "a": 2,
+    "answer_support": "the team had done its utmost to preserve the collection",
+    "exp": {
+      "trans": "研究站的制冷设备失灵后，管理者先把最敏感的样本送往附近实验室，但那里只能容纳一半。工作人员联系其他地点，也把剩余样品装进隔热箱争取时间。尽管仍有损失，报告说团队已经尽力保存样本。",
+      "structure": "前几句列举了团队采取的办法。末句先用 done its utmost 评价努力程度，再用 although 交代行动受到什么限制。",
+      "other": "sensitive（对条件变化敏感的）、insulated（隔热的）、make up for（弥补）。",
+      "meaning": "do one's utmost 表示竭尽全力。of utmost importance 说一件事极为重要，to the utmost 则表示做到最大限度。",
+      "rest": "材料交代仍有样本损失，存放空间也紧张。联系其他站点和用隔热箱重新打包都发生在等待进一步运输期间。"
+    }
+  },
+  {
+    "id": "r19t2-estuary-recordings",
+    "family": "purpose-time-scope",
+    "introduced": "2026-11-21",
+    "published_on": "2026-11-21",
+    "origin_session": "2026-11-21-2019-text2",
+    "context_id": "r19t2-estuary-acoustic-monitoring-changed-use",
+    "format": "english1_reading",
+    "budget": 35,
+    "reading_budget": 100,
+    "target": "最初用途与后续用途",
+    "skill": "跟着时间标记定位行动的目的",
+    "passage": "Engineers first installed listening stations near an estuary to find out which channels ships used at night. In fog it was hard to watch from shore, but comparing signals from several underwater microphones allowed the engineers to follow a vessel. Years later, conservation staff turned to the recordings to establish whether a new shipping channel had raised noise levels. The microphones are maintained by the harbour authority and are now used chiefly to monitor whether dolphins return to the estuary at different times of the year.",
+    "q": "Why were the listening stations first installed?",
+    "o": [
+      "To monitor seasonal changes in dolphin activity.",
+      "To find out which routes ships followed at night.",
+      "To measure the effect of a new channel on noise.",
+      "To check how well the harbour maintained the equipment."
+    ],
+    "a": 1,
+    "answer_support": "first installed listening stations near an estuary to find out which channels ships used at night",
+    "exp": {
+      "trans": "工程师最初在河口附近安装监听设备，是想弄清船只夜间走哪些航道。雾天很难从岸边看清，比较多个水下麦克风的信号可以追踪船只。多年后，环保人员用录音研究新航道对噪声的影响。设备仍由港口部门维护，现在主要用来监测海豚季节性的回访。",
+      "structure": "first installed 后直接接不定式 to find out，说明最初安装目的。Years later 与 now 分别引出后来研究和目前主要用途。",
+      "other": "estuary（河口）、channel（航道）、vessel（船只）、chiefly（主要地）。",
+      "meaning": "first installed 定位的是启用设备时的目标。maintain 写的是继续维护设备，与设备最初或现今用来做什么是不同的信息。",
+      "rest": "海豚监测是如今的用途。新航道和声响是之后的研究问题。港口维护设备是一个相关事实，材料未说装设设备是为了评估维护工作。"
+    }
+  }
+]

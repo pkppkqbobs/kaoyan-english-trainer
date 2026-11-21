@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "scope": "Question definitions and candidate availability on the report date.",
   "summary": {
-    "source_questions": 546,
-    "available_candidates": 456,
-    "available_contexts": 452,
-    "available_families": 162,
+    "source_questions": 550,
+    "available_candidates": 460,
+    "available_contexts": 456,
+    "available_families": 166,
     "retired_questions": 90,
-    "available_reading_passages": 76
+    "available_reading_passages": 80
   },
   "families": {
     "absolute-language": {
@@ -36,6 +36,10 @@
       "contexts": 2
     },
     "alerts": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "alignment-counterbalance": {
       "candidates": 1,
       "contexts": 1
     },
@@ -138,6 +142,10 @@
     "compensation-components": {
       "candidates": 2,
       "contexts": 2
+    },
+    "complement-compliment": {
+      "candidates": 1,
+      "contexts": 1
     },
     "complementary": {
       "candidates": 1,
@@ -439,6 +447,10 @@
       "candidates": 1,
       "contexts": 1
     },
+    "purpose-time-scope": {
+      "candidates": 1,
+      "contexts": 1
+    },
     "receipt-nominalization": {
       "candidates": 2,
       "contexts": 2
@@ -638,6 +650,10 @@
     "unpretentious": {
       "candidates": 3,
       "contexts": 3
+    },
+    "utmost-effort": {
+      "candidates": 1,
+      "contexts": 1
     },
     "verb-effect-share": {
       "candidates": 4,

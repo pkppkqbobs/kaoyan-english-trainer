@@ -7501,5 +7501,193 @@
     },
     "note": "frustration 在标题选项中指挫败、沮丧或不满。这条证据只涉及该选项中的词义。",
     "review_importance": "low"
+  },
+  {
+    "date": "2026-11-21",
+    "received_on": "2026-11-21",
+    "session_id": "2026-11-21-2019-text2",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接，本次维护未重新查看照片。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "purpose-time-scope",
+    "kind": "correct_but_uncertain",
+    "scope": "question_reasoning",
+    "source_question": 27,
+    "expected": "A",
+    "reported_pick": "A",
+    "final_choice_letter_confirmed": true,
+    "first_considered": "B",
+    "candidate_choices": [
+      "A",
+      "B"
+    ],
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "considered_alternative_only",
+    "user_quote": "27差点选了B，看到maintain后还是选了A。",
+    "user_reported_reasoning": "曾考虑B，看到 maintain 后按 original purpose 保留A。最初是帮大一新生适应大学学习，毕业率属于后来推广的动机。",
+    "note": "用户最终选A且答对。B涉及文中后来关心的毕业率，但 maintain 是维持，原文的 improve 是提高。决定定位的是 original purpose 所限定的最初阶段。曾考虑B，未确认曾正式作答B。",
+    "training_targets": [
+      "区分最初目的与目前用途",
+      "判断 maintain 与 improve 的差别"
+    ],
+    "review_importance": "low",
+    "training_priority": 4
+  },
+  {
+    "date": "2026-11-21",
+    "received_on": "2026-11-21",
+    "session_id": "2026-11-21-2019-text2",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接，本次维护未重新查看照片。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "complement-compliment",
+    "kind": "user_reported_confusion",
+    "scope": "question_option_vocabulary",
+    "source_question": 29,
+    "expected": "C",
+    "reported_pick": "C",
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "not_reported",
+    "user_reported_reasoning": "第29题选C且答对。A的 counterbalance 和B的 complement 看不懂，还混淆了 complement 的“互补”和 compliment 的“称赞”。",
+    "note": "本题问 aligned。学生与学校在毕业生就业这一点上的利益方向一致，C是四项中最贴切的答案。B的 complement 描述互补，之前将B讲成正确的说法已纠正。aligned 允许双方动机各异，identical 在一般语境强调完全相同。用户未报告第29题正式初选或改选。",
+    "passage_feedback_quotes": [
+      "全对了，但是27差点选了B，看到maintain后还是选了A然后29AB有看不懂的，我对称赞和补充有点混。",
+      "文章中画框的是翻译困难的词句。"
+    ],
+    "paper_outcome": {
+      "evidence_status": "user_self_report",
+      "question_range": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "reported_correct_count": 5,
+      "reported_total": 5,
+      "reported_all_correct": true,
+      "reported_points": {
+        "earned": 10,
+        "total": 10
+      },
+      "reported_final_choice_letters": {
+        "27": "A",
+        "29": "C"
+      },
+      "reference_choice_letters": {
+        "26": "D",
+        "27": "A",
+        "28": "A",
+        "29": "C",
+        "30": "B"
+      },
+      "first_choices": "unknown",
+      "revisions": "not_reported",
+      "not_a_web_score": true
+    },
+    "training_targets": [
+      "区分相互抵消、彼此互补与称赞",
+      "区分目标同向与动机完全相同"
+    ],
+    "training_priority": 1
+  },
+  {
+    "date": "2026-11-21",
+    "received_on": "2026-11-21",
+    "session_id": "2026-11-21-2019-text2",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接，本次维护未重新查看照片。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "utmost-effort",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "source_location": "正文第3段",
+    "source_spans": [
+      "utmost"
+    ],
+    "context_span": "do their utmost",
+    "note": "utmost 表示最大限度。do one's utmost 表示尽最大努力，所做努力与最终结果分别看。of utmost importance 表示极为重要，to the utmost 表示达到最大限度。此条只登记交接明确识别的画框词。",
+    "training_targets": [
+      "结合上下文体会最大努力的力度与结果的区别"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "received_on": "2026-11-21",
+    "session_id": "2026-11-21-2019-text2",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接，本次维护未重新查看照片。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "alignment-counterbalance",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "source_question": 29,
+    "option_under_discussion": "A",
+    "source_spans": [
+      "counterbalance"
+    ],
+    "context_span": "counterbalance each other",
+    "note": "counterbalance 表示抵消或制衡，强调相反作用相互牵制。文中 aligned 说的是双方利益方向一致。这条记录仅涉及选项词义，用户第29题作答正确。",
+    "training_targets": [
+      "辨别方向一致、反向抵消、相互补充及完全一致"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "received_on": "2026-11-21",
+    "session_id": "2026-11-21-2019-text2",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接，本次维护未重新查看照片。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "complement-compliment",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "source_question": 29,
+    "option_under_discussion": "B",
+    "source_spans": [
+      "complement"
+    ],
+    "context_span": "complement each other",
+    "note": "complement 表示补充、互补。不同知识或功能彼此补上各自所缺的部分。用户对这个画框词与 compliment 的“称赞”存在混淆，交接确认第29题答对。",
+    "training_targets": [
+      "从句子所描写的行为区分互补与称赞"
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "received_on": "2026-11-21",
+    "session_id": "2026-11-21-2019-text2",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 2",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接，本次维护未重新查看照片。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "complement-compliment",
+    "kind": "translation_difficulty",
+    "scope": "related_word_confusion",
+    "mark_type": "active_question",
+    "source_question": 29,
+    "source_spans": [
+      "compliment"
+    ],
+    "user_quote": "29AB有看不懂的，我对称赞和补充有点混。",
+    "note": "compliment 是用户主动联想到的辨析词，表示称赞、赞美。可用 compliment someone on something。它是 Q29 选项词 complement 的关联形近词，来源为用户主动反馈。",
+    "training_targets": [
+      "辨别 compliment someone on something 与 complement each other"
+    ]
   }
 ]
