@@ -55,7 +55,8 @@
     52,
     53,
     54,
-    55
+    55,
+    56
   ],
   "families": {
     "absolute-language": {
@@ -111,11 +112,11 @@
     "adverse-impact-dimension": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-21",
       "due": "2026-11-21",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "alerts": {
@@ -141,11 +142,11 @@
     "astronomy-word-family": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-18",
-      "due": "2026-11-19",
+      "last": "2026-11-21",
+      "due": "2026-11-21",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 2
     },
     "attribution-stance": {
@@ -591,11 +592,11 @@
     "evaluation-vocab": {
       "streak": 0,
       "errors": 1,
-      "last": "2026-11-18",
-      "due": "2026-11-19",
-      "slow_or_uncertain": false,
+      "last": "2026-11-21",
+      "due": "2026-11-21",
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 1,
+      "observed_days": 2,
       "observation_priority": 2
     },
     "even": {
@@ -1109,14 +1110,14 @@
       "observation_priority": 0.25
     },
     "process-stage-role": {
-      "streak": 2,
-      "errors": 4,
-      "last": "2026-10-31",
-      "due": "2026-11-04",
+      "streak": 0,
+      "errors": 5,
+      "last": "2026-11-21",
+      "due": "2026-11-21",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 10,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 11,
+      "observation_priority": 3
     },
     "provoke-family": {
       "streak": 0,
@@ -1179,13 +1180,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 12,
+      "streak": 13,
       "errors": 1,
-      "last": "2026-11-17",
-      "due": "2026-12-08",
+      "last": "2026-11-21",
+      "due": "2026-12-12",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 17,
+      "observed_days": 18,
       "observation_priority": 0
     },
     "remodel-vocab": {
@@ -1311,11 +1312,11 @@
     "social-cure-vocab": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-21",
       "due": "2026-11-21",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "social-message-inference": {
@@ -1590,12 +1591,12 @@
     },
     "transient-investor-roles": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-21",
       "due": "2026-11-21",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "transition": {
@@ -1619,13 +1620,13 @@
       "observation_priority": 1
     },
     "unpretentious": {
-      "streak": 3,
+      "streak": 4,
       "errors": 0,
-      "last": "2026-10-24",
-      "due": "2026-10-31",
+      "last": "2026-11-21",
+      "due": "2026-12-05",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "verb-effect-share": {

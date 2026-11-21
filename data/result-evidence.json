@@ -4633,6 +4633,97 @@
       "qid": "nested-inset-morning-traffic",
       "round_id": "mworjnr4-99ircdso",
       "source_date": "2026-11-20"
+    },
+    {
+      "date": "2026-11-21",
+      "family": "transient-investor-roles",
+      "ok": false,
+      "ms": 64915,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "r19t1-investment-market-cabinets",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21",
+      "slow_threshold_ms": 105000
+    },
+    {
+      "date": "2026-11-21",
+      "family": "relative",
+      "ok": true,
+      "ms": 77542,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "cl19-space-buoy-boundary",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21",
+      "slow_threshold_ms": 105000
+    },
+    {
+      "date": "2026-11-21",
+      "family": "process-stage-role",
+      "ok": false,
+      "ms": 84649,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "process-stage-hospital-routine-authority-c",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21"
+    },
+    {
+      "date": "2026-11-21",
+      "family": "adverse-impact-dimension",
+      "ok": true,
+      "ms": 77211,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "r19t1-adverse-boardwalk",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21",
+      "slow_threshold_ms": 110000
+    },
+    {
+      "date": "2026-11-21",
+      "family": "evaluation-vocab",
+      "ok": true,
+      "ms": 63514,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "text3-referee-penalty-leniency",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21"
+    },
+    {
+      "date": "2026-11-21",
+      "family": "social-cure-vocab",
+      "ok": true,
+      "ms": 27739,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "cl17-host-backlog",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21"
+    },
+    {
+      "date": "2026-11-21",
+      "family": "astronomy-word-family",
+      "ok": true,
+      "ms": 83818,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "t17t2-astronomy-grant",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21"
+    },
+    {
+      "date": "2026-11-21",
+      "family": "unpretentious",
+      "ok": true,
+      "ms": 15873,
+      "uncertain": false,
+      "origin": 56,
+      "qid": "unpretentious-volunteer",
+      "round_id": "mwqcu6tb-u0cmb5of",
+      "source_date": "2026-11-21"
     }
   ],
   "issues": [
@@ -4690,6 +4781,7 @@
     52,
     53,
     54,
-    55
+    55,
+    56
   ]
 }
