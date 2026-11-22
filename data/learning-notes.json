@@ -7689,5 +7689,234 @@
     "training_targets": [
       "辨别 compliment someone on something 与 complement each other"
     ]
+  },
+  {
+    "date": "2026-11-22",
+    "received_on": "2026-11-22",
+    "session_id": "2026-11-22-2019-text3",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "cross-paragraph-scope",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 31,
+    "reported_pick": "D",
+    "expected": "C",
+    "initial_choice_letter_confirmed": false,
+    "final_choice_letter_confirmed": true,
+    "choice_change_status": "not_reported",
+    "eliminated_choices": [
+      "A",
+      "B"
+    ],
+    "candidate_choices": [
+      "C",
+      "D"
+    ],
+    "user_quote": "第31我选的D，我排除了AB，然后我看c说包含了一些由于AI出现的关心，我看第一段我没看到这本书有说到和AI有关系啊，所以我就选了D，他只说和technology有关系",
+    "user_reported_reasoning": "自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_final_choice_letters": {
+        "31": "D",
+        "34": "B"
+      },
+      "reported_initial_choice_letters": {
+        "34": "A"
+      },
+      "final_choices_unknown": [
+        32,
+        33,
+        35
+      ],
+      "confirmed_paper_wrong_questions": [
+        31,
+        34
+      ],
+      "overall_score": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "main_idea_understood_by_self_report",
+      "user_quote": "我感觉这篇我读懂了",
+      "core_claim": "作者认为AI技术进步需要与人类价值观和决策的可解释性、透明性及公平性一并考虑。",
+      "scope": "overall_understanding_self_report"
+    },
+    "source_evidence": [
+      {
+        "paragraph": 1,
+        "anchor": "technologies yet to come",
+        "function": "小说预示未来技术会带来的伦理问题"
+      },
+      {
+        "paragraph": 2,
+        "anchor": "the rapid growth of artificial intelligence",
+        "function": "具体引出当今AI带来的问题"
+      }
+    ],
+    "semantic_comparison": {
+      "foreshadow": "预示后来会出现的议题",
+      "spark": "引发、激起事件",
+      "source_relation": "小说预示某类问题，随后发展起来的技术引发现实问题。",
+      "distractor_relation": "D把引发争议的主体换成了小说本身。"
+    },
+    "note": "首段以小说指出未来技术的伦理议题，次段转到今天的AI并具体说明这些问题。因此C概括的是主题联系。D把预示写成引发，把小说放到了致因的位置，原文未提供这种因果关系。用户没报告Q31的正式初选或改选。",
+    "training_priority": 1,
+    "training_targets": [
+      "把篇首例子与后一段的具体话题连起来",
+      "区分预示和引发，核对因果主体"
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "received_on": "2026-11-22",
+    "session_id": "2026-11-22-2019-text3",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "author-stance",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 34,
+    "initial_pick": "A",
+    "first_considered": "A",
+    "reported_pick": "B",
+    "expected": "A",
+    "candidate_choices": [
+      "A",
+      "B"
+    ],
+    "initial_choice_letter_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_correct": true,
+    "final_choice_correct": false,
+    "choice_change_confirmed": true,
+    "choice_change_status": "correct_to_wrong",
+    "answer_change": {
+      "sequence": [
+        "A",
+        "B"
+      ],
+      "reason": "重读末段开头，认出 vague 表示含糊，因此从A改选B。",
+      "evidence_status": "explicit_user_report"
+    },
+    "user_quote": "34我一开始选了A，然后我看到最后一段的第一句vague我记得是含糊的意思，所以我改成了B。",
+    "user_reported_reasoning": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
+    "retained_knowledge": "用户回忆 vague 表示含糊、不明确，并据这个局部描述改了答案。",
+    "source_evidence": {
+      "concession": "While the statement is vague",
+      "main_clause": "it represents one starting point",
+      "continuation": "So does 承接“也是一个起点”，衔接AI决策应可解释、透明、公平的原则。",
+      "author_stance": "认可承诺迈出的一步，同时承认表述局限。"
+    },
+    "note": "需要判断 While 从句和主句各在评价什么。vague 描述声明的清晰程度，one starting point 肯定它作为起点的价值。用户记得 vague 的基本词义，纸质改错的主要问题是对局部描述和整体态度的权重判断。",
+    "training_priority": 2,
+    "training_targets": [
+      "识别让步从句和主句中的评价",
+      "区别有限肯定、怀疑、轻蔑与敬重",
+      "按评价对象和完整句意判断改选证据"
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "received_on": "2026-11-22",
+    "session_id": "2026-11-22-2019-text3",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "scope": "boxed_vocabulary",
+    "kind": "translation_difficulty",
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "cross-paragraph-scope",
+    "source_spans": [
+      "foreshadow"
+    ],
+    "source_location": "正文第1段",
+    "context_span": "foreshadow many ethical questions",
+    "note": "foreshadow 表示预示、先显示某种迹象。spark 表示触发或引起后续事件，两者表达的角色不同。来自教学交接明确识别的画框。"
+  },
+  {
+    "date": "2026-11-22",
+    "received_on": "2026-11-22",
+    "session_id": "2026-11-22-2019-text3",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "scope": "boxed_vocabulary",
+    "kind": "translation_difficulty",
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "autonomous-quick-decisions",
+    "source_spans": [
+      "split-second"
+    ],
+    "context_span": "split-second decisions",
+    "source_location": "正文自动驾驶例子",
+    "note": "split-second 用于名词前，表示一瞬间就发生或必须做出的事。split-second decision 指必须在极短时间内做出的决定。"
+  },
+  {
+    "date": "2026-11-22",
+    "received_on": "2026-11-22",
+    "session_id": "2026-11-22-2019-text3",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "scope": "boxed_vocabulary",
+    "kind": "translation_difficulty",
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "autonomous-quick-decisions",
+    "source_question": 33,
+    "source_spans": [
+      "autonomous"
+    ],
+    "source_location": "第33题题干附近",
+    "context_span": "autonomous vehicles",
+    "note": "本文指自动驾驶车辆。autonomous 也可用于独立运作的系统或有自主权的团队。第33题此处仅登记画框词的位置与词义。"
+  },
+  {
+    "date": "2026-11-22",
+    "received_on": "2026-11-22",
+    "session_id": "2026-11-22-2019-text3",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的教学复盘文字。纸质作答反馈和画框识别来自该交接。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "scope": "boxed_vocabulary",
+    "kind": "translation_difficulty",
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "author-stance",
+    "source_question": 34,
+    "source_spans": [
+      "vague"
+    ],
+    "source_location": "正文末段",
+    "context_span": "the statement is vague",
+    "retained_knowledge": "用户回忆 vague 表示含糊、不明确，并据这个局部描述改了答案。",
+    "review_importance": "low",
+    "note": "画框来源保留。用户能回忆出含糊、不明确这一基本含义，优先在态度题中练习判断让步描述与作者评价的关系。"
   }
 ]

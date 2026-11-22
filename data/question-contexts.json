@@ -640,7 +640,10 @@
     "r19t2-crate-standards": "r19t2-reusable-crate-specification-common-goal",
     "r19t2-editors-play": "r19t2-stage-directions-editorial-expertise",
     "r19t2-estuary-recordings": "r19t2-estuary-acoustic-monitoring-changed-use",
-    "r19t2-research-samples": "r19t2-cold-storage-failure-preservation-effort"
+    "r19t2-research-samples": "r19t2-cold-storage-failure-preservation-effort",
+    "r19t3-workshop-ledgers": "r19t3-furniture-sales-repairs-online-course-counts",
+    "r19t3-footpath-register": "r19t3-public-footpath-register-accountability",
+    "r19t3-stage-cues": "r19t3-theatre-live-cues-delegated-timing"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

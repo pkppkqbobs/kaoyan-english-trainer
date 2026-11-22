@@ -1,7 +1,7 @@
 {
   "exam": "2019-english1",
-  "checked_on": "2026-11-21",
-  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30",
+  "checked_on": "2026-11-22",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形",
   "sources": [
     {
       "id": "eol-wendu-2019-cloze",
@@ -44,6 +44,24 @@
       "title": "中国考研网2019考研英语一真题（文字完整版）",
       "url": "https://www.chinakaoyan.com/info/article/id/263635.shtml",
       "covers": "核对第27、29题选项顺序以及第29题选项词形。"
+    },
+    {
+      "id": "eol-2019-text3",
+      "title": "中国教育在线2019年考研英语（一）试题解析",
+      "url": "https://kaoyan.eol.cn/nnews/201812/t20181223_1638274_1.shtml",
+      "covers": "核对阅读Text 3第31题为C、第34题为A，第33题题干含autonomous vehicles。"
+    },
+    {
+      "id": "chsi-wendu-2019-text3",
+      "title": "研招网转载文都教育2019考研英语一阅读真题解析（人工智能）",
+      "url": "https://yz.chsi.com.cn/kyzx/en/201812/20181225/1749398339.html",
+      "covers": "复核第31、34题参考答案及考查内容。"
+    },
+    {
+      "id": "cnedu-2019-text3-passage",
+      "title": "中大网校2019年考研英语（一）真题及答案解析",
+      "url": "https://www.cnedu.cn/english/qplus/news.shtm?id=262245&tabid=2",
+      "covers": "核对篇首两段的原句和末段对承诺的评价。"
     }
   ],
   "answers": {
@@ -56,7 +74,9 @@
     "27": "A",
     "28": "A",
     "29": "C",
-    "30": "B"
+    "30": "B",
+    "31": "C",
+    "34": "A"
   },
   "answer_words": {
     "4": "literally",
@@ -64,10 +84,11 @@
     "15": "through",
     "16": "breaks",
     "23": "adverse",
-    "29": "identical"
+    "29": "identical",
+    "34": "affirmation"
   },
-  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。",
-  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。",
+  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。 Text 3第31、34题的参考答案与本次交接一致。",
+  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。",
   "reading_text_1": {
     "question_23_option_order": [
       "indirect",
@@ -94,6 +115,23 @@
       ],
       "context_meaning": "学生与大学在这一问题上的利益方向吻合。",
       "correction": "此前教学把B的互补给作答案有误。C是四项中最贴切的语境义。aligned 可指同向，双方原因或细节可以不同。"
+    }
+  },
+  "reading_text_3": {
+    "question_31": {
+      "reference_answer": "C",
+      "evidence": "首段用小说预示未来技术带来的伦理议题，次段引入当今AI提出的这些问题。",
+      "distractor_d": "sparked 把小说写成了严重争议的起因，超出原文。"
+    },
+    "question_34": {
+      "reference_answer": "A",
+      "option_order_terms": [
+        "affirmation",
+        "skepticism",
+        "contempt",
+        "respect"
+      ],
+      "evidence": "While 从句承认声明含糊，主句仍将其视为一个起点，因此表达有限肯定。"
     }
   }
 }

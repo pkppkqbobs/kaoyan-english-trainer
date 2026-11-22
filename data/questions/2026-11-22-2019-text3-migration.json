@@ -1,0 +1,92 @@
+[
+  {
+    "id": "r19t3-workshop-ledgers",
+    "family": "cross-paragraph-scope",
+    "introduced": "2026-11-22",
+    "published_on": "2026-11-22",
+    "origin_session": "2026-11-22-2019-text3",
+    "context_id": "r19t3-furniture-sales-repairs-online-course-counts",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 115,
+    "target": "篇首例子与下段论点",
+    "skill": "区分主题上的先例与现实问题的成因",
+    "passage": "Old ledgers from a furniture workshop differ sharply in what they tell us. In the monthly accounts, the owner cited sales as evidence that the chairs were popular. In a notebook kept on the shop floor, workers wrote down which customers came back with loose joints and broken legs. In some of the best months for sales, that notebook also showed an unusual number of repairs.\n\nThe gap between the two records foreshadowed a problem that is familiar to anyone who evaluates online courses. Many providers publish the fraction of students who reach a course's final page. That figure tells us how many have clicked through the material. It leaves open whether they can use any of it afterwards without assistance.",
+    "q": "The author refers to the furniture workshop mainly to",
+    "o": [
+      "explain how the repair process affected chair sales.",
+      "trace how online courses adopted their current measures.",
+      "illustrate what a common measure of success leaves out.",
+      "show how customer complaints can improve a product."
+    ],
+    "a": 2,
+    "answer_support": "That figure tells us how many have clicked through the material. It leaves open whether they can use any of it afterwards without assistance.",
+    "exp": {
+      "trans": "旧家具作坊的账册记录销量，工人另记有哪些椅子需要返修。有些销量最好的月份也出现了较多返修。两份记录的落差预示了网课评估中的类似问题。点到最后一页的人数告诉我们多少人浏览完了材料，至于他们之后能否独立应用，仍需查证。",
+      "structure": "第一段摆出销售记录和维修记录，第二段用同一个问题连起网课统计。销量和翻到最后一页都是可计数的结果。两段分别补出这个数字没有反映的一面。",
+      "other": "ledger（账簿）、joint（接合处）、fraction（比例）、leave open（让问题仍未有定论）。",
+      "meaning": "foreshadow 指先显现后来还会遇到的问题。spark 指触发后续事情。作坊的记录让我们看到单个数字遗漏什么，这个道理在评估网课时仍适用。",
+      "rest": "销量与返修同时出现，文中未交代返修怎样影响销量。作坊记录与网课统计是类比，没有交代后者的历史来源。作者也未讨论家具工艺如何改进。"
+    }
+  },
+  {
+    "id": "r19t3-footpath-register",
+    "family": "author-stance",
+    "introduced": "2026-10-03",
+    "published_on": "2026-11-22",
+    "origin_session": "2026-11-22-2019-text3",
+    "context_id": "r19t3-public-footpath-register-accountability",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 115,
+    "target": "让步后的有限肯定",
+    "skill": "区分认可一项做法与相信其所有承诺",
+    "passage": "For years, people who reported damaged footpath signs to the county rarely heard back. The county now keeps a public register of the reports and names the maintenance team responsible for each sign. It also promises to repair every sign within a month, a pledge that will be hard to keep on paths where workers have to carry equipment for miles.\n\nWhile the register leaves many repair dates unspecified, it already lets people see whether their reports have reached the right team. That makes it worth keeping even if the county has to give up its one-month deadline.",
+    "q": "How does the author view the public register?",
+    "o": [
+      "It has practical value despite missing information.",
+      "It shows that the promised deadline will be met.",
+      "It has little value until it gives firm repair dates.",
+      "It makes reports from remote paths less useful."
+    ],
+    "a": 0,
+    "answer_support": "That makes it worth keeping even if the county has to give up its one-month deadline.",
+    "exp": {
+      "trans": "以往报修步道标志的人很少收到回复。郡政府开始公开登记各项报告和负责的维修小组，也承诺一个月内修好。偏远路段很难兑现时限，登记表也有很多日期没写，但人们已经能看到自己的报告是否到了负责的小组。即使放弃一个月的时限，公开登记仍值得保留。",
+      "structure": "While 从句承认许多修复日期没有说明。逗号后的主句交代登记表已经提供的价值，最后一句直接评价它值得保留。",
+      "other": "footpath（步道）、register（登记表）、pledge（承诺）、unspecified（未具体说明的）。",
+      "meaning": "作者对公开登记给予有限肯定，对维修时限有保留。affirmation 表示认可，skepticism 表示有所怀疑，判断前要看清题干问的是登记表还是时限。",
+      "rest": "文章质疑一月时限能否兑现。只看到日期不明确，会漏掉读者能追踪报告的价值。偏远给维修造成困难，文章没有贬低这些路段的报修记录。"
+    }
+  },
+  {
+    "id": "r19t3-stage-cues",
+    "family": "autonomous-quick-decisions",
+    "introduced": "2026-11-22",
+    "published_on": "2026-11-22",
+    "origin_session": "2026-11-22-2019-text3",
+    "context_id": "r19t3-theatre-live-cues-delegated-timing",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 115,
+    "target": "autonomous 和 split-second 的语境义",
+    "skill": "理解临场反应速度与自主权限",
+    "passage": "The lighting crew at a small theatre follows a list of cues worked out with the director during rehearsals. Live performances do not always follow that plan. If an actor misses a line, the operator may have to make a split-second decision about whether to move to the next cue. Asking the director would take longer than the pause onstage. The crew is therefore autonomous when it comes to the timing of cues during a show. Changes to the script or the lighting design are still agreed at rehearsals.",
+    "q": "Why can the crew adjust the timing of cues on its own?",
+    "o": [
+      "The director wants the crew to revise the script.",
+      "There is too little rehearsal time to plan the cues.",
+      "The actors need more time to learn their lines.",
+      "An unexpected moment may require a rapid response."
+    ],
+    "a": 3,
+    "answer_support": "Asking the director would take longer than the pause onstage.",
+    "exp": {
+      "trans": "剧院灯光组在排练时与导演商定灯光提示。演出中演员偶尔错过台词，操作员可能必须立刻决定是否推进下一个提示。等待导演回复会超过台上的停顿，所以演出当中灯光组有权自主调整提示时机。剧本或灯光设计的改动仍在排练时商定。",
+      "structure": "If 引出演出中的突发情形。Asking the director 那句说明等待批准会错过时机，therefore 引出给灯光组的权限。when it comes to 限定自主权限覆盖的事项。",
+      "other": "cue（这里指启动下一个灯光变化的提示）、rehearsal（排练）、onstage（在台上）。",
+      "meaning": "split-second decision 是一瞬间必须做的决定。autonomous 在这里表示团队对演出中的提示时机有自主权。",
+      "rest": "排练时已经商定提示清单，灯光组也没有权限自行修改剧本。演员漏一句是突发情况，授权的目的在于让灯光组及时处理这个情况。"
+    }
+  }
+]

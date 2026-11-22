@@ -17,7 +17,7 @@
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 可选文章专项发布日期为2026-11-20，对应学习日期2026-11-20。
-有0个已登记的文章专项待发布，有1篇仅登记了学习观察。
+有0个已登记的文章专项待发布，有2篇仅登记了学习观察。
 
 ## 题目呈现质量
 
@@ -27,26 +27,24 @@
 
 ## 最近纸质学习阶段
 
+- 2026-11-22｜2019 英语一 Text 3：Q31 自述错题：D；参考C。自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。 Q34 自述错题：先考虑A→B；参考A。初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。 画框翻译：autonomous、foreshadow、split-second、vague。 本篇已登记学习观察，独立复盘按需开放。
 - 2026-11-21｜2019 英语一 Text 2：纸质自述5/5（不计网页成绩）。 Q29 理解困惑：C；参考C。第29题选C且答对。A的 counterbalance 和B的 complement 看不懂，还混淆了 complement 的“互补”和 compliment 的“称赞”。 Q27 答对但犹豫：先考虑B→A；参考A。曾考虑B，看到 maintain 后按 original purpose 保留A。最初是帮大一新生适应大学学习，毕业率属于后来推广的动机。 画框翻译：complement、counterbalance、utmost。 主动翻译疑问：compliment。 本篇已登记学习观察，独立复盘按需开放。
 - 2026-11-20｜2019 英语一 Text 1：Q23 自述错题：先考虑B→A；参考B。首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。 transient-investor-roles 理解困惑：词句观察。用户确认把整组 transient investors 误读成“透明的调查”。 画框翻译：bosses、dubbed、frustration、hinder、incentives、plums等。
 - 2026-11-19｜2019 英语一 Section I (Cloze)：纸质自述16/20（不计网页成绩）。 Q16 自述错题：A；参考D。觉得迷路时寻找标杆或指示物在现实中合理，因此选择 posts。 Q14 自述错题：D；参考C。记得 spot 表示斑点。把 separate 的“分开”联想到“分辨出”，觉得可用于发现林际线的缺口。 主动翻译疑问：due to roads, train tracks。
 - 2026-11-18｜2018 英语一 Part B 段落排序：纸质自述1/5（不计网页成绩）。 完整顺序：E→C→A→B→F→D→G。 自述全文几乎看不懂。看到A段1871年开工、B段1875年部分建成便认为两段应紧邻。参考ECGAFBD，纸质2/10分。应核对G→A的因果、A→F→B的概括与细节及固定C、F两侧。 2017年的5/5仍是显性时间线与段落首尾衔接的正向证据。2018年进一步暴露了回溯、概括与细节、因果及固定段位置的困难，逐题首次选择和改选未知。 Q42 自述错题：A；参考G。由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。 Q43 自述错题：B；参考A。由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。 画框翻译：Bush、balusters、demolition、emissaries、granite、necessitated等。 主动翻译疑问：elaborate、overcrowded。
-- 2026-11-17｜2018 英语一 Text 4：Q40 理解困惑：最终选项未确认；参考D。本篇整体理解困难；认可C对长期积弊和改革需求的概括；正式最终字母未知。C强调快速解决，D强调现有补救不足与全面改革，更符合作者最后评价。 Q38 答对但犹豫：最终选项未确认；参考A。A/C犹豫，倾向A；正式最终字母未确认。C确实对应涨价，但题干的长期抱怨由latter所指的医保调整回应。 画框翻译：amount to、bare、first-class mail、overseer、postal、regulatory structure。 主动翻译疑问：Band-Aid。 翻译困难（画框或主动报告未逐项区分）：incompetence。
 
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
+- 作者态度、评价对象与转折（author-stance、attribution-stance）：初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。 网页错误数/streak单列于JSON。
+- 选项范围与额外限定（cross-paragraph-scope、title-coverage）：自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。 网页错误数/streak单列于JSON。
 - 修饰关系与熟词搭配（adverse-impact-dimension、synonym-reference）：首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。 网页错误数/streak单列于JSON。
 - 主语—动作—对象与政策条件（transient-investor-roles、semantic-action-roles）：用户确认把整组 transient investors 误读成“透明的调查”。 网页错误数/streak单列于JSON。
-- 选项范围与额外限定（title-coverage、inference-boundary）：整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。 网页错误数/streak单列于JSON。
-- 作者态度、评价对象与转折（attribution-stance、author-stance）：对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。 网页错误数/streak单列于JSON。
 - Part B 标题匹配与篇章衔接（heading-global-allocation、heading-core-function）：用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第… 网页错误数/streak单列于JSON。
 
 ## 待确认
 
-- 2018 英语一 Text 4 Q40：最终选项未确认。
-- 2018 英语一 Text 4 Q38：最终选项未确认。
-- 2018 英语一 Text 4 Q37：最终选项未确认。
+目前没有结构化记录中明确标记的待确认项；没有记录不等于所有问题均已解决。
 - 2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对。
 
 ## 下一对话怎么继续

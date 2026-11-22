@@ -32,7 +32,7 @@
 - 阅读题的材料、设问和干扰项先按[英语一命题规范](QUESTION_WRITING.md)人工审读。原创新短篇使用`format: "english1_reading"`，分开保存`passage`与`q`；`answer_support`定位材料依据，`reading_budget`仅用于该已发布题的后续用时统计，不抬高同family旧题的阈值。答题前不展示诊断性target。
 - `data/question-retirements.json`按实际退役日期限制后续选题与新重做池；源题、旧快照与有效成绩保留。风格退役不等于成绩无效；只有单独核实并列入quality-exclusions的质量问题才排除对应主测条目。新session可指定`question_format: "english1_reading"`，让本篇与历史部分都使用完整英文短篇。
 
-- `data/option-length-revisions.json` 记录候选题的逐题语义复核与修改指纹；`python3 scripts/option_length_audit.py` 可重算 `data/option-length-audit.json`。两者不参与计分、曝光统计或选题权重。
+- `data/option-length-revisions.json` 记录候选题的逐题语义复核与修改指纹。`data/option-length-audit.json` 保存已发布的审计快照。回归测试直接检查当前候选题的长度线索，完整明细可用 `python3 scripts/option_length_audit.py` 在本地重算。审计数据独立于计分、曝光统计和选题权重。
 - 长度报告把并列最长/最短的命中均摊，分别检查“总选最长”和“总选最短”；这些是假设猜答策略，不是用户正确率。长度仅用于发现内容风险，不能代替唯一答案与干扰项的语义复核。
 - 只改可编辑候选库的选项与配套解析，保留 qid、family、答案位置、语境分组、学习日期和用时阈值。选项措辞修订不算新语境或新曝光。已发布 daily/article/passage JSON 和 HTML 沿用原版，后端按其快照核验历史提交。
 - 首页旧题也保留原 storage key、题号、正确答案位置及成绩；独立日期固定的小测保持历史版本。旧轮次仍可能带有当时的长度提示，不能把候选库改进当成旧成绩的新掌握证据。

@@ -50,15 +50,21 @@ class OptionLengthTests(unittest.TestCase):
                 self.assertGreater(pools[name]['correct_uniquely_longest'], 0)
         self.assertGreaterEqual(pools['daily_article']['question_count'], 224)
 
-    def test_report_reproduces_current_data_and_labels_guesses_not_user_scores(self):
+    def test_archived_report_is_consistent_and_live_report_uses_the_current_bank(self):
+        snapshot = review.load(ROOT / 'data/option-length-audit.json')
         current = audit.report(ROOT)
-        self.assertEqual(current, review.load(ROOT / 'data/option-length-audit.json'))
-        self.assertEqual(list(current['after']['questions']), sorted(current['after']['questions']))
-        self.assertTrue(current['audit_is_not_scoring_evidence'])
-        self.assertIn('not user scores', current['definitions']['guessing'])
-        for pool in ('daily_article', 'home_legacy'):
-            self.assertLess(current['after']['pools'][pool]['longest_guess_pct'],
-                            current['before'][pool]['longest_guess_pct'])
+        self.assertEqual(current['before'], snapshot['before'])
+        self.assertEqual(current['after'], audit.scan(ROOT))
+        for report in (snapshot, current):
+            self.assertTrue(report['audit_is_not_scoring_evidence'])
+            self.assertIn('not user scores', report['definitions']['guessing'])
+            questions = report['after']['questions']
+            self.assertEqual(list(questions), sorted(questions))
+            for pool, summary in report['after']['pools'].items():
+                self.assertEqual(summary, audit.summarize([q for q in questions.values() if q['pool'] == pool]))
+            for pool in ('daily_article', 'home_legacy'):
+                self.assertLess(report['after']['pools'][pool]['longest_guess_pct'],
+                                report['before'][pool]['longest_guess_pct'])
 
     def test_audit_generation_is_idempotent_and_cannot_add_attempts(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -67,9 +73,13 @@ class OptionLengthTests(unittest.TestCase):
             shutil.copytree(ROOT / 'archive', root / 'archive')
             for p in ROOT.glob('*.html'):
                 shutil.copy(p, root / p.name)
-            before = {p: p.read_bytes() for p in [*root.glob('*.html'), *(root / 'data').rglob('*.json')]}
-            audit.build(root)
-            audit.build(root)
+            report_path = root / 'data/option-length-audit.json'
+            before = {p: p.read_bytes() for p in [*root.glob('*.html'), *(root / 'data').rglob('*.json')]
+                      if p != report_path}
+            first = audit.build(root)
+            first_bytes = report_path.read_bytes()
+            self.assertEqual(audit.build(root), first)
+            self.assertEqual(report_path.read_bytes(), first_bytes)
             after = {p: p.read_bytes() for p in before}
             changed = [p for p in before if after[p] != before[p]]
             if changed:
@@ -85,7 +95,7 @@ class OptionLengthTests(unittest.TestCase):
             notes = review.load(root / 'data/learning-notes.json')
             from datetime import date
             stats = review.make_stats(review.bank(root), rows, notes, date.fromisoformat(day))
-            review.save(root / 'data/option-length-audit.json', {'rows': [{'errors': 100, 'streak': 99}]})
+            review.save(report_path, {'rows': [{'errors': 100, 'streak': 99}]})
             self.assertEqual(review.make_stats(review.bank(root), rows, notes, date.fromisoformat(day)), stats)
 
     def test_old_text_report_uses_published_options_after_source_revision(self):

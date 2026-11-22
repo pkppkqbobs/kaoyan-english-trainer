@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-22",
     "daily_quiz": "2026-11-22",
-    "latest_observation": "2026-11-21"
+    "latest_observation": "2026-11-22"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -86,6 +86,89 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-22",
+      "exam": "2019-english1",
+      "part": "Text 3",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "cross-paragraph-scope",
+          "question": 31,
+          "related_questions": [],
+          "updated_on": "2026-11-22",
+          "final_choice": "D",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "C",
+            "D"
+          ],
+          "eliminated_choices": [
+            "A",
+            "B"
+          ],
+          "reference_answer": "C",
+          "reference_status": "source_checked",
+          "summary": "自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-22",
+            "family": "cross-paragraph-scope",
+            "question": 31,
+            "note_fingerprint": "79eb3da62ff7da9b"
+          },
+          "training_priority": 1,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_wrong",
+          "family": "author-stance",
+          "question": 34,
+          "related_questions": [],
+          "updated_on": "2026-11-22",
+          "final_choice": "B",
+          "final_choice_status": "confirmed",
+          "first_considered": "A",
+          "candidate_choices": [
+            "A",
+            "B"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "source_checked",
+          "summary": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-22",
+            "family": "author-stance",
+            "question": 34,
+            "note_fingerprint": "228fb1e3a2c613d3"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "autonomous",
+        "foreshadow",
+        "split-second",
+        "vague"
+      ],
+      "translation_note_count": 4,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-22",
+        "family": "autonomous-quick-decisions",
+        "question": null,
+        "note_fingerprint": "f7797a22cd6eb85e"
+      },
+      "article_session_files": []
+    },
     {
       "date": "2026-11-21",
       "exam": "2019-english1",
@@ -715,157 +798,6 @@
         "other_position_reasoning": "unknown",
         "recommended_priority": "high"
       }
-    },
-    {
-      "date": "2026-11-17",
-      "exam": "2018-english1",
-      "part": "Text 4",
-      "items": [
-        {
-          "kind": "user_reported_confusion",
-          "family": "title-coverage",
-          "question": 40,
-          "related_questions": [],
-          "updated_on": "2026-11-17",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "C",
-            "D"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "D",
-          "reference_status": "source_checked",
-          "summary": "本篇整体理解困难；认可C对长期积弊和改革需求的概括；正式最终字母未知。C强调快速解决，D强调现有补救不足与全面改革，更符合作者最后评价。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "title-coverage",
-            "question": 40,
-            "note_fingerprint": "0911c707ca34e5c2"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "correct_but_uncertain",
-          "family": "former-latter-goal",
-          "question": 38,
-          "related_questions": [],
-          "updated_on": "2026-11-17",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "A",
-            "C"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "A/C犹豫，倾向A；正式最终字母未确认。C确实对应涨价，但题干的长期抱怨由latter所指的医保调整回应。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "former-latter-goal",
-            "question": 38,
-            "note_fingerprint": "67a43f1ca7725768"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        },
-        {
-          "kind": "correct_but_uncertain",
-          "family": "interference-capacity",
-          "question": 37,
-          "related_questions": [],
-          "updated_on": "2026-11-17",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "A",
-            "D"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "A/D犹豫，倾向A；正式最终字母未确认。需区分利益集团主动干预与工会能力不足，也要核对多个主体的范围。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "interference-capacity",
-            "question": 37,
-            "note_fingerprint": "4bf36063c482e6df"
-          },
-          "training_priority": 3,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "title-coverage",
-          "question": null,
-          "related_questions": [
-            36,
-            37,
-            38,
-            39,
-            40
-          ],
-          "updated_on": "2026-11-17",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "title-coverage",
-            "question": null,
-            "note_fingerprint": "b39dd908316e8c5a"
-          },
-          "training_priority": 4,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "amount to",
-        "bare",
-        "first-class mail",
-        "overseer",
-        "postal",
-        "regulatory structure"
-      ],
-      "translation_note_count": 8,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-17",
-        "family": "first-class-mail-meaning",
-        "question": null,
-        "note_fingerprint": "f4faa4f27a5ca465"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-17-2018-text4.json"
-      ],
-      "active_translation_spans": [
-        "Band-Aid"
-      ],
-      "unresolved_marking_translation_spans": [
-        "incompetence"
-      ]
     }
   ],
   "presentation_quality": [
@@ -908,6 +840,17 @@
   "article_review_coverage": {
     "pending": [
       {
+        "session_id": "2026-11-22-2019-text3",
+        "learning_date": "2026-11-22",
+        "updated_on": "2026-11-22",
+        "exam": "2019-english1",
+        "part": "Reading Text 3",
+        "status": "missing_session",
+        "session_file": null,
+        "round_file": null,
+        "publication_date": null
+      },
+      {
         "session_id": "2026-11-21-2019-text2",
         "learning_date": "2026-11-21",
         "updated_on": "2026-11-21",
@@ -920,6 +863,17 @@
       }
     ],
     "recent": [
+      {
+        "session_id": "2026-11-22-2019-text3",
+        "learning_date": "2026-11-22",
+        "updated_on": "2026-11-22",
+        "exam": "2019-english1",
+        "part": "Reading Text 3",
+        "status": "missing_session",
+        "session_file": null,
+        "round_file": null,
+        "publication_date": null
+      },
       {
         "session_id": "2026-11-21-2019-text2",
         "learning_date": "2026-11-21",
@@ -996,21 +950,94 @@
         "session_file": "data/article-sessions/2026-11-15-2018-text2.json",
         "round_file": "data/article-reviews/2026-11-15-2018-text2.json",
         "publication_date": "2026-11-15"
-      },
-      {
-        "session_id": "2026-11-14-2018-text1",
-        "learning_date": "2026-11-14",
-        "updated_on": "2026-11-14",
-        "exam": "2018-english1",
-        "part": "Reading Text 1",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-14-2018-text1.json",
-        "round_file": "data/article-reviews/2026-11-14-2018-text1.json",
-        "publication_date": "2026-11-14"
       }
     ]
   },
   "priorities": [
+    {
+      "mechanism": "stance",
+      "label": "作者态度、评价对象与转折",
+      "families": [
+        {
+          "family": "author-stance",
+          "label": "区分认可一项做法与相信其所有承诺",
+          "focus": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-22",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-22",
+            "family": "author-stance",
+            "question": 34,
+            "note_fingerprint": "228fb1e3a2c613d3"
+          }
+        },
+        {
+          "family": "attribution-stance",
+          "label": "区分提供资源与通过整理分析创造用途，保留作者的论点",
+          "focus": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-16",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-16",
+            "family": "attribution-stance",
+            "question": null,
+            "note_fingerprint": "5b75fffd652378e0"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "scope",
+      "label": "选项范围与额外限定",
+      "families": [
+        {
+          "family": "cross-paragraph-scope",
+          "label": "区分主题上的先例与现实问题的成因",
+          "focus": "自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-22",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-22",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-22",
+            "family": "cross-paragraph-scope",
+            "question": 31,
+            "note_fingerprint": "79eb3da62ff7da9b"
+          }
+        },
+        {
+          "family": "title-coverage",
+          "label": "从整篇主线概括复兴途径，而非选择背景细节作标题",
+          "focus": "整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-17",
+          "web_errors": 2,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-22",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-17",
+            "family": "title-coverage",
+            "question": null,
+            "note_fingerprint": "b39dd908316e8c5a"
+          }
+        }
+      ]
+    },
     {
       "mechanism": "language",
       "label": "修饰关系与熟词搭配",
@@ -1096,90 +1123,6 @@
       ]
     },
     {
-      "mechanism": "scope",
-      "label": "选项范围与额外限定",
-      "families": [
-        {
-          "family": "title-coverage",
-          "label": "从整篇主线概括复兴途径，而非选择背景细节作标题",
-          "focus": "整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-17",
-          "web_errors": 2,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-22",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "title-coverage",
-            "question": null,
-            "note_fingerprint": "b39dd908316e8c5a"
-          }
-        },
-        {
-          "family": "inference-boundary",
-          "label": "局部结果可以支持谨慎推进，不能替代普遍适用性的证据",
-          "focus": "用户正确意识到大气稀薄、干扰少属于环境优势；疑问在于为何答案用地理特征而不是环境原因。B的实际文字是protective surroundings，并不泛指一切有利的环境条件。最终…",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-09",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-12",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-09",
-            "family": "inference-boundary",
-            "question": 27,
-            "note_fingerprint": "36ee183b046e2ee7"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "stance",
-      "label": "作者态度、评价对象与转折",
-      "families": [
-        {
-          "family": "attribution-stance",
-          "label": "区分提供资源与通过整理分析创造用途，保留作者的论点",
-          "focus": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-16",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-16",
-            "family": "attribution-stance",
-            "question": null,
-            "note_fingerprint": "5b75fffd652378e0"
-          }
-        },
-        {
-          "family": "author-stance",
-          "label": "从证据不足和评价措辞判断怀疑，而非仅凭情绪强弱猜态度",
-          "focus": "用户明确在A uncertainty和B skepticism之间犹豫，最终确认选B；选择B主要因为感觉否定色彩更强。用户自述本篇全对，但不能据此断言这一态度判断已掌握。",
-          "paper_kind": "correct_but_uncertain",
-          "latest_observation": "2026-11-04",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-04",
-            "family": "author-stance",
-            "question": 31,
-            "note_fingerprint": "7e06b5f31d47b68a"
-          }
-        }
-      ]
-    },
-    {
       "mechanism": "paragraph",
       "label": "Part B 标题匹配与篇章衔接",
       "families": [
@@ -1222,50 +1165,7 @@
       ]
     }
   ],
-  "pending": [
-    {
-      "exam": "2018-english1",
-      "part": "Text 4",
-      "question": 40,
-      "date": "2026-11-17",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-17",
-        "family": "title-coverage",
-        "question": 40,
-        "note_fingerprint": "0911c707ca34e5c2"
-      }
-    },
-    {
-      "exam": "2018-english1",
-      "part": "Text 4",
-      "question": 38,
-      "date": "2026-11-17",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-17",
-        "family": "former-latter-goal",
-        "question": 38,
-        "note_fingerprint": "67a43f1ca7725768"
-      }
-    },
-    {
-      "exam": "2018-english1",
-      "part": "Text 4",
-      "question": 37,
-      "date": "2026-11-17",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-17",
-        "family": "interference-capacity",
-        "question": 37,
-        "note_fingerprint": "0103de0977e20d46"
-      }
-    }
-  ],
+  "pending": [],
   "warnings": [
     "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
   ],
@@ -1470,9 +1370,9 @@
     "data/days/2026-11-21.json": "96b58d53cb5a32f8246ccb30974a3cb5699f6b8049bb2a98b408dc95b8813529",
     "data/days/2026-11-22.json": "2ff7fa2366b62826011e9976fb405bb07b719139a73275d8b89a7574a0abd21c",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
-    "data/learning-notes.json": "cf8d3e89652328135a7ee873ceaa76d6014b72d2388398856d8db00337545686",
+    "data/learning-notes.json": "cc8999184b1947f5830817e600ce742eae5bae34727d8a155111edf204258562",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "13a5ef5dad76006090f5f399b214b5f51a872edcfab2b516d50032e7f6669951",
+    "data/question-contexts.json": "78f29b7221f45c040f8fcc58477f12ae7c4cde725b1c2fd67fea2b2c67f34ca8",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1525,9 +1425,10 @@
     "data/questions/2026-11-19-inset-clauses.json": "f9444e78da96ffc02453fd5c915ee6101e77bda4d4cad574a3167578bb87838e",
     "data/questions/2026-11-20-2019-text1-migration.json": "b5df8a4a253a0623abef726a5075f0dcc0b9f9eaa1d7e0d334a0aa51d917c309",
     "data/questions/2026-11-21-2019-text2-migration.json": "e21a9a8d35048b46021ba28bdf169c42af025bfc5adec3f02feb95b6e274857e",
+    "data/questions/2026-11-22-2019-text3-migration.json": "473c9c557ff612bfe746ddd9e320c49f8b08ace1747f2b0393767854cf4d330f",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "23af3695aed086cf34bd61a4abdd6e639d551c19584c41944394c19c36934e3d",
-    "data/review-state.json": "f4aa1c311c686a7a42ab9920bd054a97ed70edea4223b1ad5f69124eec87a947",
+    "data/review-state.json": "9f6cfc6b112387109e16fb99d5d37f87ce05f4bb9ad4909f64c9f85ced604e70",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1535,9 +1436,9 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
-    "data/source-checks/2019-english1.json": "2206e252b497a4c8b7b33427566f083a92ad09e577b2762d91be52d91a0ff1f9"
+    "data/source-checks/2019-english1.json": "775f6609fa354734dd0162cd65b83e3ff3fa17eac71f475fd3b786762b0638cc"
   },
-  "source_fingerprint": "9df6f84ed8ea3a9784bcde078e27e00c9b46bc9edf5f16f2279e155874b514d3",
+  "source_fingerprint": "a26e0c84f0c07dbacc37e8fc67163cb45fd1a8f30ecfed1206906945a0920797",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

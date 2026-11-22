@@ -180,6 +180,16 @@
       "observed_days": 4,
       "observation_priority": 3
     },
+    "autonomous-quick-decisions": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-22",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "backdrop-context": {
       "streak": 0,
       "errors": 1,
@@ -509,6 +519,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "cross-paragraph-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-22",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "demolition-meaning": {
       "streak": 0,
