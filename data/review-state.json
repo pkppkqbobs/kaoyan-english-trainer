@@ -56,7 +56,8 @@
     53,
     54,
     55,
-    56
+    56,
+    57
   ],
   "families": {
     "absolute-language": {
@@ -141,12 +142,12 @@
     },
     "amount-to-meaning": {
       "streak": 0,
-      "errors": 2,
-      "last": "2026-11-19",
-      "due": "2026-11-20",
+      "errors": 3,
+      "last": "2026-11-22",
+      "due": "2026-11-22",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 2,
+      "observed_days": 3,
       "observation_priority": 1
     },
     "astronomy-word-family": {
@@ -192,11 +193,11 @@
     "band-aid-remedy": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-22",
       "due": "2026-11-22",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "bare-minimum-meaning": {
@@ -392,11 +393,11 @@
     "complement-compliment": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-22",
       "due": "2026-11-22",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "complementary": {
@@ -630,14 +631,14 @@
       "observation_priority": 3
     },
     "example-claim-scope": {
-      "streak": 2,
-      "errors": 3,
-      "last": "2026-11-06",
-      "due": "2026-11-10",
+      "streak": 0,
+      "errors": 4,
+      "last": "2026-11-22",
+      "due": "2026-11-22",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 18,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 19,
+      "observation_priority": 2
     },
     "expectation-contrast": {
       "streak": 0,
@@ -1261,12 +1262,12 @@
     },
     "scene-evidence-chain": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-22",
       "due": "2026-11-22",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "science-claim-vocab": {
@@ -1280,13 +1281,13 @@
       "observation_priority": 0.25
     },
     "scope-role-match": {
-      "streak": 3,
+      "streak": 4,
       "errors": 0,
-      "last": "2026-10-30",
-      "due": "2026-11-06",
+      "last": "2026-11-22",
+      "due": "2026-12-06",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 6,
+      "observed_days": 7,
       "observation_priority": 0
     },
     "screening-polysemy": {
@@ -1572,11 +1573,11 @@
     "title-coverage": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-19",
-      "due": "2026-11-20",
+      "last": "2026-11-22",
+      "due": "2026-11-22",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 7,
+      "observed_days": 8,
       "observation_priority": 3
     },
     "title-specificity": {
@@ -1601,12 +1602,12 @@
     },
     "train-track-polysemy": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-22",
       "due": "2026-11-22",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "transaction-purpose": {

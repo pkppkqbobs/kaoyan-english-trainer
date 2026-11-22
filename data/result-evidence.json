@@ -4724,6 +4724,99 @@
       "qid": "unpretentious-volunteer",
       "round_id": "mwqcu6tb-u0cmb5of",
       "source_date": "2026-11-21"
+    },
+    {
+      "date": "2026-11-22",
+      "family": "amount-to-meaning",
+      "ok": false,
+      "ms": 54890,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "refresh-amount-journal-fee",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22",
+      "slow_threshold_ms": 105000
+    },
+    {
+      "date": "2026-11-22",
+      "family": "example-claim-scope",
+      "ok": false,
+      "ms": 50407,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "example-factory-reporting-measure-f",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "family": "scene-evidence-chain",
+      "ok": false,
+      "ms": 200909,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "cl19-scene-side-labels",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22",
+      "slow_threshold_ms": 110000
+    },
+    {
+      "date": "2026-11-22",
+      "family": "train-track-polysemy",
+      "ok": false,
+      "ms": 45981,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "cl19-train-model-place-names",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 119296,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "r18t4-title-timetable",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-22",
+      "family": "band-aid-remedy",
+      "ok": true,
+      "ms": 49651,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "r18t4-bandaid-software",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-22",
+      "family": "scope-role-match",
+      "ok": true,
+      "ms": 48070,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "scope-role-report-subsidy-a",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22"
+    },
+    {
+      "date": "2026-11-22",
+      "family": "complement-compliment",
+      "ok": true,
+      "ms": 81875,
+      "uncertain": false,
+      "origin": 57,
+      "qid": "r19t2-editors-play",
+      "round_id": "mwrhws75-judfpykm",
+      "source_date": "2026-11-22",
+      "slow_threshold_ms": 100000
     }
   ],
   "issues": [
@@ -4782,6 +4875,7 @@
     53,
     54,
     55,
-    56
+    56,
+    57
   ]
 }
