@@ -1,0 +1,92 @@
+[
+  {
+    "id": "r19t4-catalogue-drafts",
+    "family": "restrict-enable-direction",
+    "introduced": "2026-11-23",
+    "published_on": "2026-11-23",
+    "origin_session": "2026-11-23-2019-text4",
+    "context_id": "r19t4-catalogue-drafts-early-access",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 110,
+    "target": "限制与促进的方向",
+    "skill": "根据谓语判断旧做法对谁有利",
+    "passage": "A museum network used to send draft catalogue records to its largest members a week before anyone else could see them. Early access helped those museums catch errors involving their own collections. But a review found that the arrangement limited the time smaller museums had to check dates and prevented some from presenting evidence before the records went online. The review concluded that this hardly made for an even playing field. The network now sends the drafts to everyone at once, although some of the larger museums say the change will slow publication.",
+    "q": "According to the review, how did the earlier arrangement affect smaller museums?",
+    "o": [
+      "It gave them more chances to correct records early.",
+      "It helped them establish the origins of more objects.",
+      "It reduced their chance to challenge draft records.",
+      "It let them submit evidence after the records went online."
+    ],
+    "a": 2,
+    "answer_support": "limited the time smaller museums had to check dates and prevented some from presenting evidence before the records went online",
+    "exp": {
+      "trans": "博物馆网络过去提前一周向规模最大的成员发送馆藏目录草稿。这给了大馆更多时间纠正与本馆藏品相关的错误。审查发现，小馆用来核对日期的时间受限，一部分小馆无法在目录上线前提交证据。审查认为各家条件并不公平。现在所有成员同时收到草稿，有些大馆担心发布会变慢。",
+      "structure": "But 将受益的大馆切换为审查指出的小馆困境。limited 限制核查时间。与它并列的 prevented + 人 + from doing 又指出目录发布前一部分小馆做不到什么。",
+      "other": "draft catalogue records（目录草稿）、catch an error（发现错误）、go online（上线）。",
+      "meaning": "这里两个谓语都写障碍，限制检查时间和阻止提交证据使小馆较难纠正目录。an even playing field 指公平条件。even 在 an even surface 中指平整，在 even a small museum 中是副词，表示甚至。",
+      "rest": "提前获得纠错机会的是大馆。文中提到核对日期，未说明小馆能查清更多物件的来源。before the records went online 限定受阻的是上线前提交证据，文中未交代上线后的提交权限。"
+    }
+  },
+  {
+    "id": "r19t4-bus-transfer-timetable",
+    "family": "whole-text-method-scope",
+    "introduced": "2026-11-23",
+    "published_on": "2026-11-23",
+    "origin_session": "2026-11-23-2019-text4",
+    "context_id": "r19t4-bus-transfer-departure-times",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 110,
+    "target": "识别全文叙述方式",
+    "skill": "比较全文结构与末段的不同反应",
+    "passage": "A regional bus company has begun putting departure times for possible connections on the same timetable. Previously, each timetable listed just one route. Passengers knew when they would leave the town centre, but had to look elsewhere to find out whether they could catch a second bus.\n\nThe change followed a review of complaints. Drivers had repeatedly been asked to hold a bus while passengers ran from a nearby stop. The new layout makes it easier to see which connections are possible. Drivers have since reported fewer requests to wait.\n\nSome regular travellers say the longer timetable now makes their usual departure harder to find. The company considers the extra material a reasonable price to pay for clearer information about transfers.",
+    "q": "How does the passage present the timetable change?",
+    "o": [
+      "By tracing the negotiations that led to the new layout.",
+      "By outlining the change and examining its consequences.",
+      "By comparing the results of trials on individual routes.",
+      "By organising it around a dispute over the timetable."
+    ],
+    "a": 1,
+    "answer_support": "Drivers have since reported fewer requests to wait.",
+    "exp": {
+      "trans": "一家公交公司把可换乘的班次放到了同一张时刻表上。过去每条线路单独列，乘客要再查另一张表才知道能否换车。投诉复核发现，司机常被要求等从另一站跑来的乘客。新表使换乘关系更清楚，司机收到的等候请求也少了。有些常客抱怨表格变长，公司认为换乘信息更清晰值得这一成本。",
+      "structure": "开头交代新旧时刻表的写法。中段介绍调整缘由和一个实际效果，末段加写新表对常客的影响与公司对此的评价。",
+      "other": "connection（衔接班次、换乘）、hold a bus（让公交暂缓发车）、layout（版面、布局）、transfer（换乘）。",
+      "meaning": "全文先说明改了什么及缘由，再写不同使用者感受到的后果。文末的不同评价是效果讨论的一部分。",
+      "rest": "查阅投诉只交代调整缘由，文章未追踪谈判。文中也没有逐条线路的试验结果。公司与常客的不同看法集中在末段，前两段围绕变动事实及效果展开。"
+    }
+  },
+  {
+    "id": "r19t4-courtyard-screening-report",
+    "family": "past-participle-modifier",
+    "introduced": "2026-11-23",
+    "published_on": "2026-11-23",
+    "origin_session": "2026-11-23-2019-text4",
+    "context_id": "r19t4-courtyard-screening-author-and-endorsement",
+    "format": "english1_reading",
+    "budget": 50,
+    "reading_budget": 110,
+    "target": "过去分词后置修饰与动作主体",
+    "skill": "区分拟写、支持与推翻决定",
+    "passage": "A festival director rejected a plan for a film screening after receiving a high estimate for hiring equipment. The projectionist challenged the estimate in a report endorsed by two technicians familiar with the site. The report set out a cheaper way to use the festival's own equipment. It suggested moving the audience closer to a smaller screen, which the existing projector could light evenly after dusk. The committee considered the report at its next meeting and overruled the director's decision. The screening went ahead in a courtyard with room for a smaller audience.",
+    "q": "Which account accurately describes the decision and the technicians' role?",
+    "o": [
+      "The technicians backed the report, and the committee reversed the refusal.",
+      "The technicians wrote the report, and the director reversed his own decision.",
+      "The director backed the report, and the technicians approved the screening.",
+      "The technicians backed the report, but the committee upheld the refusal."
+    ],
+    "a": 0,
+    "answer_support": "in a report endorsed by two technicians familiar with the site. The report set out a cheaper way to use the festival's own equipment. It suggested moving the audience closer to a smaller screen, which the existing projector could light evenly after dusk. The committee considered the report at its next meeting and overruled the director's decision.",
+    "exp": {
+      "trans": "节庆总监看到设备租赁报价太高，拒绝了放映计划。放映员在一份得到两名技术人员支持的报告里质疑报价，建议把观众安排得更靠近小屏幕，这样现有投影机在黄昏后就够用。委员会审阅报告并推翻了总监的决定，放映最终在一个可容纳少量观众的庭院举行。",
+      "structure": "主干是 The projectionist challenged the estimate。in a report 交代载体，endorsed by two technicians 是修饰 report 的过去分词短语，可还原为 which was endorsed by two technicians。另一句由 the committee 作主语，执行 overruled 的动作。",
+      "other": "projectionist（放映员）、estimate（报价、估价）、endorse（支持、认可）、go ahead（按计划进行）。",
+      "meaning": "技术人员对报告表示支持。委员会推翻了总监的决定，因此放映得以举行。类似 an opinion joined by four other justices 中的 joined by，分词给出支持意见的人。",
+      "rest": "质疑报价由放映员在报告中提出，无法从技术人员签署支持推出他们执笔。撤销原决定的是委员会。upheld 表示维持，文中的 overruled 表示推翻。"
+    }
+  }
+]

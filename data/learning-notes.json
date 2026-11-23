@@ -7918,5 +7918,201 @@
     "retained_knowledge": "用户回忆 vague 表示含糊、不明确，并据这个局部描述改了答案。",
     "review_importance": "low",
     "note": "画框来源保留。用户能回忆出含糊、不明确这一基本含义，优先在态度题中练习判断让步描述与作者评价的关系。"
+  },
+  {
+    "date": "2026-11-23",
+    "received_on": "2026-11-23",
+    "session_id": "2026-11-23-2019-text4",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题教学复盘文字。作答、自述困难和画框识别以该交接为证据。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "restrict-enable-direction",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 38,
+    "reported_pick": "B",
+    "expected": "C",
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "not_reported",
+    "paper_wrong_confirmed": true,
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "reported_correct_count": null,
+      "reported_total": null,
+      "reported_final_choice_letters": {
+        "38": "B"
+      },
+      "final_choices_unknown": [
+        36,
+        37,
+        39,
+        40
+      ],
+      "confirmed_paper_wrong_questions": [
+        38
+      ],
+      "overall_score": "unknown",
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "partial_understanding_self_report",
+      "user_quote": "这篇虽然我没彻底看懂",
+      "core_claim": "新裁决推翻实体存在规则，扩大各州要求更多外州卖家代收销售税的空间，对大型连锁商和较小的纯线上零售商产生不同影响。"
+    },
+    "user_quote": "这篇虽然我没彻底看懂，但是我根据38就是选B啊，seek long term prosperity并且防止市场参与者在一个even playing field竞争。",
+    "user_reported_reasoning": "自述文章没有彻底读懂。定位到追求长期繁荣和公平竞争的两部分，最终选B；没有把 limited 的限制方向带入判断。",
+    "positive_reasoning": "定位到肯尼迪的观点，留意到繁荣与竞争两个并列点。",
+    "source_evidence": {
+      "first_predicate": "limited states' ability to seek long-term prosperity",
+      "second_predicate": "prevented market participants from competing on an even playing field",
+      "misread_result": "将“限制各州追求繁荣的能力”读成“给国家带来繁荣”。",
+      "correct_paraphrase": "阻碍市场参与者公平竞争，对应C所述公平竞争受损。"
+    },
+    "note": "limited 支配各州追求长期繁荣的能力，方向是限制。第二个并列谓语 prevent ... from ... 把公平竞争具体落在受阻的行为上。A的负向虽接近，范围泛化为整体经济发展。用户曾定位到两部分证据，正式初选与改选未知。",
+    "training_priority": 1,
+    "training_targets": [
+      "找出支配正向名词的谓语，判断限制、阻止、允许和促进的方向",
+      "从 prevent ... from ... 及公平竞争条件识别有针对性的同义改写"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "received_on": "2026-11-23",
+    "session_id": "2026-11-23-2019-text4",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题教学复盘文字。作答、自述困难和画框识别以该交接为证据。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "whole-text-method-scope",
+    "kind": "user_reported_confusion",
+    "scope": "question_reasoning",
+    "source_question": 40,
+    "considered_option": "C",
+    "candidate_choices": [
+      "C"
+    ],
+    "final_choice_letter_confirmed": false,
+    "initial_choice_letter_confirmed": false,
+    "paper_wrong_confirmed": false,
+    "reference_status": "disputed",
+    "reference_candidates": {
+      "A": "交代裁决事实并讨论后果",
+      "D": "援引相关案例并分析其影响"
+    },
+    "preferred_analysis_answer": "A",
+    "user_quote": "然后40我感觉应该选C啊，好奇怪啊。",
+    "user_reported_reasoning": "末段确有零售团体赞扬与小商家受到不利影响的表述，因此觉得C有理。A/D公开解析有分歧，教学倾向A；最终选择未确认。",
+    "positive_reasoning": "识别出末段列举的利益相关方反应不同。",
+    "reasoning_to_refine": "全文先交代新裁决及旧规则，再讨论新裁决对州财政与各类商家的影响。末段的不同反应服务于后果说明，旧判例提供新裁决的背景。判断写法时比较每个选项覆盖哪些段。",
+    "note": "C抓住了末段的真实差异，覆盖范围主要是裁决后的反应。A覆盖裁决事实、背景和后果三个部分。D的依据是文章提及被推翻的判例，后半篇集中于新裁决的影响。原题参考依据按来源保留A/D分歧。用户只明确C有道理，答题卡最终选项未知。",
+    "training_priority": 2,
+    "training_targets": [
+      "区分全文组织方式与末段的局部观点",
+      "辨别旧例背景、事件事实与事件后果"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "received_on": "2026-11-23",
+    "session_id": "2026-11-23-2019-text4",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题教学复盘文字。作答、自述困难和画框识别以该交接为证据。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "past-participle-modifier",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "source_spans": [
+      "overruled"
+    ],
+    "source_location": "正文第2段",
+    "context_span": "overruled a pair of decades-old decisions",
+    "note": "此前教学复盘识别的画框词。法律语境中 overrule a decision 表示有权推翻先前裁决。overlook 有忽略义，override 可指覆盖或使原决定失效。只登记交接确认的画框。"
+  },
+  {
+    "date": "2026-11-23",
+    "received_on": "2026-11-23",
+    "session_id": "2026-11-23-2019-text4",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题教学复盘文字。作答、自述困难和画框识别以该交接为证据。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "past-participle-modifier",
+    "kind": "translation_difficulty",
+    "scope": "sentence_translation_and_postnominal_modifier",
+    "mark_type": "active_question",
+    "marking_evidence": "direct_user_report",
+    "source_spans": [
+      "he wrote in an opinion joined by four other justices"
+    ],
+    "source_location": "正文第4段",
+    "user_quote": "he wrote in an....这句话我也翻译困难。",
+    "translation": "他在一份得到另外四位大法官赞同的司法意见书中写道。",
+    "structure": {
+      "main_clause": "he wrote",
+      "prepositional_phrase": "in an opinion",
+      "modified_noun": "opinion",
+      "past_participle_modifier": "joined by four other justices",
+      "expanded_relative_clause": "an opinion which was joined by four other justices"
+    },
+    "note": "用户主动报告整句翻译困难。opinion 在法院语境指司法意见书。joined by 是过去分词短语，后置修饰 opinion，表示其余四位大法官加入并支持该意见。执笔人由 he wrote 指出。练习先读主干，再确定介词短语里被修饰的名词。",
+    "training_targets": [
+      "还原过去分词后置修饰",
+      "区分署名撰写者、支持意见者与改变决定的主体"
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "received_on": "2026-11-23",
+    "session_id": "2026-11-23-2019-text4",
+    "source_exam": "2019-english1",
+    "source_part": "Reading Text 4",
+    "paper_attempt": true,
+    "evidence_basis": "用户提供的纸质真题教学复盘文字。作答、自述困难和画框识别以该交接为证据。",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "restrict-enable-direction",
+    "kind": "translation_difficulty",
+    "scope": "expression_polysense_question",
+    "source_question": 38,
+    "mark_type": "active_question",
+    "marking_evidence": "direct_user_question",
+    "source_spans": [
+      "even playing field"
+    ],
+    "context_span": "competing on an even playing field",
+    "user_quote": "‘even playing field’ 是公平的竞争环境的意思吗，even意思还是太多了。",
+    "learning_resolution": {
+      "status": "explained_after_prompt",
+      "meaning_here": "公平的竞争环境或公平的竞争条件",
+      "related_expressions": [
+        "a level playing field",
+        "level the playing field"
+      ],
+      "other_uses": [
+        "even a child 表示甚至",
+        "an even surface 表示平整的表面",
+        "even numbers 表示偶数",
+        "even though 表示尽管"
+      ]
+    },
+    "note": "用户主动询问并提出了正确释义，教学已确认。这里的 even 是形容词，相等的竞争条件由 playing field 的比喻义引出。将词组整体理解为公平竞争环境，按上下文再判断 even 的词性和含义。",
+    "training_targets": [
+      "区分形容词 even 的均等、平整、偶数用法与副词 even 的强调用法"
+    ]
   }
 ]

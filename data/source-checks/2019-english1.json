@@ -1,7 +1,7 @@
 {
   "exam": "2019-english1",
-  "checked_on": "2026-11-22",
-  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形",
+  "checked_on": "2026-11-23",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形；Reading Text 4 Q38、Q40来源分歧及词句",
   "sources": [
     {
       "id": "eol-wendu-2019-cloze",
@@ -62,6 +62,24 @@
       "title": "中大网校2019年考研英语（一）真题及答案解析",
       "url": "https://www.cnedu.cn/english/qplus/news.shtm?id=262245&tabid=2",
       "covers": "核对篇首两段的原句和末段对承诺的评价。"
+    },
+    {
+      "id": "koolearn-2019-text4",
+      "title": "新东方在线2019考研英语（一）阅读理解试卷解析",
+      "url": "https://kaoyan.koolearn.com/20181226/1032718.html",
+      "covers": "第38题C及第40题A，后者以新裁决的介绍与各方后果为篇章主线。"
+    },
+    {
+      "id": "xdf-2019-text4",
+      "title": "新东方网2019考研英语一真题阅读第四篇参考答案及解析",
+      "url": "https://kaoyan.xdf.cn/201906/10927533_2.html",
+      "covers": "第40题编码为D，着重说明旧裁决提及的案例与相关影响。"
+    },
+    {
+      "id": "yingyuzhenti-2019-text4",
+      "title": "英语真题网2019英语一阅读理解Text 4原文、答案与逐题解析",
+      "url": "https://www.yingyuzhenti.com/papers/2019-english-one/reading-text-4",
+      "covers": "核对第38题为C和第40题选项文字、支持第40题A的全文分析，复核三个词句的原文形态。"
     }
   ],
   "answers": {
@@ -76,7 +94,8 @@
     "29": "C",
     "30": "B",
     "31": "C",
-    "34": "A"
+    "34": "A",
+    "38": "C"
   },
   "answer_words": {
     "4": "literally",
@@ -87,8 +106,8 @@
     "29": "identical",
     "34": "affirmation"
   },
-  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。 Text 3第31、34题的参考答案与本次交接一致。",
-  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。",
+  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。 Text 3第31、34题的参考答案与本次交接一致。 Text 4第38题对照选项文字为C；第40题A、D为不同写作方式。",
+  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。 阅读Text 4只确认第38题最终选B；第40题仅确认认为C有依据，第36、37、39题及全篇总分未知。",
   "reading_text_1": {
     "question_23_option_order": [
       "indirect",
@@ -132,6 +151,51 @@
         "respect"
       ],
       "evidence": "While 从句承认声明含糊，主句仍将其视为一个起点，因此表达有限肯定。"
+    }
+  },
+  "reading_text_4": {
+    "question_38": {
+      "reference_answer": "C",
+      "evidence": "旧规则限制各州追求长期繁荣，也妨碍市场主体公平竞争。后者直接对应公平竞争受损。",
+      "distractor_b": "将受限制的目标读成已经带来的好处，并把州扩大为国家。"
+    },
+    "vocabulary": {
+      "boxed": [
+        "overruled"
+      ],
+      "user_reported_sentence": "he wrote in an opinion joined by four other justices",
+      "user_asked_expression": "even playing field"
+    }
+  },
+  "disputed_references": {
+    "Text 4 Q40": {
+      "status": "reference_answer_disagreement",
+      "canonical_answer": null,
+      "preferred_analysis_answer": "A",
+      "user_considered": "C",
+      "user_final_choice": null,
+      "adjudicated_wrong": false,
+      "candidates": [
+        {
+          "user_letter": "A",
+          "meaning": "介绍裁决事实并讨论后果",
+          "source_ids": [
+            "koolearn-2019-text4",
+            "yingyuzhenti-2019-text4"
+          ],
+          "rationale": "旧规则及其推翻是背景，后几段主要讨论新裁决对不同主体的影响。"
+        },
+        {
+          "user_letter": "D",
+          "meaning": "援引相关案例并分析其影响",
+          "source_ids": [
+            "xdf-2019-text4"
+          ],
+          "rationale": "该解析把前半部分视为援引旧案例，随后说明其相关影响。"
+        }
+      ],
+      "option_order_warning": "已按选项全文语义确认两种解释实际不同。新东方网把 cites 拼作 cities，所指仍是援引案例的D项。",
+      "policy": "教学优先用A解释全文结构。答案表不设单一键，用户最终选择保持未知。"
     }
   }
 }

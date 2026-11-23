@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-23",
     "daily_quiz": "2026-11-23",
-    "latest_observation": "2026-11-22"
+    "latest_observation": "2026-11-23"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -86,6 +86,83 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-23",
+      "exam": "2019-english1",
+      "part": "Text 4",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "restrict-enable-direction",
+          "question": 38,
+          "related_questions": [],
+          "updated_on": "2026-11-23",
+          "final_choice": "B",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "C",
+          "reference_status": "source_checked",
+          "summary": "自述文章没有彻底读懂。定位到追求长期繁荣和公平竞争的两部分，最终选B；没有把 limited 的限制方向带入判断。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-23",
+            "family": "restrict-enable-direction",
+            "question": 38,
+            "note_fingerprint": "df365b8c34adca50"
+          },
+          "training_priority": 1,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_confusion",
+          "family": "whole-text-method-scope",
+          "question": 40,
+          "related_questions": [],
+          "updated_on": "2026-11-23",
+          "final_choice": null,
+          "final_choice_status": "unconfirmed",
+          "first_considered": null,
+          "candidate_choices": [
+            "C"
+          ],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "末段确有零售团体赞扬与小商家受到不利影响的表述，因此觉得C有理。A/D公开解析有分歧，教学倾向A；最终选择未确认。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-23",
+            "family": "whole-text-method-scope",
+            "question": 40,
+            "note_fingerprint": "829e048a57a52be7"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "overruled"
+      ],
+      "translation_note_count": 3,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-23",
+        "family": "past-participle-modifier",
+        "question": null,
+        "note_fingerprint": "c5db3d8535b97e69"
+      },
+      "article_session_files": [],
+      "active_translation_spans": [
+        "even playing field",
+        "he wrote in an opinion joined by four othe…"
+      ]
+    },
     {
       "date": "2026-11-22",
       "exam": "2019-english1",
@@ -529,275 +606,6 @@
         "question": null,
         "note_fingerprint": "3dc4218daa8b8d0a"
       }
-    },
-    {
-      "date": "2026-11-18",
-      "exam": "2018-english1",
-      "part": "Part B 段落排序",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "paragraph-order-discourse",
-          "question": 42,
-          "related_questions": [],
-          "updated_on": "2026-11-18",
-          "final_choice": "A",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "G",
-          "reference_status": "source_checked",
-          "summary": "由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-18",
-            "family": "paragraph-order-discourse",
-            "question": 42,
-            "note_fingerprint": "bb90738c5f66fe33"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "paragraph-order-discourse",
-          "question": 43,
-          "related_questions": [],
-          "updated_on": "2026-11-18",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-18",
-            "family": "paragraph-order-discourse",
-            "question": 43,
-            "note_fingerprint": "fe97595791c2becb"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "paragraph-order-discourse",
-          "question": 44,
-          "related_questions": [],
-          "updated_on": "2026-11-18",
-          "final_choice": "D",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "B",
-          "reference_status": "source_checked",
-          "summary": "由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-18",
-            "family": "paragraph-order-discourse",
-            "question": 44,
-            "note_fingerprint": "9d08332bbc84d5af"
-          },
-          "training_priority": 3,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "paragraph-order-discourse",
-          "question": 45,
-          "related_questions": [],
-          "updated_on": "2026-11-18",
-          "final_choice": "G",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "D",
-          "reference_status": "source_checked",
-          "summary": "由最终排序 ECABFDG 确认。此位置的初选、改选和独立判断理由未知。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-18",
-            "family": "paragraph-order-discourse",
-            "question": 45,
-            "note_fingerprint": "4b5dd46ead84f15e"
-          },
-          "training_priority": 4,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "Bush",
-        "balusters",
-        "demolition",
-        "emissaries",
-        "granite",
-        "necessitated",
-        "rotundas"
-      ],
-      "translation_note_count": 9,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-18",
-        "family": "necessitate-causal-need",
-        "question": null,
-        "note_fingerprint": "ee8a2cda61bb4de2"
-      },
-      "article_session_files": [
-        "data/article-sessions/2026-11-18-2018-partb.json"
-      ],
-      "active_translation_spans": [
-        "elaborate",
-        "overcrowded"
-      ],
-      "reported_paper_outcome": {
-        "evidence_status": "user_confirmed_paper_answers",
-        "question_range": [
-          41,
-          42,
-          43,
-          44,
-          45
-        ],
-        "reported_correct_count": 1,
-        "reported_total": 5,
-        "reported_all_correct": false,
-        "reported_points": {
-          "earned": 2,
-          "total": 10,
-          "points_per_scored_position": 2
-        },
-        "reported_final_choice_letters": {
-          "41": "E",
-          "42": "A",
-          "43": "B",
-          "44": "D",
-          "45": "G"
-        },
-        "reference_choice_letters": {
-          "41": "E",
-          "42": "G",
-          "43": "A",
-          "44": "B",
-          "45": "D"
-        },
-        "reported_question_correctness": {
-          "41": true,
-          "42": false,
-          "43": false,
-          "44": false,
-          "45": false
-        },
-        "reported_full_order": [
-          "E",
-          "C",
-          "A",
-          "B",
-          "F",
-          "D",
-          "G"
-        ],
-        "reference_full_order": [
-          "E",
-          "C",
-          "G",
-          "A",
-          "F",
-          "B",
-          "D"
-        ],
-        "fixed_paragraphs": [
-          "C",
-          "F"
-        ],
-        "fixed_positions": {
-          "2": "C",
-          "5": "F"
-        },
-        "first_choices": "unknown",
-        "revisions": "unknown",
-        "not_a_web_score": true
-      },
-      "performance_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-18",
-        "family": "paragraph-order-discourse",
-        "question": null,
-        "note_fingerprint": "dcbaa7b593c78b30"
-      },
-      "ordering_strategy": {
-        "user_quote": "惨败，完全看不懂，首先我看那个时间就认为AB一定是连的紧密的先后，然后这篇确实看不太懂。",
-        "summary": "自述全文几乎看不懂。看到A段1871年开工、B段1875年部分建成便认为两段应紧邻。参考ECGAFBD，纸质2/10分。应核对G→A的因果、A→F→B的概括与细节及固定C、F两侧。",
-        "evidence_scope": "confirmed_adjacency_reasoning_and_reported_passage_difficulty",
-        "full_passage_comprehension": "reported_substantial_difficulty",
-        "passage_level_difficulty": true,
-        "generalization_limit": "2017年的5/5仍是显性时间线与段落首尾衔接的正向证据。2018年进一步暴露了回溯、概括与细节、因果及固定段位置的困难，逐题首次选择和改选未知。",
-        "confirmed_reasoning": {
-          "proposed_link": [
-            "A",
-            "B"
-          ],
-          "basis": "A段1871年开工在先，B段1875年南翼建成在后。用户认为这两个日期足以确定直接相邻。"
-        },
-        "teaching_correction": "感知到正确的事件前后关系仍有价值。段落组织从开工进入整体施工，再回到某翼较早建成和投入使用的实例，年份不用逐段递增。",
-        "adjacent_links": [
-          {
-            "from": "E",
-            "to": "C",
-            "relation": "总体介绍到历史作用",
-            "basis": "建筑名称、价值与用途引出其承载的政府部门及历史活动。"
-          },
-          {
-            "from": "C",
-            "to": "G",
-            "relation": "历史作用到历史回顾",
-            "basis": "G把时间拉回到奠基之前，交代旧机构与场所。C与D都提到人物和历史事件，但直接相接会跳过起源、建造和入驻。"
-          },
-          {
-            "from": "G",
-            "to": "A",
-            "relation": "旧楼拆除导致新楼规划",
-            "basis": "旧国务院办公楼因财政部北翼建设而须拆除，由此承接新办公楼选址、规划及开工。"
-          },
-          {
-            "from": "A",
-            "to": "F",
-            "relation": "开工到整体施工过程",
-            "basis": "A引入施工，F概括跨度、分翼兴建和整体建筑特点。"
-          },
-          {
-            "from": "F",
-            "to": "B",
-            "relation": "整体施工到具体楼翼和入驻",
-            "basis": "F建立分翼建造的框架，B展开南翼先完工、各部门陆续迁入等阶段性细节。整体回顾后可以回到较早的具体阶段。"
-          },
-          {
-            "from": "B",
-            "to": "D",
-            "relation": "入驻到建筑承载的人物与事件",
-            "basis": "部门入驻建立了建筑实际使用的背景，D转至曾在此办公或活动的人物作为收束。"
-          }
-        ],
-        "observed_adjacent_matches": [
-          "E>C"
-        ],
-        "other_position_reasoning": "unknown",
-        "recommended_priority": "high"
-      }
     }
   ],
   "presentation_quality": [
@@ -840,6 +648,17 @@
   "article_review_coverage": {
     "pending": [
       {
+        "session_id": "2026-11-23-2019-text4",
+        "learning_date": "2026-11-23",
+        "updated_on": "2026-11-23",
+        "exam": "2019-english1",
+        "part": "Reading Text 4",
+        "status": "missing_session",
+        "session_file": null,
+        "round_file": null,
+        "publication_date": null
+      },
+      {
         "session_id": "2026-11-22-2019-text3",
         "learning_date": "2026-11-22",
         "updated_on": "2026-11-22",
@@ -863,6 +682,17 @@
       }
     ],
     "recent": [
+      {
+        "session_id": "2026-11-23-2019-text4",
+        "learning_date": "2026-11-23",
+        "updated_on": "2026-11-23",
+        "exam": "2019-english1",
+        "part": "Reading Text 4",
+        "status": "missing_session",
+        "session_file": null,
+        "round_file": null,
+        "publication_date": null
+      },
       {
         "session_id": "2026-11-22-2019-text3",
         "learning_date": "2026-11-22",
@@ -939,21 +769,52 @@
         "session_file": "data/article-sessions/2026-11-16-2018-text3.json",
         "round_file": "data/article-reviews/2026-11-16-2018-text3.json",
         "publication_date": "2026-11-17"
-      },
-      {
-        "session_id": "2026-11-15-2018-text2",
-        "learning_date": "2026-11-15",
-        "updated_on": "2026-11-15",
-        "exam": "2018-english1",
-        "part": "Reading Text 2",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-15-2018-text2.json",
-        "round_file": "data/article-reviews/2026-11-15-2018-text2.json",
-        "publication_date": "2026-11-15"
       }
     ]
   },
   "priorities": [
+    {
+      "mechanism": "language",
+      "label": "修饰关系与熟词搭配",
+      "families": [
+        {
+          "family": "restrict-enable-direction",
+          "label": "根据谓语判断旧做法对谁有利",
+          "focus": "自述文章没有彻底读懂。定位到追求长期繁荣和公平竞争的两部分，最终选B；没有把 limited 的限制方向带入判断。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-23",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-23",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-23",
+            "family": "restrict-enable-direction",
+            "question": 38,
+            "note_fingerprint": "df365b8c34adca50"
+          }
+        },
+        {
+          "family": "adverse-impact-dimension",
+          "label": "根据时间节点判断问题何时终止",
+          "focus": "首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-20",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-22",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-20",
+            "family": "adverse-impact-dimension",
+            "question": 23,
+            "note_fingerprint": "0b335a89947ecc4b"
+          }
+        }
+      ]
+    },
     {
       "mechanism": "stance",
       "label": "作者态度、评价对象与转折",
@@ -1019,63 +880,21 @@
           }
         },
         {
-          "family": "title-coverage",
-          "label": "从整篇主线概括复兴途径，而非选择背景细节作标题",
-          "focus": "整篇理解困难，尤其是制度限制、利益集团、财政措施和全面改革的论证关系；37/38仅倾向正确方向，不能由此判定整篇掌握。 status quo标记边界待确认，未纳入确定翻译困难。",
+          "family": "whole-text-method-scope",
+          "label": "比较全文结构与末段的不同反应",
+          "focus": "末段确有零售团体赞扬与小商家受到不利影响的表述，因此觉得C有理。A/D公开解析有分歧，教学倾向A；最终选择未确认。",
           "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-17",
-          "web_errors": 2,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-23",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-17",
-            "family": "title-coverage",
-            "question": null,
-            "note_fingerprint": "b39dd908316e8c5a"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "language",
-      "label": "修饰关系与熟词搭配",
-      "families": [
-        {
-          "family": "adverse-impact-dimension",
-          "label": "根据时间节点判断问题何时终止",
-          "focus": "首次B，重读原文后认为A更合适。忘了 hinder，把 transient investors 读成“透明的调查”，没有据关键谓语判断影响方向。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-20",
+          "latest_observation": "2026-11-23",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-22",
+          "due": "2026-11-23",
           "source": {
             "path": "data/learning-notes.json",
-            "date": "2026-11-20",
-            "family": "adverse-impact-dimension",
-            "question": 23,
-            "note_fingerprint": "0b335a89947ecc4b"
-          }
-        },
-        {
-          "family": "synonym-reference",
-          "label": "核对回指对象及其在后续动作中的作用",
-          "focus": "觉得迷路时寻找标杆或指示物在现实中合理，因此选择 posts。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-19",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-21",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-19",
-            "family": "synonym-reference",
-            "question": 16,
-            "note_fingerprint": "f150f980b99f3e13"
+            "date": "2026-11-23",
+            "family": "whole-text-method-scope",
+            "question": 40,
+            "note_fingerprint": "829e048a57a52be7"
           }
         }
       ]
@@ -1165,7 +984,22 @@
       ]
     }
   ],
-  "pending": [],
+  "pending": [
+    {
+      "exam": "2019-english1",
+      "part": "Text 4",
+      "question": 40,
+      "date": "2026-11-23",
+      "status": "最终选项未确认",
+      "source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-23",
+        "family": "whole-text-method-scope",
+        "question": 40,
+        "note_fingerprint": "829e048a57a52be7"
+      }
+    }
+  ],
   "warnings": [
     "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
   ],
@@ -1371,9 +1205,9 @@
     "data/days/2026-11-22.json": "2ff7fa2366b62826011e9976fb405bb07b719139a73275d8b89a7574a0abd21c",
     "data/days/2026-11-23.json": "300cc058b980b570131255a20b54fda7474cc3769cc9952d5a9feb11f278b187",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
-    "data/learning-notes.json": "cc8999184b1947f5830817e600ce742eae5bae34727d8a155111edf204258562",
+    "data/learning-notes.json": "43e1e341f9dd2db8b34d69f1c034ec0ea669706e6bc53d95ad1cdd15342b6a27",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "78f29b7221f45c040f8fcc58477f12ae7c4cde725b1c2fd67fea2b2c67f34ca8",
+    "data/question-contexts.json": "82b9af0cb47c8480a3298f923551b0a34f33a482474510a287c2be68893137d9",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1427,9 +1261,10 @@
     "data/questions/2026-11-20-2019-text1-migration.json": "b5df8a4a253a0623abef726a5075f0dcc0b9f9eaa1d7e0d334a0aa51d917c309",
     "data/questions/2026-11-21-2019-text2-migration.json": "e21a9a8d35048b46021ba28bdf169c42af025bfc5adec3f02feb95b6e274857e",
     "data/questions/2026-11-22-2019-text3-migration.json": "473c9c557ff612bfe746ddd9e320c49f8b08ace1747f2b0393767854cf4d330f",
+    "data/questions/2026-11-23-2019-text4-migration.json": "9443613dae857fabc1d846d7f0598a018f50414242047ca834e4c395407e1014",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "1dc65b0296082bb3764a7bb12710e919bc472cd3a91e6b12e7b1dfa7f7f07889",
-    "data/review-state.json": "3a3ed387b0a900ccde2164d04bdab60014e1d5911d9e3715e7ec5cdf5c8efda2",
+    "data/review-state.json": "0e7a17e21f0d623a14bc2992b3b41db914f4858d46989b10ee59684e3eddca7b",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1437,9 +1272,9 @@
     "data/source-checks/2016-english1.json": "1428d93df04d9dee78f942bf45033af9704e4184864d17f934db1de4e5d6335d",
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
-    "data/source-checks/2019-english1.json": "775f6609fa354734dd0162cd65b83e3ff3fa17eac71f475fd3b786762b0638cc"
+    "data/source-checks/2019-english1.json": "22e9acac5325b3ced67f7826adb7d25cc3cbc7a2aba86e953f2b7ffb03d8531a"
   },
-  "source_fingerprint": "1b9006cde030532626e1546114201ce95ff4a51d729b1a0c2aa24acee5c10597",
+  "source_fingerprint": "60950de9b4b86c929c438cf8726f9a46666eaa229434472b4b21c85f83bcab13",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

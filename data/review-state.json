@@ -1081,6 +1081,16 @@
       "observed_days": 1,
       "observation_priority": 1
     },
+    "past-participle-modifier": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-23",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
     "past-tense-happiness": {
       "streak": 0,
       "errors": 0,
@@ -1270,6 +1280,16 @@
       "reported_confusion": false,
       "observed_days": 0,
       "observation_priority": 0
+    },
+    "restrict-enable-direction": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-23",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "result-direction": {
       "streak": 0,
@@ -1710,6 +1730,16 @@
       "reported_confusion": false,
       "observed_days": 6,
       "observation_priority": 0
+    },
+    "whole-text-method-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-23",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
     },
     "with": {
       "streak": 0,

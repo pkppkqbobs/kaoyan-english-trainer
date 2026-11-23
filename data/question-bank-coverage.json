@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "scope": "Question definitions and candidate availability on the report date.",
   "summary": {
-    "source_questions": 553,
-    "available_candidates": 463,
-    "available_contexts": 459,
-    "available_families": 168,
+    "source_questions": 556,
+    "available_candidates": 466,
+    "available_contexts": 462,
+    "available_families": 171,
     "retired_questions": 90,
-    "available_reading_passages": 83
+    "available_reading_passages": 86
   },
   "families": {
     "absolute-language": {
@@ -419,6 +419,10 @@
       "candidates": 8,
       "contexts": 8
     },
+    "past-participle-modifier": {
+      "candidates": 1,
+      "contexts": 1
+    },
     "past-tense-happiness": {
       "candidates": 1,
       "contexts": 1
@@ -492,6 +496,10 @@
       "contexts": 2
     },
     "remote": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "restrict-enable-direction": {
       "candidates": 1,
       "contexts": 1
     },
@@ -670,6 +678,10 @@
     "viewpoint-fact": {
       "candidates": 2,
       "contexts": 2
+    },
+    "whole-text-method-scope": {
+      "candidates": 1,
+      "contexts": 1
     },
     "with": {
       "candidates": 2,
