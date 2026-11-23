@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-23",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 58,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-22",
-      "issue": 57,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/57",
-      "round_id": "mwrhws75-judfpykm",
-      "correct": 4,
+      "date": "2026-11-23",
+      "issue": 58,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/58",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "correct": 3,
       "total": 8,
       "uncertain": 0,
       "answer_dates": [
-        "2026-11-22"
+        "2026-11-23"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-22.json",
+      "source": "data/days/2026-11-23.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -964,10 +964,10 @@
           "focus": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-22",
-          "web_errors": 1,
+          "web_errors": 2,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-19",
+          "due": "2026-11-23",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-22",
@@ -1006,9 +1006,9 @@
           "focus": "自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-22",
-          "web_errors": 0,
+          "web_errors": 1,
           "web_streak": 0,
-          "slow_or_uncertain": false,
+          "slow_or_uncertain": true,
           "due": "2026-11-23",
           "source": {
             "path": "data/learning-notes.json",
@@ -1313,7 +1313,7 @@
     "data/article-sessions/2026-11-19-2019-cloze.json": "a4c9ec07783aca6d2c3f8d44896918f8a5f7f029f5fc39106422a2c2f4924c0b",
     "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "6fb3e34bc1a11c2c0aabb0d803e7c64067361e5325cb2166eba75e3bc5fad59b",
+    "data/daily.json": "300cc058b980b570131255a20b54fda7474cc3769cc9952d5a9feb11f278b187",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1369,7 +1369,7 @@
     "data/days/2026-11-20.json": "fe81918296f01118a76eb2f192f98422241342be85e75fc7ef98b9ccca4a1269",
     "data/days/2026-11-21.json": "96b58d53cb5a32f8246ccb30974a3cb5699f6b8049bb2a98b408dc95b8813529",
     "data/days/2026-11-22.json": "2ff7fa2366b62826011e9976fb405bb07b719139a73275d8b89a7574a0abd21c",
-    "data/days/2026-11-23.json": "6fb3e34bc1a11c2c0aabb0d803e7c64067361e5325cb2166eba75e3bc5fad59b",
+    "data/days/2026-11-23.json": "300cc058b980b570131255a20b54fda7474cc3769cc9952d5a9feb11f278b187",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "cc8999184b1947f5830817e600ce742eae5bae34727d8a155111edf204258562",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
@@ -1428,8 +1428,8 @@
     "data/questions/2026-11-21-2019-text2-migration.json": "e21a9a8d35048b46021ba28bdf169c42af025bfc5adec3f02feb95b6e274857e",
     "data/questions/2026-11-22-2019-text3-migration.json": "473c9c557ff612bfe746ddd9e320c49f8b08ace1747f2b0393767854cf4d330f",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "23af3695aed086cf34bd61a4abdd6e639d551c19584c41944394c19c36934e3d",
-    "data/review-state.json": "b3bb71173f41bdfa8c8ef85cd83b59164a811179d2cb61aa95b8b779e0c3b700",
+    "data/result-evidence.json": "1dc65b0296082bb3764a7bb12710e919bc472cd3a91e6b12e7b1dfa7f7f07889",
+    "data/review-state.json": "3a3ed387b0a900ccde2164d04bdab60014e1d5911d9e3715e7ec5cdf5c8efda2",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1439,7 +1439,7 @@
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
     "data/source-checks/2019-english1.json": "775f6609fa354734dd0162cd65b83e3ff3fa17eac71f475fd3b786762b0638cc"
   },
-  "source_fingerprint": "b75c14caf4ba0e641972a2a2090f3d8a6238cd3d6558e8e0519938148e8daf14",
+  "source_fingerprint": "1b9006cde030532626e1546114201ce95ff4a51d729b1a0c2aa24acee5c10597",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

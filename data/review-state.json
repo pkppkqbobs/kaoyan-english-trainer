@@ -57,7 +57,8 @@
     54,
     55,
     56,
-    57
+    57,
+    58
   ],
   "families": {
     "absolute-language": {
@@ -132,12 +133,12 @@
     },
     "alignment-counterbalance": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-23",
       "due": "2026-11-23",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 1
     },
     "amount-to-meaning": {
@@ -172,12 +173,12 @@
     },
     "author-stance": {
       "streak": 0,
-      "errors": 1,
-      "last": "2026-11-18",
-      "due": "2026-11-19",
+      "errors": 2,
+      "last": "2026-11-23",
+      "due": "2026-11-23",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 4,
+      "observed_days": 5,
       "observation_priority": 3
     },
     "autonomous-quick-decisions": {
@@ -522,12 +523,12 @@
     },
     "cross-paragraph-scope": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-23",
       "due": "2026-11-23",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "demolition-meaning": {
@@ -563,11 +564,11 @@
     "dnt-actor-boundary": {
       "streak": 0,
       "errors": 2,
-      "last": "2026-11-20",
-      "due": "2026-11-21",
+      "last": "2026-11-23",
+      "due": "2026-11-23",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 3,
+      "observed_days": 4,
       "observation_priority": 2
     },
     "dormant-state": {
@@ -671,14 +672,14 @@
       "observation_priority": 2
     },
     "faint": {
-      "streak": 4,
-      "errors": 1,
-      "last": "2026-10-30",
-      "due": "2026-11-13",
+      "streak": 0,
+      "errors": 2,
+      "last": "2026-11-23",
+      "due": "2026-11-23",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
-      "observed_days": 6,
-      "observation_priority": 0
+      "reported_confusion": true,
+      "observed_days": 7,
+      "observation_priority": 2
     },
     "familiar-word-polysemy": {
       "streak": 0,
@@ -853,11 +854,11 @@
     "interference-capacity": {
       "streak": 0,
       "errors": 0,
-      "last": null,
+      "last": "2026-11-23",
       "due": "2026-11-23",
-      "slow_or_uncertain": false,
+      "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 2
     },
     "intimacy-vocab": {
@@ -973,11 +974,11 @@
     "nested": {
       "streak": 0,
       "errors": 4,
-      "last": "2026-11-20",
-      "due": "2026-11-21",
+      "last": "2026-11-23",
+      "due": "2026-11-23",
       "slow_or_uncertain": true,
       "reported_confusion": true,
-      "observed_days": 25,
+      "observed_days": 26,
       "observation_priority": 2
     },
     "only-when-necessary": {
@@ -1712,12 +1713,12 @@
     },
     "with": {
       "streak": 0,
-      "errors": 0,
-      "last": "2026-11-20",
-      "due": "2026-11-21",
+      "errors": 1,
+      "last": "2026-11-23",
+      "due": "2026-11-24",
       "slow_or_uncertain": true,
       "reported_confusion": false,
-      "observed_days": 15,
+      "observed_days": 16,
       "observation_priority": 0
     },
     "woodcut-medium": {

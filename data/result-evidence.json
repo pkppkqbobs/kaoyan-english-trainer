@@ -4817,6 +4817,98 @@
       "round_id": "mwrhws75-judfpykm",
       "source_date": "2026-11-22",
       "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-23",
+      "family": "interference-capacity",
+      "ok": true,
+      "ms": 126415,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "r18t4-groups-venue",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-23",
+      "family": "faint",
+      "ok": false,
+      "ms": 34548,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "faint-praise-restoration",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "family": "alignment-counterbalance",
+      "ok": false,
+      "ms": 180082,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "r19t2-crate-standards",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23",
+      "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-23",
+      "family": "author-stance",
+      "ok": false,
+      "ms": 100488,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "r19t3-footpath-register",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23",
+      "slow_threshold_ms": 115000
+    },
+    {
+      "date": "2026-11-23",
+      "family": "with",
+      "ok": false,
+      "ms": 30137,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "refresh-with-unsigned-loans",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "family": "cross-paragraph-scope",
+      "ok": false,
+      "ms": 162790,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "r19t3-workshop-ledgers",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23",
+      "slow_threshold_ms": 115000
+    },
+    {
+      "date": "2026-11-23",
+      "family": "nested",
+      "ok": true,
+      "ms": 65636,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "refresh-nested-festival-programme",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-23",
+      "family": "dnt-actor-boundary",
+      "ok": true,
+      "ms": 52144,
+      "uncertain": false,
+      "origin": 58,
+      "qid": "dnt-vendors-messages-b",
+      "round_id": "mwt1j1z3-doer5w3f",
+      "source_date": "2026-11-23"
     }
   ],
   "issues": [
@@ -4876,6 +4968,7 @@
     54,
     55,
     56,
-    57
+    57,
+    58
   ]
 }
