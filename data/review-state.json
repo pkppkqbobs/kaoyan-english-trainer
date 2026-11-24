@@ -1041,6 +1041,16 @@
       "observed_days": 3,
       "observation_priority": 3
     },
+    "paragraph-order-cataphora": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-24",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "paragraph-order-discourse": {
       "streak": 2,
       "errors": 3,
@@ -1682,6 +1692,16 @@
       "observation_priority": 0
     },
     "travel-provider": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-24",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
+    "undermine-context": {
       "streak": 0,
       "errors": 0,
       "last": null,

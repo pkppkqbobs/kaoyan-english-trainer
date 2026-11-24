@@ -8114,5 +8114,260 @@
     "training_targets": [
       "区分形容词 even 的均等、平整、偶数用法与副词 even 的强调用法"
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "received_on": "2026-11-24",
+    "session_id": "2026-11-24-2019-partb",
+    "source_exam": "2019-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "evidence_basis": "用户提供的纸质真题教学复盘文字，含确认的排序、原话和教学对话辨认的画框。",
+    "family": "paragraph-order-cataphora",
+    "kind": "user_reported_wrong",
+    "scope": "confirmed_paper_position",
+    "source_question": 41,
+    "reported_pick": "D",
+    "expected": "E",
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "paper_wrong_confirmed": true,
+    "training_priority": 1,
+    "user_quote": "怎么会是ED不是DE啊，his出现在第一段不合适吧，不应该先出人名吗",
+    "user_reported_reasoning": "把D排在E前，因为认为E段his必须先有人名。E同句随后给出Dale Carnegie。纸质后五段F→G→B→C→A正确。",
+    "scope_of_error": "第41、42空来自同一次开头对调。",
+    "paper_outcome": {
+      "evidence_status": "user_confirmed_paper_answers",
+      "question_range": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "reported_correct_count": 3,
+      "reported_total": 5,
+      "reported_all_correct": false,
+      "reported_points": {
+        "earned": 6,
+        "total": 10,
+        "points_per_scored_position": 2
+      },
+      "reported_final_choice_letters": {
+        "41": "D",
+        "42": "E",
+        "43": "G",
+        "44": "B",
+        "45": "A"
+      },
+      "reference_choice_letters": {
+        "41": "E",
+        "42": "D",
+        "43": "G",
+        "44": "B",
+        "45": "A"
+      },
+      "reported_question_correctness": {
+        "41": false,
+        "42": false,
+        "43": true,
+        "44": true,
+        "45": true
+      },
+      "reported_full_order": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "B",
+        "C",
+        "A"
+      ],
+      "reference_full_order": [
+        "E",
+        "D",
+        "F",
+        "G",
+        "B",
+        "C",
+        "A"
+      ],
+      "fixed_paragraphs": [
+        "C",
+        "F"
+      ],
+      "fixed_positions": {
+        "3": "F",
+        "6": "C"
+      },
+      "first_choices": "unknown",
+      "revisions": "unknown",
+      "not_a_web_score": true
+    },
+    "ordering_strategy": {
+      "user_quote": "怎么会是ED不是DE啊，his出现在第一段不合适吧，不应该先出人名吗",
+      "summary": "开头D、E互换，F→G→B→C→A正确。用户认为his必须在人名之后。E的his在同一句前指Dale Carnegie，D再用姓氏承接已引入的观点。",
+      "evidence_scope": "confirmed_opening_swap_and_reported_pronoun_reasoning",
+      "full_passage_comprehension": "not_reported",
+      "confirmed_reasoning": {
+        "proposed_link": [
+          "D",
+          "E"
+        ],
+        "mechanism": "cataphoric_reference",
+        "basis": "用户看到E的his先于Dale Carnegie，认为必须先有姓名，于是把D排在E之前。"
+      },
+      "teaching_correction": "先在当前句内核对his可能指谁。E中his和主句主语Dale Carnegie共指，句子自身提供所指。D的姓氏和对观点的回应都承接E。",
+      "adjacent_links": [
+        {
+          "from": "E",
+          "to": "D",
+          "relation": "同句前指、人物介绍与观点承接",
+          "basis": "E句首的his修饰著作，同一句稍后给出主语Dale Carnegie，并引入他的主张。D用姓氏Carnegie继续讨论该主张在什么条件下成立。"
+        },
+        {
+          "from": "D",
+          "to": "F",
+          "relation": "对争论的比喻到其后果",
+          "basis": "F开头的These views接上D把争论看作打架或体育竞赛的观点，并说明这种胜负观如何削弱理性。"
+        },
+        {
+          "from": "F",
+          "to": "G",
+          "relation": "从胜负竞争转向另一种争论方式",
+          "basis": "F说明靠攻击或糟糕论据获胜也无法促进理解。G用最低工资的讨论示例，展示有理由的分歧如何帮助双方发现共同价值。"
+        },
+        {
+          "from": "G",
+          "to": "B",
+          "relation": "成功例子到现实中的讨论原则",
+          "basis": "B承认讨论往往达不到G的效果，于是提出用同一标准评价自己与对方论据等原则。"
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "relation": "原则回指与操作展开",
+          "basis": "C开头的None of these回指B的一组要求，再说明如何提出、理解和公平评价论据。"
+        },
+        {
+          "from": "C",
+          "to": "A",
+          "relation": "方法回指与全文收束",
+          "basis": "A用These tools归纳C的操作步骤，并将赢的意义落到理解分歧、合作和相互尊重。"
+        }
+      ],
+      "observed_adjacent_matches": [
+        "F>G",
+        "G>B",
+        "B>C",
+        "C>A"
+      ],
+      "other_position_reasoning": "unknown",
+      "recommended_priority": "high_for_opening_reference"
+    },
+    "training_targets": [
+      "句内前指与主句主语",
+      "人物首次登场和下段姓氏回指",
+      "所引观点和后文评价",
+      "段间this/these的回指范围"
+    ],
+    "note": "先看本句是否已完整引入人物。E在同一句交代著作、作者和引语；D承接这个人和他的主张。此卷后三个计分空正确，全文理解及其他判断过程未报告。"
+  },
+  {
+    "date": "2026-11-24",
+    "received_on": "2026-11-24",
+    "session_id": "2026-11-24-2019-partb",
+    "source_exam": "2019-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "evidence_basis": "用户提供的纸质真题教学复盘文字，含确认的排序、原话和教学对话辨认的画框。",
+    "family": "paragraph-order-cataphora",
+    "kind": "user_reported_wrong",
+    "scope": "confirmed_paper_position",
+    "source_question": 42,
+    "reported_pick": "E",
+    "expected": "D",
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "paper_wrong_confirmed": true,
+    "training_priority": 2,
+    "user_reported_reasoning": "确认的最终排序DEFGBCA中，第42空填E。第41、42空是同一开头顺序问题，逐空初选和改选未知。",
+    "note": "第42空标准D。由E先交代卡耐基的主张，D才能回应；接着固定段F指回D中把争论看作竞赛的看法。"
+  },
+  {
+    "date": "2026-11-24",
+    "received_on": "2026-11-24",
+    "session_id": "2026-11-24-2019-partb",
+    "source_exam": "2019-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "evidence_basis": "用户提供的纸质真题教学复盘文字，含确认的排序、原话和教学对话辨认的画框。",
+    "family": "partb-historical-references",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_spans": [
+      "Carnegie"
+    ],
+    "source_paragraphs": [
+      "E",
+      "D"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "戴尔·卡耐基的姓。首段用全名引入作者和引语，后段仅写姓氏继续讨论。",
+    "lexical_status": "proper_name_identification",
+    "review_importance": "low",
+    "practice_plan": "glossary_only"
+  },
+  {
+    "date": "2026-11-24",
+    "received_on": "2026-11-24",
+    "session_id": "2026-11-24-2019-partb",
+    "source_exam": "2019-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "evidence_basis": "用户提供的纸质真题教学复盘文字，含确认的排序、原话和教学对话辨认的画框。",
+    "family": "dismal-prospects",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_spans": [
+      "dismal"
+    ],
+    "source_paragraphs": [
+      "D"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "惨淡的、暗淡的。修饰prospects时形容前景很差，也可评价表现。",
+    "practice_plan": "contextual_support"
+  },
+  {
+    "date": "2026-11-24",
+    "received_on": "2026-11-24",
+    "session_id": "2026-11-24-2019-partb",
+    "source_exam": "2019-english1",
+    "source_part": "Part B 段落排序",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2019-english1.json",
+    "evidence_basis": "用户提供的纸质真题教学复盘文字，含确认的排序、原话和教学对话辨认的画框。",
+    "family": "undermine-context",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_spans": [
+      "undermine"
+    ],
+    "source_paragraphs": [
+      "F"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "削弱或损害某事物的基础，例如理性、信心或信任。",
+    "practice_plan": "daily_contextual_transfer"
   }
 ]

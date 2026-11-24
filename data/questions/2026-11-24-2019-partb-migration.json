@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pb19-chart-blanks",
+    "family": "paragraph-order-cataphora",
+    "context_id": "coastal-archive-map-blanks-first-assumption",
+    "introduced": "2026-11-24",
+    "published_on": "2026-11-24",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "When she began cataloguing a collection of hand-drawn coastal maps, the archivist Lena Duarte assumed that every blank marked a stretch of coast that the surveyor, Ada Bell, had been unable to reach. A work diary showed otherwise. Bell had left those areas blank deliberately when the depth readings were too uncertain to publish.\n\nDuarte now keeps the blanks in the digital edition. Filling them with data from newer surveys would make the maps more useful to sailors, but it would hide the limits of what Bell knew at the time. The edition is meant to show how surveyors worked, and those limits are part of the record.",
+    "q": "What did Duarte initially take the blanks to mean?",
+    "o": [
+      "The surveyor had decided to withhold uncertain readings.",
+      "The surveyor could not reach those parts of the coast.",
+      "Some measurements had gone missing from the archive.",
+      "The maps were meant to be updated after later surveys."
+    ],
+    "a": 1,
+    "target": "同句前指与两个人物的判断归属",
+    "skill": "同句前指与两个人物的判断归属",
+    "origin_session": "2026-11-24-2019-partb",
+    "answer_support": "marked a stretch of coast that the surveyor, Ada Bell, had been unable to reach",
+    "exp": {
+      "trans": "档案员杜阿尔特最初以为地图上的空白代表测绘员贝尔到不了那些海岸。日记说明贝尔测得了数据，只是数据太不确定，她有意留白。数字版保留空白来呈现当时知识的局限。",
+      "structure": "第一句 When she began ... 的 she 指后面的 Lena Duarte。主句 Duarte assumed ... 交代档案员最初的解释，that从句中的 Ada Bell 是原测绘员。第二段交代档案员看过日记后的决策。",
+      "other": "catalogue 编目、登记，depth reading 水深读数，withhold 暂不公布。",
+      "meaning": "initially 限定档案员最初的判断。她当时以为贝尔无法到达空白所对应的海岸。",
+      "rest": "故意不发布不确定读数是日记揭示的原因。原文未提及读数遗失。用后来的数据补图只是第二段提出的一种可能做法。"
+    }
+  },
+  {
+    "id": "pb19-orchard-agreement",
+    "family": "paragraph-order-cataphora",
+    "context_id": "orchard-machine-costs-shared-need-versus-payment",
+    "introduced": "2026-11-24",
+    "published_on": "2026-11-24",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "Whatever their differences over how to divide the cost, orchard owners Rosa Méndez and Daniel Hart agreed that the village needed a way to share equipment. Méndez wanted each farm to make a fixed payment for access. Hart proposed charging by the hour, arguing that a small grower could otherwise pay as much as a neighbour with three times as much land.\n\nThe village adopted Hart's plan after a vote. That choice settled how the cost would be shared, but it left a question open. Who would get a machine when several orchards needed it on the same day? The answer required a booking rule of its own.",
+    "q": "The agreement mentioned at the beginning of the text concerned",
+    "o": [
+      "the amount each farm should pay for access.",
+      "the method for working out the hourly charges.",
+      "the order in which farms should get equipment.",
+      "the need for village farms to share equipment."
+    ],
+    "a": 3,
+    "target": "句内前指、共同立场与后段对个人提案的承接",
+    "skill": "句内前指、共同立场与后段对个人提案的承接",
+    "origin_session": "2026-11-24-2019-partb",
+    "answer_support": "agreed that the village needed a way to share equipment",
+    "exp": {
+      "trans": "两位果园主都认为村里需要共享设备，对分摊费用各有看法。村里投票采纳按时计费的提案，预约优先顺序仍待解决。",
+      "structure": "Whatever their differences ... 先承认分歧，再由主句给出人名和共同观点。their指后面的两位果园主。第二段用姓氏接上Hart提出的计费方案，That choice回指村里投票采纳这一方案。",
+      "other": "orchard 果园，fixed payment 固定缴费，by the hour 按小时，leave a question open 使问题悬而未决。",
+      "meaning": "题干问一开始双方都同意的事。两人同意共享设备这一需要，费用怎么分是随后才交代的分歧。",
+      "rest": "定额是Méndez的建议，按时收费是Hart的建议。哪家先用属于最后提出的预约问题。"
+    }
+  },
+  {
+    "id": "pb19-apprenticeship-figures",
+    "family": "undermine-context",
+    "context_id": "apprenticeship-employer-retention-and-public-trust",
+    "introduced": "2026-11-24",
+    "published_on": "2026-11-24",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "Early figures for a city's apprenticeship programme looked dismal. Six months after training ended, fewer than a third of the apprentices still worked for the firms that had trained them. The city was about to withdraw funding. Then a follow-up survey found that many of the trainees counted as dropouts were already working for other firms in the same trade.\n\nA poorly chosen measure can undermine public confidence in a programme that is doing its job. The city wanted people to enter a trade, and staying with one employer was only one way of doing so. Future reports should count apprentices who find work in the trade, wherever they end up.",
+    "q": "What effect does the author say the early figures could have?",
+    "o": [
+      "They could put pressure on firms to keep trainees.",
+      "They could draw more applicants to training schemes.",
+      "They could weaken public trust in the programme.",
+      "They could make trainees doubt their choice of trade."
+    ],
+    "a": 2,
+    "target": "dismal 的负面评价与 undermine confidence 的语境",
+    "skill": "dismal 的负面评价与 undermine confidence 的语境",
+    "origin_session": "2026-11-24-2019-partb",
+    "answer_support": "A poorly chosen measure can undermine public confidence in a programme that is doing its job",
+    "exp": {
+      "trans": "学徒项目最早的数据很惨淡，市方几乎要停拨经费。后来发现，很多被算作流失的人其实还在同一行业工作。用单个雇主的留任率衡量入行情况，会削弱公众对项目的信心。",
+      "structure": "首段先交代旧指标显示的糟糕表现，再用跟踪调查指出指标遗漏。第二段评价这种测量的影响，然后提出新的统计口径。",
+      "other": "dismal 形容表现惨淡，dropout 退出者，trade 此处指行业或职业，withdraw funding 撤回资助。",
+      "meaning": "undermine public confidence 表示损害公众信心。前面看起来很差的数据不能反映所有学徒去向，却可能使公众降低对项目的信任。",
+      "rest": "原文写了项目信任及经费面临风险。公司受压留人、报名人数上升和学徒怀疑所选行业都没有文本依据。"
+    }
+  }
+]

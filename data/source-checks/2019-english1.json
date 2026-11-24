@@ -1,7 +1,7 @@
 {
   "exam": "2019-english1",
-  "checked_on": "2026-11-23",
-  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形；Reading Text 4 Q38、Q40来源分歧及词句",
+  "checked_on": "2026-11-24",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形；Reading Text 4 Q38、Q40来源分歧及词句；Part B Q41–45、固定段位置、开头前指及段间连接",
   "sources": [
     {
       "id": "eol-wendu-2019-cloze",
@@ -80,6 +80,24 @@
       "title": "英语真题网2019英语一阅读理解Text 4原文、答案与逐题解析",
       "url": "https://www.yingyuzhenti.com/papers/2019-english-one/reading-text-4",
       "covers": "核对第38题为C和第40题选项文字、支持第40题A的全文分析，复核三个词句的原文形态。"
+    },
+    {
+      "id": "xdf-2019-part-b",
+      "title": "新东方网2019考研英语一阅读新题型参考答案及解析",
+      "url": "https://kaoyan.xdf.cn/201906/10927536_2.html",
+      "covers": "五个计分空为E、D、G、B、A，首两段先引入卡耐基和他的主张，再讨论主张的前提。"
+    },
+    {
+      "id": "yingyuzhenti-2019-part-b",
+      "title": "英语真题网2019英语一新题型原文与解析",
+      "url": "https://www.yingyuzhenti.com/papers/2019-english-one/new-type",
+      "covers": "核对固定段F、C的位置、词形和六组连接证据。画框来源为用户交接。"
+    },
+    {
+      "id": "cambridge-reference-cataphora",
+      "title": "University of Cambridge L90 lectures: referring expressions",
+      "url": "https://www.cl.cam.ac.uk/teaching/1516/L90/lectures.pdf",
+      "covers": "前指允许代词出现在引入其所指的人名或描述之前。具体所指仍由句法和语境共同确定。"
     }
   ],
   "answers": {
@@ -95,7 +113,12 @@
     "30": "B",
     "31": "C",
     "34": "A",
-    "38": "C"
+    "38": "C",
+    "41": "E",
+    "42": "D",
+    "43": "G",
+    "44": "B",
+    "45": "A"
   },
   "answer_words": {
     "4": "literally",
@@ -106,8 +129,8 @@
     "29": "identical",
     "34": "affirmation"
   },
-  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。 Text 3第31、34题的参考答案与本次交接一致。 Text 4第38题对照选项文字为C；第40题A、D为不同写作方式。",
-  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。 阅读Text 4只确认第38题最终选B；第40题仅确认认为C有依据，第36、37、39题及全篇总分未知。",
+  "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。 Text 3第31、34题的参考答案与本次交接一致。 Text 4第38题对照选项文字为C；第40题A、D为不同写作方式。 Part B第41–45空参考为E、D、G、B、A，F固定在第3位，C固定在第6位。",
+  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。 阅读Text 4只确认第38题最终选B；第40题仅确认认为C有依据，第36、37、39题及全篇总分未知。 Part B确认最终顺序与开头对调的理由；逐空初选、改选及其他判断过程未知。",
   "reading_text_1": {
     "question_23_option_order": [
       "indirect",
@@ -197,5 +220,73 @@
       "option_order_warning": "已按选项全文语义确认两种解释实际不同。新东方网把 cites 拼作 cities，所指仍是援引案例的D项。",
       "policy": "教学优先用A解释全文结构。答案表不设单一键，用户最终选择保持未知。"
     }
+  },
+  "part_b": {
+    "topic": "如何进行有意义的争论",
+    "reference_full_order": [
+      "E",
+      "D",
+      "F",
+      "G",
+      "B",
+      "C",
+      "A"
+    ],
+    "fixed_positions": {
+      "3": "F",
+      "6": "C"
+    },
+    "scored_questions": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "adjacent_links": [
+      {
+        "from": "E",
+        "to": "D",
+        "relation": "同句前指、人物介绍与观点承接",
+        "basis": "E句首的his修饰著作，同一句稍后给出主语Dale Carnegie，并引入他的主张。D用姓氏Carnegie继续讨论该主张在什么条件下成立。"
+      },
+      {
+        "from": "D",
+        "to": "F",
+        "relation": "对争论的比喻到其后果",
+        "basis": "F开头的These views接上D把争论看作打架或体育竞赛的观点，并说明这种胜负观如何削弱理性。"
+      },
+      {
+        "from": "F",
+        "to": "G",
+        "relation": "从胜负竞争转向另一种争论方式",
+        "basis": "F说明靠攻击或糟糕论据获胜也无法促进理解。G用最低工资的讨论示例，展示有理由的分歧如何帮助双方发现共同价值。"
+      },
+      {
+        "from": "G",
+        "to": "B",
+        "relation": "成功例子到现实中的讨论原则",
+        "basis": "B承认讨论往往达不到G的效果，于是提出用同一标准评价自己与对方论据等原则。"
+      },
+      {
+        "from": "B",
+        "to": "C",
+        "relation": "原则回指与操作展开",
+        "basis": "C开头的None of these回指B的一组要求，再说明如何提出、理解和公平评价论据。"
+      },
+      {
+        "from": "C",
+        "to": "A",
+        "relation": "方法回指与全文收束",
+        "basis": "A用These tools归纳C的操作步骤，并将赢的意义落到理解分歧、合作和相互尊重。"
+      }
+    ],
+    "boxed_vocabulary_from_teaching_handoff": [
+      "Carnegie",
+      "dismal",
+      "undermine"
+    ],
+    "proper_name": "Carnegie",
+    "mark_rule": "画框用于登记翻译困难，横线用于定位重要信息。"
   }
 }

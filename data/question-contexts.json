@@ -646,7 +646,10 @@
     "r19t3-stage-cues": "r19t3-theatre-live-cues-delegated-timing",
     "r19t4-catalogue-drafts": "r19t4-catalogue-drafts-early-access",
     "r19t4-bus-transfer-timetable": "r19t4-bus-transfer-departure-times",
-    "r19t4-courtyard-screening-report": "r19t4-courtyard-screening-author-and-endorsement"
+    "r19t4-courtyard-screening-report": "r19t4-courtyard-screening-author-and-endorsement",
+    "pb19-chart-blanks": "coastal-archive-map-blanks-first-assumption",
+    "pb19-orchard-agreement": "orchard-machine-costs-shared-need-versus-payment",
+    "pb19-apprenticeship-figures": "apprenticeship-employer-retention-and-public-trust"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",
