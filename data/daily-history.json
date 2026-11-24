@@ -558,5 +558,15 @@
     "r19t3-workshop-ledgers",
     "refresh-nested-festival-programme",
     "dnt-vendors-messages-b"
+  ],
+  "2026-11-24": [
+    "r19t4-bus-transfer-timetable",
+    "r19t3-stage-cues",
+    "process-stage-shipment-hold-decision-d",
+    "pb17-report-dependence",
+    "refresh-conceivably-course-fees",
+    "r19t4-catalogue-drafts",
+    "r19t2-research-samples",
+    "parallel-governance-control-panel"
   ]
 }
