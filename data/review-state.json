@@ -112,6 +112,16 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "adverb-degree-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
     "adverse-impact-dimension": {
       "streak": 0,
       "errors": 0,
@@ -271,6 +281,26 @@
       "reported_confusion": true,
       "observed_days": 1,
       "observation_priority": 2
+    },
+    "calendar-temperature-prepositions": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
+    },
+    "campaign-vs-promise": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "career-evidence": {
       "streak": 3,
@@ -812,6 +842,26 @@
       "observed_days": 0,
       "observation_priority": 1
     },
+    "if-not-for-scope": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
+    "incorporate-word-family": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "indulgence-vocab": {
       "streak": 0,
       "errors": 0,
@@ -931,6 +981,16 @@
       "reported_confusion": true,
       "observed_days": 0,
       "observation_priority": 1
+    },
+    "match-equal-verb": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "modal-stage": {
       "streak": 0,
@@ -1100,7 +1160,7 @@
       "slow_or_uncertain": true,
       "reported_confusion": true,
       "observed_days": 1,
-      "observation_priority": 1
+      "observation_priority": 3
     },
     "past-tense-happiness": {
       "streak": 0,
@@ -1292,6 +1352,16 @@
       "observed_days": 0,
       "observation_priority": 0
     },
+    "research-post-meaning": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 2
+    },
     "restrict-enable-direction": {
       "streak": 0,
       "errors": 0,
@@ -1360,6 +1430,16 @@
       "slow_or_uncertain": true,
       "reported_confusion": true,
       "observed_days": 2,
+      "observation_priority": 3
+    },
+    "serve-up-make-up": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
       "observation_priority": 3
     },
     "sharp-hit-impact": {
@@ -1783,6 +1863,16 @@
       "observation_priority": 1
     },
     "workout-how-ellipsis": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-25",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 1
+    },
+    "yet-another-function": {
       "streak": 0,
       "errors": 0,
       "last": null,

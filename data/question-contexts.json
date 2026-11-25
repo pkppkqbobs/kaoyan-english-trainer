@@ -650,7 +650,17 @@
     "pb19-chart-blanks": "coastal-archive-map-blanks-first-assumption",
     "pb19-orchard-agreement": "orchard-machine-costs-shared-need-versus-payment",
     "pb19-apprenticeship-figures": "apprenticeship-employer-retention-and-public-trust",
-    "pb19-orchard-reference": "orchard-machine-costs-shared-need-versus-payment"
+    "pb19-orchard-reference": "orchard-machine-costs-shared-need-versus-payment",
+    "pc19-if-not-for-newsreels": "local-film-archive-online-access-donor-agreement",
+    "pc19-if-not-for-evening-slot": "community-broadcast-programming-existing-music-slot",
+    "pc19-incorporate-workshop-booklet": "training-workshops-booklet-revision-versus-coordination",
+    "pc19-post-clock-restoration": "clock-collection-vacancy-versus-web-post",
+    "cl20-preposition-gallery-trials": "print-gallery-light-trial-specific-day-and-controlled-temperature",
+    "cl20-partial-noise-filter": "audio-archive-filter-strength-versus-subset-or-frequency",
+    "cl20-served-up-concert": "outdoor-music-series-programme-versus-prepared-kits",
+    "cl20-campaign-river-walk": "river-walk-outreach-effort-versus-bridge-pledge",
+    "cl20-yet-another-fee": "marketplace-shipping-fees-addition-versus-contrast",
+    "cl20-match-accuracy": "music-digitisation-accuracy-compared-across-methods"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

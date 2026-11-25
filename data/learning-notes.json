@@ -8369,5 +8369,729 @@
     "marking_evidence": "reported_photo_box_identification",
     "note": "削弱或损害某事物的基础，例如理性、信心或信任。",
     "practice_plan": "daily_contextual_transfer"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2019-english1",
+    "source_part": "Part C 翻译",
+    "session_id": "2026-11-25-2019-part-c",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "nested",
+    "kind": "user_reported_confusion",
+    "scope": "paper_translation",
+    "source_question": null,
+    "translation_question": 46,
+    "training_priority": 4,
+    "source_spans": [
+      "which … generates",
+      "when taken up",
+      "the lay press"
+    ],
+    "user_reported_reasoning": "第46题翻译。基本理解了部分句义，关系词所指和插入时间结构处理不完整。媒体语境中的 take up 也需巩固。",
+    "note": "which 的所指由单数 generates 和语义共同确定，指前面的荒谬说法。两逗号间可还原为 when it is taken up，媒体报道是引发恐慌和短期饮食风尚的条件。",
+    "training_targets": [
+      "关系词所指与动词单复数",
+      "插入的 when 加过去分词",
+      "媒体语境中的 take up"
+    ],
+    "translation_review": {
+      "status": "partial_understanding",
+      "reported_score": null,
+      "assessment": "基本理解了部分句义，关系词所指和插入时间结构处理不完整。媒体语境中的 take up 也需巩固。"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2019-english1",
+    "source_part": "Part C 翻译",
+    "session_id": "2026-11-25-2019-part-c",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "research-post-meaning",
+    "kind": "user_reported_confusion",
+    "scope": "paper_translation",
+    "source_question": null,
+    "translation_question": 47,
+    "training_priority": 3,
+    "source_spans": [
+      "research post",
+      "have to have published",
+      "twice the number of papers"
+    ],
+    "user_reported_reasoning": "第47题翻译。把 research post 理解成研究文章，倍数关系也未准确表达。",
+    "note": "apply for a post 是申请职位。have to have published 表示申请时须已经发表。论文数是十年前同一岗位所要求数量的两倍，比较基准由后置从句给出。",
+    "training_targets": [
+      "职位 post 与文章、帖子等名词义",
+      "义务与完成时序",
+      "数量倍数与历史基准"
+    ],
+    "translation_review": {
+      "status": "confirmed_mistranslation",
+      "reported_score": null,
+      "assessment": "把 research post 理解成研究文章，倍数关系也未准确表达。"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2019-english1",
+    "source_part": "Part C 翻译",
+    "session_id": "2026-11-25-2019-part-c",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "incorporate-word-family",
+    "kind": "user_reported_confusion",
+    "scope": "paper_translation",
+    "source_question": null,
+    "translation_question": 48,
+    "training_priority": 2,
+    "source_spans": [
+      "incorporate A into B",
+      "quality as well as quantity"
+    ],
+    "user_reported_reasoning": "第48题翻译。incorporate 的语境义不稳，用户主动把它与 corporate、cooperate、coordinate 联系起来询问。",
+    "note": "把质量和数量的衡量都纳入论文评估。incorporate A into B 要区分被纳入的内容 A 与接纳它的整体 B。",
+    "training_targets": [
+      "incorporate A into B",
+      "词性与动作对象",
+      "cooperate 与 coordinate 的搭配"
+    ],
+    "translation_review": {
+      "status": "reported_collocation_difficulty",
+      "reported_score": null,
+      "assessment": "incorporate 的语境义不稳，用户主动把它与 corporate、cooperate、coordinate 联系起来询问。"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2019-english1",
+    "source_part": "Part C 翻译",
+    "session_id": "2026-11-25-2019-part-c",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "if-not-for-scope",
+    "kind": "user_reported_confusion",
+    "scope": "paper_translation",
+    "source_question": null,
+    "translation_question": 49,
+    "training_priority": 1,
+    "source_spans": [
+      "if it were not for",
+      "can easily arrange"
+    ],
+    "user_reported_reasoning": "第49题翻译。用户把“不再”放在“可以”之后，误让条件里的 not 修饰 can arrange。",
+    "note": "如果没有自引或互引这个现实因素，按引用次数评价才有道理。not 属于 if it were not for。that 从句交代现实情况，科学家能够安排引文。",
+    "training_targets": [
+      "虚拟条件中的现实阻碍",
+      "否定只覆盖哪一层",
+      "与 no longer 或 cannot 的区别"
+    ],
+    "translation_review": {
+      "status": "confirmed_negation_scope_error",
+      "reported_score": null,
+      "assessment": "用户把“不再”放在“可以”之后，误让条件里的 not 修饰 can arrange。"
+    },
+    "user_quote": "49我在那个可以后面加了不再。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2019-english1",
+    "source_part": "Part C 翻译",
+    "session_id": "2026-11-25-2019-part-c",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "reproducible-science-meaning",
+    "kind": "user_reported_confusion",
+    "scope": "paper_translation",
+    "source_question": null,
+    "translation_question": 50,
+    "training_priority": 5,
+    "source_spans": [
+      "meaningful and reproducible"
+    ],
+    "user_reported_reasoning": "第50题翻译。手写译文基本正确，已经抓住 if、两个 ensure that 和 both…and。reproducible 的科研语境义仍需巩固。",
+    "note": "reproducible 在这里指采用相应程序后能够复现、复核研究结果。文中的主张是科研机构应鼓励有意义和可复现的研究。",
+    "training_targets": [
+      "reproducible 在科研语境中的含义"
+    ],
+    "translation_review": {
+      "status": "mostly_understood",
+      "reported_score": null,
+      "assessment": "手写译文基本正确，已经抓住 if、两个 ensure that 和 both…and。reproducible 的科研语境义仍需巩固。"
+    },
+    "review_importance": "low"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2019-english1",
+    "source_part": "Part C 翻译",
+    "session_id": "2026-11-25-2019-part-c",
+    "source_check": "data/source-checks/2019-english1.json",
+    "family": "incorporate-word-family",
+    "kind": "translation_difficulty",
+    "scope": "linked_word_question",
+    "source_question": null,
+    "translation_question": 48,
+    "mark_type": "active_question",
+    "source_spans": [
+      "incorporate",
+      "corporate",
+      "cooperate",
+      "coordinate"
+    ],
+    "marking_evidence": "direct_user_question",
+    "user_quote": "我记得还有个长得很像的单词意思是协调。",
+    "user_asked_for": "coordinate",
+    "linked_terms": {
+      "incorporate": {
+        "pos": "verb",
+        "meaning": "纳入、整合",
+        "patterns": [
+          "incorporate A into B"
+        ],
+        "noun": "incorporation"
+      },
+      "corporate": {
+        "pos": "adjective",
+        "meaning": "公司的、企业的",
+        "patterns": [
+          "corporate culture"
+        ],
+        "related_noun": "corporation"
+      },
+      "cooperate": {
+        "pos": "verb",
+        "meaning": "合作",
+        "patterns": [
+          "cooperate with someone",
+          "cooperate on a project"
+        ],
+        "noun": "cooperation"
+      },
+      "coordinate": {
+        "pos": "verb",
+        "meaning": "协调、统筹",
+        "patterns": [
+          "coordinate activities",
+          "coordinate with someone"
+        ],
+        "noun": "coordination",
+        "role_noun": "coordinator",
+        "another_noun_sense": "坐标"
+      }
+    },
+    "noun_contrast": {
+      "corporation": "公司、法人企业",
+      "cooperation": "合作行为"
+    },
+    "note": "用户主动找“协调”的形近词，确认是 coordinate。规范拼写采用 cooperate。用搭配区分纳入内容、公司属性、一起做事、安排配合。",
+    "training_targets": [
+      "判断动作和词性",
+      "使用 incorporate into、cooperate with 和 coordinate activities",
+      "区分 corporation 和 cooperation"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "calendar-temperature-prepositions",
+    "kind": "user_reported_wrong",
+    "scope": "particular_day_preposition",
+    "source_question": 1,
+    "reported_pick": "A",
+    "reported_word": "In",
+    "expected": "C",
+    "expected_word": "On",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "change_reported_first_letter_unknown",
+    "user_reported_reasoning": "自述第一段没完全看懂，不确定具体哪种介词，最终填 In。前期曾觉得选对，报告后来改错，未给首次字母。",
+    "note": "day 是某个具体日子，用 on。季节、月份或年份表示一个时间范围时常用 in。",
+    "source_spans": [
+      "on a cold winter’s day"
+    ],
+    "training_targets": [
+      "识别具体某天与较长的时期"
+    ],
+    "training_priority": 2,
+    "user_quote": "我1选了A，我真不知道介词具体该咋选，相似的题6我也选错了选了D，我虽然这些介词题一开始感觉选对了但又瞎改错了。",
+    "reported_uncertainty": "介词选择曾觉得正确，后来改错，前一选项未知。",
+    "paper_outcome": {
+      "evidence_status": "partial_user_reported_paper_answers",
+      "question_range": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "reported_final_choice_letters": {
+        "1": "A",
+        "2": "D",
+        "4": "C",
+        "6": "D",
+        "8": "B",
+        "16": "A",
+        "19": "A"
+      },
+      "reference_choice_letters": {
+        "1": "C",
+        "2": "A",
+        "4": "D",
+        "6": "B",
+        "8": "A",
+        "16": "B",
+        "19": "C"
+      },
+      "confirmed_paper_wrong_questions": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        16,
+        19
+      ],
+      "final_choices_unknown": [
+        3,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "reported_score": null,
+      "reported_correct_count": null,
+      "reported_total": null,
+      "not_a_web_score": true
+    },
+    "passage_comprehension": {
+      "status": "partial_understanding_self_report",
+      "scope": "opening_paragraph",
+      "user_quote": "这个第一段我确实看的不是很懂"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "match-equal-verb",
+    "kind": "user_reported_wrong",
+    "scope": "verb_meaning_in_comparison",
+    "source_question": 2,
+    "reported_pick": "D",
+    "reported_word": "influence",
+    "expected": "A",
+    "expected_word": "match",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "user_reported_reasoning": "用户确认第2题最终选 influence，未说明更具体的选词理由。",
+    "note": "这句话先评价美味，其他美食体验很少能与这餐媲美。match 表示相当、匹敌；influence 描述对人、事等施加影响。",
+    "source_spans": [
+      "few culinary pleasures can match it"
+    ],
+    "training_targets": [
+      "从上下文区分评价比较与影响关系"
+    ],
+    "training_priority": 6
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "past-participle-modifier",
+    "kind": "user_reported_wrong",
+    "scope": "postnominal_participle_and_collocation",
+    "source_question": 4,
+    "reported_pick": "C",
+    "reported_word": "compelled",
+    "expected": "D",
+    "expected_word": "guaranteed",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "user_reported_reasoning": "用户确认最终填 compelled，未提供更具体的选择过程。",
+    "note": "过去分词结构补充描述享受被说成必然有害。guaranteed to 表示被断言会发生；compel 通常描述由外力迫使某个主体采取行动。",
+    "source_spans": [
+      "guaranteed to damage",
+      "compel someone to do"
+    ],
+    "training_targets": [
+      "过去分词修饰对象",
+      "保证结果与强迫主体的区别"
+    ],
+    "training_priority": 7
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "calendar-temperature-prepositions",
+    "kind": "user_reported_wrong",
+    "scope": "temperature_as_measured_condition",
+    "source_question": 6,
+    "reported_pick": "D",
+    "reported_word": "by",
+    "expected": "B",
+    "expected_word": "at",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "change_reported_first_letter_unknown",
+    "user_reported_reasoning": "用户把第6题和第1题并列为介词犹豫，最终填 by。报告先觉得选对又改错，首次字母未知。",
+    "note": "at 引出烹饪时的温度条件。对照 under pressure 强调所受条件，by 可说明方式等。",
+    "source_spans": [
+      "at high temperatures",
+      "at room temperature"
+    ],
+    "training_targets": [
+      "以 at 引出温度数值或温度条件",
+      "区分条件与做事方式"
+    ],
+    "training_priority": 4,
+    "user_quote": "我1选了A，我真不知道介词具体该咋选，相似的题6我也选错了选了D，我虽然这些介词题一开始感觉选对了但又瞎改错了。",
+    "reported_uncertainty": "介词选择曾觉得正确，后来改错，前一选项未知。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "adverb-degree-scope",
+    "kind": "user_reported_wrong",
+    "scope": "adverb_degree_vs_object_quantity_or_frequency",
+    "source_question": 8,
+    "reported_pick": "B",
+    "reported_word": "regularly",
+    "expected": "A",
+    "expected_word": "partially",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "user_reported_reasoning": "想到每天只能吃烤面包，选 regularly。又把 partially toast 当成只烤部分面包，因而排除 partially。",
+    "note": "partially 修饰 toast 的程度，表示稍微烤，程度未到完全烤制。regularly 描述频率，本身也不限定每天。only part of their bread 才限定面包的数量。",
+    "source_spans": [
+      "partially toast",
+      "regularly",
+      "only part of"
+    ],
+    "training_targets": [
+      "动作程度、动作频率、宾语数量三者的范围"
+    ],
+    "training_priority": 1,
+    "user_quote": "8我还以为是每天只能吃烤面包，所以选了B，不过我不可能选A，因为我以为A是只烤部分面包。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "serve-up-make-up",
+    "kind": "user_reported_wrong",
+    "scope": "phrasal_verb_in_context",
+    "source_question": 16,
+    "reported_pick": "A",
+    "reported_word": "made",
+    "expected": "B",
+    "expected_word": "served",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "user_reported_reasoning": "用户把熟悉的 make up 联想到“装饰”，据此填 made。",
+    "note": "served up 在餐食语境表示端上、提供。make up 的意思随宾语变化，可表示组成、编造或给人化妆。化妆的意义不能直接套在把食物端上桌的动作上。",
+    "source_spans": [
+      "be served up",
+      "make up one’s face"
+    ],
+    "training_targets": [
+      "用主语、宾语与场景辨析短语多义"
+    ],
+    "training_priority": 3,
+    "user_quote": "16我记得make up是装饰的意思就选了。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "campaign-vs-promise",
+    "kind": "user_reported_wrong",
+    "scope": "noun_reference_to_an_organised_effort",
+    "source_question": 19,
+    "reported_pick": "A",
+    "reported_word": "promise",
+    "expected": "C",
+    "expected_word": "campaign",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "choice_change_status": "unknown",
+    "user_reported_reasoning": "用户确认选了 promise。交接据 FSA 前文行为分析 campaign，具体首次选项和个人选词理由未报告。",
+    "note": "物主代词连回 FSA，campaign 概括此前发布警告和提供建议等有组织的宣传活动。promise 是作出的承诺，come across as 表达给人留下的印象。",
+    "source_spans": [
+      "campaign",
+      "promise",
+      "come across as"
+    ],
+    "training_targets": [
+      "先找代词所指，再区分长期行动和单次承诺"
+    ],
+    "training_priority": 5
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "yet-another-function",
+    "kind": "translation_difficulty",
+    "scope": "reported_phrase_question",
+    "source_question": null,
+    "source_spans": [
+      "yet another"
+    ],
+    "mark_type": "active_question",
+    "marking_evidence": "direct_user_question",
+    "user_quote": "第二个yet我不太懂。",
+    "yet_uses": [
+      {
+        "form": "Yet",
+        "position": "转折句开头",
+        "function": "然而，连接上一层陈述与接下来转折",
+        "role": "teaching_contrast"
+      },
+      {
+        "form": "yet another",
+        "position": "another 前",
+        "function": "又一个、再一个，强调额外增加",
+        "role": "user_reported_difficulty"
+      }
+    ],
+    "note": "前一个 Yet 表转折，后一个在 yet another 中表再添一件事。后者是用户主动报告没看懂的用法。not yet 是“尚未”。as yet 是“到目前为止”，常用于否定句。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "sunday-roast-context",
+    "kind": "translation_difficulty",
+    "scope": "reported_cultural_reference",
+    "source_question": null,
+    "source_spans": [
+      "Sunday roast"
+    ],
+    "mark_type": "active_question",
+    "marking_evidence": "direct_user_report",
+    "user_quote": "我还以为这是啥节日呢。",
+    "note": "Sunday roast 是英国周日烤肉大餐和家庭餐饮传统，常配烤土豆、蔬菜和肉汁，属于本文餐饮背景。",
+    "review_importance": "low",
+    "practice_plan": "glossary_only"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "nonetheless-concession",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "source_spans": [
+      "nonetheless"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "尽管如此、仍然。首段承接家庭共餐频率下降，同时说周日烤肉传统照常。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "culinary-food-context",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "source_spans": [
+      "culinary"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "与烹饪、美食有关。culinary pleasures 指美食方面的享受。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "food-police-tone",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "source_spans": [
+      "police"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "food police 在原文中是对食品监管者的带讽刺色彩称呼。"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "acrylamide-term-recognition",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "source_spans": [
+      "acrylamide"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "丙烯酰胺，阅读时识别化合物名称即可。",
+    "review_importance": "low",
+    "practice_plan": "glossary_only"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "pudding-food-context",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "source_spans": [
+      "pudding"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "pudding 常译布丁。Yorkshire pudding 在这里是传统佐餐烤面糊制品。",
+    "review_importance": "low",
+    "practice_plan": "glossary_only"
+  },
+  {
+    "date": "2026-11-25",
+    "received_on": "2026-11-25",
+    "paper_attempt": true,
+    "evidence_basis": "用户上传的学习交接文字；纸质复盘细节来自该交接。",
+    "source_exam": "2020-english1",
+    "source_part": "Section I (Cloze)",
+    "session_id": "2026-11-25-2020-cloze",
+    "source_check": "data/source-checks/2020-english1.json",
+    "family": "pushy-interpersonal-tone",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "source_spans": [
+      "pushy"
+    ],
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "note": "过于强势、咄咄逼人的。原文涉及公众对宣传方式的观感。"
   }
 ]

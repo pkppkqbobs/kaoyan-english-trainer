@@ -1,0 +1,302 @@
+[
+  {
+    "id": "pc19-if-not-for-newsreels",
+    "family": "if-not-for-scope",
+    "context_id": "local-film-archive-online-access-donor-agreement",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A regional film archive could let researchers view its oldest newsreels online if it were not for the fact that several donors still allow the recordings to be shown only on site. The staff have digitised the reels and checked that the files play on ordinary computers. For now, visitors must make an appointment to see them in the archive.\n\nAn agreement covering remote viewing would open the collection to researchers who cannot travel. The archive has begun asking the donors whether they would agree to such a change.",
+    "q": "What currently prevents the archive from offering online viewing?",
+    "o": [
+      "Some of the old newsreels have not been digitised.",
+      "The existing agreements limit where the films may be shown.",
+      "The archive has stopped allowing researchers to see the reels.",
+      "Most visitors cannot play the files on their own computers."
+    ],
+    "a": 1,
+    "answer_support": "several donors still allow the recordings to be shown only on site",
+    "target": "从 if it were not for 识别现实阻碍",
+    "skill": "从 if it were not for 识别现实阻碍",
+    "origin_session": "2026-11-25-2019-part-c",
+    "exp": {
+      "trans": "地方电影档案馆已经把新闻片数字化。现行许可只准在馆内播放，故目前观众须预约到馆。档案馆正争取远程观看许可。",
+      "structure": "主句 could let 描述本来可行的事。if it were not for the fact that 引出当前阻碍。that 从句里的 still allow 保留肯定，许可范围由 only on site 限定。",
+      "other": "newsreel 新闻短片，digitise 数字化，on site 在现场，remote viewing 远程观看。",
+      "meaning": "现有许可限制的是播放地点。若没有这一限制，在线提供新闻片就具有可行性。",
+      "rest": "数字化与普通电脑播放测试已完成。到馆预约仍开放。文本没有说明多数访客的电脑不能播放。"
+    }
+  },
+  {
+    "id": "pc19-if-not-for-evening-slot",
+    "family": "if-not-for-scope",
+    "context_id": "community-broadcast-programming-existing-music-slot",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A community radio station would repeat its morning news in the evening if it were not for a long-standing agreement with a local music school. The agreement gives the school the use of that slot for student concerts.\n\nThe station has put recordings of the news on its website, but some listeners have asked whether they could hear it on the radio. Moving the news to a later slot would keep the concerts on the air, though it would be too late for many listeners.",
+    "q": "Which statement best describes the present situation at the station?",
+    "o": [
+      "The news has been moved to a later slot on the radio.",
+      "The school can no longer broadcast its student concerts.",
+      "The station no longer makes its morning news available.",
+      "The school still has the slot needed for a news repeat."
+    ],
+    "a": 3,
+    "answer_support": "The agreement gives the school the use of that slot for student concerts",
+    "target": "区分现实许可与假设结果",
+    "skill": "区分现实许可与假设结果",
+    "origin_session": "2026-11-25-2019-part-c",
+    "exp": {
+      "trans": "社区电台本想晚上重播晨间新闻，但该时段依协议用于学生音乐会。新闻已有网播录音，晚一点的电台时段对许多听众来说太迟。",
+      "structure": "would repeat 是假设结果。if it were not for 后接当前协议这个障碍。第二句给出协议仍允许学校使用时段的事实。",
+      "other": "slot 播出时段，long-standing 长期存在的，on the air 正在播出。",
+      "meaning": "学校仍可使用同一时段，这项现实许可使新闻无法在该时段重播。",
+      "rest": "晚些播只是设想。晚间音乐会仍可播出。电台已把晨间新闻放上网站。"
+    }
+  },
+  {
+    "id": "pc19-incorporate-workshop-booklet",
+    "family": "incorporate-word-family",
+    "context_id": "training-workshops-booklet-revision-versus-coordination",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "Independent workshops offered training in different parts of the city. A local corporation paid for a shared booking service, but the workshops still ran their own classes. One employee coordinated the timetables so learners could attend more than one workshop. Instructors also agreed to cooperate on a course booklet.\n\nWhen the booklet was tested, some readers asked for more drawings. The instructors incorporated their suggestions into the next edition by adding pictures that showed how to adjust equipment. The sponsor wanted its logo on the cover, but the instructors preferred to leave corporate advertising out of the booklet.",
+    "q": "The word “incorporated” in Paragraph 2 most nearly means that the instructors",
+    "o": [
+      "sent the suggestions to the corporate sponsor.",
+      "asked the workshops to agree on the suggestions.",
+      "included the suggestions in the revised booklet.",
+      "arranged meetings to discuss the suggestions."
+    ],
+    "a": 2,
+    "answer_support": "incorporated their suggestions into the next edition by adding pictures",
+    "target": "incorporate into 与合作、协调和公司词族",
+    "skill": "incorporate into 与合作、协调和公司词族",
+    "origin_session": "2026-11-25-2019-part-c",
+    "exp": {
+      "trans": "独立培训工坊共享预约系统，有人统筹课程表，教师合作编手册。随后教师按学员建议在新版中加入设备图，没有把公司广告加进手册。",
+      "structure": "第一段区分赞助者、统筹人员和共同编写者。第二段的句型是 incorporate 建议 into 新一版，by adding 进一步说明如何落实。",
+      "other": "corporation 是公司，corporate 是形容词。cooperate with 或 on 表合作，名词 cooperation。coordinate timetables 是协调时间，名词 coordination。",
+      "meaning": "建议经过落实，成为新版小册子的一部分。这符合把某物纳入整体的含义。",
+      "rest": "赞助商负责预约系统并谈到标志。协调时间表及合作编写是另外的行动。原文也没有安排会议或把建议送给赞助方。"
+    }
+  },
+  {
+    "id": "pc19-post-clock-restoration",
+    "family": "research-post-meaning",
+    "context_id": "clock-collection-vacancy-versus-web-post",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A notice on a museum's website was widely shared by readers who admired a newly repaired clock. Most assumed it was a report about the object itself. In fact, the notice invited people to apply for a restoration post. The person chosen would spend part of each week repairing clocks and the rest showing visitors how the mechanisms worked.\n\nUntil recently applicants had to submit two examples of earlier repairs. The museum now asks for twice that number, as it wants to see whether candidates have worked with a range of objects.",
+    "q": "The word “post” in Paragraph 1 refers to",
+    "o": [
+      "a report about a repaired clock.",
+      "an opening at the local museum.",
+      "a notice shared on the website.",
+      "a public display of clock parts."
+    ],
+    "a": 1,
+    "answer_support": "the notice invited people to apply for a restoration post",
+    "target": "职位 post 与网络帖子、文章的区别",
+    "skill": "职位 post 与网络帖子、文章的区别",
+    "origin_session": "2026-11-25-2019-part-c",
+    "exp": {
+      "trans": "流传的网页公告其实是招募钟表修复人员。录取者需做修复并为访客讲解。往年提供两个修复实例，今年要四个。",
+      "structure": "apply for 的宾语 post 是人可以申请的职务。后一段用 twice that number 回指以前的两个实例。",
+      "other": "restoration 修复，vacancy 职位空缺，opening 在求职语境也是职位空缺。",
+      "meaning": "修复和讲解是被录用者的工作。公告是发布渠道，post 在此表示其中提到的工作岗位。",
+      "rest": "关于钟表的报道是读者以为的内容。网上公告发布了岗位信息。展示部件属于工作中的活动。"
+    }
+  },
+  {
+    "id": "cl20-preposition-gallery-trials",
+    "family": "calendar-temperature-prepositions",
+    "context_id": "print-gallery-light-trial-specific-day-and-controlled-temperature",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A small gallery is trying to decide how long it can display delicate prints without fading their colours. It began the first of two trials (1) ___ the second Thursday in May, keeping every print (2) ___ the same temperature while changing the brightness of the lights. At the end of the week one set had faded more than the other. Because the room's temperature had been held steady, the researchers could compare the effects of the two levels of light.",
+    "q": "Which pair fills the blanks in order?",
+    "o": [
+      "in / at",
+      "on / by",
+      "in / by",
+      "on / at"
+    ],
+    "a": 3,
+    "answer_support": "the second Thursday in May, keeping every print (2) ___ the same temperature",
+    "target": "具体某一天用 on，温度作为条件用 at",
+    "skill": "具体某一天用 on，温度作为条件用 at",
+    "origin_session": "2026-11-25-2020-cloze",
+    "exp": {
+      "trans": "为了判断灯光对版画颜色的影响，展馆在五月的第二个星期四开始对照试验，调灯光但保持每张版画处于相同温度。",
+      "structure": "第一个空给试验开始的时间，核心是 Thursday。第二个空接 temperature，表示物品所处的温度。",
+      "other": "print 版画，fade 褪色，hold steady 保持稳定。",
+      "meaning": "具体某个星期四用 on，五月作为月份是 in May。keep something at a temperature 表示让它处于这一温度。",
+      "rest": "in 会把完整的日期当作较长时段。by 可以引出手段或时间期限，这里需要指出版画所在的温度。"
+    }
+  },
+  {
+    "id": "cl20-partial-noise-filter",
+    "family": "adverb-degree-scope",
+    "context_id": "audio-archive-filter-strength-versus-subset-or-frequency",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "An engineer restoring early interviews found that a filter designed to eliminate background hiss also made the speakers sound muffled. A listener could hear less noise, but could also find it harder to understand the words. The engineer adjusted the filter and partially suppressed the hiss in every recording.\n\nA little noise remained, but visitors listening to the revised files could follow the conversations more easily. The archive used the same settings for all the files in the collection.",
+    "q": "The word “partially” in Paragraph 1 suggests that the engineer",
+    "o": [
+      "lowered the noise without removing it completely.",
+      "removed all the noise from only some recordings.",
+      "filtered the same recordings at regular intervals.",
+      "cleaned up only selected parts of each interview."
+    ],
+    "a": 0,
+    "answer_support": "partially suppressed the hiss in every recording",
+    "target": "partially 修饰动作程度而非宾语数量或频率",
+    "skill": "partially 修饰动作程度而非宾语数量或频率",
+    "origin_session": "2026-11-25-2020-cloze",
+    "exp": {
+      "trans": "去掉全部嘶声会让旧采访人声变闷。工程师调整滤镜，每段录音都降低背景声，保留少量嘶声，话反而更好懂。",
+      "structure": "partially 紧邻并修饰 suppressed。in every recording 明确作用于每段录音。第二段的 remaining noise 验证减少程度。",
+      "other": "hiss 嘶声，muffled 低沉模糊的，suppress 压低、抑制。",
+      "meaning": "动作是压低背景声，程度是压低一部分。后文明确每段都处理且仍有少量噪声。",
+      "rest": "只处理一部分录音或每段的部分片段都限定处理对象。定期处理说的是频率。三者均与文中降低的程度不同。"
+    }
+  },
+  {
+    "id": "cl20-served-up-concert",
+    "family": "serve-up-make-up",
+    "context_id": "outdoor-music-series-programme-versus-prepared-kits",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "For years the opening night of a small music festival consisted of a single recital. The new director wanted people to hear a wider range of performances without buying several tickets. On the first evening the musicians served up a mix of local songs, short improvisations and stories about how the pieces had been written.\n\nEarlier in the day volunteers had made up packs containing a programme and a map for each visitor. The packs were useful for getting around, but it was the variety on stage that people mentioned in their letters afterwards.",
+    "q": "The phrase “served up” in Paragraph 1 is closest in meaning to",
+    "o": [
+      "assembled before the event.",
+      "presented to the audience.",
+      "replaced with new material.",
+      "invented as an explanation."
+    ],
+    "a": 1,
+    "answer_support": "the musicians served up a mix of local songs, short improvisations and stories",
+    "target": "serve up 提供的引申义与 make up 搭配",
+    "skill": "serve up 提供的引申义与 make up 搭配",
+    "origin_session": "2026-11-25-2020-cloze",
+    "exp": {
+      "trans": "音乐节往年只有一场演奏会，新总监让首晚的演出更多样。志愿者另备有资料袋。观众来信主要提到舞台上的丰富内容。",
+      "structure": "第一段里 musicians 是执行者，serve up 的宾语是一组表演。第二段由 volunteers 准备资料袋，原文使用 make up 的组成义。",
+      "other": "recital 演奏会，improvisation 即兴表演。make up 还可随宾语表示编造或化妆。",
+      "meaning": "serve up 可以引申为把节目或内容呈现给观众。此处的人物、时点和宾语都指首晚在台上的演出。",
+      "rest": "提前组装的是资料袋。文中没有在演出时换材料，也没有为了找借口编造内容。"
+    }
+  },
+  {
+    "id": "cl20-campaign-river-walk",
+    "family": "campaign-vs-promise",
+    "context_id": "river-walk-outreach-effort-versus-bridge-pledge",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A coastal town promised to reopen its footbridge by September. When the work fell behind schedule, residents criticised the delay but welcomed a separate campaign to make the river walk easier to follow. Over several weeks volunteers handed out maps, put directions outside the station and led short guided walks.\n\nThe opening date attracted most of the newspaper coverage. Visitor surveys suggest it was the quieter effort to explain how to reach the river that helped people find the route.",
+    "q": "In this passage, “campaign” refers to",
+    "o": [
+      "a promise to open the footbridge by a set date.",
+      "a plan to speed up the work on the bridge.",
+      "an organised effort to guide visitors to the river.",
+      "a series of news reports about the bridge work."
+    ],
+    "a": 2,
+    "answer_support": "volunteers handed out maps, put directions outside the station and led short guided walks",
+    "target": "campaign 概括具体宣传行动，promise 表示承诺",
+    "skill": "campaign 概括具体宣传行动，promise 表示承诺",
+    "origin_session": "2026-11-25-2020-cloze",
+    "exp": {
+      "trans": "小镇承诺按期开桥，工程后来延期。另一项导路活动受到欢迎，志愿者发图、贴指示并带路。游客调查发现这组活动帮助人们找到河边。",
+      "structure": "第一段区分承诺、施工和一系列导路动作。第二段对比获关注多的日期与真正帮助游客的活动。",
+      "other": "fall behind schedule 进度落后，hand out 分发，coverage 新闻报道。",
+      "meaning": "campaign 概括志愿者进行的持续性宣传与导路活动。",
+      "rest": "通桥日期是 promise。工程进度是背景。新闻重点报道日期，报道并非这些志愿者活动的主体。"
+    }
+  },
+  {
+    "id": "cl20-yet-another-fee",
+    "family": "yet-another-function",
+    "context_id": "marketplace-shipping-fees-addition-versus-contrast",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "An online marketplace told customers they would see the full price before placing an order. Yet the first week of a trial showed that delivery companies could add their own fees once they took charge of an order. Some customers accepted the delivery charge because it was small.\n\nWhen the marketplace introduced yet another fee for evening orders, even some of those same customers complained. To them, the total amount on the screen mattered more than which company was charging each part of it.",
+    "q": "The phrase “yet another fee” in Paragraph 2 refers to",
+    "o": [
+      "a charge replacing the earlier delivery fee.",
+      "a charge that had been announced but not added.",
+      "a charge collected by a new delivery company.",
+      "a further charge on top of an existing one."
+    ],
+    "a": 3,
+    "answer_support": "introduced yet another fee for evening orders",
+    "target": "句首 Yet 和 yet another 的两种作用",
+    "skill": "句首 Yet 和 yet another 的两种作用",
+    "origin_session": "2026-11-25-2020-cloze",
+    "exp": {
+      "trans": "平台称下单前可见总价，后来却出现配送费。再添晚间订单费后，有些原本能接受配送费的顾客也不满。",
+      "structure": "第一段句首 Yet 把平台承诺与试行结果连成转折。第二段 yet 修饰 another，强调重复增加。在引入晚间收费之前已经有一项费用。",
+      "other": "take charge of 接手，delivery charge 配送费，another 另一个。not yet 意为尚未。",
+      "meaning": "新晚间费加在原有配送费之上，表示又多了一项。",
+      "rest": "introduced 表示费用已推出。原文没有说新费替代旧费，也没有把新费说成新的配送公司所收。"
+    }
+  },
+  {
+    "id": "cl20-match-accuracy",
+    "family": "match-equal-verb",
+    "context_id": "music-digitisation-accuracy-compared-across-methods",
+    "introduced": "2026-11-25",
+    "published_on": "2026-11-25",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A library tested an automated system for digitising sheet music. It could copy a hundred covers in the time a member of staff took to copy ten, so managers expected it to reduce the cost of the whole project.\n\nOn pages with handwritten changes, however, the system could not match the accuracy of the library staff. It sometimes treated a changed note as a mark on the paper. The library kept the system for covers, but asked a musician to check the files in which the original scores had been altered.",
+    "q": "The word “match” in Paragraph 2 most nearly means",
+    "o": [
+      "judge accurately.",
+      "influence directly.",
+      "equal in quality.",
+      "measure in detail."
+    ],
+    "a": 2,
+    "answer_support": "the system could not match the accuracy of the library staff",
+    "target": "评价或比较语境中的 match",
+    "skill": "评价或比较语境中的 match",
+    "origin_session": "2026-11-25-2020-cloze",
+    "exp": {
+      "trans": "图书馆试用乐谱扫描系统。封面扫描很快，但读手写修改的准确度赶不上馆员，馆方于是让系统扫封面，让专业人员核对改过的谱页。",
+      "structure": "第二段以 however 从速度转向准确度。match 的宾语是馆员的准确度，句子在比较两种处理方式。",
+      "other": "sheet music 乐谱，score 此处为乐谱，alter 改动。",
+      "meaning": "match 表达到同等水平。系统的识别准确度不及馆员。",
+      "rest": "衡量、判断准确度是评估任务，施加影响是因果关系。此处说的是谁能达到相同水平。"
+    }
+  }
+]

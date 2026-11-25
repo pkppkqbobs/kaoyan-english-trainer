@@ -1,0 +1,61 @@
+{
+  "exam": "2020-english1",
+  "checked_on": "2026-11-25",
+  "scope": "Section I Q1、2、4、6、8、16、19；首段表达与术语",
+  "sources": [
+    {
+      "id": "koolearn-2020-cloze-key",
+      "title": "新东方在线2020年考研英语一试卷与答案",
+      "url": "https://kaoyan.koolearn.com/20201116/1414060.html",
+      "covers": "核对七题的答词及其在用户卷面顺序中的字母。包含 partially 的范围、served up 的搭配及 campaign 的上下文。"
+    },
+    {
+      "id": "233-2020-cloze-key",
+      "title": "233网校2020年考研英语（一）真题及答案",
+      "url": "https://www.233.com/kaoyan/english/zhenti/202108/31152905863274.html",
+      "covers": "复核同排列版的正确选项与出题语境。"
+    },
+    {
+      "id": "lazynote-2020-cloze-other-order",
+      "title": "懒笔记2020考研英语一分题型答案",
+      "url": "https://english-exam.lazynote.cn/kaoyan/paper/2020-english-one/",
+      "covers": "复核答案词。该版本多处选项顺序与本次交接不同，使用时按词对齐。"
+    }
+  ],
+  "answers": {
+    "1": "C",
+    "2": "A",
+    "4": "D",
+    "6": "B",
+    "8": "A",
+    "16": "B",
+    "19": "C"
+  },
+  "answer_words": {
+    "1": "On",
+    "2": "match",
+    "4": "guaranteed",
+    "6": "at",
+    "8": "partially",
+    "16": "served",
+    "19": "campaign"
+  },
+  "option_order_note": "参考字母使用本次交接中与新东方在线及233网校一致的排列。不同选项排列按英语答词核对。",
+  "evidence_limitations": "学习记录只含七道最终选择。介词改选的首次字母、其他十三题的选择、全卷得分均未报告。画框和主动报告均来自教学交接，网页成绩另行核验。",
+  "cloze": {
+    "topic": "Sunday roast 和公共饮食宣传的文章语境",
+    "verifiable_phrases": {
+      "first_yet": "句首转折，从餐食享受转向监管话题",
+      "yet_another": "又一种令人享受但有顾虑的事",
+      "sunday_roast": "英国传统的周日烤肉大餐"
+    },
+    "reported_boxes": [
+      "nonetheless",
+      "culinary",
+      "police",
+      "acrylamide",
+      "pudding",
+      "pushy"
+    ]
+  }
+}

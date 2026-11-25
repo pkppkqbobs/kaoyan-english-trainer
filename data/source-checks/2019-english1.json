@@ -1,7 +1,7 @@
 {
   "exam": "2019-english1",
-  "checked_on": "2026-11-24",
-  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形；Reading Text 4 Q38、Q40来源分歧及词句；Part B Q41–45、固定段位置、开头前指及段间连接",
+  "checked_on": "2026-11-25",
+  "scope": "Section I (Cloze) Q4/Q14/Q15/Q16；Reading Text 1 Q23及Q25选项D词汇；Reading Text 2 Q26–30；Reading Text 3 Q31/Q34及Q33词形；Reading Text 4 Q38、Q40来源分歧及词句；Part B Q41–45、固定段位置、开头前指及段间连接；Part C Q46–50 翻译结构与语境",
   "sources": [
     {
       "id": "eol-wendu-2019-cloze",
@@ -98,6 +98,18 @@
       "title": "University of Cambridge L90 lectures: referring expressions",
       "url": "https://www.cl.cam.ac.uk/teaching/1516/L90/lectures.pdf",
       "covers": "前指允许代词出现在引入其所指的人名或描述之前。具体所指仍由句法和语境共同确定。"
+    },
+    {
+      "id": "xdf-2019-part-c",
+      "title": "新东方网2019考研英语一真题翻译参考答案及解析",
+      "url": "https://kaoyan.xdf.cn/201906/10927537_2.html",
+      "covers": "核对46–50的原句与关键结构，包括 which 的所指、岗位及倍数、纳入评估、虚拟条件和科研语境。"
+    },
+    {
+      "id": "xdf-dalian-2019-part-c",
+      "title": "新东方网2019考研英语一翻译答案解析（大连新东方）",
+      "url": "https://kaoyan.xdf.cn/201812/10837482.html",
+      "covers": "复核研究职位、incorporate 的搭配结构、条件结构及第50题的阅读语境。"
     }
   ],
   "answers": {
@@ -130,7 +142,7 @@
     "34": "affirmation"
   },
   "option_order_note": "完形四道题与阅读第23题的公开参考答案均与用户交接一致。用户的实际选择来自纸质作答反馈。 Text 2第26–30题的参考选项顺序与本次交接一致。 Text 3第31、34题的参考答案与本次交接一致。 Text 4第38题对照选项文字为C；第40题A、D为不同写作方式。 Part B第41–45空参考为E、D、G、B、A，F固定在第3位，C固定在第6位。",
-  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。 阅读Text 4只确认第38题最终选B；第40题仅确认认为C有依据，第36、37、39题及全篇总分未知。 Part B确认最终顺序与开头对调的理由；逐空初选、改选及其他判断过程未知。",
+  "evidence_limitations": "完形其余十六题的选择字母、首选与改选过程未知。阅读Text 1只确认了第23题的个人作答。 阅读Text 2只记录纸质全对的报告及交接确认的第27、29题。其余各题的逐题过程未知。 阅读Text 3只确认第31、34题的纸质作答，第32、33、35题的选择和总成绩未知。 阅读Text 4只确认第38题最终选B；第40题仅确认认为C有依据，第36、37、39题及全篇总分未知。 Part B确认最终顺序与开头对调的理由；逐空初选、改选及其他判断过程未知。 Part C为纸质翻译复盘，个人理解来自交接文字，未报告得分。",
   "reading_text_1": {
     "question_23_option_order": [
       "indirect",
@@ -288,5 +300,47 @@
     ],
     "proper_name": "Carnegie",
     "mark_rule": "画框用于登记翻译困难，横线用于定位重要信息。"
+  },
+  "part_c": {
+    "task": "English-to-Chinese translation",
+    "questions": {
+      "46": {
+        "study_targets": [
+          "which … generates",
+          "when taken up",
+          "the lay press"
+        ],
+        "reference_interpretation": "which 的所指由单数 generates 和语义共同确定，指前面的荒谬说法。两逗号间可还原为 when it is taken up，媒体报道是引发恐慌和短期饮食风尚的条件。"
+      },
+      "47": {
+        "study_targets": [
+          "research post",
+          "have to have published",
+          "twice the number of papers"
+        ],
+        "reference_interpretation": "apply for a post 是申请职位。have to have published 表示申请时须已经发表。论文数是十年前同一岗位所要求数量的两倍，比较基准由后置从句给出。"
+      },
+      "48": {
+        "study_targets": [
+          "incorporate A into B",
+          "quality as well as quantity"
+        ],
+        "reference_interpretation": "把质量和数量的衡量都纳入论文评估。incorporate A into B 要区分被纳入的内容 A 与接纳它的整体 B。"
+      },
+      "49": {
+        "study_targets": [
+          "if it were not for",
+          "can easily arrange"
+        ],
+        "reference_interpretation": "如果没有自引或互引这个现实因素，按引用次数评价才有道理。not 属于 if it were not for。that 从句交代现实情况，科学家能够安排引文。"
+      },
+      "50": {
+        "study_targets": [
+          "meaningful and reproducible"
+        ],
+        "reference_interpretation": "reproducible 在这里指采用相应程序后能够复现、复核研究结果。文中的主张是科研机构应鼓励有意义和可复现的研究。"
+      }
+    },
+    "wording_note": "以与用户交接一致的原句版本核对结构。第50题部分转载用 incentivize 表述同一倡导方向，记录采用 encourage 版本。"
   }
 }
