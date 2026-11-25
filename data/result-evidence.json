@@ -4909,6 +4909,99 @@
       "qid": "dnt-vendors-messages-b",
       "round_id": "mwt1j1z3-doer5w3f",
       "source_date": "2026-11-23"
+    },
+    {
+      "date": "2026-11-25",
+      "family": "past-participle-modifier",
+      "ok": true,
+      "ms": 153699,
+      "uncertain": true,
+      "origin": 59,
+      "qid": "r19t4-courtyard-screening-report",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25",
+      "slow_threshold_ms": 110000
+    },
+    {
+      "date": "2026-11-25",
+      "family": "subject",
+      "ok": true,
+      "ms": 18087,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "subject-rule-departure",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "family": "paragraph-order-cataphora",
+      "ok": false,
+      "ms": 187059,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "pb19-orchard-reference",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-25",
+      "family": "title-coverage",
+      "ok": true,
+      "ms": 71797,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "e1r-digital-library",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-25",
+      "family": "undermine-context",
+      "ok": false,
+      "ms": 150613,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "pb19-apprenticeship-figures",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-25",
+      "family": "amount-to-meaning",
+      "ok": true,
+      "ms": 143283,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "refresh-amount-crew-meetings",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25",
+      "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-25",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 29470,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "example-museum-hours-transport-c",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25"
+    },
+    {
+      "date": "2026-11-25",
+      "family": "social-message-inference",
+      "ok": false,
+      "ms": 53877,
+      "uncertain": false,
+      "origin": 59,
+      "qid": "social-message-repair-framing",
+      "round_id": "mwvx4a1y-1jedutdc",
+      "source_date": "2026-11-25"
     }
   ],
   "issues": [
@@ -4969,6 +5062,7 @@
     55,
     56,
     57,
-    58
+    58,
+    59
   ]
 }
