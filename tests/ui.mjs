@@ -608,6 +608,50 @@ const refreshedReading = JSON.parse(storage[markerStorageKey]);
 assert.deepEqual(refreshedReading.runs[0].queue, readingState.runs[0].queue);
 assert.deepEqual(refreshedReading.runs[0].answers, firstReadingResult.runs[0].answers);
 
+// A vocabulary or reference question can mark its wording in a locked passage,
+// including when an existing answer and its shuffled choices are restored.
+const november25 = JSON.parse(fs.readFileSync('data/days/2026-11-25.json', 'utf8'));
+const referenceQuestion = november25.questions.find(q => q.id === 'pb19-orchard-reference');
+markerFixture([referenceQuestion]);
+data.date = november25.date; simulatedDay = data.date;
+const referenceKey = 'kaoyan.daily.v3.' + data.date;
+boot();
+const referenceMark = underlines()[0];
+const markedPassage = () => descendants(nodes.body).find(node => node.className === 'sentence reading-passage');
+assert.deepEqual(underlines().map(node => node.textContent), ['their']);
+assert.equal(referenceMark.style.textDecorationLine, 'underline');
+assert.equal(markedPassage().children.map(node => node.textContent).join(''), referenceQuestion.passage);
+assert.ok(!nodes.body.textContent.includes(referenceQuestion.target));
+choiceNodes()[0].click();
+const referenceResult = storage[referenceKey];
+const referenceChoices = choiceNodes().map(node => node.textContent);
+boot(); await settlePresentation();
+assert.deepEqual(underlines().map(node => node.textContent), ['their']);
+assert.equal(storage[referenceKey], referenceResult);
+assert.deepEqual(choiceNodes().map(node => node.textContent), referenceChoices);
+
+const scopedWord = question('passage-word-scope', 'word-scope');
+scopedWord.passage = 'The seal was intact. A clerk noted it on the envelope.\n\nTo seal the gap, the carpenter used resin. She later resealed the door.';
+for (const [stem, prefix] of [
+  ['The word “seal” in Paragraph 2 most nearly means', 'To '],
+  ['What does "seal" mean in the opening sentence?', 'The '],
+  ['What does "seal" mean?', null],
+  ['Why does the author mention the "seal"?', null],
+]) {
+  scopedWord.q = stem;
+  markerFixture([scopedWord]); boot(); await settlePresentation();
+  assert.deepEqual(underlines().map(node => node.textContent), prefix ? ['seal'] : []);
+  if (prefix) assert.ok(markedPassage().children[0].textContent.endsWith(prefix));
+  assert.ok(choiceNodes().every(node => !node.disabled), 'optional passage marking must not block answering');
+}
+const markedPhrase = question('passage-phrase', 'phrase');
+markedPhrase.q = 'In this passage, "crew\'s fund" is closest in meaning to';
+markedPhrase.passage = 'The crew’s fund paid for the repairs. A sign read <em>repairs first</em>.';
+markerFixture([markedPhrase]); boot(); await settlePresentation();
+assert.deepEqual(underlines().map(node => node.textContent), ['crew’s fund']);
+assert.equal(markedPassage().children.map(node => node.textContent).join(''), markedPhrase.passage);
+assert.ok(!descendants(markedPassage()).some(node => node.tag === 'em'));
+
 // A design issue must not acquire a fabricated missing-underline explanation.
 const affectedSource = JSON.parse(fs.readFileSync('data/days/2026-11-17.json', 'utf8'));
 const affectedQuestion = affectedSource.questions.find(q => q.id === 'r18t2-role-route-evidence');
@@ -635,4 +679,4 @@ try {
   Math.random = realRandom;
 }
 
-console.log('UI tests passed: prior submission/storage/timing and underline checks; reading material before stems, hidden pre-answer targets, text-only passage rendering, refresh and scoped design-quality notices.');
+console.log('UI tests passed: submission, storage, timing, prompt underlines, scoped passage marks, literal reading text and quality notices.');

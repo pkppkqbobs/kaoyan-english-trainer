@@ -414,26 +414,62 @@
     if (count) node.classList.remove('hidden');
     else node.classList.add('hidden');
   }
+  function passageRanges(q) {
+    const quote = /"([^"]+)"|“([^”]+)”|‘(.+?)’(?=\s|[.,!?)]|$)|'(.+?)'(?=\s|[.,!?)]|$)/u.exec(q.q);
+    if (!quote) return [];
+    const before = q.q.slice(0, quote.index).trim();
+    const after = q.q.slice(quote.index + quote[0].length);
+    // Mark the expression explicitly asked about, never its answer evidence.
+    const termQuestion = /^(?:(?:what (?:does|do) )?(?:the )?(?:word|phrase|expression|term)|what (?:does|do)|(?:as used )?in (?:(?:this|the) (?:passage|text)|paragraph \d+),?)?$/i;
+    if (!termQuestion.test(before) || !/\b(?:meaning|means?|refers? to|suggests?|imply|implies|identifies)\b/i.test(after)) return [];
+    const target = quote.slice(1).find(Boolean).trim();
+    if (!target) return [];
+    const location = before + ' ' + after;
+    let text = q.passage, offset = 0;
+    const paragraphNumber = /\bparagraph\s+([1-9]\d*)\b/i.exec(location);
+    if (paragraphNumber) {
+      const paragraphs = [...text.matchAll(/\S[\s\S]*?(?=\r?\n[ \t]*\r?\n|$)/g)];
+      const selected = paragraphs[Number(paragraphNumber[1]) - 1];
+      if (!selected) return [];
+      text = selected[0]; offset = selected.index;
+    }
+    const sentence = /\b(opening|first|second|third|fourth|fifth|last|final) sentence\b/i.exec(location);
+    if (sentence && typeof Intl.Segmenter === 'function') {
+      const positions = {opening: 0, first: 0, second: 1, third: 2, fourth: 3, fifth: 4, last: -1, final: -1};
+      const sentences = [...new Intl.Segmenter('en', {granularity: 'sentence'}).segment(text)];
+      const selected = sentences.at(positions[sentence[1].toLowerCase()]);
+      if (!selected) return [];
+      text = selected.segment; offset += selected.index;
+    }
+    const literal = target.replace(/[.*+?^$(){}|[\]\\]/g, '\\$&').replace(/['’]/g, "['’]");
+    const word = '\\p{L}\\p{M}\\p{N}_';
+    const matches = [...text.matchAll(new RegExp('(^|[^' + word + '])(' + literal + ')(?![' + word + '])', 'giu'))];
+    // Multiple occurrences without a decisive locator are left as plain text.
+    if (matches.length !== 1) return [];
+    const match = matches[0], start = offset + match.index + match[1].length;
+    return [[start, start + match[2].length]];
+  }
+  function paintMarkedText(node, text, ranges) {
+    if (!ranges?.length) { node.textContent = text; return; }
+    node.textContent = '';
+    let offset = 0;
+    for (const [start, end] of ranges) {
+      node.appendChild(document.createTextNode(text.slice(offset, start)));
+      const mark = document.createElement('u');
+      mark.className = 'question-underline';
+      mark.textContent = text.slice(start, end);
+      mark.style.textDecorationLine = 'underline';
+      mark.style.textDecorationThickness = '2px';
+      mark.style.textUnderlineOffset = '0.16em';
+      mark.style.textDecorationSkipInk = 'none';
+      node.appendChild(mark); offset = end;
+    }
+    node.appendChild(document.createTextNode(text.slice(offset)));
+  }
   function paintPrompt(view) {
     const ranges = promptRanges(view.q);
     view.valid = ranges !== null;
-    view.node.textContent = '';
-    if (!view.valid) view.node.textContent = view.q.q;
-    else {
-      let offset = 0;
-      for (const [start, end] of ranges) {
-        view.node.appendChild(document.createTextNode(view.q.q.slice(offset, start)));
-        const mark = document.createElement('u');
-        mark.className = 'question-underline';
-        mark.textContent = view.q.q.slice(start, end);
-        mark.style.textDecorationLine = 'underline';
-        mark.style.textDecorationThickness = '2px';
-        mark.style.textUnderlineOffset = '0.16em';
-        mark.style.textDecorationSkipInk = 'none';
-        view.node.appendChild(mark); offset = end;
-      }
-      view.node.appendChild(document.createTextNode(view.q.q.slice(offset)));
-    }
+    paintMarkedText(view.node, view.q.q, ranges);
     const invalid = invalidPresentation(view.q);
     view.status.textContent = !view.valid ? (presentations ? '题目未提供可核验的划线范围，暂不可作答；请刷新或反馈此题。' : '正在读取题干标记，标记显示后才可作答。') :
       invalid ? (invalid.kind === 'question_design' ? '' : '此划线是维护时补充的明确范围，原版未显示目标。') + invalid.invalid_reason : '';
@@ -468,7 +504,10 @@
     })();
   }
   function questionPrompt(parent, q, answered) {
-    if (q.passage) paragraph(parent, q.passage, 'sentence reading-passage');
+    if (q.passage) {
+      const passage = paragraph(parent, '', 'sentence reading-passage');
+      paintMarkedText(passage, q.passage, passageRanges(q));
+    }
     const view = {q, answered, controls: [], node: paragraph(parent, '', 'sentence'),
       status: paragraph(parent, '', 'notice hidden'), valid: false};
     promptViews.add(view); paintPrompt(view);
