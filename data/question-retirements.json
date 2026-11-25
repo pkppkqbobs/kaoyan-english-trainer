@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-19",
+  "reviewed_on": "2026-11-25",
   "policy": "Only future selection and retries use retirement. Keep original source questions and every published snapshot. Only separately listed quality exclusions change mastery evidence.",
   "questions": {
     "author-stance-recall-a": {
@@ -774,6 +774,14 @@
       "retired_on": "2026-11-19",
       "reason": "Broaden the context to a pending state and ask what is unfinished.",
       "replacement_ids": ["refresh-with-unsigned-loans"]
+    },
+    "pb19-orchard-agreement": {
+      "family": "paragraph-order-cataphora",
+      "retired_on": "2026-11-25",
+      "reason": "原设问可以仅凭双方同意的内容作答。新版直接考句首 their 的同句前指，保留原题与已有证据。",
+      "replacement_ids": [
+        "pb19-orchard-reference"
+      ]
     }
   }
 }

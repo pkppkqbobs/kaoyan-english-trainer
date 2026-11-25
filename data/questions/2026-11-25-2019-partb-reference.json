@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pb19-orchard-reference",
+    "family": "paragraph-order-cataphora",
+    "context_id": "orchard-machine-costs-shared-need-versus-payment",
+    "introduced": "2026-11-24",
+    "published_on": "2026-11-25",
+    "budget": 45,
+    "reading_budget": 120,
+    "format": "english1_reading",
+    "passage": "Whatever their differences over how to divide the cost, orchard owners Rosa Méndez and Daniel Hart agreed that the village needed a way to share equipment. Méndez wanted each farm to make a fixed payment for access. Hart proposed charging by the hour, arguing that a small grower could otherwise pay as much as a neighbour with three times as much land.\n\nThe village adopted Hart's plan after a vote. That choice settled how the cost would be shared, but it left a question open. Who would get a machine when several orchards needed it on the same day? The answer required a booking rule of its own.",
+    "q": "The word “their” in the opening sentence refers to",
+    "o": [
+      "the growers waiting to borrow the machines.",
+      "the two growers who differed over payment.",
+      "the villagers who voted on the payment plan.",
+      "the neighbours with much larger orchards."
+    ],
+    "a": 1,
+    "target": "句首 their 的同句前指",
+    "skill": "句首 their 的同句前指",
+    "origin_session": "2026-11-24-2019-partb",
+    "answer_support": "Whatever their differences over how to divide the cost, orchard owners Rosa Méndez and Daniel Hart",
+    "exp": {
+      "trans": "两位果园主都认为村里需要共享设备，对分摊费用各有看法。村里投票采纳按时计费的提案，预约优先顺序仍待解决。",
+      "structure": "先读主句 orchard owners Rosa Méndez and Daniel Hart agreed ...，确认这句话在说哪两个人。再回到句首 Whatever their differences ...，their 指后面出现的这两位果园主。第二段的 That choice 回指村里采纳 Hart 的按时计费方案。",
+      "other": "orchard 果园，fixed payment 固定缴费，by the hour 按小时，leave a question open 使问题悬而未决。",
+      "meaning": "their differences 是这两位果园主在如何分摊费用上的分歧。接下来分别介绍了 Méndez 的固定缴费建议和 Hart 的按时收费建议。",
+      "rest": "借机器的农户是后面预约问题涉及的人，参与投票的村民在第二段才出现。大果园只出现在 Hart 用来说明费用问题的假设例子里。"
+    }
+  }
+]

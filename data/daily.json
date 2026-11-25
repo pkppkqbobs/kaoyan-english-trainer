@@ -1,654 +1,730 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "repo": "pkppkqbobs/kaoyan-english-trainer",
   "questions": [
     {
-      "id": "r19t4-bus-transfer-timetable",
-      "family": "whole-text-method-scope",
+      "id": "r19t4-courtyard-screening-report",
+      "family": "past-participle-modifier",
       "introduced": "2026-11-23",
       "published_on": "2026-11-23",
       "origin_session": "2026-11-23-2019-text4",
-      "context_id": "r19t4-bus-transfer-departure-times",
+      "context_id": "r19t4-courtyard-screening-author-and-endorsement",
       "format": "english1_reading",
       "budget": 50,
       "reading_budget": 110,
-      "target": "识别全文叙述方式",
-      "skill": "比较全文结构与末段的不同反应",
-      "passage": "A regional bus company has begun putting departure times for possible connections on the same timetable. Previously, each timetable listed just one route. Passengers knew when they would leave the town centre, but had to look elsewhere to find out whether they could catch a second bus.\n\nThe change followed a review of complaints. Drivers had repeatedly been asked to hold a bus while passengers ran from a nearby stop. The new layout makes it easier to see which connections are possible. Drivers have since reported fewer requests to wait.\n\nSome regular travellers say the longer timetable now makes their usual departure harder to find. The company considers the extra material a reasonable price to pay for clearer information about transfers.",
-      "q": "How does the passage present the timetable change?",
+      "target": "过去分词后置修饰与动作主体",
+      "skill": "区分拟写、支持与推翻决定",
+      "passage": "A festival director rejected a plan for a film screening after receiving a high estimate for hiring equipment. The projectionist challenged the estimate in a report endorsed by two technicians familiar with the site. The report set out a cheaper way to use the festival's own equipment. It suggested moving the audience closer to a smaller screen, which the existing projector could light evenly after dusk. The committee considered the report at its next meeting and overruled the director's decision. The screening went ahead in a courtyard with room for a smaller audience.",
+      "q": "Which account accurately describes the decision and the technicians' role?",
       "o": [
-        "By tracing the negotiations that led to the new layout.",
-        "By outlining the change and examining its consequences.",
-        "By comparing the results of trials on individual routes.",
-        "By organising it around a dispute over the timetable."
+        "The technicians backed the report, and the committee reversed the refusal.",
+        "The technicians wrote the report, and the director reversed his own decision.",
+        "The director backed the report, and the technicians approved the screening.",
+        "The technicians backed the report, but the committee upheld the refusal."
       ],
-      "a": 1,
-      "answer_support": "Drivers have since reported fewer requests to wait.",
+      "a": 0,
+      "answer_support": "in a report endorsed by two technicians familiar with the site. The report set out a cheaper way to use the festival's own equipment. It suggested moving the audience closer to a smaller screen, which the existing projector could light evenly after dusk. The committee considered the report at its next meeting and overruled the director's decision.",
       "exp": {
-        "trans": "一家公交公司把可换乘的班次放到了同一张时刻表上。过去每条线路单独列，乘客要再查另一张表才知道能否换车。投诉复核发现，司机常被要求等从另一站跑来的乘客。新表使换乘关系更清楚，司机收到的等候请求也少了。有些常客抱怨表格变长，公司认为换乘信息更清晰值得这一成本。",
-        "structure": "开头交代新旧时刻表的写法。中段介绍调整缘由和一个实际效果，末段加写新表对常客的影响与公司对此的评价。",
-        "other": "connection（衔接班次、换乘）、hold a bus（让公交暂缓发车）、layout（版面、布局）、transfer（换乘）。",
-        "meaning": "全文先说明改了什么及缘由，再写不同使用者感受到的后果。文末的不同评价是效果讨论的一部分。",
-        "rest": "查阅投诉只交代调整缘由，文章未追踪谈判。文中也没有逐条线路的试验结果。公司与常客的不同看法集中在末段，前两段围绕变动事实及效果展开。"
+        "trans": "节庆总监看到设备租赁报价太高，拒绝了放映计划。放映员在一份得到两名技术人员支持的报告里质疑报价，建议把观众安排得更靠近小屏幕，这样现有投影机在黄昏后就够用。委员会审阅报告并推翻了总监的决定，放映最终在一个可容纳少量观众的庭院举行。",
+        "structure": "主干是 The projectionist challenged the estimate。in a report 交代载体，endorsed by two technicians 是修饰 report 的过去分词短语，可还原为 which was endorsed by two technicians。另一句由 the committee 作主语，执行 overruled 的动作。",
+        "other": "projectionist（放映员）、estimate（报价、估价）、endorse（支持、认可）、go ahead（按计划进行）。",
+        "meaning": "技术人员对报告表示支持。委员会推翻了总监的决定，因此放映得以举行。类似 an opinion joined by four other justices 中的 joined by，分词给出支持意见的人。",
+        "rest": "质疑报价由放映员在报告中提出，无法从技术人员签署支持推出他们执笔。撤销原决定的是委员会。upheld 表示维持，文中的 overruled 表示推翻。"
       }
     },
     {
-      "id": "r19t3-stage-cues",
-      "family": "autonomous-quick-decisions",
-      "introduced": "2026-11-22",
-      "published_on": "2026-11-22",
-      "origin_session": "2026-11-22-2019-text3",
-      "context_id": "r19t3-theatre-live-cues-delegated-timing",
-      "format": "english1_reading",
-      "budget": 50,
-      "reading_budget": 115,
-      "target": "autonomous 和 split-second 的语境义",
-      "skill": "理解临场反应速度与自主权限",
-      "passage": "The lighting crew at a small theatre follows a list of cues worked out with the director during rehearsals. Live performances do not always follow that plan. If an actor misses a line, the operator may have to make a split-second decision about whether to move to the next cue. Asking the director would take longer than the pause onstage. The crew is therefore autonomous when it comes to the timing of cues during a show. Changes to the script or the lighting design are still agreed at rehearsals.",
-      "q": "Why can the crew adjust the timing of cues on its own?",
-      "o": [
-        "The director wants the crew to revise the script.",
-        "There is too little rehearsal time to plan the cues.",
-        "The actors need more time to learn their lines.",
-        "An unexpected moment may require a rapid response."
-      ],
-      "a": 3,
-      "answer_support": "Asking the director would take longer than the pause onstage.",
-      "exp": {
-        "trans": "剧院灯光组在排练时与导演商定灯光提示。演出中演员偶尔错过台词，操作员可能必须立刻决定是否推进下一个提示。等待导演回复会超过台上的停顿，所以演出当中灯光组有权自主调整提示时机。剧本或灯光设计的改动仍在排练时商定。",
-        "structure": "If 引出演出中的突发情形。Asking the director 那句说明等待批准会错过时机，therefore 引出给灯光组的权限。when it comes to 限定自主权限覆盖的事项。",
-        "other": "cue（这里指启动下一个灯光变化的提示）、rehearsal（排练）、onstage（在台上）。",
-        "meaning": "split-second decision 是一瞬间必须做的决定。autonomous 在这里表示团队对演出中的提示时机有自主权。",
-        "rest": "排练时已经商定提示清单，灯光组也没有权限自行修改剧本。演员漏一句是突发情况，授权的目的在于让灯光组及时处理这个情况。"
-      }
-    },
-    {
-      "id": "process-stage-shipment-hold-decision-d",
-      "family": "process-stage-role",
-      "introduced": "2026-10-10",
-      "published_on": "2026-10-15",
-      "budget": 55,
-      "target": "异常上报、暂停与放行",
-      "skill": "按提问定位过程中的决定而非总选最后一步",
-      "q": "A technician noticed an unusual label on a food shipment and asked a supervisor whether it should be checked. The supervisor marked the shipment 'hold', stopping dispatch. A laboratory later found the contents safe, and the quality manager signed the release form. Which event directly stopped the shipment from leaving?",
-      "o": [
-        "The technician's request for advice about the label.",
-        "The supervisor's decision to put the shipment on hold.",
-        "The laboratory's conclusion that the contents were safe.",
-        "The quality manager's signature on the release form."
-      ],
-      "a": 1,
-      "exp": {
-        "trans": "技术员发现一批食品的标签异常，询问主管是否应检查。主管将这批货标为暂扣，停止发运。实验室后来确认货物内容安全，质量经理签署了放行单。哪个事件直接阻止了货物运出？是主管作出的暂扣决定。",
-        "structure": "The technician + noticed ... and asked ...是发现和上报；whether it should be checked是询问内容，其中should be checked为被动谓语。The supervisor + marked + the shipment + hold，后接stopping dispatch说明结果。found the contents safe为find加宾语和形容词补语；signed the release form属于后来的放行阶段。",
-        "other": "shipment 一批货物；put on hold 暂停、暂扣；dispatch 发运；release form 放行单；contents 所装物品。",
-        "meaning": "先确定题目问的是停止发运，而非最早发现异常、确认安全或最终放行。直接产生停运结果的是主管的暂扣决定。过程角色题必须按问题定位阶段，不能一概选最后的正式批准。",
-        "rest": "技术员询问是否检查，是上报起点，文中实际停运由主管决定；实验室认定安全发生在之后，支持解除疑虑；经理签放行单允许后续运出，与停止运出方向相反。"
-      },
-      "context_id": "context:process-stage-shipment-hold-decision-d"
-    },
-    {
-      "id": "pb17-report-dependence",
-      "family": "paragraph-order-anaphora",
-      "introduced": "2026-10-04",
-      "published_on": "2026-11-12",
-      "budget": 60,
-      "target": "跨段指代与对象限定",
-      "skill": "跨段指代与对象限定",
-      "q": "P: The repair team compared two reviews. One tested every component afresh; the other copied an old estimate without checking it. Q begins: \"This dependence made the second review unsuitable for the safety decision.\" What must This dependence refer to?",
-      "o": [
-        "The first review's reliance on its own new component tests.",
-        "The repair team's choice to compare two separate reviews.",
-        "The safety decision's requirement for any review at all.",
-        "The second review's reliance on an unchecked old estimate."
-      ],
-      "a": 3,
-      "origin_session": "2026-11-12-2017-partb",
-      "exp": {
-        "trans": "两份评估，一份重新测试，另一份照搬未核验旧估计。后文This dependence指什么？",
-        "structure": "One...the other先区分两报告；second review把this dependence锁定到后者照搬旧估计这一依赖。",
-        "other": "component零部件；afresh重新；estimate估计。",
-        "meaning": "回指要同时满足内容和评价对象，不能看见review重复就任取同主题名词。",
-        "rest": "first review对象错位；team's choice把比较行为当依赖；requirement...review补加文中没有的安全规定。"
-      },
-      "context_id": "equipment-reviews-new-tests-versus-unchecked-estimate-anaphora"
-    },
-    {
-      "id": "refresh-conceivably-course-fees",
-      "family": "conceivably",
+      "id": "subject-rule-departure",
+      "family": "subject",
       "introduced": null,
+      "budget": 40,
+      "target": "be subject to / be subjected to",
+      "skill": "be subject to / be subjected to",
+      "q": "需要写一句仍适用的票务规则：“发车时间可能调整。”这里只说明可能性，不报告已经执行的处理。哪句准确？",
+      "o": [
+        "Departure times were subjected to repeated adjustments yesterday.",
+        "Departure times are subject to change.",
+        "Departure times are subjected to a detailed inspection every morning.",
+        "Departure times are immune to change."
+      ],
+      "a": 1,
+      "exp": {
+        "trans": "Departure times are subject to change：发车时间可能发生调整。",
+        "structure": "Departure times（主语）+ are（系动词）+ subject to change（表语）。这里是规则或可能状态，不是在叙述谁已经对时刻表做了什么处理。",
+        "other": "departure 出发；adjustment 调整；inspection 检查；be immune to 不受……影响。",
+        "meaning": "be subject to在这条规则中表示可能受变化影响。be subjected to通常强调某对象被施加了某个过程。",
+        "rest": "were subjected to repeated adjustments yesterday：报告昨天实际经历了反复调整，时态和事件性质均不符。are subjected to a detailed inspection：说每天被施加检查过程，inspection也不是时间可能调整。are immune to change：表示不受变化影响，与题意相反。"
+      },
+      "context_id": "context:subject-rule-departure"
+    },
+    {
+      "id": "pb19-orchard-reference",
+      "family": "paragraph-order-cataphora",
+      "context_id": "orchard-machine-costs-shared-need-versus-payment",
+      "introduced": "2026-11-24",
+      "published_on": "2026-11-25",
+      "budget": 45,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "Whatever their differences over how to divide the cost, orchard owners Rosa Méndez and Daniel Hart agreed that the village needed a way to share equipment. Méndez wanted each farm to make a fixed payment for access. Hart proposed charging by the hour, arguing that a small grower could otherwise pay as much as a neighbour with three times as much land.\n\nThe village adopted Hart's plan after a vote. That choice settled how the cost would be shared, but it left a question open. Who would get a machine when several orchards needed it on the same day? The answer required a booking rule of its own.",
+      "q": "The word “their” in the opening sentence refers to",
+      "o": [
+        "the growers waiting to borrow the machines.",
+        "the two growers who differed over payment.",
+        "the villagers who voted on the payment plan.",
+        "the neighbours with much larger orchards."
+      ],
+      "a": 1,
+      "target": "句首 their 的同句前指",
+      "skill": "句首 their 的同句前指",
+      "origin_session": "2026-11-24-2019-partb",
+      "answer_support": "Whatever their differences over how to divide the cost, orchard owners Rosa Méndez and Daniel Hart",
+      "exp": {
+        "trans": "两位果园主都认为村里需要共享设备，对分摊费用各有看法。村里投票采纳按时计费的提案，预约优先顺序仍待解决。",
+        "structure": "先读主句 orchard owners Rosa Méndez and Daniel Hart agreed ...，确认这句话在说哪两个人。再回到句首 Whatever their differences ...，their 指后面出现的这两位果园主。第二段的 That choice 回指村里采纳 Hart 的按时计费方案。",
+        "other": "orchard 果园，fixed payment 固定缴费，by the hour 按小时，leave a question open 使问题悬而未决。",
+        "meaning": "their differences 是这两位果园主在如何分摊费用上的分歧。接下来分别介绍了 Méndez 的固定缴费建议和 Hart 的按时收费建议。",
+        "rest": "借机器的农户是后面预约问题涉及的人，参与投票的村民在第二段才出现。大果园只出现在 Hart 用来说明费用问题的假设例子里。"
+      }
+    },
+    {
+      "id": "e1r-digital-library",
+      "family": "title-coverage",
+      "introduced": "2026-10-03",
+      "published_on": "2026-11-17",
+      "budget": 65,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "Public libraries have spent heavily on faster internet connections and new computers. For residents without reliable access at home, those investments matter. Yet librarians report that some visitors still leave without completing the task that brought them in. A working computer is little help to someone unsure how to fill in an online form or judge whether a message is genuine.\n\nSeveral libraries are now assigning staff to offer short, practical sessions alongside the equipment. The service costs money and takes time away from other duties. But if public access is to mean more than a row of available screens, helping people use the connection deserves a place in the budget too.",
+      "q": "Which of the following would be the best title for the text?",
+      "o": [
+        "Bringing Every Library Service Online",
+        "A Better Connection Is Only a Beginning",
+        "Making Public Computers Pay Their Way",
+        "Why Libraries Are Losing Their Readers"
+      ],
+      "a": 1,
+      "target": "标题概括问题与解决方向，不只复现一个话题词",
+      "skill": "标题概括问题与解决方向，不只复现一个话题词",
+      "origin_session": "2026-11-17-reading-style",
+      "answer_support": "helping people use the connection deserves a place in the budget too",
+      "exp": {
+        "trans": "图书馆配置网络和电脑后，部分读者仍缺少使用技能；作者主张把人员指导也纳入公共数字服务。",
+        "structure": "从硬件投入的成效和不足，推进到实用指导的需求与经费，形成“连接只是起点”的论点。",
+        "other": "genuine：真实的；assign：安排；alongside：与……同时。",
+        "meaning": "正确标题同时覆盖硬件有用和仅有硬件不够这两层观点，包含文章后半部分提出的支持措施。",
+        "rest": "把所有服务搬到线上不是文章主张；让电脑挣钱误读了公共预算讨论；文章也没有说图书馆正在失去读者。"
+      },
+      "context_id": "english1-reading:digital-library"
+    },
+    {
+      "id": "pb19-apprenticeship-figures",
+      "family": "undermine-context",
+      "context_id": "apprenticeship-employer-retention-and-public-trust",
+      "introduced": "2026-11-24",
+      "published_on": "2026-11-24",
+      "budget": 45,
+      "reading_budget": 120,
+      "format": "english1_reading",
+      "passage": "Early figures for a city's apprenticeship programme looked dismal. Six months after training ended, fewer than a third of the apprentices still worked for the firms that had trained them. The city was about to withdraw funding. Then a follow-up survey found that many of the trainees counted as dropouts were already working for other firms in the same trade.\n\nA poorly chosen measure can undermine public confidence in a programme that is doing its job. The city wanted people to enter a trade, and staying with one employer was only one way of doing so. Future reports should count apprentices who find work in the trade, wherever they end up.",
+      "q": "What effect does the author say the early figures could have?",
+      "o": [
+        "They could put pressure on firms to keep trainees.",
+        "They could draw more applicants to training schemes.",
+        "They could weaken public trust in the programme.",
+        "They could make trainees doubt their choice of trade."
+      ],
+      "a": 2,
+      "target": "dismal 的负面评价与 undermine confidence 的语境",
+      "skill": "dismal 的负面评价与 undermine confidence 的语境",
+      "origin_session": "2026-11-24-2019-partb",
+      "answer_support": "A poorly chosen measure can undermine public confidence in a programme that is doing its job",
+      "exp": {
+        "trans": "学徒项目最早的数据很惨淡，市方几乎要停拨经费。后来发现，很多被算作流失的人其实还在同一行业工作。用单个雇主的留任率衡量入行情况，会削弱公众对项目的信心。",
+        "structure": "首段先交代旧指标显示的糟糕表现，再用跟踪调查指出指标遗漏。第二段评价这种测量的影响，然后提出新的统计口径。",
+        "other": "dismal 形容表现惨淡，dropout 退出者，trade 此处指行业或职业，withdraw funding 撤回资助。",
+        "meaning": "undermine public confidence 表示损害公众信心。前面看起来很差的数据不能反映所有学徒去向，却可能使公众降低对项目的信任。",
+        "rest": "原文写了项目信任及经费面临风险。公司受压留人、报名人数上升和学徒怀疑所选行业都没有文本依据。"
+      }
+    },
+    {
+      "id": "refresh-amount-crew-meetings",
+      "family": "amount-to-meaning",
+      "introduced": "2026-11-17",
       "published_on": "2026-11-19",
       "format": "english1_reading",
-      "budget": 35,
-      "reading_budget": 100,
-      "target": "conceivably 作为待检验的解释",
-      "skill": "识别作者保留的不确定性与证据边界",
-      "passage": "Enrolment in evening classes at two training centres fell after the timetable changed. One possibility is that people who work late switched to another time. Some employers, however, also stopped paying course fees for their staff that autumn. The decline could conceivably reflect the loss of that assistance, even if the new hours suited most learners. Before altering next term's hours, the director wants to find out how many former students were still eligible for help with fees.",
-      "q": "What does the passage suggest about the loss of assistance?",
-      "o": [
-        "It affected evening learners more than daytime learners.",
-        "It may explain why fewer people took evening classes.",
-        "It was confirmed as the chief cause of lower enrolment.",
-        "It had little effect after the new timetable took hold."
-      ],
-      "a": 1,
-      "answer_support": "The decline could conceivably reflect the loss of that assistance, even if the new hours suited most learners.",
-      "exp": {
-        "trans": "培训中心换时间表后夜课报名减少。同一时期有雇主停止代员工出学费。主任想先查资助资格，判断报名下降是否可能受费用影响，再决定是否改时间。",
-        "structure": "先提到时间调整，however 增加另一条可能原因。末句说明需进一步调查，才能判断哪种解释更有力。",
-        "other": "enrolment（报名）、assistance（援助）、eligible（符合条件）。",
-        "meaning": "conceivably 提出一种可以考虑的解释，语气保留，不能从文中读出原因的相对概率。",
-        "rest": "原文没有比较日课和夜课受影响的程度，也没有确认主要原因或证明影响很小。主任的调查正要填补这些信息。"
-      },
-      "context_id": "refresh:lost-enrolment-reimbursement"
-    },
-    {
-      "id": "r19t4-catalogue-drafts",
-      "family": "restrict-enable-direction",
-      "introduced": "2026-11-23",
-      "published_on": "2026-11-23",
-      "origin_session": "2026-11-23-2019-text4",
-      "context_id": "r19t4-catalogue-drafts-early-access",
-      "format": "english1_reading",
-      "budget": 50,
-      "reading_budget": 110,
-      "target": "限制与促进的方向",
-      "skill": "根据谓语判断旧做法对谁有利",
-      "passage": "A museum network used to send draft catalogue records to its largest members a week before anyone else could see them. Early access helped those museums catch errors involving their own collections. But a review found that the arrangement limited the time smaller museums had to check dates and prevented some from presenting evidence before the records went online. The review concluded that this hardly made for an even playing field. The network now sends the drafts to everyone at once, although some of the larger museums say the change will slow publication.",
-      "q": "According to the review, how did the earlier arrangement affect smaller museums?",
-      "o": [
-        "It gave them more chances to correct records early.",
-        "It helped them establish the origins of more objects.",
-        "It reduced their chance to challenge draft records.",
-        "It let them submit evidence after the records went online."
-      ],
-      "a": 2,
-      "answer_support": "limited the time smaller museums had to check dates and prevented some from presenting evidence before the records went online",
-      "exp": {
-        "trans": "博物馆网络过去提前一周向规模最大的成员发送馆藏目录草稿。这给了大馆更多时间纠正与本馆藏品相关的错误。审查发现，小馆用来核对日期的时间受限，一部分小馆无法在目录上线前提交证据。审查认为各家条件并不公平。现在所有成员同时收到草稿，有些大馆担心发布会变慢。",
-        "structure": "But 将受益的大馆切换为审查指出的小馆困境。limited 限制核查时间。与它并列的 prevented + 人 + from doing 又指出目录发布前一部分小馆做不到什么。",
-        "other": "draft catalogue records（目录草稿）、catch an error（发现错误）、go online（上线）。",
-        "meaning": "这里两个谓语都写障碍，限制检查时间和阻止提交证据使小馆较难纠正目录。an even playing field 指公平条件。even 在 an even surface 中指平整，在 even a small museum 中是副词，表示甚至。",
-        "rest": "提前获得纠错机会的是大馆。文中提到核对日期，未说明小馆能查清更多物件的来源。before the records went online 限定受阻的是上线前提交证据，文中未交代上线后的提交权限。"
-      }
-    },
-    {
-      "id": "r19t2-research-samples",
-      "family": "utmost-effort",
-      "introduced": "2026-11-21",
-      "published_on": "2026-11-21",
-      "origin_session": "2026-11-21-2019-text2",
-      "context_id": "r19t2-cold-storage-failure-preservation-effort",
-      "format": "english1_reading",
-      "budget": 35,
-      "reading_budget": 100,
-      "target": "do one's utmost 的语境用法",
-      "skill": "根据行动与结果理解努力程度",
-      "passage": "When the cooling system failed at a research station, the manager moved the most sensitive samples to a nearby laboratory. It had room for only half the collection. A staff member telephoned other sites, and two colleagues repacked the remaining samples in insulated boxes until transport could be arranged. Some material was still lost. The station's report said that the team had done its utmost to preserve the collection, although it could not make up for the shortage of suitable storage space.",
-      "q": "What does the report say about the team's response?",
-      "o": [
-        "They saved the whole collection by moving it.",
-        "They had enough space before transport arrived.",
-        "They made every effort to protect the samples.",
-        "They waited for transport before taking action."
-      ],
-      "a": 2,
-      "answer_support": "the team had done its utmost to preserve the collection",
-      "exp": {
-        "trans": "研究站的制冷设备失灵后，管理者先把最敏感的样本送往附近实验室，但那里只能容纳一半。工作人员联系其他地点，也把剩余样品装进隔热箱争取时间。尽管仍有损失，报告说团队已经尽力保存样本。",
-        "structure": "前几句列举了团队采取的办法。末句先用 done its utmost 评价努力程度，再用 although 交代行动受到什么限制。",
-        "other": "sensitive（对条件变化敏感的）、insulated（隔热的）、make up for（弥补）。",
-        "meaning": "do one's utmost 表示竭尽全力。of utmost importance 说一件事极为重要，to the utmost 则表示做到最大限度。",
-        "rest": "材料交代仍有样本损失，存放空间也紧张。联系其他站点和用隔热箱重新打包都发生在等待进一步运输期间。"
-      }
-    },
-    {
-      "id": "parallel-governance-control-panel",
-      "family": "parallel-governance",
-      "introduced": null,
-      "published_on": "2026-10-05",
       "budget": 45,
-      "target": "共同动词支配 / not...but...",
-      "skill": "共同动词支配",
-      "q": "The redesign owes its success not to a faster motor but to a simpler control panel. Which reading keeps the shared relation intact?",
+      "reading_budget": 100,
+      "target": "amount to 表示累计达到的量",
+      "skill": "从多个小量识别累计结果",
+      "passage": "The budget for a play counts the hours spent building the set and rehearsing on stage. It gives little attention to the short meetings in which the director and technical crew agree on changes. Individually, those meetings rarely last more than twenty minutes. Over the life of a production, however, they amount to almost a full working day. A revised budget now includes this time, so that the theatre has a more accurate estimate of how much work a new play requires.",
+      "q": "What does the passage say about the duration of the meetings?",
       "o": [
-        "The faster motor owes its success to the control panel.",
-        "Success is credited to the panel rather than to the motor.",
-        "The simpler panel was made possible by the redesign's earlier success.",
-        "The sentence credits the motor and the panel equally."
+        "Their time adds up to nearly a full working day.",
+        "Each is scheduled to last at least twenty minutes.",
+        "They are held together on one separate working day.",
+        "Their length depends on the time spent building sets."
       ],
-      "a": 1,
+      "a": 0,
+      "answer_support": "Over the life of a production, however, they amount to almost a full working day.",
       "exp": {
-        "trans": "这次重新设计的成功不是由于更快的电机，而是由于更简单的控制面板。两个to短语共同说明同一个成功应归因于什么。",
-        "structure": "The redesign是主语，owes是谓语，its success是宾语。not to a faster motor和but to a simpler control panel是同层并列的归因补足语，都受owes its success支配。",
-        "other": "redesign 重新设计；owe A to B 把A归因于B；motor 电机；control panel 控制面板。",
-        "meaning": "共享的是owe success to...的归因结构，不是让后半句生成新主语或改变成功的所属对象。not...but...排除电机、强调面板。",
-        "rest": "The faster motor owes...把电机改成主语并换掉success所属对象；panel was made possible...把面板作为成功的结果，反转因果；equally忽略not对电机解释的排除。"
+        "trans": "剧院原预算算了搭景和排练的时长，往往忽略商量改动的短会。单场通常不到二十分钟，但一部剧的会议时间加起来接近一整天，因此新版预算也算入这段工时。",
+        "structure": "Individually 说一场会，over the life of a production 说整个制作周期。however 转到累加后的结果。",
+        "other": "set（舞台布景）、rehearse（排练）、technical crew（技术人员）、estimate（估算）。",
+        "meaning": "amount to 后接一段工时，表示多次开会累计接近一天。",
+        "rest": "二十分钟是单场会议较少超过的时长。会议分散在制作期间，也没有被说成由搭景时间决定。"
       },
-      "context_id": "context:parallel-governance-control-panel"
+      "context_id": "refresh:cumulative-production-meetings"
+    },
+    {
+      "id": "example-museum-hours-transport-c",
+      "family": "example-claim-scope",
+      "introduced": "2026-10-11",
+      "published_on": "2026-10-15",
+      "budget": 60,
+      "target": "例子在论证中的作用",
+      "skill": "识别反例对充分条件的限制而非扩大成全面否定",
+      "q": "A consultant argues that longer opening hours are enough to widen access to museums. A writer responds with a neighbourhood museum that stayed open until 10 p.m., yet attracted few additional night-shift workers. Interviews revealed that the last bus serving their workplaces left at 8 p.m. Why does the writer include this case?",
+      "o": [
+        "To show that transport constraints can limit what extended hours achieve.",
+        "To identify reduced bus services as a consequence of the later museum hours.",
+        "To compare tourists' reasons for visiting with those of local residents.",
+        "To present later opening as a substitute for improving transport links."
+      ],
+      "a": 0,
+      "exp": {
+        "trans": "顾问认为，只要延长开放时间，就足以让更多人有机会参观博物馆。作者回应说，一家社区博物馆开放到晚上十点，却几乎没有多吸引夜班工人。访谈发现，途经他们工作地点的末班公交在晚上八点就开走了。作者为何举这个例子？为了说明交通限制会影响延长开放时间的实际效果。",
+        "structure": "A consultant + argues + that从句提出待检验的充分条件；A writer + responds with + a museum引出反例。that stayed open...为修饰museum的定语从句；yet转向预期未实现的结果；Interviews + revealed + that从句提供限制条件。",
+        "other": "widen access 扩大参与机会；neighbourhood 社区；night-shift worker 夜班工人；extended hours 延长的开放时间；transport link 交通连接。",
+        "meaning": "例子针对的是延长开放时间是否单独就足够。公交仍是障碍，说明措施的效果受另一条件限制；没有证明延时开放普遍无效，也没有比较不同群体的喜好。",
+        "rest": "末班车时间是已有约束，文中没有说公交服务因博物馆延时而削减；游客与本地居民的参观动机没有被比较；例子指出仅延时仍不足，不能反说延时可以替代交通改善。"
+      },
+      "context_id": "context:example-museum-hours-transport-c"
+    },
+    {
+      "id": "social-message-repair-framing",
+      "family": "social-message-inference",
+      "introduced": "2026-10-03",
+      "published_on": "2026-10-05",
+      "budget": 50,
+      "target": "社会信息 / 推断边界",
+      "skill": "隐含批评与证据范围",
+      "q": "A shop’s guide calls replacing a worn battery “settling for yesterday’s technology.” It says nothing about whether a repaired phone would meet its owner’s needs. Which inference is best supported?",
+      "o": [
+        "The guide judges repairs from owners' reported dissatisfaction.",
+        "The guide compares replacements by how long they last.",
+        "The guide criticizes repair without showing it fails users.",
+        "The guide identifies a technical barrier to battery replacement."
+      ],
+      "a": 2,
+      "exp": {
+        "trans": "一家商店的指南把更换磨损的电池称为“将就使用过时技术”。它没有讨论修好的手机能否满足机主的需要。最有依据的推断是：它对维修附加了负面评价，却没有证明维修无法满足需要。",
+        "structure": "主句A shop’s guide + calls + replacing a worn battery + 引语，call把维修描述成某种选择。It指guide；whether从句是about的补足内容，a repaired phone是该从句主语，would meet是谓语。",
+        "other": "worn 磨损的；settle for 将就接受；battery 电池；meet someone’s needs 满足某人的需要。",
+        "meaning": "区分价值标签与功能证据。“过时”是指南附加的评价标签，不能直接升级为对实际需要是否得到满足的证据，也不必出现人身侮辱才有否定性信息。",
+        "rest": "reported dissatisfaction补出未报告的用户调查；how long they last偷换成使用寿命比较；technical obstacle把负面描述变成无法换电池的技术原因，三者都没有文本依据。"
+      },
+      "context_id": "context:social-message-repair-framing"
     }
   ],
   "retry": {
-    "whole-text-method-scope": [],
-    "autonomous-quick-decisions": [],
-    "process-stage-role": [
+    "past-participle-modifier": [],
+    "subject": [
       {
-        "id": "process-stage-shelter-approval-a",
-        "family": "process-stage-role",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-10",
-        "budget": 55,
-        "target": "个人估计 vs 集体验证",
-        "skill": "区分主张起点和取得认可所需条件",
-        "q": "An analyst estimates that the city has room for 4,000 people in emergency shelters. Officials will use this figure for evacuation plans only after independent teams verify the counts and agree on a common estimate. What makes the figure suitable for official planning?",
+        "id": "subject-curtains-steam",
+        "family": "subject",
+        "introduced": null,
+        "budget": 45,
+        "target": "subject A to B / be subjected to",
+        "skill": "be subject to / be subjected to",
+        "q": "The cleaner deliberately subjected the curtains to a steam treatment yesterday.\n要保留“昨天实际施加了处理”的含义，哪句被动改写准确？",
         "o": [
-          "The analyst's personal familiarity with the shelters.",
-          "Verification and agreement across independent teams.",
-          "The public release of a large numerical estimate.",
-          "The analyst's decision to avoid revising the original number."
+          "The curtains are subject to changes in fashion.",
+          "The curtains were exempt from treatment yesterday.",
+          "The curtains were subjected to steam yesterday.",
+          "The curtains are suitable for steam treatment."
+        ],
+        "a": 2,
+        "exp": {
+          "trans": "清洁人员昨天特意对窗帘做了蒸汽处理。选项中的被动改写为：窗帘昨天受了蒸汽处理。",
+          "structure": "原主干The cleaner + subjected + the curtains + to a steam treatment。被动改写将the curtains作主语，were subjected是一般过去时被动谓语，to steam说明处理内容，yesterday保留时间；施事已经明确时可省略by the cleaner。这里不是系表结构。",
+          "other": "cleaner 清洁人员；curtain 窗帘；deliberately 特意地；steam treatment 蒸汽处理。",
+          "meaning": "were subjected to steam表示窗帘昨天实际经历了蒸汽处理；关键是事件性的被动谓语，不是可能受影响或适合处理的状态。",
+          "rest": "are subject to changes in fashion：说窗帘可能受时尚变化影响，不是昨天被处理的事件。were exempt from treatment：免于处理，与原文相反。are suitable for steam treatment：适合做处理，只表示适宜性，不能证明处理发生过。"
+        },
+        "context_id": "context:subject-curtains-steam"
+      },
+      {
+        "id": "subject-road-closure-risk",
+        "family": "subject",
+        "introduced": null,
+        "published_on": "2026-10-05",
+        "budget": 45,
+        "target": "be subject to / 实际事件",
+        "skill": "be subject to / be subjected to",
+        "q": "The mountain road is subject to closure during heavy snow. No closure has been announced today. Which report preserves both statements?",
+        "o": [
+          "The road is reported closed after today's heavy snowfall.",
+          "Snow may close the road; no closure is reported today.",
+          "The road underwent a test involving closure earlier today.",
+          "The road is open because snow cannot lead to its closure."
         ],
         "a": 1,
         "exp": {
-          "trans": "一位分析员估计城市应急避难所可容纳4000人；只有独立团队核查数据并就统一估计达成一致，政府才会在疏散计划中采用这一数字。",
-          "structure": "An analyst + estimates + that从句提出最初主张；Officials + will use + this figure ... only after ...，only after指出主张转化为官方依据所需的条件。",
-          "other": "emergency shelter 应急避难所；evacuation 疏散；estimate 估计；verify 核验。",
-          "meaning": "题干问的是让一项初步主张获得认可所需要的机制。个人估计是起点，独立团队核查与达成一致是条件；不能因为看到analyst就选个人经验。",
-          "rest": "个人熟悉情况只能解释估计如何产生；数字公开和规模大都不能自动证明可靠；拒绝修订反而与核查机制相冲突。"
+          "trans": "这条山路在大雪期间可能封闭。今天尚未宣布封路。准确报道是：大雪可能带来封路，但这两句没有报道今天已经封路。",
+          "structure": "The mountain road是主语，is是系动词，subject to closure表达所受约束或可能状态。第二句No closure是主语，has been announced是现在完成时被动谓语；没有公告不等于已验证现场一定开放。",
+          "other": "mountain road 山路；closure 封闭；announce 宣布；status 状态。",
+          "meaning": "be subject to可表示有可能受某变化影响，不自动表示该事件已经发生。这里也不能从“尚无公告”推出现场已确认开放。",
+          "rest": "原文只报告可能受封闭影响，没有报告今天已封路；封路测试是虚构事件；未公布封路不等于已确认开放，更不能说大雪不会造成封路。"
         },
-        "context_id": "process-initial-report-independent-verification"
+        "context_id": "context:subject-road-closure-risk"
       },
       {
-        "id": "process-stage-bridge-warning-b",
-        "family": "process-stage-role",
-        "introduced": "2026-10-10",
-        "published_on": "2026-10-10",
-        "budget": 55,
-        "target": "单次发现 vs 跨来源确认",
-        "skill": "过程终点与条件的角色识别",
-        "q": "A driver first reports cracks on a bridge, but the warning is not issued to the whole region until engineers compare photographs, inspect the structure, and confirm the hazard. What is required for the initial report to become an official warning?",
+        "id": "subject-road-closure-risk-balanced-b",
+        "family": "subject",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "conditional risk vs current event",
+        "skill": "避免把可能风险扩大成已经发生的事实",
+        "q": "A mountain road report says heavy snow can lead to closures, but today's bulletin only forecasts snow. Which conclusion is supported?",
         "o": [
-          "A more vivid description from the first driver.",
-          "Agreement that the first driver deserves public credit.",
-          "Public enthusiasm for an alarming photograph.",
-          "Independent assessment and confirmation of the reported danger."
+          "The road is closed today because heavy snow is forecast.",
+          "The forecast identifies a risk, not a confirmed closure today.",
+          "The road has remained open through every previous snowstorm.",
+          "The report proves that snow will not affect road access today."
+        ],
+        "a": 1,
+        "exp": {
+          "trans": "山区道路报告说，大雪可能导致封路，但今天的公告只是在预报降雪。最有根据的结论是：预报指出一种风险，并没有确认今天已经封路。",
+          "structure": "can lead to closures表达可能结果；today's bulletin only forecasts snow限制了当前已知事实。题干要求判断能得出什么结论，而不是推断可能后果已经发生。",
+          "other": "forecast 预报；closure 封路；confirmed 已确认的；road access 道路通行。",
+          "meaning": "不能把条件性风险升级为已发生事件。可能导致封路，不等于今天已经封路；同样也不能反向断言降雪一定不会影响通行。",
+          "rest": "预报降雪不等于已经封路；没有证据说明道路经历过所有以往的雪暴；报告指出风险，并没有证明雪不会影响通行。"
+        },
+        "context_id": "context:subject-road-closure-risk-balanced-b"
+      }
+    ],
+    "paragraph-order-cataphora": [
+      {
+        "id": "pb19-chart-blanks",
+        "family": "paragraph-order-cataphora",
+        "context_id": "coastal-archive-map-blanks-first-assumption",
+        "introduced": "2026-11-24",
+        "published_on": "2026-11-24",
+        "budget": 45,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "When she began cataloguing a collection of hand-drawn coastal maps, the archivist Lena Duarte assumed that every blank marked a stretch of coast that the surveyor, Ada Bell, had been unable to reach. A work diary showed otherwise. Bell had left those areas blank deliberately when the depth readings were too uncertain to publish.\n\nDuarte now keeps the blanks in the digital edition. Filling them with data from newer surveys would make the maps more useful to sailors, but it would hide the limits of what Bell knew at the time. The edition is meant to show how surveyors worked, and those limits are part of the record.",
+        "q": "What did Duarte initially take the blanks to mean?",
+        "o": [
+          "The surveyor had decided to withhold uncertain readings.",
+          "The surveyor could not reach those parts of the coast.",
+          "Some measurements had gone missing from the archive.",
+          "The maps were meant to be updated after later surveys."
+        ],
+        "a": 1,
+        "target": "同句前指与两个人物的判断归属",
+        "skill": "同句前指与两个人物的判断归属",
+        "origin_session": "2026-11-24-2019-partb",
+        "answer_support": "marked a stretch of coast that the surveyor, Ada Bell, had been unable to reach",
+        "exp": {
+          "trans": "档案员杜阿尔特最初以为地图上的空白代表测绘员贝尔到不了那些海岸。日记说明贝尔测得了数据，只是数据太不确定，她有意留白。数字版保留空白来呈现当时知识的局限。",
+          "structure": "第一句 When she began ... 的 she 指后面的 Lena Duarte。主句 Duarte assumed ... 交代档案员最初的解释，that从句中的 Ada Bell 是原测绘员。第二段交代档案员看过日记后的决策。",
+          "other": "catalogue 编目、登记，depth reading 水深读数，withhold 暂不公布。",
+          "meaning": "initially 限定档案员最初的判断。她当时以为贝尔无法到达空白所对应的海岸。",
+          "rest": "故意不发布不确定读数是日记揭示的原因。原文未提及读数遗失。用后来的数据补图只是第二段提出的一种可能做法。"
+        }
+      }
+    ],
+    "title-coverage": [
+      {
+        "id": "r18t4-title-timetable",
+        "family": "title-coverage",
+        "introduced": "2026-10-03",
+        "published_on": "2026-11-17",
+        "budget": 65,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A school district has responded to falling reading scores by buying extra tutoring hours. The help is welcome, particularly for pupils who have missed lessons. Yet the district's own review found that frequent timetable changes were repeatedly interrupting the normal reading classes. Paying for more teaching after school leaves that problem untouched.\n\nThe tutoring contract may prevent some pupils from falling further behind. It should not become a reason to postpone a more awkward discussion about how the school day is organised. A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones. The extra help is useful; a dependable timetable is still essential.",
+        "q": "Which of the following would be the best title for the text?",
+        "o": [
+          "Why Reading Scores Call for Rapid Action",
+          "Extra Lessons Cannot Repair a Broken Timetable",
+          "After-School Tutors Deserve Greater Recognition",
+          "How Families Can Help Children Read at Home"
+        ],
+        "a": 1,
+        "target": "标题须包含作者对现有措施不充分的评价",
+        "skill": "标题须包含作者对现有措施不充分的评价",
+        "origin_session": "2026-11-17-2018-text4",
+        "answer_support": "A system that regularly disrupts its own lessons cannot put matters right simply by purchasing additional ones.",
+        "exp": {
+          "trans": "额外辅导有用，但正常阅读课不断被打断，作者主张处理课程安排本身的问题。",
+          "structure": "先认可补救，再指出根因仍在，末段要求把改善基本安排纳入对策。",
+          "other": "dependable：可靠的；put matters right：纠正问题。",
+          "meaning": "正确标题抓住额外辅导无法代替稳定课程安排的论点。快速行动与阅读下降相关，但不是作者最强调的区别。",
+          "rest": "紧急行动只概括背景需求；肯定辅导教师、家庭阅读均非文章论证中心。"
+        },
+        "context_id": "r18t4-reading:title-timetable"
+      },
+      {
+        "id": "r18t4-title-swift-reform",
+        "family": "title-coverage",
+        "introduced": "2026-10-03",
+        "published_on": "2026-11-17",
+        "budget": 65,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "Applicants for a training grant used to submit the same address details to three offices. A mismatch between the forms could delay an otherwise complete application for weeks. After staff traced the problem, the offices agreed to use one shared form. The change was introduced within days, and most applications could then move through the system without repeated checks of identical information.\n\nThere is a temptation to judge a reform's seriousness by how long it takes. This case points the other way. The change was quick because the obstacle was specific and the people involved had authority to remove it. Speed did not make the improvement superficial; it spared applicants another season of unnecessary delay.",
+        "q": "Which of the following would be the best title for the text?",
+        "o": [
+          "A Grant Scheme in Need of More Patient Applicants",
+          "The Risks of Sharing Information Between Offices",
+          "A Swift Reform with Lasting Practical Benefits",
+          "Why Major Reforms Must Begin with Longer Forms"
+        ],
+        "a": 2,
+        "target": "不把快速解决一律误判成临时补救",
+        "skill": "不把快速解决一律误判成临时补救",
+        "origin_session": "2026-11-17-2018-text4",
+        "answer_support": "Speed did not make the improvement superficial",
+        "exp": {
+          "trans": "重复填表造成等待，统一表格迅速移除了具体障碍。作者强调迅速并不等于表面应付。",
+          "structure": "第一段呈现原因、行动与结果，第二段明确评价速度与改革价值的关系。",
+          "other": "superficial：表面的；trace：查明；obstacle：障碍。",
+          "meaning": "本文恰好支持快速且有效的改革。标题判断必须跟随材料，不能学成见到quick就排除。",
+          "rest": "要求申请人更耐心、警惕信息共享或延长表格，均不符合作者对这次改革的肯定。"
+        },
+        "context_id": "r18t4-reading:title-swift-reform"
+      },
+      {
+        "id": "e1r-empty-shops",
+        "family": "title-coverage",
+        "introduced": "2026-10-03",
+        "published_on": "2026-11-17",
+        "budget": 65,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "An empty shop is more than a gap in a shopping street. When several remain vacant, fewer people pass through, and the surviving businesses lose customers. Simply advertising the empty units has done little where the rent and the cost of fitting out a whole shop are beyond a new trader's reach.\n\nA local partnership is now dividing several units into small shared spaces. Traders pay for a stall and basic services instead of taking on an entire building. The arrangement will not rescue every shopping street, but it tackles one reason premises stay unused. Reviving a high street may depend less on finding a single large tenant than on making room for several small ones.",
+        "q": "Which of the following would be the best title for the text?",
+        "o": [
+          "Why Small Shops Need Larger Buildings",
+          "The Cost of Advertising Vacant Properties",
+          "Giving Empty Shops a Shared Future",
+          "How Large Retailers Choose Their Tenants"
+        ],
+        "a": 2,
+        "target": "从整篇主线概括复兴途径，而非选择背景细节作标题",
+        "skill": "从整篇主线概括复兴途径，而非选择背景细节作标题",
+        "origin_session": "2026-11-17-reading-style",
+        "answer_support": "Reviving a high street may depend less on finding a single large tenant than on making room for several small ones.",
+        "exp": {
+          "trans": "空铺加剧街区衰落，整间租用费用又阻挡小商户进入；共享铺位降低门槛，为街区复兴提供一种途径。",
+          "structure": "先说明空置问题和原有办法的不足，再解释共享方案及其适用限度。",
+          "other": "premises：经营场所；fit out：装修配备；tenant：租户。",
+          "meaning": "正确标题覆盖空铺问题和共享利用的解决方向。它没有承诺所有街区都能因此获救。",
+          "rest": "更大的建筑与小商户实际面临的负担相反；广告费用只是背景且非主线；文章不讨论大型零售商挑选租户。"
+        },
+        "context_id": "english1-reading:empty-shops"
+      }
+    ],
+    "undermine-context": [],
+    "amount-to-meaning": [
+      {
+        "id": "r18t4-amount-formality",
+        "family": "amount-to-meaning",
+        "introduced": "2026-11-17",
+        "published_on": "2026-11-17",
+        "budget": 45,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A transport authority has invited residents to comment on a station plan after the main contracts have been signed. Officials promise to listen, but they cannot change the entrance, the route of the access road or the hours of construction. Only the colour of a boundary fence remains open for discussion.\n\nUnder those conditions, the consultation amounts to a formality. An opportunity to speak is of limited value when the decisions that matter have already been made. Public participation should occur while alternatives remain possible, not merely provide a final stage in a process whose outcome is no longer in doubt.",
+        "q": "The phrase \"amounts to\" in Paragraph 2 is closest in meaning to",
+        "o": [
+          "is effectively.",
+          "is caused by.",
+          "depends upon.",
+          "argues against."
+        ],
+        "a": 0,
+        "target": "amount to在评价语境表示实际上相当于",
+        "skill": "amount to在评价语境表示实际上相当于",
+        "origin_session": "2026-11-17-2018-text4",
+        "answer_support": "the consultation amounts to a formality",
+        "exp": {
+          "trans": "主要决定已定，居民仅能讨论围栏颜色，因此所谓咨询实际只剩形式。",
+          "structure": "前段提供受限范围，后段以amounts to对咨询的实质作评价。",
+          "other": "formality：形式性程序；consultation：征求意见。",
+          "meaning": "is effectively表达实际上等于、实质上是；本句不是数字总计，也不表示因果或反对。",
+          "rest": "is caused by改成因果；depends upon改成依赖条件；argues against改成持反对观点。"
+        },
+        "context_id": "r18t4-reading:amount-formality"
+      },
+      {
+        "id": "r18t4-amount-total",
+        "family": "amount-to-meaning",
+        "introduced": "2026-11-17",
+        "published_on": "2026-11-17",
+        "budget": 45,
+        "reading_budget": 120,
+        "format": "english1_reading",
+        "passage": "A local newspaper wants subscribers to understand what their payments support. Its annual accounts separate printing, delivery and reporting costs. Payments to freelance reporters amount to a substantial share of the total, although each individual assignment may appear inexpensive when considered on its own.\n\nThe distinction between a single payment and the combined cost matters to the newspaper's plans. Reducing one small fee would do little if the same work then had to be purchased elsewhere. The accounts are intended to show where spending accumulates across a year, rather than suggest that the most visible invoice must be the most important one.",
+        "q": "The phrase \"amount to\" in Paragraph 1 is closest in meaning to",
+        "o": [
+          "make room for.",
+          "fall short of.",
+          "depend upon.",
+          "add up to."
+        ],
+        "a": 3,
+        "target": "amount to也可表示总计达到，不固定只记一种义",
+        "skill": "amount to也可表示总计达到，不固定只记一种义",
+        "origin_session": "2026-11-17-2018-text4",
+        "answer_support": "Payments to freelance reporters amount to a substantial share of the total",
+        "exp": {
+          "trans": "报社说明零散稿费合计占全年开支的重要部分，单项小不代表合计不重要。",
+          "structure": "第一段呈现单项与总量差别，第二段解释核算全年支出的意义。",
+          "other": "freelance：自由职业的；invoice：账单；accumulate：累积。",
+          "meaning": "add up to对应总计达到。本题与“相当于形式”语境不同，要按宾语和上下文判断义项。",
+          "rest": "留出空间、低于和依赖都没有表达累计占比的关系。"
+        },
+        "context_id": "r18t4-reading:amount-total"
+      },
+      {
+        "id": "refresh-amount-journal-fee",
+        "family": "amount-to-meaning",
+        "introduced": "2026-11-17",
+        "published_on": "2026-11-19",
+        "format": "english1_reading",
+        "budget": 45,
+        "reading_budget": 105,
+        "target": "amount to 表示实际造成的效果",
+        "skill": "区分实际后果、正式规定与原因",
+        "passage": "A journal invited researchers to make their data public alongside their papers. Yet it charged a fee for each file, which made the service expensive for teams with large collections of data. For groups whose grants had ended, the fee amounted to a ban on sharing their full records. They could afford to post a few examples, and some did, but readers could not examine the complete material. Formally, every author had the same opportunity. In practice, the fee limited who could make use of it.",
+        "q": "What does \"amounted to a ban\" imply about the fee?",
+        "o": [
+          "It was introduced after the journal formally banned files.",
+          "It allowed full access only to readers who had already paid.",
+          "It effectively kept some teams from sharing all their data.",
+          "It was charged mainly on the files from successful studies."
+        ],
+        "a": 2,
+        "answer_support": "For groups whose grants had ended, the fee amounted to a ban on sharing their full records.",
+        "exp": {
+          "trans": "期刊邀请研究人员随文章公开数据，却逐文件收费。经费已用完的团队只发得起少量样例。制度上所有作者都可以发，费用在实际中使部分团队无法分享完整记录。",
+          "structure": "首句交代准入规则，中间解释费用如何限制不同团队。最后两句对照书面机会与实际结果。",
+          "other": "alongside（与……一起）、grant（科研经费）、make use of（利用）。",
+          "meaning": "amounted to a ban 指收费对部分团队产生了与禁令相似的效果。这些团队仍在书面规则允许公开数据的范围内。",
+          "rest": "题中收费对象是上传者，限制发生在分享之前。读者付费、按研究成败收费和正式禁令都没有文本依据。"
+        },
+        "context_id": "refresh:journal-file-fee"
+      }
+    ],
+    "example-claim-scope": [
+      {
+        "id": "example-council-reform-opposition-a",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 60,
+        "target": "具体反对行动支持哪条主旨",
+        "skill": "例子→论点 / 不能多推态度变化",
+        "q": "A city report says proposals to digitize building permits have repeatedly stalled because established interests resist change. It cites a builders' association that organized petitions and delayed the new system for six months. What does the example mainly illustrate?",
+        "o": [
+          "Organized groups can impede administrative reforms.",
+          "The association persuaded every resident to change political allegiance.",
+          "Most builders oppose the current political system in all circumstances.",
+          "Digital permits always cost more than paper applications."
+        ],
+        "a": 0,
+        "exp": {
+          "trans": "城市报告说，建筑许可数字化改革屡次被既有利益团体阻挠，并举建筑协会组织请愿、使新系统推迟六个月的例子。例子说明利益团体可能阻碍行政改革。",
+          "structure": "主句proposals ... have stalled because...提出上层论点；It cites an association ...是作为证据的例子；organized petitions / delayed是例子中的行为与结果。",
+          "other": "digitize 数字化；permit 许可证；established interests 既有利益集团；administrative reform 行政改革。",
+          "meaning": "例证题先找例子附近作者要证明的论点：改革遭遇阻力。组织请愿不等于改变公众政治立场；反对一项改革也不等于反对整个政治制度。",
+          "rest": "政治归属改变需要前后态度证据；所有情况下反对现行政治制度扩大对象与频率；数字许可成本并未涉及。"
+        },
+        "context_id": "context:example-council-reform-opposition-a"
+      },
+      {
+        "id": "example-farmers-support-trial-b",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
+        "published_on": "2026-10-11",
+        "budget": 60,
+        "target": "例子与论点的对应范围",
+        "skill": "不能靠团体行动推固定结论",
+        "q": "An article argues that locally organized groups can sometimes help an unpopular policy get started. It describes a farmers' cooperative that trained volunteers and persuaded members to test a water-saving system, helping the trial begin on schedule. What is the role of this example?",
+        "o": [
+          "It measures a shift in members' views on conservation.",
+          "It shows why government funds were needed for the trial.",
+          "It explains how the new system reduced water consumption.",
+          "It illustrates how local groups can help launch a policy."
         ],
         "a": 3,
         "exp": {
-          "trans": "司机最先报告桥面裂缝，但直到工程师比对照片、检查结构并确认危险，地区警报才正式发布。",
-          "structure": "A driver + reports + cracks引入起点；the warning + is not issued ... until engineers compare, inspect, and confirm，用not...until表示形成正式警报的必要过程。",
-          "other": "crack 裂缝；structure 结构；hazard 危险；issue a warning 发布警报。",
-          "meaning": "个人首次报告不等于正式被认可；由多个步骤进行独立评估并确认，才使主张具有可推广的效力。注意题目问required而非who noticed it first。",
-          "rest": "报告更生动不能替代核验；给报告人荣誉不是警报成立条件；公众情绪不能替代工程检查。"
+          "trans": "文章认为地方组织有时能帮助不受欢迎的政策启动，随后举农民合作社培训志愿者、推动成员试用节水系统，使试验按时开展的例子。这个例子是在支持‘团体也能帮助政策落实’。",
+          "structure": "An article argues + that从句是主张；It describes...引出实例；helping the trial begin是实例中的实际结果。",
+          "other": "cooperative 合作社；facilitate 促进；implementation 落实；trial 试行。",
+          "meaning": "例子支持的结论可以是促进改革，也可以是阻碍改革，取决于前后文。不要机械地把‘团体动员’与‘妨碍改革’绑定。",
+          "rest": "没有成员前后态度的测量，不能证明观点转变；材料没有交代政府资金；也没有比较节水系统的技术效果。合作社组织志愿者和动员试用，支持的是政策启动机制。"
         },
-        "context_id": "process-initial-report-independent-verification"
+        "context_id": "context:example-farmers-support-trial-b"
       },
       {
-        "id": "process-stage-hospital-routine-authority-c",
-        "family": "process-stage-role",
-        "introduced": "2026-10-10",
+        "id": "example-factory-reporting-measure-d",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-11",
         "published_on": "2026-10-15",
-        "budget": 55,
-        "target": "流程阶段与授权条件",
-        "skill": "区分结果核验、消息公开与实施授权",
-        "q": "A hospital trial finds that a scheduling tool reduces missed appointments. The methods panel accepts the results after checking the analysis, and a staff newsletter reports the trial. Routine use must nevertheless wait for the operations board to approve a staffing plan. Which event authorises the hospital to start using the tool routinely?",
+        "budget": 60,
+        "target": "观测数字与论证作用",
+        "skill": "把实例放回可见记录与实际行为的区分",
+        "q": "An essay distinguishes a visible change in records from a change in underlying behaviour. It describes a factory where reported near-misses increased after a safety bonus was introduced. An anonymous survey found no change in how often hazards occurred; workers said they had previously kept quiet about them. What does the case illustrate?",
         "o": [
-          "Acceptance of the trial analysis by the methods panel.",
-          "Publication of the trial results in the staff newsletter.",
-          "The operations board's approval of the staffing plan.",
-          "The trial team's observation of fewer missed appointments."
+          "The bonus increased hazards along with reports of near-misses.",
+          "Official incident totals are more reliable than the survey.",
+          "Anonymity motivated workers more than the safety bonus did.",
+          "Reporting changes can raise counts without raising hazards."
+        ],
+        "a": 3,
+        "exp": {
+          "trans": "文章区分记录上的可见变化与实际行为的变化。文中举例，一家工厂引入安全奖励后，上报的险情增多。匿名调查发现，危险出现的频率并没有变化；工人说自己以前对这些情况保持沉默。这个例子说明，记录数量上升可能源自上报方式改变，而不意味着危险同步增加。",
+          "structure": "An essay + distinguishes + A from B提出上层区分；It + describes + a factory引出例子，where从句补充上报数量变化。was introduced是被动谓语。An anonymous survey + found + no change；how often hazards occurred补充频率。had previously kept quiet指出早期漏报背景。",
+          "other": "near-miss 险些发生的事故、险情；underlying 实际的、深层的；anonymous 匿名的；hazard 危险因素；incident total 事件总数。",
+          "meaning": "实例在支持记录变化不等于实际事件变化这一论点。新增上报与此前沉默形成对照，不能把记录增多直接推成工作更危险；也不应把例证题改答成未讨论的奖励与匿名措施孰强。",
+          "rest": "调查显示危险发生频率未变，不能断言奖励增加危险；材料没有给两种数据排可靠性名次；匿名是调查方式，不能据此比较匿名与奖金的激励强度。"
+        },
+        "context_id": "context:example-factory-reporting-measure-d"
+      },
+      {
+        "id": "example-factory-reporting-measure-e",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "recorded events / actual hazard rate",
+        "skill": "区分记录数量变化与真实风险变化",
+        "q": "After a factory introduced anonymous reporting, recorded safety events rose. Independent inspections found no increase in hazards. Which conclusion is best supported?",
+        "o": [
+          "The factory became more dangerous after anonymous reporting was introduced.",
+          "The rise in reports proves workers deliberately exaggerated safety incidents.",
+          "The higher event count may reflect reporting changes rather than more hazards.",
+          "Independent inspections confirmed that hazards increased throughout the factory."
         ],
         "a": 2,
         "exp": {
-          "trans": "一家医院的试验发现，一种预约安排工具减少了爽约。方法审核小组检查分析后认可了结果，员工通讯也报道了这项试验。不过，常规使用仍须等待运营委员会批准人员配置计划。哪个事件授权医院开始常规使用该工具？答案是人员配置计划获批。",
-          "structure": "A hospital trial + finds + that从句给出试验发现；The methods panel + accepts + the results说明核验阶段。Routine use + must wait + for the operations board to approve a staffing plan说明实施仍受另一项决定约束。nevertheless连接结果已获认可与尚不能常规实施的转折。",
-          "other": "scheduling tool 预约安排工具；miss an appointment 爽约；methods panel 方法审核小组；staffing plan 人员配置计划；authorise 授权。",
-          "meaning": "题目问开始常规实施的授权条件。独立核查在本文确实发生，却只让研究结果获得认可，不能替代运营委员会的实施批准。不能把所有过程题都机械答成独立验证。",
-          "rest": "审核小组认可的是试验分析，不是常规使用的授权；员工通讯负责传播消息，没有审批权；试验团队观察到效果是提出采用建议的证据起点，仍未满足文中保留的实施条件。"
+          "trans": "工厂引入匿名报告后，记录到的安全事件增加了，但独立检查没有发现危险因素增加。最有根据的结论是：记录数量的上升可能来自报告方式的变化，而非真实危险增加。",
+          "structure": "After引导时间背景；recorded safety events rose描述记录数；Independent inspections found no increase in hazards提供独立证据，限制了对真实风险的推断。",
+          "other": "anonymous reporting 匿名报告；recorded event 记录到的事件；independent inspection 独立检查；hazard 危险因素。",
+          "meaning": "报告数量是观测到的数据，可能受报告机制影响；不能直接把记录数增加等同于真实危险增加。",
+          "rest": "直接断言工厂更危险，与独立检查结果不符；把报告增加归因于故意夸大，原文没有动机证据；把检查结果说反了。"
         },
-        "context_id": "context:process-stage-hospital-routine-authority-c"
-      }
-    ],
-    "paragraph-order-anaphora": [
-      {
-        "id": "paragraph-order-anaphora-course-a",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-04",
-        "target": "段首回指 / such courses",
-        "skill": "排序题回指链",
-        "budget": 55,
-        "q": "前一段结尾：Several departments agree that first-year students need a common research course, but they cannot agree on what the course should include.\n下面哪一段最适合紧接其后？",
-        "o": [
-          "One reason such a course is hard to design is that each department defines research differently.",
-          "Research courses are popular with students seeking employment in large international companies.",
-          "Departments report rising salaries among graduates who completed laboratory training last year.",
-          "The library keeps earlier course outlines that several departments submitted before the merger."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "前文说多个院系同意开设共同研究课程，却无法就课程内容达成一致。最自然的下一段是：这种课程之所以难设计，一个原因是各院系对“研究”的定义不同。",
-          "structure": "前段核心名词是a common research course / the course。正确后段以such a course回指这个已经出现的课程，再用One reason解释前文的困难。这里such不是凭空引入新对象。",
-          "other": "department 院系；first-year student 大一学生；define 定义；include 包含。",
-          "meaning": "such a course需结合前文课程对象、无法就内容达成一致与后文原因解释来判断；有回指不等于必然紧邻，还需核对其他候选和篇章位置。",
-          "rest": "研究课受欢迎、毕业生薪资和旧课程档案都与教育有关，却不解释各部门为何难以就课程内容达成一致；such a course加上原因解释同时承接前文的对象和问题。"
-        },
-        "source_exam": "2011-english1",
-        "source_part": "Part B",
-        "context_id": "context:paragraph-order-anaphora-course-a"
+        "context_id": "context:example-factory-reporting-measure-e"
       },
       {
-        "id": "paragraph-order-anaphora-separation-b",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-04",
-        "target": "this separation / 先行关系核对",
-        "skill": "排序题指代衔接",
-        "budget": 55,
-        "q": "前一段：The warehouse stores chilled goods in one area and dry goods in another to keep them separate.\n哪一句最自然地承接这一安排？",
+        "id": "example-factory-reporting-measure-f",
+        "family": "example-claim-scope",
+        "introduced": "2026-10-18",
+        "published_on": "2026-10-18",
+        "budget": 50,
+        "target": "recorded incidents / underlying fault rate",
+        "skill": "区分报告数量变化与真实问题变化",
+        "q": "A clinic switched to an online incident form, after which recorded reports rose. External audits found no increase in underlying faults. Which conclusion is best supported?",
         "o": [
-          "This separation helps staff set suitable storage conditions for each type.",
-          "These delivery dates help the warehouse decide how many drivers to hire.",
-          "Such price differences explain why customers buy smaller quantities.",
-          "The same goods sell faster in the city's larger shopping centres."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "前文说仓库把冷藏货物和干货分区存放。最自然的衔接是：这种分开存放也有助于员工选择合适的储存条件。",
-          "structure": "The warehouse + stores + chilled goods / dry goods，两个存放地点与keep them separate建立分离关系；This separation将这一安排名词化并回指，再补充它对储存条件选择的作用。",
-          "other": "warehouse 仓库；chilled 冷藏的；dry goods 干货；storage conditions 储存条件。",
-          "meaning": "this separation既有明确的分区存放关系，也解释这一安排的作用。配送日期和价格差异缺少先行对象；the same goods虽能指货物，却转去讨论销售速度，不能只因主题相似就优先。",
-          "rest": "前文没有提供配送日期或价格差异，These delivery dates和Such price differences缺先行对象；销售速度只是主题相关，没有承接分区存储这一安排。"
-        },
-        "source_exam": "2011-english1",
-        "source_part": "Part B",
-        "context_id": "context:paragraph-order-anaphora-separation-b"
-      },
-      {
-        "id": "paragraph-anaphora-map-representatives",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-04",
-        "published_on": "2026-10-05",
-        "budget": 55,
-        "target": "段落回指 / 竞争先行项",
-        "skill": "排序题回指链",
-        "q": "段P：The coordinators sent a draft map to the two resident representatives. The other residents received a short notice. Neither coordinator could attend the meeting.\n段Q：They brought their copies of the draft map to the meeting and proposed changes.\nQ中的They最合理地指谁？",
-        "o": [
-          "The representatives: they received the draft map, and the coordinators were absent.",
-          "The other residents: they are the latest group mentioned before the coordinators.",
-          "The coordinators: they had sent the map, so they must have presented it.",
-          "The representatives and coordinators together: both groups worked on the plan."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "协调员把地图草稿发给两名居民代表，其他居民只收到简短通知；两名协调员都不能参会。下一段说他们带着各自的地图草稿参会并提出修改。They最合理地指居民代表。",
-          "structure": "P中The coordinators + sent + a draft map + to the representatives。The other residents + received + a notice。Neither coordinator + could attend为否定事实。Q的They + brought + their copies并与proposed并列，地图副本和参会事实共同锁定代表。",
-          "other": "coordinator 协调员；representative 代表；draft map 地图草稿；propose changes 提出修改。",
-          "meaning": "这里不能只按最近的复数名词选先行项。要联合“谁收到地图”“谁能参会”判断；同一主题的协调员并不因此与They相同。",
-          "rest": "The other residents只收到notice，未建立其地图副本；The coordinators虽然发送地图，却明确不能到场，must have presented偷换了行为；两组一起参会与Neither coordinator could attend矛盾。"
-        },
-        "context_id": "context:paragraph-anaphora-map-representatives"
-      },
-      {
-        "id": "sentence-link-soil-sensor-a",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-12",
-        "published_on": "2026-10-12",
-        "budget": 60,
-        "target": "话题相同不等于双向衔接",
-        "skill": "回指 + 承上启下",
-        "q": "前文：Local farmers and engineers spent three years designing a sensor that could measure soil moisture, temperature and rainfall.\n【空缺】\n后文：Today this linked network lets dozens of villages compare conditions in real time.\n哪一句最适合填入？",
-        "o": [
-          "A photo-sharing app lets farmers combine pictures and short videos into attractive posts.",
-          "They then connected the sensors to a shared network that automatically exchanged readings.",
-          "Rainfall is usually lower in the eastern villages than in the western ones.",
-          "Some local farmers prefer older methods of recording the weather."
+          "The underlying fault rate rose because the clinic changed its form.",
+          "More recorded incidents may reflect easier reporting, not more faults.",
+          "External audits proved the old reporting system had been accurate.",
+          "The clinic changed the form after a separate review found fewer faults."
         ],
         "a": 1,
         "exp": {
-          "trans": "前文介绍农民和工程师共同开发传感器；正确衔接句说明他们随后把传感器接入共享网络；后文再说这个联网系统让许多村庄实时比较天气条件。",
-          "structure": "前文Local farmers and engineers是复数施动者；正确句They回指这群人，the sensors回指前面的sensor，a shared network引出后文this linked network。",
-          "other": "soil moisture 土壤湿度；sensor 传感器；reading 测量读数；in real time 实时。",
-          "meaning": "至少核对两侧：前文的人和物在候选句中有没有明确承接？候选句又是否为后文this linked network提供来源？泛泛谈某种应用的主题关联比这种双向回指弱。",
-          "rest": "照片分享应用也属于农业数字技术，但没有承接开发传感器的人，也不能解释this linked network；降雨分布和传统记录方式均缺少双向承接链。"
+          "trans": "诊所改用在线事件表单后，记录的报告增加了，但外部审计没有发现实际故障增加。记录数量的上升可能来自报告更容易，而不是故障变多。",
+          "structure": "A clinic switched...描述制度变化；after which引出其后的记录变化；External audits found...提供独立证据，限制对真实故障率的推断。",
+          "other": "incident form 事件报告表；recorded report 记录的报告；external audit 外部审计；underlying fault 实际故障。",
+          "meaning": "观测到的报告数会受到报告渠道影响。记录数增加不能单独证明实际问题变多。",
+          "rest": "表单变化本身不能证明故障率上升；审计没有证明旧系统完全准确；文中没有说改表单之前另一次审查发现故障减少。"
         },
-        "context_id": "context:sentence-link-soil-sensor-a"
-      },
+        "context_id": "context:example-factory-reporting-measure-f"
+      }
+    ],
+    "social-message-inference": [
       {
-        "id": "sentence-link-train-timetable-b",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-12",
-        "published_on": "2026-10-12",
-        "budget": 60,
-        "target": "指示表达与所指关系",
-        "skill": "过程承接 + This lack of coordination",
-        "q": "前文：The regional train and bus operators publish separate schedules. Passengers often miss a connection when one service runs late.\n【空缺】\n后文：This lack of coordination persuaded the council to introduce a common timetable.\n哪一句最自然？",
+        "id": "social-message-inference-career-a",
+        "family": "social-message-inference",
+        "introduced": "2026-10-03",
+        "target": "社会评价 / 信息影响",
+        "skill": "隐含批评与证据范围",
+        "budget": 50,
+        "q": "A workplace culture repeatedly celebrates employees who stay late, and workers who leave on time are often reminded that “real commitment means sacrifice.” What is most safely suggested?",
         "o": [
-          "The operators bought more comfortable seats for several long-distance services.",
-          "Mobile apps help tourists discover nearby restaurants and shops.",
-          "Neither operator adjusts its departure times when the other's service is delayed.",
-          "The council's new office opened beside the railway station last summer."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "前文指出火车和公交时刻表各自独立，乘客因此误车；正确句补充双方遇到延误也不调整衔接班次；后文的this lack of coordination便有明确指代对象。",
-          "structure": "Neither operator是主语，adjusts是谓语；when从句补充触发条件。后文This lack of coordination概括了这种双方未协调的行为。",
-          "other": "timetable 时刻表；connection 换乘衔接；departure time 发车时间；adjust 调整。",
-          "meaning": "这种题不是谁的主题词多谁正确，而是候选句是否构成后文this/these抽象名词可总结的具体事实，并与前文的矛盾同向。",
-          "rest": "座椅改善和附近商店虽与交通有关，却无法解释协调缺失；办公室搬迁也不构成换乘失误的直接原因。"
-        },
-        "context_id": "context:sentence-link-train-timetable-b"
-      },
-      {
-        "id": "pb13-clinic-training-hours-a",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-19",
-        "published_on": "2026-10-19",
-        "budget": 60,
-        "context_id": "context:pb13-clinic-training-hours-a",
-        "target": "This is sufficient... / quantifiable antecedent / theme trap",
-        "skill": "后句This+数量必须有可计量先行内容，不能只凭problem→solution",
-        "q": "The hospital board says the size of its training budget may not be the main problem. [BLANK] This is a sufficient number of hours if sessions address the most frequent errors. Which sentence best fills the blank?",
-        "o": [
-          "The board urged instructors to reconsider the goals of clinical education.",
-          "Staff nurses receive six hours of simulation training each month.",
-          "The department combined several medical units into one joint task force.",
-          "Several written assessments have become more demanding this year."
+          "Timely leavers face formal penalties rather than mere criticism.",
+          "Some timely leavers may start to question their own commitment.",
+          "Longer working hours show that employees produce better work.",
+          "Those who leave on time receive no comment from colleagues."
         ],
         "a": 1,
         "exp": {
-          "trans": "医院管理层认为培训预算规模可能并非主要问题。空后说：如果培训针对最常见的错误，这个小时数就是足够的。应填入护士每月接受六小时模拟训练的信息。",
-          "structure": "后句This is a sufficient number of hours的This需要一个明确时长先行内容。B项six hours满足，前文budget提供主题背景，但不能只靠前文的problem寻找任何泛泛的solution。",
-          "other": "training budget 培训预算；simulation training 模拟训练；sufficient 足够的；reconsider 重新考虑。",
-          "meaning": "原文前后双向核验：problem→solution是泛语义关联，不如This+具体数量的指代关系有约束力。正确项中的six hours与后句number of hours精确衔接。",
-          "rest": "改变教育目标、合并科室、增加书面考核均未说明小时数，填入后会导致This缺少合适先行内容。"
-        }
+          "trans": "一种职场文化反复赞美加班员工，而准时下班的人经常被提醒“真正的投入意味着牺牲”。最稳妥的推断是：这种文化可能让一些人怀疑自己是否足够投入。",
+          "structure": "主句1：A workplace culture + celebrates + employees。who stay late修饰employees。主句2：workers who leave on time + are reminded + that从句。that从句给出被灌输的信息。题目要从这种持续信息推断心理影响，而不是擅自添加处罚事实。",
+          "other": "workplace culture 职场文化；commitment 投入/忠诚；sacrifice 牺牲；question whether 怀疑是否。",
+          "meaning": "持续传递带否定意味的价值标准可以构成广义批评，不必出现直接人身侮辱。本题的具体线索支持自我评价可能受到影响，但不支持正式惩罚或跨群体满意度比较。",
+          "rest": "价值评价不等于正式处分；加班受表扬不能证明工作产出更好；经常受到提醒与无人评论相反。可支持的是这种环境可能使部分人怀疑自己的投入程度。"
+        },
+        "source_exam": "2011-english1",
+        "source_question": 38,
+        "context_id": "social-norm-self-doubt"
       },
       {
-        "id": "pb13-garden-land-share-b",
-        "family": "paragraph-order-anaphora",
-        "introduced": "2026-10-19",
-        "published_on": "2026-10-19",
-        "budget": 60,
-        "context_id": "context:pb13-garden-land-share-b",
-        "target": "This proportion / measurable percentage / unrelated topic",
-        "skill": "比例指代需要数量基线，避免凭本段主题选句",
-        "q": "The city wants to assess whether the space reserved for public gardens is sufficient. [BLANK] This proportion would be enough if new plots were placed near crowded neighborhoods. Which sentence fits best?",
+        "id": "social-message-inference-parenting-b",
+        "family": "social-message-inference",
+        "introduced": "2026-10-03",
+        "target": "社会评价 / 信息影响",
+        "skill": "隐含批评与证据范围",
+        "budget": 50,
+        "q": "At a school, the wall of honour lists only perfect test scores. A pupil who has improved greatly still asks, “Does my progress count if I never appear on that wall?” Which inference is best supported?",
         "o": [
-          "The city also plans to make gardeners more aware of soil safety.",
-          "Researchers expect volunteers to help with seasonal maintenance tasks and outreach.",
-          "Recent records show that one tenth of vacant lots are reserved for gardens.",
-          "Several gardens have attracted growing interest from local schools."
+          "Teachers have individually criticised the pupil's test results.",
+          "The display may make the pupil undervalue personal progress.",
+          "The wall celebrates progress rather than perfect final marks.",
+          "Perfect scorers have improved more than the pupil has."
         ],
-        "a": 2,
+        "a": 1,
         "exp": {
-          "trans": "城市想判断公共花园预留空间是否够用。空后说如果地块靠近人口密集社区，这个比例就足够。应填入‘有十分之一的空置地块预留给花园’的统计数据。",
-          "structure": "This proportion的先行内容必须是可作为比例的数据。C项one tenth of vacant lots提供比例；其余选项只是相关话题，没有提供所指比例。",
-          "other": "proportion 比例；vacant lot 空置地块；outreach 外展活动；plot 小块土地。",
-          "meaning": "即使四句都围绕社区花园，只有能解释This proportion的句子才构成强衔接。不能将同一话题等同于相邻句必然连贯。",
-          "rest": "土壤安全、志愿者维护、学校兴趣都与花园相关，但无法为This proportion提供数值。"
-        }
+          "trans": "一所学校的荣誉墙只列满分成绩。一名进步很大的学生仍问：“如果我从未登上那面墙，我的进步还算数吗？”最稳妥的推断是：这种展示可能让他怀疑没有满分的进步是否有价值。",
+          "structure": "第一句：the wall of honour + lists + only perfect test scores。第二句：A pupil + asks + 引语；who has improved greatly修饰pupil。引语里if从句给出没有上榜这一条件。学生的问题体现了对进步价值的怀疑。",
+          "other": "wall of honour 荣誉墙；perfect score 满分；progress 进步；count 有价值/算数。",
+          "meaning": "持续传递带否定意味的价值标准可以构成广义批评，不必出现直接人身侮辱。本题的具体线索支持自我评价可能受到影响，但不支持正式惩罚或跨群体满意度比较。",
+          "rest": "没有教师逐一批评的证据；墙上列的是满分而非进步幅度；满分也不能证明进步更多。学生的疑问直接支持进步价值可能被这种评价展示削弱。"
+        },
+        "source_exam": "2011-english1",
+        "source_question": 38,
+        "context_id": "social-norm-self-doubt"
       },
       {
-        "id": "pb18-given-anchor-returns",
-        "family": "paragraph-order-anaphora",
+        "id": "social-message-criticism-membership-c",
+        "family": "social-message-inference",
         "introduced": "2026-10-04",
-        "published_on": "2026-11-18",
-        "budget": 60,
-        "reading_budget": 120,
-        "format": "english1_reading",
-        "passage": "In a book donation programme, volunteers accepted two kinds of material: books that the lending library could use and copies that needed to be offered elsewhere. A return slip was designed for books that the library lent out, but its name soon caused confusion at the collection desk.\n\n[Missing paragraph]\n\nThis distinction reduced misplaced books. Volunteers no longer filed items waiting to be offered elsewhere alongside copies readers were bringing back. The slip could now play its original role without deciding the fate of unrelated donations.",
-        "q": "Which paragraph provides the basis for “This distinction” and fits the gap?",
+        "source_exam": "2011-english1",
+        "source_question": 38,
+        "budget": 50,
+        "target": "反复信息 / 评价与比较",
+        "skill": "隐含批评与推断范围",
+        "q": "The town newsletter repeatedly portrays residents who do not volunteer as “taking from the town without giving back.” Non-volunteers hear this judgment week after week. Which conclusion is best supported?",
         "o": [
-          "The library issued one slip for books coming back from readers and a separate card for donations awaiting a new home.",
-          "The library printed its return slips and collection notices on the same paper so both supplies could be ordered together.",
-          "The coordinator assigned a single person to the donation table and asked another volunteer to check the opening hours.",
-          "The organisers encouraged readers to bring back borrowed books early so that popular titles would be easier to lend out."
+          "Every resident wants the newsletter to close.",
+          "Non-volunteers face disapproving social judgments.",
+          "The newsletter never mentions non-volunteers.",
+          "Non-volunteers are generally less happy than volunteers."
         ],
-        "a": 0,
-        "target": "核对固定段的双向衔接与 this distinction",
-        "skill": "核对固定段的双向衔接与 this distinction",
-        "origin_session": "2026-11-18-2018-partb",
-        "answer_support": "Volunteers no longer filed items waiting to be offered elsewhere alongside copies readers were bringing back.",
+        "a": 1,
         "exp": {
-          "trans": "捐书与归还借来的书混在一起。右侧给定段说明重新区分两类对象后，误放减少。",
-          "structure": "左边给出表单混淆。右侧 This distinction 要回指解决该混淆的两分法。",
-          "other": "return slip 归还单，await 等待，file 整理归类。",
-          "meaning": "归还和待安排的捐赠分别用单据，正好对应右段指出的两类材料。",
-          "rest": "纸张相同、人员分工和提前归还都可能发生，却没有在归还和捐赠两类业务间建立新的区分。"
+          "trans": "镇上的简报反复把不做志愿服务的居民描述成“只索取而不回馈”。他们周复一周听到这种评价。可以确认：他们持续接收到带否定意味的社会评价。",
+          "structure": "The town newsletter + portrays + residents + as引语。who do not volunteer修饰residents；第二句Non-volunteers + hear + this judgment，this judgment回指前文负面描述，week after week强调反复。",
+          "other": "newsletter 简报；volunteer 做志愿服务；give back 回馈；disapproving 不赞同的；judgment 评价。",
+          "meaning": "带否定意味的评价即使没有直接辱骂，也可以构成criticism。题文直接支持这种评价持续存在，不提供两个群体幸福水平的比较。",
+          "rest": "Every resident扩大到全部居民并猜测态度；never mentions与反复描述无志愿服务者矛盾；generally less happy把受评价的处境扩大成群体幸福比较，没有比较数据或明确陈述。"
         },
-        "context_id": "pb18:library-return-versus-donation"
-      }
-    ],
-    "conceivably": [
-      {
-        "id": "conceivably-damaged-page",
-        "family": "conceivably",
-        "introduced": null,
-        "published_on": "2026-10-05",
-        "budget": 35,
-        "target": "conceivably / 可能性强度",
-        "skill": "conceivably",
-        "q": "The damaged page could conceivably contain the date we need, but the faded ink cannot yet be read. Which claim keeps the writer’s certainty level?",
-        "o": [
-          "页面上已经确认写有需要的日期。",
-          "需要的日期很可能就在这一页，比其他页更有可能。",
-          "这页或许写有需要的日期，目前仍未证实。",
-          "这页故意省略了日期。"
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "那张受损的页面或许写有我们需要的日期，但褪色的墨迹目前还无法辨认。准确改写保留可能性，并说明尚未证实。",
-          "structure": "The damaged page是主语，could contain是谓语，the date是宾语；we need是省略关系代词的定语从句。conceivably修饰可能性；but之后the faded ink + cannot yet be read是被动谓语。",
-          "other": "damaged 受损的；faded 褪色的；ink 墨迹；certainty 确定程度。",
-          "meaning": "conceivably表示可以设想有这种可能。它既不是已经确认，也不自动表示比其他方案更可能。",
-          "rest": "“已经确认”抹掉could与无法辨认的限制；“很可能、比其他页更可能”加入原文没有的概率比较；“故意省略”把可能存在日期误写成有意不写，既换内容又补动机。"
-        },
-        "context_id": "context:conceivably-damaged-page"
-      },
-      {
-        "id": "conceivably-competing-explanations",
-        "family": "conceivably",
-        "introduced": null,
-        "published_on": "2026-10-05",
-        "budget": 35,
-        "target": "conceivably / 多种解释",
-        "skill": "conceivably",
-        "q": "No existing model explains the readings. They could conceivably point to a new process, although a faulty instrument remains another explanation. Which interpretation is justified?",
-        "o": [
-          "A new process is a possible explanation, alongside an instrument fault.",
-          "The readings establish a new process and rule out an instrument fault.",
-          "The instrument fault has been confirmed by a separate test.",
-          "The new process is less likely than an instrument fault according to measured probabilities."
-        ],
-        "a": 0,
-        "exp": {
-          "trans": "现有模型都解释不了这些读数。它们或许指向一个新过程，但仪器故障仍是另一种解释。有依据的是两种解释仍可并存，新的过程只是可能性之一。",
-          "structure": "No existing model + explains + the readings。They指readings；could point to是谓语。although从句中a faulty instrument是主语，remains是系动词，another explanation是表语。",
-          "other": "reading 仪器读数；process 过程；faulty 出故障的；rule out 排除。",
-          "meaning": "conceivably没有把一种可设想的解释升级为发现。another explanation尤其限制了唯一性；也没有给两种解释排名。",
-          "rest": "establish ... rule out将可能性改成证实和排除；confirmed by a separate test虚构检验；less likely ... measured probabilities补出概率比较，原文没有量化数据。"
-        },
-        "context_id": "context:conceivably-competing-explanations"
-      },
-      {
-        "id": "refresh-conceivably-carpentry-course",
-        "family": "conceivably",
-        "introduced": null,
-        "published_on": "2026-11-19",
-        "format": "english1_reading",
-        "budget": 35,
-        "reading_budget": 100,
-        "target": "conceivably 加条件时的可能性",
-        "skill": "区分设想、实施决定与结果",
-        "passage": "A winter course was designed for apprentice carpenters who could attend in person. One instructor suggested that it could conceivably be offered online if technicians filmed close-up demonstrations. Such recordings would help learners see how to use the tools, but they would still need access to equipment and someone to check the work they produced. For the coming term the training centre will keep the classroom course while it tests what students can learn from recorded demonstrations on their own.",
-        "q": "What is suggested about an online version of the course?",
-        "o": [
-          "It was ruled out when learners failed to obtain tools.",
-          "It will replace the classroom course in the coming term.",
-          "It remains possible if the practical needs can be met.",
-          "It would remove the need to check students' progress."
-        ],
-        "a": 2,
-        "answer_support": "it could conceivably be offered online if technicians filmed close-up demonstrations",
-        "exp": {
-          "trans": "培训班原本要到场。有讲师提出，若能录下近距离示范，或许可开网课。但学员仍需要器材和能检查实操作品的人。中心下学期保留面授，同时试验录制示范的学习效果。",
-          "structure": "if 引出设想可行的一项条件，but 补上录制还无法解决的实际要求。末句说明试验阶段仍保留面授。",
-          "other": "apprentice（学徒）、close-up（近距离的）、demonstration（示范）、equipment（器材）。",
-          "meaning": "could conceivably be offered 提的是一种有条件的可能，文章得出了试验的决定，尚未决定推出线上版。",
-          "rest": "器材需求犹在，未说方案被排除。下学期保留面授，学员依然需要反馈。"
-        },
-        "context_id": "refresh:remote-workshop-pilot"
-      }
-    ],
-    "restrict-enable-direction": [],
-    "utmost-effort": [],
-    "parallel-governance": [
-      {
-        "id": "parallel-governance-repair",
-        "family": "parallel-governance",
-        "introduced": null,
-        "target": "共同动词支配 / either...or...",
-        "skill": "共同动词支配",
-        "q": "Which sentence has a clean parallel structure in which the same modal verb governs both alternatives?",
-        "o": [
-          "The technician can either replace the sensor or recalibrate the device.",
-          "The technician either can replace the sensor or recalibration of the device.",
-          "The technician can either replacing the sensor or recalibrate the device.",
-          "The technician can either replace the sensor or the device is recalibrated."
-        ],
-        "a": 0,
-        "budget": 45,
-        "exp": {
-          "trans": "正确句：技术员可以要么更换传感器，要么重新校准设备。",
-          "structure": "主干：The technician（主语）+ can（情态动词）+ either replace... or recalibrate...。can同时支配replace和recalibrate，两边都是动词原形，结构完全平行。",
-          "other": "technician 技术员；sensor 传感器；recalibrate 重新校准；device 设备。",
-          "meaning": "共同动词支配时，并列两端应保持同一语法层级。这里 can + replace / recalibrate。",
-          "rest": "either can replace... or recalibration... 把动词结构和名词结构并列；can either replacing... 中情态动词后不能接-ing形式；replace... or the device is recalibrated 把动词短语和完整从句并列，层级不一致。"
-        },
-        "context_id": "context:parallel-governance-repair"
-      },
-      {
-        "id": "parallel-governance-inspection-tasks",
-        "family": "parallel-governance",
-        "introduced": null,
-        "published_on": "2026-10-05",
-        "budget": 45,
-        "target": "共同动词支配 / 并列任务",
-        "skill": "共同动词支配",
-        "q": "The inspector recommended replacing the worn belt and checking the tension before restarting the machine. Which reading preserves the recommendation?",
-        "o": [
-          "The inspector reported that both jobs had already been completed.",
-          "Replacing the belt was expected to check the tension automatically.",
-          "The inspector recommended two tasks: belt replacement and a tension check.",
-          "The machine should be restarted before either task is attempted."
-        ],
-        "a": 2,
-        "exp": {
-          "trans": "检查员建议在重新启动机器之前更换磨损的皮带并检查张力。建议包含两项任务：更换皮带和检查张力，而不是报告它们已经完成。",
-          "structure": "The inspector是主语，recommended是谓语。replacing the worn belt与checking the tension是并列动名词短语，共同作recommended的补足内容；before restarting the machine给执行顺序。",
-          "other": "inspector 检查员；worn belt 磨损的皮带；tension 张力；restart 重新启动。",
-          "meaning": "and把两项动作放在同一层级，都受recommended支配。后一个动名词不是第一个动作自动产生的效果，也不是新的已完成事实。",
-          "rest": "had already been completed把建议改成过去已完成事实；check ... automatically把两项独立任务合成一项的自动效果；restarted before either task反转before给出的执行顺序。"
-        },
-        "context_id": "context:parallel-governance-inspection-tasks"
+        "context_id": "context:social-message-criticism-membership-c"
       }
     ]
   },

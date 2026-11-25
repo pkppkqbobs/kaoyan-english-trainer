@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "source_dates": {
-    "review_state": "2026-11-24",
-    "daily_quiz": "2026-11-24",
+    "review_state": "2026-11-25",
+    "daily_quiz": "2026-11-25",
     "latest_observation": "2026-11-24"
   },
   "project": {
@@ -14,7 +14,7 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-11-24",
+    "current_daily_date": "2026-11-25",
     "current_daily_issue": null,
     "current_daily_status": "unverified",
     "latest_daily": {
@@ -842,14 +842,14 @@
       "families": [
         {
           "family": "paragraph-order-cataphora",
-          "label": "句内前指、共同立场与后段对个人提案的承接",
+          "label": "句首 their 的同句前指",
           "focus": "把D排在E前，因为认为E段his必须先有人名。E同句随后给出Dale Carnegie。纸质后五段F→G→B→C→A正确。",
           "paper_kind": "user_reported_wrong",
           "latest_observation": "2026-11-24",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-24",
+          "due": "2026-11-25",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-24",
@@ -891,7 +891,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-24",
+          "due": "2026-11-25",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-23",
@@ -993,7 +993,7 @@
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
-          "due": "2026-11-24",
+          "due": "2026-11-25",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-23",
@@ -1210,7 +1210,7 @@
     "data/article-sessions/2026-11-19-2019-cloze.json": "a4c9ec07783aca6d2c3f8d44896918f8a5f7f029f5fc39106422a2c2f4924c0b",
     "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "139bc9b7826009f93d78d225ca35d856f27772af2919a1e9e7216340cd2139b2",
+    "data/daily.json": "10520412d8b4065901d8049a47a5d9faa628ecb3cbba4660ac982ec893c024db",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1268,10 +1268,11 @@
     "data/days/2026-11-22.json": "2ff7fa2366b62826011e9976fb405bb07b719139a73275d8b89a7574a0abd21c",
     "data/days/2026-11-23.json": "300cc058b980b570131255a20b54fda7474cc3769cc9952d5a9feb11f278b187",
     "data/days/2026-11-24.json": "139bc9b7826009f93d78d225ca35d856f27772af2919a1e9e7216340cd2139b2",
+    "data/days/2026-11-25.json": "10520412d8b4065901d8049a47a5d9faa628ecb3cbba4660ac982ec893c024db",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "f8d161fefec3a2a5fbcaab4a8ad8896c04b45605ec3263098e81bd48387effff",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "881174867febe542fec70579d9268672197c321aaaafdd0ee4e596b325ae96d9",
+    "data/question-contexts.json": "120c6760f67b5902f1dbe5ad4b448318826fccf31d75aa9c642ab23e1dee8bbd",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1327,9 +1328,10 @@
     "data/questions/2026-11-22-2019-text3-migration.json": "473c9c557ff612bfe746ddd9e320c49f8b08ace1747f2b0393767854cf4d330f",
     "data/questions/2026-11-23-2019-text4-migration.json": "9443613dae857fabc1d846d7f0598a018f50414242047ca834e4c395407e1014",
     "data/questions/2026-11-24-2019-partb-migration.json": "df00b0d5d0af614f98258c65525f95d19f78fd973b740fcf02ea530f147f405f",
+    "data/questions/2026-11-25-2019-partb-reference.json": "ed865b66c0f8da29a59c1e005e192fc4b47210baeb81958f0f8b0a7c4478d177",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "1dc65b0296082bb3764a7bb12710e919bc472cd3a91e6b12e7b1dfa7f7f07889",
-    "data/review-state.json": "4406dbea228a98dcfe729cd84f56a1f5148cdb51cb3893d22da86067b18f3219",
+    "data/review-state.json": "ce403b49a0bd525040869f783fb1dee978df8f7a170f25ccde83979aba0f37d3",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1339,7 +1341,7 @@
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
     "data/source-checks/2019-english1.json": "a7e4debf999de9c82ed1fd72bfae7fdddcf0fced7993af420173546f4080b947"
   },
-  "source_fingerprint": "715094da48e66d5d9085a8197836fe0fdb11ea3a1c2824bca4c16009f3e0bae7",
+  "source_fingerprint": "bf4fe4e6c1119378b9499cbf32bf3c2ec5f78089cb6ae696a868117a31a30fb3",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
