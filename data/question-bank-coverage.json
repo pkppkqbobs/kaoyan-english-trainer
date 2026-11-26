@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-23",
+  "as_of": "2026-11-26",
   "scope": "Question definitions and candidate availability on the report date.",
   "summary": {
-    "source_questions": 556,
-    "available_candidates": 466,
-    "available_contexts": 462,
-    "available_families": 171,
-    "retired_questions": 90,
-    "available_reading_passages": 86
+    "source_questions": 574,
+    "available_candidates": 483,
+    "available_contexts": 479,
+    "available_families": 183,
+    "retired_questions": 91,
+    "available_reading_passages": 103
   },
   "families": {
     "absolute-language": {
@@ -31,6 +31,10 @@
       "candidates": 2,
       "contexts": 2
     },
+    "adverb-degree-scope": {
+      "candidates": 1,
+      "contexts": 1
+    },
     "adverse-impact-dimension": {
       "candidates": 2,
       "contexts": 2
@@ -52,8 +56,8 @@
       "contexts": 4
     },
     "attribution-stance": {
-      "candidates": 2,
-      "contexts": 2
+      "candidates": 3,
+      "contexts": 3
     },
     "author-stance": {
       "candidates": 3,
@@ -94,6 +98,14 @@
     "budding-stage": {
       "candidates": 2,
       "contexts": 2
+    },
+    "calendar-temperature-prepositions": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "campaign-vs-promise": {
+      "candidates": 1,
+      "contexts": 1
     },
     "career-evidence": {
       "candidates": 2,
@@ -260,8 +272,8 @@
       "contexts": 3
     },
     "familiar-word-polysemy": {
-      "candidates": 21,
-      "contexts": 21
+      "candidates": 22,
+      "contexts": 22
     },
     "feature-verb": {
       "candidates": 1,
@@ -308,6 +320,14 @@
       "contexts": 2
     },
     "hostage-hijack": {
+      "candidates": 1,
+      "contexts": 1
+    },
+    "if-not-for-scope": {
+      "candidates": 2,
+      "contexts": 2
+    },
+    "incorporate-word-family": {
       "candidates": 1,
       "contexts": 1
     },
@@ -359,6 +379,10 @@
       "candidates": 2,
       "contexts": 2
     },
+    "match-equal-verb": {
+      "candidates": 1,
+      "contexts": 1
+    },
     "modal-stage": {
       "candidates": 5,
       "contexts": 5
@@ -402,6 +426,10 @@
     "paragraph-order-anaphora": {
       "candidates": 9,
       "contexts": 9
+    },
+    "paragraph-order-cataphora": {
+      "candidates": 2,
+      "contexts": 2
     },
     "paragraph-order-discourse": {
       "candidates": 14,
@@ -499,6 +527,10 @@
       "candidates": 1,
       "contexts": 1
     },
+    "research-post-meaning": {
+      "candidates": 1,
+      "contexts": 1
+    },
     "restrict-enable-direction": {
       "candidates": 1,
       "contexts": 1
@@ -516,8 +548,8 @@
       "contexts": 2
     },
     "scope-role-match": {
-      "candidates": 2,
-      "contexts": 2
+      "candidates": 3,
+      "contexts": 3
     },
     "screening-polysemy": {
       "candidates": 2,
@@ -526,6 +558,10 @@
     "semantic-action-roles": {
       "candidates": 4,
       "contexts": 4
+    },
+    "serve-up-make-up": {
+      "candidates": 1,
+      "contexts": 1
     },
     "sharp-hit-impact": {
       "candidates": 2,
@@ -538,6 +574,10 @@
     "shed-shelter-shade": {
       "candidates": 4,
       "contexts": 4
+    },
+    "short-term-lasting-benefits": {
+      "candidates": 1,
+      "contexts": 1
     },
     "social-cure-vocab": {
       "candidates": 4,
@@ -663,6 +703,10 @@
       "candidates": 1,
       "contexts": 1
     },
+    "undermine-context": {
+      "candidates": 1,
+      "contexts": 1
+    },
     "unpretentious": {
       "candidates": 3,
       "contexts": 3
@@ -694,6 +738,10 @@
     "workout-how-ellipsis": {
       "candidates": 2,
       "contexts": 2
+    },
+    "yet-another-function": {
+      "candidates": 1,
+      "contexts": 1
     }
   }
 }

@@ -181,7 +181,7 @@
       "slow_or_uncertain": true,
       "reported_confusion": true,
       "observed_days": 2,
-      "observation_priority": 2
+      "observation_priority": 3
     },
     "author-stance": {
       "streak": 0,
@@ -1404,14 +1404,14 @@
       "observation_priority": 0.25
     },
     "scope-role-match": {
-      "streak": 4,
+      "streak": 0,
       "errors": 0,
       "last": "2026-11-22",
-      "due": "2026-12-06",
+      "due": "2026-11-23",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 7,
-      "observation_priority": 0
+      "observation_priority": 3
     },
     "screening-polysemy": {
       "streak": 0,
@@ -1472,6 +1472,16 @@
       "reported_confusion": true,
       "observed_days": 1,
       "observation_priority": 2
+    },
+    "short-term-lasting-benefits": {
+      "streak": 0,
+      "errors": 0,
+      "last": null,
+      "due": "2026-11-26",
+      "slow_or_uncertain": false,
+      "reported_confusion": true,
+      "observed_days": 0,
+      "observation_priority": 3
     },
     "social-cure-vocab": {
       "streak": 0,

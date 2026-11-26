@@ -1,0 +1,122 @@
+[
+  {
+    "id": "r20t1-lasting-hearing",
+    "family": "short-term-lasting-benefits",
+    "context_id": "hearing-clinic-short-demand-lasting-capacity",
+    "introduced": "2026-11-26",
+    "published_on": "2026-11-26",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A mobile hearing clinic drew long queues when it visited several districts last spring. Some organisers took this as proof of success. Yet queues naturally formed wherever appointments were free, and in two districts patients still had nowhere to get their hearing aids repaired once the van left.\n\nThe visit made a more durable difference in a third district. There, the organisers had trained local nurses to make routine adjustments, a service that continued after the trial ended. The nurses did not replace specialists, but residents no longer had to travel for every minor fault.",
+    "q": "What does the third district illustrate?",
+    "o": [
+      "Free appointments increased the demand for tests.",
+      "The clinic left local capacity behind.",
+      "The trial reduced the need for specialist care.",
+      "Long queues signalled an effective visit."
+    ],
+    "a": 1,
+    "answer_support": "a service that continued after the trial ended",
+    "target": "区分短期热度和持续收益",
+    "skill": "区分短期热度和持续收益",
+    "origin_session": "2026-11-26-2020-text1",
+    "exp": {
+      "trans": "流动听力诊所引来排队，但两区在车离开后仍无处维修助听器。第三区的本地护士学会了简单调试，试点结束后仍能提供服务。",
+      "structure": "Yet 转折，质疑排队能否证明成效；第二段的 a service 指本地护士的日常调试服务。",
+      "other": "draw long queues 引来长队；make routine adjustments 做常规调试；minor fault 小故障。",
+      "meaning": "第三区说明临时服务可以留下持续存在的本地服务能力。",
+      "rest": "排队是前文受质疑的指标；免费不能说明测试需求是否增加；原文明确说护士不取代专科人员。"
+    }
+  },
+  {
+    "id": "r20t1-sceptics-backup",
+    "family": "attribution-stance",
+    "context_id": "warehouse-coloured-label-assurance-versus-loss",
+    "introduced": "2026-11-26",
+    "published_on": "2026-11-26",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "Following a series of missing orders, a warehouse introduced coloured labels so staff could spot delayed parcels. Management called the change a first step and promised to review the routing software later in the year.\n\nSome drivers were less impressed. In their view, the brighter labels would allow managers to take credit for a visible change while the software continued to send parcels to the wrong depot. They agreed that the labels were easy to read; they doubted that the new system would get parcels to customers any sooner.",
+    "q": "How do some drivers view the new labels?",
+    "o": [
+      "They create an appearance of progress.",
+      "They make it harder to spot delayed parcels.",
+      "They will help identify faulty routing software.",
+      "They are a useful first step towards faster delivery."
+    ],
+    "a": 0,
+    "answer_support": "allow managers to take credit for a visible change while the software continued to send parcels to the wrong depot",
+    "target": "定位批评者观点，区分认可局部与认可方案",
+    "skill": "定位批评者观点，区分认可局部与认可方案",
+    "origin_session": "2026-11-26-2020-text1",
+    "exp": {
+      "trans": "管理层引入彩签作为第一步。司机承认标签易读，但认为管理层可借显眼改动邀功，软件错送的问题仍在。",
+      "structure": "In their view 将后文归于司机；while 把看得见的改动与仍未处理的原因并列对照。",
+      "other": "take credit for 因某事邀功；depot 配送站；routing software 路由软件。",
+      "meaning": "司机认为它看似有进展，却未解决延误的原因。",
+      "rest": "标签难读与原文相反；能发现延误不等于能定位软件故障；第一步是管理层的说法，司机质疑能否提高配送速度。"
+    }
+  },
+  {
+    "id": "r20t1-confined-air-test",
+    "family": "scope-role-match",
+    "context_id": "air-quality-testing-building-categories",
+    "introduced": "2026-11-26",
+    "published_on": "2026-11-26",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "When a city began testing the air in its public buildings, the pilot covered only schools. Most of the study focused on classrooms, since small children spent long periods there. A local chemist now argues that testing ought not to be confined to schools. She points to libraries and sports centres where people of all ages gather, and adds that reliable comparisons will require the same instruments at each site.\n\nShe does not propose reducing the frequency of tests at schools, where conditions can change over the course of a day.",
+    "q": "What does the chemist propose?",
+    "o": [
+      "Test the air in other kinds of public building.",
+      "Expand the pilot to more schools in the city.",
+      "Run more frequent tests in school classrooms.",
+      "Test schools with different kinds of instrument."
+    ],
+    "a": 0,
+    "answer_support": "testing ought not to be confined to schools",
+    "target": "辨认限制的类别和建议放开的范围",
+    "skill": "辨认限制的类别和建议放开的范围",
+    "origin_session": "2026-11-26-2020-text1",
+    "exp": {
+      "trans": "本市试点只测学校。化学家主张把图书馆、体育中心等其他公共建筑也纳入，不降低学校检测频率，各点用同样仪器。",
+      "structure": "ought not to 否定的是 be confined to schools 中的限制，不是否定对学校做检测。",
+      "other": "pilot 试点；cover 涵盖；reliable comparisons 可靠比较。",
+      "meaning": "schools 是一类地点，突破限制即扩大到学校之外。",
+      "rest": "增加学校数量仍局限于学校；并未建议提高测量频率；跨地点比较需要相同而非不同的仪器。"
+    }
+  },
+  {
+    "id": "r20t1-spell-drinking-fountains",
+    "family": "familiar-word-polysemy",
+    "context_id": "water-fountain-temporary-closure",
+    "introduced": "2026-11-26",
+    "published_on": "2026-11-26",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A fault in the plumbing left several drinking fountains out of use for a spell last summer. The notices posted beside them directed visitors to a water tap at the far end of the path. The fountains were back in service before the summer ended, and maintenance staff later replaced the damaged pipe to prevent another closure.\n\nThe park is now considering an extra tap, so visitors will have a nearby alternative if repairs are needed again.",
+    "q": "The phrase “for a spell” in Paragraph 1 means",
+    "o": [
+      "for the rest of the summer.",
+      "because of a known fault.",
+      "until another tap was added.",
+      "for a short period of time."
+    ],
+    "a": 3,
+    "answer_support": "The fountains were back in service before the summer ended",
+    "target": "根据时间线识别 spell 的一段时间义",
+    "skill": "根据时间线识别 spell 的一段时间义",
+    "origin_session": "2026-11-26-2020-text1",
+    "exp": {
+      "trans": "去年夏天管道问题让饮水机暂时停用；夏天结束前已恢复。公园后来才考虑增设水龙头。",
+      "structure": "for a spell 修饰 out of use，说明停用持续多久；before 引导时间说明，表明持续不到夏末。",
+      "other": "plumbing 管道系统；out of use 停用；back in service 恢复使用。",
+      "meaning": "spell 在这里是名词，指一段短时间。",
+      "rest": "未停到夏末；故障是原因，不是时长；加新水龙头还只是设想。"
+    }
+  }
+]

@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-26",
     "daily_quiz": "2026-11-26",
-    "latest_observation": "2026-11-25"
+    "latest_observation": "2026-11-26"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-20",
-      "storageId": "2026-11-20-2019-text1",
-      "learning_date": "2026-11-20"
+      "date": "2026-11-26",
+      "storageId": "2026-11-26-2020-text1",
+      "learning_date": "2026-11-26"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,112 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-26",
+      "exam": "2020-english1",
+      "part": "Text 1",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "short-term-lasting-benefits",
+          "question": 23,
+          "related_questions": [],
+          "updated_on": "2026-11-26",
+          "final_choice": "B",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": null,
+          "reference_status": "note_only",
+          "summary": "用户最终选 B，曾认为 D 更好，但觉得 B 更贴原文。原文说改变抱负，不是满足已有抱负；作者把短暂的知名度与持久的社区收益对照，较支持 D。天津新东方列 C，未找到研招网本题答案…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "short-term-lasting-benefits",
+            "question": 23,
+            "note_fingerprint": "c0044c4d212fbb93"
+          },
+          "training_priority": 1,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_wrong",
+          "family": "attribution-stance",
+          "question": 22,
+          "related_questions": [],
+          "updated_on": "2026-11-26",
+          "final_choice": "D",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "B",
+          "reference_status": "note_only",
+          "summary": "用户看到 self-celebration 曾考虑 B，最终选择 D。题干问一些批评者如何评价提议：他们质疑它可能是自我安慰、自我庆祝；不是断言目标无法实现。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "attribution-stance",
+            "question": 22,
+            "note_fingerprint": "38a36d8ad69cc757"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_wrong",
+          "family": "scope-role-match",
+          "question": 21,
+          "related_questions": [],
+          "updated_on": "2026-11-26",
+          "final_choice": "D",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "C",
+          "reference_status": "note_only",
+          "summary": "原文的引资和创造就业支持城镇经济实力增强；D 将文化活动写成集中分配有限资源的对象，并非提议预期的效果。用户没有具体报告本题选择理由。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "scope-role-match",
+            "question": 21,
+            "note_fingerprint": "2ac419bbe53e4f2e"
+          },
+          "training_priority": 3,
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [],
+      "translation_note_count": 2,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-26",
+        "family": "scope-role-match",
+        "question": null,
+        "note_fingerprint": "1378dd6ff2bf1c55"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-26-2020-text1.json"
+      ],
+      "active_translation_spans": [
+        "bag",
+        "city",
+        "desperation",
+        "disappearing into",
+        "for a spell",
+        "ought not to be confined to cities",
+        "town"
+      ]
+    },
     {
       "date": "2026-11-25",
       "exam": "2020-english1",
@@ -656,89 +762,6 @@
         "even playing field",
         "he wrote in an opinion joined by four othe…"
       ]
-    },
-    {
-      "date": "2026-11-22",
-      "exam": "2019-english1",
-      "part": "Text 3",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "cross-paragraph-scope",
-          "question": 31,
-          "related_questions": [],
-          "updated_on": "2026-11-22",
-          "final_choice": "D",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "C",
-            "D"
-          ],
-          "eliminated_choices": [
-            "A",
-            "B"
-          ],
-          "reference_answer": "C",
-          "reference_status": "source_checked",
-          "summary": "自述文章基本读懂。排除A、B后，首段只见未来技术、没见AI，觉得C缺直接依据，于是选D。次段引入当今AI，具体展开首段的技术伦理议题。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-22",
-            "family": "cross-paragraph-scope",
-            "question": 31,
-            "note_fingerprint": "79eb3da62ff7da9b"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_wrong",
-          "family": "author-stance",
-          "question": 34,
-          "related_questions": [],
-          "updated_on": "2026-11-22",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": "A",
-          "candidate_choices": [
-            "A",
-            "B"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": "A",
-          "reference_status": "source_checked",
-          "summary": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-22",
-            "family": "author-stance",
-            "question": 34,
-            "note_fingerprint": "228fb1e3a2c613d3"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "autonomous",
-        "foreshadow",
-        "split-second",
-        "vague"
-      ],
-      "translation_note_count": 4,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-22",
-        "family": "autonomous-quick-decisions",
-        "question": null,
-        "note_fingerprint": "f7797a22cd6eb85e"
-      },
-      "article_session_files": []
     }
   ],
   "presentation_quality": [
@@ -849,6 +872,17 @@
     ],
     "recent": [
       {
+        "session_id": "2026-11-26-2020-text1",
+        "learning_date": "2026-11-26",
+        "updated_on": "2026-11-26",
+        "exam": "2020-english1",
+        "part": "Reading Text 1",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-26-2020-text1.json",
+        "round_file": "data/article-reviews/2026-11-26-2020-text1.json",
+        "publication_date": "2026-11-26"
+      },
+      {
         "session_id": "2026-11-25-2020-cloze",
         "learning_date": "2026-11-25",
         "updated_on": "2026-11-25",
@@ -924,67 +958,32 @@
         "session_file": "data/article-sessions/2026-11-20-2019-text1.json",
         "round_file": "data/article-reviews/2026-11-20-2019-text1.json",
         "publication_date": "2026-11-20"
-      },
-      {
-        "session_id": "2026-11-19-2019-cloze",
-        "learning_date": "2026-11-19",
-        "updated_on": "2026-11-19",
-        "exam": "2019-english1",
-        "part": "Section I (Cloze)",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-19-2019-cloze.json",
-        "round_file": "data/article-reviews/2026-11-19-2019-cloze.json",
-        "publication_date": "2026-11-19"
       }
     ]
   },
   "priorities": [
     {
-      "mechanism": "language",
-      "label": "修饰关系与熟词搭配",
-      "families": [
-        {
-          "family": "match-equal-verb",
-          "label": "评价或比较语境中的 match",
-          "focus": "用户确认第2题最终选 influence，未说明更具体的选词理由。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-25",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-25",
-            "family": "match-equal-verb",
-            "question": 2,
-            "note_fingerprint": "de89085aa545ba97"
-          }
-        },
-        {
-          "family": "past-participle-modifier",
-          "label": "区分拟写、支持与推翻决定",
-          "focus": "用户确认最终填 compelled，未提供更具体的选择过程。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-25",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-25",
-            "family": "past-participle-modifier",
-            "question": 4,
-            "note_fingerprint": "251cb8e62cb4e692"
-          }
-        }
-      ]
-    },
-    {
       "mechanism": "scope",
       "label": "选项范围与额外限定",
       "families": [
+        {
+          "family": "scope-role-match",
+          "label": "辨认限制的类别和建议放开的范围",
+          "focus": "原文的引资和创造就业支持城镇经济实力增强；D 将文化活动写成集中分配有限资源的对象，并非提议预期的效果。用户没有具体报告本题选择理由。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-23",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "scope-role-match",
+            "question": 21,
+            "note_fingerprint": "2ac419bbe53e4f2e"
+          }
+        },
         {
           "family": "adverb-degree-scope",
           "label": "partially 修饰动作程度而非宾语数量或频率",
@@ -1002,23 +1001,89 @@
             "question": 8,
             "note_fingerprint": "a3d7a41b18db8ef0"
           }
+        }
+      ]
+    },
+    {
+      "mechanism": "stance",
+      "label": "作者态度、评价对象与转折",
+      "families": [
+        {
+          "family": "attribution-stance",
+          "label": "定位批评者观点，区分认可局部与认可方案",
+          "focus": "用户看到 self-celebration 曾考虑 B，最终选择 D。题干问一些批评者如何评价提议：他们质疑它可能是自我安慰、自我庆祝；不是断言目标无法实现。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "attribution-stance",
+            "question": 22,
+            "note_fingerprint": "38a36d8ad69cc757"
+          }
         },
         {
-          "family": "if-not-for-scope",
-          "label": "区分现实许可与假设结果",
-          "focus": "第49题翻译。用户把“不再”放在“可以”之后，误让条件里的 not 修饰 can arrange。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-25",
+          "family": "author-stance",
+          "label": "区分认可一项做法与相信其所有承诺",
+          "focus": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-22",
+          "web_errors": 2,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-24",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-22",
+            "family": "author-stance",
+            "question": 34,
+            "note_fingerprint": "228fb1e3a2c613d3"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "language",
+      "label": "修饰关系与熟词搭配",
+      "families": [
+        {
+          "family": "short-term-lasting-benefits",
+          "label": "区分短期热度和持续收益",
+          "focus": "用户最终选 B，曾认为 D 更好，但觉得 B 更贴原文。原文说改变抱负，不是满足已有抱负；作者把短暂的知名度与持久的社区收益对照，较支持 D。天津新东方列 C，未找到研招网本题答案…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-26",
           "web_errors": 0,
           "web_streak": 0,
           "slow_or_uncertain": false,
           "due": "2026-11-26",
           "source": {
             "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "short-term-lasting-benefits",
+            "question": 23,
+            "note_fingerprint": "c0044c4d212fbb93"
+          }
+        },
+        {
+          "family": "match-equal-verb",
+          "label": "评价或比较语境中的 match",
+          "focus": "用户确认第2题最终选 influence，未说明更具体的选词理由。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-25",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-26",
+          "source": {
+            "path": "data/learning-notes.json",
             "date": "2026-11-25",
-            "family": "if-not-for-scope",
-            "question": null,
-            "note_fingerprint": "3dd1805165ba4d01"
+            "family": "match-equal-verb",
+            "question": 2,
+            "note_fingerprint": "de89085aa545ba97"
           }
         }
       ]
@@ -1061,48 +1126,6 @@
             "family": "heading-global-allocation",
             "question": 45,
             "note_fingerprint": "2f263821c134f219"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "stance",
-      "label": "作者态度、评价对象与转折",
-      "families": [
-        {
-          "family": "author-stance",
-          "label": "区分认可一项做法与相信其所有承诺",
-          "focus": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-22",
-          "web_errors": 2,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-24",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-22",
-            "family": "author-stance",
-            "question": 34,
-            "note_fingerprint": "228fb1e3a2c613d3"
-          }
-        },
-        {
-          "family": "attribution-stance",
-          "label": "区分提供资源与通过整理分析创造用途，保留作者的论点",
-          "focus": "对D仍有独立疑问：将监管者对NHS控制数据的责任划分，和作者强调处理与汇总创造价值的论点混在一起。已注意But。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-16",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-16",
-            "family": "attribution-stance",
-            "question": null,
-            "note_fingerprint": "5b75fffd652378e0"
           }
         }
       ]
@@ -1214,7 +1237,8 @@
     "article-review-2026-11-18-2018-partb.html": "47aef78b98e9da8f1ef1899e97e2aa773172c62a6f628ae8bdb0aca4e1b31b23",
     "article-review-2026-11-19-2019-cloze.html": "7495d461f923e960ebe9a5d2bd34fb16a1b99548b3ae0ca7142d0e3551d3bcbd",
     "article-review-2026-11-20-2019-text1.html": "1b27c6fa97e9e2509619b9dbacbd93594d0874f148ba5393d363543e0cdcfb9c",
-    "data/article-review.json": "b489457306e3b41fc2d0eecad24e641983e6cab75dc1ff6b1c91ab1e2e9f833f",
+    "article-review-2026-11-26-2020-text1.html": "a847fa9ffdc3fa69cfe9a8c85129d241fe94bf340c911f1657e8e6061ce3ef5f",
+    "data/article-review.json": "3f650ad399c28cf3c7ac6c70a3795b912006dbcc47b9609fc9f0ebb9c8d319e9",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1266,6 +1290,7 @@
     "data/article-reviews/2026-11-18-2018-partb.json": "2488c09e0d59b5dc86b83daea0afcf1c189055ff5a33061ff7a505e7e484ffc6",
     "data/article-reviews/2026-11-19-2019-cloze.json": "addc06d44bd64449de55276f2c371b393642dc2edf1282f2de5b7f54b1162076",
     "data/article-reviews/2026-11-20-2019-text1.json": "b489457306e3b41fc2d0eecad24e641983e6cab75dc1ff6b1c91ab1e2e9f833f",
+    "data/article-reviews/2026-11-26-2020-text1.json": "3f650ad399c28cf3c7ac6c70a3795b912006dbcc47b9609fc9f0ebb9c8d319e9",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1312,6 +1337,7 @@
     "data/article-sessions/2026-11-18-2018-partb.json": "4174af8a54e1db11299f9e5ce3ff9b67973c3b0d8eec25fc97776a281722db18",
     "data/article-sessions/2026-11-19-2019-cloze.json": "a4c9ec07783aca6d2c3f8d44896918f8a5f7f029f5fc39106422a2c2f4924c0b",
     "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
+    "data/article-sessions/2026-11-26-2020-text1.json": "53ee470643a4c77b1da7ed5cb241963edb120f1dca95e6259b82ee1b9ab106be",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "3fd5539bb086979ec583d3c8d2cd1ebba486c5ae0324305aba7bd22ab1eb7a43",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1374,9 +1400,9 @@
     "data/days/2026-11-25.json": "0f2aeab3dff332537abd3b9ada9d5bfc7f7b0861ffb61155eea26908582ff4c2",
     "data/days/2026-11-26.json": "3fd5539bb086979ec583d3c8d2cd1ebba486c5ae0324305aba7bd22ab1eb7a43",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
-    "data/learning-notes.json": "d406ac582dfa2c39145e50a4454ab66630d77e0fab5e2b4689163a2c2e3485da",
+    "data/learning-notes.json": "dbe1ea7db69de523ecc638fe00522246e5443cd37665237d88c392e3ef8949d1",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "cef8a5cd6b365352a16316c462e2020c937fada8070f79d6706d73c0a325f580",
+    "data/question-contexts.json": "065d047be43ad741544367af8ca7bdc67b6ea6a3e545b9fbdf0d68867a5c2338",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1434,9 +1460,10 @@
     "data/questions/2026-11-24-2019-partb-migration.json": "df00b0d5d0af614f98258c65525f95d19f78fd973b740fcf02ea530f147f405f",
     "data/questions/2026-11-25-2019-partb-reference.json": "ed865b66c0f8da29a59c1e005e192fc4b47210baeb81958f0f8b0a7c4478d177",
     "data/questions/2026-11-25-translation-cloze-migration.json": "4e5363ddbdd8c828742df434f7af12470ebc842a6e00a90834fd926ca73ff50b",
+    "data/questions/2026-11-26-2020-text1-migration.json": "b914817424bc329b5874e6687db79dfb345f7b8fd0d855cc3fcc162df2b70669",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "cd8e80db108e77e935ea7b8d1e91fd1550a5534f3bf65f5b5695cded648642da",
-    "data/review-state.json": "2cae0fb583b07927e5da46ae2410b242ac036b211cb5a76cd530be97422da492",
+    "data/review-state.json": "0430d212271488abd02d4457e26c276191b541b47cf18977ee436ede57414582",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1445,9 +1472,9 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
     "data/source-checks/2019-english1.json": "c25b7833b9882374aff929268d2ea3493c23109637c58f3df3394c02ed42c913",
-    "data/source-checks/2020-english1.json": "4067b5a2e60b693ba9adc4080f1b077d748d60d43fc2d9275c9445ff03c9323b"
+    "data/source-checks/2020-english1.json": "edeb6a134fb5a4930da9ce878d806fdba45503c4c57267db1ee274ce041e46e9"
   },
-  "source_fingerprint": "2685c7fff337aa03e47233a5b947ccb90eb70f30ae1367be9b6a37ba0dfdb0d2",
+  "source_fingerprint": "b251c943b76a4c6f94c0f61a6e01b2e3b2085652a05d14d771db68226510cf28",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

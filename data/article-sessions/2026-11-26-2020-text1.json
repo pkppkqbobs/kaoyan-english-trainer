@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-26-2020-text1",
+  "date": "2026-11-26",
+  "learning_date": "2026-11-26",
+  "created_at": "2026-11-26T21:43:51+09:00",
+  "source": "2020 英语一 Reading Text 1 · 2026-11-26 纸质真题复盘",
+  "focus_families": [
+    "short-term-lasting-benefits",
+    "attribution-stance",
+    "scope-role-match",
+    "familiar-word-polysemy"
+  ],
+  "focus_question_ids": {
+    "short-term-lasting-benefits": [
+      "r20t1-lasting-hearing"
+    ],
+    "attribution-stance": [
+      "r20t1-sceptics-backup"
+    ],
+    "scope-role-match": [
+      "r20t1-confined-air-test"
+    ],
+    "familiar-word-polysemy": [
+      "r20t1-spell-drinking-fountains"
+    ]
+  },
+  "max_current": 4,
+  "balanced_options": true,
+  "question_format": "english1_reading",
+  "training_priorities": [
+    "区分短期热度和持续收益",
+    "定位批评者观点，区分认可局部与认可方案",
+    "辨认限制的类别和建议放开的范围",
+    "根据时间线识别 spell 的一段时间义"
+  ],
+  "source_check": "data/source-checks/2020-english1.json",
+  "evidence_basis": "用户明确报告第21–23题选择与词句困难；第23题参考有分歧，不冒称官方答案；第24–25题、全篇分数不推断。"
+}

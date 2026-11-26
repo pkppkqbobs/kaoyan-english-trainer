@@ -57,5 +57,34 @@
       "pudding",
       "pushy"
     ]
+  },
+  "reading_text_1": {
+    "checked_on": "2026-11-26",
+    "scope": "Q21–23 与用户主动报告的词句疑问；未确认 Q24、25 的选择和全篇得分。",
+    "sources": [
+      {
+        "title": "The Guardian 原社论",
+        "url": "https://www.theguardian.com/commentisfree/2018/dec/30/the-guardian-view-on-yvette-coopers-town-of-culture-proposal-a-fine-idea"
+      },
+      {
+        "title": "新东方在线参考答案",
+        "url": "https://kaoyan.koolearn.com/20201116/1414060.html"
+      },
+      {
+        "title": "新东方天津冲突参考答案",
+        "url": "https://tj.xdf.cn/zixun/daxue/201912/218565002.html"
+      }
+    ],
+    "answers": {
+      "21": "C",
+      "22": "B"
+    },
+    "disputed": {
+      "23": {
+        "preferred": "D",
+        "alternative": "C",
+        "reason": "原文区别短期知名度与持久社区收益，支持 D 强于 C；天津新东方明确列艺术知名度选项 C。未找到研招网本题答案。用户选择 B、曾考虑 D。"
+      }
+    }
   }
 }
