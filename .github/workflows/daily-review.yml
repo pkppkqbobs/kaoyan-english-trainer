@@ -2,11 +2,11 @@ name: Daily review state
 
 on:
   schedule:
-    # UTC 00:17 main; 01:43 and 03:27 provide recovery opportunities.
-    # All runs use the same locked daily quiz. GitHub schedules are best-effort.
-    - cron: '17 0 * * *'
-    - cron: '43 1 * * *'
-    - cron: '27 3 * * *'
+    # Start after midnight in Asia/Shanghai to leave time for GitHub dispatch delays.
+    # Asia/Shanghai 00:17, 01:43, 03:27 (Tokyo 01:17, 02:43, 04:27).
+    - cron: '17 16 * * *'
+    - cron: '43 17 * * *'
+    - cron: '27 19 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -47,6 +47,13 @@ jobs:
       contents: write
       issues: read
     steps:
+      - name: Record trigger and study date
+        env:
+          TRIGGER_CRON: ${{ github.event.schedule }}
+        run: |
+          printf 'Event: %s\nCron (UTC): %s\n' "$GITHUB_EVENT_NAME" "${TRIGGER_CRON:-none}"
+          date -u '+Actual start (UTC): %F %T'
+          TZ=Asia/Shanghai date '+Study date (Asia/Shanghai): %F'
       - name: Checkout current main
         uses: actions/checkout@v6
         with:
