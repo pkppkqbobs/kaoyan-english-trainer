@@ -9093,5 +9093,128 @@
     "mark_type": "boxed",
     "marking_evidence": "reported_photo_box_identification",
     "note": "过于强势、咄咄逼人的。原文涉及公众对宣传方式的观感。"
+  },
+  {
+    "date": "2026-11-26",
+    "received_on": "2026-11-26",
+    "session_id": "2026-11-26-2020-text1",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户明确报告的纸质真题作答与主动词义疑问；不计入网页主测成绩。",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "reference_sources": [
+      "https://kaoyan.koolearn.com/20201116/1414060.html",
+      "https://www.theguardian.com/commentisfree/2018/dec/30/the-guardian-view-on-yvette-coopers-town-of-culture-proposal-a-fine-idea"
+    ],
+    "source_question": 21,
+    "family": "scope-role-match",
+    "reported_pick": "D",
+    "expected": "C",
+    "note": "原文的引资和创造就业支持城镇经济实力增强；D 将文化活动写成集中分配有限资源的对象，并非提议预期的效果。用户没有具体报告本题选择理由。",
+    "training_priority": 3
+  },
+  {
+    "date": "2026-11-26",
+    "received_on": "2026-11-26",
+    "session_id": "2026-11-26-2020-text1",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户明确报告的纸质真题作答与主动词义疑问；不计入网页主测成绩。",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "reference_sources": [
+      "https://kaoyan.koolearn.com/20201116/1414060.html",
+      "https://www.theguardian.com/commentisfree/2018/dec/30/the-guardian-view-on-yvette-coopers-town-of-culture-proposal-a-fine-idea"
+    ],
+    "source_question": 22,
+    "family": "attribution-stance",
+    "reported_pick": "D",
+    "expected": "B",
+    "considered_option": "B",
+    "note": "用户看到 self-celebration 曾考虑 B，最终选择 D。题干问一些批评者如何评价提议：他们质疑它可能是自我安慰、自我庆祝；不是断言目标无法实现。",
+    "training_priority": 2
+  },
+  {
+    "date": "2026-11-26",
+    "received_on": "2026-11-26",
+    "session_id": "2026-11-26-2020-text1",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户明确报告的纸质真题作答与主动词义疑问；不计入网页主测成绩。",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "reference_sources": [
+      "https://kaoyan.koolearn.com/20201116/1414060.html",
+      "https://www.theguardian.com/commentisfree/2018/dec/30/the-guardian-view-on-yvette-coopers-town-of-culture-proposal-a-fine-idea",
+      "https://tj.xdf.cn/zixun/daxue/201912/218565002.html"
+    ],
+    "source_question": 23,
+    "family": "example-claim-scope",
+    "reported_pick": "B",
+    "considered_option": "D",
+    "reference_status": "disputed",
+    "preferred_analysis_answer": "D",
+    "reference_candidates": {
+      "D": "重视长期发展",
+      "C": "提升当地艺术知名度"
+    },
+    "note": "用户最终选 B，曾认为 D 更好，但觉得 B 更贴原文。原文说改变抱负，不是满足已有抱负；作者把短暂的知名度与持久的社区收益对照，较支持 D。天津新东方列 C，未找到研招网本题答案。两份参考都不支持 B；D 不是已核实的官方键。",
+    "training_priority": 1
+  },
+  {
+    "date": "2026-11-26",
+    "received_on": "2026-11-26",
+    "session_id": "2026-11-26-2020-text1",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户明确报告的纸质真题作答与主动词义疑问；不计入网页主测成绩。",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_and_interpretation",
+    "mark_type": "active_question",
+    "source_question": null,
+    "family": "familiar-word-polysemy",
+    "source_spans": [
+      "bag",
+      "for a spell",
+      "desperation"
+    ],
+    "note": "主动报告的词义障碍：bag 作动词表示赢得或拿到；for a spell 是短暂一段时间，并非拼写，正好提示第23题的时间对照；in its desperation to 表示急于做某事的心态。未确认画框。",
+    "training_priority": 1
+  },
+  {
+    "date": "2026-11-26",
+    "received_on": "2026-11-26",
+    "session_id": "2026-11-26-2020-text1",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 1",
+    "paper_attempt": true,
+    "evidence_basis": "用户明确报告的纸质真题作答与主动词义疑问；不计入网页主测成绩。",
+    "kind": "translation_difficulty",
+    "scope": "vocabulary_and_interpretation",
+    "mark_type": "active_question",
+    "source_question": null,
+    "family": "scope-role-match",
+    "source_spans": [
+      "ought not to be confined to cities",
+      "town",
+      "city",
+      "disappearing into"
+    ],
+    "note": "用户把限制对象理解成眼前这个城市；复数 cities 指城市这一类别，与 towns 对照。disappearing into 在自我庆祝的比喻语境表示陷入其中，不是人或地方字面消失。未确认画框。",
+    "training_priority": 2
   }
 ]
