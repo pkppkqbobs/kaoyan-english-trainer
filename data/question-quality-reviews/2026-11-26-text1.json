@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-26",
+  "scope": "2020 Text 1 文章复盘的原创迁移题，不涉及真题答案或当日8题",
+  "qid": "r20t1-lasting-hearing",
+  "finding": "原题题干未限定试点结束后持续的收益。第三区居民无需再为每个小故障外出求助，可以合理推断对专科服务的依赖有所下降；护士未取代专科人员不能排除这一推断。该题不用于推断错因或掌握；已发布题目、原始判分和提交保留。",
+  "replacement_qid": "r20t1-lasting-archive-catalogue",
+  "replacement_published_in_bank": true,
+  "published_snapshot_changed": false,
+  "matching_submission_found_at_review": false
+}

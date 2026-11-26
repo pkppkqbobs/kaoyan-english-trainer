@@ -1401,8 +1401,8 @@
     "data/days/2026-11-26.json": "3fd5539bb086979ec583d3c8d2cd1ebba486c5ae0324305aba7bd22ab1eb7a43",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "dbe1ea7db69de523ecc638fe00522246e5443cd37665237d88c392e3ef8949d1",
-    "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
-    "data/question-contexts.json": "065d047be43ad741544367af8ca7bdc67b6ea6a3e545b9fbdf0d68867a5c2338",
+    "data/quality-exclusions.json": "787903e0b1a81f40a5fbb411d4baf81ff6513ff848cc175249f8678ed318ecce",
+    "data/question-contexts.json": "b297d2e91d83c689c8496c158b518ab311664bc9d261866912be245012cab42a",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
     "data/questions/2026-09-29-reviewed.json": "fd64326c48a29d717d8738cd58368afba17f040aa803035635592e47ad9c4405",
     "data/questions/2026-09-30-fresh.json": "a9e65c85618c75a65044c26b055220274bd50537e3099b868de5ef71bb7aba64",
@@ -1461,6 +1461,7 @@
     "data/questions/2026-11-25-2019-partb-reference.json": "ed865b66c0f8da29a59c1e005e192fc4b47210baeb81958f0f8b0a7c4478d177",
     "data/questions/2026-11-25-translation-cloze-migration.json": "4e5363ddbdd8c828742df434f7af12470ebc842a6e00a90834fd926ca73ff50b",
     "data/questions/2026-11-26-2020-text1-migration.json": "b914817424bc329b5874e6687db79dfb345f7b8fd0d855cc3fcc162df2b70669",
+    "data/questions/2026-11-26-text1-quality-replacement.json": "117f5a2f1396d44f9b883a16be6e20633728501cf5b732f62295b3dc5635dd45",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "c668e88d9319c1744f25d14445b040a89efbfc931de475be8bb6fd0ec28c7ade",
     "data/review-state.json": "95c0f5badd31db910524daa4582c81ffa398f7c0be51e7c5d035673f057c257f",
@@ -1474,7 +1475,7 @@
     "data/source-checks/2019-english1.json": "c25b7833b9882374aff929268d2ea3493c23109637c58f3df3394c02ed42c913",
     "data/source-checks/2020-english1.json": "edeb6a134fb5a4930da9ce878d806fdba45503c4c57267db1ee274ce041e46e9"
   },
-  "source_fingerprint": "3322d6c3204d7d27604b4fbaedadc177158cd250076d91cb955af49b83e9526e",
+  "source_fingerprint": "a6c639c2ebb3112b85ac06f8180c5d7008f639e40de764e911be209cb2fdc63a",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

@@ -35,5 +35,13 @@
     "reason": "原版把假想读者的改选过程混入材料，却未明确说明正在回答的具体问题；选项同时混用内容事实、做题过程和词面特征。该作答不能可靠检验文章阅读能力。保留原始选择、页面判分、Issue和快照；仅该受影响题不计复习统计，不能据此新增用户错因。",
     "reviewed_on": "2026-11-17",
     "quality_status": "invalid_question_design"
+  },
+  {
+    "date": "2026-11-26",
+    "qid": "r20t1-lasting-hearing",
+    "family": "short-term-lasting-benefits",
+    "reason": "原题题干未限定试点结束后持续的收益。第三区居民无需再为每个小故障外出求助，可以合理推断对专科服务的依赖有所下降；护士未取代专科人员不能排除这一推断。该题不用于推断错因或掌握；已发布题目、原始判分和提交保留。",
+    "reviewed_on": "2026-11-26",
+    "quality_status": "invalid_question_design"
   }
 ]

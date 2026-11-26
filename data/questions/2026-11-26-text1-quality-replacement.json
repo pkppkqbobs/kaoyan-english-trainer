@@ -1,0 +1,32 @@
+[
+  {
+    "id": "r20t1-lasting-archive-catalogue",
+    "family": "short-term-lasting-benefits",
+    "context_id": "archive-festival-lasting-catalogue-access",
+    "introduced": "2026-11-26",
+    "published_on": "2026-11-26",
+    "format": "english1_reading",
+    "budget": 45,
+    "reading_budget": 120,
+    "passage": "A regional archive spent two weeks collecting family photographs at a summer festival. The exhibition that followed attracted large crowds, but a survey found that most visitors had come to look for people they knew. Few went on to use the archive's other collections.\n\nThe project had a different effect in a town whose photographs were poorly represented in the archive. Volunteers there used street directories to identify the locations of old photographs. The archive added those names to its online catalogue, so researchers could find the images by street after the exhibition closed. The archive had considered sending the exhibition to local schools, but the plan was dropped when transport costs rose.",
+    "q": "Which benefit continued after the exhibition closed?",
+    "o": [
+      "Local schools still hosted the collection.",
+      "Researchers could locate photos by street.",
+      "Festival visitors kept donating photographs.",
+      "Volunteers continued collecting street directories."
+    ],
+    "a": 1,
+    "answer_support": "researchers could find the images by street after the exhibition closed",
+    "target": "区分短期热度和持续收益",
+    "skill": "区分短期热度和持续收益",
+    "origin_session": "2026-11-26-2020-text1",
+    "exp": {
+      "trans": "节庆展览吸引了许多人，但多是来找熟人的。志愿者为老照片查明拍摄地点，档案馆把街名编入线上目录；展览结束后，研究者仍可按街道检索。",
+      "structure": "but 限定观展热度的含义；第二段 so 引出长期结果；after 明确持续时间。",
+      "other": "street directory 街道名录；catalogue 目录；drop a plan 放弃计划。",
+      "meaning": "持续的是照片的检索能力，而不是有人继续办展或收集资料。",
+      "rest": "学校巡展被取消；原文没说节后继续捐照片；志愿者查阅名录以识别地点，没说他们继续收集名录。"
+    }
+  }
+]

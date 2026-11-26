@@ -664,7 +664,8 @@
     "r20t1-lasting-hearing": "hearing-clinic-short-demand-lasting-capacity",
     "r20t1-sceptics-backup": "warehouse-coloured-label-assurance-versus-loss",
     "r20t1-confined-air-test": "air-quality-testing-building-categories",
-    "r20t1-spell-drinking-fountains": "water-fountain-temporary-closure"
+    "r20t1-spell-drinking-fountains": "water-fountain-temporary-closure",
+    "r20t1-lasting-archive-catalogue": "archive-festival-lasting-catalogue-access"
   },
   "cluster_rationales": {
     "directness-bad-news": "两题都是主动直说不利消息→frank，straight up/come right out虽换表达，推理和主要干扰仍是坦率与冲动；保守合并，不称两个独立迁移路径。",

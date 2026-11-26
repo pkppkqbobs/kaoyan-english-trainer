@@ -3,11 +3,11 @@
   "as_of": "2026-11-26",
   "scope": "Question definitions and candidate availability on the report date.",
   "summary": {
-    "source_questions": 574,
+    "source_questions": 575,
     "available_candidates": 483,
     "available_contexts": 479,
     "available_families": 183,
-    "retired_questions": 91,
+    "retired_questions": 92,
     "available_reading_passages": 103
   },
   "families": {
