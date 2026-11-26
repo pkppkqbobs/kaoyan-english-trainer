@@ -285,12 +285,12 @@
     },
     "calendar-temperature-prepositions": {
       "streak": 0,
-      "errors": 0,
-      "last": null,
+      "errors": 1,
+      "last": "2026-11-26",
       "due": "2026-11-26",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "campaign-vs-promise": {
@@ -1314,13 +1314,13 @@
       "observation_priority": 3
     },
     "relative": {
-      "streak": 0,
-      "errors": 2,
-      "last": "2026-11-26",
-      "due": "2026-11-27",
+      "streak": 12,
+      "errors": 1,
+      "last": "2026-11-17",
+      "due": "2026-12-08",
       "slow_or_uncertain": false,
       "reported_confusion": false,
-      "observed_days": 19,
+      "observed_days": 17,
       "observation_priority": 0
     },
     "remodel-vocab": {
@@ -1506,11 +1506,11 @@
     "spatial-preposition": {
       "streak": 0,
       "errors": 0,
-      "last": null,
-      "due": "2026-11-26",
+      "last": "2026-11-21",
+      "due": "2026-11-22",
       "slow_or_uncertain": false,
       "reported_confusion": true,
-      "observed_days": 0,
+      "observed_days": 1,
       "observation_priority": 3
     },
     "spot-verb-meaning": {

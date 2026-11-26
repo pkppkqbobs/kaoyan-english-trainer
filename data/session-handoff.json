@@ -15,23 +15,23 @@
   },
   "web": {
     "current_daily_date": "2026-11-26",
-    "current_daily_issue": null,
-    "current_daily_status": "unverified",
+    "current_daily_issue": 60,
+    "current_daily_status": "verified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
-      "date": "2026-11-25",
-      "issue": 59,
-      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/59",
-      "round_id": "mwvx4a1y-1jedutdc",
-      "correct": 5,
+      "date": "2026-11-26",
+      "issue": 60,
+      "issue_url": "https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/60",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "correct": 4,
       "total": 8,
-      "uncertain": 1,
+      "uncertain": 0,
       "answer_dates": [
-        "2026-11-25"
+        "2026-11-26"
       ],
       "answer_date_status": "verified",
-      "source": "data/days/2026-11-25.json",
+      "source": "data/days/2026-11-26.json",
       "evidence_source": "data/result-evidence.json"
     },
     "latest_article": {
@@ -58,6 +58,16 @@
     },
     "unverified_complete_rounds": [
       {
+        "issue": 6,
+        "status": "complete_round_unverified",
+        "reason": "旧汇总或缺少可核验轮次/题号"
+      },
+      {
+        "issue": 7,
+        "status": "complete_round_unverified",
+        "reason": "旧汇总或缺少可核验轮次/题号"
+      },
+      {
         "issue": 8,
         "status": "complete_round_unverified",
         "reason": "旧汇总或缺少可核验轮次/题号"
@@ -71,16 +81,6 @@
         "issue": 10,
         "status": "complete_round_unverified",
         "reason": "旧汇总或缺少可核验轮次/题号"
-      },
-      {
-        "issue": 56,
-        "status": "complete_round_unverified",
-        "reason": "未匹配唯一完整的8题快照"
-      },
-      {
-        "issue": 60,
-        "status": "complete_round_unverified",
-        "reason": "未匹配唯一完整的8题快照"
       }
     ],
     "review_state_status": "verified"
@@ -1462,8 +1462,8 @@
     "data/questions/2026-11-25-translation-cloze-migration.json": "4e5363ddbdd8c828742df434f7af12470ebc842a6e00a90834fd926ca73ff50b",
     "data/questions/2026-11-26-2020-text1-migration.json": "b914817424bc329b5874e6687db79dfb345f7b8fd0d855cc3fcc162df2b70669",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "cd8e80db108e77e935ea7b8d1e91fd1550a5534f3bf65f5b5695cded648642da",
-    "data/review-state.json": "0430d212271488abd02d4457e26c276191b541b47cf18977ee436ede57414582",
+    "data/result-evidence.json": "c668e88d9319c1744f25d14445b040a89efbfc931de475be8bb6fd0ec28c7ade",
+    "data/review-state.json": "95c0f5badd31db910524daa4582c81ffa398f7c0be51e7c5d035673f057c257f",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1474,7 +1474,7 @@
     "data/source-checks/2019-english1.json": "c25b7833b9882374aff929268d2ea3493c23109637c58f3df3394c02ed42c913",
     "data/source-checks/2020-english1.json": "edeb6a134fb5a4930da9ce878d806fdba45503c4c57267db1ee274ce041e46e9"
   },
-  "source_fingerprint": "b251c943b76a4c6f94c0f61a6e01b2e3b2085652a05d14d771db68226510cf28",
+  "source_fingerprint": "3322d6c3204d7d27604b4fbaedadc177158cd250076d91cb955af49b83e9526e",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

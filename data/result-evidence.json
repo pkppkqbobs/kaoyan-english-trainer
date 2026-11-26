@@ -4648,7 +4648,7 @@
     },
     {
       "date": "2026-11-21",
-      "family": "relative",
+      "family": "spatial-preposition",
       "ok": true,
       "ms": 77542,
       "uncertain": false,
@@ -5075,7 +5075,7 @@
     },
     {
       "date": "2026-11-26",
-      "family": "relative",
+      "family": "calendar-temperature-prepositions",
       "ok": false,
       "ms": 10121,
       "uncertain": false,

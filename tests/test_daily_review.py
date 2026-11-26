@@ -31,6 +31,27 @@ class ReviewTests(unittest.TestCase):
         self.assertEqual([r['ok'] for r in rows], [True, False, True])
         self.assertEqual(rows[0]['ms'], 48500)
 
+    def test_preposition_skill_does_not_become_relative_clause_evidence(self):
+        day = "2026-11-26"
+        family = "calendar-temperature-prepositions"
+        q = sample("calendar-temperature-fixture", family)
+        report = {
+            "roundId": "calendar-fixture", "date": day, "module": "daily",
+            "storageId": day, "answers": [{
+                "qid": q["id"], "family": family, "pick": 0, "expected": 2,
+                "ok": False, "ms": 9000, "kind": "main", "answeredOn": day,
+                "optionOrder": [2, 0, 1, 3],
+            }],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            review.save(root / f"data/days/{day}.json", {"date": day, "questions": [q]})
+            body = "<!-- review-json:v3\n" + json.dumps(report) + "\n-->"
+            _, rows = review.parse_issue(issue(1, body, day), root)
+        self.assertEqual([(r["family"], r["ok"]) for r in rows], [(family, False)])
+        self.assertEqual(review.canonical("spatial-preposition"), "spatial-preposition")
+        self.assertEqual(review.canonical("preposition + which"), "relative")
+
     def test_original_aggregate_and_diagnosis(self):
         body = '原词复现干扰：1/2，平均 14s\nsubject / be subject to：1/1，平均 128s\neven / ever / over：1/2，平均 14s\nQ1 原词复现干扰：选C→正确A；出现 costs 但对象换了；18.1s'
         _, rows = review.parse_issue(issue(1, body))

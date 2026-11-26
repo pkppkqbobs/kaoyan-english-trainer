@@ -51,6 +51,10 @@ def save(path, value):
 
 def canonical(label):
     label = label.lower().strip()
+    # Standalone preposition skills are not relative-clause evidence.
+    # The broad historical "preposition" alias is only a fallback.
+    if label in {"calendar-temperature-prepositions", "spatial-preposition"}:
+        return label
     for family, names in ALIASES.items():
         if label == family or any(name.lower() in label for name in names):
             return family
