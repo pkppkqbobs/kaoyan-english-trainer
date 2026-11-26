@@ -58,11 +58,6 @@
     },
     "unverified_complete_rounds": [
       {
-        "issue": 7,
-        "status": "complete_round_unverified",
-        "reason": "旧汇总或缺少可核验轮次/题号"
-      },
-      {
         "issue": 8,
         "status": "complete_round_unverified",
         "reason": "旧汇总或缺少可核验轮次/题号"
@@ -79,6 +74,11 @@
       },
       {
         "issue": 56,
+        "status": "complete_round_unverified",
+        "reason": "未匹配唯一完整的8题快照"
+      },
+      {
+        "issue": 60,
         "status": "complete_round_unverified",
         "reason": "未匹配唯一完整的8题快照"
       }
@@ -944,6 +944,24 @@
       "label": "修饰关系与熟词搭配",
       "families": [
         {
+          "family": "match-equal-verb",
+          "label": "评价或比较语境中的 match",
+          "focus": "用户确认第2题最终选 influence，未说明更具体的选词理由。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-25",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-26",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-25",
+            "family": "match-equal-verb",
+            "question": 2,
+            "note_fingerprint": "de89085aa545ba97"
+          }
+        },
+        {
           "family": "past-participle-modifier",
           "label": "区分拟写、支持与推翻决定",
           "focus": "用户确认最终填 compelled，未提供更具体的选择过程。",
@@ -959,24 +977,6 @@
             "family": "past-participle-modifier",
             "question": 4,
             "note_fingerprint": "251cb8e62cb4e692"
-          }
-        },
-        {
-          "family": "serve-up-make-up",
-          "label": "serve up 提供的引申义与 make up 搭配",
-          "focus": "用户把熟悉的 make up 联想到“装饰”，据此填 made。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-25",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-26",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-25",
-            "family": "serve-up-make-up",
-            "question": 16,
-            "note_fingerprint": "e9f4e0f0013c59b8"
           }
         }
       ]
@@ -1313,7 +1313,7 @@
     "data/article-sessions/2026-11-19-2019-cloze.json": "a4c9ec07783aca6d2c3f8d44896918f8a5f7f029f5fc39106422a2c2f4924c0b",
     "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "473e9cdcc462eab1ed1db50efad0d0fc049984888d0e260b50779853b242b7dd",
+    "data/daily.json": "3fd5539bb086979ec583d3c8d2cd1ebba486c5ae0324305aba7bd22ab1eb7a43",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1372,7 +1372,7 @@
     "data/days/2026-11-23.json": "300cc058b980b570131255a20b54fda7474cc3769cc9952d5a9feb11f278b187",
     "data/days/2026-11-24.json": "139bc9b7826009f93d78d225ca35d856f27772af2919a1e9e7216340cd2139b2",
     "data/days/2026-11-25.json": "0f2aeab3dff332537abd3b9ada9d5bfc7f7b0861ffb61155eea26908582ff4c2",
-    "data/days/2026-11-26.json": "473e9cdcc462eab1ed1db50efad0d0fc049984888d0e260b50779853b242b7dd",
+    "data/days/2026-11-26.json": "3fd5539bb086979ec583d3c8d2cd1ebba486c5ae0324305aba7bd22ab1eb7a43",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "d406ac582dfa2c39145e50a4454ab66630d77e0fab5e2b4689163a2c2e3485da",
     "data/quality-exclusions.json": "d9723032e9615ea01c615d840bfb4fbcfaec688e2b09a8a94936ef9021d3c342",
@@ -1435,8 +1435,8 @@
     "data/questions/2026-11-25-2019-partb-reference.json": "ed865b66c0f8da29a59c1e005e192fc4b47210baeb81958f0f8b0a7c4478d177",
     "data/questions/2026-11-25-translation-cloze-migration.json": "4e5363ddbdd8c828742df434f7af12470ebc842a6e00a90834fd926ca73ff50b",
     "data/rejected-results.json": null,
-    "data/result-evidence.json": "350f1802e421b920f6e3411783bb4e44e84cfc7b4044f43ca8247f669236cd44",
-    "data/review-state.json": "31becc4d27d19a2d28ad6451f77ef4ad75a5c1ddc969ceed60450f2f2d3f0e9a",
+    "data/result-evidence.json": "cd8e80db108e77e935ea7b8d1e91fd1550a5534f3bf65f5b5695cded648642da",
+    "data/review-state.json": "2cae0fb583b07927e5da46ae2410b242ac036b211cb5a76cd530be97422da492",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1447,7 +1447,7 @@
     "data/source-checks/2019-english1.json": "c25b7833b9882374aff929268d2ea3493c23109637c58f3df3394c02ed42c913",
     "data/source-checks/2020-english1.json": "4067b5a2e60b693ba9adc4080f1b077d748d60d43fc2d9275c9445ff03c9323b"
   },
-  "source_fingerprint": "c9d659c645f36cc1d325e925a8f8e4e6b747cb77fa1b1cc0b5d40005893cedd0",
+  "source_fingerprint": "2685c7fff337aa03e47233a5b947ccb90eb70f30ae1367be9b6a37ba0dfdb0d2",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

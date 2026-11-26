@@ -36,7 +36,7 @@
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
-- 修饰关系与熟词搭配（past-participle-modifier、serve-up-make-up）：用户确认最终填 compelled，未提供更具体的选择过程。 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（match-equal-verb、past-participle-modifier）：用户确认第2题最终选 influence，未说明更具体的选词理由。 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（adverb-degree-scope、if-not-for-scope）：想到每天只能吃烤面包，选 regularly。又把 partially toast 当成只烤部分面包，因而排除 partially。 网页错误数/streak单列于JSON。
 - Part B 标题匹配与篇章衔接（paragraph-order-cataphora、heading-global-allocation）：把D排在E前，因为认为E段his必须先有人名。E同句随后给出Dale Carnegie。纸质后五段F→G→B→C→A正确。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（author-stance、attribution-stance）：初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。 网页错误数/streak单列于JSON。

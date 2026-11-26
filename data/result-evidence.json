@@ -5002,6 +5002,100 @@
       "qid": "social-message-repair-framing",
       "round_id": "mwvx4a1y-1jedutdc",
       "source_date": "2026-11-25"
+    },
+    {
+      "date": "2026-11-26",
+      "family": "serve-up-make-up",
+      "ok": true,
+      "ms": 30038,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "cl20-served-up-concert",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-26",
+      "family": "adverb-degree-scope",
+      "ok": true,
+      "ms": 54630,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "cl20-partial-noise-filter",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-26",
+      "family": "directness-modifier",
+      "ok": true,
+      "ms": 20326,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "directness-curator-b",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26"
+    },
+    {
+      "date": "2026-11-26",
+      "family": "match-equal-verb",
+      "ok": false,
+      "ms": 58680,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "cl20-match-accuracy",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-26",
+      "family": "alignment-counterbalance",
+      "ok": false,
+      "ms": 94502,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "r19t2-crate-standards",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26",
+      "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-26",
+      "family": "with",
+      "ok": true,
+      "ms": 28250,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "refresh-with-conference-arrivals",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26"
+    },
+    {
+      "date": "2026-11-26",
+      "family": "relative",
+      "ok": false,
+      "ms": 10121,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "cl20-preposition-gallery-trials",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-26",
+      "family": "nested",
+      "ok": false,
+      "ms": 180653,
+      "uncertain": false,
+      "origin": 60,
+      "qid": "r19t1-inset-harbour-staff",
+      "round_id": "mwxdjnvx-jbn5n8uj",
+      "source_date": "2026-11-26",
+      "slow_threshold_ms": 105000
     }
   ],
   "issues": [
@@ -5063,6 +5157,7 @@
     56,
     57,
     58,
-    59
+    59,
+    60
   ]
 }
