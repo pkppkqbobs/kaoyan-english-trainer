@@ -5096,6 +5096,99 @@
       "round_id": "mwxdjnvx-jbn5n8uj",
       "source_date": "2026-11-26",
       "slow_threshold_ms": 105000
+    },
+    {
+      "date": "2026-11-27",
+      "family": "research-post-meaning",
+      "ok": false,
+      "ms": 38069,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "pc19-post-clock-restoration",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-27",
+      "family": "process-stage-role",
+      "ok": true,
+      "ms": 61253,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "process-stage-bridge-warning-b",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "family": "summary-location",
+      "ok": true,
+      "ms": 47752,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "summary-current-and-follow-up",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "family": "if-not-for-scope",
+      "ok": true,
+      "ms": 102123,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "pc19-if-not-for-evening-slot",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-27",
+      "family": "synonym-reference",
+      "ok": false,
+      "ms": 74644,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "cl19-reference-wage-chart",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27",
+      "slow_threshold_ms": 100000
+    },
+    {
+      "date": "2026-11-27",
+      "family": "cling-climb",
+      "ok": false,
+      "ms": 10923,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "cling-rail-b",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27"
+    },
+    {
+      "date": "2026-11-27",
+      "family": "campaign-vs-promise",
+      "ok": true,
+      "ms": 114216,
+      "uncertain": true,
+      "origin": 61,
+      "qid": "cl20-campaign-river-walk",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-27",
+      "family": "short-term-lasting-benefits",
+      "ok": false,
+      "ms": 138029,
+      "uncertain": false,
+      "origin": 61,
+      "qid": "r20t1-lasting-archive-catalogue",
+      "round_id": "mwyqsg80-9qiukdhc",
+      "source_date": "2026-11-27",
+      "slow_threshold_ms": 120000
     }
   ],
   "issues": [
@@ -5158,6 +5251,7 @@
     57,
     58,
     59,
-    60
+    60,
+    61
   ]
 }
