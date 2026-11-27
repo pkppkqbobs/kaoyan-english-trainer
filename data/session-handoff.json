@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-27",
+  "as_of": "2026-11-28",
   "source_dates": {
-    "review_state": "2026-11-27",
-    "daily_quiz": "2026-11-27",
+    "review_state": "2026-11-28",
+    "daily_quiz": "2026-11-28",
     "latest_observation": "2026-11-26"
   },
   "project": {
@@ -14,9 +14,9 @@
     "history_url": "https://pkppkqbobs.github.io/kaoyan-english-trainer/article-reviews.html"
   },
   "web": {
-    "current_daily_date": "2026-11-27",
-    "current_daily_issue": 61,
-    "current_daily_status": "verified",
+    "current_daily_date": "2026-11-28",
+    "current_daily_issue": null,
+    "current_daily_status": "unverified",
     "latest_daily": {
       "status": "verified",
       "module": "daily",
@@ -975,7 +975,7 @@
           "web_errors": 1,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-27",
+          "due": "2026-11-28",
           "source": {
             "path": "data/learning-notes.json",
             "date": "2026-11-26",
@@ -1111,21 +1111,17 @@
           }
         },
         {
-          "family": "heading-global-allocation",
-          "label": "跨段分配：确认条件与降低决策疲劳",
-          "focus": "用户看到第45段spend more time fussing over what to wear里的time就把B Decide if the time is right分配给第…",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-06",
-          "web_errors": 0,
+          "family": "summary-location",
+          "label": "总结词定位",
+          "focus": "网页到期且仍有错误或慢答信号，需跨语境复查。",
+          "paper_kind": null,
+          "latest_observation": "2026-11-27",
+          "web_errors": 5,
           "web_streak": 0,
           "slow_or_uncertain": true,
-          "due": "2026-11-10",
+          "due": "2026-11-28",
           "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-06",
-            "family": "heading-global-allocation",
-            "question": 45,
-            "note_fingerprint": "2f263821c134f219"
+            "path": "data/review-state.json"
           }
         }
       ]
@@ -1339,7 +1335,7 @@
     "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
     "data/article-sessions/2026-11-26-2020-text1.json": "53ee470643a4c77b1da7ed5cb241963edb120f1dca95e6259b82ee1b9ab106be",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
-    "data/daily.json": "18d69d468f62fa1ca288bc4e09440ca25c3098f498689e56c220d647c58e1faa",
+    "data/daily.json": "8414159e44f509fafebf79e796e2679a919ab6df4540b62412111af3f02916b5",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
     "data/days/2026-09-30.json": "c9374a88895e37197a5e8b28f96c1b0e1ec98e8bd7c8ab5b1692c1ccae2d3ba5",
     "data/days/2026-10-01.json": "b62791edbdec96cb23f4c2c752677e6089fa0e2a4b123340e92ad7e5bf7f0ab8",
@@ -1400,6 +1396,7 @@
     "data/days/2026-11-25.json": "0f2aeab3dff332537abd3b9ada9d5bfc7f7b0861ffb61155eea26908582ff4c2",
     "data/days/2026-11-26.json": "3fd5539bb086979ec583d3c8d2cd1ebba486c5ae0324305aba7bd22ab1eb7a43",
     "data/days/2026-11-27.json": "18d69d468f62fa1ca288bc4e09440ca25c3098f498689e56c220d647c58e1faa",
+    "data/days/2026-11-28.json": "8414159e44f509fafebf79e796e2679a919ab6df4540b62412111af3f02916b5",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
     "data/learning-notes.json": "dbe1ea7db69de523ecc638fe00522246e5443cd37665237d88c392e3ef8949d1",
     "data/quality-exclusions.json": "787903e0b1a81f40a5fbb411d4baf81ff6513ff848cc175249f8678ed318ecce",
@@ -1465,7 +1462,7 @@
     "data/questions/2026-11-26-text1-quality-replacement.json": "117f5a2f1396d44f9b883a16be6e20633728501cf5b732f62295b3dc5635dd45",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "3ea1b0701c919841007769ace9e80ff7736f20ca32bf04a4847d2242fb4c5740",
-    "data/review-state.json": "09db0fefbdd8176e0cc4e38adc9f85e3f85bdfd0b4a4f271930c93a1138def21",
+    "data/review-state.json": "1b220bc571bc315209a3e93f0a8ff812f00b12d0c79cb006fa77b8205cf05033",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1476,7 +1473,7 @@
     "data/source-checks/2019-english1.json": "c25b7833b9882374aff929268d2ea3493c23109637c58f3df3394c02ed42c913",
     "data/source-checks/2020-english1.json": "edeb6a134fb5a4930da9ce878d806fdba45503c4c57267db1ee274ce041e46e9"
   },
-  "source_fingerprint": "8f0f8675a9c8e44fd056e19c1df853a203d8c696681a256fb113d6749dc63e39",
+  "source_fingerprint": "309fcff64c0dc8a514216c3cd6e044a1e0aa1edd824955c1d43afea5ab7f8e59",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }
