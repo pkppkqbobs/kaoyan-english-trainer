@@ -12,8 +12,8 @@
 
 ## 已核验网页进度
 
-最近已接受的完整daily：题单日期2026-11-27，[Issue #61](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/61)，4/8，犹豫标记1题；来自已接受成绩与唯一已发布题单。
-当前题单日期：2026-11-28；完成状态：未验证。即使本轮全对，也不能替代其他机制的后续跨日验证。
+最近已接受的完整daily：题单日期2026-11-28，[Issue #62](https://github.com/pkppkqbobs/kaoyan-english-trainer/issues/62)，5/8，犹豫标记0题；来自已接受成绩与唯一已发布题单。
+当前题单日期：2026-11-28；完成状态：已核验。即使本轮全对，也不能替代其他机制的后续跨日验证。
 网页errors/streak只使用有效主测口径；不把纸质记录加入，也不把同日重做当成跨日掌握。
 旧汇总的已接受成绩仍保留；不能从缺失题号的旧报告补造完整8题或具体选择。
 可选文章专项发布日期为2026-11-26，对应学习日期2026-11-26。
@@ -36,7 +36,7 @@
 ## 当前优先机制
 
 以下顺序由现有观察、到期弱项和跨日表现生成；新证据会改变排序，不能把一次答对视为已掌握。
-- 修饰关系与熟词搭配（short-term-lasting-benefits、match-equal-verb）：用户最终选 B，曾认为 D 更好，但觉得 B 更贴原文。原文说改变抱负，不是满足已有抱负；作者把短暂的知名度与持久的社区收益对照，较支持 D。天津新东方列 C，未找到研招网本题答案… 网页错误数/streak单列于JSON。
+- 修饰关系与熟词搭配（short-term-lasting-benefits、past-participle-modifier）：用户最终选 B，曾认为 D 更好，但觉得 B 更贴原文。原文说改变抱负，不是满足已有抱负；作者把短暂的知名度与持久的社区收益对照，较支持 D。天津新东方列 C，未找到研招网本题答案… 网页错误数/streak单列于JSON。
 - 选项范围与额外限定（scope-role-match、adverb-degree-scope）：原文的引资和创造就业支持城镇经济实力增强；D 将文化活动写成集中分配有限资源的对象，并非提议预期的效果。用户没有具体报告本题选择理由。 网页错误数/streak单列于JSON。
 - 作者态度、评价对象与转折（attribution-stance、author-stance）：用户看到 self-celebration 曾考虑 B，最终选择 D。题干问一些批评者如何评价提议：他们质疑它可能是自我安慰、自我庆祝；不是断言目标无法实现。 网页错误数/streak单列于JSON。
 - Part B 标题匹配与篇章衔接（paragraph-order-cataphora、summary-location）：把D排在E前，因为认为E段his必须先有人名。E同句随后给出Dale Carnegie。纸质后五段F→G→B→C→A正确。 网页错误数/streak单列于JSON。

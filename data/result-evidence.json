@@ -5189,6 +5189,99 @@
       "round_id": "mwyqsg80-9qiukdhc",
       "source_date": "2026-11-27",
       "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-28",
+      "family": "incorporate-word-family",
+      "ok": true,
+      "ms": 131449,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "pc19-incorporate-workshop-booklet",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-28",
+      "family": "past-participle-modifier",
+      "ok": false,
+      "ms": 88501,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "r19t4-courtyard-screening-report",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28",
+      "slow_threshold_ms": 110000
+    },
+    {
+      "date": "2026-11-28",
+      "family": "causal-role-direction",
+      "ok": true,
+      "ms": 58904,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "text3-coding-class-prior-skills",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28"
+    },
+    {
+      "date": "2026-11-28",
+      "family": "yet-another-function",
+      "ok": true,
+      "ms": 58247,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "cl20-yet-another-fee",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-28",
+      "family": "parallel-governance",
+      "ok": true,
+      "ms": 16928,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "parallel-governance-repair",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28"
+    },
+    {
+      "date": "2026-11-28",
+      "family": "example-claim-scope",
+      "ok": true,
+      "ms": 46985,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "example-farmers-support-trial-b",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28"
+    },
+    {
+      "date": "2026-11-28",
+      "family": "costs-effort-intensity",
+      "ok": false,
+      "ms": 174979,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "e1r-historic-library",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28",
+      "slow_threshold_ms": 120000
+    },
+    {
+      "date": "2026-11-28",
+      "family": "paragraph-order-cataphora",
+      "ok": false,
+      "ms": 177592,
+      "uncertain": false,
+      "origin": 62,
+      "qid": "pb19-chart-blanks",
+      "round_id": "mx0144ul-nd7mgxgi",
+      "source_date": "2026-11-28",
+      "slow_threshold_ms": 120000
     }
   ],
   "issues": [
@@ -5252,6 +5345,7 @@
     58,
     59,
     60,
-    61
+    61,
+    62
   ]
 }
