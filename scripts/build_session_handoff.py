@@ -134,9 +134,19 @@ def paper_item(note, checks):
     question = note.get('source_question')
     choices = paper_choices(note)
     check = checks.get(note.get('source_exam'), {})
-    key = check.get('answers', {}).get(str(question)) if question is not None else None
+    part = re.fullmatch(r'Text\s+(\d+)', paper_key(note)[1], flags=re.I)
+    section = check.get(f'reading_text_{part[1]}', {}) if part else {}
+    qid = str(question) if question is not None else ''
+    disputed = section.get('disputed', {}).get(qid)
+    key = section.get('answers', {}).get(qid) or check.get('answers', {}).get(qid)
     recorded = note.get('expected', note.get('answer_from_verified_key'))
-    status = 'source_checked' if key and (not recorded or key == recorded) else 'conflict' if key and recorded else 'note_only'
+    status = ('disputed' if disputed else 'source_checked' if key and (not recorded or key == recorded)
+              else 'conflict' if key and recorded else 'note_only')
+    caveat = section.get('answer_caveats', {}).get(qid)
+    if disputed:
+        options = ' / '.join(dict.fromkeys(disputed.get(name) for name in ('preferred', 'alternative')
+                                           if disputed.get(name) in choices))
+        caveat = ('资料有分歧' + ('：' + options if options else '') + '，未核为官方答案。')
     questions = {n['question'] for n in note.get('user_confirmed_reasoning', []) if type(n.get('question')) is int}
     questions.update(n for n in note.get('source_questions', []) if type(n) is int)
     choice_status = 'confirmed' if confirmed(note) else 'unconfirmed' if question is not None or questions else 'not_applicable'
@@ -147,7 +157,8 @@ def paper_item(note, checks):
             'first_considered': note.get('first_considered'),
             'candidate_choices': [c for c in note.get('candidate_choices', []) if c in choices],
             'eliminated_choices': [c for c in note.get('eliminated_choices', note.get('reported_eliminations', [])) if c in choices],
-            'reference_answer': key or recorded, 'reference_status': status,
+            'reference_answer': None if disputed else key or recorded, 'reference_status': status,
+            **({'reference_caveat': short(caveat, 120)} if caveat else {}),
             'summary': observation_summary(note),
             'followup': dated_followup(note),
             'spans': [short(span, 42) for span in note.get('source_spans', [])[:6]],
@@ -566,7 +577,8 @@ def markdown(report):
                 choice = '先考虑' + str(item['first_considered']) + '→' + choice
             reference = ('；参考' + str(item['reference_answer']) + ('（待来源核对）' if item['reference_status'] != 'source_checked' else '')) if item['reference_answer'] else ''
             kind_label = '记录待核对' if item['reference_status'] == 'conflict' or item['choice_conflict'] else KINDS.get(item['kind'], '观察')
-            details.append(f"{question} {kind_label}：{choice}{reference}。{safe(item['summary'])}")
+            caveat = ' ' + safe(item['reference_caveat']) if item.get('reference_caveat') else ''
+            details.append(f"{question} {kind_label}：{choice}{reference}。{safe(item['summary'])}{caveat}")
             if item['followup']:
                 details.append('后续补充（不倒推首次原因）：' + safe(item['followup']['summary']))
         if stage['boxed_spans']:

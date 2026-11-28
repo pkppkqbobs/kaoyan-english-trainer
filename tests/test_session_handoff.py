@@ -457,6 +457,32 @@ class SessionHandoffTests(unittest.TestCase):
         self.assertEqual(item['reference_status'], 'conflict')
         self.assertIn('记录待核对', handoff.markdown(report))
 
+    def test_paper_reference_resolves_text_section_preserves_disputes_and_legacy(self):
+        checks = {'2020-english1': {
+            'answers': {'1': 'A', '34': 'B'},
+            'reading_text_1': {'answers': {'21': 'C'},
+                               'disputed': {'23': {'preferred': 'D', 'alternative': 'C'}}},
+            'reading_text_3': {'answers': {'31': 'A', '34': 'C', '35': 'B'},
+                               'answer_caveats': {'34': 'C wording is stronger.'}},
+        }}
+        def item(part, question, expected):
+            return handoff.paper_item({
+                'date': '2026-11-28', 'family': 'attribution-stance', 'kind': 'user_reported_wrong',
+                'source_exam': '2020-english1', 'source_part': part,
+                'source_question': question, 'reported_pick': 'D', 'expected': expected,
+            }, checks)
+        self.assertEqual(item('Section I (Cloze)', 1, 'A')['reference_status'], 'source_checked')
+        self.assertEqual(item('Reading Text 1', 21, 'C')['reference_status'], 'source_checked')
+        disputed = item('Reading Text 1', 23, 'D')
+        self.assertEqual(disputed['reference_status'], 'disputed')
+        self.assertIsNone(disputed['reference_answer'])
+        self.assertIn('D / C', disputed['reference_caveat'])
+        for question, expected in ((31, 'A'), (34, 'C'), (35, 'B')):
+            self.assertEqual(item('Reading Text 3', question, expected)['reference_status'], 'source_checked')
+        self.assertEqual(item('Text 3', 34, 'C')['reference_caveat'], 'C wording is stronger.')
+        self.assertEqual(item('Text 3', 34, 'B')['reference_status'], 'conflict')
+        self.assertEqual(item('Text 3', 33, 'D')['reference_status'], 'note_only')
+
     def test_malformed_input_preserves_both_previous_outputs(self):
         handoff.build(self.root)
         files = [self.root / 'SESSION_HANDOFF.md', self.root / 'data/session-handoff.json']
