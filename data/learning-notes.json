@@ -9221,5 +9221,142 @@
     "note": "用户把限制对象理解成眼前这个城市；复数 cities 指城市这一类别，与 towns 对照。disappearing into 在自我庆祝的比喻语境表示陷入其中，不是人或地方字面消失。未确认画框。",
     "training_priority": 2,
     "source_check": "data/source-checks/2020-english1.json"
+  },
+  {
+    "date": "2026-11-28",
+    "received_on": "2026-11-28",
+    "session_id": "2026-11-28-2020-text3",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2020-english1.json",
+    "evidence_basis": "用户提交的纸质真题复盘；题解为公开参考，非网页主测。",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 31,
+    "family": "attribution-stance",
+    "reported_pick": "D",
+    "expected": "A",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "reference_sources": [
+      "https://www.bostonglobe.com/opinion/2019/08/05/corporate-gender-quotas-reinforce-privilege/WA4QjKBkb2aUxUdF59h0EO/story.html",
+      "https://zj139.github.io/math-notes/english/4998b7c1fb5c1b5a77934651/"
+    ],
+    "training_priority": 2,
+    "note": "用户看到 more opportunities，联想到 greatly broaden career options。such 回指董事会席位机会；提案的目的不等于作者对普遍效果的判断，作者预期减少偏见的作用有限。"
+  },
+  {
+    "date": "2026-11-28",
+    "received_on": "2026-11-28",
+    "session_id": "2026-11-28-2020-text3",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2020-english1.json",
+    "evidence_basis": "用户提交的纸质真题复盘；题解为公开参考，非网页主测。",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 34,
+    "family": "semantic-action-roles",
+    "reported_pick": "A",
+    "expected": "C",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "reference_sources": [
+      "https://www.bostonglobe.com/opinion/2019/08/05/corporate-gender-quotas-reinforce-privilege/WA4QjKBkb2aUxUdF59h0EO/story.html",
+      "https://zj139.github.io/math-notes/english/4998b7c1fb5c1b5a77934651/"
+    ],
+    "training_priority": 2,
+    "note": "用户因看到 the same elite women 选 A。后段说少数人兼任席位，不是作用被低估；题干对应挪威例证前 That 回指的董事会经验不足。C 用 unqualified 概括得更强，是公开参考中最贴近的选项，不能推成所有新增董事不合格。"
+  },
+  {
+    "date": "2026-11-28",
+    "received_on": "2026-11-28",
+    "session_id": "2026-11-28-2020-text3",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2020-english1.json",
+    "evidence_basis": "用户提交的纸质真题复盘；题解为公开参考，非网页主测。",
+    "kind": "user_reported_wrong",
+    "scope": "question_reasoning",
+    "source_question": 35,
+    "family": "title-coverage",
+    "reported_pick": "A",
+    "expected": "B",
+    "paper_wrong_confirmed": true,
+    "final_choice_letter_confirmed": true,
+    "initial_choice_letter_confirmed": false,
+    "reference_sources": [
+      "https://www.bostonglobe.com/opinion/2019/08/05/corporate-gender-quotas-reinforce-privilege/WA4QjKBkb2aUxUdF59h0EO/story.html",
+      "https://zj139.github.io/math-notes/english/4998b7c1fb5c1b5a77934651/"
+    ],
+    "training_priority": 2,
+    "note": "用户认为 A 符合全文大意。女性就业是相关话题，不是文章推论；合法性、必要性、人才供给和受益范围共同支持重视政策可行性。"
+  },
+  {
+    "date": "2026-11-28",
+    "received_on": "2026-11-28",
+    "session_id": "2026-11-28-2020-text3",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2020-english1.json",
+    "evidence_basis": "用户提交的纸质真题复盘；题解为公开参考，非网页主测。",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "familiar-word-polysemy",
+    "source_spans": [
+      "frown on"
+    ],
+    "note": "用户主动澄清把 frowns 联想到框架；frown on 是不赞成，frame/framework 才能表示框架。"
+  },
+  {
+    "date": "2026-11-28",
+    "received_on": "2026-11-28",
+    "session_id": "2026-11-28-2020-text3",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2020-english1.json",
+    "evidence_basis": "用户提交的纸质真题复盘；题解为公开参考，非网页主测。",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "familiar-word-polysemy",
+    "source_spans": [
+      "insincere",
+      "unconstitutional"
+    ],
+    "note": "用户交接列为画框：不真诚、违宪；probably/may 仍表示可能，不是已裁决。"
+  },
+  {
+    "date": "2026-11-28",
+    "received_on": "2026-11-28",
+    "session_id": "2026-11-28-2020-text3",
+    "source_exam": "2020-english1",
+    "source_part": "Reading Text 3",
+    "paper_attempt": true,
+    "source_check": "data/source-checks/2020-english1.json",
+    "evidence_basis": "用户提交的纸质真题复盘；题解为公开参考，非网页主测。",
+    "kind": "translation_difficulty",
+    "scope": "boxed_vocabulary",
+    "source_question": null,
+    "mark_type": "boxed",
+    "marking_evidence": "reported_photo_box_identification",
+    "family": "familiar-word-polysemy",
+    "source_spans": [
+      "the pool of qualified women",
+      "scoop up"
+    ],
+    "note": "用户交接列为画框：合格女性人才库；scoop up multiple seats 是包揽多个席位。"
   }
 ]

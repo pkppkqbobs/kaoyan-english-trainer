@@ -1716,14 +1716,14 @@
       "observation_priority": 0
     },
     "title-coverage": {
-      "streak": 2,
+      "streak": 0,
       "errors": 2,
       "last": "2026-11-25",
-      "due": "2026-11-29",
+      "due": "2026-11-26",
       "slow_or_uncertain": true,
-      "reported_confusion": false,
+      "reported_confusion": true,
       "observed_days": 9,
-      "observation_priority": 0
+      "observation_priority": 3
     },
     "title-specificity": {
       "streak": 3,

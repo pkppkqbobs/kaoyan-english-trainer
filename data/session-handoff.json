@@ -4,7 +4,7 @@
   "source_dates": {
     "review_state": "2026-11-28",
     "daily_quiz": "2026-11-28",
-    "latest_observation": "2026-11-26"
+    "latest_observation": "2026-11-28"
   },
   "project": {
     "name": "2027 考研英语一自适应训练",
@@ -52,9 +52,9 @@
       "evidence_source": "data/result-evidence.json"
     },
     "available_article": {
-      "date": "2026-11-26",
-      "storageId": "2026-11-26-2020-text1",
-      "learning_date": "2026-11-26"
+      "date": "2026-11-28",
+      "storageId": "2026-11-28-2020-text3",
+      "learning_date": "2026-11-28"
     },
     "unverified_complete_rounds": [
       {
@@ -86,6 +86,109 @@
     "review_state_status": "verified"
   },
   "recent_paper": [
+    {
+      "date": "2026-11-28",
+      "exam": "2020-english1",
+      "part": "Text 3",
+      "items": [
+        {
+          "kind": "user_reported_wrong",
+          "family": "attribution-stance",
+          "question": 31,
+          "related_questions": [],
+          "updated_on": "2026-11-28",
+          "final_choice": "D",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "A",
+          "reference_status": "note_only",
+          "summary": "用户看到 more opportunities，联想到 greatly broaden career options。such 回指董事会席位机会；提案的目的不等于作者对普遍效果的…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-28",
+            "family": "attribution-stance",
+            "question": 31,
+            "note_fingerprint": "7ffc7bc7760d4789"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_wrong",
+          "family": "semantic-action-roles",
+          "question": 34,
+          "related_questions": [],
+          "updated_on": "2026-11-28",
+          "final_choice": "A",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "C",
+          "reference_status": "note_only",
+          "summary": "用户因看到 the same elite women 选 A。后段说少数人兼任席位，不是作用被低估；题干对应挪威例证前 That 回指的董事会经验不足。C 用 unqualifie…",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-28",
+            "family": "semantic-action-roles",
+            "question": 34,
+            "note_fingerprint": "e1efac55817cfca4"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        },
+        {
+          "kind": "user_reported_wrong",
+          "family": "title-coverage",
+          "question": 35,
+          "related_questions": [],
+          "updated_on": "2026-11-28",
+          "final_choice": "A",
+          "final_choice_status": "confirmed",
+          "first_considered": null,
+          "candidate_choices": [],
+          "eliminated_choices": [],
+          "reference_answer": "B",
+          "reference_status": "note_only",
+          "summary": "用户认为 A 符合全文大意。女性就业是相关话题，不是文章推论；合法性、必要性、人才供给和受益范围共同支持重视政策可行性。",
+          "followup": null,
+          "spans": [],
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-28",
+            "family": "title-coverage",
+            "question": 35,
+            "note_fingerprint": "a2263e16d0e9a1a7"
+          },
+          "training_priority": 2,
+          "choice_conflict": false
+        }
+      ],
+      "boxed_spans": [
+        "frown on",
+        "insincere",
+        "scoop up",
+        "the pool of qualified women",
+        "unconstitutional"
+      ],
+      "translation_note_count": 3,
+      "translation_source": {
+        "path": "data/learning-notes.json",
+        "date": "2026-11-28",
+        "family": "familiar-word-polysemy",
+        "question": null,
+        "note_fingerprint": "fdc1b8a1426bf911"
+      },
+      "article_session_files": [
+        "data/article-sessions/2026-11-28-2020-text3.json"
+      ]
+    },
     {
       "date": "2026-11-26",
       "exam": "2020-english1",
@@ -685,83 +788,6 @@
         "other_position_reasoning": "unknown",
         "recommended_priority": "high_for_opening_reference"
       }
-    },
-    {
-      "date": "2026-11-23",
-      "exam": "2019-english1",
-      "part": "Text 4",
-      "items": [
-        {
-          "kind": "user_reported_wrong",
-          "family": "restrict-enable-direction",
-          "question": 38,
-          "related_questions": [],
-          "updated_on": "2026-11-23",
-          "final_choice": "B",
-          "final_choice_status": "confirmed",
-          "first_considered": null,
-          "candidate_choices": [],
-          "eliminated_choices": [],
-          "reference_answer": "C",
-          "reference_status": "source_checked",
-          "summary": "自述文章没有彻底读懂。定位到追求长期繁荣和公平竞争的两部分，最终选B；没有把 limited 的限制方向带入判断。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-23",
-            "family": "restrict-enable-direction",
-            "question": 38,
-            "note_fingerprint": "df365b8c34adca50"
-          },
-          "training_priority": 1,
-          "choice_conflict": false
-        },
-        {
-          "kind": "user_reported_confusion",
-          "family": "whole-text-method-scope",
-          "question": 40,
-          "related_questions": [],
-          "updated_on": "2026-11-23",
-          "final_choice": null,
-          "final_choice_status": "unconfirmed",
-          "first_considered": null,
-          "candidate_choices": [
-            "C"
-          ],
-          "eliminated_choices": [],
-          "reference_answer": null,
-          "reference_status": "note_only",
-          "summary": "末段确有零售团体赞扬与小商家受到不利影响的表述，因此觉得C有理。A/D公开解析有分歧，教学倾向A；最终选择未确认。",
-          "followup": null,
-          "spans": [],
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-23",
-            "family": "whole-text-method-scope",
-            "question": 40,
-            "note_fingerprint": "829e048a57a52be7"
-          },
-          "training_priority": 2,
-          "choice_conflict": false
-        }
-      ],
-      "boxed_spans": [
-        "overruled"
-      ],
-      "translation_note_count": 3,
-      "translation_source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-23",
-        "family": "past-participle-modifier",
-        "question": null,
-        "note_fingerprint": "c5db3d8535b97e69"
-      },
-      "article_session_files": [],
-      "active_translation_spans": [
-        "even playing field",
-        "he wrote in an opinion joined by four othe…"
-      ]
     }
   ],
   "presentation_quality": [
@@ -872,6 +898,17 @@
     ],
     "recent": [
       {
+        "session_id": "2026-11-28-2020-text3",
+        "learning_date": "2026-11-28",
+        "updated_on": "2026-11-28",
+        "exam": "2020-english1",
+        "part": "Reading Text 3",
+        "status": "published",
+        "session_file": "data/article-sessions/2026-11-28-2020-text3.json",
+        "round_file": "data/article-reviews/2026-11-28-2020-text3.json",
+        "publication_date": "2026-11-28"
+      },
+      {
         "session_id": "2026-11-26-2020-text1",
         "learning_date": "2026-11-26",
         "updated_on": "2026-11-26",
@@ -947,21 +984,136 @@
         "session_file": null,
         "round_file": null,
         "publication_date": null
-      },
-      {
-        "session_id": "2026-11-20-2019-text1",
-        "learning_date": "2026-11-20",
-        "updated_on": "2026-11-20",
-        "exam": "2019-english1",
-        "part": "Reading Text 1",
-        "status": "published",
-        "session_file": "data/article-sessions/2026-11-20-2019-text1.json",
-        "round_file": "data/article-reviews/2026-11-20-2019-text1.json",
-        "publication_date": "2026-11-20"
       }
     ]
   },
   "priorities": [
+    {
+      "mechanism": "scope",
+      "label": "选项范围与额外限定",
+      "families": [
+        {
+          "family": "title-coverage",
+          "label": "从整篇主线概括复兴途径，而非选择背景细节作标题",
+          "focus": "用户认为 A 符合全文大意。女性就业是相关话题，不是文章推论；合法性、必要性、人才供给和受益范围共同支持重视政策可行性。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-28",
+          "web_errors": 2,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-26",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-28",
+            "family": "title-coverage",
+            "question": 35,
+            "note_fingerprint": "a2263e16d0e9a1a7"
+          }
+        },
+        {
+          "family": "scope-role-match",
+          "label": "辨认限制的类别和建议放开的范围",
+          "focus": "原文的引资和创造就业支持城镇经济实力增强；D 将文化活动写成集中分配有限资源的对象，并非提议预期的效果。用户没有具体报告本题选择理由。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-26",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-23",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-26",
+            "family": "scope-role-match",
+            "question": 21,
+            "note_fingerprint": "2ac419bbe53e4f2e"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "roles",
+      "label": "主语—动作—对象与政策条件",
+      "families": [
+        {
+          "family": "semantic-action-roles",
+          "label": "用可定位的证据核对原因和对象",
+          "focus": "用户因看到 the same elite women 选 A。后段说少数人兼任席位，不是作用被低估；题干对应挪威例证前 That 回指的董事会经验不足。C 用 unqualifie…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-28",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-28",
+            "family": "semantic-action-roles",
+            "question": 34,
+            "note_fingerprint": "e1efac55817cfca4"
+          }
+        },
+        {
+          "family": "transient-investor-roles",
+          "label": "辨别投入资金与核查信息的动作",
+          "focus": "用户确认把整组 transient investors 误读成“透明的调查”。",
+          "paper_kind": "user_reported_confusion",
+          "latest_observation": "2026-11-20",
+          "web_errors": 1,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-22",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-20",
+            "family": "transient-investor-roles",
+            "question": null,
+            "note_fingerprint": "31ae741552e94cb4"
+          }
+        }
+      ]
+    },
+    {
+      "mechanism": "stance",
+      "label": "作者态度、评价对象与转折",
+      "families": [
+        {
+          "family": "attribution-stance",
+          "label": "定位批评者观点，区分认可局部与认可方案",
+          "focus": "用户看到 more opportunities，联想到 greatly broaden career options。such 回指董事会席位机会；提案的目的不等于作者对普遍效果的…",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-28",
+          "web_errors": 0,
+          "web_streak": 0,
+          "slow_or_uncertain": true,
+          "due": "2026-11-19",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-28",
+            "family": "attribution-stance",
+            "question": 31,
+            "note_fingerprint": "7ffc7bc7760d4789"
+          }
+        },
+        {
+          "family": "author-stance",
+          "label": "区分认可一项做法与相信其所有承诺",
+          "focus": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
+          "paper_kind": "user_reported_wrong",
+          "latest_observation": "2026-11-22",
+          "web_errors": 2,
+          "web_streak": 0,
+          "slow_or_uncertain": false,
+          "due": "2026-11-24",
+          "source": {
+            "path": "data/learning-notes.json",
+            "date": "2026-11-22",
+            "family": "author-stance",
+            "question": 34,
+            "note_fingerprint": "228fb1e3a2c613d3"
+          }
+        }
+      ]
+    },
     {
       "mechanism": "language",
       "label": "修饰关系与熟词搭配",
@@ -1005,90 +1157,6 @@
       ]
     },
     {
-      "mechanism": "scope",
-      "label": "选项范围与额外限定",
-      "families": [
-        {
-          "family": "scope-role-match",
-          "label": "辨认限制的类别和建议放开的范围",
-          "focus": "原文的引资和创造就业支持城镇经济实力增强；D 将文化活动写成集中分配有限资源的对象，并非提议预期的效果。用户没有具体报告本题选择理由。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-26",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-23",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-26",
-            "family": "scope-role-match",
-            "question": 21,
-            "note_fingerprint": "2ac419bbe53e4f2e"
-          }
-        },
-        {
-          "family": "adverb-degree-scope",
-          "label": "partially 修饰动作程度而非宾语数量或频率",
-          "focus": "想到每天只能吃烤面包，选 regularly。又把 partially toast 当成只烤部分面包，因而排除 partially。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-25",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-27",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-25",
-            "family": "adverb-degree-scope",
-            "question": 8,
-            "note_fingerprint": "a3d7a41b18db8ef0"
-          }
-        }
-      ]
-    },
-    {
-      "mechanism": "stance",
-      "label": "作者态度、评价对象与转折",
-      "families": [
-        {
-          "family": "attribution-stance",
-          "label": "定位批评者观点，区分认可局部与认可方案",
-          "focus": "用户看到 self-celebration 曾考虑 B，最终选择 D。题干问一些批评者如何评价提议：他们质疑它可能是自我安慰、自我庆祝；不是断言目标无法实现。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-26",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-26",
-            "family": "attribution-stance",
-            "question": 22,
-            "note_fingerprint": "38a36d8ad69cc757"
-          }
-        },
-        {
-          "family": "author-stance",
-          "label": "区分认可一项做法与相信其所有承诺",
-          "focus": "初选A正确。看到 vague，记得是“含糊的”，于是改B。让步从句承认声明含糊，主句仍肯定它是个起点。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-22",
-          "web_errors": 2,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-24",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-22",
-            "family": "author-stance",
-            "question": 34,
-            "note_fingerprint": "228fb1e3a2c613d3"
-          }
-        }
-      ]
-    },
-    {
       "mechanism": "paragraph",
       "label": "Part B 标题匹配与篇章衔接",
       "families": [
@@ -1125,66 +1193,9 @@
           }
         }
       ]
-    },
-    {
-      "mechanism": "roles",
-      "label": "主语—动作—对象与政策条件",
-      "families": [
-        {
-          "family": "transient-investor-roles",
-          "label": "辨别投入资金与核查信息的动作",
-          "focus": "用户确认把整组 transient investors 误读成“透明的调查”。",
-          "paper_kind": "user_reported_confusion",
-          "latest_observation": "2026-11-20",
-          "web_errors": 1,
-          "web_streak": 0,
-          "slow_or_uncertain": false,
-          "due": "2026-11-22",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-20",
-            "family": "transient-investor-roles",
-            "question": null,
-            "note_fingerprint": "31ae741552e94cb4"
-          }
-        },
-        {
-          "family": "semantic-action-roles",
-          "label": "用可定位的证据核对原因和对象",
-          "focus": "初选B正确，最终改D错误；把“用分布式信任核实新闻”误换成“就分布式信任交换意见”，被关键词相似吸引。",
-          "paper_kind": "user_reported_wrong",
-          "latest_observation": "2026-11-15",
-          "web_errors": 0,
-          "web_streak": 0,
-          "slow_or_uncertain": true,
-          "due": "2026-11-19",
-          "source": {
-            "path": "data/learning-notes.json",
-            "date": "2026-11-15",
-            "family": "semantic-action-roles",
-            "question": 28,
-            "note_fingerprint": "dc0f8fa97f1d5256"
-          }
-        }
-      ]
     }
   ],
-  "pending": [
-    {
-      "exam": "2019-english1",
-      "part": "Text 4",
-      "question": 40,
-      "date": "2026-11-23",
-      "status": "最终选项未确认",
-      "source": {
-        "path": "data/learning-notes.json",
-        "date": "2026-11-23",
-        "family": "whole-text-method-scope",
-        "question": 40,
-        "note_fingerprint": "829e048a57a52be7"
-      }
-    }
-  ],
+  "pending": [],
   "warnings": [
     "2014-english1 缺 source-check；纸面参考答案仅沿用学习观察，待核对"
   ],
@@ -1234,7 +1245,8 @@
     "article-review-2026-11-19-2019-cloze.html": "7495d461f923e960ebe9a5d2bd34fb16a1b99548b3ae0ca7142d0e3551d3bcbd",
     "article-review-2026-11-20-2019-text1.html": "1b27c6fa97e9e2509619b9dbacbd93594d0874f148ba5393d363543e0cdcfb9c",
     "article-review-2026-11-26-2020-text1.html": "a847fa9ffdc3fa69cfe9a8c85129d241fe94bf340c911f1657e8e6061ce3ef5f",
-    "data/article-review.json": "3f650ad399c28cf3c7ac6c70a3795b912006dbcc47b9609fc9f0ebb9c8d319e9",
+    "article-review-2026-11-28-2020-text3.html": "5f637f69cdb805f11ff85eea992713916ad4b0112f2010ba41211fa094559e90",
+    "data/article-review.json": "9b92616669b16e66656e2716561537930e852770746505508ce82b8538a366b5",
     "data/article-reviews/2026-10-03-2011-text3.json": "716643347fc213a4314681797d7c3b9008f4375321382321777eb8c066a0b967",
     "data/article-reviews/2026-10-03-2011-text4-r2.json": "3de5d30488cb2718786b002280505978f56f59fd2a018e7feb1575974ad74ce7",
     "data/article-reviews/2026-10-03-2011-text4-r3.json": "23ecb4e109f267f2a6f75bde04ae0af318222fccf22a4461762a41939505d1c3",
@@ -1287,6 +1299,7 @@
     "data/article-reviews/2026-11-19-2019-cloze.json": "addc06d44bd64449de55276f2c371b393642dc2edf1282f2de5b7f54b1162076",
     "data/article-reviews/2026-11-20-2019-text1.json": "b489457306e3b41fc2d0eecad24e641983e6cab75dc1ff6b1c91ab1e2e9f833f",
     "data/article-reviews/2026-11-26-2020-text1.json": "3f650ad399c28cf3c7ac6c70a3795b912006dbcc47b9609fc9f0ebb9c8d319e9",
+    "data/article-reviews/2026-11-28-2020-text3.json": "9b92616669b16e66656e2716561537930e852770746505508ce82b8538a366b5",
     "data/article-sessions/2026-10-03-2011-text3.json": "9b4c9ea06667edddbe0a2227ad302d64f587ef36bc035511f2bcc244c0064a69",
     "data/article-sessions/2026-10-03-2011-text4.json": "6e3d31d85ef8a7eadc075febaa6683f0281969f624a330242ac0289c424f8f3e",
     "data/article-sessions/2026-10-04-2011-partb.json": "5ebe2397c15ee29785d183ac658f46d87fd28636af0710c6c57ba973d6ab59a9",
@@ -1334,6 +1347,7 @@
     "data/article-sessions/2026-11-19-2019-cloze.json": "a4c9ec07783aca6d2c3f8d44896918f8a5f7f029f5fc39106422a2c2f4924c0b",
     "data/article-sessions/2026-11-20-2019-text1.json": "85410e65ffc20bf663c81b8afb00f6ab874f3b9cba3def1fba3167a618a6ff17",
     "data/article-sessions/2026-11-26-2020-text1.json": "53ee470643a4c77b1da7ed5cb241963edb120f1dca95e6259b82ee1b9ab106be",
+    "data/article-sessions/2026-11-28-2020-text3.json": "ead2fb9646efb6d07d9cd251f9dbbaab7947e785588ccd06e90ed69f2bae238b",
     "data/base-bank.json": "d1ddc3bf598fae82c14b6396c239fa9bee9024aff719440ce3976b31058e9ad4",
     "data/daily.json": "4c06b00586ed261385b302e3ecac2e1a51b4f1f1edca840116187e95dd46ad94",
     "data/days/2026-09-29.json": "65e3c9afd08c52dae4df933c4bdc131e5f324a6f2117f557e872edad02d0995c",
@@ -1398,7 +1412,7 @@
     "data/days/2026-11-27.json": "18d69d468f62fa1ca288bc4e09440ca25c3098f498689e56c220d647c58e1faa",
     "data/days/2026-11-28.json": "4c06b00586ed261385b302e3ecac2e1a51b4f1f1edca840116187e95dd46ad94",
     "data/excluded-evidence.json": "e4729f077e8eee2b365ac44b99303176a31c4ce5375ed8167649b12d57b3df95",
-    "data/learning-notes.json": "dbe1ea7db69de523ecc638fe00522246e5443cd37665237d88c392e3ef8949d1",
+    "data/learning-notes.json": "3962d604995cdd51ff0f3c8998bdc9790aad6726acbb6c47173e0e207d342e54",
     "data/quality-exclusions.json": "787903e0b1a81f40a5fbb411d4baf81ff6513ff848cc175249f8678ed318ecce",
     "data/question-contexts.json": "b297d2e91d83c689c8496c158b518ab311664bc9d261866912be245012cab42a",
     "data/question-presentations.json": "81d1d97f627d6ae5bd2b73ba3035f69109064792cc70c2fa9f3c6714e58f9c3e",
@@ -1462,7 +1476,7 @@
     "data/questions/2026-11-26-text1-quality-replacement.json": "117f5a2f1396d44f9b883a16be6e20633728501cf5b732f62295b3dc5635dd45",
     "data/rejected-results.json": null,
     "data/result-evidence.json": "e7172c1891c39ad758837b8b3a7039f6f10b3875ab20926e5754748cbf090e3e",
-    "data/review-state.json": "760608e345050d4eb9f2cfdf57eaf51a61199ca0ffc8a782a9209cd9e395f003",
+    "data/review-state.json": "00d35718410b56ca4820446a27dbe7dee6233c73ef2b37a79b9446de0dd7f48f",
     "data/source-checks/2011-english1.json": "9246148328e7a5108586f92f39dbbfad1b22f39142810c7df546505a8d8e434d",
     "data/source-checks/2012-english1.json": "72448575ac72bccfb3de8969f4717fa4bf40563a0cb1a60d5c5455d46caebaf8",
     "data/source-checks/2013-english1.json": "4022e2dc58896cf0f20cc52c07475c04869ce547b24dbee5514a6adb3586fc50",
@@ -1471,9 +1485,9 @@
     "data/source-checks/2017-english1.json": "9b581e56fb287bcca9f11c4da0b169112ce297458c4faa143d1798004e4a683a",
     "data/source-checks/2018-english1.json": "8cdb25e3559bc66db098f1efd2d8e872dcf4c28803edd577410e487e36328bf1",
     "data/source-checks/2019-english1.json": "c25b7833b9882374aff929268d2ea3493c23109637c58f3df3394c02ed42c913",
-    "data/source-checks/2020-english1.json": "edeb6a134fb5a4930da9ce878d806fdba45503c4c57267db1ee274ce041e46e9"
+    "data/source-checks/2020-english1.json": "1ef2c96b6f99af7011fb62316d28a386004774e73a212aa22bd9663b29d64fc9"
   },
-  "source_fingerprint": "139a79758f5415f74d2ad2461ffe70caffa09965340f9ff7d021a9ea171beff5",
+  "source_fingerprint": "7bc7434388819d5e702de49c0e2765b99be45b6dd94575d6147c1835ba25ef8c",
   "scope": "Only synchronized repository evidence. Paper observations are not web attempts, errors or streak.",
   "handoff_is_not_scoring_evidence": true
 }

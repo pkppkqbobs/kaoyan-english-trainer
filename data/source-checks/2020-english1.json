@@ -86,5 +86,25 @@
         "reason": "原文区别短期知名度与持久社区收益，支持 D 强于 C；天津新东方明确列艺术知名度选项 C。未找到研招网本题答案。用户选择 B、曾考虑 D。"
       }
     }
+  },
+  "reading_text_3": {
+    "checked_on": "2026-11-28",
+    "scope": "第 31、34、35 题及用户确认词义困难；第 32、33 作答与本篇分数未知",
+    "sources": [
+      {
+        "title": "The Boston Globe 原评论",
+        "url": "https://www.bostonglobe.com/opinion/2019/08/05/corporate-gender-quotas-reinforce-privilege/WA4QjKBkb2aUxUdF59h0EO/story.html"
+      },
+      {
+        "title": "公开试卷文字与参考解析",
+        "url": "https://zj139.github.io/math-notes/english/4998b7c1fb5c1b5a77934651/"
+      }
+    ],
+    "answers": {
+      "31": "A",
+      "34": "C",
+      "35": "B"
+    },
+    "limits": "未核得官方答案。第34题 C 是最近概括，不能把原文经验不足等同于所有新董事不合格。54% 是相对增幅，不是百分点。法律与效果为原评论的论证，不是当前司法或因果结论。"
   }
 }

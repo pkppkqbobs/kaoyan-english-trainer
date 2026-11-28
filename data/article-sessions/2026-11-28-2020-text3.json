@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-28-2020-text3",
+  "date": "2026-11-28",
+  "learning_date": "2026-11-28",
+  "created_at": "2026-11-28T17:20:35+09:00",
+  "source": "2020 英语一 Reading Text 3 · 2026-11-28 纸质真题复盘",
+  "focus_families": [
+    "attribution-stance",
+    "semantic-action-roles",
+    "title-coverage"
+  ],
+  "focus_question_ids": {
+    "attribution-stance": [
+      "e1r-housing-permission"
+    ],
+    "semantic-action-roles": [
+      "r19t1-evidence-market-orders"
+    ],
+    "title-coverage": [
+      "e1r-empty-shops"
+    ]
+  },
+  "max_current": 3,
+  "balanced_options": true,
+  "question_format": "english1_reading",
+  "training_priorities": [
+    "区分提出者的预期与作者的评价",
+    "核对原文的动作及因果，不套用相邻信息",
+    "从实施条件归纳主旨，不只复述话题"
+  ],
+  "source_check": "data/source-checks/2020-english1.json",
+  "evidence_basis": "仅第31、34、35题的最终选择与理由、交接中确认的词汇困难；不推断第32–33题、分数或网页成绩。"
+}
